@@ -1,0 +1,7359 @@
+{
+  "target": "D:\\armadaIII",
+  "bajoran": [
+    {
+      "unit": "bjconst",
+      "meshes": [
+        {
+          "mesh": "BajoranHull",
+          "base": "xbajhull",
+          "assimilated": "xbajhull_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": true
+        }
+      ]
+    },
+    {
+      "unit": "bjfreight",
+      "meshes": [
+        {
+          "mesh": "BajoranHull",
+          "base": "xbajhull",
+          "assimilated": "xbajhull_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": true
+        }
+      ]
+    },
+    {
+      "unit": "bjscout",
+      "meshes": [
+        {
+          "mesh": "BajoranHull",
+          "base": "xbajhull",
+          "assimilated": "xbajhull_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": true
+        }
+      ]
+    },
+    {
+      "unit": "bjinterceptor",
+      "meshes": [
+        {
+          "mesh": "BajoranHull",
+          "base": "xbajhull",
+          "assimilated": "xbajhull_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": true
+        }
+      ]
+    },
+    {
+      "unit": "bjassault",
+      "meshes": [
+        {
+          "mesh": "BajoranHull",
+          "base": "xbajhull",
+          "assimilated": "xbajhull_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": true
+        }
+      ]
+    },
+    {
+      "unit": "bjtransport",
+      "meshes": [
+        {
+          "mesh": "BajoranHull",
+          "base": "xbajhull",
+          "assimilated": "xbajhull_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": true
+        }
+      ]
+    },
+    {
+      "unit": "bjnerys",
+      "meshes": [
+        {
+          "mesh": "BajoranHull",
+          "base": "xbajhull",
+          "assimilated": "xbajhull_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": true
+        }
+      ]
+    },
+    {
+      "unit": "bjbase",
+      "meshes": [
+        {
+          "mesh": "BajoranHull",
+          "base": "xbajhull",
+          "assimilated": "xbajhull_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": true
+        }
+      ]
+    },
+    {
+      "unit": "bjmining",
+      "meshes": [
+        {
+          "mesh": "BajoranHull",
+          "base": "xbajhull",
+          "assimilated": "xbajhull_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": true
+        }
+      ]
+    },
+    {
+      "unit": "bjyard",
+      "meshes": [
+        {
+          "mesh": "BajoranHull",
+          "base": "xbajhull",
+          "assimilated": "xbajhull_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": true
+        }
+      ]
+    },
+    {
+      "unit": "bjyard2",
+      "meshes": [
+        {
+          "mesh": "BajoranHull",
+          "base": "xbajhull",
+          "assimilated": "xbajhull_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": true
+        }
+      ]
+    },
+    {
+      "unit": "bjyard3",
+      "meshes": [
+        {
+          "mesh": "BajoranHull",
+          "base": "xbajhull",
+          "assimilated": "xbajhull_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": true
+        }
+      ]
+    },
+    {
+      "unit": "bjresear",
+      "meshes": [
+        {
+          "mesh": "BajoranHull",
+          "base": "xbajhull",
+          "assimilated": "xbajhull_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": true
+        }
+      ]
+    },
+    {
+      "unit": "bjturret",
+      "meshes": [
+        {
+          "mesh": "BajoranHull",
+          "base": "xbajhull",
+          "assimilated": "xbajhull_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": true
+        }
+      ]
+    }
+  ],
+  "restoredTextures": [],
+  "otherModels": [
+    {
+      "model": "714bee.SOD",
+      "parseError": "unpack requires a buffer of 61682 bytes"
+    },
+    {
+      "model": "714const.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "714hydra.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "714manta.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "714orca.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "714rnode.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "714skate.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "714syard.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "714tmat.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "714turr.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "8472be2.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "8472Bee.SOD",
+      "missing": [
+        {
+          "mesh": "arm09",
+          "base": "8472_behemoth",
+          "assimilated": "8472_behemoth_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arm08",
+          "base": "8472_behemoth",
+          "assimilated": "8472_behemoth_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arm07",
+          "base": "8472_behemoth",
+          "assimilated": "8472_behemoth_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arm06",
+          "base": "8472_behemoth",
+          "assimilated": "8472_behemoth_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arm05",
+          "base": "8472_behemoth",
+          "assimilated": "8472_behemoth_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arm04",
+          "base": "8472_behemoth",
+          "assimilated": "8472_behemoth_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arm03",
+          "base": "8472_behemoth",
+          "assimilated": "8472_behemoth_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arm02",
+          "base": "8472_behemoth",
+          "assimilated": "8472_behemoth_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arm01",
+          "base": "8472_behemoth",
+          "assimilated": "8472_behemoth_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Sentinel",
+          "base": "8472_behemoth",
+          "assimilated": "8472_behemoth_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472fig.SOD",
+      "parseError": "unpack requires a buffer of 32897 bytes"
+    },
+    {
+      "model": "8472int.SOD",
+      "parseError": "unpack requires a buffer of 32897 bytes"
+    },
+    {
+      "model": "8472_active.SOD",
+      "missing": [
+        {
+          "mesh": "Tail",
+          "base": "8472_active",
+          "assimilated": "8472_active_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Body03",
+          "base": "8472_active",
+          "assimilated": "8472_active_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Body02",
+          "base": "8472_active",
+          "assimilated": "8472_active_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Body01",
+          "base": "8472_active",
+          "assimilated": "8472_active_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Head",
+          "base": "8472_active",
+          "assimilated": "8472_active_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_AdvancedResearch.SOD",
+      "missing": [
+        {
+          "mesh": "arm04",
+          "base": "8472_advResearch2",
+          "assimilated": "8472_advResearch2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arm03",
+          "base": "8472_advResearch2",
+          "assimilated": "8472_advResearch2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arm02",
+          "base": "8472_advResearch2",
+          "assimilated": "8472_advResearch2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arm01",
+          "base": "8472_advResearch2",
+          "assimilated": "8472_advResearch2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "sphere",
+          "base": "8472_advResearch1",
+          "assimilated": "8472_advResearch1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "body",
+          "base": "8472_advResearch2",
+          "assimilated": "8472_advResearch2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_BasicResearch.SOD",
+      "missing": [
+        {
+          "mesh": "claw08",
+          "base": "8472_basicResearch",
+          "assimilated": "8472_basicResearch_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "claw07",
+          "base": "8472_basicResearch",
+          "assimilated": "8472_basicResearch_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "claw06",
+          "base": "8472_basicResearch",
+          "assimilated": "8472_basicResearch_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "claw05",
+          "base": "8472_basicResearch",
+          "assimilated": "8472_basicResearch_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "body02",
+          "base": "8472_basicResearch",
+          "assimilated": "8472_basicResearch_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "brain02",
+          "base": "8472_basicResearch",
+          "assimilated": "8472_basicResearch_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "claw04",
+          "base": "8472_basicResearch",
+          "assimilated": "8472_basicResearch_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "claw03",
+          "base": "8472_basicResearch",
+          "assimilated": "8472_basicResearch_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "claw02",
+          "base": "8472_basicResearch",
+          "assimilated": "8472_basicResearch_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "claw01",
+          "base": "8472_basicResearch",
+          "assimilated": "8472_basicResearch_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "body01",
+          "base": "8472_basicResearch",
+          "assimilated": "8472_basicResearch_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "brain01",
+          "base": "8472_basicResearch",
+          "assimilated": "8472_basicResearch_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_battle.SOD",
+      "missing": [
+        {
+          "mesh": "lod2",
+          "base": "8472_battle",
+          "assimilated": "8472_battle_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "lod1",
+          "base": "8472_battle",
+          "assimilated": "8472_battle_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_behemoth.SOD",
+      "missing": [
+        {
+          "mesh": "lod2",
+          "base": "8472_behemoth",
+          "assimilated": "8472_behemoth_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "lod1",
+          "base": "8472_behemoth",
+          "assimilated": "8472_behemoth_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_cocoon.SOD",
+      "missing": [
+        {
+          "mesh": "oblique",
+          "base": "8472cocoon",
+          "assimilated": "8472cocoon_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_collector.sod",
+      "missing": [
+        {
+          "mesh": "arm06",
+          "base": "8472_collector",
+          "assimilated": "8472_collector_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arm05",
+          "base": "8472_collector",
+          "assimilated": "8472_collector_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arm04",
+          "base": "8472_collector",
+          "assimilated": "8472_collector_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "body02",
+          "base": "8472_collector",
+          "assimilated": "8472_collector_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arm03",
+          "base": "8472_collector",
+          "assimilated": "8472_collector_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arm02",
+          "base": "8472_collector",
+          "assimilated": "8472_collector_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arm01",
+          "base": "8472_collector",
+          "assimilated": "8472_collector_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "body01",
+          "base": "8472_collector",
+          "assimilated": "8472_collector_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_cruise1.SOD",
+      "missing": [
+        {
+          "mesh": "lod2",
+          "base": "8472_cruiser1",
+          "assimilated": "8472_cruiser1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "lod1",
+          "base": "8472_cruiser1",
+          "assimilated": "8472_cruiser1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_cruise2.SOD",
+      "missing": [
+        {
+          "mesh": "lod2",
+          "base": "8472_cruiser2",
+          "assimilated": "8472_cruiser2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "lod1",
+          "base": "8472_cruiser2",
+          "assimilated": "8472_cruiser2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_defender.SOD",
+      "missing": [
+        {
+          "mesh": "lod2",
+          "base": "8472_defender",
+          "assimilated": "8472_defender_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "lod1",
+          "base": "8472_defender",
+          "assimilated": "8472_defender_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_destroy.SOD",
+      "missing": [
+        {
+          "mesh": "lod2",
+          "base": "8472_destroyer",
+          "assimilated": "8472_destroyer_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "lod1",
+          "base": "8472_destroyer",
+          "assimilated": "8472_destroyer_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_FluidicGate.SOD",
+      "missing": [
+        {
+          "mesh": "Object01",
+          "base": "8472_advResearch2",
+          "assimilated": "8472_advResearch2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Fluidic gate",
+          "base": "8472_advResearch2",
+          "assimilated": "8472_advResearch2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_frigate.SOD",
+      "missing": [
+        {
+          "mesh": "lod2",
+          "base": "8472_battle",
+          "assimilated": "8472_battle_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "lod1",
+          "base": "8472_battle",
+          "assimilated": "8472_battle_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_HeroMother.SOD",
+      "missing": [
+        {
+          "mesh": "lod2",
+          "base": "8472_heromother",
+          "assimilated": "8472_heromother_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "lod1",
+          "base": "8472_heromother",
+          "assimilated": "8472_heromother_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_Mine.SOD",
+      "parseError": "unpack requires a buffer of 26213 bytes"
+    },
+    {
+      "model": "8472_mother.SOD",
+      "missing": [
+        {
+          "mesh": "brain02",
+          "base": "8472_mother",
+          "assimilated": "8472_mother_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "body02",
+          "base": "8472_mother",
+          "assimilated": "8472_mother_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "brain01",
+          "base": "8472_mother",
+          "assimilated": "8472_mother_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "body01",
+          "base": "8472_mother",
+          "assimilated": "8472_mother_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_passive.SOD",
+      "missing": [
+        {
+          "mesh": "Pod05",
+          "base": "8472_passive2",
+          "assimilated": "8472_passive2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Pod04",
+          "base": "8472_passive2",
+          "assimilated": "8472_passive2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Pod02",
+          "base": "8472_passive2",
+          "assimilated": "8472_passive2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Pod01",
+          "base": "8472_passive2",
+          "assimilated": "8472_passive2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Pod03",
+          "base": "8472_passive2",
+          "assimilated": "8472_passive2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Body",
+          "base": "8472_passive1",
+          "assimilated": "8472_passive1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_PodAdvanced0.SOD",
+      "missing": [
+        {
+          "mesh": "AdvPo01",
+          "base": "8472_advResearch2",
+          "assimilated": "8472_advResearch2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_PodAdvanced1.SOD",
+      "missing": [
+        {
+          "mesh": "AdvPo01",
+          "base": "8472_advResearch2",
+          "assimilated": "8472_advResearch2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_PodAdvanced2.SOD",
+      "missing": [
+        {
+          "mesh": "AdvPo01",
+          "base": "8472_advResearch2",
+          "assimilated": "8472_advResearch2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_PodAdvanced3.SOD",
+      "missing": [
+        {
+          "mesh": "AdvPo01",
+          "base": "8472_advResearch2",
+          "assimilated": "8472_advResearch2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_PodBasic0.SOD",
+      "missing": [
+        {
+          "mesh": "basicpod01",
+          "base": "8472_passive2",
+          "assimilated": "8472_passive2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_PodBasic1.SOD",
+      "missing": [
+        {
+          "mesh": "basicpod01",
+          "base": "8472_passive2",
+          "assimilated": "8472_passive2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_PodBasic2.SOD",
+      "missing": [
+        {
+          "mesh": "basicpod01",
+          "base": "8472_passive2",
+          "assimilated": "8472_passive2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_PodBasic3.SOD",
+      "missing": [
+        {
+          "mesh": "basicpod01",
+          "base": "8472_passive2",
+          "assimilated": "8472_passive2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_PodBasic4.SOD",
+      "missing": [
+        {
+          "mesh": "basicpod01",
+          "base": "8472_passive2",
+          "assimilated": "8472_passive2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_PodShipResearch0.SOD",
+      "missing": [
+        {
+          "mesh": "Sphere01",
+          "base": "Wfeedback",
+          "assimilated": "Wfeedback_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_PodShipResearch1.SOD",
+      "missing": [
+        {
+          "mesh": "Sphere01",
+          "base": "Wfeedback",
+          "assimilated": "Wfeedback_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_PodShipResearch2.SOD",
+      "missing": [
+        {
+          "mesh": "Sphere01",
+          "base": "Wfeedback",
+          "assimilated": "Wfeedback_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_PodShipResearch21.SOD",
+      "missing": [
+        {
+          "mesh": "Sphere01",
+          "base": "Wfeedback",
+          "assimilated": "Wfeedback_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_PodShipResearch22.SOD",
+      "missing": [
+        {
+          "mesh": "Sphere01",
+          "base": "Wfeedback",
+          "assimilated": "Wfeedback_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_PodShipResearch23.SOD",
+      "missing": [
+        {
+          "mesh": "Sphere01",
+          "base": "Wfeedback",
+          "assimilated": "Wfeedback_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_PodShipResearch24.SOD",
+      "missing": [
+        {
+          "mesh": "Sphere01",
+          "base": "Wfeedback",
+          "assimilated": "Wfeedback_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_PodShipResearch3.SOD",
+      "missing": [
+        {
+          "mesh": "Sphere01",
+          "base": "Wfeedback",
+          "assimilated": "Wfeedback_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_PodShipResearch4.SOD",
+      "missing": [
+        {
+          "mesh": "Sphere01",
+          "base": "Wfeedback",
+          "assimilated": "Wfeedback_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_scout.SOD",
+      "missing": [
+        {
+          "mesh": "Object01",
+          "base": "",
+          "assimilated": "_B",
+          "baseAvailable": false,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "lod2",
+          "base": "8472_scout",
+          "assimilated": "8472_scout_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "lod1",
+          "base": "8472_scout",
+          "assimilated": "8472_scout_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_Sentinel.SOD",
+      "missing": [
+        {
+          "mesh": "Sentinel",
+          "base": "8472_defender",
+          "assimilated": "8472_defender_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_ShipUpgradeResearch.SOD",
+      "missing": [
+        {
+          "mesh": "Arms",
+          "base": "8472_mother",
+          "assimilated": "8472_mother_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Brain",
+          "base": "8472_advResearch1",
+          "assimilated": "8472_advResearch1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Body",
+          "base": "8472_advResearch2",
+          "assimilated": "8472_advResearch2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "8472_transmuter.sod",
+      "missing": [
+        {
+          "mesh": "lod2",
+          "base": "8472_transmuter",
+          "assimilated": "8472_transmuter_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "lod1",
+          "base": "8472_transmuter",
+          "assimilated": "8472_transmuter_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "arumaan.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "asterfield01.sod",
+      "missing": [
+        {
+          "mesh": "aster1",
+          "base": "asteroid01",
+          "assimilated": "asteroid01_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "asterfield02.sod",
+      "missing": [
+        {
+          "mesh": "aster1",
+          "base": "asteroid02",
+          "assimilated": "asteroid02_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "asterfield03.sod",
+      "missing": [
+        {
+          "mesh": "aster1",
+          "base": "asteroid03",
+          "assimilated": "asteroid03_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "asterfield04.sod",
+      "missing": [
+        {
+          "mesh": "m1",
+          "base": "asteroid01",
+          "assimilated": "asteroid01_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "asterfield05.sod",
+      "missing": [
+        {
+          "mesh": "m1",
+          "base": "asteroid02",
+          "assimilated": "asteroid02_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "asterfield06.sod",
+      "missing": [
+        {
+          "mesh": "m1",
+          "base": "asteroid03",
+          "assimilated": "asteroid03_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "asterfield07.sod",
+      "missing": [
+        {
+          "mesh": "m1",
+          "base": "asteroid01",
+          "assimilated": "asteroid01_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "asterfield08.sod",
+      "missing": [
+        {
+          "mesh": "m1",
+          "base": "asteroid02",
+          "assimilated": "asteroid02_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "asterfield09.sod",
+      "missing": [
+        {
+          "mesh": "m1",
+          "base": "asteroid03",
+          "assimilated": "asteroid03_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "banshee.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "bassault.SOD",
+      "missing": [
+        {
+          "mesh": "teamlod02",
+          "base": "bassault_L",
+          "assimilated": "bassault_L_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "H01",
+          "base": "bassault_H",
+          "assimilated": "bassault_H_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "L01",
+          "base": "bassault_L",
+          "assimilated": "bassault_L_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "teamlod1",
+          "base": "bassault_L",
+          "assimilated": "bassault_L_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "H",
+          "base": "bassault_H",
+          "assimilated": "bassault_H_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "L",
+          "base": "bassault_L",
+          "assimilated": "bassault_L_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "bassturr.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "Bbase.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "Bbase2.SOD",
+      "parseError": "unpack requires a buffer of 32303 bytes"
+    },
+    {
+      "model": "bbattle1.SOD",
+      "missing": [
+        {
+          "mesh": "cubeteam01",
+          "base": "bbattle",
+          "assimilated": "bbattle_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "bcubeLOD2",
+          "base": "bbattle",
+          "assimilated": "bbattle_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "cubeteam",
+          "base": "bbattle",
+          "assimilated": "bbattle_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "bcube_mod",
+          "base": "bbattle",
+          "assimilated": "bbattle_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "bbattle2.SOD",
+      "missing": [
+        {
+          "mesh": "FaceXLOD2",
+          "base": "btacticalc",
+          "assimilated": "btacticalc_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "faceyLOD2",
+          "base": "btacticalb",
+          "assimilated": "btacticalb_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "teampieces01",
+          "base": "btactical",
+          "assimilated": "btactical_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "btactcube_mod01",
+          "base": "btactical",
+          "assimilated": "btactical_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "teampieces",
+          "base": "btactical",
+          "assimilated": "btactical_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "facex",
+          "base": "btacticalb",
+          "assimilated": "btacticalb_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "facey",
+          "base": "btacticalc",
+          "assimilated": "btacticalc_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "btactcube_mod",
+          "base": "btactical",
+          "assimilated": "btactical_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "bbattle3.SOD",
+      "missing": [
+        {
+          "mesh": "cubeteam02",
+          "base": "bbattle",
+          "assimilated": "bbattle_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "planesz01",
+          "base": "bmamapl",
+          "assimilated": "bmamapl_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "planesy01",
+          "base": "bmamapl",
+          "assimilated": "bmamapl_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "planesx01",
+          "base": "bmamapl",
+          "assimilated": "bmamapl_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "bcube01",
+          "base": "bbattle",
+          "assimilated": "bbattle_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "cubeteam",
+          "base": "bbattle",
+          "assimilated": "bbattle_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "planes",
+          "base": "bmamapl",
+          "assimilated": "bmamapl_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "bcube",
+          "base": "bbattle",
+          "assimilated": "bbattle_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "bbattle4.SOD",
+      "missing": [
+        {
+          "mesh": "1c01",
+          "base": "btacticalb",
+          "assimilated": "btacticalb_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "1b01",
+          "base": "btacticalc",
+          "assimilated": "btacticalc_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "1a01",
+          "base": "btactical",
+          "assimilated": "btactical_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "team01",
+          "base": "btactical",
+          "assimilated": "btactical_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "planesLOD2",
+          "base": "bplanes",
+          "assimilated": "bplanes_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "team",
+          "base": "btactical",
+          "assimilated": "btactical_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "1c",
+          "base": "btacticalb",
+          "assimilated": "btacticalb_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "1b",
+          "base": "btacticalc",
+          "assimilated": "btacticalc_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "1a",
+          "base": "btactical",
+          "assimilated": "btactical_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "planesLOD1",
+          "base": "bplanes",
+          "assimilated": "bplanes_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Bbee.SOD",
+      "missing": [
+        {
+          "mesh": "inside",
+          "base": "bassmatp",
+          "assimilated": "bassmatp_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "BEEMOD",
+          "base": "bpanel",
+          "assimilated": "bpanel_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "bcolony.SOD",
+      "missing": [
+        {
+          "mesh": "teampieces01",
+          "base": "bcolony",
+          "assimilated": "bcolony_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "BColonyLOD02",
+          "base": "bcolony",
+          "assimilated": "bcolony_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "teampieces",
+          "base": "bcolony",
+          "assimilated": "bcolony_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "BColonyLOD1",
+          "base": "bcolony",
+          "assimilated": "bcolony_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Bconst.SOD",
+      "missing": [
+        {
+          "mesh": "teamlod2",
+          "base": "bpanel",
+          "assimilated": "bpanel_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "beams01",
+          "base": "bpanel",
+          "assimilated": "bpanel_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "trusshoriz01",
+          "base": "badvassy",
+          "assimilated": "badvassy_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "toppanel04",
+          "base": "bassmatp",
+          "assimilated": "bassmatp_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "sidepanel12",
+          "base": "bassmatb",
+          "assimilated": "bassmatb_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "sidepanel11",
+          "base": "bassmatb",
+          "assimilated": "bassmatb_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "toppanel03",
+          "base": "bassmatp",
+          "assimilated": "bassmatp_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "sidepanel10",
+          "base": "bassmatb",
+          "assimilated": "bassmatb_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "sidepanel09",
+          "base": "bassmatb",
+          "assimilated": "bassmatb_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "sidepanel08",
+          "base": "bassmatb",
+          "assimilated": "bassmatb_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "trussvert01",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "sidepanel07",
+          "base": "bassmatb",
+          "assimilated": "bassmatb_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "baseplate01",
+          "base": "bpanel",
+          "assimilated": "bpanel_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "toppanel2",
+          "base": "bassmatp",
+          "assimilated": "bassmatp_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "toppanel1",
+          "base": "bassmatp",
+          "assimilated": "bassmatp_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "sidepanel1",
+          "base": "bassmatb",
+          "assimilated": "bassmatb_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "sidepanel2",
+          "base": "bassmatb",
+          "assimilated": "bassmatb_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "sidepanel3",
+          "base": "bassmatb",
+          "assimilated": "bassmatb_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "sidepanel4",
+          "base": "bassmatb",
+          "assimilated": "bassmatb_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "sidepanel5",
+          "base": "bassmatb",
+          "assimilated": "bassmatb_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "sidepanel6",
+          "base": "bassmatb",
+          "assimilated": "bassmatb_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "trusshoriz",
+          "base": "badvassy",
+          "assimilated": "badvassy_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "trussvert",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "teamlod1",
+          "base": "bpanel",
+          "assimilated": "bpanel_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "beams",
+          "base": "bpanel",
+          "assimilated": "bpanel_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "baseplate",
+          "base": "bpanel",
+          "assimilated": "bpanel_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "bconst2.SOD",
+      "parseError": "unpack requires a buffer of 31996 bytes"
+    },
+    {
+      "model": "Bcruise1.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "Bcruise2.SOD",
+      "parseError": "unpack requires a buffer of 62196 bytes"
+    },
+    {
+      "model": "Bcruise3.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "Bdestroy.SOD",
+      "missing": [
+        {
+          "mesh": "team",
+          "base": "bintercptr",
+          "assimilated": "bintercptr_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "bintercptr_mod",
+          "base": "bintercptr",
+          "assimilated": "bintercptr_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "bdestroy2.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "Bfreight.SOD",
+      "missing": [
+        {
+          "mesh": "teambox01",
+          "base": "badvassy",
+          "assimilated": "badvassy_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "BEAMS01",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "FREIGHT01",
+          "base": "bpanel",
+          "assimilated": "bpanel_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "SHEAR01",
+          "base": "badvassy",
+          "assimilated": "badvassy_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "EYE01",
+          "base": "bpanel",
+          "assimilated": "bpanel_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "MAIN01",
+          "base": "btechass",
+          "assimilated": "btechass_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "teambox",
+          "base": "badvassy",
+          "assimilated": "badvassy_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "EYE",
+          "base": "bpanel",
+          "assimilated": "bpanel_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "SHEAR",
+          "base": "badvassy",
+          "assimilated": "badvassy_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "FREIGHT",
+          "base": "bpanel",
+          "assimilated": "bpanel_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "BEAMS",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "MAIN",
+          "base": "btechass",
+          "assimilated": "btechass_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "bfrigate.SOD",
+      "missing": [
+        {
+          "mesh": "Mesh08",
+          "base": "bfrigate",
+          "assimilated": "bfrigate_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mesh07",
+          "base": "bfrigate",
+          "assimilated": "bfrigate_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mesh06",
+          "base": "bfrigate",
+          "assimilated": "bfrigate_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mesh05",
+          "base": "bfrigate",
+          "assimilated": "bfrigate_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "teamlod02",
+          "base": "bfrigate",
+          "assimilated": "bfrigate_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "bfrigate_lod02",
+          "base": "bfrigate",
+          "assimilated": "bfrigate_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "teamlod1",
+          "base": "bfrigate",
+          "assimilated": "bfrigate_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mesh04",
+          "base": "bfrigate",
+          "assimilated": "bfrigate_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mesh03",
+          "base": "bfrigate",
+          "assimilated": "bfrigate_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mesh02",
+          "base": "bfrigate",
+          "assimilated": "bfrigate_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mesh01",
+          "base": "bfrigate",
+          "assimilated": "bfrigate_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "bfrigate_lod1",
+          "base": "bfrigate",
+          "assimilated": "bfrigate_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "bhentra.SOD",
+      "parseError": "unpack requires a buffer of 38551 bytes"
+    },
+    {
+      "model": "bhentrag.SOD",
+      "parseError": "unpack requires a buffer of 38551 bytes"
+    },
+    {
+      "model": "bhub.SOD",
+      "missing": [
+        {
+          "mesh": "flame",
+          "base": "wbplanes",
+          "assimilated": "wbplanes_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "innards",
+          "base": "wbplanes",
+          "assimilated": "wbplanes_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "box2",
+          "base": "bbattle",
+          "assimilated": "bbattle_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "box1",
+          "base": "bbattle",
+          "assimilated": "bbattle_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "bmama.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "Bmining.SOD",
+      "missing": [
+        {
+          "mesh": "teamboxlod02",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "storbinf01",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "storbine01",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "storbind01",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "storbinc01",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "storbinb01",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "storbina01",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "storpanb01",
+          "base": "badvassz",
+          "assimilated": "badvassz_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "storpana01",
+          "base": "badvassz",
+          "assimilated": "badvassz_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "MEGAPLANE01",
+          "base": "brecy",
+          "assimilated": "brecy_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "HORIZ01",
+          "base": "badvassy",
+          "assimilated": "badvassy_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "FRAME01",
+          "base": "bpanel",
+          "assimilated": "bpanel_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "teamboxlod1",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "storbine",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "storbina",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "storpanb",
+          "base": "badvassz",
+          "assimilated": "badvassz_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "storbinf",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "storbind",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "storbinc",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "storbinb",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "storpana",
+          "base": "badvassz",
+          "assimilated": "badvassz_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "MEGAPLANE",
+          "base": "brecy",
+          "assimilated": "brecy_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "HORIZ",
+          "base": "badvassy",
+          "assimilated": "badvassy_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "FRAME",
+          "base": "bpanel",
+          "assimilated": "bpanel_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "bomega1.SOD",
+      "parseError": "unpack requires a buffer of 49346 bytes"
+    },
+    {
+      "model": "borbital.SOD",
+      "parseError": "'ascii' codec can't decode byte 0xce in position 2: ordinal not in range(128)"
+    },
+    {
+      "model": "borg_portal_effect.sod",
+      "missing": [
+        {
+          "mesh": "3",
+          "base": "Bportaleffect",
+          "assimilated": "Bportaleffect_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "2",
+          "base": "Bportaleffect",
+          "assimilated": "Bportaleffect_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "1",
+          "base": "Bportaleffect",
+          "assimilated": "Bportaleffect_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Borpod1.SOD",
+      "parseError": "'ascii' codec can't decode byte 0xfa in position 7: ordinal not in range(128)"
+    },
+    {
+      "model": "Borpod10.SOD",
+      "missing": [
+        {
+          "mesh": "Box04",
+          "base": "bassmatp",
+          "assimilated": "bassmatp_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "borpod11.SOD",
+      "missing": [
+        {
+          "mesh": "Box04",
+          "base": "bassmatp",
+          "assimilated": "bassmatp_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "borpod12.SOD",
+      "missing": [
+        {
+          "mesh": "Box04",
+          "base": "bassmatp",
+          "assimilated": "bassmatp_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "borpod13.SOD",
+      "missing": [
+        {
+          "mesh": "Box04",
+          "base": "bassmatp",
+          "assimilated": "bassmatp_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "borpod14.SOD",
+      "missing": [
+        {
+          "mesh": "Box04",
+          "base": "bassmatp",
+          "assimilated": "bassmatp_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "borpod15.SOD",
+      "missing": [
+        {
+          "mesh": "Box04",
+          "base": "bassmatp",
+          "assimilated": "bassmatp_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Borpod16.SOD",
+      "missing": [
+        {
+          "mesh": "glow",
+          "base": "Wfeedback",
+          "assimilated": "Wfeedback_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "glow2",
+          "base": "Wfeedback",
+          "assimilated": "Wfeedback_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "additive",
+          "base": "Wfeedback",
+          "assimilated": "Wfeedback_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "rod3",
+          "base": "Wfeedback",
+          "assimilated": "Wfeedback_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "rod1",
+          "base": "borgUI3",
+          "assimilated": "borgUI3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "rod2",
+          "base": "Wfeedback",
+          "assimilated": "Wfeedback_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "egg",
+          "base": "bbuildng",
+          "assimilated": "bbuildng_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Borpod2.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x94 in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "borpod21.SOD",
+      "missing": [
+        {
+          "mesh": "Box04",
+          "base": "bassmatp",
+          "assimilated": "bassmatp_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "borpod22.SOD",
+      "missing": [
+        {
+          "mesh": "Box04",
+          "base": "bassmatp",
+          "assimilated": "bassmatp_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "borpod23.SOD",
+      "missing": [
+        {
+          "mesh": "Box04",
+          "base": "bassmatp",
+          "assimilated": "bassmatp_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "borpod24.SOD",
+      "missing": [
+        {
+          "mesh": "Box04",
+          "base": "bassmatp",
+          "assimilated": "bassmatp_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "borpod25.SOD",
+      "missing": [
+        {
+          "mesh": "Box04",
+          "base": "bassmatp",
+          "assimilated": "bassmatp_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Borpod3.SOD",
+      "missing": [
+        {
+          "mesh": "Sphere02",
+          "base": "Wfeedback",
+          "assimilated": "Wfeedback_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Sphere01",
+          "base": "bbuildng",
+          "assimilated": "bbuildng_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Borpod4.SOD",
+      "parseError": "unpack requires a buffer of 13119 bytes"
+    },
+    {
+      "model": "Borpod5.SOD",
+      "parseError": "unpack requires a buffer of 53972 bytes"
+    },
+    {
+      "model": "Borpod6.SOD",
+      "missing": [
+        {
+          "mesh": "sphere1",
+          "base": "Wshldrmd",
+          "assimilated": "Wshldrmd_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Borpod6_re",
+          "base": "Bbuildng",
+          "assimilated": "Bbuildng_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Borpod7.SOD",
+      "parseError": "unpack requires a buffer of 13119 bytes"
+    },
+    {
+      "model": "Borpod8.SOD",
+      "parseError": "unpack requires a buffer of 53972 bytes"
+    },
+    {
+      "model": "Borpod9.SOD",
+      "missing": [
+        {
+          "mesh": "grid03",
+          "base": "wbplanes",
+          "assimilated": "wbplanes_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Borpod9_ul",
+          "base": "Bbuildng",
+          "assimilated": "Bbuildng_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "bpentra.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "bportal.SOD",
+      "missing": [
+        {
+          "mesh": "TopGear01",
+          "base": "bportal",
+          "assimilated": "bportal_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "BottomGear01",
+          "base": "bportal",
+          "assimilated": "bportal_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "battery01",
+          "base": "bportal",
+          "assimilated": "bportal_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Frame01",
+          "base": "bportal",
+          "assimilated": "bportal_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "battery",
+          "base": "bportal",
+          "assimilated": "bportal_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "TopGear",
+          "base": "bportal",
+          "assimilated": "bportal_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "BottomGear",
+          "base": "bportal",
+          "assimilated": "bportal_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Frame",
+          "base": "bportal",
+          "assimilated": "bportal_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Bqueen.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "brbase.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "brbattle.sod",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 14: ordinal not in range(128)"
+    },
+    {
+      "model": "brbattle2.sod",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 14: ordinal not in range(128)"
+    },
+    {
+      "model": "brcolony.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "brconst.sod",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 14: ordinal not in range(128)"
+    },
+    {
+      "model": "brcruise1.sod",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 14: ordinal not in range(128)"
+    },
+    {
+      "model": "brdestroy.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "brecycle.SOD",
+      "missing": [
+        {
+          "mesh": "z_arms",
+          "base": "brecz",
+          "assimilated": "brecz_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "z_fins",
+          "base": "brecz",
+          "assimilated": "brecz_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "x_slab2",
+          "base": "brecx",
+          "assimilated": "brecx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "teambox",
+          "base": "brecx",
+          "assimilated": "brecx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "y_slab1",
+          "base": "brecy",
+          "assimilated": "brecy_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "brenborg.SOD",
+      "parseError": "unpack requires a buffer of 62196 bytes"
+    },
+    {
+      "model": "Bresear.SOD",
+      "missing": [
+        {
+          "mesh": "teamlod2",
+          "base": "bhuba",
+          "assimilated": "bhuba_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "animobj01",
+          "base": "bhubb",
+          "assimilated": "bhubb_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arms01",
+          "base": "btechass",
+          "assimilated": "btechass_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "modctrz01",
+          "base": "bhubb",
+          "assimilated": "bhubb_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "modctr01",
+          "base": "bhuba",
+          "assimilated": "bhuba_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "teamlod1",
+          "base": "bhuba",
+          "assimilated": "bhuba_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "animobj",
+          "base": "bhubb",
+          "assimilated": "bhubb_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arms",
+          "base": "btechass",
+          "assimilated": "btechass_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "modctrz",
+          "base": "bhubb",
+          "assimilated": "bhubb_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "modctr",
+          "base": "bhuba",
+          "assimilated": "bhuba_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Bresear2.SOD",
+      "missing": [
+        {
+          "mesh": "nodeb01",
+          "base": "badvassz",
+          "assimilated": "badvassz_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "teamlod2",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "fins01",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "console01",
+          "base": "bassmatb",
+          "assimilated": "bassmatb_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "BResear2LOD2",
+          "base": "badvassy",
+          "assimilated": "badvassy_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "radiators",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "modea",
+          "base": "badvassy",
+          "assimilated": "badvassy_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "teamslod1",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "fins",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "nodeb",
+          "base": "badvassz",
+          "assimilated": "badvassz_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "console",
+          "base": "bassmatb",
+          "assimilated": "bassmatb_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "brfreight.sod",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 14: ordinal not in range(128)"
+    },
+    {
+      "model": "brfrigate.sod",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 14: ordinal not in range(128)"
+    },
+    {
+      "model": "brmining.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "brorbital.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "brresear.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "brresear2.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "brscout.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "bryard.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "bryard2.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "Bscout.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "Bsensor.SOD",
+      "missing": [
+        {
+          "mesh": "BANG01",
+          "base": "bmamapl",
+          "assimilated": "bmamapl_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "ring05",
+          "base": "badvassy",
+          "assimilated": "badvassy_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "ring04",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "ringmaster01",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "BANG",
+          "base": "bmamapl",
+          "assimilated": "bmamapl_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "ring3",
+          "base": "badvassy",
+          "assimilated": "badvassy_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "ring2",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "ringmaster",
+          "base": "badvassx",
+          "assimilated": "badvassx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Bspecial.SOD",
+      "missing": [
+        {
+          "mesh": "bglow01",
+          "base": "Bglow1",
+          "assimilated": "Bglow1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Bspecial01",
+          "base": "Bspecial",
+          "assimilated": "Bspecial_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "bglow",
+          "base": "Bglow1",
+          "assimilated": "Bglow1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Bspecial",
+          "base": "Bspecial",
+          "assimilated": "Bspecial_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Bsphere.SOD",
+      "parseError": "unpack requires a buffer of 38551 bytes"
+    },
+    {
+      "model": "Bsuperbl.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "btacpyr.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "btechass.SOD",
+      "missing": [
+        {
+          "mesh": "teamlod1",
+          "base": "btechass",
+          "assimilated": "btechass_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "newtechass",
+          "base": "btechass",
+          "assimilated": "btechass_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Bturret.SOD",
+      "missing": [
+        {
+          "mesh": "muzzle01",
+          "base": "brecx",
+          "assimilated": "brecx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "pylon02",
+          "base": "brecx",
+          "assimilated": "brecx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "muzzle",
+          "base": "brecx",
+          "assimilated": "brecx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "pylon1",
+          "base": "brecx",
+          "assimilated": "brecx_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Bturret2.SOD",
+      "missing": [
+        {
+          "mesh": "SLAB03",
+          "base": "brecy",
+          "assimilated": "brecy_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "SLAB02",
+          "base": "brecy",
+          "assimilated": "brecy_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "PIN01",
+          "base": "brecy",
+          "assimilated": "brecy_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "BANG01",
+          "base": "bmamapl",
+          "assimilated": "bmamapl_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "BOO01",
+          "base": "bpanel",
+          "assimilated": "bpanel_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "SLAB01",
+          "base": "brecy",
+          "assimilated": "brecy_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "BANG",
+          "base": "bmamapl",
+          "assimilated": "bmamapl_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "PIN",
+          "base": "brecy",
+          "assimilated": "brecy_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "SLAB",
+          "base": "brecy",
+          "assimilated": "brecy_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "BOO",
+          "base": "bpanel",
+          "assimilated": "bpanel_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "bupgrade.SOD",
+      "missing": [
+        {
+          "mesh": "teamlod2",
+          "base": "BSUFBottom",
+          "assimilated": "BSUFBottom_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "1top01",
+          "base": "BSUFTop",
+          "assimilated": "BSUFTop_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "panel01",
+          "base": "BSUFBottom",
+          "assimilated": "BSUFBottom_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arms01",
+          "base": "BSUFBottom",
+          "assimilated": "BSUFBottom_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "2botom01",
+          "base": "BSUFBottom",
+          "assimilated": "BSUFBottom_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "teamlod1",
+          "base": "BSUFBottom",
+          "assimilated": "BSUFBottom_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "1top",
+          "base": "BSUFTop",
+          "assimilated": "BSUFTop_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "panel",
+          "base": "BSUFBottom",
+          "assimilated": "BSUFBottom_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arms",
+          "base": "BSUFBottom",
+          "assimilated": "BSUFBottom_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "2botom",
+          "base": "BSUFBottom",
+          "assimilated": "BSUFBottom_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Byard.SOD",
+      "parseError": "unpack requires a buffer of 63481 bytes"
+    },
+    {
+      "model": "Byard2.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "byard3.SOD",
+      "parseError": "unpack requires a buffer of 38551 bytes"
+    },
+    {
+      "model": "carpod1.SOD",
+      "missing": [
+        {
+          "mesh": "stream01",
+          "base": "Wengyemt",
+          "assimilated": "Wengyemt_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "stream",
+          "base": "Wengyemt",
+          "assimilated": "Wengyemt_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "carpod11.SOD",
+      "missing": [
+        {
+          "mesh": "Object02",
+          "base": "carpod10",
+          "assimilated": "carpod10_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "carpod12.SOD",
+      "missing": [
+        {
+          "mesh": "Object02",
+          "base": "carpod10",
+          "assimilated": "carpod10_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "carpod13.SOD",
+      "missing": [
+        {
+          "mesh": "Object02",
+          "base": "carpod10",
+          "assimilated": "carpod10_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "carpod14.SOD",
+      "missing": [
+        {
+          "mesh": "Object02",
+          "base": "carpod10",
+          "assimilated": "carpod10_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "carpod15.SOD",
+      "missing": [
+        {
+          "mesh": "Object02",
+          "base": "carpod10",
+          "assimilated": "carpod10_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "carpod16.SOD",
+      "missing": [
+        {
+          "mesh": "sphereey",
+          "base": "Wultrinm",
+          "assimilated": "Wultrinm_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "carpod2.SOD",
+      "missing": [
+        {
+          "mesh": "STUFF",
+          "base": "WSensorScramCar",
+          "assimilated": "WSensorScramCar_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "carpod3.SOD",
+      "missing": [
+        {
+          "mesh": "Cone01",
+          "base": "wnebulaFlux",
+          "assimilated": "wnebulaFlux_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "carpod4.SOD",
+      "missing": [
+        {
+          "mesh": "spasm",
+          "base": "Wphartwv",
+          "assimilated": "Wphartwv_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "carpod5.SOD",
+      "missing": [
+        {
+          "mesh": "WUBBALOO",
+          "base": "Wsenjam",
+          "assimilated": "Wsenjam_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "carpod6.SOD",
+      "missing": [
+        {
+          "mesh": "Plane01",
+          "base": "XManheim",
+          "assimilated": "XManheim_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "carpod7.SOD",
+      "missing": [
+        {
+          "mesh": "Plane01b",
+          "base": "wpsidisruptbm",
+          "assimilated": "wpsidisruptbm_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "carpod8.SOD",
+      "missing": [
+        {
+          "mesh": "Plane01b",
+          "base": "wrepairbeam",
+          "assimilated": "wrepairbeam_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "carpod9.SOD",
+      "missing": [
+        {
+          "mesh": "Plane01b",
+          "base": "Wuitritium",
+          "assimilated": "Wuitritium_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "cbase.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "cbee.SOD",
+      "parseError": "unpack requires a buffer of 25964 bytes"
+    },
+    {
+      "model": "CcolonyPod.SOD",
+      "parseError": "unpack requires a buffer of 28528 bytes"
+    },
+    {
+      "model": "chutet.SOD",
+      "parseError": "unpack requires a buffer of 43691 bytes"
+    },
+    {
+      "model": "ckentar.SOD",
+      "parseError": "unpack requires a buffer of 35467 bytes"
+    },
+    {
+      "model": "ckimal.SOD",
+      "parseError": "unpack requires a buffer of 48060 bytes"
+    },
+    {
+      "model": "cobyard.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x91 in position 2: ordinal not in range(128)"
+    },
+    {
+      "model": "cogalor.SOD",
+      "parseError": "type object 'NodeType' has no attribute 'CONSTANT'"
+    },
+    {
+      "model": "cohideki.SOD",
+      "parseError": "unpack requires a buffer of 51402 bytes"
+    },
+    {
+      "model": "cokaldor.SOD",
+      "parseError": "unpack requires a buffer of 46261 bytes"
+    },
+    {
+      "model": "cokeldon.SOD",
+      "parseError": "type object 'NodeType' has no attribute 'CONSTANT'"
+    },
+    {
+      "model": "comet.sod",
+      "parseError": "'ascii' codec can't decode byte 0x87 in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "comet2.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x87 in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "cquantum.SOD",
+      "missing": [
+        {
+          "mesh": "Lightning",
+          "base": "Wpsyblst",
+          "assimilated": "Wpsyblst_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "cstation.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "ctelkor.SOD",
+      "parseError": "unpack requires a buffer of 64252 bytes"
+    },
+    {
+      "model": "cturret.SOD",
+      "parseError": "unpack requires a buffer of 44205 bytes"
+    },
+    {
+      "model": "cturret2.SOD",
+      "parseError": "unpack requires a buffer of 61682 bytes"
+    },
+    {
+      "model": "cyard.SOD",
+      "parseError": "unpack requires a buffer of 38294 bytes"
+    },
+    {
+      "model": "cyard2.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 14: ordinal not in range(128)"
+    },
+    {
+      "model": "dassault.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "dbase.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "dbattle.SOD",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "dbattle2.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "dcargo.SOD",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "dcolony.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "dconst.SOD",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "dcruise1.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "dcruise2.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "dcruise3.sod",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 14: ordinal not in range(128)"
+    },
+    {
+      "model": "ddestroy.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 14: ordinal not in range(128)"
+    },
+    {
+      "model": "Default.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "dfreight.SOD",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "dfrigate.SOD",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "dlight.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "dmining.sod",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 14: ordinal not in range(128)"
+    },
+    {
+      "model": "domabase.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "dombase.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "dombat.SOD",
+      "parseError": "unpack requires a buffer of 53458 bytes"
+    },
+    {
+      "model": "domconst.sod",
+      "parseError": "'ascii' codec can't decode byte 0x9d in position 2: ordinal not in range(128)"
+    },
+    {
+      "model": "domdred.SOD",
+      "parseError": "unpack requires a buffer of 38294 bytes"
+    },
+    {
+      "model": "domscout.sod",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "Domworm.SOD",
+      "parseError": "type object 'NodeType' has no attribute 'CONSTANT'"
+    },
+    {
+      "model": "domyard.SOD",
+      "parseError": "type object 'NodeType' has no attribute 'CONSTANT'"
+    },
+    {
+      "model": "dorbital.SOD",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "dresear.sod",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 14: ordinal not in range(128)"
+    },
+    {
+      "model": "dresear2.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "drones.SOD",
+      "missing": [
+        {
+          "mesh": "drones",
+          "base": "drones",
+          "assimilated": "drones_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "dscout.SOD",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "dsensor.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "dspecial.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "dsrepair.sod",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "dsuper.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 4: ordinal not in range(128)"
+    },
+    {
+      "model": "dsuperbl.SOD",
+      "parseError": "type object 'NodeType' has no attribute 'CONSTANT'"
+    },
+    {
+      "model": "dtrading.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 31: ordinal not in range(128)"
+    },
+    {
+      "model": "dturret.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "dturret2.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "dummy.sod",
+      "parseError": "unpack requires a buffer of 39579 bytes"
+    },
+    {
+      "model": "dupgrade.sod",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "dweyoun.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 14: ordinal not in range(128)"
+    },
+    {
+      "model": "dwormdbattle.SOD",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "dwormdbattle2.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "dwormddestroy2.SOD",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "dwormdsuper.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 4: ordinal not in range(128)"
+    },
+    {
+      "model": "dyard.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 14: ordinal not in range(128)"
+    },
+    {
+      "model": "dyard2.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 14: ordinal not in range(128)"
+    },
+    {
+      "model": "Explosion_1.sod",
+      "parseError": "type object 'NodeType' has no attribute 'CONSTANT'"
+    },
+    {
+      "model": "Explosion_2.sod",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "Explosion_3.sod",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "Explosion_Akira.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "f31const.SOD",
+      "parseError": "unpack requires a buffer of 34439 bytes"
+    },
+    {
+      "model": "fakisato.SOD",
+      "parseError": "unpack requires a buffer of 58084 bytes"
+    },
+    {
+      "model": "fambassador.sod",
+      "parseError": "unpack requires a buffer of 60654 bytes"
+    },
+    {
+      "model": "fantares.sod",
+      "parseError": "unpack requires a buffer of 32897 bytes"
+    },
+    {
+      "model": "fargus.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "fassault.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 14: ordinal not in range(128)"
+    },
+    {
+      "model": "Fbase.sod",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "fbase2.SOD",
+      "parseError": "'ascii' codec can't decode byte 0xce in position 2: ordinal not in range(128)"
+    },
+    {
+      "model": "FbaseHQ.SOD",
+      "parseError": "unpack requires a buffer of 32303 bytes"
+    },
+    {
+      "model": "Fbattle.sod",
+      "missing": [
+        {
+          "mesh": "pod1",
+          "base": "texture2",
+          "assimilated": "texture2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "saucersection",
+          "base": "texture2",
+          "assimilated": "texture2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "mainhull",
+          "base": "texture3",
+          "assimilated": "texture3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "FcolonyPod.SOD",
+      "parseError": "unpack requires a buffer of 28528 bytes"
+    },
+    {
+      "model": "fconst2.sod",
+      "parseError": "unpack requires a buffer of 51402 bytes"
+    },
+    {
+      "model": "fconstellation.sod",
+      "missing": [
+        {
+          "mesh": "Cylinder03",
+          "base": "constallation",
+          "assimilated": "constallation_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Fconstitution.sod",
+      "parseError": "'ascii' codec can't decode byte 0xfa in position 2: ordinal not in range(128)"
+    },
+    {
+      "model": "Fcruise1.sod",
+      "missing": [
+        {
+          "mesh": "Torp3",
+          "base": "FAKI_3",
+          "assimilated": "FAKI_3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Torp2",
+          "base": "FAKI_3",
+          "assimilated": "FAKI_3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Torp1",
+          "base": "FAKI_3",
+          "assimilated": "FAKI_3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "FHangerA",
+          "base": "FAKI_1",
+          "assimilated": "FAKI_1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "PylonIN",
+          "base": "FAKI_3",
+          "assimilated": "FAKI_3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "PylonOUT",
+          "base": "FAKI_3",
+          "assimilated": "FAKI_3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "PylonIMPUL",
+          "base": "FAKI_4",
+          "assimilated": "FAKI_4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "PylonUNDER",
+          "base": "FAKI_4",
+          "assimilated": "FAKI_4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Sauccross",
+          "base": "FAKI_1",
+          "assimilated": "FAKI_1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Sauc2",
+          "base": "FAKI_1",
+          "assimilated": "FAKI_1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Bridge2",
+          "base": "FAKI_1",
+          "assimilated": "FAKI_1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Bridge1",
+          "base": "FAKI_4",
+          "assimilated": "FAKI_4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Senserdish",
+          "base": "FAKI_4",
+          "assimilated": "FAKI_4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Sensorhole",
+          "base": "FAKI_2",
+          "assimilated": "FAKI_2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "BTMSAUC3",
+          "base": "FAKI_2",
+          "assimilated": "FAKI_2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "BTMSAUC2",
+          "base": "FAKI_2",
+          "assimilated": "FAKI_2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Fhanger1",
+          "base": "FAKI_1",
+          "assimilated": "FAKI_1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Necchass2",
+          "base": "FAKI_3",
+          "assimilated": "FAKI_3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Necchass1",
+          "base": "FAKI_3",
+          "assimilated": "FAKI_3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Busard",
+          "base": "FAKI_4",
+          "assimilated": "FAKI_4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Neccthingy",
+          "base": "FAKI_3",
+          "assimilated": "FAKI_3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Necchass3",
+          "base": "FAKI_3",
+          "assimilated": "FAKI_3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Plasmathing",
+          "base": "FAKI_4",
+          "assimilated": "FAKI_4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Topsaucer",
+          "base": "FAKI_1",
+          "assimilated": "FAKI_1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Btmsaucer",
+          "base": "FAKI_2",
+          "assimilated": "FAKI_2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Impulse",
+          "base": "FAKI_1",
+          "assimilated": "FAKI_1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "SaucRIM",
+          "base": "FAKI_1",
+          "assimilated": "FAKI_1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Impulse2",
+          "base": "FAKI_4",
+          "assimilated": "FAKI_4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "NeccelPylon1",
+          "base": "FAKI_3",
+          "assimilated": "FAKI_3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "NeccelPylon2",
+          "base": "FAKI_3",
+          "assimilated": "FAKI_3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "fdallas.sod",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "fdanube.sod",
+      "parseError": "unpack requires a buffer of 55575 bytes"
+    },
+    {
+      "model": "fdata.SOD",
+      "missing": [
+        {
+          "mesh": "lod2",
+          "base": "fdata",
+          "assimilated": "fdata_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "lod1",
+          "base": "fdata",
+          "assimilated": "fdata_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "fdauntless.sod",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "fdawnstar.sod",
+      "missing": [
+        {
+          "mesh": "Object16",
+          "base": "dawnstar5",
+          "assimilated": "dawnstar5_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object161",
+          "base": "dawnstar4",
+          "assimilated": "dawnstar4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object162",
+          "base": "dawnstar3",
+          "assimilated": "dawnstar3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object163",
+          "base": "dawnstar2",
+          "assimilated": "dawnstar2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object164",
+          "base": "dawnstar1",
+          "assimilated": "dawnstar1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object165",
+          "base": "dawnstar5",
+          "assimilated": "dawnstar5_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object166",
+          "base": "dawnstar3",
+          "assimilated": "dawnstar3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object167",
+          "base": "dawnstar3",
+          "assimilated": "dawnstar3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object168",
+          "base": "dawnstar3",
+          "assimilated": "dawnstar3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object169",
+          "base": "dawnstar3",
+          "assimilated": "dawnstar3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object1610",
+          "base": "dawnstar5",
+          "assimilated": "dawnstar5_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object1611",
+          "base": "dawnstar3",
+          "assimilated": "dawnstar3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object1612",
+          "base": "dawnstar3",
+          "assimilated": "dawnstar3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object1613",
+          "base": "dawnstar4",
+          "assimilated": "dawnstar4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object1614",
+          "base": "dawnstar5",
+          "assimilated": "dawnstar5_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object1615",
+          "base": "dawnstar4",
+          "assimilated": "dawnstar4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object1616",
+          "base": "dawnstar4",
+          "assimilated": "dawnstar4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object1617",
+          "base": "dawnstar4",
+          "assimilated": "dawnstar4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object1618",
+          "base": "dawnstar5",
+          "assimilated": "dawnstar5_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object1619",
+          "base": "dawnstar5",
+          "assimilated": "dawnstar5_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object1620",
+          "base": "dawnstar5",
+          "assimilated": "dawnstar5_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object1621",
+          "base": "dawnstar5",
+          "assimilated": "dawnstar5_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object1622",
+          "base": "dawnstar4",
+          "assimilated": "dawnstar4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object01",
+          "base": "dawnstar3",
+          "assimilated": "dawnstar3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "fdefiant.SOD",
+      "parseError": "unpack requires a buffer of 50888 bytes"
+    },
+    {
+      "model": "fdeimos.SOD",
+      "parseError": "unpack requires a buffer of 40350 bytes"
+    },
+    {
+      "model": "fdeltaflyer.sod",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "fdiablo.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "fds9.sod",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "Fedpod1.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "Fedpod11.SOD",
+      "missing": [
+        {
+          "mesh": "Box01",
+          "base": "fedpod10",
+          "assimilated": "fedpod10_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Fedpod12.SOD",
+      "missing": [
+        {
+          "mesh": "Box01",
+          "base": "fedpod10",
+          "assimilated": "fedpod10_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Fedpod13.SOD",
+      "missing": [
+        {
+          "mesh": "Box01",
+          "base": "fedpod10",
+          "assimilated": "fedpod10_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Fedpod14.SOD",
+      "missing": [
+        {
+          "mesh": "Box01",
+          "base": "fedpod10",
+          "assimilated": "fedpod10_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Fedpod15.SOD",
+      "missing": [
+        {
+          "mesh": "Box01",
+          "base": "fedpod10",
+          "assimilated": "fedpod10_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "fedpod16.SOD",
+      "missing": [
+        {
+          "mesh": "Tube01",
+          "base": "FEntE",
+          "assimilated": "FEntE_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "GeoSphere01",
+          "base": "wnebulaFlux",
+          "assimilated": "wnebulaFlux_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Fedpod2.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "Fedpod21.SOD",
+      "missing": [
+        {
+          "mesh": "Box01",
+          "base": "fedpod10",
+          "assimilated": "fedpod10_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Fedpod22.SOD",
+      "missing": [
+        {
+          "mesh": "Box01",
+          "base": "fedpod10",
+          "assimilated": "fedpod10_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Fedpod23.SOD",
+      "missing": [
+        {
+          "mesh": "Box01",
+          "base": "fedpod10",
+          "assimilated": "fedpod10_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Fedpod24.SOD",
+      "missing": [
+        {
+          "mesh": "Box01",
+          "base": "fedpod10",
+          "assimilated": "fedpod10_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Fedpod25.SOD",
+      "missing": [
+        {
+          "mesh": "Box01",
+          "base": "fedpod10",
+          "assimilated": "fedpod10_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Fedpod3.SOD",
+      "parseError": "unpack requires a buffer of 47438 bytes"
+    },
+    {
+      "model": "Fedpod4.SOD",
+      "parseError": "unpack requires a buffer of 47438 bytes"
+    },
+    {
+      "model": "Fedpod5.SOD",
+      "parseError": "unpack requires a buffer of 47438 bytes"
+    },
+    {
+      "model": "Fedpod6.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "Fedpod7.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "Fedpod8.SOD",
+      "parseError": "unpack requires a buffer of 47438 bytes"
+    },
+    {
+      "model": "Fedpod9.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "fent.sod",
+      "parseError": "unpack requires a buffer of 51402 bytes"
+    },
+    {
+      "model": "fenta.sod",
+      "parseError": "'ascii' codec can't decode byte 0xfa in position 2: ordinal not in range(128)"
+    },
+    {
+      "model": "fentb.SOD",
+      "missing": [
+        {
+          "mesh": "Sphere03",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Sphere01",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder12",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder11",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder10",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder09",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder08",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder07",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder05",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder04",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder03",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder02",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder01",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box2001",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box2000",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box23",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box19",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box12",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box11",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box08",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box02",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box309",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box308",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder13",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder15",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder14",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box09",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box07",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box18",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box17",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box16",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box15",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box01",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box14",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box13",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box06",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "fentc.sod",
+      "parseError": "unpack requires a buffer of 60654 bytes"
+    },
+    {
+      "model": "fentd.SOD",
+      "missing": [
+        {
+          "mesh": "Object29",
+          "base": "fgal5",
+          "assimilated": "fgal5_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object28",
+          "base": "fgal5",
+          "assimilated": "fgal5_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object27",
+          "base": "fgal5",
+          "assimilated": "fgal5_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object26",
+          "base": "fgal5",
+          "assimilated": "fgal5_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object25",
+          "base": "fgal5",
+          "assimilated": "fgal5_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object24",
+          "base": "fgal5",
+          "assimilated": "fgal5_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object23",
+          "base": "fgal5",
+          "assimilated": "fgal5_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object22",
+          "base": "fgal3",
+          "assimilated": "fgal3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object21",
+          "base": "fgal3",
+          "assimilated": "fgal3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object20",
+          "base": "fgal2",
+          "assimilated": "fgal2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object19",
+          "base": "fgal2",
+          "assimilated": "fgal2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object18",
+          "base": "fgal1",
+          "assimilated": "fgal1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object17",
+          "base": "fgal1",
+          "assimilated": "fgal1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object16",
+          "base": "fgal1",
+          "assimilated": "fgal1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object15",
+          "base": "fgal5",
+          "assimilated": "fgal5_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object14",
+          "base": "fgal5",
+          "assimilated": "fgal5_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object03",
+          "base": "fgal5",
+          "assimilated": "fgal5_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object13",
+          "base": "fgal6",
+          "assimilated": "fgal6_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object12",
+          "base": "fgal1",
+          "assimilated": "fgal1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object11",
+          "base": "fgal4",
+          "assimilated": "fgal4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object10",
+          "base": "fgal4",
+          "assimilated": "fgal4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object09",
+          "base": "fgal3",
+          "assimilated": "fgal3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object08",
+          "base": "fgal3",
+          "assimilated": "fgal3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object07",
+          "base": "fgal4",
+          "assimilated": "fgal4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object06",
+          "base": "fgal4",
+          "assimilated": "fgal4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Hull",
+          "base": "fgal6",
+          "assimilated": "fgal6_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object05",
+          "base": "fgal4",
+          "assimilated": "fgal4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object04",
+          "base": "fgal1",
+          "assimilated": "fgal1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object02",
+          "base": "fgal1",
+          "assimilated": "fgal1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object01",
+          "base": "fgal2",
+          "assimilated": "fgal2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Top",
+          "base": "fgal1",
+          "assimilated": "fgal1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Naccels",
+          "base": "fgal5",
+          "assimilated": "fgal5_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "fentdx.sod",
+      "parseError": "'ascii' codec can't decode byte 0xf0 in position 12: ordinal not in range(128)"
+    },
+    {
+      "model": "Fente.SOD",
+      "missing": [
+        {
+          "mesh": "Saucer Top",
+          "base": "fsov1",
+          "assimilated": "fsov1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Neck",
+          "base": "fsov3",
+          "assimilated": "fsov3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Wings",
+          "base": "fsov4",
+          "assimilated": "fsov4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Saucer Bottom",
+          "base": "fsov2",
+          "assimilated": "fsov2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "fexcalibur.sod",
+      "parseError": "unpack requires a buffer of 58855 bytes"
+    },
+    {
+      "model": "fexcel.SOD",
+      "parseError": "unpack requires a buffer of 46261 bytes"
+    },
+    {
+      "model": "fexcelr.SOD",
+      "missing": [
+        {
+          "mesh": "Sphere03",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Sphere01",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder12",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder11",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder10",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder09",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder08",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder07",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder05",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder04",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder03",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder02",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder01",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box2001",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box2000",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box23",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box19",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box12",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box11",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box08",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box02",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box309",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box308",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder13",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder15",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder14",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box09",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box07",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box18",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box17",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box16",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box15",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box01",
+          "base": "excel1",
+          "assimilated": "excel1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box14",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box13",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box06",
+          "base": "excel2",
+          "assimilated": "excel2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "ffighter.sod",
+      "parseError": "unpack requires a buffer of 16256 bytes"
+    },
+    {
+      "model": "Ffreight.sod",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 7: ordinal not in range(128)"
+    },
+    {
+      "model": "Fgalaxy.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 0: ordinal not in range(128)"
+    },
+    {
+      "model": "fgalaxyr.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "fgalaxyx.sod",
+      "parseError": "'ascii' codec can't decode byte 0xf0 in position 12: ordinal not in range(128)"
+    },
+    {
+      "model": "Fhwp.sod",
+      "parseError": "unpack requires a buffer of 58855 bytes"
+    },
+    {
+      "model": "Fintx.sod",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "fjupiter.SOD",
+      "parseError": "'ascii' codec can't decode byte 0xb4 in position 0: ordinal not in range(128)"
+    },
+    {
+      "model": "fkaleb.SOD",
+      "parseError": "unpack requires a buffer of 42920 bytes"
+    },
+    {
+      "model": "fluidicrift.SOD",
+      "missing": [
+        {
+          "mesh": "3",
+          "base": "fluidicrift",
+          "assimilated": "fluidicrift_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "2",
+          "base": "fluidicrift",
+          "assimilated": "fluidicrift_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "1",
+          "base": "fluidicrift",
+          "assimilated": "fluidicrift_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Fluidicrift2.SOD",
+      "missing": [
+        {
+          "mesh": "3",
+          "base": "fluidicrift",
+          "assimilated": "fluidicrift_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "2",
+          "base": "fluidicrift",
+          "assimilated": "fluidicrift_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "1",
+          "base": "fluidicrift",
+          "assimilated": "fluidicrift_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "fmidas.SOD",
+      "missing": [
+        {
+          "mesh": "MIDAS",
+          "base": "midas",
+          "assimilated": "midas_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Fmining.sod",
+      "parseError": "'ascii' codec can't decode byte 0x82 in position 0: ordinal not in range(128)"
+    },
+    {
+      "model": "fmiran.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "fmiranda.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "fneworleans.SOD",
+      "missing": [
+        {
+          "mesh": "2damage",
+          "base": "damage3",
+          "assimilated": "damage3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "damage01",
+          "base": "damage3",
+          "assimilated": "damage3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "fnorway.SOD",
+      "missing": [
+        {
+          "mesh": "crewdamage",
+          "base": "damage3",
+          "assimilated": "damage3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "dam1",
+          "base": "damage3",
+          "assimilated": "damage3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "engdam",
+          "base": "damage3",
+          "assimilated": "damage3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "fnova.SOD",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "fnx.SOD",
+      "missing": [
+        {
+          "mesh": "Mesh05",
+          "base": "NX01",
+          "assimilated": "NX01_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arm01",
+          "base": "NX01",
+          "assimilated": "NX01_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arm",
+          "base": "NX01",
+          "assimilated": "NX01_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mesh09",
+          "base": "NX01",
+          "assimilated": "NX01_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Line03",
+          "base": "NX01",
+          "assimilated": "NX01_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mesh06",
+          "base": "NX01",
+          "assimilated": "NX01_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mesh07",
+          "base": "NX01",
+          "assimilated": "NX01_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Line01",
+          "base": "NX01",
+          "assimilated": "NX01_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mesh04",
+          "base": "NX01",
+          "assimilated": "NX01_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mesh03",
+          "base": "borg0",
+          "assimilated": "borg0_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "nacelledamage",
+          "base": "damage3",
+          "assimilated": "damage3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "bridgedamage",
+          "base": "damage3",
+          "assimilated": "damage3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "saucerdamage01",
+          "base": "damage3",
+          "assimilated": "damage3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mesh02",
+          "base": "damage3",
+          "assimilated": "damage3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "fnxent.SOD",
+      "missing": [
+        {
+          "mesh": "Mesh05",
+          "base": "NX01",
+          "assimilated": "NX01_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arm01",
+          "base": "NX01",
+          "assimilated": "NX01_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "arm",
+          "base": "NX01",
+          "assimilated": "NX01_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mesh09",
+          "base": "NX01",
+          "assimilated": "NX01_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Line03",
+          "base": "NX01",
+          "assimilated": "NX01_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mesh06",
+          "base": "NX01",
+          "assimilated": "NX01_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mesh07",
+          "base": "NX01",
+          "assimilated": "NX01_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Line01",
+          "base": "NX01",
+          "assimilated": "NX01_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mesh04",
+          "base": "NX01",
+          "assimilated": "NX01_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mesh03",
+          "base": "borg0",
+          "assimilated": "borg0_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "nacelledamage",
+          "base": "damage3",
+          "assimilated": "damage3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "bridgedamage",
+          "base": "damage3",
+          "assimilated": "damage3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "saucerdamage01",
+          "base": "damage3",
+          "assimilated": "damage3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mesh02",
+          "base": "damage3",
+          "assimilated": "damage3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "foberth.sod",
+      "parseError": "'ascii' codec can't decode byte 0xd0 in position 0: ordinal not in range(128)"
+    },
+    {
+      "model": "font.sod",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 28: ordinal not in range(128)"
+    },
+    {
+      "model": "Fprem.sod",
+      "missing": [
+        {
+          "mesh": "fprem_1_2",
+          "base": "Fprem",
+          "assimilated": "",
+          "baseAvailable": false,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "fprem_1_1",
+          "base": "Fprem",
+          "assimilated": "",
+          "baseAvailable": false,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "fprom.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "fregula.SOD",
+      "missing": [
+        {
+          "mesh": "regular",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder18",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder12",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder11",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder17",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder04",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box05",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder03",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder02",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder16",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder15",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder08",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder10",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder09",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder07",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder06",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder01",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Tube01",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder05",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box04",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box03",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box02",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box01",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Cylinder14",
+          "base": "regula2",
+          "assimilated": "regula2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "fremmeler.SOD",
+      "missing": [
+        {
+          "mesh": "Cylinder12",
+          "base": "remmlar",
+          "assimilated": "remmlar_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "fscorp.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "Fsensor.sod",
+      "missing": [
+        {
+          "mesh": "GENGON02",
+          "base": "st47",
+          "assimilated": "st47_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "fsent.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "fshadow.SOD",
+      "parseError": "unpack requires a buffer of 41121 bytes"
+    },
+    {
+      "model": "fshak.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "fsovx.sod",
+      "parseError": "unpack requires a buffer of 60654 bytes"
+    },
+    {
+      "model": "fspectre.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "fsrepair.sod",
+      "parseError": "unpack requires a buffer of 55575 bytes"
+    },
+    {
+      "model": "ftengen.SOD",
+      "parseError": "unpack requires a buffer of 63995 bytes"
+    },
+    {
+      "model": "ftrading.sod",
+      "parseError": "'ascii' codec can't decode byte 0xce in position 2: ordinal not in range(128)"
+    },
+    {
+      "model": "ftransco.SOD",
+      "parseError": "unpack requires a buffer of 28515 bytes"
+    },
+    {
+      "model": "Fturret.sod",
+      "missing": [
+        {
+          "mesh": "revol1",
+          "base": "",
+          "assimilated": "_B",
+          "baseAvailable": false,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "fvalour.SOD",
+      "parseError": "unpack requires a buffer of 39322 bytes"
+    },
+    {
+      "model": "fvoyager.SOD",
+      "missing": [
+        {
+          "mesh": "Object03",
+          "base": "fcl2",
+          "assimilated": "fcl2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object02",
+          "base": "fcl1",
+          "assimilated": "fcl1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Object01",
+          "base": "fcl4",
+          "assimilated": "fcl4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Intrepid_1",
+          "base": "fcl3",
+          "assimilated": "fcl3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Fyard.sod",
+      "missing": [
+        {
+          "mesh": "Box10",
+          "base": "Antares",
+          "assimilated": "Antares_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box09",
+          "base": "Antares",
+          "assimilated": "Antares_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box08",
+          "base": "Antares",
+          "assimilated": "Antares_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box07",
+          "base": "Antares",
+          "assimilated": "Antares_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box06",
+          "base": "Antares",
+          "assimilated": "Antares_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box05",
+          "base": "Antares",
+          "assimilated": "Antares_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box02",
+          "base": "Antares",
+          "assimilated": "Antares_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box03",
+          "base": "Antares",
+          "assimilated": "Antares_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box04",
+          "base": "Antares",
+          "assimilated": "Antares_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Box01",
+          "base": "Antares",
+          "assimilated": "Antares_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "fyard0.sod",
+      "missing": [
+        {
+          "mesh": "Box01",
+          "base": "SANFRAN",
+          "assimilated": "SANFRAN_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Fyard2.sod",
+      "parseError": "unpack requires a buffer of 52429 bytes"
+    },
+    {
+      "model": "fyard3.SOD",
+      "parseError": "'ascii' codec can't decode byte 0xe7 in position 2: ordinal not in range(128)"
+    },
+    {
+      "model": "gcutter.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "hub.SOD",
+      "parseError": "type object 'NodeType' has no attribute 'CONSTANT'"
+    },
+    {
+      "model": "jemdest.SOD",
+      "parseError": "unpack requires a buffer of 38551 bytes"
+    },
+    {
+      "model": "jemdest2.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "kavorcha.SOD",
+      "missing": [
+        {
+          "mesh": "vessmain",
+          "base": "nklink1",
+          "assimilated": "nklink1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "vessec",
+          "base": "nklink2",
+          "assimilated": "nklink2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "vesswing",
+          "base": "nklink3",
+          "assimilated": "nklink3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Kbase.SOD",
+      "parseError": "unpack requires a buffer of 34953 bytes"
+    },
+    {
+      "model": "kbase2.SOD",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "kbatleth.SOD",
+      "parseError": "unpack requires a buffer of 28527 bytes"
+    },
+    {
+      "model": "kbwing.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "KcolonyPod.SOD",
+      "parseError": "unpack requires a buffer of 28528 bytes"
+    },
+    {
+      "model": "kconst2.SOD",
+      "parseError": "unpack requires a buffer of 54486 bytes"
+    },
+    {
+      "model": "kcruise4.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "kdestroy2.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "kdestroy4.SOD",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "kgunboat.SOD",
+      "parseError": "unpack requires a buffer of 39579 bytes"
+    },
+    {
+      "model": "khwp.SOD",
+      "parseError": "unpack requires a buffer of 51402 bytes"
+    },
+    {
+      "model": "kimpbakt.SOD",
+      "parseError": "unpack requires a buffer of 34953 bytes"
+    },
+    {
+      "model": "kimpbase.SOD",
+      "parseError": "unpack requires a buffer of 51402 bytes"
+    },
+    {
+      "model": "kimpben.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "kimphut.SOD",
+      "parseError": "unpack requires a buffer of 54486 bytes"
+    },
+    {
+      "model": "kimpkoto.SOD",
+      "parseError": "unpack requires a buffer of 32896 bytes"
+    },
+    {
+      "model": "kimpmakd.SOD",
+      "parseError": "unpack requires a buffer of 32896 bytes"
+    },
+    {
+      "model": "kimpnegh.SOD",
+      "parseError": "unpack requires a buffer of 63481 bytes"
+    },
+    {
+      "model": "kimpnook.SOD",
+      "parseError": "unpack requires a buffer of 32897 bytes"
+    },
+    {
+      "model": "kimpvorc.SOD",
+      "parseError": "unpack requires a buffer of 38551 bytes"
+    },
+    {
+      "model": "kimpyard.SOD",
+      "parseError": "unpack requires a buffer of 34953 bytes"
+    },
+    {
+      "model": "Klipod1.SOD",
+      "parseError": "unpack requires a buffer of 13119 bytes"
+    },
+    {
+      "model": "Klipod16.SOD",
+      "parseError": "unpack requires a buffer of 25458 bytes"
+    },
+    {
+      "model": "Klipod2.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "Klipod3.SOD",
+      "parseError": "unpack requires a buffer of 14655 bytes"
+    },
+    {
+      "model": "Klipod4.SOD",
+      "parseError": "unpack requires a buffer of 13119 bytes"
+    },
+    {
+      "model": "Klipod6.SOD",
+      "parseError": "unpack requires a buffer of 13119 bytes"
+    },
+    {
+      "model": "Klipod7.SOD",
+      "parseError": "unpack requires a buffer of 13119 bytes"
+    },
+    {
+      "model": "Klipod8.SOD",
+      "parseError": "unpack requires a buffer of 13119 bytes"
+    },
+    {
+      "model": "Klipod9.SOD",
+      "parseError": "unpack requires a buffer of 58687 bytes"
+    },
+    {
+      "model": "Kmining.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 5: ordinal not in range(128)"
+    },
+    {
+      "model": "koutpost.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x88 in position 0: ordinal not in range(128)"
+    },
+    {
+      "model": "kquon.SOD",
+      "parseError": "unpack requires a buffer of 63738 bytes"
+    },
+    {
+      "model": "Ksuper.SOD",
+      "parseError": "unpack requires a buffer of 32897 bytes"
+    },
+    {
+      "model": "Kturret.SOD",
+      "parseError": "unpack requires a buffer of 34953 bytes"
+    },
+    {
+      "model": "Kturret2.SOD",
+      "parseError": "unpack requires a buffer of 32897 bytes"
+    },
+    {
+      "model": "kvodleh.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "kvood.SOD",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "Kyard.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 7: ordinal not in range(128)"
+    },
+    {
+      "model": "Kyard2.SOD",
+      "parseError": "unpack requires a buffer of 32303 bytes"
+    },
+    {
+      "model": "logo.SOD",
+      "missing": [
+        {
+          "mesh": "LOADING6",
+          "base": "LOADING6",
+          "assimilated": "LOADING6_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "LOADING5",
+          "base": "LOADING5",
+          "assimilated": "LOADING5_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "LOADING4",
+          "base": "LOADING4",
+          "assimilated": "LOADING4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "LOADING3",
+          "base": "LOADING3",
+          "assimilated": "LOADING3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "LOADING2",
+          "base": "LOADING2",
+          "assimilated": "LOADING2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "LOADING1",
+          "base": "LOADING1",
+          "assimilated": "LOADING1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Master1.SOD",
+      "missing": [
+        {
+          "mesh": "asteroid01",
+          "base": "Master1",
+          "assimilated": "Master1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Master2.SOD",
+      "missing": [
+        {
+          "mesh": "Asteroid02",
+          "base": "Master2",
+          "assimilated": "Master2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Master3.SOD",
+      "missing": [
+        {
+          "mesh": "asteroid03",
+          "base": "Master1",
+          "assimilated": "Master1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Master4.SOD",
+      "missing": [
+        {
+          "mesh": "asteroid04",
+          "base": "Master1",
+          "assimilated": "Master1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Master5.SOD",
+      "missing": [
+        {
+          "mesh": "asteroid5",
+          "base": "Master1",
+          "assimilated": "Master1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Master6.SOD",
+      "missing": [
+        {
+          "mesh": "asteroid6",
+          "base": "Master1",
+          "assimilated": "Master1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Master7.SOD",
+      "missing": [
+        {
+          "mesh": "asteroid7",
+          "base": "Master1",
+          "assimilated": "Master1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Master8.SOD",
+      "missing": [
+        {
+          "mesh": "asteroid8",
+          "base": "Master2",
+          "assimilated": "Master2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Material.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "Mbg01.SOD",
+      "missing": [
+        {
+          "mesh": "sphere1",
+          "base": "",
+          "assimilated": "",
+          "baseAvailable": false,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "mbg02_5",
+          "base": "Mbg01.5",
+          "assimilated": "",
+          "baseAvailable": false,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "mbg02_6",
+          "base": "Mbg01.6",
+          "assimilated": "",
+          "baseAvailable": false,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mbg02_3",
+          "base": "Mbg01.3",
+          "assimilated": "",
+          "baseAvailable": false,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mbg02_4",
+          "base": "Mbg01.4",
+          "assimilated": "",
+          "baseAvailable": false,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mbg02_1",
+          "base": "Mbg01.1",
+          "assimilated": "",
+          "baseAvailable": false,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "Mbg02_2",
+          "base": "Mbg01.2",
+          "assimilated": "",
+          "baseAvailable": false,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Mbg02.SOD",
+      "missing": [
+        {
+          "mesh": "MBG2_1",
+          "base": "MBG02",
+          "assimilated": "MBG02_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "MBG02",
+          "base": "MBG02",
+          "assimilated": "MBG02_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "MbgBlue.SOD",
+      "missing": [
+        {
+          "mesh": "MBG2_1",
+          "base": "MBG02",
+          "assimilated": "MBG02_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "MBG02",
+          "base": "MBG02",
+          "assimilated": "MBG02_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "MbgX.SOD",
+      "missing": [
+        {
+          "mesh": "sphere1",
+          "base": "",
+          "assimilated": "",
+          "baseAvailable": false,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "earth",
+          "base": "Mplanet",
+          "assimilated": "",
+          "baseAvailable": false,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Mblackh.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "Mcomet.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "Mdmoon.SOD",
+      "parseError": "'ascii' codec can't decode byte 0xfe in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "Mdmoon2.SOD",
+      "parseError": "'ascii' codec can't decode byte 0xfe in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "Mdmoon3.SOD",
+      "parseError": "'ascii' codec can't decode byte 0xfe in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "mdtritan1.sod",
+      "missing": [
+        {
+          "mesh": "m1",
+          "base": "PBtritan1",
+          "assimilated": "PBtritan1_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "mdtritan2.sod",
+      "missing": [
+        {
+          "mesh": "m1",
+          "base": "PBtritan2",
+          "assimilated": "PBtritan2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "mdtritan3.sod",
+      "missing": [
+        {
+          "mesh": "m1",
+          "base": "PBtritan3",
+          "assimilated": "PBtritan3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "mdtritan4.sod",
+      "missing": [
+        {
+          "mesh": "m1",
+          "base": "PBtritan4",
+          "assimilated": "PBtritan4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "mdtritan5.sod",
+      "missing": [
+        {
+          "mesh": "m1",
+          "base": "PBtritan5",
+          "assimilated": "PBtritan5_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Mgalaxy.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "Mgate.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "microorganism.SOD",
+      "missing": [
+        {
+          "mesh": "Box02",
+          "base": "microorganism",
+          "assimilated": "microorganism_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Mmooninf.SOD",
+      "missing": [
+        {
+          "mesh": "sphere3",
+          "base": "",
+          "assimilated": "",
+          "baseAvailable": false,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Mnebula10.sod",
+      "parseError": "type object 'NodeType' has no attribute 'CONSTANT'"
+    },
+    {
+      "model": "Mnebula11.sod",
+      "parseError": "type object 'NodeType' has no attribute 'CONSTANT'"
+    },
+    {
+      "model": "Mnebula5.sod",
+      "parseError": "type object 'NodeType' has no attribute 'CONSTANT'"
+    },
+    {
+      "model": "Momega.SOD",
+      "parseError": "unpack requires a buffer of 36671 bytes"
+    },
+    {
+      "model": "moontritan2.sod",
+      "parseError": "unpack requires a buffer of 63747 bytes"
+    },
+    {
+      "model": "Mplanet.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "Mplasma.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "mspacematercristal.sod",
+      "missing": [
+        {
+          "mesh": "mat01",
+          "base": "Mspacematter",
+          "assimilated": "Mspacematter_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Mstars.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "Mwormh.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "Mwreck.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "Nova_1.sod",
+      "parseError": "unpack requires a buffer of 64700 bytes"
+    },
+    {
+      "model": "PB_BORGA.sod",
+      "parseError": "unpack requires a buffer of 63747 bytes"
+    },
+    {
+      "model": "PB_CLSSD.SOD",
+      "parseError": "unpack requires a buffer of 63747 bytes"
+    },
+    {
+      "model": "PB_CLSSH.sod",
+      "parseError": "unpack requires a buffer of 59151 bytes"
+    },
+    {
+      "model": "PB_CLSSJ.sod",
+      "parseError": "unpack requires a buffer of 15266 bytes"
+    },
+    {
+      "model": "PB_CLSSK.sod",
+      "parseError": "unpack requires a buffer of 20367 bytes"
+    },
+    {
+      "model": "PB_CLSSL.sod",
+      "parseError": "unpack requires a buffer of 14969 bytes"
+    },
+    {
+      "model": "PB_CLSSM.sod",
+      "parseError": "unpack requires a buffer of 63747 bytes"
+    },
+    {
+      "model": "PB_CLSSO.sod",
+      "parseError": "unpack requires a buffer of 63747 bytes"
+    },
+    {
+      "model": "PB_CLSSY.sod",
+      "parseError": "unpack requires a buffer of 63747 bytes"
+    },
+    {
+      "model": "PB_EARTH.sod",
+      "parseError": "unpack requires a buffer of 63747 bytes"
+    },
+    {
+      "model": "planetglow4.sod",
+      "parseError": "type object 'NodeType' has no attribute 'CONSTANT'"
+    },
+    {
+      "model": "planetglow5.sod",
+      "parseError": "type object 'NodeType' has no attribute 'CONSTANT'"
+    },
+    {
+      "model": "PLBorg.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x87 in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "PLclassD.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x87 in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "PLclassH.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x87 in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "PLclassI.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x87 in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "PLclassJ.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x87 in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "PLclassK.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x87 in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "PLclassL.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x87 in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "PLclassM.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x87 in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "PLclassS.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x87 in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "PLclassW.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x87 in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "quantumsingularity.sod",
+      "missing": [
+        {
+          "mesh": "sing_lg",
+          "base": "quantumfield3",
+          "assimilated": "quantumfield3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "sing_sm",
+          "base": "quantumfield3",
+          "assimilated": "quantumfield3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "sing_med",
+          "base": "FluidicRift2",
+          "assimilated": "FluidicRift2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Rbase.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "rbase2.SOD",
+      "parseError": "unpack requires a buffer of 51402 bytes"
+    },
+    {
+      "model": "Rcargo.SOD",
+      "parseError": "unpack requires a buffer of 32897 bytes"
+    },
+    {
+      "model": "rcent.SOD",
+      "parseError": "unpack requires a buffer of 51402 bytes"
+    },
+    {
+      "model": "Rcolony.SOD",
+      "parseError": "'ascii' codec can't decode byte 0xff in position 11: ordinal not in range(128)"
+    },
+    {
+      "model": "RcolonyPod.SOD",
+      "parseError": "unpack requires a buffer of 28528 bytes"
+    },
+    {
+      "model": "rconst2.SOD",
+      "parseError": "'ascii' codec can't decode byte 0xf0 in position 12: ordinal not in range(128)"
+    },
+    {
+      "model": "rdestr1.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "rdread.SOD",
+      "parseError": "unpack requires a buffer of 32897 bytes"
+    },
+    {
+      "model": "rdtaris.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "rdverix.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "Rfreight.SOD",
+      "parseError": "unpack requires a buffer of 32897 bytes"
+    },
+    {
+      "model": "rhwp.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "rktinga.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "Rmining.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 5: ordinal not in range(128)"
+    },
+    {
+      "model": "Rompod1.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "Rompod10.SOD",
+      "missing": [
+        {
+          "mesh": "Mesh01",
+          "base": "RUpgrade",
+          "assimilated": "RUpgrade_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "ROMpod11.SOD",
+      "missing": [
+        {
+          "mesh": "Mesh01",
+          "base": "RUpgrade",
+          "assimilated": "RUpgrade_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "ROMpod12.SOD",
+      "missing": [
+        {
+          "mesh": "Mesh01",
+          "base": "RUpgrade",
+          "assimilated": "RUpgrade_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "ROMpod13.SOD",
+      "missing": [
+        {
+          "mesh": "Mesh01",
+          "base": "RUpgrade",
+          "assimilated": "RUpgrade_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "ROMpod14.SOD",
+      "missing": [
+        {
+          "mesh": "Mesh01",
+          "base": "RUpgrade",
+          "assimilated": "RUpgrade_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "ROMpod15.SOD",
+      "missing": [
+        {
+          "mesh": "Mesh01",
+          "base": "RUpgrade",
+          "assimilated": "RUpgrade_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "ROMpod21.SOD",
+      "missing": [
+        {
+          "mesh": "Mesh01",
+          "base": "RUpgrade",
+          "assimilated": "RUpgrade_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "ROMpod22.SOD",
+      "missing": [
+        {
+          "mesh": "Mesh01",
+          "base": "RUpgrade",
+          "assimilated": "RUpgrade_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "ROMpod23.SOD",
+      "missing": [
+        {
+          "mesh": "Mesh01",
+          "base": "RUpgrade",
+          "assimilated": "RUpgrade_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "ROMpod24.SOD",
+      "missing": [
+        {
+          "mesh": "Mesh01",
+          "base": "RUpgrade",
+          "assimilated": "RUpgrade_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "ROMpod25.SOD",
+      "missing": [
+        {
+          "mesh": "Mesh01",
+          "base": "RUpgrade",
+          "assimilated": "RUpgrade_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Rompod3.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "Rompod4.SOD",
+      "parseError": "unpack requires a buffer of 13119 bytes"
+    },
+    {
+      "model": "Rompod5.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "Rompod6.SOD",
+      "parseError": "unpack requires a buffer of 13119 bytes"
+    },
+    {
+      "model": "Rompod7.SOD",
+      "parseError": "unpack requires a buffer of 13119 bytes"
+    },
+    {
+      "model": "Rompod8.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "Rompod9.SOD",
+      "parseError": "unpack requires a buffer of 13119 bytes"
+    },
+    {
+      "model": "Rorbital.SOD",
+      "parseError": "unpack requires a buffer of 51402 bytes"
+    },
+    {
+      "model": "Rresear2.SOD",
+      "parseError": "unpack requires a buffer of 53972 bytes"
+    },
+    {
+      "model": "rscruise.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "Rsensor.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "Rsuper.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "rtsbcru.SOD",
+      "parseError": "unpack requires a buffer of 32897 bytes"
+    },
+    {
+      "model": "rtscout.SOD",
+      "parseError": "unpack requires a buffer of 32897 bytes"
+    },
+    {
+      "model": "rtscru2.SOD",
+      "parseError": "'ascii' codec can't decode byte 0xf0 in position 12: ordinal not in range(128)"
+    },
+    {
+      "model": "rtscruis.SOD",
+      "parseError": "unpack requires a buffer of 32897 bytes"
+    },
+    {
+      "model": "rtsdest.SOD",
+      "parseError": "unpack requires a buffer of 32897 bytes"
+    },
+    {
+      "model": "rtsdread.SOD",
+      "parseError": "'ascii' codec can't decode byte 0xf0 in position 12: ordinal not in range(128)"
+    },
+    {
+      "model": "rtsens.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "rtspec.SOD",
+      "parseError": "unpack requires a buffer of 32897 bytes"
+    },
+    {
+      "model": "rtswarb.SOD",
+      "parseError": "unpack requires a buffer of 32897 bytes"
+    },
+    {
+      "model": "Rturret.SOD",
+      "parseError": "unpack requires a buffer of 32897 bytes"
+    },
+    {
+      "model": "Rturret2.SOD",
+      "parseError": "unpack requires a buffer of 32897 bytes"
+    },
+    {
+      "model": "Rupgrade.SOD",
+      "missing": [
+        {
+          "mesh": "lod2",
+          "base": "RUpgrade",
+          "assimilated": "RUpgrade_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "lod1",
+          "base": "RUpgrade",
+          "assimilated": "RUpgrade_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Ryard.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 7: ordinal not in range(128)"
+    },
+    {
+      "model": "Ryard2.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 7: ordinal not in range(128)"
+    },
+    {
+      "model": "ryard3.SOD",
+      "parseError": "unpack requires a buffer of 52430 bytes"
+    },
+    {
+      "model": "s31yard.SOD",
+      "parseError": "'ascii' codec can't decode byte 0xce in position 2: ordinal not in range(128)"
+    },
+    {
+      "model": "select.sod",
+      "parseError": "unpack requires a buffer of 50176 bytes"
+    },
+    {
+      "model": "slipstreamdrv.sod",
+      "missing": [
+        {
+          "mesh": "sing_lg",
+          "base": "slipstreamdrv",
+          "assimilated": "slipstreamdrv_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "sing_sm",
+          "base": "slipstreamdrv",
+          "assimilated": "slipstreamdrv_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "sing_med",
+          "base": "slipstreamdr",
+          "assimilated": "slipstreamdr_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "sonabat.SOD",
+      "parseError": "unpack requires a buffer of 38551 bytes"
+    },
+    {
+      "model": "sonadest.SOD",
+      "parseError": "unpack requires a buffer of 49088 bytes"
+    },
+    {
+      "model": "sun.sod",
+      "missing": [
+        {
+          "mesh": "Sun",
+          "base": "sun",
+          "assimilated": "sun_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "sun1.sod",
+      "missing": [
+        {
+          "mesh": "Sphere02",
+          "base": "sun2",
+          "assimilated": "sun2_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "sun2.sod",
+      "missing": [
+        {
+          "mesh": "Sphere01",
+          "base": "sun3",
+          "assimilated": "sun3_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "sun3.sod",
+      "missing": [
+        {
+          "mesh": "Sphere01",
+          "base": "sun4",
+          "assimilated": "sun4_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "tcube.sod",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 31: ordinal not in range(128)"
+    },
+    {
+      "model": "twgate1.SOD",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "twgate2.SOD",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "twgate3.SOD",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "twgate4.SOD",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "twgate5.SOD",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "twgate6.SOD",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "twgate7.SOD",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "twgate8.SOD",
+      "parseError": "unpack requires a buffer of 32768 bytes"
+    },
+    {
+      "model": "Wantmine.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "WarpFlash.sod",
+      "parseError": "unpack requires a buffer of 4 bytes"
+    },
+    {
+      "model": "Wbassim.SOD",
+      "parseError": "unpack requires a buffer of 13056 bytes"
+    },
+    {
+      "model": "wbholegen.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "Wborgate.SOD",
+      "parseError": "unpack requires a buffer of 4 bytes"
+    },
+    {
+      "model": "Wborgbor.SOD",
+      "parseError": "'ascii' codec can't decode byte 0xfa in position 7: ordinal not in range(128)"
+    },
+    {
+      "model": "Wcobdet.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "wColPod.SOD",
+      "parseError": "unpack requires a buffer of 23228 bytes"
+    },
+    {
+      "model": "Wcorbrfr.SOD",
+      "parseError": "unpack requires a buffer of 4 bytes"
+    },
+    {
+      "model": "WEclairlink1.SOD",
+      "missing": [
+        {
+          "mesh": "Sphere01",
+          "base": "WEclairvoylink",
+          "assimilated": "WEclairvoylink_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Wgravmin.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "Whobber.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "Wholdbm.SOD",
+      "parseError": "'ascii' codec can't decode byte 0xa9 in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "Wionstrm.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "Wmanhiem.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "Wmastran.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "wMineLatinum.SOD",
+      "parseError": "'ascii' codec can't decode byte 0xa9 in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "wMinePlanet.SOD",
+      "parseError": "'ascii' codec can't decode byte 0xa9 in position 3: ordinal not in range(128)"
+    },
+    {
+      "model": "wOrbitalBeam.SOD",
+      "missing": [
+        {
+          "mesh": "beam",
+          "base": "WOrbitalBeam",
+          "assimilated": "WOrbitalBeam_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "outer beam",
+          "base": "WOrbitalBeam",
+          "assimilated": "WOrbitalBeam_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Wotractr.SOD",
+      "parseError": "unpack requires a buffer of 44607 bytes"
+    },
+    {
+      "model": "Wprobe.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "wREBeam.SOD",
+      "missing": [
+        {
+          "mesh": "wshlddis_mod",
+          "base": "wREBeam",
+          "assimilated": "wREBeam_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "wRepairOther.SOD",
+      "missing": [
+        {
+          "mesh": "beam",
+          "base": "wrepairbeam",
+          "assimilated": "wrepairbeam_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "outer beam",
+          "base": "wrepairbeam",
+          "assimilated": "wrepairbeam_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Wrift.SOD",
+      "parseError": "unpack requires a buffer of 26994 bytes"
+    },
+    {
+      "model": "Wshldadd.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "wShldDis.SOD",
+      "parseError": "unpack requires a buffer of 29545 bytes"
+    },
+    {
+      "model": "Wshldinv.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "Wshldmod.SOD",
+      "parseError": "unpack requires a buffer of 4 bytes"
+    },
+    {
+      "model": "Wshldrmd.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "Wshldsub.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "Wstoptim.SOD",
+      "parseError": "unpack requires a buffer of 4 bytes"
+    },
+    {
+      "model": "wtechassimbm.SOD",
+      "missing": [
+        {
+          "mesh": "beam",
+          "base": "WTechAssimBeam",
+          "assimilated": "WTechAssimBeam_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        },
+        {
+          "mesh": "outer beam",
+          "base": "WTechAssimBeam",
+          "assimilated": "WTechAssimBeam_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Wtetrion.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "Wtractor.SOD",
+      "parseError": "unpack requires a buffer of 2560 bytes"
+    },
+    {
+      "model": "Wtranwrp.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "Wuitrbal.SOD",
+      "parseError": "unpack requires a buffer of 12908 bytes"
+    },
+    {
+      "model": "Wuitrbm.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "Wviracod.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "xbassimold.sod",
+      "parseError": "unpack requires a buffer of 62196 bytes"
+    },
+    {
+      "model": "Xmanheim.SOD",
+      "parseError": "unpack requires a buffer of 25960 bytes"
+    },
+    {
+      "model": "Xprmgate.SOD",
+      "parseError": "unpack requires a buffer of 29296 bytes"
+    },
+    {
+      "model": "Xshlddie.SOD",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 1: ordinal not in range(128)"
+    },
+    {
+      "model": "Xshldx01.SOD",
+      "parseError": "unpack requires a buffer of 52429 bytes"
+    },
+    {
+      "model": "Zfercarg.SOD",
+      "missing": [
+        {
+          "mesh": "FERCargo",
+          "base": "FERENGICARGOSHIP",
+          "assimilated": "FERENGICARGOSHIP_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "ZFlag.SOD",
+      "missing": [
+        {
+          "mesh": "OmegaPart1",
+          "base": "Momegpartc",
+          "assimilated": "Momegpartc_B",
+          "baseAvailable": true,
+          "assimilatedAvailable": false
+        }
+      ]
+    },
+    {
+      "model": "Zomega.SOD",
+      "parseError": "Database found instead of Storm3D File"
+    },
+    {
+      "model": "zsuperbl.sod",
+      "parseError": "'ascii' codec can't decode byte 0x80 in position 14: ordinal not in range(128)"
+    }
+  ],
+  "runtimeVerified": false
+}

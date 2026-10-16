@@ -9,7 +9,7 @@ Personal Star Trek Armada II mod configuration and repair scripts.
 
 This is not a standalone game. Retail game binaries and third-party model, texture, map and audio assets are excluded. A matching licensed installation and the asset packs below are required. Do not apply every historical repair script in sequence: some intentionally supersede earlier changes.
 
-Current build includes faction heroes, Shipyard III, Borg abilities and legacy roster, Omega refits, universal assembler, restored station art and cost adjustments. 25 downloaded maps with eight player slots were installed locally; maps are not redistributed here. Bajor is a prototype with Kira Nerys as the starting hero, research/economy and AI; it still uses substitute 3D models. Fourteen generated Bajoran unit/building icons are installed locally; custom Bajoran 3D models, complete interface artwork, and runtime validation remain incomplete. Recent crash repairs are candidates requiring new-match tests.
+Current build includes faction heroes, Shipyard III, Borg abilities and legacy roster, Omega refits, universal assembler, restored station art and cost adjustments. 25 downloaded maps with eight player slots were installed locally; maps are not redistributed here. Bajor is a prototype with Kira Nerys as the starting hero, research/economy and AI; it now uses first-pass custom low-poly models. Fourteen generated Bajoran unit/building icons and first-pass low-poly models are installed locally. Every new model has an explicit Borg assimilation texture. They are gameplay adaptations, not exact screen replicas. Full interface artwork and runtime validation remain incomplete. Recent crash repairs are candidates requiring new-match tests.
 
 Source assets and credits:
 - Armada II Upgrade Project 2.0.0, Freyr and contributors: https://www.gamefront.com/games/armada-2/file/armada-ii-upgrade-project-vanilla-ultimate
@@ -17,4 +17,8 @@ Source assets and credits:
 - Ghost's Compilation Mod, Ghost and credited artists: https://www.gamefront.com/games/armada-2/file/ghost-s-compilation-mod
 
 TV reference notes for Bajor are recorded in `bajor/manifest.json`. Gameplay additions beyond on-screen designs are adaptations, not claims of canon.
+
+
+Active target: only D:\armadaIII. D:\Xaramada was restored to the supplied original installation. Historical reports refer to earlier states.
+SOD serialization tooling: https://github.com/Elenterius/stau. Tool is kept outside this repository; install it before running the Python modeling/audit scripts.
 

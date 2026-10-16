@@ -1,7 +1,7 @@
 const fs=require('fs'),p=require('path'),stamp=Date.now();
 const walk=d=>fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(p.join(d,e.name)):[p.join(d,e.name)]);
 const read=f=>fs.readFileSync(f,'latin1');let reports=[];
-for(let root of ['D:/Xaramada','D:/armadaIII']){
+for(let root of ['D:/armadaIII']){
  let idx=new Map(walk(root+'/odf').filter(f=>/\.odf$/i.test(f)).map(f=>[p.basename(f).toLowerCase(),f]));
  function props(n,seen=new Set()){if(seen.has(n)||!idx.has(n))return {};seen.add(n);let t=read(idx.get(n)),v={};for(let m of t.matchAll(/^\s*#include\s+"([^"]+)"/gmi))Object.assign(v,props(m[1].toLowerCase(),seen));for(let m of t.matchAll(/^\s*(\w+)\s*=\s*(.*?)\s*(?:\/\/.*)?$/gm))v[m[1].toLowerCase()]=m[2].replace(/^"|"$/g,'');return v;}
  let file=root+'/Sprites/gui_global.spr',spr=read(file),entries=new Map(),ref=256,mat='default',textures=new Set(walk(root+'/Textures').map(f=>p.basename(f).toLowerCase()));
@@ -32,4 +32,5 @@ for(let root of ['D:/Xaramada','D:/armadaIII']){
 fs.writeFileSync('D:/aramada/reports/building-icon-repairs.json',JSON.stringify(reports,null,2));
 let message=reports.map(r=>r.root+': '+r.checked+' named/buildable station definitions checked, '+r.repairs.length+' icon/wireframe links repaired, '+r.unresolved.length+' unresolved').join('; ')+'. Quantum Facility uses matching Cardassian upgrade-facility fallback because dedicated texture is absent. Running game must restart to reload sprites; in-game confirmation pending.';
 fs.appendFileSync('D:/aramada/build.log','\n['+new Date().toISOString()+'] '+message+'\n');let status=JSON.parse(fs.readFileSync('D:/aramada/status.json','utf8').replace(/^\uFEFF/,''));status.current=message;fs.writeFileSync('D:/aramada/status.json',JSON.stringify(status,null,2));console.log(message);
+
 

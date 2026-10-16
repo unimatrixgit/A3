@@ -1,7 +1,7 @@
 const fs=require('fs'),p=require('path'),stamp=Date.now(),reports=[];
 const read=f=>fs.readFileSync(f,'latin1'),walk=d=>fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(p.join(d,e.name)):[p.join(d,e.name)]);
 const plans={dominion:[['dbase',1,1],['dmining',1,0],['dfreight',2,0],['dyard',1,2],['dconst',2,0],['dscout',1,0],['ddestroy',4,0],['dresear',1,0],['dcruise1',3,0],['dcruise2',2,0],['dcolony',1,0],['dorbital',1,0],['dyard2',1,3],['dbattle',3,0],['dresear2',1,4],['dupgrade',1,5],['dompod11',1,0],['dompod12',1,0],['dbattle2',3,0],['dyard3',1,6],['xhdhero',1,0],['dfreight',4,0],['ddestroy',8,0],['dbattle',6,0],['dbattle2',6,0]],bajoran:[['bjbase',1,1],['bjmining',1,0],['bjfreight',2,0],['bjyard',1,2],['bjconst',2,0],['bjscout',1,0],['bjinterceptor',4,0],['bjresear',1,0],['bjyard2',1,3],['bjassault',3,0],['bjturret',2,0],['bjyard3',1,4],['bjnerys',1,0],['bjfreight',4,0],['bjinterceptor',8,0],['bjassault',6,0]]};
-for(let root of ['D:/Xaramada','D:/armadaIII']){
+for(let root of ['D:/armadaIII']){
  let idx=new Map(walk(root+'/odf').filter(f=>/\.odf$/i.test(f)).map(f=>[p.basename(f).toLowerCase(),f]));
  function props(n,seen=new Set()){if(seen.has(n)||!idx.has(n))return {};seen.add(n);let t=read(idx.get(n)),v={};for(let m of t.matchAll(/^\s*#include\s+"([^"]+)"/gmi))Object.assign(v,props(m[1].toLowerCase(),seen));for(let m of t.matchAll(/^\s*(\w+)\s*=\s*(.*?)\s*(?:\/\/.*)?$/gm))v[m[1].toLowerCase()]=m[2].replace(/^"|"$/g,'');return v;}
  let tree=new Map([...read(root+'/techtree/tech1.tt').matchAll(/^\s*(\S+\.odf)\s+(-?\d+)([^\r\n]*)/gmi)].map(m=>[m[1].toLowerCase(),{count:+m[2],deps:m[3].trim().toLowerCase().split(/\s+/).filter(Boolean)}]));
@@ -16,3 +16,4 @@ for(let root of ['D:/Xaramada','D:/armadaIII']){
  }
 }
 fs.writeFileSync('D:/aramada/reports/dominion-bajoran-ai.json',JSON.stringify(reports,null,2));let msg='Dominion AI repaired in both copies; Bajoran AI repaired in armadaIII. Mining/refining and freighters precede combat production; every build target validated against available producers and normal-tech prerequisites. Five profiles per faction updated. Federation unchanged. Start a new match; actual AI construction not yet observed.';let s=JSON.parse(fs.readFileSync('D:/aramada/status.json','utf8').replace(/^\uFEFF/,''));s.current=msg;fs.writeFileSync('D:/aramada/status.json',JSON.stringify(s,null,2));fs.appendFileSync('D:/aramada/build.log','\n['+new Date().toISOString()+'] '+msg+'\n');console.log(msg);
+

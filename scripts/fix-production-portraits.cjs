@@ -1,6 +1,6 @@
 const fs=require('fs'),p=require('path'),stamp=Date.now(),reports=[];
 const walk=d=>fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(p.join(d,e.name)):[p.join(d,e.name)]),read=f=>fs.readFileSync(f,'latin1');
-for(let root of ['D:/Xaramada','D:/armadaIII']){
+for(let root of ['D:/armadaIII']){
  let idx=new Map(walk(root+'/odf').filter(f=>/\.odf$/i.test(f)).map(f=>[p.basename(f).toLowerCase(),f]));
  function props(n,seen=new Set()){if(!idx.has(n)||seen.has(n))return {};seen.add(n);let t=read(idx.get(n)),v={};for(let m of t.matchAll(/^\s*#include\s+"([^"]+)"/gmi))Object.assign(v,props(m[1].toLowerCase(),seen));for(let m of t.matchAll(/^\s*(\w+)\s*=\s*(.*?)\s*(?:\/\/.*)?$/gm))v[m[1].toLowerCase()]=m[2].replace(/^"|"$/g,'');return v;}
  let targets=new Set();for(let f of idx.values())for(let m of read(f).matchAll(/^\s*(?:secondary)?buildItem\d+\s*=\s*"([^"]+)"/gmi))targets.add(m[1].toLowerCase().replace(/\.odf$/,'')+'.odf');
@@ -18,3 +18,4 @@ for(let root of ['D:/Xaramada','D:/armadaIII']){
  reports.push({root,checked:checked.length,changes,fallbacks,errors,runtimeVerified:false});
 }
 fs.writeFileSync('D:/aramada/reports/production-portraits.json',JSON.stringify(reports,null,2));let message=reports.map(r=>r.root+': '+r.checked+' buildable units checked, '+r.changes.length+' production/wireframe sprite links added, '+r.errors.length+' unresolved').join('; ')+'. Original wireframes reused where present; matching build-icon artwork fills absent wireframes. Restart game to reload; production queue visual test pending.';let s=JSON.parse(fs.readFileSync('D:/aramada/status.json','utf8').replace(/^\uFEFF/,''));s.current=message;fs.writeFileSync('D:/aramada/status.json',JSON.stringify(s,null,2));fs.appendFileSync('D:/aramada/build.log','\n['+new Date().toISOString()+'] '+message+'\n');console.log(message);
+

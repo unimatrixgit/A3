@@ -1,6 +1,6 @@
 const fs=require('fs'),p=require('path'),stamp=Date.now(),reports=[];
 const walk=d=>fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(p.join(d,e.name)):[p.join(d,e.name)]),read=f=>fs.readFileSync(f,'latin1');
-for(let root of ['D:/Xaramada','D:/armadaIII']){
+for(let root of ['D:/armadaIII']){
  const files=walk(root+'/odf').filter(f=>/\.odf$/i.test(f)),idx=new Map(files.map(f=>[p.basename(f).toLowerCase(),f]));
  function props(n,seen=new Set()){if(seen.has(n)||!idx.has(n))return {};seen.add(n);let t=read(idx.get(n)),v={};for(let m of t.matchAll(/^\s*#include\s+"([^"]+)"/gmi))Object.assign(v,props(m[1].toLowerCase(),seen));for(let m of t.matchAll(/^\s*(\w+)\s*=\s*(.*?)\s*(?:\/\/.*)?$/gm))v[m[1].toLowerCase()]=m[2].replace(/^"|"$/g,'');return v;}
  let changed=[],errors=[],buttons=[],fallbacks=[],menus=[],targets=new Map();
@@ -20,3 +20,4 @@ for(let root of ['D:/Xaramada','D:/armadaIII']){
  reports.push({root,menus:menus.length,targets:targets.size,menuDefinitions:menus,generatedButtonDefinitions:buttons,fallbacks,techAdded,errors,filesChanged:changed,runtimeVerified:false});
 }
 fs.writeFileSync('D:/aramada/reports/build-menu-validation.json',JSON.stringify(reports,null,2));let msg=reports.map(r=>r.root+': '+r.menus+' menus / '+r.targets+' build targets checked, '+r.generatedButtonDefinitions.length+' button links created, '+r.errors.length+' issues remaining').join('; ')+'. Numbering/order normalized where needed; available matching artwork reused. Runtime visual confirmation pending.';let s=JSON.parse(read('D:/aramada/status.json').replace(/^\uFEFF/,''));s.current=msg;fs.writeFileSync('D:/aramada/status.json',JSON.stringify(s,null,2));fs.appendFileSync('D:/aramada/build.log','\n['+new Date().toISOString()+'] '+msg+'\n');console.log(msg);console.log(JSON.stringify(reports.map(r=>r.errors)));
+

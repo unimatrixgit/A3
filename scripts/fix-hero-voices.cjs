@@ -1,5 +1,5 @@
 const fs=require('fs'),p=require('path');
-const roots=['D:/Xaramada','D:/armadaIII'],stamp=Date.now(),reports=[];
+const roots=['D:/armadaIII'],stamp=Date.now(),reports=[];
 function walk(d){return fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(p.join(d,e.name)):[p.join(d,e.name)]);}
 for(const root of roots){
  const idx=new Map(walk(root+'/odf').filter(f=>/\.odf$/i.test(f)).map(f=>[p.basename(f).toLowerCase(),f]));
@@ -32,4 +32,5 @@ for(const root of roots){
 fs.mkdirSync('D:/aramada/reports',{recursive:true});fs.writeFileSync('D:/aramada/reports/hero-voices.json',JSON.stringify(reports,null,2));
 let message='Hero voices applied: '+reports.map(r=>r.root+' '+r.units.length+' heroes, '+r.errors.length+' missing command audio').join('; ')+'. Kira uses temporary Federation audio. Restart required for running game.';
 fs.appendFileSync('D:/aramada/build.log','\n['+new Date().toISOString()+'] '+message+'\n');let s=JSON.parse(fs.readFileSync('D:/aramada/status.json','utf8').replace(/^\uFEFF/,''));s.current=message+' File references validated; in-game playback not yet tested.';fs.writeFileSync('D:/aramada/status.json',JSON.stringify(s,null,2));console.log(message);
+
 

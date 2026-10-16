@@ -5,7 +5,7 @@ function read(f){return fs.readFileSync(f,'latin1');}
 const originals=new Map(walk(original+'/odf').filter(f=>/\.odf$/i.test(f)).map(f=>[p.basename(f).toLowerCase(),f]));
 const sods=new Map(fs.readdirSync(original+'/SOD').map(f=>[f.toLowerCase(),f]));
 const textures=new Map(walk(original+'/Textures').map(f=>[p.basename(f).replace(/\.[^.]+$/,'').toLowerCase(),f]));
-for(let root of ['D:/Xaramada','D:/armadaIII']){
+for(let root of ['D:/armadaIII']){
  let idx=new Map(walk(root+'/odf').filter(f=>/\.odf$/i.test(f)).map(f=>[p.basename(f).toLowerCase(),f]));
  function props(n,seen=new Set()){if(seen.has(n)||!idx.has(n))return {};seen.add(n);let t=read(idx.get(n)),v={};for(let m of t.matchAll(/^\s*#include\s+"([^"]+)"/gmi))Object.assign(v,props(m[1].toLowerCase(),seen));for(let m of t.matchAll(/^\s*(\w+)\s*=\s*(.*?)\s*(?:\/\/.*)?$/gm))v[m[1].toLowerCase()]=m[2].replace(/^"|"$/g,'');return v;}
  function save(rel,data){let out=root+'/'+rel,b='D:/Xaramada-Modwork/backups/projectile-station-'+stamp+'/'+p.basename(root)+'/'+rel;fs.mkdirSync(p.dirname(b),{recursive:true});if(fs.existsSync(out)){if(!fs.existsSync(b))fs.copyFileSync(out,b);fs.chmodSync(out,0o666);}fs.mkdirSync(p.dirname(out),{recursive:true});fs.writeFileSync(out,data,typeof data==='string'?'latin1':undefined);let overlay='D:/aramada/'+(root.endsWith('armadaIII')?'bajor/overlay/':'overlay/')+rel;fs.mkdirSync(p.dirname(overlay),{recursive:true});fs.copyFileSync(out,overlay);}
@@ -31,4 +31,5 @@ for(let root of ['D:/Xaramada','D:/armadaIII']){
 fs.writeFileSync('D:/aramada/reports/projectile-station-recovery.json',JSON.stringify(reports,null,2));
 let message=reports.map(r=>r.root+': '+r.missingProjectileDefinitions.length+' missing projectile references repaired; '+r.restoredStations.length+' base-game station models restored').join('; ')+'. Shipyard III and added buildings retained. Crash retest required.';
 fs.appendFileSync('D:/aramada/build.log','\n['+new Date().toISOString()+'] '+message+'\n');let status=JSON.parse(fs.readFileSync('D:/aramada/status.json','utf8').replace(/^\uFEFF/,''));status.current=message;fs.writeFileSync('D:/aramada/status.json',JSON.stringify(status,null,2));console.log(message);
+
 

@@ -5,7 +5,7 @@ function entries(t){let map=new Map(),ref=256,mat='default';for(let l of t.split
 const originalEntries=entries(read(source+'/Sprites/gui_global.spr'));
 const stock=/^(?:[fbkrc](?:base|mining|yard|yard2|resear|resear2|upgrade|turret|turret2|sensor|orbital|trade|trading|repair|super)|8472_(?:mothership|research|advancedresearch|turret|sensor))$/i;
 let reports=[];
-for(let root of ['D:/Xaramada','D:/armadaIII']){
+for(let root of ['D:/armadaIII']){
  let copied=new Set();function save(rel,data){if(copied.has(rel.toLowerCase()))return;copied.add(rel.toLowerCase());let f=root+'/'+rel,b='D:/Xaramada-Modwork/backups/standard-gui-'+stamp+'/'+p.basename(root)+'/'+rel;fs.mkdirSync(p.dirname(b),{recursive:true});if(fs.existsSync(f)){fs.copyFileSync(f,b);fs.chmodSync(f,0o666);}fs.mkdirSync(p.dirname(f),{recursive:true});fs.writeFileSync(f,data,typeof data==='string'?'latin1':undefined);let out='D:/aramada/'+(root.endsWith('armadaIII')?'bajor/overlay/':'overlay/')+rel;fs.mkdirSync(p.dirname(out),{recursive:true});fs.copyFileSync(f,out);}
  function texture(name){let f=assetIndex.get(name.toLowerCase()+'.tga');if(f)save(p.relative(source,f),fs.readFileSync(f));return !!f;}
  let spr=read(root+'/Sprites/gui_global.spr'),restored=[];
@@ -25,3 +25,4 @@ for(let root of ['D:/Xaramada','D:/armadaIII']){
  reports.push({root,restoredStockBuildingIcons:restored,interfaces,borgProductionUpdated:production,universalBases:bases,universalMenu:menu,files:copied.size,baseline:'Original supplied installation; not certified clean vanilla',runtimeVerified:false});
 }
 fs.writeFileSync('D:/aramada/reports/standard-gui-builders.json',JSON.stringify(reports,null,2));let message='Original-install construction tiles and interface art restored for Borg, Federation, Klingon, Romulan, Cardassian and Species 8472. Breen/Dominion and added building art preserved. Universal Assembler renamed in-game, all faction bases included (Bajor in armadaIII). Borg production has bconst + uconst; bconst2 removed from production. Restart required; visual test pending.';let s=JSON.parse(read('D:/aramada/status.json').replace(/^\uFEFF/,''));s.current=message;fs.writeFileSync('D:/aramada/status.json',JSON.stringify(s,null,2));fs.appendFileSync('D:/aramada/build.log','\n['+new Date().toISOString()+'] '+message+'\n');console.log(JSON.stringify(reports.map(r=>({root:r.root,buildingIcons:r.restoredStockBuildingIcons.length,files:r.files,menu:r.universalMenu.length}))));
+
