@@ -1,0 +1,109 @@
+#include "tradingStation.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Trading Station"
+
+//tooltips
+tooltip = "Tradin Station"
+verboseTooltip = "Romulan Trading Station"
+
+//Name of the ODF file of the matching freighter to build with the station
+//freighterName = "rcargo"
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+// transfer rate from cargo ship to station
+//dilithiumTransferRate = 15.0
+cargoTransferRate = 50.0
+
+// what percent of trade profit this station gets
+percentTradeProfit = 15.0
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 2507
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.7
+
+//Possible Craft Names
+possibleCraftNames = "Trasalian XI" "Rutantius IX" "Cilperian III" "Ateclerix IV" "Andia VI" "Cernus II" "D'draluis XI" "Baur VI" 
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.50f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "TradingStationSelect"
+eventAcknowledge = "TradingStationAcknowledge"
+eventDecommission = "TradingStationDecommission"
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "trading_station"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "trading_station"
+hotkeyLabel = "HOTKEY_F12"
+
+//************************************************************
+// Brian additions for context sensitive menus
+transporter = 1
+trade_station = 1
+
+ScaleSOD = 1.75
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 750
+metalCost = 750
+latinumCost = 0
+biomatterCost = 0
+crewCost = 300
+officerCost = 6
+buildTime = 50
+
+baseName = "xvstock_rtrading"
+
+enginestargethardpoints = "hp01" "hp02" "hp06" "hp11" "hp16"
+
+lifesupporttargethardpoints = "hp01" "hp02" "hp07" "hp12" "hp17"
+
+weaponstargethardpoints = "hp01" "hp03" "hp08" "hp13" "hp18"
+
+shieldgeneratortargethardpoints = "hp01" "hp04" "hp09" "hp19"
+
+sensorstargethardpoints = "hp01" "hp05" "hp10" "hp15" "hp20"
+
+hulltargethardpoints = "hp01" "hp04" "hp06" "hp11" "hp16"
+
+criticaltargethardpoints = "hp01" "hp05" "hp10" "hp15" "hp20"

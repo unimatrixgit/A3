@@ -1,0 +1,122 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Mining Facility"
+
+tooltip = "Mining Facility"
+verboseTooltip = "Romulan Mining station"
+
+//Name of the ODF file of the matching freighter to build with the station
+freighterName = "rfreight"
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//Dilithium transfer rate from freighter to station
+dilithiumTransferRate = 15.0
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 2421
+
+//SYSTEM HITPOINTS
+shieldGeneratorHitPoints = 980
+enginesHitPoints = 0
+weaponsHitPoints = 0
+lifeSupportHitPoints = 960
+sensorsHitPoints = 960
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 3.2
+
+//Possible Craft Names
+possibleCraftNames = "S'klar-84" "S'klar-94" "S'klar-15" "S'klar-64" "S'klar-94" "S'klar-23" "S'klar-18" "S'klar-73"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Cloaking Device
+//weapon1 = "gcloak"
+//weaponHardpoints1 = "hp100"
+
+// Hardpoints to hit for various systems and other locations.
+"hp14" "hp16" "hp17" "hp20"
+"hp14" "hp16" "hp17" "hp20"
+"hp14" "hp16" "hp17" "hp20"
+"hp14" "hp16" "hp17" "hp20"
+"hp14" "hp16" "hp17" "hp20"
+"hp14" "hp16" "hp17" "hp20"
+"hp14" "hp16" "hp17" "hp20"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.50f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "MiningStationSelect"
+eventAcknowledge = "MiningStationAcknowledge"
+eventDecommission = "MiningStationDecommission"
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "mining"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "mining_station"
+hotkeyLabel = "HOTKEY_F5"
+
+// Brian additions for context sensitive menus
+transporter = 1
+alert = 0
+
+//*************************************************************
+// Make sure we can build this base near dilithium moons and planets
+resourcesCanHandle = "dilithium"
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 0
+metalCost = 400
+latinumCost = 0
+biomatterCost = 0
+crewCost = 250
+officerCost = 4
+buildTime = 50
+
+baseName = "xvstock_rmining"
+
+enginestargethardpoints = "hp01" "hp02" "hp08" "hp10" "hp12" "hp13"
+
+lifesupporttargethardpoints = "hp01" "hp02" "hp08" "hp10" "hp12" "hp13"
+
+weaponstargethardpoints = "hp01" "hp02" "hp08" "hp10" "hp12" "hp13"
+
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp08" "hp10" "hp12" "hp13"
+
+sensorstargethardpoints = "hp01" "hp02" "hp08" "hp10" "hp12" "hp13"
+
+hulltargethardpoints = "hp01" "hp02" "hp08" "hp10" "hp12" "hp13"
+
+criticaltargethardpoints = "hp01" "hp02" "hp08" "hp10" "hp12" "hp13"

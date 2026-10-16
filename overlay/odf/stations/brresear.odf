@@ -1,0 +1,106 @@
+#include "research.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Breen Research Facility"
+
+//tooltips
+tooltip = "Breen Research Facility"
+//verboseTooltip = "WRITEME"
+
+//Race which can build ship & starting race of ship
+race = "breen"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 3000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.5
+
+
+//**********************************************************************
+//Construction Parameters
+
+//**********************************************************************
+
+//Possible Craft Names
+possibleCraftNames = 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" "unknown" 
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp07" "hp08" "hp09" "hp10"
+lifeSupportTargetHardpoints = "hp07" "hp08" "hp09" "hp10"
+weaponsTargetHardpoints = "hp07" "hp08" "hp09" "hp10"
+shieldGeneratorTargetHardpoints = "hp07" "hp08" "hp09" "hp10"
+sensorsTargetHardpoints = "hp07" "hp08" "hp09" "hp10"
+hullTargetHardpoints = "hp07" "hp08" "hp09" "hp10"
+criticalTargetHardpoints = "hp07" "hp08" "hp09" "hp10"
+
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "ResearchStationSelect"
+eventAcknowledge = "ResearchStationAcknowledge"
+eventDecommission = "ResearchStationDecommission"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "research_station"
+hotkeyLabel = "HOTKEY_F6"
+
+//************************************************************
+// Brian additions for context sensitive menus
+transporter = 1
+scaleSOD = 4.7
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 0
+metalCost = 1000
+latinumCost = 0
+biomatterCost = 0
+crewCost = 300
+officerCost = 10
+buildTime = 120

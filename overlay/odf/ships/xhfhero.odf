@@ -1,0 +1,49 @@
+#include "fente.odf"
+unitName = "Jean-Luc Picard - Enterprise E"
+tooltip = "Jean-Luc Picard - Enterprise E"
+verboseTooltip = "Faction command hero. Replacements available at the Command Shipyard."
+baseName = "fente"
+race = "federation"
+isHero = 1
+label = "Jean-Luc Picard - Enterprise E"
+maxHealth = 13200
+
+
+
+
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 4195
+metalCost = 630
+latinumCost = 0
+biomatterCost = 0
+crewCost = 678
+officerCost = 10
+buildTime = 116
+
+eventSelect = "XV_xhfhero_Select"
+
+eventAcknowledge = "XV_xhfhero_Acknowledge"
+
+eventAttack = "XV_xhfhero_Attack"
+
+eventStop = "XV_xhfhero_Stop"
+
+eventMove = "XV_xhfhero_Move"
+
+eventRepair = "XV_xhfhero_Repair"
+
+eventRedAlert = "XV_xhfhero_RedAlert"
+
+eventYellowAlert = "XV_xhfhero_YellowAlert"
+
+eventGreenAlert = "XV_xhfhero_GreenAlert"
+
+eventTransport = "XV_xhfhero_Transport"
+
+eventSelfDestruct = "XV_xhfhero_SelfDestruct"
+
+eventDecommission = "XV_xhfhero_Decommission"

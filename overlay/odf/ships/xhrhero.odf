@@ -1,0 +1,49 @@
+#include "rbattle.odf"
+unitName = "Sela - Warbird"
+tooltip = "Sela - Warbird"
+verboseTooltip = "Faction command hero. Replacements available at the Command Shipyard."
+baseName = "rbattle"
+race = "romulan"
+isHero = 1
+label = "Sela - Warbird"
+maxHealth = 3620
+
+
+
+
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 635
+metalCost = 180
+latinumCost = 0
+biomatterCost = 0
+crewCost = 1450
+officerCost = 16
+buildTime = 31
+
+eventSelect = "XV_xhrhero_Select"
+
+eventAcknowledge = "XV_xhrhero_Acknowledge"
+
+eventAttack = "XV_xhrhero_Attack"
+
+eventStop = "XV_xhrhero_Stop"
+
+eventMove = "XV_xhrhero_Move"
+
+eventRepair = "XV_xhrhero_Repair"
+
+eventRedAlert = "XV_xhrhero_RedAlert"
+
+eventYellowAlert = "XV_xhrhero_YellowAlert"
+
+eventGreenAlert = "XV_xhrhero_GreenAlert"
+
+eventTransport = "XV_xhrhero_Transport"
+
+eventSelfDestruct = "XV_xhrhero_SelfDestruct"
+
+eventDecommission = "XV_xhrhero_Decommission"

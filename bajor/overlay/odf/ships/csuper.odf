@@ -1,0 +1,161 @@
+#include "special.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Dreadnought Missile"
+
+//tooltips
+tooltip = "Dreadnought Missile"
+verboseTooltip = "Cardassian Automated weapon of mass destruction"
+
+//Race which can build ship & starting race of ship
+race = "cardassian"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 2523
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 995
+enginesHitPoints = 926
+weaponsHitPoints = 998
+lifeSupportHitPoints = 0
+sensorsHitPoints = 942
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 8.4
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 2200
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 38
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 97
+impulseSpeed = 78
+warpSpeed = 900
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "Gloril" "Lagrim" "Thorthesh"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Super Weapon @TODO make this unique, this is the phoenix weapon.
+weapon1 = "gcDreadNaught"
+
+// This is a missile
+missileDetonator = "gcDreadnaught"
+
+//Phaser
+weapon2 = "cc09phas"
+weaponHardpoints2 = "hp07" "hp08"
+
+//Cloaking Device
+weapon3 = "gccloak"
+weaponHardpoints3 = "hp01"
+
+// Plasma bank
+weapon4 = "cc07plas"
+weaponHardpoints4 = "hp09"
+	
+// Hardpoints to hit for various systems and other locations.
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.75f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.75f
+
+//**********************************************************************
+
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "SuperSelect"
+eventAcknowledge = "SuperAcknowledge"
+eventAttack = "SuperAttack"
+eventStop = "SuperStop"
+eventMove = "SuperMove"
+eventRepair = "SuperRepair"
+
+//**********************************************************************
+
+// PROGRAMMING - We don't want to use the normal CraftProcess
+//	We're a missile, so use the MissileProcess
+aiName = "MissileProcess"
+
+//**********************************************************************
+//PHYSICS PARAMETERS
+
+//physics file for all other physics stuff
+physicsFile = "scsuperphys.odf"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "X"
+hotkeyLabel = "HOTKEY_F1"
+has_crew = 0
+alert = 0
+can_guard = 0
+can_sandd = 0
+can_explore = 0
+
+scaleSOD = 0.5
+
+// we want this ship to always be in green alert and low movement autonomy -- don't want them running off and doing stuff
+defaultGreenAlert = 1
+
+// this can attack planets
+canAttackPlanets = 1
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 1000
+metalCost = 1000
+latinumCost = 0
+biomatterCost = 0
+crewCost = 0
+officerCost = 0
+buildTime = 117
+
+baseName = "xvstock_csuper"
+
+weaponhardpoints1 = "hp01" 
+
+enginestargethardpoints = "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+
+lifesupporttargethardpoints = "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+
+weaponstargethardpoints = "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+
+shieldgeneratortargethardpoints = "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+
+sensorstargethardpoints = "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+
+hulltargethardpoints = "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+
+criticaltargethardpoints = "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"

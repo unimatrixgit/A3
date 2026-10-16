@@ -1,0 +1,88 @@
+//
+// species8472_build_list.aip
+//
+// Contains a basic build list for species 8472
+//
+// edited by the Nord
+
+// Load up the basic structures...
+#include "aipdef.h"
+
+
+Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] = 
+{
+//--------------------------------------------------------------------  
+
+	//
+	// Phase I. Mother and basic setup
+	//
+
+	"8472_mothership",	1,0, -1,  0,	
+	"8472_active",		1,0, -1,  0,		
+	"8472_passive",		1,0, -1,  0,
+	"714const",			1,0, -1,  0,
+	"8472_active",		3,0, -1,  0,
+	"8472_passive",		3,0, -1,  0,
+	"8472fig",			2,0, -1,  0,
+	"8472_cruise1",		1,0, -1,  0,
+	"8472_transmuter",	1,0, -1,  0,
+	"8472_cruise2",		1,0, -1,  0,
+
+	//
+	// Phase II. Fluidic Gate
+	//
+
+	"8472_FluidicGate",	1,0, -1,  0,
+	"8472_defender",		1,0, -1,  0,
+	"8472_battle",		1,0, -1,  0,
+	"8472_mothership",		1,1, -1,  0,
+	"8472_sentinel",		1,0, -1,  0,
+	"8472_collector",		2,0, -1,  0,
+	"8472_behemoth",		1,0, -1,  0,		
+
+	//
+	// Phase III. Base advancement
+	//
+
+	"8472_battle",		1,0, -1,  0,
+	"8472_FluidicGate",	1,1, -1,  0,
+	"714turr",			2,1, -1,  0,
+	"8472_active",		1,0, -1,  0,
+	"714syard",			1,0, -1,  0,
+	"8472_destroy",		2,0, -1,  0,
+	"8472_battle",		2,0, -1,  0,
+	"714orca",			1,0, -1,  0,
+	"8472_sentinel",		2,0, -1,  0,
+
+	//
+	// Phase IV. Base advancement
+	//
+
+	"8472_frigate",		1,0, -1,  0,
+	"8472be2",			1,0, -1,  0,
+	"714skate",			2,0, -1,  0,
+	"8472_FluidicGate",	1,0, -1,  0,
+	"8472_mine",		1,1, -1,  0,
+	"714syard",			1,1, -1,  0,
+	"8472_cruise1",		1,0, -1,  0,
+	"8472_battle",		2,0, -1,  0,
+	"8472fig",			2,0, -1,  0,
+
+	//
+	// Phase V. Final Phase
+	//
+
+	"714syard",			1,1, -1,  0,
+	"714rnode",			1,0, -1,  0,
+	"8472_mothership",	1,1, -1,  0,
+	"8472_sentinel",		2,0, -1,  0,
+	"714orca",			1,0, -1,  0,
+	"714hydra",			1,0, -1,  0,
+	"8472be2",			1,0, -1,  0,
+	"8472_battle",		1,0, -1,  0,
+	"8472_behemoth",		1,0, -1,  0,
+	"714turr",			1,0, -1,  0,
+	"714tmat",			1,0, -1,  0,
+
+}; 
+

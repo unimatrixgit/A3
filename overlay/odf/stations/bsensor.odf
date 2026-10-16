@@ -1,0 +1,110 @@
+#include "turret.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Detection Array"
+
+//tooltips
+tooltip = "BORG_SENSOR"
+verboseTooltip = "BORG_SENSOR_V"
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 980
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 4.0
+
+//This is the range in meters which the ships sensors can see (LOS)
+rangeScan = 1550.0f
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+attackPower = 0.0f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.05f
+
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Detect Cloak
+weapon1 = "gdetectb"
+
+// Hardpoints to hit for various systems and other locations.
+
+//**********************************************************************
+// Tara additions for context sensitive menus
+combat = 0
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 970
+enginesHitPoints = 0
+weaponsHitPoints = 560
+lifeSupportHitPoints = 350
+sensorsHitPoints = 999
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "SensorSelect"
+eventAcknowledge = "SensorAcknowledge"
+eventDecommission = "SensorDecommission"
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "sensor_turret"
+hotkeyLabel = "HOTKEY_F3"
+
+// borg turret needs looped animation
+animation = 2
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 100
+metalCost = 50
+latinumCost = 0
+biomatterCost = 0
+crewCost = 0
+officerCost = 2
+buildTime = 25
+
+baseName = "xvstock_bsensor"
+
+weaponhardpoints1 = "hp01" "hp02" "hp03" "hp04"
+
+enginestargethardpoints = "hp01" "hp04" "hp05" "hp06" "hp09"
+
+lifesupporttargethardpoints = "hp01" "hp04" "hp05" "hp06" "hp09"
+
+weaponstargethardpoints = "hp01" "hp04" "hp05" "hp06" "hp09"
+
+shieldgeneratortargethardpoints = "hp01" "hp04" "hp05" "hp06" "hp09"
+
+sensorstargethardpoints = "hp01" "hp04" "hp05" "hp06" "hp09"
+
+hulltargethardpoints = "hp01" "hp04" "hp05" "hp06" "hp09"
+
+criticaltargethardpoints = "hp01" "hp04" "hp05" "hp06" "hp09"

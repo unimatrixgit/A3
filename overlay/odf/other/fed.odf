@@ -1,0 +1,141 @@
+// Name used to refer to the race in the code and scripts.
+name = "federation"
+
+// Name displayed in the interface for this race.
+displayKey = "GUI_RD_FEDERATION"
+
+// Instant action slot, negative means not playable
+instantActionSlot = 0
+
+// Name of the interface configuration and sprite files.
+interfaceConfiguration = "gui_fed.cfg"
+interfaceSprites = "gui_federation.spr"
+
+
+// Label for admirals log creation
+creationLabel = "ADM_COMMISSIONED"
+recycledLabel = "ADM_DECOMMISSIONED"
+
+// Music play list.
+singlePlayerMusic = "mfed300.wav"
+multiPlayerMusic = "mfedmp300.wav"
+
+// Transporter sprite
+transportSprite = "ftransport"
+
+// How quickly this race repairs. Bigger is slower
+repairStrength = 7.0f
+
+// How strong this race is when fighting as a boarding party or
+// against a boarding party.
+boardingStrength = 1.0f
+
+// When this race will retreat from battle
+retreatStrength = 0.15f //shield percentage
+crewRetreatRatio = 0.10f //crew percentage
+
+//number of crew added to the team per second per starbase
+//also used as base for planetary civilian rate
+crewAccumulationRate = 4.0
+
+//the modifier for the crewAccumulationRate for a starbase if it is close to a planet
+planetCrewAccumulationModifier = 1.25
+
+// Name of the city texture, "" means none
+cityTextureName = "ECFR"
+
+// atmosphere tint (white)
+atmosphereTint = 1.0 1.0 1.0
+
+// # of cities in the city texture
+numCities = 35.0
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The percentage at which the crew enters yellow status (ex. 0.75f)
+crewYellowStatus = 0.4f
+
+//The percentage at which the crew enters red status (ex. 0.25f)
+crewRedStatus = 0.2f
+
+//The multiplier for the repair time while in yellow status
+repairYellow = 1.5f
+
+//The multiplier for the repair time while in red status
+repairRed = 2.0f
+
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+
+//***************************
+
+//ODF for officer upgrade for starbases
+officerUpgradeODF = "fedoff"
+
+// the things you get when you ask for minimal default units (instead of the map units)
+minimalUnits1 = "fconst.odf"	// construction ship
+
+// the things you get when you ask for standard default units (instead of the map units)
+standardUnits1 = "fconst.odf"	// construction ship
+standardUnits2 = "fconst.odf"	// construction ship
+standardUnits3 = "fbase.odf"	// starbase
+standardUnits4 = "fscout.odf"	// starbase
+
+// the things you get when you ask for superside units (instead of the map units)
+superUnits1 = "bconst.odf"	// borg construction ship
+superUnits2 = "fconst.odf"	// federation construction ship
+superUnits3 = "kconst.odf"	// klingon construction ship
+superUnits4 = "rconst.odf"	// romulan construction ship
+
+ctfUnits1 = "ctf_fbase.odf"
+ctfUnits2 = "ctf_fconst.odf"
+ctfUnits3 = "ctf_fconst.odf"
+ctfUnits4 = "fscout.odf"
+
+// for the computer voice
+computerShipConstructionBegin1 = "gvofc022.wav"
+computerShipConstructionBegin2 = "gvofc023.wav"
+computerShipConstructionComplete1 = "gvofc024.wav"
+computerFacilityConstructionBegin1 = "gvofc022.wav"
+computerFacilityConstructionBegin2 = "gvofc023.wav"
+computerFacilityConstructionComplete1 = "gvofc024.wav"
+computerWeaponsOffline1 = "gvofc01.wav"
+computerEnginesOffline1 = "gvofc03.wav"
+computerEnginesOffline2 = "gvofc05.wav"
+computerShieldGeneratorOffline1 = "gvofc09.wav"
+computerLifeSupportOffline1 = "gvofc011.wav"
+computerSensorsOffline1 = "gvofc07.wav"
+computerUnderAttack1 = ""
+
+// Fed are average at recycling
+// Recycling efficiency
+recycleDilithiumFraction = .8
+recycleMetalFraction = .8
+
+// How relatively fast we mine any resource
+miningRateModifier = 1.0
+
+// what event should we use when we run out of officers?
+insufficientOfficersEvent = "InsufficientFedOfficers"
+
+// for normal and lots of resource games, we need to specify how much
+// of each resource this race should get
+
+// NORMAL
+normalDilithium = 3500
+normalMetal = 2000
+normalLatinum = 500
+normalCrew = 1200
+
+// LOTS
+lotsDilithium = 30000
+lotsMetal = 30000
+lotsLatinum = 30000
+lotsCrew = 30000
+
+standardUnits5 = "xhfhero.odf"
+
+minimalUnits2 = "xhfhero.odf"

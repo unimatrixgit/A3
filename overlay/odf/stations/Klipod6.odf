@@ -1,0 +1,43 @@
+#include "pod.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Death Chant Pod"
+
+//tooltips
+tooltip = "KLI_POD6"
+verboseTooltip = "KLI_POD6_V"
+
+//Race which can build ship & starting race of ship
+race = "klingon"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Dilithium Cost to build
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "death_chant"
+hotkeyLabel = "HOTKEY_F1"
+
+
+
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 0
+metalCost = 0
+latinumCost = 650
+biomatterCost = 0
+crewCost = 0
+officerCost = 2
+buildTime = 140

@@ -1,0 +1,119 @@
+sprite_table
+
+# dominion interface sprites.
+
+# Blending modes
+# --------------
+
+# 0x21 - Normal		
+# 0x56 - Use alpha
+# 0x22 - Additive
+
+## SPRITE DATA ##
+
+# @reference=texture size in pixels from which the u,v,w, and h values
+# were measured.  This value will effect all subsequent textures until
+# a different value is specified.
+
+# Name      		File       		U 	V 	W 	H 	
+
+# dominion Minimap
+@reference=256
+@tmaterial=interface
+minimapBackgroundPanel.0		domUI0		0	122	256	46
+minimapBackgroundPanel.1		domUI1		92	205	94	46
+minimapBackgroundPanel.2		domUI1		244	0	10	256
+minimapBackgroundPanel.3		domUI1		186	211	46	37
+minimapBackgroundPanel.4		domUI1		0	0	46	240
+minimapBackgroundPanel.5		domUI1		232	193	10	21
+minimapBackgroundPanel.6		domUI0		0	0	256	61
+minimapBackgroundPanel.7		domUI1		92	83	94	61
+
+mapfilter_ship_button			uiFilterButtons		0	0	50	20
+mapfilter_station_button		uiFilterButtons		50	0	50	20
+
+# dominion Cinematic View
+@reference=256
+@tmaterial=default
+cinematic_background			dguif04		0	0	256	256		
+@tmaterial=interface
+cinematicBackgroundPanel.0		domUI1		92	0	94	83
+cinematicBackgroundPanel.1		domUI0		0	168	256	46
+cinematicBackgroundPanel.2		domUI5		0	0	10	256
+cinematicBackgroundPanel.3		domUI1		46	0	46	240
+cinematicBackgroundPanel.4		domUI1		232	214	10	21
+cinematicBackgroundPanel.5		domUI1		92	144	94	61
+cinematicBackgroundPanel.6		domUI0		0	61	256	61
+
+# dominion Resource Panel
+resourcePanel.0		domUI0		0	214	256	40
+resourcePanel.1		domUI2		0	0	256	40
+resourcePanel.2		domUI2		0	200	76	40
+resourcePanel.3		domUI2		0	40	256	40
+resourcePanel.4		domUI2		0	80	194	40
+
+# dominion Status Panel
+@reference=256
+@tmaterial=interface
+
+infoBackgroundPanel.0		domUI3		28	0	29	99
+infoBackgroundPanel.1		domUI3		0	0	28	116
+infoBackgroundPanel.10		domUI1		186	0	29	211
+infoBackgroundPanel.11		domUI2		194	80	28	176
+infoBackgroundPanel.12		domUI3		0	146	256	10
+infoBackgroundPanel.13		domUI3		0	156	256	10
+infoBackgroundPanel.14		domUI3		0	166	256	10
+infoBackgroundPanel.15		domUI2		55	240	55	10
+infoBackgroundPanel.2		domUI4		0	10	256	8
+infoBackgroundPanel.3		domUI4		0	18	256	8
+infoBackgroundPanel.4		domUI4		0	26	256	8
+infoBackgroundPanel.5		domUI1		186	248	55	8
+infoBackgroundPanel.6		domUI3		0	116	256	10
+infoBackgroundPanel.7		domUI3		0	126	256	10
+infoBackgroundPanel.8		domUI3		0	136	256	10
+infoBackgroundPanel.9		domUI2		0	240	55	10
+infoLowBackgroundPanel.0		domUI3		57	0	29	85
+infoLowBackgroundPanel.1		domUI2		116	200	28	50
+infoLowBackgroundPanel.2		domUI4		0	34	256	8
+infoLowBackgroundPanel.3		domUI4		0	42	256	8
+infoLowBackgroundPanel.4		domUI4		0	50	256	8
+infoLowBackgroundPanel.5		domUI3		167	10	55	8
+infoLowBackgroundPanel.6		domUI3		0	176	256	10
+infoLowBackgroundPanel.7		domUI3		0	186	256	10
+infoLowBackgroundPanel.8		domUI3		0	196	256	10
+infoLowBackgroundPanel.9		domUI3		112	0	55	10
+infoMiddleBackgroundPanel.0		domUI1		215	0	29	193
+infoMiddleBackgroundPanel.1		domUI2		222	80	28	176
+infoMiddleBackgroundPanel.10		domUI3		0	236	256	10
+infoMiddleBackgroundPanel.11		domUI3		0	246	256	10
+infoMiddleBackgroundPanel.12		domUI4		0	0	256	10
+infoMiddleBackgroundPanel.13		domUI3		112	10	55	10
+infoMiddleBackgroundPanel.2		domUI4		0	58	256	8
+infoMiddleBackgroundPanel.3		domUI4		0	66	256	8
+infoMiddleBackgroundPanel.4		domUI4		0	74	256	8
+infoMiddleBackgroundPanel.5		domUI3		167	18	55	8
+infoMiddleBackgroundPanel.6		domUI3		0	206	256	10
+infoMiddleBackgroundPanel.7		domUI3		0	216	256	10
+infoMiddleBackgroundPanel.8		domUI3		0	226	256	10
+infoMiddleBackgroundPanel.9		domUI3		167	0	55	10
+
+# info panel icon
+@reference=128
+officers				shipinfo		64	64	32	32
+
+
+@tmaterial=interface
+@reference=256
+
+# Button stuff
+idle_button		domUI2		76	200	40	40
+
+# help window -- framing element for verbose tooltip mode
+tooltipFrameTop.0		domUI2		0	120	175	20
+tooltipFrameTop.1		domUI2		0	140	175	20
+
+tooltipFrameBottom.0		domUI2		0	160	175	20
+tooltipFrameBottom.1		domUI2		0	180	175	20
+
+tooltipFrameLeft		domUI2		144	200	26	36
+tooltipFrameRight		domUI3		86	0	26	36

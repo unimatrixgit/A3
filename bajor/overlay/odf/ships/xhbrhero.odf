@@ -1,0 +1,49 @@
+#include "brbattle.odf"
+unitName = "Thot Gor - Breen Flagship"
+tooltip = "Thot Gor - Breen Flagship"
+verboseTooltip = "Faction command hero. Replacements available at the Command Shipyard."
+baseName = "brbattle"
+race = "breen"
+isHero = 1
+label = "Thot Gor - Breen Flagship"
+maxHealth = 1800
+
+
+
+
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 540
+metalCost = 120
+latinumCost = 0
+biomatterCost = 0
+crewCost = 700
+officerCost = 13
+buildTime = 33
+
+eventSelect = "XV_xhbrhero_Select"
+
+eventAcknowledge = "XV_xhbrhero_Acknowledge"
+
+eventAttack = "XV_xhbrhero_Attack"
+
+eventStop = "XV_xhbrhero_Stop"
+
+eventMove = "XV_xhbrhero_Move"
+
+eventRepair = "XV_xhbrhero_Repair"
+
+eventRedAlert = "XV_xhbrhero_RedAlert"
+
+eventYellowAlert = "XV_xhbrhero_YellowAlert"
+
+eventGreenAlert = "XV_xhbrhero_GreenAlert"
+
+eventTransport = "XV_xhbrhero_Transport"
+
+eventSelfDestruct = "XV_xhbrhero_SelfDestruct"
+
+eventDecommission = "XV_xhbrhero_Decommission"

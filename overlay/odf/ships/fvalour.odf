@@ -1,0 +1,118 @@
+#include "destroy.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Valour Class"
+
+//tooltips
+tooltip = "Valour Class"
+verboseTooltip = "Section 31 Heavy Scout"
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 717
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 136
+enginesHitPoints = 141
+weaponsHitPoints = 138
+lifeSupportHitPoints = 124
+sensorsHitPoints = 208
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 6.2
+
+rangeScan = 2500.0f
+scout = 1
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 1000
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 10
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 79
+impulseSpeed = 80
+warpSpeed = 820
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "USS Galahad" "USS King Arthur" "USS Valour"
+	
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Type IX Phaser
+weapon1 = "fc09phas"
+weaponHardpoints1 = "hp20" "hp21" "hp22" "hp23" "hp24" "hp25"
+ 
+//Detect Cloak 3
+weapon2 = "gdetectf"
+weaponHardpoints2 = "hp11"
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03"
+lifeSupportTargetHardpoints = "hp04"
+weaponsTargetHardpoints = "hp05" "hp06"
+shieldGeneratorTargetHardpoints = "hp07" "hp08" "hp09"
+sensorsTargetHardpoints = "hp10"
+hullTargetHardpoints = "hp01" "hp04" "hp06"  "hp07" "hp10"
+criticalTargetHardpoints = "hp01" "hp03" "hp04" "hp05" "hp07" "hp10"
+
+//**********************************************************************
+
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.10f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.15f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "fed_scout"
+hotkeyLabel = "HOTKEY_F1"
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 350
+metalCost = 50
+latinumCost = 0
+biomatterCost = 0
+crewCost = 42
+officerCost = 10
+buildTime = 30

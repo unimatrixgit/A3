@@ -1,0 +1,111 @@
+#include "research.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+//tooltips
+
+//Race which can build ship & starting race of ship
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 1000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 10
+
+
+//**********************************************************************
+//Construction Parameters
+
+podHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+
+//**********************************************************************
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Brahms Center" "Daystrom Center" "Soong Center" "Cochrane Center"
+	"Planck Center" "Avogadro Center" "Doppler Center" "Frege Center"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp07" "hp08" "hp09" "hp10"
+lifeSupportTargetHardpoints = "hp07" "hp08" "hp09" "hp10"
+weaponsTargetHardpoints = "hp07" "hp08" "hp09" "hp10"
+shieldGeneratorTargetHardpoints = "hp07" "hp08" "hp09" "hp10"
+sensorsTargetHardpoints = "hp07" "hp08" "hp09" "hp10"
+hullTargetHardpoints = "hp07" "hp08" "hp09" "hp10"
+criticalTargetHardpoints = "hp07" "hp08" "hp09" "hp10"
+
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//**********************************************************************
+//****************************************************************************************************************************************
+//SYSTEM HITPOINTS
+shieldGeneratorHitPoints = 2000
+enginesHitPoints = 0
+weaponsHitPoints = 0
+lifeSupportHitPoints = 2000
+sensorsHitPoints = 2000
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "ResearchStationSelect"
+eventAcknowledge = "ResearchStationAcknowledge"
+eventDecommission = "ResearchStationDecommission"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "research_station"
+hotkeyLabel = "HOTKEY_F6"
+
+//************************************************************
+// Brian additions for context sensitive menus
+transporter = 1
+
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 0
+metalCost = 1000
+latinumCost = 0
+biomatterCost = 0
+crewCost = 300
+officerCost = 10
+buildTime = 120
+
+race = "bajoran"
+unitName = "Bajoran Engineering Institute"
+tooltip = "Bajoran Engineering Institute"
+verboseTooltip = "Bajoran Engineering Institute. Bajoran Militia. TV-inspired game adaptation."
+baseName = "fresear"

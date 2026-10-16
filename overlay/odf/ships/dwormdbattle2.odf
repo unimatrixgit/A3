@@ -1,0 +1,135 @@
+// Begin main properties
+
+unitName = "Wormhole Jem'Hadar Warship"
+tooltip = "Wormhole Jem'Hadar Warship"
+verboseTooltip = "Warship from the Gamma Quadrant."
+race = "dominion"
+maxHealth = 2000
+shieldGeneratorHitPoints = 260
+enginesHitPoints = 240
+weaponsHitPoints = 260
+lifeSupportHitPoints = 220
+sensorsHitPoints = 220
+shieldRate = 8.0
+maxSpecialEnergy = 1000
+specialEnergyRate = 10
+attackPower = 1.00f
+intrinsicValue = 0.50f
+shipclass = "battleship"
+enginesHitPercent = 5.0f
+lifeSupportHitPercent = 8.5f
+weaponsHitPercent = 5.0f
+shieldGeneratorHitPercent = 8.0f
+sensorsHitPercent = 8.0f
+crewHitPercent = 8.5f
+hullHitPercent = 57.0f
+
+// End main properties
+
+// Begin weapons
+
+weapon1 = "zjmphas"
+weaponHardpoints1 = "hp01" "hp07" "hp08"
+weapon2 = "jmphot"
+weaponHardpoints2 = "hp02" "hp04"
+weapon3 = "gselfdes"
+weaponHardpoints3 = "hp01"
+
+// End weapons
+
+// Begin hardpoints
+
+enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29"
+shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hullTargetHardpoints = "hp06" "hp08" "hp10" "" "hp12" "hp14" "hp16" "hp18" "hp20" "hp22"
+criticalTargetHardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp21" "hp23"
+
+// End hardpoints
+
+// Begin sounds
+
+eventSelect = "BattleSelect"
+eventAcknowledge = "BattleAcknowledge"
+eventAttack = "BattleAttack"
+eventStop = "BattleStop"
+eventMove = "BattleMove"
+eventRepair = "BattleRepair"
+
+// End sounds
+
+// Begin ship names
+possibleCraftNames = 
+	"1st Div 1st Bat" "1st Div 2nd Bat" "1st Div 3rd Bat" 
+	"1st Div 4th Bat" "1st Div 5th Bat" "1st Div 6th Bat" 
+	"1st Div 7th Bat" "1st Div 8th Bat" "1st Div 9th Bat" 
+	"2nd Div 1st Bat" "2nd Div 2nd Bat" "2nd Div 3rd Bat" 
+	"2nd Div 4th Bat" "2nd Div 5th Bat" "2nd Div 6th Bat" 
+	"2nd Div 7th Bat" "2nd Div 8th Bat" "2nd Div 9th Bat" 
+	"3rd Div 1st Bat" "3rd Div 2nd Bat" "3rd Div 3rd Bat" 
+	"3rd Div 4th Bat" "3rd Div 5th Bat" "3rd Div 6th Bat" 
+	"3rd Div 7th Bat" "3rd Div 8th Bat" "3rd Div 9th Bat"
+	"4th Div 1st Bat" "4th Div 2nd Bat" "4th Div 3rd Bat" 
+	"4th Div 4th Bat" "4th Div 5th Bat" "4th Div 6th Bat" 
+	"4th Div 7th Bat" "4th Div 8th Bat" "4th Div 9th Bat" 
+	"5th Div 1st Bat" "5th Div 2nd Bat" "5th Div 3rd Bat" 
+	"5th Div 4th Bat" "5th Div 5th Bat" "5th Div 6th Bat" 
+	"5th Div 7th Bat" "5th Div 8th Bat" "5th Div 9th Bat" 
+
+// End ship names
+
+// Begin misc properties
+
+saneCrewLossMethod = 1
+weaponYellow = 1.0f
+weaponRed = 0.75f
+hotkeyLabel = "HOTKEY_F4"
+ScaleSOD = 2.3
+avoidanceClass = 8
+canAttackPlanets = 1
+physicsFile = "sbattphys.odf"
+trekPhysicsFile = "trek_sbattphys.odf"
+fireball = "xfireblg"
+combat = 1
+alert = 1
+can_sandd = 1
+shipType = "B"
+shieldDelay = 3.0f
+rangeScan = 800.0f
+damagedScan = 125.0
+enginesRepairTime = 1.0f
+lifeSupportRepairTime = 0.1f
+weaponsRepairTime = 2.0f
+shieldGeneratorRepairTime = 2.0f
+sensorsRepairTime = 3.0f
+enginesCrewLoss = 5.0f
+lifeSupportCrewLoss = 3.0f
+weaponsCrewLoss = 2.0f
+shieldGeneratorCrewLoss = 2.0f
+sensorsCrewLoss = 2.0f
+lifeSupportLoss = 2.0f
+weldingRadius = 1.0
+classLabel = "craft"
+aiName = "CraftProcess"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+can_explore = 1
+
+// End misc properties
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 90
+metalCost = 60
+latinumCost = 0
+biomatterCost = 0
+crewCost = 400
+officerCost = 12
+buildTime = 5

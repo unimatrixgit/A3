@@ -1,0 +1,95 @@
+//
+// Borg_Build_List.aip
+//
+// Contains a default build list for the klingon AI
+//
+// edited by the Nord
+
+// Load up the basic structures...
+#include "aipdef.h"
+
+// This aip needs to play by the rules
+int checkTechnologyAvailable = 0;
+
+Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] = 
+{
+//--------------------------------------------------------------------  
+
+//
+// Syntax: "ODF name", number to build, base to build at, max number from this line, min tech level
+//
+
+	//
+	// Phase I. Starting Base, basic defenses, basic shipyard, starting mining
+	//
+
+	"bbase",	1,0, -1,  0,	// nexus
+	"bconst",	1,0, -1,  0,	// assembler
+	"bconst",	1,0, -1,  0,	// assembler
+	"bmining",	1,0, -1,  0,	// mining facility
+	"byard",	1,0, -1,  0,	// standard assembly matrix
+	"bturret",	2,0, -1,  0,	// pulse turret
+	"bdestroy",	1,0, -1,  0,	// interceptor
+	"bfreight",	1,0, -1,  0,	// freighter
+	"bsensor",	1,0, -1,  0,	// sensor turret
+	"bcolony",	1,0, -1,  0,	// colony vessel
+	"byard",	1,0, -1,  0,	// standard assembly matrix
+
+	//
+	// Phase II. shipbuild, further mining, further defense, advanced shipyard
+	//
+
+	"bmining",	1,1, -1,  0,	// mining facility
+	"bturret",	2,1, -1,  0,	// pulse turret
+	"bturret2",	1,0, -1,  0,	// torpedo turret
+	"bcruise1",	1,0, -1,  0,	// sphere
+	"bconst2",	1,0, -1,  0,	// advanced assembler
+	"bbase2",	1,0, -1,  0,	// orbital metal extractor
+	"bcruise2",	1,0, -1,  0,	// assimilator
+	"bmining",	1,2, -1,  0,	// mining facility
+	"bassturr",	1,1, -1,  0,	// assimilation facility
+	"byard2",	1,0, -1,  0,	// advanced assembly matrix
+	"bdestroy2", 1,0, -1, 0,	// interceptor mk2
+
+	//
+	// Phase III. further shipbuild, more defenses, 3rd borg shipyard
+	//
+
+	"bturret",	2,2, -1,  0,	// pulse turret
+	"bturret2",	1,1, -1,  0,	// torpedo turret
+	"bassault",	1,0, -1,  0,	// dominator
+	"bbattle1",	1,0, -1,  0,	// cube
+	"bcruise1",	1,0, -1,  0,	// sphere
+	"byard2",	1,0, -1,  0,	// advanced assembly matrix
+	"btacpyr",	1,0, -1,  0,	// tactical pyramid
+	"bassturr",	1,2, -1,  0,	// assmilation facility
+	"byard3",	1,0, -1,  0,	// 3rd construction matrix
+
+	//
+	// Phase IV. base advancement
+	//
+	
+	"bcruise3",	1,0, -1,  0,	// standard pyramid
+	"bbattle2",	1,0, -1,  0,	// tactical cube
+	"bomega",	1,0, -1,  0,	// omega powered cube
+	"bspecial",	1,0, -1,  0,	// diamond
+	"byard",	1,1, -1,  0,	// standard assembly matrix
+	"bcruise1",	1,0, -1,  0,	// sphere
+	"bcruise2",	1,0, -1,  0,	// assimilator
+	"bfrigate",	1,0, -1,  0,	// deemon tooth
+	"bturret",	1,2, -1,  0,	// pulse turret
+	"bturret2",	1,1, -1,  0,	// torpedo turret
+
+	//
+	// Phase V. base advancement
+	//
+
+	"brenborg",	1,0, -1,  0,	// transwarp prototype
+	"bdestroy",	1,0, -1,  0,	// interceptor
+	"bmining",	1,1, -1,  0,	// mining facility
+	"bbattle1",	1,0, -1,  0,	// cube
+	"bbattle2", 1,0, -1,  0,	// tactical cube
+	"bcruise1",	1,0, -1,  0,	// sphere
+	"bmama",	1,0, -1,  0,	// mama cube
+
+}; 

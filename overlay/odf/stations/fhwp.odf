@@ -1,0 +1,131 @@
+#include "turret.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Cyclone Defense Station"
+
+//tooltips
+tooltip = "Cyclone Defense Station - Turret"
+verboseTooltip = "This station is heavily armed with strong shields."
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 750
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 7.5
+
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+//These values are the hitpoint values of the systems
+//If the value is set to zero the ship does not have that system
+weaponsHitPoints = 750
+//**********************************************************************
+
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Photon torpedos
+weapon1 = "fhwpphas"
+weaponHardpoints1 = "hp01" "hp05"
+
+// Photon torpedos
+weapon2 = "fhwpphas"
+weaponHardpoints2 = "hp02" "hp06"
+
+// Photon torpedos
+weapon3 = "fhwpphas"
+weaponHardpoints3 = "hp03" "hp07"
+
+// Photon torpedos
+weapon4 = "fhwpphas"
+weaponHardpoints4 = "hp04" "hp08"
+
+// Photon torpedos
+weapon5 = "fhwpphot"
+weaponHardpoints5 = "hp10" "hp16"
+
+// Photon torpedos
+weapon6 = "fhwpphot"
+weaponHardpoints6 = "hp11" "hp17"
+
+// Photon torpedos
+weapon7 = "fhwpphot"
+weaponHardpoints7 = "hp12" "hp18"
+
+// Photon torpedos
+weapon8 = "fhwpphot"
+weaponHardpoints8 = "hp13" "hp19"
+
+// Photon torpedos
+weapon9 = "fhwpphot"
+weaponHardpoints9 = "hp14" "hp20"
+
+// Photon torpedos
+weapon10 = "fhwpphot"
+weaponHardpoints10 = "hp15" "hp21"
+
+// Photon torpedos
+//weapon11 = "fbpulse"
+//weaponHardpoints11 = "hp26" "hp29"
+
+// Photon torpedos
+//weapon12 = "fbpulse"
+//weaponHardpoints12 = "hp27" "hp28"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = 
+lifeSupportTargetHardpoints =
+weaponsTargetHardpoints = "hp01" "hp05" "hp03" "hp07" "hp10" "hp16" "hp12" "hp18" "hp14" "hp20" "hp26" "hp29"
+shieldGeneratorTargetHardpoints = "hp22" "hp23"
+sensorsTargetHardpoints = "hp09"
+hullTargetHardpoints = "hp04" "hp08"
+criticalTargetHardpoints = "hp26" "hp29"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "PhotonTurretSelect"
+eventAcknowledge = "PhotonTurretAcknowledge"
+eventAttack = "PhotonTurretAttack"
+eventDecommission = "PhotonTurretDecommission"
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "photon_turret"
+hotkeyLabel = "HOTKEY_F9"
+
+//************************************************************
+// Brian additions for context sensitive menus
+alert = 1
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 135
+metalCost = 70
+latinumCost = 0
+biomatterCost = 0
+crewCost = 0
+officerCost = 2
+buildTime = 29

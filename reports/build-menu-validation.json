@@ -1,0 +1,2890 @@
+[
+  {
+    "root": "D:/Xaramada",
+    "menus": 117,
+    "targets": 528,
+    "menuDefinitions": [
+      {
+        "parent": "714const.odf",
+        "prefix": "buildItem",
+        "items": [
+          "714syard",
+          "714turr"
+        ]
+      },
+      {
+        "parent": "8472_active.odf",
+        "prefix": "buildItem",
+        "items": [
+          "8472_collector",
+          "8472_scout",
+          "8472fig",
+          "8472_destroy",
+          "8472_cruise1",
+          "8472_cruise2"
+        ]
+      },
+      {
+        "parent": "8472_defender.odf",
+        "prefix": "buildItem",
+        "items": [
+          "8472_Mine",
+          "8472_Sentinel"
+        ]
+      },
+      {
+        "parent": "8472_heromothership.odf",
+        "prefix": "buildItem",
+        "items": [
+          "8472_active",
+          "8472_passive"
+        ]
+      },
+      {
+        "parent": "8472_mothership.odf",
+        "prefix": "buildItem",
+        "items": [
+          "8472_active",
+          "8472_passive",
+          "xhs_yard3"
+        ]
+      },
+      {
+        "parent": "8472_passive.odf",
+        "prefix": "buildItem",
+        "items": [
+          "8472_transmuter",
+          "8472_BasicResearch",
+          "8472_AdvancedResearch",
+          "8472_ShipUpgradeResearch",
+          "8472_FluidicGate",
+          "8472_mothership"
+        ]
+      },
+      {
+        "parent": "bbattle5.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bscout",
+          "bconst",
+          "bcruise1",
+          "bbattle2",
+          "bassault",
+          "bfreight"
+        ]
+      },
+      {
+        "parent": "bbattle6.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bscout",
+          "bconst",
+          "bcruise1",
+          "bbattle2",
+          "bassault",
+          "bfreight"
+        ]
+      },
+      {
+        "parent": "bconst.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bbase",
+          "byard",
+          "bsensor",
+          "bturret",
+          "bmining",
+          "bresear",
+          "bresear2",
+          "byard2",
+          "bturret2",
+          "bbase2",
+          "bsuperbl",
+          "btechass",
+          "bupgrade",
+          "brecycle",
+          "byard3",
+          "xbomegalab"
+        ]
+      },
+      {
+        "parent": "bconst2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bbase",
+          "bturret",
+          "bsensor",
+          "bbase2",
+          "bassturr",
+          "byard3",
+          "hub"
+        ]
+      },
+      {
+        "parent": "brconst.odf",
+        "prefix": "buildItem",
+        "items": [
+          "brbase",
+          "bryard",
+          "brmining",
+          "brresear",
+          "brresear2",
+          "bryard2",
+          "brorbital",
+          "bryard3"
+        ]
+      },
+      {
+        "parent": "cconst.odf",
+        "prefix": "buildItem",
+        "items": [
+          "cbase",
+          "cyard",
+          "csensor",
+          "cturret",
+          "cmining",
+          "cresear",
+          "cresear2",
+          "cyard2",
+          "cturret2",
+          "cardassian_super_station",
+          "corbital",
+          "ctrading",
+          "cupgrade",
+          "cyard3"
+        ]
+      },
+      {
+        "parent": "dconst.odf",
+        "prefix": "buildItem",
+        "items": [
+          "dbase",
+          "dyard",
+          "dsensor",
+          "dturret",
+          "dmining",
+          "dresear",
+          "dresear2",
+          "dyard2",
+          "dturret2",
+          "dsuperbl",
+          "dorbital",
+          "dtrading",
+          "dupgrade",
+          "zsuperbl",
+          "dyard3"
+        ]
+      },
+      {
+        "parent": "domconst.odf",
+        "prefix": "buildItem",
+        "items": [
+          "dombase",
+          "domyard",
+          "domabase",
+          "cturret",
+          "cmining",
+          "corbital",
+          "ctrading",
+          "cobyard",
+          "cstation"
+        ]
+      },
+      {
+        "parent": "f31const.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fbase",
+          "fsensor",
+          "fturret",
+          "fturret2",
+          "forbital",
+          "ftrading",
+          "s31yard"
+        ]
+      },
+      {
+        "parent": "fconst.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fbase",
+          "fregula",
+          "fyard0",
+          "fyard",
+          "fyard2",
+          "fyard3",
+          "fmining",
+          "forbital",
+          "ftrading",
+          "fresear",
+          "fresear2",
+          "fupgrade",
+          "fds9",
+          "xfomegalab"
+        ]
+      },
+      {
+        "parent": "fconst2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "foutpost",
+          "fbase2",
+          "fds9",
+          "fsensor",
+          "fturret",
+          "fturret2",
+          "fhwp",
+          "fremmeler",
+          "fargus",
+          "fmidas",
+          "fjupiter",
+          "fsuperbl",
+          "xfomegalab"
+        ]
+      },
+      {
+        "parent": "kconst.odf",
+        "prefix": "buildItem",
+        "items": [
+          "kbase",
+          "kyard",
+          "ksensor",
+          "kturret",
+          "kmining",
+          "kresear",
+          "kresear2",
+          "kyard2",
+          "kturret2",
+          "ksuperbl",
+          "korbital",
+          "ktrading",
+          "kupgrade",
+          "koutpost",
+          "kyard3"
+        ]
+      },
+      {
+        "parent": "kconst2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "kimpbase",
+          "kturret",
+          "ksensor",
+          "korbital",
+          "kimpyard",
+          "ktrading",
+          "kbase2",
+          "khwp"
+        ]
+      },
+      {
+        "parent": "rconst.odf",
+        "prefix": "buildItem",
+        "items": [
+          "rbase",
+          "ryard",
+          "rsensor",
+          "rturret",
+          "rmining",
+          "rresear",
+          "rresear2",
+          "ryard2",
+          "rturret2",
+          "rsuperbl",
+          "rorbital",
+          "rtrading",
+          "rupgrade",
+          "ryard3"
+        ]
+      },
+      {
+        "parent": "rconst2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "rbase2",
+          "rtsens",
+          "rturret",
+          "rresear2",
+          "rorbital",
+          "ryard3",
+          "rhwp"
+        ]
+      },
+      {
+        "parent": "uconst.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bbase",
+          "fbase",
+          "kbase",
+          "rbase",
+          "cbase",
+          "dbase",
+          "brbase",
+          "8472_mothership",
+          "fyard3",
+          "byard3",
+          "kyard3",
+          "ryard3",
+          "cyard3",
+          "dyard3",
+          "bryard3",
+          "xhs_yard3"
+        ]
+      },
+      {
+        "parent": "714syard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "714const",
+          "714manta",
+          "714rnode",
+          "714skate",
+          "714hydra",
+          "714orca",
+          "714tmat"
+        ]
+      },
+      {
+        "parent": "8472_AdvancedResearch.odf",
+        "prefix": "buildItem",
+        "items": [
+          "8472_PodAdvanced0",
+          "8472_PodAdvanced1",
+          "8472_PodAdvanced2",
+          "8472_PodAdvanced3"
+        ]
+      },
+      {
+        "parent": "8472_BasicResearch.odf",
+        "prefix": "buildItem",
+        "items": [
+          "8472_PodBasic0",
+          "8472_PodBasic1",
+          "8472_PodBasic2",
+          "8472_PodBasic3",
+          "8472_PodBasic4"
+        ]
+      },
+      {
+        "parent": "8472_FluidicGate.odf",
+        "prefix": "buildItem",
+        "items": [
+          "8472_defender",
+          "8472_frigate",
+          "8472_behemoth",
+          "8472_battle",
+          "8472int",
+          "8472be2"
+        ]
+      },
+      {
+        "parent": "8472_ShipUpgradeResearch.odf",
+        "prefix": "buildItem",
+        "items": [
+          "8472_PodShipResearch1",
+          "8472_PodShipResearch2",
+          "8472_PodShipResearch3",
+          "8472_PodShipResearch4"
+        ]
+      },
+      {
+        "parent": "8472_ShipUpgradeResearch.odf",
+        "prefix": "secondaryBuildItem",
+        "items": [
+          "8472_PodShipResearch21",
+          "8472_PodShipResearch22",
+          "8472_PodShipResearch23",
+          "8472_PodShipResearch24"
+        ]
+      },
+      {
+        "parent": "bbase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bconst",
+          "bfreight",
+          "bscout",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "brbase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "brconst",
+          "brfreight",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "bresear.odf",
+        "prefix": "buildItem",
+        "items": [
+          "borpod5",
+          "borpod4",
+          "borpod3",
+          "borpod1",
+          "borpod2",
+          "borpod16"
+        ]
+      },
+      {
+        "parent": "bresear2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "borpod6",
+          "borpod7",
+          "borpod8",
+          "borpod9"
+        ]
+      },
+      {
+        "parent": "bryard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "brscout",
+          "brdestroy",
+          "brcolony",
+          "brcruise1",
+          "brcruise2"
+        ]
+      },
+      {
+        "parent": "bryard2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "brfrigate",
+          "brbattle",
+          "brbattle2"
+        ]
+      },
+      {
+        "parent": "bryard3.odf",
+        "prefix": "buildItem",
+        "items": [
+          "xhbrhero"
+        ]
+      },
+      {
+        "parent": "btechass.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bhub"
+        ]
+      },
+      {
+        "parent": "bupgrade.odf",
+        "prefix": "buildItem",
+        "items": [
+          "borpod11",
+          "borpod12",
+          "borpod13",
+          "borpod14",
+          "borpod15"
+        ]
+      },
+      {
+        "parent": "bupgrade.odf",
+        "prefix": "secondaryBuildItem",
+        "items": [
+          "borpod21",
+          "borpod22",
+          "borpod23",
+          "borpod24",
+          "borpod25"
+        ]
+      },
+      {
+        "parent": "byard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bscout",
+          "bdestroy",
+          "bdestroy2",
+          "bcolony",
+          "bcruise1",
+          "bcruise2",
+          "bassault",
+          "bcruise3",
+          "xbassimold"
+        ]
+      },
+      {
+        "parent": "byard2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bfrigate",
+          "btacpyr",
+          "bbattle1",
+          "bspecial",
+          "bbattle2",
+          "brenborg",
+          "blocutus",
+          "bsphere",
+          "tcube",
+          "bbattle3",
+          "bbattle4"
+        ]
+      },
+      {
+        "parent": "byard3.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bpentra",
+          "bhentra",
+          "bomega1",
+          "bhentrag",
+          "bmama",
+          "blocutus",
+          "xobcruise1",
+          "xobbattle1",
+          "xobbattle2",
+          "xoblocutus"
+        ]
+      },
+      {
+        "parent": "cardassian_super_station.odf",
+        "prefix": "buildItem",
+        "items": [
+          "csuper"
+        ]
+      },
+      {
+        "parent": "cbase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "cconst",
+          "cfreight",
+          "ccargo",
+          "csrepair",
+          "domconst",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "cobyard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "cohideki",
+          "cogalor",
+          "cokaldor",
+          "cokeldon"
+        ]
+      },
+      {
+        "parent": "cquantum.odf",
+        "prefix": "buildItem",
+        "items": [
+          "uconst"
+        ]
+      },
+      {
+        "parent": "cresear.odf",
+        "prefix": "buildItem",
+        "items": [
+          "carpod5",
+          "carpod2",
+          "carpod3",
+          "carpod4",
+          "carpod1",
+          "carpod16"
+        ]
+      },
+      {
+        "parent": "cresear2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "carpod6",
+          "carpod7",
+          "carpod8",
+          "carpod9"
+        ]
+      },
+      {
+        "parent": "cstation.odf",
+        "prefix": "buildItem",
+        "items": [
+          "cfreight",
+          "ccargo",
+          "csrepair",
+          "ccolony",
+          "cscout",
+          "cassault",
+          "cbattle",
+          "jemdest",
+          "cohideki",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "cupgrade.odf",
+        "prefix": "buildItem",
+        "items": [
+          "carpod11",
+          "carpod12",
+          "carpod13",
+          "carpod14",
+          "carpod15"
+        ]
+      },
+      {
+        "parent": "cupgrade.odf",
+        "prefix": "secondaryBuildItem",
+        "items": [
+          "carpod21",
+          "carpod22",
+          "carpod23",
+          "carpod24",
+          "carpod25"
+        ]
+      },
+      {
+        "parent": "cyard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "cscout",
+          "ctelkor",
+          "cdestroy2",
+          "ckimal",
+          "cdestroy",
+          "ccolony",
+          "ccruise1",
+          "ccruise2",
+          "cassault",
+          "ccruise3"
+        ]
+      },
+      {
+        "parent": "cyard2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "cfrigate",
+          "cbattle",
+          "cspecial",
+          "cbattle2",
+          "chutet"
+        ]
+      },
+      {
+        "parent": "cyard3.odf",
+        "prefix": "buildItem",
+        "items": [
+          "xhchero"
+        ]
+      },
+      {
+        "parent": "dbase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "dconst",
+          "brconst",
+          "dfreight",
+          "dcargo",
+          "dsrepair",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "domabase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "uconst"
+        ]
+      },
+      {
+        "parent": "dombase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "uconst"
+        ]
+      },
+      {
+        "parent": "domyard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "domconst",
+          "domscout",
+          "jemdest",
+          "jemdest2",
+          "sonadest",
+          "sonabat",
+          "dombat",
+          "domdred"
+        ]
+      },
+      {
+        "parent": "dresear.odf",
+        "prefix": "buildItem",
+        "items": [
+          "dompod5",
+          "dompod4",
+          "dompod2",
+          "dompod3",
+          "dompod1"
+        ]
+      },
+      {
+        "parent": "dresear2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "dompod6",
+          "dompod7",
+          "dompod8",
+          "dompod16"
+        ]
+      },
+      {
+        "parent": "ds9.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fconst",
+          "fcargo",
+          "fsrepair",
+          "ffreight",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "dsuperbl.odf",
+        "prefix": "buildItem",
+        "items": [
+          "dsuper"
+        ]
+      },
+      {
+        "parent": "dupgrade.odf",
+        "prefix": "buildItem",
+        "items": [
+          "dompod11",
+          "dompod12",
+          "dompod13",
+          "dompod14",
+          "dompod15"
+        ]
+      },
+      {
+        "parent": "dupgrade.odf",
+        "prefix": "secondaryBuildItem",
+        "items": [
+          "dompod21",
+          "dompod22",
+          "dompod23",
+          "dompod24",
+          "dompod25"
+        ]
+      },
+      {
+        "parent": "dyard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "dscout",
+          "ddestroy",
+          "dcolony",
+          "dcruise1",
+          "dcruise2",
+          "dassault",
+          "dcruise3",
+          "dcruise4"
+        ]
+      },
+      {
+        "parent": "dyard2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "dfrigate",
+          "dbattle",
+          "dspecial",
+          "dbattle2",
+          "dweyoun"
+        ]
+      },
+      {
+        "parent": "dyard3.odf",
+        "prefix": "buildItem",
+        "items": [
+          "xhdhero"
+        ]
+      },
+      {
+        "parent": "fbase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fconst",
+          "fconst2",
+          "ffreight",
+          "fcargo",
+          "fsrepair",
+          "fcolony",
+          "fscout",
+          "fdanube",
+          "ffighter",
+          "fdeltaflyer",
+          "fantares",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "fbase2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fconst",
+          "fconst2",
+          "ffreight",
+          "fcargo",
+          "fsrepair",
+          "fcolony",
+          "fscout",
+          "fdanube",
+          "ffighter",
+          "fdeltaflyer",
+          "fantares",
+          "fnxent",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "fbaseHQ.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fconst",
+          "ffreight",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "fbyard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fconst",
+          "fcolony",
+          "ffrigate",
+          "fgalaxy",
+          "fspecial",
+          "fbattle",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "fds9.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fconst",
+          "fconst2",
+          "ffreight",
+          "fcargo",
+          "fsrepair",
+          "fdefiant",
+          "fvoyager",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "fjupiter.odf",
+        "prefix": "buildItem",
+        "items": [
+          "uconst"
+        ]
+      },
+      {
+        "parent": "fmidas.odf",
+        "prefix": "buildItem",
+        "items": [
+          "uconst"
+        ]
+      },
+      {
+        "parent": "foutpost.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fconst",
+          "ffreight",
+          "fcargo",
+          "fsrepair",
+          "fscout",
+          "fdeltaflyer",
+          "fantares",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "fregula.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fconst",
+          "ffreight",
+          "fcargo",
+          "fsrepair",
+          "fscout",
+          "fdanube",
+          "ffighter",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "fresear.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fedpod5",
+          "fedpod4",
+          "fedpod2",
+          "fedpod3",
+          "fedpod1",
+          "fedpod16"
+        ]
+      },
+      {
+        "parent": "fresear2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fedpod6",
+          "fedpod7",
+          "fedpod8",
+          "fedpod9"
+        ]
+      },
+      {
+        "parent": "fupgrade.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fedpod11",
+          "fedpod12",
+          "fedpod13",
+          "fedpod14",
+          "fedpod15"
+        ]
+      },
+      {
+        "parent": "fupgrade.odf",
+        "prefix": "secondaryBuildItem",
+        "items": [
+          "fedpod21",
+          "fedpod22",
+          "fedpod23",
+          "fedpod24",
+          "fedpod25"
+        ]
+      },
+      {
+        "parent": "fyard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fnova",
+          "fdestroy2",
+          "fdestroy",
+          "fcruise3",
+          "fcruise2",
+          "fassault",
+          "fnorway",
+          "fintx",
+          "fdauntless"
+        ]
+      },
+      {
+        "parent": "fyard0.odf",
+        "prefix": "buildItem",
+        "items": [
+          "foberth",
+          "fnx",
+          "fcentaur",
+          "fmiranda",
+          "fconstellation",
+          "fconstitution"
+        ]
+      },
+      {
+        "parent": "fyard2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fcruise1",
+          "ffrigate",
+          "fexcelr",
+          "fbattle",
+          "fsovx",
+          "fprometheus",
+          "fexcalibur"
+        ]
+      },
+      {
+        "parent": "fyard3.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fambassador",
+          "fneworleans",
+          "fspecial",
+          "fgalaxy",
+          "fgalaxyr",
+          "fgalaxyx",
+          "fdawnstar",
+          "xhfhero",
+          "xofdestroy",
+          "xofgalaxy",
+          "xofbattle",
+          "xofprom"
+        ]
+      },
+      {
+        "parent": "hub.odf",
+        "prefix": "buildItem",
+        "items": [
+          "twgate1",
+          "twgate2",
+          "twgate3",
+          "twgate4",
+          "twgate5",
+          "twgate6",
+          "twgate7",
+          "twgate8"
+        ]
+      },
+      {
+        "parent": "kbase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "kconst",
+          "kfreight",
+          "kcargo",
+          "ksrepair",
+          "kconst2",
+          "kdestroy2",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "kbase2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "kdestroy",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "khwp.odf",
+        "prefix": "buildItem",
+        "items": [
+          "uconst"
+        ]
+      },
+      {
+        "parent": "kimpbase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "kdestroy",
+          "kdestroy2",
+          "kimpkoto",
+          "kgunboat",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "kimpyard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "kavorcha",
+          "kimpvorc",
+          "kimpnegh",
+          "kdestroy4",
+          "kimpnook",
+          "kimpben",
+          "kimpbakt",
+          "kimphut",
+          "kimpmakd"
+        ]
+      },
+      {
+        "parent": "kmarbase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "uconst"
+        ]
+      },
+      {
+        "parent": "koutpost.odf",
+        "prefix": "buildItem",
+        "items": [
+          "kconst",
+          "kcargo",
+          "kgunboat",
+          "kdestroy2",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "kprison.odf",
+        "prefix": "buildItem",
+        "items": [
+          "uconst"
+        ]
+      },
+      {
+        "parent": "kresear.odf",
+        "prefix": "buildItem",
+        "items": [
+          "klipod5",
+          "klipod4",
+          "klipod2",
+          "klipod3",
+          "klipod1",
+          "klipod16"
+        ]
+      },
+      {
+        "parent": "kresear2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "klipod6",
+          "klipod7",
+          "klipod8",
+          "klipod9"
+        ]
+      },
+      {
+        "parent": "ksuperbl.odf",
+        "prefix": "buildItem",
+        "items": [
+          "ksuper"
+        ]
+      },
+      {
+        "parent": "kupgrade.odf",
+        "prefix": "buildItem",
+        "items": [
+          "klipod11",
+          "klipod12",
+          "klipod13",
+          "klipod14",
+          "klipod15"
+        ]
+      },
+      {
+        "parent": "kupgrade.odf",
+        "prefix": "secondaryBuildItem",
+        "items": [
+          "klipod21",
+          "klipod22",
+          "klipod23",
+          "klipod24",
+          "klipod25"
+        ]
+      },
+      {
+        "parent": "kyard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "kscout",
+          "kdestroy",
+          "kcolony",
+          "kcruise1",
+          "kcruise2",
+          "kassault",
+          "kcruise3",
+          "kquon",
+          "kcruise4"
+        ]
+      },
+      {
+        "parent": "kyard2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "kfrigate",
+          "kbattle2",
+          "kspecial",
+          "kbattle",
+          "kvodleh",
+          "kbwing",
+          "kvood",
+          "kbatleth"
+        ]
+      },
+      {
+        "parent": "kyard3.odf",
+        "prefix": "buildItem",
+        "items": [
+          "xhkhero"
+        ]
+      },
+      {
+        "parent": "planet.odf",
+        "prefix": "buildItem",
+        "items": [
+          "shield"
+        ]
+      },
+      {
+        "parent": "rbase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "rconst",
+          "rfreight",
+          "rcargo",
+          "rsrepair",
+          "rconst2",
+          "rdestroy",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "rbase2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "rconst2",
+          "rfreight",
+          "rcargo",
+          "rtscout",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "rhwp.odf",
+        "prefix": "buildItem",
+        "items": [
+          "uconst"
+        ]
+      },
+      {
+        "parent": "rresear.odf",
+        "prefix": "buildItem",
+        "items": [
+          "rompod5",
+          "rompod2",
+          "rompod3",
+          "rompod4",
+          "rompod1",
+          "rompod16"
+        ]
+      },
+      {
+        "parent": "rresear2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "rompod6",
+          "rompod7",
+          "rompod8",
+          "rompod9"
+        ]
+      },
+      {
+        "parent": "rsuperbl.odf",
+        "prefix": "buildItem",
+        "items": [
+          "rsuper"
+        ]
+      },
+      {
+        "parent": "Rupgrade.odf",
+        "prefix": "buildItem",
+        "items": [
+          "rompod11",
+          "rompod12",
+          "rompod13",
+          "rompod14",
+          "rompod15"
+        ]
+      },
+      {
+        "parent": "Rupgrade.odf",
+        "prefix": "secondaryBuildItem",
+        "items": [
+          "rompod21",
+          "rompod22",
+          "rompod23",
+          "rompod24",
+          "rompod25"
+        ]
+      },
+      {
+        "parent": "ryard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "rscout",
+          "rdestroy",
+          "rcolony",
+          "rcruise1",
+          "rcruise3",
+          "rassault",
+          "rcruise2",
+          "rcent"
+        ]
+      },
+      {
+        "parent": "ryard2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "rfrigate",
+          "rktinga",
+          "rscruise",
+          "rbattle2",
+          "rspecial",
+          "rbattle",
+          "rdread"
+        ]
+      },
+      {
+        "parent": "ryard3.odf",
+        "prefix": "buildItem",
+        "items": [
+          "rtscout",
+          "rtsdest",
+          "rtscruis",
+          "rtspec",
+          "rtsbcru",
+          "rtswarb",
+          "rtsdread",
+          "xhrhero"
+        ]
+      },
+      {
+        "parent": "s31yard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fvalour",
+          "ftengen",
+          "arumaan",
+          "fspectre",
+          "fsent",
+          "fshadow",
+          "fdallas",
+          "fdeimos",
+          "banshee",
+          "fdiablo",
+          "fakisato",
+          "fshak",
+          "fkaleb"
+        ]
+      },
+      {
+        "parent": "xbomegalab.odf",
+        "prefix": "buildItem",
+        "items": [
+          "xbomegapod"
+        ]
+      },
+      {
+        "parent": "xfomegalab.odf",
+        "prefix": "buildItem",
+        "items": [
+          "xfomegapod"
+        ]
+      },
+      {
+        "parent": "xhs_yard3.odf",
+        "prefix": "buildItem",
+        "items": [
+          "xhshero"
+        ]
+      },
+      {
+        "parent": "zsuperbl.odf",
+        "prefix": "buildItem",
+        "items": [
+          "dwormddestroy2",
+          "dwormdbattle",
+          "dwormdbattle2",
+          "dwormdsuper"
+        ]
+      }
+    ],
+    "generatedButtonDefinitions": [
+      {
+        "target": "8472_mothership.odf",
+        "key": "b_xvstock_8472_mothership",
+        "texture": "gb8472_mother"
+      },
+      {
+        "target": "csuper.odf",
+        "key": "b_xvstock_csuper",
+        "texture": "gbcsuper"
+      },
+      {
+        "target": "ksuper.odf",
+        "key": "b_xvstock_ksuper",
+        "texture": "gbksuper"
+      },
+      {
+        "target": "rsuper.odf",
+        "key": "b_xvstock_rsuper",
+        "texture": "gbrsuper"
+      }
+    ],
+    "fallbacks": [],
+    "techAdded": [],
+    "errors": [],
+    "filesChanged": [
+      "odf\\stations\\ds9.odf",
+      "odf\\stations\\foutpost.odf",
+      "odf\\stations\\fregula.odf",
+      "Sprites/gui_global.spr"
+    ],
+    "runtimeVerified": false
+  },
+  {
+    "root": "D:/armadaIII",
+    "menus": 123,
+    "targets": 542,
+    "menuDefinitions": [
+      {
+        "parent": "714const.odf",
+        "prefix": "buildItem",
+        "items": [
+          "714syard",
+          "714turr"
+        ]
+      },
+      {
+        "parent": "8472_active.odf",
+        "prefix": "buildItem",
+        "items": [
+          "8472_collector",
+          "8472_scout",
+          "8472fig",
+          "8472_destroy",
+          "8472_cruise1",
+          "8472_cruise2"
+        ]
+      },
+      {
+        "parent": "8472_defender.odf",
+        "prefix": "buildItem",
+        "items": [
+          "8472_Mine",
+          "8472_Sentinel"
+        ]
+      },
+      {
+        "parent": "8472_heromothership.odf",
+        "prefix": "buildItem",
+        "items": [
+          "8472_active",
+          "8472_passive"
+        ]
+      },
+      {
+        "parent": "8472_mothership.odf",
+        "prefix": "buildItem",
+        "items": [
+          "8472_active",
+          "8472_passive",
+          "xhs_yard3"
+        ]
+      },
+      {
+        "parent": "8472_passive.odf",
+        "prefix": "buildItem",
+        "items": [
+          "8472_transmuter",
+          "8472_BasicResearch",
+          "8472_AdvancedResearch",
+          "8472_ShipUpgradeResearch",
+          "8472_FluidicGate",
+          "8472_mothership"
+        ]
+      },
+      {
+        "parent": "bbattle5.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bscout",
+          "bconst",
+          "bcruise1",
+          "bbattle2",
+          "bassault",
+          "bfreight"
+        ]
+      },
+      {
+        "parent": "bbattle6.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bscout",
+          "bconst",
+          "bcruise1",
+          "bbattle2",
+          "bassault",
+          "bfreight"
+        ]
+      },
+      {
+        "parent": "bconst.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bbase",
+          "byard",
+          "bsensor",
+          "bturret",
+          "bmining",
+          "bresear",
+          "bresear2",
+          "byard2",
+          "bturret2",
+          "bbase2",
+          "bsuperbl",
+          "btechass",
+          "bupgrade",
+          "brecycle",
+          "byard3",
+          "xbomegalab"
+        ]
+      },
+      {
+        "parent": "bconst2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bbase",
+          "bturret",
+          "bsensor",
+          "bbase2",
+          "bassturr",
+          "byard3",
+          "hub"
+        ]
+      },
+      {
+        "parent": "bjconst.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bjbase",
+          "bjmining",
+          "bjyard",
+          "bjyard2",
+          "bjyard3",
+          "bjresear",
+          "bjturret"
+        ]
+      },
+      {
+        "parent": "brconst.odf",
+        "prefix": "buildItem",
+        "items": [
+          "brbase",
+          "bryard",
+          "brmining",
+          "brresear",
+          "brresear2",
+          "bryard2",
+          "brorbital",
+          "bryard3"
+        ]
+      },
+      {
+        "parent": "cconst.odf",
+        "prefix": "buildItem",
+        "items": [
+          "cbase",
+          "cyard",
+          "csensor",
+          "cturret",
+          "cmining",
+          "cresear",
+          "cresear2",
+          "cyard2",
+          "cturret2",
+          "cardassian_super_station",
+          "corbital",
+          "ctrading",
+          "cupgrade",
+          "cyard3"
+        ]
+      },
+      {
+        "parent": "dconst.odf",
+        "prefix": "buildItem",
+        "items": [
+          "dbase",
+          "dyard",
+          "dsensor",
+          "dturret",
+          "dmining",
+          "dresear",
+          "dresear2",
+          "dyard2",
+          "dturret2",
+          "dsuperbl",
+          "dorbital",
+          "dtrading",
+          "dupgrade",
+          "zsuperbl",
+          "dyard3"
+        ]
+      },
+      {
+        "parent": "domconst.odf",
+        "prefix": "buildItem",
+        "items": [
+          "dombase",
+          "domyard",
+          "domabase",
+          "cturret",
+          "cmining",
+          "corbital",
+          "ctrading",
+          "cobyard",
+          "cstation"
+        ]
+      },
+      {
+        "parent": "f31const.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fbase",
+          "fsensor",
+          "fturret",
+          "fturret2",
+          "forbital",
+          "ftrading",
+          "s31yard"
+        ]
+      },
+      {
+        "parent": "fconst.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fbase",
+          "fregula",
+          "fyard0",
+          "fyard",
+          "fyard2",
+          "fyard3",
+          "fmining",
+          "forbital",
+          "ftrading",
+          "fresear",
+          "fresear2",
+          "fupgrade",
+          "fds9",
+          "xfomegalab"
+        ]
+      },
+      {
+        "parent": "fconst2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "foutpost",
+          "fbase2",
+          "fds9",
+          "fsensor",
+          "fturret",
+          "fturret2",
+          "fhwp",
+          "fremmeler",
+          "fargus",
+          "fmidas",
+          "fjupiter",
+          "fsuperbl",
+          "xfomegalab"
+        ]
+      },
+      {
+        "parent": "kconst.odf",
+        "prefix": "buildItem",
+        "items": [
+          "kbase",
+          "kyard",
+          "ksensor",
+          "kturret",
+          "kmining",
+          "kresear",
+          "kresear2",
+          "kyard2",
+          "kturret2",
+          "ksuperbl",
+          "korbital",
+          "ktrading",
+          "kupgrade",
+          "koutpost",
+          "kyard3"
+        ]
+      },
+      {
+        "parent": "kconst2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "kimpbase",
+          "kturret",
+          "ksensor",
+          "korbital",
+          "kimpyard",
+          "ktrading",
+          "kbase2",
+          "khwp"
+        ]
+      },
+      {
+        "parent": "rconst.odf",
+        "prefix": "buildItem",
+        "items": [
+          "rbase",
+          "ryard",
+          "rsensor",
+          "rturret",
+          "rmining",
+          "rresear",
+          "rresear2",
+          "ryard2",
+          "rturret2",
+          "rsuperbl",
+          "rorbital",
+          "rtrading",
+          "rupgrade",
+          "ryard3"
+        ]
+      },
+      {
+        "parent": "rconst2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "rbase2",
+          "rtsens",
+          "rturret",
+          "rresear2",
+          "rorbital",
+          "ryard3",
+          "rhwp"
+        ]
+      },
+      {
+        "parent": "uconst.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bbase",
+          "fbase",
+          "kbase",
+          "rbase",
+          "cbase",
+          "dbase",
+          "brbase",
+          "8472_mothership",
+          "bjbase",
+          "fyard3",
+          "byard3",
+          "kyard3",
+          "ryard3",
+          "cyard3",
+          "dyard3",
+          "xhs_yard3"
+        ]
+      },
+      {
+        "parent": "714syard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "714const",
+          "714manta",
+          "714rnode",
+          "714skate",
+          "714hydra",
+          "714orca",
+          "714tmat"
+        ]
+      },
+      {
+        "parent": "8472_AdvancedResearch.odf",
+        "prefix": "buildItem",
+        "items": [
+          "8472_PodAdvanced0",
+          "8472_PodAdvanced1",
+          "8472_PodAdvanced2",
+          "8472_PodAdvanced3"
+        ]
+      },
+      {
+        "parent": "8472_BasicResearch.odf",
+        "prefix": "buildItem",
+        "items": [
+          "8472_PodBasic0",
+          "8472_PodBasic1",
+          "8472_PodBasic2",
+          "8472_PodBasic3",
+          "8472_PodBasic4"
+        ]
+      },
+      {
+        "parent": "8472_FluidicGate.odf",
+        "prefix": "buildItem",
+        "items": [
+          "8472_defender",
+          "8472_frigate",
+          "8472_behemoth",
+          "8472_battle",
+          "8472int",
+          "8472be2"
+        ]
+      },
+      {
+        "parent": "8472_ShipUpgradeResearch.odf",
+        "prefix": "buildItem",
+        "items": [
+          "8472_PodShipResearch1",
+          "8472_PodShipResearch2",
+          "8472_PodShipResearch3",
+          "8472_PodShipResearch4"
+        ]
+      },
+      {
+        "parent": "8472_ShipUpgradeResearch.odf",
+        "prefix": "secondaryBuildItem",
+        "items": [
+          "8472_PodShipResearch21",
+          "8472_PodShipResearch22",
+          "8472_PodShipResearch23",
+          "8472_PodShipResearch24"
+        ]
+      },
+      {
+        "parent": "bbase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bconst",
+          "bfreight",
+          "bscout",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "bjbase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bjconst",
+          "bjfreight",
+          "bjscout"
+        ]
+      },
+      {
+        "parent": "bjmining.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bjfreight"
+        ]
+      },
+      {
+        "parent": "bjyard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bjscout",
+          "bjinterceptor",
+          "bjtransport"
+        ]
+      },
+      {
+        "parent": "bjyard2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bjassault"
+        ]
+      },
+      {
+        "parent": "bjyard3.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bjnerys"
+        ]
+      },
+      {
+        "parent": "brbase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "brconst",
+          "brfreight",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "bresear.odf",
+        "prefix": "buildItem",
+        "items": [
+          "borpod5",
+          "borpod4",
+          "borpod3",
+          "borpod1",
+          "borpod2",
+          "borpod16"
+        ]
+      },
+      {
+        "parent": "bresear2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "borpod6",
+          "borpod7",
+          "borpod8",
+          "borpod9"
+        ]
+      },
+      {
+        "parent": "bryard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "brscout",
+          "brdestroy",
+          "brcolony",
+          "brcruise1",
+          "brcruise2"
+        ]
+      },
+      {
+        "parent": "bryard2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "brfrigate",
+          "brbattle",
+          "brbattle2"
+        ]
+      },
+      {
+        "parent": "bryard3.odf",
+        "prefix": "buildItem",
+        "items": [
+          "xhbrhero"
+        ]
+      },
+      {
+        "parent": "btechass.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bhub"
+        ]
+      },
+      {
+        "parent": "bupgrade.odf",
+        "prefix": "buildItem",
+        "items": [
+          "borpod11",
+          "borpod12",
+          "borpod13",
+          "borpod14",
+          "borpod15"
+        ]
+      },
+      {
+        "parent": "bupgrade.odf",
+        "prefix": "secondaryBuildItem",
+        "items": [
+          "borpod21",
+          "borpod22",
+          "borpod23",
+          "borpod24",
+          "borpod25"
+        ]
+      },
+      {
+        "parent": "byard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bscout",
+          "bdestroy",
+          "bdestroy2",
+          "bcolony",
+          "bcruise1",
+          "bcruise2",
+          "bassault",
+          "bcruise3",
+          "xbassimold"
+        ]
+      },
+      {
+        "parent": "byard2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bfrigate",
+          "btacpyr",
+          "bbattle1",
+          "bspecial",
+          "bbattle2",
+          "brenborg",
+          "blocutus",
+          "bsphere",
+          "tcube",
+          "bbattle3",
+          "bbattle4"
+        ]
+      },
+      {
+        "parent": "byard3.odf",
+        "prefix": "buildItem",
+        "items": [
+          "bpentra",
+          "bhentra",
+          "bomega1",
+          "bhentrag",
+          "bmama",
+          "blocutus",
+          "xobcruise1",
+          "xobbattle1",
+          "xobbattle2",
+          "xoblocutus"
+        ]
+      },
+      {
+        "parent": "cardassian_super_station.odf",
+        "prefix": "buildItem",
+        "items": [
+          "csuper"
+        ]
+      },
+      {
+        "parent": "cbase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "cconst",
+          "cfreight",
+          "ccargo",
+          "csrepair",
+          "domconst",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "cobyard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "cohideki",
+          "cogalor",
+          "cokaldor",
+          "cokeldon"
+        ]
+      },
+      {
+        "parent": "cquantum.odf",
+        "prefix": "buildItem",
+        "items": [
+          "uconst"
+        ]
+      },
+      {
+        "parent": "cresear.odf",
+        "prefix": "buildItem",
+        "items": [
+          "carpod5",
+          "carpod2",
+          "carpod3",
+          "carpod4",
+          "carpod1",
+          "carpod16"
+        ]
+      },
+      {
+        "parent": "cresear2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "carpod6",
+          "carpod7",
+          "carpod8",
+          "carpod9"
+        ]
+      },
+      {
+        "parent": "cstation.odf",
+        "prefix": "buildItem",
+        "items": [
+          "cfreight",
+          "ccargo",
+          "csrepair",
+          "ccolony",
+          "cscout",
+          "cassault",
+          "cbattle",
+          "jemdest",
+          "cohideki",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "cupgrade.odf",
+        "prefix": "buildItem",
+        "items": [
+          "carpod11",
+          "carpod12",
+          "carpod13",
+          "carpod14",
+          "carpod15"
+        ]
+      },
+      {
+        "parent": "cupgrade.odf",
+        "prefix": "secondaryBuildItem",
+        "items": [
+          "carpod21",
+          "carpod22",
+          "carpod23",
+          "carpod24",
+          "carpod25"
+        ]
+      },
+      {
+        "parent": "cyard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "cscout",
+          "ctelkor",
+          "cdestroy2",
+          "ckimal",
+          "cdestroy",
+          "ccolony",
+          "ccruise1",
+          "ccruise2",
+          "cassault",
+          "ccruise3"
+        ]
+      },
+      {
+        "parent": "cyard2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "cfrigate",
+          "cbattle",
+          "cspecial",
+          "cbattle2",
+          "chutet"
+        ]
+      },
+      {
+        "parent": "cyard3.odf",
+        "prefix": "buildItem",
+        "items": [
+          "xhchero"
+        ]
+      },
+      {
+        "parent": "dbase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "dconst",
+          "brconst",
+          "dfreight",
+          "dcargo",
+          "dsrepair",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "domabase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "uconst"
+        ]
+      },
+      {
+        "parent": "dombase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "uconst"
+        ]
+      },
+      {
+        "parent": "domyard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "domconst",
+          "domscout",
+          "jemdest",
+          "jemdest2",
+          "sonadest",
+          "sonabat",
+          "dombat",
+          "domdred"
+        ]
+      },
+      {
+        "parent": "dresear.odf",
+        "prefix": "buildItem",
+        "items": [
+          "dompod5",
+          "dompod4",
+          "dompod2",
+          "dompod3",
+          "dompod1"
+        ]
+      },
+      {
+        "parent": "dresear2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "dompod6",
+          "dompod7",
+          "dompod8",
+          "dompod16"
+        ]
+      },
+      {
+        "parent": "ds9.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fconst",
+          "fcargo",
+          "fsrepair",
+          "ffreight",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "dsuperbl.odf",
+        "prefix": "buildItem",
+        "items": [
+          "dsuper"
+        ]
+      },
+      {
+        "parent": "dupgrade.odf",
+        "prefix": "buildItem",
+        "items": [
+          "dompod11",
+          "dompod12",
+          "dompod13",
+          "dompod14",
+          "dompod15"
+        ]
+      },
+      {
+        "parent": "dupgrade.odf",
+        "prefix": "secondaryBuildItem",
+        "items": [
+          "dompod21",
+          "dompod22",
+          "dompod23",
+          "dompod24",
+          "dompod25"
+        ]
+      },
+      {
+        "parent": "dyard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "dscout",
+          "ddestroy",
+          "dcolony",
+          "dcruise1",
+          "dcruise2",
+          "dassault",
+          "dcruise3",
+          "dcruise4"
+        ]
+      },
+      {
+        "parent": "dyard2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "dfrigate",
+          "dbattle",
+          "dspecial",
+          "dbattle2",
+          "dweyoun"
+        ]
+      },
+      {
+        "parent": "dyard3.odf",
+        "prefix": "buildItem",
+        "items": [
+          "xhdhero"
+        ]
+      },
+      {
+        "parent": "fbase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fconst",
+          "fconst2",
+          "ffreight",
+          "fcargo",
+          "fsrepair",
+          "fcolony",
+          "fscout",
+          "fdanube",
+          "ffighter",
+          "fdeltaflyer",
+          "fantares",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "fbase2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fconst",
+          "fconst2",
+          "ffreight",
+          "fcargo",
+          "fsrepair",
+          "fcolony",
+          "fscout",
+          "fdanube",
+          "ffighter",
+          "fdeltaflyer",
+          "fantares",
+          "fnxent",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "fbaseHQ.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fconst",
+          "ffreight",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "fbyard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fconst",
+          "fcolony",
+          "ffrigate",
+          "fgalaxy",
+          "fspecial",
+          "fbattle",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "fds9.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fconst",
+          "fconst2",
+          "ffreight",
+          "fcargo",
+          "fsrepair",
+          "fdefiant",
+          "fvoyager",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "fjupiter.odf",
+        "prefix": "buildItem",
+        "items": [
+          "uconst"
+        ]
+      },
+      {
+        "parent": "fmidas.odf",
+        "prefix": "buildItem",
+        "items": [
+          "uconst"
+        ]
+      },
+      {
+        "parent": "foutpost.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fconst",
+          "ffreight",
+          "fcargo",
+          "fsrepair",
+          "fscout",
+          "fdeltaflyer",
+          "fantares",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "fregula.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fconst",
+          "ffreight",
+          "fcargo",
+          "fsrepair",
+          "fscout",
+          "fdanube",
+          "ffighter",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "fresear.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fedpod5",
+          "fedpod4",
+          "fedpod2",
+          "fedpod3",
+          "fedpod1",
+          "fedpod16"
+        ]
+      },
+      {
+        "parent": "fresear2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fedpod6",
+          "fedpod7",
+          "fedpod8",
+          "fedpod9"
+        ]
+      },
+      {
+        "parent": "fupgrade.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fedpod11",
+          "fedpod12",
+          "fedpod13",
+          "fedpod14",
+          "fedpod15"
+        ]
+      },
+      {
+        "parent": "fupgrade.odf",
+        "prefix": "secondaryBuildItem",
+        "items": [
+          "fedpod21",
+          "fedpod22",
+          "fedpod23",
+          "fedpod24",
+          "fedpod25"
+        ]
+      },
+      {
+        "parent": "fyard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fnova",
+          "fdestroy2",
+          "fdestroy",
+          "fcruise3",
+          "fcruise2",
+          "fassault",
+          "fnorway",
+          "fintx",
+          "fdauntless"
+        ]
+      },
+      {
+        "parent": "fyard0.odf",
+        "prefix": "buildItem",
+        "items": [
+          "foberth",
+          "fnx",
+          "fcentaur",
+          "fmiranda",
+          "fconstellation",
+          "fconstitution"
+        ]
+      },
+      {
+        "parent": "fyard2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fcruise1",
+          "ffrigate",
+          "fexcelr",
+          "fbattle",
+          "fsovx",
+          "fprometheus",
+          "fexcalibur"
+        ]
+      },
+      {
+        "parent": "fyard3.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fambassador",
+          "fneworleans",
+          "fspecial",
+          "fgalaxy",
+          "fgalaxyr",
+          "fgalaxyx",
+          "fdawnstar",
+          "xhfhero",
+          "xofdestroy",
+          "xofgalaxy",
+          "xofbattle",
+          "xofprom"
+        ]
+      },
+      {
+        "parent": "hub.odf",
+        "prefix": "buildItem",
+        "items": [
+          "twgate1",
+          "twgate2",
+          "twgate3",
+          "twgate4",
+          "twgate5",
+          "twgate6",
+          "twgate7",
+          "twgate8"
+        ]
+      },
+      {
+        "parent": "kbase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "kconst",
+          "kfreight",
+          "kcargo",
+          "ksrepair",
+          "kconst2",
+          "kdestroy2",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "kbase2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "kdestroy",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "khwp.odf",
+        "prefix": "buildItem",
+        "items": [
+          "uconst"
+        ]
+      },
+      {
+        "parent": "kimpbase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "kdestroy",
+          "kdestroy2",
+          "kimpkoto",
+          "kgunboat",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "kimpyard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "kavorcha",
+          "kimpvorc",
+          "kimpnegh",
+          "kdestroy4",
+          "kimpnook",
+          "kimpben",
+          "kimpbakt",
+          "kimphut",
+          "kimpmakd"
+        ]
+      },
+      {
+        "parent": "kmarbase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "uconst"
+        ]
+      },
+      {
+        "parent": "koutpost.odf",
+        "prefix": "buildItem",
+        "items": [
+          "kconst",
+          "kcargo",
+          "kgunboat",
+          "kdestroy2",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "kprison.odf",
+        "prefix": "buildItem",
+        "items": [
+          "uconst"
+        ]
+      },
+      {
+        "parent": "kresear.odf",
+        "prefix": "buildItem",
+        "items": [
+          "klipod5",
+          "klipod4",
+          "klipod2",
+          "klipod3",
+          "klipod1",
+          "klipod16"
+        ]
+      },
+      {
+        "parent": "kresear2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "klipod6",
+          "klipod7",
+          "klipod8",
+          "klipod9"
+        ]
+      },
+      {
+        "parent": "ksuperbl.odf",
+        "prefix": "buildItem",
+        "items": [
+          "ksuper"
+        ]
+      },
+      {
+        "parent": "kupgrade.odf",
+        "prefix": "buildItem",
+        "items": [
+          "klipod11",
+          "klipod12",
+          "klipod13",
+          "klipod14",
+          "klipod15"
+        ]
+      },
+      {
+        "parent": "kupgrade.odf",
+        "prefix": "secondaryBuildItem",
+        "items": [
+          "klipod21",
+          "klipod22",
+          "klipod23",
+          "klipod24",
+          "klipod25"
+        ]
+      },
+      {
+        "parent": "kyard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "kscout",
+          "kdestroy",
+          "kcolony",
+          "kcruise1",
+          "kcruise2",
+          "kassault",
+          "kcruise3",
+          "kquon",
+          "kcruise4"
+        ]
+      },
+      {
+        "parent": "kyard2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "kfrigate",
+          "kbattle2",
+          "kspecial",
+          "kbattle",
+          "kvodleh",
+          "kbwing",
+          "kvood",
+          "kbatleth"
+        ]
+      },
+      {
+        "parent": "kyard3.odf",
+        "prefix": "buildItem",
+        "items": [
+          "xhkhero"
+        ]
+      },
+      {
+        "parent": "planet.odf",
+        "prefix": "buildItem",
+        "items": [
+          "shield"
+        ]
+      },
+      {
+        "parent": "rbase.odf",
+        "prefix": "buildItem",
+        "items": [
+          "rconst",
+          "rfreight",
+          "rcargo",
+          "rsrepair",
+          "rconst2",
+          "rdestroy",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "rbase2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "rconst2",
+          "rfreight",
+          "rcargo",
+          "rtscout",
+          "uconst"
+        ]
+      },
+      {
+        "parent": "rhwp.odf",
+        "prefix": "buildItem",
+        "items": [
+          "uconst"
+        ]
+      },
+      {
+        "parent": "rresear.odf",
+        "prefix": "buildItem",
+        "items": [
+          "rompod5",
+          "rompod2",
+          "rompod3",
+          "rompod4",
+          "rompod1",
+          "rompod16"
+        ]
+      },
+      {
+        "parent": "rresear2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "rompod6",
+          "rompod7",
+          "rompod8",
+          "rompod9"
+        ]
+      },
+      {
+        "parent": "rsuperbl.odf",
+        "prefix": "buildItem",
+        "items": [
+          "rsuper"
+        ]
+      },
+      {
+        "parent": "Rupgrade.odf",
+        "prefix": "buildItem",
+        "items": [
+          "rompod11",
+          "rompod12",
+          "rompod13",
+          "rompod14",
+          "rompod15"
+        ]
+      },
+      {
+        "parent": "Rupgrade.odf",
+        "prefix": "secondaryBuildItem",
+        "items": [
+          "rompod21",
+          "rompod22",
+          "rompod23",
+          "rompod24",
+          "rompod25"
+        ]
+      },
+      {
+        "parent": "ryard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "rscout",
+          "rdestroy",
+          "rcolony",
+          "rcruise1",
+          "rcruise3",
+          "rassault",
+          "rcruise2",
+          "rcent"
+        ]
+      },
+      {
+        "parent": "ryard2.odf",
+        "prefix": "buildItem",
+        "items": [
+          "rfrigate",
+          "rktinga",
+          "rscruise",
+          "rbattle2",
+          "rspecial",
+          "rbattle",
+          "rdread"
+        ]
+      },
+      {
+        "parent": "ryard3.odf",
+        "prefix": "buildItem",
+        "items": [
+          "rtscout",
+          "rtsdest",
+          "rtscruis",
+          "rtspec",
+          "rtsbcru",
+          "rtswarb",
+          "rtsdread",
+          "xhrhero"
+        ]
+      },
+      {
+        "parent": "s31yard.odf",
+        "prefix": "buildItem",
+        "items": [
+          "fvalour",
+          "ftengen",
+          "arumaan",
+          "fspectre",
+          "fsent",
+          "fshadow",
+          "fdallas",
+          "fdeimos",
+          "banshee",
+          "fdiablo",
+          "fakisato",
+          "fshak",
+          "fkaleb"
+        ]
+      },
+      {
+        "parent": "xbomegalab.odf",
+        "prefix": "buildItem",
+        "items": [
+          "xbomegapod"
+        ]
+      },
+      {
+        "parent": "xfomegalab.odf",
+        "prefix": "buildItem",
+        "items": [
+          "xfomegapod"
+        ]
+      },
+      {
+        "parent": "xhs_yard3.odf",
+        "prefix": "buildItem",
+        "items": [
+          "xhshero"
+        ]
+      },
+      {
+        "parent": "zsuperbl.odf",
+        "prefix": "buildItem",
+        "items": [
+          "dwormddestroy2",
+          "dwormdbattle",
+          "dwormdbattle2",
+          "dwormdsuper"
+        ]
+      }
+    ],
+    "generatedButtonDefinitions": [
+      {
+        "target": "8472_mothership.odf",
+        "key": "b_xvstock_8472_mothership",
+        "texture": "gb8472_mother"
+      },
+      {
+        "target": "csuper.odf",
+        "key": "b_xvstock_csuper",
+        "texture": "gbcsuper"
+      },
+      {
+        "target": "ksuper.odf",
+        "key": "b_xvstock_ksuper",
+        "texture": "gbksuper"
+      },
+      {
+        "target": "rsuper.odf",
+        "key": "b_xvstock_rsuper",
+        "texture": "gbrsuper"
+      }
+    ],
+    "fallbacks": [],
+    "techAdded": [],
+    "errors": [],
+    "filesChanged": [
+      "odf\\stations\\ds9.odf",
+      "odf\\stations\\foutpost.odf",
+      "odf\\stations\\fregula.odf",
+      "Sprites/gui_global.spr"
+    ],
+    "runtimeVerified": false
+  }
+]

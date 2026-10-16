@@ -1,0 +1,63 @@
+#include "fconstitution.odf"
+
+//This ship is a hero.
+isHero = 1
+
+//Ship label provided because this is a unique ship.
+label = "USS Enterprise NCC-1701-A"
+verboseTooltip = "Captain Kirk's Enterprise."
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 3800
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 38
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+	"USS Enterprise - A"
+
+weapon3 = "fentatoentb"
+
+
+
+
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 2250
+metalCost = 340
+latinumCost = 0
+biomatterCost = 0
+crewCost = 184
+officerCost = 7
+buildTime = 85
+
+eventSelect = "XV_fenta_Select"
+
+eventAcknowledge = "XV_fenta_Acknowledge"
+
+eventAttack = "XV_fenta_Attack"
+
+eventStop = "XV_fenta_Stop"
+
+eventMove = "XV_fenta_Move"
+
+eventRepair = "XV_fenta_Repair"
+
+eventRedAlert = "XV_fenta_RedAlert"
+
+eventYellowAlert = "XV_fenta_YellowAlert"
+
+eventGreenAlert = "XV_fenta_GreenAlert"
+
+eventTransport = "XV_fenta_Transport"
+
+eventSelfDestruct = "XV_fenta_SelfDestruct"
+
+eventDecommission = "XV_fenta_Decommission"

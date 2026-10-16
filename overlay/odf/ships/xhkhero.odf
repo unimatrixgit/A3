@@ -1,0 +1,49 @@
+#include "kmartok.odf"
+unitName = "Martok - Negh'Var"
+tooltip = "Martok - Negh'Var"
+verboseTooltip = "Faction command hero. Replacements available at the Command Shipyard."
+baseName = "kbattle"
+race = "klingon"
+isHero = 1
+label = "Martok - Negh'Var"
+maxHealth = 3788
+
+
+
+
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 720
+metalCost = 720
+latinumCost = 0
+biomatterCost = 0
+crewCost = 1892
+officerCost = 8
+buildTime = 71
+
+eventSelect = "XV_xhkhero_Select"
+
+eventAcknowledge = "XV_xhkhero_Acknowledge"
+
+eventAttack = "XV_xhkhero_Attack"
+
+eventStop = "XV_xhkhero_Stop"
+
+eventMove = "XV_xhkhero_Move"
+
+eventRepair = "XV_xhkhero_Repair"
+
+eventRedAlert = "XV_xhkhero_RedAlert"
+
+eventYellowAlert = "XV_xhkhero_YellowAlert"
+
+eventGreenAlert = "XV_xhkhero_GreenAlert"
+
+eventTransport = "XV_xhkhero_Transport"
+
+eventSelfDestruct = "XV_xhkhero_SelfDestruct"
+
+eventDecommission = "XV_xhkhero_Decommission"

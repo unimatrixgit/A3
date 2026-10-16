@@ -1,0 +1,49 @@
+#include "cbattle2.odf"
+unitName = "Gul Dukat - Keldon"
+tooltip = "Gul Dukat - Keldon"
+verboseTooltip = "Faction command hero. Replacements available at the Command Shipyard."
+baseName = "cbattle2"
+race = "cardassian"
+isHero = 1
+label = "Gul Dukat - Keldon"
+maxHealth = 3985
+
+
+
+
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 1080
+metalCost = 600
+latinumCost = 0
+biomatterCost = 0
+crewCost = 800
+officerCost = 16
+buildTime = 33
+
+eventSelect = "XV_xhchero_Select"
+
+eventAcknowledge = "XV_xhchero_Acknowledge"
+
+eventAttack = "XV_xhchero_Attack"
+
+eventStop = "XV_xhchero_Stop"
+
+eventMove = "XV_xhchero_Move"
+
+eventRepair = "XV_xhchero_Repair"
+
+eventRedAlert = "XV_xhchero_RedAlert"
+
+eventYellowAlert = "XV_xhchero_YellowAlert"
+
+eventGreenAlert = "XV_xhchero_GreenAlert"
+
+eventTransport = "XV_xhchero_Transport"
+
+eventSelfDestruct = "XV_xhchero_SelfDestruct"
+
+eventDecommission = "XV_xhchero_Decommission"

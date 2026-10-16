@@ -1,0 +1,123 @@
+#include "research.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Dominion Ship Upgrade Center"
+
+//tooltips
+tooltip = "Dominion Ship Upgrade Center"
+verboseTooltip = "Conducts research into improving shipboard systems."
+
+//Race which can build ship & starting race of ship
+race = "dominion"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 3500
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.0
+
+//Possible Craft Names
+possibleCraftNames = 
+	"T'Pannak Center" "Serimmi Center" "Rhoolm Center" "Z'Quakin Center"
+	 "Cantikl Center" "Zmiery Center" "Benkber Center" "Amanboopr Center" 
+
+
+//**********************************************************************
+//Construction Parameters
+
+podHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+
+buildItem0 = "dompod11"
+buildItem1 = "dompod12"
+buildItem2 = "dompod13"
+buildItem3 = "dompod14"
+buildItem4 = "dompod15"
+
+//buildItem0 = "dompod15"
+//buildItem1 = "dompod14"
+//buildItem2 = "dompod13"
+//buildItem3 = "dompod12"
+//buildItem4 = "dompod11"
+
+secondaryBuildItem0 = "dompod21"
+secondaryBuildItem1 = "dompod22"
+secondaryBuildItem2 = "dompod23"
+secondaryBuildItem3 = "dompod24"
+secondaryBuildItem4 = "dompod25"
+
+//secondaryBuildItem0 = "dompod25"
+//secondaryBuildItem1 = "dompod24"
+//secondaryBuildItem2 = "dompod23"
+//secondaryBuildItem3 = "dompod22"
+//secondaryBuildItem4 = "dompod21"
+
+//**********************************************************************
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints =
+lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponsTargetHardpoints =
+shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hullTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+criticalTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "ShipUpgradeStationSelect"
+eventAcknowledge = "ShipUpgradeStationAcknowledge"
+eventDecommission = "ShipUpgradeStationDecommission"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "ship_upgrade_station"
+hotkeyLabel = "HOTKEY_U"
+
+//************************************************************
+// Brian additions for context sensitive menus
+transporter = 1
+
+//Re-Scale the SOD
+scaleSOD = 3.2f
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 0
+metalCost = 1500
+latinumCost = 0
+biomatterCost = 0
+crewCost = 400
+officerCost = 10
+buildTime = 150

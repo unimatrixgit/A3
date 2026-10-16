@@ -1,0 +1,20 @@
+#include "photon.odf"
+
+//Name of the ODF file for the ordinance for this weapon
+ordName = "photon"
+
+//Display name for this weapon
+wpnName = "Bio Torpedo"
+
+//Time Delay between shots
+shotDelay = 1.5f
+
+//Sound which is played when the weapon fires
+fireSound = "pofwea.wav"
+
+specialEnergyCost = 17
+damageBase = 34
+shotSpeed = 534.0
+Sprite = "spphoton"
+radius = 3.9f
+range = 500.0f

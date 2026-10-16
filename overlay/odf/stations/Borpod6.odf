@@ -1,0 +1,50 @@
+#include "pod.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Shield Remodulation Pod"
+
+//tooltips
+tooltip = "BORG_POD6"
+verboseTooltip = "BORG_POD6_V"
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Dilithium Cost to build
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+//eventSelect = "ShieldRemod"
+
+//**********************************************************************
+animation = 2
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "sh_remod"
+hotkeyLabel = "HOTKEY_F1"
+
+// ScaleSOD = 2.0
+
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 700
+metalCost = 0
+latinumCost = 0
+biomatterCost = 0
+crewCost = 0
+officerCost = 10
+buildTime = 140

@@ -1,0 +1,49 @@
+#include "dweyoun.odf"
+unitName = "Weyoun's Command Battleship"
+tooltip = "Weyoun's Command Battleship"
+verboseTooltip = "Faction command hero. Replacements available at the Command Shipyard."
+baseName = "dweyoun"
+race = "dominion"
+isHero = 1
+label = "Weyoun's Command Battleship"
+maxHealth = 3000
+
+
+
+
+
+
+
+
+// Xaramada resource costs: original matching class.
+dilithiumCost = 1440
+metalCost = 840
+latinumCost = 0
+biomatterCost = 0
+crewCost = 725
+officerCost = 11
+buildTime = 110
+
+eventSelect = "XV_xhdhero_Select"
+
+eventAcknowledge = "XV_xhdhero_Acknowledge"
+
+eventAttack = "XV_xhdhero_Attack"
+
+eventStop = "XV_xhdhero_Stop"
+
+eventMove = "XV_xhdhero_Move"
+
+eventRepair = "XV_xhdhero_Repair"
+
+eventRedAlert = "XV_xhdhero_RedAlert"
+
+eventYellowAlert = "XV_xhdhero_YellowAlert"
+
+eventGreenAlert = "XV_xhdhero_GreenAlert"
+
+eventTransport = "XV_xhdhero_Transport"
+
+eventSelfDestruct = "XV_xhdhero_SelfDestruct"
+
+eventDecommission = "XV_xhdhero_Decommission"

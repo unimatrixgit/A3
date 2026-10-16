@@ -1,0 +1,149 @@
+#include "battle.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Tiamat Class"
+
+//tooltips
+tooltip = "Tiamat Class"
+verboseTooltip = "Organic Heavy Dreadnought"
+
+//Can decommission itself anywhere
+recyclesInPlace = 1
+
+//Race which can build ship & starting race of ship
+race = "species8472"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+// amount of biomatter needed to build this ship
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 10021
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 3104
+enginesHitPoints = 3104
+weaponsHitPoints = 3104
+lifeSupportHitPoints = 3104
+sensorsHitPoints = 3104
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 62
+impulseSpeed = 78
+warpSpeed = 546
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 12.6
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 5800
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 10
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 1.00f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.50f
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "Tiamat" 
+
+// pulse weapon
+weapon1 = "biopul3"
+weaponHardpoints1 = "hp10"
+
+// pulse weapon
+weapon2 = "biopul3"
+weaponHardpoints2 = "hp11"
+
+// pulse weapon
+weapon3 = "biopul3"
+weaponHardPoints3 = "hp12"
+
+// pulse weapon
+weapon4 = "biopul3"
+weaponHardpoints4 = "hp13" 
+
+// pulse weapon
+weapon5 = "biopul3"
+weaponHardpoints5 = "hp14"
+
+// pulse weapon
+weapon6 = "biopul3"
+weaponHardPoints6 = "hp16"
+
+// pulse weapon
+weapon7 = "biopul3"
+weaponHardPoints7 = "hp17"
+
+// beam weapon
+weapon8 = "biolev5"
+weaponHardpoints8 = "hp18" "hp19" "hp20" "hp21" "hp22" "hp23" "hp24"
+
+// special weapon (undefined)
+//weapon9 = "unknown"
+//weaponHardpoints9 = "hp25"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp16"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp16"
+weaponsTargetHardpoints =   "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp16"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp16"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp16"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp16"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp16"
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the repair time while in yellow status
+repairYellow = 1.5f
+
+//The multiplier for the repair time while in red status
+repairRed = 2.0f
+
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 3.0f
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "8472_battle"
+hotkeyLabel = "HOTKEY_F4"
+
+physicsFile = "8472_sbattphys.odf"
+
+transporter = 0
+can_repair = 0
+
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 0
+metalCost = 0
+latinumCost = 0
+biomatterCost = 1455
+crewCost = 0
+officerCost = 1
+buildTime = 49

@@ -1,0 +1,95 @@
+#include "research.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Borg Transwarp Hub"
+tooltip = "Borg Transwarp Hub"
+verboseTooltip = "The Borg now have access to the modular technology once again in the form of this huge station. It will give the Borg an excellent roaming ability from no less that 8 transwarp gates. Be warned though that the station is unarmed and requires a massive amount of energy."
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+decomissionValue = 0
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 11200
+
+
+//Possible Craft Names
+possibleCraftNames = "Transwarp Hub" 
+
+//**********************************************************************
+//Construction Parameters
+
+podHardpoints = "pod1" "pod2" "pod3" "pod4" "pod5" "pod6" "pod7" "pod8"
+buildItem0 = "twgate1"
+buildItem1 = "twgate2"
+buildItem2 = "twgate3"
+buildItem3 = "twgate4"
+buildItem4 = "twgate5"
+buildItem5 = "twgate6"
+buildItem6 = "twgate7"
+buildItem7 = "twgate8"
+
+//**********************************************************************
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" 
+"hp07" "hp08"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" 
+"hp07" "hp08"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" 
+"hp07" "hp08"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" 
+"hp07" "hp08"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" 
+"hp07" "hp08"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" 
+"hp07" "hp08"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" 
+"hp07" "hp08"
+
+//**********************************************************************
+
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "ResearchStationSelect"
+eventAcknowledge = "ResearchStationAcknowledge"
+eventDecommission = "ResearchStationDecommission"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "research_station"
+hotkeyLabel = "HOTKEY_F6"
+
+fireball = "xfiredet"
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 0
+metalCost = 2685
+latinumCost = 0
+biomatterCost = 0
+crewCost = 5500
+officerCost = 13
+buildTime = 241

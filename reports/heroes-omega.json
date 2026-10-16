@@ -1,0 +1,124 @@
+{
+  "heroes": [
+    {
+      "race": "federation",
+      "hero": "xhfhero",
+      "start": "standard and minimal",
+      "yard": "fyard3"
+    },
+    {
+      "race": "borg",
+      "hero": "blocutus",
+      "start": "standard and minimal",
+      "yard": "byard3"
+    },
+    {
+      "race": "klingon",
+      "hero": "xhkhero",
+      "start": "standard and minimal",
+      "yard": "kyard3"
+    },
+    {
+      "race": "romulan",
+      "hero": "xhrhero",
+      "start": "standard and minimal",
+      "yard": "ryard3"
+    },
+    {
+      "race": "cardassian",
+      "hero": "xhchero",
+      "start": "standard and minimal",
+      "yard": "cyard3"
+    },
+    {
+      "race": "dominion",
+      "hero": "xhdhero",
+      "start": "standard and minimal",
+      "yard": "dyard3"
+    },
+    {
+      "race": "breen",
+      "hero": "xhbrhero",
+      "start": "standard and minimal",
+      "yard": "bryard3"
+    },
+    {
+      "race": "species8472",
+      "hero": "xhshero",
+      "start": "standard and minimal",
+      "yard": "xhs_yard3"
+    }
+  ],
+  "omega": [
+    {
+      "race": "federation",
+      "base": "fdestroy",
+      "variant": "xofdestroy",
+      "maxHealth": 850,
+      "normalWeaponBanksEnhanced": 6
+    },
+    {
+      "race": "federation",
+      "base": "fgalaxy",
+      "variant": "xofgalaxy",
+      "maxHealth": 1250,
+      "normalWeaponBanksEnhanced": 2
+    },
+    {
+      "race": "federation",
+      "base": "fbattle",
+      "variant": "xofbattle",
+      "maxHealth": 1375,
+      "normalWeaponBanksEnhanced": 2
+    },
+    {
+      "race": "federation",
+      "base": "fprom",
+      "variant": "xofprom",
+      "maxHealth": 5325,
+      "normalWeaponBanksEnhanced": 3
+    },
+    {
+      "race": "borg",
+      "base": "bcruise1",
+      "variant": "xobcruise1",
+      "maxHealth": 2675,
+      "normalWeaponBanksEnhanced": 2
+    },
+    {
+      "race": "borg",
+      "base": "bbattle1",
+      "variant": "xobbattle1",
+      "maxHealth": 4063,
+      "normalWeaponBanksEnhanced": 2
+    },
+    {
+      "race": "borg",
+      "base": "bbattle2",
+      "variant": "xobbattle2",
+      "maxHealth": 9038,
+      "normalWeaponBanksEnhanced": 2
+    },
+    {
+      "race": "borg",
+      "base": "blocutus",
+      "variant": "xoblocutus",
+      "maxHealth": 938,
+      "normalWeaponBanksEnhanced": 2
+    }
+  ],
+  "menus": [
+    {
+      "file": "uconst.odf",
+      "fallback": "uconst"
+    },
+    {
+      "file": "uconst.odf",
+      "fallback": "uconst"
+    },
+    {
+      "file": "uconst.odf",
+      "fallback": "uconst"
+    }
+  ]
+}

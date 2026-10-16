@@ -1,0 +1,183 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Regula class"
+
+//tooltips
+tooltip = "Regula Class - Outpost"
+verboseTooltip = "This station is an older station but still reliable and useful."
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Number of maximum crew (only specified if different from crewCost)
+maximumCrew = 1750
+
+//The number of crew added to the capacity
+maxCrewGain = 3000
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Number of Officers starbase gives by default
+officerGain = 0
+
+//Maximum number of officer quarters
+maximumUpgrades = 6
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 2500
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 25
+
+//Shield absorbs all damage until it's gone
+shieldProtection = 1.0
+
+// Rate at which latinum is transfered from freighters
+latinumTransferRate = 15.0
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Starbase 612" "Starbase 473" "Starbase 263" "Starbase 823"
+	"Starbase 173" "Starbase 383" "Starbase 420" "Starbase 252" 
+	"Starbase 419" "Starbase 521" "Starbase 152" "Starbase 528"
+	"Starbase 357" "Starbase 523" "Starbase 162" "Starbase 693"
+	"Starbase 344" "Starbase 182" "Starbase 106" "Starbase 260"
+	"Starbase 123" "Starbase 312" "Starbase 412" "Starbase 411"
+	"Starbase 452" "Starbase 422" "Starbase 102" "Starbase 34"
+	"Starbase 62" "Starbase 17" "Starbase 93" "Starbase 27"
+	"Starbase 303" "Starbase 72" "Starbase 28" "Starbase 64"
+	"Starbase 82" "Starbase 12" "Starbase 44" "Starbase 77"
+	"Starbase 11" "Starbase 34" "Starbase 67" "Starbase 69"
+	"Starbase 99" "Starbase 86" "Starbase 268" "Starbase 623"
+	"Starbase 40" "Starbase 176"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+// Pulse Phaser
+weapon1 = "fbasepulse"
+weaponHardpoints1 = "hp02" "hp04"
+
+// Pulse Phaser
+weapon2 = "fbasepulse"
+weaponHardpoints2 = "hp03" "hp05"
+
+// Pulse Phaser
+weapon3 = "fbaserphot"
+weaponHardpoints3 = "hp12" "hp13"
+
+// Pulse Phaser
+weapon4 = "fbaserphot"
+weaponHardpoints4 = "hp14" "hp15"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
+lifeSupportTargetHardpoints = "hp06" "hp07" "hp08" "hp09" 
+weaponsTargetHardpoints = "hp02" "hp04" "hp03" "hp05" "hp12" "hp13" "hp14" "hp15"
+shieldGeneratorTargetHardpoints = "hp10" "hp11" 
+sensorsTargetHardpoints = "hp20" 
+hullTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20" 
+criticalTargetHardpoints = "hp01" 
+
+//**********************************************************************
+
+//**********************************************************************
+//Construction Parameters
+
+
+//Hardpoint location for building.
+buildHardpoint = "hp01"
+
+dockinghardpoint = "hp10"
+
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 7500
+enginesHitPoints = 0
+weaponsHitPoints = 7500
+lifeSupportHitPoints = 7500
+sensorsHitPoints = 7500
+
+//**********************************************************************
+
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "StarbaseSelect"
+eventAcknowledge = "StarbaseAcknowledge"
+eventAttack = "StarbaseAttack"
+eventDecommission = "StarbaseDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "starbase"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "starbase"
+hotkeyLabel = "HOTKEY_F1"
+
+//************************************************************
+// Brian additions for context sensitive menus
+alert = 1
+combat = 1
+builder_ship = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+// let's make this a bit bigger
+ScaleSOD = 2.0
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 1290
+metalCost = 1290
+latinumCost = 0
+biomatterCost = 0
+crewCost = 200
+officerCost = 8
+buildTime = 80
+
+buildItem0 = "fconst"
+
+buildItem1 = "ffreight"
+
+buildItem2 = "fcargo"
+
+buildItem3 = "fsrepair"
+
+buildItem4 = "fscout"
+
+buildItem5 = "fdanube"
+
+buildItem6 = "ffighter"
+
+buildItem7 = "uconst"

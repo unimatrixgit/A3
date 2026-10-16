@@ -1,0 +1,43 @@
+#include "pod.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Polaron Torpedo Pod"
+
+//tooltips
+tooltip = "KLI_POD2"
+verboseTooltip = "KLI_POD2_V"
+
+//Race which can build ship & starting race of ship
+race = "klingon"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Dilithium Cost to build
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "po_torpedo"
+hotkeyLabel = "HOTKEY_F3"
+
+
+
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 0
+metalCost = 0
+latinumCost = 360
+biomatterCost = 0
+crewCost = 0
+officerCost = 1
+buildTime = 72

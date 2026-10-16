@@ -1,0 +1,34 @@
+#include "LifeSupportUpgradePod.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Level 2 Life Support Pod"
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//tooltips
+tooltip = "FED_POD15"
+verboseTooltip = "FED_POD15_V"
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Latinum Cost to build
+
+//Number of officers required to build this ship
+
+//Amount of time required to build ship
+
+hotkeyLabel = "HOTKEY_F5"
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 400
+metalCost = 200
+latinumCost = 0
+biomatterCost = 0
+crewCost = 0
+officerCost = 1
+buildTime = 120

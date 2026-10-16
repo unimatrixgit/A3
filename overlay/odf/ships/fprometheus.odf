@@ -1,0 +1,142 @@
+#include "battle2.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Prometheus Class"
+
+//tooltips
+tooltip = "Prometheus Class - BattleShip"
+verboseTooltip = "Originally equipped with a MVAM system it proved of little practical use and was not equipped on the production vessels."
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 1200
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 3250
+enginesHitPoints = 3250
+weaponsHitPoints = 3250
+lifeSupportHitPoints = 3250
+sensorsHitPoints = 3250
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 12
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 1200
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 12
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+	"USS Wolverine" "USS Relentless" "USS Hurricane" 
+	"USS Spitfire" "USS Havoc" "USS Kingfisher" "USS Nomad"
+	"USS Renegade" "USS Vigilant" "USS Man-o-War" "USS Savannah"
+	"USS Ajax" "USS Law" "USS Cheyenne" "USS Barracuda"
+	"USS Armstead" "USS Concord" "USS Crockett" "USS Eagle"
+	"USS Hornet" "USS Potemkin" "USS Revere" "USS Rockford"
+	"USS Triumph" "USS Alaska" "USS Michigan" "USS Rome"
+	"USS Merrimack" "USS Monitor" "USS Champion" "USS Sioux"
+	"USS Warspite" "USS Ramses" "USS Thor" "USS Triton"
+	"USS Loki" "USS Titan" "USS Aldebaran" "USS Treplev"
+	"USS Leyte" "USS Coral Sea" "USS Sirocco" "USS Kant"
+	"USS Vanya" "USS Medvedev" "USS Eclipse"
+	"USS Lee" "USS Grant" "USS Galahad" "USS Gawain"
+	"USS Morgana" "USS Pendragon" "USS Myrmidon"  
+	"USS Baton Rouge" "USS Fargo" "USS Cormir" "USS Victoria"
+	"USS Helena" "USS Corvus" "USS Pleiades" "USS Tsunami"
+	"USS Mongoose" "USS Cobra" "USS Wasp" "USS Scorpion"
+	"USS Condor" "USS Albatross" "USS Voltaire" "USS Python"
+	"USS Vasily" "USS Falkirk" "USS Stromming" "USS Zeppelin"
+	"USS Matador" "USS Turin" "USS Valiant" "USS Logan"
+	"USS Quillon" "USS Gauntlet" "USS Halberd" "USS Monsoon"                      
+	"USS Tenacious" "USS Javelin" "USS Sao Paulo" "USS Baracus"
+	"USS Maya"
+
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Pulse Phaser
+weapon1 = "fprometheusphas"
+weaponHardpoints1 = "hp02" "hp04" "hp12" "hp14"
+
+// Pulse Phaser
+weapon2 = "fprometheusphas"
+weaponHardpoints2 = "hp03" "hp05" "hp11" "hp13"
+
+// Pulse Phaser
+weapon3 = "fprometheusphot"
+weaponHardpoints3 = "hp01"
+
+// Pulse Phaser
+weapon4 = "gshieldh"
+weaponHardpoints4 = "hp29"
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp19" "hp20" "hp21" "hp22" "hp23" "hp24" "hp25" "hp26"
+lifeSupportTargetHardpoints = "hp06" 
+weaponsTargetHardpoints = "hp32" "hp33"
+shieldGeneratorTargetHardpoints = "hp28"
+sensorsTargetHardpoints = "hp10"
+hullTargetHardpoints = "hp07" "hp08" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp27" "hp29"
+criticalTargetHardpoints = "hp09" 
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+//**********************************************************************
+
+//**********************************************************************
+//PHYSICS PARAMETERS
+
+// Scripted 3D Attack paths
+attack_path0 = "p2.pth"
+attack_path1 = "p3.pth"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "fed_destroyer"
+hotkeyLabel = "HOTKEY_F3"
+
+// let's make this a bit smaller
+ScaleSOD = 0.8
+
+
+//physics file for all other physics stuff
+physicsFile = "fbattlephys.odf"
+trekPhysicsFile = "fbattlephys.odf"
+
+
+
+
+
+// Xaramada resource costs: original matching class.
+dilithiumCost = 850
+metalCost = 1500
+latinumCost = 0
+biomatterCost = 0
+crewCost = 600
+officerCost = 9
+buildTime = 22

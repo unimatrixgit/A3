@@ -1,0 +1,141 @@
+#include "battle.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Hydra Class"
+
+//tooltips
+tooltip = "Hydra Class"
+verboseTooltip = "Organic Battlecruiser"
+
+//Can decommission itself anywhere
+recyclesInPlace = 1
+
+//Race which can build ship & starting race of ship
+race = "species8472"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+// amount of biomatter needed to build this ship
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 9024
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 1489
+enginesHitPoints = 1489
+weaponsHitPoints = 1489
+lifeSupportHitPoints = 1489
+sensorsHitPoints = 1489
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 78
+impulseSpeed = 78
+warpSpeed = 794
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 3200
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 24 
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 9.1
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 1.00f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.50f
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "Hydra" 
+
+// Pulse weapon
+weapon1 = "biopul3"
+weaponHardpoints1 = "hp07"
+
+// Pulse weapon
+weapon2 = "biopul3"
+weaponHardpoints2 = "hp08"
+
+// Pulse weapon
+weapon3 = "biopul3"
+weaponHardPoints3 = "hp09"
+
+// torpedo weapon
+weapon4 = "biopho2"
+weaponHardpoints4 = "hp10"
+
+// torpedo weapon
+weapon5 = "biopho2"
+weaponHardpoints5 = "hp11"
+
+// torpedo weapon
+weapon6 = "biopho2"
+weaponHardPoints6 = "hp12"
+
+// torpedo weapon
+weapon7 = "biopho2"
+weaponHardPoints7 = "hp13"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the repair time while in yellow status
+repairYellow = 1.5f
+
+//The multiplier for the repair time while in red status
+repairRed = 2.0f
+
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 3.0f
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "8472_battle"
+hotkeyLabel = "HOTKEY_F4"
+
+physicsFile = "8472_sbattphys.odf"
+
+transporter = 0
+can_repair = 0
+
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 0
+metalCost = 0
+latinumCost = 0
+biomatterCost = 1380
+crewCost = 0
+officerCost = 1
+buildTime = 48

@@ -1,0 +1,80 @@
+{
+  "modelAliases": [
+    {
+      "unit": "bbattle",
+      "model": "bbattle1"
+    },
+    {
+      "unit": "bbattle5",
+      "model": "bbattle3"
+    },
+    {
+      "unit": "bbattle6",
+      "model": "bbattle4"
+    },
+    {
+      "unit": "bbattle8",
+      "model": "bbattle1"
+    },
+    {
+      "unit": "cbakrus",
+      "model": "cbattle2"
+    },
+    {
+      "unit": "ctelok",
+      "model": "ctelkor"
+    },
+    {
+      "unit": "dcruise4",
+      "model": "dcruise3"
+    },
+    {
+      "unit": "fambass",
+      "model": "fambassador"
+    },
+    {
+      "unit": "fober",
+      "model": "foberth"
+    },
+    {
+      "unit": "fpsaucer",
+      "model": "fsaucer"
+    },
+    {
+      "unit": "rcruise4",
+      "model": "rcruise3"
+    },
+    {
+      "unit": "Sovereign",
+      "model": "fbattle"
+    },
+    {
+      "unit": "dompod9",
+      "model": "dompod8"
+    },
+    {
+      "unit": "ds9",
+      "model": "fds9"
+    },
+    {
+      "unit": "dturret3",
+      "model": "dturret2"
+    },
+    {
+      "unit": "fbyard",
+      "model": "fyard2"
+    },
+    {
+      "unit": "Fedpod2s",
+      "model": "fedpod2"
+    }
+  ],
+  "disabledMissingModels": [
+    "chybrid",
+    "fphigh",
+    "fplow",
+    "kghosqih",
+    "q"
+  ],
+  "note": "Model aliases use installed same-class or same-faction assets; unavailable units are excluded from production. Planets remain handled by their planet class."
+}

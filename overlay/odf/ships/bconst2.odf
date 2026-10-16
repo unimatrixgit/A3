@@ -1,0 +1,112 @@
+#include "const.odf"
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Advanced Assembler"
+
+//tooltips
+tooltip = "Advanced Assembler"
+verboseTooltip = "Borg Construction rig used to build advanced stations."
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 1178
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 960
+enginesHitPoints = 895
+weaponsHitPoints = 365
+lifeSupportHitPoints = 897
+sensorsHitPoints = 787
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 10.8
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 91
+impulseSpeed = 89
+warpSpeed = 390
+
+//**********************************************************************
+//Construction Parameters
+
+//**********************************************************************
+//Worker Bee Parameters
+
+// Name of the worker bee SOD.
+workerBeeName = "bbee"
+weldingBeamWidth = 5.0
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "G204-18984" "G204-11861" "G204-94814"
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+
+//**********************************************************************
+
+//PHYSICS Parameter
+
+// Disable banking (by making the maximum bank angle 1 degree)
+maxRoll = 1
+
+hotkeyLabel = "HOTKEY_F1"
+// Xaramada: transwarp for all Borg vessels.
+weapon1 = "xabtrans5"
+weaponHardpoints1 = "hp01"
+
+maxSpecialEnergy = 1000
+
+specialEnergyRate = 10
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 700
+metalCost = 0
+latinumCost = 0
+biomatterCost = 0
+crewCost = 651
+officerCost = 3
+buildTime = 28
+
+buildItem0 = "bbase"
+
+buildItem1 = "bturret"
+
+buildItem2 = "byard3"
+
+buildItem3 = "bsensor"
+
+buildItem4 = "bbase2"
+
+buildItem5 = "bassturr"
+
+buildItem6 = "hub"

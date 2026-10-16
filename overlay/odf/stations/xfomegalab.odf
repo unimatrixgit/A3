@@ -1,0 +1,113 @@
+#include "research.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Omega Research Laboratory"
+
+//tooltips
+tooltip = "Omega Research Laboratory"
+verboseTooltip = "Research stabilized Omega power to unlock enhanced ship variants at Command Shipyard III."
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 1100
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 11
+
+//animate looped upon build
+animation = 2
+//**********************************************************************
+//Construction Parameters
+podHardpoints = "pod01"
+
+//**********************************************************************
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Asimov Center" "Sagan Center" "Gibson Center" "Brin Center"
+	"Bradbury Center" "Niven Center" "Pournelle Center" "Clark Center"
+	"Huxley Center" "Heinlein Center" "Welles Center" "Bova Center"
+	"Verne Center" "Chriton Center" "Simmons Center"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+lifeSupportTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+weaponsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+shieldGeneratorTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+sensorsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+hullTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+
+//****//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//****************************************************************************************************************************************
+//SYSTEM HITPOINTS
+shieldGeneratorHitPoints = 2000
+enginesHitPoints = 0
+weaponsHitPoints = 0
+lifeSupportHitPoints = 2000
+sensorsHitPoints = 2000
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "AdvResearchStationSelect"
+eventAcknowledge = "AdvResearchStationAcknowledge"
+eventDecommission = "AdvResearchStationDecommission"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "science_station"
+hotkeyLabel = "HOTKEY_F7"
+
+//************************************************************
+// Brian additions for context sensitive menus
+transporter = 1
+
+
+baseName = "fresear2"
+
+buildItem0 = "xfomegapod"
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 0
+metalCost = 605
+latinumCost = 0
+biomatterCost = 0
+crewCost = 284
+officerCost = 8
+buildTime = 93

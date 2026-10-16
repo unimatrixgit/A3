@@ -1,0 +1,31 @@
+#include "bbattle2.odf"
+unitName = "Omega Tactical Cube"
+tooltip = "Omega Tactical Cube"
+verboseTooltip = "Stabilized Omega refit. Enhanced shields, sustained weapons and energy regeneration."
+baseName = "bbattle2"
+maxHealth = 9038
+shieldRate = 27.750
+maxSpecialEnergy = 10200
+specialEnergyRate = 52.500
+weapon1 = "xow_bt4phas"
+weapon2 = "xow_bc3phot"
+
+
+
+
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 3510
+metalCost = 1755
+latinumCost = 0
+biomatterCost = 0
+crewCost = 4800
+officerCost = 44
+buildTime = 68
+
+// Additional green holding/assimilation beam, separate from the existing blue beam.
+weapon6 = "xacgreen"
+weaponHardpoints6 = "hp01"

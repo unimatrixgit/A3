@@ -1,0 +1,71 @@
+#include "fgalaxyx.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+verboseTooltip = "Captain Riker's Enterprise"
+
+//This ship is a hero.
+isHero = 1
+
+//Ship label provided because this is a unique ship.
+label = "USS Enterprise NCC-1701-D"
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 15000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 150
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 15000
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 150
+
+//**********************************************************************
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "USS Enterprise - D"  
+
+weapon7 = "fentdxtoente"
+
+
+
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 4470
+metalCost = 670
+latinumCost = 0
+biomatterCost = 0
+crewCost = 856
+officerCost = 10
+buildTime = 120
+
+eventSelect = "XV_fentdx_Select"
+
+eventAcknowledge = "XV_fentdx_Acknowledge"
+
+eventAttack = "XV_fentdx_Attack"
+
+eventStop = "XV_fentdx_Stop"
+
+eventMove = "XV_fentdx_Move"
+
+eventRepair = "XV_fentdx_Repair"
+
+eventRedAlert = "XV_fentdx_RedAlert"
+
+eventYellowAlert = "XV_fentdx_YellowAlert"
+
+eventGreenAlert = "XV_fentdx_GreenAlert"
+
+eventTransport = "XV_fentdx_Transport"
+
+eventSelfDestruct = "XV_fentdx_SelfDestruct"
+
+eventDecommission = "XV_fentdx_Decommission"

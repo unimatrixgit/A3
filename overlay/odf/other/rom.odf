@@ -1,0 +1,149 @@
+// Name used to refer to the race in the code and scripts.
+name = "romulan"
+
+// Name displayed in the interface for this race.
+displayKey = "GUI_RD_ROMULAN"
+
+// Instant action slot, negative means not playable
+instantActionSlot = 2
+
+// Name of the interface configuration and sprite files.
+interfaceConfiguration = "gui_rom.cfg"
+interfaceSprites = "gui_romulan.spr"
+
+// Label for officers in interface.
+officerRes = "GUI_CP_ROM_OFF_RES"
+officerTooltip = "GUI_RD_ROM_OFF_TOOLTIP"
+officerVerboseTooltip = "GUI_RD_ROM_OFF_VTOOLTIP"
+
+// Label for admirals log creation
+creationLabel = "ADM_COMMISSIONED"
+recycledLabel = "ADM_DECOMMISSIONED"
+
+
+// Music play list.
+singlePlayerMusic = ""
+multiPlayerMusic = "mrommp300.wav"
+
+// Transporter sprite
+transportSprite = "rtransport"
+
+// How quickly this race repairs. Bigger is slower
+repairStrength = 8.0f
+
+// How strong this race is when fighting as a boarding party or
+// against a boarding party.
+boardingStrength = 0.75f
+
+// When this race will retreat from battle
+retreatStrength = 0.20f		//shield percentage
+crewRetreatRatio = 0.10f //crew ratio
+
+//number of crew added to the team per second per starbase
+// also base for planetary civilian population rate
+crewAccumulationRate = 4.0
+
+//the modifier for the crewAccumulationRate for a starbase if it is close to a planet
+planetCrewAccumulationModifier = 1.25
+
+// Name of the city texture, "" means none
+cityTextureName = "ECFR"
+
+// atmosphere tint (ugly green)
+//atmosphereTint = 0.3 0.7 0.3
+atmosphereTint = 1.0 1.0 1.0
+
+// # of cities in the city texture
+numCities = 35.0
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The percentage at which the crew enters yellow status (ex. 0.75f)
+crewYellowStatus = 0.5f
+
+//The percentage at which the crew enters red status (ex. 0.25f)
+crewRedStatus = 0.25f
+
+//The multiplier for the repair time while in yellow status
+repairYellow = 1.5f
+
+//The multiplier for the repair time while in red status
+repairRed = 2.0f
+
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+//**********************************************************************
+
+
+//ODF for officer upgrade for starbases
+officerUpgradeODF = "romoff"
+
+// the things you get when you ask for minimal default units (instead of the map units)
+minimalUnits1 = "rconst.odf"	// construction ship
+
+// the things you get when you ask for standard default units (instead of the map units)
+standardUnits1 = "rconst.odf"	// construction ship
+standardUnits2 = "rconst.odf"	// construction ship
+standardUnits3 = "rbase.odf"	// starbase
+standardUnits4 = "rscout.odf"	// starbase
+
+// the things you get when you ask for superside units (instead of the map units)
+superUnits1 = "bconst.odf"	// borg construction ship
+superUnits2 = "fconst.odf"	// federation construction ship
+superUnits3 = "kconst.odf"	// klingon construction ship
+superUnits4 = "rconst.odf"	// romulan construction ship
+
+//things you get when you ask for capture the flag map.
+ctfUnits1 = "ctf_rconst.odf"
+ctfUnits2 = "ctf_rconst.odf"
+ctfUnits3 = "ctf_rbase.odf"
+ctfUnits4 = "rscout.odf"
+
+
+// for the computer voice
+computerShipConstructionBegin1 = "gvofc022.wav"
+computerShipConstructionBegin2 = "gvofc023.wav"
+computerShipConstructionComplete1 = "gvofc024.wav"
+computerFacilityConstructionBegin1 = "gvofc022.wav"
+computerFacilityConstructionBegin2 = "gvofc023.wav"
+computerFacilityConstructionComplete1 = "gvofc024.wav"
+computerWeaponsOffline1 = "gvofc01.wav"
+computerEnginesOffline1 = "gvofc03.wav"
+computerEnginesOffline2 = "gvofc05.wav"
+computerShieldGeneratorOffline1 = "gvofc09.wav"
+computerLifeSupportOffline1 = "gvofc011.wav"
+computerSensorsOffline1 = "gvofc07.wav"
+computerUnderAttack1 = ""
+
+// Recycling efficiency
+// Romulans are pretty darn good at recycling
+recycleDilithiumFraction = .9
+recycleMetalFraction = .9
+
+// How relatively fast we mine any resource
+miningRateModifier = .8
+
+// what event should we use when we run out of officers?
+insufficientOfficersEvent = "InsufficientRomOfficers"
+
+// for normal and lots of resource games, we need to specify how much
+// of each resource this race should get
+
+// NORMAL
+normalDilithium = 3500
+normalMetal = 2000
+normalLatinum = 2500
+normalCrew = 1200
+
+// LOTS
+lotsDilithium = 30000
+lotsMetal = 30000
+lotsLatinum = 30000
+lotsCrew = 30000
+
+standardUnits5 = "xhrhero.odf"
+
+minimalUnits2 = "xhrhero.odf"

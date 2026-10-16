@@ -1,0 +1,153 @@
+#include "battle.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Class VII Tactical Cube"
+
+//tooltips
+tooltip = "Class VII Tactical Cube"
+verboseTooltip = "BORG_BATTLE2_V"
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+// don't use the horrible old % crew loss on damage
+saneCrewLossMethod = 0
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 9300
+healthRate = 93
+
+// max number of assimilated weapons
+maxExtraWeapons = 3
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 1
+enginesHitPoints = 1
+weaponsHitPoints = 1
+lifeSupportHitPoints = 1
+sensorsHitPoints = 1
+
+shieldprotection = 1
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 100
+maxShields = 175
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 8000
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 90
+
+//**********************************************************************
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+	"C954-16743B" "C954-39652" "C954-56718" "C954-46577"
+	"C954-58648B" "C954-13448" "C954-79719" "C954-10868"
+	"C954-35F844" "C954-53388" "C954-73544" "C954-63384"
+	"C954-923F44" "C954-74FD597" "C954-76587" "C954-71577"
+	"C954-259G62" "C954-16475" "C954-59871" "C954-24635"
+	"C954-44JH575" "C954-95682" "C954-06764" "C954-36691"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hullTargetHardpoints = "hp06"
+criticalTargetHardpoints = "hp01"
+
+//**********************************************************************
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 1.00f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.0f
+
+//**********************************************************************
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 5.0f
+//**********************************************************************
+
+
+//**********************************************************************
+//PHYSICS PARAMETERS
+
+//physics file for all other physics stuff
+physicsFile = "bbatphys.odf"
+
+//John avoidance stuff DO NOT CHANGE
+avoidanceClass = 9
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "borg_battle"
+hotkeyLabel = "HOTKEY_F4"
+ScaleSOD = 2.5
+// Xaramada: two normal weapons and reusable specials on F4 / F5 / F6.
+
+// Xaramada: two normal weapons and reusable specials on F4 / F5 / F6.
+weapon1 = "bmphas"
+weaponHardpoints1 = "hp01" "hp06" "hp11" "hp16" "hp21" "hp26"
+weapon2 = "bmphot"
+weaponHardpoints2 = "hp02" "hp07" "hp12" "hp17" "hp22" "hp27"
+weapon3 = "xacassim"
+weaponHardpoints3 = "hp01"
+weapon4 = "xactwarp"
+weaponHardpoints4 = "hp01"
+weapon5 = "xacremod"
+weaponHardpoints5 = "hp01"
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 2700
+metalCost = 1350
+latinumCost = 0
+biomatterCost = 0
+crewCost = 6700
+officerCost = 39
+buildTime = 60
+
+// Additional green holding/assimilation beam, separate from the existing blue beam.
+weapon6 = "xacgreen"
+weaponHardpoints6 = "hp01"

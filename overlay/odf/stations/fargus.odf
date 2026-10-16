@@ -1,0 +1,107 @@
+#include "turret.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Argus Array"
+
+//tooltips
+tooltip = "Argus Array"
+verboseTooltip = "Advanced Sensor station designed to keep the entire fleet in contact"
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 1200
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 12
+//This is the range in meters which the ships sensors can see (LOS)
+rangeScan = 5000.0f
+
+//animate forward once upon build
+//animation = 1
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+attackPower = 0.0f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.05f
+
+//**********************************************************************
+// Tara additions for context sensitive menus
+combat = 0
+
+//**********************************************************************
+
+//ART PARAMETERS & WEAPON NAMES
+
+// Detect Cloak
+//weapon1 = "gdetectf"
+//weaponHardpoints1 = "hp01"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints =
+lifeSupportTargetHardpoints = "hp02" "hp03" "hp04"
+weaponsTargetHardpoints = "hp01"
+shieldGeneratorTargetHardpoints = "hp02" "hp03" "hp04"
+sensorsTargetHardpoints = "hp01"
+hullTargetHardpoints = "hp02" "hp03" "hp04"
+criticalTargetHardpoints = "hp02" "hp03" "hp04"
+
+//**********************************************************************
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 1500
+enginesHitPoints = 0
+weaponsHitPoints = 1500
+lifeSupportHitPoints = 1500
+sensorsHitPoints = 1500
+
+//**********************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "SensorSelect"
+eventAcknowledge = "SensorAcknowledge"
+eventDecommission = "SensorDecommission"
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "sensor_turret"
+hotkeyLabel = "HOTKEY_F3"
+ScaleSOD = 8.0
+avoidme = 0
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 130
+metalCost = 215
+latinumCost = 0
+biomatterCost = 0
+crewCost = 0
+officerCost = 4
+buildTime = 70

@@ -1,0 +1,85 @@
+#include "cargo.odf"
+
+//MAIN DESIGN PARAMETERS
+
+//Race which can build ship & starting race of ship
+race = "ferengi"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Ferengi Cargo Ship"
+
+//tooltips
+tooltip = "FERENGI_CARGOCLASS"
+verboseTooltip = "FERENGI_CARGOCLASS_V"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 250
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 55
+enginesHitPoints = 47
+weaponsHitPoints = 47
+lifeSupportHitPoints = 47
+sensorsHitPoints = 47
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.5
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+    "Bestan"        "Bovris-3"      "Cas-Muvna"     "Cas-Vegga"
+    "Cerendost"     "Crell"         "Dajesswimax"   "Dussooron"
+    "Edja"          "Hakmeguluta"   "Hester"        "Himpos-480"
+    "Igen"          "Karfidamar"    "Kyrasam"       "Masti-Skaden"
+    "Minolbranyn"   "Moorii"        "Mroola-Ran"    "Muntol"
+    "Nam-Breth"     "Napibame-12"   "Neelin-4"      "Ob-Strori"
+    "Oetalgolor"    "Ondik"         "Rard-Pis"      "Rariromia"
+    "Salia"         "Sapte"         "Soodii"        "Yag-Dhul"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03"
+lifeSupportTargetHardpoints = "hp04" "hp05" "hp06"
+weaponsTargetHardpoints = "hp07" "hp08" "hp09"
+shieldGeneratorTargetHardpoints = "hp10"
+sensorsTargetHardpoints = "hp04" "hp05" "hp06"
+hullTargetHardpoints = "hp07" "hp08" "hp09"
+criticalTargetHardpoints = "hp07" "hp08" "hp09"
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+//**********************************************************************
+aiName = "TraderProcess"
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 200
+metalCost = 0
+latinumCost = 0
+biomatterCost = 0
+crewCost = 100
+officerCost = 4
+buildTime = 40

@@ -1,0 +1,37 @@
+#include "SensorUpgradePod2.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Level 3 Sensors Pod"
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//tooltips
+tooltip = "ROM_POD23"
+verboseTooltip = "ROM_POD23_V"
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Latinum Cost to build
+
+//Number of officers required to build this ship
+
+//Amount of time required to build ship
+
+//make this slightly larger than the level one pod
+scaleSOD = 0.3
+
+hotkeyLabel = "HOTKEY_F3"
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 375
+metalCost = 65
+latinumCost = 125
+biomatterCost = 0
+crewCost = 0
+officerCost = 2
+buildTime = 240

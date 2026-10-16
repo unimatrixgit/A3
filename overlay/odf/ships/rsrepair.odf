@@ -1,0 +1,120 @@
+#include "repairBase.odf"
+
+//MAIN DESIGN PARAMETERS
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Reman Class"
+
+//tooltips
+tooltip = "Reman Class"
+verboseTooltip = "Romulan Repair Vessel"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 718
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 214
+enginesHitPoints = 192
+weaponsHitPoints = 47
+lifeSupportHitPoints = 308
+sensorsHitPoints = 117
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 8.3
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 81
+impulseSpeed = 78
+warpSpeed = 768
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 2400
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 24
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "Accilis" "Atius" "Melgus" "Pemas"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+
+// Repair Beam
+weapon1 = "gRepairBeam"
+weaponHardpoints1 = "hp10"
+
+// Repair Beam
+weapon2 = "gRepairBeam"
+weaponHardpoints2 = "hp11"
+
+// Phaser
+weapon3 = "rc01phas"
+weaponHardpoints3 = "hp08"
+
+// Cloaking Device
+weapon4 = "grcloak"
+weaponHardpoints4 = "hp09" 
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+//**********************************************************************
+
+// Repair Parameters
+// Great at recrew, great at repair
+recrewRate = .2
+repairRate = .4
+
+//**********************************************************************
+//KEYMAP LABEL
+hotkeyLabel = "HOTKEY_F4"
+
+//************************************************************
+// Tara additions for context sensitive menus
+alert = 1
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 250
+metalCost = 0
+latinumCost = 0
+biomatterCost = 0
+crewCost = 50
+officerCost = 2
+buildTime = 12

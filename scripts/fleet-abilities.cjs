@@ -1,0 +1,22 @@
+const {fs,p,root,repo,files,index,read,save,properties,log}=require('./odf-lib.cjs');
+const trees=['tech1.tt','fulltech.tt','earlytech.tt','nosci.tt','nosuper.tt','nospweap.tt'];
+let sprFile=root+'/Sprites/gui_global.spr',spr=read(sprFile);
+function set(t,k,value){let re=new RegExp('^\\s*'+k+'\\s*=.*$','gmi');return re.test(t)?t.replace(re,k+' = '+value):t+'\r\n'+k+' = '+value+'\r\n';}
+function addItem(t,prefix,item){if(new RegExp('^\\s*'+prefix+'\\d+\\s*=\\s*"'+item+'"','mi').test(t))return t;let nums=[...t.matchAll(new RegExp('^\\s*'+prefix+'(\\d+)\\s*=','gmi'))].map(m=>+m[1]);return t+'\r\n'+prefix+(Math.max(-1,...nums)+1)+' = "'+item+'"\r\n';}
+let changed=[],cloak=[],borg=[];
+for(let file of files.filter(f=>/[/\\]ships[/\\]/i.test(f))){let v=properties(file),name=p.basename(file),t=read(file),weapons=Object.entries(v).filter(([k])=>/^weapon\d+$/.test(k));if(v.race==='borg'){
+ borg.push(name);let hasTranswarp=weapons.some(([,w])=>properties(index.get(w.toLowerCase()+'.odf')).classlabel==='transwarpconduit');
+ if(!hasTranswarp){let used=new Set(weapons.map(([,w])=>Number(properties(index.get(w.toLowerCase()+'.odf')).buttonslot)));let slot=[5,6,4,3,2,1].find(n=>!used.has(n));if(!slot)throw Error('No free GUI special slot on '+name);let ability='xabtrans'+slot,af=root+'/odf/special_weapons/'+ability+'.odf';save(af,`#include "gtwarpd.odf"\r\nbuttonSlot = ${slot}\r\npopupSlot = ${slot}\r\nhotkeyLabel = "HOTKEY_F${slot}"\r\n`);let n=Math.max(0,...weapons.map(([k])=>+k.slice(6)))+1;if(n>16)throw Error('Weapon limit '+name);t+=`\r\n// Xaramada: transwarp for all Borg vessels.\r\nweapon${n} = "${ability}"\r\nweaponHardpoints${n} = "hp01"\r\n`;if(!spr.includes('b_'+ability+' '))spr+='\r\n@reference=64\r\n@tmaterial=default\r\nb_'+ability+' gbtwarpd00 0 0 64 64\r\n';changed.push(name);log('TRANSWARP '+name+' added in weapon '+n+', GUI slot '+slot);}
+ if((parseFloat(v.maxspecialenergy)||0)<1000)t=set(t,'maxSpecialEnergy','1000');if((parseFloat(v.specialenergyrate)||0)<=0)t=set(t,'specialEnergyRate','10');
+ }
+ if(v.race==='klingon'||name.toLowerCase()==='fdestroy.odf'){
+ let hasCloak=weapons.some(([,w])=>properties(index.get(w.toLowerCase()+'.odf')).classlabel==='cloakingdevice');if(!hasCloak){let n=Math.max(0,...weapons.map(([k])=>+k.slice(6)))+1;if(n>16)throw Error('Weapon limit '+name);t+=`\r\n// Xaramada: cloaking device.\r\nweapon${n} = "${v.race==='klingon'?'gkcloak':'gcloak'}"\r\nweaponHardpoints${n} = "hp01"\r\n`;log('CLOAK '+name+' added in weapon slot '+n);}cloak.push(name);if((parseFloat(v.maxspecialenergy)||0)<100)t=set(t,'maxSpecialEnergy','1000');if((parseFloat(v.specialenergyrate)||0)<=0)t=set(t,'specialEnergyRate','10');
+ }
+ if(t!==read(file))save(file,t);
+}
+let race=root+'/odf/other/borg.odf';save(race,addItem(read(race),'standardUnits','blocutus.odf'));let yard=root+'/odf/stations/byard2.odf';save(yard,addItem(read(yard),'buildItem','blocutus'));
+let loc=root+'/odf/ships/blocutus.odf';save(loc,set(read(loc),'baseName','"bbattle1"'));
+if(!/^b_blocutus\s/m.test(spr))spr+='\r\n@reference=64\r\n@tmaterial=default\r\nb_blocutus gbbbattle1 0 0 64 64\r\n';save(sprFile,spr);
+for(let name of trees){let f=root+'/techtree/'+name;if(!fs.existsSync(f))continue;let t=read(f);for(let ability of ['xabtrans1','xabtrans2','xabtrans3','xabtrans4','xabtrans5','xabtrans6'])if(fs.existsSync(root+'/odf/special_weapons/'+ability+'.odf')&&!new RegExp('^\\s*'+ability+'\\.odf\\s','mi').test(t))t+='\r\n'+ability+'.odf 0\r\n';if(!/^\s*blocutus\.odf\s/mi.test(t))t+='\r\nblocutus.odf '+(name==='fulltech.tt'?'0':'1 byard2.odf')+' // Locutus hero cube\r\n';save(f,t);}
+fs.writeFileSync(repo+'/reports/fleet-abilities.json',JSON.stringify({borgVessels:borg,transwarpAdded:changed,cloakingVerified:cloak,locutus:{standardStart:true,production:'byard2',model:'bbattle1'},inGameTesting:'pending'},null,2));
+let status=JSON.parse(fs.readFileSync(repo+'/status.json','utf8').replace(/^\uFEFF/,''));status.steps[5].done=true;status.steps[7].done=true;status.current='Applied: all '+borg.length+' Borg vessels have transwarp; '+cloak.length+' Klingon/Defiant definitions have cloaking. Locutus added to Borg standard start and byard2. tech1 and GUI updated. Broader merge, heroes, Omega, costs, maps, GitHub and launch remain pending.';fs.writeFileSync(repo+'/status.json',JSON.stringify(status,null,2));log('DONE: Borg-wide transwarp, Klingon/Defiant cloak and Locutus start/production applied. In-game testing pending.');

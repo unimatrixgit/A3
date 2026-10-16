@@ -1,0 +1,36 @@
+#include "EngineUpgradePod.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Level 2 Engines Pod"
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//tooltips
+tooltip = "ROM_POD14"
+verboseTooltip = "ROM_POD14_V"
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Latinum Cost to build
+
+//Number of officers required to build this ship
+
+//Amount of time required to build ship
+
+ScaleSOD = 0.25
+
+hotkeyLabel = "HOTKEY_F4"
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 500
+metalCost = 150
+latinumCost = 250
+biomatterCost = 0
+crewCost = 0
+officerCost = 1
+buildTime = 120

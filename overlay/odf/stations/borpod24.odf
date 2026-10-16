@@ -1,0 +1,37 @@
+#include "EngineUpgradePod2.odf"
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Level 3 Engines Pod"
+
+//tooltips
+tooltip = "BORG_POD24"
+verboseTooltip = "BORG_POD24_V"
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Latinum Cost to build
+
+//Number of officers required to build this ship
+
+//Amount of time required to build ship
+
+//make this slightly larger than the level one pod
+scaleSOD = 1.2
+
+hotkeyLabel = "HOTKEY_F4"
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 500
+metalCost = 250
+latinumCost = 0
+biomatterCost = 0
+crewCost = 0
+officerCost = 2
+buildTime = 240

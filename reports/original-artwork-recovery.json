@@ -1,0 +1,473 @@
+{
+  "baseline": "Original supplied installation, which contains older mods; not a verified clean vanilla distribution.",
+  "restoredModelUnits": [
+    "fconst",
+    "ffreight",
+    "fcargo",
+    "fscout",
+    "fdestroy",
+    "fdestroy2",
+    "fcruise2",
+    "fcruise3",
+    "fcolony",
+    "ffrigate",
+    "fspecial",
+    "fbbridge",
+    "fsaucer",
+    "bconst",
+    "bfreight",
+    "bdestroy",
+    "bcruise2",
+    "bcolony",
+    "bassault",
+    "bbattle1",
+    "bbattle2",
+    "bbattle3",
+    "bbattle4",
+    "bfrigate",
+    "bspecial",
+    "kconst",
+    "kfreight",
+    "kcargo",
+    "ksrepair",
+    "kscout",
+    "kdestroy",
+    "kcruise1",
+    "kcruise2",
+    "kcruise3",
+    "kcolony",
+    "kassault",
+    "kbattle",
+    "kbattle2",
+    "kfrigate",
+    "kspecial",
+    "rconst",
+    "rsrepair",
+    "rscout",
+    "rdestroy",
+    "rcruise1",
+    "rcruise2",
+    "rcruise3",
+    "rcolony",
+    "rassault",
+    "rbattle",
+    "rbattle2",
+    "rfrigate",
+    "rspecial",
+    "cconst",
+    "cfreight",
+    "ccargo",
+    "csrepair",
+    "cscout",
+    "cdestroy",
+    "cdestroy2",
+    "ccruise1",
+    "ccruise2",
+    "ccruise3",
+    "ccolony",
+    "cassault",
+    "cbattle",
+    "cbattle2",
+    "cfrigate",
+    "cspecial",
+    "csuper"
+  ],
+  "skippedForCompatibility": [
+    {
+      "unit": "fsrepair",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp19",
+        "hp20"
+      ]
+    },
+    {
+      "unit": "fcruise1",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp39",
+        "hp30",
+        "hp40",
+        "hp42",
+        "hp43",
+        "hp44",
+        "hp45",
+        "hp37",
+        "hp31",
+        "hp32",
+        "hp33",
+        "hp34"
+      ]
+    },
+    {
+      "unit": "fassault",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp26",
+        "hp27",
+        "hp28",
+        "hp29",
+        "hp30",
+        "hp31",
+        "hp32"
+      ]
+    },
+    {
+      "unit": "fgalaxy",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp32"
+      ]
+    },
+    {
+      "unit": "fbattle",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp68",
+        "hp40",
+        "hp41",
+        "hp42",
+        "hp43",
+        "hp44",
+        "hp45",
+        "hp46",
+        "hp47",
+        "hp48",
+        "hp49",
+        "hp50",
+        "hp51",
+        "hp52",
+        "hp53",
+        "hp54",
+        "hp55",
+        "hp56",
+        "hp57",
+        "hp58",
+        "hp59",
+        "hp37",
+        "hp38",
+        "hp39",
+        "hp60",
+        "hp61",
+        "hp62",
+        "hp63",
+        "hp64",
+        "hp65"
+      ]
+    },
+    {
+      "unit": "bscout",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp14",
+        "hp15"
+      ]
+    },
+    {
+      "unit": "bcruise1",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp10",
+        "hp09",
+        "hp04",
+        "hp05"
+      ]
+    },
+    {
+      "unit": "ksuper",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp04",
+        "hp05"
+      ]
+    },
+    {
+      "unit": "rfreight",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp07",
+        "hp08",
+        "hp09"
+      ]
+    },
+    {
+      "unit": "rcargo",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp01",
+        "hp02",
+        "hp03",
+        "hp04",
+        "hp05"
+      ]
+    },
+    {
+      "unit": "rsuper",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp17",
+        "hp09",
+        "hp03",
+        "hp04",
+        "hp05",
+        "hp06",
+        "hp07",
+        "hp08"
+      ]
+    },
+    {
+      "unit": "brconst",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp12",
+        "hp09",
+        "hp10",
+        "hp11",
+        "hp13"
+      ]
+    },
+    {
+      "unit": "brfreight",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp11",
+        "hp13",
+        "hp09",
+        "hp14"
+      ]
+    },
+    {
+      "unit": "brscout",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp09",
+        "hp10",
+        "hp11",
+        "hp12",
+        "hp13",
+        "hp14",
+        "hp15",
+        "hp16",
+        "hp17",
+        "hp18",
+        "hp19",
+        "hp20",
+        "hp21",
+        "hp22",
+        "hp23",
+        "hp24",
+        "hp25"
+      ]
+    },
+    {
+      "unit": "brdestroy",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp09",
+        "hp10",
+        "hp11",
+        "hp12",
+        "hp13",
+        "hp14",
+        "hp15",
+        "hp26",
+        "hp27",
+        "hp28",
+        "hp29",
+        "hp16",
+        "hp17",
+        "hp18",
+        "hp19",
+        "hp20",
+        "hp21",
+        "hp22",
+        "hp23",
+        "hp24",
+        "hp25"
+      ]
+    },
+    {
+      "unit": "brcruise1",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp09",
+        "hp10",
+        "hp11",
+        "hp12",
+        "hp13",
+        "hp14",
+        "hp15",
+        "hp26",
+        "hp27",
+        "hp28",
+        "hp29",
+        "hp16",
+        "hp17",
+        "hp18",
+        "hp19",
+        "hp20",
+        "hp21",
+        "hp22",
+        "hp23",
+        "hp24",
+        "hp25"
+      ]
+    },
+    {
+      "unit": "brcruise2",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp08",
+        "hp09",
+        "hp21",
+        "hp22",
+        "hp23",
+        "hp24",
+        "hp25"
+      ]
+    },
+    {
+      "unit": "brbattle",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp09",
+        "hp10",
+        "hp11",
+        "hp12",
+        "hp13",
+        "hp14",
+        "hp15",
+        "hp26",
+        "hp27",
+        "hp28",
+        "hp29",
+        "hp30",
+        "hp31",
+        "hp32",
+        "hp33",
+        "hp34",
+        "hp35",
+        "hp36",
+        "hp16",
+        "hp17",
+        "hp18",
+        "hp19",
+        "hp20",
+        "hp21",
+        "hp22",
+        "hp23",
+        "hp24",
+        "hp25"
+      ]
+    },
+    {
+      "unit": "brbattle2",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp09",
+        "hp10",
+        "hp11",
+        "hp12",
+        "hp13",
+        "hp14",
+        "hp15",
+        "hp26",
+        "hp27",
+        "hp28",
+        "hp29",
+        "hp30",
+        "hp16",
+        "hp17",
+        "hp18",
+        "hp19",
+        "hp20",
+        "hp21",
+        "hp22",
+        "hp23",
+        "hp24",
+        "hp25"
+      ]
+    },
+    {
+      "unit": "brfrigate",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp09",
+        "hp10",
+        "hp11",
+        "hp12",
+        "hp13",
+        "hp14",
+        "hp15",
+        "hp26",
+        "hp16",
+        "hp17",
+        "hp18",
+        "hp19",
+        "hp20",
+        "hp21",
+        "hp22",
+        "hp23",
+        "hp24",
+        "hp25"
+      ]
+    },
+    {
+      "unit": "brcolony",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp09",
+        "hp10",
+        "hp11",
+        "hp12",
+        "hp13",
+        "hp14",
+        "hp15",
+        "hp16",
+        "hp17",
+        "hp18",
+        "hp19"
+      ]
+    },
+    {
+      "unit": "brbase",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp13",
+        "hp14",
+        "hp16",
+        "hp17",
+        "hp18",
+        "hp19",
+        "hp20"
+      ]
+    },
+    {
+      "unit": "bryard",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp08",
+        "hp09",
+        "hp10",
+        "hp11",
+        "hp12",
+        "hp13",
+        "hp14"
+      ]
+    },
+    {
+      "unit": "bryard2",
+      "reason": "original model lacks active ODF hardpoints",
+      "missing": [
+        "hp05",
+        "hp06",
+        "hp07",
+        "hp08",
+        "hp09"
+      ]
+    }
+  ],
+  "restoredBuildIcons": 70,
+  "filesCopied": 253,
+  "backupDirectory": "D:/Xaramada-Modwork/backups/original-artwork-1792173923302"
+}

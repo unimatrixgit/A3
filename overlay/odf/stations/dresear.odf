@@ -1,0 +1,115 @@
+// Begin main properties
+
+unitName = "Dominion Research Station"
+tooltip = "Dominion Research Station"
+verboseTooltip = "Conducts research into specific weapons for destroyers, cruisers, warships and battleships"
+race = "dominion"
+maxHealth = 3000
+shieldRate = 2.5
+intrinsicValue = 1.00f
+maxSpecialEnergy = 0
+specialEnergyRate = 0
+attackPower = 0.00f
+shieldGeneratorHitPoints = 300
+enginesHitPoints = 0
+weaponsHitPoints = 0
+lifeSupportHitPoints = 300
+sensorsHitPoints = 300
+enginesHitPercent = 0.0f
+lifeSupportHitPercent = 10.5f
+weaponsHitPercent = 0.0f
+shieldGeneratorHitPercent = 13.0f
+sensorsHitPercent = 13.0f
+crewHitPercent = 13.5f
+hullHitPercent = 50.0f
+
+// End main properties
+
+// Begin build menu
+
+buildItem0 = "dompod5"
+buildItem1 = "dompod4"
+buildItem2 = "dompod2"
+buildItem3 = "dompod3"
+buildItem4 = "dompod1"
+
+// End build menu
+
+// Begin hardpoints
+
+podHardpoints = "pod01" "pod02" "pod03" "pod04" "pod05"
+enginesTargetHardpoints = "hp07" "hp08" "hp09" "hp10"
+lifeSupportTargetHardpoints = "hp07" "hp08" "hp09" "hp10"
+weaponsTargetHardpoints = "hp07" "hp08" "hp09" "hp10"
+shieldGeneratorTargetHardpoints = "hp07" "hp08" "hp09" "hp10"
+sensorsTargetHardpoints = "hp07" "hp08" "hp09" "hp10"
+hullTargetHardpoints = "hp07" "hp08" "hp09" "hp10"
+criticalTargetHardpoints = "hp07" "hp08" "hp09" "hp10"
+
+// End hardpoints
+
+// Begin sounds
+
+eventSelect = "ResearchStationSelect"
+eventAcknowledge = "ResearchStationAcknowledge"
+eventDecommission = "ResearchStationDecommission"
+
+// End sounds
+
+// Begin ship names
+
+possibleCraftNames = 
+"Vortoyic Center" "Trezinyer Center" "G'Harrig Center" "Jokuurom Center" 
+"Pl'Arkarri Center" "Aculpon Center" "Dwinttil Center" "Freugt'r Center" 
+
+// End ship names
+
+// Begin misc properties
+
+hotkeyLabel = "HOTKEY_F6"
+transporter = 1
+ScaleSOD = 5.0
+footprintBuffer = 40.0f
+classLabel = "research"
+research = 1
+SHOW_MOVEMENT_AUTONOMY = 0;
+SHOW_SW_AUTONOMY = 0;
+shieldDelay = 3.0f
+rangeScan = 800.0f
+damagedScan = 100.0f
+repairYellow = 2.0f
+repairRed = 4.0f
+enginesRepairTime = 1.0f
+lifeSupportRepairTime = 0.1f
+weaponsRepairTime = 2.0f
+shieldGeneratorRepairTime = 2.0f
+sensorsRepairTime = 3.0f
+enginesCrewLoss = 0.0f
+lifeSupportCrewLoss = 10.0f
+weaponsCrewLoss = 5.0f
+shieldGeneratorCrewLoss = 15.0f
+sensorsCrewLoss = 5.0f
+lifeSupportLoss = 5.0f
+is_starbase = 1
+avoidanceClass = 1000
+weldingRadius = 1.0
+aiName = "StarbaseProcess"
+fireball = "xfirebal"
+facility = 1
+has_crew = 1
+has_hitpoints = 1
+checkValidResourceInterval = 10.0f
+
+// End misc properties
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 0
+metalCost = 1000
+latinumCost = 0
+biomatterCost = 0
+crewCost = 300
+officerCost = 10
+buildTime = 120

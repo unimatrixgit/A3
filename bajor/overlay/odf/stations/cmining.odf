@@ -1,0 +1,113 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Mining Station"
+
+tooltip = "Minign Station"
+verboseTooltip = "Used to process Dilithium"
+
+//Name of the ODF file of the matching freighter to build with the station
+freighterName = "cfreight"
+
+//Race which can build ship & starting race of ship
+race = "cardassian"
+
+//Dilithium transfer rate from freighter to station
+dilithiumTransferRate = 15.0
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 2307
+
+//SYSTEM HITPOINTS
+shieldGeneratorHitPoints = 750
+enginesHitPoints = 0
+weaponsHitPoints = 0
+lifeSupportHitPoints = 625
+sensorsHitPoints = 417
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.0
+
+//Possible Craft Names
+possibleCraftNames = "T'mak Gor-K4" "T'mak Gor-K2" "T'mak Gor-K5" "T'mak Gor-K7" "T'mak Gor-K3" "T'mak Gor-K1"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Hardpoints to hit for various systems and other locations.
+//enginesTargetHardpoints =
+//weaponsTargetHardpoints =
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.50f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "MiningStationSelect"
+eventAcknowledge = "MiningStationAcknowledge"
+eventDecommission = "MiningStationDecommission"
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "mining"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "mining_station"
+hotkeyLabel = "HOTKEY_F5"
+
+//************************************************************
+// Brian additions for context sensitive menus
+transporter = 1
+alert = 0
+
+//*************************************************************
+// Make sure we can build this base near dilithium moons and planets
+resourcesCanHandle = "dilithium"
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 0
+metalCost = 400
+latinumCost = 0
+biomatterCost = 0
+crewCost = 250
+officerCost = 4
+buildTime = 50
+
+baseName = "xvstock_cmining"
+
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+
+criticaltargethardpoints = "hp07" "hp08" "hp09"

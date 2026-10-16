@@ -1,0 +1,95 @@
+{
+  "stage": "D:/Xaramada-Modwork/next-update/breen-fix",
+  "writes": [
+    "odf/other/breen.odf",
+    "techtree/tech1.tt",
+    "techtree/fulltech.tt",
+    "techtree/earlytech.tt",
+    "techtree/nosci.tt",
+    "techtree/nosuper.tt",
+    "techtree/nospweap.tt",
+    "AI/AIPs/breen_build_list.aip",
+    "AI/AIPs/breen_instant_action_build_list.aip",
+    "AI/AIPs/breen_offensive_list.aip",
+    "AI/AIPs/breen_defensive_list.aip",
+    "AI/AIPs/breen_endgame_list.aip"
+  ],
+  "filledRaceSettings": [
+    "creationLabel",
+    "recycledLabel",
+    "singlePlayerMusic",
+    "multiPlayerMusic",
+    "transportSprite",
+    "crewAccumulationRate",
+    "planetCrewAccumulationModifier",
+    "cityTextureName",
+    "atmosphereTint",
+    "numCities",
+    "computerShipConstructionBegin1",
+    "computerShipConstructionBegin2",
+    "computerShipConstructionComplete1",
+    "computerFacilityConstructionBegin1",
+    "computerFacilityConstructionBegin2",
+    "computerFacilityConstructionComplete1",
+    "computerWeaponsOffline1",
+    "computerEnginesOffline1",
+    "computerEnginesOffline2",
+    "computerShieldGeneratorOffline1",
+    "computerLifeSupportOffline1",
+    "computerSensorsOffline1",
+    "computerUnderAttack1",
+    "transportToFriendsOnNotEasy",
+    "transportToEnemyOnHard",
+    "recycleDilithiumFraction",
+    "recycleMetalFraction",
+    "miningRateModifier",
+    "insufficientOfficersEvent",
+    "normalDilithium",
+    "normalMetal",
+    "normalLatinum",
+    "normalCrew",
+    "lotsDilithium",
+    "lotsMetal",
+    "lotsLatinum",
+    "lotsCrew"
+  ],
+  "techChanges": [
+    {
+      "tree": "tech1.tt",
+      "unit": "brconst.odf",
+      "change": "dbase.odf -> brbase.odf"
+    },
+    {
+      "tree": "tech1.tt",
+      "unit": "brfreight.odf",
+      "change": "dbase.odf -> brbase.odf"
+    },
+    {
+      "tree": "tech1.tt",
+      "unit": "bryard.odf",
+      "change": "dbase.odf -> brbase.odf"
+    },
+    {
+      "tree": "earlytech.tt",
+      "unit": "brconst.odf",
+      "change": "dbase.odf -> brbase.odf"
+    },
+    {
+      "tree": "earlytech.tt",
+      "unit": "brfreight.odf",
+      "change": "dbase.odf -> brbase.odf"
+    },
+    {
+      "tree": "earlytech.tt",
+      "unit": "bryard.odf",
+      "change": "dbase.odf -> brbase.odf"
+    }
+  ],
+  "aiProfiles": 5,
+  "uniqueAiBuildTargets": 19,
+  "blockedTargets": [],
+  "crashSymbol": "AIP::m_UpdateTechnologyLevel at 0x00424810; recorded crash at 0x004248a9",
+  "inference": "Missing Breen AI and cross-faction prerequisites are consistent with an AI load/technology failure; runtime retest required.",
+  "applied": true,
+  "backupDirectory": "D:\\Xaramada-Modwork\\backups\\breen-recovery-20261016-200420"
+}

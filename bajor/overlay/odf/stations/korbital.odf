@@ -1,0 +1,79 @@
+#include "orbital.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Orbital Processing Facility"
+
+//tooltips
+tooltip = "Orbital Processing Facility"
+verboseTooltip = "Processes collected metal deposits"
+
+//Race which can build ship & starting race of ship
+race = "klingon"
+
+//Amount of time required to build facility
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 2200
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.7
+
+// Speed multiplier for mining
+miningMultiplier = 0.4
+
+//Possible Craft Names
+possibleCraftNames = "Ko'Va Station-253" "Ko'Va Station-984" "Ko'Va Station-846" "Ko'Va Station-978" "Ko'Va Station-651" "Ko'Va Station-094" "Ko'Va Station-046" "Ko'Va Station-753"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Mining Beam
+weapon1 = "gOrbitalBeam"
+
+// Hardpoints to hit for various systems and other locations.
+"hp21"
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "OrbitalFacilitySelect"
+eventAcknowledge = "OrbitalFacilityAcknowledge"
+eventDecommission = "OrbitalFacilityDecommission"
+
+//**********************************************************************
+
+hotkeyLabel = "HOTKEY_F11"
+
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 400
+metalCost = 0
+latinumCost = 0
+biomatterCost = 0
+crewCost = 100
+officerCost = 2
+buildTime = 60
+
+baseName = "xvstock_korbital"
+
+weaponhardpoints1 = "hp01"
+
+shieldgeneratortargethardpoints = "hp01" "hp05" "hp09" "hp18" "hp12" "hp17"
+
+sensorstargethardpoints = "hp02" "hp06" "hp10" "hp19" 
+
+hulltargethardpoints = "hp03" "hp07" "hp11" "hp13" "hp17" "hp01"
+
+criticaltargethardpoints = "hp04" "hp08" "hp14" "hp15" "hp20" "hp01"

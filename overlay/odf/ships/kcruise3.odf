@@ -1,0 +1,141 @@
+#include "cruise1.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "K'Vort Class"
+
+//tooltips
+tooltip = "K'Vort Class"
+verboseTooltip = "Klingon Heavy Destroyer"
+
+//Race which can build ship & starting race of ship
+race = "klingon"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 978
+
+//This is the range in meters which the ships sensors can see (LOS)
+rangeScan = 900.0f
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 529
+enginesHitPoints = 439
+weaponsHitPoints = 562
+lifeSupportHitPoints = 504
+sensorsHitPoints = 412
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 5.2
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 93
+impulseSpeed = 78
+warpSpeed = 860
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 2400
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 24 
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "IKS MaQmIgh" "IKS SuH DaH" "IKS Sumchugh Vay" "IKS Qu'nasvad" "IKS Qong'Dlj" "IKS DaraDmo" "IKS Hu'tegh" "IKS Chav Ralqu'je"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Pulse Phaser
+weapon1 = "kc03pul"
+weaponHardpoints1 = "hp13"
+
+// Pulse Phaser
+weapon2 = "kc03pul"
+weaponHardpoints2 = "hp14"
+
+// Pulse Phaser
+weapon3 = "kc03pul"
+weaponHardpoints3 = "hp11"
+
+// Pulse Phaser
+weapon4 = "kc03pul"
+weaponHardpoints4 = "hp12"
+
+// Cloaking
+weapon5 = "gkcloak"
+weaponHardpoints5 = "hp15"
+
+// Photon Torpedos
+weapon6 = "kc03phot"
+weaponHardpoints6 = "hp09" "hp10"
+
+// Gravity mines
+weapon7 = "ggrvmine"
+weaponsHardpoints7 = "hp16"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" 
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" 
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" 
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" 
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" 
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" 
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" 
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.75f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.30f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+
+//**********************************************************************
+//PHYSICS PARAMETERS
+
+physicsFile = "sartilleryshipphys.odf"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "fed_photon"
+hotkeyLabel = "HOTKEY_F7"
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 350
+metalCost = 300
+latinumCost = 0
+biomatterCost = 0
+crewCost = 250
+officerCost = 10
+buildTime = 28

@@ -1,0 +1,22 @@
+// Economy-first faction AI; every target has a validated producer and tech path.
+#include "aipdef.h"
+int checkTechnologyAvailable = 1;
+Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
+{
+    "bjbase", 1, 0, 1, 1,
+    "bjmining", 1, 0, 1, 0,
+    "bjfreight", 2, 0, 2, 0,
+    "bjyard", 1, 0, 1, 2,
+    "bjconst", 2, 0, 2, 0,
+    "bjscout", 1, 0, 1, 0,
+    "bjinterceptor", 4, 0, 4, 0,
+    "bjresear", 1, 0, 1, 0,
+    "bjyard2", 1, 0, 1, 3,
+    "bjassault", 3, 0, 3, 0,
+    "bjturret", 2, 0, 2, 0,
+    "bjyard3", 1, 0, 1, 4,
+    "bjnerys", 1, 0, 1, 0,
+    "bjfreight", 4, 0, 4, 0,
+    "bjinterceptor", 8, 0, 8, 0,
+    "bjassault", 6, 0, 6, 0,
+};

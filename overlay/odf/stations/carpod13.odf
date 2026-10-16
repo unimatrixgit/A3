@@ -1,0 +1,34 @@
+#include "SensorUpgradePod.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Level 2 Sensor Pod"
+
+//Race which can build ship & starting race of ship
+race = "cardassian"
+
+//tooltips
+tooltip = "CARD_POD13"
+verboseTooltip = "CARD_POD13_V"
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Latinum Cost to build
+
+//Number of officers required to build this ship
+
+//Amount of time required to build ship
+
+hotkeyLabel = "HOTKEY_F3"
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 300
+metalCost = 100
+latinumCost = 200
+biomatterCost = 0
+crewCost = 0
+officerCost = 1
+buildTime = 120

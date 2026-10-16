@@ -1,0 +1,79 @@
+sprite_table
+
+# Armada cursors
+# --------------
+
+# Blend mode - Not applicable for cursors.
+
+# @reference=texture size in pixels from which the u,v,w, and h values
+# were measured.  This value will effect all subsequent textures until
+# a different value is specified.
+
+# @cursor - Flag for cursors - indicates that this sprite must be the
+#           same pixel format as the screen buffer.
+
+# Enable black colour for interface components (source colour keying)
+@skip=(0,0,0)
+
+
+# Name	File				U	V	W	H	Extra parameters
+
+
+# Overview Cursors
+@referenceWidth=128
+@referenceHeight=64
+standard_cursor			curs_24		0	0	32	32	@anim=cursor4x1 @cursor @origin=(0,0)
+@referenceWidth=128
+@referenceHeight=64
+c_arrow				curs_24		0	0	32	32	@anim=cursor4x1 @cursor @origin=(0,0)
+c_select			curs_24		0	32	32	32	@anim=cursor4x1 @cursor @origin=(0,0)
+
+@referenceHeight=32
+c_rally				curs_rally	0	0	32	32	@anim=cursor4x1 @cursor @origin=(16,16)
+
+@referenceWidth=192
+@referenceHeight=32
+c_wormin			curs_wrmin	0	0	32	32	@anim=cursor6x1	@cursor	@origin=(16,16)
+c_wormout			curs_wrmout	0	0	32	32	@anim=cursor6x1	@cursor	@origin=(16,16)
+c_worm				curs_worm	0	0	32	32	@anim=cursor6x1	@cursor	@origin=(16,16)
+c_attack			curs_attk	0	0	32	32	@anim=cursor6x1	@cursor	@origin=(16,16)
+c_noattack			curs_noattk 0	0	32	32  @anim=cursor6x1 @cursor @origin=(16,16)
+c_patrol			curs_patrl	0	0	32	32	@anim=cursor6x1	@cursor	@origin=(16,16)
+c_decommission		curs_noanim	0	0	32	32	@cursor @origin=(16,16)
+c_build				curs_noanim	32	0	32	32	@cursor @origin=(16,16)
+c_nomove			curs_noanim	96	0	32	32	@cursor @origin=(16,16)
+c_notransport			curs_noanim	160	0	32	32	@cursor	@origin=(16,16)
+c_nobuild			curs_noanim	128	0	32	32	@cursor	@origin=(16,16)
+c_strade			curs_noanim2	0	0	32	32	@cursor @origin=(16,16)
+c_etrade			curs_noanim2	32	0	32	32	@cursor @origin=(16,16)
+c_colonize			curs_noanim2	64	0	32	32	@cursor @origin=(16,16)
+c_nostrade			curs_noanim2	96	0	32	32	@cursor @origin=(16,16)
+c_noetrade			curs_noanim2	128	0	32	32	@cursor @origin=(16,16)
+c_nocolonize			curs_noanim2	160	0	32	32	@cursor @origin=(16,16)
+c_capture			curs_transattack	0	0	32	32	@anim=cursor6x1 @cursor @origin=(16,16)
+c_nocapture			curs_notransattack  0	0	32	32	@anim=cursor6x1 @cursor @origin=(16,16)
+
+@referenceWidth=64
+@referenceHeight=32
+c_repair			curs_repair	0	0	32	32	@cursor @origin=(16,16)
+c_norepair			curs_repair	32	0	32	32	@cursor @origin=(16,16)
+c_mining			curs_mining 0 	0	32	32  @cursor @origin=(16,16)
+c_nomining			curs_mining 32  0   32  32  @cursor @origin=(16,16)
+
+@referenceWidth=160
+@referenceHeight=32
+c_move				curs_move	0	0	32	32	@anim=cursor5x1	@cursor @origin=(16,16)
+c_warp				curs_warp	0	0	32	32	@anim=cursor5x1 @cursor @origin=(16,16)
+
+@referenceWidth=128
+@referenceHeight=32
+c_guard				curs_guard	0	0	32	32	@anim=cursor4x1	@cursor	@origin=(16,16)
+@referenceWidth=224
+@referenceHeight=32
+c_specweap			curs_specwp	0	0	32	32	@anim=cursor7x1	@cursor	@origin=(16,16)
+c_nospecweap		curs_nospecwp	0	0	32	32 @anim=cursor7x1 @cursor @origin=(16,16)
+@referenceWidth=256
+@referenceHeight=32
+c_transport			curs_trans	0	0	32	32	@anim=cursor8x1	@cursor	@origin=(16,16)
+
+@skip=off

@@ -1,0 +1,133 @@
+#include "scoutBase.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Scouting Cube"
+
+//tooltips
+tooltip = "Borg Scouting Cube"
+verboseTooltip = "Used primarily for scouting duties only."
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 1056
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 551
+enginesHitPoints = 518
+weaponsHitPoints = 604
+lifeSupportHitPoints = 587
+sensorsHitPoints = 612
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 9.7
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 1300
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 17
+
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 85
+impulseSpeed = 81
+warpSpeed = 797
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "D374-16841" "D374-46418" "D374-84156" "D374-96118" "D374-19081" "D374-84914" "D374-78914" "D374-15615" "D374-16162" "D374-85446"
+
+//**********************************************************************
+
+//ART PARAMETERS & WEAPON NAMES
+
+// Phaser
+
+// Torpedo
+
+// Detect Cloak 3
+
+//Transwarp Drive
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.10f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.15f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 5.0f
+//**********************************************************************
+// Physics
+physicsFile = "borg_sscoutphys"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "borg_scout"
+hotkeyLabel = "HOTKEY_F1"
+// Xaramada: two normal weapons and reusable specials on F4 / F5 / F6.
+weapon1 = "bt1phas"
+weaponHardpoints1 = "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18"
+weapon2 = "bc0phot"
+weaponHardpoints2 = "hp01"
+weapon3 = "xacassim"
+weaponHardpoints3 = "hp01"
+weapon4 = "xactwarp"
+weaponHardpoints4 = "hp01"
+weapon5 = "xacremod"
+weaponHardpoints5 = "hp01"
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 50
+metalCost = 0
+latinumCost = 0
+biomatterCost = 0
+crewCost = 30
+officerCost = 2
+buildTime = 5
+
+// Additional green holding/assimilation beam, separate from the existing blue beam.
+weapon6 = "xacgreen"
+weaponHardpoints6 = "hp01"

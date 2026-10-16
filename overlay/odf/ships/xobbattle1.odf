@@ -1,0 +1,31 @@
+#include "bbattle1.odf"
+unitName = "Omega Borg Cube"
+tooltip = "Omega Borg Cube"
+verboseTooltip = "Stabilized Omega refit. Enhanced shields, sustained weapons and energy regeneration."
+baseName = "bbattle1"
+maxHealth = 4063
+shieldRate = 28.800
+maxSpecialEnergy = 9750
+specialEnergyRate = 52.500
+weapon1 = "xow_bt4phas"
+weapon2 = "xow_bc3phot"
+
+
+
+
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 12480
+metalCost = 12480
+latinumCost = 0
+biomatterCost = 0
+crewCost = 5200
+officerCost = 64
+buildTime = 137
+
+// Additional green holding/assimilation beam, separate from the existing blue beam.
+weapon6 = "xacgreen"
+weaponHardpoints6 = "hp01"

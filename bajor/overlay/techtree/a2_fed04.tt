@@ -1,0 +1,128 @@
+// Xaramada merged technology tree. Source credits: Borg Incursion 2, Ghost, original installation.
+#include tech1.tt
+fassault.odf -1 //assault ship (iwo Jima class)
+fcruise3.odf -1 //cruiser3 (intrepid class)
+fbattle.odf  -1 //battleship (sovereign class)
+ffrigate.odf -1 //frigate (andor class)
+fspecial.odf -1 //special (nebula class)
+fsuperbl.odf -1 //temporal research facility
+fedpod1.odf  -1 //research pod (corbomite reflector)
+fedpod7.odf  -1 //research pod (shield disruptor)
+fedpod8.odf  -1 //research pod (engineering team)
+fedpod6.odf  -1 //research pod (gemini effect)
+fedpod9.odf  -1 //research pod (point defense phaser)
+fedpod16.odf -1 //research pod (shield enhancer)
+fedpod21.odf -1 //research pod (weapon upgrade level 3)
+fedpod22.odf -1 //research pod (shield upgrade level 3)
+fedpod23.odf -1 //research pod (sensor upgrade level 3)
+fedpod24.odf -1 //research pod (engine upgrade level 3)
+fedpod25.odf -1 //research pod (life support upgrade level 3)
+gcorbom.odf  -1 //corbomite manuever (sovereign class)
+gfedrep.odf  -1 //engineering team (nebula class)
+gmanheim.odf -1 //gemini effect (nebula class)
+gpdlaser.odf -1 //point defense laser (nebula class)
+gshieldh.odf -1 //shield disruptor (nebula class)
+gshldemt.odf -1 //shield recharger (andor class)
+gtempor.odf  -1 //temporal stasis field
+bconst.odf   -1											// construction ship (assembler)
+bfreight.odf -1											// dilithium collector (mining freighter)
+bscout.odf   -1											// scout (detector)
+bdestroy.odf -1											// destroyer (interceptor)
+bcruise1.odf -1											// cruiser1 (sphere)
+bcruise2.odf -1											// cruiser2 (assimilator)
+bcruise3.odf -1											// cruiser3 (harbinger)
+bcolony.odf  -1											// colony ship (pyramid)
+bassault.odf -1											// assault ship (wedge)
+bbattle1.odf -1											// battleship (cube)
+bbattle2.odf -1											// battleship (tactical cube)
+bfrigate.odf -1											// frigate (harmonic defender)
+bspecial.odf -1											// special (diamond)
+bbattle3.odf -1											// battleship (fusion cube)
+bbattle4.odf -1											// battleship (tactical fusion cube)
+bbase.odf    -1											// nexus
+bmining.odf  -1											// processing node
+bsensor.odf  -1											// detection array
+bturret.odf  -1											// energy cannon
+bturret2.odf -1											// torpedo turret
+byard.odf    -1											// assembly matrix
+byard2.odf   -1											// advanced assembly matrix
+bresear.odf  -1											// modification center
+bresear2.odf -1											// technology node
+bupgrade.odf -1											// ship upgrade station
+btechass.odf -1											// technology assimilator
+brecycle.odf -1											// recycler
+bsuperbl.odf -1											// super (transwarp gate)
+bhub.odf     -1											// collective hub
+borpod1.odf  -1											// research pod (auto-assimilator)
+borpod2.odf  -1											// research pod (holding beam)
+borpod3.odf  -1											// research pod (regeneration)
+borpod4.odf  -1											// research pod (transwarp drive)
+borpod5.odf  -1											// research pod (tachyon detection grid)
+borpod6.odf  -1											// research pod (shield remodulation)
+borpod7.odf  -1											// research pod (computer override)
+borpod8.odf  -1											// research pod (nanites)
+borpod9.odf  -1											// research pod (ultritium burst)
+borpod16.odf -1											// research pod (special energy recharger)
+borpod11.odf -1											// research pod (weapon upgrade level 2)
+borpod12.odf -1											// research pod (shield upgrade level 2)
+borpod13.odf -1											// research pod (sensor upgrade level 2)
+borpod14.odf -1											// research pod (engine upgrade level 2)
+borpod15.odf -1											// research pod (life support upgrade level 2)
+borpod21.odf -1											// research pod (weapon upgrade level 3)
+borpod22.odf -1											// research pod (shield upgrade level 3)
+borpod23.odf -1											// research pod (sensor upgrade level 3)
+borpod24.odf -1											// research pod (engine upgrade level 3)
+borpod25.odf -1											// research pod (life support upgrade level 3)
+rconst.odf		-1										// construction ship
+rfreight.odf	-1										// mining freighter
+rcargo.odf		-1										// cargo ship
+rsrepair.odf    -1										// repair ship
+rscout.odf      -1										// scout (talon class)
+rdestroy.odf    -1										// destroyer (shrike class)
+rcruise1.odf    -1										// cruiser (griffin class)
+rcruise2.odf    -1										// cruiser (raptor class)
+rcruise3.odf    -1										// cruiser (osprey class)
+rcolony.odf     -1										// colony ship
+rassault.odf    -1										// assault ship (kestrel class)
+rbattle2.odf    -1										// battleship (venator class)
+rbattle.odf     -1										// battleship (warbird class)
+rfrigate.odf    -1										// frigate (wraith class)
+rspecial.odf    -1										// special (shadow class)
+rsuper.odf      -1										// super (phoenix class)
+rbase.odf		-1										// starbase
+rmining.odf     -1										// mining station
+rorbital.odf    -1										// orbital processing facility
+rsensor.odf     -1										// sensor array
+rturret.odf     -1										// phaser turret
+rturret2.odf    -1										// torpedo turret
+ryard.odf       -1										// shipyard
+ryard2.odf      -1										// advanced shipyard
+rtrading.odf    -1										// trading station
+rresear.odf     -1										// covert ops facility
+rresear2.odf    -1										// tal shiar facility
+rupgrade.odf    -1										// ship upgrade station
+rsuperbl.odf    -1										// super (phoenix facility)
+rompod1.odf     -1										// research pod (shield inversion beam)
+rompod2.odf     -1										// research pod (romulan spy)
+rompod3.odf     -1										// research pod (sensor jammer)
+rompod4.odf     -1										// research pod (myotronic inhibitor)
+rompod5.odf     -1										// research pod (tachyon detection grid)
+rompod6.odf     -1										// research pod (holo-emitter)
+rompod7.odf     -1										// research pod (psychonic blast)
+rompod8.odf     -1										// research pod (shield projector)
+rompod9.odf     -1										// research pod (phase cloak)
+rompod16.odf    -1										// research pod (cloak enhancer)
+rompod11.odf    -1										// research pod (weapon upgrade level 2)
+rompod12.odf    -1										// research pod (shield upgrade level 2)
+rompod13.odf    -1										// research pod (sensor upgrade level 2)
+rompod14.odf    -1										// research pod (engine upgrade level 2)
+rompod15.odf    -1										// research pod (life support upgrade level 2)
+rompod21.odf    -1										// research pod (weapon upgrade level 3)
+rompod22.odf    -1										// research pod (shield upgrade level 3)
+rompod23.odf    -1										// research pod (sensor upgrade level 3)
+rompod24.odf    -1										// research pod (engine upgrade level 3)
+rompod25.odf    -1										// research pod (life support upgrade level 3)
+
+byard3.odf -1											// advanced assembly matrix
+
+ryard3.odf -1										// advanced shipyard

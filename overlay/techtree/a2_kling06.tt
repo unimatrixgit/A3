@@ -1,0 +1,114 @@
+// Xaramada merged technology tree. Source credits: Borg Incursion 2, Ghost, original installation.
+#include tech1.tt
+ksuper.odf   -1											// super weapon (jach'eng class)
+ksuperbl.odf -1											// shockwave station
+klipod7.odf  -1											// research pod (repulsion wave)
+klipod8.odf  -1											// research pod (ion storm)
+klipod9.odf  -1											// research pod (energy dissipator)
+grfield.odf  -1											// repulsion field (fek'lhr)
+gionstm.odf  -1											// ion storm (fek'lhr class)
+gmicro.odf   -1											// energy dissipator (fek'lhr class)
+grwave.odf   -1											// subspace shockwave (jach'eng class)
+rconst.odf   -1									// construction ship
+rfreight.odf -1									// mining freighter
+rcargo.odf   -1									// cargo ship
+rsrepair.odf -1									// repair ship
+rscout.odf   -1									// scout (talon class)
+rdestroy.odf -1									// destroyer (shrike class)
+rcruise1.odf -1									// cruiser (griffin class)
+rcruise2.odf -1									// cruiser (raptor class)
+rcruise3.odf -1									// cruiser (osprey class)
+rcolony.odf  -1									// colony ship
+rassault.odf -1									// assault ship (kestrel class)
+rbattle2.odf -1									// battleship (venator class)
+rbattle.odf  -1									// battleship (warbird class)
+rfrigate.odf -1									// frigate (wraith class)
+rspecial.odf -1									// special (shadow class)
+rsuper.odf   -1									// super (phoenix class)
+rbase.odf    -1									// starbase
+rmining.odf  -1									// mining station
+rorbital.odf -1									// orbital processing facility
+rsensor.odf  -1									// sensor array
+rturret.odf  -1									// phaser turret
+rturret2.odf -1									// torpedo turret
+ryard.odf    -1									// shipyard
+ryard2.odf   -1									// advanced shipyard
+rtrading.odf -1									// trading station
+rresear.odf  -1									// covert ops facility
+rresear2.odf -1									// tal shiar facility
+rupgrade.odf -1									// ship upgrade station
+rsuperbl.odf -1									// super (phoenix facility)
+rompod1.odf  -1									// research pod (shield inversion beam)
+rompod2.odf  -1									// research pod (romulan spy)
+rompod3.odf  -1									// research pod (sensor jammer)
+rompod4.odf  -1									// research pod (myotronic inhibitor)
+rompod5.odf  -1									// research pod (tachyon detection grid)
+rompod6.odf  -1									// research pod (holo-emitter)
+rompod7.odf  -1									// research pod (psychonic blast)
+rompod8.odf  -1									// research pod (shield projector)
+rompod9.odf  -1									// research pod (phase cloak)
+rompod16.odf -1									// research pod (cloak enhancer)
+rompod11.odf -1									// research pod (weapon upgrade level 2)
+rompod12.odf -1									// research pod (shield upgrade level 2)
+rompod13.odf -1									// research pod (sensor upgrade level 2)
+rompod14.odf -1									// research pod (engine upgrade level 2)
+rompod15.odf -1									// research pod (life support upgrade level 2)
+rompod21.odf -1									// research pod (weapon upgrade level 3)
+rompod22.odf -1									// research pod (shield upgrade level 3)
+rompod23.odf -1									// research pod (sensor upgrade level 3)
+rompod24.odf -1									// research pod (engine upgrade level 3)
+rompod25.odf -1									// research pod (life support upgrade level 3)
+cconst.odf    -1											// construction ship
+cfreight.odf  -1											// mining freighter
+ccargo.odf    -1											// cargo ship
+csrepair.odf  -1											// repair ship
+cscout.odf    -1											// scout (hideki class)
+cdestroy.odf  -1											// destroyer (rasilak class)
+cdestroy2.odf -1											// destroyer (sartan class)
+ccruise1.odf  -1											// cruiser1 (brinok class)
+ccruise2.odf  -1											// cruiser2 (gul vystan class)
+ccruise3.odf  -1											// cruiser3 (legate class)
+ccolony.odf   -1											// colony ship
+cassault.odf  -1											// assault ship (janissary class)
+cbattle.odf   -1											// battleship (galor class)
+cbattle2.odf  -1											// battleship (keldon class)
+cfrigate.odf  -1											// frigate (vasad class)
+cspecial.odf  -1											// special (kulinor class)
+csuper.odf    -1											// super (dreadnought missile)
+cbase.odf    -1											// starbase
+cmining.odf  -1											// mining station
+corbital.odf -1											// orbital processing facility
+csensor.odf  -1											// sensor array
+cturret.odf  -1											// phaser turret
+cturret2.odf -1											// photon turret
+cyard.odf    -1											// shipyard
+cyard2.odf   -1											// advanced shipyard
+ctrading.odf -1											// trading station
+cresear.odf  -1											// research facility
+cresear2.odf -1											// science station
+cupgrade.odf -1											// ship upgrade station
+cardassian_super_station.odf -1									// advanced robotics institute
+carpod1.odf  -1											// research pod (plasma bank overload)
+carpod2.odf  -1											// research pod (micro organisms)
+carpod3.odf  -1											// research pod (drones)
+carpod4.odf  -1											// research pod (flux wave)
+carpod5.odf  -1											// research pod (tachyon detection grid)
+carpod6.odf  -1											// research pod (accelerator cannon)
+carpod7.odf  -1											// research pod (quantum singularity effect)
+carpod8.odf  -1											// research pod (warp coil boost)
+carpod9.odf  -1											// research pod (shield harmonics disruptor)
+carpod16.odf -1											// research pod (sensor scrambler)
+carpod11.odf -1											// ship upgrade pod (weapon level 2)
+carpod12.odf -1											// ship upgrade pod (shield level 2)
+carpod13.odf -1											// ship upgrade pod (sensor level 2)
+carpod14.odf -1											// ship upgrade pod (engine level 2)
+carpod15.odf -1											// ship upgrade pod (life support level 2)
+carpod21.odf -1											// ship upgrade pod (weapon level 3)
+carpod22.odf -1											// ship upgrade pod (shield level 3)
+carpod23.odf -1											// ship upgrade pod (sensor level 3)
+carpod24.odf -1											// ship upgrade pod (engine level 3)
+carpod25.odf -1											// ship upgrade pod (life support level 3)
+
+ryard3.odf -1									// advanced shipyard
+
+cyard3.odf -1											// advanced shipyard

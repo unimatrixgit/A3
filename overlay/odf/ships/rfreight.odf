@@ -1,0 +1,99 @@
+#include "freight.odf"
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Neriax Class"
+
+//tooltips
+tooltip = "Neriax Class"
+verboseTooltip = "Romulan mining Freighter"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 398
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 115
+enginesHitPoints = 77
+weaponsHitPoints = 38
+lifeSupportHitPoints = 66
+sensorsHitPoints = 42
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.9
+
+// which resources can this station process?
+resourcesCanHandle = "dilithium" "latinum"
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 21
+impulseSpeed = 78
+warpSpeed = 0
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 2400
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 24 
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "Navrus" "Neriax" "Olpia" "Orceius" "Partius"    "Perrix" "Piussus" "Ponunenius" "Potruso" "Pusis"  "Samens" "Secistonus"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Mining Beam for Dilithium
+weapon1 = "gmineDilithium" 
+weaponHardpoints1 = "hp11" "hp12"
+
+// Mining Beam for latinum
+weapon2 = "gmineLatinum"
+weaponHardpoints2 = "hp11" "hp12"
+
+// Cloaking Device
+weapon3 = "grcloak"
+weaponHardpoints3 = "hp13"
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp10"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp10"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp10"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp10"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp10"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp10"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp10"
+
+latinum_spray_hardpoint = "hp09"
+
+hotkeyLabel = "HOTKEY_F2"
+
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 150
+metalCost = 0
+latinumCost = 0
+biomatterCost = 0
+crewCost = 100
+officerCost = 1
+buildTime = 13

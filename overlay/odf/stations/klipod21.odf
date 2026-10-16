@@ -1,0 +1,37 @@
+#include "WeaponUpgradePod2.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Level 3 Weapons Pod"
+
+//Race which can build ship & starting race of ship
+race = "klingon"
+
+//tooltips
+tooltip = "KLI_POD21"
+verboseTooltip = "KLI_POD21_V"
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Latinum Cost to build
+
+//Number of officers required to build this ship
+
+//Amount of time required to build ship
+
+//make this slightly larger than the level one pod
+scaleSOD = 1.2
+
+hotkeyLabel = "HOTKEY_F1"
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 450
+metalCost = 75
+latinumCost = 150
+biomatterCost = 0
+crewCost = 0
+officerCost = 2
+buildTime = 240

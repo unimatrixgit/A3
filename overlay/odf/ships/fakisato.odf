@@ -1,0 +1,120 @@
+#include "destroy.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Akisato Class"
+
+//tooltips
+tooltip = "Akisato Class"
+verboseTooltip = "Section 31 Dreadnought."
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+// don't use the horrible old % crew loss on damage
+saneCrewLossMethod = 1
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 2940
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 721
+enginesHitPoints = 716
+weaponsHitPoints = 768
+lifeSupportHitPoints = 650
+sensorsHitPoints = 627
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 10.9
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 1000
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 15
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 97
+impulseSpeed = 80
+warpSpeed = 980
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "USS Akisato" "USS Kimacho" "USS Arisato" "USS Kanishimi"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Type XII Phaser
+weapon1 = "fc12phas"
+weaponHardpoints1 = "hp30" "hp31" "hp32" "hp33"
+
+// Type XI Phaser
+weapon2 = "fc11phas"
+weaponHardpoints2 = "hp40" "hp41"
+
+// Class 'B' Quantum Torpedoe
+weapon3 = "fclassbt"
+weaponHardpoints3 = "hp50"
+
+// Class 'B' Quantum Torpedo
+weapon4 = "fclassbt"
+weaponHardpoints4 = "hp51"
+
+// Hardpoints to hit for various systems and other locations.
+
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04"
+lifeSupportTargetHardpoints = "hp05" "hp06" "hp07"
+weaponsTargetHardpoints = "hp08" "hp09"
+shieldGeneratorTargetHardpoints = "hp10" "hp11" "hp12"
+sensorsTargetHardpoints = "hp13" "hp14"
+hullTargetHardpoints = "hp01" "hp04" "hp05"  "hp09" "hp11" "hp13" "hp14"
+criticalTargetHardpoints = "hp01" "hp04" "hp05"  "hp09" "hp11" "hp13" "hp14"
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "Cruiser1Select"
+eventAcknowledge = "Cruiser1Acknowledge"
+eventAttack = "Cruiser1Attack"
+eventStop = "Cruiser1Stop"
+eventMove = "Cruiser1Move"
+eventRepair = "Cruiser1Repair"
+
+//**********************************************************************
+
+hotkeyLabel = "HOTKEY_F2"
+
+// take out the special weapon autonomy
+show_sw_autonomy = 0
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 1980
+metalCost = 295
+latinumCost = 0
+biomatterCost = 0
+crewCost = 647
+officerCost = 7
+buildTime = 80

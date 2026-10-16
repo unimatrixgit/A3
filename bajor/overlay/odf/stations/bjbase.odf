@@ -1,0 +1,228 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+//tooltips
+
+//Race which can build ship & starting race of ship
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Number of maximum crew (only specified if different from crewCost)
+maximumCrew = 5000
+
+//The number of crew added to the capacity
+maxCrewGain = 3000
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Number of Officers starbase gives by default
+officerGain = 100
+
+//Maximum number of officer quarters
+maximumUpgrades = 6
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 5000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 50
+
+//Shield absorbs all damage until it's gone
+shieldProtection = 1.0
+
+// Rate at which latinum is transfered from freighters
+latinumTransferRate = 15.0
+
+//play animation forward  open up the facility  when construction is finished
+animation = 1
+
+//we have an animation when we build a ship
+buildAnimation = 1
+
+//Even though we are a shipyard we don't have a repair facility
+repairFacility = 0
+
+//scan range in meters
+rangeScan = 1000.0f
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Starbase 612" "Starbase 473" "Starbase 263" "Starbase 823"
+	"Starbase 173" "Starbase 383" "Starbase 420" "Starbase 252" 
+	"Starbase 419" "Starbase 521" "Starbase 152" "Starbase 528"
+	"Starbase 357" "Starbase 523" "Starbase 162" "Starbase 693"
+	"Starbase 344" "Starbase 182" "Starbase 106" "Starbase 260"
+	"Starbase 123" "Starbase 312" "Starbase 412" "Starbase 411"
+	"Starbase 452" "Starbase 422" "Starbase 102" "Starbase 34"
+	"Starbase 62" "Starbase 17" "Starbase 93" "Starbase 27"
+	"Starbase 303" "Starbase 72" "Starbase 28" "Starbase 64"
+	"Starbase 82" "Starbase 12" "Starbase 44" "Starbase 77"
+	"Starbase 11" "Starbase 34" "Starbase 67" "Starbase 69"
+	"Starbase 99" "Starbase 86" "Starbase 268" "Starbase 623"
+	"Starbase 40" "Starbase 176"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Phaser
+weapon1 = "fbasephas"
+weaponHardpoints1 = "hp21" "hp26" 
+
+// Phaser
+weapon2 = "fbasephas"
+weaponHardpoints2 = "hp22" "hp27" 
+
+// Phaser
+weapon3 = "fbasephas"
+weaponHardpoints3 = "hp23" "hp28" 
+
+// Phaser
+weapon4 = "fbasephas"
+weaponHardpoints4 = "hp24" "hp29" 
+
+// Phaser
+weapon5 = "fbasephas"
+weaponHardpoints5 = "hp25" "hp30"
+
+// Photon
+weapon6 = "fbaserphot"
+weaponHardpoints6 = "hp31" "hp36" 
+
+// Photon
+weapon7 = "fbaserphot"
+weaponHardpoints7 = "hp32" "hp37"
+
+// Photon
+weapon8 = "fbaserphot"
+weaponHardpoints8 = "hp33" "hp38" 
+
+// Photon
+weapon9 = "fbaserphot"
+weaponHardpoints9 = "hp34" "hp39" 
+
+// Photon
+weapon10 = "fbaserphot"
+weaponHardpoints10 = "hp35" "hp40"
+
+// Pulse Phaser
+weapon11 = "fbasepulse"
+weaponHardpoints11 = "hp01" "hp06" 
+
+// Pulse Phaser
+weapon12 = "fbasepulse"
+weaponHardpoints12 = "hp02" "hp07" 
+
+// Pulse Phaser
+weapon13 = "fbasepulse"
+weaponHardpoints13 = "hp03" "hp08" 
+
+// Pulse Phaser
+weapon14 = "fbasepulse"
+weaponHardpoints14 = "hp04" "hp09" 
+
+// Pulse Phaser
+weapon15 = "fbasepulse"
+weaponHardpoints15 = "hp05" "hp10"
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
+lifeSupportTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
+weaponsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
+shieldGeneratorTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
+sensorsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
+hullTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
+criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
+
+//**********************************************************************
+
+//**********************************************************************
+//Construction Parameters
+
+
+//Hardpoint location for building.
+buildHardpoint = "hp0001"
+
+dockinghardpoint = "hp0001"
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 10000
+enginesHitPoints = 0
+weaponsHitPoints = 10000
+lifeSupportHitPoints = 10000
+sensorsHitPoints = 10000
+
+//**********************************************************************
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "StarbaseSelect"
+eventAcknowledge = "StarbaseAcknowledge"
+eventAttack = "StarbaseAttack"
+eventDecommission = "StarbaseDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "starbase"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "starbase"
+hotkeyLabel = "HOTKEY_F1"
+
+//************************************************************
+// Brian additions for context sensitive menus
+alert = 1
+combat = 1
+builder_ship = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+// let's make this a bit bigger
+ScaleSOD = 1.0
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 2000
+metalCost = 2000
+latinumCost = 0
+biomatterCost = 0
+crewCost = 150
+officerCost = 10
+buildTime = 100
+
+race = "bajoran"
+unitName = "Bajoran Militia Headquarters"
+tooltip = "Bajoran Militia Headquarters"
+verboseTooltip = "Bajoran Militia Headquarters. Bajoran Militia. TV-inspired game adaptation."
+baseName = "fbase"
+buildItem0 = "bjconst"
+buildItem1 = "bjfreight"
+buildItem2 = "bjscout"

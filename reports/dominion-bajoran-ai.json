@@ -1,0 +1,509 @@
+[
+  {
+    "root": "D:/Xaramada",
+    "race": "dominion",
+    "profiles": [
+      "AI/AIPs/dominion_build_list.aip",
+      "AI/AIPs/dominion_instant_action_build_list.aip",
+      "AI/AIPs/dominion_offensive_list.aip",
+      "AI/AIPs/dominion_defensive_list.aip",
+      "AI/AIPs/dominion_endgame_list.aip"
+    ],
+    "validation": [
+      {
+        "unit": "dbase",
+        "producers": [
+          "dconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dmining",
+        "producers": [
+          "dconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dfreight",
+        "producers": [
+          "dbase"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dyard",
+        "producers": [
+          "dconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dconst",
+        "producers": [
+          "dbase"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dscout",
+        "producers": [
+          "dyard"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "ddestroy",
+        "producers": [
+          "dyard"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dresear",
+        "producers": [
+          "dconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dcruise1",
+        "producers": [
+          "dyard"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dcruise2",
+        "producers": [
+          "dyard"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dcolony",
+        "producers": [
+          "dyard"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dorbital",
+        "producers": [
+          "dconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dyard2",
+        "producers": [
+          "dconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dbattle",
+        "producers": [
+          "dyard2"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dresear2",
+        "producers": [
+          "dconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dupgrade",
+        "producers": [
+          "dconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dompod11",
+        "producers": [
+          "dupgrade"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dompod12",
+        "producers": [
+          "dupgrade"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dbattle2",
+        "producers": [
+          "dyard2"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dyard3",
+        "producers": [
+          "dconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "xhdhero",
+        "producers": [
+          "dyard3"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dfreight",
+        "producers": [
+          "dbase"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "ddestroy",
+        "producers": [
+          "dyard"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dbattle",
+        "producers": [
+          "dyard2"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dbattle2",
+        "producers": [
+          "dyard2"
+        ],
+        "prerequisitesSatisfied": true
+      }
+    ],
+    "runtimeVerified": false
+  },
+  {
+    "root": "D:/armadaIII",
+    "race": "dominion",
+    "profiles": [
+      "AI/AIPs/dominion_build_list.aip",
+      "AI/AIPs/dominion_instant_action_build_list.aip",
+      "AI/AIPs/dominion_offensive_list.aip",
+      "AI/AIPs/dominion_defensive_list.aip",
+      "AI/AIPs/dominion_endgame_list.aip"
+    ],
+    "validation": [
+      {
+        "unit": "dbase",
+        "producers": [
+          "dconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dmining",
+        "producers": [
+          "dconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dfreight",
+        "producers": [
+          "dbase"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dyard",
+        "producers": [
+          "dconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dconst",
+        "producers": [
+          "dbase"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dscout",
+        "producers": [
+          "dyard"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "ddestroy",
+        "producers": [
+          "dyard"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dresear",
+        "producers": [
+          "dconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dcruise1",
+        "producers": [
+          "dyard"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dcruise2",
+        "producers": [
+          "dyard"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dcolony",
+        "producers": [
+          "dyard"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dorbital",
+        "producers": [
+          "dconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dyard2",
+        "producers": [
+          "dconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dbattle",
+        "producers": [
+          "dyard2"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dresear2",
+        "producers": [
+          "dconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dupgrade",
+        "producers": [
+          "dconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dompod11",
+        "producers": [
+          "dupgrade"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dompod12",
+        "producers": [
+          "dupgrade"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dbattle2",
+        "producers": [
+          "dyard2"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dyard3",
+        "producers": [
+          "dconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "xhdhero",
+        "producers": [
+          "dyard3"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dfreight",
+        "producers": [
+          "dbase"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "ddestroy",
+        "producers": [
+          "dyard"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dbattle",
+        "producers": [
+          "dyard2"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "dbattle2",
+        "producers": [
+          "dyard2"
+        ],
+        "prerequisitesSatisfied": true
+      }
+    ],
+    "runtimeVerified": false
+  },
+  {
+    "root": "D:/armadaIII",
+    "race": "bajoran",
+    "profiles": [
+      "AI/AIPs/bajoran_build_list.aip",
+      "AI/AIPs/bajoran_instant_action_build_list.aip",
+      "AI/AIPs/bajoran_offensive_list.aip",
+      "AI/AIPs/bajoran_defensive_list.aip",
+      "AI/AIPs/bajoran_endgame_list.aip"
+    ],
+    "validation": [
+      {
+        "unit": "bjbase",
+        "producers": [
+          "bjconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "bjmining",
+        "producers": [
+          "bjconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "bjfreight",
+        "producers": [
+          "bjbase",
+          "bjmining"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "bjyard",
+        "producers": [
+          "bjconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "bjconst",
+        "producers": [
+          "bjbase"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "bjscout",
+        "producers": [
+          "bjbase",
+          "bjyard"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "bjinterceptor",
+        "producers": [
+          "bjyard"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "bjresear",
+        "producers": [
+          "bjconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "bjyard2",
+        "producers": [
+          "bjconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "bjassault",
+        "producers": [
+          "bjyard2"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "bjturret",
+        "producers": [
+          "bjconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "bjyard3",
+        "producers": [
+          "bjconst"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "bjnerys",
+        "producers": [
+          "bjyard3"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "bjfreight",
+        "producers": [
+          "bjbase",
+          "bjmining"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "bjinterceptor",
+        "producers": [
+          "bjyard"
+        ],
+        "prerequisitesSatisfied": true
+      },
+      {
+        "unit": "bjassault",
+        "producers": [
+          "bjyard2"
+        ],
+        "prerequisitesSatisfied": true
+      }
+    ],
+    "runtimeVerified": false
+  }
+]

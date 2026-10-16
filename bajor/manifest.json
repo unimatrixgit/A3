@@ -1,0 +1,112 @@
+{
+  "root": "D:/armadaIII",
+  "hero": "Kira Nerys",
+  "units": [
+    {
+      "odf": "bjconst",
+      "parent": "fconst",
+      "title": "Militia Construction Tender",
+      "model": "fconst",
+      "artwork": "compatible existing model; custom Bajoran art pending"
+    },
+    {
+      "odf": "bjfreight",
+      "parent": "ffreight",
+      "title": "Bajoran Resource Freighter",
+      "model": "ffreight",
+      "artwork": "compatible existing model; custom Bajoran art pending"
+    },
+    {
+      "odf": "bjscout",
+      "parent": "fscout",
+      "title": "Bajoran Scout Vessel",
+      "model": "fscout",
+      "artwork": "compatible existing model; custom Bajoran art pending"
+    },
+    {
+      "odf": "bjinterceptor",
+      "parent": "fdestroy",
+      "title": "Bajoran Interceptor",
+      "model": "fdestroy",
+      "artwork": "compatible existing model; custom Bajoran art pending"
+    },
+    {
+      "odf": "bjassault",
+      "parent": "fcruise1",
+      "title": "Bajoran Assault Vessel",
+      "model": "fcruise1",
+      "artwork": "compatible existing model; custom Bajoran art pending"
+    },
+    {
+      "odf": "bjtransport",
+      "parent": "fantares",
+      "title": "Bajoran Antares Transport",
+      "model": "fantares",
+      "artwork": "compatible existing model; custom Bajoran art pending"
+    },
+    {
+      "odf": "bjnerys",
+      "parent": "fdestroy",
+      "title": "Colonel Kira Nerys - Command Interceptor",
+      "model": "fdestroy",
+      "artwork": "compatible existing model; custom Bajoran art pending"
+    },
+    {
+      "odf": "bjbase",
+      "parent": "fbase",
+      "title": "Bajoran Militia Headquarters",
+      "model": "fbase",
+      "artwork": "compatible existing model; custom Bajoran art pending"
+    },
+    {
+      "odf": "bjmining",
+      "parent": "fmining",
+      "title": "Bajoran Resource Processing",
+      "model": "fmining",
+      "artwork": "compatible existing model; custom Bajoran art pending"
+    },
+    {
+      "odf": "bjyard",
+      "parent": "fyard",
+      "title": "Militia Shipyard I",
+      "model": "fyard",
+      "artwork": "compatible existing model; custom Bajoran art pending"
+    },
+    {
+      "odf": "bjyard2",
+      "parent": "fyard2",
+      "title": "Militia Shipyard II",
+      "model": "fyard2",
+      "artwork": "compatible existing model; custom Bajoran art pending"
+    },
+    {
+      "odf": "bjyard3",
+      "parent": "fyard2",
+      "title": "Militia Command Shipyard III",
+      "model": "fyard2",
+      "artwork": "compatible existing model; custom Bajoran art pending"
+    },
+    {
+      "odf": "bjresear",
+      "parent": "fresear",
+      "title": "Bajoran Engineering Institute",
+      "model": "fresear",
+      "artwork": "compatible existing model; custom Bajoran art pending"
+    },
+    {
+      "odf": "bjturret",
+      "parent": "fturret",
+      "title": "Bajoran Defense Emplacement",
+      "model": "fturret",
+      "artwork": "compatible existing model; custom Bajoran art pending"
+    }
+  ],
+  "selection": "Bajor uses slot 7 in this separate copy; Breen retained but not selectable",
+  "runtimeTested": false,
+  "artworkComplete": false,
+  "sources": [
+    "https://memory-alpha.fandom.com/wiki/Bajoran_interceptor",
+    "https://memory-alpha.fandom.com/wiki/Bajoran_vessel",
+    "https://memory-alpha.fandom.com/wiki/Kira%27s_interceptor"
+  ]
+}

@@ -1,0 +1,45 @@
+#include "WeaponUpgradePod2.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Level 3 Bio-pulse Beam Pod"
+
+//tooltips
+tooltip = "8472_RESEARCH_21"
+verboseTooltip = "8472_RESEARCH_21_V"
+
+//Race which can build ship & starting race of ship
+race = "species8472"
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Latinum Cost to build
+
+// amount of biomatter needed to build
+
+//Number of officers required to build this ship
+
+//Amount of time required to build ship
+
+//make this slightly larger than the level one pod
+scaleSOD = 1.2
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "placeholder"
+hotkeyLabel = "HOTKEY_F1"
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 0
+metalCost = 0
+latinumCost = 0
+biomatterCost = 900
+crewCost = 0
+officerCost = 1
+buildTime = 240

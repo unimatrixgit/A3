@@ -1,0 +1,128 @@
+#include "turret.odf"
+
+//*********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Transwarp Gate"
+tooltip = "Trans^warp Gate"
+verboseTooltip = "Opens a two-way transwarp conduit capable of instantaneously moving fleets of vessels."
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 5000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.5
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 5000
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 6.5
+
+//Possible Craft Names
+possibleCraftNames = 
+	"TG66-140054"
+
+//*********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+//Transwarp (wormhole generator)
+weapon1 = "gmastran"
+weaponHardpoints1 = "hp01" "hp02" "hp03" 
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp08" "hp09" "hp13" "hp17"
+lifeSupportTargetHardpoints = "hp08" "hp09" "hp13" "hp17"
+weaponsTargetHardpoints = "hp08" "hp09" "hp13" "hp17"
+shieldGeneratorTargetHardpoints = "hp08" "hp09" "hp13" "hp17"
+sensorsTargetHardpoints = "hp08" "hp09" "hp13" "hp17"
+hullTargetHardpoints = "hp01" "hp08" "hp09" "hp11" "hp13" "hp15" "hp17" "hp19"
+criticalTargetHardpoints = "hp08" "hp09" "hp13" "hp17"
+//*********************************************************************//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.0f
+//*********************************************************************
+//SYSTEM HITPOINTS
+//These values are the hitpoint values of the systems
+//If the value is set to zero the ship does not have that system
+shieldGeneratorHitPoints = 80
+enginesHitPoints = 0
+weaponsHitPoints = 80
+lifeSupportHitPoints = 80
+sensorsHitPoints = 80
+//*********************************************************************
+//SYSTEM DAMAGE DISTRIBUTION
+//The following section's values should add up to 100
+
+//Percent Chance out of 100 of life support being destroyed
+lifeSupportHitPercent = 5.0f
+
+//Percent Chance out of 100 of weapons being destroyed
+weaponsHitPercent = 7.5f
+
+//Percent Chance out of 100 of shields being destroyed
+shieldGeneratorHitPercent = 7.5f
+
+//Percent Chance out of 100 of sensors being destroyed
+sensorsHitPercent = 7.5f
+
+//Percent Chance out of 100 of hull being hit (crew dying)
+hullHitPercent = 70.0f
+
+//Percent Chance out of 100 of entire ship exploding
+criticalHitPercent = 2.5f
+//*********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//*********************************************************************
+eventSelect = "SuperblSelect"
+eventAcknowledge = "SuperblAcknowledge"
+eventDecommission = "SuperblDecommission"
+//*********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+//Runtime class label for instantiation of object.
+classLabel = "pod"
+//*********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "borg_gate"
+hotkeyLabel = "HOTKEY_F5"
+
+// used for formations AND admiral's log to see if something is non-combat
+shipType = "N"
+
+//We're a transwarp gate! 
+isTranswarpGate = 1;
+
+//scale it larger
+ScaleSOD = 1.0
+
+fireball = "xfirede1"
+
+
+
+
+
+
+// Xaramada resource costs: original matching class.
+dilithiumCost = 2000
+metalCost = 2000
+latinumCost = 0
+biomatterCost = 0
+crewCost = 300
+officerCost = 20
+buildTime = 375

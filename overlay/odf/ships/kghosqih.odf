@@ -1,0 +1,137 @@
+// Begin main properties
+
+unitName = "Ghos'QIH Class"
+tooltip = "Ghos'QIH Class"
+verboseTooltip = "Most recent and strong Heavy Cruiser for the Klingon Empire.  Larger in size than the Neg'Var class, it can prove to be a vert powerful battleship."
+race = "klingon"
+maxHealth = 1300
+shieldGeneratorHitPoints = 210
+enginesHitPoints = 190
+weaponsHitPoints = 210
+lifeSupportHitPoints = 170
+sensorsHitPoints = 170
+shieldRate = 10.0
+maxSpecialEnergy = 1000
+specialEnergyRate = 10
+attackPower = 1.00f
+intrinsicValue = 0.50f
+shipclass = "battleship"
+enginesHitPercent = 5.0f
+lifeSupportHitPercent = 8.5f
+weaponsHitPercent = 5.0f
+shieldGeneratorHitPercent = 8.0f
+sensorsHitPercent = 8.0f
+crewHitPercent = 8.5f
+hullHitPercent = 57.0f
+
+// End main properties
+
+// Begin weapons
+
+weapon1 = "kb2phas"
+weaponHardpoints1 = "hp15"
+weapon2 = "kb2phot"
+weaponHardpoints2 = "hp17"
+weapon3 = "kb2phas"
+weaponHardpoints3 = "hp16"
+weapon4 = "kb2phot"
+weaponHardpoints4 = "hp18"
+weapon5 = "kb2phas"
+weaponHardpoints5 = "hp17"
+weapon6 = "kb2phas"
+weaponHardpoints6 = "hp18"
+weapon7 = "kb2phas"
+weaponHardpoints7 = "hp19"
+weapon8 = "gkcloak"
+weaponHardpoints8 = "hp01"
+weapon9 = "kgplasmac"
+weaponHardpoints9 = "hp01"
+
+// End weapons
+
+// Begin hardpoints
+
+sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+criticalTargetHardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp21" "hp23"
+hullTargetHardpoints = "hp06" "hp08" "hp10" "" "hp12" "hp14" "hp16" "hp18" "hp20" "hp22"
+shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+
+// End hardpoints
+
+// Begin sounds
+
+eventSelect = "BattleSelect"
+eventAcknowledge = "BattleAcknowledge"
+eventAttack = "BattleAttack"
+eventStop = "BattleStop"
+eventMove = "BattleMove"
+eventRepair = "BattleRepair"
+
+// End sounds
+
+// Begin ship names
+possibleCraftNames = 
+	"IKS Boyn'Ton" "IKS Sa'Hmo" "IKS QaHjaj" "IKS J'Hvad" "IKS Durl'gha" 
+	"IKS Vav'Daj" "IKS Nuq Qum" "IKS InSaya" "IKS LenglaHll" 
+	"IKS Navvetlh" "IKS Qa'wl'Ho'vad" "IKS Nobta'Gha" "IKS Mu'vetlh" 
+	"IKS DoqDaq" "IKS De'vam" "IKS Hevpu'a" "IKS QaIprup" 
+	"IKS SoQvetlh" "IKS Qatlh ram" "IKS Mu'Qujllj" "IKS Do'Ha'oh" 
+	"IKS De'na'llj" "IKS Qu'Daj" "IKS Do'Ha'wl" "IKS Satlhob" 
+
+// End ship names
+
+// Begin misc properties
+
+saneCrewLossMethod = 1
+weaponYellow = 1.0f
+weaponRed = 0.75f
+hotkeyLabel = "HOTKEY_F2"
+ScaleSOD = 0.40
+physicsFile = "sbatt2phys.odf"
+trekPhysicsFile = "trek_sbatt2phys.odf"
+avoidanceClass = 8
+canAttackPlanets = 1
+fireball = "xfireblg"
+combat = 1
+alert = 1
+can_sandd = 1
+shipType = "B"
+shieldDelay = 3.0f
+rangeScan = 800.0f
+damagedScan = 125.0
+enginesRepairTime = 1.0f
+lifeSupportRepairTime = 0.1f
+weaponsRepairTime = 2.0f
+shieldGeneratorRepairTime = 2.0f
+sensorsRepairTime = 3.0f
+enginesCrewLoss = 5.0f
+lifeSupportCrewLoss = 3.0f
+weaponsCrewLoss = 2.0f
+shieldGeneratorCrewLoss = 2.0f
+sensorsCrewLoss = 2.0f
+lifeSupportLoss = 2.0f
+weldingRadius = 1.0
+classLabel = "craft"
+aiName = "CraftProcess"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+can_explore = 1
+
+// End misc properties
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 550
+metalCost = 265
+latinumCost = 0
+biomatterCost = 0
+crewCost = 500
+officerCost = 15
+buildTime = 30

@@ -1,0 +1,110 @@
+#include "research.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Weapons Center"
+
+//tooltips
+tooltip = "KLI_RESEARCH"
+verboseTooltip = "KLI_RESEARCH_V"
+
+//Race which can build ship & starting race of ship
+race = "klingon"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Latinum Cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 3000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.5
+
+//Possible Craft Names
+possibleCraftNames = "NuH botlh-650"
+
+//**********************************************************************
+//Construction Parameters
+buildItem0 = "klipod5"
+buildItem1 = "klipod4"
+buildItem2 = "klipod2"
+buildItem3 = "klipod3"
+buildItem4 = "klipod1"
+buildItem5 = "klipod16"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+"hp17" "hp18" "hp19"
+"hp17" "hp18" "hp19"
+"hp17" "hp18" "hp19"
+"hp17" "hp18" "hp19"
+"hp17" "hp18" "hp19"
+"hp17" "hp18" "hp19"
+"hp17" "hp18" "hp19"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "ResearchStationSelect"
+eventAcknowledge = "ResearchStationAcknowledge"
+eventDecommission = "ResearchStationDecommission"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "research_station"
+hotkeyLabel = "HOTKEY_F6"
+
+//************************************************************
+// Brian additions for context sensitive menus
+transporter = 1
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 0
+metalCost = 500
+latinumCost = 500
+biomatterCost = 0
+crewCost = 300
+officerCost = 10
+buildTime = 120
+
+baseName = "xvstock_kresear"
+
+podhardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+
+enginestargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp16" 
+
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp16" 
+
+weaponstargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp16" 
+
+shieldgeneratortargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp16" 
+
+sensorstargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp16" 
+
+hulltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp16" 
+
+criticaltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp16" 

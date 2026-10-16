@@ -1,0 +1,35 @@
+sprite_table
+
+##### Explosion Sprites #####
+
+## SPRITE DEFINITIONS ##
+
+# @reference=texture size in pixels from which the u,v,w, and h values
+# were measured.  This value will effect all subsequent textures until
+# a different value is specified.
+
+# texture cutsize and animation
+@reference=128	
+@tmaterial=additive
+
+bigorange	Xcritical01		0	0	32	32	@anim=tex4x4_1.1
+sparkball1	Xcritical06		0	0	32	32	@anim=tex4x4_1.3	
+sparkball2	Xcritical07		0	0	32	32	@anim=tex4x4_1.5
+sparkball3	Xcritical08		0	0	32	32	@anim=tex4x4_1.5
+
+
+# @sprite_node name sprite animation (width,height) (r,g,b)
+# RGB Colour values range from 0 (none) to 1.0 (full intensity)
+
+#exposion sprite nodes
+@sprite_node critical1 bigorange explode1.1 (40,40) (1,1,1) billboard
+@sprite_node critical2 sparkball1 explode1.3 (32,32) (1,1,1) billboard
+@sprite_node critical3 sparkball1 explode1.3 (32,32) (1,1,1) billboard
+@sprite_node critical4 sparkball1 explode1.3 (21,21) (1,1,1) billboard
+@sprite_node critical5 sparkball1 explode1.3 (18,18) (1,1,1) billboard
+@sprite_node critical6 sparkball2 explode1.5 (15,15) (1,1,1) billboard
+@sprite_node critical7 sparkball2 explode1.5 (12,12) (1,1,1) billboard
+@sprite_node critical8 sparkball2 explode1.5 (12,12) (1,1,1) billboard
+@sprite_node critical9 sparkball3 explode1.1 (40,40) (1,1,1) billboard
+@sprite_node critical10 sparkball3 explode1.3 (80,80) (1,1,1) billboard
+@sprite_node critical11 sparkball3 explode1.5 (120,120) (1,1,1) billboard

@@ -1,0 +1,156 @@
+// Begin main properties
+
+unitName = "Ambassador Class"
+tooltip = "Ambassador Class"
+verboseTooltip = "Federation Diplomatic Cruiser"
+race = "federation"
+maxHealth = 1600
+shieldGeneratorHitPoints = 515
+enginesHitPoints = 437
+weaponsHitPoints = 397
+lifeSupportHitPoints = 494
+sensorsHitPoints = 293
+shieldRate = 6.6
+maxSpecialEnergy = 1000
+specialEnergyRate = 10
+attackPower = 1.00f
+intrinsicValue = 0.50f
+shipclass = "battleship"
+enginesHitPercent = 5.0f
+lifeSupportHitPercent = 8.5f
+weaponsHitPercent = 5.0f
+shieldGeneratorHitPercent = 8.0f
+sensorsHitPercent = 8.0f
+crewHitPercent = 8.5f
+hullHitPercent = 57.0f
+
+// End main properties
+
+// Begin weapons
+
+weapon1 = "fgphas"
+weaponHardpoints1 = "hp11" "hp12" "hp13" "hp14" "hp15" "hp16"
+weapon2 = "fbphot"
+weaponHardpoints2 = "hp17"
+weapon3 = "gselfdes"
+weaponHardpoints3 = "hp18"
+weapon4 = "gtracbm"
+weaponHardpoints4 = "hp18"
+weapon5 = "gphastorp"
+weaponHardpoints5 = "hp17" "hp10"
+
+// End weapons
+
+// Begin hardpoints
+
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+
+// End hardpoints
+
+// Begin ship names
+possibleCraftNames = 
+	"USS Ambassador" "USS Admirable" "USS Tremor" "USS Torrent" "USS Scandalous" 
+	"USS Saboteur" "USS Xenon" "USS Xanthia" "USS Avalon" "USS Stigmata" "USS Spike"
+	"USS Starleaper" "USS Starglow" "USS Mongol" "USS Quickfire" "USS Echo" "USS Ricochet" 
+	"USS Purgatory" "USS Quaestor" "USS Zealot" "USS Elan" "USS Fortunata" "USS Tumultuous"
+	"USS Impulsive" "USS Pulsation" "USS Vista" "USS Furnace" "USS Emerald" "USS Turbulence" 
+	"USS Starburner" "USS Momentum" "USS Rising Star" "USS Star Streaker" 
+	"USS Xingu" "USS Tachyon" "USS Impatience" "USS Barb" "USS Walloper" "USS Advantage" 
+	"USS Starlure" "USS Onslaught" "USS Enhancer" "USS Vivacious" "USS Marvel" "USS Holocaust"  
+	"USS Glorious" "USS Quekzar" "USS Voracious" "USS Stinger" "USS Ravenous" "USS Irresistible"  
+	"USS Topaz" "USS Rapacious" "USS Enticer" "USS Azure Star" "USS Vexer" "USS Black Magic" 
+	"USS Morningstar" "USS Enchantment" "USS Reticence" "USS Aquarius" 
+	
+// End ship names
+
+// Begin sounds
+
+eventSelect = "BattleSelect"
+eventAcknowledge = "BattleAcknowledge"
+eventAttack = "BattleAttack"
+eventStop = "BattleStop"
+eventMove = "BattleMove"
+eventRepair = "BattleRepair"
+
+// End sounds
+
+// Begin ship names
+possibleCraftNames = 
+	"USS Ambassador" "USS Ymaguchi" "USS Gandhi" "USS Adelphi" "USS Zhukov" 
+	"USS Bisson" "USS Smith" "USS Revenger" "USS Demon" "USS Justice" "USS Vindicator" 
+	"USS Annihilator" "USS Terminator" "USS Reprisal" "USS Havoc" "USS Predator" "USS Stalker" 
+	"USS Vengeance" "USS Banshee" "Vulture" "USS Barbarian" "USS Savage" "USS Repluse" 
+	"USS Evil" "USS Scythe" "USS Destructor" "USS Avenger" "USS Crusader" "USS Relentless" 
+	"USS Warrior" "USS Sentinel" "USS Attacker" "USS Bloodletter" "USS Undertaker" 
+	"USS Ravager" "USS Pillager" "USS Hunter" "USS Assassinator" "USS Sword of Death" 
+	"USS Death Bringer" "USS Crusher" "USS Retribution" "USS Equalizer" "USS Eradicator" 
+	"USS Obliterator" "USS Marauder" "USS Desolator" "USS Devastator" "USS Despoiler" 
+	"USS Plunderer" "USS Punisher" "USS Retaliator" "USS Assaulter" "USS Raider" "USS Infinity" 
+	"USS Defender" "USS Vision" 
+
+// End ship names
+
+// Begin misc properties
+
+saneCrewLossMethod = 1
+combatSpeed = 88
+impulseSpeed = 80
+warpSpeed = 926
+weaponYellow = 1.0f
+weaponRed = 2.0f
+hotkeyLabel = "HOTKEY_F4"
+avoidanceClass = 8
+canAttackPlanets = 1
+physicsFile = "sbattphys.odf"
+trekPhysicsFile = "trek_sbattphys.odf"
+fireball = "xfireblg"
+combat = 1
+alert = 1
+can_sandd = 1
+shipType = "B"
+shieldDelay = 3.0f
+rangeScan = 800.0f
+damagedScan = 125.0
+enginesRepairTime = 1.0f
+lifeSupportRepairTime = 0.1f
+weaponsRepairTime = 2.0f
+shieldGeneratorRepairTime = 2.0f
+sensorsRepairTime = 3.0f
+enginesCrewLoss = 5.0f
+lifeSupportCrewLoss = 3.0f
+weaponsCrewLoss = 2.0f
+shieldGeneratorCrewLoss = 2.0f
+sensorsCrewLoss = 2.0f
+lifeSupportLoss = 2.0f
+weldingRadius = 1.0
+classLabel = "craft"
+aiName = "CraftProcess"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+can_explore = 1
+ScaleSOD = 1.8
+
+// End misc properties
+
+
+
+baseName = "fambassador"
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 300
+metalCost = 40
+latinumCost = 0
+biomatterCost = 0
+crewCost = 400
+officerCost = 8
+buildTime = 30

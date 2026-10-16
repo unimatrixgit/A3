@@ -1,0 +1,101 @@
+// Begin main properties
+
+unitName = "Dominion Torpedo Turret"
+tooltip = "Dominion Torpedo Turret"
+verboseTooltip = "Advanced unmanned defense platform."
+race = "dominion"
+maxHealth = 2500
+shieldRate = 5.0
+attackPower = 0.50f
+intrinsicValue = 0.50f
+weaponsHitPoints = 400
+lifeSupportHitPoints = 0
+lifeSupportHitPercent = 0.0f
+weaponsHitPercent = 0.0f
+shieldGeneratorHitPercent = 0.0f
+sensorsHitPercent = 0.0f
+crewHitPercent = 0.0f
+hullHitPercent = 100.0f
+maxSpecialEnergy = 0
+specialEnergyRate = 0
+shieldGeneratorHitPoints = 300
+enginesHitPoints = 0
+sensorsHitPoints = 300
+enginesHitPercent = 0.0f
+shipClass = "turret"
+
+// End main properties
+
+// Begin weapons
+
+weapon1 = "dgphoton"
+weaponHardpoints1 = "hp04"
+
+// End weapons
+
+// Begin hardpoints
+
+sensorsTargetHardpoints = "hp01"
+criticalTargetHardpoints = "hp02" "hp03"
+hullTargetHardpoints = "hp02" "hp03"
+shieldGeneratorTargetHardpoints = "hp02" "hp03"
+
+// End hardpoints
+
+// Begin sounds
+
+eventSelect = "PhotonTurretSelect"
+eventAcknowledge = "PhotonTurretAcknowledge"
+eventAttack = "PhotonTurretAttack"
+eventDecommission = "PhotonTurretDecommission"
+
+// End sounds
+
+// Begin misc properties
+
+hotkeyLabel = "HOTKEY_F9"
+alert = 1
+rangeScan = 1000.0f
+scaleSOD = 2.2
+footprintBuffer = 10.0f
+classLabel = "sensor"
+fireball = "xfirebtu"
+combat = 1
+has_crew = 0
+animation = 1
+shieldDelay = 3.0f
+damagedScan = 100.0f
+repairYellow = 2.0f
+repairRed = 3.5f
+enginesRepairTime = 1.0f
+lifeSupportRepairTime = 0.1f
+weaponsRepairTime = 2.0f
+shieldGeneratorRepairTime = 2.0f
+sensorsRepairTime = 3.0f
+enginesCrewLoss = 0.0f
+lifeSupportCrewLoss = 10.0f
+weaponsCrewLoss = 5.0f
+shieldGeneratorCrewLoss = 15.0f
+sensorsCrewLoss = 5.0f
+lifeSupportLoss = 5.0f
+is_starbase = 1
+avoidanceClass = 1000
+weldingRadius = 1.0
+aiName = "StarbaseProcess"
+facility = 1
+has_hitpoints = 1
+checkValidResourceInterval = 10.0f
+
+// End misc properties
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 150
+metalCost = 250
+latinumCost = 0
+biomatterCost = 0
+crewCost = 0
+officerCost = 4
+buildTime = 65

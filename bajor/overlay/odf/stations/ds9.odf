@@ -1,0 +1,170 @@
+// Begin main properties
+
+unitName = "Deep Space 9"
+tooltip = "Deep Space Nine"
+verboseTooltip = "The most heavily armed fortress in the Alpha Quadrant."
+race = "federation"
+maxHealth = 10000
+shieldRate = 25.0
+maxSpecialEnergy = 1000f
+specialEnergyRate = 10
+attackPower = 1.0f
+intrinsicValue = 2.00f
+shieldGeneratorHitPoints = 2000
+enginesHitPoints = 0
+weaponsHitPoints = 2000
+lifeSupportHitPoints = 2000
+sensorsHitPoints = 2000
+lifeSupportHitPercent = 5.0f
+weaponsHitPercent = 7.5f
+shieldGeneratorHitPercent = 7.5f
+sensorsHitPercent = 7.5f
+hullHitPercent = 70.0f
+enginesHitPercent = 0.0f
+crewHitPercent = 13.5f
+
+// End main properties
+
+// Begin build menu
+
+// End build menu
+
+// Begin weapons
+
+weapon1 = "ctpulse"
+weapon2 = "cb2phas"
+weapon3 = "ctpulse"
+weapon4 = "ctpulse"
+weapon5 = "cb2phas"
+
+// End weapons
+
+// Begin hardpoints
+
+dockingHardpoint = "hp25"
+repairHardpoint = "hp03"
+buildHardpoint = "hp01"
+sensorsTargetHardpoints = "hp29"
+criticalTargetHardpoints = "hp28"
+hullTargetHardpoints = "hp34" "hp35" "hp36" "hp37"
+shieldGeneratorTargetHardpoints = "hp28"
+lifeSupportTargetHardpoints = "hp30" "hp31" "hp32" "hp33"
+enginesTargetHardpoints = "hp28"
+dockinghardpoint = "hp02"
+
+// End hardpoints
+
+// Begin sounds
+
+eventSelect = "OrbitalFacilitySelect"
+eventAcknowledge = "OrbitalFacilityAcknowledge"
+eventDecommission = "OrbitalFacilityDecommission"
+
+// End sounds
+
+// Begin ship names
+
+possibleCraftNames = 
+"Deep Space 9" 
+
+// End ship names
+
+// Begin misc properties
+
+dilithiumTransferRate = 10
+metalTransferRate = 10
+latinumTransferRate = 10
+biomatterTransferRate = 10
+maximumCrew = 3000
+weaponYellow = 1.5f
+weaponRed = 2.5f
+criticalHitPercent = 2.5f
+classLabel = "starbase"
+alert = 1
+combat = 1
+builder_ship = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+ScaleSOD = 2.0
+shieldDelay = 3.0f
+rangeScan = 800.0f
+damagedScan = 100.0f
+footprintBuffer = 100.0f
+repairYellow = 2.0f
+repairRed = 4.0f
+enginesRepairTime = 1.0f
+lifeSupportRepairTime = 0.1f
+weaponsRepairTime = 2.0f
+shieldGeneratorRepairTime = 2.0f
+sensorsRepairTime = 3.0f
+enginesCrewLoss = 0.0f
+lifeSupportCrewLoss = 10.0f
+weaponsCrewLoss = 5.0f
+shieldGeneratorCrewLoss = 15.0f
+sensorsCrewLoss = 5.0f
+lifeSupportLoss = 5.0f
+is_starbase = 1
+avoidanceClass = 1000
+weldingRadius = 1.0
+aiName = "StarbaseProcess"
+fireball = "xfirebal"
+facility = 1
+has_crew = 1
+has_hitpoints = 1
+repairFacility = 1
+trade_station = 1
+dilithiumTransferRate = 10
+metalTransferRate = 10
+latinumTransferRate = 10
+biomatterTransferRate = 10
+cargoKey1 = "GUI_SD_CARGO_SAURIAN_BRANDY"
+cargoValue1 = 1.0
+cargoKey2 = "GUI_SD_CARGO_TRIBBLES"
+cargoValue2 = ".8"
+cargoKey3 = "GUI_SD_CARGO_WARP_CORES"
+cargoValue3 = 1.5
+cargoKey4 = "GUI_SD_TRADE_GOODS"
+cargoValue4 = 1.0
+cargoKey5 = "GUI_SD_ROMULAN_ALE"
+cargoValue5 = 1.5
+cargoKey6 = "GUI_SD_REPLICATORS"
+cargoValue6 = 1.8
+cargoKey7 = "GUI_SD_GAGH"
+cargoValue7 = 1.1
+cargoKey8 = "GUI_SD_HOLOGENERATOR"
+cargoValue8 = 1.9
+cargoKey9 = "GUI_SD_MEDICAL_SUPPLIES"
+cargoValue9 = 2.0
+cargoKey10 = "GUI_SD_ANTIGRAV"
+cargoValue10 = 1.1
+cargoKey11 = "GUI_SD_QUADROTRITICALE"
+cargoValue11 = 0.5
+cargoKey12 = "GUI_SD_RAKTAJINO"
+cargoValue12 = 1.0
+
+// End misc properties
+
+
+
+baseName = "fds9"
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 5
+metalCost = 5
+latinumCost = 0
+biomatterCost = 0
+crewCost = 1500
+officerCost = 9
+buildTime = 5
+
+buildItem0 = "fconst"
+
+buildItem1 = "fcargo"
+
+buildItem2 = "fsrepair"
+
+buildItem3 = "ffreight"
+
+buildItem4 = "uconst"

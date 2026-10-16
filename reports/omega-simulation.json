@@ -1,0 +1,93 @@
+{
+  "method": "Analytical estimate from inherited ODF damageBase, hitChance and shotDelay. Each weapon bank contributes one shot per delay. Excludes crew/boarding, cloak, specials, movement, range, armor and shield regeneration; no actual game-engine battles were run.",
+  "results": [
+    {
+      "name": "Omega Defiant Class",
+      "baselineHealth": 680,
+      "omegaHealth": 850,
+      "baselineDps": 125.29,
+      "omegaDps": 156.61,
+      "baselineCost": 950,
+      "omegaCost": 1150,
+      "omegaTimeToDefeatBaseline": 4.341996041121257,
+      "baselineTimeToDefeatOmega": 6.7842605156037985
+    },
+    {
+      "name": "Omega Galaxy Class",
+      "baselineHealth": 1000,
+      "omegaHealth": 1250,
+      "baselineDps": 82.14,
+      "omegaDps": 102.68,
+      "baselineCost": 1000,
+      "omegaCost": 1200,
+      "omegaTimeToDefeatBaseline": 9.738994935722634,
+      "baselineTimeToDefeatOmega": 15.217920623326028
+    },
+    {
+      "name": "Omega Sovereign Class",
+      "baselineHealth": 1100,
+      "omegaHealth": 1375,
+      "baselineDps": 172.12,
+      "omegaDps": 215.14,
+      "baselineCost": 1350,
+      "omegaCost": 1650,
+      "omegaTimeToDefeatBaseline": 5.112949707167426,
+      "baselineTimeToDefeatOmega": 7.988612595863351
+    },
+    {
+      "name": "Omega Prometheus Class",
+      "baselineHealth": 4260,
+      "omegaHealth": 5325,
+      "baselineDps": 65.15,
+      "omegaDps": 81.44,
+      "baselineCost": 2050,
+      "omegaCost": 2550,
+      "omegaTimeToDefeatBaseline": 52.30844793713163,
+      "baselineTimeToDefeatOmega": 81.7344589409056
+    },
+    {
+      "name": "Omega Sphere",
+      "baselineHealth": 2140,
+      "omegaHealth": 2675,
+      "baselineDps": 223.5,
+      "omegaDps": 279.38,
+      "baselineCost": 2000,
+      "omegaCost": 2450,
+      "omegaTimeToDefeatBaseline": 7.659818168802349,
+      "baselineTimeToDefeatOmega": 11.968680089485458
+    },
+    {
+      "name": "Omega Borg Cube",
+      "baselineHealth": 3250,
+      "omegaHealth": 4063,
+      "baselineDps": 202.29,
+      "omegaDps": 252.86,
+      "baselineCost": 2750,
+      "omegaCost": 3300,
+      "omegaTimeToDefeatBaseline": 12.852962113422446,
+      "baselineTimeToDefeatOmega": 20.085026447179793
+    },
+    {
+      "name": "Omega Tactical Cube",
+      "baselineHealth": 7230,
+      "omegaHealth": 9038,
+      "baselineDps": 202.29,
+      "omegaDps": 252.86,
+      "baselineCost": 4100,
+      "omegaCost": 5000,
+      "omegaTimeToDefeatBaseline": 28.592897255398242,
+      "baselineTimeToDefeatOmega": 44.678431954125266
+    },
+    {
+      "name": "Omega Locutus' Cube",
+      "baselineHealth": 750,
+      "omegaHealth": 938,
+      "baselineDps": 97.5,
+      "omegaDps": 121.88,
+      "baselineCost": 1250,
+      "omegaCost": 1550,
+      "omegaTimeToDefeatBaseline": 6.153593698720052,
+      "baselineTimeToDefeatOmega": 9.62051282051282
+    }
+  ]
+}

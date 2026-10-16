@@ -1,0 +1,138 @@
+// Begin main properties
+
+unitName = "Cardassian-Kessok Hybrid Cruiser"
+tooltip = "Cardassian-Kessok Hybrid Cruiser"
+verboseTooltip = "Cardassian-Kessok Hybrid Cruiser is a highly armed battlecruiser with multiple phaser, torpedoes and pulse cannons."
+race = "cardassian"
+maxHealth = 1200
+shieldGeneratorHitPoints = 180
+enginesHitPoints = 170
+weaponsHitPoints = 170
+lifeSupportHitPoints = 180
+sensorsHitPoints = 170
+shieldRate = 7.8
+maxSpecialEnergy = 1000
+specialEnergyRate = 15
+attackPower = 1.00f
+intrinsicValue = 0.50f
+shipclass = "battleship"
+enginesHitPercent = 5.0f
+lifeSupportHitPercent = 8.5f
+weaponsHitPercent = 5.0f
+shieldGeneratorHitPercent = 8.0f
+sensorsHitPercent = 8.0f
+crewHitPercent = 8.5f
+hullHitPercent = 57.0f
+
+// End main properties
+
+// Begin weapons
+
+weapon1 = "posiphas"
+weaponHardpoints1 = "hp04"
+weapon2 = "posiphas"
+weaponHardpoints2 = "hp05"
+weapon3 = "posiphas"
+weaponHardpoints3 = "hp06"
+weapon4 = "posiphas"
+weaponHardpoints4 = "hp07"
+weapon5 = "cbphas"
+weaponHardpoints5 = "hp01"
+weapon6 = "cwpantitorp"
+weaponHardpoints6 = "hp02"
+weapon7 = "cwpantitorp"
+weaponHardpoints7 = "hp03"
+weapon8 = "cwpantitorp"
+weaponHardpoints8 = "hp10"
+weapon9 = "cgwposipulse"
+weaponHardpoints9 = "hp02" "hp03"
+
+// End weapons
+
+// Begin hardpoints
+
+enginesTargetHardpoints = "hp09" "hp16" "hp17"
+lifeSupportTargetHardpoints = "hp10" "hp11" "hp12" "hp13"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+shieldGeneratorTargetHardpoints = "hp13" "hp14" "hp15" "hp16" "hp17"
+sensorsTargetHardpoints = "hp18" "hp19" "hp20" "hp21" "hp27" "hp28"
+hullTargetHardpoints = "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20" "hp21" "hp22" "hp23"
+criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20" "hp21" "hp22" "hp23" "hp24"
+
+// End hardpoints
+
+// Begin sounds
+
+eventSelect = "BattleSelect"
+eventAcknowledge = "BattleAcknowledge"
+eventAttack = "BattleAttack"
+eventStop = "BattleStop"
+eventMove = "BattleMove"
+eventRepair = "BattleRepair"
+
+// End sounds
+
+// Begin ship names
+possibleCraftNames = 
+	"Ludon" "Keniangires" "Briank" "Olius" "Lie" "Moniphagnis" "Alant" "Dudawinas" 
+	"Kablause" "Maudasene" "Malience" "Ewemognes" "Malisstra" "Selae" "Krizzt" "Hallaele" 
+	"Ogwrin" "Bestenes" "Badwine" "Peres""Malisstra" "Selae" "Krizzt" "Hallaele" 
+	"Jorrene" "Gatrine" "Erbalis" "Diona" "Feralara" "Rindar" "Yorar" "Ilirril" 
+	"Henuse" "Grangius" "Talias" "Hormance" "Shyllira" "Dryrdril" "Milithra" "Mourryn" 
+	"Byelgra" "Dofflot" "Pesin" "Rhodehan" "Ardryl" "Tilrin" "Seldyn" "Drossorn" 
+ 
+// End ship names
+
+// Begin misc properties
+
+saneCrewLossMethod = 1
+weaponYellow = 1.0f
+weaponRed = 2.0f
+hotkeyLabel = "HOTKEY_F4"
+scaleSOD = 1.45
+avoidanceClass = 8
+canAttackPlanets = 1
+physicsFile = "sbattphys.odf"
+trekPhysicsFile = "trek_sbattphys.odf"
+fireball = "xfireblg"
+combat = 1
+alert = 1
+can_sandd = 1
+shipType = "B"
+shieldDelay = 3.0f
+rangeScan = 800.0f
+damagedScan = 125.0
+enginesRepairTime = 1.0f
+lifeSupportRepairTime = 0.1f
+weaponsRepairTime = 2.0f
+shieldGeneratorRepairTime = 2.0f
+sensorsRepairTime = 3.0f
+enginesCrewLoss = 5.0f
+lifeSupportCrewLoss = 3.0f
+weaponsCrewLoss = 2.0f
+shieldGeneratorCrewLoss = 2.0f
+sensorsCrewLoss = 2.0f
+lifeSupportLoss = 2.0f
+weldingRadius = 1.0
+classLabel = "craft"
+aiName = "CraftProcess"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+can_explore = 1
+
+// End misc properties
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 200
+metalCost = 220
+latinumCost = 0
+biomatterCost = 0
+crewCost = 400
+officerCost = 10
+buildTime = 25

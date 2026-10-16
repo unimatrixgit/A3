@@ -1,0 +1,123 @@
+#include "destroy.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Shrike Class"
+
+//tooltips
+tooltip = "Shrike Class"
+verboseTooltip = "Romulan Destroyer"
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 998
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 601
+enginesHitPoints = 531
+weaponsHitPoints = 576
+lifeSupportHitPoints = 552
+sensorsHitPoints = 438
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 6.7
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 89
+impulseSpeed = 78
+warpSpeed = 796
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 2400
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 24 
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "Dejerek" "D'lassus" "D'oras" "D'pas" "D'relan"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Pulse Phaser
+weapon1 = "rc03pul"
+weaponHardpoints1 = "hp08"
+
+// Pulse Phaser
+weapon2 = "rc03pul"
+weaponHardpoints2 = "hp09"
+
+// Cloaking Device
+weapon3 = "grcloak"
+weaponHardpoints3 = "hp11"
+
+// Romulan Spy
+weapon4 = "gromspy"
+weaponHardpoints4 = "hp12"
+
+// Torpedo
+weapon5 = "rc03phot"
+weaponHardpoints5 = "hp10"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.25f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.25f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+
+//**********************************************************************
+//KEYMAP LABEL
+hotkeyLabel = "HOTKEY_F2"
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 90
+metalCost = 0
+latinumCost = 0
+biomatterCost = 0
+crewCost = 80
+officerCost = 7
+buildTime = 10

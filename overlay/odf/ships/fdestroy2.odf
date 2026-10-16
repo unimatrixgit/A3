@@ -1,0 +1,119 @@
+#include "destroy.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Sabre Class"
+
+//tooltips
+tooltip = "Sabre Class - Frigate"
+verboseTooltip = "Created during the battle with the Borg the Sabre is intended to be a bait ship to lure Borg vessels to waiting fleets."
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 280
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 725
+enginesHitPoints = 725
+weaponsHitPoints = 725
+lifeSupportHitPoints = 725
+sensorsHitPoints = 725
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.8
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+	"USS Asama" "USS Grimsvotn" "USS Tambora" 
+	"USS Sixx" "USS Mauna Kea" "USS Kilauea" 
+	"USS Labo" "USS Lacona" "USS Lagafell" 
+	"USS Pele" "USS Maroa" "USS Tongariro" 
+	"USS Taupo" "USS Rotorua" "USS Tofua" 
+	"USS Metis Shoal" "USS Falcon Island" "USS Koro" 
+	"USS Taveuni" "USS Wallis Island" "USS Manengouba" 
+	"USS Oku" "USS Haruj" "USS Tarso Voon" 
+	"USS San Carlos" "USS Bayuda" "USS Suswa" 
+	"USS Manarunu" "USS Marsabit" "USS Menengai" 
+	"USS Longongi" "USS Vesuvius" "USS Ischia" 
+	"USS Vulsini" "USS Larderrilo" "USS Jan Mayen" 
+	"USS Krafga" "USS Kverkfjoll" "USS Bardabunga" 
+	"USS Hekla"  
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Pulse Phaser
+weapon1 = "fsabrephas"
+weaponHardpoints1 =  "hp02" "hp03" "hp11"
+
+// Photon Torpedo
+//weapon2 = "fdphot"
+//weaponHardpoints2 = "hp04" "hp05"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp04" "hp05"
+lifeSupportTargetHardpoints = "hp13" 
+weaponsTargetHardpoints = "hp11" "hp02" "hp03" 
+shieldGeneratorTargetHardpoints = "hp10" 
+sensorsTargetHardpoints = "hp12"
+hullTargetHardpoints = "hp11" "hp12" "hp13" "hp10" 
+criticalTargetHardpoints = "hp13" 
+
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+//**********************************************************************
+
+//**********************************************************************
+//PHYSICS PARAMETERS
+
+// Scripted 3D Attack paths
+attack_path0 = "p2.pth"
+attack_path1 = "p3.pth"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "fed_destroyer"
+hotkeyLabel = "HOTKEY_F2"
+
+
+// let's make this a bit smaller
+ScaleSOD = 1.5
+
+//physics file for all other physics stuff
+physicsFile = "ffrigatephys.odf"
+trekPhysicsFile = "ffrigatephys.odf"
+
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 100
+metalCost = 0
+latinumCost = 0
+biomatterCost = 0
+crewCost = 80
+officerCost = 6
+buildTime = 18

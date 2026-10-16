@@ -1,0 +1,62 @@
+sprite_table
+
+##### Map Object Sprites #####
+
+## SPRITE DEFINITIONS ##
+
+# @reference=texture size in pixels from which the u,v,w, and h values
+# were measured.  This value will effect all subsequent textures until
+# a different value is specified.
+
+# mini asteroid clusters
+@reference=128
+@tmaterial=alphathreshold
+asteroid1	mastrfill	0	0	32	32		
+asteroid2	mastrfill	0	32	32	32		
+asteroid3	mastrfill	0	64	32	32		
+asteroid4	mastrfill	0	96	32	32		
+asteroid5	mastrfill	32	0	32	32		
+asteroid6	mastrfill	32	32	32	32		
+asteroid7	mastrfill	32	64	32	32		
+asteroid8	mastrfill	32	96	32	32		
+asteroid9	mastrfill	64	0	32	32		
+asteroid10	mastrfill	64	32	32	32		
+asteroid11	mastrfill	64	64	32	32		
+asteroid12	mastrfill	64	96	32	32		
+asteroid13	mastrfill	96	0	32	32		
+asteroid14	mastrfill	96	32	32	32		
+asteroid15	mastrfill	96	64	32	32		
+asteroid16	mastrfill	96	96	32	32		
+
+# Omega particle textures
+@reference=128
+@tmaterial=additive
+omega		xflare	  	0	0	64	64		
+@reference=64
+particle	xlite1		32	0	32	32		
+
+
+# @sprite_node name sprite animation (width,height) (r,g,b)
+# RGB Colour values range from 0 (none) to 1.0 (full intensity)
+
+#asteroid sprite object
+@sprite_node asteroid1 asteroid1 const (2,2) (1,1,.6) billboard
+@sprite_node asteroid2 asteroid2 const (3,3) (1,1,.8) billboard
+@sprite_node asteroid3 asteroid3 const (4,4) (1,1,1) billboard
+@sprite_node asteroid4 asteroid4 const (2.5,2.5) (.8,.7,.5) billboard
+@sprite_node asteroid5 asteroid5 const (3.5,3.5) (.7,.8,.8) billboard
+@sprite_node asteroid6 asteroid6 const (2.5,2.5) (.8,.7,.6)) billboard
+@sprite_node asteroid7 asteroid7 const (3,3) (.8,.9,.8) billboard
+@sprite_node asteroid8 asteroid8 const (2,2) (.9,1,1) billboard
+@sprite_node asteroid9 asteroid9 const (1.5,1.5) (1,1,1) billboard
+@sprite_node asteroid10 asteroid10 const (3,3) (.6,.8,.5) billboard
+@sprite_node asteroid11 asteroid11 const (4,4) (1,1,1) billboard
+@sprite_node asteroid12 asteroid12 const (2.5,2.5) (.8,.7,.5) billboard
+@sprite_node asteroid13 asteroid13 const (3.5,3.5) (1,1,1) billboard
+@sprite_node asteroid14 asteroid14 const (3.5,3.5) (.8,.7,.5) billboard
+@sprite_node asteroid15 asteroid15 const (3,3) (.8,.7,.5) billboard
+@sprite_node asteroid16 asteroid16 const (2,2) (.8,.7,.5) billboard
+
+#omega particle sprites
+@sprite_node omega omega const (5,5) (1,0.7,0) billboard
+@sprite_node particle particle6 const (2,2) (1,0.7,0) billboard

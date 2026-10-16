@@ -1,0 +1,91 @@
+// Xaramada merged technology tree. Source credits: Borg Incursion 2, Ghost, original installation.
+#include tech1.tt
+fsrepair.odf  -1											// repair ship
+fcruise3.odf  -1							              // cruiser3 (intrepid class)
+fassault.odf  -1							              // assault ship (iwo Jima class)
+fgalaxy.odf   -1			                            // battleship (galaxy class)
+fbattle.odf   -1							              // battleship (sovereign class)
+ffrigate.odf  -1			                            // frigate (andor class)
+fspecial.odf  -1							              // special (nebula class)
+fyard2.odf    -1											// advanced shipyard
+ftrading.odf  -2											// trading stationesear2.odf  											// science station
+fupgrade.odf  -1											// ship upgrade station
+fsuperbl.odf  -1											// temporal research facility
+fedpod1.odf   -1											// research pod (corbomite reflector)
+fedpod6.odf   -1											// research pod (gemini effect)
+fedpod7.odf   -1											// research pod (shield disruptor)
+fedpod8.odf   -1											// research pod (engineering team)
+fedpod9.odf   -1											// research pod (point defense phaser)
+fedpod16.odf  -1											// research pod (shield enhancer)
+fedpod11.odf  -1											// research pod (weapon upgrade level 2)
+fedpod12.odf  -1											// research pod (shield upgrade level 2)
+fedpod13.odf  -1											// research pod (sensor upgrade level 2)
+fedpod14.odf  -1											// research pod (engine upgrade level 2)
+fedpod15.odf  -1											// research pod (life support upgrade level 2)
+fedpod21.odf  -1											// research pod (weapon upgrade level 3)
+fedpod22.odf  -1											// research pod (shield upgrade level 3)
+fedpod23.odf  -1											// research pod (sensor upgrade level 3)
+fedpod24.odf  -1											// research pod (engine upgrade level 2)
+fedpod25.odf  -1											// research pod (life support upgrade level 2)
+gcorbom.odf  		 -1                                // corbomite manuever (sovereign class)
+gmanheim.odf       -1                   			   // gemini effect (nebula class)
+gshieldh.odf       -1                   			   // shield disruptor (nebula class)
+gfedrep.odf        -1                   			   // engineering team (nebula class)
+gpdlaser.odf       -1                   			   // point defense laser (nebula class)
+gshldemt.odf       -1                  			   // shield recharger (andor class)
+ggalintegrator.odf -1                               // galaxy class integration
+ggalseparator.odf  -1                               // galaxy class separation
+gtempor.odf        -1                               // temporal stasis field
+bconst.odf    -1                           	  // construction ship (assembler)
+bfreight.odf  -1                				  // dilithium collector (mining freighter)
+bscout.odf    -1                  		         // scout (detector)
+bdestroy.odf  -1                   	         // destroyer (interceptor)
+bcruise1.odf  -1              					  // cruiser1 (sphere)
+bcruise2.odf  -1              					  // cruiser2 (assimilator)
+bcruise3.odf  -1              					  // cruiser3 (harbinger)
+bcolony.odf   -1            				      // colony ship (pyramid)
+bassault.odf  -1             					  // assault ship (wedge)
+bbattle1.odf  -1            					  // battleship (cube)
+bbattle2.odf  -1            					  // battleship (tactical cube)
+bfrigate.odf  -1                                // frigate (harmonic defender)
+bspecial.odf  -1              					  // special (diamond)
+bbattle3.odf  -1                               // battleship (fusion cube)
+bbattle4.odf  -1                               // battleship (tactical fusion cube)
+bbase.odf    -1											// nexus
+bmining.odf  -1											// processing node
+bsensor.odf  -1											// detection array
+bturret.odf  -1											// energy cannon
+bturret2.odf -1											// torpedo turret
+byard.odf    -1											// assembly matrix
+byard2.odf   -1											// advanced assembly matrix
+bresear.odf  -1											// modification center
+bresear2.odf -1											// technology node
+bupgrade.odf -1											// ship upgrade station
+btechass.odf -1											// technology assimilator
+brecycle.odf -1											// recycler
+bsuperbl.odf -1											// super (transwarp gate)
+bhub.odf     -1											// collective hub
+borpod1.odf  -1											// research pod (auto-assimilator)
+borpod2.odf  -1											// research pod (holding beam)
+borpod3.odf  -1											// research pod (regeneration)
+borpod4.odf  -1											// research pod (transwarp drive)
+borpod5.odf  -1											// research pod (tachyon detection grid)
+borpod6.odf  -1											// research pod (shield remodulation)
+borpod7.odf  -1											// research pod (computer override)
+borpod8.odf  -1											// research pod (nanites)
+borpod9.odf  -1											// research pod (ultritium burst)
+borpod16.odf -1											// research pod (special energy recharger)
+borpod11.odf -1											// research pod (weapon upgrade level 2)
+borpod12.odf -1											// research pod (shield upgrade level 2)
+borpod13.odf -1											// research pod (sensor upgrade level 2)
+borpod14.odf -1											// research pod (engine upgrade level 2)
+borpod15.odf -1											// research pod (life support upgrade level 2)
+borpod21.odf -1											// research pod (weapon upgrade level 3)
+borpod22.odf -1											// research pod (shield upgrade level 3)
+borpod23.odf -1											// research pod (sensor upgrade level 3)
+borpod24.odf -1											// research pod (engine upgrade level 3)
+borpod25.odf -1											// research pod (life support upgrade level 3)
+
+fyard3.odf -1											// advanced shipyard
+
+byard3.odf -1											// advanced assembly matrix

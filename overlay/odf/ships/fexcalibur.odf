@@ -1,0 +1,133 @@
+#include "battle.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Excalibur Class"
+tooltip = "Excalibur Class - Dreadnaught"
+verboseTooltip = "This experimental ship is heavily armed and is equipped with Star Fleet's Transwarp Drive."
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 2000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 20
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 2000
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 20
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 5000
+enginesHitPoints = 5000
+weaponsHitPoints = 5000
+lifeSupportHitPoints = 5000
+sensorsHitPoints = 5000
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+	"USS Saratoga" "USS Aeon" "USS Faithful" "USS Archangel"
+	"USS Atlas" "USS Legacy" "USS Challenger" "USS Justice" 
+	"USS Integrity" "USS Alexandra" "USS Endurance" "USS Midway"
+	"USS Majestic" "USS Hyperion" "USS Avatar" "USS Avalon"
+	"USS Horizon" "USS Nimitz" "USS Aries" "USS Leviathan"
+	"USS Sentinel" "USS Tiberius" "USS Odin" "USS Providence"
+	"USS Formidable" "USS Destiny" "USS Tempest" "USS Cavalier"
+	"USS Yamato"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// phaser
+weapon1 = "fexcaliburphas"
+weaponHardpoints1 = "hp01" "hp02" "hp03" 
+
+// Pulse Phaser
+weapon2 = "fexcaliburpulse"
+weaponHardpoints2 = "hp25" 
+
+// Photon torpedos
+weapon3 = "fexcaliburphot"
+weaponHardpoints3 = "hp07"
+
+//Self Destruct
+weapon4 = "gselfdes"
+weaponHardpoints4 = "hp24"
+
+weapon5 = "ftwarpd"
+weaponHardpoints5 = "hp11" "hp12"
+
+// phaser
+weapon6 = "fexcaliburphas"
+weaponHardpoints6 = "hp04" "hp05" "hp06"
+
+// Pulse Phaser
+weapon7 = "fexcaliburpulse"
+weaponHardpoints7 = "hp26" 
+
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponsTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+shieldGeneratorTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+sensorsTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+hullTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+criticalTargetHardpoints = "hp12" "hp14" 
+
+//**********************************************************************
+
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+//**********************************************************************
+
+
+//change the scale
+ScaleSOD = 2.75
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "fed_battle"
+hotkeyLabel = "HOTKEY_F4"
+
+
+//physics file for all other physics stuff
+physicsFile = "fdreadphys.odf"
+trekPhysicsFile = "fdreadphys.odf"
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 850
+metalCost = 1500
+latinumCost = 0
+biomatterCost = 0
+crewCost = 1876
+officerCost = 9
+buildTime = 22

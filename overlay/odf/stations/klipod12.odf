@@ -1,0 +1,34 @@
+#include "ShieldUpgradePod.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Level 2 Shields Pod"
+
+//Race which can build ship & starting race of ship
+race = "klingon"
+
+//tooltips
+tooltip = "KLI_POD12"
+verboseTooltip = "KLI_POD12_V"
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Latinum Cost to build
+
+//Number of officers required to build this ship
+
+//Amount of time required to build ship
+
+hotkeyLabel = "HOTKEY_F2"
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 500
+metalCost = 150
+latinumCost = 250
+biomatterCost = 0
+crewCost = 0
+officerCost = 1
+buildTime = 120

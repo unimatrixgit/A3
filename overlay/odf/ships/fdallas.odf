@@ -1,0 +1,126 @@
+#include "cruise1.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Dallas Class"
+
+tooltip = "Dallas Class"
+verboseTooltip = "Section 31 Heavy Artillery Cruiser."
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 1214
+
+//This is the range in meters which the ships sensors can see (LOS)
+rangeScan = 1015.0f
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 489
+enginesHitPoints = 398
+weaponsHitPoints = 421
+lifeSupportHitPoints = 366
+sensorsHitPoints = 319
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 7.6
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 1000
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 10
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 89
+impulseSpeed = 80
+warpSpeed = 900
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "USS Dallas" "USS Texas" "USS Washington"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Tri-Cobolt Torpedo
+weapon1 = "ftrict"
+weaponHardpoints1 = "hp41"
+
+// Tri-Cobolt Torpedo
+weapon2 = "ftrict"
+weaponHardpoints2 = "hp42"
+
+// Type XI Phaser
+weapon3 = "fc11phas"
+weaponHardpoints3 = "hp30" "hp31" "hp32" "hp33" "hp34" "hp35" 
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04"
+lifeSupportTargetHardpoints = "hp05" "hp06"
+weaponsTargetHardpoints = "hp07" "hp08" "hp09" "hp10"
+shieldGeneratorTargetHardpoints = "hp11" "hp12" "hp13" "hp14"
+sensorsTargetHardpoints = "hp15" "hp16" "hp17"
+hullTargetHardpoints = "hp18" "hp19" "hp20" "hp21" "hp22"
+criticalTargetHardpoints = "hp01" "hp02" "hp05" "hp07" "hp09" "hp11" "hp16" "hp19" "hp22"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.75f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.30f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+
+//**********************************************************************
+//PHYSICS PARAMETERS
+
+physicsFile = "sartilleryshipphys.odf"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "fed_photon"
+hotkeyLabel = "HOTKEY_F8"
+
+// ship type for formations: override the value in cruise2 (not all cruise2s are artillery)
+shipType = "A"
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 155
+metalCost = 0
+latinumCost = 0
+biomatterCost = 0
+crewCost = 157
+officerCost = 7
+buildTime = 13

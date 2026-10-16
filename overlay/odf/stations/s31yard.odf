@@ -1,0 +1,113 @@
+#include "station.odf"
+
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Section 31 Shipyard"
+
+//tooltips
+tooltip = "Section 31 Shipyard"
+verboseTooltip = "Construction facility designed to build all Section 31 vessel classes."
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 4200
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 6.9
+
+//animate looped upon build
+animation = 2
+
+//Possible Craft Names
+possibleCraftNames = "Aarkon Prime" "Phoenix Prime" "Terradyhne Prime"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+
+//**********************************************************************
+//Construction Parameters
+buildItem0 = "fvalour"
+buildItem1 = "ftengen"
+buildItem2 = "arumaan"
+buildItem3 = "fspectre"
+buildItem4 = "fsent"
+buildItem5 = "fshadow"
+buildItem6 = "fdallas"
+buildItem7 = "fdeimos"
+buildItem8 = "banshee"
+buildItem9 = "fdiablo"
+buildItem10 = "fakisato"
+buildItem11 = "fshak"
+buildItem12 = "fkaleb"
+
+//Hardpoint location for building.
+buildHardpoint = "build"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "AdvShipyardSelect"
+eventAcknowledge = "AdvShipyardAcknowledge"
+eventDecommission = "AdvShipyardDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "shipyard"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "adv_shipyard"
+hotkeyLabel = "HOTKEY_F8"
+
+//************************************************************
+// Brian additions for context sensitive menus
+builder_ship = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 390
+metalCost = 1295
+latinumCost = 0
+biomatterCost = 0
+crewCost = 750
+officerCost = 6
+buildTime = 137
