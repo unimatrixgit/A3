@@ -1,0 +1,218 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Deep Space 9"
+tooltip = "Deep Space 9 - Starbase"
+verboseTooltip = "Taken over by the Federation in 2369, this station is heavily armed and serves as a repair station."
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Number of maximum crew (only specified if different from crewCost)
+maximumCrew = 6000
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Shield absorbs all damage until it's gone
+shieldProtection = 1.0
+
+//Number of Officers starbase gives by default
+officerGain = 100
+
+//Maximum number of officer quarters
+maximumUpgrades = 6
+
+//Even though we are a shipyard we don't have a repair facility
+repairFacility = 1
+
+// Rate at which latinum is transfered from freighters
+latinumTransferRate = 15.0
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 7500
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 75
+
+//Possible Craft Names
+possibleCraftNames = "Deep Space 9" 
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// phaser inerring
+weapon1 = "fds9phas"
+weaponHardpoints1 = "hp22" "hp25" 
+
+// phaser inerring
+weapon2 = "fds9phas"
+weaponHardpoints2 = "hp23" "hp26" 
+
+// phaser inerring
+weapon3 = "fds9phas"
+weaponHardpoints3 = "hp24" "hp27" 
+
+// photon inerring
+weapon4 = "fds9phot"
+weaponHardpoints4 = "hp19" 
+
+// photon inerring
+weapon5 = "fds9phot"
+weaponHardpoints5 = "hp20"
+
+// photon inerring
+weapon6 = "fds9phot"
+weaponHardpoints6 = "hp21"
+
+// phaser outer ring
+weapon7 = "fds9phas"
+weaponHardpoints7 = "hp57" "hp51" "hp37"
+
+// phaser outer ring
+weapon8 = "fds9phas"
+weaponHardpoints8 =  "hp50" "hp34" "hp56"
+
+// phaser outer ring
+weapon9 = "fds9phas"
+weaponHardpoints9 = "hp35" "hp55" "hp53"  
+
+// phaser outer ring
+weapon10 = "fds9phas"
+weaponHardpoints10 = "hp54" "hp52" "hp36"
+
+// photon upper pilons
+weapon11 = "fds9phot"
+weaponHardpoints11 = "hp38" "hp41"
+
+// photon upper pilons
+weapon12 = "fds9phot"
+weaponHardpoints12 = "hp39" "hp43"
+
+// photon upper pilons
+weapon13 = "fds9phot"
+weaponHardpoints13 = "hp40" "hp42"
+
+// photon lower pilons
+weapon14 = "fds9phot"
+weaponHardpoints14 = "hp44" "hp47"
+
+// photon lower pilons
+weapon15 = "fds9phot"
+weaponHardpoints15 = "hp45" "hp49"
+
+// photon lower pilons
+weapon16 = "fds9phot"
+weaponHardpoints16 = "hp46" "hp48"
+
+
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = 
+lifeSupportTargetHardpoints = "hp28"
+weaponsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
+shieldGeneratorTargetHardpoints = "hp58" "hp59" "hp60" "hp61" 
+sensorsTargetHardpoints = "hp29" 
+hullTargetHardpoints = "hp30" "hp31" "hp32" "hp33" 
+criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
+
+//**********************************************************************
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+
+
+
+
+
+//Hardpoint location for building.
+buildHardpoint = "hp06"
+
+//repair
+repairhardpoint = "hp02"
+dockinghardpoint = "hp69"
+//**********************************************************************
+//**********************************************************************
+//SYSTEM HITPOINTS
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 12500
+enginesHitPoints = 0
+weaponsHitPoints = 12500
+lifeSupportHitPoints = 12500
+sensorsHitPoints = 12500
+
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "StarbaseSelect"
+eventAcknowledge = "StarbaseAcknowledge"
+eventAttack = "StarbaseAttack"
+eventDecommission = "StarbaseDecommission"
+
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "starbase"
+//**********************************************************************
+
+
+hotkeyLabel = "HOTKEY_F1"
+
+//************************************************************
+// Brian additions for context sensitive menus
+alert = 1
+combat = 1
+builder_ship = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+avoidMe = 0
+
+scaleSod = 2.0f
+
+
+
+
+
+
+// Xaramada resource costs: original matching class.
+dilithiumCost = 5
+metalCost = 5
+latinumCost = 0
+biomatterCost = 0
+crewCost = 1500
+officerCost = 9
+buildTime = 5
+buildItem0 = "fconst"
+buildItem1 = "fconst2"
+buildItem2 = "ffreight"
+buildItem3 = "fcargo"
+buildItem4 = "fsrepair"
+buildItem5 = "fdefiant"
+buildItem6 = "fvoyager"
+buildItem7 = "xfuconst"

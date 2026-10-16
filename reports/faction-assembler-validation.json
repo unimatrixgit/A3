@@ -1,0 +1,65 @@
+{
+  "target": "D:/armadaIII",
+  "errors": [],
+  "checks": [
+    {
+      "builder": "xbuconst",
+      "menus": 11,
+      "technologyTrees": 38
+    },
+    {
+      "builder": "xfuconst",
+      "menus": 9,
+      "technologyTrees": 38
+    },
+    {
+      "builder": "xkuconst",
+      "menus": 10,
+      "technologyTrees": 38
+    },
+    {
+      "builder": "xruconst",
+      "menus": 9,
+      "technologyTrees": 38
+    },
+    {
+      "builder": "xcuconst",
+      "menus": 9,
+      "technologyTrees": 38
+    },
+    {
+      "builder": "xduconst",
+      "menus": 10,
+      "technologyTrees": 38
+    },
+    {
+      "builder": "xbruconst",
+      "menus": 8,
+      "technologyTrees": 38
+    },
+    {
+      "builder": "xbjuconst",
+      "menus": 8,
+      "technologyTrees": 38
+    }
+  ],
+  "producerLinks": 31,
+  "excluded8472": true,
+  "borgCoreItems": [
+    "bbase",
+    "byard",
+    "bsensor",
+    "bturret",
+    "bmining",
+    "bresear",
+    "bresear2",
+    "byard2",
+    "bturret2",
+    "bbase2",
+    "brecycle",
+    "bsuperbl",
+    "byard3"
+  ],
+  "applied": false,
+  "runtimeVerified": false
+}

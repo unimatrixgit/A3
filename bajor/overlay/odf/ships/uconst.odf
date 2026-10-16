@@ -92,7 +92,7 @@ hotkeyLabel = "HOTKEY_F1"
 
 
 // Use the Borg assembler model and its Borg textures.
-baseName = "bconst"
+
 
 // Xaramada: transwarp for all Borg vessels.
 weapon2 = "xabtrans5"
@@ -118,20 +118,32 @@ tooltip = "Universal Assembler"
 
 verboseTooltip = "Universal Assembler. Builds the main starbase of every faction."
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "xbuconst"
 buildItem0 = "bbase"
-
 buildItem1 = "fbase"
-
 buildItem2 = "kbase"
-
 buildItem3 = "rbase"
-
 buildItem4 = "cbase"
-
 buildItem5 = "dbase"
-
 buildItem6 = "brbase"
-
-buildItem7 = "8472_mothership"
-
-buildItem8 = "bjbase"
+buildItem7 = "bjbase"
+buildItem8 = "btechass"
+buildItem9 = "bupgrade"
+buildItem10 = "xbomegalab"

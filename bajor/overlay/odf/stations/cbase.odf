@@ -69,11 +69,11 @@ weapon3 = "cc08plas"
 
 //**********************************************************************
 //Construction Parameters
-buildItem0 = "cconst"
-buildItem1 = "cfreight"
-buildItem2 = "ccargo"
-buildItem3 = "csrepair"
-buildItem4 = "domconst"
+
+
+
+
+
 
 //Hardpoint location for building.
 buildHardpoint = "build"
@@ -166,7 +166,7 @@ SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
 ScaleSOD = 1.6
-buildItem5 = "uconst"
+
 
 
 
@@ -210,4 +210,10 @@ sensorstargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06"
 
 hulltargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" 
 
-criticaltargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" 
+criticaltargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06"
+buildItem0 = "cconst"
+buildItem1 = "cfreight"
+buildItem2 = "ccargo"
+buildItem3 = "csrepair"
+buildItem4 = "domconst"
+buildItem5 = "xcuconst"

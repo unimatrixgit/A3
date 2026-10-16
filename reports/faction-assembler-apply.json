@@ -1,0 +1,673 @@
+{
+  "target": "D:\\armadaIII",
+  "backup": "D:\\Xaramada-Modwork\\backups\\faction-assemblers-20261016-224146",
+  "files": [
+    {
+      "path": "AI\\AIPs\\bajoran_build_list.aip",
+      "previouslyExisted": true,
+      "sha256": "1A9A2699DC83C007061BCAFDAE96FA0D34F198799F759BD473E89E3D39D7AE14"
+    },
+    {
+      "path": "AI\\AIPs\\bajoran_defensive_list.aip",
+      "previouslyExisted": true,
+      "sha256": "1A9A2699DC83C007061BCAFDAE96FA0D34F198799F759BD473E89E3D39D7AE14"
+    },
+    {
+      "path": "AI\\AIPs\\bajoran_endgame_list.aip",
+      "previouslyExisted": true,
+      "sha256": "1A9A2699DC83C007061BCAFDAE96FA0D34F198799F759BD473E89E3D39D7AE14"
+    },
+    {
+      "path": "AI\\AIPs\\bajoran_instant_action_build_list.aip",
+      "previouslyExisted": true,
+      "sha256": "1A9A2699DC83C007061BCAFDAE96FA0D34F198799F759BD473E89E3D39D7AE14"
+    },
+    {
+      "path": "AI\\AIPs\\bajoran_offensive_list.aip",
+      "previouslyExisted": true,
+      "sha256": "1A9A2699DC83C007061BCAFDAE96FA0D34F198799F759BD473E89E3D39D7AE14"
+    },
+    {
+      "path": "AI\\AIPs\\borg_build_list.aip",
+      "previouslyExisted": true,
+      "sha256": "AF2D744CCA0B24C1BD8859FC208A8CBD6E12439298499BACC18BA02CDEDF3A0A"
+    },
+    {
+      "path": "AI\\AIPs\\borg_defensive_list.aip",
+      "previouslyExisted": true,
+      "sha256": "296DFDF2CE9CC42D3CF3D27C8776D004A40EF7017142BD52767C6157D4C58C89"
+    },
+    {
+      "path": "AI\\AIPs\\borg_endgame_list.aip",
+      "previouslyExisted": true,
+      "sha256": "296DFDF2CE9CC42D3CF3D27C8776D004A40EF7017142BD52767C6157D4C58C89"
+    },
+    {
+      "path": "AI\\AIPs\\borg_instant_action_build_list.aip",
+      "previouslyExisted": true,
+      "sha256": "296DFDF2CE9CC42D3CF3D27C8776D004A40EF7017142BD52767C6157D4C58C89"
+    },
+    {
+      "path": "AI\\AIPs\\borg_offensive_list.aip",
+      "previouslyExisted": true,
+      "sha256": "296DFDF2CE9CC42D3CF3D27C8776D004A40EF7017142BD52767C6157D4C58C89"
+    },
+    {
+      "path": "AI\\AIPs\\breen_build_list.aip",
+      "previouslyExisted": true,
+      "sha256": "AC7E4A1C66E15676F2BA27FEFE62ADD947D3DB87BA1BEDCD0F270B031D6F191C"
+    },
+    {
+      "path": "AI\\AIPs\\breen_defensive_list.aip",
+      "previouslyExisted": true,
+      "sha256": "AC7E4A1C66E15676F2BA27FEFE62ADD947D3DB87BA1BEDCD0F270B031D6F191C"
+    },
+    {
+      "path": "AI\\AIPs\\breen_endgame_list.aip",
+      "previouslyExisted": true,
+      "sha256": "AC7E4A1C66E15676F2BA27FEFE62ADD947D3DB87BA1BEDCD0F270B031D6F191C"
+    },
+    {
+      "path": "AI\\AIPs\\breen_instant_action_build_list.aip",
+      "previouslyExisted": true,
+      "sha256": "AC7E4A1C66E15676F2BA27FEFE62ADD947D3DB87BA1BEDCD0F270B031D6F191C"
+    },
+    {
+      "path": "AI\\AIPs\\breen_offensive_list.aip",
+      "previouslyExisted": true,
+      "sha256": "AC7E4A1C66E15676F2BA27FEFE62ADD947D3DB87BA1BEDCD0F270B031D6F191C"
+    },
+    {
+      "path": "AI\\AIPs\\cardassian_build_list.aip",
+      "previouslyExisted": true,
+      "sha256": "C670F61E4CD5856BFD1383E7F1605FA90FEA8ACFD4FF8EED424DA3488FA7668B"
+    },
+    {
+      "path": "AI\\AIPs\\cardassian_defensive_list.aip",
+      "previouslyExisted": true,
+      "sha256": "B05359C72C29DF5D92951DEF6F63E8BAF6AEC1A5B3F2F8CFE4B5F096E00D0692"
+    },
+    {
+      "path": "AI\\AIPs\\cardassian_endgame_list.aip",
+      "previouslyExisted": true,
+      "sha256": "1FBC212BA7C05F79A9126671E8FB3FBA4678B83B21F3C5BECB2B1592940A0220"
+    },
+    {
+      "path": "AI\\AIPs\\cardassian_instant_action_build_list.aip",
+      "previouslyExisted": true,
+      "sha256": "1FBC212BA7C05F79A9126671E8FB3FBA4678B83B21F3C5BECB2B1592940A0220"
+    },
+    {
+      "path": "AI\\AIPs\\cardassian_offensive_list.aip",
+      "previouslyExisted": true,
+      "sha256": "1FBC212BA7C05F79A9126671E8FB3FBA4678B83B21F3C5BECB2B1592940A0220"
+    },
+    {
+      "path": "AI\\AIPs\\dominion_build_list.aip",
+      "previouslyExisted": true,
+      "sha256": "15A7E30D2975F47E86EB1C0DEDB374788CF01779215BAD92D1E31F1C7E951234"
+    },
+    {
+      "path": "AI\\AIPs\\dominion_defensive_list.aip",
+      "previouslyExisted": true,
+      "sha256": "15A7E30D2975F47E86EB1C0DEDB374788CF01779215BAD92D1E31F1C7E951234"
+    },
+    {
+      "path": "AI\\AIPs\\dominion_endgame_list.aip",
+      "previouslyExisted": true,
+      "sha256": "15A7E30D2975F47E86EB1C0DEDB374788CF01779215BAD92D1E31F1C7E951234"
+    },
+    {
+      "path": "AI\\AIPs\\dominion_instant_action_build_list.aip",
+      "previouslyExisted": true,
+      "sha256": "15A7E30D2975F47E86EB1C0DEDB374788CF01779215BAD92D1E31F1C7E951234"
+    },
+    {
+      "path": "AI\\AIPs\\dominion_offensive_list.aip",
+      "previouslyExisted": true,
+      "sha256": "15A7E30D2975F47E86EB1C0DEDB374788CF01779215BAD92D1E31F1C7E951234"
+    },
+    {
+      "path": "AI\\AIPs\\federation_build_list.aip",
+      "previouslyExisted": true,
+      "sha256": "4960A62943CB8A54E6AB7B6DC783EB35E91BE7110512CE39130FC072098CFF5A"
+    },
+    {
+      "path": "AI\\AIPs\\federation_defensive_list.aip",
+      "previouslyExisted": true,
+      "sha256": "7FF68956CEBC0417FA0E28366A9B17757C7ECE62D9F04A644695D43CF45B9232"
+    },
+    {
+      "path": "AI\\AIPs\\federation_endgame_list.aip",
+      "previouslyExisted": true,
+      "sha256": "E8F6D19E73DDCF0BE2C1DF2FF2BDDEFAFEDAFDC8E0622AE522DC94A253D2A193"
+    },
+    {
+      "path": "AI\\AIPs\\federation_instant_action_build_list.aip",
+      "previouslyExisted": true,
+      "sha256": "8FFD528911C4AA3840A518F027B502183952F5E8937308D98FC730D42D21583D"
+    },
+    {
+      "path": "AI\\AIPs\\federation_offensive_list.aip",
+      "previouslyExisted": true,
+      "sha256": "7FF68956CEBC0417FA0E28366A9B17757C7ECE62D9F04A644695D43CF45B9232"
+    },
+    {
+      "path": "AI\\AIPs\\klingon_build_list.aip",
+      "previouslyExisted": true,
+      "sha256": "E042DD86410F5A99C514BD850F2058DDCED4DFD6704B2695CFBD0047C972F6CF"
+    },
+    {
+      "path": "AI\\AIPs\\klingon_defensive_list.aip",
+      "previouslyExisted": true,
+      "sha256": "E042DD86410F5A99C514BD850F2058DDCED4DFD6704B2695CFBD0047C972F6CF"
+    },
+    {
+      "path": "AI\\AIPs\\klingon_endgame_list.aip",
+      "previouslyExisted": true,
+      "sha256": "E042DD86410F5A99C514BD850F2058DDCED4DFD6704B2695CFBD0047C972F6CF"
+    },
+    {
+      "path": "AI\\AIPs\\klingon_instant_action_build_list.aip",
+      "previouslyExisted": true,
+      "sha256": "E042DD86410F5A99C514BD850F2058DDCED4DFD6704B2695CFBD0047C972F6CF"
+    },
+    {
+      "path": "AI\\AIPs\\klingon_offensive_list.aip",
+      "previouslyExisted": true,
+      "sha256": "E042DD86410F5A99C514BD850F2058DDCED4DFD6704B2695CFBD0047C972F6CF"
+    },
+    {
+      "path": "AI\\AIPs\\romulan_build_list.aip",
+      "previouslyExisted": true,
+      "sha256": "ED0AC4066CDF3BB3BC05E0ABF20799507820744282AEE401C550E406728188E1"
+    },
+    {
+      "path": "AI\\AIPs\\romulan_defensive_list.aip",
+      "previouslyExisted": true,
+      "sha256": "ED0AC4066CDF3BB3BC05E0ABF20799507820744282AEE401C550E406728188E1"
+    },
+    {
+      "path": "AI\\AIPs\\romulan_endgame_list.aip",
+      "previouslyExisted": true,
+      "sha256": "ED0AC4066CDF3BB3BC05E0ABF20799507820744282AEE401C550E406728188E1"
+    },
+    {
+      "path": "AI\\AIPs\\romulan_instant_action_build_list.aip",
+      "previouslyExisted": true,
+      "sha256": "ED0AC4066CDF3BB3BC05E0ABF20799507820744282AEE401C550E406728188E1"
+    },
+    {
+      "path": "AI\\AIPs\\romulan_offensive_list.aip",
+      "previouslyExisted": true,
+      "sha256": "ED0AC4066CDF3BB3BC05E0ABF20799507820744282AEE401C550E406728188E1"
+    },
+    {
+      "path": "odf\\ships\\bconst.odf",
+      "previouslyExisted": true,
+      "sha256": "533C020655B44B67345C145F133C73C176ED7D47D687C86EE486A20A11DFC9EB"
+    },
+    {
+      "path": "odf\\ships\\cconst.odf",
+      "previouslyExisted": true,
+      "sha256": "4A13D0D3B3B36ADEBDB9338809D01A1B6350512383BE9CBF4164328AD03378E9"
+    },
+    {
+      "path": "odf\\ships\\dconst.odf",
+      "previouslyExisted": true,
+      "sha256": "F6D5831E66F6F716B41B989701A4E2C8A24E101F15E88A24F2F6EF5E78306F1A"
+    },
+    {
+      "path": "odf\\ships\\fconst.odf",
+      "previouslyExisted": true,
+      "sha256": "315B1F95758BBB10F3A12F51E9EC21A59C592704131D3F2D4E98DCB18CD8B918"
+    },
+    {
+      "path": "odf\\ships\\fconst2.odf",
+      "previouslyExisted": true,
+      "sha256": "B992D39A4304177A4FAC35580858A962D894B8B2790C7BD302D7E0A41AF50144"
+    },
+    {
+      "path": "odf\\ships\\kconst.odf",
+      "previouslyExisted": true,
+      "sha256": "FEBF06E4635F0784F855AFDABFE90B79122CAAB22AACB27D4E98F917FB0465B0"
+    },
+    {
+      "path": "odf\\ships\\rconst.odf",
+      "previouslyExisted": true,
+      "sha256": "A07FB06CD15F1C4A23EB7314CD8ABD43065EF102F4F8ECC10AE5DA8B32E19DAE"
+    },
+    {
+      "path": "odf\\ships\\uconst.odf",
+      "previouslyExisted": true,
+      "sha256": "6E46AA77FE1B4B154C44D7674DA6FC6E0D280A1750698C5A45A5678FBC493A70"
+    },
+    {
+      "path": "odf\\ships\\xbjuconst.odf",
+      "previouslyExisted": false,
+      "sha256": "E0DC9472ADA3EC46F21C2D878F100BC3612EF993411D1D9C069F736400CD0BB3"
+    },
+    {
+      "path": "odf\\ships\\xbruconst.odf",
+      "previouslyExisted": false,
+      "sha256": "F817133E10B7F0B91342D360DD8F99BDE2494B93405CA1197A73DA33C1B0B525"
+    },
+    {
+      "path": "odf\\ships\\xbuconst.odf",
+      "previouslyExisted": false,
+      "sha256": "9683FC602D4A3ABD08A38FCE571E05659BB1B061A779944CB60A2B8E259BEF15"
+    },
+    {
+      "path": "odf\\ships\\xcuconst.odf",
+      "previouslyExisted": false,
+      "sha256": "849A6AD06AACB487EC3A198C657D0FDD327D58ED20FD04EA6D5B7FD9AC44C97D"
+    },
+    {
+      "path": "odf\\ships\\xduconst.odf",
+      "previouslyExisted": false,
+      "sha256": "96599A4C233647F4C811D0D1E90D01D7DCDAA0D3A6A82D2B6BF49760BCDB70F5"
+    },
+    {
+      "path": "odf\\ships\\xfuconst.odf",
+      "previouslyExisted": false,
+      "sha256": "686304402B2FF85C4A928E71B810C2607F569BB770FDCB81A9C94915CAC2DAB7"
+    },
+    {
+      "path": "odf\\ships\\xkuconst.odf",
+      "previouslyExisted": false,
+      "sha256": "57AB7B76DF37AF0C249293C050825CB23DFB9F3B93BBAC3ABA7AC0E70639CFA5"
+    },
+    {
+      "path": "odf\\ships\\xruconst.odf",
+      "previouslyExisted": false,
+      "sha256": "3B748C5104112245B17573E59CDDB2DA5D36C6FB6351C9B82285C23AEDD02FF7"
+    },
+    {
+      "path": "odf\\stations\\bbase.odf",
+      "previouslyExisted": true,
+      "sha256": "14CA2291E81CB9B1A8E17E729BB42CF118BD063E7CBC1431BE95A9939AEDDA34"
+    },
+    {
+      "path": "odf\\stations\\bjbase.odf",
+      "previouslyExisted": true,
+      "sha256": "D65F87120C3460BB86789F952B1F9E919F38CC37620926092023C9E717EE68BD"
+    },
+    {
+      "path": "odf\\stations\\brbase.odf",
+      "previouslyExisted": true,
+      "sha256": "E95856CE45B9D195D414BB4C55656917BF343E27D517ED0AF7CB0F9F148E2AC7"
+    },
+    {
+      "path": "odf\\stations\\cbase.odf",
+      "previouslyExisted": true,
+      "sha256": "FA1885FB901BEE660FD84010EC6EEFB0578F96BE945445D9129965777918F329"
+    },
+    {
+      "path": "odf\\stations\\cquantum.odf",
+      "previouslyExisted": true,
+      "sha256": "1856FE6F46ACF5BEDB575701FF5829442104719BCE35C2194EF6678A358C9E67"
+    },
+    {
+      "path": "odf\\stations\\cstation.odf",
+      "previouslyExisted": true,
+      "sha256": "19FD95CF91FE8D78BC8ED924D7811871866D512DECF2CE609CADBFB1D9616F36"
+    },
+    {
+      "path": "odf\\stations\\dbase.odf",
+      "previouslyExisted": true,
+      "sha256": "FAC5A525CED7872769A40D8CFF3E99B8DA1D89AE84C9A8347BD4E43734F350CD"
+    },
+    {
+      "path": "odf\\stations\\domabase.odf",
+      "previouslyExisted": true,
+      "sha256": "0E8C5FC041DB17B90F5300AC25197F2FE029B15415D7F159202A300B78EC6FF2"
+    },
+    {
+      "path": "odf\\stations\\dombase.odf",
+      "previouslyExisted": true,
+      "sha256": "703364D28C6C5601200B94898415FDA56ECE85B75C4198AD4A133DFA93D91A77"
+    },
+    {
+      "path": "odf\\stations\\ds9.odf",
+      "previouslyExisted": true,
+      "sha256": "7B43C20F487056F5C1B884E6A4FFC5D50EE6C44A779ABC2D60048472DEE06D43"
+    },
+    {
+      "path": "odf\\stations\\fbase.odf",
+      "previouslyExisted": true,
+      "sha256": "21EA75970D7E449040E36516B58D12CFC4B9CA92853BAB97E930F399D090125F"
+    },
+    {
+      "path": "odf\\stations\\fbase2.odf",
+      "previouslyExisted": true,
+      "sha256": "6097A38F8455455BCC1ED0F87DD6F77F235A4B20A0D4230F80869DC99100F0B4"
+    },
+    {
+      "path": "odf\\stations\\fbaseHQ.odf",
+      "previouslyExisted": true,
+      "sha256": "E6E327AF9B42489F7ADD3DBA0BC8A9CD0CA1004BE1E7031FEA67AF9274FD5E2B"
+    },
+    {
+      "path": "odf\\stations\\fbyard.odf",
+      "previouslyExisted": true,
+      "sha256": "DFAE67BAAFC4EB571FFAE7634A2AA3B24762AEB6731E48E7547072E0CD96EC93"
+    },
+    {
+      "path": "odf\\stations\\fds9.odf",
+      "previouslyExisted": true,
+      "sha256": "28EF98AEE99508131319438B37829C224120977DD942AB73C2ABA873E882051C"
+    },
+    {
+      "path": "odf\\stations\\fjupiter.odf",
+      "previouslyExisted": true,
+      "sha256": "5DF55301D38BB3088B7D115D184714616D69314EDBA26B47C364A649FEF8793D"
+    },
+    {
+      "path": "odf\\stations\\fmidas.odf",
+      "previouslyExisted": true,
+      "sha256": "011A250D79CFA945D7AB285B61B317765686CDAA48B8B94C3D5F8B43BB123300"
+    },
+    {
+      "path": "odf\\stations\\foutpost.odf",
+      "previouslyExisted": true,
+      "sha256": "F697DEBF5900654EA8134721E6626AE6349CEAF02F0D8B7FEE8B0EA4236C06AC"
+    },
+    {
+      "path": "odf\\stations\\fregula.odf",
+      "previouslyExisted": true,
+      "sha256": "E452B592850898B936B96875D2695888BF8D0562CE560107F70F9B57FB9F1DF9"
+    },
+    {
+      "path": "odf\\stations\\kbase.odf",
+      "previouslyExisted": true,
+      "sha256": "19C9E1596F89397CC7E84CA875B4330FEEAFCED562ACC2632CAF620054064A37"
+    },
+    {
+      "path": "odf\\stations\\kbase2.odf",
+      "previouslyExisted": true,
+      "sha256": "EAE9F45BB5F2BE52878ADF5308C1828E858C65DC50F154CF0B5A12D4E07F1A25"
+    },
+    {
+      "path": "odf\\stations\\khwp.odf",
+      "previouslyExisted": true,
+      "sha256": "B7CB893D1C9D28F118BC0B78583E9BCE618F7779B9298FA4104B1C25FAC7A7E7"
+    },
+    {
+      "path": "odf\\stations\\kimpbase.odf",
+      "previouslyExisted": true,
+      "sha256": "1F9716F44D41D0C4FE447B146925438786A27848F6519134760076D81308D902"
+    },
+    {
+      "path": "odf\\stations\\kmarbase.odf",
+      "previouslyExisted": true,
+      "sha256": "A896299F1DB264E2903E6F644BA88F09C5690FE6550CDD8D7FB02F41745FB4BD"
+    },
+    {
+      "path": "odf\\stations\\koutpost.odf",
+      "previouslyExisted": true,
+      "sha256": "432F4D4C0650AF294EA435B41AFA066A0C866C116A9F95F0ED21EDF21120014A"
+    },
+    {
+      "path": "odf\\stations\\kprison.odf",
+      "previouslyExisted": true,
+      "sha256": "1522B48E852BCA6CD483582CDE127CAC773DD6F48CD63F77257D7860D44C3A62"
+    },
+    {
+      "path": "odf\\stations\\rbase.odf",
+      "previouslyExisted": true,
+      "sha256": "85A361840904AC95BB6EF983526E70B08D47FBBDF4D0B3F35AC9772CB337385C"
+    },
+    {
+      "path": "odf\\stations\\rbase2.odf",
+      "previouslyExisted": true,
+      "sha256": "4146B16450FD09BEAE9230811D935526B9A11FA73B2729739C14F91532D8B1C7"
+    },
+    {
+      "path": "odf\\stations\\rhwp.odf",
+      "previouslyExisted": true,
+      "sha256": "F9388C9DA9D929C93F58066B335898EABCFFCC47709DF312A7FBF498720F834C"
+    },
+    {
+      "path": "SOD\\xbjuconst.sod",
+      "previouslyExisted": false,
+      "sha256": "E23FA5A457D3D26CB6F8438196E5275FCE4906133ED5E71D9F06CE784DFEB984"
+    },
+    {
+      "path": "SOD\\xbruconst.sod",
+      "previouslyExisted": false,
+      "sha256": "1823B5B56B6E6835ADC9CEF4CDA323599ED485D19E505B6F9ED3868A88ED6BD1"
+    },
+    {
+      "path": "SOD\\xbuconst.sod",
+      "previouslyExisted": false,
+      "sha256": "075277003E615F0B32422A446D592BC1047845CB0B950F836C8D09F8492E47A5"
+    },
+    {
+      "path": "SOD\\xcuconst.sod",
+      "previouslyExisted": false,
+      "sha256": "ADDA39ECA6D429C78BFA1B7A120CB7E7D7AE16366E721906A96EB4E330D1D8CB"
+    },
+    {
+      "path": "SOD\\xduconst.sod",
+      "previouslyExisted": false,
+      "sha256": "42C8D9EF3D53CC1464C203C26F249AF05A8E1872BA11B1652A8436F8CD1F704F"
+    },
+    {
+      "path": "SOD\\xfuconst.sod",
+      "previouslyExisted": false,
+      "sha256": "D979CAF478E3D7229AD9795794920B363365068955A42CED47C1DC23D4DD87FB"
+    },
+    {
+      "path": "SOD\\xkuconst.sod",
+      "previouslyExisted": false,
+      "sha256": "822025B593FCA11BAB2006DC97E6AF6443C30BFEAE149538F43B132999EF8281"
+    },
+    {
+      "path": "SOD\\xruconst.sod",
+      "previouslyExisted": false,
+      "sha256": "6458B12B025DE0C54C7624536362D644AC23B1D6E9C84C8FE11BE5FF2FE5F6AA"
+    },
+    {
+      "path": "Sprites\\gui_global.spr",
+      "previouslyExisted": true,
+      "sha256": "9A8A828A4B98309222882855394C3B405E488A1F809F68B2EE4BCCC4D8F4F59D"
+    },
+    {
+      "path": "techtree\\a2_borg01.tt",
+      "previouslyExisted": true,
+      "sha256": "EACD3A792E13286A7E4C2F9FAA647DAE64FBE7E61869B3AA1FBD107DBC6B69A2"
+    },
+    {
+      "path": "techtree\\a2_borg02.tt",
+      "previouslyExisted": true,
+      "sha256": "CA38FFE776D5690B8F927BB4411E65E91CDB6CA3E44E12E33C3D077508017765"
+    },
+    {
+      "path": "techtree\\a2_borg03.tt",
+      "previouslyExisted": true,
+      "sha256": "8CD167071D5D8A640C877B7D068E50360E73720A62C8B083F995D21BD65F6EF2"
+    },
+    {
+      "path": "techtree\\a2_borg04.tt",
+      "previouslyExisted": true,
+      "sha256": "A8399F4F7C7536ED627FB0F064694E5E954BA5EDAFF0042395E927C255A6E88B"
+    },
+    {
+      "path": "techtree\\a2_borg05.tt",
+      "previouslyExisted": true,
+      "sha256": "3158877259EE40C4A333AD3BC710091B3F63AC5C50A5729880E8970A4063FAEE"
+    },
+    {
+      "path": "techtree\\a2_borg06.tt",
+      "previouslyExisted": true,
+      "sha256": "A72EAFBC6F195807D5DA7B13E28B95F0813E23D15F3A78AFE940E9B9C7152EFE"
+    },
+    {
+      "path": "techtree\\a2_borg07.tt",
+      "previouslyExisted": true,
+      "sha256": "076AF7ACC5CF80722906B410F2E4BDB40D9290AA09A073B3BE19BDE27649477D"
+    },
+    {
+      "path": "techtree\\a2_borg08.tt",
+      "previouslyExisted": true,
+      "sha256": "1918E901073E420DAD9E3ECCBD9CC357859050830D2856A8669E694187970D8A"
+    },
+    {
+      "path": "techtree\\a2_borg09.tt",
+      "previouslyExisted": true,
+      "sha256": "67FC3FC8757C18C209A51E05285F5526BD4E9196E41E32C899C7583EE751036F"
+    },
+    {
+      "path": "techtree\\a2_borg10.tt",
+      "previouslyExisted": true,
+      "sha256": "F78F8923BC6263E083549D751B63363E022447FD35C936C6C3707F62D7C133B6"
+    },
+    {
+      "path": "techtree\\a2_fed01.tt",
+      "previouslyExisted": true,
+      "sha256": "55E2903404F96C8192B7BC0D689ABEBF3794E38BF673A2C805D4068E5AA8E8C7"
+    },
+    {
+      "path": "techtree\\a2_fed02.tt",
+      "previouslyExisted": true,
+      "sha256": "C0E8AB92B7690649C09846C19C1ED34D5C29DB741C86EF159F3AD670BAA7E3D5"
+    },
+    {
+      "path": "techtree\\a2_fed03.tt",
+      "previouslyExisted": true,
+      "sha256": "5EFC85DED4241D6C9B6F48B84FC9FD82A374149C5EEBDB37D4961E18730D5FAF"
+    },
+    {
+      "path": "techtree\\a2_fed04.tt",
+      "previouslyExisted": true,
+      "sha256": "BA8DA93EE46BBFF2280EDD60D38C72D3517EF563F8B5A9BE83CAF91E8BE5565C"
+    },
+    {
+      "path": "techtree\\a2_fed05.tt",
+      "previouslyExisted": true,
+      "sha256": "E122FA33FA8B9EB37E148A76C148525BCEDEC59CD08D15C5BA8B388F9F46752C"
+    },
+    {
+      "path": "techtree\\a2_fed06.tt",
+      "previouslyExisted": true,
+      "sha256": "8CAB249493246893B536F4180D3A3F85110D1E9995EB0EA7003A26E059057F99"
+    },
+    {
+      "path": "techtree\\a2_fed07.tt",
+      "previouslyExisted": true,
+      "sha256": "2B9DD59C2CC58774AD8B3B108F2ACAFF760319C3F98E9A9F2F79D5336BCBBF2E"
+    },
+    {
+      "path": "techtree\\a2_fed08.tt",
+      "previouslyExisted": true,
+      "sha256": "54B4385E919880BA3E36304698B0F0B8D602517101343BFD9344BDD7F0E83391"
+    },
+    {
+      "path": "techtree\\a2_fed09.tt",
+      "previouslyExisted": true,
+      "sha256": "AFB24B1B9523A58259CD1F3AA7BA36475208D9495EA1F0E8D7BE7EE353BFC3CC"
+    },
+    {
+      "path": "techtree\\a2_fed10.tt",
+      "previouslyExisted": true,
+      "sha256": "81D4AEA39206CEDBC751233335D8AB7BAA1F4AA7359CB2BAD2EAC4DEE1B08A98"
+    },
+    {
+      "path": "techtree\\a2_kling01.tt",
+      "previouslyExisted": true,
+      "sha256": "DF091CA5B4C693CD055A416712502CE6D31534155BA8D900BA5C1990D41C666E"
+    },
+    {
+      "path": "techtree\\a2_kling02.tt",
+      "previouslyExisted": true,
+      "sha256": "49A597CE91C4E387D32F4F399C6EA91E7418B5FAEEE92F36315B74A42FC707FA"
+    },
+    {
+      "path": "techtree\\a2_kling03.tt",
+      "previouslyExisted": true,
+      "sha256": "9919C10255561ED9F57CE4C9E78CF7FFA8CC3D2C759F8572D1E96787679C89B1"
+    },
+    {
+      "path": "techtree\\a2_kling04.tt",
+      "previouslyExisted": true,
+      "sha256": "8A17E5C167D58708B67461FD3D778E7273AEA4E9C7C68E2B4BDDEF7FC47F1576"
+    },
+    {
+      "path": "techtree\\a2_kling05.tt",
+      "previouslyExisted": true,
+      "sha256": "5A8923C13FC1141730C9418D687787E53FF2203EF2504B90C283EAB15D5B3C6B"
+    },
+    {
+      "path": "techtree\\a2_kling06.tt",
+      "previouslyExisted": true,
+      "sha256": "EE5C0182D9FD23618333D46CAD0FF6635BE5DAB1CD1DA7A7486985DA7243324E"
+    },
+    {
+      "path": "techtree\\a2_kling07.tt",
+      "previouslyExisted": true,
+      "sha256": "71665CDBEFF1898F548809AC7FE0BC73CF15EB6F431B2AB6CD9761CD7CA821FC"
+    },
+    {
+      "path": "techtree\\a2_kling08.tt",
+      "previouslyExisted": true,
+      "sha256": "B068F8A8B9F1356051B7FD143AF5D2BC1B66C03573BC2C9373B791B7F3A144D9"
+    },
+    {
+      "path": "techtree\\a2_kling09.tt",
+      "previouslyExisted": true,
+      "sha256": "1A8470F1DD60479ABA6D98CA28A1C997F8413966D0C7A3753F122338164DBF95"
+    },
+    {
+      "path": "techtree\\a2_kling10.tt",
+      "previouslyExisted": true,
+      "sha256": "A617DE27814BEDA7931BCA2652CBF45DDDF7DB10627EDC95CD8CC8C3C1A496BC"
+    },
+    {
+      "path": "techtree\\demotech.tt",
+      "previouslyExisted": true,
+      "sha256": "FE265B2C8D41C3D2A2D3CAA28F9604B88DF414FEBAA4AEC02AD7A4571043A5E4"
+    },
+    {
+      "path": "techtree\\earlytech.tt",
+      "previouslyExisted": true,
+      "sha256": "B7AC7251EE6EE65302E50D571ECE2F19A7419D74E4DD154BDC88A0AB32D2A680"
+    },
+    {
+      "path": "techtree\\freetech.tt",
+      "previouslyExisted": true,
+      "sha256": "18F518C8ADEE9E4DCECD23089F3FFE9E46D7502AF635DEA1BEC076F64445D139"
+    },
+    {
+      "path": "techtree\\fulltech.tt",
+      "previouslyExisted": true,
+      "sha256": "2D69927A0630198B215653D50E34DA47504FDDEED3CF08D700EF629DBEA2E8DF"
+    },
+    {
+      "path": "techtree\\nosci.tt",
+      "previouslyExisted": true,
+      "sha256": "789DF64C5ABFC2DFCE0EFC9CAEBC0AE59D087F2915DFB91A9DDC4C102A855DD5"
+    },
+    {
+      "path": "techtree\\nospweap.tt",
+      "previouslyExisted": true,
+      "sha256": "9704DBC55C70BEFA947B5DFA6923CF035606C5C41DDEDFA2FC4200E2F8D71CD6"
+    },
+    {
+      "path": "techtree\\nosuper.tt",
+      "previouslyExisted": true,
+      "sha256": "13DA55E8E45D1291746D3166DF30F5A7AA9D514F3131F97C88C540F78000FC8A"
+    },
+    {
+      "path": "techtree\\tech1.tt",
+      "previouslyExisted": true,
+      "sha256": "B90CF008971A2B200290F4D2B22983A59FE8DA16EA251ACD7DB74474637B594C"
+    },
+    {
+      "path": "Textures\\RGB\\xuconstbuttons.tga",
+      "previouslyExisted": false,
+      "sha256": "16B190BE87EBC768A6B502F263310EF651FC1490F95BF47ED6EB9F256E41969F"
+    }
+  ],
+  "hashesVerified": true,
+  "runtimeVerified": false
+}

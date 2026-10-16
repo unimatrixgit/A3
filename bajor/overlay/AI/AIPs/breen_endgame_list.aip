@@ -1,0 +1,33 @@
+// Xaramada Breen AI: all build targets exist and are Breen faction units.
+#include "aipdef.h"
+
+int checkTechnologyAvailable = 1;
+
+Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
+{
+    "brbase", 1, 0, -1, 1,
+    "xbruconst", 1, 0, 1, 0, // Faction Universal constructor for advanced facilities
+    "brconst", 1, 0, -1, 0,
+    "brconst", 1, 0, -1, 0,
+    "brscout", 1, 0, 2, 0,
+    "brmining", 1, 1, -1, 0,
+    "brfreight", 3, 0, -1, 0,
+    "bryard", 1, 0, -1, 0,
+    "brdestroy", 2, 0, 6, -2,
+    "brresear", 1, 0, -1, 2,
+    "brorbital", 1, 1, -1, 0,
+    "brcolony", 1, 0, 3, 0,
+    "brmining", 1, 2, -1, 0,
+    "brfreight", 2, 0, -1, 0,
+    "brcruise1", 2, 0, 6, -3,
+    "brresear2", 1, 0, -1, 3,
+    "bryard2", 1, 0, -1, 4,
+    "brcruise2", 2, 0, 6, 0,
+    "brfrigate", 2, 0, 6, 0,
+    "brbattle", 3, 0, -1, 0,
+    "brbattle2", 3, 0, -1, 0,
+    "bryard3", 1, 0, 1, 5,
+    "xhbrhero", 1, 0, 1, 0,
+    "brbattle", 8, 0, -1, 0,
+    "brbattle2", 16, 0, -1, 0,
+};

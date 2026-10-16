@@ -66,12 +66,12 @@ weapon4 = "rc08phot"
 
 //**********************************************************************
 //Construction Parameters
-buildItem0 = "rconst"
-buildItem1 = "rfreight"
-buildItem2 = "rcargo"
-buildItem3 = "rsrepair"
-buildItem4 = "rconst2"
-buildItem5 = "rdestroy"
+
+
+
+
+
+
 
 //Hardpoint location for building.
 buildHardpoint = "build"
@@ -164,7 +164,7 @@ SHOW_SW_AUTONOMY = 1
 
 // make it bigger
 ScaleSOD = 1.9
-buildItem6 = "uconst"
+
 
 
 
@@ -210,3 +210,10 @@ sensorstargethardpoints = "hp30" "hp34" "hp35" "hp36" "hp37" "hp39"
 hulltargethardpoints = "hp30" "hp34" "hp35" "hp36" "hp37" "hp39"
 
 criticaltargethardpoints = "hp30" "hp34" "hp35" "hp36" "hp37" "hp39"
+buildItem0 = "rconst"
+buildItem1 = "rfreight"
+buildItem2 = "rcargo"
+buildItem3 = "rsrepair"
+buildItem4 = "rconst2"
+buildItem5 = "rdestroy"
+buildItem6 = "xruconst"

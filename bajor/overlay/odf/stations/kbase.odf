@@ -66,12 +66,12 @@ weapon8 = "kc05phot"
 
 //**********************************************************************
 //Construction Parameters
-buildItem0 = "kconst"
-buildItem1 = "kfreight"
-buildItem2 = "kcargo"
-buildItem3 = "ksrepair"
-buildItem4 = "kconst2"
-buildItem5 = "kdestroy2"
+
+
+
+
+
+
 
 //Hardpoint location for building.
 buildHardpoint = "build"
@@ -166,7 +166,7 @@ SHOW_SW_AUTONOMY = 1
 
 // make it bigger
 ScaleSOD = 1.75
-buildItem6 = "uconst"
+
 
 
 
@@ -212,4 +212,11 @@ sensorstargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20" "hp21"
 
 hulltargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20" "hp21" 
 
-criticaltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" 
+criticaltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+buildItem0 = "kconst"
+buildItem1 = "kfreight"
+buildItem2 = "kcargo"
+buildItem3 = "ksrepair"
+buildItem4 = "kconst2"
+buildItem5 = "kdestroy2"
+buildItem6 = "xkuconst"

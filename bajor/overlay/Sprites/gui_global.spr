@@ -10209,7 +10209,7 @@ b_cconst gbcconst 0	0	64	64
 
 @reference=64
 @tmaterial=default
-b_uconst gbbconst 0	0	64	64	
+
 
 @reference=256
 @tmaterial=interface
@@ -11594,23 +11594,23 @@ rhwpw5 gbrhwp 0	0	64	64
 
 @reference=256
 @tmaterial=interface
-uconstw1 borgwireframe03 0	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
-uconstw2 borgwireframe03 48	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
-uconstw3 borgwireframe03 96	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
-uconstw4 borgwireframe03 144	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
-uconstw5 borgwireframe03 192	96	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -16180,3 +16180,219 @@ bjturretw4 xbajatlas 64 192 64 64
 @reference=256
 @tmaterial=default
 bjturretw5 xbajatlas 64 192 64 64
+
+@reference=512
+@tmaterial=default
+b_xbuconst xuconstbuttons 0 0 64 64
+
+@reference=512
+@tmaterial=default
+xbuconstw1 xuconstbuttons 0 0 64 64
+
+@reference=512
+@tmaterial=default
+xbuconstw2 xuconstbuttons 0 0 64 64
+
+@reference=512
+@tmaterial=default
+xbuconstw3 xuconstbuttons 0 0 64 64
+
+@reference=512
+@tmaterial=default
+xbuconstw4 xuconstbuttons 0 0 64 64
+
+@reference=512
+@tmaterial=default
+xbuconstw5 xuconstbuttons 0 0 64 64
+
+@reference=512
+@tmaterial=default
+b_uconst xuconstbuttons 0 0 64 64
+
+@reference=512
+@tmaterial=default
+uconstw1 xuconstbuttons 0 0 64 64
+
+@reference=512
+@tmaterial=default
+uconstw2 xuconstbuttons 0 0 64 64
+
+@reference=512
+@tmaterial=default
+uconstw3 xuconstbuttons 0 0 64 64
+
+@reference=512
+@tmaterial=default
+uconstw4 xuconstbuttons 0 0 64 64
+
+@reference=512
+@tmaterial=default
+uconstw5 xuconstbuttons 0 0 64 64
+
+@reference=512
+@tmaterial=default
+b_xfuconst xuconstbuttons 64 0 64 64
+
+@reference=512
+@tmaterial=default
+xfuconstw1 xuconstbuttons 64 0 64 64
+
+@reference=512
+@tmaterial=default
+xfuconstw2 xuconstbuttons 64 0 64 64
+
+@reference=512
+@tmaterial=default
+xfuconstw3 xuconstbuttons 64 0 64 64
+
+@reference=512
+@tmaterial=default
+xfuconstw4 xuconstbuttons 64 0 64 64
+
+@reference=512
+@tmaterial=default
+xfuconstw5 xuconstbuttons 64 0 64 64
+
+@reference=512
+@tmaterial=default
+b_xkuconst xuconstbuttons 128 0 64 64
+
+@reference=512
+@tmaterial=default
+xkuconstw1 xuconstbuttons 128 0 64 64
+
+@reference=512
+@tmaterial=default
+xkuconstw2 xuconstbuttons 128 0 64 64
+
+@reference=512
+@tmaterial=default
+xkuconstw3 xuconstbuttons 128 0 64 64
+
+@reference=512
+@tmaterial=default
+xkuconstw4 xuconstbuttons 128 0 64 64
+
+@reference=512
+@tmaterial=default
+xkuconstw5 xuconstbuttons 128 0 64 64
+
+@reference=512
+@tmaterial=default
+b_xruconst xuconstbuttons 192 0 64 64
+
+@reference=512
+@tmaterial=default
+xruconstw1 xuconstbuttons 192 0 64 64
+
+@reference=512
+@tmaterial=default
+xruconstw2 xuconstbuttons 192 0 64 64
+
+@reference=512
+@tmaterial=default
+xruconstw3 xuconstbuttons 192 0 64 64
+
+@reference=512
+@tmaterial=default
+xruconstw4 xuconstbuttons 192 0 64 64
+
+@reference=512
+@tmaterial=default
+xruconstw5 xuconstbuttons 192 0 64 64
+
+@reference=512
+@tmaterial=default
+b_xcuconst xuconstbuttons 256 0 64 64
+
+@reference=512
+@tmaterial=default
+xcuconstw1 xuconstbuttons 256 0 64 64
+
+@reference=512
+@tmaterial=default
+xcuconstw2 xuconstbuttons 256 0 64 64
+
+@reference=512
+@tmaterial=default
+xcuconstw3 xuconstbuttons 256 0 64 64
+
+@reference=512
+@tmaterial=default
+xcuconstw4 xuconstbuttons 256 0 64 64
+
+@reference=512
+@tmaterial=default
+xcuconstw5 xuconstbuttons 256 0 64 64
+
+@reference=512
+@tmaterial=default
+b_xduconst xuconstbuttons 320 0 64 64
+
+@reference=512
+@tmaterial=default
+xduconstw1 xuconstbuttons 320 0 64 64
+
+@reference=512
+@tmaterial=default
+xduconstw2 xuconstbuttons 320 0 64 64
+
+@reference=512
+@tmaterial=default
+xduconstw3 xuconstbuttons 320 0 64 64
+
+@reference=512
+@tmaterial=default
+xduconstw4 xuconstbuttons 320 0 64 64
+
+@reference=512
+@tmaterial=default
+xduconstw5 xuconstbuttons 320 0 64 64
+
+@reference=512
+@tmaterial=default
+b_xbruconst xuconstbuttons 384 0 64 64
+
+@reference=512
+@tmaterial=default
+xbruconstw1 xuconstbuttons 384 0 64 64
+
+@reference=512
+@tmaterial=default
+xbruconstw2 xuconstbuttons 384 0 64 64
+
+@reference=512
+@tmaterial=default
+xbruconstw3 xuconstbuttons 384 0 64 64
+
+@reference=512
+@tmaterial=default
+xbruconstw4 xuconstbuttons 384 0 64 64
+
+@reference=512
+@tmaterial=default
+xbruconstw5 xuconstbuttons 384 0 64 64
+
+@reference=512
+@tmaterial=default
+b_xbjuconst xuconstbuttons 448 0 64 64
+
+@reference=512
+@tmaterial=default
+xbjuconstw1 xuconstbuttons 448 0 64 64
+
+@reference=512
+@tmaterial=default
+xbjuconstw2 xuconstbuttons 448 0 64 64
+
+@reference=512
+@tmaterial=default
+xbjuconstw3 xuconstbuttons 448 0 64 64
+
+@reference=512
+@tmaterial=default
+xbjuconstw4 xuconstbuttons 448 0 64 64
+
+@reference=512
+@tmaterial=default
+xbjuconstw5 xuconstbuttons 448 0 64 64

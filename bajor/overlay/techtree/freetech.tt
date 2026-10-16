@@ -1,0 +1,86 @@
+// Xaramada merged technology tree. Source credits: Borg Incursion 2, Ghost, original installation.
+#include fulltech.tt
+fedpod11.odf  1 fupgrade.odf                        // research pod (weapon upgrade level 2)
+fedpod12.odf  1 fupgrade.odf                        // research pod (shield upgrade level 2)
+fedpod13.odf  1 fupgrade.odf                        // research pod (sensor upgrade level 2)
+fedpod14.odf  1 fupgrade.odf                        // research pod (engine upgrade level 2)
+fedpod15.odf  1 fupgrade.odf                        // research pod (life support upgrade level 2)
+fedpod21.odf  1 fedpod11.odf                        // research pod (weapon upgrade level 3)
+fedpod22.odf  1 fedpod12.odf                        // research pod (shield upgrade level 3)
+fedpod23.odf  1 fedpod13.odf                        // research pod (sensor upgrade level 3)
+fedpod24.odf  1 fedpod14.odf                        // research pod (engine upgrade level 3)
+fedpod25.odf  1 fedpod15.odf                        // research pod (life support upgrade level 3)
+klipod11.odf 1 kupgrade.odf                         // research pod (weapon upgrade level 2)
+klipod12.odf 1 kupgrade.odf                         // research pod (shield upgrade level 2)
+klipod13.odf 1 kupgrade.odf                         // research pod (sensor upgrade level 2)
+klipod14.odf 1 kupgrade.odf                         // research pod (engine upgrade level 2)
+klipod15.odf 1 kupgrade.odf                         // research pod (life support upgrade level 2)
+klipod21.odf 1 klipod11.odf                         // research pod (weapon upgrade level 3)
+klipod22.odf 1 klipod12.odf                         // research pod (shield upgrade level 3)
+klipod23.odf 1 klipod13.odf                         // research pod (sensor upgrade level 3)
+klipod24.odf 1 klipod14.odf                         // research pod (engine upgrade level 3)
+klipod25.odf 1 klipod15.odf                         // research pod (life support upgrade level 3)
+borpod11.odf 1 bupgrade.odf                         // research pod (weapon upgrade level 2)
+borpod12.odf 1 bupgrade.odf                         // research pod (shield upgrade level 2)
+borpod13.odf 1 bupgrade.odf                         // research pod (sensor upgrade level 2)
+borpod14.odf 1 bupgrade.odf                         // research pod (engine upgrade level 2)
+borpod15.odf 1 bupgrade.odf                         // research pod (life support upgrade level 2)
+borpod21.odf 1 borpod11.odf                         // research pod (weapon upgrade level 3)
+borpod22.odf 1 borpod12.odf                         // research pod (shield upgrade level 3)
+borpod23.odf 1 borpod13.odf                         // research pod (sensor upgrade level 3)
+borpod24.odf 1 borpod14.odf                         // research pod (engine upgrade level 3)
+borpod25.odf 1 borpod15.odf                         // research pod (life support upgrade level 3)
+rompod11.odf 1 rupgrade.odf                         // research pod (weapon upgrade level 2)
+rompod12.odf 1 rupgrade.odf                         // research pod (shield upgrade level 2)
+rompod13.odf 1 rupgrade.odf                         // research pod (sensor upgrade level 2)
+rompod14.odf 1 rupgrade.odf                         // research pod (engine upgrade level 2)
+rompod15.odf 1 rupgrade.odf                         // research pod (life support upgrade level 2)
+rompod21.odf 1 rompod11.odf                         // research pod (weapon upgrade level 3)
+rompod22.odf 1 rompod12.odf                         // research pod (shield upgrade level 3)
+rompod23.odf 1 rompod13.odf                         // research pod (sensor upgrade level 3)
+rompod24.odf 1 rompod14.odf                         // research pod (engine upgrade level 3)
+rompod25.odf 1 rompod15.odf                         // research pod (life support upgrade level 3)
+carpod11.odf 1 cupgrade.odf                         // ship upgrade pod (weapon level 2)
+carpod12.odf 1 cupgrade.odf                         // ship upgrade pod (shield level 2)
+carpod13.odf 1 cupgrade.odf                         // ship upgrade pod (sensor level 2)
+carpod14.odf 1 cupgrade.odf                         // ship upgrade pod (engine level 2)
+carpod15.odf 1 cupgrade.odf                         // ship upgrade pod (life support level 2)
+carpod21.odf 1 carpod11.odf                         // ship upgrade pod (weapon level 3)
+carpod22.odf 1 carpod12.odf                         // ship upgrade pod (shield level 3)
+carpod23.odf 1 carpod13.odf                         // ship upgrade pod (sensor level 3)
+carpod24.odf 1 carpod14.odf                         // ship upgrade pod (engine level 3)
+carpod25.odf 1 carpod15.odf                         // ship upgrade pod (life support level 3)
+8472_PodShipResearch1.odf    1 8472_ShipUpgradeResearch.odf                             // species 8472 torpedo upgrade
+8472_PodShipResearch2.odf    1 8472_ShipUpgradeResearch.odf                             // species 8472 regeneration upgrade
+8472_PodShipResearch3.odf    1 8472_ShipUpgradeResearch.odf                             // species 8472 sensor upgrade
+8472_PodShipResearch4.odf    1 8472_ShipUpgradeResearch.odf                             // species 8472 engine upgrade
+8472_PodShipResearch21.odf   2 8472_ShipUpgradeResearch.odf 8472_PodShipResearch1.odf   // species 8472 torpedo upgrade lvl2
+8472_PodShipResearch22.odf   2 8472_ShipUpgradeResearch.odf 8472_PodShipResearch2.odf   // species 8472 regeneration upgrade lvl2
+8472_PodShipResearch23.odf   2 8472_ShipUpgradeResearch.odf 8472_PodShipResearch3.odf   // species 8472 sensor upgrade lvl2
+8472_PodShipResearch24.odf   2 8472_ShipUpgradeResearch.odf 8472_PodShipResearch4.odf   // species 8472 engine upgrade lvl2
+dompod11.odf  1 dupgrade.odf                        // research pod (weapon upgrade level 2)
+dompod12.odf  1 dupgrade.odf                        // research pod (shield upgrade level 2)
+dompod13.odf  1 dupgrade.odf                        // research pod (sensor upgrade level 2)
+dompod14.odf  1 dupgrade.odf                        // research pod (engine upgrade level 2)
+dompod15.odf  1 dupgrade.odf                        // research pod (life support upgrade level 2)
+dompod21.odf  1 dompod11.odf                        // research pod (weapon upgrade level 3)
+dompod22.odf  1 dompod12.odf                        // research pod (shield upgrade level 3)
+dompod23.odf  1 dompod13.odf                        // research pod (sensor upgrade level 3)
+dompod24.odf  1 dompod14.odf                        // research pod (engine upgrade level 3)
+dompod25.odf  1 dompod15.odf                        // research pod (life support upgrade level 3)
+
+xbuconst.odf 0
+
+xfuconst.odf 0
+
+xkuconst.odf 0
+
+xruconst.odf 0
+
+xcuconst.odf 0
+
+xduconst.odf 0
+
+xbruconst.odf 0
+
+xbjuconst.odf 0

@@ -138,17 +138,17 @@ weaponHardpoints15 = "hp05" "hp10"
 
 //**********************************************************************
 //Construction Parameters
-buildItem0 = "fconst"
-buildItem1 = "fconst2"
-buildItem2 = "ffreight"
-buildItem3 = "fcargo"
-buildItem4 = "fsrepair"
-buildItem5 = "fcolony"
-buildItem6 = "fscout"
-buildItem7 = "fdanube"
-buildItem8 = "ffighter"
-buildItem9 = "fdeltaflyer"
-buildItem10 = "fantares"
+
+
+
+
+
+
+
+
+
+
+
 
 
 //Hardpoint location for building.
@@ -205,7 +205,7 @@ SHOW_SW_AUTONOMY = 1
 
 // let's make this a bit bigger
 ScaleSOD = 1.0
-buildItem11 = "uconst"
+
 
 
 
@@ -250,3 +250,15 @@ sensorstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
 hulltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16" "hp17" "hp18" "hp19" "hp20"
 
 criticaltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16" "hp17" "hp18" "hp19" "hp20"
+buildItem0 = "fconst"
+buildItem1 = "fconst2"
+buildItem2 = "ffreight"
+buildItem3 = "fcargo"
+buildItem4 = "fsrepair"
+buildItem5 = "fcolony"
+buildItem6 = "fscout"
+buildItem7 = "fdanube"
+buildItem8 = "ffighter"
+buildItem9 = "fdeltaflyer"
+buildItem10 = "fantares"
+buildItem11 = "xfuconst"
