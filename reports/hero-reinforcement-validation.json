@@ -1,0 +1,324 @@
+{
+  "target": "D:/armadaIII",
+  "implementation": "Shared stock mobile Starbase producer with wormhole arrival and faction-specific one-item popup build menus. Not a QuantumEffect special weapon; QuantumEffect hardcodes Team 0.",
+  "originalSpecialWeaponsPreserved": true,
+  "reinforcementBuildTime": 15,
+  "usesStandardResourceCosts": true,
+  "arrivals": [
+    {
+      "race": "federation",
+      "hero": "xhfhero",
+      "source": "fbattle",
+      "id": "xrein_federation",
+      "model": "fbattle",
+      "resourceCosts": {
+        "dilithiumcost": "450",
+        "metalcost": "100",
+        "latinumcost": "0",
+        "biomattercost": "0",
+        "crewcost": "700",
+        "officercost": "12"
+      }
+    },
+    {
+      "race": "klingon",
+      "hero": "xhkhero",
+      "source": "kbattle2",
+      "id": "xrein_klingon",
+      "model": "kbattle2",
+      "resourceCosts": {
+        "dilithiumcost": "350",
+        "metalcost": "65",
+        "latinumcost": "0",
+        "biomattercost": "0",
+        "crewcost": "300",
+        "officercost": "10"
+      }
+    },
+    {
+      "race": "romulan",
+      "hero": "xhrhero",
+      "source": "rbattle2",
+      "id": "xrein_romulan",
+      "model": "rbattle2",
+      "resourceCosts": {
+        "dilithiumcost": "290",
+        "metalcost": "50",
+        "latinumcost": "0",
+        "biomattercost": "0",
+        "crewcost": "400",
+        "officercost": "10"
+      }
+    },
+    {
+      "race": "cardassian",
+      "hero": "xhchero",
+      "source": "cbattle2",
+      "id": "xrein_cardassian",
+      "model": "cbattle2",
+      "resourceCosts": {
+        "dilithiumcost": "300",
+        "metalcost": "50",
+        "latinumcost": "0",
+        "biomattercost": "0",
+        "crewcost": "500",
+        "officercost": "12"
+      }
+    },
+    {
+      "race": "dominion",
+      "hero": "xhdhero",
+      "source": "dbattle",
+      "id": "xrein_dominion",
+      "model": "dbattle",
+      "resourceCosts": {
+        "dilithiumcost": "400",
+        "metalcost": "100",
+        "latinumcost": "0",
+        "biomattercost": "0",
+        "crewcost": "400",
+        "officercost": "10"
+      }
+    },
+    {
+      "race": "breen",
+      "hero": "xhbrhero",
+      "source": "brbattle",
+      "id": "xrein_breen",
+      "model": "brbattle",
+      "resourceCosts": {
+        "dilithiumcost": "400",
+        "metalcost": "100",
+        "latinumcost": "0",
+        "biomattercost": "0",
+        "crewcost": "700",
+        "officercost": "10"
+      }
+    },
+    {
+      "race": "borg",
+      "hero": "blocutus",
+      "source": "bbattle",
+      "id": "xrein_borg",
+      "model": "bbattle1",
+      "resourceCosts": {
+        "dilithiumcost": "1200",
+        "metalcost": "1200",
+        "latinumcost": "0",
+        "biomattercost": "0",
+        "crewcost": "1000",
+        "officercost": "7"
+      }
+    },
+    {
+      "race": "species8472",
+      "hero": "xhshero",
+      "source": "8472_battle",
+      "id": "xrein_species8472",
+      "model": "8472_battle",
+      "resourceCosts": {
+        "dilithiumcost": "0",
+        "metalcost": "0",
+        "latinumcost": "0",
+        "biomattercost": "650",
+        "crewcost": "0",
+        "officercost": "1"
+      }
+    },
+    {
+      "race": "bajoran",
+      "hero": "bjnerys",
+      "source": "xhfhero",
+      "id": "xrein_bajoran",
+      "model": "fente",
+      "resourceCosts": {
+        "dilithiumcost": "4195",
+        "metalcost": "630",
+        "latinumcost": "0",
+        "biomattercost": "0",
+        "crewcost": "678",
+        "officercost": "10"
+      }
+    }
+  ],
+  "voiceGroups": [
+    {
+      "action": "Select",
+      "clips": [
+        "gvopic16.wav",
+        "gvopic20.wav"
+      ],
+      "acknowledgementFallback": false
+    },
+    {
+      "action": "Acknowledge",
+      "clips": [
+        "gvopic01.wav"
+      ],
+      "acknowledgementFallback": false
+    },
+    {
+      "action": "Attack",
+      "clips": [
+        "gvopic06.wav",
+        "gvopic07.wav",
+        "gvopic01.wav",
+        "gvopic08.wav",
+        "gvopic09.wav",
+        "gvopic10.wav",
+        "gvopic40.wav"
+      ],
+      "acknowledgementFallback": false
+    },
+    {
+      "action": "Stop",
+      "clips": [
+        "gvopic21.wav"
+      ],
+      "acknowledgementFallback": false
+    },
+    {
+      "action": "Move",
+      "clips": [
+        "gvopic12.wav",
+        "gvopic11.wav",
+        "gvopic15.wav",
+        "gvopic50.wav"
+      ],
+      "acknowledgementFallback": false
+    },
+    {
+      "action": "Repair",
+      "clips": [
+        "gvopic26.wav"
+      ],
+      "acknowledgementFallback": false
+    },
+    {
+      "action": "RedAlert",
+      "clips": [
+        "gvopic98.wav"
+      ],
+      "acknowledgementFallback": false
+    },
+    {
+      "action": "YellowAlert",
+      "clips": [
+        "gvopic95.wav"
+      ],
+      "acknowledgementFallback": false
+    },
+    {
+      "action": "GreenAlert",
+      "clips": [
+        "gvopic99.wav"
+      ],
+      "acknowledgementFallback": false
+    },
+    {
+      "action": "Transport",
+      "clips": [
+        "gvopic97.wav",
+        "gvopic96.wav"
+      ],
+      "acknowledgementFallback": false
+    },
+    {
+      "action": "SelfDestruct",
+      "clips": [
+        "gvopic01.wav"
+      ],
+      "acknowledgementFallback": true
+    },
+    {
+      "action": "Decommission",
+      "clips": [
+        "gvopic01.wav"
+      ],
+      "acknowledgementFallback": true
+    }
+  ],
+  "canonStationNames": [
+    "Deep Space 9",
+    "Terok Nor",
+    "Empok Nor"
+  ],
+  "extrapolatedStationNames": [
+    "Keldar Nor",
+    "Velor Nor",
+    "Damar Nor",
+    "Lakarian Nor",
+    "DS9 command suffixes"
+  ],
+  "errors": [],
+  "applied": false,
+  "runtimeVerified": false,
+  "sources": [
+    "http://guide.fleetops.net/guide/modding/fo-odf-commands/weapon/quantumeffect",
+    "https://gaming.trekcore.com/armada2/downloads/armada2_manual.pdf"
+  ],
+  "files": [
+    "events.dat",
+    "odf\\other\\xhero_reinforcement_core.odf",
+    "odf\\ships\\bjnerys.odf",
+    "odf\\ships\\blocutus.odf",
+    "odf\\ships\\dweyoun.odf",
+    "odf\\ships\\xhbrhero.odf",
+    "odf\\ships\\xhchero.odf",
+    "odf\\ships\\xhdhero.odf",
+    "odf\\ships\\xhfhero.odf",
+    "odf\\ships\\xhkhero.odf",
+    "odf\\ships\\xhrhero.odf",
+    "odf\\ships\\xhshero.odf",
+    "odf\\ships\\xrein_bajoran.odf",
+    "odf\\ships\\xrein_borg.odf",
+    "odf\\ships\\xrein_breen.odf",
+    "odf\\ships\\xrein_cardassian.odf",
+    "odf\\ships\\xrein_dominion.odf",
+    "odf\\ships\\xrein_federation.odf",
+    "odf\\ships\\xrein_klingon.odf",
+    "odf\\ships\\xrein_romulan.odf",
+    "odf\\ships\\xrein_species8472.odf",
+    "odf\\stations\\bjbase.odf",
+    "odf\\stations\\cbase.odf",
+    "Sprites\\gui_global.spr",
+    "techtree\\a2_borg01.tt",
+    "techtree\\a2_borg02.tt",
+    "techtree\\a2_borg03.tt",
+    "techtree\\a2_borg04.tt",
+    "techtree\\a2_borg05.tt",
+    "techtree\\a2_borg06.tt",
+    "techtree\\a2_borg07.tt",
+    "techtree\\a2_borg08.tt",
+    "techtree\\a2_borg09.tt",
+    "techtree\\a2_borg10.tt",
+    "techtree\\a2_fed01.tt",
+    "techtree\\a2_fed02.tt",
+    "techtree\\a2_fed03.tt",
+    "techtree\\a2_fed04.tt",
+    "techtree\\a2_fed05.tt",
+    "techtree\\a2_fed06.tt",
+    "techtree\\a2_fed07.tt",
+    "techtree\\a2_fed08.tt",
+    "techtree\\a2_fed09.tt",
+    "techtree\\a2_fed10.tt",
+    "techtree\\a2_kling01.tt",
+    "techtree\\a2_kling02.tt",
+    "techtree\\a2_kling03.tt",
+    "techtree\\a2_kling04.tt",
+    "techtree\\a2_kling05.tt",
+    "techtree\\a2_kling06.tt",
+    "techtree\\a2_kling07.tt",
+    "techtree\\a2_kling08.tt",
+    "techtree\\a2_kling09.tt",
+    "techtree\\a2_kling10.tt",
+    "techtree\\demotech.tt",
+    "techtree\\earlytech.tt",
+    "techtree\\freetech.tt",
+    "techtree\\fulltech.tt",
+    "techtree\\nosci.tt",
+    "techtree\\nospweap.tt",
+    "techtree\\nosuper.tt",
+    "techtree\\tech1.tt"
+  ]
+}

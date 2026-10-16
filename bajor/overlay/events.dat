@@ -7173,3 +7173,86 @@ Table
  Sound "gvobor31.wav"
 SoundPriority 2
 }
+
+XReinPicard_Select{
+Table
+Sound "gvopic16.wav"
+Sound "gvopic20.wav"
+SoundPriority 2
+}
+
+XReinPicard_Acknowledge{
+Table
+Sound "gvopic01.wav"
+SoundPriority 2
+}
+
+XReinPicard_Attack{
+Table
+Sound "gvopic06.wav"
+Sound "gvopic07.wav"
+Sound "gvopic01.wav"
+Sound "gvopic08.wav"
+Sound "gvopic09.wav"
+Sound "gvopic10.wav"
+Sound "gvopic40.wav"
+SoundPriority 2
+}
+
+XReinPicard_Stop{
+Table
+Sound "gvopic21.wav"
+SoundPriority 2
+}
+
+XReinPicard_Move{
+Table
+Sound "gvopic12.wav"
+Sound "gvopic11.wav"
+Sound "gvopic15.wav"
+Sound "gvopic50.wav"
+SoundPriority 2
+}
+
+XReinPicard_Repair{
+Table
+Sound "gvopic26.wav"
+SoundPriority 2
+}
+
+XReinPicard_RedAlert{
+Table
+Sound "gvopic98.wav"
+SoundPriority 2
+}
+
+XReinPicard_YellowAlert{
+Table
+Sound "gvopic95.wav"
+SoundPriority 2
+}
+
+XReinPicard_GreenAlert{
+Table
+Sound "gvopic99.wav"
+SoundPriority 2
+}
+
+XReinPicard_Transport{
+Table
+Sound "gvopic97.wav"
+Sound "gvopic96.wav"
+SoundPriority 2
+}
+
+XReinPicard_SelfDestruct{
+Table
+Sound "gvopic01.wav"
+SoundPriority 2
+}
+
+XReinPicard_Decommission{
+Table
+Sound "gvopic01.wav"
+SoundPriority 2
+}

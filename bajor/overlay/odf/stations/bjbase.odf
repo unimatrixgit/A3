@@ -56,20 +56,7 @@ repairFacility = 0
 rangeScan = 1000.0f
 
 //Possible Craft Names
-possibleCraftNames = 
-	"Starbase 612" "Starbase 473" "Starbase 263" "Starbase 823"
-	"Starbase 173" "Starbase 383" "Starbase 420" "Starbase 252" 
-	"Starbase 419" "Starbase 521" "Starbase 152" "Starbase 528"
-	"Starbase 357" "Starbase 523" "Starbase 162" "Starbase 693"
-	"Starbase 344" "Starbase 182" "Starbase 106" "Starbase 260"
-	"Starbase 123" "Starbase 312" "Starbase 412" "Starbase 411"
-	"Starbase 452" "Starbase 422" "Starbase 102" "Starbase 34"
-	"Starbase 62" "Starbase 17" "Starbase 93" "Starbase 27"
-	"Starbase 303" "Starbase 72" "Starbase 28" "Starbase 64"
-	"Starbase 82" "Starbase 12" "Starbase 44" "Starbase 77"
-	"Starbase 11" "Starbase 34" "Starbase 67" "Starbase 69"
-	"Starbase 99" "Starbase 86" "Starbase 268" "Starbase 623"
-	"Starbase 40" "Starbase 176"
+
 
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
@@ -152,7 +139,7 @@ criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
 
 
 //Hardpoint location for building.
-buildHardpoint = "hp0001"
+
 
 dockinghardpoint = "hp0001"
 
@@ -204,7 +191,7 @@ SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
 // let's make this a bit bigger
-ScaleSOD = 1.0
+
 
 
 
@@ -219,15 +206,22 @@ officerCost = 10
 buildTime = 100
 
 race = "bajoran"
-unitName = "Bajoran Militia Headquarters"
-tooltip = "Bajoran Militia Headquarters"
-verboseTooltip = "Bajoran Militia Headquarters. Bajoran Militia. TV-inspired game adaptation."
+
+
+
 
 
 
 
-baseName = "bjbase"
+
 buildItem0 = "bjconst"
 buildItem1 = "bjfreight"
 buildItem2 = "bjscout"
 buildItem3 = "xbjuconst"
+unitName = "Deep Space 9"
+tooltip = "Deep Space 9"
+verboseTooltip = "Bajoran Deep Space 9 command station. Builds faction support vessels and the Bajoran Universal Constructor."
+baseName = "fds9"
+ScaleSOD = 2.0
+buildHardpoint = "hp06"
+possibleCraftNames = "Deep Space 9" "Deep Space 9 - Militia Command" "Deep Space 9 - Defense Command" "Deep Space 9 - Sector Command"

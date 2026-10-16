@@ -4,11 +4,11 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Cardassian Starbase"
+
 
 //tooltips
-tooltip = "Cardassian Starbase"
-verboseTooltip = "Navorak Class Starbase/Outpost"
+
+
 
 //Race which can build ship & starting race of ship
 race = "cardassian"
@@ -45,7 +45,7 @@ shieldProtection = 1.0
 latinumTransferRate = 15.0
 
 //Possible Craft Names
-possibleCraftNames = "Cefta Nor-7R" "Cefta Nor-6D" "Cefta Nor-0P" "Cefta Nor-3E"
+
 
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
@@ -217,3 +217,7 @@ buildItem2 = "ccargo"
 buildItem3 = "csrepair"
 buildItem4 = "domconst"
 buildItem5 = "xcuconst"
+unitName = "Terok Nor"
+tooltip = "Terok Nor"
+verboseTooltip = "Cardassian Terok Nor command station. Nor-class station naming theme; existing combat and economic statistics retained."
+possibleCraftNames = "Terok Nor" "Empok Nor" "Keldar Nor" "Velor Nor" "Damar Nor" "Lakarian Nor"
