@@ -54,11 +54,11 @@ possibleCraftNames =
 //ART PARAMETERS & WEAPON NAMES
 
 // Mining Beam for dilithium
-weapon1 = "gmineDilithium"
+
 weaponHardpoints1 = "hp06"
 
 // Mining Beam Latinum
-weapon2 = "gmineLatinum"
+
 weaponHardpoints2 = "hp06" 
 
 weapon3 = "fkaiserphas"
@@ -82,7 +82,7 @@ latinum_spray_hardpoint = "hp05"
 
 hotkeyLabel = "HOTKEY_F2"
 combat = 1
-ScaleSOD = 1.65
+
 
 
 
@@ -95,9 +95,19 @@ crewCost = 100
 officerCost = 1
 buildTime = 13
 
-race = "bajoran"
+
 unitName = "Bajoran Resource Freighter"
+
 tooltip = "Bajoran Resource Freighter"
-verboseTooltip = "Bajoran Resource Freighter. Bajoran Militia. TV-inspired game adaptation."
+
+verboseTooltip = "Bajoran Resource Freighter. TV Bajoran freighter / transport family."
+
+race = "bajoran"
 
 baseName = "bjfreight"
+
+ScaleSOD = 1.0
+
+weapon1 = "xbj_gminedilithium"
+
+weapon2 = "xbj_gminelatinum"

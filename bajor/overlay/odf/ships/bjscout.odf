@@ -55,7 +55,7 @@ weapon1 = "fventurepulse"
 weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04"
  
 //Detect Cloak 3
-weapon2 = "gdetectf"
+
 weaponHardpoints2 = "hp05"
 
 
@@ -78,7 +78,6 @@ criticalTargetHardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp22" "hp2
 // keymapLabel = "fed_scout"
 hotkeyLabel = "HOTKEY_F1"
 
-ScaleSOD = 0.25
 transporter = 0
 
 
@@ -97,9 +96,17 @@ crewCost = 10
 officerCost = 2
 buildTime = 6
 
-race = "bajoran"
+
 unitName = "Bajoran Scout Vessel"
+
 tooltip = "Bajoran Scout Vessel"
-verboseTooltip = "Bajoran Scout Vessel. Bajoran Militia. TV-inspired game adaptation."
+
+verboseTooltip = "Bajoran Scout Vessel. TV multi-role Bajoran vessel."
+
+race = "bajoran"
 
 baseName = "bjscout"
+
+ScaleSOD = 1.0
+
+weapon2 = "xbj_gdetectf"

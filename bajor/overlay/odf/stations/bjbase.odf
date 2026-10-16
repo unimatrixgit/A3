@@ -64,84 +64,95 @@ rangeScan = 1000.0f
 
 // Phaser
 weapon1 = "fbasephas"
-weaponHardpoints1 = "hp21" "hp26" 
+
 
 // Phaser
 weapon2 = "fbasephas"
-weaponHardpoints2 = "hp22" "hp27" 
+
 
 // Phaser
 weapon3 = "fbasephas"
-weaponHardpoints3 = "hp23" "hp28" 
+
 
 // Phaser
 weapon4 = "fbasephas"
-weaponHardpoints4 = "hp24" "hp29" 
+
 
 // Phaser
 weapon5 = "fbasephas"
-weaponHardpoints5 = "hp25" "hp30"
+
 
 // Photon
 weapon6 = "fbaserphot"
-weaponHardpoints6 = "hp31" "hp36" 
+
 
 // Photon
 weapon7 = "fbaserphot"
-weaponHardpoints7 = "hp32" "hp37"
+
 
 // Photon
 weapon8 = "fbaserphot"
-weaponHardpoints8 = "hp33" "hp38" 
+
 
 // Photon
 weapon9 = "fbaserphot"
-weaponHardpoints9 = "hp34" "hp39" 
+
 
 // Photon
 weapon10 = "fbaserphot"
-weaponHardpoints10 = "hp35" "hp40"
+
 
 // Pulse Phaser
 weapon11 = "fbasepulse"
-weaponHardpoints11 = "hp01" "hp06" 
+
 
 // Pulse Phaser
 weapon12 = "fbasepulse"
-weaponHardpoints12 = "hp02" "hp07" 
+
 
 // Pulse Phaser
 weapon13 = "fbasepulse"
-weaponHardpoints13 = "hp03" "hp08" 
+
 
 // Pulse Phaser
 weapon14 = "fbasepulse"
-weaponHardpoints14 = "hp04" "hp09" 
+
 
 // Pulse Phaser
 weapon15 = "fbasepulse"
-weaponHardpoints15 = "hp05" "hp10"
+
 
 
 // Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
-lifeSupportTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
-weaponsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
-shieldGeneratorTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
-sensorsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
-hullTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
-criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
+
+
+
+
+
+
+
 
 //**********************************************************************
 
 //**********************************************************************
-//Construction Parameters
+//Construction Parameters
+
+
+
+
+
+
+
+
+
+
+
 
 
 //Hardpoint location for building.
 
 
-dockinghardpoint = "hp0001"
+
 
 //**********************************************************************
 //SYSTEM HITPOINTS
@@ -191,7 +202,8 @@ SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
 // let's make this a bit bigger
-
+
+
 
 
 
@@ -205,23 +217,52 @@ crewCost = 150
 officerCost = 10
 buildTime = 100
 
+
+
+
+
+
+verboseTooltip = "Bajoran Militia Headquarters. Extrapolated Bajoran orbital headquarters."
+
 race = "bajoran"
-
-
-
-
 
 
 
 
 buildItem0 = "bjconst"
-buildItem1 = "bjfreight"
-buildItem2 = "bjscout"
-buildItem3 = "xbjuconst"
+buildItem1 = "xbjuconst"
+buildItem2 = "bjfreight"
+buildItem3 = "bjcargo"
+buildItem4 = "bjrepair"
+buildItem5 = "bjcolony"
+buildItem6 = "bjscout"
 unitName = "Deep Space 9"
 tooltip = "Deep Space 9"
-verboseTooltip = "Bajoran Deep Space 9 command station. Builds faction support vessels and the Bajoran Universal Constructor."
 baseName = "fds9"
-ScaleSOD = 2.0
+ScaleSOD = 0.8858
 buildHardpoint = "hp06"
 possibleCraftNames = "Deep Space 9" "Deep Space 9 - Militia Command" "Deep Space 9 - Defense Command" "Deep Space 9 - Sector Command"
+weaponHardpoints1 = "hp22" "hp25"
+weaponHardpoints2 = "hp23" "hp26"
+weaponHardpoints3 = "hp24" "hp27"
+weaponHardpoints4 = "hp19"
+weaponHardpoints5 = "hp20"
+weaponHardpoints6 = "hp21"
+weaponHardpoints7 = "hp57" "hp51" "hp37"
+weaponHardpoints8 = "hp50" "hp34" "hp56"
+weaponHardpoints9 = "hp35" "hp55" "hp53"
+weaponHardpoints10 = "hp54" "hp52" "hp36"
+weaponHardpoints11 = "hp38" "hp41"
+weaponHardpoints12 = "hp39" "hp43"
+weaponHardpoints13 = "hp40" "hp42"
+weaponHardpoints14 = "hp44" "hp47"
+weaponHardpoints15 = "hp45" "hp49"
+enginesTargetHardpoints = "hp17"
+lifeSupportTargetHardpoints = "hp28"
+weaponsTargetHardpoints = "hp22" "hp23" "hp24" "hp25" "hp26" "hp27"
+shieldGeneratorTargetHardpoints = "hp58" "hp59" "hp60" "hp61"
+sensorsTargetHardpoints = "hp29"
+hullTargetHardpoints = "hp30" "hp31" "hp32" "hp33"
+criticalTargetHardpoints = "hp17" "hp19"
+dockingHardpoint = "hp69"
+repairHardpoint = "hp02"

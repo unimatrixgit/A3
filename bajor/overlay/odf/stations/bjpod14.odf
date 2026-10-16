@@ -1,0 +1,45 @@
+#include "EngineUpgradePod.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//Race which can build ship & starting race of ship
+
+
+//tooltips
+
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Latinum Cost to build
+
+//Number of officers required to build this ship
+
+//Amount of time required to build ship
+
+hotkeyLabel = "HOTKEY_F4"
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 600
+metalCost = 300
+latinumCost = 0
+biomatterCost = 0
+crewCost = 0
+officerCost = 1
+buildTime = 120
+
+unitName = "Bajoran Engines II"
+
+tooltip = "Bajoran Engines II"
+
+verboseTooltip = "Bajoran Engines II. Extrapolated technology pod."
+
+race = "bajoran"
+
+baseName = "bjpod14"
+
+ScaleSOD = 0.2

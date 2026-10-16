@@ -70,7 +70,7 @@ possibleCraftNames =
 //weaponHardpoints1 = "hp12" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
 
 // Towing Beam
-weapon1 = "gtracbm"
+
 weaponhardpoints1 = "hp12"
 
 // Hardpoints to hit for various systems and other locations.
@@ -85,7 +85,21 @@ criticalTargetHardpoints = "hp06" "hp08" "hp09"
 
 //**********************************************************************
 
-hotkeyLabel = "HOTKEY_F1"
+hotkeyLabel = "HOTKEY_F1"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Xaramada resource costs: original filename.
@@ -97,23 +111,57 @@ crewCost = 150
 officerCost = 2
 buildTime = 17
 
-race = "bajoran"
+
 unitName = "Militia Construction Tender"
+
 tooltip = "Militia Construction Tender"
-verboseTooltip = "Militia Construction Tender. Bajoran Militia. TV-inspired game adaptation."
 
-buildItem0 = "bjbase"
+verboseTooltip = "Militia Construction Tender. Extrapolated utility tender."
 
-buildItem1 = "bjmining"
-
-buildItem2 = "bjyard3"
-
-buildItem3 = "bjyard"
-
-buildItem4 = "bjyard2"
-
-buildItem5 = "bjresear"
-
-buildItem6 = "bjturret"
+race = "bajoran"
 
 baseName = "bjconst"
+
+ScaleSOD = 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "xbj_gtracbm"
+buildItem0 = "bjbase"
+buildItem1 = "bjmining"
+buildItem2 = "bjyard"
+buildItem3 = "bjyard2"
+buildItem4 = "bjresear"
+buildItem5 = "bjresear2"
+buildItem6 = "bjupgrade"
+buildItem7 = "bjsensor"
+buildItem8 = "bjorbital"
+buildItem9 = "bjtrading"
+buildItem10 = "bjturret"
+buildItem11 = "bjturret2"

@@ -71,7 +71,6 @@ criticalTargetHardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp22" "hp2
 // keymapLabel = "fed_scout"
 hotkeyLabel = "HOTKEY_F1"
 
-ScaleSOD = 0.3
 
 //physics file for all other physics stuff
 physicsFile = "fscoutphys.odf"
@@ -88,9 +87,15 @@ crewCost = 3
 officerCost = 7
 buildTime = 12
 
-race = "bajoran"
+
 unitName = "Bajoran Antares Transport"
+
 tooltip = "Bajoran Antares Transport"
-verboseTooltip = "Bajoran Antares Transport. Bajoran Militia. TV-inspired game adaptation."
+
+verboseTooltip = "Bajoran Antares Transport. TV Antares transport family."
+
+race = "bajoran"
 
 baseName = "bjtransport"
+
+ScaleSOD = 1.0

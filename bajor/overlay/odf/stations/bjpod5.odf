@@ -1,0 +1,61 @@
+#include "pod.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+//Race which can build ship & starting race of ship
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//metal Cost to build
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+//eventSelect = "FedTachGrid"
+
+//**********************************************************************
+
+animation = 1
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "detect_grid"
+hotkeyLabel = "HOTKEY_F1"
+
+
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 0
+metalCost = 100
+latinumCost = 0
+biomatterCost = 0
+crewCost = 0
+officerCost = 1
+buildTime = 20
+
+unitName = "Bajoran Tachyon Detection"
+
+tooltip = "Bajoran Tachyon Detection"
+
+verboseTooltip = "Bajoran Tachyon Detection. Extrapolated technology pod."
+
+race = "bajoran"
+
+baseName = "bjpod5"
+
+ScaleSOD = 0.2

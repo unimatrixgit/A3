@@ -1,0 +1,48 @@
+#include "ShieldUpgradePod2.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//Race which can build ship & starting race of ship
+
+
+//tooltips
+
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Latinum Cost to build
+
+//Number of officers required to build this ship
+
+//Amount of time required to build ship
+
+//make this slightly larger than the level one pod
+
+
+hotkeyLabel = "HOTKEY_F2"
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 450
+metalCost = 225
+latinumCost = 0
+biomatterCost = 0
+crewCost = 0
+officerCost = 2
+buildTime = 240
+
+unitName = "Bajoran Shields III"
+
+tooltip = "Bajoran Shields III"
+
+verboseTooltip = "Bajoran Shields III. Extrapolated technology pod."
+
+race = "bajoran"
+
+baseName = "bjpod22"
+
+ScaleSOD = 0.2

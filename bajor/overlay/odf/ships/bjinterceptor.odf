@@ -86,7 +86,7 @@ weapon4 = "fdefiantpulse"
 weaponHardpoints4 = "hp04"
 
 //Anti-matter Mines
-weapon5 = "gamine"
+
 weaponHardpoints5 = "hp14" "hp15" 
 
 // Photon Torpedo
@@ -98,7 +98,7 @@ weapon7 = "fdefiantphot"
 weaponHardpoints7 = "hp06" 
 
 // Cloaking
-weapon8 = "gfcloak"
+
 weaponHardpoints8 = "hp09"
 
 // Hardpoints to hit for various systems and other locations.
@@ -133,7 +133,7 @@ attack_path1 = "p3.pth"
 hotkeyLabel = "HOTKEY_F3"
 
 // let's make this a bit smaller
-ScaleSOD = 0.3
+
 
 
 //physics file for all other physics stuff
@@ -153,9 +153,19 @@ crewCost = 80
 officerCost = 7
 buildTime = 12
 
-race = "bajoran"
+
 unitName = "Bajoran Interceptor"
+
 tooltip = "Bajoran Interceptor"
-verboseTooltip = "Bajoran Interceptor. Bajoran Militia. TV-inspired game adaptation."
+
+verboseTooltip = "Bajoran Interceptor. TV interceptor."
+
+race = "bajoran"
 
 baseName = "bjinterceptor"
+
+ScaleSOD = 1.0
+
+weapon5 = "xbj_gamine"
+
+weapon8 = "xbj_gfcloak"

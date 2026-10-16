@@ -1,0 +1,58 @@
+{
+  "measurements": [
+    {
+      "unit": "fbase",
+      "model": "xvstock_fbase",
+      "scale": 1,
+      "rawWidth": 71.42513202878166,
+      "diameter": 71.42513202878166
+    },
+    {
+      "unit": "bbase",
+      "model": "bbase",
+      "scale": 1,
+      "rawWidth": 253.4314193725586,
+      "diameter": 253.4314193725586
+    },
+    {
+      "unit": "kbase",
+      "model": "xvstock_kbase",
+      "scale": 1.75,
+      "rawWidth": 127.02256763263621,
+      "diameter": 222.28949335711337
+    },
+    {
+      "unit": "rbase",
+      "model": "xvstock_rbase",
+      "scale": 1.9,
+      "rawWidth": 162.33394999989304,
+      "diameter": 308.43450499979673
+    },
+    {
+      "unit": "cbase",
+      "model": "xvstock_cbase",
+      "scale": 1.6,
+      "rawWidth": 158.9999771118164,
+      "diameter": 254.39996337890625
+    },
+    {
+      "unit": "bjbase",
+      "model": "fds9",
+      "scale": 2,
+      "rawWidth": 286.12037083631924,
+      "diameter": 572.2407416726385
+    }
+  ],
+  "reference": "Median horizontal diameter of five stock faction starbases",
+  "targetDiameter": 253.4314193725586,
+  "newScale": 0.8858,
+  "runtimeVerified": false,
+  "changed": [
+    "D:/armadaIII/odf/stations/bjbase.odf",
+    "D:/aramada/bajor/overlay/odf/stations/bjbase.odf",
+    "D:/Xaramada-Modwork/hero-reinforcements/odf/stations/bjbase.odf",
+    "D:/Xaramada-Modwork/bajor-rebuild/odf/stations/bjbase.odf"
+  ],
+  "applied": true,
+  "backup": "D:/Xaramada-Modwork/backups/ds9-size-1792184549092"
+}

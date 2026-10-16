@@ -1,0 +1,139 @@
+#include "battle.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+//Race which can build ship & starting race of ship
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+// don't use the horrible old % crew loss on damage
+saneCrewLossMethod = 1
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 1100
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 3000
+enginesHitPoints = 3000
+weaponsHitPoints = 3000
+lifeSupportHitPoints = 3000
+sensorsHitPoints = 3000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 11
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 1100
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 11
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+	"USS Saratoga" "USS Rand" "USS Faithful" "USS Archangel"
+	"USS Atlas" "USS Legacy" "USS Challenger" "USS Justice" 
+	"USS Integrity" "USS Alexandra" "USS Endurance" "USS Midway"
+	"USS Majestic" "USS Hyperion" "USS Avatar" "USS Avalon"
+	"USS Horizon" "USS Nimitz" "USS Aries" "USS Leviathan"
+	"USS Sentinel" "USS Tiberius" "USS Odin" "USS Providence"
+	"USS Formidable" "USS Destiny" "USS Tempest" "USS Cavalier"
+	"USS Yamato" "USS Calabria" "USS Coburn" "USS Hickey" "USS Hope"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// phaser
+weapon1 = "fsovereignphas"
+weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp15" "hp16"
+	"hp17" "hp18" "hp19" "hp20" "hp21" "hp22" "hp23" "hp24" "hp25" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32" "hp33" "hp34"
+
+// Photon torpedos
+weapon2 = "fsovereignphot"
+weaponHardpoints2 = "hp14" "hp68"
+
+//Self Destruct
+
+weaponHardpoints3 = "hp34" "hp35" "hp36"
+
+//Corbimite Refractor
+
+weaponHardpoints4 = "hp34" "hp35" "hp36"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp35" "hp36" "hp40" "hp41" "hp42" "hp43" "hp44" "hp45" "hp46" "hp47" "hp48" "hp49" "hp50" "hp51" "hp52" "hp53" "hp54" "hp55" "hp56" "hp57" "hp58" "hp59"
+lifeSupportTargetHardpoints = "hp37" "hp38" "hp39" "hp60" 
+weaponsTargetHardpoints = "hp14" "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp15" "hp16"
+	"hp17" "hp18" "hp19" "hp20" "hp21" "hp22" "hp23" "hp24" "hp25" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32" "hp33" "hp34"
+shieldGeneratorTargetHardpoints = "hp61" "hp62" "hp63" "hp64"
+sensorsTargetHardpoints = "hp65" 
+hullTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+criticalTargetHardpoints = "hp37" "hp38" "hp39" "hp60"
+
+//**********************************************************************
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+//**********************************************************************
+
+
+//change the scale
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "fed_battle"
+hotkeyLabel = "HOTKEY_F4"
+
+//physics file for all other physics stuff
+physicsFile = "fbattlephys.odf"
+trekPhysicsFile = "fbattlephys.odf"
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 450
+metalCost = 100
+latinumCost = 0
+biomatterCost = 0
+crewCost = 700
+officerCost = 12
+buildTime = 22
+
+unitName = "Bajoran Militia Battleship"
+
+tooltip = "Bajoran Militia Battleship"
+
+verboseTooltip = "Bajoran Militia Battleship. Extrapolated heavy assault-family flagship."
+
+race = "bajoran"
+
+baseName = "bjbattle"
+
+ScaleSOD = 1.0
+
+weapon3 = "xbj_gselfdes"
+
+weapon4 = "xbj_gcorbom"

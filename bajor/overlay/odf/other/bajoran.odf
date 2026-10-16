@@ -70,11 +70,24 @@ weaponRed = 2.0f
 //ODF for officer upgrade for starbases
 officerUpgradeODF = "fedoff"
 
-// the things you get when you ask for minimal default units (instead of the map units)
+// the things you get when you ask for minimal default units (instead of the map units)
 
-// the things you get when you ask for standard default units (instead of the map units)
 
-// the things you get when you ask for superside units (instead of the map units)
+// the things you get when you ask for standard default units (instead of the map units)
+
+
+
+
+
+// the things you get when you ask for superside units (instead of the map units)
+
+
+
+
+
+
+
+
 
 // for the computer voice
 computerShipConstructionBegin1 = "gvofc022.wav"
@@ -115,20 +128,44 @@ normalCrew = 1200
 lotsDilithium = 30000
 lotsMetal = 30000
 lotsLatinum = 30000
-lotsCrew = 30000
+lotsCrew = 30000
+
+
 
 name = "bajoran"
 displayKey = "Bajoran Militia"
 instantActionSlot = 7
 interfaceConfiguration = "gui_bajoran.cfg"
 interfaceSprites = "gui_bajoran.spr"
+
+
+
+
+
+
+
+
+
+
+
 standardUnits1 = "bjconst.odf"
+
 standardUnits2 = "bjconst.odf"
+
 standardUnits3 = "bjbase.odf"
+
 standardUnits4 = "bjscout.odf"
+
 standardUnits5 = "bjnerys.odf"
+
 minimalUnits1 = "bjconst.odf"
+
 minimalUnits2 = "bjnerys.odf"
+
 superUnits1 = "bjconst.odf"
-superUnits2 = "bjbase.odf"
-superUnits3 = "bjnerys.odf"
+
+superUnits2 = "bjconst.odf"
+
+superUnits3 = "bjbase.odf"
+
+superUnits4 = "bjnerys.odf"

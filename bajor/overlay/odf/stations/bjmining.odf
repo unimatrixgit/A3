@@ -112,10 +112,17 @@ crewCost = 250
 officerCost = 4
 buildTime = 50
 
+
+unitName = "Bajoran Resource Processing Facility"
+
+tooltip = "Bajoran Resource Processing Facility"
+
+verboseTooltip = "Bajoran Resource Processing Facility. Extrapolated industrial station."
+
 race = "bajoran"
-unitName = "Bajoran Resource Processing"
-tooltip = "Bajoran Resource Processing"
-verboseTooltip = "Bajoran Resource Processing. Bajoran Militia. TV-inspired game adaptation."
-buildItem0 = "bjfreight"
 
 baseName = "bjmining"
+
+ScaleSOD = 1.0
+
+buildItem0 = "bjfreight"

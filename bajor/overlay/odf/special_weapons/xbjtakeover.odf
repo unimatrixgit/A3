@@ -1,0 +1,70 @@
+//Name of the ODF file for the ordinance for this weapon
+
+
+//Display name for this weapon
+
+
+//tooltips
+
+
+
+//Location of the button in the speed panel
+
+
+// location of the button in the popup palette
+
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+// Mark this as a special weapon.
+special = 1
+
+// Time Delay between shots
+
+
+// Range within which the weapon will fire.
+
+
+//Sound which is played when the weapon fires
+fireSound = "swbcompf.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "cannon"
+
+//Need a target?
+needTarget = 1
+
+// set target restrictions
+
+
+//this special weapon can be assimilated by the borg tech assimilator
+//assimilatable = "borpod7"
+
+// do not attack the target.
+switchToAttack = 0
+// and no one else should either
+forceInvalidateTarget = 1
+
+hotkeyLabel = "HOTKEY_F10"
+ordName = "xbjtakeovero"
+wpnName = "Command Takeover"
+tooltip = "Command Takeover"
+verboseTooltip = "Take control of one hostile station. Requires Command Access research; consumes 5000 special energy. Manually targeted; not fired automatically."
+targetEnemyBuildings = 1
+targetEnemyCraft = 0
+targetAlliedBuildings = 0
+targetAlliedCraft = 0
+targetSelf = 0
+range = 900000
+shotDelay = 300
+buttonSlot = 1
+popupSlot = 1
+buttonPriority = 10

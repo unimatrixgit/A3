@@ -70,7 +70,7 @@ possibleCraftNames =
 //weaponHardpoints1 = "hp12" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
 
 // Towing Beam
-weapon1 = "gtracbm"
+
 weaponhardpoints1 = "hp12"
 
 // Hardpoints to hit for various systems and other locations.
@@ -85,7 +85,21 @@ criticalTargetHardpoints = "hp06" "hp08" "hp09"
 
 //**********************************************************************
 
-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Xaramada resource costs: original filename.
@@ -100,7 +114,6 @@ buildTime = 17
 
 
 
-
 
 
 
@@ -117,6 +130,29 @@ buildTime = 17
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "xbj_gtracbm"
 unitName = "Bajoran Universal Constructor"
 tooltip = "Bajoran Universal Constructor"
 verboseTooltip = "Bajoran Universal Constructor. Builds allied faction starbases and assigned advanced facilities. Species 8472 biotechnology is excluded."
@@ -132,3 +168,5 @@ buildItem4 = "cbase"
 buildItem5 = "dbase"
 buildItem6 = "brbase"
 buildItem7 = "bjbase"
+buildItem8 = "bjsuperlab"
+buildItem9 = "bjyard3"

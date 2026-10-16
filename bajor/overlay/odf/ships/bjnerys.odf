@@ -85,7 +85,7 @@ weapon4 = "fdefiantpulse"
 weaponHardpoints4 = "hp04"
 
 //Anti-matter Mines
-weapon5 = "gamine"
+
 weaponHardpoints5 = "hp14" "hp15" 
 
 // Photon Torpedo
@@ -97,7 +97,7 @@ weapon7 = "fdefiantphot"
 weaponHardpoints7 = "hp06" 
 
 // Cloaking
-weapon8 = "gfcloak"
+
 weaponHardpoints8 = "hp09"
 
 // Hardpoints to hit for various systems and other locations.
@@ -132,7 +132,7 @@ attack_path1 = "p3.pth"
 hotkeyLabel = "HOTKEY_F3"
 
 // let's make this a bit smaller
-ScaleSOD = 0.3
+
 
 
 //physics file for all other physics stuff
@@ -148,42 +148,60 @@ latinumCost = 0
 biomatterCost = 0
 officerCost = 7
 
-race = "bajoran"
-unitName = "Colonel Kira Nerys - Command Interceptor"
-tooltip = "Colonel Kira Nerys - Command Interceptor"
-verboseTooltip = "Colonel Kira Nerys - Command Interceptor. Bajoran Militia. TV-inspired game adaptation."
-isHero = 1
 maxHealth = 650
 dilithiumCost = 350
 metalCost = 100
 crewCost = 90
-buildTime = 40
+buildTime = 40
 
-eventSelect = "XV_bjnerys_Select"
 
-eventAcknowledge = "XV_bjnerys_Acknowledge"
+unitName = "Colonel Kira Nerys - Command Interceptor"
 
-eventAttack = "XV_bjnerys_Attack"
+tooltip = "Colonel Kira Nerys - Command Interceptor"
 
-eventStop = "XV_bjnerys_Stop"
+verboseTooltip = "Colonel Kira Nerys - Command Interceptor. TV Kira's command interceptor."
 
-eventMove = "XV_bjnerys_Move"
-
-eventRepair = "XV_bjnerys_Repair"
-
-eventRedAlert = "XV_bjnerys_RedAlert"
-
-eventYellowAlert = "XV_bjnerys_YellowAlert"
-
-eventGreenAlert = "XV_bjnerys_GreenAlert"
-
-eventTransport = "XV_bjnerys_Transport"
-
-eventSelfDestruct = "XV_bjnerys_SelfDestruct"
-
-eventDecommission = "XV_bjnerys_Decommission"
+race = "bajoran"
 
 baseName = "bjnerys"
+
+ScaleSOD = 1.0
+
+isHero = 1
+
+label = "Colonel Kira Nerys"
+
+weapon5 = "xbj_gamine"
+
+weapon8 = "xbj_gfcloak"
+
+eventCloakEngage = "XVoice_Kira_CloakEngage"
+
+eventYellowAlert = "XVoice_Kira_YellowAlert"
+
+eventStop = "XVoice_Kira_Stop"
+
+eventDecommission = "XVoice_Kira_Decommission"
+
+eventCloakDisengage = "XVoice_Kira_CloakDisengage"
+
+eventRedAlert = "XVoice_Kira_RedAlert"
+
+eventSelfDestruct = "XVoice_Kira_SelfDestruct"
+
+eventAcknowledge = "XVoice_Kira_Acknowledge"
+
+eventMove = "XVoice_Kira_Move"
+
+eventSelect = "XVoice_Kira_Select"
+
+eventGreenAlert = "XVoice_Kira_GreenAlert"
+
+eventRepair = "XVoice_Kira_Repair"
+
+eventAttack = "XVoice_Kira_Attack"
+
+eventTransport = "XVoice_Kira_Transport"
 
 #include "xhero_reinforcement_core.odf"
 buildItem0 = "xrein_bajoran"

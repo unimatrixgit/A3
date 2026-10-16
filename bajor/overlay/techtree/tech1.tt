@@ -2,7 +2,7 @@
 
 // Xaramada validated technology entries
 fconst.odf 0
-uconst.odf 0
+
 ffreight.odf 1 fmining.odf
 fcargo.odf 1 ftrading.odf
 fsrepair.odf 1 fupgrade.odf
@@ -132,10 +132,13 @@ gmicro.odf 1 klipod9.odf
 wenhance.odf 1 klipod16.odf
 grwave.odf 0
 kgplasmac.odf 0
-bconst.odf 1 bbase.odf
+bconst.odf 1 bbase.odf
+
 bbattle8.odf 0
 bbattle5.odf 0
-bbattle6.odf 0
+bbattle6.odf 0
+
+
 bfreight.odf 2 bbase.odf bmining.odf
 bscout.odf 1 byard.odf
 bdestroy.odf 1 byard.odf
@@ -147,9 +150,11 @@ bassault.odf 2 byard.odf bresear2.odf
 bbattle1.odf 2 byard2.odf bresear2.odf
 bbattle2.odf 2 byard2.odf bupgrade.odf
 bfrigate.odf 1 byard2.odf
-bspecial.odf 2 byard2.odf bresear2.odf
+bspecial.odf 2 byard2.odf bresear2.odf
+
 bbase.odf 0
-bmining.odf 0
+bmining.odf 0
+
 bsensor.odf 1 bbase.odf
 bturret.odf 1 bbase.odf
 bturret2.odf 1 bresear2.odf
@@ -643,14 +648,22 @@ fentctoentd.odf 1 fyard3.odf
 fentdtoentdx.odf 1 fyard3.odf
 fentdxtoente.odf 1 fupgrade.odf
 fgrvmine.odf 1 fedpod4.odf
-gfcloak.odf 0
-xhfhero.odf 1 fyard3.odf
-blocutus.odf 1 byard2.odf
-xhkhero.odf 1 kyard3.odf
-xhrhero.odf 1 ryard3.odf
-xhchero.odf 1 cyard3.odf
-xhdhero.odf 1 dyard3.odf
-xhbrhero.odf 1 bryard3.odf
+gfcloak.odf 0
+
+xhfhero.odf 1 fyard3.odf
+
+blocutus.odf 1 byard2.odf
+
+xhkhero.odf 1 kyard3.odf
+
+xhrhero.odf 1 ryard3.odf
+
+xhchero.odf 1 cyard3.odf
+
+xhdhero.odf 1 dyard3.odf
+
+xhbrhero.odf 1 bryard3.odf
+
 xhshero.odf 1 xhs_yard3.odf
 fds9.odf 2 fbase.odf fyard2.odf
 xfomegalab.odf 2 fyard2.odf fupgrade.odf
@@ -671,31 +684,6 @@ kdestroy4.odf 1 kimpyard.odf
 
 xacgreen.odf 0 // additional green holding/assimilation beam
 
-bjconst.odf 0 
-
-bjfreight.odf 1 bjbase.odf
-
-bjscout.odf 1 bjbase.odf
-
-bjinterceptor.odf 1 bjbase.odf
-
-bjassault.odf 1 bjbase.odf
-
-bjtransport.odf 1 bjbase.odf
-
-bjnerys.odf 1 bjyard3.odf
-
-bjbase.odf 0 
-
-bjmining.odf 1 bjbase.odf
-
-bjyard.odf 1 bjbase.odf
-
-bjyard2.odf 1 bjbase.odf
-
-bjresear.odf 1 bjbase.odf
-
-bjturret.odf 1 bjbase.odf
 
 bbase2.odf 0
 
@@ -721,9 +709,150 @@ dyard3.odf 2 dyard.odf dresear.odf
 
 bryard3.odf 2 bryard.odf brresear.odf
 
-bjyard3.odf 1 bjbase.odf
 
 xhs_yard3.odf 0
+
+bjconst.odf 0
+
+bjbase.odf 0
+
+uconst.odf 0
+
+bjfreight.odf 1 bjmining.odf
+
+bjcargo.odf 1 bjtrading.odf
+
+bjrepair.odf 1 bjyard.odf
+
+bjcolony.odf 2 bjyard.odf bjresear.odf
+
+bjscout.odf 1 bjbase.odf
+
+bjinterceptor.odf 1 bjyard.odf
+
+bjraider.odf 1 bjyard.odf
+
+bjtransport.odf 1 bjyard.odf
+
+bjlightship.odf 1 bjyard.odf
+
+bjassault.odf 2 bjyard.odf bjresear.odf
+
+bjcruiser.odf 1 bjyard2.odf
+
+bjtorpedo.odf 2 bjyard2.odf bjresear.odf
+
+bjfrigate.odf 1 bjyard2.odf
+
+bjartillery.odf 2 bjyard2.odf bjresear2.odf
+
+bjbattle.odf 2 bjyard2.odf bjupgrade.odf
+
+bjspecial.odf 2 bjyard2.odf bjresear2.odf
+
+bjsuper.odf 2 bjyard3.odf bjsuperlab.odf
+
+bjnerys.odf 1 bjyard3.odf
+
+bjmining.odf 0
+
+bjyard.odf 1 bjbase.odf
+
+bjresear.odf 2 bjbase.odf bjyard.odf
+
+bjyard2.odf 2 bjyard.odf bjresear.odf
+
+
+
+bjresear2.odf 2 bjyard2.odf bjresear.odf
+
+bjupgrade.odf 2 bjresear.odf bjresear2.odf
+
+bjsensor.odf 1 bjbase.odf
+
+bjorbital.odf 1 bjbase.odf
+
+bjtrading.odf 1 bjbase.odf
+
+bjturret.odf 1 bjbase.odf
+
+bjturret2.odf 1 bjresear.odf
+
+bjsuperlab.odf 2 bjresear2.odf bjyard2.odf
+
+bjpod1.odf 1 bjresear.odf
+
+bjpod2.odf 1 bjresear.odf
+
+bjpod3.odf 1 bjresear.odf
+
+bjpod4.odf 1 bjresear.odf
+
+bjpod5.odf 1 bjresear.odf
+
+bjpod6.odf 1 bjresear2.odf
+
+bjpod7.odf 1 bjresear2.odf
+
+bjpod8.odf 1 bjresear2.odf
+
+bjpod9.odf 1 bjresear2.odf
+
+bjpod11.odf 1 bjupgrade.odf
+
+bjpod12.odf 1 bjupgrade.odf
+
+bjpod13.odf 1 bjupgrade.odf
+
+bjpod14.odf 1 bjupgrade.odf
+
+bjpod15.odf 1 bjupgrade.odf
+
+bjpod16.odf 1 bjresear.odf
+
+bjpod21.odf 2 bjupgrade.odf bjpod11.odf
+
+bjpod22.odf 2 bjupgrade.odf bjpod12.odf
+
+bjpod23.odf 2 bjupgrade.odf bjpod13.odf
+
+bjpod24.odf 2 bjupgrade.odf bjpod14.odf
+
+bjpod25.odf 2 bjupgrade.odf bjpod15.odf
+
+xbj_gtracbm.odf 0
+
+xbj_gminedilithium.odf 0
+
+xbj_gminelatinum.odf 0
+
+xbj_gdetectf.odf 1 bjpod5.odf
+
+xbj_gamine.odf 1 bjpod4.odf
+
+xbj_gfcloak.odf 0
+
+xbj_gchainp.odf 1 bjpod2.odf
+
+xbj_fcolonypod.odf 0
+
+xbj_grepairbeam.odf 0
+
+xbj_gwcover.odf 1 bjpod3.odf
+
+xbj_gshldemt.odf 1 bjpod16.odf
+
+xbj_gselfdes.odf 0
+
+xbj_gcorbom.odf 1 bjpod1.odf
+
+xbj_gshieldh.odf 1 bjpod7.odf
+
+xbj_gmanheim.odf 1 bjpod6.odf
+
+xbj_gpdlaser.odf 1 bjpod9.odf
+
+xbj_gschainp.odf 0
 
 xbassimold.odf 2 byard.odf bresear2.odf
 
@@ -760,3 +889,7 @@ xrein_borg.odf 1 byard2.odf
 xrein_species8472.odf 1 xhs_yard3.odf
 
 xrein_bajoran.odf 1 bjyard3.odf
+
+bjyard3.odf 2 bjresear2.odf bjyard2.odf
+
+xbjtakeover.odf 2 bjsuperlab.odf bjpod9.odf

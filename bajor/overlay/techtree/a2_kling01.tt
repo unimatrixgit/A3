@@ -182,6 +182,148 @@ kyard3.odf -1						// advanced shipyard
 
 cyard3.odf -1					// advanced shipyard
 
+bjconst.odf 0
+
+bjbase.odf 0
+
+uconst.odf 0
+
+bjfreight.odf 1 bjmining.odf
+
+bjcargo.odf 1 bjtrading.odf
+
+bjrepair.odf 1 bjyard.odf
+
+bjcolony.odf 2 bjyard.odf bjresear.odf
+
+bjscout.odf 1 bjbase.odf
+
+bjinterceptor.odf 1 bjyard.odf
+
+bjraider.odf 1 bjyard.odf
+
+bjtransport.odf 1 bjyard.odf
+
+bjlightship.odf 1 bjyard.odf
+
+bjassault.odf 2 bjyard.odf bjresear.odf
+
+bjcruiser.odf 1 bjyard2.odf
+
+bjtorpedo.odf 2 bjyard2.odf bjresear.odf
+
+bjfrigate.odf 1 bjyard2.odf
+
+bjartillery.odf 2 bjyard2.odf bjresear2.odf
+
+bjbattle.odf 2 bjyard2.odf bjupgrade.odf
+
+bjspecial.odf 2 bjyard2.odf bjresear2.odf
+
+bjsuper.odf 2 bjyard3.odf bjsuperlab.odf
+
+bjnerys.odf 1 bjyard3.odf
+
+bjmining.odf 0
+
+bjyard.odf 1 bjbase.odf
+
+bjresear.odf 2 bjbase.odf bjyard.odf
+
+bjyard2.odf 2 bjyard.odf bjresear.odf
+
+
+
+bjresear2.odf 2 bjyard2.odf bjresear.odf
+
+bjupgrade.odf 2 bjresear.odf bjresear2.odf
+
+bjsensor.odf 1 bjbase.odf
+
+bjorbital.odf 1 bjbase.odf
+
+bjtrading.odf 1 bjbase.odf
+
+bjturret.odf 1 bjbase.odf
+
+bjturret2.odf 1 bjresear.odf
+
+bjsuperlab.odf 2 bjresear2.odf bjyard2.odf
+
+bjpod1.odf 1 bjresear.odf
+
+bjpod2.odf 1 bjresear.odf
+
+bjpod3.odf 1 bjresear.odf
+
+bjpod4.odf 1 bjresear.odf
+
+bjpod5.odf 1 bjresear.odf
+
+bjpod6.odf 1 bjresear2.odf
+
+bjpod7.odf 1 bjresear2.odf
+
+bjpod8.odf 1 bjresear2.odf
+
+bjpod9.odf 1 bjresear2.odf
+
+bjpod11.odf 1 bjupgrade.odf
+
+bjpod12.odf 1 bjupgrade.odf
+
+bjpod13.odf 1 bjupgrade.odf
+
+bjpod14.odf 1 bjupgrade.odf
+
+bjpod15.odf 1 bjupgrade.odf
+
+bjpod16.odf 1 bjresear.odf
+
+bjpod21.odf 2 bjupgrade.odf bjpod11.odf
+
+bjpod22.odf 2 bjupgrade.odf bjpod12.odf
+
+bjpod23.odf 2 bjupgrade.odf bjpod13.odf
+
+bjpod24.odf 2 bjupgrade.odf bjpod14.odf
+
+bjpod25.odf 2 bjupgrade.odf bjpod15.odf
+
+xbj_gtracbm.odf 0
+
+xbj_gminedilithium.odf 0
+
+xbj_gminelatinum.odf 0
+
+xbj_gdetectf.odf 1 bjpod5.odf
+
+xbj_gamine.odf 1 bjpod4.odf
+
+xbj_gfcloak.odf 0
+
+xbj_gchainp.odf 1 bjpod2.odf
+
+xbj_fcolonypod.odf 0
+
+xbj_grepairbeam.odf 0
+
+xbj_gwcover.odf 1 bjpod3.odf
+
+xbj_gshldemt.odf 1 bjpod16.odf
+
+xbj_gselfdes.odf 0
+
+xbj_gcorbom.odf 1 bjpod1.odf
+
+xbj_gshieldh.odf 1 bjpod7.odf
+
+xbj_gmanheim.odf 1 bjpod6.odf
+
+xbj_gpdlaser.odf 1 bjpod9.odf
+
+xbj_gschainp.odf 0
+
 xbuconst.odf 0
 
 xfuconst.odf -1
@@ -215,3 +357,7 @@ xrein_borg.odf 0
 xrein_species8472.odf 0
 
 xrein_bajoran.odf 0
+
+bjyard3.odf 2 bjresear2.odf bjyard2.odf
+
+xbjtakeover.odf 2 bjsuperlab.odf bjpod9.odf

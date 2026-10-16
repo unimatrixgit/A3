@@ -1,0 +1,1125 @@
+{
+  "root": "D:/armadaIII",
+  "hero": "Kira Nerys",
+  "units": [
+    {
+      "odf": "bjconst",
+      "parent": "fconst",
+      "title": "Militia Construction Tender",
+      "folder": "ships",
+      "role": "construction",
+      "iconCell": 0,
+      "design": "Extrapolated utility tender",
+      "model": "bjconst",
+      "buttonCell": 0
+    },
+    {
+      "odf": "bjfreight",
+      "parent": "ffreight",
+      "title": "Bajoran Resource Freighter",
+      "folder": "ships",
+      "role": "freighter",
+      "iconCell": 1,
+      "design": "TV Bajoran freighter / transport family",
+      "model": "bjfreight",
+      "buttonCell": 1
+    },
+    {
+      "odf": "bjscout",
+      "parent": "fscout",
+      "title": "Bajoran Scout Vessel",
+      "folder": "ships",
+      "role": "scout",
+      "iconCell": 2,
+      "design": "TV multi-role Bajoran vessel",
+      "model": "bjscout",
+      "buttonCell": 2
+    },
+    {
+      "odf": "bjinterceptor",
+      "parent": "fdestroy",
+      "title": "Bajoran Interceptor",
+      "folder": "ships",
+      "role": "destroyer",
+      "iconCell": 3,
+      "design": "TV interceptor",
+      "model": "bjinterceptor",
+      "buttonCell": 3
+    },
+    {
+      "odf": "bjassault",
+      "parent": "fassault",
+      "title": "Bajoran Assault Vessel",
+      "folder": "ships",
+      "role": "assault",
+      "iconCell": 4,
+      "design": "TV multi-role assault vessel",
+      "model": "bjassault",
+      "buttonCell": 4
+    },
+    {
+      "odf": "bjtransport",
+      "parent": "fantares",
+      "title": "Bajoran Antares Transport",
+      "folder": "ships",
+      "role": "transport",
+      "iconCell": 5,
+      "design": "TV Antares transport family",
+      "model": "bjtransport",
+      "buttonCell": 5
+    },
+    {
+      "odf": "bjnerys",
+      "parent": "fdestroy",
+      "title": "Colonel Kira Nerys - Command Interceptor",
+      "folder": "ships",
+      "role": "hero",
+      "iconCell": 6,
+      "design": "TV Kira's command interceptor",
+      "model": "bjnerys",
+      "buttonCell": 6
+    },
+    {
+      "odf": "bjbase",
+      "parent": "fbase",
+      "title": "Bajoran Militia Headquarters",
+      "folder": "stations",
+      "role": "base",
+      "iconCell": 7,
+      "design": "Extrapolated Bajoran orbital headquarters",
+      "model": "bjbase",
+      "buttonCell": 7
+    },
+    {
+      "odf": "bjmining",
+      "parent": "fmining",
+      "title": "Bajoran Resource Processing Facility",
+      "folder": "stations",
+      "role": "mining",
+      "iconCell": 8,
+      "design": "Extrapolated industrial station",
+      "model": "bjmining",
+      "buttonCell": 8
+    },
+    {
+      "odf": "bjyard",
+      "parent": "fyard",
+      "title": "Militia Shipyard I",
+      "folder": "stations",
+      "role": "yard",
+      "iconCell": 9,
+      "design": "Extrapolated open-frame construction dock",
+      "model": "bjyard",
+      "buttonCell": 9
+    },
+    {
+      "odf": "bjyard2",
+      "parent": "fyard2",
+      "title": "Militia Shipyard II",
+      "folder": "stations",
+      "role": "yard2",
+      "iconCell": 10,
+      "design": "Extrapolated advanced construction dock",
+      "model": "bjyard2",
+      "buttonCell": 10
+    },
+    {
+      "odf": "bjyard3",
+      "parent": "fyard2",
+      "title": "Dahkur Command Shipyard",
+      "folder": "stations",
+      "role": "yard3",
+      "iconCell": 11,
+      "design": "Extrapolated command construction dock",
+      "model": "bjyard3",
+      "buttonCell": 11
+    },
+    {
+      "odf": "bjresear",
+      "parent": "fresear",
+      "title": "Bajoran Engineering Institute",
+      "folder": "stations",
+      "role": "research",
+      "iconCell": 12,
+      "design": "Extrapolated research station",
+      "model": "bjresear",
+      "buttonCell": 12
+    },
+    {
+      "odf": "bjturret",
+      "parent": "fturret",
+      "title": "Bajoran Defense Emplacement",
+      "folder": "stations",
+      "role": "turret",
+      "iconCell": 13,
+      "design": "Extrapolated local defense",
+      "model": "bjturret",
+      "buttonCell": 13
+    },
+    {
+      "odf": "bjraider",
+      "parent": "fdanube",
+      "title": "Bajoran Sub-Impulse Raider",
+      "folder": "ships",
+      "role": "raider",
+      "iconCell": 2,
+      "design": "TV sub-impulse raider, adapted for map travel",
+      "model": "bjraider",
+      "buttonCell": 14
+    },
+    {
+      "odf": "bjlightship",
+      "parent": "fscout",
+      "title": "Bajoran Lightship",
+      "folder": "ships",
+      "role": "lightship",
+      "iconCell": 2,
+      "design": "TV solar-sail vessel, civilian survey adaptation",
+      "model": "bjlightship",
+      "buttonCell": 15
+    },
+    {
+      "odf": "bjcolony",
+      "parent": "fcolony",
+      "title": "Bajoran Colonial Transport",
+      "folder": "ships",
+      "role": "colony",
+      "iconCell": 5,
+      "design": "Extrapolated transport-family colony ship",
+      "model": "bjcolony",
+      "buttonCell": 16
+    },
+    {
+      "odf": "bjcargo",
+      "parent": "fcargo",
+      "title": "Bajoran Merchant Transport",
+      "folder": "ships",
+      "role": "cargo",
+      "iconCell": 1,
+      "design": "Extrapolated transport-family trade ship",
+      "model": "bjcargo",
+      "buttonCell": 17
+    },
+    {
+      "odf": "bjrepair",
+      "parent": "fsrepair",
+      "title": "Bajoran Engineering Support Vessel",
+      "folder": "ships",
+      "role": "repair",
+      "iconCell": 0,
+      "design": "Extrapolated repair tender",
+      "model": "bjrepair",
+      "buttonCell": 18
+    },
+    {
+      "odf": "bjcruiser",
+      "parent": "fcruise1",
+      "title": "Bajoran Militia Cruiser",
+      "folder": "ships",
+      "role": "cruiser",
+      "iconCell": 4,
+      "design": "Extrapolated enlarged assault-vessel hull",
+      "model": "bjcruiser",
+      "buttonCell": 19
+    },
+    {
+      "odf": "bjtorpedo",
+      "parent": "fcruise2",
+      "title": "Bajoran Torpedo Cruiser",
+      "folder": "ships",
+      "role": "torpedo",
+      "iconCell": 4,
+      "design": "Extrapolated assault hull with torpedo pods",
+      "model": "bjtorpedo",
+      "buttonCell": 20
+    },
+    {
+      "odf": "bjfrigate",
+      "parent": "ffrigate",
+      "title": "Bajoran Militia Frigate",
+      "folder": "ships",
+      "role": "frigate",
+      "iconCell": 3,
+      "design": "Extrapolated interceptor escort family",
+      "model": "bjfrigate",
+      "buttonCell": 21
+    },
+    {
+      "odf": "bjartillery",
+      "parent": "fcruise3",
+      "title": "Bajoran Long-Range Defense Vessel",
+      "folder": "ships",
+      "role": "artillery",
+      "iconCell": 4,
+      "design": "Extrapolated standoff assault hull",
+      "model": "bjartillery",
+      "buttonCell": 22
+    },
+    {
+      "odf": "bjbattle",
+      "parent": "fbattle",
+      "title": "Bajoran Militia Battleship",
+      "folder": "ships",
+      "role": "battleship",
+      "iconCell": 4,
+      "design": "Extrapolated heavy assault-family flagship",
+      "model": "bjbattle",
+      "buttonCell": 23
+    },
+    {
+      "odf": "bjspecial",
+      "parent": "fspecial",
+      "title": "Bajoran Science Support Vessel",
+      "folder": "ships",
+      "role": "special",
+      "iconCell": 12,
+      "design": "Extrapolated sensor/engineering support hull",
+      "model": "bjspecial",
+      "buttonCell": 24
+    },
+    {
+      "odf": "bjsuper",
+      "parent": "fbattle",
+      "title": "Bajoran Strategic Command Vessel",
+      "folder": "ships",
+      "role": "super",
+      "iconCell": 6,
+      "design": "Extrapolated heavy command hull, not a canon class",
+      "model": "bjsuper",
+      "buttonCell": 25
+    },
+    {
+      "odf": "bjresear2",
+      "parent": "fresear2",
+      "title": "Bajoran Advanced Research Institute",
+      "folder": "stations",
+      "role": "research2",
+      "iconCell": 12,
+      "design": "Extrapolated advanced research station",
+      "model": "bjresear2",
+      "buttonCell": 26
+    },
+    {
+      "odf": "bjupgrade",
+      "parent": "fupgrade",
+      "title": "Bajoran Systems Upgrade Center",
+      "folder": "stations",
+      "role": "upgrade",
+      "iconCell": 12,
+      "design": "Extrapolated systems engineering station",
+      "model": "bjupgrade",
+      "buttonCell": 27
+    },
+    {
+      "odf": "bjsensor",
+      "parent": "fsensor",
+      "title": "Bajoran Sensor Array",
+      "folder": "stations",
+      "role": "sensor",
+      "iconCell": 12,
+      "design": "Extrapolated long-range sensor installation",
+      "model": "bjsensor",
+      "buttonCell": 28
+    },
+    {
+      "odf": "bjorbital",
+      "parent": "forbital",
+      "title": "Bajoran Orbital Processing Facility",
+      "folder": "stations",
+      "role": "orbital",
+      "iconCell": 8,
+      "design": "Extrapolated planetary metal facility",
+      "model": "bjorbital",
+      "buttonCell": 29
+    },
+    {
+      "odf": "bjtrading",
+      "parent": "ftrading",
+      "title": "Bajoran Trade Center",
+      "folder": "stations",
+      "role": "trading",
+      "iconCell": 7,
+      "design": "Extrapolated merchant orbital hub",
+      "model": "bjtrading",
+      "buttonCell": 30
+    },
+    {
+      "odf": "bjturret2",
+      "parent": "fturret2",
+      "title": "Bajoran Torpedo Defense Emplacement",
+      "folder": "stations",
+      "role": "turret2",
+      "iconCell": 13,
+      "design": "Extrapolated heavy defense",
+      "model": "bjturret2",
+      "buttonCell": 31
+    },
+    {
+      "odf": "bjsuperlab",
+      "parent": "fresear2",
+      "title": "Prophets' Command Sanctuary",
+      "folder": "stations",
+      "role": "superlab",
+      "iconCell": 12,
+      "design": "Extrapolated strategic command research",
+      "model": "bjsuperlab",
+      "buttonCell": 32
+    },
+    {
+      "odf": "bjpod1",
+      "parent": "fedpod1",
+      "title": "Bajoran Tactical Systems",
+      "folder": "stations",
+      "role": "pod",
+      "iconCell": 12,
+      "design": "Extrapolated technology pod",
+      "model": "bjpod1",
+      "buttonCell": 33
+    },
+    {
+      "odf": "bjpod2",
+      "parent": "fedpod2",
+      "title": "Bajoran Shield Modulation",
+      "folder": "stations",
+      "role": "pod",
+      "iconCell": 12,
+      "design": "Extrapolated technology pod",
+      "model": "bjpod2",
+      "buttonCell": 34
+    },
+    {
+      "odf": "bjpod3",
+      "parent": "fedpod3",
+      "title": "Bajoran Sensor Countermeasures",
+      "folder": "stations",
+      "role": "pod",
+      "iconCell": 12,
+      "design": "Extrapolated technology pod",
+      "model": "bjpod3",
+      "buttonCell": 35
+    },
+    {
+      "odf": "bjpod4",
+      "parent": "fedpod4",
+      "title": "Bajoran Defensive Systems",
+      "folder": "stations",
+      "role": "pod",
+      "iconCell": 12,
+      "design": "Extrapolated technology pod",
+      "model": "bjpod4",
+      "buttonCell": 36
+    },
+    {
+      "odf": "bjpod5",
+      "parent": "fedpod5",
+      "title": "Bajoran Tachyon Detection",
+      "folder": "stations",
+      "role": "pod",
+      "iconCell": 12,
+      "design": "Extrapolated technology pod",
+      "model": "bjpod5",
+      "buttonCell": 37
+    },
+    {
+      "odf": "bjpod6",
+      "parent": "fedpod6",
+      "title": "Bajoran Engineering Support",
+      "folder": "stations",
+      "role": "pod",
+      "iconCell": 12,
+      "design": "Extrapolated technology pod",
+      "model": "bjpod6",
+      "buttonCell": 38
+    },
+    {
+      "odf": "bjpod7",
+      "parent": "fedpod7",
+      "title": "Bajoran Advanced Deflector",
+      "folder": "stations",
+      "role": "pod",
+      "iconCell": 12,
+      "design": "Extrapolated technology pod",
+      "model": "bjpod7",
+      "buttonCell": 39
+    },
+    {
+      "odf": "bjpod8",
+      "parent": "fedpod8",
+      "title": "Bajoran Advanced Sensors",
+      "folder": "stations",
+      "role": "pod",
+      "iconCell": 12,
+      "design": "Extrapolated technology pod",
+      "model": "bjpod8",
+      "buttonCell": 40
+    },
+    {
+      "odf": "bjpod9",
+      "parent": "fedpod9",
+      "title": "Bajoran Command Systems",
+      "folder": "stations",
+      "role": "pod",
+      "iconCell": 12,
+      "design": "Extrapolated technology pod",
+      "model": "bjpod9",
+      "buttonCell": 41
+    },
+    {
+      "odf": "bjpod11",
+      "parent": "fedpod11",
+      "title": "Bajoran Weapons II",
+      "folder": "stations",
+      "role": "pod",
+      "iconCell": 12,
+      "design": "Extrapolated technology pod",
+      "model": "bjpod11",
+      "buttonCell": 42
+    },
+    {
+      "odf": "bjpod12",
+      "parent": "fedpod12",
+      "title": "Bajoran Shields II",
+      "folder": "stations",
+      "role": "pod",
+      "iconCell": 12,
+      "design": "Extrapolated technology pod",
+      "model": "bjpod12",
+      "buttonCell": 43
+    },
+    {
+      "odf": "bjpod13",
+      "parent": "fedpod13",
+      "title": "Bajoran Sensors II",
+      "folder": "stations",
+      "role": "pod",
+      "iconCell": 12,
+      "design": "Extrapolated technology pod",
+      "model": "bjpod13",
+      "buttonCell": 44
+    },
+    {
+      "odf": "bjpod14",
+      "parent": "fedpod14",
+      "title": "Bajoran Engines II",
+      "folder": "stations",
+      "role": "pod",
+      "iconCell": 12,
+      "design": "Extrapolated technology pod",
+      "model": "bjpod14",
+      "buttonCell": 45
+    },
+    {
+      "odf": "bjpod15",
+      "parent": "fedpod15",
+      "title": "Bajoran Life Support II",
+      "folder": "stations",
+      "role": "pod",
+      "iconCell": 12,
+      "design": "Extrapolated technology pod",
+      "model": "bjpod15",
+      "buttonCell": 46
+    },
+    {
+      "odf": "bjpod16",
+      "parent": "fedpod16",
+      "title": "Bajoran Support Systems",
+      "folder": "stations",
+      "role": "pod",
+      "iconCell": 12,
+      "design": "Extrapolated technology pod",
+      "model": "bjpod16",
+      "buttonCell": 47
+    },
+    {
+      "odf": "bjpod21",
+      "parent": "fedpod21",
+      "title": "Bajoran Weapons III",
+      "folder": "stations",
+      "role": "pod",
+      "iconCell": 12,
+      "design": "Extrapolated technology pod",
+      "model": "bjpod21",
+      "buttonCell": 48
+    },
+    {
+      "odf": "bjpod22",
+      "parent": "fedpod22",
+      "title": "Bajoran Shields III",
+      "folder": "stations",
+      "role": "pod",
+      "iconCell": 12,
+      "design": "Extrapolated technology pod",
+      "model": "bjpod22",
+      "buttonCell": 49
+    },
+    {
+      "odf": "bjpod23",
+      "parent": "fedpod23",
+      "title": "Bajoran Sensors III",
+      "folder": "stations",
+      "role": "pod",
+      "iconCell": 12,
+      "design": "Extrapolated technology pod",
+      "model": "bjpod23",
+      "buttonCell": 50
+    },
+    {
+      "odf": "bjpod24",
+      "parent": "fedpod24",
+      "title": "Bajoran Engines III",
+      "folder": "stations",
+      "role": "pod",
+      "iconCell": 12,
+      "design": "Extrapolated technology pod",
+      "model": "bjpod24",
+      "buttonCell": 51
+    },
+    {
+      "odf": "bjpod25",
+      "parent": "fedpod25",
+      "title": "Bajoran Life Support III",
+      "folder": "stations",
+      "role": "pod",
+      "iconCell": 12,
+      "design": "Extrapolated technology pod",
+      "model": "bjpod25",
+      "buttonCell": 52
+    }
+  ],
+  "dependencies": {
+    "bjconst": [],
+    "bjbase": [],
+    "uconst": [],
+    "bjfreight": [
+      "bjmining"
+    ],
+    "bjcargo": [
+      "bjtrading"
+    ],
+    "bjrepair": [
+      "bjyard"
+    ],
+    "bjcolony": [
+      "bjyard",
+      "bjresear"
+    ],
+    "bjscout": [
+      "bjbase"
+    ],
+    "bjinterceptor": [
+      "bjyard"
+    ],
+    "bjraider": [
+      "bjyard"
+    ],
+    "bjtransport": [
+      "bjyard"
+    ],
+    "bjlightship": [
+      "bjyard"
+    ],
+    "bjassault": [
+      "bjyard",
+      "bjresear"
+    ],
+    "bjcruiser": [
+      "bjyard2"
+    ],
+    "bjtorpedo": [
+      "bjyard2",
+      "bjresear"
+    ],
+    "bjfrigate": [
+      "bjyard2"
+    ],
+    "bjartillery": [
+      "bjyard2",
+      "bjresear2"
+    ],
+    "bjbattle": [
+      "bjyard2",
+      "bjupgrade"
+    ],
+    "bjspecial": [
+      "bjyard2",
+      "bjresear2"
+    ],
+    "bjsuper": [
+      "bjyard3",
+      "bjsuperlab"
+    ],
+    "bjnerys": [
+      "bjyard3"
+    ],
+    "bjmining": [],
+    "bjyard": [
+      "bjbase"
+    ],
+    "bjresear": [
+      "bjbase",
+      "bjyard"
+    ],
+    "bjyard2": [
+      "bjyard",
+      "bjresear"
+    ],
+    "bjyard3": [
+      "bjresear2",
+      "bjyard2"
+    ],
+    "bjresear2": [
+      "bjyard2",
+      "bjresear"
+    ],
+    "bjupgrade": [
+      "bjresear",
+      "bjresear2"
+    ],
+    "bjsensor": [
+      "bjbase"
+    ],
+    "bjorbital": [
+      "bjbase"
+    ],
+    "bjtrading": [
+      "bjbase"
+    ],
+    "bjturret": [
+      "bjbase"
+    ],
+    "bjturret2": [
+      "bjresear"
+    ],
+    "bjsuperlab": [
+      "bjresear2",
+      "bjyard2"
+    ],
+    "bjpod1": [
+      "bjresear"
+    ],
+    "bjpod2": [
+      "bjresear"
+    ],
+    "bjpod3": [
+      "bjresear"
+    ],
+    "bjpod4": [
+      "bjresear"
+    ],
+    "bjpod5": [
+      "bjresear"
+    ],
+    "bjpod6": [
+      "bjresear2"
+    ],
+    "bjpod7": [
+      "bjresear2"
+    ],
+    "bjpod8": [
+      "bjresear2"
+    ],
+    "bjpod9": [
+      "bjresear2"
+    ],
+    "bjpod11": [
+      "bjupgrade"
+    ],
+    "bjpod12": [
+      "bjupgrade"
+    ],
+    "bjpod13": [
+      "bjupgrade"
+    ],
+    "bjpod14": [
+      "bjupgrade"
+    ],
+    "bjpod15": [
+      "bjupgrade"
+    ],
+    "bjpod16": [
+      "bjresear"
+    ],
+    "bjpod21": [
+      "bjupgrade",
+      "bjpod11"
+    ],
+    "bjpod22": [
+      "bjupgrade",
+      "bjpod12"
+    ],
+    "bjpod23": [
+      "bjupgrade",
+      "bjpod13"
+    ],
+    "bjpod24": [
+      "bjupgrade",
+      "bjpod14"
+    ],
+    "bjpod25": [
+      "bjupgrade",
+      "bjpod15"
+    ],
+    "xbj_gtracbm": [],
+    "xbj_gminedilithium": [],
+    "xbj_gminelatinum": [],
+    "xbj_gdetectf": [
+      "bjpod5"
+    ],
+    "xbj_gamine": [
+      "bjpod4"
+    ],
+    "xbj_gfcloak": [],
+    "xbj_gchainp": [
+      "bjpod2"
+    ],
+    "xbj_fcolonypod": [],
+    "xbj_grepairbeam": [],
+    "xbj_gwcover": [
+      "bjpod3"
+    ],
+    "xbj_gshldemt": [
+      "bjpod16"
+    ],
+    "xbj_gselfdes": [],
+    "xbj_gcorbom": [
+      "bjpod1"
+    ],
+    "xbj_gshieldh": [
+      "bjpod7"
+    ],
+    "xbj_gmanheim": [
+      "bjpod6"
+    ],
+    "xbj_gpdlaser": [
+      "bjpod9"
+    ],
+    "xbj_gschainp": [],
+    "xbjtakeover": [
+      "bjsuperlab",
+      "bjpod9"
+    ]
+  },
+  "menus": {
+    "bjconst": [
+      "bjbase",
+      "bjmining",
+      "bjyard",
+      "bjyard2",
+      "bjresear",
+      "bjresear2",
+      "bjupgrade",
+      "bjsensor",
+      "bjorbital",
+      "bjtrading",
+      "bjturret",
+      "bjturret2"
+    ],
+    "bjbase": [
+      "bjconst",
+      "uconst",
+      "bjfreight",
+      "bjcargo",
+      "bjrepair",
+      "bjcolony",
+      "bjscout"
+    ],
+    "bjmining": [
+      "bjfreight"
+    ],
+    "bjyard": [
+      "bjscout",
+      "bjinterceptor",
+      "bjraider",
+      "bjtransport",
+      "bjcolony",
+      "bjlightship",
+      "bjassault"
+    ],
+    "bjyard2": [
+      "bjcruiser",
+      "bjtorpedo",
+      "bjfrigate",
+      "bjartillery",
+      "bjbattle",
+      "bjspecial"
+    ],
+    "bjyard3": [
+      "bjnerys",
+      "bjsuper",
+      "bjbattle",
+      "bjspecial"
+    ],
+    "bjresear": [
+      "bjpod1",
+      "bjpod2",
+      "bjpod3",
+      "bjpod4",
+      "bjpod5",
+      "bjpod16"
+    ],
+    "bjresear2": [
+      "bjpod6",
+      "bjpod7",
+      "bjpod8",
+      "bjpod9"
+    ],
+    "bjupgrade": [
+      "bjpod11",
+      "bjpod12",
+      "bjpod13",
+      "bjpod14",
+      "bjpod15"
+    ],
+    "bjtrading": [
+      "bjcargo"
+    ],
+    "xbjuconst": [
+      "bbase",
+      "fbase",
+      "kbase",
+      "rbase",
+      "cbase",
+      "dbase",
+      "brbase",
+      "bjbase",
+      "bjsuperlab",
+      "bjyard3"
+    ]
+  },
+  "ai": [
+    [
+      "bjbase",
+      1,
+      1
+    ],
+    [
+      "xbjuconst",
+      1,
+      0
+    ],
+    [
+      "bjmining",
+      1,
+      0
+    ],
+    [
+      "bjfreight",
+      2,
+      0
+    ],
+    [
+      "bjyard",
+      1,
+      2
+    ],
+    [
+      "bjconst",
+      2,
+      0
+    ],
+    [
+      "bjinterceptor",
+      4,
+      0
+    ],
+    [
+      "bjresear",
+      1,
+      0
+    ],
+    [
+      "bjassault",
+      3,
+      0
+    ],
+    [
+      "bjcolony",
+      1,
+      0
+    ],
+    [
+      "bjorbital",
+      1,
+      0
+    ],
+    [
+      "bjtrading",
+      1,
+      0
+    ],
+    [
+      "bjcargo",
+      2,
+      0
+    ],
+    [
+      "bjturret",
+      2,
+      0
+    ],
+    [
+      "bjsensor",
+      1,
+      0
+    ],
+    [
+      "bjyard2",
+      1,
+      3
+    ],
+    [
+      "bjcruiser",
+      3,
+      0
+    ],
+    [
+      "bjtorpedo",
+      2,
+      0
+    ],
+    [
+      "bjfrigate",
+      2,
+      0
+    ],
+    [
+      "bjrepair",
+      1,
+      0
+    ],
+    [
+      "bjresear2",
+      1,
+      4
+    ],
+    [
+      "bjupgrade",
+      1,
+      5
+    ],
+    [
+      "bjpod11",
+      1,
+      0
+    ],
+    [
+      "bjpod12",
+      1,
+      0
+    ],
+    [
+      "bjbattle",
+      3,
+      0
+    ],
+    [
+      "bjspecial",
+      1,
+      0
+    ],
+    [
+      "bjartillery",
+      2,
+      0
+    ],
+    [
+      "bjsuperlab",
+      1,
+      0
+    ],
+    [
+      "bjpod9",
+      1,
+      0
+    ],
+    [
+      "bjyard3",
+      1,
+      6
+    ],
+    [
+      "bjnerys",
+      1,
+      0
+    ],
+    [
+      "bjsuper",
+      1,
+      0
+    ],
+    [
+      "bjpod21",
+      1,
+      0
+    ],
+    [
+      "bjpod22",
+      1,
+      0
+    ],
+    [
+      "bjfreight",
+      4,
+      0
+    ],
+    [
+      "bjcruiser",
+      6,
+      0
+    ],
+    [
+      "bjbattle",
+      6,
+      0
+    ]
+  ],
+  "specialWeapons": [
+    "xbj_gtracbm",
+    "xbj_gminedilithium",
+    "xbj_gminelatinum",
+    "xbj_gdetectf",
+    "xbj_gamine",
+    "xbj_gfcloak",
+    "xbj_gchainp",
+    "xbj_fcolonypod",
+    "xbj_grepairbeam",
+    "xbj_gwcover",
+    "xbj_gshldemt",
+    "xbj_gselfdes",
+    "xbj_gcorbom",
+    "xbj_gshieldh",
+    "xbj_gmanheim",
+    "xbj_gpdlaser",
+    "xbj_gschainp",
+    "xbjtakeover"
+  ],
+  "startingUnits": {
+    "standardUnits": [
+      "bjconst",
+      "bjconst",
+      "bjbase",
+      "bjscout",
+      "bjnerys"
+    ],
+    "minimalUnits": [
+      "bjconst",
+      "bjnerys"
+    ],
+    "superUnits": [
+      "bjconst",
+      "bjconst",
+      "bjbase",
+      "bjnerys"
+    ]
+  },
+  "stage": "D:/Xaramada-Modwork/bajor-rebuild",
+  "applied": true,
+  "runtimeTested": false,
+  "sourcePolicy": "TV designs where available; other roles explicitly extrapolated.",
+  "sources": [
+    "https://memory-alpha.fandom.com/wiki/Bajoran_interceptor",
+    "https://memory-alpha.fandom.com/wiki/Bajoran_vessel",
+    "https://memory-alpha.fandom.com/wiki/Bajoran_raider",
+    "https://memory-alpha.fandom.com/wiki/Bajoran_lightship"
+  ]
+}

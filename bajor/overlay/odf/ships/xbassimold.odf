@@ -137,12 +137,11 @@ physicsFile = "borg_scruise2phys"
 hotkeyLabel = "HOTKEY_F5"
 
 
-ScaleSOD = 1.75
-
-
-
-
-unitName = "Assimilator (Original)"
-tooltip = "Assimilator (Original)"
-verboseTooltip = "Original-install Assimilator, available separately alongside the current variant."
+ScaleSOD = 1.75
 baseName = "xbassimold"
+
+unitName = "Tactical Assimilator"
+
+tooltip = "Tactical Assimilator"
+
+verboseTooltip = "Tactical Assimilator. Requires the Technology Node (tier-two Borg research) and Assembly Matrix."

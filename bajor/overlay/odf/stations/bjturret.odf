@@ -105,9 +105,15 @@ crewCost = 0
 officerCost = 3
 buildTime = 45
 
-race = "bajoran"
+
 unitName = "Bajoran Defense Emplacement"
+
 tooltip = "Bajoran Defense Emplacement"
-verboseTooltip = "Bajoran Defense Emplacement. Bajoran Militia. TV-inspired game adaptation."
+
+verboseTooltip = "Bajoran Defense Emplacement. Extrapolated local defense."
+
+race = "bajoran"
 
 baseName = "bjturret"
+
+ScaleSOD = 1.0

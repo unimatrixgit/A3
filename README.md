@@ -9,7 +9,11 @@ Personal Star Trek Armada II mod configuration and repair scripts.
 
 This is not a standalone game. Retail game binaries and third-party model, texture, map and audio assets are excluded. A matching licensed installation and the asset packs below are required. Do not apply every historical repair script in sequence: some intentionally supersede earlier changes.
 
-Current build includes faction heroes, Shipyard III, Borg abilities and legacy roster, Omega refits, universal assembler, restored station art and cost adjustments. 25 downloaded maps with eight player slots were installed locally; maps are not redistributed here. Bajor is a prototype with Kira Nerys as the starting hero, research/economy and AI; it currently uses compatible proxy models. Fourteen generated Bajoran icons are installed. The first-pass custom models were reverted after in-game invisible geometry was reported; the game now uses compatible proxy models. Experimental models are staged separately and must not be installed as a working release. Custom models, assimilation graphics, full interface artwork and runtime validation remain incomplete. Recent crash repairs are candidates requiring new-match tests.
+Current Armada III files include faction heroes, Shipyard III, Borg abilities, faction Universal constructors and 25 local eight-player maps. The full Bajoran test package is installed: 19 ship roles, 14 buildings, 20 research pods, five skirmish AI profiles, all technology modes, model-rendered buttons and original synthetic Kira/Sela command lines. Picard's existing game recordings are used by Kira's Enterprise-E reinforcement. Deep Space 9 uses the installed DS9 model at a measured scale of 0.8858; Cardassian headquarters is named Terok Nor. Non-TV station names and Bajoran ship roles are explicitly game adaptations.
+
+The faction hero reinforcement popup is a shared stock mobile producer with a wormhole arrival effect. It uses normal construction costs and 15-second production. It is not a QuantumEffect special weapon, whose summoned units are hardcoded to Team 0. The Bajoran Command Sanctuary uses the stock override weapon, restricted to enemy stations, with a 999999-second control duration and a 5000-energy cost. The hero yard follows it in the Bajoran Universal constructor menu and shares its prerequisites.
+
+This release passed file/reference, actual model geometry, texture, hardpoint, production reachability, sequential AI dependency, voice registration and deployment-copy checks. Runtime visibility, movement, reinforcement control, AI economy and station takeover still require fresh-match testing. Earlier invisible Bajoran models were replaced in this test package with regenerated geometry and explicit hierarchy; successful gameplay is not yet claimed. The full package backup is recorded in `reports/bajoran-rebuild-apply.json`.
 
 Source assets and credits:
 - Armada II Upgrade Project 2.0.0, Freyr and contributors: https://www.gamefront.com/games/armada-2/file/armada-ii-upgrade-project-vanilla-ultimate
@@ -21,5 +25,6 @@ TV reference notes for Bajor are recorded in `bajor/manifest.json`. Gameplay add
 
 Active target: only D:\armadaIII. D:\Xaramada was restored to the supplied original installation. Historical reports refer to earlier states.
 SOD serialization tooling: https://github.com/Elenterius/stau. Tool is kept outside this repository; install it before running the Python modeling/audit scripts.
+
 
 

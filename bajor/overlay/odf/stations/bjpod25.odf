@@ -1,0 +1,48 @@
+#include "LifeSupportUpgradePod2.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//Race which can build ship & starting race of ship
+
+
+//tooltips
+
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Latinum Cost to build
+
+//Number of officers required to build this ship
+
+//Amount of time required to build ship
+
+//make this slightly larger than the level one pod
+
+
+hotkeyLabel = "HOTKEY_F5"
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 500
+metalCost = 250
+latinumCost = 0
+biomatterCost = 0
+crewCost = 0
+officerCost = 2
+buildTime = 240
+
+unitName = "Bajoran Life Support III"
+
+tooltip = "Bajoran Life Support III"
+
+verboseTooltip = "Bajoran Life Support III. Extrapolated technology pod."
+
+race = "bajoran"
+
+baseName = "bjpod25"
+
+ScaleSOD = 0.2

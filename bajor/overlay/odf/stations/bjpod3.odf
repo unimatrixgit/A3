@@ -1,0 +1,60 @@
+#include "pod.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+//Race which can build ship & starting race of ship
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//metal Cost to build
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+//eventSelect = "EngineOver"
+
+//**********************************************************************
+animation = 2
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "en_overload"
+hotkeyLabel = "HOTKEY_F4"
+
+
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 0
+metalCost = 400
+latinumCost = 0
+biomatterCost = 0
+crewCost = 0
+officerCost = 1
+buildTime = 80
+
+unitName = "Bajoran Sensor Countermeasures"
+
+tooltip = "Bajoran Sensor Countermeasures"
+
+verboseTooltip = "Bajoran Sensor Countermeasures. Extrapolated technology pod."
+
+race = "bajoran"
+
+baseName = "bjpod3"
+
+ScaleSOD = 0.2

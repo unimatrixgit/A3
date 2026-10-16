@@ -1,0 +1,14 @@
+const fs=require('fs'),p=require('path'),root='D:/armadaIII',repo='D:/aramada',stage='D:/Xaramada-Modwork/bajor-rebuild';
+const read=f=>fs.readFileSync(f,'latin1'),save=(rel,t)=>{let f=stage+'/'+rel;fs.mkdirSync(p.dirname(f),{recursive:true});fs.writeFileSync(f,t,'latin1');};
+let m=JSON.parse(fs.readFileSync(repo+'/bajor/rebuild-manifest.json','utf8')),spr=read(root+'/Sprites/gui_global.spr');
+for(let u of m.units){let x=u.buttonCell%8*64,y=Math.floor(u.buttonCell/8)*64;for(let key of ['b_'+u.odf,...Array.from({length:5},(_,i)=>u.odf+'w'+(i+1))]){spr=spr.replace(new RegExp('^\\s*'+key+'\\s+.*$','gmi'),'');spr+='\r\n@reference=512\r\n@tmaterial=default\r\n'+key+' xbajbuttons '+x+' '+y+' 64 64\r\n';}}
+for(let name of m.specialWeapons){let source=name.replace(/^xbj_/,''),entry=spr.match(new RegExp('^\\s*b_'+source+'\\s+([^\\r\\n]+)','mi'));if(!entry)continue;spr=spr.replace(new RegExp('^\\s*b_'+name+'\\s+.*$','gmi'),'');spr+='\r\n@reference=64\r\n@tmaterial=default\r\nb_'+name+' '+entry[1]+'\r\n';}
+save('Sprites/gui_global.spr',spr);
+let voices=JSON.parse(fs.readFileSync(repo+'/reports/synthetic-hero-voices.json','utf8').replace(/^\uFEFF/,'')),events=read(root+'/events.dat'),voiceMap={Kira:'bjnerys',Sela:'xhrhero'};
+for(let [hero,unit]of Object.entries(voiceMap)){let rel='odf/ships/'+unit+'.odf',t=read(fs.existsSync(stage+'/'+rel)?stage+'/'+rel:root+'/'+rel);let groups=new Map();for(let row of voices.filter(v=>v.hero===hero)){if(!groups.has(row.action))groups.set(row.action,[]);groups.get(row.action).push(row.file);}for(let [action,clips]of groups){let key='XVoice_'+hero+'_'+action;events=events.replace(new RegExp('^\\s*'+key+'\\s*\\{[^{}]*\\}\\s*','gmi'),'');events+='\r\n'+key+'{\r\nTable\r\n'+clips.map(f=>'Sound "'+f+'"').join('\r\n')+'\r\nSoundPriority 2\r\n}\r\n';t=t.replace(new RegExp('^\\s*event'+action+'\\s*=.*$','gmi'),'');t+='\r\nevent'+action+' = "'+key+'"\r\n';}save(rel,t);}
+save('events.dat',events);
+for(let name of ['xbajhull.tga','xbajhull_B.tga']){let rel='Textures/RGB/'+name;fs.mkdirSync(p.dirname(stage+'/'+rel),{recursive:true});fs.copyFileSync(root+'/'+rel,stage+'/'+rel);}
+// A faction-specific voice for global computer messages still uses existing game recordings.
+let notes={target:root,generatedVoices:voices.length,voiceProfiles:['Kira - decisive original lines','Sela - formal original lines'],actorImitation:false,voiceEngine:'Microsoft Zira Desktop; Windows System.Speech',nativeHeroRecordingsRetained:['Picard','Martok','Weyoun'],nativeFallbacksRetained:['Locutus/Borg','Dukat/Cardassian','Breen','Species 8472'],modelPolicy:'TV-inspired low-poly gameplay adaptations; experimental until in-game visibility confirmation',source: m.sources};
+fs.writeFileSync(repo+'/bajor/release-notes.json',JSON.stringify(notes,null,2));
+console.log('Bajoran model-based icons, special-ability buttons and 42 synthetic voice clips prepared; native hero audio retained.');

@@ -1,0 +1,338 @@
+{
+  "target": "D:/armadaIII",
+  "stage": "D:/Xaramada-Modwork/bajor-rebuild",
+  "units": 53,
+  "productionMenus": [
+    {
+      "unit": "bjconst",
+      "prefix": "builditem",
+      "count": 12
+    },
+    {
+      "unit": "bjnerys",
+      "prefix": "builditem",
+      "count": 1
+    },
+    {
+      "unit": "bjbase",
+      "prefix": "builditem",
+      "count": 7
+    },
+    {
+      "unit": "bjmining",
+      "prefix": "builditem",
+      "count": 1
+    },
+    {
+      "unit": "bjyard",
+      "prefix": "builditem",
+      "count": 7
+    },
+    {
+      "unit": "bjyard2",
+      "prefix": "builditem",
+      "count": 6
+    },
+    {
+      "unit": "bjyard3",
+      "prefix": "builditem",
+      "count": 4
+    },
+    {
+      "unit": "bjresear",
+      "prefix": "builditem",
+      "count": 6
+    },
+    {
+      "unit": "bjresear2",
+      "prefix": "builditem",
+      "count": 4
+    },
+    {
+      "unit": "bjupgrade",
+      "prefix": "builditem",
+      "count": 5
+    },
+    {
+      "unit": "bjupgrade",
+      "prefix": "secondarybuilditem",
+      "count": 5
+    },
+    {
+      "unit": "bjtrading",
+      "prefix": "builditem",
+      "count": 1
+    }
+  ],
+  "reachable": 54,
+  "aiChecks": [
+    {
+      "unit": "bjbase",
+      "producers": [
+        "bjconst"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "xbjuconst",
+      "producers": [
+        "bjbase"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjmining",
+      "producers": [
+        "bjconst"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjfreight",
+      "producers": [
+        "bjbase",
+        "bjmining"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjyard",
+      "producers": [
+        "bjconst"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjconst",
+      "producers": [
+        "bjbase"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjinterceptor",
+      "producers": [
+        "bjyard"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjresear",
+      "producers": [
+        "bjconst"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjassault",
+      "producers": [
+        "bjyard"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjcolony",
+      "producers": [
+        "bjbase",
+        "bjyard"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjorbital",
+      "producers": [
+        "bjconst"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjtrading",
+      "producers": [
+        "bjconst"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjcargo",
+      "producers": [
+        "bjbase",
+        "bjtrading"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjturret",
+      "producers": [
+        "bjconst"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjsensor",
+      "producers": [
+        "bjconst"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjyard2",
+      "producers": [
+        "bjconst"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjcruiser",
+      "producers": [
+        "bjyard2"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjtorpedo",
+      "producers": [
+        "bjyard2"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjfrigate",
+      "producers": [
+        "bjyard2"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjrepair",
+      "producers": [
+        "bjbase"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjresear2",
+      "producers": [
+        "bjconst"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjupgrade",
+      "producers": [
+        "bjconst"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjpod11",
+      "producers": [
+        "bjupgrade"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjpod12",
+      "producers": [
+        "bjupgrade"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjbattle",
+      "producers": [
+        "bjyard2"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjspecial",
+      "producers": [
+        "bjyard2"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjartillery",
+      "producers": [
+        "bjyard2"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjsuperlab",
+      "producers": [
+        "xbjuconst"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjpod9",
+      "producers": [
+        "bjresear2"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjyard3",
+      "producers": [
+        "xbjuconst"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjnerys",
+      "producers": [
+        "bjyard3"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjsuper",
+      "producers": [
+        "bjyard3"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjpod21",
+      "producers": [
+        "bjupgrade"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjpod22",
+      "producers": [
+        "bjupgrade"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjfreight",
+      "producers": [
+        "bjbase",
+        "bjmining"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjcruiser",
+      "producers": [
+        "bjyard2"
+      ],
+      "missingPrerequisites": []
+    },
+    {
+      "unit": "bjbattle",
+      "producers": [
+        "bjyard2",
+        "bjyard3"
+      ],
+      "missingPrerequisites": []
+    }
+  ],
+  "voiceClips": 42,
+  "errors": [],
+  "warnings": [],
+  "runtimeVerified": false
+}

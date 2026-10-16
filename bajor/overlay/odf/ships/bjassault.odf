@@ -69,7 +69,7 @@ weapon1 = "fakiraphas"
 weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
 
 // Chain Reaction Pulsar
-weapon2 = "gchainp"
+
 weaponHardpoints2 = "hp39"
 
 // Photon torpedos
@@ -108,7 +108,7 @@ hotkeyLabel = "HOTKEY_F5"
 
 // with no scale 1/2 of sovereign
 // want 2/3 of sovereign
-ScaleSOD = 1.0
+
 
 
 //physics file for all other physics stuff
@@ -126,9 +126,17 @@ crewCost = 200
 officerCost = 9
 buildTime = 12
 
-race = "bajoran"
+
 unitName = "Bajoran Assault Vessel"
+
 tooltip = "Bajoran Assault Vessel"
-verboseTooltip = "Bajoran Assault Vessel. Bajoran Militia. TV-inspired game adaptation."
+
+verboseTooltip = "Bajoran Assault Vessel. TV multi-role assault vessel."
+
+race = "bajoran"
 
 baseName = "bjassault"
+
+ScaleSOD = 1.0
+
+weapon2 = "xbj_gchainp"
