@@ -7,98 +7,98 @@
       "parent": "fconst",
       "title": "Militia Construction Tender",
       "model": "bjconst",
-      "artwork": "Original low-poly gameplay adaptation; generated bronze hull; Borg assimilation texture mapped"
+      "artwork": "Generated Bajoran icon; compatible proxy geometry restored after custom model rendering failure"
     },
     {
       "odf": "bjfreight",
       "parent": "ffreight",
       "title": "Bajoran Resource Freighter",
       "model": "bjfreight",
-      "artwork": "Original low-poly gameplay adaptation; generated bronze hull; Borg assimilation texture mapped"
+      "artwork": "Generated Bajoran icon; compatible proxy geometry restored after custom model rendering failure"
     },
     {
       "odf": "bjscout",
       "parent": "fscout",
       "title": "Bajoran Scout Vessel",
       "model": "bjscout",
-      "artwork": "Original low-poly gameplay adaptation; generated bronze hull; Borg assimilation texture mapped"
+      "artwork": "Generated Bajoran icon; compatible proxy geometry restored after custom model rendering failure"
     },
     {
       "odf": "bjinterceptor",
       "parent": "fdestroy",
       "title": "Bajoran Interceptor",
       "model": "bjinterceptor",
-      "artwork": "Original low-poly gameplay adaptation; generated bronze hull; Borg assimilation texture mapped"
+      "artwork": "Generated Bajoran icon; compatible proxy geometry restored after custom model rendering failure"
     },
     {
       "odf": "bjassault",
       "parent": "fcruise1",
       "title": "Bajoran Assault Vessel",
       "model": "bjassault",
-      "artwork": "Original low-poly gameplay adaptation; generated bronze hull; Borg assimilation texture mapped"
+      "artwork": "Generated Bajoran icon; compatible proxy geometry restored after custom model rendering failure"
     },
     {
       "odf": "bjtransport",
       "parent": "fantares",
       "title": "Bajoran Antares Transport",
       "model": "bjtransport",
-      "artwork": "Original low-poly gameplay adaptation; generated bronze hull; Borg assimilation texture mapped"
+      "artwork": "Generated Bajoran icon; compatible proxy geometry restored after custom model rendering failure"
     },
     {
       "odf": "bjnerys",
       "parent": "fdestroy",
       "title": "Colonel Kira Nerys - Command Interceptor",
       "model": "bjnerys",
-      "artwork": "Original low-poly gameplay adaptation; generated bronze hull; Borg assimilation texture mapped"
+      "artwork": "Generated Bajoran icon; compatible proxy geometry restored after custom model rendering failure"
     },
     {
       "odf": "bjbase",
       "parent": "fbase",
       "title": "Bajoran Militia Headquarters",
       "model": "bjbase",
-      "artwork": "Original low-poly gameplay adaptation; generated bronze hull; Borg assimilation texture mapped"
+      "artwork": "Generated Bajoran icon; compatible proxy geometry restored after custom model rendering failure"
     },
     {
       "odf": "bjmining",
       "parent": "fmining",
       "title": "Bajoran Resource Processing",
       "model": "bjmining",
-      "artwork": "Original low-poly gameplay adaptation; generated bronze hull; Borg assimilation texture mapped"
+      "artwork": "Generated Bajoran icon; compatible proxy geometry restored after custom model rendering failure"
     },
     {
       "odf": "bjyard",
       "parent": "fyard",
       "title": "Militia Shipyard I",
       "model": "bjyard",
-      "artwork": "Original low-poly gameplay adaptation; generated bronze hull; Borg assimilation texture mapped"
+      "artwork": "Generated Bajoran icon; compatible proxy geometry restored after custom model rendering failure"
     },
     {
       "odf": "bjyard2",
       "parent": "fyard2",
       "title": "Militia Shipyard II",
       "model": "bjyard2",
-      "artwork": "Original low-poly gameplay adaptation; generated bronze hull; Borg assimilation texture mapped"
+      "artwork": "Generated Bajoran icon; compatible proxy geometry restored after custom model rendering failure"
     },
     {
       "odf": "bjyard3",
       "parent": "fyard2",
       "title": "Militia Command Shipyard III",
       "model": "bjyard3",
-      "artwork": "Original low-poly gameplay adaptation; generated bronze hull; Borg assimilation texture mapped"
+      "artwork": "Generated Bajoran icon; compatible proxy geometry restored after custom model rendering failure"
     },
     {
       "odf": "bjresear",
       "parent": "fresear",
       "title": "Bajoran Engineering Institute",
       "model": "bjresear",
-      "artwork": "Original low-poly gameplay adaptation; generated bronze hull; Borg assimilation texture mapped"
+      "artwork": "Generated Bajoran icon; compatible proxy geometry restored after custom model rendering failure"
     },
     {
       "odf": "bjturret",
       "parent": "fturret",
       "title": "Bajoran Defense Emplacement",
       "model": "bjturret",
-      "artwork": "Original low-poly gameplay adaptation; generated bronze hull; Borg assimilation texture mapped"
+      "artwork": "Generated Bajoran icon; compatible proxy geometry restored after custom model rendering failure"
     }
   ],
   "selection": "Bajor uses slot 7 in this separate copy; Breen retained but not selectable",
@@ -110,6 +110,7 @@
     "https://memory-alpha.fandom.com/wiki/Kira%27s_interceptor"
   ],
   "buildIconsComplete": true,
-  "customModelsComplete": true,
-  "assimilatedTexturesMapped": true
+  "customModelsComplete": false,
+  "assimilatedTexturesMapped": false,
+  "customModelsStatus": "Staged, reverted after user reported invisible models"
 }
