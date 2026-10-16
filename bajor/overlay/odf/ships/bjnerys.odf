@@ -151,8 +151,7 @@ officerCost = 7
 race = "bajoran"
 unitName = "Colonel Kira Nerys - Command Interceptor"
 tooltip = "Colonel Kira Nerys - Command Interceptor"
-verboseTooltip = "Colonel Kira Nerys - Command Interceptor. Bajoran Militia. TV-inspired game adaptation."
-baseName = "fdestroy"
+verboseTooltip = "Colonel Kira Nerys - Command Interceptor. Bajoran Militia. TV-inspired game adaptation."
 isHero = 1
 maxHealth = 650
 dilithiumCost = 350
@@ -183,3 +182,5 @@ eventTransport = "XV_bjnerys_Transport"
 eventSelfDestruct = "XV_bjnerys_SelfDestruct"
 
 eventDecommission = "XV_bjnerys_Decommission"
+
+baseName = "bjnerys"

@@ -1,0 +1,155 @@
+sprite_table
+
+#### Nebula sprite 'billboard' effects #####
+
+## SPRITE DEFINITIONS ##
+
+# @reference=texture size in pixels from which the u,v,w, and h values
+# were measured.  This value will effect all subsequent textures until
+# a different value is specified.
+
+# Name	File			U	V	W	H		
+
+@reference=128
+@tmaterial=additive
+## @tmaterial=alphathreshold
+
+radon1		Mnebula1	0	0	64	64		
+radon2		Mnebula1	0	64	64	64	
+radon3		Mnebula1	64	0	64	64	
+radon4		Mnebula1	64	64	64	64	
+ion1		Mnebula2	0	0	64	64	
+ion2		Mnebula2	0	64	64	64	
+ion3		Mnebula2	64	0	64	64	
+ion4		Mnebula2	64	64	64	64	
+mutura1		Mnebula3	0	0	64	64	
+mutura2		Mnebula3	0	64	64	64	
+mutura3		Mnebula3	64	0	64	64	
+mutura4		Mnebula3	64	64	64	64	
+metrion1	Mnebula4	0	0	64	64	
+metrion2	Mnebula4	0	64	64	64	
+metrion3	Mnebula4	64	0	64	64	
+metrion4	Mnebula4	64	64	64	64	
+neutral1	Mnebula5	0	0	64	64	
+neutral2	Mnebula5	0	64	64	64	
+neutral3	Mnebula5	64	0	64	64	
+neutral4	Mnebula5	64	64	64	64	
+lightning1	Xlightning	0	0	32	64	
+lightning2	Xlightning	96	0	32	64	
+lightning3	Xlightning	64	0	32	64	
+lightning4	Xlightning	32	64	32	64	
+lightning5	Xlightning	64	64	32	64	
+fluid1		MFluidicNeb	0	0	64	64		
+fluid2		MFluidicNeb	0	64	64	64	
+fluid3		MFluidicNeb	64	0	64	64	
+fluid4		MFluidicNeb	64	64	64	64	
+tachyon1	MtachyonNeb	0	0	64	64		
+tachyon2	MtachyonNeb	0	64	64	64	
+tachyon3	MtachyonNeb	64	0	64	64	
+tachyon4	MtachyonNeb	64	64	64	64	
+latinum1	Mlatinum	0	0	64	64		
+latinum2	Mlatinum	0	64	64	64	
+latinum3	Mlatinum	64	0	64	64	
+latinum4	Mlatinum	64	64	64	64	
+
+## SPRITE NODE DEFINITIONS ##
+
+# @sprite_node name sprite animation (width,height) (r,g,b)
+# RGB Colour values range from 0 (none) to 1.0 (full intensity)
+
+# nebula1 radiation
+@sprite_node radon1 radon1 yellow.colour (80,80) (.2,.1,.1) billboard
+@sprite_node radon2 radon2 yellow.colour (30,30) (.4,.2,.1) billboard
+@sprite_node radon3 radon3 yellow.colour (40,40) (.1,.2,.4) billboard
+@sprite_node radon4 radon4 yellow.colour (50,50) (.1,.5,.2) billboard
+
+# nebula2 ionstorm
+@sprite_node ion1 ion1 red1.colour  (80,80) (.2,.1,.1) billboard
+@sprite_node ion2 ion2 red2.colour  (50,50) (.4,.2,.1) billboard
+@sprite_node ion3 ion3 red1.colour  (40,40) (.1,.2,.4) billboard
+@sprite_node ion4 ion4 red3.colour  (30,30) (.1,.5,.2) billboard
+
+# nebula3 matura
+@sprite_node mutura1 metrion1 purple1.colour (30,30) (.2,.1,.1) billboard
+@sprite_node mutura2 metrion2 purple1.colour (50,50) (.4,.2,.1) billboard
+@sprite_node mutura3 metrion3 purple1.colour (40,40) (.1,.2,.4) billboard
+@sprite_node mutura4 metrion4 purple1.colour (80,80) (.1,.5,.2) billboard
+
+# nebula4 metrion
+@sprite_node metrion1 metrion1 green1.colour (40,40) (.2,.1,.1) billboard
+@sprite_node metrion2 metrion2 green1.colour (50,50) (.4,.2,.1) billboard
+@sprite_node metrion3 metrion3 green1.colour (30,30) (.1,.2,.4) billboard
+@sprite_node metrion4 metrion4 green1.colour (80,80) (.1,.5,.2) billboard
+
+# nebula5 neutral
+@sprite_node neutral1 neutral1 blue1.colour (30,30) (.2,.1,.1) billboard
+@sprite_node neutral2 neutral2 blue1.colour (50,50) (.4,.2,.1) billboard
+@sprite_node neutral3 neutral3 blue1.colour (80,80) (.1,.2,.4) billboard
+@sprite_node neutral4 neutral4 blue1.colour (40,40) (.1,.5,.2) billboard
+
+# nebula6 big radiation
+@sprite_node bigradon1 radon1 yellow.colour (400,400) (.2,.1,.1) billboard
+@sprite_node bigradon2 radon2 yellow.colour (150,150) (.4,.2,.1) billboard
+@sprite_node bigradon3 radon3 yellow.colour (200,200) (.1,.2,.4) billboard
+@sprite_node bigradon4 radon4 yellow.colour (250,250) (.1,.5,.2) billboard
+
+# nebula7 big ionstorm
+@sprite_node bigion1 ion1 red1.colour  (400,400) (.2,.1,.1) billboard
+@sprite_node bigion2 ion2 red2.colour  (250,250) (.4,.2,.1) billboard
+@sprite_node bigion3 ion3 red1.colour  (200,200) (.1,.2,.4) billboard
+@sprite_node bigion4 ion4 red3.colour  (150,150) (.1,.5,.2) billboard
+
+# nebula8 big mutura
+@sprite_node bigmutura1 metrion1 purple1.colour (120,120) (.2,.1,.1) billboard
+@sprite_node bigmutura2 metrion2 purple1.colour (200,200) (.4,.2,.1) billboard
+@sprite_node bigmutura3 metrion3 purple1.colour (160,160) (.1,.2,.4) billboard
+@sprite_node bigmutura4 metrion4 purple1.colour (320,320) (.1,.5,.2) billboard
+
+# nebula9 big metrion (metaphasic)
+@sprite_node bigmetrion1 metrion1 green1.colour (200,200) (.2,.0,.1) billboard
+@sprite_node bigmetrion2 metrion2 green1.colour (250,250) (.4,.2,.0) billboard
+@sprite_node bigmetrion3 metrion3 green1.colour (150,150) (.8,.2,.7) billboard
+@sprite_node bigmetrion4 metrion4 green1.colour (400,400) (.4,.0,.6) billboard
+
+# nebula10 big neutral (cerulean)
+@sprite_node bigneutral1 neutral1 blue1.colour (150,150) (.5,.1,.6) billboard
+@sprite_node bigneutral2 neutral2 blue1.colour (250,250) (.7,.1,.7) billboard
+@sprite_node bigneutral3 neutral3 blue1.colour (400,400) (.3,.0,.4) billboard
+@sprite_node bigneutral4 neutral4 blue1.colour (200,200) (.1,.5,.0) billboard
+
+# nebula11 big neutral (impenetrable)
+@sprite_node bigneutral1 neutral1 blue1.colour (150,150) (.2,.1,.1) billboard
+@sprite_node bigneutral2 neutral2 blue1.colour (250,250) (.4,.2,.1) billboard
+@sprite_node bigneutral3 neutral3 blue1.colour (400,400) (.1,.2,.4) billboard
+@sprite_node bigneutral4 neutral4 blue1.colour (200,200) (.1,.5,.2) billboard
+
+# ion storm lightning
+@sprite_node lightning1 lightning1 flash1 (32,16) (1,.8,1) 
+@sprite_node lightning2 lightning2 flash2 (24,12) (1,1,1) 
+@sprite_node lightning3 lightning3 flash3 (36,18) (.8,.8,1) 
+@sprite_node lightning4 lightning4 flash2 (48,24) (.6,.5,1) 
+@sprite_node lightning5 lightning5 flash1 (18,9) (1,1,1)
+
+# fluidicnebula
+@sprite_node fluid1 fluid1 green1.colour (100,100) (.2,.4,.1) billboard
+@sprite_node fluid2 fluid2 green2.colour (50,50) (.4,.6,.1) billboard
+@sprite_node fluid3 fluid3 green1.colour (60,60) (.1,.2,.4) billboard
+@sprite_node fluid4 fluid4 green2.colour (80,80) (.1,.5,.2) billboard
+
+# tachyonnebula
+@sprite_node tachyon1 tachyon1 multi2.colour (150,150) (.2,.1,.1) billboard
+@sprite_node tachyon2 tachyon2 multi2.colour (250,250) (.4,.2,.1) billboard
+@sprite_node tachyon3 tachyon3 multi2.colour (400,400) (.1,.2,.4) billboard
+@sprite_node tachyon4 tachyon4 multi2.colour (200,200) (.1,.5,.2) billboard
+
+# LatinumNebula
+@sprite_node latinum1 latinum1 yellow.colour  (100,100) (.2,.1,.1) billboard
+@sprite_node latinum2 latinum2 yellow2.colour (50,50) (.4,.2,.1) billboard
+@sprite_node latinum3 latinum3 yellow.colour  (80,80) (.1,.2,.4) billboard
+@sprite_node latinum4 latinum4 yellow2.colour (60,60) (.1,.5,.2) billboard
+
+# LatinumNebula flash
+//@sprite_node Lflash1 Lflash1 flash1 (32,16) (.2,.1,.1) billboard
+//@sprite_node Lflash2 Lflash2 flash2 (24,12) (.4,.2,.1) billboard
+//@sprite_node Lflash3 Lflash3 flash3 (36,18)  (.1,.2,.4) billboard
+

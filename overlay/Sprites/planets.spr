@@ -1,0 +1,90 @@
+sprite_table
+
+# -----------------
+# Planets
+# -----------------
+
+# All starfield sprites are additively blended
+@tmaterial=additive
+
+# set reference texture size
+@reference=128
+@tmaterial=additive
+wormsprite 	xprmgate	0	0	64	64	@anim=tex2x2
+
+@reference=128
+@tmaterial=additive
+
+# Name      	File       	U 	V 	W 	H 	
+Lbluestar       Mstars                  64      0       64      64
+Lpurpstar       Mstars                  64      64      64      64
+Soranstar       Mstars                  0	16      32      32
+Sbluestar       Mstars                  32	16      32      32
+Spurpstar       Mstars                  0	48      32      32
+Sredstar        Mstars                  32	48      32      32
+	
+@reference=256
+@tmaterial=additive
+Yellowsun	Mmoon		128	0	128	128	
+bluesun		Mmoon		0	128	128	128     
+redsun		Mmoon		128	128	128	128	
+
+
+@reference=256
+@tmaterial=alphathreshold
+moon		Mmoon		0	0	128	128
+Borgcol1        Bcolect		0	0	128	128
+Borgcol2        Bcolect		128	0	128	128
+Borgcol3       Bcolect		90	109	147	147
+
+@reference=128
+@tmaterial=additive
+warp_sprite	Mwarp	0	0	128	128
+
+#Nimbus for planets
+@sprite_node Meridon dmoonglow const (495,495) (0.6,0.9,1) billboard
+
+@sprite_node Mearth dmoonglow const (495,495) (0.6,0.9,1) billboard
+
+@sprite_node Mearthbg dmoonglow const (495,495) (0.1,0.8,0.4) billboard
+
+@sprite_node Mbaku dmoonglow const (495,495) (0.1,0.8,0.4) billboard
+
+@sprite_node Mromulus dmoonglow const (495,495) (0.1,0.8,0.4) billboard
+
+@sprite_node Mremus dmoonglow const (495,495) (0.1,0.8,0.4) billboard
+
+@sprite_node Mborgpl dmoonglow const (495,495) (0.1,0.8,0.4) billboard
+
+@sprite_node Mquonos dmoonglow const (495,495) (1,0.5,0.1) billboard
+
+@sprite_node Mbarisa dmoonglow const (495,495) (1,0.5,0.1) billboard
+
+@sprite_node Mkrios dmoonglow const (495,495) (0.9,0.3,0) billboard
+
+@sprite_node Mlankal dmoonglow const (495,495) (0.6,0.6,0.1) billboard
+
+#Moon & Suns
+@sprite_node moon moon const (200,200) (1,1,1) billboard
+
+@sprite_node sun1 yellowsun const (200,200) (1,1,1) billboard
+
+@sprite_node sun2 bluesun const (200,200) (1,1,1) billboard
+
+@sprite_node sun3 redsun const (200,200) (1,1,1) billboard
+
+#Borg colectives
+@sprite_node bcolect1 Borgcol1 const (100,100) (0.7,0.7,0.7) billboard
+@sprite_node bcolect2 Borgcol2 const (150,150) (0.7,0.7,0.7) billboard
+@sprite_node bcolect3 Borgcol3 const (200,200) (0.7,0.7,0.7) billboard
+
+#Stars
+@sprite_node Lbluestr Lbluestar const (200,200) (1,1,1) billboard
+@sprite_node Lpurpstr Lpurpstar const (200,200) (1,1,1) billboard
+@sprite_node Soranstr Soranstar const (100,100) (1,1,1) billboard
+@sprite_node Sbluestr Sbluestar const (100,100) (1,1,1) billboard
+@sprite_node Spurpstr Spurpstar const (100,100) (1,1,1) billboard
+@sprite_node Sredstr  Sredstar  const (100,100) (1,1,1) billboard
+
+#worm hole
+@sprite_node wormglow wormsprite const (12,12) (1,1,1) billboard

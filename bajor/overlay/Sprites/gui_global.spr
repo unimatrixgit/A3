@@ -5866,60 +5866,46 @@ b_cspecial gbcspecial 0	0	64	64
 b_csuper gbcsuper 0	0	64	64
 
 @reference=64
-@tmaterial=default
-b_bjconst gbfconst 0	0	64	64		
+@tmaterial=default
 
 @reference=64
-@tmaterial=default
-b_bjfreight gbffreight 0	0	64	64
+@tmaterial=default
 
 @reference=64
-@tmaterial=default
-b_bjscout gbfscout 0	0	64	64
+@tmaterial=default
 
 @reference=64
-@tmaterial=default
-b_bjinterceptor gbfdestroy 0	0	64	64		
+@tmaterial=default
 
 @reference=64
-@tmaterial=default
-b_bjassault gbfcruise1		0	0	64	64		
+@tmaterial=default
 
 @reference=64
-@tmaterial=default
-b_bjtransport gbfantares	       	0       0       64      64
+@tmaterial=default
 
 @reference=64
-@tmaterial=default
-b_bjnerys gbfdestroy 0	0	64	64		
+@tmaterial=default
 
 @reference=64
-@tmaterial=default
-b_bjbase gbfbase		0	0	64	64
+@tmaterial=default
 
 @reference=64
-@tmaterial=default
-b_bjmining gbfmining		0	0	64	64		
+@tmaterial=default
 
 @reference=64
-@tmaterial=default
-b_bjyard gbfyard		0	0	64	64
+@tmaterial=default
 
 @reference=64
-@tmaterial=default
-b_bjyard2 gbfyard200		0	0	64	64	
+@tmaterial=default
 
 @reference=64
-@tmaterial=default
-b_bjyard3 gbfyard200		0	0	64	64	
+@tmaterial=default
 
 @reference=64
-@tmaterial=default
-b_bjresear gbfresear		0	0	64	64		
+@tmaterial=default
 
 @reference=64
-@tmaterial=default
-b_bjturret gbfturret00		0	0	64	64		
+@tmaterial=default
 
 @reference=64
 @tmaterial=default
@@ -10226,144 +10212,109 @@ b_cconst gbcconst 0	0	64	64
 b_uconst gbbconst 0	0	64	64	
 
 @reference=256
-@tmaterial=interface
-bjbasew1 fedwireframe05 0	48	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjbasew2 fedwireframe05 48	48	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjbasew3 fedwireframe05 96	48	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjbasew4 fedwireframe05 144	48	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjbasew5 fedwireframe05 192	48	48	48	
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjminingw1 fedwireframe05 0	96	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjminingw2 fedwireframe05 48	96	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjminingw3 fedwireframe05 96	96	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjminingw4 fedwireframe05 144	96	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjminingw5 fedwireframe05 192	96	48	48
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjresearw1 fedwireframe07 0	96	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjresearw2 fedwireframe07 48	96	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjresearw3 fedwireframe07 96	96	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjresearw4 fedwireframe07 144	96	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjresearw5 fedwireframe07 192	96	48	48
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjturretw1 fedwireframe06 0	48	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjturretw2 fedwireframe06 48	48	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjturretw3 fedwireframe06 96	48	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjturretw4 fedwireframe06 144	48	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjturretw5 fedwireframe06 192	48	48	48	
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjyardw1 fedwireframe05 0	144	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjyardw2 fedwireframe05 48	144	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjyardw3 fedwireframe05 96	144	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjyardw4 fedwireframe05 144	144	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjyardw5 fedwireframe05 192	144	48	48
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjyard2w1 fedwireframe05 0	192	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjyard2w2 fedwireframe05 48	192	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjyard2w3 fedwireframe05 96	192	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjyard2w4 fedwireframe05 144	192	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjyard2w5 fedwireframe05 192	192	48	48
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjyard3w1 fedwireframe05 0	192	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjyard3w2 fedwireframe05 48	192	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjyard3w3 fedwireframe05 96	192	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjyard3w4 fedwireframe05 144	192	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjyard3w5 fedwireframe05 192	192	48	48
+@tmaterial=interface
 
 @reference=256
 @tmaterial=interface
@@ -11662,144 +11613,109 @@ uconstw4 borgwireframe03 144	96	48	48
 uconstw5 borgwireframe03 192	96	48	48
 
 @reference=256
-@tmaterial=interface
-bjconstw1 fedwireframe03 0	144	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjconstw2 fedwireframe03 48	144	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjconstw3 fedwireframe03 96	144	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjconstw4 fedwireframe03 144	144	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjconstw5 fedwireframe03 192	144	48	48
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjfreightw1 fedwireframe03 0	192	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjfreightw2 fedwireframe03 48	192	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjfreightw3 fedwireframe03 96	192	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjfreightw4 fedwireframe03 144	192	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjfreightw5 fedwireframe03 192	192	48	48
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjscoutw1 fedwireframe03 0	0	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjscoutw2 fedwireframe03 48	0	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjscoutw3 fedwireframe03 96	0	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjscoutw4 fedwireframe03 144	0	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjscoutw5 fedwireframe03 192	0	48	48
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjinterceptorw1 fedwireframe02 0	0	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjinterceptorw2 fedwireframe02 48	0	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjinterceptorw3 fedwireframe02 96	0	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjinterceptorw4 fedwireframe02 144	0	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjinterceptorw5 fedwireframe02 192	0	48	48
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjtransportw1 wffghost01 0	48	48	48
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjtransportw2 wffghost01 48	48	48	48
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjtransportw3 wffghost01 96	48	48	48
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjtransportw4 wffghost01 144	48	48	48
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjtransportw5 wffghost01 192	48	48	48
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjassaultw1 fedwireframe01 0	96	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjassaultw2 fedwireframe01 48	96	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjassaultw3 fedwireframe01 96	96	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjassaultw4 fedwireframe01 144	96	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjassaultw5 fedwireframe01 192	96	48	48
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjnerysw1 fedwireframe02 0	0	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjnerysw2 fedwireframe02 48	0	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjnerysw3 fedwireframe02 96	0	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjnerysw4 fedwireframe02 144	0	48	48		
+@tmaterial=interface
 
 @reference=256
-@tmaterial=interface
-bjnerysw5 fedwireframe02 192	0	48	48
+@tmaterial=interface
 
 @reference=128
 @tmaterial=default
@@ -15928,3 +15844,339 @@ xhsherow4 8472wireframe01 144	0	48	48
 @reference=256
 @tmaterial=interface
 xhsherow5 8472wireframe01 192	0	48	48
+
+@reference=256
+@tmaterial=default
+b_bjconst xbajatlas 0 0 64 64
+
+@reference=256
+@tmaterial=default
+bjconstw1 xbajatlas 0 0 64 64
+
+@reference=256
+@tmaterial=default
+bjconstw2 xbajatlas 0 0 64 64
+
+@reference=256
+@tmaterial=default
+bjconstw3 xbajatlas 0 0 64 64
+
+@reference=256
+@tmaterial=default
+bjconstw4 xbajatlas 0 0 64 64
+
+@reference=256
+@tmaterial=default
+bjconstw5 xbajatlas 0 0 64 64
+
+@reference=256
+@tmaterial=default
+b_bjfreight xbajatlas 64 0 64 64
+
+@reference=256
+@tmaterial=default
+bjfreightw1 xbajatlas 64 0 64 64
+
+@reference=256
+@tmaterial=default
+bjfreightw2 xbajatlas 64 0 64 64
+
+@reference=256
+@tmaterial=default
+bjfreightw3 xbajatlas 64 0 64 64
+
+@reference=256
+@tmaterial=default
+bjfreightw4 xbajatlas 64 0 64 64
+
+@reference=256
+@tmaterial=default
+bjfreightw5 xbajatlas 64 0 64 64
+
+@reference=256
+@tmaterial=default
+b_bjscout xbajatlas 128 0 64 64
+
+@reference=256
+@tmaterial=default
+bjscoutw1 xbajatlas 128 0 64 64
+
+@reference=256
+@tmaterial=default
+bjscoutw2 xbajatlas 128 0 64 64
+
+@reference=256
+@tmaterial=default
+bjscoutw3 xbajatlas 128 0 64 64
+
+@reference=256
+@tmaterial=default
+bjscoutw4 xbajatlas 128 0 64 64
+
+@reference=256
+@tmaterial=default
+bjscoutw5 xbajatlas 128 0 64 64
+
+@reference=256
+@tmaterial=default
+b_bjinterceptor xbajatlas 192 0 64 64
+
+@reference=256
+@tmaterial=default
+bjinterceptorw1 xbajatlas 192 0 64 64
+
+@reference=256
+@tmaterial=default
+bjinterceptorw2 xbajatlas 192 0 64 64
+
+@reference=256
+@tmaterial=default
+bjinterceptorw3 xbajatlas 192 0 64 64
+
+@reference=256
+@tmaterial=default
+bjinterceptorw4 xbajatlas 192 0 64 64
+
+@reference=256
+@tmaterial=default
+bjinterceptorw5 xbajatlas 192 0 64 64
+
+@reference=256
+@tmaterial=default
+b_bjassault xbajatlas 0 64 64 64
+
+@reference=256
+@tmaterial=default
+bjassaultw1 xbajatlas 0 64 64 64
+
+@reference=256
+@tmaterial=default
+bjassaultw2 xbajatlas 0 64 64 64
+
+@reference=256
+@tmaterial=default
+bjassaultw3 xbajatlas 0 64 64 64
+
+@reference=256
+@tmaterial=default
+bjassaultw4 xbajatlas 0 64 64 64
+
+@reference=256
+@tmaterial=default
+bjassaultw5 xbajatlas 0 64 64 64
+
+@reference=256
+@tmaterial=default
+b_bjtransport xbajatlas 64 64 64 64
+
+@reference=256
+@tmaterial=default
+bjtransportw1 xbajatlas 64 64 64 64
+
+@reference=256
+@tmaterial=default
+bjtransportw2 xbajatlas 64 64 64 64
+
+@reference=256
+@tmaterial=default
+bjtransportw3 xbajatlas 64 64 64 64
+
+@reference=256
+@tmaterial=default
+bjtransportw4 xbajatlas 64 64 64 64
+
+@reference=256
+@tmaterial=default
+bjtransportw5 xbajatlas 64 64 64 64
+
+@reference=256
+@tmaterial=default
+b_bjnerys xbajatlas 128 64 64 64
+
+@reference=256
+@tmaterial=default
+bjnerysw1 xbajatlas 128 64 64 64
+
+@reference=256
+@tmaterial=default
+bjnerysw2 xbajatlas 128 64 64 64
+
+@reference=256
+@tmaterial=default
+bjnerysw3 xbajatlas 128 64 64 64
+
+@reference=256
+@tmaterial=default
+bjnerysw4 xbajatlas 128 64 64 64
+
+@reference=256
+@tmaterial=default
+bjnerysw5 xbajatlas 128 64 64 64
+
+@reference=256
+@tmaterial=default
+b_bjbase xbajatlas 192 64 64 64
+
+@reference=256
+@tmaterial=default
+bjbasew1 xbajatlas 192 64 64 64
+
+@reference=256
+@tmaterial=default
+bjbasew2 xbajatlas 192 64 64 64
+
+@reference=256
+@tmaterial=default
+bjbasew3 xbajatlas 192 64 64 64
+
+@reference=256
+@tmaterial=default
+bjbasew4 xbajatlas 192 64 64 64
+
+@reference=256
+@tmaterial=default
+bjbasew5 xbajatlas 192 64 64 64
+
+@reference=256
+@tmaterial=default
+b_bjmining xbajatlas 0 128 64 64
+
+@reference=256
+@tmaterial=default
+bjminingw1 xbajatlas 0 128 64 64
+
+@reference=256
+@tmaterial=default
+bjminingw2 xbajatlas 0 128 64 64
+
+@reference=256
+@tmaterial=default
+bjminingw3 xbajatlas 0 128 64 64
+
+@reference=256
+@tmaterial=default
+bjminingw4 xbajatlas 0 128 64 64
+
+@reference=256
+@tmaterial=default
+bjminingw5 xbajatlas 0 128 64 64
+
+@reference=256
+@tmaterial=default
+b_bjyard xbajatlas 64 128 64 64
+
+@reference=256
+@tmaterial=default
+bjyardw1 xbajatlas 64 128 64 64
+
+@reference=256
+@tmaterial=default
+bjyardw2 xbajatlas 64 128 64 64
+
+@reference=256
+@tmaterial=default
+bjyardw3 xbajatlas 64 128 64 64
+
+@reference=256
+@tmaterial=default
+bjyardw4 xbajatlas 64 128 64 64
+
+@reference=256
+@tmaterial=default
+bjyardw5 xbajatlas 64 128 64 64
+
+@reference=256
+@tmaterial=default
+b_bjyard2 xbajatlas 128 128 64 64
+
+@reference=256
+@tmaterial=default
+bjyard2w1 xbajatlas 128 128 64 64
+
+@reference=256
+@tmaterial=default
+bjyard2w2 xbajatlas 128 128 64 64
+
+@reference=256
+@tmaterial=default
+bjyard2w3 xbajatlas 128 128 64 64
+
+@reference=256
+@tmaterial=default
+bjyard2w4 xbajatlas 128 128 64 64
+
+@reference=256
+@tmaterial=default
+bjyard2w5 xbajatlas 128 128 64 64
+
+@reference=256
+@tmaterial=default
+b_bjyard3 xbajatlas 192 128 64 64
+
+@reference=256
+@tmaterial=default
+bjyard3w1 xbajatlas 192 128 64 64
+
+@reference=256
+@tmaterial=default
+bjyard3w2 xbajatlas 192 128 64 64
+
+@reference=256
+@tmaterial=default
+bjyard3w3 xbajatlas 192 128 64 64
+
+@reference=256
+@tmaterial=default
+bjyard3w4 xbajatlas 192 128 64 64
+
+@reference=256
+@tmaterial=default
+bjyard3w5 xbajatlas 192 128 64 64
+
+@reference=256
+@tmaterial=default
+b_bjresear xbajatlas 0 192 64 64
+
+@reference=256
+@tmaterial=default
+bjresearw1 xbajatlas 0 192 64 64
+
+@reference=256
+@tmaterial=default
+bjresearw2 xbajatlas 0 192 64 64
+
+@reference=256
+@tmaterial=default
+bjresearw3 xbajatlas 0 192 64 64
+
+@reference=256
+@tmaterial=default
+bjresearw4 xbajatlas 0 192 64 64
+
+@reference=256
+@tmaterial=default
+bjresearw5 xbajatlas 0 192 64 64
+
+@reference=256
+@tmaterial=default
+b_bjturret xbajatlas 64 192 64 64
+
+@reference=256
+@tmaterial=default
+bjturretw1 xbajatlas 64 192 64 64
+
+@reference=256
+@tmaterial=default
+bjturretw2 xbajatlas 64 192 64 64
+
+@reference=256
+@tmaterial=default
+bjturretw3 xbajatlas 64 192 64 64
+
+@reference=256
+@tmaterial=default
+bjturretw4 xbajatlas 64 192 64 64
+
+@reference=256
+@tmaterial=default
+bjturretw5 xbajatlas 64 192 64 64
