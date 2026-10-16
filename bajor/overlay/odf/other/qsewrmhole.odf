@@ -1,0 +1,11 @@
+//
+//Explicitly for quantum singularity weapon
+//
+
+#include "quantumsingularity.odf"
+
+// expire self when it closes
+expireOnClose = 1
+
+// be really small when in closed position
+ClosedScale = .001f

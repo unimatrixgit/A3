@@ -1,0 +1,64 @@
+//Name of the ODF file for the ordnance for this weapon
+ordName = "quantumEffect"
+
+// Mark this as a special weapon.
+special = 1
+
+//The number of units which are subtracted from the Special Energy Reserve
+specialEnergyCost = 1000
+
+//Display name for this weapon
+wpnName = "Quantum Singularity Effect"
+
+//tooltips
+tooltip = "CARD_POD7"
+verboseTooltip = "CARD_POD7_V"
+
+//Location of the button in the speed panel
+buttonSlot = 2
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 5
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+//Time Delay between shots
+shotDelay = 5.0
+
+// Range within which the weapon will fire.
+range = 400.0f
+
+//Sound which is played when the weapon fires
+fireSound = "quantEffect.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "quantumeffect"
+
+// 	HIT_EVERYONE = 0,
+//	HIT_ALLIES = 1,
+//	HIT_ENEMIES = 2
+// hitCondition = 1
+
+//Don't automatically switch to attack mode 
+switchToAttack = 0
+
+// The wormhole to open
+wormholeID = "qsewrmhole"
+// The ship that flies out
+shipID = "8472_frigate"
+// Search parameters for placing the wormhole
+minRadius = 200	// starting distance to search
+maxRadius = 1000	// ending distance to search
+deltaRadius = 200	// radius increments to search
+numSections = 16	// how many sections when searching
+
+//this special weapon can be assimilated by the borg tech assimilator
+assimilatable = "carpod7"
+
+hotkeyLabel = "HOTKEY_F10"
+

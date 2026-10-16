@@ -1,0 +1,134 @@
+#include "special.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Kulinor Class"
+
+//tooltips
+tooltip = "CARD_SPECIAL"
+verboseTooltip = "CARD_SPECIAL_V"
+
+//Race which can build ship & starting race of ship
+race = "cardassian"
+
+//Amount of time required to build ship
+buildTime = 53.0
+
+//Number of officers required to build this ship
+officerCost = 10
+
+//Number of crew required to build ship & Starting crew
+crewCost = 300
+
+// don't use the horrible old % crew loss on damage
+saneCrewLossMethod = 1
+
+//Dilithium Cost to build
+dilithiumCost = 450
+
+//Metal Cost to build
+metalCost = 150
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 600
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 120
+enginesHitPoints = 120
+weaponsHitPoints = 140
+lifeSupportHitPoints = 120
+sensorsHitPoints = 100
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 3.0
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 1000
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 10
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+       "Sangrak" "Gladrarg" "Meldrarg" "Torand"
+		"Karargath" "Fodrad" "Cathongrun" "Rodrim"
+		"Corarand" "Imgidron" "Glareon" "Thimar"
+		"Thuradrarg" "Forkith" "Thareon" "Maringruk"
+		"Ormuk" "Thagangreon" "Thasharthim" "Morarmorn"
+		"Rothongrorn" "Borortharg" "Glereon" "Oradrarg"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Phaser
+weapon1 = "csphas"
+weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04"
+
+// Accelerator Cannon
+weapon2 = "gaccelcannon"
+weaponHardpoints2 = "hp05"
+
+// Quantum singularity Effect
+weapon3 = "gquanteffect"
+weaponHardpoints3 = "hp26"
+
+// Warp field coil boost
+weapon4 = "gwarpboost"
+weaponHardpoints4 = "hp27"
+
+// Shield harmonics disruptor
+weapon5 = "gsdisruptor"
+weaponHardpoints5 = "hp28"
+
+//Self Destruct
+weapon6 = "gselfdes"
+weaponHardpoints6 = "hp28"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28"
+shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hullTargetHardpoints = "hp06" "hp08" "hp10"  "hp12" "hp14" "hp16" "hp18" "hp20" "hp24" "hp25"
+criticalTargetHardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp22" "hp23"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.60f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.50f
+
+//**********************************************************************
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+//**********************************************************************
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "X"
+hotkeyLabel = "HOTKEY_F3"
+
+// let's make this a bit bigger
+ScaleSOD = 2.0
+
+
+
+

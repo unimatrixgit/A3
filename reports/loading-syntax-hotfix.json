@@ -1,0 +1,130 @@
+{
+  "target": "D:/armadaIII",
+  "backup": "D:/Xaramada-Modwork/backups/loading-hotfix-1792186391790",
+  "deployed": [
+    "techtree/a2_borg01.tt",
+    "techtree/a2_borg02.tt",
+    "techtree/a2_borg03.tt",
+    "techtree/a2_borg04.tt",
+    "techtree/a2_borg05.tt",
+    "techtree/a2_borg06.tt",
+    "techtree/a2_borg07.tt",
+    "techtree/a2_borg08.tt",
+    "techtree/a2_borg09.tt",
+    "techtree/a2_borg10.tt",
+    "techtree/a2_fed01.tt",
+    "techtree/a2_fed02.tt",
+    "techtree/a2_fed03.tt",
+    "techtree/a2_fed04.tt",
+    "techtree/a2_fed05.tt",
+    "techtree/a2_fed06.tt",
+    "techtree/a2_fed07.tt",
+    "techtree/a2_fed08.tt",
+    "techtree/a2_fed09.tt",
+    "techtree/a2_fed10.tt",
+    "techtree/a2_kling01.tt",
+    "techtree/a2_kling02.tt",
+    "techtree/a2_kling03.tt",
+    "techtree/a2_kling04.tt",
+    "techtree/a2_kling05.tt",
+    "techtree/a2_kling06.tt",
+    "techtree/a2_kling07.tt",
+    "techtree/a2_kling08.tt",
+    "techtree/a2_kling09.tt",
+    "techtree/a2_kling10.tt",
+    "techtree/demotech.tt",
+    "techtree/earlytech.tt",
+    "techtree/freetech.tt",
+    "techtree/fulltech.tt",
+    "techtree/nosci.tt",
+    "techtree/nospweap.tt",
+    "techtree/nosuper.tt",
+    "techtree/tech1.tt",
+    "Sprites/gui_global.spr",
+    "events.dat",
+    "odf/ships/cspecial.odf",
+    "odf/special_weapons/gquanteffect.odf",
+    "odf/special_weapons/quantumEffect.odf",
+    "odf/other/qsewrmhole.odf",
+    "odf/other/quantumsingularity.odf",
+    "odf/ships/fsent.odf",
+    "odf/ships/special.odf",
+    "odf/special_weapons/gcontrol.odf",
+    "odf/special_weapons/prot1.odf",
+    "odf/stations/bbase2.odf",
+    "odf/stations/bjsensor.odf",
+    "odf/stations/bjupgrade.odf",
+    "odf/special_weapons/wholowav.odf"
+  ],
+  "removed": [
+    "odf/other/xhero_reinforcement_core.odf",
+    "odf/ships/xrein_bajoran.odf",
+    "odf/ships/xrein_borg.odf",
+    "odf/ships/xrein_breen.odf",
+    "odf/ships/xrein_cardassian.odf",
+    "odf/ships/xrein_dominion.odf",
+    "odf/ships/xrein_federation.odf",
+    "odf/ships/xrein_klingon.odf",
+    "odf/ships/xrein_romulan.odf",
+    "odf/ships/xrein_species8472.odf"
+  ],
+  "restoredCardassianFiles": [
+    "odf/ships/cspecial.odf",
+    "odf/special_weapons/gquanteffect.odf",
+    "odf/special_weapons/quantumEffect.odf",
+    "odf/other/qsewrmhole.odf",
+    "odf/other/quantumsingularity.odf"
+  ],
+  "quoteRepairs": [
+    {
+      "rel": "odf/ships/fsent.odf",
+      "key": "weaponHardpoints2",
+      "value": "\"hp50\""
+    },
+    {
+      "rel": "odf/ships/special.odf",
+      "key": "eventAttack",
+      "value": "\"SpecialAttack\""
+    },
+    {
+      "rel": "odf/special_weapons/gcontrol.odf",
+      "key": "tooltip",
+      "value": "\"Q control\""
+    },
+    {
+      "rel": "odf/special_weapons/prot1.odf",
+      "key": "wpnName",
+      "value": "\"Protonic Shockwave\""
+    },
+    {
+      "rel": "odf/stations/bbase2.odf",
+      "key": "eventDecommission",
+      "value": "\"OrbitalFacilityDecommission\""
+    },
+    {
+      "rel": "odf/stations/bjsensor.odf",
+      "key": "enginesTargetHardpoints",
+      "value": "\"hp02\""
+    },
+    {
+      "rel": "odf/stations/bjupgrade.odf",
+      "key": "enginesTargetHardpoints",
+      "value": "\"hp11\" \"hp12\" \"hp13\" \"hp14\" \"hp15\""
+    },
+    {
+      "rel": "odf/stations/bjupgrade.odf",
+      "key": "weaponsTargetHardpoints",
+      "value": "\"hp16\" \"hp17\" \"hp18\" \"hp19\" \"hp20\""
+    },
+    {
+      "rel": "odf/special_weapons/wholowav.odf",
+      "key": "hotkeyLabel",
+      "action": "Removed truncated invalid label"
+    }
+  ],
+  "allOdfQuotesBalanced": true,
+  "remainingHeroCallingReferences": [],
+  "windowsSwapSettingsChanged": false,
+  "gameExecutableChanged": false,
+  "runtimeVerified": false
+}

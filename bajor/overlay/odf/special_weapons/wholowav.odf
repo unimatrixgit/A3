@@ -1,0 +1,23 @@
+// Programming Stuff DO NOT CHANGE
+classLabel = "shockwavexplode"
+
+// Rate of expansion.
+rate = 200
+
+// Name of the texture.
+texture = "wengineol"
+
+// Color of the shockwave.
+color =	1.0	1.0	1.0
+
+// Multiplier for the ship radius to get the shockwave radius.
+radiusFactor = 1.0
+
+// Percentage before the shockwave starts to fade.
+fadeFactor = 0.5
+
+// Number of rays in effect.
+rays = 16
+
+// This weapon doesn't appear to be used, so I'm commenting the hotkeyLabel out until I find otherwise - NFB
+// Removed invalid truncated hotkey label.

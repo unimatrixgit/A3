@@ -1,0 +1,64 @@
+#include "craft.odf"
+
+//This is for stat accumulation
+shipclass = "special"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.60f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.50f
+
+//**********************************************************************
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+//These values are the hitpoint values of the systems
+//If the value is set to zero the ship does not have that system
+enginesHitPoints = 10
+lifeSupportHitPoints = 10
+weaponsHitPoints = 10
+shieldGeneratorHitPoints = 10
+sensorsHitPoints = 10
+//**********************************************************************
+
+
+
+// This is the size of the build animation sparks.
+weldingRadius = 0.5
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "SpecialSelect"
+eventAcknowledge = "SpecialAcknowledge"
+eventAttack = "SpecialAttack"
+eventStop = "SpecialStop"
+eventMove = "SpecialMove"
+eventRepair = "SpecialRepair"
+
+//**********************************************************************
+//PHYSICS PARAMETERS
+
+//physics file for all other physics stuff
+physicsFile = "sbattphys.odf"
+
+//for obstacle avoidance
+avoidanceClass = 8
+
+// ship type for formations
+shipType = "X"
+
+
+//************************************************************
+// Brian additions for context sensitive menus
+combat = 1
+alert = 1
+can_sandd = 1

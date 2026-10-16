@@ -1,0 +1,56 @@
+//Name of the ODF file for the ordinance for this weapon
+ordName = "control"
+
+//Display name for this weapon
+wpnName = "Q control"
+
+//tooltips
+tooltip = "Q control"
+verboseTooltip = "The Q can take control of an enemy vessel or station and use it to attack the opponent"
+
+//Location of the button in the speed panel
+buttonSlot = 2
+
+// location of the button in the popup palette
+popupSlot = 8
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 5
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+// Mark this as a special weapon.
+special = 1
+
+// Time Delay between shots
+shotDelay = 1.0
+
+// Range within which the weapon will fire.
+range = 700.0f
+
+//Sound which is played when the weapon fires
+fireSound = "none.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "cannon"
+
+//Need a target?
+needTarget = 1
+
+// set target restrictions
+targetEnemyBuildings = 1
+
+//this special weapon can be assimilated by the borg tech assimilator
+//assimilatable = "borpod7"
+
+// do not attack the target.
+switchToAttack = 0
+// and no one else should either
+forceInvalidateTarget = 1
+
+hotkeyLabel = "HOTKEY_F10"

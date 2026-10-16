@@ -1,0 +1,58 @@
+//Programming Stuff DO NOT CHANGE
+classLabel = "areacannon"
+
+//Name of the ODF file for the ordinance for this weapon
+ordName = "prot4"
+
+//Special
+special = 1
+
+//Time Delay between shots
+shotDelay = 60.0
+
+// Range within which the weapon will fire.
+range = 1000.0f
+
+// Percent chance of hitting the target.
+hitChance = 1.00
+
+// 	HIT_EVERYONE = 0,
+//	HIT_ALLIES = 1,
+//	HIT_ENEMIES = 2
+hitCondition = 2
+
+//Should not be used
+wpnReticle = "gblast"
+
+//UNKNOWN
+wpnPriority = 0
+
+//UNKNOWN
+wpnCategory = "CANN"
+
+//Display name for this weapon
+wpnName = "Protonic Shockwave"
+tooltip = "Protonic Shockwave"
+verboseTooltip = "This shockwave reduces energy on all nearby warships."
+
+//Location of the button in the speed panel
+buttonSlot = 1
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 10
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+// set wave effect
+waveEffect = 1
+
+// set wave name
+waveName = "prot2"
+
+//don't switch to attack mode after shot
+switchToAttack = 0
