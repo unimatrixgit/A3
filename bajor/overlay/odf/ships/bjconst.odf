@@ -71,17 +71,17 @@ possibleCraftNames =
 
 // Towing Beam
 
-weaponhardpoints1 = "hp12"
+
 
 // Hardpoints to hit for various systems and other locations.
 
-enginesTargetHardpoints = "hp06"
-lifeSupportTargetHardpoints = "hp06" "hp08" "hp09" 
-weaponsTargetHardpoints = "hp06" "hp08" "hp09"
-shieldGeneratorTargetHardpoints = "hp06" "hp08" "hp09" 
-sensorsTargetHardpoints = "hp06" "hp08" "hp09" 
-hullTargetHardpoints = "hp08" "hp09" "hp10" "hp11" "hp13" 
-criticalTargetHardpoints = "hp06" "hp08" "hp09"
+
+
+
+
+
+
+
 
 //**********************************************************************
 
@@ -120,9 +120,9 @@ verboseTooltip = "Militia Construction Tender. Extrapolated utility tender."
 
 race = "bajoran"
 
-baseName = "bjconst"
 
-ScaleSOD = 1.0
+
+
 
 
 
@@ -165,3 +165,23 @@ buildItem8 = "bjorbital"
 buildItem9 = "bjtrading"
 buildItem10 = "bjturret"
 buildItem11 = "bjturret2"
+baseName = "fconst"
+ScaleSOD = 1.0
+
+
+
+
+
+
+
+
+
+workerbeehardpoints = "bot1" "bot2" "bot3" "bot4" "bot5" "bot6"
+weaponhardpoints1 = "hp12"
+enginestargethardpoints = "hp06"
+lifesupporttargethardpoints = "hp06" "hp08" "hp09"
+weaponstargethardpoints = "hp06" "hp08" "hp09"
+shieldgeneratortargethardpoints = "hp06" "hp08" "hp09"
+sensorstargethardpoints = "hp06" "hp08" "hp09"
+hulltargethardpoints = "hp08" "hp09" "hp10" "hp11" "hp13"
+criticaltargethardpoints = "hp06" "hp08" "hp09"

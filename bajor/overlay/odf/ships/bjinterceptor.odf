@@ -71,44 +71,44 @@ possibleCraftNames =
 
 // Pulse Phaser
 weapon1 = "fdefiantpulse"
-weaponHardpoints1 = "hp01"
+
 
 // Pulse Phaser
 weapon2 = "fdefiantpulse"
-weaponHardpoints2 = "hp02"
+
 
 // Pulse Phaser
 weapon3 = "fdefiantpulse"
-weaponHardpoints3 = "hp03"
+
 
 // Pulse Phaser
 weapon4 = "fdefiantpulse"
-weaponHardpoints4 = "hp04"
+
 
 //Anti-matter Mines
 
-weaponHardpoints5 = "hp14" "hp15" 
+
 
 // Photon Torpedo
 weapon6 = "fdefiantphot"
-weaponHardpoints6 = "hp05" 
+
 
 // Photon Torpedo
 weapon7 = "fdefiantphot"
-weaponHardpoints7 = "hp06" 
+
 
 // Cloaking
 
-weaponHardpoints8 = "hp09"
+
 
 // Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
-lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15" 
-weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29"
-shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
-sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
-hullTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
-criticalTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15" 
+
+
+
+
+
+
+
 
 //**********************************************************************
 //CREW STATUS MULTIPLIERS
@@ -162,10 +162,42 @@ verboseTooltip = "Bajoran Interceptor. TV interceptor."
 
 race = "bajoran"
 
-baseName = "bjinterceptor"
 
-ScaleSOD = 1.0
+
+
 
 weapon5 = "xbj_gamine"
 
 weapon8 = "xbj_gfcloak"
+baseName = "fdestroy"
+ScaleSOD = 0.3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+weaponhardpoints1 = "hp01"
+weaponhardpoints2 = "hp02"
+weaponhardpoints3 = "hp03"
+weaponhardpoints4 = "hp04"
+weaponhardpoints5 = "hp14" "hp15"
+weaponhardpoints6 = "hp05"
+weaponhardpoints7 = "hp06"
+weaponhardpoints8 = "hp09"
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29"
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hulltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
+criticaltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"

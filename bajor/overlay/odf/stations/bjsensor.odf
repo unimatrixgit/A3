@@ -55,7 +55,7 @@ weapon1 = "gdetectf"
 
 // Hardpoints to hit for various systems and other locations.
 
-lifeSupportTargetHardpoints = "hp02" "hp03" "hp04"
+
 
 
 //**********************************************************************
@@ -102,19 +102,19 @@ officerCost = 2
 buildTime = 25
 
 
-weaponhardpoints1 = "hp01"
 
-enginestargethardpoints = lifeSupportTargetHardpoints = "hp02" "hp03" "hp04"
 
-weaponstargethardpoints = "hp01"
 
-shieldgeneratortargethardpoints = "hp02" "hp03" "hp04"
 
-sensorstargethardpoints = "hp01"
 
-hulltargethardpoints = "hp02" "hp03" "hp04"
 
-criticaltargethardpoints = "hp02" "hp03" "hp04"
+
+
+
+
+
+
+
 
 unitName = "Bajoran Sensor Array"
 
@@ -124,6 +124,24 @@ verboseTooltip = "Bajoran Sensor Array. Extrapolated long-range sensor installat
 
 race = "bajoran"
 
-baseName = "bjsensor"
 
-ScaleSOD = 1.0
+
+
+baseName = "xvstock_fsensor"
+ScaleSOD = 0.25
+
+
+
+
+
+
+
+
+lifesupporttargethardpoints = "hp02" "hp03" "hp04"
+weaponhardpoints1 = "hp01"
+enginestargethardpoints = "lifeSupportTargetHardpoints = "hp02" "hp03" "hp04"
+weaponstargethardpoints = "hp01"
+shieldgeneratortargethardpoints = "hp02" "hp03" "hp04"
+sensorstargethardpoints = "hp01"
+hulltargethardpoints = "hp02" "hp03" "hp04"
+criticaltargethardpoints = "hp02" "hp03" "hp04"

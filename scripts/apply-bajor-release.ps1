@@ -1,6 +1,7 @@
 $ErrorActionPreference='Stop'
 $target='D:\armadaIII'
 $stage='D:\Xaramada-Modwork\bajor-rebuild'
+if(Test-Path -LiteralPath (Join-Path $stage 'QUARANTINED.json')){throw 'Custom Bajoran assets are quarantined after a runtime regression. Keep the native recovery active.'}
 $report=Get-Content -LiteralPath 'D:\aramada\reports\bajoran-release-validation.json' -Raw | ConvertFrom-Json
 if($report.errors.Count -gt 0){throw 'Bajoran release validation has unresolved errors'}
 $assets=Get-Content -LiteralPath 'D:\aramada\reports\bajoran-actual-assets.json' -Raw | ConvertFrom-Json

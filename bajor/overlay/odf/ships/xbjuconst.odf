@@ -71,17 +71,17 @@ possibleCraftNames =
 
 // Towing Beam
 
-weaponhardpoints1 = "hp12"
+
 
 // Hardpoints to hit for various systems and other locations.
 
-enginesTargetHardpoints = "hp06"
-lifeSupportTargetHardpoints = "hp06" "hp08" "hp09" 
-weaponsTargetHardpoints = "hp06" "hp08" "hp09"
-shieldGeneratorTargetHardpoints = "hp06" "hp08" "hp09" 
-sensorsTargetHardpoints = "hp06" "hp08" "hp09" 
-hullTargetHardpoints = "hp08" "hp09" "hp10" "hp11" "hp13" 
-criticalTargetHardpoints = "hp06" "hp08" "hp09"
+
+
+
+
+
+
+
 
 //**********************************************************************
 
@@ -157,8 +157,8 @@ unitName = "Bajoran Universal Constructor"
 tooltip = "Bajoran Universal Constructor"
 verboseTooltip = "Bajoran Universal Constructor. Builds allied faction starbases and assigned advanced facilities. Species 8472 biotechnology is excluded."
 race = "bajoran"
-baseName = "xbjuconst"
-ScaleSOD = 1.0
+
+
 hotkeyLabel = "HOTKEY_F2"
 buildItem0 = "bbase"
 buildItem1 = "fbase"
@@ -170,3 +170,23 @@ buildItem6 = "brbase"
 buildItem7 = "bjbase"
 buildItem8 = "bjsuperlab"
 buildItem9 = "bjyard3"
+baseName = "fconst"
+ScaleSOD = 1.0
+
+
+
+
+
+
+
+
+
+workerbeehardpoints = "bot1" "bot2" "bot3" "bot4" "bot5" "bot6"
+weaponhardpoints1 = "hp12"
+enginestargethardpoints = "hp06"
+lifesupporttargethardpoints = "hp06" "hp08" "hp09"
+weaponstargethardpoints = "hp06" "hp08" "hp09"
+shieldgeneratortargethardpoints = "hp06" "hp08" "hp09"
+sensorstargethardpoints = "hp06" "hp08" "hp09"
+hulltargethardpoints = "hp08" "hp09" "hp10" "hp11" "hp13"
+criticaltargethardpoints = "hp06" "hp08" "hp09"

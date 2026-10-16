@@ -41,13 +41,13 @@ possibleCraftNames =
 //ART PARAMETERS & WEAPON NAMES
 
 // Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp01" "hp02" "hp08" 
-lifeSupportTargetHardpoints = "hp01" "hp02" "hp08"
-weaponsTargetHardpoints = "hp01" "hp02" "hp08"
-shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp08"
-sensorsTargetHardpoints = "hp01" "hp02" "hp08"
-hullTargetHardpoints = "hp03" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14"
-criticalTargetHardpoints = "hp08" "hp09"
+
+
+
+
+
+
+
 
 //**********************************************************************
 
@@ -56,7 +56,7 @@ criticalTargetHardpoints = "hp08" "hp09"
 //Construction Parameters
 
 //Hardpoint location for building.
-buildHardpoint = "hp01"
+
 
 //**********************************************************************
 //**********************************************************************
@@ -127,9 +127,9 @@ verboseTooltip = "Militia Shipyard I. Extrapolated open-frame construction dock.
 
 race = "bajoran"
 
-baseName = "bjyard"
 
-ScaleSOD = 1.0
+
+
 
 buildItem0 = "bjscout"
 
@@ -144,3 +144,21 @@ buildItem4 = "bjcolony"
 buildItem5 = "bjlightship"
 
 buildItem6 = "bjassault"
+baseName = "xvstock_fyard"
+ScaleSOD = 1.50
+
+
+
+
+
+
+
+
+buildhardpoint = "hp01"
+enginestargethardpoints = "hp01" "hp02" "hp08"
+lifesupporttargethardpoints = "hp01" "hp02" "hp08"
+weaponstargethardpoints = "hp01" "hp02" "hp08"
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp08"
+sensorstargethardpoints = "hp01" "hp02" "hp08"
+hulltargethardpoints = "hp03" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14"
+criticaltargethardpoints = "hp08" "hp09"

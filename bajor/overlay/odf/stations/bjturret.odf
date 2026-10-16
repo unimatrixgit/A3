@@ -55,16 +55,16 @@ weaponsHitPoints = 333
 
 // Pulse Phaser
 weapon1 = "ftpulse"
-weaponHardpoints1 = "hp01" "hp02" 
+
 
 // Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = 
+
 lifeSupportTargetHardpoints =
-weaponsTargetHardpoints = "hp01" "hp02"
-shieldGeneratorTargetHardpoints = "hp03" "hp04" "hp05"
-sensorsTargetHardpoints = "hp01" "hp02"
-hullTargetHardpoints = "hp03" "hp04" "hp05"
-criticalTargetHardpoints = "hp03" "hp04" "hp05"
+
+
+
+
+
 
 //**********************************************************************
 
@@ -114,6 +114,22 @@ verboseTooltip = "Bajoran Defense Emplacement. Extrapolated local defense."
 
 race = "bajoran"
 
-baseName = "bjturret"
 
+
+
+baseName = "xvstock_fturret"
 ScaleSOD = 1.0
+
+
+
+
+
+
+
+weaponhardpoints1 = "hp01" "hp02"
+enginestargethardpoints = "lifeSupportTargetHardpoints ="
+weaponstargethardpoints = "hp01" "hp02"
+shieldgeneratortargethardpoints = "hp03" "hp04" "hp05"
+sensorstargethardpoints = "hp01" "hp02"
+hulltargethardpoints = "hp03" "hp04" "hp05"
+criticaltargethardpoints = "hp03" "hp04" "hp05"

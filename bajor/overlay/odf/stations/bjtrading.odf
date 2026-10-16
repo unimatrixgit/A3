@@ -103,19 +103,19 @@ officerCost = 6
 buildTime = 50
 
 
-enginestargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "HP07" "HP08" "HP09"
 
-lifesupporttargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "HP07" "HP08" "HP09"
 
-weaponstargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "HP07" "HP08" "HP09"
 
-shieldgeneratortargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "HP07" "HP08" "HP09"
 
-sensorstargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "HP07" "HP08" "HP09"
 
-hulltargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "HP07" "HP08" "HP09"
 
-criticaltargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "HP07" "HP08" "HP09"
+
+
+
+
+
+
+
 
 unitName = "Bajoran Trade Center"
 
@@ -125,8 +125,24 @@ verboseTooltip = "Bajoran Trade Center. Extrapolated merchant orbital hub."
 
 race = "bajoran"
 
-baseName = "bjtrading"
 
-ScaleSOD = 1.0
+
+
 
 buildItem0 = "bjcargo"
+baseName = "xvstock_ftrading"
+ScaleSOD = 2.0
+
+
+
+
+
+
+
+enginestargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "HP07" "HP08" "HP09"
+lifesupporttargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "HP07" "HP08" "HP09"
+weaponstargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "HP07" "HP08" "HP09"
+shieldgeneratortargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "HP07" "HP08" "HP09"
+sensorstargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "HP07" "HP08" "HP09"
+hulltargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "HP07" "HP08" "HP09"
+criticaltargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "HP07" "HP08" "HP09"

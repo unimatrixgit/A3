@@ -48,13 +48,13 @@ possibleCraftNames =
 
 
 // Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp03" "hp08" "hp09"
-lifeSupportTargetHardpoints = "hp03" "hp08" "hp09"
-weaponsTargetHardpoints = "hp03" "hp08" "hp09"
-shieldGeneratorTargetHardpoints = "hp03" "hp08" "hp09"
-sensorsTargetHardpoints = "hp03" "hp08" "hp09"
-hullTargetHardpoints = "hp01" "hp02" "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
-criticalTargetHardpoints = "hp03" "hp08" "hp09"
+
+
+
+
+
+
+
 
 //**********************************************************************
 //**********************************************************************
@@ -121,8 +121,24 @@ verboseTooltip = "Bajoran Resource Processing Facility. Extrapolated industrial 
 
 race = "bajoran"
 
-baseName = "bjmining"
 
-ScaleSOD = 1.0
+
+
 
 buildItem0 = "bjfreight"
+baseName = "xvstock_fmining"
+ScaleSOD = 1.0
+
+
+
+
+
+
+
+enginestargethardpoints = "hp03" "hp08" "hp09"
+lifesupporttargethardpoints = "hp03" "hp08" "hp09"
+weaponstargethardpoints = "hp03" "hp08" "hp09"
+shieldgeneratortargethardpoints = "hp03" "hp08" "hp09"
+sensorstargethardpoints = "hp03" "hp08" "hp09"
+hulltargethardpoints = "hp01" "hp02" "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+criticaltargethardpoints = "hp03" "hp08" "hp09"

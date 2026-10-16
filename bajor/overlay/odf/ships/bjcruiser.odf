@@ -69,36 +69,36 @@ possibleCraftNames =
 
 // Phaser
 weapon1 = "fakiraphas"
-weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+
 
 // Chain Reaction Pulsar
 
-weaponHardpoints2 = "hp39"
+
 
 // Photon torpedos
 weapon3 = "fakiraphot"
-weaponHardpoints3 = "hp10" "hp14"
+
 
 // Photon torpedos
 weapon4 = "fakiraphot"
-weaponHardpoints4 = "hp11" "hp15"
+
 
 // Photon torpedos
 weapon5 = "fakiraphot"
-weaponHardpoints5 = "hp12" 
+
 
 // Photon torpedos
 weapon6 = "fakiraphot"
-weaponHardpoints6 = "hp13" 
+
 
 // Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp30" "hp40" "hp42" "hp43" "hp44" "hp45"
-lifeSupportTargetHardpoints = "hp37" "hp39"
-weaponsTargetHardpoints = "hp03" "hp04" "hp05" "hp06" "hp13" "hp14" "hp10" "hp08" "hp28" "hp09" "hp20" "hp29"
-shieldGeneratorTargetHardpoints = "hp39" 
-sensorsTargetHardpoints = "hp26" 
-hullTargetHardpoints = "hp31" "hp32" "hp33" "hp34"
-criticalTargetHardpoints = "hp21" "hp22" 
+
+
+
+
+
+
+
 
 
 //**********************************************************************
@@ -137,8 +137,36 @@ verboseTooltip = "Bajoran Militia Cruiser. Extrapolated enlarged assault-vessel 
 
 race = "bajoran"
 
-baseName = "bjcruiser"
 
-ScaleSOD = 1.0
+
+
 
 weapon2 = "xbj_gchainp"
+baseName = "fcruise1"
+ScaleSOD = 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+weaponhardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+weaponhardpoints2 = "hp39"
+weaponhardpoints3 = "hp10" "hp14"
+weaponhardpoints4 = "hp11" "hp15"
+weaponhardpoints5 = "hp12"
+weaponhardpoints6 = "hp13"
+enginestargethardpoints = "hp30" "hp40" "hp42" "hp43" "hp44" "hp45"
+lifesupporttargethardpoints = "hp37" "hp39"
+weaponstargethardpoints = "hp03" "hp04" "hp05" "hp06" "hp13" "hp14" "hp10" "hp08" "hp28" "hp09" "hp20" "hp29"
+shieldgeneratortargethardpoints = "hp39"
+sensorstargethardpoints = "hp26"
+hulltargethardpoints = "hp31" "hp32" "hp33" "hp34"
+criticaltargethardpoints = "hp21" "hp22"

@@ -66,40 +66,40 @@ possibleCraftNames =
 
 // Phaser
 weapon1 = "fnebulaphas"
-weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp31" "hp32"
+
 	
 // Photon torpedo
 weapon2 = "fnebulaphot"
-weaponHardpoints2 = "hp11" "hp23"
+
 
 //Shield Harmonics Disruptor
 
-weaponHardpoints3 = "hp12" "hp14" "hp16" "hp18" 
+
 
 //Manheim Effect
 
-weaponHardpoints4 = "hp12" "hp14" "hp16" "hp18" 
+
 
 // Point Defense Laser
 
-weaponHardpoints5 = "hp12" "hp14" "hp16" "hp18" 
+
 
 //Special chain pulsar for a special science-vessel only techtree
 
-weaponHardpoints7 = "hp12" "hp14" "hp16" "hp18"
+
 
 //Self Destruct
 
-weaponHardpoints6 = "hp12" "hp14" "hp16" "hp18"
+
 
 // Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
-lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
-weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32" "hp33"
-shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
-sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
-hullTargetHardpoints = "hp06" "hp08" "hp10"  "hp12" "hp14" "hp16" "hp18" "hp20" "hp24" "hp25"
-criticalTargetHardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp22" "hp23"
+
+
+
+
+
+
+
 
 //**********************************************************************
 //CREW STATUS MULTIPLIERS
@@ -150,9 +150,9 @@ verboseTooltip = "Bajoran Science Support Vessel. Extrapolated sensor/engineerin
 
 race = "bajoran"
 
-baseName = "bjspecial"
 
-ScaleSOD = 1.0
+
+
 
 weapon3 = "xbj_gshieldh"
 
@@ -163,3 +163,33 @@ weapon5 = "xbj_gpdlaser"
 weapon7 = "xbj_gschainp"
 
 weapon6 = "xbj_gselfdes"
+baseName = "fspecial"
+ScaleSOD = 1.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+weaponhardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp31" "hp32"
+weaponhardpoints2 = "hp11" "hp23"
+weaponhardpoints3 = "hp12" "hp14" "hp16" "hp18"
+weaponhardpoints4 = "hp12" "hp14" "hp16" "hp18"
+weaponhardpoints5 = "hp12" "hp14" "hp16" "hp18"
+weaponhardpoints7 = "hp12" "hp14" "hp16" "hp18"
+weaponhardpoints6 = "hp12" "hp14" "hp16" "hp18"
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32" "hp33"
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hulltargethardpoints = "hp06" "hp08" "hp10"  "hp12" "hp14" "hp16" "hp18" "hp20" "hp24" "hp25"
+criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp22" "hp23"

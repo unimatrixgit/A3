@@ -54,18 +54,18 @@ possibleCraftNames =
 
 // Repair Beam
 
-weaponHardpoints1 = "hp16" 
+
 
 weapon2 = "folympicphas"
-weaponHardpoints2 = "hp01" "hp02" "hp03" "hp04"
+
 
 //  Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp05" "hp11" "hp12" "hp14" "hp15"
-lifeSupportTargetHardpoints = "hp08" "hp18" "hp19"
-shieldGeneratorTargetHardpoints = "hp16"  
-sensorsTargetHardpoints = "hp09" 
-hullTargetHardpoints = "hp13" "hp20" "hp10" 
-criticalTargetHardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" 
+
+
+
+
+
+
 
 //**********************************************************************
 //KEYMAP LABEL
@@ -105,8 +105,26 @@ verboseTooltip = "Bajoran Engineering Support Vessel. Extrapolated repair tender
 
 race = "bajoran"
 
-baseName = "bjrepair"
 
-ScaleSOD = 1.0
+
+
 
 weapon1 = "xbj_grepairbeam"
+baseName = "fsrepair"
+ScaleSOD = 0.75
+
+
+
+
+
+
+
+
+weaponhardpoints1 = "hp16"
+weaponhardpoints2 = "hp01" "hp02" "hp03" "hp04"
+enginestargethardpoints = "hp05" "hp11" "hp12" "hp14" "hp15"
+lifesupporttargethardpoints = "hp08" "hp18" "hp19"
+shieldgeneratortargethardpoints = "hp16"
+sensorstargethardpoints = "hp09"
+hulltargethardpoints = "hp13" "hp20" "hp10"
+criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17"

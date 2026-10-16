@@ -42,13 +42,13 @@ possibleCraftNames =
 
 
 // Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
-lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
-weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
-shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
-sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
-hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
-criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+
+
+
+
+
+
+
 
 //**********************************************************************
 
@@ -65,7 +65,7 @@ criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp0
 
 
 //Hardpoint location for building.
-buildHardpoint = "root"
+
 //**********************************************************************
 //**********************************************************************
 //AI system parameters
@@ -130,9 +130,9 @@ verboseTooltip = "Militia Command Shipyard III. Extrapolated command constructio
 
 race = "bajoran"
 
-baseName = "bjyard3"
 
-ScaleSOD = 1.0
+
+
 
 buildItem0 = "bjnerys"
 
@@ -143,3 +143,21 @@ buildItem2 = "bjbattle"
 buildItem3 = "bjspecial"
 unitName = "Dahkur Command Shipyard"
 tooltip = "Dahkur Command Shipyard"
+baseName = "xvstock_fyard2"
+ScaleSOD = 2.0
+
+
+
+
+
+
+
+
+buildhardpoint = "root"
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"

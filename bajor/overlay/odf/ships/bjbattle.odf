@@ -60,30 +60,30 @@ possibleCraftNames =
 
 // phaser
 weapon1 = "fsovereignphas"
-weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp15" "hp16"
+
 	"hp17" "hp18" "hp19" "hp20" "hp21" "hp22" "hp23" "hp24" "hp25" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32" "hp33" "hp34"
 
 // Photon torpedos
 weapon2 = "fsovereignphot"
-weaponHardpoints2 = "hp14" "hp68"
+
 
 //Self Destruct
 
-weaponHardpoints3 = "hp34" "hp35" "hp36"
+
 
 //Corbimite Refractor
 
-weaponHardpoints4 = "hp34" "hp35" "hp36"
+
 
 // Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp35" "hp36" "hp40" "hp41" "hp42" "hp43" "hp44" "hp45" "hp46" "hp47" "hp48" "hp49" "hp50" "hp51" "hp52" "hp53" "hp54" "hp55" "hp56" "hp57" "hp58" "hp59"
-lifeSupportTargetHardpoints = "hp37" "hp38" "hp39" "hp60" 
-weaponsTargetHardpoints = "hp14" "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp15" "hp16"
+
+
+
 	"hp17" "hp18" "hp19" "hp20" "hp21" "hp22" "hp23" "hp24" "hp25" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32" "hp33" "hp34"
-shieldGeneratorTargetHardpoints = "hp61" "hp62" "hp63" "hp64"
-sensorsTargetHardpoints = "hp65" 
-hullTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
-criticalTargetHardpoints = "hp37" "hp38" "hp39" "hp60"
+
+
+
+
 
 //**********************************************************************
 
@@ -130,10 +130,34 @@ verboseTooltip = "Bajoran Militia Battleship. Extrapolated heavy assault-family 
 
 race = "bajoran"
 
-baseName = "bjbattle"
 
-ScaleSOD = 1.0
+
+
 
 weapon3 = "xbj_gselfdes"
 
 weapon4 = "xbj_gcorbom"
+baseName = "fbattle"
+ScaleSOD = 2.03
+
+
+
+
+
+
+
+
+
+
+
+weaponhardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp15" "hp16"
+weaponhardpoints2 = "hp14" "hp68"
+weaponhardpoints3 = "hp34" "hp35" "hp36"
+weaponhardpoints4 = "hp34" "hp35" "hp36"
+enginestargethardpoints = "hp35" "hp36" "hp40" "hp41" "hp42" "hp43" "hp44" "hp45" "hp46" "hp47" "hp48" "hp49" "hp50" "hp51" "hp52" "hp53" "hp54" "hp55" "hp56" "hp57" "hp58" "hp59"
+lifesupporttargethardpoints = "hp37" "hp38" "hp39" "hp60"
+weaponstargethardpoints = "hp14" "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp15" "hp16"
+shieldgeneratortargethardpoints = "hp61" "hp62" "hp63" "hp64"
+sensorstargethardpoints = "hp65"
+hulltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+criticaltargethardpoints = "hp37" "hp38" "hp39" "hp60"

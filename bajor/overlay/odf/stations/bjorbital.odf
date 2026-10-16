@@ -80,21 +80,21 @@ officerCost = 2
 buildTime = 60
 
 
-weaponhardpoints1 = "hp05"
 
-enginestargethardpoints = "hp01" "hp02"
 
-lifesupporttargethardpoints = "hp03" "hp04"
 
-weaponstargethardpoints = "hp05"
 
-shieldgeneratortargethardpoints = "hp06"
 
-sensorstargethardpoints = "hp07"
 
-hulltargethardpoints = "hp08"
 
-criticaltargethardpoints = "hp09"
+
+
+
+
+
+
+
+
 
 unitName = "Bajoran Orbital Processing Facility"
 
@@ -104,6 +104,24 @@ verboseTooltip = "Bajoran Orbital Processing Facility. Extrapolated planetary me
 
 race = "bajoran"
 
-baseName = "bjorbital"
 
+
+
+baseName = "xvstock_forbital"
 ScaleSOD = 1.0
+
+
+
+
+
+
+
+
+weaponhardpoints1 = "hp05"
+enginestargethardpoints = "hp01" "hp02"
+lifesupporttargethardpoints = "hp03" "hp04"
+weaponstargethardpoints = "hp05"
+shieldgeneratortargethardpoints = "hp06"
+sensorstargethardpoints = "hp07"
+hulltargethardpoints = "hp08"
+criticaltargethardpoints = "hp09"

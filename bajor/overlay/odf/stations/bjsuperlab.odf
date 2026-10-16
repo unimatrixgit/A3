@@ -105,21 +105,21 @@ officerCost = 15
 buildTime = 150
 
 
-podhardpoints = "pod01" "pod02" "pod03" "pod04"
 
-enginestargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
 
-lifesupporttargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
 
-weaponstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
 
-shieldgeneratortargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
 
-sensorstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
 
-hulltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
 
-criticaltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+
+
+
+
+
+
+
+
 
 
 
@@ -129,9 +129,9 @@ criticaltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp1
 
 race = "bajoran"
 
-baseName = "bjsuperlab"
 
-ScaleSOD = 1.0
+
+
 classLabel = "sensor"
 unitName = "Prophets' Command Sanctuary"
 tooltip = "Prophets' Command Sanctuary"
@@ -139,7 +139,26 @@ verboseTooltip = "Strategic station takeover facility. Research Command Access a
 maxSpecialEnergy = 5000
 specialEnergyRate = 10
 weapon1 = "xbjtakeover"
-weaponHardpoints1 = "hp01"
+
 weaponsHitPoints = 1000
 builder_ship = 0
 builder_facility = 0
+baseName = "xvstock_fresear2"
+ScaleSOD = 1.0
+
+
+
+
+
+
+
+
+podhardpoints = "pod01" "pod02" "pod03" "pod04"
+enginestargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+lifesupporttargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+weaponstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+shieldgeneratortargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+sensorstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+hulltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+criticaltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+weaponhardpoints1 = "hp10"

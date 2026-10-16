@@ -63,29 +63,29 @@ possibleCraftNames =
 
 // Phaser
 weapon1 = "fexcelsiorphas"
-weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" 
+
 
 // Photon torpedos
 weapon2 = "frphot"
-weaponHardpoints2 = "hp11"
+
 
 //Detect Cloak 3
 
-weaponHardpoints3 = "hp23"
+
 
 weapon4 = "frphot"
-weaponHardpoints4 = "hp12"
 
-weaponHardpoints5 = "hp10"
+
+
 
 
 // Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp08" "hp09" "hp16" "hp17" "hp18" "hp19"
-lifeSupportTargetHardpoints = "hp06" 
-weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
-shieldGeneratorTargetHardpoints = "hp10"
-sensorsTargetHardpoints = "hp07" 
-hullTargetHardpoints = "hp13" "hp20"
+
+
+
+
+
+
 criticalTargetHardpoints = 
 
 //**********************************************************************
@@ -137,10 +137,34 @@ verboseTooltip = "Bajoran Militia Frigate. Extrapolated interceptor escort famil
 
 race = "bajoran"
 
-baseName = "bjfrigate"
 
-ScaleSOD = 1.0
+
+
 
 weapon3 = "xbj_gdetectf"
 
 weapon5 = "xbj_gshldemt"
+baseName = "ffrigate"
+ScaleSOD = 1.0
+
+
+
+
+
+
+
+
+
+
+
+weaponhardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05"
+weaponhardpoints2 = "hp11"
+weaponhardpoints3 = "hp23"
+weaponhardpoints4 = "hp12"
+weaponhardpoints5 = "hp10"
+enginestargethardpoints = "hp08" "hp09" "hp16" "hp17" "hp18" "hp19"
+lifesupporttargethardpoints = "hp06"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+shieldgeneratortargethardpoints = "hp10"
+sensorstargethardpoints = "hp07"
+hulltargethardpoints = "hp13" "hp20"

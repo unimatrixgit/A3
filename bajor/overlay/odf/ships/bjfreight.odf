@@ -55,28 +55,28 @@ possibleCraftNames =
 
 // Mining Beam for dilithium
 
-weaponHardpoints1 = "hp06"
+
 
 // Mining Beam Latinum
 
-weaponHardpoints2 = "hp06" 
+
 
 weapon3 = "fkaiserphas"
-weaponHardpoints3 = "hp01"
+
 
 
 
 // Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp02" "hp03" "hp04"
-lifeSupportTargetHardpoints = "hp01" 
-weaponsTargetHardpoints = "hp01" 
-shieldGeneratorTargetHardpoints = "hp06" 
-sensorsTargetHardpoints = "hp01" 
-hullTargetHardpoints = "hp05" 
 
-criticalTargetHardpoints = "hp05" 
 
-latinum_spray_hardpoint = "hp05"
+
+
+
+
+
+
+
+
 
 //**********************************************************************
 
@@ -104,10 +104,34 @@ verboseTooltip = "Bajoran Resource Freighter. TV Bajoran freighter / transport f
 
 race = "bajoran"
 
-baseName = "bjfreight"
 
-ScaleSOD = 1.0
+
+
 
 weapon1 = "xbj_gminedilithium"
 
 weapon2 = "xbj_gminelatinum"
+baseName = "ffreight"
+ScaleSOD = 1.65
+
+
+
+
+
+
+
+
+
+
+
+weaponhardpoints1 = "hp06"
+weaponhardpoints2 = "hp06"
+weaponhardpoints3 = "hp01"
+enginestargethardpoints = "hp02" "hp03" "hp04"
+lifesupporttargethardpoints = "hp01"
+weaponstargethardpoints = "hp01"
+shieldgeneratortargethardpoints = "hp06"
+sensorstargethardpoints = "hp01"
+hulltargethardpoints = "hp05"
+criticaltargethardpoints = "hp05"
+latinum_spray_hardpoint = "hp05"

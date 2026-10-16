@@ -54,16 +54,16 @@ possibleCraftNames =
 
 //Colonize
 
-weaponHardpoints1 = "hp01"
+
 
 // Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp02" "hp03"
-lifeSupportTargetHardpoints = "hp04" "hp05" "hp06"
-weaponsTargetHardpoints = "hp01"
-shieldGeneratorTargetHardpoints = "hp07" "hp08" "hp09"
-sensorsTargetHardpoints = "hp10" "hp11" "hp12"
-hullTargetHardpoints = "hp13" "hp14" "hp15" "hp16"
-criticalTargetHardpoints = "hp17" "hp18" "hp19"
+
+
+
+
+
+
+
 
 //**********************************************************************
 //KEYMAP LABEL
@@ -94,8 +94,26 @@ verboseTooltip = "Bajoran Colonial Transport. Extrapolated transport-family colo
 
 race = "bajoran"
 
-baseName = "bjcolony"
 
-ScaleSOD = 1.0
+
+
 
 weapon1 = "xbj_fcolonypod"
+baseName = "fcolony"
+ScaleSOD = .06
+
+
+
+
+
+
+
+
+weaponhardpoints1 = "hp01"
+enginestargethardpoints = "hp02" "hp03"
+lifesupporttargethardpoints = "hp04" "hp05" "hp06"
+weaponstargethardpoints = "hp01"
+shieldgeneratortargethardpoints = "hp07" "hp08" "hp09"
+sensorstargethardpoints = "hp10" "hp11" "hp12"
+hulltargethardpoints = "hp13" "hp14" "hp15" "hp16"
+criticaltargethardpoints = "hp17" "hp18" "hp19"

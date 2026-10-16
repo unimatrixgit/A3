@@ -1,0 +1,328 @@
+{
+  "target": "D:/armadaIII",
+  "backup": "D:/Xaramada-Modwork/backups/bajor-native-model-recovery-1792185774820",
+  "changes": [
+    {
+      "unit": "bjconst",
+      "model": "fconst",
+      "scale": "1.0",
+      "rel": "odf/ships/bjconst.odf"
+    },
+    {
+      "unit": "bjfreight",
+      "model": "ffreight",
+      "scale": "1.65",
+      "rel": "odf/ships/bjfreight.odf"
+    },
+    {
+      "unit": "bjscout",
+      "model": "fscout",
+      "scale": "0.25",
+      "rel": "odf/ships/bjscout.odf"
+    },
+    {
+      "unit": "bjinterceptor",
+      "model": "fdestroy",
+      "scale": "0.3",
+      "rel": "odf/ships/bjinterceptor.odf"
+    },
+    {
+      "unit": "bjassault",
+      "model": "fassault",
+      "scale": "1.25",
+      "rel": "odf/ships/bjassault.odf"
+    },
+    {
+      "unit": "bjtransport",
+      "model": "fantares",
+      "scale": "0.3",
+      "rel": "odf/ships/bjtransport.odf"
+    },
+    {
+      "unit": "bjnerys",
+      "model": "fdestroy",
+      "scale": "0.3",
+      "rel": "odf/ships/bjnerys.odf"
+    },
+    {
+      "unit": "bjmining",
+      "model": "xvstock_fmining",
+      "scale": "1.0",
+      "rel": "odf/stations/bjmining.odf"
+    },
+    {
+      "unit": "bjyard",
+      "model": "xvstock_fyard",
+      "scale": "1.50",
+      "rel": "odf/stations/bjyard.odf"
+    },
+    {
+      "unit": "bjyard2",
+      "model": "xvstock_fyard2",
+      "scale": "2.0",
+      "rel": "odf/stations/bjyard2.odf"
+    },
+    {
+      "unit": "bjyard3",
+      "model": "xvstock_fyard2",
+      "scale": "2.0",
+      "rel": "odf/stations/bjyard3.odf"
+    },
+    {
+      "unit": "bjresear",
+      "model": "xvstock_fresear",
+      "scale": "1.0",
+      "rel": "odf/stations/bjresear.odf"
+    },
+    {
+      "unit": "bjturret",
+      "model": "xvstock_fturret",
+      "scale": "1.0",
+      "rel": "odf/stations/bjturret.odf"
+    },
+    {
+      "unit": "bjraider",
+      "model": "fdanube",
+      "scale": "0.5",
+      "rel": "odf/ships/bjraider.odf"
+    },
+    {
+      "unit": "bjlightship",
+      "model": "fscout",
+      "scale": "0.25",
+      "rel": "odf/ships/bjlightship.odf"
+    },
+    {
+      "unit": "bjcolony",
+      "model": "fcolony",
+      "scale": ".06",
+      "rel": "odf/ships/bjcolony.odf"
+    },
+    {
+      "unit": "bjcargo",
+      "model": "fcargo",
+      "scale": "0.55",
+      "rel": "odf/ships/bjcargo.odf"
+    },
+    {
+      "unit": "bjrepair",
+      "model": "fsrepair",
+      "scale": "0.75",
+      "rel": "odf/ships/bjrepair.odf"
+    },
+    {
+      "unit": "bjcruiser",
+      "model": "fcruise1",
+      "scale": "1.0",
+      "rel": "odf/ships/bjcruiser.odf"
+    },
+    {
+      "unit": "bjtorpedo",
+      "model": "fcruise2",
+      "scale": "1.0",
+      "rel": "odf/ships/bjtorpedo.odf"
+    },
+    {
+      "unit": "bjfrigate",
+      "model": "ffrigate",
+      "scale": "1.0",
+      "rel": "odf/ships/bjfrigate.odf"
+    },
+    {
+      "unit": "bjartillery",
+      "model": "fcruise3",
+      "scale": "0.5",
+      "rel": "odf/ships/bjartillery.odf"
+    },
+    {
+      "unit": "bjbattle",
+      "model": "fbattle",
+      "scale": "2.03",
+      "rel": "odf/ships/bjbattle.odf"
+    },
+    {
+      "unit": "bjspecial",
+      "model": "fspecial",
+      "scale": "1.1",
+      "rel": "odf/ships/bjspecial.odf"
+    },
+    {
+      "unit": "bjsuper",
+      "model": "fbattle",
+      "scale": "2.03",
+      "rel": "odf/ships/bjsuper.odf"
+    },
+    {
+      "unit": "bjresear2",
+      "model": "xvstock_fresear2",
+      "scale": "1.0",
+      "rel": "odf/stations/bjresear2.odf"
+    },
+    {
+      "unit": "bjupgrade",
+      "model": "xvstock_fupgrade",
+      "scale": "1.0",
+      "rel": "odf/stations/bjupgrade.odf"
+    },
+    {
+      "unit": "bjsensor",
+      "model": "xvstock_fsensor",
+      "scale": "0.25",
+      "rel": "odf/stations/bjsensor.odf"
+    },
+    {
+      "unit": "bjorbital",
+      "model": "xvstock_forbital",
+      "scale": "1.0",
+      "rel": "odf/stations/bjorbital.odf"
+    },
+    {
+      "unit": "bjtrading",
+      "model": "xvstock_ftrading",
+      "scale": "2.0",
+      "rel": "odf/stations/bjtrading.odf"
+    },
+    {
+      "unit": "bjturret2",
+      "model": "xvstock_fturret2",
+      "scale": "1.0",
+      "rel": "odf/stations/bjturret2.odf"
+    },
+    {
+      "unit": "bjsuperlab",
+      "model": "xvstock_fresear2",
+      "scale": "1.0",
+      "rel": "odf/stations/bjsuperlab.odf"
+    },
+    {
+      "unit": "bjpod1",
+      "model": "fedpod1",
+      "scale": "1.0",
+      "rel": "odf/stations/bjpod1.odf"
+    },
+    {
+      "unit": "bjpod2",
+      "model": "fedpod2",
+      "scale": "1.0",
+      "rel": "odf/stations/bjpod2.odf"
+    },
+    {
+      "unit": "bjpod3",
+      "model": "fedpod3",
+      "scale": "1.0",
+      "rel": "odf/stations/bjpod3.odf"
+    },
+    {
+      "unit": "bjpod4",
+      "model": "fedpod4",
+      "scale": "1.0",
+      "rel": "odf/stations/bjpod4.odf"
+    },
+    {
+      "unit": "bjpod5",
+      "model": "fedpod5",
+      "scale": "1.0",
+      "rel": "odf/stations/bjpod5.odf"
+    },
+    {
+      "unit": "bjpod6",
+      "model": "fedpod6",
+      "scale": "1.0",
+      "rel": "odf/stations/bjpod6.odf"
+    },
+    {
+      "unit": "bjpod7",
+      "model": "fedpod7",
+      "scale": "1.0",
+      "rel": "odf/stations/bjpod7.odf"
+    },
+    {
+      "unit": "bjpod8",
+      "model": "fedpod8",
+      "scale": "1.0",
+      "rel": "odf/stations/bjpod8.odf"
+    },
+    {
+      "unit": "bjpod9",
+      "model": "fedpod9",
+      "scale": "1.0",
+      "rel": "odf/stations/bjpod9.odf"
+    },
+    {
+      "unit": "bjpod11",
+      "model": "fedpod11",
+      "scale": "1.0",
+      "rel": "odf/stations/bjpod11.odf"
+    },
+    {
+      "unit": "bjpod12",
+      "model": "fedpod12",
+      "scale": "1.0",
+      "rel": "odf/stations/bjpod12.odf"
+    },
+    {
+      "unit": "bjpod13",
+      "model": "fedpod13",
+      "scale": "1.0",
+      "rel": "odf/stations/bjpod13.odf"
+    },
+    {
+      "unit": "bjpod14",
+      "model": "fedpod14",
+      "scale": "1.0",
+      "rel": "odf/stations/bjpod14.odf"
+    },
+    {
+      "unit": "bjpod15",
+      "model": "fedpod15",
+      "scale": "1.0",
+      "rel": "odf/stations/bjpod15.odf"
+    },
+    {
+      "unit": "bjpod16",
+      "model": "fedpod16",
+      "scale": "1.0",
+      "rel": "odf/stations/bjpod16.odf"
+    },
+    {
+      "unit": "bjpod21",
+      "model": "fedpod21",
+      "scale": "1.2",
+      "rel": "odf/stations/bjpod21.odf"
+    },
+    {
+      "unit": "bjpod22",
+      "model": "fedpod22",
+      "scale": "1.2",
+      "rel": "odf/stations/bjpod22.odf"
+    },
+    {
+      "unit": "bjpod23",
+      "model": "fedpod23",
+      "scale": "1.2",
+      "rel": "odf/stations/bjpod23.odf"
+    },
+    {
+      "unit": "bjpod24",
+      "model": "fedpod24",
+      "scale": "1.2",
+      "rel": "odf/stations/bjpod24.odf"
+    },
+    {
+      "unit": "bjpod25",
+      "model": "fedpod25",
+      "scale": "1.2",
+      "rel": "odf/stations/bjpod25.odf"
+    },
+    {
+      "unit": "xbjuconst",
+      "model": "fconst",
+      "scale": "1.0",
+      "rel": "odf/ships/xbjuconst.odf"
+    }
+  ],
+  "scope": "Only model, scale and attachment references changed; no fleet/tech/AI/cost rollback. DS9 retains its existing model.",
+  "hypothesis": "New Bajoran SOD assets are suspected from repeated load crashes when Bajor is included; native proxies isolate that hypothesis.",
+  "customAssetsPreservedIn": "D:/Xaramada-Modwork/bajor-rebuild",
+  "runtimeVerified": false
+}

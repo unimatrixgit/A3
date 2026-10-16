@@ -105,21 +105,21 @@ officerCost = 15
 buildTime = 150
 
 
-podhardpoints = "pod01" "pod02" "pod03" "pod04"
 
-enginestargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
 
-lifesupporttargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
 
-weaponstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
 
-shieldgeneratortargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
 
-sensorstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
 
-hulltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
 
-criticaltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+
+
+
+
+
+
+
+
 
 unitName = "Bajoran Advanced Research Institute"
 
@@ -129,9 +129,9 @@ verboseTooltip = "Bajoran Advanced Research Institute. Extrapolated advanced res
 
 race = "bajoran"
 
-baseName = "bjresear2"
 
-ScaleSOD = 1.0
+
+
 
 buildItem0 = "bjpod6"
 
@@ -140,3 +140,21 @@ buildItem1 = "bjpod7"
 buildItem2 = "bjpod8"
 
 buildItem3 = "bjpod9"
+baseName = "xvstock_fresear2"
+ScaleSOD = 1.0
+
+
+
+
+
+
+
+
+podhardpoints = "pod01" "pod02" "pod03" "pod04"
+enginestargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+lifesupporttargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+weaponstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+shieldgeneratortargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+sensorstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+hulltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+criticaltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
