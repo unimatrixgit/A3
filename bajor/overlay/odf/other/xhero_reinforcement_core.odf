@@ -1,12 +1,1 @@
-// Shared controllable reinforcement interface. Stock mobile Starbase/Shipyard producer.
-// Wormhole arrival uses the existing Cardassian quantum-singularity visual.
-classLabel = "starbase"
-builder_ship = 1
-builder_facility = 0
-SHOW_MOVEMENT_AUTONOMY = 1
-SHOW_SW_AUTONOMY = 1
-can_sandd = 1
-can_explore = 1
-can_repair = 0
-buildHardpoint = "hp01"
-wormhole = "qsewrmhole.odf"
+// Disabled after repeated match-load crashes. Heroes retain their original Craft classes.

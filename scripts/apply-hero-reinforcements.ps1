@@ -1,5 +1,6 @@
 $ErrorActionPreference='Stop'
 $target='D:\armadaIII';$stage='D:\Xaramada-Modwork\hero-reinforcements';$repo='D:\aramada'
+if(Test-Path -LiteralPath (Join-Path $stage 'QUARANTINED.json')){throw 'Experimental reinforcement producer is quarantined after match-load crashes.'}
 $report=Get-Content -LiteralPath "$repo\reports\hero-reinforcement-validation.json" -Raw | ConvertFrom-Json
 if($report.errors.Count -gt 0){throw 'Reference validation has errors'}
 if(Get-CimInstance Win32_Process -Filter "Name='Armada2.exe'" | Where-Object {$_.ExecutablePath -eq "$target\Armada2.exe"}){throw 'Close Armada III before applying the test patch'}

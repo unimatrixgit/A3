@@ -1,0 +1,20 @@
+{
+  "target": "D:/armadaIII",
+  "backup": "D:/Xaramada-Modwork/backups/hero-producer-recovery-1792186031156",
+  "changed": [
+    "odf\\ships\\bjnerys.odf",
+    "odf\\ships\\blocutus.odf",
+    "odf\\ships\\dweyoun.odf",
+    "odf\\ships\\xhbrhero.odf",
+    "odf\\ships\\xhchero.odf",
+    "odf\\ships\\xhdhero.odf",
+    "odf\\ships\\xhfhero.odf",
+    "odf\\ships\\xhkhero.odf",
+    "odf\\ships\\xhrhero.odf",
+    "odf\\ships\\xhshero.odf",
+    "odf/other/xhero_reinforcement_core.odf"
+  ],
+  "disabled": "Experimental mobile starbase/producer hero reinforcement system",
+  "reason": "Repeated match-load crashes persist with native Bajoran art; restoring original hero class hierarchy isolates another unverified runtime change.",
+  "runtimeVerified": false
+}

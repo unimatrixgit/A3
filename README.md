@@ -30,3 +30,5 @@ SOD serialization tooling: https://github.com/Elenterius/stau. Tool is kept outs
 
 
 Crash recovery: repeated match-load crashes followed the custom Bajoran model release. Active Bajoran definitions now use compatible installed models, with corrected attachments and missing Borg-texture fallbacks. Full gameplay roster, AI, costs and technology remain installed. The custom model staging release is quarantined; do not reapply it. All 53 active unit asset definitions pass structural checks; a repeated match test must confirm recovery. Cooper, new 8472 heroes and Locutus voice additions are paused while investigating this crash.
+
+Additional stability recovery: all ten hero definitions again inherit the normal Craft runtime class. The experimental mobile-producer reinforcement interface is disabled and its installer quarantined. Existing combat weapons and abilities are retained. A fresh Bajoran match must verify loading.
