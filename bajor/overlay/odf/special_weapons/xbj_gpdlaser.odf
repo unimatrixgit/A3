@@ -1,0 +1,53 @@
+// Standalone native weapon definition; Bajoran tech identity retained.
+//Name of the ODF file for the ordnance for this weapon
+ordName = "pdlaser"
+
+//Display name for this weapon
+wpnName = "Point Defense Phaser"
+
+//tooltips
+tooltip = "FED_POD9"
+verboseTooltip = "FED_POD9_V"
+
+//Location of the button in the speed panel
+buttonSlot = 4
+
+// location of the button in the popup palette
+popupSlot = 7
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 5
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 2
+
+// Special stuff
+special = 1
+
+//Time Delay between shots
+shotDelay = 3.5
+
+// Range within which the weapon will shoot down incoming ordnances
+range = 150.0f
+
+//Sound which is played when the weapon fires
+fireSound = "swfpontf.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "PointDefenseLaser"
+
+// Special energy cost per second
+specialEnergyCost = 40
+
+// For a toggleable weapon
+needTarget = 0
+toggle = 1
+
+//this special weapon can be assimilated by the borg tech assimilator
+assimilatable = "fedpod9"
+
+hotkeyLabel = "HOTKEY_F12"

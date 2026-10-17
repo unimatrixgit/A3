@@ -1,0 +1,355 @@
+{
+  "target": "D:\\armadaIII",
+  "profiles": [
+    {
+      "profile": "borg_build_list.aip",
+      "rows": 48,
+      "within200Rows": true
+    },
+    {
+      "profile": "borg_defensive_list.aip",
+      "rows": 48,
+      "within200Rows": true
+    },
+    {
+      "profile": "borg_endgame_list.aip",
+      "rows": 48,
+      "within200Rows": true
+    },
+    {
+      "profile": "borg_instant_action_build_list.aip",
+      "rows": 48,
+      "within200Rows": true
+    },
+    {
+      "profile": "borg_offensive_list.aip",
+      "rows": 48,
+      "within200Rows": true
+    },
+    {
+      "profile": "breen_build_list.aip",
+      "rows": 25,
+      "within200Rows": true
+    },
+    {
+      "profile": "breen_defensive_list.aip",
+      "rows": 25,
+      "within200Rows": true
+    },
+    {
+      "profile": "breen_endgame_list.aip",
+      "rows": 25,
+      "within200Rows": true
+    },
+    {
+      "profile": "breen_instant_action_build_list.aip",
+      "rows": 25,
+      "within200Rows": true
+    },
+    {
+      "profile": "breen_offensive_list.aip",
+      "rows": 25,
+      "within200Rows": true
+    },
+    {
+      "profile": "cardassian_build_list.aip",
+      "rows": 66,
+      "within200Rows": true
+    },
+    {
+      "profile": "cardassian_defensive_list.aip",
+      "rows": 66,
+      "within200Rows": true
+    },
+    {
+      "profile": "cardassian_endgame_list.aip",
+      "rows": 66,
+      "within200Rows": true
+    },
+    {
+      "profile": "cardassian_instant_action_build_list.aip",
+      "rows": 66,
+      "within200Rows": true
+    },
+    {
+      "profile": "cardassian_offensive_list.aip",
+      "rows": 66,
+      "within200Rows": true
+    },
+    {
+      "profile": "dominion_build_list.aip",
+      "rows": 26,
+      "within200Rows": true
+    },
+    {
+      "profile": "dominion_defensive_list.aip",
+      "rows": 26,
+      "within200Rows": true
+    },
+    {
+      "profile": "dominion_endgame_list.aip",
+      "rows": 26,
+      "within200Rows": true
+    },
+    {
+      "profile": "dominion_instant_action_build_list.aip",
+      "rows": 26,
+      "within200Rows": true
+    },
+    {
+      "profile": "dominion_offensive_list.aip",
+      "rows": 26,
+      "within200Rows": true
+    },
+    {
+      "profile": "federation_build_list.aip",
+      "rows": 79,
+      "within200Rows": true
+    },
+    {
+      "profile": "federation_defensive_list.aip",
+      "rows": 79,
+      "within200Rows": true
+    },
+    {
+      "profile": "federation_endgame_list.aip",
+      "rows": 62,
+      "within200Rows": true
+    },
+    {
+      "profile": "federation_instant_action_build_list.aip",
+      "rows": 109,
+      "within200Rows": true
+    },
+    {
+      "profile": "federation_offensive_list.aip",
+      "rows": 79,
+      "within200Rows": true
+    },
+    {
+      "profile": "klingon_build_list.aip",
+      "rows": 69,
+      "within200Rows": true
+    },
+    {
+      "profile": "klingon_defensive_list.aip",
+      "rows": 69,
+      "within200Rows": true
+    },
+    {
+      "profile": "klingon_endgame_list.aip",
+      "rows": 69,
+      "within200Rows": true
+    },
+    {
+      "profile": "klingon_instant_action_build_list.aip",
+      "rows": 69,
+      "within200Rows": true
+    },
+    {
+      "profile": "klingon_offensive_list.aip",
+      "rows": 69,
+      "within200Rows": true
+    },
+    {
+      "profile": "romulan_build_list.aip",
+      "rows": 64,
+      "within200Rows": true
+    },
+    {
+      "profile": "romulan_defensive_list.aip",
+      "rows": 64,
+      "within200Rows": true
+    },
+    {
+      "profile": "romulan_endgame_list.aip",
+      "rows": 64,
+      "within200Rows": true
+    },
+    {
+      "profile": "romulan_instant_action_build_list.aip",
+      "rows": 64,
+      "within200Rows": true
+    },
+    {
+      "profile": "romulan_offensive_list.aip",
+      "rows": 64,
+      "within200Rows": true
+    },
+    {
+      "profile": "species8472_build_list.aip",
+      "rows": 50,
+      "within200Rows": true
+    },
+    {
+      "profile": "species8472_defensive_list.aip",
+      "rows": 50,
+      "within200Rows": true
+    },
+    {
+      "profile": "species8472_endgame_list.aip",
+      "rows": 50,
+      "within200Rows": true
+    },
+    {
+      "profile": "species8472_instant_action_build_list.aip",
+      "rows": 50,
+      "within200Rows": true
+    },
+    {
+      "profile": "species8472_offensive_list.aip",
+      "rows": 50,
+      "within200Rows": true
+    }
+  ],
+  "issues": [
+    {
+      "profile": "borg_build_list.aip",
+      "row": 33,
+      "unit": "bomega.odf",
+      "issues": [
+        "missing tech1 entry",
+        "no producer found"
+      ]
+    },
+    {
+      "profile": "borg_defensive_list.aip",
+      "row": 33,
+      "unit": "bomega.odf",
+      "issues": [
+        "missing tech1 entry",
+        "no producer found"
+      ]
+    },
+    {
+      "profile": "borg_endgame_list.aip",
+      "row": 33,
+      "unit": "bomega.odf",
+      "issues": [
+        "missing tech1 entry",
+        "no producer found"
+      ]
+    },
+    {
+      "profile": "borg_instant_action_build_list.aip",
+      "row": 33,
+      "unit": "bomega.odf",
+      "issues": [
+        "missing tech1 entry",
+        "no producer found"
+      ]
+    },
+    {
+      "profile": "borg_offensive_list.aip",
+      "row": 33,
+      "unit": "bomega.odf",
+      "issues": [
+        "missing tech1 entry",
+        "no producer found"
+      ]
+    },
+    {
+      "profile": "federation_instant_action_build_list.aip",
+      "row": 100,
+      "unit": "fent.odf",
+      "issues": [
+        "no producer found"
+      ]
+    },
+    {
+      "profile": "federation_instant_action_build_list.aip",
+      "row": 101,
+      "unit": "fenta.odf",
+      "issues": [
+        "no producer found"
+      ]
+    },
+    {
+      "profile": "federation_instant_action_build_list.aip",
+      "row": 102,
+      "unit": "fentb.odf",
+      "issues": [
+        "no producer found"
+      ]
+    },
+    {
+      "profile": "federation_instant_action_build_list.aip",
+      "row": 103,
+      "unit": "fentc.odf",
+      "issues": [
+        "no producer found"
+      ]
+    },
+    {
+      "profile": "federation_instant_action_build_list.aip",
+      "row": 104,
+      "unit": "fentd.odf",
+      "issues": [
+        "no producer found"
+      ]
+    },
+    {
+      "profile": "federation_instant_action_build_list.aip",
+      "row": 105,
+      "unit": "fentdx.odf",
+      "issues": [
+        "no producer found"
+      ]
+    },
+    {
+      "profile": "federation_instant_action_build_list.aip",
+      "row": 106,
+      "unit": "fente.odf",
+      "issues": [
+        "no producer found"
+      ]
+    },
+    {
+      "profile": "romulan_build_list.aip",
+      "row": 11,
+      "unit": "rdestr1.odf",
+      "issues": [
+        "missing tech1 entry",
+        "no producer found"
+      ]
+    },
+    {
+      "profile": "romulan_defensive_list.aip",
+      "row": 11,
+      "unit": "rdestr1.odf",
+      "issues": [
+        "missing tech1 entry",
+        "no producer found"
+      ]
+    },
+    {
+      "profile": "romulan_endgame_list.aip",
+      "row": 11,
+      "unit": "rdestr1.odf",
+      "issues": [
+        "missing tech1 entry",
+        "no producer found"
+      ]
+    },
+    {
+      "profile": "romulan_instant_action_build_list.aip",
+      "row": 11,
+      "unit": "rdestr1.odf",
+      "issues": [
+        "missing tech1 entry",
+        "no producer found"
+      ]
+    },
+    {
+      "profile": "romulan_offensive_list.aip",
+      "row": 11,
+      "unit": "rdestr1.odf",
+      "issues": [
+        "missing tech1 entry",
+        "no producer found"
+      ]
+    }
+  ],
+  "runtimeVerified": false,
+  "note": "Reference audit only; does not validate runtime AI decisions or full dependency ordering."
+}

@@ -1,0 +1,37 @@
+#include "8472_behemoth.odf"
+unitName = "Fluidic Leviathan"
+tooltip = "Fluidic Leviathan"
+verboseTooltip = "A broad armored broodship extrapolated from the Behemoth. Hero organism; rebuilt at the Advanced Hatchery."
+race = "species8472"
+baseName = "xhs_leviathan"
+isHero = 1
+label = "Fluidic Leviathan"
+maxHealth = 11568
+biomatterCost = 1080
+buildTime = 61
+ScaleSOD = 1
+possibleCraftNames = "Fluidic Leviathan"
+
+eventSelect = "XV_xhshero_Select"
+
+eventAcknowledge = "XV_xhshero_Acknowledge"
+
+eventAttack = "XV_xhshero_Attack"
+
+eventStop = "XV_xhshero_Stop"
+
+eventMove = "XV_xhshero_Move"
+
+eventRepair = "XV_xhshero_Repair"
+
+eventRedAlert = "XV_xhshero_RedAlert"
+
+eventYellowAlert = "XV_xhshero_YellowAlert"
+
+eventGreenAlert = "XV_xhshero_GreenAlert"
+
+eventTransport = "XV_xhshero_Transport"
+
+eventSelfDestruct = "XV_xhshero_SelfDestruct"
+
+eventDecommission = "XV_xhshero_Decommission"

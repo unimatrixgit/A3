@@ -1,0 +1,37 @@
+{
+  "stage": "D:\\Xaramada-Modwork\\bajor-paired-yard-tech",
+  "files": [
+    {
+      "path": "techtree/earlytech.tt",
+      "sourceSha256": "8be783e38a9f843589e036969dc049269b1de7d433be0911836c6ce212ea586a",
+      "sha256": "c3d2ec7b6adaf53436f208678b162fb4734dc8d1492bd344d20b3df72f72b74c"
+    },
+    {
+      "path": "techtree/tech1.tt",
+      "sourceSha256": "326ad42424ea797879bc4901765c2e3dcda42563ca2ce4f0a4ace0e3b2195570",
+      "sha256": "f8dcc67884e9476b7336fef344b04e661965b406bd4934f1735a940d79093549"
+    },
+    {
+      "path": "odf/ships/bjcolony.odf",
+      "sourceSha256": "e411d5b5174c197eb33d670b6fe33f6e8d98a6ca5379aa3d84b59decd4724ecc",
+      "sha256": "f9adee4d743379309a7ceedc0c37fb175c0ca394ed6c86cb173b9aba4a2e77e2"
+    }
+  ],
+  "requirements": {
+    "bjyard": [
+      "bjbase"
+    ],
+    "bjresear": [
+      "bjbase"
+    ],
+    "bjyard2": [
+      "bjresear"
+    ],
+    "bjresear2": [
+      "bjresear"
+    ]
+  },
+  "applied": true,
+  "runtimeVerified": false,
+  "backup": "D:\\Xaramada-Modwork\\backups\\bajor-paired-yard-tech-20261017-021028"
+}

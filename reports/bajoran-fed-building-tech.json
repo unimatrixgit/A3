@@ -1,0 +1,68 @@
+{
+  "stage": "D:\\Xaramada-Modwork\\bajor-fed-building-tech",
+  "files": [
+    {
+      "path": "techtree/earlytech.tt",
+      "sourceSha256": "ac58959a0155c202a2481d28f94a364c5312d506334ad6e900287ee666e92ba4",
+      "sha256": "8be783e38a9f843589e036969dc049269b1de7d433be0911836c6ce212ea586a"
+    },
+    {
+      "path": "techtree/tech1.tt",
+      "sourceSha256": "9a26069eae1afe5910c1831d02cbbd6e0b626acf970f2f2365bb446bada95b41",
+      "sha256": "326ad42424ea797879bc4901765c2e3dcda42563ca2ce4f0a4ace0e3b2195570"
+    }
+  ],
+  "buildingRequirements": {
+    "bjbase": [],
+    "bjmining": [],
+    "bjorbital": [],
+    "bjsensor": [
+      "bjbase"
+    ],
+    "bjturret": [
+      "bjbase"
+    ],
+    "bjturret2": [
+      "bjresear"
+    ],
+    "bjyard": [
+      "bjbase"
+    ],
+    "bjyard2": [
+      "bjresear"
+    ],
+    "bjtrading": [
+      "bjbase"
+    ],
+    "bjresear": [
+      "bjbase",
+      "bjyard"
+    ],
+    "bjresear2": [
+      "bjyard2",
+      "bjresear"
+    ],
+    "bjupgrade": [
+      "bjresear",
+      "bjresear2"
+    ],
+    "bjyard3": [
+      "bjbase",
+      "bjresear2",
+      "bjyard2"
+    ],
+    "bjsuperlab": [
+      "bjbase",
+      "bjresear2",
+      "bjyard2"
+    ]
+  },
+  "adaptations": [
+    "Bajor has no Federation yard0; basic yard requires starbase.",
+    "Advanced research uses advanced yard plus basic research to avoid the installed Federation cycle.",
+    "Hero yard and special station share late-tier prerequisites."
+  ],
+  "applied": true,
+  "runtimeVerified": false,
+  "backup": "D:\\Xaramada-Modwork\\backups\\bajor-fed-building-tech-20261017-020646"
+}

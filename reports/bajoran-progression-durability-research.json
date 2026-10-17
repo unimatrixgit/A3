@@ -1,0 +1,376 @@
+{
+  "target": "D:/armadaIII",
+  "tech": "tech1.tt",
+  "startingUnits": [
+    "bjnerys.odf",
+    "bjconst.odf",
+    "bjconst.odf",
+    "bjbase.odf",
+    "bjscout.odf"
+  ],
+  "bajoranDefinitions": 54,
+  "reachableBajoran": 54,
+  "unreachable": [],
+  "aiUnreachable": [],
+  "conflictingBajoranTechEntries": [],
+  "progression": [
+    {
+      "unit": "bjyard.odf",
+      "producer": "bjconst.odf",
+      "requires": [
+        "bjbase.odf"
+      ]
+    },
+    {
+      "unit": "bjmining.odf",
+      "producer": "bjconst.odf",
+      "requires": []
+    },
+    {
+      "unit": "bjorbital.odf",
+      "producer": "bjconst.odf",
+      "requires": []
+    },
+    {
+      "unit": "bjtrading.odf",
+      "producer": "bjconst.odf",
+      "requires": [
+        "bjbase.odf"
+      ]
+    },
+    {
+      "unit": "bjresear.odf",
+      "producer": "bjconst.odf",
+      "requires": [
+        "bjbase.odf"
+      ]
+    },
+    {
+      "unit": "bjresear2.odf",
+      "producer": "bjconst.odf",
+      "requires": [
+        "bjresear.odf"
+      ]
+    },
+    {
+      "unit": "bjupgrade.odf",
+      "producer": "bjconst.odf",
+      "requires": [
+        "bjresear.odf",
+        "bjresear2.odf"
+      ]
+    },
+    {
+      "unit": "bjsensor.odf",
+      "producer": "bjconst.odf",
+      "requires": [
+        "bjbase.odf"
+      ]
+    },
+    {
+      "unit": "bjturret.odf",
+      "producer": "bjconst.odf",
+      "requires": [
+        "bjbase.odf"
+      ]
+    },
+    {
+      "unit": "bjturret2.odf",
+      "producer": "bjconst.odf",
+      "requires": [
+        "bjresear.odf"
+      ]
+    },
+    {
+      "unit": "xbjuconst.odf",
+      "producer": "bjbase.odf",
+      "requires": []
+    },
+    {
+      "unit": "bjfreight.odf",
+      "producer": "bjbase.odf",
+      "requires": [
+        "bjmining.odf"
+      ]
+    },
+    {
+      "unit": "bjcargo.odf",
+      "producer": "bjbase.odf",
+      "requires": [
+        "bjtrading.odf"
+      ]
+    },
+    {
+      "unit": "bjrepair.odf",
+      "producer": "bjbase.odf",
+      "requires": [
+        "bjyard.odf"
+      ]
+    },
+    {
+      "unit": "bjcolony.odf",
+      "producer": "bjbase.odf",
+      "requires": [
+        "bjyard.odf",
+        "bjresear.odf"
+      ]
+    },
+    {
+      "unit": "bjyard2.odf",
+      "producer": "bjconst.odf",
+      "requires": [
+        "bjresear.odf"
+      ]
+    },
+    {
+      "unit": "bjinterceptor.odf",
+      "producer": "bjyard.odf",
+      "requires": [
+        "bjyard.odf"
+      ]
+    },
+    {
+      "unit": "bjraider.odf",
+      "producer": "bjyard.odf",
+      "requires": [
+        "bjyard.odf"
+      ]
+    },
+    {
+      "unit": "bjtransport.odf",
+      "producer": "bjyard.odf",
+      "requires": [
+        "bjyard.odf"
+      ]
+    },
+    {
+      "unit": "bjlightship.odf",
+      "producer": "bjyard.odf",
+      "requires": [
+        "bjyard.odf"
+      ]
+    },
+    {
+      "unit": "bjassault.odf",
+      "producer": "bjyard.odf",
+      "requires": [
+        "bjyard.odf",
+        "bjresear.odf"
+      ]
+    },
+    {
+      "unit": "bjpod1.odf",
+      "producer": "bjresear.odf",
+      "requires": [
+        "bjresear.odf",
+        "bjyard2.odf"
+      ]
+    },
+    {
+      "unit": "bjpod2.odf",
+      "producer": "bjresear.odf",
+      "requires": [
+        "bjresear.odf"
+      ]
+    },
+    {
+      "unit": "bjpod3.odf",
+      "producer": "bjresear.odf",
+      "requires": [
+        "bjresear.odf"
+      ]
+    },
+    {
+      "unit": "bjpod4.odf",
+      "producer": "bjresear.odf",
+      "requires": [
+        "bjresear.odf"
+      ]
+    },
+    {
+      "unit": "bjpod5.odf",
+      "producer": "bjresear.odf",
+      "requires": [
+        "bjresear.odf"
+      ]
+    },
+    {
+      "unit": "bjpod16.odf",
+      "producer": "bjresear.odf",
+      "requires": [
+        "bjresear2.odf"
+      ]
+    },
+    {
+      "unit": "bjpod6.odf",
+      "producer": "bjresear2.odf",
+      "requires": [
+        "bjresear2.odf"
+      ]
+    },
+    {
+      "unit": "bjpod7.odf",
+      "producer": "bjresear2.odf",
+      "requires": [
+        "bjresear2.odf"
+      ]
+    },
+    {
+      "unit": "bjpod8.odf",
+      "producer": "bjresear2.odf",
+      "requires": [
+        "bjresear2.odf"
+      ]
+    },
+    {
+      "unit": "bjpod9.odf",
+      "producer": "bjresear2.odf",
+      "requires": [
+        "bjresear2.odf"
+      ]
+    },
+    {
+      "unit": "bjpod11.odf",
+      "producer": "bjupgrade.odf",
+      "requires": [
+        "bjupgrade.odf"
+      ]
+    },
+    {
+      "unit": "bjpod12.odf",
+      "producer": "bjupgrade.odf",
+      "requires": [
+        "bjupgrade.odf"
+      ]
+    },
+    {
+      "unit": "bjpod13.odf",
+      "producer": "bjupgrade.odf",
+      "requires": [
+        "bjupgrade.odf"
+      ]
+    },
+    {
+      "unit": "bjpod14.odf",
+      "producer": "bjupgrade.odf",
+      "requires": [
+        "bjupgrade.odf"
+      ]
+    },
+    {
+      "unit": "bjpod15.odf",
+      "producer": "bjupgrade.odf",
+      "requires": [
+        "bjupgrade.odf"
+      ]
+    },
+    {
+      "unit": "bjpod21.odf",
+      "producer": "bjupgrade.odf",
+      "requires": [
+        "bjpod11.odf"
+      ]
+    },
+    {
+      "unit": "bjpod22.odf",
+      "producer": "bjupgrade.odf",
+      "requires": [
+        "bjpod12.odf"
+      ]
+    },
+    {
+      "unit": "bjpod23.odf",
+      "producer": "bjupgrade.odf",
+      "requires": [
+        "bjpod13.odf"
+      ]
+    },
+    {
+      "unit": "bjpod24.odf",
+      "producer": "bjupgrade.odf",
+      "requires": [
+        "bjpod14.odf"
+      ]
+    },
+    {
+      "unit": "bjpod25.odf",
+      "producer": "bjupgrade.odf",
+      "requires": [
+        "bjpod15.odf"
+      ]
+    },
+    {
+      "unit": "bjsuperlab.odf",
+      "producer": "xbjuconst.odf",
+      "requires": [
+        "bjbase.odf",
+        "bjresear2.odf",
+        "bjyard2.odf"
+      ]
+    },
+    {
+      "unit": "bjyard3.odf",
+      "producer": "xbjuconst.odf",
+      "requires": [
+        "bjbase.odf",
+        "bjresear2.odf",
+        "bjyard2.odf"
+      ]
+    },
+    {
+      "unit": "bjcruiser.odf",
+      "producer": "bjyard2.odf",
+      "requires": [
+        "bjyard2.odf"
+      ]
+    },
+    {
+      "unit": "bjtorpedo.odf",
+      "producer": "bjyard2.odf",
+      "requires": [
+        "bjyard2.odf",
+        "bjresear.odf"
+      ]
+    },
+    {
+      "unit": "bjfrigate.odf",
+      "producer": "bjyard2.odf",
+      "requires": [
+        "bjyard2.odf"
+      ]
+    },
+    {
+      "unit": "bjartillery.odf",
+      "producer": "bjyard2.odf",
+      "requires": [
+        "bjyard2.odf",
+        "bjresear2.odf"
+      ]
+    },
+    {
+      "unit": "bjbattle.odf",
+      "producer": "bjyard2.odf",
+      "requires": [
+        "bjyard2.odf",
+        "bjupgrade.odf"
+      ]
+    },
+    {
+      "unit": "bjspecial.odf",
+      "producer": "bjyard2.odf",
+      "requires": [
+        "bjyard2.odf",
+        "bjresear2.odf"
+      ]
+    },
+    {
+      "unit": "bjsuper.odf",
+      "producer": "bjyard3.odf",
+      "requires": [
+        "bjyard3.odf",
+        "bjsuperlab.odf"
+      ]
+    }
+  ],
+  "runtimeVerified": false
+}

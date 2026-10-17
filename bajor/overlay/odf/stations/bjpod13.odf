@@ -1,13 +1,14 @@
 #include "SensorUpgradePod.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitname = "Bajoran Sensors II"
 
 //Race which can build ship & starting race of ship
-
+race = "bajoran"
 
 //tooltips
-
+tooltip = "Bajoran Sensors II"
+verbosetooltip = "Bajoran Sensors II. Extrapolated technology pod."
 
 //Dilithium Cost to build
 
@@ -32,16 +33,22 @@ crewCost = 0
 officerCost = 1
 buildTime = 120
 
-unitName = "Bajoran Sensors II"
+eventacknowledge = "PodAcknowledge"
 
-tooltip = "Bajoran Sensors II"
+eventdecommission = "PodDecommission"
 
-verboseTooltip = "Bajoran Sensors II. Extrapolated technology pod."
+eventselect = "PodSelect"
 
-race = "bajoran"
+basename = "br3_bjpod13"
 
+scalesod = 1.0
 
+shieldgeneratorhitpoints = 120
 
+lifesupporthitpoints = 120
 
-baseName = "fedpod13"
-ScaleSOD = 1.0
+sensorshitpoints = 120
+
+maxhealth = 450
+
+shieldrate = 1.25

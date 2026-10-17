@@ -1,0 +1,71 @@
+// Standalone native weapon definition; Bajoran tech identity retained.
+//Name of the ODF file for the ordinance for this weapon
+ordName = "amine"
+
+//Display name for this weapon
+wpnName = "Antimatter Mines"
+
+//tooltips
+tooltip = "FED_POD4"
+verboseTooltip = "FED_POD4_V"
+
+//Location of the button in the speed panel
+buttonSlot = 1
+
+// location of the button in the popup palette
+popupSlot = 2
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 10
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+//Time Delay between shots
+shotDelay = 15.0f
+
+// Range within which the weapon will fire.
+range = 600.0f
+
+//Sound which is played when the weapon fires
+fireSound = "swfantif.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "minelayer"
+
+// Percent chance of hitting the target.
+hitChance = 1.00
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the attacker is full impulse
+impulseToHitModifier = 0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not attacker is stopped 
+stopToHitModifier = 0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is full impulse 
+toHitImpulseModifier = 0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is stopped 
+toHitStopModifier = 0
+
+// special weapon
+special = 1
+
+// Need target
+needTarget = 0
+
+//Don't automatically switch to attack mode after launching a mine
+switchToAttack = 0
+
+//this special weapon can be assimilated by the borg tech assimilator
+assimilatable = "fedpod4"
+
+hotkeyLabel = "HOTKEY_F1"

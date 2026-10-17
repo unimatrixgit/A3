@@ -20,18 +20,18 @@
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxHealth = 75
+maxhealth = 150
 
 // Hitpoints
 
-shieldGeneratorHitPoints = 115
-enginesHitPoints = 115
-weaponsHitPoints = 115
-lifeSupportHitPoints = 115
-sensorsHitPoints = 115
+shieldgeneratorhitpoints = 172.5
+engineshitpoints = 172.5
+weaponshitpoints = 172.5
+lifesupporthitpoints = 172.5
+sensorshitpoints = 172.5
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 0.75
+shieldrate = 1.5
 
 //**********************************************************************
 //SHIP NAMES
@@ -114,8 +114,8 @@ canAttack = 0
 transporter = 0
 
 verboseTooltip = "Bajoran solar lightship. Civilian survey vessel; unarmed. Game adaptation of the TV lightship."
-baseName = "fscout"
-ScaleSOD = 0.25
+baseName = "br3_bjlightship"
+ScaleSOD = 0.4
 
 
 

@@ -152,7 +152,7 @@ buildTime = 17
 
 
 
-weapon1 = "xbj_gtracbm"
+weapon1 = "gtracbm"
 unitName = "Bajoran Universal Constructor"
 tooltip = "Bajoran Universal Constructor"
 verboseTooltip = "Bajoran Universal Constructor. Builds allied faction starbases and assigned advanced facilities. Species 8472 biotechnology is excluded."
@@ -160,18 +160,18 @@ race = "bajoran"
 
 
 hotkeyLabel = "HOTKEY_F2"
-buildItem0 = "bbase"
-buildItem1 = "fbase"
-buildItem2 = "kbase"
-buildItem3 = "rbase"
-buildItem4 = "cbase"
-buildItem5 = "dbase"
-buildItem6 = "brbase"
-buildItem7 = "bjbase"
-buildItem8 = "bjsuperlab"
-buildItem9 = "bjyard3"
-baseName = "fconst"
-ScaleSOD = 1.0
+
+
+
+
+
+
+
+
+
+
+baseName = "br3_xbjuconst"
+ScaleSOD = 0.65
 
 
 
@@ -190,3 +190,13 @@ shieldgeneratortargethardpoints = "hp06" "hp08" "hp09"
 sensorstargethardpoints = "hp06" "hp08" "hp09"
 hulltargethardpoints = "hp08" "hp09" "hp10" "hp11" "hp13"
 criticaltargethardpoints = "hp06" "hp08" "hp09"
+buildItem0 = "bbase"
+buildItem1 = "fbase"
+buildItem2 = "kbase"
+buildItem3 = "rbase"
+buildItem4 = "cbase"
+buildItem5 = "dbase"
+buildItem6 = "brbase"
+buildItem7 = "bjbase"
+buildItem8 = "bjsuperlab"
+buildItem9 = "bjyard3"

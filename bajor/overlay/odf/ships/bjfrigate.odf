@@ -22,19 +22,19 @@
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxHealth = 760
+maxhealth = 1520
 
 // Hitpoints
 
-shieldGeneratorHitPoints = 1700
-enginesHitPoints = 1700
-weaponsHitPoints = 1700
-lifeSupportHitPoints = 1700
-sensorsHitPoints = 1700
+shieldgeneratorhitpoints = 2550
+engineshitpoints = 2550
+weaponshitpoints = 2550
+lifesupporthitpoints = 2550
+sensorshitpoints = 2550
 
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 7.6
+shieldrate = 15.2
 
 //Maximum Value of Special Energy
 maxSpecialEnergy = 760
@@ -73,7 +73,7 @@ weapon2 = "frphot"
 
 
 
-weapon4 = "frphot"
+weapon4 = "xbj_gdetectf"
 
 
 
@@ -141,11 +141,11 @@ race = "bajoran"
 
 
 
-weapon3 = "xbj_gdetectf"
+weapon3 = "frphot"
 
 weapon5 = "xbj_gshldemt"
-baseName = "ffrigate"
-ScaleSOD = 1.0
+baseName = "br3_bjfrigate"
+ScaleSOD = 1.6
 
 
 
@@ -157,11 +157,11 @@ ScaleSOD = 1.0
 
 
 
-weaponhardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05"
-weaponhardpoints2 = "hp11"
-weaponhardpoints3 = "hp23"
-weaponhardpoints4 = "hp12"
-weaponhardpoints5 = "hp10"
+weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05"
+weaponHardpoints2 = "hp11"
+weaponHardpoints3 = "hp12"
+weaponHardpoints4 = "hp23"
+weaponHardpoints5 = "hp10"
 enginestargethardpoints = "hp08" "hp09" "hp16" "hp17" "hp18" "hp19"
 lifesupporttargethardpoints = "hp06"
 weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"

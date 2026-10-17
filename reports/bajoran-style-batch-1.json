@@ -1,0 +1,79 @@
+{
+  "target": "D:/armadaIII",
+  "stage": "D:/Xaramada-Modwork/bajor-style-batch-1",
+  "backup": "D:/Xaramada-Modwork/backups/bajor-style-batch-1-1792193019814",
+  "units": [
+    "bjsensor",
+    "bjturret",
+    "bjturret2"
+  ],
+  "files": [
+    {
+      "path": "odf/stations/bjsensor.odf",
+      "sourceSha256": "fd1fc80798bd582e1e0bf91e3e3b1c6f81d02ea8fafacb4048bf4f87ff24f7dd",
+      "sha256": "a6b61682dca3b72ebd0f3a083f5a85154ba3044c6c5deab3b3db9be85e37482a"
+    },
+    {
+      "path": "odf/stations/bjturret.odf",
+      "sourceSha256": "18046973b659e5d49754eb1beeed79977da8dfe09de220fcb146734cf5681e61",
+      "sha256": "8e6ac41847a00ab7dcb098f7875d972966a68ed08514f744fe4106b523e9f3ab"
+    },
+    {
+      "path": "odf/stations/bjturret2.odf",
+      "sourceSha256": "7016c8be6421412b2f48e32fe7f95340a202ab7aca47c5c2b7ed8678b2a59dc9",
+      "sha256": "d9d98a750398f030baf13901de8f02459f2b6c85e297839c59a8f1342249a355"
+    },
+    {
+      "path": "Sprites/gui_global.spr",
+      "sourceSha256": "b03fc88b4b5af6a5b84e83b5d54972d7fd7622a5c5675e808dca03dd916fc1a3",
+      "sha256": "b225043265824b379af165ac9cf2db9da6bde189e65442214b7c710f9e48f7c5"
+    }
+  ],
+  "normalValues": [
+    {
+      "unit": "bjsensor",
+      "normal": {
+        "dilithiumCost": "100",
+        "metalCost": "50",
+        "latinumCost": "0",
+        "biomatterCost": "0",
+        "crewCost": "0",
+        "officerCost": "2",
+        "buildTime": "25"
+      }
+    },
+    {
+      "unit": "bjturret",
+      "normal": {
+        "dilithiumCost": "75",
+        "metalCost": "75",
+        "latinumCost": "0",
+        "biomatterCost": "0",
+        "crewCost": "0",
+        "officerCost": "3",
+        "buildTime": "45"
+      }
+    },
+    {
+      "unit": "bjturret2",
+      "normal": {
+        "dilithiumCost": "150",
+        "metalCost": "250",
+        "latinumCost": "0",
+        "biomatterCost": "0",
+        "crewCost": "0",
+        "officerCost": "4",
+        "buildTime": "75"
+      }
+    }
+  ],
+  "temporaryZeroCostAndBuildTime": true,
+  "iconsChangedOnlyForTheseThreeUnits": true,
+  "applied": true,
+  "runtimeVerified": false,
+  "userTest": {
+    "result": "User reports all good across first six test buildings",
+    "time": "2026-10-16T23:30:18.877523+00:00",
+    "scope": "Before applying final seven facilities"
+  }
+}

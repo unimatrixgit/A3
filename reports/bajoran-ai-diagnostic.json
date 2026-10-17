@@ -1,0 +1,134 @@
+{
+  "target": "D:/armadaIII",
+  "stage": "D:/Xaramada-Modwork/bajor-ai-diagnostic",
+  "applied": true,
+  "diagnostic": true,
+  "files": [
+    {
+      "path": "AI/AIPs/bajoran_build_list.aip",
+      "sourceSha256": "97add442479480edbf86dddf349d4a07447336568eeaef2fc7be099eaa674006",
+      "stagedSha256": "117540c5b236520146b737e38706b3516de816598382f9e3d6ba76961bd2e5b8"
+    },
+    {
+      "path": "AI/AIPs/bajoran_instant_action_build_list.aip",
+      "sourceSha256": "97add442479480edbf86dddf349d4a07447336568eeaef2fc7be099eaa674006",
+      "stagedSha256": "117540c5b236520146b737e38706b3516de816598382f9e3d6ba76961bd2e5b8"
+    },
+    {
+      "path": "AI/AIPs/bajoran_offensive_list.aip",
+      "sourceSha256": "97add442479480edbf86dddf349d4a07447336568eeaef2fc7be099eaa674006",
+      "stagedSha256": "117540c5b236520146b737e38706b3516de816598382f9e3d6ba76961bd2e5b8"
+    },
+    {
+      "path": "AI/AIPs/bajoran_defensive_list.aip",
+      "sourceSha256": "97add442479480edbf86dddf349d4a07447336568eeaef2fc7be099eaa674006",
+      "stagedSha256": "117540c5b236520146b737e38706b3516de816598382f9e3d6ba76961bd2e5b8"
+    },
+    {
+      "path": "AI/AIPs/bajoran_endgame_list.aip",
+      "sourceSha256": "97add442479480edbf86dddf349d4a07447336568eeaef2fc7be099eaa674006",
+      "stagedSha256": "117540c5b236520146b737e38706b3516de816598382f9e3d6ba76961bd2e5b8"
+    },
+    {
+      "path": "odf/stations/bjmining.odf",
+      "sourceSha256": "3e02761ed3114fbb0515263baa394c700418fd48c13def97f2317a5e23fd3f07",
+      "stagedSha256": "dc9b54faec6c069a6f77ff6eceee3564fa790086b0c4117b34bc4bd756b85969"
+    }
+  ],
+  "opening": [
+    [
+      "bjbase",
+      1,
+      0,
+      -1,
+      1
+    ],
+    [
+      "bjconst",
+      2,
+      0,
+      -1,
+      0
+    ],
+    [
+      "bjscout",
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      "bjmining",
+      1,
+      1,
+      -1,
+      0
+    ],
+    [
+      "bjfreight",
+      2,
+      0,
+      -1,
+      0
+    ],
+    [
+      "bjyard",
+      1,
+      0,
+      -1,
+      2
+    ],
+    [
+      "bjinterceptor",
+      4,
+      0,
+      8,
+      0
+    ],
+    [
+      "bjresear",
+      1,
+      0,
+      -1,
+      3
+    ],
+    [
+      "bjturret",
+      2,
+      1,
+      4,
+      0
+    ],
+    [
+      "bjfreight",
+      3,
+      0,
+      4,
+      0
+    ],
+    [
+      "bjinterceptor",
+      6,
+      0,
+      12,
+      0
+    ]
+  ],
+  "scope": "Five Bajoran AI profiles and mining freighter association only. Player roster, technology, models and audio events unchanged.",
+  "excludedAiProduction": [
+    "xbjuconst",
+    "advanced facilities",
+    "research pods",
+    "hero ships",
+    "takeover station"
+  ],
+  "hypothesis": "Isolate early AI economy and production from advanced/custom facilities. Federation freighterName mismatch corrected; neither is a confirmed crash cause.",
+  "runtimeVerified": false,
+  "backup": "D:\\Xaramada-Modwork\\backups\\bajor-ai-diagnostic-20261017-000937",
+  "userTest": {
+    "reportedAt": "2026-10-16T22:11:03.7063434Z",
+    "result": "User reports no crash against Bajoran AI with simplified profiles",
+    "exhaustiveStabilityVerified": false
+  },
+  "testedCheckpoint": "D:\\Xaramada-Modwork\\backups\\bajor-ai-user-tested-20261017-001103"
+}

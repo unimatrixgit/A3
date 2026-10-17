@@ -1,0 +1,58 @@
+{
+  "target": "D:/armadaIII",
+  "stage": "D:/Xaramada-Modwork/bajor-completion-audio-diagnostic",
+  "files": [
+    {
+      "path": "odf/other/bajoran.odf",
+      "sourceSha256": "004bea7e3e20078607278c6aabdc320dbdfc18ec4d40ab7967593ed0f69d69c2",
+      "sha256": "1b996d70b3be1fc10651a0a85ba5f4cfbb1da1164a465be7119c63824fdc25bb"
+    }
+  ],
+  "changes": [
+    {
+      "field": "computerShipConstructionBegin1",
+      "previous": "gvofc022.wav",
+      "previousFileExists": false,
+      "replacement": "gvofcv31.wav",
+      "replacementFileExists": true
+    },
+    {
+      "field": "computerShipConstructionBegin2",
+      "previous": "gvofc023.wav",
+      "previousFileExists": false,
+      "replacement": "gvofcv31.wav",
+      "replacementFileExists": true
+    },
+    {
+      "field": "computerShipConstructionComplete1",
+      "previous": "gvofc024.wav",
+      "previousFileExists": false,
+      "replacement": "gvofcv30.wav",
+      "replacementFileExists": true
+    },
+    {
+      "field": "computerFacilityConstructionBegin1",
+      "previous": "gvofc022.wav",
+      "previousFileExists": false,
+      "replacement": "gvofcv34.wav",
+      "replacementFileExists": true
+    },
+    {
+      "field": "computerFacilityConstructionBegin2",
+      "previous": "gvofc023.wav",
+      "previousFileExists": false,
+      "replacement": "gvofcv34.wav",
+      "replacementFileExists": true
+    },
+    {
+      "field": "computerFacilityConstructionComplete1",
+      "previous": "gvofc024.wav",
+      "previousFileExists": false,
+      "replacement": "gvofcv33.wav",
+      "replacementFileExists": true
+    }
+  ],
+  "hypothesis": "Completion announcement fields reference missing WAV files. Correct them to installed recordings matching shared construction event selections; whether these fields cause the crash is unconfirmed. Same stale fields exist in supplied Federation definition.",
+  "applied": false,
+  "runtimeVerified": false
+}

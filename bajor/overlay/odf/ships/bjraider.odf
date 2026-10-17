@@ -20,18 +20,18 @@
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxHealth = 75
+maxhealth = 150
 
 // Hitpoints
 
-shieldGeneratorHitPoints = 150
-enginesHitPoints = 150
-weaponsHitPoints = 150
-lifeSupportHitPoints = 150
-sensorsHitPoints = 150
+shieldgeneratorhitpoints = 225
+engineshitpoints = 225
+weaponshitpoints = 225
+lifesupporthitpoints = 225
+sensorshitpoints = 225
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 0.75
+shieldrate = 1.5
 
 
 //**********************************************************************
@@ -106,8 +106,8 @@ race = "bajoran"
 
 
 
-baseName = "fdanube"
-ScaleSOD = 0.5
+baseName = "br3_bjraider"
+ScaleSOD = 0.8
 
 
 
@@ -116,7 +116,7 @@ ScaleSOD = 0.5
 
 
 
-weaponhardpoints1 = "hp01" "hp02" "hp10" "hp11"
+weaponHardpoints1 = "hp01" "hp02" "hp10" "hp11"
 enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
 lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
 weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp13" "hp11"
@@ -124,6 +124,9 @@ shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
 
 
 
-sensorstargethardpoints = "hp20" "hp20" "hp20" "hp20" "hp20"
-hulltargethardpoints = "hp06" "hp08" "hp10"  "hp12" "hp14" "hp16" "hp18" "hp20" "hp20" "hp20"
-criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp20" "hp20"
+sensorstargethardpoints = "hp20" "hp20" "hp20" "hp20" "hp20"
+
+hulltargethardpoints = "hp06" "hp08" "hp10"  "hp12" "hp14" "hp16" "hp18" "hp20" "hp20" "hp20"
+
+criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp20" "hp20"
+

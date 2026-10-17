@@ -20,18 +20,18 @@
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxHealth = 900
+maxhealth = 1800
 
 // Hitpoints
 
-shieldGeneratorHitPoints = 1875
-enginesHitPoints = 1875
-weaponsHitPoints = 1875
-lifeSupportHitPoints = 1875
-sensorsHitPoints = 1875
+shieldgeneratorhitpoints = 2812.5
+engineshitpoints = 2812.5
+weaponshitpoints = 2812.5
+lifesupporthitpoints = 2812.5
+sensorshitpoints = 2812.5
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 9
+shieldrate = 18
 
 //Maximum Value of Special Energy
 maxSpecialEnergy = 900
@@ -88,7 +88,7 @@ weapon5 = "fakiraphot"
 
 
 // Photon torpedos
-weapon6 = "fakiraphot"
+weapon6 = "xbj_gchainp"
 
 
 // Hardpoints to hit for various systems and other locations.
@@ -141,9 +141,9 @@ race = "bajoran"
 
 
 
-weapon2 = "xbj_gchainp"
-baseName = "fcruise1"
-ScaleSOD = 1.0
+weapon2 = "fakiraphot"
+baseName = "br3_bjcruiser"
+ScaleSOD = 1.6
 
 
 
@@ -157,12 +157,12 @@ ScaleSOD = 1.0
 
 
 
-weaponhardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
-weaponhardpoints2 = "hp39"
-weaponhardpoints3 = "hp10" "hp14"
-weaponhardpoints4 = "hp11" "hp15"
-weaponhardpoints5 = "hp12"
-weaponhardpoints6 = "hp13"
+weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+weaponHardpoints2 = "hp10" "hp14"
+weaponHardpoints3 = "hp11" "hp15"
+weaponHardpoints4 = "hp12"
+weaponHardpoints5 = "hp13"
+weaponHardpoints6 = "hp39"
 enginestargethardpoints = "hp30" "hp40" "hp42" "hp43" "hp44" "hp45"
 lifesupporttargethardpoints = "hp37" "hp39"
 weaponstargethardpoints = "hp03" "hp04" "hp05" "hp06" "hp13" "hp14" "hp10" "hp08" "hp28" "hp09" "hp20" "hp29"

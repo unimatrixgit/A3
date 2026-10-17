@@ -1,0 +1,23 @@
+{
+  "changes": [
+    {
+      "removedEmptySlots": [
+        "3"
+      ],
+      "unit": "bjfreight",
+      "sha256": "EA36A4F39966C62B2887147D235DEBCCE1585D612083DD57520B396349E0CA5E"
+    },
+    {
+      "removedEmptySlots": [
+        "6"
+      ],
+      "unit": "bjassault",
+      "sha256": "BED0DBAB77E088EDFFC348DFC2A590CB7B2E2ADCB20D073382AE567A48579D18"
+    }
+  ],
+  "runtimeVerified": false,
+  "evidence": "Freighter null weapon pointer in newest dump; empty weapon3 assignment after utility patch. Assault also had empty weapon6.",
+  "target": "D:\\armadaIII",
+  "backup": "D:\\Xaramada-Modwork\\backups\\bajor-empty-weapon-fix-20261017-030613",
+  "applied": true
+}

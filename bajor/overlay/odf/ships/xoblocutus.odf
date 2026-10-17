@@ -30,26 +30,38 @@ buildTime = 171
 weapon6 = "xacgreen"
 weaponHardpoints6 = "hp01"
 
-eventSelect = "XV_xoblocutus_Select"
 
-eventAcknowledge = "XV_xoblocutus_Acknowledge"
 
-eventAttack = "XV_xoblocutus_Attack"
 
-eventStop = "XV_xoblocutus_Stop"
 
-eventMove = "XV_xoblocutus_Move"
 
-eventRepair = "XV_xoblocutus_Repair"
 
-eventRedAlert = "XV_xoblocutus_RedAlert"
 
-eventYellowAlert = "XV_xoblocutus_YellowAlert"
 
-eventGreenAlert = "XV_xoblocutus_GreenAlert"
 
-eventTransport = "XV_xoblocutus_Transport"
 
-eventSelfDestruct = "XV_xoblocutus_SelfDestruct"
 
-eventDecommission = "XV_xoblocutus_Decommission"
+
+
+
+
+
+
+
+
+
+
+
+
+eventSelect = "XLocutus_Select"
+eventAcknowledge = "XLocutus_Acknowledge"
+eventMove = "XLocutus_Move"
+eventAttack = "XLocutus_Attack"
+eventStop = "XLocutus_Stop"
+eventRepair = "XLocutus_Repair"
+eventRedAlert = "XLocutus_RedAlert"
+eventYellowAlert = "XLocutus_YellowAlert"
+eventGreenAlert = "XLocutus_GreenAlert"
+eventTransport = "XLocutus_Transport"
+eventSelfDestruct = "XLocutus_SelfDestruct"
+eventDecommission = "XLocutus_Decommission"

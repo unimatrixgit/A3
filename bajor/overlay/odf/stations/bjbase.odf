@@ -32,10 +32,10 @@ officerGain = 100
 maximumUpgrades = 6
 
 //Max Shield Strength & Begining Shield Strength <1000
-maxHealth = 5000
+maxhealth = 10000
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 50
+shieldrate = 100
 
 //Shield absorbs all damage until it's gone
 shieldProtection = 1.0
@@ -44,10 +44,8 @@ shieldProtection = 1.0
 latinumTransferRate = 15.0
 
 //play animation forward  open up the facility  when construction is finished
-animation = 1
 
 //we have an animation when we build a ship
-buildAnimation = 1
 
 //Even though we are a shipyard we don't have a repair facility
 repairFacility = 0
@@ -56,7 +54,19 @@ repairFacility = 0
 rangeScan = 1000.0f
 
 //Possible Craft Names
-
+	"Starbase 612" "Starbase 473" "Starbase 263" "Starbase 823"
+	"Starbase 173" "Starbase 383" "Starbase 420" "Starbase 252" 
+	"Starbase 419" "Starbase 521" "Starbase 152" "Starbase 528"
+	"Starbase 357" "Starbase 523" "Starbase 162" "Starbase 693"
+	"Starbase 344" "Starbase 182" "Starbase 106" "Starbase 260"
+	"Starbase 123" "Starbase 312" "Starbase 412" "Starbase 411"
+	"Starbase 452" "Starbase 422" "Starbase 102" "Starbase 34"
+	"Starbase 62" "Starbase 17" "Starbase 93" "Starbase 27"
+	"Starbase 303" "Starbase 72" "Starbase 28" "Starbase 64"
+	"Starbase 82" "Starbase 12" "Starbase 44" "Starbase 77"
+	"Starbase 11" "Starbase 34" "Starbase 67" "Starbase 69"
+	"Starbase 99" "Starbase 86" "Starbase 268" "Starbase 623"
+	"Starbase 40" "Starbase 176"
 
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
@@ -97,39 +107,26 @@ weapon8 = "fbaserphot"
 // Photon
 weapon9 = "fbaserphot"
 
-
 // Photon
 weapon10 = "fbaserphot"
-
 
 // Pulse Phaser
 weapon11 = "fbasepulse"
 
-
 // Pulse Phaser
 weapon12 = "fbasepulse"
-
 
 // Pulse Phaser
 weapon13 = "fbasepulse"
 
-
 // Pulse Phaser
 weapon14 = "fbasepulse"
-
 
 // Pulse Phaser
 weapon15 = "fbasepulse"
 
 
-
 // Hardpoints to hit for various systems and other locations.
-
-
-
-
-
-
 
 
 //**********************************************************************
@@ -152,18 +149,16 @@ weapon15 = "fbasepulse"
 //Hardpoint location for building.
 
 
-
-
 //**********************************************************************
 //SYSTEM HITPOINTS
 
 // Hitpoints
 
-shieldGeneratorHitPoints = 10000
+shieldgeneratorhitpoints = 15000
 enginesHitPoints = 0
-weaponsHitPoints = 10000
-lifeSupportHitPoints = 10000
-sensorsHitPoints = 10000
+weaponshitpoints = 15000
+lifesupporthitpoints = 15000
+sensorshitpoints = 15000
 
 //**********************************************************************
 
@@ -207,24 +202,19 @@ SHOW_SW_AUTONOMY = 1
 
 
 
-
 // Xaramada resource costs: original filename.
-dilithiumCost = 2000
-metalCost = 2000
-latinumCost = 0
-biomatterCost = 0
-crewCost = 150
-officerCost = 10
-buildTime = 100
 
 
 
 
 
 
-verboseTooltip = "Bajoran Militia Headquarters. Extrapolated Bajoran orbital headquarters."
 
-race = "bajoran"
+
+
+
+
+
 
 
 
@@ -238,10 +228,19 @@ buildItem5 = "bjcolony"
 buildItem6 = "bjscout"
 unitName = "Deep Space 9"
 tooltip = "Deep Space 9"
+verboseTooltip = "Bajoran Militia Headquarters. Extrapolated Bajoran orbital headquarters."
+dilithiumCost = 2000
+metalCost = 2000
+latinumCost = 0
+biomatterCost = 0
+crewCost = 150
+officerCost = 10
+buildTime = 100
+race = "bajoran"
+possibleCraftNames = "Deep Space 9"
 baseName = "fds9"
 ScaleSOD = 0.8858
 buildHardpoint = "hp06"
-possibleCraftNames = "Deep Space 9" "Deep Space 9 - Militia Command" "Deep Space 9 - Defense Command" "Deep Space 9 - Sector Command"
 weaponHardpoints1 = "hp22" "hp25"
 weaponHardpoints2 = "hp23" "hp26"
 weaponHardpoints3 = "hp24" "hp27"

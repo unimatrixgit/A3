@@ -1,0 +1,43 @@
+{
+  "stage": "D:\\Xaramada-Modwork\\bajor-hero-scale-tractor",
+  "files": [
+    {
+      "path": "odf/ships/bjcolony.odf",
+      "sourceSha256": "a34194ceaae54f8838e4b21f662f706a506a5cd9550e16a34c0874a429834342",
+      "sha256": "4e709b684faafffe726e966770f47ab4edc99b11265363b1e4807a0ca9fae474"
+    },
+    {
+      "path": "odf/ships/bjconst.odf",
+      "sourceSha256": "69c6fe5eb96c00c03321090347d84911b561c77d44f1ea697c88d4f62a21f5b7",
+      "sha256": "57759c7557c14e79e7d9a26aa2a5cbaf380edf769cd7fecff4304c8adf9c32cf"
+    },
+    {
+      "path": "odf/ships/xbjuconst.odf",
+      "sourceSha256": "1966a2821ee63c1040a204db992001b533793ab6cea89bdf1d1edb6d013d2ff9",
+      "sha256": "e86d689377d6a960d9fcd7658b4e7e257c8895dd60e4a60b583a4808a33d9ea0"
+    },
+    {
+      "path": "odf/stations/bjsensor.odf",
+      "sourceSha256": "407655a5238c9e3148256b165d20658f4f58b78b94fa219c25603d569d1db6e2",
+      "sha256": "605550a5ef5cfc6a4e19c284a18f0800fe434ccd059e10a1927736bd882a81a6"
+    },
+    {
+      "path": "odf/ships/bjnerys.odf",
+      "sourceSha256": "2b4a5c44e9752b1842c9c706fad20f7ad2363064022e5c952966e14e5469a9ac",
+      "sha256": "d04b73a5876ee81ace8433a01f1dc0d14fc0f725aed37a6c49dd1482d864a3ed"
+    },
+    {
+      "path": "Sprites/gui_global.spr",
+      "sourceSha256": "3122eeb90173805e8b31b4f47e6f7572a40f67291680b0d9cd6831ba00a07288",
+      "sha256": "d7f41e6a854fdda3e0ca7e7e845e0889ea19d5b5eba9a6c892084074b07e51a3"
+    }
+  ],
+  "applied": true,
+  "runtimeVerified": false,
+  "changes": [
+    "Universal tractor beam uses direct native reference.",
+    "Colony scale 0.096 to 0.6; builders 1.6 to 0.8 and 1.0 to 0.65; sensor 0.11968 to 0.36.",
+    "Kira uses Enterprise-E hero definition with Bajoran battleship model/hardpoints and existing Kira voice events."
+  ],
+  "backup": "D:\\Xaramada-Modwork\\backups\\bajor-hero-scale-tractor-20261017-023143"
+}

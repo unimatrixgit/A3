@@ -1,0 +1,109 @@
+{
+  "target": "D:/armadaIII",
+  "sourceBackup": "D:/Xaramada-Modwork/backups/bajor-startup-isolation-1792187555934",
+  "backup": "D:/Xaramada-Modwork/backups/bajor-visual-restore-1792188252703",
+  "changes": [
+    {
+      "rel": "odf/ships/bjconst.odf",
+      "keys": [
+        "baseName",
+        "ScaleSOD",
+        "workerbeehardpoints",
+        "weaponhardpoints1",
+        "enginestargethardpoints",
+        "lifesupporttargethardpoints",
+        "weaponstargethardpoints",
+        "shieldgeneratortargethardpoints",
+        "sensorstargethardpoints",
+        "hulltargethardpoints",
+        "criticaltargethardpoints"
+      ],
+      "sha256": "e7efe2e6c584df8b3e40f13611162ee6fd73d5043802160c0c76dac914f5c7da"
+    },
+    {
+      "rel": "odf/ships/bjscout.odf",
+      "keys": [
+        "baseName",
+        "ScaleSOD",
+        "weaponhardpoints1",
+        "weaponhardpoints2",
+        "enginestargethardpoints",
+        "lifesupporttargethardpoints",
+        "weaponstargethardpoints",
+        "shieldgeneratortargethardpoints",
+        "sensorstargethardpoints",
+        "hulltargethardpoints",
+        "criticaltargethardpoints"
+      ],
+      "sha256": "7264942e3e95c5cc9f85822f6bf6a4ca0f50696d90174e5d3e772fe0ad08adb8"
+    },
+    {
+      "rel": "odf/ships/bjnerys.odf",
+      "keys": [
+        "baseName",
+        "ScaleSOD",
+        "weaponhardpoints1",
+        "weaponhardpoints2",
+        "weaponhardpoints3",
+        "weaponhardpoints4",
+        "weaponhardpoints5",
+        "weaponhardpoints6",
+        "weaponhardpoints7",
+        "weaponhardpoints8",
+        "enginestargethardpoints",
+        "lifesupporttargethardpoints",
+        "weaponstargethardpoints",
+        "shieldgeneratortargethardpoints",
+        "sensorstargethardpoints",
+        "hulltargethardpoints",
+        "criticaltargethardpoints"
+      ],
+      "sha256": "b855194f10d04ded2277329de3b0e436dbeac890c8217f2490fa59355a90ea13"
+    },
+    {
+      "rel": "odf/stations/bjbase.odf",
+      "keys": [
+        "baseName",
+        "ScaleSOD",
+        "buildHardpoint",
+        "weaponHardpoints1",
+        "weaponHardpoints2",
+        "weaponHardpoints3",
+        "weaponHardpoints4",
+        "weaponHardpoints5",
+        "weaponHardpoints6",
+        "weaponHardpoints7",
+        "weaponHardpoints8",
+        "weaponHardpoints9",
+        "weaponHardpoints10",
+        "weaponHardpoints11",
+        "weaponHardpoints12",
+        "weaponHardpoints13",
+        "weaponHardpoints14",
+        "weaponHardpoints15",
+        "enginesTargetHardpoints",
+        "lifeSupportTargetHardpoints",
+        "weaponsTargetHardpoints",
+        "shieldGeneratorTargetHardpoints",
+        "sensorsTargetHardpoints",
+        "hullTargetHardpoints",
+        "criticalTargetHardpoints",
+        "dockingHardpoint",
+        "repairHardpoint"
+      ],
+      "sha256": "205c619e646a8e98d0ecc926104b94d9d48f0a85152aad9f96200b048a8bc2b4"
+    },
+    {
+      "rel": "odf/other/bajoran.odf",
+      "keys": [
+        "interfaceConfiguration",
+        "interfaceSprites"
+      ],
+      "sha256": "004bea7e3e20078607278c6aabdc320dbdfc18ec4d40ab7967593ed0f69d69c2"
+    }
+  ],
+  "audioEventsPreserved": true,
+  "gameplayPropertiesPreserved": true,
+  "customGeneratedBajoranModelsStillQuarantined": true,
+  "runtimeVerified": false
+}

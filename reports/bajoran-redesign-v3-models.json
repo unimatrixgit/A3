@@ -1,0 +1,770 @@
+[
+  {
+    "unit": "bjconst",
+    "sourceModel": "fconst",
+    "model": "br3_bjconst",
+    "nativeNodesRetained": 93,
+    "nativeAnimationChannelsRetained": 8,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "fcohull1",
+      "fcohull"
+    ],
+    "triangles": 430,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjfreight",
+    "sourceModel": "ffreight",
+    "model": "br3_bjfreight",
+    "nativeNodesRetained": 94,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "ffreight_2",
+      "ffreight_1",
+      "ffreight_3"
+    ],
+    "triangles": 382,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjscout",
+    "sourceModel": "fscout",
+    "model": "br3_bjscout",
+    "nativeNodesRetained": 53,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "lod2",
+      "lod1"
+    ],
+    "triangles": 310,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjinterceptor",
+    "sourceModel": "fdestroy",
+    "model": "br3_bjinterceptor",
+    "nativeNodesRetained": 56,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "lod2",
+      "lod1"
+    ],
+    "triangles": 310,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjassault",
+    "sourceModel": "fassault",
+    "model": "br3_bjassault",
+    "nativeNodesRetained": 68,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Mesh02"
+    ],
+    "triangles": 466,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjtransport",
+    "sourceModel": "fantares",
+    "model": "br3_bjtransport",
+    "nativeNodesRetained": 46,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Raider01"
+    ],
+    "triangles": 382,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjnerys",
+    "sourceModel": "fdestroy",
+    "model": "br3_bjnerys",
+    "nativeNodesRetained": 56,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "lod2",
+      "lod1"
+    ],
+    "triangles": 334,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjmining",
+    "sourceModel": "xvstock_cmining",
+    "model": "br3_bjmining",
+    "nativeNodesRetained": 30,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "cminingldod2",
+      "cmining"
+    ],
+    "triangles": 744,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjyard",
+    "sourceModel": "xvstock_cyard",
+    "model": "br3_bjyard",
+    "nativeNodesRetained": 91,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "cyard_lod02",
+      "cyard_lod1"
+    ],
+    "triangles": 900,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjyard2",
+    "sourceModel": "xvstock_cyard2",
+    "model": "br3_bjyard2",
+    "nativeNodesRetained": 61,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Yard2Lod2",
+      "Yard2Lod1"
+    ],
+    "triangles": 900,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjyard3",
+    "sourceModel": "xvstock_cyard2",
+    "model": "br3_bjyard3",
+    "nativeNodesRetained": 61,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Yard2Lod2",
+      "Yard2Lod1"
+    ],
+    "triangles": 900,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjresear",
+    "sourceModel": "xvstock_cresear",
+    "model": "br3_bjresear",
+    "nativeNodesRetained": 69,
+    "nativeAnimationChannelsRetained": 4,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Wheel01",
+      "MilRes"
+    ],
+    "triangles": 720,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjturret",
+    "sourceModel": "xvstock_cturret",
+    "model": "br3_bjturret",
+    "nativeNodesRetained": 22,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "cturret01",
+      "cturret"
+    ],
+    "triangles": 264,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjraider",
+    "sourceModel": "fdanube",
+    "model": "br3_bjraider",
+    "nativeNodesRetained": 46,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "danubeclas"
+    ],
+    "triangles": 310,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjlightship",
+    "sourceModel": "fscout",
+    "model": "br3_bjlightship",
+    "nativeNodesRetained": 53,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "lod2",
+      "lod1"
+    ],
+    "triangles": 76,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjcolony",
+    "sourceModel": "fcolony",
+    "model": "br3_bjcolony",
+    "nativeNodesRetained": 50,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "lod2",
+      "lod1"
+    ],
+    "triangles": 382,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjcargo",
+    "sourceModel": "fcargo",
+    "model": "br3_bjcargo",
+    "nativeNodesRetained": 49,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "lod2",
+      "lod1"
+    ],
+    "triangles": 382,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjrepair",
+    "sourceModel": "fsrepair",
+    "model": "br3_bjrepair",
+    "nativeNodesRetained": 47,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "olympic"
+    ],
+    "triangles": 430,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjcruiser",
+    "sourceModel": "fcruise1",
+    "model": "br3_bjcruiser",
+    "nativeNodesRetained": 86,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "PylonOUT"
+    ],
+    "triangles": 466,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjtorpedo",
+    "sourceModel": "fcruise2",
+    "model": "br3_bjtorpedo",
+    "nativeNodesRetained": 60,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "lod2",
+      "lod1"
+    ],
+    "triangles": 658,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjfrigate",
+    "sourceModel": "ffrigate",
+    "model": "br3_bjfrigate",
+    "nativeNodesRetained": 53,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "LOD2",
+      "LOD1"
+    ],
+    "triangles": 310,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjartillery",
+    "sourceModel": "fcruise3",
+    "model": "br3_bjartillery",
+    "nativeNodesRetained": 66,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "lod2",
+      "lod1"
+    ],
+    "triangles": 502,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjbattle",
+    "sourceModel": "fbattle",
+    "model": "br3_bjbattle",
+    "nativeNodesRetained": 84,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "mainhull"
+    ],
+    "triangles": 466,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjspecial",
+    "sourceModel": "fspecial",
+    "model": "br3_bjspecial",
+    "nativeNodesRetained": 71,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Saucer",
+      "Saucer"
+    ],
+    "triangles": 502,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjsuper",
+    "sourceModel": "fbattle",
+    "model": "br3_bjsuper",
+    "nativeNodesRetained": 84,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "mainhull"
+    ],
+    "triangles": 514,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjresear2",
+    "sourceModel": "xvstock_cresear2",
+    "model": "br3_bjresear2",
+    "nativeNodesRetained": 54,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "bottom_lod2",
+      "bottom_lod1"
+    ],
+    "triangles": 912,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjupgrade",
+    "sourceModel": "xvstock_cupgrade",
+    "model": "br3_bjupgrade",
+    "nativeNodesRetained": 55,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 2,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "cupgradeLOD2",
+      "cupgrade"
+    ],
+    "triangles": 912,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjsensor",
+    "sourceModel": "xvstock_csensor",
+    "model": "br3_bjsensor",
+    "nativeNodesRetained": 47,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "SensorArray"
+    ],
+    "triangles": 912,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjorbital",
+    "sourceModel": "xvstock_corbital",
+    "model": "br3_bjorbital",
+    "nativeNodesRetained": 61,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "OrbyLOD2",
+      "Orby"
+    ],
+    "triangles": 744,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjtrading",
+    "sourceModel": "xvstock_ctrading",
+    "model": "br3_bjtrading",
+    "nativeNodesRetained": 48,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "ctradinglod2",
+      "ctradinglod1"
+    ],
+    "triangles": 1032,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjturret2",
+    "sourceModel": "xvstock_cturret2",
+    "model": "br3_bjturret2",
+    "nativeNodesRetained": 22,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "cturretlod2",
+      "cturret"
+    ],
+    "triangles": 264,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjsuperlab",
+    "sourceModel": "cardassian_super_station",
+    "model": "br3_bjsuperlab",
+    "nativeNodesRetained": 75,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "CSuperStationLOD2",
+      "CSuperStationLOD1"
+    ],
+    "triangles": 912,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjpod1",
+    "sourceModel": "fedpod2",
+    "model": "br3_bjpod1",
+    "nativeNodesRetained": 3,
+    "nativeAnimationChannelsRetained": 2,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Fedpod2_Fchainpl"
+    ],
+    "triangles": 108,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjpod2",
+    "sourceModel": "fedpod2",
+    "model": "br3_bjpod2",
+    "nativeNodesRetained": 3,
+    "nativeAnimationChannelsRetained": 2,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Fedpod2_Fchainpl"
+    ],
+    "triangles": 108,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjpod3",
+    "sourceModel": "fedpod3",
+    "model": "br3_bjpod3",
+    "nativeNodesRetained": 3,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Fedpod3_Fcompor"
+    ],
+    "triangles": 108,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjpod4",
+    "sourceModel": "fedpod4",
+    "model": "br3_bjpod4",
+    "nativeNodesRetained": 1,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Fedpod4_mines"
+    ],
+    "triangles": 108,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjpod5",
+    "sourceModel": "fedpod5",
+    "model": "br3_bjpod5",
+    "nativeNodesRetained": 4,
+    "nativeAnimationChannelsRetained": 2,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Wta04_1_3"
+    ],
+    "triangles": 108,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjpod6",
+    "sourceModel": "fedpod2",
+    "model": "br3_bjpod6",
+    "nativeNodesRetained": 3,
+    "nativeAnimationChannelsRetained": 2,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Fedpod2_Fchainpl"
+    ],
+    "triangles": 108,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjpod7",
+    "sourceModel": "fedpod7",
+    "model": "br3_bjpod7",
+    "nativeNodesRetained": 9,
+    "nativeAnimationChannelsRetained": 1,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Fedpod7_disrupter"
+    ],
+    "triangles": 108,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjpod8",
+    "sourceModel": "fedpod8",
+    "model": "br3_bjpod8",
+    "nativeNodesRetained": 3,
+    "nativeAnimationChannelsRetained": 2,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Fse02_1_1"
+    ],
+    "triangles": 108,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjpod9",
+    "sourceModel": "fedpod9",
+    "model": "br3_bjpod9",
+    "nativeNodesRetained": 3,
+    "nativeAnimationChannelsRetained": 1,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Fen02_1_1"
+    ],
+    "triangles": 108,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjpod11",
+    "sourceModel": "fedpod11",
+    "model": "br3_bjpod11",
+    "nativeNodesRetained": 2,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Box01"
+    ],
+    "triangles": 108,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjpod12",
+    "sourceModel": "fedpod12",
+    "model": "br3_bjpod12",
+    "nativeNodesRetained": 2,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Box01"
+    ],
+    "triangles": 108,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjpod13",
+    "sourceModel": "fedpod13",
+    "model": "br3_bjpod13",
+    "nativeNodesRetained": 2,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Box01"
+    ],
+    "triangles": 108,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjpod14",
+    "sourceModel": "fedpod14",
+    "model": "br3_bjpod14",
+    "nativeNodesRetained": 2,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Box01"
+    ],
+    "triangles": 108,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjpod15",
+    "sourceModel": "fedpod15",
+    "model": "br3_bjpod15",
+    "nativeNodesRetained": 2,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Box01"
+    ],
+    "triangles": 108,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjpod16",
+    "sourceModel": "fedpod16",
+    "model": "br3_bjpod16",
+    "nativeNodesRetained": 3,
+    "nativeAnimationChannelsRetained": 2,
+    "textureAnimationReferencesRetained": 1,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Tube01"
+    ],
+    "triangles": 108,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjpod21",
+    "sourceModel": "fedpod21",
+    "model": "br3_bjpod21",
+    "nativeNodesRetained": 2,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Box01"
+    ],
+    "triangles": 108,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjpod22",
+    "sourceModel": "fedpod22",
+    "model": "br3_bjpod22",
+    "nativeNodesRetained": 2,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Box01"
+    ],
+    "triangles": 108,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjpod23",
+    "sourceModel": "fedpod23",
+    "model": "br3_bjpod23",
+    "nativeNodesRetained": 2,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Box01"
+    ],
+    "triangles": 108,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjpod24",
+    "sourceModel": "fedpod24",
+    "model": "br3_bjpod24",
+    "nativeNodesRetained": 2,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Box01"
+    ],
+    "triangles": 108,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "bjpod25",
+    "sourceModel": "fedpod25",
+    "model": "br3_bjpod25",
+    "nativeNodesRetained": 2,
+    "nativeAnimationChannelsRetained": 0,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "Box01"
+    ],
+    "triangles": 108,
+    "runtimeVerified": false
+  },
+  {
+    "unit": "xbjuconst",
+    "sourceModel": "fconst",
+    "model": "br3_xbjuconst",
+    "nativeNodesRetained": 93,
+    "nativeAnimationChannelsRetained": 8,
+    "textureAnimationReferencesRetained": 0,
+    "animationRecordsRoundTripIdentical": true,
+    "replacedMeshIds": [
+      "fcohull1",
+      "fcohull"
+    ],
+    "triangles": 430,
+    "runtimeVerified": false
+  }
+]

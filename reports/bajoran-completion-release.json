@@ -1,0 +1,656 @@
+{
+  "target": "D:/armadaIII",
+  "stage": "D:/Xaramada-Modwork/bajor-completion-v2",
+  "files": [
+    {
+      "path": "AI/AIPs/bajoran_build_list.aip",
+      "sha256": "5788e07220c13c9c0c79417954bc8d99c1d8e49fdc36abe8ecc58f72b1c06d96",
+      "sourceSha256": "117540c5b236520146b737e38706b3516de816598382f9e3d6ba76961bd2e5b8"
+    },
+    {
+      "path": "AI/AIPs/bajoran_defensive_list.aip",
+      "sha256": "5788e07220c13c9c0c79417954bc8d99c1d8e49fdc36abe8ecc58f72b1c06d96",
+      "sourceSha256": "117540c5b236520146b737e38706b3516de816598382f9e3d6ba76961bd2e5b8"
+    },
+    {
+      "path": "AI/AIPs/bajoran_endgame_list.aip",
+      "sha256": "5788e07220c13c9c0c79417954bc8d99c1d8e49fdc36abe8ecc58f72b1c06d96",
+      "sourceSha256": "117540c5b236520146b737e38706b3516de816598382f9e3d6ba76961bd2e5b8"
+    },
+    {
+      "path": "AI/AIPs/bajoran_instant_action_build_list.aip",
+      "sha256": "5788e07220c13c9c0c79417954bc8d99c1d8e49fdc36abe8ecc58f72b1c06d96",
+      "sourceSha256": "117540c5b236520146b737e38706b3516de816598382f9e3d6ba76961bd2e5b8"
+    },
+    {
+      "path": "AI/AIPs/bajoran_offensive_list.aip",
+      "sha256": "5788e07220c13c9c0c79417954bc8d99c1d8e49fdc36abe8ecc58f72b1c06d96",
+      "sourceSha256": "117540c5b236520146b737e38706b3516de816598382f9e3d6ba76961bd2e5b8"
+    },
+    {
+      "path": "odf/ships/bjartillery.odf",
+      "sha256": "909204b3ee3ce235dd4d16cf9e2d121dacb3847f5d2d729a3f928d810aac1977",
+      "sourceSha256": "eff6179dde33de93d071e6cb844534d83eb330fccda77427af15894de71d714c"
+    },
+    {
+      "path": "odf/ships/bjassault.odf",
+      "sha256": "9e96f8d7ed41dff7be1a310175b2eff895d6f6928e2ba5d38043c2e596adb151",
+      "sourceSha256": "c6351c40276214ca3eafc83cd4d45d2c81b6f51143180bdda47f5b9b092810f3"
+    },
+    {
+      "path": "odf/ships/bjbattle.odf",
+      "sha256": "992209b06bf0869eb6c9ba56195e582f1ec5bff3abe5fa84b5aa9e87bcb1e837",
+      "sourceSha256": "35487cfaa5e1d77d51e23591bb4c8e4cf18b7c2dd9ba2ffb085ec5e07b435d26"
+    },
+    {
+      "path": "odf/ships/bjcargo.odf",
+      "sha256": "ee8985e2d47c9fc4115a885404224dc2579ad074e6bd5d310b13c34d6d9c9268",
+      "sourceSha256": "87ed878789bcfd12414877e488fd99d595517cc1b9145093611914d35ff02f99"
+    },
+    {
+      "path": "odf/ships/bjcolony.odf",
+      "sha256": "b5dea88cbb95bef3991862982205458f0c6c4c00e1e3b5819b3415664d223ed4",
+      "sourceSha256": "f3211be9ba89420e9b0da87671ce6fc40f986b6021e0ba46a9ce0114a77cc265"
+    },
+    {
+      "path": "odf/ships/bjconst.odf",
+      "sha256": "3ef4825d004560e17bf2187e835b8d5df513ac3a5b08b6a8d9e9df03721d5642",
+      "sourceSha256": "e7efe2e6c584df8b3e40f13611162ee6fd73d5043802160c0c76dac914f5c7da"
+    },
+    {
+      "path": "odf/ships/bjcruiser.odf",
+      "sha256": "2b0789e60687a1b2b3c7604b81e0cc623f4eab35854cbd68a0b3f9155283119d",
+      "sourceSha256": "424bb488e2463eb1347efb100b7e8b1e6d646f97d0f50724755f1d91ffbda427"
+    },
+    {
+      "path": "odf/ships/bjfreight.odf",
+      "sha256": "64309a142f96f597cf985e10844aea0df5b10fd0c079e2bdbb848a42c188f81b",
+      "sourceSha256": "db7f10ff77fdaf5c820e6b5aa6b40355acc33bb2a354dfe72b41e47956a7f84e"
+    },
+    {
+      "path": "odf/ships/bjfrigate.odf",
+      "sha256": "c539b9c8c5b13b572371dbb118b10fc2b80d78a98efed64093bcaa9858bce68d",
+      "sourceSha256": "29698588979447f064ce5468a2d68be32d34d49c991a526768f39237739dc9e0"
+    },
+    {
+      "path": "odf/ships/bjinterceptor.odf",
+      "sha256": "4ebc6a6dfd8dc180537ba885ff013379a2aafc23a6bb269ef96e09b53c26ceb1",
+      "sourceSha256": "32389d55e3933f4bf2d0446810ba8c0be77b56a5ab359efcc7eca57a0c6cbba1"
+    },
+    {
+      "path": "odf/ships/bjlightship.odf",
+      "sha256": "1af94122075eafc95a41224d6c9cc0156ab10481b1adc625c7ae26dd034bba5b",
+      "sourceSha256": "38ceb9bfffd0e454e6bf5f880a46fca21a970d1e40def14e062ae15fb065e327"
+    },
+    {
+      "path": "odf/ships/bjnerys.odf",
+      "sha256": "e27557d6a6e635783a26244e6aba6c75491c2fd4f9efdbf4cd8c1193a74b5ad3",
+      "sourceSha256": "b855194f10d04ded2277329de3b0e436dbeac890c8217f2490fa59355a90ea13"
+    },
+    {
+      "path": "odf/ships/bjraider.odf",
+      "sha256": "e0551aba12b58fc939cbbf8048261553b71625aeb074ec80dca75396f0424eb8",
+      "sourceSha256": "9bd6ceae16a7b31537b4a8eb412ebc98e2fced1d33b61574cc580bbb00633098"
+    },
+    {
+      "path": "odf/ships/bjrepair.odf",
+      "sha256": "1802c79b422f2e7db4f5e4359c1d90a3400b5e51585dcd40900f5c690b62e084",
+      "sourceSha256": "483499c8460be5489e4ff4651aabe0f0bb10e84d0809fad3f9e6d7e1dcd78d63"
+    },
+    {
+      "path": "odf/ships/bjscout.odf",
+      "sha256": "04179afa5df1a251ce00f0144f1658429a713a02e7dd859a2716c22f0a283bf3",
+      "sourceSha256": "7264942e3e95c5cc9f85822f6bf6a4ca0f50696d90174e5d3e772fe0ad08adb8"
+    },
+    {
+      "path": "odf/ships/bjspecial.odf",
+      "sha256": "0c277be456ac0ee6537c6ced9c7e080e138a6128b32f62f3bce3b9632a88a0f2",
+      "sourceSha256": "cc0ee7cc7a26422f8c9f91ba92c825fe55a4b98a9dfa7dfddac8e490d2fdc98e"
+    },
+    {
+      "path": "odf/ships/bjsuper.odf",
+      "sha256": "b6da33f5e9c753869e369c7af23a947a15d0d0bdaac3d85bb6cf278986c00ead",
+      "sourceSha256": "cf7881610be6e60b9e1253e0297dbffb07847e743d7bf7a0792474106409b295"
+    },
+    {
+      "path": "odf/ships/bjtorpedo.odf",
+      "sha256": "100c935c1bcb43719d7939b4552515af846de65e4a762499adb32d46c45a95b5",
+      "sourceSha256": "48b2b63fd2223633349f1c5c6102438748aa3e24a5713f8c7e5af634117b7672"
+    },
+    {
+      "path": "odf/ships/bjtransport.odf",
+      "sha256": "151f1528dd498d4eaef9dcd9f9715626862438a097c456f40c84d0fac3050eab",
+      "sourceSha256": "b47df75b51879a4f36a32ae58fab7f34074df047c13c9d40c16e86e22e909590"
+    },
+    {
+      "path": "odf/ships/xbjuconst.odf",
+      "sha256": "73dbac57c68e5ecc092506c41239d1ef28a9b9bc89e24d218b1c3b7dd0bed13b",
+      "sourceSha256": "d4d8c0b71567cc08b63d33b57a8c8d93f46c6506398da043da014706a05818d0"
+    },
+    {
+      "path": "odf/stations/bjmining.odf",
+      "sha256": "5964aa0160088bcd66fe1d43cec4bb86d3c31a3658cf089bab8264e5a84ae10e",
+      "sourceSha256": "dc9b54faec6c069a6f77ff6eceee3564fa790086b0c4117b34bc4bd756b85969"
+    },
+    {
+      "path": "odf/stations/bjorbital.odf",
+      "sha256": "9bbc09995b4bc23ba24cd4b1e2721818222a9405526064559ea148ad163a186b",
+      "sourceSha256": "eec943b550bb734a38e27ad16ca5b439d42615e615860d252bd4b6f49f0b4049"
+    },
+    {
+      "path": "odf/stations/bjpod1.odf",
+      "sha256": "ccb8af8fad7dec30fe58bd18af0c469cb8d2bc8f5783b8d22e6ab11dadb0ffc2",
+      "sourceSha256": "b04dfcfd0e48ade687643828cfd025998429e448e8847d7eff63766bfbb27a83"
+    },
+    {
+      "path": "odf/stations/bjpod11.odf",
+      "sha256": "6e98f63f3341bac59d87d2481a015f46f90b89b05196b261a7ea0e19876b1d52",
+      "sourceSha256": "34e1ca7f0684ce60cd72d885a1380feba5ca3bc952695a03a0cfc864661ca68d"
+    },
+    {
+      "path": "odf/stations/bjpod12.odf",
+      "sha256": "c4adb43e879a85b7a875a298193f6938959481c3d8a404aa9bdb78f79c811f9a",
+      "sourceSha256": "98ff7c2338c093a7f3892ec7edc54193c96a34648d0b9452fcde239da5f60303"
+    },
+    {
+      "path": "odf/stations/bjpod13.odf",
+      "sha256": "ab0094150c678a416505ada823d61a61f858b2c18698d6c2563918102c5d9791",
+      "sourceSha256": "1beea4cae77ed88d405d7ac052d1e7095c8ae53e335b02d730ac2d3e0fc40353"
+    },
+    {
+      "path": "odf/stations/bjpod14.odf",
+      "sha256": "8a06b349e784455b8a97dfea5580874f25b6af452d3469ac6f063f82447e7fd6",
+      "sourceSha256": "ff714a9fd07ea1a51746d1350ad9500be843dbad6d0be8309442dcc38eacc3a5"
+    },
+    {
+      "path": "odf/stations/bjpod15.odf",
+      "sha256": "5472a1adc016e1e522fdfd0903c0fee7cdb811de8f14c18148cd4a09fb3120a7",
+      "sourceSha256": "671b3d0557c7e821aee2563f1abe46cb8b84aa625189642f1f49d9f50f59b5c2"
+    },
+    {
+      "path": "odf/stations/bjpod16.odf",
+      "sha256": "590c3577be12b6e67a3106a029ae2c9b6cbb44e66c2cabc2b16b17ef70120d0b",
+      "sourceSha256": "289662c0aecfe781224a86b8f78543abe2158c55889009541eed8cdace492f8c"
+    },
+    {
+      "path": "odf/stations/bjpod2.odf",
+      "sha256": "a3559520b8b2ff299c5dbc1bf8b492de3669f4b6cf340205c308ad1fb4a042f7",
+      "sourceSha256": "b3451122dbb381dd66e7992e9c3002c04e279707ad80d9a36bb82409c6f00bf2"
+    },
+    {
+      "path": "odf/stations/bjpod21.odf",
+      "sha256": "de18a98ccf4547e56eb87df344ea8d341b7f4ef9537622934d20e7df00d6f296",
+      "sourceSha256": "f37ec084fd0324838304a5cbc8108c3147e4989bc8dd9570b7c97d7942a7de44"
+    },
+    {
+      "path": "odf/stations/bjpod22.odf",
+      "sha256": "d2dcc5ebc77a29ee4f5c8ff6ebb9bf4a498dcb3d1f10e9551cd0bdc13db6a661",
+      "sourceSha256": "17e3f30c0cf46c30cadccb10096c6965795e45b81ffd11e4ea6087d0c5ffdb52"
+    },
+    {
+      "path": "odf/stations/bjpod23.odf",
+      "sha256": "ce57341c17a16a0cd7ac5229e32ab095d54665dac6190eebb61626a8f31dbd16",
+      "sourceSha256": "0daa16b5617eabc409a8a8adfc5ab432ac45b9d1ba5b434e026299d254e04709"
+    },
+    {
+      "path": "odf/stations/bjpod24.odf",
+      "sha256": "ee14f4090ca74e8fc011451eb55a081579b0c83d9d8f84c531a7cad82dad026e",
+      "sourceSha256": "c4d5f3dddadd06c16bdfb285e2506b152fd6e1d73fd0041c8a9961bd25b95a2e"
+    },
+    {
+      "path": "odf/stations/bjpod25.odf",
+      "sha256": "7850b9871a3690628b06f1593caae162668162312223cb60547cf2e0a3396642",
+      "sourceSha256": "e3b698b7b62a29ef5dcd67f47241be21ff843df1ed0bd6cadc680c1598e2a531"
+    },
+    {
+      "path": "odf/stations/bjpod3.odf",
+      "sha256": "4e00f42d52f68bcc19e0e478e0266a669e6420579256365fa6abf1116552fa3d",
+      "sourceSha256": "3a20d96a14f896efe166f50f218bb261bff711f11e5bbee59e72558b5da4abd1"
+    },
+    {
+      "path": "odf/stations/bjpod4.odf",
+      "sha256": "039c09a11d8564501f8ed4a46b3622e87c0089c06b51fcbd9a5812bc6cb124ec",
+      "sourceSha256": "f02db848b8aef7eaa68d5f3de0a1ea829399e3003658499db24dfa63cd5d0d6a"
+    },
+    {
+      "path": "odf/stations/bjpod5.odf",
+      "sha256": "9637e574e6e8eb829315194cfa1225a7846973565fbc536df8184f4e114142a4",
+      "sourceSha256": "5d1f8ea6f6deb4987369979d3893b0f33f571a32fe17ec90792ab0c0fade396c"
+    },
+    {
+      "path": "odf/stations/bjpod6.odf",
+      "sha256": "501e207555e953ea12039c4530e6dda1021a47b21c0fa7d820e20da1118131b6",
+      "sourceSha256": "b70ae677617419cee667aaf164d7ca75df455650ffa8e3849d44cff0e1e92944"
+    },
+    {
+      "path": "odf/stations/bjpod7.odf",
+      "sha256": "6b574d5db4d0ccdf1c7d22f96dde58b648bd776e5e3760ea05915f60e23cf2e2",
+      "sourceSha256": "84d87a1a0a48807215aba7bf9f876cd5028b6adc397e5519055ba6125113026a"
+    },
+    {
+      "path": "odf/stations/bjpod8.odf",
+      "sha256": "b88d38c30134b6e57b95f64b9df38b0cc66e783bf4547b0a1b00a1c11c12ce95",
+      "sourceSha256": "e3876636c5ba78151fe745a4183ad85b4e6210f194fbc41bc19cb2a0300ff712"
+    },
+    {
+      "path": "odf/stations/bjpod9.odf",
+      "sha256": "b6cb2ab5a4d84e3c335b5c60fee5969e6e33bb1a25e64ecdc37ae7e7a9535597",
+      "sourceSha256": "f0ec8a2d38b0522014c1036a4e06210c8fcefff74e02bffb7706407e274d1e2a"
+    },
+    {
+      "path": "odf/stations/bjresear.odf",
+      "sha256": "98773dd315bd5dbc28ace5b03791cded17c1fe09fda5537e4943595ca7890619",
+      "sourceSha256": "918d2a66b8c848296d9d318e27c337b0fdf9d4015cbe47f480d6deaaa2670f1e"
+    },
+    {
+      "path": "odf/stations/bjresear2.odf",
+      "sha256": "fd45d9d1aec75e93fb38fe65567167be36003167796ad7a50c10a47ae093ba87",
+      "sourceSha256": "fd29058c860afdbec2684bcd84355f0109c3dc5f2b00373f77a02516085ce045"
+    },
+    {
+      "path": "odf/stations/bjsensor.odf",
+      "sha256": "f36cef2fdaa54f29254d8bb377cee26c00569de004df0005e852626f1565c9e6",
+      "sourceSha256": "fd1fc80798bd582e1e0bf91e3e3b1c6f81d02ea8fafacb4048bf4f87ff24f7dd"
+    },
+    {
+      "path": "odf/stations/bjsuperlab.odf",
+      "sha256": "93cacf601cab3d1c02d292d0ebe21b918b121385508b8ade27b238b074defa7d",
+      "sourceSha256": "436d13912eae597078fef62090a35378505166ba821906b964baef727ca6d556"
+    },
+    {
+      "path": "odf/stations/bjtrading.odf",
+      "sha256": "77cd91424475dc4c870d709278613f166b9790d8f08a1cd68da561736f9a0c87",
+      "sourceSha256": "64fdc6290ef45cd18a39ad6d578479eccb1ea8d382db65c68d404ce31e11af7d"
+    },
+    {
+      "path": "odf/stations/bjturret.odf",
+      "sha256": "70d28e4abc98df9cb290b09b93a01ff6d48f73deccc6a099e30976803b53c405",
+      "sourceSha256": "18046973b659e5d49754eb1beeed79977da8dfe09de220fcb146734cf5681e61"
+    },
+    {
+      "path": "odf/stations/bjturret2.odf",
+      "sha256": "082ce47e3a94b6a6c24e8ef8eb43f1dcd7b6a58ff62497bd5da1e3f50b7b633c",
+      "sourceSha256": "7016c8be6421412b2f48e32fe7f95340a202ab7aca47c5c2b7ed8678b2a59dc9"
+    },
+    {
+      "path": "odf/stations/bjupgrade.odf",
+      "sha256": "f7a8c61b395e9d87210fc70d74d76425022fdecf9838efc77fa327a8ebbe93c6",
+      "sourceSha256": "03fe9b06a2f10f68e8458486e7ca5a9aa733d59781c3a8552ab836fc8b98a98d"
+    },
+    {
+      "path": "odf/stations/bjyard.odf",
+      "sha256": "6de3327e7aeb401bcc5df0be208784c9cb27e028ace566a380ef79a09aa71979",
+      "sourceSha256": "80e869d3fdeba64a1732cddb99624e0b4bee07036dfa4ddc1a6d4d921b159acb"
+    },
+    {
+      "path": "odf/stations/bjyard2.odf",
+      "sha256": "14d66165fcffbf6c0c3079c01468df23e1dedd24f262a6fbc1f79e57670e1d52",
+      "sourceSha256": "3e8b0c616da6c191f61f65d66b178405d8bdfe3f57f9fe15f8bb765a1d5c8ada"
+    },
+    {
+      "path": "odf/stations/bjyard3.odf",
+      "sha256": "f7654768265cd8dbf4113408bdbc80a98bf41eb0b5a5b1471f0d2f12fdbdb68e",
+      "sourceSha256": "28fe747ea640731a9d4ef512a4f9a8b0f6a103e506c71db709799694258013d9"
+    },
+    {
+      "path": "SOD/bjartillery.sod",
+      "sha256": "10cb9b9c4d01a5e2555a4a83b75b7a7a334af1709edb1625be9f8ffaa40e5ee2",
+      "sourceSha256": "d269e8f95aa0c2243076bba3bb4910ed04baa98a67d96aab281e4e544ad65fcc"
+    },
+    {
+      "path": "SOD/bjassault.sod",
+      "sha256": "c04f22cbcf32ed688d49ba27d4d7c8e123d26a1a897c19818df63b871acfc2e3",
+      "sourceSha256": "432615efef74121895aee1d7f55f45f13392cebb4f4f6af1b4c47ee4c722f9bf"
+    },
+    {
+      "path": "SOD/bjbattle.sod",
+      "sha256": "74c175f3d9f3d86a9353377687b98f21a5c935ed867cbf92d8abbc197a636bde",
+      "sourceSha256": "493793f13b0b33a562bdcec62070d93960c690328aed02b787d3a5f715ec6b49"
+    },
+    {
+      "path": "SOD/bjcargo.sod",
+      "sha256": "3078a473b6649234b2d19948042bd9b8bf7529723ff5673c79b7066a857f130f",
+      "sourceSha256": "91c2e3c8584849a67d68d5426a038c1de883e26723b02ca2a6d6f7233435b0ff"
+    },
+    {
+      "path": "SOD/bjcolony.sod",
+      "sha256": "c4dff704fc48f5abed741c26819ba8934f7858640ec6944324adac22a7ba9022",
+      "sourceSha256": "9b6f917d44ddea5e89fe7d32525c392dcdffec20ef9cf5d0c9a85c2dcb9f5326"
+    },
+    {
+      "path": "SOD/bjconst.sod",
+      "sha256": "8a866b9e619b4adf56b1c71c2605f1f5b5dfc501d967d2762dc6d748544ef78f",
+      "sourceSha256": "9bff86ab458cb2e82a4430f5d8c13c69d2aadab63c81d96ae00a4643c0113383"
+    },
+    {
+      "path": "SOD/bjcruiser.sod",
+      "sha256": "12fb9cef854e887095f125867c414d8bc0282053cf45361fd944a5addbb95f8f",
+      "sourceSha256": "203f7ce2a25b8006f35864d8c243b9c8a3631ea1b444b4f7c6bd2027ade4696c"
+    },
+    {
+      "path": "SOD/bjfreight.sod",
+      "sha256": "afe163baa8fe28ea3dc79e40238ea42e6f3679d9b7b3d1de0951b2e61b310600",
+      "sourceSha256": "01dd05fe5609d29e0911505a7aaa8b42f690c9879e423688761773694f0d3df8"
+    },
+    {
+      "path": "SOD/bjfrigate.sod",
+      "sha256": "3e717f5bedaeb38f09d28e22e5b6849f355c7322b0ab4d4ca45a82b87a0852a8",
+      "sourceSha256": "1437c79d558d06b60fc72b928406fdbafa6a3b5b819ecf60239916fc59ad2355"
+    },
+    {
+      "path": "SOD/bjinterceptor.sod",
+      "sha256": "3374bf4283afafe34f9efba67ed26d3772c23939adeca1cd419b38a07747f0e7",
+      "sourceSha256": "dfe131c227d28f2ef6fff84b5c71f195cdbfe7fac3b187b5c5084561c3d8fe73"
+    },
+    {
+      "path": "SOD/bjlightship.sod",
+      "sha256": "cbe33ce69165b92cdbc1e135e837d0cb9b8617f6d625f6d2676508ff3287653d",
+      "sourceSha256": "1a4dcadbaf564be4211e2e05d8019c30fe100756c873fc2681c88f09301167e8"
+    },
+    {
+      "path": "SOD/bjmining.sod",
+      "sha256": "c389017d43e84d1cb5529ccf696eac9afa7ce4994cc089e8ff83210ee100eca8",
+      "sourceSha256": "ca5609a191e3dde42ca20de68fbd644b15f3293ce1bcb9839d6c14eabb158216"
+    },
+    {
+      "path": "SOD/bjnerys.sod",
+      "sha256": "b2af032d95d899be46fcbb4e11c97cc8756f81ee9c1f2f436e396fea95fe1595",
+      "sourceSha256": "a77af6a91f5045b807c2893496f7b1739b09bbb42d4e367b2ca69f199076cfbe"
+    },
+    {
+      "path": "SOD/bjorbital.sod",
+      "sha256": "bb8246bc134ebb03210f9786dfa07505996e217e5ffa8bd41c96ae9a08241857",
+      "sourceSha256": "307060958d8e63eace00130b0b5dbce726494b66c4fdd2057d78ed8060cff4ed"
+    },
+    {
+      "path": "SOD/bjpod1.sod",
+      "sha256": "866272896754d0520092ceba5245d2b8cf1ff0a32b6757d890b15a30a3b8411a",
+      "sourceSha256": "b9323ba8cde91cae3015cdc1575231e8404983af6f4841a16455eaa71fffe3e5"
+    },
+    {
+      "path": "SOD/bjpod11.sod",
+      "sha256": "cfedc5558c6595e3100f2d4b403ca7ffece7da129fde61d23d014554be8f654c",
+      "sourceSha256": "0bf5accda8fc0a2fe407ea3f52a8e778bea0ac6e22a82a399d3b93a8f4dd9c69"
+    },
+    {
+      "path": "SOD/bjpod12.sod",
+      "sha256": "4e24386f35b0a6bcfe8ce370419ffdf7079a24ac527fc9d0ce3485f68a84dbd2",
+      "sourceSha256": "20056ab4ed7892ce3b401312ed151c5786b39ef519f9af37333b110ddae7a036"
+    },
+    {
+      "path": "SOD/bjpod13.sod",
+      "sha256": "411cbfc954f765c33329789188ca34851efd58e211008e3617d130b84285bbb8",
+      "sourceSha256": "d12560a23319e728dbd2cc140919beb60fdbf05c75cc5a28dddee9e19486fc99"
+    },
+    {
+      "path": "SOD/bjpod14.sod",
+      "sha256": "970cc72c663206ba45acf877adb00472d4922411abde4f7efcb3eb69ed462b94",
+      "sourceSha256": "1e6c71f1f5685b390d5caf51ffef0707479c36d6d8cb41428e8bba6f49fe5cb6"
+    },
+    {
+      "path": "SOD/bjpod15.sod",
+      "sha256": "99ea24c6033e29e337a0492058f2ff15d1292d69705b876726a4008256f86b08",
+      "sourceSha256": "81241ea463652512591751c2221436b978bfd984135adb67a42a436448dd695b"
+    },
+    {
+      "path": "SOD/bjpod16.sod",
+      "sha256": "1b9082ef2416733503570a1b05b812bb8e331a5c361372a46ab08d095ef69698",
+      "sourceSha256": "3a93ba54a5c046844295d9529435a7d2d329910093f56892e87c12b2811cb539"
+    },
+    {
+      "path": "SOD/bjpod2.sod",
+      "sha256": "fc29ccb08b9d6e207659eb31306f203bebef1b0b33ef2685cf02a4661b700fc4",
+      "sourceSha256": "e9bad3337bc11189a8334f7fb8f75181dfa449f887ad27ca2fad2697f87c9c3d"
+    },
+    {
+      "path": "SOD/bjpod21.sod",
+      "sha256": "0cc1404d8d5df27f7ea30e0da661d08a7f27840403adf75db3fdfb8b4a43b997",
+      "sourceSha256": "9e3263a1c2e23426bc5c16f03122ccebecbba70376a2ed188d0fbb30f552d79c"
+    },
+    {
+      "path": "SOD/bjpod22.sod",
+      "sha256": "712698713e0e9a19e7f9edd872c425ea6b673628c851f5f2a2398faf70a4eebe",
+      "sourceSha256": "ebb0e945eb82ed4991b30f41c1fc02cf36d4fe9a9588d75a324e07f7741dd6d5"
+    },
+    {
+      "path": "SOD/bjpod23.sod",
+      "sha256": "5f1d36340c79d9f86a45de3ef4a7644c32f4bce344493c2d02e26c6564fa66fa",
+      "sourceSha256": "25f881266c998ed157f8ad3789ac7fd1f64b0845cff0d940ce200645b749b609"
+    },
+    {
+      "path": "SOD/bjpod24.sod",
+      "sha256": "5418b2c66b7c75679e6f23322bdcaad439e733777c56b6a5affeca77928d63af",
+      "sourceSha256": "828966ab8efeaf934307217f01e94927dafdaa188cf50b547ea9ebd907e2b85f"
+    },
+    {
+      "path": "SOD/bjpod25.sod",
+      "sha256": "46c43fdcd468999231e39f29c0312bda9816eba76c149873de78858edf0e122f",
+      "sourceSha256": "f2a8a4958b99d0ad23f696090c14f67d7d0729ca4894b6fab67e385a06a106f4"
+    },
+    {
+      "path": "SOD/bjpod3.sod",
+      "sha256": "1ae706d7f769c208cff9dfea8a62999ccbf2735c77f7a7cdace9b5746576a57c",
+      "sourceSha256": "52e534618aa3b5655b714b7348791f88c21e4c74883225654e4178fb21287180"
+    },
+    {
+      "path": "SOD/bjpod4.sod",
+      "sha256": "d238379474b955a04e5fe6c8691a49f05096764cd8b026587716ec6556779b30",
+      "sourceSha256": "dfe8eaea07ff3e7974d6dc9d07a731db38567d10281940efe0166184e5af3b7f"
+    },
+    {
+      "path": "SOD/bjpod5.sod",
+      "sha256": "709e604f1853b9fbd82fc3d1102a0fe1f1e4e626b7c6f5862b6801eb59c5c72b",
+      "sourceSha256": "96d7d92f807520e3367f6046b2b9571c9208c63a06a306e5e5b2a698718c5c54"
+    },
+    {
+      "path": "SOD/bjpod6.sod",
+      "sha256": "076132b61301e0481bb9fa80ecbf4d9332a1c2b59ce855bb6c3554efdfd35cbe",
+      "sourceSha256": "a5d36a9577f422ac7686edff0c8c749b3a1b8dcce2f41e04148ed465e73086ab"
+    },
+    {
+      "path": "SOD/bjpod7.sod",
+      "sha256": "2e767afac2f78d51414c14eec6f8e8e8efa6177386e8050d40d87505bac3092c",
+      "sourceSha256": "7121ebf65df65e749b86ec58681d7eee92cf26c81a2fe1c17ae89471ba2b957e"
+    },
+    {
+      "path": "SOD/bjpod8.sod",
+      "sha256": "dab83f81c56bb863cb7033374e6cd7759d87fc3d8cf55771c16ae834d364fb09",
+      "sourceSha256": "a5835e463500c98b44ba10067648701ccd70cc813d1f0a3463564df8d1355b41"
+    },
+    {
+      "path": "SOD/bjpod9.sod",
+      "sha256": "1efae832d8e8fc6a61aed0d061cad66237ab5ec9714252efc07b27fbfeb899b0",
+      "sourceSha256": "26c36ef9c7da8f5157eb637fb49df44f0a8ba788c075f0a684ffbb4a3326fd2d"
+    },
+    {
+      "path": "SOD/bjraider.sod",
+      "sha256": "155aaac0c059ffeaf4fb2a38441fb7ebf4fc7cbd55340e6f5fd8a900c1be910f",
+      "sourceSha256": "0f9345aaa67acf9b681b6d74ab6c1eb8201e105f9026ff81cb0c4d70dc9b8cf8"
+    },
+    {
+      "path": "SOD/bjrepair.sod",
+      "sha256": "40f2f6950df213247e51b1a988a5e979b8b76630b8fe5331c6402579d54550a6",
+      "sourceSha256": "7852f8649f40ff6d4e490df306ae0e078cd131cdf544c9ee93cce179537f5b89"
+    },
+    {
+      "path": "SOD/bjresear.sod",
+      "sha256": "027ff7ad8592951f8b110c1d20d1449588cb49e55329bde80ce6e38a9ef75aa0",
+      "sourceSha256": "6e8bb08de9dccc6a992bed3b57f373a4ee637911da279c765de666717cabecb0"
+    },
+    {
+      "path": "SOD/bjresear2.sod",
+      "sha256": "e1bbc1fadfa3dea4422ad5565306fa35594c94311a3e2196fcefac8f47398304",
+      "sourceSha256": "f6847265be260ae77323310e614fb6121bff7d628dc7114987322708638ee5f8"
+    },
+    {
+      "path": "SOD/bjscout.sod",
+      "sha256": "387812f38683021fe82e3a0a4a84c1ec342200865e52391a03792b63aac5364a",
+      "sourceSha256": "fb7bf148662f7eaa8b6e3dc707e7bf2da91fa70b67fa8708b0f7f97054131b6b"
+    },
+    {
+      "path": "SOD/bjsensor.sod",
+      "sha256": "68102fa4cef790bc5e67596d532867a510a4a5eb390d32a08b967e6b6de74e97",
+      "sourceSha256": "edd1293016c13b137be10c080db59b3794da4ce3eac5c2b03a5980673eddd58f"
+    },
+    {
+      "path": "SOD/bjspecial.sod",
+      "sha256": "f4aa5249aa46173aa6b84e1c68e4b544d78d291bad4945fb705d16df25c30509",
+      "sourceSha256": "53b28cdb083ec500612c4a073564d6fe8dc4e945ad79fd0601fc1effb997cf6e"
+    },
+    {
+      "path": "SOD/bjsuper.sod",
+      "sha256": "9b4894c8b84944988892bc9646c3e8e46f4ce07f9c4f1b58e5fc59b2efb68f13",
+      "sourceSha256": "c81bf15ed9081f140a2b816e13de6cd53eda8407519f65d9e4dd468eafc0065f"
+    },
+    {
+      "path": "SOD/bjsuperlab.sod",
+      "sha256": "34683f7d74c6128a3d0c7ce6813675de83a36fc217220c3e34cd22c6f2539780",
+      "sourceSha256": "45df4fcac0868b50b91be7164b3e2a10f2ebb9a554a35fd5ddbae6ba1928553b"
+    },
+    {
+      "path": "SOD/bjtorpedo.sod",
+      "sha256": "1d2319b90bfd56eb101b686127f56f0bb7a47c9f0b2360a93b8ec05d57d8da3d",
+      "sourceSha256": "63d2f881a16762ed644e8da7d3aeb19473d77f0dc5e681b0f559fb0416f843e6"
+    },
+    {
+      "path": "SOD/bjtrading.sod",
+      "sha256": "008601484186f99c81f5399c16e9b1b699de4bd5727e7fe7f3409dfa533ff0cd",
+      "sourceSha256": "b09cb9f3ec0ac1b617be902de465e8740181d9e12ea5077305d62a21b6c0ea5b"
+    },
+    {
+      "path": "SOD/bjtransport.sod",
+      "sha256": "6ac53cd530b11aa05edbaff5b752dae0f886e15e3fe0243ed1fbc68d18a0364d",
+      "sourceSha256": "9f57348d699c0265f726e1c3aed34006161c9925e5dfdb12732adf7a712c3303"
+    },
+    {
+      "path": "SOD/bjturret.sod",
+      "sha256": "3d1e338f8cadd297f9f4f4a6e94e6ce539421c88c6ea194c5fc99a40a3e2fb08",
+      "sourceSha256": "8ecb33d71f81d488763a35a0f1d0bca5a2333736e8f4a405dd903739fe9ff3f4"
+    },
+    {
+      "path": "SOD/bjturret2.sod",
+      "sha256": "e2dd67a889c9b70ebdd44e1215e17dbb29af02588e430246d63cfb60a70f6860",
+      "sourceSha256": "a87d2abfd003a42caebb5e389d32488c9074943b2c1d3c595a42d9b2e03e22e4"
+    },
+    {
+      "path": "SOD/bjupgrade.sod",
+      "sha256": "f854afa8bc1e5addb56b19ed1d51553fa026b39493f72a4e7551561411f0ea9c",
+      "sourceSha256": "0058c610c84a4f68e9fb02fd569cfaff2f95fca2a6fdc6772e97fbe3b85ba093"
+    },
+    {
+      "path": "SOD/bjyard.sod",
+      "sha256": "4b3985aa529a0f5ed1ea0d44d4b35bcc4cb1f20d714720818e4271c75c3fcc1e",
+      "sourceSha256": "382c706bd90988606f5566be7224b911238f7ceb7ff1d3cfdeb39fac13312698"
+    },
+    {
+      "path": "SOD/bjyard2.sod",
+      "sha256": "db599d7e2aa2d9910a9b4de57f0584642cafe414ac4fb77c6e60a6cb10a6147b",
+      "sourceSha256": "a2a212b00b54c0079f861e685a818df5b1d2d1e0f0aff86fe43703ee5cdf8bca"
+    },
+    {
+      "path": "SOD/bjyard3.sod",
+      "sha256": "d83c4da9d637027c3a01ee66493029a854890a48ed49bac5644160c3503f5fdc",
+      "sourceSha256": "938646dfc806df7d575bcdde4ad6454d5472ea1c8f77b1bbf70f1ebcbaf6c2e5"
+    },
+    {
+      "path": "SOD/xbjuconst.sod",
+      "sha256": "5a212c302729838cde9049511f74276cd24ee3d696e9192a16c34ad98f2195a4",
+      "sourceSha256": "e23fa5a457d3d26cb6f8438196e5275fce4906133ed5e71d9f06ce784dfeb984"
+    },
+    {
+      "path": "Sprites/gui_global.spr",
+      "sha256": "94495e6c09307219eab6406b70e0385f9898912d887e2369ad4f40c386aba45c",
+      "sourceSha256": "b03fc88b4b5af6a5b84e83b5d54972d7fd7622a5c5675e808dca03dd916fc1a3"
+    },
+    {
+      "path": "Textures/RGB/xbjv2buttons.tga",
+      "sha256": "7876af3c61262bb763244a5ef2bfecf384f650b483ef24cca7e24d0b395b7a76",
+      "sourceSha256": null
+    },
+    {
+      "path": "Textures/RGB/xbjv2hull.tga",
+      "sha256": "1992a41936ae5e1deded00b319d17faca6c34126bac1aff36602df5abaf60793",
+      "sourceSha256": null
+    },
+    {
+      "path": "Textures/RGB/xbjv2hull_B.tga",
+      "sha256": "83eb37b62d8afcea1ac12cc4ccc8b422921cfe6dd4a98d5db4dcf6a62046f8b8",
+      "sourceSha256": null
+    }
+  ],
+  "modelCount": 53,
+  "definitionCount": 53,
+  "allRosterRoles": 54,
+  "ds9ModelPreserved": true,
+  "normalAndAssimilatedTextures": true,
+  "iconsRenderedFromModels": true,
+  "fullAiTargets": [
+    "bjbase",
+    "bjconst",
+    "bjscout",
+    "bjmining",
+    "bjfreight",
+    "bjyard",
+    "bjinterceptor",
+    "bjresear",
+    "bjraider",
+    "bjtransport",
+    "bjlightship",
+    "bjassault",
+    "bjrepair",
+    "bjcolony",
+    "bjorbital",
+    "bjtrading",
+    "bjcargo",
+    "bjturret",
+    "bjsensor",
+    "bjturret2",
+    "bjpod1",
+    "bjpod2",
+    "bjpod3",
+    "bjpod4",
+    "bjpod5",
+    "bjpod16",
+    "bjyard2",
+    "bjcruiser",
+    "bjtorpedo",
+    "bjfrigate",
+    "bjresear2",
+    "bjpod6",
+    "bjpod7",
+    "bjpod8",
+    "bjpod9",
+    "bjupgrade",
+    "bjpod11",
+    "bjpod12",
+    "bjpod13",
+    "bjpod14",
+    "bjpod15",
+    "bjpod21",
+    "bjpod22",
+    "bjpod23",
+    "bjpod24",
+    "bjpod25",
+    "bjbattle",
+    "bjspecial",
+    "bjartillery",
+    "xbjuconst",
+    "bjsuperlab",
+    "bjyard3",
+    "bjnerys",
+    "bjsuper"
+  ],
+  "aiProfiles": 5,
+  "techTree": "Existing installed tech1.tt; all 54 faction definitions reachable",
+  "gameplayStatsPreserved": true,
+  "audioFallbackPreserved": true,
+  "heroCallingAbsent": true,
+  "applied": false,
+  "runtimeVerified": false,
+  "requiresFreshMatchTest": true,
+  "designSources": [
+    "https://www.startrek.com/news/first-look-bajoran-interceptor-5-expansion-pack",
+    "https://www.startrek.com/news/lower-decks-inspires-look-back-ds9-explorers"
+  ],
+  "designScope": "TV-inspired interceptor, raider and lightship silhouettes; remaining combat/utility/station classes are original gameplay extrapolations, not exact screen replicas."
+}

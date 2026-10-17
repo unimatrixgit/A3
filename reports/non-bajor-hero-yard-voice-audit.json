@@ -1,0 +1,3958 @@
+{
+  "target": "D:\\armadaIII",
+  "scope": "Non-Bajoran hero command audio and hero-yard references; read only.",
+  "heroCount": 33,
+  "heroes": [
+    {
+      "unit": "8472_heromothership.odf",
+      "name": "Rift Maker",
+      "race": "species8472",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_8472_heromothership_Select",
+          "clips": [
+            "spe_sel_1.wav",
+            "spe_sel_2.wav",
+            "spe_sel_3.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_8472_heromothership_Acknowledge",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_8472_heromothership_Attack",
+          "clips": [
+            "spe_att_1.wav",
+            "spe_att_2.wav",
+            "spe_att_3.wav",
+            "spe_att_4.wav",
+            "spe_att_5.wav",
+            "spe_att_6.wav",
+            "spe_att_7.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_8472_heromothership_Stop",
+          "clips": [
+            "spe_stop_1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_8472_heromothership_Move",
+          "clips": [
+            "spe_move_1.wav",
+            "spe_move_2.wav",
+            "spe_move_3.wav",
+            "spe_move_4.wav",
+            "spe_move_5.wav",
+            "spe_move_6.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_8472_heromothership_Repair",
+          "clips": [
+            "spe_repairs_1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_8472_heromothership_RedAlert",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_8472_heromothership_YellowAlert",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_8472_heromothership_GreenAlert",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_8472_heromothership_Transport",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_8472_heromothership_SelfDestruct",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_8472_heromothership_Decommission",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "blocutus.odf",
+      "name": "Locutus' Cube",
+      "race": "borg",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XLocutus_Select",
+          "clips": [
+            "gvoloc17.wav",
+            "gvoloc18.wav",
+            "gvoloc19.wav",
+            "gvoloc20.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XLocutus_Acknowledge",
+          "clips": [
+            "gvoloc01.wav",
+            "gvoloc50.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XLocutus_Attack",
+          "clips": [
+            "gvoloc06.wav",
+            "gvoloc07.wav",
+            "gvoloc08.wav",
+            "gvoloc10.wav",
+            "gvoloc40.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XLocutus_Stop",
+          "clips": [
+            "gvoloc21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XLocutus_Move",
+          "clips": [
+            "gvoloc11.wav",
+            "gvoloc13.wav",
+            "gvoloc14.wav",
+            "gvoloc50.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XLocutus_Repair",
+          "clips": [
+            "gvoloc09.wav",
+            "gvoloc26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XLocutus_RedAlert",
+          "clips": [
+            "gvoloc10.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XLocutus_YellowAlert",
+          "clips": [
+            "gvoloc18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XLocutus_GreenAlert",
+          "clips": [
+            "gvoloc50.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XLocutus_Transport",
+          "clips": [
+            "gvoloc40.wav",
+            "gvoloc60.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XLocutus_SelfDestruct",
+          "clips": [
+            "gvoloc06.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XLocutus_Decommission",
+          "clips": [
+            "gvoloc50.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "bqueen.odf",
+      "name": "Diamond",
+      "race": "borg",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_bqueen_Select",
+          "clips": [
+            "queen_sel_1.wav",
+            "queen_sel_2.wav",
+            "queen_sel_3.wav",
+            "queen_sel_4.wav",
+            "queen_sel_5.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_bqueen_Acknowledge",
+          "clips": [
+            "queen_ackn_1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_bqueen_Attack",
+          "clips": [
+            "queen_att_1.wav",
+            "queen_att_2.wav",
+            "queen_att_3.wav",
+            "queen_att_4.wav",
+            "queen_att_5.wav",
+            "queen_att_6.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_bqueen_Stop",
+          "clips": [
+            "queen_stop_1.wav",
+            "queen_stop_2.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_bqueen_Move",
+          "clips": [
+            "queen_move_1.wav",
+            "queen_move_2.wav",
+            "queen_move_3.wav",
+            "queen_move_4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_bqueen_Repair",
+          "clips": [
+            "queen_repairs_1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_bqueen_RedAlert",
+          "clips": [
+            "queen_att_2.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_bqueen_YellowAlert",
+          "clips": [
+            "queen_ackn_1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_bqueen_GreenAlert",
+          "clips": [
+            "queen_sel_4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_bqueen_Transport",
+          "clips": [
+            "queen_ackn_1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_bqueen_SelfDestruct",
+          "clips": [
+            "queen_ackn_1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_bqueen_Decommission",
+          "clips": [
+            "queen_ackn_1.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "ckentar.odf",
+      "name": "Keldon Class",
+      "race": "cardassian",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_ckentar_Select",
+          "clips": [
+            "carbat_sel1_att5_move5.wav",
+            "carbat_sel2_att6_move6.wav",
+            "carbat_select3.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_ckentar_Acknowledge",
+          "clips": [
+            "carbat_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_ckentar_Attack",
+          "clips": [
+            "carbat_attack1.wav",
+            "carbat_attack2.wav",
+            "carbat_attack3.wav",
+            "carbat_ackn1_att4_move4.wav",
+            "carbat_sel1_att5_move5.wav",
+            "carbat_sel2_att6_move6.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_ckentar_Stop",
+          "clips": [
+            "cardes_stop1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_ckentar_Move",
+          "clips": [
+            "carbat_move1.wav",
+            "carbat_move2.wav",
+            "carbat_move3.wav",
+            "carbat_ackn1_att4_move4.wav",
+            "carbat_sel1_att5_move5.wav",
+            "carbat_sel2_att6_move6.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_ckentar_Repair",
+          "clips": [
+            "carbat_repairs1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_ckentar_RedAlert",
+          "clips": [
+            "carbat_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_ckentar_YellowAlert",
+          "clips": [
+            "carbat_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_ckentar_GreenAlert",
+          "clips": [
+            "carbat_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_ckentar_Transport",
+          "clips": [
+            "carbat_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_ckentar_SelfDestruct",
+          "clips": [
+            "carbat_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_ckentar_Decommission",
+          "clips": [
+            "carbat_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "dweyoun.odf",
+      "name": "Weyoun's Command Battleship",
+      "race": "dominion",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_dweyoun_Select",
+          "clips": [
+            "vorta007.wav",
+            "vorta012.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_dweyoun_Acknowledge",
+          "clips": [
+            "vorta006.wav",
+            "vorta022.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_dweyoun_Attack",
+          "clips": [
+            "vorta020.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_dweyoun_Stop",
+          "clips": [
+            "vorta003.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_dweyoun_Move",
+          "clips": [
+            "jem005.wav",
+            "jem006.wav",
+            "jem011.wav",
+            "jem012.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_dweyoun_Repair",
+          "clips": [
+            "vorta005.wav",
+            "vorta016.wav",
+            "vorta017.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_dweyoun_RedAlert",
+          "clips": [
+            "vorta006.wav",
+            "vorta022.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_dweyoun_YellowAlert",
+          "clips": [
+            "vorta006.wav",
+            "vorta022.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_dweyoun_GreenAlert",
+          "clips": [
+            "vorta006.wav",
+            "vorta022.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_dweyoun_Transport",
+          "clips": [
+            "vorta006.wav",
+            "vorta022.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_dweyoun_SelfDestruct",
+          "clips": [
+            "vorta006.wav",
+            "vorta022.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_dweyoun_Decommission",
+          "clips": [
+            "vorta006.wav",
+            "vorta022.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "fcaddebostan.odf",
+      "name": "Nebula Class",
+      "race": "federation",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_fcaddebostan_Select",
+          "clips": [
+            "gvofsp17.wav",
+            "gvofsp18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_fcaddebostan_Acknowledge",
+          "clips": [
+            "gvofsp18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_fcaddebostan_Attack",
+          "clips": [
+            "gvofbs06.wav",
+            "gvofbs07.wav",
+            "gvofbs08.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_fcaddebostan_Stop",
+          "clips": [
+            "gvofsp21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_fcaddebostan_Move",
+          "clips": [
+            "gvofsp11.wav",
+            "gvofsp12.wav",
+            "gvofsp13.wav",
+            "gvofsp01.wav",
+            "gvofsp16.wav",
+            "gvofsp17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_fcaddebostan_Repair",
+          "clips": [
+            "gvofsp26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_fcaddebostan_RedAlert",
+          "clips": [
+            "gvofsp18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_fcaddebostan_YellowAlert",
+          "clips": [
+            "gvofsp18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_fcaddebostan_GreenAlert",
+          "clips": [
+            "gvofsp18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_fcaddebostan_Transport",
+          "clips": [
+            "gvofsp18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_fcaddebostan_SelfDestruct",
+          "clips": [
+            "gvofsp18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_fcaddebostan_Decommission",
+          "clips": [
+            "gvofsp18.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "fdefiant.odf",
+      "name": "Defiant Class",
+      "race": "federation",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_fdefiant_Select",
+          "clips": [
+            "gvofbs16.wav",
+            "gvofbs17.wav",
+            "gvofbs18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_fdefiant_Acknowledge",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_fdefiant_Attack",
+          "clips": [
+            "gvofbs06.wav",
+            "gvofbs07.wav",
+            "gvofbs08.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_fdefiant_Stop",
+          "clips": [
+            "gvofbs21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_fdefiant_Move",
+          "clips": [
+            "gvofbs11.wav",
+            "gvofbs12.wav",
+            "gvofbs13.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_fdefiant_Repair",
+          "clips": [
+            "gvofbs26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_fdefiant_RedAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_fdefiant_YellowAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_fdefiant_GreenAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_fdefiant_Transport",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_fdefiant_SelfDestruct",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_fdefiant_Decommission",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "fent.odf",
+      "name": "Constitution Class",
+      "race": "federation",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_fent_Select",
+          "clips": [
+            "gvofbs16.wav",
+            "gvofbs17.wav",
+            "gvofbs18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_fent_Acknowledge",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_fent_Attack",
+          "clips": [
+            "gvofbs06.wav",
+            "gvofbs07.wav",
+            "gvofbs08.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_fent_Stop",
+          "clips": [
+            "gvofbs21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_fent_Move",
+          "clips": [
+            "gvofbs11.wav",
+            "gvofbs12.wav",
+            "gvofbs13.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_fent_Repair",
+          "clips": [
+            "gvofbs26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_fent_RedAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_fent_YellowAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_fent_GreenAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_fent_Transport",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_fent_SelfDestruct",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_fent_Decommission",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "fenta.odf",
+      "name": "Constitution Class Refit",
+      "race": "federation",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_fenta_Select",
+          "clips": [
+            "gvofbs16.wav",
+            "gvofbs17.wav",
+            "gvofbs18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_fenta_Acknowledge",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_fenta_Attack",
+          "clips": [
+            "gvofbs06.wav",
+            "gvofbs07.wav",
+            "gvofbs08.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_fenta_Stop",
+          "clips": [
+            "gvofbs21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_fenta_Move",
+          "clips": [
+            "gvofbs11.wav",
+            "gvofbs12.wav",
+            "gvofbs13.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_fenta_Repair",
+          "clips": [
+            "gvofbs26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_fenta_RedAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_fenta_YellowAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_fenta_GreenAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_fenta_Transport",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_fenta_SelfDestruct",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_fenta_Decommission",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "fentb.odf",
+      "name": "Excelsior Class Refit",
+      "race": "federation",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_fentb_Select",
+          "clips": [
+            "gvofbs16.wav",
+            "gvofbs17.wav",
+            "gvofbs18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_fentb_Acknowledge",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_fentb_Attack",
+          "clips": [
+            "gvofbs06.wav",
+            "gvofbs07.wav",
+            "gvofbs08.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_fentb_Stop",
+          "clips": [
+            "gvofbs21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_fentb_Move",
+          "clips": [
+            "gvofbs11.wav",
+            "gvofbs12.wav",
+            "gvofbs13.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_fentb_Repair",
+          "clips": [
+            "gvofbs26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_fentb_RedAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_fentb_YellowAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_fentb_GreenAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_fentb_Transport",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_fentb_SelfDestruct",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_fentb_Decommission",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "fentc.odf",
+      "name": "Ambassador Class",
+      "race": "federation",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_fentc_Select",
+          "clips": [
+            "fedass_sel1_att5_move5.wav",
+            "fedass_sel2_att6_move6.wav",
+            "fedass_select3.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_fentc_Acknowledge",
+          "clips": [
+            "fedass_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_fentc_Attack",
+          "clips": [
+            "fedass_attack1.wav",
+            "fedass_attack2.wav",
+            "fedass_attack3.wav",
+            "fedass_ackn1_att4_move4.wav",
+            "fedass_sel1_att5_move5.wav",
+            "fedass_sel2_att6_move6.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_fentc_Stop",
+          "clips": [
+            "fedass_stop1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_fentc_Move",
+          "clips": [
+            "fedass_move1.wav",
+            "fedass_move2.wav",
+            "fedass_move3.wav",
+            "fedass_ackn1_att4_move4.wav",
+            "fedass_sel1_att5_move5.wav",
+            "fedass_sel2_att6_move6.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_fentc_Repair",
+          "clips": [
+            "fedass_repairs1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_fentc_RedAlert",
+          "clips": [
+            "fedass_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_fentc_YellowAlert",
+          "clips": [
+            "fedass_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_fentc_GreenAlert",
+          "clips": [
+            "fedass_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_fentc_Transport",
+          "clips": [
+            "fedass_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_fentc_SelfDestruct",
+          "clips": [
+            "fedass_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_fentc_Decommission",
+          "clips": [
+            "fedass_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "fentd.odf",
+      "name": "Galaxy Class",
+      "race": "federation",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_fentd_Select",
+          "clips": [
+            "gvopic16.wav",
+            "gvopic20.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_fentd_Acknowledge",
+          "clips": [
+            "gvopic01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_fentd_Attack",
+          "clips": [
+            "gvopic06.wav",
+            "gvopic07.wav",
+            "gvopic01.wav",
+            "gvopic08.wav",
+            "gvopic09.wav",
+            "gvopic10.wav",
+            "gvopic40.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_fentd_Stop",
+          "clips": [
+            "gvopic21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_fentd_Move",
+          "clips": [
+            "gvopic12.wav",
+            "gvopic11.wav",
+            "gvopic15.wav",
+            "gvopic50.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_fentd_Repair",
+          "clips": [
+            "gvopic26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_fentd_RedAlert",
+          "clips": [
+            "gvopic98.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_fentd_YellowAlert",
+          "clips": [
+            "gvopic95.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_fentd_GreenAlert",
+          "clips": [
+            "gvopic99.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_fentd_Transport",
+          "clips": [
+            "gvopic97.wav",
+            "gvopic96.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_fentd_SelfDestruct",
+          "clips": [
+            "gvopic01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_fentd_Decommission",
+          "clips": [
+            "gvopic01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "fentdx.odf",
+      "name": "Galaxy Class X-Refit",
+      "race": "federation",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_fentdx_Select",
+          "clips": [
+            "gvofbs16.wav",
+            "gvofbs17.wav",
+            "gvofbs18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_fentdx_Acknowledge",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_fentdx_Attack",
+          "clips": [
+            "gvofbs06.wav",
+            "gvofbs07.wav",
+            "gvofbs08.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_fentdx_Stop",
+          "clips": [
+            "gvofbs21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_fentdx_Move",
+          "clips": [
+            "gvofbs11.wav",
+            "gvofbs12.wav",
+            "gvofbs13.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_fentdx_Repair",
+          "clips": [
+            "gvofbs26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_fentdx_RedAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_fentdx_YellowAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_fentdx_GreenAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_fentdx_Transport",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_fentdx_SelfDestruct",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_fentdx_Decommission",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "fente.odf",
+      "name": "Sovereign Class",
+      "race": "federation",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_fente_Select",
+          "clips": [
+            "gvopic16.wav",
+            "gvopic20.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_fente_Acknowledge",
+          "clips": [
+            "gvopic01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_fente_Attack",
+          "clips": [
+            "gvopic06.wav",
+            "gvopic07.wav",
+            "gvopic01.wav",
+            "gvopic08.wav",
+            "gvopic09.wav",
+            "gvopic10.wav",
+            "gvopic40.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_fente_Stop",
+          "clips": [
+            "gvopic21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_fente_Move",
+          "clips": [
+            "gvopic12.wav",
+            "gvopic11.wav",
+            "gvopic15.wav",
+            "gvopic50.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_fente_Repair",
+          "clips": [
+            "gvopic26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_fente_RedAlert",
+          "clips": [
+            "gvopic98.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_fente_YellowAlert",
+          "clips": [
+            "gvopic95.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_fente_GreenAlert",
+          "clips": [
+            "gvopic99.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_fente_Transport",
+          "clips": [
+            "gvopic97.wav",
+            "gvopic96.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_fente_SelfDestruct",
+          "clips": [
+            "gvopic01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_fente_Decommission",
+          "clips": [
+            "gvopic01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "fincursion.odf",
+      "name": "Incursion Class",
+      "race": "federation",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_fincursion_Select",
+          "clips": [
+            "gvofdc16.wav",
+            "gvofdc17.wav",
+            "gvofdc18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_fincursion_Acknowledge",
+          "clips": [
+            "gvofdc18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_fincursion_Attack",
+          "clips": [
+            "gvofdc08.wav",
+            "gvofdc07.wav",
+            "gvofdc01.wav",
+            "gvofdc16.wav",
+            "gvofdc17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_fincursion_Stop",
+          "clips": [
+            "gvofdc21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_fincursion_Move",
+          "clips": [
+            "gvofdc11.wav",
+            "gvofdc12.wav",
+            "gvofdc13.wav",
+            "gvofdc01.wav",
+            "gvofdc16.wav",
+            "gvofdc17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_fincursion_Repair",
+          "clips": [
+            "gvofdc26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_fincursion_RedAlert",
+          "clips": [
+            "gvofdc18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_fincursion_YellowAlert",
+          "clips": [
+            "gvofdc18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_fincursion_GreenAlert",
+          "clips": [
+            "gvofdc18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_fincursion_Transport",
+          "clips": [
+            "gvofdc18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_fincursion_SelfDestruct",
+          "clips": [
+            "gvofdc18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_fincursion_Decommission",
+          "clips": [
+            "gvofdc18.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "fnxent.odf",
+      "name": "NX Class",
+      "race": "federation",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_fnxent_Select",
+          "clips": [
+            "gvofbs16.wav",
+            "gvofbs17.wav",
+            "gvofbs18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_fnxent_Acknowledge",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_fnxent_Attack",
+          "clips": [
+            "gvofbs06.wav",
+            "gvofbs07.wav",
+            "gvofbs08.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_fnxent_Stop",
+          "clips": [
+            "gvofbs21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_fnxent_Move",
+          "clips": [
+            "gvofbs11.wav",
+            "gvofbs12.wav",
+            "gvofbs13.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_fnxent_Repair",
+          "clips": [
+            "gvofbs26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_fnxent_RedAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_fnxent_YellowAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_fnxent_GreenAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_fnxent_Transport",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_fnxent_SelfDestruct",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_fnxent_Decommission",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "fvoyager.odf",
+      "name": "Intrepid Class",
+      "race": "federation",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_fvoyager_Select",
+          "clips": [
+            "gvofbs16.wav",
+            "gvofbs17.wav",
+            "gvofbs18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_fvoyager_Acknowledge",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_fvoyager_Attack",
+          "clips": [
+            "gvofbs06.wav",
+            "gvofbs07.wav",
+            "gvofbs08.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_fvoyager_Stop",
+          "clips": [
+            "gvofbs21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_fvoyager_Move",
+          "clips": [
+            "gvofbs11.wav",
+            "gvofbs12.wav",
+            "gvofbs13.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_fvoyager_Repair",
+          "clips": [
+            "gvofbs26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_fvoyager_RedAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_fvoyager_YellowAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_fvoyager_GreenAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_fvoyager_Transport",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_fvoyager_SelfDestruct",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_fvoyager_Decommission",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "kbekta.odf",
+      "name": "Qeh'Ral Class",
+      "race": "klingon",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_kbekta_Select",
+          "clips": [
+            "gvokbs16.wav",
+            "gvokbs18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_kbekta_Acknowledge",
+          "clips": [
+            "gvokbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_kbekta_Attack",
+          "clips": [
+            "gvokbs06.wav",
+            "gvokbs07.wav",
+            "gvokbs08.wav",
+            "gvokbs01.wav",
+            "gvokbs17.wav",
+            "gvokbs18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_kbekta_Stop",
+          "clips": [
+            "gvokbs21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_kbekta_Move",
+          "clips": [
+            "gvokbs11.wav",
+            "gvokbs12.wav",
+            "gvokbs13.wav",
+            "gvokbs01.wav",
+            "gvokbs17.wav",
+            "gvokbs18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_kbekta_Repair",
+          "clips": [
+            "gvokbs26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_kbekta_RedAlert",
+          "clips": [
+            "gvokbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_kbekta_YellowAlert",
+          "clips": [
+            "gvokbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_kbekta_GreenAlert",
+          "clips": [
+            "gvokbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_kbekta_Transport",
+          "clips": [
+            "gvokbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_kbekta_SelfDestruct",
+          "clips": [
+            "gvokbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_kbekta_Decommission",
+          "clips": [
+            "gvokbs01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "kmartok.odf",
+      "name": "Negh'Var Class",
+      "race": "klingon",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_kmartok_Select",
+          "clips": [
+            "gvomar62.wav",
+            "gvomar17.wav",
+            "gvomar18.wav",
+            "gvomar19.wav",
+            "gvomar20.wav",
+            "gvomar60.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_kmartok_Acknowledge",
+          "clips": [
+            "gvomar01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_kmartok_Attack",
+          "clips": [
+            "gvomar06.wav",
+            "gvomar07.wav",
+            "gvomar41.wav",
+            "gvomar09.wav",
+            "gvomar10.wav",
+            "gvomar40.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_kmartok_Stop",
+          "clips": [
+            "gvomar21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_kmartok_Move",
+          "clips": [
+            "gvomar11.wav",
+            "gvomar12.wav",
+            "gvomar13.wav",
+            "gvomar14.wav",
+            "gvomar15.wav",
+            "gvomar52.wav",
+            "gvomar06.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_kmartok_Repair",
+          "clips": [
+            "gvomar26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_kmartok_RedAlert",
+          "clips": [
+            "gvomar01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_kmartok_YellowAlert",
+          "clips": [
+            "gvomar01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_kmartok_GreenAlert",
+          "clips": [
+            "gvomar01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_kmartok_Transport",
+          "clips": [
+            "gvomar01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_kmartok_SelfDestruct",
+          "clips": [
+            "gvomar01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_kmartok_Decommission",
+          "clips": [
+            "gvomar01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "momega.odf",
+      "name": "Omega Particle",
+      "race": "alien",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_momega_Select",
+          "clips": [
+            "gvofsp17.wav",
+            "gvofsp18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_momega_Acknowledge",
+          "clips": [
+            "gvofsp18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_momega_Attack",
+          "clips": [
+            "gvofsp06.wav",
+            "gvofsp07.wav",
+            "gvofsp08.wav",
+            "gvofsp01.wav",
+            "gvofsp16.wav",
+            "gvofsp17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_momega_Stop",
+          "clips": [
+            "gvofsp21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_momega_Move",
+          "clips": [
+            "gvofsp11.wav",
+            "gvofsp12.wav",
+            "gvofsp13.wav",
+            "gvofsp01.wav",
+            "gvofsp16.wav",
+            "gvofsp17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_momega_Repair",
+          "clips": [
+            "gvofbs26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_momega_RedAlert",
+          "clips": [
+            "gvofsp18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_momega_YellowAlert",
+          "clips": [
+            "gvofsp18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_momega_GreenAlert",
+          "clips": [
+            "gvofsp18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_momega_Transport",
+          "clips": [
+            "gvofsp18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_momega_SelfDestruct",
+          "clips": [
+            "gvofsp18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_momega_Decommission",
+          "clips": [
+            "gvofsp18.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "q.odf",
+      "name": "Q Continuum",
+      "race": "federation",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_q_Select",
+          "clips": [
+            "gvofbs16.wav",
+            "gvofbs17.wav",
+            "gvofbs18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_q_Acknowledge",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_q_Attack",
+          "clips": [
+            "gvofbs06.wav",
+            "gvofbs07.wav",
+            "gvofbs08.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_q_Stop",
+          "clips": [
+            "gvofbs21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_q_Move",
+          "clips": [
+            "gvofbs11.wav",
+            "gvofbs12.wav",
+            "gvofbs13.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_q_Repair",
+          "clips": [
+            "gvofbs26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_q_RedAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_q_YellowAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_q_GreenAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_q_Transport",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_q_SelfDestruct",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_q_Decommission",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "sovereign.odf",
+      "name": "Sovereign Class",
+      "race": "federation",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_sovereign_Select",
+          "clips": [
+            "gvopic16.wav",
+            "gvopic20.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_sovereign_Acknowledge",
+          "clips": [
+            "gvopic01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_sovereign_Attack",
+          "clips": [
+            "gvopic06.wav",
+            "gvopic07.wav",
+            "gvopic01.wav",
+            "gvopic08.wav",
+            "gvopic09.wav",
+            "gvopic10.wav",
+            "gvopic40.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_sovereign_Stop",
+          "clips": [
+            "gvopic21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_sovereign_Move",
+          "clips": [
+            "gvopic12.wav",
+            "gvopic11.wav",
+            "gvopic15.wav",
+            "gvopic50.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_sovereign_Repair",
+          "clips": [
+            "gvopic26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_sovereign_RedAlert",
+          "clips": [
+            "gvopic98.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_sovereign_YellowAlert",
+          "clips": [
+            "gvopic95.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_sovereign_GreenAlert",
+          "clips": [
+            "gvopic99.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_sovereign_Transport",
+          "clips": [
+            "gvopic97.wav",
+            "gvopic96.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_sovereign_SelfDestruct",
+          "clips": [
+            "gvopic01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_sovereign_Decommission",
+          "clips": [
+            "gvopic01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "xhbrhero.odf",
+      "name": "Thot Gor - Breen Flagship",
+      "race": "breen",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_xhbrhero_Select",
+          "clips": [
+            "breesel.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_xhbrhero_Acknowledge",
+          "clips": [
+            "breeack.wav",
+            "breegift.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_xhbrhero_Attack",
+          "clips": [
+            "breegift.wav",
+            "breeatt.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_xhbrhero_Stop",
+          "clips": [
+            "breeack.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_xhbrhero_Move",
+          "clips": [
+            "breegift.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_xhbrhero_Repair",
+          "clips": [
+            "breeack.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_xhbrhero_RedAlert",
+          "clips": [
+            "breeack.wav",
+            "breegift.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_xhbrhero_YellowAlert",
+          "clips": [
+            "breeack.wav",
+            "breegift.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_xhbrhero_GreenAlert",
+          "clips": [
+            "breeack.wav",
+            "breegift.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_xhbrhero_Transport",
+          "clips": [
+            "breeack.wav",
+            "breegift.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_xhbrhero_SelfDestruct",
+          "clips": [
+            "breeack.wav",
+            "breegift.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_xhbrhero_Decommission",
+          "clips": [
+            "breeack.wav",
+            "breegift.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "xhchero.odf",
+      "name": "Gul Dukat - Keldon",
+      "race": "cardassian",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_xhchero_Select",
+          "clips": [
+            "carbat_sel1_att5_move5.wav",
+            "carbat_sel2_att6_move6.wav",
+            "carbat_select3.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_xhchero_Acknowledge",
+          "clips": [
+            "carbat_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_xhchero_Attack",
+          "clips": [
+            "carbat_attack1.wav",
+            "carbat_attack2.wav",
+            "carbat_attack3.wav",
+            "carbat_ackn1_att4_move4.wav",
+            "carbat_sel1_att5_move5.wav",
+            "carbat_sel2_att6_move6.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_xhchero_Stop",
+          "clips": [
+            "cardes_stop1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_xhchero_Move",
+          "clips": [
+            "carbat_move1.wav",
+            "carbat_move2.wav",
+            "carbat_move3.wav",
+            "carbat_ackn1_att4_move4.wav",
+            "carbat_sel1_att5_move5.wav",
+            "carbat_sel2_att6_move6.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_xhchero_Repair",
+          "clips": [
+            "carbat_repairs1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_xhchero_RedAlert",
+          "clips": [
+            "carbat_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_xhchero_YellowAlert",
+          "clips": [
+            "carbat_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_xhchero_GreenAlert",
+          "clips": [
+            "carbat_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_xhchero_Transport",
+          "clips": [
+            "carbat_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_xhchero_SelfDestruct",
+          "clips": [
+            "carbat_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_xhchero_Decommission",
+          "clips": [
+            "carbat_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "xhdhero.odf",
+      "name": "Weyoun's Command Battleship",
+      "race": "dominion",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_xhdhero_Select",
+          "clips": [
+            "jem010.wav",
+            "vorta013.wav",
+            "jem001.wav",
+            "jem004.wav",
+            "jem005.wav",
+            "jem006.wav",
+            "jem007.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_xhdhero_Acknowledge",
+          "clips": [
+            "jem010.wav",
+            "vorta019.wav",
+            "vorta010.wav",
+            "jem001.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_xhdhero_Attack",
+          "clips": [
+            "vorta021.wav",
+            "vorta019.wav",
+            "jem014.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_xhdhero_Stop",
+          "clips": [
+            "vorta009.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_xhdhero_Move",
+          "clips": [
+            "jem005.wav",
+            "jem006.wav",
+            "jem011.wav",
+            "jem012.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_xhdhero_Repair",
+          "clips": [
+            "vorta005.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_xhdhero_RedAlert",
+          "clips": [
+            "jem010.wav",
+            "vorta019.wav",
+            "vorta010.wav",
+            "jem001.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_xhdhero_YellowAlert",
+          "clips": [
+            "jem010.wav",
+            "vorta019.wav",
+            "vorta010.wav",
+            "jem001.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_xhdhero_GreenAlert",
+          "clips": [
+            "jem010.wav",
+            "vorta019.wav",
+            "vorta010.wav",
+            "jem001.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_xhdhero_Transport",
+          "clips": [
+            "jem010.wav",
+            "vorta019.wav",
+            "vorta010.wav",
+            "jem001.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_xhdhero_SelfDestruct",
+          "clips": [
+            "jem010.wav",
+            "vorta019.wav",
+            "vorta010.wav",
+            "jem001.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_xhdhero_Decommission",
+          "clips": [
+            "jem010.wav",
+            "vorta019.wav",
+            "vorta010.wav",
+            "jem001.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "xhfhero.odf",
+      "name": "Jean-Luc Picard - Enterprise E",
+      "race": "federation",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_xhfhero_Select",
+          "clips": [
+            "gvofbs16.wav",
+            "gvofbs17.wav",
+            "gvofbs18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_xhfhero_Acknowledge",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_xhfhero_Attack",
+          "clips": [
+            "gvofbs06.wav",
+            "gvofbs07.wav",
+            "gvofbs08.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_xhfhero_Stop",
+          "clips": [
+            "gvofbs21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_xhfhero_Move",
+          "clips": [
+            "gvofbs11.wav",
+            "gvofbs12.wav",
+            "gvofbs13.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_xhfhero_Repair",
+          "clips": [
+            "gvofbs26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_xhfhero_RedAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_xhfhero_YellowAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_xhfhero_GreenAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_xhfhero_Transport",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_xhfhero_SelfDestruct",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_xhfhero_Decommission",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "xhkhero.odf",
+      "name": "Martok - Negh'Var",
+      "race": "klingon",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_xhkhero_Select",
+          "clips": [
+            "gvokbs16.wav",
+            "gvokbs18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_xhkhero_Acknowledge",
+          "clips": [
+            "gvokbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_xhkhero_Attack",
+          "clips": [
+            "gvokbs06.wav",
+            "gvokbs07.wav",
+            "gvokbs08.wav",
+            "gvokbs01.wav",
+            "gvokbs17.wav",
+            "gvokbs18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_xhkhero_Stop",
+          "clips": [
+            "gvokbs21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_xhkhero_Move",
+          "clips": [
+            "gvokbs11.wav",
+            "gvokbs12.wav",
+            "gvokbs13.wav",
+            "gvokbs01.wav",
+            "gvokbs17.wav",
+            "gvokbs18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_xhkhero_Repair",
+          "clips": [
+            "gvokbs26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_xhkhero_RedAlert",
+          "clips": [
+            "gvokbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_xhkhero_YellowAlert",
+          "clips": [
+            "gvokbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_xhkhero_GreenAlert",
+          "clips": [
+            "gvokbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_xhkhero_Transport",
+          "clips": [
+            "gvokbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_xhkhero_SelfDestruct",
+          "clips": [
+            "gvokbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_xhkhero_Decommission",
+          "clips": [
+            "gvokbs01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "xhrhero.odf",
+      "name": "Sela - Warbird",
+      "race": "romulan",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_xhrhero_Select",
+          "clips": [
+            "gvorbs17.wav",
+            "gvorbs18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_xhrhero_Acknowledge",
+          "clips": [
+            "gvorbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_xhrhero_Attack",
+          "clips": [
+            "gvorbs06.wav",
+            "gvorbs07.wav",
+            "gvorbs08.wav",
+            "gvorbs01.wav",
+            "gvorbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_xhrhero_Stop",
+          "clips": [
+            "gvorbs21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_xhrhero_Move",
+          "clips": [
+            "gvorbs11.wav",
+            "gvorbs12.wav",
+            "gvorbs13.wav",
+            "gvorbs01.wav",
+            "gvorbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_xhrhero_Repair",
+          "clips": [
+            "gvorbs26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_xhrhero_RedAlert",
+          "clips": [
+            "gvorbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_xhrhero_YellowAlert",
+          "clips": [
+            "gvorbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_xhrhero_GreenAlert",
+          "clips": [
+            "gvorbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_xhrhero_Transport",
+          "clips": [
+            "gvorbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_xhrhero_SelfDestruct",
+          "clips": [
+            "gvorbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_xhrhero_Decommission",
+          "clips": [
+            "gvorbs01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "xhshero.odf",
+      "name": "Species 8472 Command Bioship",
+      "race": "species8472",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_xhshero_Select",
+          "clips": [
+            "spe_sel_1.wav",
+            "spe_sel_2.wav",
+            "spe_sel_3.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_xhshero_Acknowledge",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_xhshero_Attack",
+          "clips": [
+            "spe_att_1.wav",
+            "spe_att_2.wav",
+            "spe_att_3.wav",
+            "spe_att_4.wav",
+            "spe_att_5.wav",
+            "spe_att_6.wav",
+            "spe_att_7.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_xhshero_Stop",
+          "clips": [
+            "spe_stop_1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_xhshero_Move",
+          "clips": [
+            "spe_move_1.wav",
+            "spe_move_2.wav",
+            "spe_move_3.wav",
+            "spe_move_4.wav",
+            "spe_move_5.wav",
+            "spe_move_6.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_xhshero_Repair",
+          "clips": [
+            "spe_repairs_1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_xhshero_RedAlert",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_xhshero_YellowAlert",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_xhshero_GreenAlert",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_xhshero_Transport",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_xhshero_SelfDestruct",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_xhshero_Decommission",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "xhs_leviathan.odf",
+      "name": "Fluidic Leviathan",
+      "race": "species8472",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_xhshero_Select",
+          "clips": [
+            "spe_sel_1.wav",
+            "spe_sel_2.wav",
+            "spe_sel_3.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_xhshero_Acknowledge",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_xhshero_Attack",
+          "clips": [
+            "spe_att_1.wav",
+            "spe_att_2.wav",
+            "spe_att_3.wav",
+            "spe_att_4.wav",
+            "spe_att_5.wav",
+            "spe_att_6.wav",
+            "spe_att_7.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_xhshero_Stop",
+          "clips": [
+            "spe_stop_1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_xhshero_Move",
+          "clips": [
+            "spe_move_1.wav",
+            "spe_move_2.wav",
+            "spe_move_3.wav",
+            "spe_move_4.wav",
+            "spe_move_5.wav",
+            "spe_move_6.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_xhshero_Repair",
+          "clips": [
+            "spe_repairs_1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_xhshero_RedAlert",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_xhshero_YellowAlert",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_xhshero_GreenAlert",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_xhshero_Transport",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_xhshero_SelfDestruct",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_xhshero_Decommission",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "xhs_sentinel.odf",
+      "name": "Brood Sentinel",
+      "race": "species8472",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_xhshero_Select",
+          "clips": [
+            "spe_sel_1.wav",
+            "spe_sel_2.wav",
+            "spe_sel_3.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_xhshero_Acknowledge",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_xhshero_Attack",
+          "clips": [
+            "spe_att_1.wav",
+            "spe_att_2.wav",
+            "spe_att_3.wav",
+            "spe_att_4.wav",
+            "spe_att_5.wav",
+            "spe_att_6.wav",
+            "spe_att_7.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_xhshero_Stop",
+          "clips": [
+            "spe_stop_1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_xhshero_Move",
+          "clips": [
+            "spe_move_1.wav",
+            "spe_move_2.wav",
+            "spe_move_3.wav",
+            "spe_move_4.wav",
+            "spe_move_5.wav",
+            "spe_move_6.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_xhshero_Repair",
+          "clips": [
+            "spe_repairs_1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_xhshero_RedAlert",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_xhshero_YellowAlert",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_xhshero_GreenAlert",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_xhshero_Transport",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_xhshero_SelfDestruct",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_xhshero_Decommission",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "xhs_vanguard.odf",
+      "name": "Cooper's Command Bioship",
+      "race": "species8472",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_xhshero_Select",
+          "clips": [
+            "spe_sel_1.wav",
+            "spe_sel_2.wav",
+            "spe_sel_3.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_xhshero_Acknowledge",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_xhshero_Attack",
+          "clips": [
+            "spe_att_1.wav",
+            "spe_att_2.wav",
+            "spe_att_3.wav",
+            "spe_att_4.wav",
+            "spe_att_5.wav",
+            "spe_att_6.wav",
+            "spe_att_7.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_xhshero_Stop",
+          "clips": [
+            "spe_stop_1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_xhshero_Move",
+          "clips": [
+            "spe_move_1.wav",
+            "spe_move_2.wav",
+            "spe_move_3.wav",
+            "spe_move_4.wav",
+            "spe_move_5.wav",
+            "spe_move_6.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_xhshero_Repair",
+          "clips": [
+            "spe_repairs_1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_xhshero_RedAlert",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_xhshero_YellowAlert",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_xhshero_GreenAlert",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_xhshero_Transport",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_xhshero_SelfDestruct",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_xhshero_Decommission",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "xoblocutus.odf",
+      "name": "Omega Locutus' Cube",
+      "race": "borg",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XLocutus_Select",
+          "clips": [
+            "gvoloc17.wav",
+            "gvoloc18.wav",
+            "gvoloc19.wav",
+            "gvoloc20.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XLocutus_Acknowledge",
+          "clips": [
+            "gvoloc01.wav",
+            "gvoloc50.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XLocutus_Attack",
+          "clips": [
+            "gvoloc06.wav",
+            "gvoloc07.wav",
+            "gvoloc08.wav",
+            "gvoloc10.wav",
+            "gvoloc40.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XLocutus_Stop",
+          "clips": [
+            "gvoloc21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XLocutus_Move",
+          "clips": [
+            "gvoloc11.wav",
+            "gvoloc13.wav",
+            "gvoloc14.wav",
+            "gvoloc50.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XLocutus_Repair",
+          "clips": [
+            "gvoloc09.wav",
+            "gvoloc26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XLocutus_RedAlert",
+          "clips": [
+            "gvoloc10.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XLocutus_YellowAlert",
+          "clips": [
+            "gvoloc18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XLocutus_GreenAlert",
+          "clips": [
+            "gvoloc50.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XLocutus_Transport",
+          "clips": [
+            "gvoloc40.wav",
+            "gvoloc60.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XLocutus_SelfDestruct",
+          "clips": [
+            "gvoloc06.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XLocutus_Decommission",
+          "clips": [
+            "gvoloc50.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    }
+  ],
+  "yards": [
+    {
+      "yard": "fyard3",
+      "name": "Laforge's Shipyard",
+      "producers": [
+        "fconst2.odf"
+      ],
+      "technology": [
+        "fyard3.odf 3 fbase.odf fmidas.odf fjupiter.odf"
+      ],
+      "builds": [
+        "fambassador",
+        "fneworleans",
+        "fspecial",
+        "fgalaxy",
+        "fgalaxyr",
+        "fgalaxyx",
+        "fdawnstar",
+        "xhfhero",
+        "xofdestroy",
+        "xofgalaxy",
+        "xofbattle",
+        "xofprom"
+      ]
+    },
+    {
+      "yard": "byard3",
+      "name": "Advanced Assimilated Matrix",
+      "producers": [
+        "bconst.odf"
+      ],
+      "technology": [
+        "byard3.odf 3 bbase.odf byard2.odf bresear2.odf"
+      ],
+      "builds": [
+        "bpentra",
+        "bhentra",
+        "bomega1",
+        "bhentrag",
+        "bmama",
+        "blocutus",
+        "xobcruise1",
+        "xobbattle1",
+        "xobbattle2",
+        "xoblocutus"
+      ]
+    },
+    {
+      "yard": "kyard3",
+      "name": "Kahless' Forge",
+      "producers": [
+        "kconst.odf"
+      ],
+      "technology": [
+        "kyard3.odf 3 kbase.odf kyard2.odf kresear2.odf"
+      ],
+      "builds": [
+        "xhkhero"
+      ]
+    },
+    {
+      "yard": "ryard3",
+      "name": "Raptor's Talon Shipyard",
+      "producers": [
+        "rconst.odf"
+      ],
+      "technology": [
+        "ryard3.odf 3 rbase.odf ryard2.odf rresear2.odf"
+      ],
+      "builds": [
+        "rtscout",
+        "rtsdest",
+        "rtscruis",
+        "rtspec",
+        "rtsbcru",
+        "rtswarb",
+        "rtsdread",
+        "xhrhero"
+      ]
+    },
+    {
+      "yard": "cyard3",
+      "name": "Obsidian Command Yard",
+      "producers": [
+        "cconst.odf"
+      ],
+      "technology": [
+        "cyard3.odf 3 cbase.odf cyard2.odf cresear2.odf"
+      ],
+      "builds": [
+        "xhchero"
+      ]
+    },
+    {
+      "yard": "dyard3",
+      "name": "Founders' Command Yard",
+      "producers": [
+        "xduconst.odf"
+      ],
+      "technology": [
+        "dyard3.odf 4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+      ],
+      "builds": [
+        "xhdhero"
+      ]
+    },
+    {
+      "yard": "bryard3",
+      "name": "Thot's Command Dock",
+      "producers": [
+        "brconst.odf"
+      ],
+      "technology": [
+        "bryard3.odf 2 bryard.odf brresear.odf"
+      ],
+      "builds": [
+        "xhbrhero"
+      ]
+    },
+    {
+      "yard": "xhs_yard3",
+      "name": "Advanced Hatchery",
+      "producers": [
+        "8472_passive.odf"
+      ],
+      "technology": [
+        "xhs_yard3.odf 1 8472_passive.odf"
+      ],
+      "builds": [
+        "xhshero",
+        "xhs_vanguard",
+        "xhs_sentinel",
+        "xhs_leviathan"
+      ]
+    }
+  ],
+  "errors": [],
+  "runtimeVerified": false
+}

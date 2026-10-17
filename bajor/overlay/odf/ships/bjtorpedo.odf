@@ -17,21 +17,21 @@
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxHealth = 590
+maxhealth = 1180
 
 //This is the range in meters which the ships sensors can see (LOS)
 //rangeScan = 900.0f
 
 // Hitpoints
 
-shieldGeneratorHitPoints = 1415
-enginesHitPoints = 1415
-weaponsHitPoints = 1415
-lifeSupportHitPoints = 1415
-sensorsHitPoints = 1415
+shieldgeneratorhitpoints = 2122.5
+engineshitpoints = 2122.5
+weaponshitpoints = 2122.5
+lifesupporthitpoints = 2122.5
+sensorshitpoints = 2122.5
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 5.9
+shieldrate = 11.8
 
 //Maximum Value of Special Energy
 maxSpecialEnergy = 601
@@ -69,7 +69,7 @@ weapon1 = "frphot"
 
 
 // Phaser
-weapon3 = "fsteamrunnerphas"
+weapon3 = "xbj_gwcover"
 
 
 
@@ -131,9 +131,9 @@ race = "bajoran"
 
 
 
-weapon2 = "xbj_gwcover"
-baseName = "fcruise2"
-ScaleSOD = 1.0
+weapon2 = "fsteamrunnerphas"
+baseName = "br3_bjtorpedo"
+ScaleSOD = 1.6
 
 
 
@@ -144,9 +144,9 @@ ScaleSOD = 1.0
 
 
 
-weaponhardpoints1 = "hp01"
-weaponhardpoints2 = "hp06"
-weaponhardpoints3 = "hp02" "hp03" "hp16" "hp17"
+weaponHardpoints1 = "hp01"
+weaponHardpoints2 = "hp02" "hp03" "hp16" "hp17"
+weaponHardpoints3 = "hp06"
 enginestargethardpoints = "hp13" "hp12"  "hp09" "hp10"
 lifesupporttargethardpoints = "hp05"
 weaponstargethardpoints = "hp01" "hp02" "hp03" "hp26"

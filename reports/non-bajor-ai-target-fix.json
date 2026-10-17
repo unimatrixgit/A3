@@ -1,0 +1,111 @@
+{
+  "target": "D:\\armadaIII",
+  "stage": "D:\\Xaramada-Modwork\\non-bajor-ai-target-fix",
+  "files": [
+    {
+      "path": "AI/AIPs/borg_build_list.aip",
+      "sourceSha256": "af2d744cca0b24c1bd8859fc208a8cbd6e12439298499bacc18ba02cdedf3a0a",
+      "sha256": "4f50253004922ccbe5509877a229596ee28abf5f14e570649c2ca1681a55a44c"
+    },
+    {
+      "path": "AI/AIPs/borg_instant_action_build_list.aip",
+      "sourceSha256": "296dfdf2ce9cc42d3cf3d27c8776d004a40ef7017142bd52767c6157d4c58c89",
+      "sha256": "7b83f36abd955810218769b5e675c2abdaf8f07417bfe794452b4374c1c09950"
+    },
+    {
+      "path": "AI/AIPs/borg_offensive_list.aip",
+      "sourceSha256": "296dfdf2ce9cc42d3cf3d27c8776d004a40ef7017142bd52767c6157d4c58c89",
+      "sha256": "7b83f36abd955810218769b5e675c2abdaf8f07417bfe794452b4374c1c09950"
+    },
+    {
+      "path": "AI/AIPs/borg_defensive_list.aip",
+      "sourceSha256": "296dfdf2ce9cc42d3cf3d27c8776d004a40ef7017142bd52767c6157d4c58c89",
+      "sha256": "7b83f36abd955810218769b5e675c2abdaf8f07417bfe794452b4374c1c09950"
+    },
+    {
+      "path": "AI/AIPs/borg_endgame_list.aip",
+      "sourceSha256": "296dfdf2ce9cc42d3cf3d27c8776d004a40ef7017142bd52767c6157d4c58c89",
+      "sha256": "7b83f36abd955810218769b5e675c2abdaf8f07417bfe794452b4374c1c09950"
+    },
+    {
+      "path": "AI/AIPs/romulan_build_list.aip",
+      "sourceSha256": "ed0ac4066cdf3bb3bc05e0abf20799507820744282aee401c550e406728188e1",
+      "sha256": "153ec1bd2df2f8cfb998bef3eb7de10a758294e5ced056f32d25fee745fb31b9"
+    },
+    {
+      "path": "AI/AIPs/romulan_instant_action_build_list.aip",
+      "sourceSha256": "ed0ac4066cdf3bb3bc05e0abf20799507820744282aee401c550e406728188e1",
+      "sha256": "153ec1bd2df2f8cfb998bef3eb7de10a758294e5ced056f32d25fee745fb31b9"
+    },
+    {
+      "path": "AI/AIPs/romulan_offensive_list.aip",
+      "sourceSha256": "ed0ac4066cdf3bb3bc05e0abf20799507820744282aee401c550e406728188e1",
+      "sha256": "153ec1bd2df2f8cfb998bef3eb7de10a758294e5ced056f32d25fee745fb31b9"
+    },
+    {
+      "path": "AI/AIPs/romulan_defensive_list.aip",
+      "sourceSha256": "ed0ac4066cdf3bb3bc05e0abf20799507820744282aee401c550e406728188e1",
+      "sha256": "153ec1bd2df2f8cfb998bef3eb7de10a758294e5ced056f32d25fee745fb31b9"
+    },
+    {
+      "path": "AI/AIPs/romulan_endgame_list.aip",
+      "sourceSha256": "ed0ac4066cdf3bb3bc05e0abf20799507820744282aee401c550e406728188e1",
+      "sha256": "153ec1bd2df2f8cfb998bef3eb7de10a758294e5ced056f32d25fee745fb31b9"
+    }
+  ],
+  "changes": [
+    {
+      "profile": "borg_build_list.aip",
+      "from": "bomega",
+      "to": "bomega1"
+    },
+    {
+      "profile": "borg_instant_action_build_list.aip",
+      "from": "bomega",
+      "to": "bomega1"
+    },
+    {
+      "profile": "borg_offensive_list.aip",
+      "from": "bomega",
+      "to": "bomega1"
+    },
+    {
+      "profile": "borg_defensive_list.aip",
+      "from": "bomega",
+      "to": "bomega1"
+    },
+    {
+      "profile": "borg_endgame_list.aip",
+      "from": "bomega",
+      "to": "bomega1"
+    },
+    {
+      "profile": "romulan_build_list.aip",
+      "from": "rdestr1",
+      "to": "rdestroy"
+    },
+    {
+      "profile": "romulan_instant_action_build_list.aip",
+      "from": "rdestr1",
+      "to": "rdestroy"
+    },
+    {
+      "profile": "romulan_offensive_list.aip",
+      "from": "rdestr1",
+      "to": "rdestroy"
+    },
+    {
+      "profile": "romulan_defensive_list.aip",
+      "from": "rdestr1",
+      "to": "rdestroy"
+    },
+    {
+      "profile": "romulan_endgame_list.aip",
+      "from": "rdestr1",
+      "to": "rdestroy"
+    }
+  ],
+  "applied": false,
+  "runtimeVerified": false,
+  "bajorUntouched": true
+}

@@ -1,0 +1,73 @@
+{
+  "target": "D:/armadaIII",
+  "stage": "D:/Xaramada-Modwork/locutus-voices",
+  "units": [
+    "odf/ships/blocutus.odf",
+    "odf/ships/xoblocutus.odf"
+  ],
+  "voiceGroups": {
+    "Select": [
+      17,
+      18,
+      19,
+      20
+    ],
+    "Acknowledge": [
+      1,
+      50
+    ],
+    "Move": [
+      11,
+      13,
+      14,
+      50
+    ],
+    "Attack": [
+      6,
+      7,
+      8,
+      10,
+      40
+    ],
+    "Stop": [
+      21
+    ],
+    "Repair": [
+      9,
+      26
+    ],
+    "RedAlert": [
+      10
+    ],
+    "YellowAlert": [
+      18
+    ],
+    "GreenAlert": [
+      50
+    ],
+    "Transport": [
+      40,
+      60
+    ],
+    "SelfDestruct": [
+      6
+    ],
+    "Decommission": [
+      50
+    ]
+  },
+  "clipsConverted": 21,
+  "sourceGame": "Star Trek: Armada (2000)",
+  "actorPerformance": "Existing game recordings; no synthesis or actor imitation generated.",
+  "sources": [
+    "https://sounds.spriters-resource.com/pc_computer/startrekarmada/asset/420620/",
+    "https://www.101soundboards.com/boards/1613927-star-trek-armada-pc-locutus-of-borg-voice"
+  ],
+  "downloadAttempt": {
+    "publicDemo": "https://gaming.trekcore.com/armada/downloads/armada_demo.exe",
+    "result": "Downloaded and inspected; demo does not include gvoloc clips. Used individually listed audio recordings instead."
+  },
+  "aliasesUnfiltered": true,
+  "applied": false,
+  "playbackVerified": false
+}

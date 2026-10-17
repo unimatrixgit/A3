@@ -1,0 +1,11 @@
+const fs=require('fs'),p=require('path'),crypto=require('crypto');const root='D:/armadaIII',repo='D:/aramada',source=JSON.parse(fs.readFileSync(repo+'/reports/bajor-startup-isolation.json','utf8').replace(/^\uFEFF/,'' )).backup,backup='D:/Xaramada-Modwork/backups/bajor-visual-restore-'+Date.now();const hash=f=>crypto.createHash('sha256').update(fs.readFileSync(f)).digest('hex');const eventHash=hash(root+'/events.dat');let changes=[];
+for(const rel of ['odf/ships/bjconst.odf','odf/ships/bjscout.odf','odf/ships/bjnerys.odf','odf/stations/bjbase.odf','odf/other/bajoran.odf']){
+ const before=fs.readFileSync(root+'/'+rel,'latin1'),prior=fs.readFileSync(source+'/'+rel,'latin1');let text=before,keys=[];
+ const visual=k=>/^(?:baseName|ScaleSOD|.*hardpoints?\d*|interfaceConfiguration|interfaceSprites)$/i.test(k);
+ const entries=[...prior.matchAll(/^[ \t]*(\w+)[ \t]*=[ \t]*([^\r\n]*)/gmi)].filter(m=>visual(m[1])&&m[2].trim());
+ const models=entries.filter(m=>/^basename$/i.test(m[1]));for(const m of models){const name=m[2].trim().replace(/^"|"$/g,'');if(!fs.existsSync(root+'/SOD/'+name+'.sod'))throw Error('Missing model '+name);}
+ for(const m of entries){const key=m[1];text=text.replace(new RegExp('^[ \\t]*'+key+'[ \\t]*=[^\\r\\n]*(?:\\r?\\n)?','gmi'),'').trimEnd()+'\r\n'+key+' = '+m[2]+'\r\n';keys.push(key);}
+ const normalized=t=>t.split(/\r?\n/).filter(l=>{let m=l.match(/^[ \t]*(\w+)[ \t]*=/);return !m||!visual(m[1]);}).join('\n').trim();if(normalized(text)!==normalized(before))throw Error('Gameplay change detected '+rel);
+ if(text===before)continue;let b=backup+'/'+rel;fs.mkdirSync(p.dirname(b),{recursive:true});fs.copyFileSync(root+'/'+rel,b);fs.writeFileSync(root+'/'+rel,text,'latin1');fs.writeFileSync(repo+'/bajor/overlay/'+rel,text,'latin1');changes.push({rel,keys,sha256:hash(root+'/'+rel)});
+}
+if(hash(root+'/events.dat')!==eventHash)throw Error('Audio events changed');let report={target:root,sourceBackup:source,backup,changes,audioEventsPreserved:true,gameplayPropertiesPreserved:true,customGeneratedBajoranModelsStillQuarantined:true,runtimeVerified:false};fs.writeFileSync(repo+'/reports/bajoran-visual-restore.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report));

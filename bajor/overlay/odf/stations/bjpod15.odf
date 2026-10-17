@@ -1,13 +1,14 @@
 #include "LifeSupportUpgradePod.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitname = "Bajoran Life Support II"
 
 //Race which can build ship & starting race of ship
-
+race = "bajoran"
 
 //tooltips
-
+tooltip = "Bajoran Life Support II"
+verbosetooltip = "Bajoran Life Support II. Extrapolated technology pod."
 
 //Dilithium Cost to build
 
@@ -32,16 +33,22 @@ crewCost = 0
 officerCost = 1
 buildTime = 120
 
-unitName = "Bajoran Life Support II"
+eventacknowledge = "PodAcknowledge"
 
-tooltip = "Bajoran Life Support II"
+eventdecommission = "PodDecommission"
 
-verboseTooltip = "Bajoran Life Support II. Extrapolated technology pod."
+eventselect = "PodSelect"
 
-race = "bajoran"
+basename = "br3_bjpod15"
 
+scalesod = 1.0
 
+shieldgeneratorhitpoints = 120
 
+lifesupporthitpoints = 120
 
-baseName = "fedpod15"
-ScaleSOD = 1.0
+sensorshitpoints = 120
+
+maxhealth = 450
+
+shieldrate = 1.25

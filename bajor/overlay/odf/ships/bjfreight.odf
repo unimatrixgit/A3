@@ -19,18 +19,18 @@
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxHealth = 420
+maxhealth = 840
 
 // Hitpoints
 
-shieldGeneratorHitPoints = 500
-enginesHitPoints = 500
-weaponsHitPoints = 500
-lifeSupportHitPoints = 500
-sensorsHitPoints = 500
+shieldgeneratorhitpoints = 750
+engineshitpoints = 750
+weaponshitpoints = 750
+lifesupporthitpoints = 750
+sensorshitpoints = 750
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 4.2
+shieldrate = 8.4
 
 // which resources can this station process?
 resourcesCanHandle = "dilithium" "latinum"
@@ -61,7 +61,6 @@ possibleCraftNames =
 
 
 
-weapon3 = "fkaiserphas"
 
 
 
@@ -108,11 +107,9 @@ race = "bajoran"
 
 
 
-weapon1 = "xbj_gminedilithium"
 
-weapon2 = "xbj_gminelatinum"
-baseName = "ffreight"
-ScaleSOD = 1.65
+baseName = "br3_bjfreight"
+ScaleSOD = 0.9075
 
 
 
@@ -124,9 +121,6 @@ ScaleSOD = 1.65
 
 
 
-weaponhardpoints1 = "hp06"
-weaponhardpoints2 = "hp06"
-weaponhardpoints3 = "hp01"
 enginestargethardpoints = "hp02" "hp03" "hp04"
 lifesupporttargethardpoints = "hp01"
 weaponstargethardpoints = "hp01"
@@ -135,3 +129,12 @@ sensorstargethardpoints = "hp01"
 hulltargethardpoints = "hp05"
 criticaltargethardpoints = "hp05"
 latinum_spray_hardpoint = "hp05"
+
+physicsFile = "bjfreightphys.odf"
+
+// Preserve utility ability slots independently of combat balance.
+
+weapon1 = "gmineDilithium"
+weapon2 = "gmineLatinum"
+weaponhardpoints1 = "hp06"
+weaponhardpoints2 = "hp06"

@@ -1,0 +1,77 @@
+// Standalone native weapon definition; Bajoran tech identity retained.
+//Name of the ODF file for the ordinance for this weapon
+ordName = "manheim"
+
+//Display name for this weapon
+wpnName = "Gemini Effect"
+
+//tooltips
+tooltip = "FED_POD6"
+verboseTooltip = "FED_POD6_V"
+
+//Location of the button in the speed panel
+buttonSlot = 1
+
+// location of the button in the popup palette
+popupSlot = 10
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 5
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 2
+
+//Time Delay between shots
+shotDelay = 1.0f
+
+// Range within which the weapon will fire.
+range = 700.0f
+
+//Sound which is played when the weapon fires
+fireSound = "swfgemnf.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "launcher"
+
+// Percent chance of hitting the target.
+hitChance = 1.00
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the attacker is full impulse
+impulseToHitModifier = 0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not attacker is stopped 
+stopToHitModifier = 0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is full impulse
+toHitImpulseModifier = 0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is stopped 
+toHitStopModifier = 0
+
+// special weapon
+special = 1
+
+// set need target
+needTarget = 1
+
+// set target restrictions
+targetAlliedCraft = 1
+targetAlliedBuildings = 0
+targetEnemyCraft = 0
+targetEnemyBuildings = 0
+
+//this weapon is beneficial to the target
+beneficial = 1
+
+//this special weapon can be assimilated by the borg tech assimilator
+assimilatable = "fedpod6"
+
+hotkeyLabel = "HOTKEY_F9"

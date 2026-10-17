@@ -1,0 +1,2207 @@
+{
+  "target": "D:/armadaIII",
+  "stage": "D:/Xaramada-Modwork/hero-yard-release",
+  "names": [
+    {
+      "unit": "fyard3",
+      "title": "Laforge's Shipyard"
+    },
+    {
+      "unit": "byard3",
+      "title": "Advanced Assimilated Matrix"
+    },
+    {
+      "unit": "kyard3",
+      "title": "Kahless' Forge"
+    },
+    {
+      "unit": "ryard3",
+      "title": "Raptor's Talon Shipyard"
+    },
+    {
+      "unit": "cyard3",
+      "title": "Obsidian Command Yard"
+    },
+    {
+      "unit": "dyard3",
+      "title": "Founders' Command Yard"
+    },
+    {
+      "unit": "bryard3",
+      "title": "Thot's Command Dock"
+    },
+    {
+      "unit": "bjyard3",
+      "title": "Dahkur Command Shipyard"
+    },
+    {
+      "unit": "xhs_yard3",
+      "title": "Advanced Hatchery"
+    }
+  ],
+  "moves": [
+    {
+      "yard": "fyard3",
+      "builder": "fconst2",
+      "after": "fsuperbl"
+    },
+    {
+      "yard": "byard3",
+      "builder": "bconst",
+      "after": "bsuperbl"
+    },
+    {
+      "yard": "kyard3",
+      "builder": "kconst",
+      "after": "ksuperbl"
+    },
+    {
+      "yard": "ryard3",
+      "builder": "rconst",
+      "after": "rsuperbl"
+    },
+    {
+      "yard": "cyard3",
+      "builder": "cconst",
+      "after": "cardassian_super_station"
+    },
+    {
+      "yard": "dyard3",
+      "builder": "xduconst",
+      "after": "zsuperbl"
+    },
+    {
+      "yard": "bryard3",
+      "builder": "brconst",
+      "after": "brresear2"
+    },
+    {
+      "yard": "bjyard3",
+      "builder": "xbjuconst",
+      "after": "bjsuperlab"
+    },
+    {
+      "yard": "xhs_yard3",
+      "builder": "8472_passive",
+      "after": "8472_FluidicGate"
+    }
+  ],
+  "tech": [
+    {
+      "tree": "a2_borg01.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_borg01.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_borg01.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_borg01.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_borg01.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "a2_borg01.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_borg01.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_borg01.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_borg01.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_borg02.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_borg02.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_borg02.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_borg02.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_borg02.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "a2_borg02.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_borg02.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_borg02.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_borg02.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_borg03.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_borg03.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_borg03.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_borg03.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_borg03.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "a2_borg03.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_borg03.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_borg03.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_borg03.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_borg04.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "3 fbase.odf fmidas.odf fjupiter.odf"
+    },
+    {
+      "tree": "a2_borg04.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_borg04.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_borg04.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_borg04.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "a2_borg04.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_borg04.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_borg04.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_borg04.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_borg05.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "3 fbase.odf fmidas.odf fjupiter.odf"
+    },
+    {
+      "tree": "a2_borg05.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_borg05.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_borg05.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_borg05.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "a2_borg05.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_borg05.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_borg05.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_borg05.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_borg06.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "3 fbase.odf fmidas.odf fjupiter.odf"
+    },
+    {
+      "tree": "a2_borg06.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_borg06.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_borg06.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_borg06.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "a2_borg06.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_borg06.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_borg06.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_borg06.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_borg07.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_borg07.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_borg07.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_borg07.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_borg07.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "a2_borg07.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_borg07.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_borg07.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_borg07.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_borg08.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "3 fbase.odf fmidas.odf fjupiter.odf"
+    },
+    {
+      "tree": "a2_borg08.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "3 bbase.odf byard2.odf bresear2.odf"
+    },
+    {
+      "tree": "a2_borg08.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_borg08.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_borg08.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "a2_borg08.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_borg08.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_borg08.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_borg08.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_borg09.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_borg09.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "3 bbase.odf byard2.odf bresear2.odf"
+    },
+    {
+      "tree": "a2_borg09.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_borg09.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_borg09.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "a2_borg09.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_borg09.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_borg09.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_borg09.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_borg10.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "3 fbase.odf fmidas.odf fjupiter.odf"
+    },
+    {
+      "tree": "a2_borg10.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "3 bbase.odf byard2.odf bresear2.odf"
+    },
+    {
+      "tree": "a2_borg10.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_borg10.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_borg10.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "a2_borg10.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_borg10.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_borg10.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_borg10.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_fed01.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_fed01.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_fed01.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_fed01.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_fed01.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "a2_fed01.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_fed01.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_fed01.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_fed01.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_fed02.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_fed02.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_fed02.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_fed02.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_fed02.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "a2_fed02.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_fed02.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_fed02.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_fed02.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_fed03.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_fed03.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_fed03.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_fed03.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_fed03.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "a2_fed03.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_fed03.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_fed03.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_fed03.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_fed04.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_fed04.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_fed04.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_fed04.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_fed04.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "a2_fed04.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_fed04.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_fed04.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_fed04.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_fed05.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_fed05.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_fed05.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_fed05.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_fed05.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "a2_fed05.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_fed05.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_fed05.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_fed05.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_fed06.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_fed06.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_fed06.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_fed06.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_fed06.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "a2_fed06.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_fed06.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_fed06.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_fed06.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_fed07.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_fed07.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_fed07.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_fed07.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_fed07.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "a2_fed07.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_fed07.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_fed07.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_fed07.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_fed08.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "3 fbase.odf fmidas.odf fjupiter.odf"
+    },
+    {
+      "tree": "a2_fed08.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_fed08.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_fed08.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_fed08.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "a2_fed08.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_fed08.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_fed08.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_fed08.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_fed09.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "3 fbase.odf fmidas.odf fjupiter.odf"
+    },
+    {
+      "tree": "a2_fed09.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_fed09.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_fed09.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_fed09.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "a2_fed09.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_fed09.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_fed09.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_fed09.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_fed10.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "3 fbase.odf fmidas.odf fjupiter.odf"
+    },
+    {
+      "tree": "a2_fed10.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_fed10.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_fed10.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_fed10.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "a2_fed10.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_fed10.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_fed10.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_fed10.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_kling01.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_kling01.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "3 bbase.odf byard2.odf bresear2.odf"
+    },
+    {
+      "tree": "a2_kling01.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_kling01.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_kling01.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_kling01.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_kling01.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_kling01.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_kling01.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_kling02.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "3 fbase.odf fmidas.odf fjupiter.odf"
+    },
+    {
+      "tree": "a2_kling02.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "3 bbase.odf byard2.odf bresear2.odf"
+    },
+    {
+      "tree": "a2_kling02.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_kling02.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_kling02.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_kling02.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_kling02.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_kling02.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_kling02.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_kling03.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "3 fbase.odf fmidas.odf fjupiter.odf"
+    },
+    {
+      "tree": "a2_kling03.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "3 bbase.odf byard2.odf bresear2.odf"
+    },
+    {
+      "tree": "a2_kling03.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_kling03.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_kling03.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_kling03.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_kling03.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_kling03.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_kling03.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_kling04.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "3 fbase.odf fmidas.odf fjupiter.odf"
+    },
+    {
+      "tree": "a2_kling04.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "3 bbase.odf byard2.odf bresear2.odf"
+    },
+    {
+      "tree": "a2_kling04.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_kling04.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_kling04.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_kling04.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_kling04.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_kling04.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_kling04.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_kling05.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "3 fbase.odf fmidas.odf fjupiter.odf"
+    },
+    {
+      "tree": "a2_kling05.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "3 bbase.odf byard2.odf bresear2.odf"
+    },
+    {
+      "tree": "a2_kling05.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_kling05.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_kling05.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_kling05.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_kling05.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_kling05.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_kling05.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_kling06.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "3 fbase.odf fmidas.odf fjupiter.odf"
+    },
+    {
+      "tree": "a2_kling06.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "3 bbase.odf byard2.odf bresear2.odf"
+    },
+    {
+      "tree": "a2_kling06.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_kling06.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_kling06.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_kling06.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_kling06.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_kling06.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_kling06.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_kling07.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "3 fbase.odf fmidas.odf fjupiter.odf"
+    },
+    {
+      "tree": "a2_kling07.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "3 bbase.odf byard2.odf bresear2.odf"
+    },
+    {
+      "tree": "a2_kling07.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_kling07.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_kling07.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_kling07.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_kling07.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_kling07.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_kling07.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_kling08.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "3 fbase.odf fmidas.odf fjupiter.odf"
+    },
+    {
+      "tree": "a2_kling08.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "3 bbase.odf byard2.odf bresear2.odf"
+    },
+    {
+      "tree": "a2_kling08.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_kling08.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_kling08.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_kling08.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_kling08.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_kling08.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_kling08.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_kling09.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "3 fbase.odf fmidas.odf fjupiter.odf"
+    },
+    {
+      "tree": "a2_kling09.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "3 bbase.odf byard2.odf bresear2.odf"
+    },
+    {
+      "tree": "a2_kling09.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_kling09.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_kling09.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_kling09.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_kling09.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_kling09.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_kling09.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "a2_kling10.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "3 fbase.odf fmidas.odf fjupiter.odf"
+    },
+    {
+      "tree": "a2_kling10.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "3 bbase.odf byard2.odf bresear2.odf"
+    },
+    {
+      "tree": "a2_kling10.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "a2_kling10.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "a2_kling10.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "-1"
+    },
+    {
+      "tree": "a2_kling10.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "a2_kling10.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "a2_kling10.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "a2_kling10.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "demotech.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "3 fbase.odf fyard2.odf fresear2.odf"
+    },
+    {
+      "tree": "demotech.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "3 bbase.odf byard2.odf bresear2.odf"
+    },
+    {
+      "tree": "demotech.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "demotech.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "demotech.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "demotech.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "demotech.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "demotech.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "demotech.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "earlytech.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "3 fbase.odf fmidas.odf fjupiter.odf"
+    },
+    {
+      "tree": "earlytech.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "4 bbase.odf byard2.odf bresear2.odf bupgrade.odf"
+    },
+    {
+      "tree": "earlytech.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "4 kbase.odf kyard2.odf kresear2.odf kupgrade.odf"
+    },
+    {
+      "tree": "earlytech.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "4 rbase.odf ryard2.odf rresear2.odf rupgrade.odf"
+    },
+    {
+      "tree": "earlytech.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "4 cbase.odf cyard2.odf cresear2.odf cupgrade.odf"
+    },
+    {
+      "tree": "earlytech.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "earlytech.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "earlytech.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "earlytech.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "freetech.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "0"
+    },
+    {
+      "tree": "freetech.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "0"
+    },
+    {
+      "tree": "freetech.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "0"
+    },
+    {
+      "tree": "freetech.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "0"
+    },
+    {
+      "tree": "freetech.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "0"
+    },
+    {
+      "tree": "freetech.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "0"
+    },
+    {
+      "tree": "freetech.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "0"
+    },
+    {
+      "tree": "freetech.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "0"
+    },
+    {
+      "tree": "freetech.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "0"
+    },
+    {
+      "tree": "fulltech.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "0"
+    },
+    {
+      "tree": "fulltech.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "0"
+    },
+    {
+      "tree": "fulltech.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "0"
+    },
+    {
+      "tree": "fulltech.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "0"
+    },
+    {
+      "tree": "fulltech.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "0"
+    },
+    {
+      "tree": "fulltech.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "0"
+    },
+    {
+      "tree": "fulltech.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "0"
+    },
+    {
+      "tree": "fulltech.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "0"
+    },
+    {
+      "tree": "fulltech.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "0"
+    },
+    {
+      "tree": "nosci.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "nosci.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "1 bconst.odf"
+    },
+    {
+      "tree": "nosci.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "1 kconst.odf"
+    },
+    {
+      "tree": "nosci.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "1 rconst.odf"
+    },
+    {
+      "tree": "nosci.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "1 cconst.odf"
+    },
+    {
+      "tree": "nosci.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "1 dconst.odf"
+    },
+    {
+      "tree": "nosci.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "1 brconst.odf"
+    },
+    {
+      "tree": "nosci.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "nosci.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "nospweap.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "3 fbase.odf fyard2.odf fresear2.odf"
+    },
+    {
+      "tree": "nospweap.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "3 bbase.odf byard2.odf bresear2.odf"
+    },
+    {
+      "tree": "nospweap.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "nospweap.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "nospweap.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "nospweap.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "1 dconst.odf"
+    },
+    {
+      "tree": "nospweap.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "1 brconst.odf"
+    },
+    {
+      "tree": "nospweap.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "nospweap.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "nosuper.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "nosuper.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "nosuper.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "nosuper.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "-1"
+    },
+    {
+      "tree": "nosuper.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "-1"
+    },
+    {
+      "tree": "nosuper.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "1 dconst.odf"
+    },
+    {
+      "tree": "nosuper.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "1 brconst.odf"
+    },
+    {
+      "tree": "nosuper.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "nosuper.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    },
+    {
+      "tree": "tech1.tt",
+      "yard": "fyard3",
+      "special": "fsuperbl",
+      "requirements": "3 fbase.odf fmidas.odf fjupiter.odf"
+    },
+    {
+      "tree": "tech1.tt",
+      "yard": "byard3",
+      "special": "bsuperbl",
+      "requirements": "3 bbase.odf byard2.odf bresear2.odf"
+    },
+    {
+      "tree": "tech1.tt",
+      "yard": "kyard3",
+      "special": "ksuperbl",
+      "requirements": "3 kbase.odf kyard2.odf kresear2.odf"
+    },
+    {
+      "tree": "tech1.tt",
+      "yard": "ryard3",
+      "special": "rsuperbl",
+      "requirements": "3 rbase.odf ryard2.odf rresear2.odf"
+    },
+    {
+      "tree": "tech1.tt",
+      "yard": "cyard3",
+      "special": "cardassian_super_station",
+      "requirements": "3 cbase.odf cyard2.odf cresear2.odf"
+    },
+    {
+      "tree": "tech1.tt",
+      "yard": "dyard3",
+      "special": "zsuperbl",
+      "requirements": "4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf"
+    },
+    {
+      "tree": "tech1.tt",
+      "yard": "bryard3",
+      "special": "brresear2",
+      "requirements": "2 bryard.odf brresear.odf"
+    },
+    {
+      "tree": "tech1.tt",
+      "yard": "bjyard3",
+      "special": "bjsuperlab",
+      "requirements": "2 bjresear2.odf bjyard2.odf"
+    },
+    {
+      "tree": "tech1.tt",
+      "yard": "xhs_yard3",
+      "special": "8472_FluidicGate",
+      "requirements": "1 8472_passive.odf"
+    }
+  ],
+  "heroes": [
+    {
+      "id": "xhs_vanguard",
+      "parent": "8472_battle",
+      "title": "Cooper's Command Bioship",
+      "design": "STO-inspired Undine command bioship assigned to the infiltrator known as Dr. Eric Cooper; an Armada-scale design adaptation.",
+      "health": 1.25,
+      "cost": 1.3,
+      "shape": [
+        1.18,
+        1.08,
+        1.12
+      ],
+      "sourceModel": "8472_battle"
+    },
+    {
+      "id": "xhs_sentinel",
+      "parent": "8472_frigate",
+      "title": "Brood Sentinel",
+      "design": "A long-spined tactical guardian with elongated organic fins.",
+      "health": 1.5,
+      "cost": 1.45,
+      "shape": [
+        0.95,
+        1.12,
+        1.28
+      ],
+      "sourceModel": "8472_frigate"
+    },
+    {
+      "id": "xhs_leviathan",
+      "parent": "8472_behemoth",
+      "title": "Fluidic Leviathan",
+      "design": "A broad armored broodship extrapolated from the Behemoth.",
+      "health": 1.2,
+      "cost": 1.35,
+      "shape": [
+        1.22,
+        1.15,
+        1.08
+      ],
+      "sourceModel": "8472_behemoth"
+    }
+  ],
+  "ai": [
+    "AI\\AIPs\\species8472_build_list.aip",
+    "AI\\AIPs\\species8472_defensive_list.aip",
+    "AI\\AIPs\\species8472_endgame_list.aip",
+    "AI\\AIPs\\species8472_instant_action_build_list.aip",
+    "AI\\AIPs\\species8472_offensive_list.aip"
+  ],
+  "applied": false,
+  "runtimeVerified": false,
+  "cooper": {
+    "unit": "xhs_vanguard",
+    "displayName": "Cooper's Command Bioship",
+    "identity": "Undine infiltrator posing as Dr. Eric Cooper",
+    "sources": [
+      "https://www.stowiki.net/wiki/Eric_Cooper",
+      "https://sto.fandom.com/wiki/Command_Bioship"
+    ],
+    "voice": "Native Armada II Species 8472 command set as an explicitly marked fallback; verified STO Cooper audio not obtained.",
+    "design": "Original Armada-scale extrapolation; not the exact STO model."
+  }
+}

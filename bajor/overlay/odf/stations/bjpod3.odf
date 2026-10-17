@@ -4,13 +4,14 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitname = "Bajoran Sensor Countermeasures"
 
 //tooltips
-
+tooltip = "Bajoran Sensor Countermeasures"
+verbosetooltip = "Bajoran Sensor Countermeasures. Extrapolated technology pod."
 
 //Race which can build ship & starting race of ship
-
+race = "bajoran"
 
 //Amount of time required to build ship
 
@@ -47,16 +48,22 @@ crewCost = 0
 officerCost = 1
 buildTime = 80
 
-unitName = "Bajoran Sensor Countermeasures"
+eventacknowledge = "PodAcknowledge"
 
-tooltip = "Bajoran Sensor Countermeasures"
+eventdecommission = "PodDecommission"
 
-verboseTooltip = "Bajoran Sensor Countermeasures. Extrapolated technology pod."
+eventselect = "PodSelect"
 
-race = "bajoran"
+basename = "br3_bjpod3"
 
+scalesod = 1.0
 
+shieldgeneratorhitpoints = 120
 
+lifesupporthitpoints = 120
 
-baseName = "fedpod3"
-ScaleSOD = 1.0
+sensorshitpoints = 120
+
+maxhealth = 450
+
+shieldrate = 1.25

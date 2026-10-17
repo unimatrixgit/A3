@@ -1,0 +1,89 @@
+// Standalone native weapon definition; Bajoran tech identity retained.
+//Name of the ODF file for the ordinance for this weapon
+ordName = "chainp"
+
+//Display name for this weapon
+wpnName = "Chain Reaction Pulsar"
+
+//tooltips
+tooltip = "FED_POD2"
+verboseTooltip = "FED_POD2_V"
+
+//Location of the button in the speed panel
+buttonSlot = 2
+
+// location of the button in the popup palette
+popupSlot = 3
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 10
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+//Time Delay between shots
+shotDelay = 1.0f
+
+//Time delay before regular weapons will fire again
+regularWeaponDelay = 1.0f
+
+// Range within which the weapon will fire.
+range = 400.0f
+
+//Sound which is played when the weapon fires
+fireSound = "swfchanf.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "minelayer"
+
+// Percent chance of hitting the target.
+hitChance = 1.00
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the attacker is full impulse
+impulseToHitModifier = 0;
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not attacker is stopped 
+stopToHitModifier = 0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is full impulse
+toHitImpulseModifier = 0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is stopped 
+toHitStopModifier = 0
+
+// special weapon
+special = 1
+
+// set need target
+needTarget = 0
+
+//Don't automatically switch to attack mode 
+switchToAttack = 0
+
+//this special weapon can be assimilated by the borg tech assimilator
+assimilatable = "fedpod2"
+
+hotkeyLabel = "HOTKEY_F2"
+
+//this is a special chain pulsar weapon for an alternative multiplayer style
+
+//this takes the place of the point defense laser on the
+//nebula in the science.tt techtree
+buttonSlot = 1
+
+// location of the button in the popup palette
+popupSlot = 7
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 5
+
+hotkeyLabel = "HOTKEY_F2"

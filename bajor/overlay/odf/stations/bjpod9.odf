@@ -4,13 +4,14 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitname = "Command Access Research"
 
 //tooltips
-
+tooltip = "Command Access Research"
+verbosetooltip = "Unlocks Command Takeover at the Prophets' Command Sanctuary."
 
 //Race which can build ship & starting race of ship
-
+race = "bajoran"
 
 //Amount of time required to build ship
 
@@ -47,19 +48,22 @@ crewCost = 0
 officerCost = 2
 buildTime = 140
 
+eventacknowledge = "PodAcknowledge"
 
+eventdecommission = "PodDecommission"
 
+eventselect = "PodSelect"
 
+basename = "br3_bjpod9"
 
+scalesod = 1.0
 
+shieldgeneratorhitpoints = 120
 
-race = "bajoran"
+lifesupporthitpoints = 120
 
+sensorshitpoints = 120
 
+maxhealth = 450
 
-
-unitName = "Command Access Research"
-tooltip = "Command Access Research"
-verboseTooltip = "Unlocks Command Takeover at the Prophets' Command Sanctuary."
-baseName = "fedpod9"
-ScaleSOD = 1.0
+shieldrate = 1.25

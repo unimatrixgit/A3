@@ -1,0 +1,72 @@
+// Standalone native weapon definition; Bajoran tech identity retained.
+//Name of the ODF file for the ordinance for this weapon
+ordName = "shldemt"
+
+// Mark this as a special weapon.
+special = 1
+
+//Display name for this weapon
+wpnName = "Shield Recharger"
+
+//tooltips
+tooltip = "FED_POD16"
+verboseTooltip = "FED_POD16_V"
+
+//Location of the button in the speed panel
+buttonSlot = 5
+
+// location of the button in the popup palette
+popupSlot = 11
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 5
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 2
+
+//Time Delay between shots
+shotDelay = 5.0
+
+// Range within which the weapon will fire.
+range = 600.0f
+
+//Sound which is played when the weapon fires
+fireSound = "shldemt.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "areacannon"
+
+//Should not be used
+wpnReticle = "gblast"
+
+//UNKNOWN
+wpnPriority = 0
+
+//UNKNOWN
+wpnCategory = "ARCA"
+
+// 	HIT_EVERYONE = 0,
+//	HIT_ALLIES = 1,
+//	HIT_ENEMIES = 2
+hitCondition = 1
+
+//Don't automatically switch to attack mode 
+switchToAttack = 0
+
+// set wave effect
+waveEffect = 1
+
+// set wave name
+waveName = "Wshldwav"
+
+//this special weapon can be assimilated by the borg tech assimilator
+assimilatable = "fedpod16"
+
+// Do not say "attack" when turned on.
+attackSpeech = 0;
+
+hotkeyLabel = "HOTKEY_F5"

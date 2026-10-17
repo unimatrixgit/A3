@@ -1,0 +1,226 @@
+{
+  "target": "D:\\armadaIII",
+  "stage": "D:\\Xaramada-Modwork\\bajor-cardassian-style",
+  "files": [
+    {
+      "path": "odf/stations/bjmining.odf",
+      "sourceSha256": "eed29d918f54c85098e6fda2d4fff8e3c80f32e4edb3211637d276864267b543",
+      "sha256": "97b8d931b26e14da54646b385d947a1096ccdd63fb9d16171eb0dcf12d43f4d4"
+    },
+    {
+      "path": "odf/stations/bjyard.odf",
+      "sourceSha256": "80e869d3fdeba64a1732cddb99624e0b4bee07036dfa4ddc1a6d4d921b159acb",
+      "sha256": "3cec4fd3a040c013221ca7be326a92ab82a369c75ab96dfbab1c1474027f2616"
+    },
+    {
+      "path": "odf/stations/bjyard2.odf",
+      "sourceSha256": "3e8b0c616da6c191f61f65d66b178405d8bdfe3f57f9fe15f8bb765a1d5c8ada",
+      "sha256": "e317130ddcab2139422877f737f0a849f505f14fe11bcab101424cae12094ac7"
+    },
+    {
+      "path": "odf/stations/bjyard3.odf",
+      "sourceSha256": "28fe747ea640731a9d4ef512a4f9a8b0f6a103e506c71db709799694258013d9",
+      "sha256": "6ae16d3072c0cc961ec2c35c9aaf58f9f1aa556307d18ab10fca626b1617e084"
+    },
+    {
+      "path": "odf/stations/bjresear.odf",
+      "sourceSha256": "918d2a66b8c848296d9d318e27c337b0fdf9d4015cbe47f480d6deaaa2670f1e",
+      "sha256": "5f5b040816fc97e342213eb4ca8a4820c40e01f61c74a04c59bed4eab1c177b5"
+    },
+    {
+      "path": "odf/stations/bjresear2.odf",
+      "sourceSha256": "fd29058c860afdbec2684bcd84355f0109c3dc5f2b00373f77a02516085ce045",
+      "sha256": "7d982ca61d523edf08cb41caa1de13c8e95ea49d191f25705dcb45ba7b942871"
+    },
+    {
+      "path": "odf/stations/bjupgrade.odf",
+      "sourceSha256": "03fe9b06a2f10f68e8458486e7ca5a9aa733d59781c3a8552ab836fc8b98a98d",
+      "sha256": "e5746a5d6f0672dcd1a0de3dce802b1ebf4cf0fb37698efcf3fba463c7972f3c"
+    },
+    {
+      "path": "odf/stations/bjsensor.odf",
+      "sourceSha256": "fd1fc80798bd582e1e0bf91e3e3b1c6f81d02ea8fafacb4048bf4f87ff24f7dd",
+      "sha256": "d7fc94d70e6deb38c40d9961d67546b68147eee998bd16879d06bf569ac84a09"
+    },
+    {
+      "path": "odf/stations/bjorbital.odf",
+      "sourceSha256": "eec943b550bb734a38e27ad16ca5b439d42615e615860d252bd4b6f49f0b4049",
+      "sha256": "67b02254908d9227900f5231b18038385e4cee99febc69c16888a851f08b0a54"
+    },
+    {
+      "path": "odf/stations/bjtrading.odf",
+      "sourceSha256": "64fdc6290ef45cd18a39ad6d578479eccb1ea8d382db65c68d404ce31e11af7d",
+      "sha256": "dbf8c881040907e8d4f2fd174114807ad3d9d941895581a34315e2a84d2aadff"
+    },
+    {
+      "path": "odf/stations/bjturret.odf",
+      "sourceSha256": "18046973b659e5d49754eb1beeed79977da8dfe09de220fcb146734cf5681e61",
+      "sha256": "868883053e6763ba5bacb925ee4e873f777754da19df209a258ecc469f43a051"
+    },
+    {
+      "path": "odf/stations/bjturret2.odf",
+      "sourceSha256": "7016c8be6421412b2f48e32fe7f95340a202ab7aca47c5c2b7ed8678b2a59dc9",
+      "sha256": "1948581920b1a600e2d5be281ccde20e550a59d98a61dffd4bd785e6b1a973c5"
+    },
+    {
+      "path": "odf/stations/bjsuperlab.odf",
+      "sourceSha256": "436d13912eae597078fef62090a35378505166ba821906b964baef727ca6d556",
+      "sha256": "3f73a0a26f876b0c32e682e78aa7b9657bf4a7dcee7e323e35e4ce79de3dca9a"
+    },
+    {
+      "path": "odf/ships/bjconst.odf",
+      "sourceSha256": "e7efe2e6c584df8b3e40f13611162ee6fd73d5043802160c0c76dac914f5c7da",
+      "sha256": "b4fadf0e8c778347a98d8e3644c5344a02792d01cf895983f5d4ac1fa96deb9c"
+    },
+    {
+      "path": "Sprites/gui_global.spr",
+      "sourceSha256": "b03fc88b4b5af6a5b84e83b5d54972d7fd7622a5c5675e808dca03dd916fc1a3",
+      "sha256": "4516b066cbfa1e99b71413e810cc01c1f1f56571c7050eeb41d85f0ab989aac4"
+    }
+  ],
+  "models": [
+    {
+      "unit": "bjmining",
+      "source": "cmining",
+      "model": "xvstock_cmining",
+      "scale": 2.1484383361596415,
+      "nativeSodUnmodified": true,
+      "nativeAnimationsRetained": true,
+      "mappedHardpoints": 7
+    },
+    {
+      "unit": "bjyard",
+      "source": "cyard",
+      "model": "xvstock_cyard",
+      "scale": 1.0329101378152235,
+      "nativeSodUnmodified": true,
+      "nativeAnimationsRetained": true,
+      "mappedHardpoints": 9
+    },
+    {
+      "unit": "bjyard2",
+      "source": "cyard2",
+      "model": "xvstock_cyard2",
+      "scale": 1.3800142145302379,
+      "nativeSodUnmodified": true,
+      "nativeAnimationsRetained": true,
+      "mappedHardpoints": 8
+    },
+    {
+      "unit": "bjyard3",
+      "source": "cyard2",
+      "model": "xvstock_cyard2",
+      "scale": 1.3800142145302379,
+      "nativeSodUnmodified": true,
+      "nativeAnimationsRetained": true,
+      "mappedHardpoints": 8
+    },
+    {
+      "unit": "bjresear",
+      "source": "cresear",
+      "model": "xvstock_cresear",
+      "scale": 1.9195254830272768,
+      "nativeSodUnmodified": true,
+      "nativeAnimationsRetained": true,
+      "mappedHardpoints": 8
+    },
+    {
+      "unit": "bjresear2",
+      "source": "cresear2",
+      "model": "xvstock_cresear2",
+      "scale": 1.4023218752103719,
+      "nativeSodUnmodified": true,
+      "nativeAnimationsRetained": true,
+      "mappedHardpoints": 8
+    },
+    {
+      "unit": "bjupgrade",
+      "source": "cupgrade",
+      "model": "xvstock_cupgrade",
+      "scale": 0.3207349694157973,
+      "nativeSodUnmodified": true,
+      "nativeAnimationsRetained": true,
+      "mappedHardpoints": 8
+    },
+    {
+      "unit": "bjsensor",
+      "source": "csensor",
+      "model": "xvstock_csensor",
+      "scale": 0.11967969960026117,
+      "nativeSodUnmodified": true,
+      "nativeAnimationsRetained": true,
+      "mappedHardpoints": 8
+    },
+    {
+      "unit": "bjorbital",
+      "source": "corbital",
+      "model": "xvstock_corbital",
+      "scale": 0.8368398091846487,
+      "nativeSodUnmodified": true,
+      "nativeAnimationsRetained": true,
+      "mappedHardpoints": 8
+    },
+    {
+      "unit": "bjtrading",
+      "source": "ctrading",
+      "model": "xvstock_ctrading",
+      "scale": 2.546319921814827,
+      "nativeSodUnmodified": true,
+      "nativeAnimationsRetained": true,
+      "mappedHardpoints": 7
+    },
+    {
+      "unit": "bjturret",
+      "source": "cturret",
+      "model": "xvstock_cturret",
+      "scale": 0.4724170525679592,
+      "nativeSodUnmodified": true,
+      "nativeAnimationsRetained": true,
+      "mappedHardpoints": 9
+    },
+    {
+      "unit": "bjturret2",
+      "source": "cturret2",
+      "model": "xvstock_cturret2",
+      "scale": 0.427760716152012,
+      "nativeSodUnmodified": true,
+      "nativeAnimationsRetained": true,
+      "mappedHardpoints": 8
+    },
+    {
+      "unit": "bjsuperlab",
+      "source": "cardassian_super_station",
+      "model": "cardassian_super_station",
+      "scale": 2.771737238519899,
+      "nativeSodUnmodified": true,
+      "nativeAnimationsRetained": true,
+      "mappedHardpoints": 10
+    }
+  ],
+  "constructorItems": [
+    "bjbase",
+    "bjyard",
+    "bjsensor",
+    "bjturret",
+    "bjmining",
+    "bjresear",
+    "bjresear2",
+    "bjyard2",
+    "bjturret2",
+    "bjorbital",
+    "bjtrading",
+    "bjupgrade"
+  ],
+  "errors": [],
+  "ds9Preserved": true,
+  "nativeBinaryModelsAndTexturesUnmodified": true,
+  "harvesterConfigurationAndFreighterUntouched": true,
+  "aiAudioTechStatsPreserved": true,
+  "sourceExamples": [
+    "https://www.startrek.com/news/first-look-official-starships-collections-deep-space-9",
+    "https://www.startrek.com/news/designing-the-first-cardassian-warship"
+  ],
+  "applied": true,
+  "runtimeVerified": false,
+  "backup": "D:\\Xaramada-Modwork\\backups\\bajoran-cardassian-style-20261017-011840"
+}

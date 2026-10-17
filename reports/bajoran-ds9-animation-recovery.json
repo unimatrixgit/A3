@@ -1,0 +1,21 @@
+{
+  "target": "D:/armadaIII",
+  "stage": "D:/Xaramada-Modwork/bajor-ds9-animation-recovery",
+  "files": [
+    {
+      "path": "odf/stations/bjbase.odf",
+      "sourceSha256": "205c619e646a8e98d0ecc926104b94d9d48f0a85152aad9f96200b048a8bc2b4",
+      "sha256": "31455852b543e606edb795b23aaba65e08bffef8ecb1af17bbeac72c612b5f18"
+    }
+  ],
+  "removed": [
+    "animation = 1",
+    "buildAnimation = 1"
+  ],
+  "modelAnimationChannels": 0,
+  "suppliedDs9DefinitionHasTheseFlags": false,
+  "scope": "Remove unsupported animation requests only; DS9 appearance, scale, weapons, production, stats and costs unchanged.",
+  "applied": true,
+  "runtimeVerified": false,
+  "backup": "D:\\Xaramada-Modwork\\backups\\bajoran-ds9-animation-recovery-20261017-013416"
+}

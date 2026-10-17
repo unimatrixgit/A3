@@ -1,0 +1,41 @@
+// Standalone native weapon definition; Bajoran tech identity retained.
+//Name of the ODF file for the ordinance for this weapon
+ordName = "fcolpod"
+
+//Display name for this weapon
+wpnName = "Colony Pods"
+tooltip = "Colony Pods"
+verboseTooltip = "Launches colony pods at a planet."
+
+// location of the button in the popup palette
+popupSlot = 4
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+// Special
+special = 1
+
+//Time Delay between shots
+shotDelay = 5.0f
+
+// range within which can fire
+range = 1000.0f
+
+//Sound which is played when the weapon fires
+fireSound = "colPod.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "launcher"
+
+// Chance to hit.
+hitChance = 1.0f
+
+// need a target?
+needTarget = 1
+
+// All races and craft that can colonize use this .odf
+hotkeyLabel = "HOTKEY_INS"

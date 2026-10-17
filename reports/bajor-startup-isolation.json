@@ -1,0 +1,38 @@
+{
+  "target": "D:/armadaIII",
+  "backup": "D:/Xaramada-Modwork/backups/bajor-startup-isolation-1792187555934",
+  "changes": [
+    {
+      "rel": "odf/ships/bjconst.odf",
+      "source": "odf/ships/fconst.odf",
+      "model": "fconst",
+      "sha256": "98818ea050f01ed013fc0043bf5a0b6be6eef3e23532724b3ffc6245835f5259"
+    },
+    {
+      "rel": "odf/ships/bjscout.odf",
+      "source": "odf/ships/fscout.odf",
+      "model": "fscout",
+      "sha256": "53efdad11caab83e97519cc887ffad6cb2b92f64ebe9375df28babd3d96c7a51"
+    },
+    {
+      "rel": "odf/ships/bjnerys.odf",
+      "source": "odf/ships/fdestroy.odf",
+      "model": "fdestroy",
+      "sha256": "be2efc65c31f810325efafb544db551beec1396be4a47d7c250db282b29f77bd"
+    },
+    {
+      "rel": "odf/stations/bjbase.odf",
+      "source": "odf/stations/fbase.odf",
+      "model": "xvstock_fbase",
+      "sha256": "aa5b9ff699f88839e4ec7ecb469d286174e8b43ce711b4114481dcb0a7f26c1d"
+    },
+    {
+      "rel": "odf/other/bajoran.odf",
+      "sha256": "aafc92a23ba5421a6ed8de51898a1e00347b009b764d7acd247244ce4b5f269a"
+    }
+  ],
+  "diagnostic": true,
+  "ds9VisualTemporarilyReplaced": true,
+  "rosterAiTechPreserved": true,
+  "runtimeVerified": false
+}

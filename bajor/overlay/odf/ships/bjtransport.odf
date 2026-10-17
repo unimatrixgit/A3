@@ -18,18 +18,18 @@ transporter = 0
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxHealth = 110
+maxhealth = 220
 
 
 // Hitpoints
-shieldGeneratorHitPoints = 215
-enginesHitPoints = 215
-weaponsHitPoints = 215
-lifeSupportHitPoints = 215
-sensorsHitPoints = 215
+shieldgeneratorhitpoints = 322.5
+engineshitpoints = 322.5
+weaponshitpoints = 322.5
+lifesupporthitpoints = 322.5
+sensorshitpoints = 322.5
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 1.1
+shieldrate = 2.2
 
 //**********************************************************************
 //SHIP NAMES
@@ -99,8 +99,8 @@ race = "bajoran"
 
 
 
-baseName = "fantares"
-ScaleSOD = 0.3
+baseName = "br3_bjtransport"
+ScaleSOD = 0.48
 
 
 
@@ -110,8 +110,8 @@ ScaleSOD = 0.3
 
 
 
-weaponhardpoints1 = "hp01" "hp02"
-weaponhardpoints2 = "hp03"
+weaponHardpoints1 = "hp01" "hp02"
+weaponHardpoints2 = "hp03"
 enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
 lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
 weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp13" "hp11"
@@ -119,6 +119,9 @@ shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
 
 
 
-sensorstargethardpoints = "hp20" "hp20" "hp20" "hp20" "hp20"
-hulltargethardpoints = "hp06" "hp08" "hp10"  "hp12" "hp14" "hp16" "hp18" "hp20" "hp20" "hp20"
-criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp20" "hp20"
+sensorstargethardpoints = "hp20" "hp20" "hp20" "hp20" "hp20"
+
+hulltargethardpoints = "hp06" "hp08" "hp10"  "hp12" "hp14" "hp16" "hp18" "hp20" "hp20" "hp20"
+
+criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp20" "hp20"
+

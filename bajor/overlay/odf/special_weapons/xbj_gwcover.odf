@@ -1,0 +1,63 @@
+// Standalone native weapon definition; Bajoran tech identity retained.
+//Display name for this weapon
+wpnName = "Engine Overload"
+
+//tooltips
+tooltip = "FED_POD3"
+verboseTooltip = "FED_POD3_V"
+
+//Name of the ODF file for the ordinance for this weapon
+ordName = "wcover"
+
+//Location of the button in the speed panel
+buttonSlot = 3
+
+// location of the button in the popup palette
+popupSlot = 4
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 10
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+// Mark this as a special weapon.
+special = 1
+
+//Maxiumum number of targets
+maxTargets = 4
+
+//Time Delay between shots
+shotDelay = 3.5
+
+// Range within which the weapon will fire.
+range = 800.0f
+
+//Sound which is played when the weapon fires
+fireSound = "swfengof.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "areacannon"
+
+//Should not be used
+wpnReticle = "gblast"
+
+//UNKNOWN
+wpnPriority = 0
+
+//UNKNOWN
+wpnCategory = "ARCA"
+
+// 	HIT_EVERYONE = 0,
+//	HIT_ALLIES = 1,
+//	HIT_ENEMIES = 2
+hitCondition = 2
+
+//this special weapon can be assimilated by the borg tech assimilator
+assimilatable = "fedpod3"
+
+hotkeyLabel = "HOTKEY_F3"

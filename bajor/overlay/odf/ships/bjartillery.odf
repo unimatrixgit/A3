@@ -20,18 +20,18 @@
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxHealth = 575
+maxhealth = 1150
 
 // Hitpoints
 
-shieldGeneratorHitPoints = 1475
-enginesHitPoints = 1475
-weaponsHitPoints = 1475
-lifeSupportHitPoints = 1475
-sensorsHitPoints = 1475
+shieldgeneratorhitpoints = 2212.5
+engineshitpoints = 2212.5
+weaponshitpoints = 2212.5
+lifesupporthitpoints = 2212.5
+sensorshitpoints = 2212.5
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 5.75
+shieldrate = 11.5
 
 //**********************************************************************
 //SHIP NAMES
@@ -120,8 +120,8 @@ race = "bajoran"
 
 
 
-baseName = "fcruise3"
-ScaleSOD = 0.5
+baseName = "br3_bjartillery"
+ScaleSOD = 0.8
 
 
 
@@ -133,10 +133,10 @@ ScaleSOD = 0.5
 
 
 
-weaponhardpoints1 = "hp03" "hp06" "hp22"
-weaponhardpoints2 = "hp07" "hp11"
-weaponhardpoints3 = "hp04" "hp05" "hp21"
-weaponhardpoints4 = "hp08" "hp10"
+weaponHardpoints1 = "hp03" "hp06" "hp22"
+weaponHardpoints2 = "hp07" "hp11"
+weaponHardpoints3 = "hp04" "hp05" "hp21"
+weaponHardpoints4 = "hp08" "hp10"
 enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
 lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
 weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32"

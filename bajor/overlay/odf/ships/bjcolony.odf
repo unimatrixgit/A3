@@ -22,18 +22,18 @@
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxHealth = 300
+maxhealth = 600
 
 // Hitpoints
 
-shieldGeneratorHitPoints = 500
-enginesHitPoints = 500
-weaponsHitPoints = 500
-lifeSupportHitPoints = 500
-sensorsHitPoints = 500
+shieldgeneratorhitpoints = 750
+engineshitpoints = 750
+weaponshitpoints = 750
+lifesupporthitpoints = 750
+sensorshitpoints = 750
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 3
+shieldrate = 6
 
 //**********************************************************************
 //SHIP NAMES
@@ -98,9 +98,9 @@ race = "bajoran"
 
 
 
-weapon1 = "xbj_fcolonypod"
-baseName = "fcolony"
-ScaleSOD = .06
+weapon1 = "fcolonypod"
+baseName = "br3_bjcolony"
+ScaleSOD = 0.6
 
 
 

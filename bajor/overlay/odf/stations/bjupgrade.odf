@@ -4,13 +4,14 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitname = "Bajoran Systems Upgrade Center"
 
 //tooltips
-
+tooltip = "Bajoran Systems Upgrade Center"
+verbosetooltip = "Bajoran Systems Upgrade Center. Extrapolated systems engineering station."
 
 //Race which can build ship & starting race of ship
-
+race = "bajoran"
 
 //Amount of time required to build ship
 
@@ -23,13 +24,13 @@
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <1000
-maxHealth = 1200
+maxhealth = 2400
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 12.0
+shieldrate = 24
 
 //Possible Craft Names
-possibleCraftNames = 
+possiblecraftnames = 
 	"T'Pan Center" "Sarak Center" "Rhulm Center" "Z'Quarn Center"
 	 "Clouseau Center" "Zmien Center" "Bembe Center" "Amanbad Center" 
 
@@ -37,27 +38,29 @@ possibleCraftNames =
 //**********************************************************************
 //Construction Parameters
 
+buildItem0 = "bjpod11"
+buildItem1 = "bjpod12"
+buildItem2 = "bjpod13"
+buildItem3 = "bjpod14"
+buildItem4 = "bjpod15"
 
+//buildItem0 = "bjpod15"
+//buildItem1 = "bjpod14"
+//buildItem2 = "bjpod13"
+//buildItem3 = "bjpod12"
+//buildItem4 = "bjpod11"
 
+secondaryBuildItem0 = "bjpod21"
+secondaryBuildItem1 = "bjpod22"
+secondaryBuildItem2 = "bjpod23"
+secondaryBuildItem3 = "bjpod24"
+secondaryBuildItem4 = "bjpod25"
 
-
-
-//buildItem0 = "fedpod15"
-//buildItem1 = "fedpod14"
-//buildItem2 = "fedpod13"
-//buildItem3 = "fedpod12"
-//buildItem4 = "fedpod11"
-
-
-
-
-
-
-//secondaryBuildItem0 = "fedpod25"
-//secondaryBuildItem1 = "fedpod24"
-//secondaryBuildItem2 = "fedpod23"
-//secondaryBuildItem3 = "fedpod22"
-//secondaryBuildItem4 = "fedpod21"
+//secondaryBuildItem0 = "bjpod25"
+//secondaryBuildItem1 = "bjpod24"
+//secondaryBuildItem2 = "bjpod23"
+//secondaryBuildItem3 = "bjpod22"
+//secondaryBuildItem4 = "bjpod21"
 
 //**********************************************************************
 
@@ -66,9 +69,9 @@ possibleCraftNames =
 
 // Hardpoints to hit for various systems and other locations.
 
+lifesupporttargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
 
-
-
+shieldgeneratortargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
 
 
 //**********************************************************************
@@ -84,9 +87,9 @@ intrinsicValue = 1.00f
 //**********************************************************************
 //MESSAGE & SOUND PARAMETERS
 
-eventSelect = "ShipUpgradeStationSelect"
-eventAcknowledge = "ShipUpgradeStationAcknowledge"
-eventDecommission = "ShipUpgradeStationDecommission"
+eventselect = "ShipUpgradeStationSelect"
+eventacknowledge = "ShipUpgradeStationAcknowledge"
+eventdecommission = "ShipUpgradeStationDecommission"
 
 //**********************************************************************
 
@@ -112,65 +115,24 @@ crewCost = 400
 officerCost = 10
 buildTime = 150
 
+basename = "br3_bjupgrade"
 
+podhardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
 
+enginestargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
 
+weaponstargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
 
+sensorstargethardpoints = "hp16"
 
+hulltargethardpoints = "hp17" "hp18" "hp19" "hp20" "hp21"
 
+criticaltargethardpoints = "hp22"
 
+scalesod = 0.320735
 
+shieldgeneratorhitpoints = 450
 
+lifesupporthitpoints = 450
 
-
-
-
-unitName = "Bajoran Systems Upgrade Center"
-
-tooltip = "Bajoran Systems Upgrade Center"
-
-verboseTooltip = "Bajoran Systems Upgrade Center. Extrapolated systems engineering station."
-
-race = "bajoran"
-
-
-
-
-
-buildItem0 = "bjpod11"
-
-buildItem1 = "bjpod12"
-
-buildItem2 = "bjpod13"
-
-buildItem3 = "bjpod14"
-
-buildItem4 = "bjpod15"
-
-secondaryBuildItem0 = "bjpod21"
-
-secondaryBuildItem1 = "bjpod22"
-
-secondaryBuildItem2 = "bjpod23"
-
-secondaryBuildItem3 = "bjpod24"
-
-secondaryBuildItem4 = "bjpod25"
-baseName = "xvstock_fupgrade"
-ScaleSOD = 1.0
-
-
-
-
-
-
-
-
-lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
-shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
-podhardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp31" "hp32" "hp33" "hp34" "hp35"
-enginesTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
-weaponsTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
-sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
-hulltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
-criticaltargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorshitpoints = 450

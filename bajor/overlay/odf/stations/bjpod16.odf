@@ -4,13 +4,14 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitname = "Bajoran Support Systems"
 
 //tooltips
-
+tooltip = "Bajoran Support Systems"
+verbosetooltip = "Bajoran Support Systems. Extrapolated technology pod."
 
 //Race which can build ship & starting race of ship
-
+race = "bajoran"
 
 //Amount of time required to build ship
 
@@ -23,7 +24,7 @@
 //**********************************************************************
 //MESSAGE & SOUND PARAMETERS
 
-eventSelect = "ShieldRecharger"
+eventselect = "ShieldRecharger"
 
 //**********************************************************************
 animation = 2
@@ -49,16 +50,20 @@ crewCost = 0
 officerCost = 1
 buildTime = 160
 
-unitName = "Bajoran Support Systems"
+eventacknowledge = "PodAcknowledge"
 
-tooltip = "Bajoran Support Systems"
+eventdecommission = "PodDecommission"
 
-verboseTooltip = "Bajoran Support Systems. Extrapolated technology pod."
+basename = "br3_bjpod16"
 
-race = "bajoran"
+scalesod = 1.0
 
+shieldgeneratorhitpoints = 120
 
+lifesupporthitpoints = 120
 
+sensorshitpoints = 120
 
-baseName = "fedpod16"
-ScaleSOD = 1.0
+maxhealth = 450
+
+shieldrate = 1.25

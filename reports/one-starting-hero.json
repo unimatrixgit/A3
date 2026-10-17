@@ -1,0 +1,64 @@
+{
+  "target": "D:/armadaIII",
+  "stage": "D:/Xaramada-Modwork/one-starting-hero",
+  "applied": true,
+  "eventNamesDuplicated": 0,
+  "removedSounds": [
+    {
+      "event": "SelfDestructBegun",
+      "line": "Sound <dominion> \"breen002.wav\""
+    },
+    {
+      "event": "PlanetColonized",
+      "line": "Sound <dominion> \"breen002.wav\""
+    },
+    {
+      "event": "DestroyerAttack",
+      "line": "Sound <federation> \"gvofdc08.wav\""
+    },
+    {
+      "event": "FreighterAcknowledge",
+      "line": "Sound <cardassian> \"carfre_ackn2_move5.wav\""
+    },
+    {
+      "event": "AssaultMove",
+      "line": "Sound <romulan> \"romass_move2.wav\""
+    },
+    {
+      "event": "RepairAcknowledge",
+      "line": "Sound <borg> \"gvobor05.wav\""
+    },
+    {
+      "event": "StarbaseAcknowledge",
+      "line": "Sound <dominion> \"found015.wav\""
+    }
+  ],
+  "fleets": [
+    {
+      "race": "borg",
+      "removedFromStartingFleetOnly": "bqueen.odf",
+      "startingUnits": [
+        "bconst.odf",
+        "bconst.odf",
+        "bbase.odf",
+        "bscout.odf",
+        "blocutus.odf"
+      ]
+    },
+    {
+      "race": "dominion",
+      "removedFromStartingFleetOnly": "dweyoun.odf",
+      "startingUnits": [
+        "dconst.odf",
+        "dconst.odf",
+        "dbase.odf",
+        "dscout.odf",
+        "xhdhero.odf"
+      ]
+    }
+  ],
+  "runtimeVerified": false,
+  "eventGroups": 716,
+  "backup": "D:\\Xaramada-Modwork\\backups\\one-starting-hero-20261016-235839",
+  "hashesVerified": true
+}

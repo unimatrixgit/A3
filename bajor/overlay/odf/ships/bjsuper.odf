@@ -26,14 +26,14 @@ saneCrewLossMethod = 1
 
 // Hitpoints
 
-shieldGeneratorHitPoints = 3000
-enginesHitPoints = 3000
-weaponsHitPoints = 3000
-lifeSupportHitPoints = 3000
-sensorsHitPoints = 3000
+shieldgeneratorhitpoints = 4500
+engineshitpoints = 4500
+weaponshitpoints = 4500
+lifesupporthitpoints = 4500
+sensorshitpoints = 4500
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 11
+shieldrate = 22
 
 //Maximum Value of Special Energy
 maxSpecialEnergy = 1100
@@ -131,23 +131,23 @@ race = "bajoran"
 
 
 
-maxHealth = 1430
+maxhealth = 2200
 
-dilithiumCost = 585
+dilithiumcost = 450
 
-metalCost = 130
+metalcost = 100
 
-crewCost = 910
+crewcost = 700
 
-officerCost = 16
+officercost = 12
 
-buildTime = 29
+buildtime = 22
 
 weapon3 = "xbj_gselfdes"
 
 weapon4 = "xbj_gcorbom"
-baseName = "fbattle"
-ScaleSOD = 2.03
+baseName = "br3_bjsuper"
+ScaleSOD = 3.248
 
 
 
@@ -159,10 +159,10 @@ ScaleSOD = 2.03
 
 
 
-weaponhardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp15" "hp16"
-weaponhardpoints2 = "hp14" "hp68"
-weaponhardpoints3 = "hp34" "hp35" "hp36"
-weaponhardpoints4 = "hp34" "hp35" "hp36"
+weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp15" "hp16"
+weaponHardpoints2 = "hp14" "hp68"
+weaponHardpoints3 = "hp34" "hp35" "hp36"
+weaponHardpoints4 = "hp34" "hp35" "hp36"
 enginestargethardpoints = "hp35" "hp36" "hp40" "hp41" "hp42" "hp43" "hp44" "hp45" "hp46" "hp47" "hp48" "hp49" "hp50" "hp51" "hp52" "hp53" "hp54" "hp55" "hp56" "hp57" "hp58" "hp59"
 lifesupporttargethardpoints = "hp37" "hp38" "hp39" "hp60"
 weaponstargethardpoints = "hp14" "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp15" "hp16"

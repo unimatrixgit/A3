@@ -110,11 +110,11 @@ klipod23.odf -1											// research pod (sensor upgrade level 3)
 klipod24.odf -1											// research pod (engine upgrade level 3)
 klipod25.odf -1											// research pod (life support upgrade level 3)
 
-fyard3.odf -1											// advanced shipyard
 
-byard3.odf -1											// advanced assembly matrix
 
-kyard3.odf -1											// advanced shipyard
+
+
+
 
 bjconst.odf 0
 
@@ -158,31 +158,19 @@ bjsuper.odf 2 bjyard3.odf bjsuperlab.odf
 
 bjnerys.odf 1 bjyard3.odf
 
-bjmining.odf 0
-
-bjyard.odf 1 bjbase.odf
-
-bjresear.odf 2 bjbase.odf bjyard.odf
-
-bjyard2.odf 2 bjyard.odf bjresear.odf
 
 
 
-bjresear2.odf 2 bjyard2.odf bjresear.odf
 
-bjupgrade.odf 2 bjresear.odf bjresear2.odf
 
-bjsensor.odf 1 bjbase.odf
 
-bjorbital.odf 1 bjbase.odf
 
-bjtrading.odf 1 bjbase.odf
 
-bjturret.odf 1 bjbase.odf
 
-bjturret2.odf 1 bjresear.odf
 
-bjsuperlab.odf 2 bjresear2.odf bjyard2.odf
+
+
+
 
 bjpod1.odf 1 bjresear.odf
 
@@ -274,6 +262,42 @@ xbruconst.odf 0
 
 xbjuconst.odf 0
 
-bjyard3.odf 2 bjresear2.odf bjyard2.odf
+
 
 xbjtakeover.odf 2 bjsuperlab.odf bjpod9.odf
+
+fyard3.odf -1
+
+byard3.odf -1
+
+kyard3.odf -1
+
+ryard3.odf 3 rbase.odf ryard2.odf rresear2.odf
+
+cyard3.odf 3 cbase.odf cyard2.odf cresear2.odf
+
+dyard3.odf 4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf
+
+bryard3.odf 2 bryard.odf brresear.odf
+
+
+xhs_yard3.odf 1 8472_passive.odf
+
+xhs_vanguard.odf 1 xhs_yard3.odf
+
+xhs_sentinel.odf 1 xhs_yard3.odf
+
+xhs_leviathan.odf 1 xhs_yard3.odf
+bjsensor.odf 1 bjbase.odf
+bjturret.odf 1 bjbase.odf
+bjturret2.odf 1 bjresear.odf
+bjmining.odf 0
+bjorbital.odf 1 bjbase.odf
+bjtrading.odf 1 bjbase.odf
+bjyard.odf 1 bjbase.odf
+bjyard2.odf 2 bjyard.odf bjresear.odf
+bjyard3.odf 2 bjresear2.odf bjyard2.odf
+bjresear.odf 2 bjbase.odf bjyard.odf
+bjresear2.odf 2 bjyard2.odf bjresear.odf
+bjupgrade.odf 2 bjresear.odf bjresear2.odf
+bjsuperlab.odf 2 bjresear2.odf bjyard2.odf

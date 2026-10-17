@@ -4,13 +4,14 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitname = "Bajoran Tachyon Detection"
 
 //tooltips
-
+tooltip = "Bajoran Tachyon Detection"
+verbosetooltip = "Bajoran Tachyon Detection. Extrapolated technology pod."
 
 //Race which can build ship & starting race of ship
-
+race = "bajoran"
 
 //Amount of time required to build ship
 
@@ -48,16 +49,22 @@ crewCost = 0
 officerCost = 1
 buildTime = 20
 
-unitName = "Bajoran Tachyon Detection"
+eventacknowledge = "PodAcknowledge"
 
-tooltip = "Bajoran Tachyon Detection"
+eventdecommission = "PodDecommission"
 
-verboseTooltip = "Bajoran Tachyon Detection. Extrapolated technology pod."
+eventselect = "PodSelect"
 
-race = "bajoran"
+basename = "br3_bjpod5"
 
+scalesod = 1.0
 
+shieldgeneratorhitpoints = 120
 
+lifesupporthitpoints = 120
 
-baseName = "fedpod5"
-ScaleSOD = 1.0
+sensorshitpoints = 120
+
+maxhealth = 450
+
+shieldrate = 1.25

@@ -22,18 +22,18 @@
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxHealth = 380
+maxhealth = 760
 
 // Hitpoints
 
-shieldGeneratorHitPoints = 500
-enginesHitPoints = 500
-weaponsHitPoints = 500
-lifeSupportHitPoints = 500
-sensorsHitPoints = 500
+shieldgeneratorhitpoints = 750
+engineshitpoints = 750
+weaponshitpoints = 750
+lifesupporthitpoints = 750
+sensorshitpoints = 750
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 3.8
+shieldrate = 7.6
 
 //**********************************************************************
 //SHIP NAMES
@@ -56,7 +56,6 @@ possibleCraftNames =
 
 
 
-weapon2 = "folympicphas"
 
 
 //  Hardpoints to hit for various systems and other locations.
@@ -109,9 +108,8 @@ race = "bajoran"
 
 
 
-weapon1 = "xbj_grepairbeam"
-baseName = "fsrepair"
-ScaleSOD = 0.75
+baseName = "br3_bjrepair"
+ScaleSOD = 1.2
 
 
 
@@ -120,11 +118,15 @@ ScaleSOD = 0.75
 
 
 
-weaponhardpoints1 = "hp16"
-weaponhardpoints2 = "hp01" "hp02" "hp03" "hp04"
 enginestargethardpoints = "hp05" "hp11" "hp12" "hp14" "hp15"
 lifesupporttargethardpoints = "hp08" "hp18" "hp19"
 shieldgeneratortargethardpoints = "hp16"
 sensorstargethardpoints = "hp09"
 hulltargethardpoints = "hp13" "hp20" "hp10"
 criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17"
+
+// Preserve utility ability slots independently of combat balance.
+weapon2 = "folympicphas"
+weapon1 = "xbj_grepairbeam"
+weaponhardpoints1 = "hp16"
+weaponhardpoints2 = "hp01" "hp02" "hp03" "hp04"

@@ -155,21 +155,6 @@
       "icon": "gbcquantum"
     },
     {
-      "file": "odf\\stations\\dompod9.odf",
-      "name": "Shield Disruptor",
-      "icon": null
-    },
-    {
-      "file": "odf\\stations\\kmarbase.odf",
-      "name": "Starbase",
-      "icon": null
-    },
-    {
-      "file": "odf\\stations\\kprison.odf",
-      "name": "Klingon Prison",
-      "icon": null
-    },
-    {
       "file": "odf\\stations\\PB_BORGA.odf",
       "name": "Borg Planet",
       "icon": null
@@ -281,6 +266,14 @@
     }
   ],
   "yards": [
+    {
+      "file": "odf\\stations\\bjyard3.odf",
+      "race": "bajoran",
+      "model": "xvstock_fyard2.sod",
+      "modelPresent": true,
+      "icon": "xbajbuttons",
+      "iconPresent": true
+    },
     {
       "file": "odf\\stations\\bryard3.odf",
       "race": "breen",

@@ -17,18 +17,18 @@
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxHealth = 680
+maxhealth = 1360
 
 // Hitpoints
 
-shieldGeneratorHitPoints = 1680
-enginesHitPoints = 1680
-weaponsHitPoints = 1680
-lifeSupportHitPoints = 1680
-sensorsHitPoints = 1680
+shieldgeneratorhitpoints = 2520
+engineshitpoints = 2520
+weaponshitpoints = 2520
+lifesupporthitpoints = 2520
+sensorshitpoints = 2520
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 6.8
+shieldrate = 13.6
 
 //Maximum Value of Special Energy
 maxSpecialEnergy = 680
@@ -94,7 +94,7 @@ weapon6 = "fdefiantphot"
 
 
 // Photon Torpedo
-weapon7 = "fdefiantphot"
+weapon7 = "xbj_gamine"
 
 
 // Cloaking
@@ -166,11 +166,11 @@ race = "bajoran"
 
 
 
-weapon5 = "xbj_gamine"
+weapon5 = "fdefiantphot"
 
 weapon8 = "xbj_gfcloak"
-baseName = "fdestroy"
-ScaleSOD = 0.3
+baseName = "br3_bjinterceptor"
+ScaleSOD = 0.48
 
 
 
@@ -186,14 +186,14 @@ ScaleSOD = 0.3
 
 
 
-weaponhardpoints1 = "hp01"
-weaponhardpoints2 = "hp02"
-weaponhardpoints3 = "hp03"
-weaponhardpoints4 = "hp04"
-weaponhardpoints5 = "hp14" "hp15"
-weaponhardpoints6 = "hp05"
-weaponhardpoints7 = "hp06"
-weaponhardpoints8 = "hp09"
+weaponHardpoints1 = "hp01"
+weaponHardpoints2 = "hp02"
+weaponHardpoints3 = "hp03"
+weaponHardpoints4 = "hp04"
+weaponHardpoints5 = "hp05"
+weaponHardpoints6 = "hp06"
+weaponHardpoints7 = "hp14" "hp15"
+weaponHardpoints8 = "hp09"
 enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
 lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
 weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29"

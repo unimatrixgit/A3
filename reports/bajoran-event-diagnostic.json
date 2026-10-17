@@ -1,0 +1,20 @@
+{
+  "target": "D:/armadaIII",
+  "stage": "D:/Xaramada-Modwork/bajor-event-diagnostic",
+  "applied": true,
+  "sourceSha256": "cd3ed033257a1c1fe2437850296b41a604eb5d962ec05fc7025da286fa51678e",
+  "stagedSha256": "4f5ef649d9535c510ef13adfa128bdc319c4100ec041c78e256878c0ddde40e8",
+  "hypothesis": "Bajoran race has no explicit shared-event sound selections. Add existing Federation selections for Bajor as a controlled test; crash cause is unconfirmed.",
+  "fallbacksAdded": 384,
+  "eventGroups": 716,
+  "changedGroups": 202,
+  "existingEventContentsPreserved": true,
+  "singleHeroFleetFilesUntouched": true,
+  "runtimeVerified": false,
+  "backup": "D:\\Xaramada-Modwork\\backups\\bajor-event-diagnostic-20261017-000152",
+  "userTest": {
+    "result": "User reports works fine after event fallback patch",
+    "reportedAt": "2026-10-16T22:03:22.1468763Z",
+    "exhaustiveStabilityVerified": false
+  }
+}

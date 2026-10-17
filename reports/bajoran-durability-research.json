@@ -1,0 +1,882 @@
+{
+  "stage": "D:\\Xaramada-Modwork\\bajor-durability-research",
+  "files": [
+    {
+      "path": "odf/ships/bjconst.odf",
+      "sourceSha256": "57759c7557c14e79e7d9a26aa2a5cbaf380edf769cd7fecff4304c8adf9c32cf",
+      "sha256": "466d56f6e1d52fdbb6147354141579bec104a235586e82bda7c7ea98406f6b26"
+    },
+    {
+      "path": "odf/ships/bjfreight.odf",
+      "sourceSha256": "ea36a4f39966c62b2887147d235debcce1585d612083dd57520b396349e0ca5e",
+      "sha256": "8ad74622df9e02246832a95dcabffd9528c3adb54fe50bc3b8f81244d64471fa"
+    },
+    {
+      "path": "odf/ships/bjscout.odf",
+      "sourceSha256": "29fcd1956e5f41024170b9b1690276650f519627109209ee3924c08b2e5c54b5",
+      "sha256": "0543a3227f825bc48360bb446f3c3074e457682244de7ee8bb3b026858c51284"
+    },
+    {
+      "path": "odf/ships/bjinterceptor.odf",
+      "sourceSha256": "9914ecf4b842f91aab121fb8668e624965d5f119267fc181a3cef8290973a17f",
+      "sha256": "9859f0fc9c9a8198e742b50b6562e02342e402c1a56dd23c085cf8ddc814241c"
+    },
+    {
+      "path": "odf/ships/bjassault.odf",
+      "sourceSha256": "bed0dbab77e088edffc348dfc2a590cb7b2e2adcb20d073382ae567a48579d18",
+      "sha256": "50f7a5e2309192d561bfec5b75b610516426130e884efeed20ef59c0bb8c1158"
+    },
+    {
+      "path": "odf/ships/bjtransport.odf",
+      "sourceSha256": "7261b4503b099f413bcf55b5d4d4299d3ca6b9d96e9b4e492d3821c7eab74afe",
+      "sha256": "6dff23262d5328b8e74cd5c4698039a9281935c0029ae47c5d8b3ffd1394c314"
+    },
+    {
+      "path": "odf/ships/bjnerys.odf",
+      "sourceSha256": "a3ec1b323a7a6f530d251349fb5b39e5b1f0f9e9ea6ec97c7fa8cb8061c26d20",
+      "sha256": "cd80d36ca4d7dd53a10cae4f0bbb686815fc2a2f07b60e0b7db2dba604298af6"
+    },
+    {
+      "path": "odf/stations/bjbase.odf",
+      "sourceSha256": "39fc0bb3cd74269fe946e34fbb8e11e8a117d7e552048c1565d6a7ec956425fa",
+      "sha256": "f1f05b4440626e454aed1f0dc2a04d312d61f8cf8b9cba2572bdb7d083bf3f91"
+    },
+    {
+      "path": "odf/stations/bjmining.odf",
+      "sourceSha256": "2391d8af9aca4917882be790a76c6b0d55583572dab9ffa5ad1d0ecc9fe95a52",
+      "sha256": "1e11d57fb427e68c079f4ff5241766c5edc18e1bd8da12a692748e48e2f4660a"
+    },
+    {
+      "path": "odf/stations/bjyard.odf",
+      "sourceSha256": "e8785c1fb8ddebce9f71a5a737d259eabd78a70d46c2a5206d7eb6e5ca46297b",
+      "sha256": "5a14de55e852c25e4914b759ac2115350a86152a732ef454b11ded5119b0ebbd"
+    },
+    {
+      "path": "odf/stations/bjyard2.odf",
+      "sourceSha256": "5cdb31e165281eec5e4ecd75fbfbe0d92320f608cb857623262b60951edf57cc",
+      "sha256": "c3e56aa004222436e383ad9c5c482d08c6d748cf65676daf2cefebb0ec334287"
+    },
+    {
+      "path": "odf/stations/bjyard3.odf",
+      "sourceSha256": "0146353962d385eab0d9976c05de279feff1e68a85299010013200b8fddea551",
+      "sha256": "8aa2c3a3189452d5886d4fcad9b692d852f97dad19e0e64cfec7634ad3cd6cf9"
+    },
+    {
+      "path": "odf/stations/bjresear.odf",
+      "sourceSha256": "fa94d25942b1a161b3458f9f7a31425b51e6e6f6aea5d4f723cb1914a407cf39",
+      "sha256": "155a368d6107e695c2ca63c2e00c5d3a8cb3c282b5ad615331d2b76c0807e92a"
+    },
+    {
+      "path": "odf/stations/bjturret.odf",
+      "sourceSha256": "7ccf9ccfd27cf4283d93692dc5fd3064e92a5ca05eb35c8f96e326084109ed48",
+      "sha256": "df6bc288ffa965d59a09beb8a3b61b90ee469f851780fcaec9e02314754809ae"
+    },
+    {
+      "path": "odf/ships/bjraider.odf",
+      "sourceSha256": "6c665f204195facccf24995a9149d5a41344825f9ba905c7b1c06ec6c0f4620c",
+      "sha256": "0074aca8f6f1662495d86e5115b64aa0e91f09eb753db5c10ba240b03b7f4b38"
+    },
+    {
+      "path": "odf/ships/bjlightship.odf",
+      "sourceSha256": "b41b4e6c2b517c24a6775c99705ba118a5c1f809c049f3616af1a0a5dd76d11b",
+      "sha256": "d710964446b1f115cdecdf711b04d483ac0edeb5228e8e07a8c9f8428bccb0c7"
+    },
+    {
+      "path": "odf/ships/bjcolony.odf",
+      "sourceSha256": "4e709b684faafffe726e966770f47ab4edc99b11265363b1e4807a0ca9fae474",
+      "sha256": "9dc97752ae873152f7b6a1c742dc710405bd75408618f15ea18eaec9bfcc3ea6"
+    },
+    {
+      "path": "odf/ships/bjcargo.odf",
+      "sourceSha256": "b5798b90223148e9af97f55c627723eee64bcd182bb07af5911100e039788807",
+      "sha256": "ec4cc2f97704aa524fc0575c3726d5a425f87690aaee57279df6c87349f74023"
+    },
+    {
+      "path": "odf/ships/bjrepair.odf",
+      "sourceSha256": "653f0c14e09527f4162159d65506004679e4a50b40f17a25e0b9fae6aad4ef70",
+      "sha256": "07930c563a4843f535e4fdf23200f09f0c3320f0eab48820a3a61f38c6f3a5c7"
+    },
+    {
+      "path": "odf/ships/bjcruiser.odf",
+      "sourceSha256": "3c2d8ac8fc64af247aa9348aff38b22e6dd79a0ddf25d54403ad3b2ff40752d5",
+      "sha256": "f9a968d482714b92f08f8b9ac1faf5d642b5af4a6c55c7aa0943d2e9a5205bb5"
+    },
+    {
+      "path": "odf/ships/bjtorpedo.odf",
+      "sourceSha256": "24b67d84a279a1e5dabb1dd9abc87ce9cc650c19de1f76999eb3d1be19e1fa79",
+      "sha256": "a9db62ed6c25465137855b43ca41e76d6b443e79ba5507ebb1c2630276be24cb"
+    },
+    {
+      "path": "odf/ships/bjfrigate.odf",
+      "sourceSha256": "8bcfb47b46e442b8ea894908b77d7337b754f257c0dd3117b99bfe70ec557edf",
+      "sha256": "afa7c44c43aab1d8b54e42d012ad21153fe8c7d75c8a2dd9719418268de6945f"
+    },
+    {
+      "path": "odf/ships/bjartillery.odf",
+      "sourceSha256": "720be238cb0b7a868d63535d78a8987bb9a0f38ef5a1b6487f5cff953d19d3d5",
+      "sha256": "15fd44911fc3361a0e5151ca02d7af66aac3215371e7bd0661408adddffb3ae4"
+    },
+    {
+      "path": "odf/ships/bjbattle.odf",
+      "sourceSha256": "380d33c3a348bb3ee71799b0695678ebf9c04e89dc30f8bc03827025578abb96",
+      "sha256": "cf86ea9da4de2de1e4c020336a4acc3e8d1566d5978e7189b40fc138d80ed84a"
+    },
+    {
+      "path": "odf/ships/bjspecial.odf",
+      "sourceSha256": "61f3e0b3a3cf32e3e5ea50dac2cd7c4bbbfa62db03d97a9d33b9f4e496f8adfb",
+      "sha256": "17a92f6b9fbfa155c671c1a5033140701d4028397cb515717e50ca51de7928c4"
+    },
+    {
+      "path": "odf/ships/bjsuper.odf",
+      "sourceSha256": "b0de6248dbfd1732a0947228bd5dece5a6a7ea1dec36e68722412bef1c68468a",
+      "sha256": "7cba42b85de88cbeb01f671ff50049d8cf873269d2cddc9ac58c1a832534132a"
+    },
+    {
+      "path": "odf/stations/bjresear2.odf",
+      "sourceSha256": "0eb98f3fdd0ec4d6fa7723ad97ed54a7f2fc5950a76fd9aab20cf703c2bab73c",
+      "sha256": "028017ca0dc70c038b33813d09feddb1a7acf879cb7dc79de22179fe8901197a"
+    },
+    {
+      "path": "odf/stations/bjupgrade.odf",
+      "sourceSha256": "45ed68eb9a90d243a5476641eab1da905804239eca9fa0a70735701533922766",
+      "sha256": "793ba3fdb0f94148340e3c2b826b41d2c118bc7cd951b47ab11161249adba265"
+    },
+    {
+      "path": "odf/stations/bjsensor.odf",
+      "sourceSha256": "605550a5ef5cfc6a4e19c284a18f0800fe434ccd059e10a1927736bd882a81a6",
+      "sha256": "95170682bf8b0ad9cf7760d92dacb09067dee4bab465167b10b3f29ad619c864"
+    },
+    {
+      "path": "odf/stations/bjorbital.odf",
+      "sourceSha256": "a37fc5ec403919d54df7d2429048a36a23f9f9335f9708b869b70df26f8c82c7",
+      "sha256": "b51d5209927d207f87cc585d82a00ac801764d92bdc74cf26a072a965f28b292"
+    },
+    {
+      "path": "odf/stations/bjtrading.odf",
+      "sourceSha256": "183a0cb65a02ca4c9292816577c607f6ea3c88fd4d549fb9af1ff7ba88870fab",
+      "sha256": "ba02955a4986e03ebc80752675a3f41263c07b4769d5f01e052f98ef52e9d9a4"
+    },
+    {
+      "path": "odf/stations/bjturret2.odf",
+      "sourceSha256": "dd04894ed7783336470307f84dcf27d10e79df80c1950f895a44e31855bd04bb",
+      "sha256": "7ba5d70fb71a58392ee40c40bbfb6d086219fa165512f01aac117bfdedaa29bf"
+    },
+    {
+      "path": "odf/stations/bjsuperlab.odf",
+      "sourceSha256": "cde8b19543994ff6c548df6841233db2936636136def3afcfc1f45ded49ebf77",
+      "sha256": "3fb75cd584a71057788e0d5fc2b7da6ef982d09254093b63334b5486d8156d46"
+    },
+    {
+      "path": "odf/stations/bjpod1.odf",
+      "sourceSha256": "e101d117276343beff034aa575ddb88f13e701fb893a245166adeca841723086",
+      "sha256": "1aab749e3163656e99eb6bb9ac14f9dc8c6480d372a30776dc73b30d1f123333"
+    },
+    {
+      "path": "odf/stations/bjpod2.odf",
+      "sourceSha256": "83771ba6821d565115b1bc32b2aaf0f5a5a25c249f369ad74354b6353510b71e",
+      "sha256": "0025d52ee76077ac26cd5f3e6ea949a84338cdea9ad32f8204e1117eacb05362"
+    },
+    {
+      "path": "odf/stations/bjpod3.odf",
+      "sourceSha256": "1720d828dff3e3a8804b1346646a6838087e4e2c29087a4494aa6c2895c76e12",
+      "sha256": "176c25069d0d6978a38252f0b3bd2abc12393037bdda3ecc7f82b23b6ac3a1ee"
+    },
+    {
+      "path": "odf/stations/bjpod4.odf",
+      "sourceSha256": "1d743eeb153e6c95aec89ee8474f2d74c143907110ade6b7c1368928fcee6e0e",
+      "sha256": "3fcbfe817577636ebcf7c99cbf31040bf45b91ea26e120e947ab8446b477d9ac"
+    },
+    {
+      "path": "odf/stations/bjpod5.odf",
+      "sourceSha256": "001a2a216247324499fb4576a7a0afcb23a4eccb19519e70f460b7e3fdf5fa3c",
+      "sha256": "fea76ddb5a6e817d5706f8925dfd1e6e6d7ede57b5eebd0adf98ce77ef93fe21"
+    },
+    {
+      "path": "odf/stations/bjpod6.odf",
+      "sourceSha256": "d6a2dc8b945e9360d78d681aba5035ea401fd1bf697d2b82dd64c914c1deded9",
+      "sha256": "22f21fee3d81674793b5c9c9d944d0f7093863bf55be3b45f912f5261c656f57"
+    },
+    {
+      "path": "odf/stations/bjpod7.odf",
+      "sourceSha256": "bfb21404c620ff76cadde717b963e081c3e811badfc2066b3fbdbf3474e2bfde",
+      "sha256": "386682124250a17b343a46b9474fb39ceea5337f61d24466aa0111061ff6faca"
+    },
+    {
+      "path": "odf/stations/bjpod8.odf",
+      "sourceSha256": "41bf005046a847a000812191bb8ba9ced67b89abf2ad5d965a669da6888168bd",
+      "sha256": "3425f35ca40a479c828098fae4abcf2e40f66ef7d2f806e41eb63f5e51e231ef"
+    },
+    {
+      "path": "odf/stations/bjpod9.odf",
+      "sourceSha256": "773aca8417f82d4334c03e6f73ab939f86cadd15d349cc3c96eef130e6e9a73c",
+      "sha256": "65a194a29cae421d39de2ff033b3fd330e94c0cf3b024d7a6ea486108801adf6"
+    },
+    {
+      "path": "odf/stations/bjpod11.odf",
+      "sourceSha256": "5dc3fa4180dc0280f1ecd80660725202abd3dba98f7f330e404ba32315760531",
+      "sha256": "215f1f8620fcc8c6257e82fa57a41022a21f0f148ed8869cfa3e32ea83bdee64"
+    },
+    {
+      "path": "odf/stations/bjpod12.odf",
+      "sourceSha256": "1d3e1f47fac5f9b241d6212c1ba0d6e6983bf4274461c9a3550c0a83f29c904e",
+      "sha256": "b80976c4c5733b4c1d754f7ebc69be6caee827ea20a9f6d2393d9de92005a37c"
+    },
+    {
+      "path": "odf/stations/bjpod13.odf",
+      "sourceSha256": "180b6ccc1c8e7c4a853b6a45ca1922e776a3b6f512db03e378717922a45fc51a",
+      "sha256": "66a13acfc35ede533a4f43b8961a3b84d348c817ac82071e4c7f270acb942af1"
+    },
+    {
+      "path": "odf/stations/bjpod14.odf",
+      "sourceSha256": "cfcb21c5aea3353f00718b0aee25d8b6dcd6a28d0dc36e613ff50d0efecf85ed",
+      "sha256": "250fd94b46d3f3e1527e198cf1b08332ca8bce79db235465a7e5e0bd023c3b10"
+    },
+    {
+      "path": "odf/stations/bjpod15.odf",
+      "sourceSha256": "f40633dff2050d6e6a2cda8b3407697abcb95e315bb4bebba9ce65e26d9d8263",
+      "sha256": "ca9209bc056536bf0679b58a1f13b0f108e3f797e52f3033a1c58a85fbce3b5e"
+    },
+    {
+      "path": "odf/stations/bjpod16.odf",
+      "sourceSha256": "c57e6589b7381b887ff0c6086fd6e36967177cda4314225e74c1050670f209ea",
+      "sha256": "6b186c42229c08cbe3607c0b1bb49a8ac5cdb20cba9ad6eeea3eb67b3ff633fc"
+    },
+    {
+      "path": "odf/stations/bjpod21.odf",
+      "sourceSha256": "409c0ca1ff4f1a4ffcdbbff5a7d97aefdfb24a84348dae720d4a026a71f291a8",
+      "sha256": "70086b4e8601830786e34a949e0bf7e6960ad8e24debae484578d94b642bf023"
+    },
+    {
+      "path": "odf/stations/bjpod22.odf",
+      "sourceSha256": "7059c7e18dd2d935d7877f064ea20553a1e68d4844a2f9c1b0010e371726251c",
+      "sha256": "e6ca11744ec2aa184e8790b55238412b428f2b742b98f3b7edf2bf3476d9ac0d"
+    },
+    {
+      "path": "odf/stations/bjpod23.odf",
+      "sourceSha256": "c47c6e61f22400777fe17f79cb81bcd6d6521fae6392f7ebda941c2f02855a63",
+      "sha256": "433d713c27db291a2e459e9dc3b7ecf060d7728387b41c8fe954dc1c35ddbb5b"
+    },
+    {
+      "path": "odf/stations/bjpod24.odf",
+      "sourceSha256": "7cac66c724ed691e0eb713e716999d926e7b7d0b8b4da2c0a8b992e83f704ddf",
+      "sha256": "b0e9373764e24d86e3f1dd3a5be4248d30bda7eaef747044544ac6b0db26607f"
+    },
+    {
+      "path": "odf/stations/bjpod25.odf",
+      "sourceSha256": "a91f712978780436d4f5ae9b562daf4175833aa0942a2acd23feb7759d6e9ca8",
+      "sha256": "24dbaafc0f5bd401636c3d768d3a25ce30d12db85530868750932ddc6653045e"
+    },
+    {
+      "path": "techtree/earlytech.tt",
+      "sourceSha256": "c3d2ec7b6adaf53436f208678b162fb4734dc8d1492bd344d20b3df72f72b74c",
+      "sha256": "166969cda6aabeac16fbc765945cbc0bdcad1db25ad35f31de9ca41777cf1071"
+    },
+    {
+      "path": "techtree/tech1.tt",
+      "sourceSha256": "f8dcc67884e9476b7336fef344b04e661965b406bd4934f1735a940d79093549",
+      "sha256": "03c7b1d03293875bad0befcb83fecd3f6fc5bd40451097561dcb7e207ee6c0ff"
+    }
+  ],
+  "changes": [
+    {
+      "unit": "bjconst",
+      "changes": [
+        "engineshitpoints",
+        "lifesupporthitpoints",
+        "weaponshitpoints",
+        "shieldgeneratorhitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjfreight",
+      "changes": [
+        "engineshitpoints",
+        "lifesupporthitpoints",
+        "weaponshitpoints",
+        "shieldgeneratorhitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjscout",
+      "changes": [
+        "engineshitpoints",
+        "lifesupporthitpoints",
+        "weaponshitpoints",
+        "shieldgeneratorhitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjinterceptor",
+      "changes": [
+        "engineshitpoints",
+        "lifesupporthitpoints",
+        "weaponshitpoints",
+        "shieldgeneratorhitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjassault",
+      "changes": [
+        "engineshitpoints",
+        "lifesupporthitpoints",
+        "weaponshitpoints",
+        "shieldgeneratorhitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjtransport",
+      "changes": [
+        "engineshitpoints",
+        "lifesupporthitpoints",
+        "weaponshitpoints",
+        "shieldgeneratorhitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjnerys",
+      "changes": [
+        "engineshitpoints",
+        "lifesupporthitpoints",
+        "weaponshitpoints",
+        "shieldgeneratorhitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjbase",
+      "changes": [
+        "shieldgeneratorhitpoints",
+        "weaponshitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjmining",
+      "changes": [
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjyard",
+      "changes": [
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjyard2",
+      "changes": [
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjyard3",
+      "changes": [
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjresear",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjturret",
+      "changes": [
+        "shieldgeneratorhitpoints",
+        "weaponshitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjraider",
+      "changes": [
+        "engineshitpoints",
+        "lifesupporthitpoints",
+        "weaponshitpoints",
+        "shieldgeneratorhitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjlightship",
+      "changes": [
+        "engineshitpoints",
+        "lifesupporthitpoints",
+        "weaponshitpoints",
+        "shieldgeneratorhitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjcolony",
+      "changes": [
+        "engineshitpoints",
+        "lifesupporthitpoints",
+        "weaponshitpoints",
+        "shieldgeneratorhitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjcargo",
+      "changes": [
+        "engineshitpoints",
+        "lifesupporthitpoints",
+        "weaponshitpoints",
+        "shieldgeneratorhitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjrepair",
+      "changes": [
+        "engineshitpoints",
+        "lifesupporthitpoints",
+        "weaponshitpoints",
+        "shieldgeneratorhitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjcruiser",
+      "changes": [
+        "engineshitpoints",
+        "lifesupporthitpoints",
+        "weaponshitpoints",
+        "shieldgeneratorhitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjtorpedo",
+      "changes": [
+        "engineshitpoints",
+        "lifesupporthitpoints",
+        "weaponshitpoints",
+        "shieldgeneratorhitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjfrigate",
+      "changes": [
+        "engineshitpoints",
+        "lifesupporthitpoints",
+        "weaponshitpoints",
+        "shieldgeneratorhitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjartillery",
+      "changes": [
+        "engineshitpoints",
+        "lifesupporthitpoints",
+        "weaponshitpoints",
+        "shieldgeneratorhitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjbattle",
+      "changes": [
+        "engineshitpoints",
+        "lifesupporthitpoints",
+        "weaponshitpoints",
+        "shieldgeneratorhitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjspecial",
+      "changes": [
+        "engineshitpoints",
+        "lifesupporthitpoints",
+        "weaponshitpoints",
+        "shieldgeneratorhitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjsuper",
+      "changes": [
+        "engineshitpoints",
+        "lifesupporthitpoints",
+        "weaponshitpoints",
+        "shieldgeneratorhitpoints",
+        "sensorshitpoints",
+        "shieldrate",
+        "maxhealth"
+      ]
+    },
+    {
+      "unit": "bjresear2",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjupgrade",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjsensor",
+      "changes": [
+        "shieldgeneratorhitpoints",
+        "weaponshitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjorbital",
+      "changes": [
+        "shieldgeneratorhitpoints",
+        "weaponshitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjtrading",
+      "changes": [
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjturret2",
+      "changes": [
+        "shieldgeneratorhitpoints",
+        "weaponshitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjsuperlab",
+      "changes": [
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjpod1",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjpod2",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjpod3",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjpod4",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjpod5",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjpod6",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjpod7",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjpod8",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjpod9",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjpod11",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjpod12",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjpod13",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjpod14",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjpod15",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjpod16",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjpod21",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjpod22",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjpod23",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjpod24",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    },
+    {
+      "unit": "bjpod25",
+      "changes": [
+        "Federation research definition cloned, Bajor visual identity retained",
+        "shieldgeneratorhitpoints",
+        "lifesupporthitpoints",
+        "sensorshitpoints",
+        "maxhealth",
+        "shieldrate"
+      ]
+    }
+  ],
+  "applied": true,
+  "runtimeVerified": false,
+  "weaponDamageChanged": false,
+  "iconsChanged": false,
+  "researchStructure": "Federation research building/pod definitions and upgrade chains, with matching Bajor dependencies; paired yard/lab unlock rules retained.",
+  "backup": "D:\\Xaramada-Modwork\\backups\\bajor-durability-research-20261017-032109"
+}

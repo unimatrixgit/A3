@@ -1,0 +1,28 @@
+{
+  "target": "D:/armadaIII",
+  "backup": "D:/Xaramada-Modwork/backups/bajor-harvester-recovery-1792190394124",
+  "changes": [
+    {
+      "rel": "odf/ships/bjfreight.odf",
+      "action": "Use installed native dilithium/latinum harvesting weapon definitions directly instead of include aliases",
+      "sha256": "3c3d694f8664f47855a8077be7fd903757f833778b93b870b59a8a11ebd9af8a"
+    },
+    {
+      "rel": "odf/stations/bjmining.odf",
+      "action": "Retain mining-class automatic freighter link; remove added shipyard-style build list absent from native mining station",
+      "sha256": "eed29d918f54c85098e6fda2d4fff8e3c80f32e4edb3211637d276864267b543"
+    }
+  ],
+  "applied": true,
+  "diagnostic": true,
+  "statsModelsAiAudioPreserved": true,
+  "freighterStillBuildableAtStarbase": true,
+  "runtimeVerified": false,
+  "hypothesis": "Crash isolated by user to dilithium mine completion/harvester emergence. Align mining launch/harvesting configuration with existing native mechanics; test required.",
+  "userTest": {
+    "result": "User reports no crash after focused dilithium mine/harvester diagnostic",
+    "time": "2026-10-16T22:45:20.9682493Z",
+    "exhaustiveStabilityVerified": false
+  },
+  "testedCheckpoint": "D:\\Xaramada-Modwork\\backups\\bajor-harvester-user-tested-20261017-004521"
+}

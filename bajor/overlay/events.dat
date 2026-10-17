@@ -41,6 +41,7 @@ CannotRepair{
 Table
 	Sound <borg> "gvobcv77.wav"
 	Sound <federation> "gvofcv24.wav"
+	Sound <bajoran> "gvofcv24.wav"
 	Sound <klingon> "gvokcv77.wav"
 	Sound <romulan> "gvorcv77.wav"
 	Sound <cardassian>  "carev_cannot_repair.wav"
@@ -52,6 +53,7 @@ ResearchCancelled{
 Table
 	Sound <borg> "gvobcv66.wav"
 	Sound <federation> "gvofcv66.wav"
+	Sound <bajoran> "gvofcv66.wav"
 	Sound <klingon> "gvokcv66.wav"
 	Sound <romulan> "gvorcv66.wav"
 	Sound <cardassian> "carev_res_canc.wav"
@@ -62,7 +64,9 @@ UnableToTransport{
 Table
 	Sound <borg> "gvobcv40.wav"
 	Sound <federation> "gvofcv39.wav"
+	Sound <bajoran> "gvofcv39.wav"
 	Sound <federation> "gvofcv40.wav"
+	Sound <bajoran> "gvofcv40.wav"
 	Sound <klingon> "gvokcv39.wav"
 	Sound <romulan> "gvorcv39.wav"
 	Sound <cardassian> "carev_cannot_trans.wav"
@@ -73,6 +77,7 @@ StationDecommission{
 Table
 	Sound <borg> "gvobcv35.wav"
 	Sound <federation> "gvofcv32.wav"
+	Sound <bajoran> "gvofcv32.wav"
 	Sound <klingon> "gvokcv35.wav"
 	Sound <romulan> "gvorcv35.wav"
 	Sound <cardassian>  "carev_decomish_sta.wav"
@@ -84,6 +89,7 @@ ShipDecommission{
 Table
 	Sound <borg> "gvobcv32.wav"
 	Sound <federation> "gvofcv32.wav"
+	Sound <bajoran> "gvofcv32.wav"
 	Sound <klingon> "gvokcv32.wav"
 	Sound <romulan> "gvorcv32.wav"
 	Sound <cardassian> "carev_decomish_ship.wav"
@@ -95,6 +101,7 @@ ComputerAcknowledge{
 Table
 	Sound <borg> "gvobor30.wav"
 	Sound <federation> "gvofcv13.wav"
+	Sound <bajoran> "gvofcv13.wav"
 	Sound <klingon> "gvokcv13.wav"
 	Sound <romulan> "gvorcv13.wav"
 	Sound <cardassian> "carev_ackn1.wav"
@@ -105,6 +112,7 @@ SelfDestructCancel{
 Table
 	Sound <borg> "gvobcv50.wav"
 	Sound <federation> "gvofcv50.wav"
+	Sound <bajoran> "gvofcv50.wav"
 	Sound <klingon> "gvokcv50.wav"
 	Sound <romulan> "gvorcv50.wav"
 	Sound <cardassian> "carev_self_des_canc.wav"
@@ -119,6 +127,7 @@ ComputerGreenAlert{
 Table
 	Sound <borg> "gvobcv19.wav"
 	Sound <federation> "gvofcv11.wav"
+	Sound <bajoran> "gvofcv11.wav"
 	Sound <klingon> "gvokcv19.wav"
 	Sound <romulan> "gvorcv19.wav"
 	Sound <cardassian> "carev_grn_alert.wav"
@@ -133,6 +142,7 @@ ComputerYellowAlert{
 Table
 	Sound <borg> "gvobcv42.wav"
 	Sound <federation> "gvofcv42.wav"
+	Sound <bajoran> "gvofcv42.wav"
 	Sound <klingon> "gvokcv42.wav"
 	Sound <romulan> "gvorcv42.wav"
 	Sound <cardassian> "carev_yel_alert.wav"
@@ -148,6 +158,7 @@ ComputerRedAlert{
 Table
 	Sound <borg> "gvobcv27.wav"
 	Sound <federation> "gvofcv27.wav"
+	Sound <bajoran> "gvofcv27.wav"
 	Sound <klingon> "gvokcv27.wav"
 	Sound <romulan> "gvorcv27.wav"
 	Sound <cardassian> "carev_red_alert.wav"
@@ -161,6 +172,7 @@ ShipConstructionBegin{
 Table
 	Sound <borg> "gvobcv31.wav"
 	Sound <federation> "gvofcv31.wav"
+	Sound <bajoran> "gvofcv31.wav"
 	Sound <klingon> "gvokcv31.wav"
 	Sound <romulan> "gvorcv31.wav"
 	Sound <cardassian> "carev_beg_ship.wav"
@@ -173,6 +185,7 @@ ShipConstructionComplete{
 Table
 	Sound <borg> "gvobcv30.wav"
 	Sound <federation> "gvofcv30.wav"
+	Sound <bajoran> "gvofcv30.wav"
 	Sound <klingon> "gvokcv30.wav"
 	Sound <romulan> "gvorcv30.wav"
 	Sound <cardassian> "carev_ship_comp.wav"
@@ -188,6 +201,7 @@ FacilityConstructionBegin{
 Table
 	Sound <borg> "gvobcv34.wav"
 	Sound <federation> "gvofcv34.wav"
+	Sound <bajoran> "gvofcv34.wav"
 	Sound <klingon> "gvokcv34.wav"
 	Sound <romulan> "gvorcv34.wav"
 	Sound <cardassian> "carev_beg_sta.wav"
@@ -199,6 +213,7 @@ FacilityConstructionComplete{
 Table
 	Sound <borg> "gvobcv33.wav"
 	Sound <federation> "gvofcv33.wav"
+	Sound <bajoran> "gvofcv33.wav"
 	Sound <klingon> "gvokcv33.wav"
 	Sound <romulan> "gvorcv33.wav"
 	Sound <cardassian> "carev_sta_comp.wav"
@@ -212,6 +227,7 @@ ResearchBegin{
 Table
 	Sound <borg> "gvobcv60.wav"
 	Sound <federation> "gvofcv60.wav"
+	Sound <bajoran> "gvofcv60.wav"
 	Sound <klingon> "gvokcv60.wav"
 	Sound <romulan> "gvorcv60.wav"
 	Sound <cardassian> "carev_beg_res.wav"
@@ -223,6 +239,7 @@ ResearchComplete{
 Table
 	Sound <borg> "gvobcv28.wav"
 	Sound <federation> "gvofcv28.wav"
+	Sound <bajoran> "gvofcv28.wav"
 	Sound <klingon> "gvokcv28.wav"
 	Sound <romulan> "gvorcv28.wav"
 	Sound <cardassian> "carev_res_comp.wav"
@@ -235,6 +252,7 @@ ConstructionCancelled{
 Table
 	Sound <borg> "gvobcv04.wav"
 	Sound <federation> "gvofcv04.wav"
+	Sound <bajoran> "gvofcv04.wav"
 	Sound <klingon> "gvokcv04.wav"
 	Sound <romulan> "gvorcv04.wav"
 	Sound <cardassian> "carev_cons_canc.wav"
@@ -245,6 +263,7 @@ InsufficientSpecialEnergy{
 Table
 	Sound <borg> "gvobcv23.wav"
 	Sound <federation> "gvofcv23.wav"
+	Sound <bajoran> "gvofcv23.wav"
 	Sound <klingon> "gvokcv23.wav"
 	Sound <romulan> "gvorcv23.wav"
 	Sound <cardassian> "carev_no_energy.wav"
@@ -255,6 +274,7 @@ CrewTransferred{
 Table
 	Sound <borg> "gvobcv05.wav"
 	Sound <federation> "gvofcv05.wav"
+	Sound <bajoran> "gvofcv05.wav"
 	Sound <klingon> "gvokcv05.wav"
 	Sound <romulan> "gvorcv05.wav"
 	Sound <cardassian> "carev_crew_trans.wav"
@@ -264,6 +284,7 @@ DilithiumTransferred{
 Table
 	Sound <borg> "gvobcv06.wav"
 	Sound <federation> "gvofcv06.wav"
+	Sound <bajoran> "gvofcv06.wav"
 	Sound <klingon> "gvokcv06.wav"
 	Sound <romulan> "gvorcv06.wav"
 	Sound <cardassian> "carev_dilith_trans.wav"
@@ -296,6 +317,7 @@ UnitsTransferred{
 Table
 	Sound <borg> "gvobcv41.wav"
 	Sound <federation> "gvofcv41.wav"
+	Sound <bajoran> "gvofcv41.wav"
 	Sound <klingon> "gvokcv41.wav"
 	Sound <romulan> "gvorcv41.wav"
 	Sound <cardassian> "carev_ships_trans.wav"
@@ -305,6 +327,7 @@ EnemyDetected{
 Table
 	Sound <borg> "gvobcv07.wav"
 	Sound <federation> "gvofcv07.wav"
+	Sound <bajoran> "gvofcv07.wav"
 	Sound <klingon> "gvokcv07.wav"
 	Sound <romulan> "gvorcv07.wav"
 	Sound <cardassian> "carev_enemy_det.wav"
@@ -315,6 +338,7 @@ EnemyEngaged{
 Table
 	Sound <borg> "gvobcv09.wav"
 	Sound <federation> "gvofcv09.wav"
+	Sound <bajoran> "gvofcv09.wav"
 	Sound <klingon> "gvokcv09.wav"
 	Sound <romulan> "gvorcv09.wav"
 	Sound <cardassian> "carev_attack_enem.wav"
@@ -330,6 +354,7 @@ InvalidAction{
 Table
 	Sound <borg> "gvobcv24.wav"
 	Sound <federation> "gvofcv24.wav"
+	Sound <bajoran> "gvofcv24.wav"
 	Sound <klingon> "gvokcv24.wav"
 	Sound <romulan> "gvorcv24.wav"
 	Sound <cardassian> "carev_not_pos.wav"
@@ -340,6 +365,7 @@ SelfDestructBegun{
 Table
 	Sound <borg> "gvobcv29.wav"
 	Sound <federation> "gvofcv29.wav"
+	Sound <bajoran> "gvofcv29.wav"
 	Sound <klingon> "gvokcv29.wav"
 	Sound <romulan> "gvorcv29.wav"
 	Sound <cardassian> "carev_beg_self_des.wav"
@@ -347,13 +373,13 @@ Table
 	Sound <dominion> "jem011.wav"
 	Sound <dominion> "breen001.wav"		
 	Sound <dominion> "breen002.wav"		
-	Sound <dominion> "breen002.wav"		
 }
 
 StationRecrewing{
 Table
 	Sound <borg> "gvobcv36.wav"
 	Sound <federation> "gvofcv36.wav"
+	Sound <bajoran> "gvofcv36.wav"
 	Sound <klingon> "gvokcv36.wav"
 	Sound <romulan> "gvorcv36.wav"
 	Sound <cardassian> "carev_reinforcements.wav"
@@ -364,6 +390,7 @@ BaseUnderAttack{
 Table
 	Sound <borg> "gvobcv01.wav"
 	Sound <federation> "gvofcv01.wav"
+	Sound <bajoran> "gvofcv01.wav"
 	Sound <klingon> "gvokcv01.wav"
 	Sound <romulan> "gvorcv01.wav"
 	Sound <cardassian> "carev_sta_und_attack.wav"
@@ -381,6 +408,7 @@ PlanetAttack{
 Table
 	Sound <borg> "borev_plan_att.wav"
 	Sound <federation> "fedev_plan_att.wav"
+	Sound <bajoran> "fedev_plan_att.wav"
 	Sound <klingon> "kliev_plan_att.wav"
 	Sound <romulan> "romev_plan_att.wav"
 	Sound <cardassian> "carev_plan_att.wav"
@@ -394,6 +422,7 @@ TriggerInterval 30
 PlanetDepleted{
 Table
 	Sound <federation> "fedev_metal_depleted.wav"
+	Sound <bajoran> "fedev_metal_depleted.wav"
 	Sound <borg> "gvobcv21.wav"
 	Sound <klingon> "kliev_metal_depleted.wav"
 	Sound <romulan> "romev_metal_depleted.wav"
@@ -406,6 +435,7 @@ InsufficientDilithium{
 Table
 	Sound <borg> "gvobcv21.wav"
 	Sound <federation> "gvofcv21.wav"
+	Sound <bajoran> "gvofcv21.wav"
 	Sound <klingon> "gvokcv21.wav"
 	Sound <romulan> "gvorcv21.wav"
 	Sound <romulan> "gvorcv53.wav"
@@ -419,6 +449,7 @@ InsufficientLatinum{
 Table
 	Sound <borg> "gvobcv21.wav"
 	Sound <federation> "fedev_no_lat.wav"
+	Sound <bajoran> "fedev_no_lat.wav"
 	Sound <klingon> "kliev_no_lat.wav"
 	Sound <romulan> "romev_no_lat.wav"
 	Sound <cardassian> "carev_no_lat.wav"
@@ -431,6 +462,7 @@ InsufficientMetal{
 Table
 	Sound <borg> "borev_no_metal.wav"
 	Sound <federation> "fedev_no_metal.wav"
+	Sound <bajoran> "fedev_no_metal.wav"
 	Sound <klingon> "kliev_no_metal.wav"
 	Sound <romulan> "romev_no_metal.wav"
 	Sound <cardassian> "carev_no_metal.wav"
@@ -453,6 +485,7 @@ InsufficientLatinumToBuy{
 Table
 	Sound <borg> "gvobcv21.wav"
 	Sound <federation> "fedev_no_lat.wav"
+	Sound <bajoran> "fedev_no_lat.wav"
 	Sound <klingon> "kliev_no_lat.wav"
 	Sound <romulan> "romev_no_lat.wav"
 	Sound <cardassian> "carev_no_lat.wav"
@@ -465,6 +498,7 @@ InsufficientMetalToBuy{
 Table
 	Sound <borg> "borev_no_metal.wav"
 	Sound <federation> "fedev_no_metal.wav"
+	Sound <bajoran> "fedev_no_metal.wav"
 	Sound <klingon> "kliev_no_metal.wav"
 	Sound <romulan> "romev_no_metal.wav"
 	Sound <cardassian> "carev_no_metal.wav"
@@ -477,6 +511,7 @@ InsufficientDilithiumToBuy{
 Table
 	Sound <borg> "gvobcv21.wav"
 	Sound <federation> "gvofcv21.wav"
+	Sound <bajoran> "gvofcv21.wav"
 	Sound <klingon> "gvokcv21.wav"
 	Sound <romulan> "gvorcv21.wav"
 	Sound <romulan> "gvorcv53.wav"
@@ -491,12 +526,12 @@ PlanetColonized{
 Table
 	Sound <borg> "borev_colon_comp.wav"
 	Sound <federation> "fedev_colon_comp.wav"
+	Sound <bajoran> "fedev_colon_comp.wav"
 	Sound <klingon> "kliev_colon_comp.wav"
 	Sound <romulan> "romev_colon_comp.wav"
 	Sound <cardassian> "carev_colon_comp.wav"
 	Sound <dominion> "vorta010.wav"
 	Sound <dominion> "breen001.wav"		
-	Sound <dominion> "breen002.wav"		
 	Sound <dominion> "breen002.wav"		
 	SaveLocation
 SoundPriority 2
@@ -507,6 +542,7 @@ ColonyLost{
 Table
 	Sound <borg> "borev_colon_lost.wav"
 	Sound <federation> "fedev_colon_lost.wav"
+	Sound <bajoran> "fedev_colon_lost.wav"
 	Sound <klingon> "kliev_colon_lost.wav"
 	Sound <romulan> "romev_colon_lost.wav"
 	Sound <cardassian> "carev_colon_lost.wav"
@@ -526,6 +562,7 @@ InsufficientCrew{
 Table
 	Sound <borg> "gvobcv20.wav"
 	Sound <federation> "gvofcv20.wav"
+	Sound <bajoran> "gvofcv20.wav"
 	Sound <klingon> "gvokcv20.wav"
 	Sound <romulan> "gvorcv20.wav"
 	Sound <romulan> "gvorcv52.wav"
@@ -538,6 +575,7 @@ Text "EVENTS_INSUFFICIENT_CREW"
 InsufficientFedOfficers{
 Table
 	Sound <federation> "gvofcv22.wav"
+	Sound <bajoran> "gvofcv22.wav"
 	SaveLocation
 SoundPriority 2
 Text "EVENTS_INSUFFICIENT_FED_OFFICERS"
@@ -592,6 +630,7 @@ CantBuildThere{
 Table
 	Sound <borg> "gvobcv03.wav"
 	Sound <federation> "gvofcv03.wav"
+	Sound <bajoran> "gvofcv03.wav"
 	Sound <klingon> "gvokcv03.wav"
 	Sound <romulan> "gvorcv03.wav"
 	Sound <cardassian> "carev_cannot_build.wav"
@@ -605,6 +644,7 @@ EnteringDangerousNebula{
 Table
 	Sound <borg> "borg_nebula_01.wav"
 	Sound <federation> "fed_nebula_01.wav"
+	Sound <bajoran> "fed_nebula_01.wav"
 	Sound <klingon> "kling_nebula_01.wav"
 	Sound <romulan> "rom_nebula_01.wav"
 	Sound <cardassian> "card_nebula_01.wav"
@@ -620,6 +660,7 @@ NebulaDeathImminent{
 Table
 	Sound <borg> "borg_nebula_02.wav"
 	Sound <federation> "fed_nebula_02.wav"
+	Sound <bajoran> "fed_nebula_02.wav"
 	Sound <klingon> "kling_nebula_02.wav"
 	Sound <romulan> "rom_nebula_02.wav"
 	Sound <cardassian> "card_nebula_02.wav"
@@ -635,6 +676,7 @@ PlanetaryShields{
 Table
 	Sound <borg> "borev_planetary_shields.wav"
 	Sound <federation> "fedev_planetary_shields.wav"
+	Sound <bajoran> "fedev_planetary_shields.wav"
 	Sound <klingon> "kliev_planetary_shields.wav"
 	Sound <romulan> "romev_planetary_shields.wav"
 	Sound <cardassian> "carev_planetary_shields.wav"
@@ -675,6 +717,7 @@ NaniteHitInfo{
 Table
 	Sound <borg> "gvobcv26.wav"
 	Sound <federation> "gvofcv26.wav"
+	Sound <bajoran> "gvofcv26.wav"
 	Sound <klingon> "gvokcv26.wav"
 	Sound <romulan> "gvorcv26.wav"
 	Sound <cardassian> "carev_nanites.wav"
@@ -689,6 +732,7 @@ MassTranswarpWarning{
 Table
 	Sound <borg> "gvobcv25.wav"
 	Sound <federation> "gvofcv25.wav"
+	Sound <bajoran> "gvofcv25.wav"
 	Sound <klingon> "gvokcv25.wav"
 	Sound <romulan> "gvorcv25.wav"
 	Sound <cardassian> "carev_transwarp_det.wav"
@@ -703,6 +747,7 @@ SubspaceRippleWarning{
 Table
 	Sound <borg> "gvobcv37.wav"
 	Sound <federation> "gvofcv37.wav"
+	Sound <bajoran> "gvofcv37.wav"
 	Sound <klingon> "gvokcv37.wav"
 	Sound <romulan> "gvorcv37.wav"
 	Sound <cardassian> "carev_sub_space_det.wav"
@@ -717,6 +762,7 @@ TemporalDisplacementWarning{
 Table
 	Sound <borg> "gvobcv38.wav"
 	Sound <federation> "gvofcv38.wav"
+	Sound <bajoran> "gvofcv38.wav"
 	Sound <klingon> "gvokcv38.wav"
 	Sound <romulan> "gvorcv38.wav"
 	Sound <cardassian> "carev_temp_dis_det.wav"
@@ -731,6 +777,7 @@ BlackHoleCreatorWarning{
 Table
 	Sound <borg> "gvobcv02.wav"
 	Sound <federation> "gvofcv02.wav"
+	Sound <bajoran> "gvofcv02.wav"
 	Sound <klingon> "gvokcv02.wav"
 	Sound <romulan> "gvorcv02.wav"
 	Sound <cardassian> "carev_spac_rift_det.wav"
@@ -758,6 +805,7 @@ ScoutAcknowledge{
 Table
 	Sound <borg> "gvobor04.wav"
 	Sound <federation> "gvofsc01.wav"
+	Sound <bajoran> "gvofsc01.wav"
 	Sound <klingon> "gvoksc01.wav"
 	Sound <romulan> "gvorsc01.wav"
 	Sound <cardassian> "carsct_ackn1_att4_move4.wav"
@@ -782,8 +830,11 @@ Table
 	Sound <borg> "gvobor62.wav"
 	Sound <borg> "gvobor63.wav"
 	Sound <federation> "gvofsc16.wav"
+	Sound <bajoran> "gvofsc16.wav"
 	Sound <federation> "gvofsc17.wav"
+	Sound <bajoran> "gvofsc17.wav"
 	Sound <federation> "gvofsc18.wav"
+	Sound <bajoran> "gvofsc18.wav"
 	Sound <klingon> "gvoksc16.wav"
 	Sound <klingon> "gvoksc17.wav"
 	Sound <klingon> "gvoksc18.wav"
@@ -818,8 +869,11 @@ Table
 	Sound <borg> "gvobor41.wav"
 	Sound <borg> "gvobor42.wav"
 	Sound <federation> "gvofsc06.wav"
+	Sound <bajoran> "gvofsc06.wav"
 	Sound <federation> "gvofsc07.wav"
+	Sound <bajoran> "gvofsc07.wav"
 	Sound <federation> "gvofsc08.wav"
+	Sound <bajoran> "gvofsc08.wav"
 	Sound <klingon> "gvoksc06.wav"
 	Sound <klingon> "gvoksc07.wav"
 	Sound <klingon> "gvoksc08.wav"
@@ -828,12 +882,15 @@ Table
 	Sound <romulan> "gvorsc08.wav"
 	Sound <borg> "gvobor04.wav"
 	Sound <federation> "gvofsc01.wav"
+	Sound <bajoran> "gvofsc01.wav"
 	Sound <klingon> "gvoksc01.wav"
 	Sound <romulan> "gvorsc01.wav"
 	Sound <borg> "gvobor62.wav"
 	Sound <borg> "gvobor63.wav"
 	Sound <federation> "gvofsc16.wav"
+	Sound <bajoran> "gvofsc16.wav"
 	Sound <federation> "gvofsc17.wav"
+	Sound <bajoran> "gvofsc17.wav"
 	Sound <klingon> "gvoksc17.wav"
 	Sound <klingon> "gvoksc18.wav"
 	Sound <romulan> "gvorsc16.wav"
@@ -867,6 +924,7 @@ ScoutStop{
 Table
 	Sound <borg> "gvobor21.wav"
 	Sound <federation> "gvofsc21.wav"
+	Sound <bajoran> "gvofsc21.wav"
 	Sound <klingon> "gvoksc21.wav"
 	Sound <romulan> "gvorsc21.wav"
 	Sound <cardassian> "carsct_stop1.wav"
@@ -883,8 +941,11 @@ Table
 	Sound <borg> "gvobor12.wav"
 	Sound <borg> "gvobor13.wav"
 	Sound <federation> "gvofsc11.wav"
+	Sound <bajoran> "gvofsc11.wav"
 	Sound <federation> "gvofsc12.wav"
+	Sound <bajoran> "gvofsc12.wav"
 	Sound <federation> "gvofsc13.wav"
+	Sound <bajoran> "gvofsc13.wav"
 	Sound <klingon> "gvoksc11.wav"
 	Sound <klingon> "gvoksc12.wav"
 	Sound <klingon> "gvoksc13.wav"
@@ -893,12 +954,15 @@ Table
 	Sound <romulan> "gvorsc13.wav"
 	Sound <borg> "gvobor04.wav"
 	Sound <federation> "gvofsc01.wav"
+	Sound <bajoran> "gvofsc01.wav"
 	Sound <klingon> "gvoksc01.wav"
 	Sound <romulan> "gvorsc01.wav"
 	Sound <borg> "gvobor62.wav"
 	Sound <borg> "gvobor63.wav"
 	Sound <federation> "gvofsc16.wav"
+	Sound <bajoran> "gvofsc16.wav"
 	Sound <federation> "gvofsc17.wav"
+	Sound <bajoran> "gvofsc17.wav"
 	Sound <klingon> "gvoksc17.wav"
 	Sound <klingon> "gvoksc18.wav"
 	Sound <romulan> "gvorsc16.wav"
@@ -929,6 +993,7 @@ ScoutRepair{
 Table
 	Sound <borg> "gvobor26.wav"
 	Sound <federation> "gvofsc26.wav"
+	Sound <bajoran> "gvofsc26.wav"
 	Sound <klingon> "gvoksc26.wav"
 	Sound <romulan> "gvorsc26.wav"
 	Sound <cardassian> "carsct_repairs1.wav"
@@ -949,6 +1014,7 @@ DestroyerAcknowledge{
 Table
 	Sound <borg> "gvobor03.wav"
 	Sound <federation> "gvofdc18.wav"
+	Sound <bajoran> "gvofdc18.wav"
 	Sound <klingon> "gvokdc01.wav"
 	Sound <romulan> "gvordc01.wav"
 	Sound <cardassian> "cardes_ackn1_att4.wav"
@@ -971,8 +1037,11 @@ Table
 	Sound <borg> "gvobor19.wav"
 	Sound <borg> "gvobor61.wav"
 	Sound <federation> "gvofdc16.wav"
+	Sound <bajoran> "gvofdc16.wav"
 	Sound <federation> "gvofdc17.wav"
+	Sound <bajoran> "gvofdc17.wav"
 	Sound <federation> "gvofdc18.wav"
+	Sound <bajoran> "gvofdc18.wav"
 	Sound <klingon> "gvokdc16.wav"
 	Sound <klingon> "gvokdc18.wav"
 	Sound <romulan> "gvordc16.wav"
@@ -1006,8 +1075,9 @@ Table
 	Sound <borg> "gvobor43.wav"
 	Sound <borg> "gvobor44.wav"
 	Sound <federation> "gvofdc08.wav"
+	Sound <bajoran> "gvofdc08.wav"
 	Sound <federation> "gvofdc07.wav"
-	Sound <federation> "gvofdc08.wav"
+	Sound <bajoran> "gvofdc07.wav"
 	Sound <klingon> "gvokdc06.wav"
 	Sound <klingon> "gvokdc07.wav"
 	Sound <klingon> "gvokdc08.wav"
@@ -1016,11 +1086,14 @@ Table
 	Sound <romulan> "gvordc08.wav"
 	Sound <borg> "gvobor03.wav"
 	Sound <federation> "gvofdc01.wav"
+	Sound <bajoran> "gvofdc01.wav"
 	Sound <klingon> "gvokdc01.wav"
 	Sound <borg> "gvobor19.wav"
 	Sound <borg> "gvobor61.wav"
 	Sound <federation> "gvofdc16.wav"
+	Sound <bajoran> "gvofdc16.wav"
 	Sound <federation> "gvofdc17.wav"
+	Sound <bajoran> "gvofdc17.wav"
 	Sound <klingon> "gvokdc18.wav"
 	Sound <romulan> "gvordc16.wav"
 	Sound <romulan> "gvordc17.wav"
@@ -1054,6 +1127,7 @@ DestroyerStop{
 Table
 	Sound <borg> "gvobor22.wav"
 	Sound <federation> "gvofdc21.wav"
+	Sound <bajoran> "gvofdc21.wav"
 	Sound <klingon> "gvokdc21.wav"
 	Sound <romulan> "gvordc21.wav"
 	Sound <cardassian> "cardes_stop1.wav"
@@ -1071,8 +1145,11 @@ Table
 	Sound <borg> "gvobor13.wav"
 	Sound <borg> "gvobor12.wav"
 	Sound <federation> "gvofdc11.wav"
+	Sound <bajoran> "gvofdc11.wav"
 	Sound <federation> "gvofdc12.wav"
+	Sound <bajoran> "gvofdc12.wav"
 	Sound <federation> "gvofdc13.wav"
+	Sound <bajoran> "gvofdc13.wav"
 	Sound <klingon> "gvokdc11.wav"
 	Sound <klingon> "gvokdc12.wav"
 	Sound <klingon> "gvokdc13.wav"
@@ -1081,11 +1158,14 @@ Table
 	Sound <romulan> "gvordc13.wav"
 	Sound <borg> "gvobor03.wav"
 	Sound <federation> "gvofdc01.wav"
+	Sound <bajoran> "gvofdc01.wav"
 	Sound <klingon> "gvokdc01.wav"
 	Sound <borg> "gvobor19.wav"
 	Sound <borg> "gvobor61.wav"
 	Sound <federation> "gvofdc16.wav"
+	Sound <bajoran> "gvofdc16.wav"
 	Sound <federation> "gvofdc17.wav"
+	Sound <bajoran> "gvofdc17.wav"
 	Sound <klingon> "gvokdc18.wav"
 	Sound <romulan> "gvordc16.wav"
 	Sound <romulan> "gvordc17.wav"
@@ -1114,6 +1194,7 @@ DestroyerRepair{
 Table
 	Sound <borg> "gvobor26.wav"
 	Sound <federation> "gvofdc26.wav"
+	Sound <bajoran> "gvofdc26.wav"
 	Sound <klingon> "gvokdc26.wav"
 	Sound <romulan> "gvordc26.wav"
 	Sound <cardassian> "cardes_repairs1.wav"
@@ -1134,6 +1215,7 @@ Cruiser1Acknowledge{
 Table
 	Sound <borg> "gvobor30.wav"
 	Sound <federation> "gvofc101.wav"
+	Sound <bajoran> "gvofc101.wav"
 	Sound <klingon> "gvokc101.wav"
 	Sound <romulan> "gvorc101.wav"
 	Sound <cardassian> "carcrus1_ackn1_att4_move4.wav"
@@ -1157,8 +1239,11 @@ Table
 	Sound <borg> "gvobor19.wav"
 	Sound <borg> "gvobor60.wav"
 	Sound <federation> "gvofc116.wav"
+	Sound <bajoran> "gvofc116.wav"
 	Sound <federation> "gvofc117.wav"
+	Sound <bajoran> "gvofc117.wav"
 	Sound <federation> "gvofc118.wav"
+	Sound <bajoran> "gvofc118.wav"
 	Sound <klingon> "gvokc116.wav"
 	Sound <klingon> "gvokc117.wav"
 	Sound <klingon> "gvokc118.wav"
@@ -1193,8 +1278,11 @@ Table
 	Sound <borg> "gvobor09.wav"
 	Sound <borg> "gvobor42.wav"
 	Sound <federation> "gvofc106.wav"
+	Sound <bajoran> "gvofc106.wav"
 	Sound <federation> "gvofc107.wav"
+	Sound <bajoran> "gvofc107.wav"
 	Sound <federation> "gvofc108.wav"
+	Sound <bajoran> "gvofc108.wav"
 	Sound <klingon> "gvokc106.wav"
 	Sound <klingon> "gvokc107.wav"
 	Sound <klingon> "gvokc108.wav"
@@ -1207,7 +1295,9 @@ Table
 	Sound <borg> "gvobor19.wav"
 	Sound <borg> "gvobor60.wav"
 	Sound <federation> "gvofc116.wav"
+	Sound <bajoran> "gvofc116.wav"
 	Sound <federation> "gvofc117.wav"
+	Sound <bajoran> "gvofc117.wav"
 	Sound <klingon> "gvokc117.wav"
 	Sound <klingon> "gvokc118.wav"
 	Sound <romulan> "gvorc116.wav"
@@ -1242,6 +1332,7 @@ Cruiser1Stop{
 Table
 	Sound <borg> "gvobor23.wav"
 	Sound <federation> "gvofc121.wav"
+	Sound <bajoran> "gvofc121.wav"
 	Sound <klingon> "gvokc121.wav"
 	Sound <romulan> "gvorc121.wav"
 	Sound <cardassian> "carcrus1_stop1.wav"
@@ -1259,8 +1350,11 @@ Table
 	Sound <borg> "gvobor13.wav"
 	Sound <borg> "gvobor14.wav"
 	Sound <federation> "gvofc111.wav"
+	Sound <bajoran> "gvofc111.wav"
 	Sound <federation> "gvofc112.wav"
+	Sound <bajoran> "gvofc112.wav"
 	Sound <federation> "gvofc113.wav"
+	Sound <bajoran> "gvofc113.wav"
 	Sound <klingon> "gvokc111.wav"
 	Sound <klingon> "gvokc112.wav"
 	Sound <klingon> "gvokc113.wav"
@@ -1273,7 +1367,9 @@ Table
 	Sound <borg> "gvobor19.wav"
 	Sound <borg> "gvobor60.wav"
 	Sound <federation> "gvofc116.wav"
+	Sound <bajoran> "gvofc116.wav"
 	Sound <federation> "gvofc117.wav"
+	Sound <bajoran> "gvofc117.wav"
 	Sound <klingon> "gvokc117.wav"
 	Sound <klingon> "gvokc118.wav"
 	Sound <romulan> "gvorc116.wav"
@@ -1304,6 +1400,7 @@ Cruiser1Repair{
 Table
 	Sound <borg> "gvobor26.wav"
 	Sound <federation> "gvofc126.wav"
+	Sound <bajoran> "gvofc126.wav"
 	Sound <klingon> "gvokc101.wav"
 	Sound <romulan> "gvorc126.wav"
 	Sound <cardassian> "carcrus1_repairs1.wav"
@@ -1324,6 +1421,7 @@ Cruiser2Acknowledge{
 Table
 	Sound <borg> "gvobor32.wav"
 	Sound <federation> "gvofc101.wav"
+	Sound <bajoran> "gvofc101.wav"
 	Sound <klingon> "gvokc201.wav"
 	Sound <romulan> "gvorc201.wav"
 	Sound <cardassian> "carcrus2_ackn1_att4.wav"
@@ -1347,8 +1445,11 @@ Table
 	Sound <borg> "gvobor62.wav"
 	Sound <borg> "gvobor61.wav"
 	Sound <federation> "gvofc216.wav"
+	Sound <bajoran> "gvofc216.wav"
 	Sound <federation> "gvofc217.wav"
+	Sound <bajoran> "gvofc217.wav"
 	Sound <federation> "gvofc218.wav"
+	Sound <bajoran> "gvofc218.wav"
 	Sound <klingon> "gvokc216.wav"
 	Sound <klingon> "gvokc217.wav"
 	Sound <klingon> "gvokc218.wav"
@@ -1384,8 +1485,11 @@ Table
 	Sound <borg> "gvobor41.wav"
 	Sound <borg> "gvobor44.wav"
 	Sound <federation> "gvofc206.wav"
+	Sound <bajoran> "gvofc206.wav"
 	Sound <federation> "gvofc207.wav"
+	Sound <bajoran> "gvofc207.wav"
 	Sound <federation> "gvofc208.wav"
+	Sound <bajoran> "gvofc208.wav"
 	Sound <klingon> "gvokc206.wav"
 	Sound <klingon> "gvokc208.wav"
 	Sound <romulan> "gvorc206.wav"
@@ -1393,12 +1497,15 @@ Table
 	Sound <romulan> "gvorc208.wav"
 	Sound <borg> "gvobor32.wav"
 	Sound <federation> "gvofc101.wav"
+	Sound <bajoran> "gvofc101.wav"
 	Sound <klingon> "gvokc201.wav"
 	Sound <romulan> "gvorc201.wav"
 	Sound <borg> "gvobor62.wav"
 	Sound <borg> "gvobor61.wav"
 	Sound <federation> "gvofc216.wav"
+	Sound <bajoran> "gvofc216.wav"
 	Sound <federation> "gvofc217.wav"
+	Sound <bajoran> "gvofc217.wav"
 	Sound <klingon> "gvokc217.wav"
 	Sound <klingon> "gvokc218.wav"
 	Sound <romulan> "gvorc216.wav"
@@ -1433,6 +1540,7 @@ Cruiser2Stop{
 Table
 	Sound <borg> "gvobor24.wav"
 	Sound <federation> "gvofc221.wav"
+	Sound <bajoran> "gvofc221.wav"
 	Sound <klingon> "gvokc221.wav"
 	Sound <romulan> "gvorc221.wav"
 	Sound <cardassian> "carcrus2_stop1.wav"
@@ -1451,8 +1559,11 @@ Table
 	Sound <borg> "gvobor13.wav"
 	Sound <borg> "gvobor14.wav"
 	Sound <federation> "gvofc211.wav"
+	Sound <bajoran> "gvofc211.wav"
 	Sound <federation> "gvofc212.wav"
+	Sound <bajoran> "gvofc212.wav"
 	Sound <federation> "gvofc213.wav"
+	Sound <bajoran> "gvofc213.wav"
 	Sound <klingon> "gvokc211.wav"
 	Sound <klingon> "gvokc212.wav"
 	Sound <klingon> "gvokc213.wav"
@@ -1461,12 +1572,15 @@ Table
 	Sound <romulan> "gvorc213.wav"
 	Sound <borg> "gvobor32.wav"
 	Sound <federation> "gvofc101.wav"
+	Sound <bajoran> "gvofc101.wav"
 	Sound <klingon> "gvokc201.wav"
 	Sound <romulan> "gvorc201.wav"
 	Sound <borg> "gvobor62.wav"
 	Sound <borg> "gvobor61.wav"
 	Sound <federation> "gvofc216.wav"
+	Sound <bajoran> "gvofc216.wav"
 	Sound <federation> "gvofc217.wav"
+	Sound <bajoran> "gvofc217.wav"
 	Sound <klingon> "gvokc217.wav"
 	Sound <klingon> "gvokc218.wav"
 	Sound <romulan> "gvorc216.wav"
@@ -1494,6 +1608,7 @@ Cruiser2Repair{
 Table
 	Sound <borg> "gvobor26.wav"
 	Sound <federation> "gvofc226.wav"
+	Sound <bajoran> "gvofc226.wav"
 	Sound <klingon> "gvokc126.wav"
 	Sound <romulan> "gvorc226.wav"
 	Sound <cardassian> "carcrus2_repairs1.wav"
@@ -1514,6 +1629,7 @@ SpecialAcknowledge{
 Table
 	Sound <borg> "gvobor33.wav"
 	Sound <federation> "gvofsp18.wav"
+	Sound <bajoran> "gvofsp18.wav"
 	Sound <klingon> "gvoksp01.wav"
 	Sound <romulan> "gvorsp01.wav"
 	Sound <cardassian> "carspec_ackn1_att4_move4.wav"
@@ -1537,7 +1653,9 @@ Table
 	Sound <borg> "gvobor60.wav"
 	Sound <borg> "gvobor16.wav"
 	Sound <federation> "gvofsp17.wav"
+	Sound <bajoran> "gvofsp17.wav"
 	Sound <federation> "gvofsp18.wav"
+	Sound <bajoran> "gvofsp18.wav"
 	Sound <klingon> "gvoksp16.wav"
 	Sound <klingon> "gvoksp17.wav"
 	Sound <klingon> "gvoksp18.wav"
@@ -1573,8 +1691,11 @@ Table
 	Sound <borg> "gvobor09.wav"
 	Sound <borg> "gvobor43.wav"
 	Sound <federation> "gvofsp06.wav"
+	Sound <bajoran> "gvofsp06.wav"
 	Sound <federation> "gvofsp07.wav"
+	Sound <bajoran> "gvofsp07.wav"
 	Sound <federation> "gvofsp08.wav"
+	Sound <bajoran> "gvofsp08.wav"
 	Sound <klingon> "gvoksp06.wav"
 	Sound <klingon> "gvoksp07.wav"
 	Sound <klingon> "gvoksp08.wav"
@@ -1583,12 +1704,15 @@ Table
 	Sound <romulan> "gvorsp08.wav"
 	Sound <borg> "gvobor33.wav"
 	Sound <federation> "gvofsp01.wav"
+	Sound <bajoran> "gvofsp01.wav"
 	Sound <klingon> "gvoksp01.wav"
 	Sound <romulan> "gvorsp01.wav"
 	Sound <borg> "gvobor60.wav"
 	Sound <borg> "gvobor16.wav"
 	Sound <federation> "gvofsp16.wav"
+	Sound <bajoran> "gvofsp16.wav"
 	Sound <federation> "gvofsp17.wav"
+	Sound <bajoran> "gvofsp17.wav"
 	Sound <klingon> "gvoksp17.wav"
 	Sound <klingon> "gvoksp18.wav"
 	Sound <romulan> "gvorsp16.wav"
@@ -1624,6 +1748,7 @@ SpecialStop{
 Table
 	Sound <borg> "gvobor25.wav"
 	Sound <federation> "gvofsp21.wav"
+	Sound <bajoran> "gvofsp21.wav"
 	Sound <klingon> "gvoksp21.wav"
 	Sound <romulan> "gvorsp21.wav"
 	Sound <cardassian> "carspec_stop1.wav"
@@ -1642,8 +1767,11 @@ Table
 	Sound <borg> "gvobor13.wav"
 	Sound <borg> "gvobor14.wav"
 	Sound <federation> "gvofsp11.wav"
+	Sound <bajoran> "gvofsp11.wav"
 	Sound <federation> "gvofsp12.wav"
+	Sound <bajoran> "gvofsp12.wav"
 	Sound <federation> "gvofsp13.wav"
+	Sound <bajoran> "gvofsp13.wav"
 	Sound <klingon> "gvoksp11.wav"
 	Sound <klingon> "gvoksp12.wav"
 	Sound <klingon> "gvoksp13.wav"
@@ -1652,12 +1780,15 @@ Table
 	Sound <romulan> "gvorsp13.wav"
 	Sound <borg> "gvobor33.wav"
 	Sound <federation> "gvofsp01.wav"
+	Sound <bajoran> "gvofsp01.wav"
 	Sound <klingon> "gvoksp01.wav"
 	Sound <romulan> "gvorsp01.wav"
 	Sound <borg> "gvobor60.wav"
 	Sound <borg> "gvobor16.wav"
 	Sound <federation> "gvofsp16.wav"
+	Sound <bajoran> "gvofsp16.wav"
 	Sound <federation> "gvofsp17.wav"
+	Sound <bajoran> "gvofsp17.wav"
 	Sound <klingon> "gvoksp17.wav"
 	Sound <klingon> "gvoksp18.wav"
 	Sound <romulan> "gvorsp16.wav"
@@ -1685,6 +1816,7 @@ SpecialRepair{
 Table
 	Sound <borg> "gvobor26.wav"
 	Sound <federation> "gvofsp26.wav"
+	Sound <bajoran> "gvofsp26.wav"
 	Sound <klingon> "gvoksp26.wav"
 	Sound <romulan> "gvorsp26.wav"
 	Sound <cardassian> "carspec_repairs1.wav"
@@ -1706,6 +1838,7 @@ BattleAcknowledge{
 Table
 	Sound <borg> "gvobor31.wav"
 	Sound <federation> "gvofbs01.wav"
+	Sound <bajoran> "gvofbs01.wav"
 	Sound <klingon> "gvokbs01.wav"
 	Sound <romulan> "gvorbs01.wav"
 	Sound <cardassian> "carbat_ackn1_att4_move4.wav"
@@ -1728,8 +1861,11 @@ Table
 	Sound <borg> "gvobor63.wav"
 	Sound <borg> "gvobor18.wav"
 	Sound <federation> "gvofbs16.wav"
+	Sound <bajoran> "gvofbs16.wav"
 	Sound <federation> "gvofbs17.wav"
+	Sound <bajoran> "gvofbs17.wav"
 	Sound <federation> "gvofbs18.wav"
+	Sound <bajoran> "gvofbs18.wav"
 	Sound <klingon> "gvokbs16.wav"
 	Sound <klingon> "gvokbs18.wav"
 	Sound <romulan> "gvorbs17.wav"
@@ -1762,8 +1898,11 @@ Table
 	Sound <borg> "gvobor45.wav"
 	Sound <borg> "gvobor08.wav"
 	Sound <federation> "gvofbs06.wav"
+	Sound <bajoran> "gvofbs06.wav"
 	Sound <federation> "gvofbs07.wav"
+	Sound <bajoran> "gvofbs07.wav"
 	Sound <federation> "gvofbs08.wav"
+	Sound <bajoran> "gvofbs08.wav"
 	Sound <klingon> "gvokbs06.wav"
 	Sound <klingon> "gvokbs07.wav"
 	Sound <klingon> "gvokbs08.wav"
@@ -1772,12 +1911,15 @@ Table
 	Sound <romulan> "gvorbs08.wav"
 	Sound <borg> "gvobor31.wav"
 	Sound <federation> "gvofbs01.wav"
+	Sound <bajoran> "gvofbs01.wav"
 	Sound <klingon> "gvokbs01.wav"
 	Sound <romulan> "gvorbs01.wav"
 	Sound <borg> "gvobor63.wav"
 	Sound <borg> "gvobor18.wav"
 	Sound <federation> "gvofbs16.wav"
+	Sound <bajoran> "gvofbs16.wav"
 	Sound <federation> "gvofbs17.wav"
+	Sound <bajoran> "gvofbs17.wav"
 	Sound <klingon> "gvokbs17.wav"
 	Sound <klingon> "gvokbs18.wav"
 	Sound <romulan> "gvorbs17.wav"
@@ -1811,6 +1953,7 @@ BattleStop{
 Table
 	Sound <borg> "gvobor21.wav"
 	Sound <federation> "gvofbs21.wav"
+	Sound <bajoran> "gvofbs21.wav"
 	Sound <klingon> "gvokbs21.wav"
 	Sound <romulan> "gvorbs21.wav"
 	Sound <cardassian> "cardes_stop1.wav"
@@ -1828,8 +1971,11 @@ Table
 	Sound <borg> "gvobor13.wav"
 	Sound <borg> "gvobor14.wav"
 	Sound <federation> "gvofbs11.wav"
+	Sound <bajoran> "gvofbs11.wav"
 	Sound <federation> "gvofbs12.wav"
+	Sound <bajoran> "gvofbs12.wav"
 	Sound <federation> "gvofbs13.wav"
+	Sound <bajoran> "gvofbs13.wav"
 	Sound <klingon> "gvokbs11.wav"
 	Sound <klingon> "gvokbs12.wav"
 	Sound <klingon> "gvokbs13.wav"
@@ -1838,12 +1984,15 @@ Table
 	Sound <romulan> "gvorbs13.wav"
 	Sound <borg> "gvobor31.wav"
 	Sound <federation> "gvofbs01.wav"
+	Sound <bajoran> "gvofbs01.wav"
 	Sound <klingon> "gvokbs01.wav"
 	Sound <romulan> "gvorbs01.wav"
 	Sound <borg> "gvobor63.wav"
 	Sound <borg> "gvobor18.wav"
 	Sound <federation> "gvofbs16.wav"
+	Sound <bajoran> "gvofbs16.wav"
 	Sound <federation> "gvofbs17.wav"
+	Sound <bajoran> "gvofbs17.wav"
 	Sound <klingon> "gvokbs17.wav"
 	Sound <klingon> "gvokbs18.wav"
 	Sound <romulan> "gvorbs17.wav"
@@ -1873,6 +2022,7 @@ BattleRepair{
 Table
 	Sound <borg> "gvobor26.wav"
 	Sound <federation> "gvofbs26.wav"
+	Sound <bajoran> "gvofbs26.wav"
 	Sound <klingon> "gvokbs26.wav"
 	Sound <romulan> "gvorbs26.wav"
 	Sound <cardassian> "carbat_repairs1.wav"
@@ -1892,6 +2042,7 @@ SuperAcknowledge{
 Table
 	Sound <borg> "gvobor31.wav"
 	Sound <federation> "gvofbs01.wav"
+	Sound <bajoran> "gvofbs01.wav"
 	Sound <klingon> "gvoksw01.wav"
 	Sound <romulan> "gvorsw01.wav"
 	Sound <cardassian> "carsup_ackn.wav"
@@ -1915,8 +2066,11 @@ Table
 	Sound <borg> "gvobor63.wav"
 	Sound <borg> "gvobor18.wav"
 	Sound <federation> "gvofbs16.wav"
+	Sound <bajoran> "gvofbs16.wav"
 	Sound <federation> "gvofbs17.wav"
+	Sound <bajoran> "gvofbs17.wav"
 	Sound <federation> "gvofbs18.wav"
+	Sound <bajoran> "gvofbs18.wav"
 	Sound <klingon> "gvoksw16.wav"
 	Sound <klingon> "gvoksw17.wav"
 	Sound <klingon> "gvoksw18.wav"
@@ -1963,6 +2117,7 @@ SuperStop{
 Table
 	Sound <borg> "gvobor21.wav"
 	Sound <federation> "gvofbs21.wav"
+	Sound <bajoran> "gvofbs21.wav"
 	Sound <klingon> "gvoksw21.wav"
 	Sound <romulan> "gvorsw21.wav"
 	Sound <cardassian> "carsup_stop.wav"
@@ -1980,8 +2135,11 @@ Table
 	Sound <borg> "gvobor13.wav"
 	Sound <borg> "gvobor14.wav"
 	Sound <federation> "gvofbs11.wav"
+	Sound <bajoran> "gvofbs11.wav"
 	Sound <federation> "gvofbs12.wav"
+	Sound <bajoran> "gvofbs12.wav"
 	Sound <federation> "gvofbs13.wav"
+	Sound <bajoran> "gvofbs13.wav"
 	Sound <klingon> "gvoksw11.wav"
 	Sound <klingon> "gvoksw12.wav"
 	Sound <klingon> "gvoksw13.wav"
@@ -1990,6 +2148,7 @@ Table
 	Sound <romulan> "gvorsw13.wav"
 	Sound <borg> "gvobor31.wav"
 	Sound <federation> "gvofbs01.wav"
+	Sound <bajoran> "gvofbs01.wav"
 	Sound <klingon> "gvoksw01.wav"
 	Sound <romulan> "gvorsw01.wav"
 	Sound <klingon> "gvoksw17.wav"
@@ -1999,7 +2158,9 @@ Table
 	Sound <borg> "gvobor63.wav"
 	Sound <borg> "gvobor18.wav"
 	Sound <federation> "gvofbs16.wav"
+	Sound <bajoran> "gvofbs16.wav"
 	Sound <federation> "gvofbs17.wav"
+	Sound <bajoran> "gvofbs17.wav"
 	Sound <cardassian> "carsup_move.wav"
 	Sound <species8472> "spe_move_1.wav"
 	Sound <species8472> "spe_move_2.wav"
@@ -2020,6 +2181,7 @@ SuperRepair{
 Table
 	Sound <borg> "gvobor26.wav"
 	Sound <federation> "gvofbs26.wav"
+	Sound <bajoran> "gvofbs26.wav"
 	Sound <klingon> "gvoksw26.wav"
 	Sound <romulan> "gvorsw26.wav"
 	Sound <cardassian> "carsup_repairs1.wav"
@@ -2040,6 +2202,7 @@ MoonDepleted{
 Table
 	Sound <borg> "gvobor29.wav"
 	Sound <federation> "gvoffc29.wav"
+	Sound <bajoran> "gvoffc29.wav"
 	Sound <klingon> "gvokfc29.wav"
 	Sound <romulan> "gvorfc29.wav"
 	Sound <cardassian> "carfre_moon_depleted.wav"
@@ -2052,6 +2215,7 @@ LatinumNebulaDepleted{
 Table
 	Sound <borg> "gvobcv21.wav"
 	Sound <federation> "fedfre_lat_depleted.wav"
+	Sound <bajoran> "fedfre_lat_depleted.wav"
 	Sound <klingon> "klifre_lat_depleted.wav"
 	Sound <romulan> "romfre_lat_depleted.wav"
 	Sound <cardassian> "carfre_lat_depleted.wav"
@@ -2065,8 +2229,11 @@ Table
 	Sound <borg> "gvobor04.wav"
 	Sound <borg> "gvobor31.wav"
 	Sound <federation> "gvoffc01.wav"
+	Sound <bajoran> "gvoffc01.wav"
 	Sound <federation> "gvoffc02.wav"
+	Sound <bajoran> "gvoffc02.wav"
 	Sound <federation> "gvoffc03.wav"
+	Sound <bajoran> "gvoffc03.wav"
 	Sound <klingon> "gvokfc01.wav"
 	Sound <klingon> "gvokfc02.wav"
 	Sound <klingon> "gvokfc03.wav"
@@ -2074,7 +2241,6 @@ Table
 	Sound <romulan> "gvorfc02.wav"
 	Sound <romulan> "gvorfc03.wav"
 	Sound <cardassian> "carfre_ackn1_move4.wav"
-	Sound <cardassian> "carfre_ackn2_move5.wav"
 	Sound <cardassian> "carfre_ackn2_move5.wav"
 	Sound <species8472> "spe_ackn.wav"
 	Sound <species8472> "spe_sel_1.wav"
@@ -2088,8 +2254,11 @@ Table
 	Sound <borg> "gvobor62.wav"
 	Sound <borg> "gvobor63.wav"
 	Sound <federation> "gvoffc16.wav"
+	Sound <bajoran> "gvoffc16.wav"
 	Sound <federation> "gvoffc17.wav"
+	Sound <bajoran> "gvoffc17.wav"
 	Sound <federation> "gvoffc18.wav"
+	Sound <bajoran> "gvoffc18.wav"
 	Sound <klingon> "gvokfc16.wav"
 	Sound <klingon> "gvokfc17.wav"
 	Sound <klingon> "gvokfc18.wav"
@@ -2122,6 +2291,7 @@ FreighterStop{
 Table
 	Sound <borg> "gvobor23.wav"
 	Sound <federation> "gvoffc21.wav"
+	Sound <bajoran> "gvoffc21.wav"
 	Sound <klingon> "gvokfc21.wav"
 	Sound <romulan> "gvorfc21.wav"
 	Sound <cardassian> "carfre_stop1.wav"
@@ -2139,8 +2309,11 @@ Table
 	Sound <borg> "gvobor13.wav"
 	Sound <borg> "gvobor14.wav"
 	Sound <federation> "gvoffc11.wav"
+	Sound <bajoran> "gvoffc11.wav"
 	Sound <federation> "gvoffc12.wav"
+	Sound <bajoran> "gvoffc12.wav"
 	Sound <federation> "gvoffc13.wav"
+	Sound <bajoran> "gvoffc13.wav"
 	Sound <klingon> "gvokfc11.wav"
 	Sound <klingon> "gvokfc12.wav"
 	Sound <klingon> "gvokfc13.wav"
@@ -2151,8 +2324,11 @@ Table
 	Sound <borg> "gvobor04.wav"
 	Sound <borg> "gvobor31.wav"
 	Sound <federation> "gvoffc01.wav"
+	Sound <bajoran> "gvoffc01.wav"
 	Sound <federation> "gvoffc02.wav"
+	Sound <bajoran> "gvoffc02.wav"
 	Sound <federation> "gvoffc03.wav"
+	Sound <bajoran> "gvoffc03.wav"
 	Sound <klingon> "gvokfc01.wav"
 	Sound <klingon> "gvokfc02.wav"
 	Sound <klingon> "gvokfc03.wav"
@@ -2184,6 +2360,7 @@ FreighterRepair{
 Table
 	Sound <borg> "gvobor26.wav"
 	Sound <federation> "gvoffc26.wav"
+	Sound <bajoran> "gvoffc26.wav"
 	Sound <klingon> "gvokfc26.wav"
 	Sound <romulan> "gvorfc26.wav"
 	Sound <cardassian> "carfre_repairs1.wav"
@@ -2203,7 +2380,9 @@ Table
 DataSelect{
 Table
 	Sound <federation> "gvoffc16.wav"
+	Sound <bajoran> "gvoffc16.wav"
 	Sound <federation> "gvoffc18.wav"
+	Sound <bajoran> "gvoffc18.wav"
 }
 
 ###################################################################################
@@ -2218,8 +2397,11 @@ Table
 	Sound <borg> "gvobor05.wav"
 	Sound <borg> "gvobor32.wav"
 	Sound <federation> "gvofcc01.wav"
+	Sound <bajoran> "gvofcc01.wav"
 	Sound <federation> "gvofcc02.wav"
+	Sound <bajoran> "gvofcc02.wav"
 	Sound <federation> "gvofcc03.wav"
+	Sound <bajoran> "gvofcc03.wav"
 	Sound <klingon> "gvokcc01.wav"
 	Sound <klingon> "gvokcc02.wav"
 	Sound <klingon> "gvokcc03.wav"
@@ -2249,8 +2431,11 @@ Table
 	Sound <borg> "gvobor61.wav"
 	Sound <borg> "gvobor18.wav"
 	Sound <federation> "gvofcc16.wav"
+	Sound <bajoran> "gvofcc16.wav"
 	Sound <federation> "gvofcc17.wav"
+	Sound <bajoran> "gvofcc17.wav"
 	Sound <federation> "gvofcc18.wav"
+	Sound <bajoran> "gvofcc18.wav"
 	Sound <klingon> "gvokcc16.wav"
 	Sound <klingon> "gvokcc17.wav"
 	Sound <klingon> "gvokcc18.wav"
@@ -2283,6 +2468,7 @@ ConstructStop{
 Table
 	Sound <borg> "gvobor22.wav"
 	Sound <federation> "gvofcc21.wav"
+	Sound <bajoran> "gvofcc21.wav"
 	Sound <klingon> "gvokcc21.wav"
 	Sound <romulan> "gvorcc21.wav"
 	Sound <cardassian> "carcon_stop1.wav"
@@ -2300,8 +2486,11 @@ Table
 	Sound <borg> "gvobor13.wav"
 	Sound <borg> "gvobor14.wav"
 	Sound <federation> "gvofcc11.wav"
+	Sound <bajoran> "gvofcc11.wav"
 	Sound <federation> "gvofcc12.wav"
+	Sound <bajoran> "gvofcc12.wav"
 	Sound <federation> "gvofcc13.wav"
+	Sound <bajoran> "gvofcc13.wav"
 	Sound <klingon> "gvokcc11.wav"
 	Sound <klingon> "gvokcc12.wav"
 	Sound <klingon> "gvokcc13.wav"
@@ -2312,7 +2501,9 @@ Table
 	Sound <borg> "gvobor05.wav"
 	Sound <borg> "gvobor32.wav"
 	Sound <federation> "gvofcc01.wav"
+	Sound <bajoran> "gvofcc01.wav"
 	Sound <federation> "gvofcc02.wav"
+	Sound <bajoran> "gvofcc02.wav"
 	Sound <klingon> "gvokcc01.wav"
 	Sound <klingon> "gvokcc02.wav"
 	Sound <klingon> "gvokcc03.wav"
@@ -2344,6 +2535,7 @@ ConstructRepair{
 Table
 	Sound <borg> "gvobor26.wav"
 	Sound <federation> "gvofcc26.wav"
+	Sound <bajoran> "gvofcc26.wav"
 	Sound <klingon> "gvokcc26.wav"
 	Sound <romulan> "gvorcc26.wav"
 	Sound <cardassian> "carcon_repairs1.wav"
@@ -2370,6 +2562,7 @@ AssaultAcknowledge{
 Table
 	Sound <borg> "gvobor01.wav"
 	Sound <federation> "fedass_ackn1_att4_move4.wav"
+	Sound <bajoran> "fedass_ackn1_att4_move4.wav"
 	Sound <klingon> "kliass_ackn1_att4_move4.wav"
 	Sound <romulan> "romass_ackn1_rep1.wav"
 	Sound <cardassian> "carass_ackn1_att4_move4.wav"
@@ -2392,8 +2585,11 @@ Table
 	Sound <borg> "gvobor62.wav"
 	Sound <borg> "gvobor63.wav"
 	Sound <federation> "fedass_sel1_att5_move5.wav"
+	Sound <bajoran> "fedass_sel1_att5_move5.wav"
 	Sound <federation> "fedass_sel2_att6_move6.wav"
+	Sound <bajoran> "fedass_sel2_att6_move6.wav"
 	Sound <federation> "fedass_select3.wav"
+	Sound <bajoran> "fedass_select3.wav"
 	Sound <klingon> "kliass_sel1_att5_move5.wav"
 	Sound <klingon> "kliass_sel2_att6_move6.wav"
 	Sound <klingon> "kliass_select3.wav"
@@ -2429,11 +2625,17 @@ Table
 	Sound <borg> "gvobor18.wav"
 	Sound <borg> "gvobor31.wav"
 	Sound <federation> "fedass_attack1.wav"
+	Sound <bajoran> "fedass_attack1.wav"
 	Sound <federation> "fedass_attack2.wav"
+	Sound <bajoran> "fedass_attack2.wav"
 	Sound <federation> "fedass_attack3.wav"
+	Sound <bajoran> "fedass_attack3.wav"
 	Sound <federation> "fedass_ackn1_att4_move4.wav"
+	Sound <bajoran> "fedass_ackn1_att4_move4.wav"
 	Sound <federation> "fedass_sel1_att5_move5.wav"
+	Sound <bajoran> "fedass_sel1_att5_move5.wav"
 	Sound <federation> "fedass_sel2_att6_move6.wav"
+	Sound <bajoran> "fedass_sel2_att6_move6.wav"
 	Sound <klingon> "kliass_attack1.wav"
 	Sound <klingon> "kliass_attack3.wav"
 	Sound <klingon> "kliass_ackn1_att4_move4.wav"
@@ -2465,6 +2667,7 @@ AssaultStop{
 Table
 	Sound <borg> "gvobor23.wav"
 	Sound <federation> "fedass_stop1.wav"
+	Sound <bajoran> "fedass_stop1.wav"
 	Sound <klingon> "kliass_stop1.wav"
 	Sound <romulan> "romass_stop1.wav"
 	Sound <cardassian> "carass_stop1.wav"
@@ -2485,11 +2688,17 @@ Table
 	Sound <borg> "gvobor04.wav"
 	Sound <borg> "gvobor31.wav"
 	Sound <federation> "fedass_move1.wav"
+	Sound <bajoran> "fedass_move1.wav"
 	Sound <federation> "fedass_move2.wav"
+	Sound <bajoran> "fedass_move2.wav"
 	Sound <federation> "fedass_move3.wav"
+	Sound <bajoran> "fedass_move3.wav"
 	Sound <federation> "fedass_ackn1_att4_move4.wav"
+	Sound <bajoran> "fedass_ackn1_att4_move4.wav"
 	Sound <federation> "fedass_sel1_att5_move5.wav"
+	Sound <bajoran> "fedass_sel1_att5_move5.wav"
 	Sound <federation> "fedass_sel2_att6_move6.wav"
+	Sound <bajoran> "fedass_sel2_att6_move6.wav"
 	Sound <klingon> "kliass_move1.wav"
 	Sound <klingon> "kliass_move2.wav"
 	Sound <klingon> "kliass_move3.wav"
@@ -2497,7 +2706,6 @@ Table
 	Sound <klingon> "kliass_sel1_att5_move5.wav"
 	Sound <klingon> "kliass_sel2_att6_move6.wav"
 	Sound <romulan> "romass_move1.wav"
-	Sound <romulan> "romass_move2.wav"
 	Sound <romulan> "romass_move2.wav"
 	Sound <romulan> "romass_move4.wav"
 	Sound <romulan> "romass_move5.wav"
@@ -2522,6 +2730,7 @@ AssaultRepair{
 Table
 	Sound <borg> "gvobor26.wav"
 	Sound <federation> "fedass_repairs1.wav"
+	Sound <bajoran> "fedass_repairs1.wav"
 	Sound <klingon> "kliass_repairs1.wav"
 	Sound <romulan> "romass_ackn1_rep1.wav""
 	Sound <cardassian> "carass_repairs1.wav"
@@ -2544,6 +2753,7 @@ ColonizeStarted{
 Table
 	Sound <borg> "borev_colon_begun.wav"
 	Sound <federation> "fedcolon_begun.wav"
+	Sound <bajoran> "fedcolon_begun.wav"
 	Sound <klingon> "klicolon_begun.wav"
 	Sound <romulan> "romcolon_begun.wav"
 	Sound <cardassian> "carcolon_begun.wav"
@@ -2560,8 +2770,11 @@ Table
 	Sound <borg> "gvobor05.wav"
 	Sound <borg> "gvobor32.wav"
 	Sound <federation> "fedcolon_ackn1_move4.wav"
+	Sound <bajoran> "fedcolon_ackn1_move4.wav"
 	Sound <federation> "fedcolon_ackn2_move5.wav"
+	Sound <bajoran> "fedcolon_ackn2_move5.wav"
 	Sound <federation> "fedcolon_ackn3.wav"
+	Sound <bajoran> "fedcolon_ackn3.wav"
 	Sound <klingon> "klicolon_ackn1_move4.wav"
 	Sound <klingon> "klicolon_ackn2_move5.wav"
 	Sound <klingon> "klicolon_ackn3_move6.wav"
@@ -2590,8 +2803,11 @@ Table
 	Sound <borg> "gvobor61.wav"
 	Sound <borg> "gvobor18.wav"
 	Sound <federation> "fedcolon_select1.wav"
+	Sound <bajoran> "fedcolon_select1.wav"
 	Sound <federation> "fedcolon_select2.wav"
+	Sound <bajoran> "fedcolon_select2.wav"
 	Sound <federation> "fedcolon_select3.wav"
+	Sound <bajoran> "fedcolon_select3.wav"
 	Sound <klingon> "klicolon_select1.wav"
 	Sound <klingon> "klicolon_select2.wav"
 	Sound <klingon> "klicolon_select3.wav"
@@ -2621,6 +2837,7 @@ ColonyStop{
 Table
 	Sound <borg> "gvobor22.wav"
 	Sound <federation> "fedcolon_stop1.wav"
+	Sound <bajoran> "fedcolon_stop1.wav"
 	Sound <klingon> "klicolon_stop1.wav"
 	Sound <romulan> "romcolon_stop1.wav"
 	Sound <cardassian> "carcolon_stop1.wav"
@@ -2640,10 +2857,15 @@ Table
 	Sound <borg> "gvobor05.wav"
 	Sound <borg> "gvobor32.wav"
 	Sound <federation> "fedcolon_move1.wav"
+	Sound <bajoran> "fedcolon_move1.wav"
 	Sound <federation> "fedcolon_move2.wav"
+	Sound <bajoran> "fedcolon_move2.wav"
 	Sound <federation> "fedcolon_move3.wav"
+	Sound <bajoran> "fedcolon_move3.wav"
 	Sound <federation> "fedcolon_ackn1_move4.wav"
+	Sound <bajoran> "fedcolon_ackn1_move4.wav"
 	Sound <federation> "fedcolon_ackn2_move5.wav"
+	Sound <bajoran> "fedcolon_ackn2_move5.wav"
 	Sound <klingon> "klicolon_move1.wav"
 	Sound <klingon> "klicolon_move2.wav"
 	Sound <klingon> "klicolon_move3.wav"
@@ -2676,6 +2898,7 @@ ColonyRepair{
 Table
 	Sound <borg> "gvobor26.wav"
 	Sound <federation> "gvofcc26.wav"
+	Sound <bajoran> "gvofcc26.wav"
 	Sound <klingon> "klicolon_repairs1.wav"
 	Sound <romulan> "romcolon_ackn2_repairs1.wav"
 	Sound <cardassian> "carcolon_repairs1.wav"
@@ -2694,8 +2917,11 @@ Table
 CargoAcknowledge{
 Table
 	Sound <federation> "fedcar_ackn1_move4.wav"
+	Sound <bajoran> "fedcar_ackn1_move4.wav"
 	Sound <federation> "fedcar_ackn2_move5.wav"
+	Sound <bajoran> "fedcar_ackn2_move5.wav"
 	Sound <federation> "fedcar_ackn3_move6.wav"
+	Sound <bajoran> "fedcar_ackn3_move6.wav"
 	Sound <klingon> "klicar_ackn1_move4.wav"
 	Sound <klingon> "klicar_ackn2_move5.wav"
 	Sound <klingon> "klicar_ackn3_move6.wav"
@@ -2721,8 +2947,11 @@ Table
 CargoSelect{
 Table
 	Sound <federation> "fedcar_select1.wav"
+	Sound <bajoran> "fedcar_select1.wav"
 	Sound <federation> "fedcar_select2.wav"
+	Sound <bajoran> "fedcar_select2.wav"
 	Sound <federation> "fedcar_select3.wav"
+	Sound <bajoran> "fedcar_select3.wav"
 	Sound <klingon> "klicar_select1.wav"
 	Sound <klingon> "klicar_select2.wav"
 	Sound <klingon> "klicar_select3.wav"
@@ -2751,6 +2980,7 @@ Table
 CargoStop{
 Table
 	Sound <federation> "fedcar_stop1.wav"
+	Sound <bajoran> "fedcar_stop1.wav"
 	Sound <klingon> "klicar_stop1.wav"
 	Sound <romulan> "romcar_stop1.wav"
 	Sound <cardassian> "carcar_stop1.wav"
@@ -2763,11 +2993,17 @@ Table
 CargoMove{
 Table
 	Sound <federation> "fedcar_move1.wav"
+	Sound <bajoran> "fedcar_move1.wav"
 	Sound <federation> "fedcar_move2.wav"
+	Sound <bajoran> "fedcar_move2.wav"
 	Sound <federation> "fedcar_move3.wav"
+	Sound <bajoran> "fedcar_move3.wav"
 	Sound <federation> "fedcar_ackn1_move4.wav"
+	Sound <bajoran> "fedcar_ackn1_move4.wav"
 	Sound <federation> "fedcar_ackn2_move5.wav"
+	Sound <bajoran> "fedcar_ackn2_move5.wav"
 	Sound <federation> "fedcar_ackn3_move6.wav"
+	Sound <bajoran> "fedcar_ackn3_move6.wav"
 	Sound <klingon> "klicar_move1.wav"
 	Sound <klingon> "klicar_move2.wav"
 	Sound <klingon> "klicar_move3.wav"
@@ -2799,6 +3035,7 @@ Table
 CargoRepair{
 Table
 	Sound <federation> "fedcar_repairs1.wav"
+	Sound <bajoran> "fedcar_repairs1.wav"
 	Sound <klingon> "klicar_repairs1.wav"
 	Sound <romulan> "romcar_repairs1.wav"
 	Sound <cardassian> "carcar_repairs1.wav"
@@ -2811,6 +3048,7 @@ Table
 TradeComplete{
 Table
 	Sound <federation> "fedcar_trade_comp.wav"
+	Sound <bajoran> "fedcar_trade_comp.wav"
 	Sound <klingon> "klicar_trade_comp.wav"
 	Sound <romulan> "romcar_trade_comp.wav"
 	Sound <cardassian> "carcar_trade_comp.wav"
@@ -2828,6 +3066,7 @@ RepairTargetShip{
 Table
 	Sound <borg> "gvobor34.wav"
 	Sound <federation> "fedrep_repair_ship.wav"
+	Sound <bajoran> "fedrep_repair_ship.wav"
 	Sound <klingon> "klirep_repair_ship.wav"
 	Sound <romulan> "romrep_repair_ship.wav"
 	Sound <cardassian> "carrep_repair_ship.wav"
@@ -2837,6 +3076,7 @@ RepairTargetStation{
 Table
 	Sound <borg> "gvobor05.wav"
 	Sound <federation> "fedrep_repair_sta.wav"
+	Sound <bajoran> "fedrep_repair_sta.wav"
 	Sound <klingon> "klirep_repair_sta.wav"
 	Sound <romulan> "romrep_repair_sta.wav"
 	Sound <cardassian> "carrep_repair_sta.wav"
@@ -2846,10 +3086,12 @@ RepairAcknowledge{
 Table
 	Sound <borg> "gvobor34.wav"
 	Sound <borg> "gvobor05.wav"
-	Sound <borg> "gvobor05.wav"
 	Sound <federation> "fedrep_ackn1_move4.wav"
+	Sound <bajoran> "fedrep_ackn1_move4.wav"
 	Sound <federation> "fedrep_ackn2_move5.wav"
+	Sound <bajoran> "fedrep_ackn2_move5.wav"
 	Sound <federation> "fedrep_ackn3_move6.wav"
+	Sound <bajoran> "fedrep_ackn3_move6.wav"
 	Sound <klingon> "klirep_ackn1_move4.wav"
 	Sound <klingon> "klirep_ackn2_move5.wav"
 	Sound <klingon> "klirep_ackn3_move6.wav"
@@ -2867,8 +3109,11 @@ Table
 	Sound <borg> "gvobor61.wav"
 	Sound <borg> "gvobor18.wav"	
 	Sound <federation> "fedrep_select1.wav"
+	Sound <bajoran> "fedrep_select1.wav"
 	Sound <federation> "fedrep_select2.wav"
+	Sound <bajoran> "fedrep_select2.wav"
 	Sound <federation> "fedrep_ackn3_move6.wav"
+	Sound <bajoran> "fedrep_ackn3_move6.wav"
 	Sound <klingon> "klirep_select1.wav"
 	Sound <klingon> "klirep_select2.wav"
 	Sound <klingon> "klirep_select3.wav"
@@ -2898,6 +3143,7 @@ RepairStop{
 Table
 	Sound <borg> "gvobor22.wav"
 	Sound <federation> "fedrep_stop1.wav"
+	Sound <bajoran> "fedrep_stop1.wav"
 	Sound <klingon> "klirep_stop1.wav"
 	Sound <romulan> "romrep_stop1.wav"
 	Sound <cardassian> "carrep_stop1.wav"
@@ -2916,11 +3162,17 @@ Table
 	Sound <borg> "gvobor05.wav"
 	Sound <borg> "gvobor32.wav"
 	Sound <federation> "fedrep_move1.wav"
+	Sound <bajoran> "fedrep_move1.wav"
 	Sound <federation> "fedrep_move2.wav"
+	Sound <bajoran> "fedrep_move2.wav"
 	Sound <federation> "fedrep_move3.wav"
+	Sound <bajoran> "fedrep_move3.wav"
 	Sound <federation> "fedrep_ackn1_move4.wav"
+	Sound <bajoran> "fedrep_ackn1_move4.wav"
 	Sound <federation> "fedrep_ackn2_move5.wav"
+	Sound <bajoran> "fedrep_ackn2_move5.wav"
 	Sound <federation> "fedrep_ackn3_move6.wav"
+	Sound <bajoran> "fedrep_ackn3_move6.wav"
 	Sound <klingon> "klirep_move1.wav"
 	Sound <klingon> "klirep_move2.wav"
 	Sound <klingon> "klirep_move3.wav"
@@ -2953,6 +3205,7 @@ RepairRepair{
 Table
 	Sound <borg> "gvobor26.wav"
 	Sound <federation> "fedrep_repairs1.wav"
+	Sound <bajoran> "fedrep_repairs1.wav"
 	Sound <klingon> "klirep_repairs1.wav"
 	Sound <romulan> "romrep_repairs1.wav"
 	Sound <cardassian> "carrep_repairs1.wav"
@@ -2973,6 +3226,7 @@ FrigateAcknowledge{
 Table
 	Sound <borg> "gvobor30.wav"
 	Sound <federation> "fedfrig_select2.wav"
+	Sound <bajoran> "fedfrig_select2.wav"
 	Sound <klingon> "klifrig_ackn1.wav"
 	Sound <romulan> "romfrig_ackn1.wav"
 	Sound <cardassian> "carfrig_ackn1.wav"
@@ -2996,8 +3250,11 @@ Table
 	Sound <borg> "gvobor19.wav"
 	Sound <borg> "gvobor60.wav"
 	Sound <federation> "fedfrig_sel1_att4.wav"
+	Sound <bajoran> "fedfrig_sel1_att4.wav"
 	Sound <federation> "fedfrig_select2.wav"
+	Sound <bajoran> "fedfrig_select2.wav"
 	Sound <federation> "fedfrig_sel3_att6.wav"
+	Sound <bajoran> "fedfrig_sel3_att6.wav"
 	Sound <klingon> "klifrig_sel1_att4.wav"
 	Sound <klingon> "klifrig_select2.wav"
 	Sound <klingon> "klifrig_sel3_att6.wav"
@@ -3035,11 +3292,17 @@ Table
 	Sound <borg> "gvobor19.wav"
 	Sound <borg> "gvobor60.wav"
 	Sound <federation> "fedfrig_attack1.wav"
+	Sound <bajoran> "fedfrig_attack1.wav"
 	Sound <federation> "fedfrig_attack2.wav"	
+	Sound <bajoran> "fedfrig_attack2.wav"	
 	Sound <federation> "fedfrig_attack3.wav"
+	Sound <bajoran> "fedfrig_attack3.wav"
 	Sound <federation> "fedfrig_sel1_att4.wav"
+	Sound <bajoran> "fedfrig_sel1_att4.wav"
 	Sound <federation> "fedfrig_attack5.wav"
+	Sound <bajoran> "fedfrig_attack5.wav"
 	Sound <federation> "fedfrig_sel3_att6.wav"
+	Sound <bajoran> "fedfrig_sel3_att6.wav"
 	Sound <klingon> "klifrig_attack1.wav"
 	Sound <klingon> "klifrig_attack2.wav"
 	Sound <klingon> "klifrig_attack3.wav"
@@ -3082,6 +3345,7 @@ FrigateStop{
 Table
 	Sound <borg> "gvobor23.wav"
 	Sound <federation> "fedfrig_stop1.wav"
+	Sound <bajoran> "fedfrig_stop1.wav"
 	Sound <klingon> "klifrig_stop1.wav"
 	Sound <romulan> "romfrig_stop1.wav"
 	Sound <cardassian> "carfrig_stop1.wav"
@@ -3099,9 +3363,13 @@ Table
 	Sound <borg> "gvobor62.wav"
 	Sound <borg> "gvobor63.wav"
 	Sound <federation> "fedfrig_move1.wav"
+	Sound <bajoran> "fedfrig_move1.wav"
 	Sound <federation> "fedfrig_move2.wav"
+	Sound <bajoran> "fedfrig_move2.wav"
 	Sound <federation> "fedfrig_move3.wav"
+	Sound <bajoran> "fedfrig_move3.wav"
 	Sound <federation> "fedfrig_move4.wav"
+	Sound <bajoran> "fedfrig_move4.wav"
 	Sound <klingon> "klifrig_move1.wav"
 	Sound <klingon> "klifrig_move2.wav"
 	Sound <klingon> "klifrig_move3.wav"
@@ -3133,6 +3401,7 @@ FrigateRepair{
 Table
 	Sound <borg> "gvobor26.wav"
 	Sound <federation> "fedfrig_repairs1.wav"
+	Sound <bajoran> "fedfrig_repairs1.wav"
 	Sound <klingon> "klifrig_repairs1.wav"
 	Sound <romulan> "romfrig_repairs1.wav"
 	Sound <cardassian> "carfrig_repairs1.wav"
@@ -3153,6 +3422,7 @@ PicardAcknowledge{
 Table
 	Sound <borg> "gvobor31.wav"
 	Sound <federation> "gvopic01.wav"
+	Sound <bajoran> "gvopic01.wav"
 	Sound <klingon> "gvokbs01.wav"
 	Sound <romulan> "gvorbs01.wav"
 SoundPriority 2
@@ -3161,7 +3431,9 @@ SoundPriority 2
 PicardSelect{
 Table
 	Sound <federation> "gvopic16.wav"
+	Sound <bajoran> "gvopic16.wav"
 	Sound <federation> "gvopic20.wav"
+	Sound <bajoran> "gvopic20.wav"
 	Sound <borg> "gvobor17.wav"
 	Sound <borg> "gvobor63.wav"
 	Sound <borg> "gvobor18.wav"
@@ -3176,12 +3448,19 @@ SoundPriority 2
 PicardAttack{
 Table
 	Sound <federation> "gvopic06.wav"
+	Sound <bajoran> "gvopic06.wav"
 	Sound <federation> "gvopic07.wav"
+	Sound <bajoran> "gvopic07.wav"
 	Sound <federation> "gvopic01.wav"
+	Sound <bajoran> "gvopic01.wav"
 	Sound <federation> "gvopic08.wav"
+	Sound <bajoran> "gvopic08.wav"
 	Sound <federation> "gvopic09.wav"
+	Sound <bajoran> "gvopic09.wav"
 	Sound <federation> "gvopic10.wav"
+	Sound <bajoran> "gvopic10.wav"
 	Sound <federation> "gvopic40.wav"
+	Sound <bajoran> "gvopic40.wav"
 	Sound <borg> "gvobor10.wav"
 	Sound <borg> "gvobor45.wav"
 	Sound <borg> "gvobor08.wav"
@@ -3197,24 +3476,28 @@ SoundPriority 2
 PicardRedAlert{
 Table
 	Sound <federation> "gvopic98.wav"
+	Sound <bajoran> "gvopic98.wav"
 SoundPriority 2
 }
 
 PicardYellowAlert{
 Table
 	Sound <federation> "gvopic95.wav"
+	Sound <bajoran> "gvopic95.wav"
 SoundPriority 2
 }
 
 PicardGreenAlert{
 Table
 	Sound <federation> "gvopic99.wav"
+	Sound <bajoran> "gvopic99.wav"
 SoundPriority 2
 }
 
 PicardStop{
 Table
 	Sound <federation> "gvopic21.wav"
+	Sound <bajoran> "gvopic21.wav"
 	Sound <borg> "gvobor21.wav"
 	Sound <klingon> "gvokbs21.wav"
 	Sound <romulan> "gvorbs21.wav"
@@ -3224,9 +3507,13 @@ SoundPriority 2
 PicardMove{
 Table
 	Sound <federation> "gvopic12.wav"
+	Sound <bajoran> "gvopic12.wav"
 	Sound <federation> "gvopic11.wav"
+	Sound <bajoran> "gvopic11.wav"
 	Sound <federation> "gvopic15.wav"
+	Sound <bajoran> "gvopic15.wav"
 	Sound <federation> "gvopic50.wav"
+	Sound <bajoran> "gvopic50.wav"
 	Sound <borg> "gvobor11.wav"
 	Sound <borg> "gvobor12.wav"
 	Sound <borg> "gvobor13.wav"
@@ -3242,6 +3529,7 @@ SoundPriority 2
 PicardRepair{
 Table
 	Sound <federation> "gvopic26.wav"
+	Sound <bajoran> "gvopic26.wav"
 	Sound <borg> "gvobor26.wav"
 	Sound <klingon> "gvokbs26.wav"
 	Sound <romulan> "gvorbs26.wav"
@@ -3251,7 +3539,9 @@ SoundPriority 2
 PicardTransport{
 Table
 	Sound <federation> "gvopic97.wav"
+	Sound <bajoran> "gvopic97.wav"
 	Sound <federation> "gvopic96.wav"
+	Sound <bajoran> "gvopic96.wav"
 SoundPriority 2
 }
 
@@ -3265,6 +3555,7 @@ Table
 	Sound <klingon> "gvomar01.wav"
 	Sound <borg> "gvobor31.wav"
 	Sound <federation> "gvofbs01.wav"
+	Sound <bajoran> "gvofbs01.wav"
 	Sound <romulan> "gvorbs01.wav"
 SoundPriority 1
 }
@@ -3281,8 +3572,11 @@ Table
 	Sound <borg> "gvobor63.wav"
 	Sound <borg> "gvobor18.wav"
 	Sound <federation> "gvofbs16.wav"
+	Sound <bajoran> "gvofbs16.wav"
 	Sound <federation> "gvofbs17.wav"
+	Sound <bajoran> "gvofbs17.wav"
 	Sound <federation> "gvofbs18.wav"
+	Sound <bajoran> "gvofbs18.wav"
 	Sound <romulan> "gvorbs17.wav"
 	Sound <romulan> "gvorbs18.wav"
 SoundPriority 1
@@ -3300,8 +3594,11 @@ Table
 	Sound <borg> "gvobor45.wav"
 	Sound <borg> "gvobor08.wav"
 	Sound <federation> "gvofbs06.wav"
+	Sound <bajoran> "gvofbs06.wav"
 	Sound <federation> "gvofbs07.wav"
+	Sound <bajoran> "gvofbs07.wav"
 	Sound <federation> "gvofbs08.wav"
+	Sound <bajoran> "gvofbs08.wav"
 	Sound <romulan> "gvorbs06.wav"
 	Sound <romulan> "gvorbs07.wav"
 	Sound <romulan> "gvorbs08.wav"
@@ -3314,6 +3611,7 @@ Table
 	Sound <klingon> "gvomar21.wav"
 	Sound <borg> "gvobor21.wav"
 	Sound <federation> "gvofbs21.wav"
+	Sound <bajoran> "gvofbs21.wav"
 	Sound <romulan> "gvorbs21.wav"
 SoundPriority 1
 }
@@ -3331,8 +3629,11 @@ Table
 	Sound <borg> "gvobor12.wav"
 	Sound <borg> "gvobor13.wav"
 	Sound <federation> "gvofbs11.wav"
+	Sound <bajoran> "gvofbs11.wav"
 	Sound <federation> "gvofbs12.wav"
+	Sound <bajoran> "gvofbs12.wav"
 	Sound <federation> "gvofbs13.wav"
+	Sound <bajoran> "gvofbs13.wav"
 	Sound <romulan> "gvorbs11.wav"
 	Sound <romulan> "gvorbs12.wav"
 	Sound <romulan> "gvorbs13.wav"
@@ -3344,6 +3645,7 @@ Table
 	Sound <klingon> "gvomar26.wav"
 	Sound <borg> "gvobor26.wav"
 	Sound <federation> "gvofbs26.wav"
+	Sound <bajoran> "gvofbs26.wav"
 	Sound <romulan> "gvorbs26.wav"
 SoundPriority 1
 }
@@ -3557,69 +3859,101 @@ Table
 QAcknowledge{
 Table
 	Sound <federation> "admiralq.wav"
+	Sound <bajoran> "admiralq.wav"
 	Sound <federation> "letsgo.wav"
+	Sound <bajoran> "letsgo.wav"
 	Sound <federation> "fountid.wav"
+	Sound <bajoran> "fountid.wav"
 	Sound <federation> "niceprog.wav"
+	Sound <bajoran> "niceprog.wav"
 	Sound <federation> "itsbrill.wav"
+	Sound <bajoran> "itsbrill.wav"
 	Sound <federation> "qcontnow.wav"
+	Sound <bajoran> "qcontnow.wav"
 }
 
 QSelect{
 Table
 	Sound <federation> "impress.wav"
+	Sound <bajoran> "impress.wav"
 	Sound <federation> "capitain.wav"
+	Sound <bajoran> "capitain.wav"
 	Sound <federation> "game1.wav"
+	Sound <bajoran> "game1.wav"
 	Sound <federation> "hereiam.wav"
+	Sound <bajoran> "hereiam.wav"
 	Sound <federation> "starlog.wav"
+	Sound <bajoran> "starlog.wav"
 	Sound <federation> "aucont.wav"
+	Sound <bajoran> "aucont.wav"
 }
 
 QAttack{
 Table
 	Sound <federation> "goodchal.wav"
+	Sound <bajoran> "goodchal.wav"
 	Sound <federation> "godmercy.wav"
+	Sound <bajoran> "godmercy.wav"
 	Sound <federation> "manomano.wav"
+	Sound <bajoran> "manomano.wav"
 	Sound <federation> "missthat.wav"
+	Sound <bajoran> "missthat.wav"
 	Sound <federation> "temper.wav"
+	Sound <bajoran> "temper.wav"
 	Sound <federation> "endtrek.wav"
+	Sound <bajoran> "endtrek.wav"
 	Sound <federation> "danger.wav"
+	Sound <bajoran> "danger.wav"
 	Sound <federation> "game1.wav"
+	Sound <bajoran> "game1.wav"
 }
 
 QStop{
 Table
 	Sound <federation> "pitiful.wav"
+	Sound <bajoran> "pitiful.wav"
 	Sound <federation> "qplease.wav"
+	Sound <bajoran> "qplease.wav"
 	Sound <federation> "rules.wav"
+	Sound <bajoran> "rules.wav"
 }
 
 QMove{
 Table
 	Sound <federation> "danger.wav"
+	Sound <bajoran> "danger.wav"
 	Sound <federation> "rules.wav"
+	Sound <bajoran> "rules.wav"
 }
 
 QRepair{
 Table
 	Sound <federation> "missme.wav"
+	Sound <bajoran> "missme.wav"
 	Sound <federation> "imback.wav"
+	Sound <bajoran> "imback.wav"
 	Sound <federation> "outthere.wav"
+	Sound <bajoran> "outthere.wav"
 }
 
 QRedAlert{
 Table
 	Sound <federation> "qredalrt.wav"
+	Sound <bajoran> "qredalrt.wav"
 	Sound <federation> "temper.wav"
+	Sound <bajoran> "temper.wav"
 }
 
 QYellowAlert{
 Table
 	Sound <federation> "qplease.wav"
+	Sound <bajoran> "qplease.wav"
 }
 
 QGreenAlert{
 Table
 	Sound <federation> "genweak.wav"
+	Sound <bajoran> "genweak.wav"
 }
 
 #################################################################################
@@ -3641,13 +3975,13 @@ StarbaseAcknowledge{
 Table
 	Sound <dominion> "found015.wav"
 	Sound <dominion> "found006.wav"
-	Sound <dominion> "found015.wav"
 }
 
 StarbaseSelect{
 Table
 	Sound <borg> "borg_base.wav"
 	Sound <federation> "bufbase.wav"
+	Sound <bajoran> "bufbase.wav"
 	Sound <klingon> "bufbase.wav"
 	Sound <romulan> "bufbase.wav"
 	Sound <cardassian> "car_base_sel.wav"
@@ -3693,6 +4027,7 @@ MiningStationSelect{
 Table
 	Sound <borg> "bufmine.wav"
 	Sound <federation> "bufmine.wav"
+	Sound <bajoran> "bufmine.wav"
 	Sound <klingon> "bufmine.wav"
 	Sound <romulan> "bufmine.wav"
 	Sound <cardassian> "car_mining_sel.wav"
@@ -3714,6 +4049,7 @@ ResearchStationSelect{
 Table
 	Sound <borg> "borg_res.wav"
 	Sound <federation> "burres.wav"
+	Sound <bajoran> "burres.wav"
 	Sound <klingon> "burres.wav"
 	Sound <romulan> "burres.wav"
 	Sound <cardassian> "car_resear_sel.wav"
@@ -3736,6 +4072,7 @@ AdvResearchStationSelect{
 Table
 	Sound <borg> "borg_research_2.wav"
 	Sound <federation> "bufres2.wav"
+	Sound <bajoran> "bufres2.wav"
 	Sound <klingon> "bufres2.wav"
 	Sound <romulan> "bufres2.wav"
 	Sound <cardassian> "car_resear2_sel.wav"
@@ -3758,6 +4095,7 @@ ShipyardSelect{
 Table
 	Sound <borg> "borg_shipyard.wav"
 	Sound <federation> "shipyard.wav"
+	Sound <bajoran> "shipyard.wav"
 	Sound <klingon> "shipyard.wav"
 	Sound <romulan> "shipyard.wav"
 	Sound <cardassian> "car_yard_sel.wav"
@@ -3780,6 +4118,7 @@ AdvShipyardSelect{
 Table
 	Sound <borg> "borg_yard2.wav"
 	Sound <federation> "adv_shipyard.wav"
+	Sound <bajoran> "adv_shipyard.wav"
 	Sound <klingon> "adv_shipyard.wav"
 	Sound <romulan> "adv_shipyard.wav"
 	Sound <cardassian> "car_yard2_sel.wav"
@@ -3838,6 +4177,7 @@ SensorSelect{
 Table
 	Sound <borg> "bursen.wav"
 	Sound <federation> "bursen.wav"
+	Sound <bajoran> "bursen.wav"
 	Sound <klingon> "bursen.wav"
 	Sound <romulan> "bursen.wav"
 	Sound <cardassian> "car_sensor_sel.wav"
@@ -3859,6 +4199,7 @@ PhotonTurretSelect{
 Table
 	Sound <borg> "bubturr2.wav"
 	Sound <federation> "bukturr2.wav"
+	Sound <bajoran> "bukturr2.wav"
 	Sound <klingon> "bukturr2.wav"
 	Sound <romulan> "bukturr2.wav"
 	Sound <cardassian> "car_resear2_sel.wav"
@@ -3869,6 +4210,7 @@ PhotonTurretAttack{
 Table
 	Sound <borg> "pobturr.wav"
 	Sound <federation> "pofwea2.wav"
+	Sound <bajoran> "pofwea2.wav"
 	Sound <klingon> "pokplas.wav"
 	Sound <romulan> "porwea.wav"
 Voice 0
@@ -3889,6 +4231,7 @@ PhaserTurretSelect{
 Table
 	Sound <borg> "bubturr.wav"
 	Sound <federation> "turret.wav"
+	Sound <bajoran> "turret.wav"
 	Sound <klingon> "turret.wav"
 	Sound <romulan> "turret.wav"
 	Sound <cardassian> "car_turret_sel.wav"
@@ -3900,6 +4243,7 @@ PhaserTurretAttack{
 Table
 	Sound <borg> "phbturr.wav"
 	Sound <federation> "phfturr.wav"
+	Sound <bajoran> "phfturr.wav"
 	Sound <klingon> "phkwea.wav"
 	Sound <romulan> "phrwea.wav"
 Voice 0
@@ -3942,6 +4286,7 @@ OrbitalFacilityAcknowledge{
 OrbitalFacilitySelect{
 Table
 	Sound <federation> "fed_orbital_sel.wav"
+	Sound <bajoran> "fed_orbital_sel.wav"
 	Sound <klingon> "kli_orbital_sel.wav"
 	Sound <romulan> "rom_orbital_sel.wav"
 	Sound <cardassian> "car_orbital_sel.wav"
@@ -3962,6 +4307,7 @@ TradingStationAcknowledge{
 TradingStationSelect{
 Table
 	Sound <federation> "fed_trade_sel.wav"
+	Sound <bajoran> "fed_trade_sel.wav"
 	Sound <klingon> "kli_trade_sel.wav"
 	Sound <romulan> "rom_trade_sel.wav"
 	Sound <cardassian> "car_trade_sel.wav"
@@ -3983,6 +4329,7 @@ ShipUpgradeStationSelect{
 Table
 	Sound <borg> "bor_upgrade_sel.wav"
 	Sound <federation> "fed_upgrade_sel.wav"
+	Sound <bajoran> "fed_upgrade_sel.wav"
 	Sound <klingon> "kli_upgrade_sel.wav"
 	Sound <romulan> "rom_upgrade_sel.wav"
 	Sound <cardassian> "car_upgrade_sel.wav"
@@ -3999,6 +4346,7 @@ ShipUpgradeBegin{
 Table
 	Sound <borg> "gvobcv60.wav"
 	Sound <federation> "gvofcv60.wav"
+	Sound <bajoran> "gvofcv60.wav"
 	Sound <klingon> "gvokcv60.wav"
 	Sound <romulan> "gvorcv60.wav"
 	Sound <cardassian> "carev_ship_up_beg.wav"
@@ -4010,6 +4358,7 @@ ShipUpgradeComplete{
 Table
 	Sound <borg> "gvobcv28.wav"
 	Sound <federation> "gvofcv28.wav"
+	Sound <bajoran> "gvofcv28.wav"
 	Sound <klingon> "gvokcv28.wav"
 	Sound <romulan> "gvorcv28.wav"
 	Sound <cardassian> "carev_ship_up_comp.wav"
@@ -4021,6 +4370,7 @@ ShipUpgradeCancelled{
 Table
 	Sound <borg> "gvobcv66.wav"
 	Sound <federation> "gvofcv66.wav"
+	Sound <bajoran> "gvofcv66.wav"
 	Sound <klingon> "gvokcv66.wav"
 	Sound <romulan> "gvorcv66.wav"
 	Sound <cardassian> "carev_ship_up_canc.wav"
@@ -4039,6 +4389,7 @@ SuperblSelect{
 Table
 	Sound <borg> "swbmasts.wav"
 	Sound <federation> "swftmpos.wav"
+	Sound <bajoran> "swftmpos.wav"
 	Sound <klingon> "swkripst.wav"
 	Sound <romulan> "swrblcks.wav"
 	Sound <cardassian> "car_super_sta_sel.wav"
@@ -4059,6 +4410,7 @@ PodSelect{
 Table
 	Sound <borg> "bor_pod_sel.wav"
 	Sound <federation> "fed_pod_sel.wav"
+	Sound <bajoran> "fed_pod_sel.wav"
 	Sound <klingon> "kli_pod_sel.wav"
 	Sound <romulan> "rom_pod_sel.wav"
 	Sound <cardassian> "car_pod_sel.wav"
@@ -4114,6 +4466,7 @@ SaucerSeparation{
 Table
 	Sound <borg> "borg_saucer_sep.wav"
 	Sound <federation> "fed_saucer_sep.wav"
+	Sound <bajoran> "fed_saucer_sep.wav"
 	Sound <klingon> "kling_saucer_sep.wav"
 	Sound <romulan> "rom_saucer_sep.wav"
 	Sound <cardassian> "car_saucer_sep.wav"
@@ -4123,6 +4476,7 @@ SaucerIntegrate{
 Table
 	Sound <borg> "borg_saucer_integrate.wav"
 	Sound <federation> "fed_saucer_integrate.wav"
+	Sound <bajoran> "fed_saucer_integrate.wav"
 	Sound <klingon> "kling_saucer_integrate.wav"
 	Sound <romulan> "rom_saucer_integrate.wav"
 	Sound <cardassian> "car_saucer_integrate.wav"
@@ -4132,6 +4486,7 @@ SaucerIntegrateCancel{
 Table
 	Sound <borg> "borg_saucer_integrate_canc.wav"
 	Sound <federation> "fed_saucer_integrate_canc.wav"
+	Sound <bajoran> "fed_saucer_integrate_canc.wav"
 	Sound <klingon> "fed_saucer_integrate_canc.wav"
 	Sound <romulan> "kling_saucer_integrate_canc.wav"
 	Sound <cardassian> "car_saucer_integrate_canc.wav"
@@ -4170,6 +4525,7 @@ Table
 #	Sound "fed_mp_01.wav"
 	Sound <borg> "borg_mp_01.wav"
 	Sound <federation> "fed_mp_01.wav"
+	Sound <bajoran> "fed_mp_01.wav"
 	Sound <klingon> "kling_mp_01.wav"
 	Sound <romulan> "rom_mp_01.wav"
 	Sound <cardassian> "car_mp_01.wav"
@@ -4183,6 +4539,7 @@ Table
 #	Sound "fed_mp_02.wav"
 	Sound <borg> "borg_mp_02.wav"
 	Sound <federation> "fed_mp_02.wav"
+	Sound <bajoran> "fed_mp_02.wav"
 	Sound <klingon> "kling_mp_02.wav"
 	Sound <romulan> "rom_mp_02.wav"
 	Sound <cardassian> "car_mp_02.wav"
@@ -4196,6 +4553,7 @@ Table
 #	Sound "fed_mp_03.wav"
 	Sound <borg> "borg_mp_03.wav"
 	Sound <federation> "fed_mp_03.wav"
+	Sound <bajoran> "fed_mp_03.wav"
 	Sound <klingon> "kling_mp_03.wav"
 	Sound <romulan> "rom_mp_03.wav"
 	Sound <cardassian> "car_mp_03.wav"
@@ -4211,6 +4569,7 @@ Table
 #	Sound "fed_mp_04.wav"
 	Sound <borg> "borg_mp_04.wav"
 	Sound <federation> "fed_mp_04.wav"
+	Sound <bajoran> "fed_mp_04.wav"
 	Sound <klingon> "kling_mp_04.wav"
 	Sound <romulan> "rom_mp_04.wav"
 	Sound <cardassian> "car_mp_04.wav"
@@ -4224,6 +4583,7 @@ Table
 #	Sound "fed_mp_05.wav"
 	Sound <borg> "borg_mp_05.wav"
 	Sound <federation> "fed_mp_05.wav"
+	Sound <bajoran> "fed_mp_05.wav"
 	Sound <klingon> "kling_mp_05.wav"
 	Sound <romulan> "rom_mp_05.wav"
 	Sound <cardassian> "car_mp_05.wav"
@@ -4248,6 +4608,7 @@ Table
 #	Sound "fed_mp_06.wav"
 	Sound <borg> "borg_mp_06.wav"
 	Sound <federation> "fed_mp_06.wav"
+	Sound <bajoran> "fed_mp_06.wav"
 	Sound <klingon> "kling_mp_06.wav"
 	Sound <romulan> "rom_mp_06.wav"
 	Sound <cardassian> "car_mp_06.wav"
@@ -4264,6 +4625,7 @@ Table
 #	Sound "fed_mp_07.wav"
 	Sound <borg> "borg_mp_07.wav"
 	Sound <federation> "fed_mp_07.wav"
+	Sound <bajoran> "fed_mp_07.wav"
 	Sound <klingon> "kling_mp_07.wav"
 	Sound <romulan> "rom_mp_07.wav"
 	Sound <cardassian> "car_mp_07.wav"
@@ -4280,6 +4642,7 @@ Table
 #	Sound "fed_mp_08.wav"
 	Sound <borg> "borg_mp_08.wav"
 	Sound <federation> "fed_mp_08.wav"
+	Sound <bajoran> "fed_mp_08.wav"
 	Sound <klingon> "kling_mp_08.wav"
 	Sound <romulan> "rom_mp_08.wav"
 	Sound <cardassian> "car_mp_08.wav"
@@ -4296,6 +4659,7 @@ Table
 #	Sound "fed_mp_09.wav"
 	Sound <borg> "borg_mp_09.wav"
 	Sound <federation> "fed_mp_09.wav"
+	Sound <bajoran> "fed_mp_09.wav"
 	Sound <klingon> "kling_mp_09.wav"
 	Sound <romulan> "rom_mp_09.wav"
 	Sound <cardassian> "car_mp_09.wav"
@@ -4313,6 +4677,7 @@ Table
 #	Sound "fed_mp_10.wav"
 	Sound <borg> "borg_mp_10.wav"
 	Sound <federation> "fed_mp_10.wav"
+	Sound <bajoran> "fed_mp_10.wav"
 	Sound <klingon> "kling_mp_10.wav"
 	Sound <romulan> "rom_mp_10.wav"
 	Sound <cardassian> "car_mp_10.wav"
@@ -4330,6 +4695,7 @@ Table
 #	Sound "fed_mp_11.wav"
 	Sound <borg> "borg_mp_11.wav"
 	Sound <federation> "fed_mp_11.wav"
+	Sound <bajoran> "fed_mp_11.wav"
 	Sound <klingon> "kling_mp_11.wav"
 	Sound <romulan> "rom_mp_11.wav"
 	Sound <cardassian> "car_mp_11.wav"
@@ -4347,6 +4713,7 @@ Table
 #	Sound "fed_mp_12.wav"
 	Sound <borg> "borg_mp_12.wav"
 	Sound <federation> "fed_mp_12.wav"
+	Sound <bajoran> "fed_mp_12.wav"
 	Sound <klingon> "kling_mp_12.wav"
 	Sound <romulan> "rom_mp_12.wav"
 	Sound <cardassian> "car_mp_12.wav"
@@ -4364,6 +4731,7 @@ Table
 #	Sound "fed_mp_13.wav"
 	Sound <borg> "borg_mp_13.wav"
 	Sound <federation> "fed_mp_13.wav"
+	Sound <bajoran> "fed_mp_13.wav"
 	Sound <klingon> "kling_mp_13.wav"
 	Sound <romulan> "rom_mp_13.wav"
 	Sound <cardassian> "car_mp_13.wav"
@@ -4381,6 +4749,7 @@ Table
 #	Sound "fed_mp_14.wav"
 	Sound <borg> "borg_mp_14.wav"
 	Sound <federation> "fed_mp_14.wav"
+	Sound <bajoran> "fed_mp_14.wav"
 	Sound <klingon> "kling_mp_14.wav"
 	Sound <romulan> "rom_mp_14.wav"
 	Sound <cardassian> "car_mp_14.wav"
@@ -4398,6 +4767,7 @@ Table
 #	Sound "fed_mp_15.wav"
 	Sound <borg> "borg_mp_15.wav"
 	Sound <federation> "fed_mp_15.wav"
+	Sound <bajoran> "fed_mp_15.wav"
 	Sound <klingon> "kling_mp_15.wav"
 	Sound <romulan> "rom_mp_15.wav"
 	Sound <cardassian> "car_mp_15.wav"
@@ -4415,6 +4785,7 @@ Table
 #	Sound "fed_mp_16.wav"
 	Sound <borg> "borg_mp_16.wav"
 	Sound <federation> "fed_mp_16.wav"
+	Sound <bajoran> "fed_mp_16.wav"
 	Sound <klingon> "kling_mp_16.wav"
 	Sound <romulan> "rom_mp_16.wav"
 	Sound <cardassian> "car_mp_16.wav"
@@ -4438,6 +4809,7 @@ Table
 #	Sound "fed_mp_17.wav"
 	Sound <borg> "borg_mp_17.wav"
 	Sound <federation> "fed_mp_17.wav"
+	Sound <bajoran> "fed_mp_17.wav"
 	Sound <klingon> "kling_mp_17.wav"
 	Sound <romulan> "rom_mp_17.wav"
 	Sound <cardassian> "car_mp_17.wav"
@@ -4457,6 +4829,7 @@ Table
 #	Sound "fed_mp_18.wav"
 	Sound <borg> "borg_mp_18.wav"
 	Sound <federation> "fed_mp_18.wav"
+	Sound <bajoran> "fed_mp_18.wav"
 	Sound <klingon> "kling_mp_18.wav"
 	Sound <romulan> "rom_mp_18.wav"
 	Sound <cardassian> "car_mp_18.wav"
@@ -4474,6 +4847,7 @@ Table
 #	Sound "fed_mp_19.wav"
 	Sound <borg> "borg_mp_19.wav"
 	Sound <federation> "fed_mp_19.wav"
+	Sound <bajoran> "fed_mp_19.wav"
 	Sound <klingon> "kling_mp_19.wav"
 	Sound <romulan> "rom_mp_19.wav"
 	Sound <cardassian> "car_mp_19.wav"
@@ -4487,6 +4861,7 @@ Table
 #	Sound "fed_mp_02.wav"
 	Sound <borg> "borg_mp_02.wav"
 	Sound <federation> "fed_mp_02.wav"
+	Sound <bajoran> "fed_mp_02.wav"
 	Sound <klingon> "kling_mp_02.wav"
 	Sound <romulan> "rom_mp_02.wav"
 	Sound <cardassian> "car_mp_02.wav"
@@ -4504,6 +4879,7 @@ Table
 #	Sound "fed_mp_20.wav"
 	Sound <borg> "borg_mp_20.wav"
 	Sound <federation> "fed_mp_20.wav"
+	Sound <bajoran> "fed_mp_20.wav"
 	Sound <klingon> "kling_mp_20.wav"
 	Sound <romulan> "rom_mp_20.wav"
 	Sound <cardassian> "car_mp_20.wav"
@@ -4517,6 +4893,7 @@ Table
 #	Sound "fed_mp_21.wav"
 	Sound <borg> "borg_mp_21.wav"
 	Sound <federation> "fed_mp_21.wav"
+	Sound <bajoran> "fed_mp_21.wav"
 	Sound <klingon> "kling_mp_21.wav"
 	Sound <romulan> "rom_mp_21.wav"
 	Sound <cardassian> "car_mp_21.wav"
@@ -7356,3 +7733,88 @@ Sound "xvoice_sela_transport_1.wav"
 SoundPriority 2
 }
 
+
+XLocutus_Select{
+Table
+Sound "gvoloc17.wav"
+Sound "gvoloc18.wav"
+Sound "gvoloc19.wav"
+Sound "gvoloc20.wav"
+SoundPriority 2
+}
+
+XLocutus_Acknowledge{
+Table
+Sound "gvoloc01.wav"
+Sound "gvoloc50.wav"
+SoundPriority 2
+}
+
+XLocutus_Move{
+Table
+Sound "gvoloc11.wav"
+Sound "gvoloc13.wav"
+Sound "gvoloc14.wav"
+Sound "gvoloc50.wav"
+SoundPriority 2
+}
+
+XLocutus_Attack{
+Table
+Sound "gvoloc06.wav"
+Sound "gvoloc07.wav"
+Sound "gvoloc08.wav"
+Sound "gvoloc10.wav"
+Sound "gvoloc40.wav"
+SoundPriority 2
+}
+
+XLocutus_Stop{
+Table
+Sound "gvoloc21.wav"
+SoundPriority 2
+}
+
+XLocutus_Repair{
+Table
+Sound "gvoloc09.wav"
+Sound "gvoloc26.wav"
+SoundPriority 2
+}
+
+XLocutus_RedAlert{
+Table
+Sound "gvoloc10.wav"
+SoundPriority 2
+}
+
+XLocutus_YellowAlert{
+Table
+Sound "gvoloc18.wav"
+SoundPriority 2
+}
+
+XLocutus_GreenAlert{
+Table
+Sound "gvoloc50.wav"
+SoundPriority 2
+}
+
+XLocutus_Transport{
+Table
+Sound "gvoloc40.wav"
+Sound "gvoloc60.wav"
+SoundPriority 2
+}
+
+XLocutus_SelfDestruct{
+Table
+Sound "gvoloc06.wav"
+SoundPriority 2
+}
+
+XLocutus_Decommission{
+Table
+Sound "gvoloc50.wav"
+SoundPriority 2
+}

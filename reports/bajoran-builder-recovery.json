@@ -1,0 +1,21 @@
+{
+  "target": "D:/armadaIII",
+  "stage": "D:/Xaramada-Modwork/bajor-builder-recovery",
+  "files": [
+    {
+      "path": "odf/ships/bjconst.odf",
+      "sourceSha256": "3ef4825d004560e17bf2187e835b8d5df513ac3a5b08b6a8d9e9df03721d5642",
+      "sha256": "127e609bfa7a370bb9c327cc6d7abab05c140ea3c6dcd29f3890afc660e08b7e"
+    },
+    {
+      "path": "odf/ships/xbjuconst.odf",
+      "sourceSha256": "73dbac57c68e5ecc092506c41239d1ef28a9b9bc89e24d218b1c3b7dd0bed13b",
+      "sha256": "d4d8c0b71567cc08b63d33b57a8c8d93f46c6506398da043da014706a05818d0"
+    }
+  ],
+  "applied": true,
+  "runtimeVerified": false,
+  "scope": "Two constructor model references only; faction menus/stats/abilities and building models preserved.",
+  "evidence": "Native fconst model has eight animation channels and 22 meshes; both custom Bajoran constructors have zero animation channels and one mesh. Crash reported while building orbital/mining/yard facilities; constructor is the shared actor. Hypothesis requires in-game construction test.",
+  "backup": "D:\\Xaramada-Modwork\\backups\\bajoran-builder-recovery-20261017-003003"
+}

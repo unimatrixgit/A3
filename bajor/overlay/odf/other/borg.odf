@@ -1,0 +1,158 @@
+// Name used to refer to the race in the code and scripts.
+name = "borg"
+
+// Name displayed in the interface for this race.
+displayKey = "GUI_RD_BORG"
+
+// Instant action slot, negative means not playable
+instantActionSlot = 1
+
+// the borg cannot play collect latinum games!
+canPlayCollectLatinum = 0
+
+// Label for officers in interface.
+officerRes = "GUI_CP_BORG_OFF_RES"
+officerTooltip = "GUI_RD_BORG_OFF_TOOLTIP"
+officerVerboseTooltip = "GUI_RD_BORG_OFF_VTOOLTIP"
+
+// Label for admirals log creation
+creationLabel = "ADM_ASSEMBLED"
+recycledLabel = "ADM_RECYCLED"
+
+// Name of the interface configuration and sprite files.
+interfaceConfiguration = "gui_bor.cfg"
+interfaceSprites = "gui_borg.spr"
+
+// Music play list.
+singlePlayerMusic = "mbor300.wav"
+multiPlayerMusic = "mbormp300.wav"
+
+// Transporter sprite
+transportSprite = "btransport"
+
+// How quickly this race repairs. Bigger is slower
+repairStrength = 0.8f
+
+// How strong this race is when fighting as a boarding party or
+// against a boarding party.
+boardingStrength = 1.75f
+
+// When this race will retreat from battle
+retreatStrength = 0.0f	//shield percentage
+crewRetreatRatio = 0.2f //crew percentage
+
+//number of crew added to the team per second per starbase
+//also base used for planet civilian rate
+crewAccumulationRate = 4.0
+
+//the modifier for the crewAccumulationRate for a starbase if it is close to a planet
+planetCrewAccumulationModifier = 1.5
+
+// Name of the city texture, "" means none
+cityTextureName = "BORG"
+
+// atmosphere tint (dirty gray)
+//atmosphereTint = 0.5 0.5 0.4
+atmosphereTint = 1.0 1.0 1.0
+
+// # of cities in the city texture
+numCities = 35.0
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The percentage at which the crew enters yellow status (ex. 0.75f)
+crewYellowStatus = 0.5f
+
+//The percentage at which the crew enters red status (ex. 0.25f)
+crewRedStatus = 0.25f
+
+//The multiplier for the repair time while in yellow status
+repairYellow = 1.0f
+
+//The multiplier for the repair time while in red status
+repairRed = 1.0f
+
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 5.0f
+//**********************************************************************
+
+//ODF for officer upgrade for starbases
+officerUpgradeODF = "borgoff"
+
+// the things you get when you ask for minimal default units (instead of the map units)
+minimalUnits1 = "bconst.odf"	// construction ship
+
+// the things you get when you ask for standard default units (instead of the map units)
+
+// the things you get when you ask for superside units (instead of the map units)
+superUnits1 = "bconst.odf"	// borg construction ship
+superUnits2 = "fconst.odf"	// federation construction ship
+superUnits3 = "kconst.odf"	// klingon construction ship
+superUnits4 = "rconst.odf"	// romulan construction ship
+
+//things you get when you ask for capture the flag map.
+ctfUnits1 = "ctf_bconst.odf"
+ctfUnits2 = "ctf_bconst.odf"
+ctfUnits3 = "ctf_bbase.odf"
+ctfUnits4 = "bscout.odf"
+
+// for the computer voice
+computerShipConstructionBegin1 = "bc25.wav"
+computerShipConstructionBegin2 = "bc26.wav"
+computerShipConstructionComplete1 = "bc27.wav"
+computerFacilityConstructionBegin1 = "bc25.wav"
+computerFacilityConstructionBegin2 = "bc26.wav"
+computerFacilityConstructionComplete1 = "bc27.wav"
+computerWeaponsOffline1 = "bc14.wav"
+computerEnginesOffline1 = "bc15.wav"
+computerShieldGeneratorOffline1 = "bc17.wav"
+computerLifeSupportOffline1 = "bc19.wav"
+computerSensorsOffline1 = "bc16.wav"
+computerUnderAttack1 = ""
+
+// Multiplayer AI behavior
+// Do we transport to help our friends when not on easy
+transportToFriendsOnNotEasy = 1
+transportToEnemyOnHard = 1
+
+// The borg are George W! 
+// Recycling efficiency
+recycleDilithiumFraction = .6
+recycleMetalFraction = .6
+
+// How relatively fast we mine any resource
+miningRateModifier = 1.3
+
+// Borg don't trade, so don't even try.
+canTrade = 0;
+
+// what event should we use when we run out of officers?
+insufficientOfficersEvent = "InsufficientBorgOfficers"
+
+// for normal and lots of resource games, we need to specify how much
+// of each resource this race should get
+
+// NORMAL
+normalDilithium = 3750
+normalMetal = 2250
+normalLatinum = 0
+normalCrew = 1200
+
+// LOTS
+lotsDilithium = 45000
+lotsMetal = 45000
+lotsLatinum = 0
+lotsCrew = 30000
+
+
+minimalUnits2 = "blocutus.odf"
+
+// One faction hero in the standard starting fleet; unit production remains unchanged.
+standardUnits1 = "bconst.odf"
+standardUnits2 = "bconst.odf"
+standardUnits3 = "bbase.odf"
+standardUnits4 = "bscout.odf"
+standardUnits5 = "blocutus.odf"

@@ -1,13 +1,14 @@
 #include "WeaponUpgradePod2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitname = "Bajoran Weapons III"
 
 //Race which can build ship & starting race of ship
-
+race = "bajoran"
 
 //tooltips
-
+tooltip = "Bajoran Weapons III"
+verbosetooltip = "Bajoran Weapons III. Extrapolated technology pod."
 
 //Dilithium Cost to build
 
@@ -20,7 +21,7 @@
 //Amount of time required to build ship
 
 //make this slightly larger than the level one pod
-
+scalesod = 1.2
 
 hotkeyLabel = "HOTKEY_F1"
 
@@ -35,16 +36,20 @@ crewCost = 0
 officerCost = 2
 buildTime = 240
 
-unitName = "Bajoran Weapons III"
+eventacknowledge = "PodAcknowledge"
 
-tooltip = "Bajoran Weapons III"
+eventdecommission = "PodDecommission"
 
-verboseTooltip = "Bajoran Weapons III. Extrapolated technology pod."
+eventselect = "PodSelect"
 
-race = "bajoran"
+basename = "br3_bjpod21"
 
+shieldgeneratorhitpoints = 120
 
+lifesupporthitpoints = 120
 
+sensorshitpoints = 120
 
-baseName = "fedpod21"
-ScaleSOD = 1.2
+maxhealth = 450
+
+shieldrate = 1.25

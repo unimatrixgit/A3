@@ -1,0 +1,531 @@
+{
+  "target": "D:\\armadaIII",
+  "factions": [
+    {
+      "race": "borg",
+      "starts": {
+        "standard": {
+          "units": [
+            "bconst.odf",
+            "bconst.odf",
+            "bbase.odf",
+            "bscout.odf",
+            "blocutus.odf"
+          ],
+          "heroes": [
+            "blocutus.odf"
+          ],
+          "heroCount": 1
+        },
+        "minimal": {
+          "units": [
+            "bconst.odf",
+            "blocutus.odf"
+          ],
+          "heroes": [
+            "blocutus.odf"
+          ],
+          "heroCount": 1
+        },
+        "super": {
+          "units": [
+            "bconst.odf",
+            "fconst.odf",
+            "kconst.odf",
+            "rconst.odf"
+          ],
+          "heroes": [],
+          "heroCount": 0
+        }
+      }
+    },
+    {
+      "race": "fed",
+      "starts": {
+        "standard": {
+          "units": [
+            "fconst.odf",
+            "fconst.odf",
+            "fbase.odf",
+            "fscout.odf",
+            "xhfhero.odf"
+          ],
+          "heroes": [
+            "xhfhero.odf"
+          ],
+          "heroCount": 1
+        },
+        "minimal": {
+          "units": [
+            "fconst.odf",
+            "xhfhero.odf"
+          ],
+          "heroes": [
+            "xhfhero.odf"
+          ],
+          "heroCount": 1
+        },
+        "super": {
+          "units": [
+            "bconst.odf",
+            "fconst.odf",
+            "kconst.odf",
+            "rconst.odf"
+          ],
+          "heroes": [],
+          "heroCount": 0
+        }
+      }
+    },
+    {
+      "race": "kling",
+      "starts": {
+        "standard": {
+          "units": [
+            "kconst.odf",
+            "kconst.odf",
+            "kbase.odf",
+            "kscout.odf",
+            "xhkhero.odf"
+          ],
+          "heroes": [
+            "xhkhero.odf"
+          ],
+          "heroCount": 1
+        },
+        "minimal": {
+          "units": [
+            "kconst.odf",
+            "xhkhero.odf"
+          ],
+          "heroes": [
+            "xhkhero.odf"
+          ],
+          "heroCount": 1
+        },
+        "super": {
+          "units": [
+            "bconst.odf",
+            "fconst.odf",
+            "kconst.odf",
+            "rconst.odf"
+          ],
+          "heroes": [],
+          "heroCount": 0
+        }
+      }
+    },
+    {
+      "race": "rom",
+      "starts": {
+        "standard": {
+          "units": [
+            "rconst.odf",
+            "rconst.odf",
+            "rbase.odf",
+            "rscout.odf",
+            "xhrhero.odf"
+          ],
+          "heroes": [
+            "xhrhero.odf"
+          ],
+          "heroCount": 1
+        },
+        "minimal": {
+          "units": [
+            "rconst.odf",
+            "xhrhero.odf"
+          ],
+          "heroes": [
+            "xhrhero.odf"
+          ],
+          "heroCount": 1
+        },
+        "super": {
+          "units": [
+            "bconst.odf",
+            "fconst.odf",
+            "kconst.odf",
+            "rconst.odf"
+          ],
+          "heroes": [],
+          "heroCount": 0
+        }
+      }
+    },
+    {
+      "race": "card",
+      "starts": {
+        "standard": {
+          "units": [
+            "cconst.odf",
+            "cconst.odf",
+            "cbase.odf",
+            "cscout.odf",
+            "xhchero.odf"
+          ],
+          "heroes": [
+            "xhchero.odf"
+          ],
+          "heroCount": 1
+        },
+        "minimal": {
+          "units": [
+            "cconst.odf",
+            "xhchero.odf"
+          ],
+          "heroes": [
+            "xhchero.odf"
+          ],
+          "heroCount": 1
+        },
+        "super": {
+          "units": [
+            "bconst.odf",
+            "fconst.odf",
+            "kconst.odf",
+            "rconst.odf",
+            "cconst.odf"
+          ],
+          "heroes": [],
+          "heroCount": 0
+        }
+      }
+    },
+    {
+      "race": "species8472",
+      "starts": {
+        "standard": {
+          "units": [
+            "8472_mothership.odf",
+            "8472_active.odf",
+            "8472_passive.odf",
+            "8472_scout.odf",
+            "xhshero.odf"
+          ],
+          "heroes": [
+            "xhshero.odf"
+          ],
+          "heroCount": 1
+        },
+        "minimal": {
+          "units": [
+            "8472_mothership.odf",
+            "xhshero.odf"
+          ],
+          "heroes": [
+            "xhshero.odf"
+          ],
+          "heroCount": 1
+        },
+        "super": {
+          "units": [
+            "bconst.odf",
+            "fconst.odf",
+            "kconst.odf",
+            "rconst.odf"
+          ],
+          "heroes": [],
+          "heroCount": 0
+        }
+      }
+    },
+    {
+      "race": "dominion",
+      "starts": {
+        "standard": {
+          "units": [
+            "dconst.odf",
+            "dconst.odf",
+            "dbase.odf",
+            "dscout.odf",
+            "xhdhero.odf"
+          ],
+          "heroes": [
+            "xhdhero.odf"
+          ],
+          "heroCount": 1
+        },
+        "minimal": {
+          "units": [
+            "dconst.odf",
+            "xhdhero.odf"
+          ],
+          "heroes": [
+            "xhdhero.odf"
+          ],
+          "heroCount": 1
+        },
+        "super": {
+          "units": [
+            "bconst.odf",
+            "fconst.odf",
+            "kconst.odf",
+            "rconst.odf",
+            "cconst.odf"
+          ],
+          "heroes": [],
+          "heroCount": 0
+        }
+      }
+    },
+    {
+      "race": "bajoran",
+      "starts": {
+        "standard": {
+          "units": [
+            "bjnerys.odf",
+            "bjconst.odf",
+            "bjconst.odf",
+            "bjbase.odf",
+            "bjscout.odf"
+          ],
+          "heroes": [
+            "bjnerys.odf"
+          ],
+          "heroCount": 1
+        },
+        "minimal": {
+          "units": [
+            "bjnerys.odf",
+            "bjconst.odf"
+          ],
+          "heroes": [
+            "bjnerys.odf"
+          ],
+          "heroCount": 1
+        },
+        "super": {
+          "units": [
+            "bjnerys.odf",
+            "bjconst.odf",
+            "bjconst.odf",
+            "bjbase.odf"
+          ],
+          "heroes": [
+            "bjnerys.odf"
+          ],
+          "heroCount": 1
+        }
+      }
+    },
+    {
+      "race": "breen",
+      "starts": {
+        "standard": {
+          "units": [
+            "brconst.odf",
+            "brconst.odf",
+            "brbase.odf",
+            "brscout.odf",
+            "xhbrhero.odf"
+          ],
+          "heroes": [
+            "xhbrhero.odf"
+          ],
+          "heroCount": 1
+        },
+        "minimal": {
+          "units": [
+            "brconst.odf",
+            "xhbrhero.odf"
+          ],
+          "heroes": [
+            "xhbrhero.odf"
+          ],
+          "heroCount": 1
+        },
+        "super": {
+          "units": [
+            "bconst.odf",
+            "fconst.odf",
+            "kconst.odf",
+            "rconst.odf",
+            "cconst.odf",
+            "dconst.odf"
+          ],
+          "heroes": [],
+          "heroCount": 0
+        }
+      }
+    }
+  ],
+  "historicalEightPlayerMaps": [
+    {
+      "map": "8Crossroads.bzn",
+      "present": true,
+      "bytes": 399508,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "8death.bzn",
+      "present": true,
+      "bytes": 203768,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "8death2.bzn",
+      "present": true,
+      "bytes": 247162,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "8ForRch.bzn",
+      "present": true,
+      "bytes": 83416,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "8freeb.bzn",
+      "present": true,
+      "bytes": 118584,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "8Kazon1.bzn",
+      "present": true,
+      "bytes": 378319,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "8MarkYT.bzn",
+      "present": true,
+      "bytes": 209857,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "ts-1fadmsamtest001.bzn",
+      "present": true,
+      "bytes": 543163,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "8surround4by4.bzn",
+      "present": true,
+      "bytes": 241768,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "8tictac2.bzn",
+      "present": true,
+      "bytes": 220696,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "allybunk.bzn",
+      "present": true,
+      "bytes": 530887,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "alphaquad.bzn",
+      "present": true,
+      "bytes": 313732,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "BattleareaV4.bzn",
+      "present": true,
+      "bytes": 1197578,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "Borgbasev1.2.bzn",
+      "present": true,
+      "bytes": 906697,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "DocAE2n.bzn",
+      "present": true,
+      "bytes": 10239,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "mp08frquad.bzn",
+      "present": true,
+      "bytes": 159973,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "gp08time.bzn",
+      "present": true,
+      "bytes": 1096602,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "j_light.bzn",
+      "present": true,
+      "bytes": 211507,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "mp08junk.bzn",
+      "present": true,
+      "bytes": 286452,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "mp08engage.bzn",
+      "present": true,
+      "bytes": 694609,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "ruffspot.bzn",
+      "present": true,
+      "bytes": 300984,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "The Treasure in the Middle.bzn",
+      "present": true,
+      "bytes": 909805,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "timberwolves01.bzn",
+      "present": true,
+      "bytes": 206432,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "vast.bzn",
+      "present": true,
+      "bytes": 391874,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    },
+    {
+      "map": "wrmhlmad.bzn",
+      "present": true,
+      "bytes": 237933,
+      "eightPlayerCountPreviouslyReported": true,
+      "currentHeaderRechecked": false
+    }
+  ],
+  "runtimeVerified": false
+}

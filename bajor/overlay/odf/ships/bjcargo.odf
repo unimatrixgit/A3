@@ -22,18 +22,18 @@
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxHealth = 350
+maxhealth = 700
 
 // Hitpoints
 
-shieldGeneratorHitPoints = 500
-enginesHitPoints = 500
-weaponsHitPoints = 500
-lifeSupportHitPoints = 500
-sensorsHitPoints = 500
+shieldgeneratorhitpoints = 750
+engineshitpoints = 750
+weaponshitpoints = 750
+lifesupporthitpoints = 750
+sensorshitpoints = 750
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 3.5
+shieldrate = 7
 
 //**********************************************************************
 //SHIP NAMES
@@ -53,7 +53,6 @@ possibleCraftNames =
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
 
-weapon1 = "femissaryphas"
 
 
 // Hardpoints to hit for various systems and other locations.
@@ -99,8 +98,8 @@ race = "bajoran"
 
 
 
-baseName = "fcargo"
-ScaleSOD = 0.55
+baseName = "br3_bjcargo"
+ScaleSOD = 0.88
 
 
 
@@ -108,10 +107,13 @@ ScaleSOD = 0.55
 
 
 
-weaponhardpoints1 = "hp01" "hp02" "hp03"
 enginestargethardpoints = "hp01" "hp02"
 lifesupporttargethardpoints = "hp03" "hp04" "hp05"
 shieldgeneratortargethardpoints = "hp06" "hp07" "hp08"
 sensorstargethardpoints = "hp09" "hp10" "hp11"
 hulltargethardpoints = "hp12" "hp13" "hp14" "hp15"
 criticaltargethardpoints = "hp16" "hp17" "hp18"
+
+// Preserve utility ability slots independently of combat balance.
+weapon1 = "femissaryphas"
+weaponhardpoints1 = "hp01" "hp02" "hp03"

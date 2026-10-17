@@ -1,0 +1,179 @@
+{
+  "exception": "access violation reading null pointer",
+  "address": "0x4d162c",
+  "registers": {
+    "Eax": "0xe2300a0",
+    "Ebx": "0x10753ccc",
+    "Ecx": "0x0",
+    "Edx": "0xe4c9ee8",
+    "Esi": "0x10753ccc",
+    "Edi": "0x0",
+    "Esp": "0x1af918",
+    "Ebp": "0x1af93c",
+    "Eip": "0x4d162c"
+  },
+  "instructions": [
+    "0x4d1610 add dword ptr [eax], eax",
+    "0x4d1612 add byte ptr [ebx], ch",
+    "0x4d1614 rol ecx, 1",
+    "0x4d1616 cli ",
+    "0x4d1617 add bh, byte ptr [ebx]",
+    "0x4d1619 cli ",
+    "0x4d161a jae 0x4d1640",
+    "0x4d161c mov edx, dword ptr [eax + 0x154]",
+    "0x4d1622 mov eax, ecx",
+    "0x4d1624 mov ecx, dword ptr [eax + edi*4]",
+    "0x4d1627 mov edx, dword ptr [edx + edi*4]",
+    "0x4d162a push edx",
+    "0x4d162b push esi",
+    "0x4d162c mov eax, dword ptr [ecx]",
+    "0x4d162e call dword ptr [eax + 8]",
+    "0x4d1631 mov ecx, dword ptr [esi + 0x128]",
+    "0x4d1637 push eax",
+    "0x4d1638 call 0x667f60",
+    "0x4d163d inc edi",
+    "0x4d163e jmp 0x4d1600",
+    "0x4d1640 mov eax, dword ptr [esi + 0x40]",
+    "0x4d1643 push 0",
+    "0x4d1645 push 0x6eee08",
+    "0x4d164a push 0x6eee98",
+    "0x4d164f push 0",
+    "0x4d1651 push eax",
+    "0x4d1652 call 0x6731a0",
+    "0x4d1657 add esp, 0x14",
+    "0x4d165a test eax, eax",
+    "0x4d165c je 0x4d1695",
+    "0x4d165e mov ecx, dword ptr [ebp + 8]",
+    "0x4d1661 push ecx",
+    "0x4d1662 push eax",
+    "0x4d1663 call 0x476440",
+    "0x4d1668 mov ebx, eax",
+    "0x4d166a add esp, 8",
+    "0x4d166d test ebx, ebx"
+  ],
+  "stackCandidates": [
+    {
+      "stackOffset": 28,
+      "address": "0x69e2a6",
+      "nearby": [
+        "0x69e29a dec dword ptr [ebx - 0x17af0fbb]",
+        "0x69e2a0 sub al, 0x45",
+        "0x69e2a2 sti ",
+        "0x69e2a3 call ptr [ecx - 0x3d]",
+        "0x69e2a6 mov eax, 0x6d9610",
+        "0x69e2ab jmp 0x672ff2"
+      ]
+    },
+    {
+      "stackOffset": 40,
+      "address": "0x4ca780",
+      "nearby": [
+        "0x4ca774 push edi",
+        "0x4ca775 mov edi, dword ptr [ebp + 8]",
+        "0x4ca778 mov esi, ecx",
+        "0x4ca77a push edi",
+        "0x4ca77b call 0x4d1590",
+        "0x4ca780 mov dword ptr [esi + 0x24c], edi",
+        "0x4ca786 mov ecx, dword ptr [0x735bc4]"
+      ]
+    },
+    {
+      "stackOffset": 60,
+      "address": "0x4cd4de",
+      "nearby": [
+        "0x4cd4d2 dec eax",
+        "0x4cd4d3 mov esi, dword ptr [ebp + 0xc]",
+        "0x4cd4d6 mov eax, dword ptr [ebx]",
+        "0x4cd4d8 push esi",
+        "0x4cd4d9 mov ecx, ebx",
+        "0x4cd4db call dword ptr [eax + 0x3c]",
+        "0x4cd4de mov dword ptr [ebx + 0xf4], esi",
+        "0x4cd4e4 pop edi",
+        "0x4cd4e5 mov eax, ebx",
+        "0x4cd4e7 pop esi",
+        "0x4cd4e8 pop ebx"
+      ]
+    },
+    {
+      "stackOffset": 188,
+      "address": "0x4cffa4",
+      "nearby": [
+        "0x4cff98 add al, 0x56",
+        "0x4cff9a mov esi, dword ptr [ebp + 8]",
+        "0x4cff9d push eax",
+        "0x4cff9e push esi",
+        "0x4cff9f call 0x62e500",
+        "0x4cffa4 mov eax, esi",
+        "0x4cffa6 pop esi",
+        "0x4cffa7 pop ebp",
+        "0x4cffa8 ret 8",
+        "0x4cffab nop ",
+        "0x4cffac nop ",
+        "0x4cffad nop ",
+        "0x4cffae nop ",
+        "0x4cffaf nop "
+      ]
+    },
+    {
+      "stackOffset": 216,
+      "address": "0x4b90cf",
+      "nearby": [
+        "0x4b90c3 push ecx",
+        "0x4b90c4 mov ecx, dword ptr [esi + 0x254]",
+        "0x4b90ca call 0x4cd390",
+        "0x4b90cf mov edx, dword ptr [esi + 0xfc]",
+        "0x4b90d5 mov edi, eax"
+      ]
+    },
+    {
+      "stackOffset": 304,
+      "address": "0x4bbd9a",
+      "nearby": [
+        "0x4bbd8e nop ",
+        "0x4bbd8f nop ",
+        "0x4bbd90 push ebx",
+        "0x4bbd91 push esi",
+        "0x4bbd92 push edi",
+        "0x4bbd93 mov esi, ecx",
+        "0x4bbd95 call 0x4b8f50",
+        "0x4bbd9a push 0",
+        "0x4bbd9c push 0x6f12a0",
+        "0x4bbda1 mov ebx, eax"
+      ]
+    },
+    {
+      "stackOffset": 320,
+      "address": "0x4b8f21",
+      "nearby": [
+        "0x4b8f15 je 0x4b8f21",
+        "0x4b8f17 mov edx, dword ptr [esi]",
+        "0x4b8f19 mov ecx, esi",
+        "0x4b8f1b call dword ptr [edx + 0x184]",
+        "0x4b8f21 pop esi",
+        "0x4b8f22 mov esp, ebp",
+        "0x4b8f24 pop ebp",
+        "0x4b8f25 ret 4",
+        "0x4b8f28 nop ",
+        "0x4b8f29 nop ",
+        "0x4b8f2a nop ",
+        "0x4b8f2b nop ",
+        "0x4b8f2c nop "
+      ]
+    },
+    {
+      "stackOffset": 380,
+      "address": "0x4b7875",
+      "nearby": [
+        "0x4b7869 or ecx, dword ptr [ebx - 0x3174a8ea]",
+        "0x4b786f call dword ptr [edx + 0x180]",
+        "0x4b7875 push edi",
+        "0x4b7876 mov ecx, esi",
+        "0x4b7878 call 0x4c6530",
+        "0x4b787d pop edi",
+        "0x4b787e pop esi",
+        "0x4b787f pop ebp"
+      ]
+    }
+  ],
+  "causeConfirmed": false
+}

@@ -1,0 +1,42 @@
+// Standalone native weapon definition; Bajoran tech identity retained.
+//Display name for this weapon
+wpnName = "Self Destruct"
+tooltip = "Self Destruct"
+verboseTooltip = "Intitiates Auto-Destruct sequence, destroying the craft and damaging everything in the immediate area."
+
+// Mark this as a special weapon.
+special = 1
+
+//Location of the button in the speed panel
+buttonSlot = 10
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 2
+
+
+//Mark this weapon as unsafe (hurts us)
+safe = 0
+
+//Sound which is played when the weapon fires
+fireSound = "phaser.wav"
+
+// Time until self destruct
+timer = 5
+
+// Radius of effect.
+radius = 300.0
+
+//doesn't take special energy
+specialEnergyCost = 0
+
+//doesn't need a target
+needTarget = 0
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "selfdestruct"
+
+// This is used by all races and craft that can self-destruct
+hotkeyLabel = "HOTKEY_BS"

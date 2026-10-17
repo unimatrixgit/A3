@@ -24,7 +24,7 @@ function build(layer,dest){
  for(let f of factions){
   let source=files.get(f.parent+'.odf'),v=props(f.parent+'.odf'),text=read(source);text=text.replace(/^[ \t]*(?:secondary)?buildItem\d+[ \t]*=.*$/gmi,'');
   for(let[k,value]of Object.entries({unitName:'"'+f.title+'"',tooltip:'"'+f.title+'"',verboseTooltip:'"'+f.title+'. Builds allied faction starbases and assigned advanced facilities. Species 8472 biotechnology is excluded."',race:'"'+f.race+'"',baseName:'"'+f.id+'"',ScaleSOD:'1.0',hotkeyLabel:'"HOTKEY_F2"'}))text=set(text,k,value);
-  let items=[...new Set([...stars,...overflow.get(f.race)])].filter(n=>f.race!=='borg'||n!=='bbase');if(items.length>13)throw Error(f.race+' Universal menu overflow '+items.length);
+  let items=[...new Set([...stars,...overflow.get(f.race)])].filter(n=>f.race!=='borg'||!['bbase','btechass','bresear2'].includes(n));if(items.length>13)throw Error(f.race+' Universal menu overflow '+items.length);
   text=menu(text,items);save('odf/ships/'+f.id+'.odf',text);
   plans.push({...f,sourceModel:v.basename||f.parent,items,sourceFile:p.relative(root,source),costs:Object.fromEntries(['dilithiumcost','metalcost','latinumcost','crewcost','officercost','buildtime'].map(k=>[k,v[k]]))});
  }
@@ -35,7 +35,7 @@ function build(layer,dest){
   if(updated.join('|')!==items.join('|')){if(updated.length>13)throw Error('Producer menu overflow '+name);let rel=p.relative(root,file);if(rel.startsWith('..'))rel=p.relative(layer,file);save(rel,menu(text,updated));}
  }
  // Preserve uconst filename as compatibility alias; no live producer uses it.
- let legacy=read(files.get('uconst.odf'));legacy=set(legacy,'baseName','"xbuconst"');legacy=menu(legacy,[...stars,...overflow.get('borg')].filter(n=>n!=='bbase'));save('odf/ships/uconst.odf',legacy);
+ let legacy=read(files.get('uconst.odf'));legacy=set(legacy,'baseName','"xbuconst"');legacy=menu(legacy,[...stars,...overflow.get('borg')].filter(n=>!['bbase','btechass','bresear2'].includes(n)));save('odf/ships/uconst.odf',legacy);
  for(let file of new Map([...walk(root+'/techtree'),...walk(layer+'/techtree')].filter(f=>/\.tt$/i.test(f)).map(f=>[p.basename(f),f])).values()){
   let text=read(file);for(let f of factions){let parentLine=text.match(new RegExp('^[ \\t]*'+f.parent+'\\.odf[ \\t]+([^\\r\\n]+)','mi'));let deps=parentLine?parentLine[1].replace(/\/\/.*$/,'').trim():'0';text=text.replace(new RegExp('^[ \\t]*'+f.id+'\\.odf[^\\r\\n]*','gmi'),'');text+='\r\n'+f.id+'.odf '+deps+'\r\n';}save('techtree/'+p.basename(file),text);
  }

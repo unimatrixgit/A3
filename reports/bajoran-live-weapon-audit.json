@@ -1,0 +1,590 @@
+{
+  "target": "D:\\armadaIII",
+  "weaponSlotsChecked": 83,
+  "errors": [],
+  "slots": [
+    {
+      "unit": "bjartillery",
+      "slot": "weapon1",
+      "weapon": "fintrepidphas",
+      "classLabel": "cannon",
+      "ordnance": "fintrepidphaso"
+    },
+    {
+      "unit": "bjartillery",
+      "slot": "weapon2",
+      "weapon": "ftype6",
+      "classLabel": "launcher",
+      "ordnance": "ftype6o"
+    },
+    {
+      "unit": "bjartillery",
+      "slot": "weapon3",
+      "weapon": "fintrepidphas",
+      "classLabel": "cannon",
+      "ordnance": "fintrepidphaso"
+    },
+    {
+      "unit": "bjartillery",
+      "slot": "weapon4",
+      "weapon": "ftype6",
+      "classLabel": "launcher",
+      "ordnance": "ftype6o"
+    },
+    {
+      "unit": "bjassault",
+      "slot": "weapon1",
+      "weapon": "fyeagerphas",
+      "classLabel": "cannon",
+      "ordnance": "fyeagerphaso"
+    },
+    {
+      "unit": "bjassault",
+      "slot": "weapon3",
+      "weapon": "fyeagerphas",
+      "classLabel": "cannon",
+      "ordnance": "fyeagerphaso"
+    },
+    {
+      "unit": "bjassault",
+      "slot": "weapon4",
+      "weapon": "ftype6",
+      "classLabel": "launcher",
+      "ordnance": "ftype6o"
+    },
+    {
+      "unit": "bjassault",
+      "slot": "weapon5",
+      "weapon": "xbj_gchainp",
+      "classLabel": "minelayer",
+      "ordnance": "chainp"
+    },
+    {
+      "unit": "bjassault",
+      "slot": "weapon2",
+      "weapon": "ftype6",
+      "classLabel": "launcher",
+      "ordnance": "ftype6o"
+    },
+    {
+      "unit": "bjbattle",
+      "slot": "weapon1",
+      "weapon": "fsovereignphas",
+      "classLabel": "cannon",
+      "ordnance": "fsovereignphaso"
+    },
+    {
+      "unit": "bjbattle",
+      "slot": "weapon2",
+      "weapon": "fsovereignphot",
+      "classLabel": "cannon",
+      "ordnance": "fqphotono"
+    },
+    {
+      "unit": "bjbattle",
+      "slot": "weapon3",
+      "weapon": "xbj_gselfdes",
+      "classLabel": "selfdestruct",
+      "ordnance": null
+    },
+    {
+      "unit": "bjbattle",
+      "slot": "weapon4",
+      "weapon": "xbj_gcorbom",
+      "classLabel": "reflectweapon",
+      "ordnance": null
+    },
+    {
+      "unit": "bjcargo",
+      "slot": "weapon1",
+      "weapon": "femissaryphas",
+      "classLabel": "cannon",
+      "ordnance": "femissaryphaso"
+    },
+    {
+      "unit": "bjcolony",
+      "slot": "weapon1",
+      "weapon": "fcolonypod",
+      "classLabel": "launcher",
+      "ordnance": "fcolpod"
+    },
+    {
+      "unit": "bjconst",
+      "slot": "weapon1",
+      "weapon": "gtracbm",
+      "classLabel": "toggleweapon",
+      "ordnance": "tracbm"
+    },
+    {
+      "unit": "bjcruiser",
+      "slot": "weapon1",
+      "weapon": "fakiraphas",
+      "classLabel": "cannon",
+      "ordnance": "fakiraphaso"
+    },
+    {
+      "unit": "bjcruiser",
+      "slot": "weapon3",
+      "weapon": "fakiraphot",
+      "classLabel": "cannon",
+      "ordnance": "frphotono"
+    },
+    {
+      "unit": "bjcruiser",
+      "slot": "weapon4",
+      "weapon": "fakiraphot",
+      "classLabel": "cannon",
+      "ordnance": "frphotono"
+    },
+    {
+      "unit": "bjcruiser",
+      "slot": "weapon5",
+      "weapon": "fakiraphot",
+      "classLabel": "cannon",
+      "ordnance": "frphotono"
+    },
+    {
+      "unit": "bjcruiser",
+      "slot": "weapon6",
+      "weapon": "xbj_gchainp",
+      "classLabel": "minelayer",
+      "ordnance": "chainp"
+    },
+    {
+      "unit": "bjcruiser",
+      "slot": "weapon2",
+      "weapon": "fakiraphot",
+      "classLabel": "cannon",
+      "ordnance": "frphotono"
+    },
+    {
+      "unit": "bjfreight",
+      "slot": "weapon1",
+      "weapon": "gmineDilithium",
+      "classLabel": "cannon",
+      "ordnance": "mineDilithium"
+    },
+    {
+      "unit": "bjfreight",
+      "slot": "weapon2",
+      "weapon": "gmineLatinum",
+      "classLabel": "cannon",
+      "ordnance": "mineLatinum"
+    },
+    {
+      "unit": "bjfrigate",
+      "slot": "weapon1",
+      "weapon": "fexcelsiorphas",
+      "classLabel": "cannon",
+      "ordnance": "fexcelsiorphaso"
+    },
+    {
+      "unit": "bjfrigate",
+      "slot": "weapon2",
+      "weapon": "frphot",
+      "classLabel": "launcher",
+      "ordnance": "frphotono"
+    },
+    {
+      "unit": "bjfrigate",
+      "slot": "weapon4",
+      "weapon": "xbj_gdetectf",
+      "classLabel": "detectcloak",
+      "ordnance": null
+    },
+    {
+      "unit": "bjfrigate",
+      "slot": "weapon3",
+      "weapon": "frphot",
+      "classLabel": "launcher",
+      "ordnance": "frphotono"
+    },
+    {
+      "unit": "bjfrigate",
+      "slot": "weapon5",
+      "weapon": "xbj_gshldemt",
+      "classLabel": "areacannon",
+      "ordnance": "shldemt"
+    },
+    {
+      "unit": "bjinterceptor",
+      "slot": "weapon1",
+      "weapon": "fdefiantpulse",
+      "classLabel": "cannon",
+      "ordnance": "fdefiantpulseo"
+    },
+    {
+      "unit": "bjinterceptor",
+      "slot": "weapon2",
+      "weapon": "fdefiantpulse",
+      "classLabel": "cannon",
+      "ordnance": "fdefiantpulseo"
+    },
+    {
+      "unit": "bjinterceptor",
+      "slot": "weapon3",
+      "weapon": "fdefiantpulse",
+      "classLabel": "cannon",
+      "ordnance": "fdefiantpulseo"
+    },
+    {
+      "unit": "bjinterceptor",
+      "slot": "weapon4",
+      "weapon": "fdefiantpulse",
+      "classLabel": "cannon",
+      "ordnance": "fdefiantpulseo"
+    },
+    {
+      "unit": "bjinterceptor",
+      "slot": "weapon6",
+      "weapon": "fdefiantphot",
+      "classLabel": "cannon",
+      "ordnance": "fdefiantphotono"
+    },
+    {
+      "unit": "bjinterceptor",
+      "slot": "weapon7",
+      "weapon": "xbj_gamine",
+      "classLabel": "minelayer",
+      "ordnance": "amine"
+    },
+    {
+      "unit": "bjinterceptor",
+      "slot": "weapon5",
+      "weapon": "fdefiantphot",
+      "classLabel": "cannon",
+      "ordnance": "fdefiantphotono"
+    },
+    {
+      "unit": "bjinterceptor",
+      "slot": "weapon8",
+      "weapon": "xbj_gfcloak",
+      "classLabel": "cloakingdevice",
+      "ordnance": null
+    },
+    {
+      "unit": "bjnerys",
+      "slot": "weapon1",
+      "weapon": "fsovereignphas",
+      "classLabel": "cannon",
+      "ordnance": "fsovereignphaso"
+    },
+    {
+      "unit": "bjnerys",
+      "slot": "weapon2",
+      "weapon": "fsovereignphot",
+      "classLabel": "cannon",
+      "ordnance": "fqphotono"
+    },
+    {
+      "unit": "bjnerys",
+      "slot": "weapon3",
+      "weapon": "gselfdes",
+      "classLabel": "selfdestruct",
+      "ordnance": null
+    },
+    {
+      "unit": "bjnerys",
+      "slot": "weapon4",
+      "weapon": "gcorbom",
+      "classLabel": "reflectweapon",
+      "ordnance": null
+    },
+    {
+      "unit": "bjraider",
+      "slot": "weapon1",
+      "weapon": "fdanubephas",
+      "classLabel": "cannon",
+      "ordnance": "fdanubephaso"
+    },
+    {
+      "unit": "bjrepair",
+      "slot": "weapon2",
+      "weapon": "folympicphas",
+      "classLabel": "cannon",
+      "ordnance": "folympicphaso"
+    },
+    {
+      "unit": "bjrepair",
+      "slot": "weapon1",
+      "weapon": "xbj_grepairbeam",
+      "classLabel": "cannon",
+      "ordnance": "repairBeam"
+    },
+    {
+      "unit": "bjscout",
+      "slot": "weapon1",
+      "weapon": "fventurepulse",
+      "classLabel": "cannon",
+      "ordnance": "fventurepulseo"
+    },
+    {
+      "unit": "bjscout",
+      "slot": "weapon2",
+      "weapon": "gdetectf",
+      "classLabel": "detectcloak",
+      "ordnance": null
+    },
+    {
+      "unit": "bjspecial",
+      "slot": "weapon1",
+      "weapon": "fnebulaphas",
+      "classLabel": "cannon",
+      "ordnance": "fnebulaphaso"
+    },
+    {
+      "unit": "bjspecial",
+      "slot": "weapon2",
+      "weapon": "fnebulaphot",
+      "classLabel": "cannon",
+      "ordnance": "frphotono"
+    },
+    {
+      "unit": "bjspecial",
+      "slot": "weapon3",
+      "weapon": "xbj_gshieldh",
+      "classLabel": "areamissile",
+      "ordnance": "shieldh"
+    },
+    {
+      "unit": "bjspecial",
+      "slot": "weapon4",
+      "weapon": "xbj_gmanheim",
+      "classLabel": "launcher",
+      "ordnance": "manheim"
+    },
+    {
+      "unit": "bjspecial",
+      "slot": "weapon5",
+      "weapon": "xbj_gpdlaser",
+      "classLabel": "PointDefenseLaser",
+      "ordnance": "pdlaser"
+    },
+    {
+      "unit": "bjspecial",
+      "slot": "weapon7",
+      "weapon": "xbj_gselfdes",
+      "classLabel": "selfdestruct",
+      "ordnance": null
+    },
+    {
+      "unit": "bjspecial",
+      "slot": "weapon6",
+      "weapon": "xbj_gschainp",
+      "classLabel": "minelayer",
+      "ordnance": "chainp"
+    },
+    {
+      "unit": "bjsuper",
+      "slot": "weapon1",
+      "weapon": "fsovereignphas",
+      "classLabel": "cannon",
+      "ordnance": "fsovereignphaso"
+    },
+    {
+      "unit": "bjsuper",
+      "slot": "weapon2",
+      "weapon": "fsovereignphot",
+      "classLabel": "cannon",
+      "ordnance": "fqphotono"
+    },
+    {
+      "unit": "bjsuper",
+      "slot": "weapon3",
+      "weapon": "xbj_gselfdes",
+      "classLabel": "selfdestruct",
+      "ordnance": null
+    },
+    {
+      "unit": "bjsuper",
+      "slot": "weapon4",
+      "weapon": "xbj_gcorbom",
+      "classLabel": "reflectweapon",
+      "ordnance": null
+    },
+    {
+      "unit": "bjtorpedo",
+      "slot": "weapon1",
+      "weapon": "frphot",
+      "classLabel": "launcher",
+      "ordnance": "frphotono"
+    },
+    {
+      "unit": "bjtorpedo",
+      "slot": "weapon3",
+      "weapon": "xbj_gwcover",
+      "classLabel": "areacannon",
+      "ordnance": "wcover"
+    },
+    {
+      "unit": "bjtorpedo",
+      "slot": "weapon2",
+      "weapon": "fsteamrunnerphas",
+      "classLabel": "cannon",
+      "ordnance": "fsteamrunnerphaso"
+    },
+    {
+      "unit": "bjtransport",
+      "slot": "weapon1",
+      "weapon": "fantarespulse",
+      "classLabel": "cannon",
+      "ordnance": "fantarespulseo"
+    },
+    {
+      "unit": "bjtransport",
+      "slot": "weapon2",
+      "weapon": "fmicrotype6",
+      "classLabel": "launcher",
+      "ordnance": "fmicrotype6o"
+    },
+    {
+      "unit": "xbjuconst",
+      "slot": "weapon1",
+      "weapon": "gtracbm",
+      "classLabel": "toggleweapon",
+      "ordnance": "tracbm"
+    },
+    {
+      "unit": "bjbase",
+      "slot": "weapon1",
+      "weapon": "fbasephas",
+      "classLabel": "cannon",
+      "ordnance": "fbasephaso"
+    },
+    {
+      "unit": "bjbase",
+      "slot": "weapon2",
+      "weapon": "fbasephas",
+      "classLabel": "cannon",
+      "ordnance": "fbasephaso"
+    },
+    {
+      "unit": "bjbase",
+      "slot": "weapon3",
+      "weapon": "fbasephas",
+      "classLabel": "cannon",
+      "ordnance": "fbasephaso"
+    },
+    {
+      "unit": "bjbase",
+      "slot": "weapon4",
+      "weapon": "fbasephas",
+      "classLabel": "cannon",
+      "ordnance": "fbasephaso"
+    },
+    {
+      "unit": "bjbase",
+      "slot": "weapon5",
+      "weapon": "fbasephas",
+      "classLabel": "cannon",
+      "ordnance": "fbasephaso"
+    },
+    {
+      "unit": "bjbase",
+      "slot": "weapon6",
+      "weapon": "fbaserphot",
+      "classLabel": "cannon",
+      "ordnance": "frphotono"
+    },
+    {
+      "unit": "bjbase",
+      "slot": "weapon7",
+      "weapon": "fbaserphot",
+      "classLabel": "cannon",
+      "ordnance": "frphotono"
+    },
+    {
+      "unit": "bjbase",
+      "slot": "weapon8",
+      "weapon": "fbaserphot",
+      "classLabel": "cannon",
+      "ordnance": "frphotono"
+    },
+    {
+      "unit": "bjbase",
+      "slot": "weapon9",
+      "weapon": "fbaserphot",
+      "classLabel": "cannon",
+      "ordnance": "frphotono"
+    },
+    {
+      "unit": "bjbase",
+      "slot": "weapon10",
+      "weapon": "fbaserphot",
+      "classLabel": "cannon",
+      "ordnance": "frphotono"
+    },
+    {
+      "unit": "bjbase",
+      "slot": "weapon11",
+      "weapon": "fbasepulse",
+      "classLabel": "cannon",
+      "ordnance": "fbasepulseo"
+    },
+    {
+      "unit": "bjbase",
+      "slot": "weapon12",
+      "weapon": "fbasepulse",
+      "classLabel": "cannon",
+      "ordnance": "fbasepulseo"
+    },
+    {
+      "unit": "bjbase",
+      "slot": "weapon13",
+      "weapon": "fbasepulse",
+      "classLabel": "cannon",
+      "ordnance": "fbasepulseo"
+    },
+    {
+      "unit": "bjbase",
+      "slot": "weapon14",
+      "weapon": "fbasepulse",
+      "classLabel": "cannon",
+      "ordnance": "fbasepulseo"
+    },
+    {
+      "unit": "bjbase",
+      "slot": "weapon15",
+      "weapon": "fbasepulse",
+      "classLabel": "cannon",
+      "ordnance": "fbasepulseo"
+    },
+    {
+      "unit": "bjorbital",
+      "slot": "weapon1",
+      "weapon": "gOrbitalBeam",
+      "classLabel": "cannon",
+      "ordnance": "orbitalBeam"
+    },
+    {
+      "unit": "bjsensor",
+      "slot": "weapon1",
+      "weapon": "gdetectf",
+      "classLabel": "detectcloak",
+      "ordnance": null
+    },
+    {
+      "unit": "bjsuperlab",
+      "slot": "weapon1",
+      "weapon": "xbjtakeover",
+      "classLabel": "cannon",
+      "ordnance": "xbjtakeovero"
+    },
+    {
+      "unit": "bjturret",
+      "slot": "weapon1",
+      "weapon": "ftpulse",
+      "classLabel": "cannon",
+      "ordnance": "ftpulseo"
+    },
+    {
+      "unit": "bjturret2",
+      "slot": "weapon1",
+      "weapon": "ftphot",
+      "classLabel": "launcher",
+      "ordnance": "fqphotono"
+    }
+  ],
+  "engineLoadVerified": false,
+  "note": "File resolution only. Existing files and class labels do not prove engine loading succeeds."
+}

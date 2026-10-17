@@ -685,7 +685,8 @@ kdestroy4.odf 1 kimpyard.odf
 xacgreen.odf 0 // additional green holding/assimilation beam
 
 
-bbase2.odf 0
+bbase2.odf 0
+
 
 bsphere.odf 1 byard2.odf
 
@@ -695,22 +696,22 @@ bbattle3.odf 1 byard2.odf
 
 bbattle4.odf 1 byard2.odf
 
-fyard3.odf 1 fresear.odf
-
-byard3.odf 2 byard.odf bresear.odf
-
-kyard3.odf 2 kyard.odf kresear.odf
-
-ryard3.odf 2 ryard.odf rresear.odf
-
-cyard3.odf 2 cyard.odf cresear.odf
-
-dyard3.odf 2 dyard.odf dresear.odf
-
-bryard3.odf 2 bryard.odf brresear.odf
 
 
-xhs_yard3.odf 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 bjconst.odf 0
 
@@ -754,33 +755,21 @@ bjsuper.odf 2 bjyard3.odf bjsuperlab.odf
 
 bjnerys.odf 1 bjyard3.odf
 
-bjmining.odf 0
-
-bjyard.odf 1 bjbase.odf
-
-bjresear.odf 2 bjbase.odf bjyard.odf
-
-bjyard2.odf 2 bjyard.odf bjresear.odf
 
 
 
-bjresear2.odf 2 bjyard2.odf bjresear.odf
 
-bjupgrade.odf 2 bjresear.odf bjresear2.odf
 
-bjsensor.odf 1 bjbase.odf
 
-bjorbital.odf 1 bjbase.odf
 
-bjtrading.odf 1 bjbase.odf
 
-bjturret.odf 1 bjbase.odf
 
-bjturret2.odf 1 bjresear.odf
 
-bjsuperlab.odf 2 bjresear2.odf bjyard2.odf
 
-bjpod1.odf 1 bjresear.odf
+
+
+
+bjpod1.odf 2 bjresear.odf bjyard2.odf
 
 bjpod2.odf 1 bjresear.odf
 
@@ -808,17 +797,17 @@ bjpod14.odf 1 bjupgrade.odf
 
 bjpod15.odf 1 bjupgrade.odf
 
-bjpod16.odf 1 bjresear.odf
+bjpod16.odf 1 bjresear2.odf
 
-bjpod21.odf 2 bjupgrade.odf bjpod11.odf
+bjpod21.odf 1 bjpod11.odf
 
-bjpod22.odf 2 bjupgrade.odf bjpod12.odf
+bjpod22.odf 1 bjpod12.odf
 
-bjpod23.odf 2 bjupgrade.odf bjpod13.odf
+bjpod23.odf 1 bjpod13.odf
 
-bjpod24.odf 2 bjupgrade.odf bjpod14.odf
+bjpod24.odf 1 bjpod14.odf
 
-bjpod25.odf 2 bjupgrade.odf bjpod15.odf
+bjpod25.odf 1 bjpod15.odf
 
 xbj_gtracbm.odf 0
 
@@ -872,6 +861,42 @@ xbruconst.odf 1 brbase.odf
 
 xbjuconst.odf 0
 
-bjyard3.odf 2 bjresear2.odf bjyard2.odf
+
 
 xbjtakeover.odf 2 bjsuperlab.odf bjpod9.odf
+
+fyard3.odf 3 fbase.odf fmidas.odf fjupiter.odf
+
+byard3.odf 3 bbase.odf byard2.odf bresear2.odf
+
+kyard3.odf 3 kbase.odf kyard2.odf kresear2.odf
+
+ryard3.odf 3 rbase.odf ryard2.odf rresear2.odf
+
+cyard3.odf 3 cbase.odf cyard2.odf cresear2.odf
+
+dyard3.odf 4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf
+
+bryard3.odf 2 bryard.odf brresear.odf
+
+
+xhs_yard3.odf 1 8472_passive.odf
+
+xhs_vanguard.odf 1 xhs_yard3.odf
+
+xhs_sentinel.odf 1 xhs_yard3.odf
+
+xhs_leviathan.odf 1 xhs_yard3.odf
+bjsensor.odf 1 bjbase.odf
+bjturret.odf 1 bjbase.odf
+bjturret2.odf 1 bjresear.odf
+bjmining.odf 0
+bjorbital.odf 0
+bjtrading.odf 1 bjbase.odf
+bjyard.odf 1 bjbase.odf
+bjyard2.odf 1 bjresear.odf
+bjyard3.odf 3 bjbase.odf bjresear2.odf bjyard2.odf
+bjresear.odf 1 bjbase.odf
+bjresear2.odf 1 bjresear.odf
+bjupgrade.odf 2 bjresear.odf bjresear2.odf
+bjsuperlab.odf 3 bjbase.odf bjresear2.odf bjyard2.odf

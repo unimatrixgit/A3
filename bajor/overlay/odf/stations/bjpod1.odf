@@ -4,13 +4,14 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitname = "Bajoran Tactical Systems"
 
 //tooltips
-
+tooltip = "Bajoran Tactical Systems"
+verbosetooltip = "Bajoran Tactical Systems. Extrapolated technology pod."
 
 //Race which can build ship & starting race of ship
-
+race = "bajoran"
 
 //Amount of time required to build ship
 
@@ -46,16 +47,22 @@ crewCost = 0
 officerCost = 1
 buildTime = 160
 
-unitName = "Bajoran Tactical Systems"
+eventacknowledge = "PodAcknowledge"
 
-tooltip = "Bajoran Tactical Systems"
+eventdecommission = "PodDecommission"
 
-verboseTooltip = "Bajoran Tactical Systems. Extrapolated technology pod."
+eventselect = "PodSelect"
 
-race = "bajoran"
+basename = "br3_bjpod1"
 
+scalesod = 1.0
 
+shieldgeneratorhitpoints = 120
 
+lifesupporthitpoints = 120
 
-baseName = "fedpod2"
-ScaleSOD = 1.0
+sensorshitpoints = 120
+
+maxhealth = 450
+
+shieldrate = 1.25

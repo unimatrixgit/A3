@@ -4,13 +4,14 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitname = "Bajoran Advanced Deflector"
 
 //tooltips
-
+tooltip = "Bajoran Advanced Deflector"
+verbosetooltip = "Bajoran Advanced Deflector. Extrapolated technology pod."
 
 //Race which can build ship & starting race of ship
-
+race = "bajoran"
 
 //Amount of time required to build ship
 
@@ -47,16 +48,22 @@ crewCost = 0
 officerCost = 2
 buildTime = 140
 
-unitName = "Bajoran Advanced Deflector"
+eventacknowledge = "PodAcknowledge"
 
-tooltip = "Bajoran Advanced Deflector"
+eventdecommission = "PodDecommission"
 
-verboseTooltip = "Bajoran Advanced Deflector. Extrapolated technology pod."
+eventselect = "PodSelect"
 
-race = "bajoran"
+basename = "br3_bjpod7"
 
+scalesod = 1.0
 
+shieldgeneratorhitpoints = 120
 
+lifesupporthitpoints = 120
 
-baseName = "fedpod7"
-ScaleSOD = 1.0
+sensorshitpoints = 120
+
+maxhealth = 450
+
+shieldrate = 1.25

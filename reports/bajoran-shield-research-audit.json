@@ -1,0 +1,27 @@
+{
+  "runtimeEffectVerified": false,
+  "target": "D:\\armadaIII",
+  "producer": "bjupgrade",
+  "shieldII": {
+    "unit": "bjpod12",
+    "parent": "ShieldUpgradePod",
+    "upgradeLevel": 2,
+    "upgradeMultiplier": 1.5,
+    "race": "bajoran",
+    "upgradeSystem": "shield_generator",
+    "isShipUpgrade": 1,
+    "requires": "bjupgrade"
+  },
+  "shieldIII": {
+    "unit": "bjpod22",
+    "parent": "ShieldUpgradePod2",
+    "upgradeLevel": 3,
+    "upgradeMultiplier": 2.0,
+    "race": "bajoran",
+    "upgradeSystem": "shield_generator",
+    "isShipUpgrade": 1,
+    "requires": "bjpod12"
+  },
+  "checkedAt": "2026-10-17T01:36:52.2472542Z",
+  "matchesFederationMechanism": true
+}

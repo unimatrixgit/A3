@@ -1,0 +1,653 @@
+{
+  "target": "D:\\armadaIII",
+  "stage": "D:\\Xaramada-Modwork\\bajor-visibility-repair",
+  "files": [
+    {
+      "path": "SOD/bjconst.sod",
+      "sourceSha256": "8a866b9e619b4adf56b1c71c2605f1f5b5dfc501d967d2762dc6d748544ef78f",
+      "sha256": "c024fe8c4c8364b4e9694920c517a8864f513fb6ee11e06fadd0cf44bf6d83f7",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjfreight.sod",
+      "sourceSha256": "afe163baa8fe28ea3dc79e40238ea42e6f3679d9b7b3d1de0951b2e61b310600",
+      "sha256": "a5555e329c72fe9dfb91c558353f1e2edc6b79307fb6049d52cd60d346a3523f",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjscout.sod",
+      "sourceSha256": "387812f38683021fe82e3a0a4a84c1ec342200865e52391a03792b63aac5364a",
+      "sha256": "fefb51b263bf30e6b585f7e80166ed74b4722da7c40b839d7a89277a38c4e756",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjinterceptor.sod",
+      "sourceSha256": "3374bf4283afafe34f9efba67ed26d3772c23939adeca1cd419b38a07747f0e7",
+      "sha256": "79336ef277e92a6a585785cd7c087b06a1517736766764cbaac119ad6c27e26e",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjassault.sod",
+      "sourceSha256": "c04f22cbcf32ed688d49ba27d4d7c8e123d26a1a897c19818df63b871acfc2e3",
+      "sha256": "6466e361cccebcaa958a3a963539620c2542a937acd4c7b62a7d61c4af516a6e",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjtransport.sod",
+      "sourceSha256": "6ac53cd530b11aa05edbaff5b752dae0f886e15e3fe0243ed1fbc68d18a0364d",
+      "sha256": "f7ef8bbc02f3824d47cfe4786ecac19522ff6f8fa176b186da4736de6a944090",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjnerys.sod",
+      "sourceSha256": "b2af032d95d899be46fcbb4e11c97cc8756f81ee9c1f2f436e396fea95fe1595",
+      "sha256": "1031de038fc0e7ea3bbca83374df696272a4567928dbea46396c1e47764e3cff",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjmining.sod",
+      "sourceSha256": "c389017d43e84d1cb5529ccf696eac9afa7ce4994cc089e8ff83210ee100eca8",
+      "sha256": "6ab609c2d0fe6a3bffa70d0daf3d3886be463f3cfac8b37b0ddb030c9d96cc42",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjyard.sod",
+      "sourceSha256": "4b3985aa529a0f5ed1ea0d44d4b35bcc4cb1f20d714720818e4271c75c3fcc1e",
+      "sha256": "3651feeef99ef7b1c4b400c8498a978d2930d5b9b9d9db70a206a225ffb693a6",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjyard2.sod",
+      "sourceSha256": "db599d7e2aa2d9910a9b4de57f0584642cafe414ac4fb77c6e60a6cb10a6147b",
+      "sha256": "5e13b99a7959dda96552c8bc90d146e10d6ad359a7548f06b7b0d61d10807c0a",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjyard3.sod",
+      "sourceSha256": "d83c4da9d637027c3a01ee66493029a854890a48ed49bac5644160c3503f5fdc",
+      "sha256": "33c95b455b2b6135b3b50f9162018ed4021fa956fa393d289b98eff631faf11d",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjresear.sod",
+      "sourceSha256": "027ff7ad8592951f8b110c1d20d1449588cb49e55329bde80ce6e38a9ef75aa0",
+      "sha256": "f86a3ceaceaa9316f06caeef4f84ffca50bf0ce6d1e39ee971760a295a2ec235",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjturret.sod",
+      "sourceSha256": "3d1e338f8cadd297f9f4f4a6e94e6ce539421c88c6ea194c5fc99a40a3e2fb08",
+      "sha256": "21cee48f318369a276bfd60b4647f0a3fd94e8dbb7ea40a7e827fb7e9cae7ae7",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjraider.sod",
+      "sourceSha256": "155aaac0c059ffeaf4fb2a38441fb7ebf4fc7cbd55340e6f5fd8a900c1be910f",
+      "sha256": "185888168d8fd57a374579003b46a6f44bf9595a15b419e3f2199d2e45ea086f",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjlightship.sod",
+      "sourceSha256": "cbe33ce69165b92cdbc1e135e837d0cb9b8617f6d625f6d2676508ff3287653d",
+      "sha256": "7a05a72a5f66f52dea7fae4b716d50190e668323094c00e73b00fd634d0026ba",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjcolony.sod",
+      "sourceSha256": "c4dff704fc48f5abed741c26819ba8934f7858640ec6944324adac22a7ba9022",
+      "sha256": "b05ec92f9077f50152691ad2655d0341d2db37b902a7af9edec740f0a3f6e37a",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjcargo.sod",
+      "sourceSha256": "3078a473b6649234b2d19948042bd9b8bf7529723ff5673c79b7066a857f130f",
+      "sha256": "a7d04948c41c8ead168ec27e921fe9282cc62bb7f2dae1f98a38571443e301c3",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjrepair.sod",
+      "sourceSha256": "40f2f6950df213247e51b1a988a5e979b8b76630b8fe5331c6402579d54550a6",
+      "sha256": "efb6911fac34049e02a7cb36be2fd1a2c79bad9587978874898e573dbb7e5e87",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjcruiser.sod",
+      "sourceSha256": "12fb9cef854e887095f125867c414d8bc0282053cf45361fd944a5addbb95f8f",
+      "sha256": "7af0eb4201ef09124cbfc61761906444f02b274ab4ee7d053a66b109ba6c30f1",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjtorpedo.sod",
+      "sourceSha256": "1d2319b90bfd56eb101b686127f56f0bb7a47c9f0b2360a93b8ec05d57d8da3d",
+      "sha256": "41fc45afbf4f37e709122bc7ad230ed432c80f2052233363fb54720aea487774",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjfrigate.sod",
+      "sourceSha256": "3e717f5bedaeb38f09d28e22e5b6849f355c7322b0ab4d4ca45a82b87a0852a8",
+      "sha256": "7c00e7b60f3c877d7c0a8b7cef541f6a14347e34b77a7073851a3cdeb9873b0b",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjartillery.sod",
+      "sourceSha256": "10cb9b9c4d01a5e2555a4a83b75b7a7a334af1709edb1625be9f8ffaa40e5ee2",
+      "sha256": "c21e68a8fdcc3f8eb0f1479c26c2f90e520c7f12487c45e4c1e08050f73865ff",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjbattle.sod",
+      "sourceSha256": "74c175f3d9f3d86a9353377687b98f21a5c935ed867cbf92d8abbc197a636bde",
+      "sha256": "feb1dc6fa793e1c9589e53d80e6f26308094c33029214927d1a2a995e83c41f9",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjspecial.sod",
+      "sourceSha256": "f4aa5249aa46173aa6b84e1c68e4b544d78d291bad4945fb705d16df25c30509",
+      "sha256": "aa8ad9fbae057c6b5678bcee28360cbdbe2770fcaa6a2f938fb5fa88ad280e8f",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjsuper.sod",
+      "sourceSha256": "9b4894c8b84944988892bc9646c3e8e46f4ce07f9c4f1b58e5fc59b2efb68f13",
+      "sha256": "608e8aea383602f3dc9a3a60ef228cd1a8b1001afaf1f4ebb1496ab288515221",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjresear2.sod",
+      "sourceSha256": "e1bbc1fadfa3dea4422ad5565306fa35594c94311a3e2196fcefac8f47398304",
+      "sha256": "60d2c4e3831c6274ff47d99333a2da92eef5b70aeadbd52cbb93fd72e4df8c41",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjupgrade.sod",
+      "sourceSha256": "f854afa8bc1e5addb56b19ed1d51553fa026b39493f72a4e7551561411f0ea9c",
+      "sha256": "aef9e08f3dc49f23f8a01634f19fb37ce2eaa5eade84bbdf2412806dc7a1a6bb",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjsensor.sod",
+      "sourceSha256": "68102fa4cef790bc5e67596d532867a510a4a5eb390d32a08b967e6b6de74e97",
+      "sha256": "1ecbf3066f3bebd9f0d19334bc83473627331c14ca434aa8a9bb82a54f0aa8cd",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjorbital.sod",
+      "sourceSha256": "bb8246bc134ebb03210f9786dfa07505996e217e5ffa8bd41c96ae9a08241857",
+      "sha256": "14b9773280297a26914a5e80b4625dff9f6ede007f3c9b49ec521f176c6dd1b0",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjtrading.sod",
+      "sourceSha256": "008601484186f99c81f5399c16e9b1b699de4bd5727e7fe7f3409dfa533ff0cd",
+      "sha256": "ab3d3638dd8293a6e8c5d75b11096189c62b44094a49252f5a4dfec6b8a81d95",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjturret2.sod",
+      "sourceSha256": "e2dd67a889c9b70ebdd44e1215e17dbb29af02588e430246d63cfb60a70f6860",
+      "sha256": "d95450b533772904c11290dab496f7ff2e1eb0bec3bd71b0fa8196b29736b856",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjsuperlab.sod",
+      "sourceSha256": "34683f7d74c6128a3d0c7ce6813675de83a36fc217220c3e34cd22c6f2539780",
+      "sha256": "94cb155f940361ec41bc4df3a8225709bc8c7f4f25f2bc1744b674786183f95c",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjpod1.sod",
+      "sourceSha256": "866272896754d0520092ceba5245d2b8cf1ff0a32b6757d890b15a30a3b8411a",
+      "sha256": "b23a08ff79eb750a3ca3c251ab5e186f738fb79920ee583a7920c601c9ee9fb3",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjpod2.sod",
+      "sourceSha256": "fc29ccb08b9d6e207659eb31306f203bebef1b0b33ef2685cf02a4661b700fc4",
+      "sha256": "9a0d698671189699912af60335915d01af3bcded8934166c082d51d9d0d1a237",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjpod3.sod",
+      "sourceSha256": "1ae706d7f769c208cff9dfea8a62999ccbf2735c77f7a7cdace9b5746576a57c",
+      "sha256": "b3c560c6d4c1bd02b7fce189c987adc30f27e5c9144da7eab9fbf6c0323bb2a8",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjpod4.sod",
+      "sourceSha256": "d238379474b955a04e5fe6c8691a49f05096764cd8b026587716ec6556779b30",
+      "sha256": "43ba612bd6052f424419aaa8306524381ae26cd0ca56af739dab5e2bf80a8945",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjpod5.sod",
+      "sourceSha256": "709e604f1853b9fbd82fc3d1102a0fe1f1e4e626b7c6f5862b6801eb59c5c72b",
+      "sha256": "808c00a34425c5513630a4cfae6f36cda9e7fb5b8de5e2e012942e5755f852a0",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjpod6.sod",
+      "sourceSha256": "076132b61301e0481bb9fa80ecbf4d9332a1c2b59ce855bb6c3554efdfd35cbe",
+      "sha256": "b6ea986a8da8f56c4f04f033c5d964ad5045e77ebc6caf84c14afcab94ebc332",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjpod7.sod",
+      "sourceSha256": "2e767afac2f78d51414c14eec6f8e8e8efa6177386e8050d40d87505bac3092c",
+      "sha256": "ae3faa9d0ca6881ff1df88db446ee707a3dda9f57dd813789bc1e5c4adfe1fc9",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjpod8.sod",
+      "sourceSha256": "dab83f81c56bb863cb7033374e6cd7759d87fc3d8cf55771c16ae834d364fb09",
+      "sha256": "8f52284006e08c7b0bf3dff4b754b07ecae1681913c06e20a18c4568fd217664",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjpod9.sod",
+      "sourceSha256": "1efae832d8e8fc6a61aed0d061cad66237ab5ec9714252efc07b27fbfeb899b0",
+      "sha256": "e090871d69528c63b289936365f5e78a62cacde0cab9917a1ed95f9c6ec6b95e",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjpod11.sod",
+      "sourceSha256": "cfedc5558c6595e3100f2d4b403ca7ffece7da129fde61d23d014554be8f654c",
+      "sha256": "5d0f3da1207b51460a33f7173ea705bad871b98a830eddebc16798536c3b9829",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjpod12.sod",
+      "sourceSha256": "4e24386f35b0a6bcfe8ce370419ffdf7079a24ac527fc9d0ce3485f68a84dbd2",
+      "sha256": "1e0ac0cf37dad098c53820d00cf304435cec645489b0b74d6b764b19793d28c4",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjpod13.sod",
+      "sourceSha256": "411cbfc954f765c33329789188ca34851efd58e211008e3617d130b84285bbb8",
+      "sha256": "0fa1073cfcf0da9e6cc9ce68a7a1a6c775fda8469d385356ce4b6b276178212d",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjpod14.sod",
+      "sourceSha256": "970cc72c663206ba45acf877adb00472d4922411abde4f7efcb3eb69ed462b94",
+      "sha256": "45e7cc69638d50580fca960670d2c1d6e6d98ee360300f4b802c9be1df808840",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjpod15.sod",
+      "sourceSha256": "99ea24c6033e29e337a0492058f2ff15d1292d69705b876726a4008256f86b08",
+      "sha256": "a28e687e7123a193fe0e533466927862636eea7ee5db614db07ba781c38c2901",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjpod16.sod",
+      "sourceSha256": "1b9082ef2416733503570a1b05b812bb8e331a5c361372a46ab08d095ef69698",
+      "sha256": "4a4f1befd8409bb618a83c7399827afc30b39a841412e04dc360fc707c5de00f",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjpod21.sod",
+      "sourceSha256": "0cc1404d8d5df27f7ea30e0da661d08a7f27840403adf75db3fdfb8b4a43b997",
+      "sha256": "f2923f19b981e782b80fd64c27a7b569ba60fcf380452dfa01f77bb0b23b38b9",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjpod22.sod",
+      "sourceSha256": "712698713e0e9a19e7f9edd872c425ea6b673628c851f5f2a2398faf70a4eebe",
+      "sha256": "93e34a6a698e9235a59df5a63842acfa3f73fae2e43136188e1b69dc019934c7",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjpod23.sod",
+      "sourceSha256": "5f1d36340c79d9f86a45de3ef4a7644c32f4bce344493c2d02e26c6564fa66fa",
+      "sha256": "aaf7dd59b88167861754b2035f6447aef506d5b6953864c472e09432205d5679",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjpod24.sod",
+      "sourceSha256": "5418b2c66b7c75679e6f23322bdcaad439e733777c56b6a5affeca77928d63af",
+      "sha256": "a6356d283bdc46a1bea48871e1970f486b765976c64a169239b54e06cce774cc",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/bjpod25.sod",
+      "sourceSha256": "46c43fdcd468999231e39f29c0312bda9816eba76c149873de78858edf0e122f",
+      "sha256": "650c4160f09f12e0b6ab0d88f32dd7f45900029939e57d773e899499f762564c",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    },
+    {
+      "path": "SOD/xbjuconst.sod",
+      "sourceSha256": "5a212c302729838cde9049511f74276cd24ee3d696e9192a16c34ad98f2195a4",
+      "sha256": "752ada17ef610e54b69ab1d2df3c23b678d071410b9c5362ebcf2ce71256f0d0",
+      "changes": [
+        {
+          "mesh": "lod1",
+          "previousMaterial": "default",
+          "previousBumpMap": 0
+        }
+      ]
+    }
+  ],
+  "hypothesis": "Generated 1.93 meshes used default/0 material settings; visible installed native models use opaque/1. Align those settings to test invisible hulls. Texture files exist; cause not yet confirmed in game.",
+  "geometryPreserved": true,
+  "statsAiAudioUntouched": true,
+  "applied": true,
+  "runtimeVerified": false,
+  "backup": "D:\\Xaramada-Modwork\\backups\\bajor-visibility-repair-20261017-002037",
+  "userTest": {
+    "result": "User reports models work after material repair; continuing test",
+    "time": "2026-10-16T22:23:48.8536500Z",
+    "exhaustiveVisualTest": false
+  }
+}

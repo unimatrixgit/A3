@@ -1,0 +1,150 @@
+// Name used to refer to the race in the code and scripts.
+name = "dominion"
+
+// Name displayed in the interface for this race.
+displayKey = "Dominion"
+
+// Instant action slot, negative means not playable
+instantActionSlot = 6
+
+// Name of the interface configuration and sprite files.
+interfaceConfiguration = "gui_dom.cfg"
+interfaceSprites = "gui_dominion.spr"
+
+// Label for admirals log creation
+creationLabel = "ADM_COMMISSIONED"
+recycledLabel = "ADM_DECOMMISSIONED"
+
+// Music play list.
+singlePlayerMusic = "mfed300.wav"
+multiPlayerMusic = "mcarmp300.wav"
+
+// Transporter sprite
+transportSprite = "ftransport"
+
+// How quickly this race repairs. Bigger is slower.
+repairStrength = 4.5f
+
+// How strong this race is when fighting as a boarding party or
+// against a boarding party.
+boardingStrength = 1.50f
+
+// When this race will retreat from battle 
+retreatStrength = 0.10f //percent shield strength 
+crewRetreatRatio = 0.05f //never retreat
+
+//number of crew added to the team per second per starbase
+//also used as base for planetary civilian populations.
+crewAccumulationRate = 4.0
+
+//the modifier for the crewAccumulationRate for a starbase if it is close to a planet
+planetCrewAccumulationModifier = 2.0
+
+// Name of the city texture, "" means none
+cityTextureName = "ECNA"
+
+// atmosphere tint (reddish)
+//atmosphereTint = 0.8 0.3 0.2
+atmosphereTint = 1.0 1.0 1.0
+
+// # of cities in the city texture
+numCities = 35.0
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The percentage at which the crew enters yellow status (ex. 0.75f)
+crewYellowStatus = 0.3f
+
+//The percentage at which the crew enters red status (ex. 0.25f)
+crewRedStatus = 0.1f
+
+//The multiplier for the repair time while in yellow status
+repairYellow = 2.0f
+
+//The multiplier for the repair time while in red status
+repairRed = 5.0f
+
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 1.00f
+
+//**********************************************************************
+
+//ODF for officer upgrade for starbases
+officerUpgradeODF = "domoff"
+
+// the things you get when you ask for minimal default units (instead of the map units)
+minimalUnits1 = "dconst.odf"	// construction ship
+
+// the things you get when you ask for standard default units (instead of the map units)
+
+// the things you get when you ask for superside units (instead of the map units)
+superUnits1 = "bconst.odf"	// borg construction ship
+superUnits2 = "fconst.odf"	// federation construction ship
+superUnits3 = "kconst.odf"	// klingon construction ship
+superUnits4 = "rconst.odf"	// romulan construction ship
+superUnits5 = "cconst.odf"	// cardassian construction ship
+
+//things you get when you ask for capture the flag map.
+ctfUnits1 = "ctf_dbase.odf"
+ctfUnits2 = "ctf_dconst.odf"
+ctfUnits3 = "ctf_dconst.odf"
+ctfUnits4 = "dscout.odf"
+
+// for the computer voice
+computerShipConstructionBegin1 = "gvofc022.wav"
+computerShipConstructionBegin2 = "gvofc023.wav"
+computerShipConstructionComplete1 = "gvofc024.wav"
+computerFacilityConstructionBegin1 = "gvofc022.wav"
+computerFacilityConstructionBegin2 = "gvofc023.wav"
+computerFacilityConstructionComplete1 = "gvofc024.wav"
+computerWeaponsOffline1 = "gvofc01.wav"
+computerEnginesOffline1 = "gvofc03.wav"
+computerEnginesOffline2 = "gvofc05.wav"
+computerShieldGeneratorOffline1 = "gvofc09.wav"
+computerLifeSupportOffline1 = "gvofc011.wav"
+computerSensorsOffline1 = "gvofc07.wav"
+computerUnderAttack1 = ""
+
+// Multiplayer AI behavior
+// Do we transport to help our friends when not on easy
+transportToFriendsOnNotEasy = 0
+transportToEnemyOnHard = 1
+
+// The Dominion are very aggressive, willing to sacrifice for victory
+// Recycling efficiency
+recycleDilithiumFraction = .4
+recycleMetalFraction = .4
+
+// How relatively fast we mine any resource
+miningRateModifier = 1.25
+
+// what event should we use when we run out of officers?
+insufficientOfficersEvent = "InsufficientCardOfficers"
+
+// for normal and lots of resource games, we need to specify how much
+// of each resource this race should get
+
+// NORMAL
+normalDilithium = 3500
+normalMetal = 2000
+normalLatinum = 500
+normalCrew = 1200
+
+// LOTS
+lotsDilithium = 30000
+lotsMetal = 30000
+lotsLatinum = 30000
+lotsCrew = 30000
+
+
+minimalUnits2 = "xhdhero.odf"
+
+// One faction hero in the standard starting fleet; unit production remains unchanged.
+standardUnits1 = "dconst.odf"
+standardUnits2 = "dconst.odf"
+standardUnits3 = "dbase.odf"
+standardUnits4 = "dscout.odf"
+standardUnits5 = "xhdhero.odf"
