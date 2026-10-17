@@ -2,7 +2,6 @@
   "target": "D:/armadaIII",
   "tech": "tech1.tt",
   "startingUnits": [
-    "bjnerys.odf",
     "bjconst.odf",
     "bjconst.odf",
     "bjbase.odf",
@@ -361,6 +360,13 @@
       "requires": [
         "bjyard2.odf",
         "bjresear2.odf"
+      ]
+    },
+    {
+      "unit": "bjnerys.odf",
+      "producer": "bjyard3.odf",
+      "requires": [
+        "bjyard3.odf"
       ]
     },
     {

@@ -1,0 +1,12 @@
+{
+  "stage": "D:\\Xaramada-Modwork\\galor-texture-recovery\\Galor2.tga",
+  "target": "D:/armadaIII/Textures/RGB/Galor2.tga",
+  "source": "D:\\armadaIII\\Textures\\RGB\\Galor.tga",
+  "sha256": "3e727a128727d2a432a6aaebcbda1ee6b90120e84bddc51f5cf90116a0b94049",
+  "affectedModel": "cogalor.sod",
+  "missingReference": "Galor2",
+  "applied": true,
+  "runtimeVerified": false,
+  "scope": "Add missing texture filename alias only; no model/ODF/stat/GUI changes.",
+  "rollback": "Remove only D:\\armadaIII\\Textures\\RGB\\Galor2.tga to undo newly added alias."
+}

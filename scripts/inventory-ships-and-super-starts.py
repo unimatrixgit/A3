@@ -11,7 +11,9 @@ for name,p in idx.items():
 p=repo/'reports/installed-ship-roster.csv'
 with p.open('w',newline='',encoding='utf-8')as f:w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
 missing=[x for x in rows if x['producers']and not x['modelPresent']];(repo/'reports/installed-ship-roster-summary.json').write_text(json.dumps({'shipsInventoried':len(rows),'buildableShipDefinitions':sum(bool(x['producers'])for x in rows),'missingBuildableModels':missing,'scope':'Current installed ship definitions, not an exhaustive every-film/episode canon inventory.','runtimeVerified':False},indent=2));print(json.dumps({'ships':len(rows),'buildable':sum(bool(x['producers'])for x in rows),'missingModels':len(missing)}))
-# Finish the one-faction-hero rule for alternate super starts, preserving all existing units.
+# Starting-hero generation disabled: user now requires buildable heroes only.
+raise SystemExit(0)
+# Historical implementation below retained only for reference.
 stage=Path('D:/Xaramada-Modwork/super-start-heroes');files=[]
 for race in ['borg','fed','kling','rom','card','species8472','dominion','breen']:
  d=props(race);standard=[v for k,v in d.items()if re.fullmatch(r'standardunits\d+',k)];heroes=[n for n in standard if props(n).get('ishero')=='1'];assert len(heroes)==1

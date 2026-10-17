@@ -76,16 +76,10 @@ weaponRed = 1.00f
 officerUpgradeODF = "domoff"
 
 // the things you get when you ask for minimal default units (instead of the map units)
-minimalUnits1 = "dconst.odf"	// construction ship
 
 // the things you get when you ask for standard default units (instead of the map units)
 
 // the things you get when you ask for superside units (instead of the map units)
-superUnits1 = "bconst.odf"	// borg construction ship
-superUnits2 = "fconst.odf"	// federation construction ship
-superUnits3 = "kconst.odf"	// klingon construction ship
-superUnits4 = "rconst.odf"	// romulan construction ship
-superUnits5 = "cconst.odf"	// cardassian construction ship
 
 //things you get when you ask for capture the flag map.
 ctfUnits1 = "ctf_dbase.odf"
@@ -140,14 +134,23 @@ lotsLatinum = 30000
 lotsCrew = 30000
 
 
-minimalUnits2 = "xhdhero.odf"
 
 // One faction hero in the standard starting fleet; unit production remains unchanged.
+
+// Faction hero also accompanies the alternate super starting fleet.
+
+// Hero ships remain buildable; starting fleet contains ordinary units only.
+minimalUnits1 = "dconst.odf"
+
+// Hero ships remain buildable; starting fleet contains ordinary units only.
+superUnits1 = "bconst.odf"
+superUnits2 = "fconst.odf"
+superUnits3 = "kconst.odf"
+superUnits4 = "rconst.odf"
+superUnits5 = "cconst.odf"
+
+// Hero ships remain buildable; starting fleet contains ordinary units only.
 standardUnits1 = "dconst.odf"
 standardUnits2 = "dconst.odf"
 standardUnits3 = "dbase.odf"
 standardUnits4 = "dscout.odf"
-standardUnits5 = "xhdhero.odf"
-
-// Faction hero also accompanies the alternate super starting fleet.
-superUnits6 = "xhdhero.odf"

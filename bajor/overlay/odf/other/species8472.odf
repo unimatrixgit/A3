@@ -87,19 +87,10 @@ weaponRed = 5.0f
 officerUpgradeODF = "borgoff"
 
 // the things you get when you ask for minimal default units (instead of the map units)
-minimalUnits1 = "8472_mothership.odf"	// construction ship
 
 // the things you get when you ask for standard default units (instead of the map units)
-standardUnits1 = "8472_mothership.odf"	// construction ship
-standardUnits2 = "8472_active.odf"	// construction ship
-standardUnits3 = "8472_passive.odf"	// starbase
-standardUnits4 = "8472_scout.odf"	// scout
 
 // the things you get when you ask for superside units (instead of the map units)
-superUnits1 = "bconst.odf"	// borg construction ship
-superUnits2 = "fconst.odf"	// federation construction ship
-superUnits3 = "kconst.odf"	// klingon construction ship
-superUnits4 = "rconst.odf"	// romulan construction ship
 
 
 // for the computer voice
@@ -149,9 +140,21 @@ normalBiomatter = 7200
 // LOTS
 lotsBiomatter = 120000
 
-standardUnits5 = "xhshero.odf"
 
-minimalUnits2 = "xhshero.odf"
 
 // Faction hero also accompanies the alternate super starting fleet.
-superUnits5 = "xhshero.odf"
+
+// Hero ships remain buildable; starting fleet contains ordinary units only.
+minimalUnits1 = "8472_mothership.odf"
+
+// Hero ships remain buildable; starting fleet contains ordinary units only.
+standardUnits1 = "8472_mothership.odf"
+standardUnits2 = "8472_active.odf"
+standardUnits3 = "8472_passive.odf"
+standardUnits4 = "8472_scout.odf"
+
+// Hero ships remain buildable; starting fleet contains ordinary units only.
+superUnits1 = "bconst.odf"
+superUnits2 = "fconst.odf"
+superUnits3 = "kconst.odf"
+superUnits4 = "rconst.odf"

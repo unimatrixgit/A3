@@ -1,0 +1,277 @@
+{
+  "target": "D:\\armadaIII",
+  "stage": "D:\\Xaramada-Modwork\\buildable-heroes-only",
+  "files": [
+    {
+      "path": "odf/other/borg.odf",
+      "sourceSha256": "ad73bfe25907ca1b071b8b083b951163b42eb2ae0913b222e3333a82d35e5e31",
+      "sha256": "5c9582a93dc59868820ebcd7c42049e34c49d72fd533af208405a8d62d55ef49"
+    },
+    {
+      "path": "odf/other/fed.odf",
+      "sourceSha256": "e1a78e95de34034317b05fde7f8b6e46496abcfd385dae303b320892f82495ee",
+      "sha256": "80d87f7b8b0bf69c019b7dbf40d9c3e402c56c3811c006543dc990087c178c38"
+    },
+    {
+      "path": "odf/other/kling.odf",
+      "sourceSha256": "62ee4f4c9794750fb622f1997e672cb2d041807acea4ebd0aa60157dac29cbbd",
+      "sha256": "8331ac3e958c327b20444acbc0b8af610b880d594468c7691c8dd3d69f28ecbd"
+    },
+    {
+      "path": "odf/other/rom.odf",
+      "sourceSha256": "4e670994044de76c5bffcd76beffde77845d57bcf6de6cb201ed967686eab76b",
+      "sha256": "2ba09f25ddce7e7d61cc8c50bf683c6019d4e78b905bf5971436a12dd130c3c7"
+    },
+    {
+      "path": "odf/other/card.odf",
+      "sourceSha256": "419c5b65da8d3eff05d78478a452ee824fc9affda7bd9dabe34424625bc4001b",
+      "sha256": "dbfdb62cc8982092b04650823a53fccf56f5c42b3a304827a986aef67dc12450"
+    },
+    {
+      "path": "odf/other/species8472.odf",
+      "sourceSha256": "51e2f743eaacf97707981d17fe0fcc21ffe177ec936ff606a11c869d93c140ce",
+      "sha256": "6494856a62f964cc615220f0fbd3b01f5d668c319a411fc2b48d655a53762330"
+    },
+    {
+      "path": "odf/other/dominion.odf",
+      "sourceSha256": "37d47cf09ad529e4c6f84ae5fb6b22da45b929d0cd7de8cfd602ec8538bff388",
+      "sha256": "6bf936ae0a3cb6ba3dd46b4da9dd0a869765bcb6b1acaf3d16998bca6046e4b0"
+    },
+    {
+      "path": "odf/other/bajoran.odf",
+      "sourceSha256": "8025cd887a0f4889d9ffc2369be5a0a98a2f7f64699e1ae338271684ca532217",
+      "sha256": "9557243ba58a6e5e93b743a64fba2ff3a01996cf5effe3bc665a0954fe4fe3a2"
+    },
+    {
+      "path": "odf/other/breen.odf",
+      "sourceSha256": "718b86d805fd24a5e24d8fd68dcf495b2f77693cda8e0e22bdd83a4d69032f86",
+      "sha256": "b624d96e75aad3b4308e0339a8a30fdf351fd5c4d7f65937fc8ef3c8fd702f8f"
+    }
+  ],
+  "removedStartingHeroes": [
+    {
+      "race": "borg",
+      "mode": "minimalUnits",
+      "unit": "blocutus.odf",
+      "retainedProducers": [
+        "byard2.odf",
+        "byard3.odf"
+      ]
+    },
+    {
+      "race": "borg",
+      "mode": "superUnits",
+      "unit": "blocutus.odf",
+      "retainedProducers": [
+        "byard2.odf",
+        "byard3.odf"
+      ]
+    },
+    {
+      "race": "borg",
+      "mode": "standardUnits",
+      "unit": "blocutus.odf",
+      "retainedProducers": [
+        "byard2.odf",
+        "byard3.odf"
+      ]
+    },
+    {
+      "race": "fed",
+      "mode": "minimalUnits",
+      "unit": "xhfhero.odf",
+      "retainedProducers": [
+        "fyard3.odf"
+      ]
+    },
+    {
+      "race": "fed",
+      "mode": "standardUnits",
+      "unit": "xhfhero.odf",
+      "retainedProducers": [
+        "fyard3.odf"
+      ]
+    },
+    {
+      "race": "fed",
+      "mode": "superUnits",
+      "unit": "xhfhero.odf",
+      "retainedProducers": [
+        "fyard3.odf"
+      ]
+    },
+    {
+      "race": "kling",
+      "mode": "minimalUnits",
+      "unit": "xhkhero.odf",
+      "retainedProducers": [
+        "kyard3.odf"
+      ]
+    },
+    {
+      "race": "kling",
+      "mode": "standardUnits",
+      "unit": "xhkhero.odf",
+      "retainedProducers": [
+        "kyard3.odf"
+      ]
+    },
+    {
+      "race": "kling",
+      "mode": "superUnits",
+      "unit": "xhkhero.odf",
+      "retainedProducers": [
+        "kyard3.odf"
+      ]
+    },
+    {
+      "race": "rom",
+      "mode": "minimalUnits",
+      "unit": "xhrhero.odf",
+      "retainedProducers": [
+        "ryard3.odf"
+      ]
+    },
+    {
+      "race": "rom",
+      "mode": "standardUnits",
+      "unit": "xhrhero.odf",
+      "retainedProducers": [
+        "ryard3.odf"
+      ]
+    },
+    {
+      "race": "rom",
+      "mode": "superUnits",
+      "unit": "xhrhero.odf",
+      "retainedProducers": [
+        "ryard3.odf"
+      ]
+    },
+    {
+      "race": "card",
+      "mode": "minimalUnits",
+      "unit": "xhchero.odf",
+      "retainedProducers": [
+        "cyard3.odf"
+      ]
+    },
+    {
+      "race": "card",
+      "mode": "standardUnits",
+      "unit": "xhchero.odf",
+      "retainedProducers": [
+        "cyard3.odf"
+      ]
+    },
+    {
+      "race": "card",
+      "mode": "superUnits",
+      "unit": "xhchero.odf",
+      "retainedProducers": [
+        "cyard3.odf"
+      ]
+    },
+    {
+      "race": "species8472",
+      "mode": "minimalUnits",
+      "unit": "xhshero.odf",
+      "retainedProducers": [
+        "xhs_yard3.odf"
+      ]
+    },
+    {
+      "race": "species8472",
+      "mode": "standardUnits",
+      "unit": "xhshero.odf",
+      "retainedProducers": [
+        "xhs_yard3.odf"
+      ]
+    },
+    {
+      "race": "species8472",
+      "mode": "superUnits",
+      "unit": "xhshero.odf",
+      "retainedProducers": [
+        "xhs_yard3.odf"
+      ]
+    },
+    {
+      "race": "dominion",
+      "mode": "minimalUnits",
+      "unit": "xhdhero.odf",
+      "retainedProducers": [
+        "dyard3.odf"
+      ]
+    },
+    {
+      "race": "dominion",
+      "mode": "superUnits",
+      "unit": "xhdhero.odf",
+      "retainedProducers": [
+        "dyard3.odf"
+      ]
+    },
+    {
+      "race": "dominion",
+      "mode": "standardUnits",
+      "unit": "xhdhero.odf",
+      "retainedProducers": [
+        "dyard3.odf"
+      ]
+    },
+    {
+      "race": "bajoran",
+      "mode": "standardUnits",
+      "unit": "bjnerys.odf",
+      "retainedProducers": [
+        "bjyard3.odf"
+      ]
+    },
+    {
+      "race": "bajoran",
+      "mode": "minimalUnits",
+      "unit": "bjnerys.odf",
+      "retainedProducers": [
+        "bjyard3.odf"
+      ]
+    },
+    {
+      "race": "bajoran",
+      "mode": "superUnits",
+      "unit": "bjnerys.odf",
+      "retainedProducers": [
+        "bjyard3.odf"
+      ]
+    },
+    {
+      "race": "breen",
+      "mode": "minimalUnits",
+      "unit": "xhbrhero.odf",
+      "retainedProducers": [
+        "bryard3.odf"
+      ]
+    },
+    {
+      "race": "breen",
+      "mode": "standardUnits",
+      "unit": "xhbrhero.odf",
+      "retainedProducers": [
+        "bryard3.odf"
+      ]
+    },
+    {
+      "race": "breen",
+      "mode": "superUnits",
+      "unit": "xhbrhero.odf",
+      "retainedProducers": [
+        "bryard3.odf"
+      ]
+    }
+  ],
+  "heroDefinitionsAndProductionUnchanged": true,
+  "audioEventsUnchanged": true,
+  "applied": true,
+  "runtimeVerified": false,
+  "backup": "D:\\Xaramada-Modwork\\backups\\buildable-heroes-only-20261017-073117"
+}

@@ -158,14 +158,17 @@ instantActionSlot = 7
 
 interfaceConfiguration = "gui_bajoran.cfg"
 interfaceSprites = "gui_bajoran.spr"
-standardUnits1 = "bjnerys.odf"
+
+// Hero ships remain buildable; starting fleet contains ordinary units only.
+standardUnits1 = "bjconst.odf"
 standardUnits2 = "bjconst.odf"
-standardUnits3 = "bjconst.odf"
-standardUnits4 = "bjbase.odf"
-standardUnits5 = "bjscout.odf"
-minimalUnits1 = "bjnerys.odf"
-minimalUnits2 = "bjconst.odf"
-superUnits1 = "bjnerys.odf"
+standardUnits3 = "bjbase.odf"
+standardUnits4 = "bjscout.odf"
+
+// Hero ships remain buildable; starting fleet contains ordinary units only.
+minimalUnits1 = "bjconst.odf"
+
+// Hero ships remain buildable; starting fleet contains ordinary units only.
+superUnits1 = "bjconst.odf"
 superUnits2 = "bjconst.odf"
-superUnits3 = "bjconst.odf"
-superUnits4 = "bjbase.odf"
+superUnits3 = "bjbase.odf"

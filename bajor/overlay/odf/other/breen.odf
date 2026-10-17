@@ -13,19 +13,6 @@ repairRed = 2.0f
 weaponYellow = 1.0f
 weaponRed = 1.00f
 officerUpgradeODF = "breoff"
-minimalUnits1 = "brconst.odf"
-standardUnits1 = "brconst.odf"
-standardUnits2 = "brconst.odf"
-standardUnits3 = "brbase.odf"
-standardUnits4 = "brscout.odf"
-superUnits1 = "bconst.odf"
-superUnits2 = "fconst.odf"
-superUnits3 = "kconst.odf"
-superUnits4 = "rconst.odf"
-superUnits5 = "cconst.odf"
-superUnits6 = "dconst.odf"
-standardUnits5 = "xhbrhero.odf"
-minimalUnits2 = "xhbrhero.odf"
 instantActionSlot = -1
 interfaceConfiguration = "gui_dom.cfg"
 interfaceSprites = "gui_dominion.spr"
@@ -68,4 +55,20 @@ lotsLatinum = 30000
 lotsCrew = 30000
 
 // Faction hero also accompanies the alternate super starting fleet.
-superUnits7 = "xhbrhero.odf"
+
+// Hero ships remain buildable; starting fleet contains ordinary units only.
+minimalUnits1 = "brconst.odf"
+
+// Hero ships remain buildable; starting fleet contains ordinary units only.
+standardUnits1 = "brconst.odf"
+standardUnits2 = "brconst.odf"
+standardUnits3 = "brbase.odf"
+standardUnits4 = "brscout.odf"
+
+// Hero ships remain buildable; starting fleet contains ordinary units only.
+superUnits1 = "bconst.odf"
+superUnits2 = "fconst.odf"
+superUnits3 = "kconst.odf"
+superUnits4 = "rconst.odf"
+superUnits5 = "cconst.odf"
+superUnits6 = "dconst.odf"
