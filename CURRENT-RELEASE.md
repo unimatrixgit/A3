@@ -26,3 +26,6 @@ Stock automatic station recrewing is not implemented: no supported automatic-sta
 A complete catalogue and implementation of every ship ever shown in every Trek film/episode is not finished. The installed roster CSV is the authoritative current inventory; do not label it exhaustive canon coverage.
 
 Binary game assets and audio stay local; GitHub contains source, configuration and reports. No PC shutdown is scheduled.
+
+## Latest content batch
+Shinzon/Scimitar and Donatra/Valdore heroes installed at Romulan command yard; compatible Nemesis pack extracted separately, native weapons,42 converted command clips. Included models/textures remain local with credits in romulan/ASSET-CREDITS.md. No starting fleets changed. Static references/voice links/model/icons pass; gameplay test pending. Current production scan:597 unique targets.

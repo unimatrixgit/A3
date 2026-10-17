@@ -1,8 +1,124 @@
 {
   "target": "D:\\armadaIII",
   "scope": "Non-Bajoran hero command audio and hero-yard references; read only.",
-  "heroCount": 34,
+  "heroCount": 37,
   "heroes": [
+    {
+      "unit": "8472_heromother.odf",
+      "name": "Rift Maker",
+      "race": "species8472",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_8472_heromothership_Select",
+          "clips": [
+            "spe_sel_1.wav",
+            "spe_sel_2.wav",
+            "spe_sel_3.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_8472_heromothership_Acknowledge",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_8472_heromothership_Attack",
+          "clips": [
+            "spe_att_1.wav",
+            "spe_att_2.wav",
+            "spe_att_3.wav",
+            "spe_att_4.wav",
+            "spe_att_5.wav",
+            "spe_att_6.wav",
+            "spe_att_7.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_8472_heromothership_Stop",
+          "clips": [
+            "spe_stop_1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_8472_heromothership_Move",
+          "clips": [
+            "spe_move_1.wav",
+            "spe_move_2.wav",
+            "spe_move_3.wav",
+            "spe_move_4.wav",
+            "spe_move_5.wav",
+            "spe_move_6.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_8472_heromothership_Repair",
+          "clips": [
+            "spe_repairs_1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_8472_heromothership_RedAlert",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_8472_heromothership_YellowAlert",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_8472_heromothership_GreenAlert",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_8472_heromothership_Transport",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_8472_heromothership_SelfDestruct",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_8472_heromothership_Decommission",
+          "clips": [
+            "spe_ackn.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
     {
       "unit": "8472_heromothership.odf",
       "name": "Rift Maker",
@@ -3240,6 +3356,118 @@
       ]
     },
     {
+      "unit": "xhrdonatra.odf",
+      "name": "Donatra - Valdore",
+      "race": "romulan",
+      "commands": [
+        {
+          "action": "select",
+          "event": "ValdoreSelect",
+          "clips": [
+            "xr2_valdoreselect.wav",
+            "xr2_valdoreselect2.wav",
+            "xr2_valdoreselect3.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "ValdoreAcknowledge",
+          "clips": [
+            "xr2_valdoremove.wav",
+            "xr2_valdoremove2.wav",
+            "xr2_valdoremove3.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "ValdoreAttack",
+          "clips": [
+            "xr2_valdoreattack.wav",
+            "xr2_valdoreattack2.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "ValdoreAcknowledge",
+          "clips": [
+            "xr2_valdoremove.wav",
+            "xr2_valdoremove2.wav",
+            "xr2_valdoremove3.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "ValdoreMove",
+          "clips": [
+            "xr2_valdoremove.wav",
+            "xr2_valdoremove2.wav",
+            "xr2_valdoremove3.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "ValdoreRepair",
+          "clips": [
+            "xr2_valdorerepair.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "ValdoreRedAlert",
+          "clips": [
+            "xr2_devred.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "ValdoreYellowAlert",
+          "clips": [
+            "xr2_devyellow.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "ValdoreGreenAlert",
+          "clips": [
+            "xr2_devgreen.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "ValdoreTransport",
+          "clips": [
+            "xr2_devtransport.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "ValdoreSelfDestruct",
+          "clips": [
+            "xr2_devselfdestruct.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_xhrhero_Decommission",
+          "clips": [
+            "gvorbs01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
       "unit": "xhrhero.odf",
       "name": "Sela - Warbird",
       "race": "romulan",
@@ -3338,6 +3566,124 @@
           "event": "XV_xhrhero_SelfDestruct",
           "clips": [
             "gvorbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_xhrhero_Decommission",
+          "clips": [
+            "gvorbs01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "xhrshinzon.odf",
+      "name": "Shinzon - Scimitar",
+      "race": "romulan",
+      "commands": [
+        {
+          "action": "select",
+          "event": "ScimitarSelect",
+          "clips": [
+            "xr2_scimitarselect.wav",
+            "xr2_scimitarselect2.wav",
+            "xr2_scimitarselect3.wav",
+            "xr2_scimitarselect4.wav",
+            "xr2_scimitack2.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "ScimitarAcknowledge",
+          "clips": [
+            "xr2_scimitack2.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "ScimitarAttack",
+          "clips": [
+            "xr2_scimitarattack1.wav",
+            "xr2_scimitarattack2.wav",
+            "xr2_scimitarattack3.wav",
+            "xr2_scimitarattack4.wav",
+            "xr2_scimitarattack5.wav",
+            "xr2_scimitack.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "ScimitarStop",
+          "clips": [
+            "xr2_scimitarstop.wav",
+            "xr2_scimitarstop2.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "ScimitarMove",
+          "clips": [
+            "xr2_scimitarmove.wav",
+            "xr2_scimitarmove2.wav",
+            "xr2_scimitarmove3.wav",
+            "xr2_scimitarmove4.wav",
+            "xr2_scimitarmove5.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "ScimitarRepair",
+          "clips": [
+            "xr2_scimitarrepair.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "ScimitarRedAlert",
+          "clips": [
+            "xr2_devred.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "ScimitarYellowAlert",
+          "clips": [
+            "xr2_devyellow.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "ScimitarGreenAlert",
+          "clips": [
+            "xr2_devgreen.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "ScimitarTransport",
+          "clips": [
+            "xr2_scimitartransport.wav",
+            "xr2_scimitartransport2.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "ScimitarSelfDestruct",
+          "clips": [
+            "xr2_scimitarselfdes.wav"
           ],
           "missingClips": []
         },
@@ -4010,7 +4356,9 @@
         "rtsbcru",
         "rtswarb",
         "rtsdread",
-        "xhrhero"
+        "xhrhero",
+        "xhrshinzon",
+        "xhrdonatra"
       ]
     },
     {

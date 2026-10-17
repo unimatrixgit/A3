@@ -4,11 +4,11 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Command Shipyard III"
+
 
 //tooltips
-tooltip = "Build replacement faction heroes and advanced refits"
-verboseTooltip = "Command production facility. Heroes may be rebuilt after losses."
+
+
 
 //Race which can build ship & starting race of ship
 race = "romulan"
@@ -110,3 +110,9 @@ biomatterCost = 0
 crewCost = 500
 officerCost = 5
 buildTime = 110
+unitName = "Raptor's Talon Shipyard"
+tooltip = "Raptor's Talon Shipyard"
+verboseTooltip = "Raptor's Talon Shipyard. Produces faction heroes. Available at the same technology tier as rsuperbl."
+
+buildItem8 = "xhrshinzon"
+buildItem9 = "xhrdonatra"

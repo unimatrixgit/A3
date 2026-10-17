@@ -1,0 +1,408 @@
+{
+  "stage": "D:\\Xaramada-Modwork\\romulan-heroes-stage",
+  "source": "http://armadafiles.com/files/armada-2/ships/romulan/romulan-scimitar-valdore-hero-ships/details",
+  "author": "k_merse",
+  "modelCredits": {
+    "Valdore": "Howedar mesh; Redragon textures; Major A Payne conversion",
+    "Scimitar": "SFC3/Taldren model; Major A Payne conversion"
+  },
+  "sourceModelsAndODFsUnmodified": true,
+  "sourceAssetsNotRedistributedToGitHub": true,
+  "heroWrappers": [
+    "xhrshinzon",
+    "xhrdonatra"
+  ],
+  "voiceClips": 42,
+  "voiceFormat": "PCM16 mono22050",
+  "files": [
+    "events.dat",
+    "SOD\\rscimitar.sod",
+    "SOD\\rvaldore.sod",
+    "Sprites\\gui_global.spr",
+    "techtree\\earlytech.tt",
+    "techtree\\fulltech.tt",
+    "techtree\\nosci.tt",
+    "techtree\\nospweap.tt",
+    "techtree\\nosuper.tt",
+    "techtree\\tech1.tt",
+    "odf\\ships\\xhrdonatra.odf",
+    "odf\\ships\\xhrshinzon.odf",
+    "odf\\stations\\ryard3.odf",
+    "sounds\\voiceover\\ingame\\xr2_devgreen.wav",
+    "sounds\\voiceover\\ingame\\xr2_devred.wav",
+    "sounds\\voiceover\\ingame\\xr2_devselfdestruct.wav",
+    "sounds\\voiceover\\ingame\\xr2_devtransport.wav",
+    "sounds\\voiceover\\ingame\\xr2_devyellow.wav",
+    "sounds\\voiceover\\ingame\\xr2_gvosel27.wav",
+    "sounds\\voiceover\\ingame\\xr2_gvosel28.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitack.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitack2.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitarattack1.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitarattack2.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitarattack3.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitarattack4.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitarattack5.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitarcloak.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitarcloak2.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitardecloak.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitardecloak2.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitarmove.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitarmove2.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitarmove3.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitarmove4.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitarmove5.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitarrepair.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitarselect.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitarselect2.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitarselect3.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitarselect4.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitarselfdes.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitarstop.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitarstop2.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitartransport.wav",
+    "sounds\\voiceover\\ingame\\xr2_scimitartransport2.wav",
+    "sounds\\voiceover\\ingame\\xr2_valdoreattack.wav",
+    "sounds\\voiceover\\ingame\\xr2_valdoreattack2.wav",
+    "sounds\\voiceover\\ingame\\xr2_valdoremove.wav",
+    "sounds\\voiceover\\ingame\\xr2_valdoremove2.wav",
+    "sounds\\voiceover\\ingame\\xr2_valdoremove3.wav",
+    "sounds\\voiceover\\ingame\\xr2_valdorerepair.wav",
+    "sounds\\voiceover\\ingame\\xr2_valdoreselect.wav",
+    "sounds\\voiceover\\ingame\\xr2_valdoreselect2.wav",
+    "sounds\\voiceover\\ingame\\xr2_valdoreselect3.wav",
+    "Textures\\RGB\\gbrscimitar.tga",
+    "Textures\\RGB\\gbrvaldore.tga",
+    "Textures\\RGB\\MAPrnor1.tga",
+    "Textures\\RGB\\MAPrnor2.tga",
+    "Textures\\RGB\\MAPrnor3.tga",
+    "Textures\\RGB\\MAPrnor4.tga",
+    "Textures\\RGB\\scimitar.tga",
+    "Textures\\RGB\\wfrscimitar.tga",
+    "Textures\\RGB\\wfrvaldore.tga"
+  ],
+  "gameplayVerified": false,
+  "installed": true,
+  "backup": "D:\\Xaramada-Modwork\\backups\\romulan-nemesis-heroes-20261017-132528",
+  "manifest": [
+    {
+      "path": "events.dat",
+      "existed": true,
+      "sha256": "eaa548fbae7e8e8c34349163a079326cd0be3240c24acb83f87bb27ffdf80f38"
+    },
+    {
+      "path": "SOD\\rscimitar.sod",
+      "existed": false,
+      "sha256": "1fc90de0363fd3c09b94b4265f79d3813a9d8daa4721fea9628bbb386e4fbce6"
+    },
+    {
+      "path": "SOD\\rvaldore.sod",
+      "existed": false,
+      "sha256": "27e3bafafe6e66e921640c3ca279befbae077b0c612e758c93bfc4c72682b511"
+    },
+    {
+      "path": "Sprites\\gui_global.spr",
+      "existed": true,
+      "sha256": "f7dd7a93162e227f636c3965f7d0f693874052154e45b17aa80b0aba1fd88f13"
+    },
+    {
+      "path": "techtree\\earlytech.tt",
+      "existed": true,
+      "sha256": "57047f896447a1ff64f110f46c3c3750e0506e189c8f8527b4412f012a0f2f93"
+    },
+    {
+      "path": "techtree\\fulltech.tt",
+      "existed": true,
+      "sha256": "27095b7ed79936ddf94149d447814e11700ad36f9568b8189eb0bb586fc428b5"
+    },
+    {
+      "path": "techtree\\nosci.tt",
+      "existed": true,
+      "sha256": "2eb6ac2c6e2cab9b8f9be577b8e1c015e351833a98a74527c5af22fac043b53d"
+    },
+    {
+      "path": "techtree\\nospweap.tt",
+      "existed": true,
+      "sha256": "ccbcd6dd32f77da353f129d4ca54e8533ddbc0f71add622d408970c241311e82"
+    },
+    {
+      "path": "techtree\\nosuper.tt",
+      "existed": true,
+      "sha256": "b6629b4a3c4bd34f81190ed3d62e4f392993052fe59d17fb947ab95b139060bd"
+    },
+    {
+      "path": "techtree\\tech1.tt",
+      "existed": true,
+      "sha256": "6fdf645136741b40d5d27e0543ad47dd53015e46f21aae7bb5f4da53ad7a5617"
+    },
+    {
+      "path": "odf\\ships\\xhrdonatra.odf",
+      "existed": false,
+      "sha256": "4f1241f7f9226f7ecaf7424f82a1e54b197d9e46556b8efe8074dbbb1c4a47d9"
+    },
+    {
+      "path": "odf\\ships\\xhrshinzon.odf",
+      "existed": false,
+      "sha256": "e0c6d5d27ee6979d50e517b40777153c3894d8d4a4ed5803e642ef4b84052f64"
+    },
+    {
+      "path": "odf\\stations\\ryard3.odf",
+      "existed": true,
+      "sha256": "826cef239380d6e77fe805afde024260e739e93187c09eebf9c128b2c05c9f56"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_devgreen.wav",
+      "existed": false,
+      "sha256": "ad5924dc8a30ffecb0d2632c25afc948868a82faeabb360b1f7a038519ba4576"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_devred.wav",
+      "existed": false,
+      "sha256": "6200a02b42b2ce82062c8b343395d0000c5f5be9f591b359d1d09fc2fdcb5053"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_devselfdestruct.wav",
+      "existed": false,
+      "sha256": "eb4438e6693c081dec9a9c990d16dc47e3ac54d9677c41b3229c5fc726a972b0"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_devtransport.wav",
+      "existed": false,
+      "sha256": "c072a275220b0a7d5a7e372aa6abeb6de289958213e5fff8e71ee034edc04687"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_devyellow.wav",
+      "existed": false,
+      "sha256": "8615f6ca15e3e1d90467f8abddac1c721189de73331644ed4edb88121236b8bd"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_gvosel27.wav",
+      "existed": false,
+      "sha256": "0ae378aeecc1452d70daa25cbf8e1c573fe969bc206cb377159e23a623522fac"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_gvosel28.wav",
+      "existed": false,
+      "sha256": "84efe0e284b280b74c393c893cc7b1f8b9c187abf5d45c8ef2331d1e1a2e3d00"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitack.wav",
+      "existed": false,
+      "sha256": "7fb189c10c3047d9d118e4e7f3406d9aab950d4c1a0f1dc6d2e63a581c25a128"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitack2.wav",
+      "existed": false,
+      "sha256": "6d78179de3ed9bc95561816082949ab5051fbc351a7ecd53f9b2d13c791259a2"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitarattack1.wav",
+      "existed": false,
+      "sha256": "2d7d3eccef7fe3abce0e3e0e5ca397e07d864b7511585140e2bf861b3f4bc438"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitarattack2.wav",
+      "existed": false,
+      "sha256": "4a99a4060262963147ff00eb0ba2227359e495acec23996e37ff2297336c5a3a"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitarattack3.wav",
+      "existed": false,
+      "sha256": "dd1569ff2e534681fac5e471f5304177b745501aea9f35b455b56ace29e64916"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitarattack4.wav",
+      "existed": false,
+      "sha256": "64b14565e307fea032b985dce1a32faaf2fef7df24482cabd09bbb6d6e6abdcc"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitarattack5.wav",
+      "existed": false,
+      "sha256": "34cd501570ccad713eef053ab366b508aa8f6b509585dc5da02896e971e09355"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitarcloak.wav",
+      "existed": false,
+      "sha256": "312e4082fcad51e9a9c0f2309f1d016a9ae2b471a308c872a9bd1dc3e27ea07e"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitarcloak2.wav",
+      "existed": false,
+      "sha256": "63eae61ec03ea12ed51b3f0b95fcc86e84d7843585276ecc0e27d27cf1dec9e2"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitardecloak.wav",
+      "existed": false,
+      "sha256": "ba3da7e26b301fa8a6ea4c87cdfeb848695925442d3080db49d3940f4d1e618c"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitardecloak2.wav",
+      "existed": false,
+      "sha256": "0870fe67b6eecf2a2468aef2dc1cbcb2ae28f7b62d6d308248ea69930398430d"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitarmove.wav",
+      "existed": false,
+      "sha256": "c0e1e9b4efbe1622de43773aacfaca7a0ede7dcd76c5225df159ac9466643524"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitarmove2.wav",
+      "existed": false,
+      "sha256": "84bcac9be82d9a5e0519479491db4ef6aca8097f37bd63fb085632c106689936"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitarmove3.wav",
+      "existed": false,
+      "sha256": "791c927ad2f9790a636f44bc658497b39c728a2a88f40b730829bb98a5f304a4"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitarmove4.wav",
+      "existed": false,
+      "sha256": "5a45edfa275e03251d5643c2f00af5efff9d7ce335b22fc6ee505887341706dd"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitarmove5.wav",
+      "existed": false,
+      "sha256": "711343c841ece932877d19c4ae5c528d43dca06793ccbb1ead2c939817ae3ca9"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitarrepair.wav",
+      "existed": false,
+      "sha256": "d03d3d5f7d7f7be8a4e540d5e93838a9373d24ea548dbf1348b873a8b509c07b"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitarselect.wav",
+      "existed": false,
+      "sha256": "cfd3af71499f8fc80e9e0e421d46caf5045702ed4246e980717a0bf268fbad4a"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitarselect2.wav",
+      "existed": false,
+      "sha256": "37788fb1354e09a311faf86a0c7b439564913a2bc594c0575d854b86dc80553d"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitarselect3.wav",
+      "existed": false,
+      "sha256": "048542c297e3000730475267a42632035efc2435a1b7f395ae0f01d94a88c303"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitarselect4.wav",
+      "existed": false,
+      "sha256": "3455e89dd552ed76d6fd794f2455411955d4a286f17262202146f399139deae5"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitarselfdes.wav",
+      "existed": false,
+      "sha256": "998dfaff0b0693b16cd711de8eba033b9da6a2ae5e5cb21c060160519a6d2b88"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitarstop.wav",
+      "existed": false,
+      "sha256": "3a797deaaffb8527435aaba3e1274a2416183c626bab8d806e67a71aa345cd17"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitarstop2.wav",
+      "existed": false,
+      "sha256": "d239c1fbd9055d80023ee73b1ed9b7b784c6a9a59783cd19624d1f9d87a4d07d"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitartransport.wav",
+      "existed": false,
+      "sha256": "fd5749c77145fe72313c3d707f5cb64dedab29becbd9bfc2fea9ac730ca2edae"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_scimitartransport2.wav",
+      "existed": false,
+      "sha256": "e83012b5864cb04bec86fd5239db423a0412cb0c1b6c9f307d906c66a840f6ab"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_valdoreattack.wav",
+      "existed": false,
+      "sha256": "316830bef06df68395d30577dc3c6544d6180b9341982cc198c94ddcc860f04e"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_valdoreattack2.wav",
+      "existed": false,
+      "sha256": "28c7c76fb8bdd6f584b39c0ebb5ceb3478fc05ed38ad14d16526febdf1771e0c"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_valdoremove.wav",
+      "existed": false,
+      "sha256": "27aaec883202f62551c76f9f0448051ec11acc7400be2bac302e978ea5c6726e"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_valdoremove2.wav",
+      "existed": false,
+      "sha256": "b3c003fdda10c2ee49269b3d315a742edf33c903e2d926656be7cff6d31e35e9"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_valdoremove3.wav",
+      "existed": false,
+      "sha256": "dfa3f911e1bb1bcc7ef759c0fa3679730f1556a02f35c13d8b859d6ef0fddebb"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_valdorerepair.wav",
+      "existed": false,
+      "sha256": "67ca8d520eeb716b03493ae972231fe328dce078045f154aac55f6400d974a60"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_valdoreselect.wav",
+      "existed": false,
+      "sha256": "8ece6d052d9bb561089740ef674381ffaa38e9b159e9d26a9f1b8a363b1e225f"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_valdoreselect2.wav",
+      "existed": false,
+      "sha256": "5d21517e1eecaf1198f699859200f35cf077a2bcb2fb530d4a7981aa8bb1ab80"
+    },
+    {
+      "path": "sounds\\voiceover\\ingame\\xr2_valdoreselect3.wav",
+      "existed": false,
+      "sha256": "6769fd57b13792d8682257b4b698184746117cfcaf3932f7e0a5372fbdad5bf1"
+    },
+    {
+      "path": "Textures\\RGB\\gbrscimitar.tga",
+      "existed": false,
+      "sha256": "14f39d13984e28eb52094cc38ce517281c9023151d004cc05cc4958cf66f7a20"
+    },
+    {
+      "path": "Textures\\RGB\\gbrvaldore.tga",
+      "existed": false,
+      "sha256": "66e9419c10892902c83024aea029132ae2f92c5f62e949cad4852bc7df535ddc"
+    },
+    {
+      "path": "Textures\\RGB\\MAPrnor1.tga",
+      "existed": false,
+      "sha256": "010984fbd211d44b521393a3c79ab339c823dbe8300acc4d610496965dcadc39"
+    },
+    {
+      "path": "Textures\\RGB\\MAPrnor2.tga",
+      "existed": false,
+      "sha256": "bfda55c1f5034af505b5ce8d65b7f321ee5ea471c503b9f85ed97386a75ee7d0"
+    },
+    {
+      "path": "Textures\\RGB\\MAPrnor3.tga",
+      "existed": false,
+      "sha256": "0365bc209034f6f702d2ab09d962028fe9b44c2001cbbaabb9bef56f02707831"
+    },
+    {
+      "path": "Textures\\RGB\\MAPrnor4.tga",
+      "existed": false,
+      "sha256": "20a8a422beb1a4df21f04b01130c2faf7b56fe0fdc2df30f4290bec071e0f84c"
+    },
+    {
+      "path": "Textures\\RGB\\scimitar.tga",
+      "existed": false,
+      "sha256": "98f85bc1a2451a48564c75f95442a81ac0331f437219ce2230a156cc7042099c"
+    },
+    {
+      "path": "Textures\\RGB\\wfrscimitar.tga",
+      "existed": false,
+      "sha256": "b8e55f38745b0736064a2e732a67d23ab06829f8ebe9fe4dcc921eaed128a7b2"
+    },
+    {
+      "path": "Textures\\RGB\\wfrvaldore.tga",
+      "existed": false,
+      "sha256": "c4f4276d50214bd87b444427c2ee8de9f82430bc62e96f9ea20e5afc1bafcd6d"
+    }
+  ]
+}

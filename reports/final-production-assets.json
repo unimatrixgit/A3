@@ -1,6 +1,6 @@
 {
-  "targetsChecked": 842,
-  "uniqueTargets": 595,
+  "targetsChecked": 844,
+  "uniqueTargets": 597,
   "issues": [],
   "note": "All definition menus including unused legacy content; Planetary shield upgrade is a native effect without a separate model.",
   "rows": [
@@ -5729,6 +5729,20 @@
       "model": "rbattle",
       "modelPresent": true,
       "icon": "b_xhrhero"
+    },
+    {
+      "producer": "ryard3.odf",
+      "target": "xhrshinzon",
+      "model": "rscimitar",
+      "modelPresent": true,
+      "icon": "b_xhrshinzon"
+    },
+    {
+      "producer": "ryard3.odf",
+      "target": "xhrdonatra",
+      "model": "rvaldore",
+      "modelPresent": true,
+      "icon": "b_xhrdonatra"
     },
     {
       "producer": "s31yard.odf",
