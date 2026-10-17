@@ -33,7 +33,7 @@ buttonBorder = 1
 range = 800.0
 
 //Sound which is played when the weapon fires
-fireSound = "swbauto.wav"
+fireSound = "" // Station-only workaround for stuck toggle-beam audio.
 
 //Programming Stuff DO NOT CHANGE
 classLabel = "toggleweapon"

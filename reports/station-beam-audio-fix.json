@@ -1,0 +1,14 @@
+{
+  "files": [
+    "odf\\special_weapons\\xbharvbeam.odf",
+    "odf\\special_weapons\\xbassimbeam.odf",
+    "odf\\special_weapons\\xbharvmanual.odf",
+    "odf\\special_weapons\\xbassimmanual.odf"
+  ],
+  "stage": "D:\\Xaramada-Modwork\\station-beam-audio-fix",
+  "installed": true,
+  "cause": "Station toggle-beam fireSound remains audible after effect ends, reported in gameplay.",
+  "fix": "Disable fireSound on four station-only beam definitions, including manual controls. No shared sound files changed.",
+  "gameplayVerified": false,
+  "backup": "D:\\Xaramada-Modwork\\backups\\station-beam-audio-20261017-095446"
+}

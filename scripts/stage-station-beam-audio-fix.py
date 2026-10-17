@@ -1,0 +1,6 @@
+from pathlib import Path
+import re,json
+r=Path('D:/armadaIII');repo=Path('D:/aramada');o=Path('D:/Xaramada-Modwork/station-beam-audio-fix');files=[]
+for n in ['xbharvbeam','xbassimbeam','xbharvmanual','xbassimmanual']:
+ rel=Path('odf/special_weapons')/(n+'.odf');t=(r/rel).read_text(encoding='latin1');assert len(re.findall(r'^fireSound\s*=',t,re.M|re.I))==1;t=re.sub(r'^fireSound\s*=.*$','fireSound = "" // Station-only workaround for stuck toggle-beam audio.',t,flags=re.M|re.I);p=o/rel;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(t,encoding='latin1');files.append(str(rel))
+report={'files':files,'stage':str(o),'installed':False,'cause':'Station toggle-beam fireSound remains audible after effect ends, reported in gameplay.','fix':'Disable fireSound on four station-only beam definitions, including manual controls. No shared sound files changed.','gameplayVerified':False};(repo/'reports/station-beam-audio-fix.json').write_text(json.dumps(report,indent=2));f=repo/'status.json';s=json.loads(f.read_text(encoding='utf-8-sig'));s['current']='Station beam audio hotfix ready: silence stuck toggle-beam sounds on four station-specific automatic/manual weapons. Ships retain original sounds. Waiting for game closure.';f.write_text(json.dumps(s,indent=2),encoding='utf-8');print('Four-file audio fix staged.')
