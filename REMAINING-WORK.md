@@ -11,3 +11,5 @@ Only D:\armadaIII is the active game target. Prepare updates while the user test
 7. **Eight-player maps — inventory:** refresh the actual armadaIII inventory, reject corrupt downloads, identify remaining compatible maps and test loading. Older reports mentioning both folders are historical and must not be reapplied to Xaramada.
 8. **GitHub — prepare stable release:** review local text/source changes, document reproducible install/rollback, omit copyrighted game binaries and recordings, then publish authorized source changes to unimatrixgit/armada2. Do not report a push until verified.
 9. **Diagnostics and webpage — maintain:** capture process dumps and session file hashes, keep live progress truthful, preserve crash evidence. Latest user-confirmed success: Bajor icons display correctly; full stability remains unconfirmed.
+
+Latest handoff: user confirms Bajoran decommission works. Exact Federation baseline/research clarification and non-Bajor AI corrections remain staged. Overall long-match stability and research effects remain unverified. User requested PC shutdown after saving.
