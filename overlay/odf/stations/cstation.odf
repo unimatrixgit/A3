@@ -77,15 +77,15 @@ criticalTargetHardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06"
 
 //**********************************************************************
 //Construction Parameters
-buildItem0 = "cfreight"
-buildItem1 = "ccargo"
-buildItem2 = "csrepair"
-buildItem3 = "ccolony"
-buildItem4 = "cscout"
-buildItem5 = "cassault"
-buildItem6 = "cbattle"
-buildItem7 = "jemdest"
-buildItem8 = "cohideki"
+
+
+
+
+
+
+
+
+
 
 //Hardpoint location for building.
 buildHardpoint = "build"
@@ -181,7 +181,7 @@ SHOW_SW_AUTONOMY = 1
 
 ScaleSOD = 1.6
 
-buildItem9 = "uconst"
+
 
 
 
@@ -193,3 +193,15 @@ biomatterCost = 0
 crewCost = 10437
 officerCost = 11
 buildTime = 114
+buildItem0 = "cfreight"
+buildItem1 = "ccargo"
+buildItem2 = "csrepair"
+buildItem3 = "ccolony"
+buildItem4 = "cscout"
+buildItem5 = "cassault"
+buildItem6 = "cbattle"
+buildItem7 = "jemdest"
+buildItem8 = "cohideki"
+buildItem9 = "xcuconst"
+
+maximumCrew = 2000

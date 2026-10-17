@@ -20,7 +20,7 @@ race = "borg"
 //Number of crew required to build ship & Starting crew
 
 //Number of maximum crew (only specified if different from crewCost)
-maximumCrew = 3000
+maximumCrew = 2000
 
 //The number of crew added to the capacity
 maxCrewGain = 6000
@@ -231,3 +231,7 @@ weapon7 = "bc1phot"
 weaponHardpoints7 = "hp09"
 weapon8 = "bc1phot"
 weaponHardpoints8 = "hp12"
+
+// Green assimilation beam for heavy Borg crew capacity / Nexus.
+weapon9 = "xacgreen"
+weaponHardpoints9 = "hp09"

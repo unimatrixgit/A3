@@ -20,7 +20,7 @@ race = "klingon"
 //Number of crew required to build ship & Starting crew
 
 //Number of maximum crew (only specified if different from crewCost)
-maximumCrew = 5743
+maximumCrew = 2000
 
 //The number of crew added to the capacity
 maxCrewGain = 5743
@@ -54,24 +54,28 @@ possibleCraftNames = "Ejyowaw-7" "Ejyowaw-24" "Ejyowaw-6" "Ejyowaw-99" "Ejyowaw-
 //ART PARAMETERS & WEAPON NAMES
 
 // Pulse Phaser
-weapon1 = "kc12phas"
+weapon1 = "kc12phas"
+
 
 // Photon Torpedo
-weapon7 = "kc05phot"
+weapon7 = "kc05phot"
+
 
 // Photon Torpedo
-weapon8 = "kc05phot"
+weapon8 = "kc05phot"
 
-// Hardpoints to hit for various systems and other locations.
+
+// Hardpoints to hit for various systems and other locations.
+
 
 //**********************************************************************
 //Construction Parameters
-buildItem0 = "kconst"
-buildItem1 = "kfreight"
-buildItem2 = "kcargo"
-buildItem3 = "ksrepair"
-buildItem4 = "kconst2"
-buildItem5 = "kdestroy2"
+
+
+
+
+
+
 
 //Hardpoint location for building.
 buildHardpoint = "build"
@@ -166,7 +170,7 @@ SHOW_SW_AUTONOMY = 1
 
 // make it bigger
 ScaleSOD = 1.75
-buildItem6 = "uconst"
+
 
 
 
@@ -212,4 +216,11 @@ sensorstargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20" "hp21"
 
 hulltargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20" "hp21" 
 
-criticaltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" 
+criticaltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+buildItem0 = "kconst"
+buildItem1 = "kfreight"
+buildItem2 = "kcargo"
+buildItem3 = "ksrepair"
+buildItem4 = "kconst2"
+buildItem5 = "kdestroy2"
+buildItem6 = "xkuconst"

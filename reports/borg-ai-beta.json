@@ -1,0 +1,23 @@
+{
+  "stage": "D:\\Xaramada-Modwork\\borg-ai-beta",
+  "files": [
+    "AI\\AIPs\\borg_build_list.aip",
+    "AI\\AIPs\\borg_defensive_list.aip",
+    "AI\\AIPs\\borg_endgame_list.aip",
+    "AI\\AIPs\\borg_instant_action_build_list.aip",
+    "AI\\AIPs\\borg_offensive_list.aip"
+  ],
+  "rowsPerProfile": 56,
+  "profiles": 5,
+  "issues": [],
+  "gameplayVerified": false,
+  "notes": [
+    "Metal orbital before research spending.",
+    "Both research nodes and upgrade facility precede advanced ships.",
+    "Removed unreachable legacy assimilation turret from AI only.",
+    "Only Borg Assembler and faction Universal Assembler.",
+    "All rows have an available producer and preceding prerequisites."
+  ],
+  "installed": true,
+  "backup": "D:\\Xaramada-Modwork\\backups\\combined-beta-20261017-134814"
+}

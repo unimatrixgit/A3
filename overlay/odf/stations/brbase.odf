@@ -27,8 +27,8 @@ verboseTooltip = "Command Center for Breen personals and warriors.  Constructs: 
 
 // Begin build menu
 
-buildItem0 = "brconst"
-buildItem1 = "brfreight"
+
+
 
 // End build menu
 
@@ -96,8 +96,7 @@ possibleCraftNames =
 // End ship names
 
 // Begin misc properties
-
-maximumCrew = 1500
+maximumCrew = 2000
 maxCrewGain = 3000
 officerGain = 0
 maximumUpgrades = 6
@@ -143,7 +142,7 @@ checkValidResourceInterval = 10.0f
 
 // End misc properties
 
-buildItem2 = "uconst"
+
 
 
 
@@ -156,3 +155,6 @@ biomatterCost = 0
 crewCost = 150
 officerCost = 10
 buildTime = 100
+buildItem0 = "brconst"
+buildItem1 = "brfreight"
+buildItem2 = "xbruconst"

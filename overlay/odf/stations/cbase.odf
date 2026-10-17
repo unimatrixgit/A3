@@ -4,11 +4,11 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Cardassian Starbase"
+
 
 //tooltips
-tooltip = "Cardassian Starbase"
-verboseTooltip = "Navorak Class Starbase/Outpost"
+
+
 
 //Race which can build ship & starting race of ship
 race = "cardassian"
@@ -45,35 +45,44 @@ shieldProtection = 1.0
 latinumTransferRate = 15.0
 
 //Possible Craft Names
-possibleCraftNames = "Cefta Nor-7R" "Cefta Nor-6D" "Cefta Nor-0P" "Cefta Nor-3E"
+
 
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
 
 // Pulse Phaser
-weapon1 = "cc10phas"
+weapon1 = "cc10phas"
+
 
 // Pulse Phaser
-weapon2 = "cc10phas"
+weapon2 = "cc10phas"
+
 
 // Pulse Phaser
-weapon3 = "cc08plas"
+weapon3 = "cc08plas"
 
-// Hardpoints to hit for various systems and other locations.
-"HP07" "HP08"
-"HP07" "HP08"
-"HP07" "HP08"
-"HP07" "HP08"
-"HP07" "HP08"
+
+// Hardpoints to hit for various systems and other locations.
+
+"HP07" "HP08"
+
+"HP07" "HP08"
+
+"HP07" "HP08"
+
+"HP07" "HP08"
+
+"HP07" "HP08"
+
 "HP07" "HP08"
 
 //**********************************************************************
 //Construction Parameters
-buildItem0 = "cconst"
-buildItem1 = "cfreight"
-buildItem2 = "ccargo"
-buildItem3 = "csrepair"
-buildItem4 = "domconst"
+
+
+
+
+
 
 //Hardpoint location for building.
 buildHardpoint = "build"
@@ -166,7 +175,7 @@ SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
 ScaleSOD = 1.6
-buildItem5 = "uconst"
+
 
 
 
@@ -210,4 +219,16 @@ sensorstargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06"
 
 hulltargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" 
 
-criticaltargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" 
+criticaltargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06"
+buildItem0 = "cconst"
+buildItem1 = "cfreight"
+buildItem2 = "ccargo"
+buildItem3 = "csrepair"
+buildItem4 = "domconst"
+buildItem5 = "xcuconst"
+unitName = "Terok Nor"
+tooltip = "Terok Nor"
+verboseTooltip = "Cardassian Terok Nor command station. Nor-class station naming theme; existing combat and economic statistics retained."
+possibleCraftNames = "Terok Nor" "Empok Nor" "Keldar Nor" "Velor Nor" "Damar Nor" "Lakarian Nor"
+
+maximumCrew = 2000

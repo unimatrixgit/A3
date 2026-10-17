@@ -20,7 +20,7 @@ race = "federation"
 //Number of crew required to build ship & Starting crew
 
 //Number of maximum crew (only specified if different from crewCost)
-maximumCrew = 2500
+maximumCrew = 2000
 
 //The number of crew added to the capacity
 maxCrewGain = 3000
@@ -114,7 +114,14 @@ criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16" "hp17" "hp1
 //**********************************************************************
 
 //**********************************************************************
-//Construction Parameters
+//Construction Parameters
+
+
+
+
+
+
+
 
 //Hardpoint location for building.
 buildHardpoint = "hp30"
@@ -172,7 +179,8 @@ SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
 // let's make this a bit bigger
-ScaleSOD = 2.0
+ScaleSOD = 2.0
+
 
 
 
@@ -185,19 +193,11 @@ biomatterCost = 0
 crewCost = 350
 officerCost = 8
 buildTime = 84
-
 buildItem0 = "fconst"
-
 buildItem1 = "ffreight"
-
 buildItem2 = "fcargo"
-
 buildItem3 = "fsrepair"
-
 buildItem4 = "fscout"
-
 buildItem5 = "fdeltaflyer"
-
 buildItem6 = "fantares"
-
-buildItem7 = "uconst"
+buildItem7 = "xfuconst"

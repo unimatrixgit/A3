@@ -29,3 +29,11 @@ Binary game assets and audio stay local; GitHub contains source, configuration a
 
 ## Latest content batch
 Shinzon/Scimitar and Donatra/Valdore heroes installed at Romulan command yard; compatible Nemesis pack extracted separately, native weapons,42 converted command clips. Included models/textures remain local with credits in romulan/ASSET-CREDITS.md. No starting fleets changed. Static references/voice links/model/icons pass; gameplay test pending. Current production scan:597 unique targets.
+
+
+## Beta additions — 17 October 2026
+Installed six command variants (Titan/Luna, Daedalus, Klingon Raptor/D7, TOS/Enterprise-era Romulan birds), with namespaced model textures and generated icons. These use existing command-voice fallbacks. Not an exhaustive screen-ship catalogue.
+
+Small ship minimum uses the standard Defiant geometry enlarged35%;14 definitions enlarged. Frigate and larger roles excluded. Two malformed/unmeasurable utility models were left unchanged; see scale report. Borg Scout Cube crew150; orbital mining station gains one beam and one torpedo bank.22 starbase variants have maximumCrew2000; other parameters preserved. Green beam coverage checked on14 heavy Borg vessels plus Nexus;5 missing beams added.
+
+All45 skirmish AI build profiles across9 factions pass sequential producer/prerequisite checks.20 profiles repaired with95 prerequisite/producer insertions; Borg's five profiles use an economy-first56-step order.30 research facilities have reachable build paths, with no menu overflows. Campaign scripts were outside this skirmish review. Backups recorded in reports. Runtime economy,combat and new-content behaviour require beta tests.

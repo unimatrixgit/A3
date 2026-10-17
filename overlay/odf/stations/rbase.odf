@@ -51,27 +51,32 @@ possibleCraftNames = "D'deras Station" "Ludanian Station" "Muturiun Station" "D'
 //ART PARAMETERS & WEAPON NAMES
 
 // Pulse Phaser
-weapon1 = "rc07phas"
+weapon1 = "rc07phas"
+
 
 // Pulse Phaser
-weapon2 = "rc07phas"
+weapon2 = "rc07phas"
+
 
 // Pulse Phaser
-weapon3 = "rc08phot"
+weapon3 = "rc08phot"
+
 
 // Pulse Phaser
-weapon4 = "rc08phot"
+weapon4 = "rc08phot"
 
-// Hardpoints to hit for various systems and other locations.
+
+// Hardpoints to hit for various systems and other locations.
+
 
 //**********************************************************************
 //Construction Parameters
-buildItem0 = "rconst"
-buildItem1 = "rfreight"
-buildItem2 = "rcargo"
-buildItem3 = "rsrepair"
-buildItem4 = "rconst2"
-buildItem5 = "rdestroy"
+
+
+
+
+
+
 
 //Hardpoint location for building.
 buildHardpoint = "build"
@@ -164,7 +169,7 @@ SHOW_SW_AUTONOMY = 1
 
 // make it bigger
 ScaleSOD = 1.9
-buildItem6 = "uconst"
+
 
 
 
@@ -210,3 +215,12 @@ sensorstargethardpoints = "hp30" "hp34" "hp35" "hp36" "hp37" "hp39"
 hulltargethardpoints = "hp30" "hp34" "hp35" "hp36" "hp37" "hp39"
 
 criticaltargethardpoints = "hp30" "hp34" "hp35" "hp36" "hp37" "hp39"
+buildItem0 = "rconst"
+buildItem1 = "rfreight"
+buildItem2 = "rcargo"
+buildItem3 = "rsrepair"
+buildItem4 = "rconst2"
+buildItem5 = "rdestroy"
+buildItem6 = "xruconst"
+
+maximumCrew = 2000

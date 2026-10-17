@@ -19,7 +19,7 @@ race = "federation"
 //Number of crew required to build ship & Starting crew
 
 //Number of maximum crew (only specified if different from crewCost)
-maximumCrew = 3000
+maximumCrew = 2000
 
 //Dilithium Cost to build
 
@@ -93,8 +93,8 @@ criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
 
 //**********************************************************************
 //Construction Parameters
-buildItem0 = "fconst"
-buildItem1 = "ffreight"
+
+
 
 //Hardpoint location for building.
 buildHardpoint = "build"
@@ -191,7 +191,7 @@ classLabel = "starbase"
 keymapLabel = "starbase"
 
 
-buildItem2 = "uconst"
+
 
 
 
@@ -204,3 +204,6 @@ biomatterCost = 0
 crewCost = 800
 officerCost = 0
 buildTime = 50
+buildItem0 = "fconst"
+buildItem1 = "ffreight"
+buildItem2 = "xfuconst"

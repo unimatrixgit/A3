@@ -17,7 +17,8 @@ race = "borg"
 
 //Number of crew required to build ship & Starting crew
 
-//Number of maximum crew (only specified if different from crewCost)
+//Number of maximum crew (only specified if different from crewCost)
+
 
 //Dilithium Cost to build
 
@@ -44,22 +45,37 @@ possibleCraftNames =
 	"XR85-84764" "XR85-345645" "XR85-1086458" "XR85-4860846"
 
 //**********************************************************************
-//Construction Parameters
+//Construction Parameters
+
 //ART PARAMETERS & WEAPON NAMES
 
-// Pulse Phaser
+// Pulse Phaser
 
-// Pulse Phaser
 
-// Pulse Phaser
 
-// Pulse Phaser
+// Pulse Phaser
 
-// Pulse Phaser
 
-// Pulse Phaser
 
-// Pulse Phaser
+// Pulse Phaser
+
+
+
+// Pulse Phaser
+
+
+
+// Pulse Phaser
+
+
+
+// Pulse Phaser
+
+
+
+// Pulse Phaser
+
+
 
 
 
@@ -70,7 +86,14 @@ possibleCraftNames =
 //ART PARAMETERS & WEAPON NAMES
 
 
-// Hardpoints to hit for various systems and other locations.
+// Hardpoints to hit for various systems and other locations.
+
+
+
+
+
+
+
 
 //**********************************************************************
 //**********************************************************************
@@ -98,13 +121,14 @@ sensorsHitPoints = 1000
 
 eventSelect = "OrbitalFacilitySelect"
 eventAcknowledge = "OrbitalFacilityAcknowledge"
-eventDecommission = "OrbitalFacilityDecommission
+eventDecommission = "OrbitalFacilityDecommission"
 //**********************************************************************
 
 
 
 hotkeyLabel = "HOTKEY_F11"
-//**********************************************************************
+//**********************************************************************
+
 
 / Brian additions for context sensitive menus
 transporter = 1
@@ -117,7 +141,9 @@ rangeScan = 1000.0f
 
 
 
-// Xaramada resource costs: original filename.
+// Xaramada resource costs: original filename.
+
+
 buildTime = 60
 
 podHardpoints = "pod01" "pod02" "pod03" "pod04" "pod05"
@@ -181,3 +207,9 @@ officerCost = 2
 crewCost = 100
 
 maximumCrew = 500
+
+// Additional orbital defense banks.
+weapon8 = "bb3phas"
+weaponHardpoints8 = "pod01" "pod02" "pod03" "pod04" "pod05"
+weapon9 = "bfphot"
+weaponHardpoints9 = "pod01" "pod02" "pod03" "pod04" "pod05"

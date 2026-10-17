@@ -27,12 +27,12 @@ specialEnergyRate = 0
 
 // Begin build menu
 
-buildItem0 = "dconst"
-buildItem1 = "brconst"
-buildItem2 = "dfreight"
-buildItem3 = "dcargo"
-buildItem4 = "dsrepair"
-buildItem5 = "uconst"
+
+
+
+
+
+
 
 // End build menu
 
@@ -103,8 +103,7 @@ possibleCraftNames =
 // End ship names
 
 // Begin misc properties
-
-maximumCrew = 1500
+maximumCrew = 2000
 maxCrewGain = 3000
 officerGain = 0
 maximumUpgrades = 6
@@ -161,3 +160,9 @@ biomatterCost = 0
 crewCost = 150
 officerCost = 10
 buildTime = 100
+buildItem0 = "dconst"
+buildItem1 = "brconst"
+buildItem2 = "dfreight"
+buildItem3 = "dcargo"
+buildItem4 = "dsrepair"
+buildItem5 = "xduconst"

@@ -19,3 +19,6 @@ All concrete configuration/artwork fixes in CURRENT-RELEASE.md are installed in 
 - Unstable old Bajor art batches: superseded by installed working roster/art.
 - Eight excluded map candidates are not pending stock installation: four require FleetOps, four lack eight verified starts. Do not relabel them eight-player compatible.
 - Do not shut down the PC. Current target D:/armadaIII only; D:/Xaramada untouched.
+
+
+Latest beta additions are installed; gameplay testing pending. Bajoran texture-only archive comparison/adaptation request remains pending; no further Bajoran visual replacement has been claimed.

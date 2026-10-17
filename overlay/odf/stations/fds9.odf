@@ -18,7 +18,7 @@ race = "federation"
 //Number of crew required to build ship & Starting crew
 
 //Number of maximum crew (only specified if different from crewCost)
-maximumCrew = 6000
+maximumCrew = 2000
 
 //Dilithium Cost to build
 
@@ -131,13 +131,13 @@ criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
 
 //**********************************************************************
 //Construction Parameters
-buildItem0 = "fconst"
-buildItem1 = "fconst2"
-buildItem2 = "ffreight"
-buildItem3 = "fcargo"
-buildItem4 = "fsrepair"
-buildItem5 = "fdefiant"
-buildItem6 = "fvoyager"
+
+
+
+
+
+
+
 
 
 
@@ -195,7 +195,7 @@ avoidMe = 0
 
 scaleSod = 2.0f
 
-buildItem7 = "uconst"
+
 
 
 
@@ -208,3 +208,11 @@ biomatterCost = 0
 crewCost = 1500
 officerCost = 9
 buildTime = 5
+buildItem0 = "fconst"
+buildItem1 = "fconst2"
+buildItem2 = "ffreight"
+buildItem3 = "fcargo"
+buildItem4 = "fsrepair"
+buildItem5 = "fdefiant"
+buildItem6 = "fvoyager"
+buildItem7 = "xfuconst"

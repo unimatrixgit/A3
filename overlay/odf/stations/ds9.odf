@@ -25,7 +25,11 @@ crewHitPercent = 13.5f
 
 // End main properties
 
-// Begin build menu
+// Begin build menu
+
+
+
+
 
 // End build menu
 
@@ -75,7 +79,7 @@ dilithiumTransferRate = 10
 metalTransferRate = 10
 latinumTransferRate = 10
 biomatterTransferRate = 10
-maximumCrew = 3000
+maximumCrew = 2000
 weaponYellow = 1.5f
 weaponRed = 2.5f
 criticalHitPercent = 2.5f
@@ -143,7 +147,8 @@ cargoValue11 = 0.5
 cargoKey12 = "GUI_SD_RAKTAJINO"
 cargoValue12 = 1.0
 
-// End misc properties
+// End misc properties
+
 
 
 
@@ -158,13 +163,8 @@ biomatterCost = 0
 crewCost = 1500
 officerCost = 9
 buildTime = 5
-
 buildItem0 = "fconst"
-
 buildItem1 = "fcargo"
-
 buildItem2 = "fsrepair"
-
 buildItem3 = "ffreight"
-
-buildItem4 = "uconst"
+buildItem4 = "xfuconst"

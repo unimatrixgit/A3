@@ -142,7 +142,7 @@ SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
 ScaleSOD = 2.0
-buildItem0 = "uconst"
+
 
 
 
@@ -155,3 +155,6 @@ biomatterCost = 0
 crewCost = 276
 officerCost = 9
 buildTime = 86
+buildItem0 = "xcuconst"
+
+maximumCrew = 2000

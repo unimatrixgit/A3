@@ -19,7 +19,7 @@ race = "federation"
 //Number of crew required to build ship & Starting crew
 
 //Number of maximum crew (only specified if different from crewCost)
-maximumCrew = 15000
+maximumCrew = 2000
 
 //The number of crew added to the capacity
 maxCrewGain = 5000
@@ -144,18 +144,18 @@ criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp0
 //**********************************************************************
 
 //Construction Parameters
-buildItem0 = "fconst"
-buildItem1 = "fconst2"
-buildItem2 = "ffreight"
-buildItem3 = "fcargo"
-buildItem4 = "fsrepair"
-buildItem5 = "fcolony"
-buildItem6 = "fscout"
-buildItem7 = "fdanube"
-buildItem8 = "ffighter"
-buildItem9 = "fdeltaflyer"
-buildItem10 = "fantares"
-buildItem11 = "fnxent"
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //Hardpoint location for building.
@@ -209,7 +209,7 @@ ScaleSOD = 3.0
 //always avoid this object
 //avoidanceClass = 100000
 avoidMe = 0
-buildItem12 = "uconst"
+
 
 
 
@@ -222,3 +222,16 @@ biomatterCost = 0
 crewCost = 2000
 officerCost = 9
 buildTime = 5
+buildItem0 = "fconst"
+buildItem1 = "fconst2"
+buildItem2 = "ffreight"
+buildItem3 = "fcargo"
+buildItem4 = "fsrepair"
+buildItem5 = "fcolony"
+buildItem6 = "fscout"
+buildItem7 = "fdanube"
+buildItem8 = "ffighter"
+buildItem9 = "fdeltaflyer"
+buildItem10 = "fantares"
+buildItem11 = "fnxent"
+buildItem12 = "xfuconst"

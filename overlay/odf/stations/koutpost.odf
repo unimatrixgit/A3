@@ -20,7 +20,7 @@ race = "klingon"
 //Number of crew required to build ship & Starting crew
 
 //Number of maximum crew (only specified if different from crewCost)
-maximumCrew = 1074
+maximumCrew = 2000
 
 //Dilithium Cost to build
 
@@ -66,10 +66,10 @@ criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp0
 
 //**********************************************************************
 //Construction Parameters
-buildItem0 = "kconst"
-buildItem1 = "kcargo"
-buildItem2 = "kgunboat"
-buildItem3 = "kdestroy2"
+
+
+
+
 
 //Hardpoint location for building.
 buildHardpoint = "build"
@@ -161,7 +161,7 @@ alert = 1
 combat = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
-buildItem4 = "uconst"
+
 
 
 
@@ -174,3 +174,8 @@ biomatterCost = 0
 crewCost = 150
 officerCost = 10
 buildTime = 97
+buildItem0 = "kconst"
+buildItem1 = "kcargo"
+buildItem2 = "kgunboat"
+buildItem3 = "kdestroy2"
+buildItem4 = "xkuconst"

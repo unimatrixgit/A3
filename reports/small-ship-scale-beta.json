@@ -1,0 +1,180 @@
+{
+  "stage": "D:\\Xaramada-Modwork\\small-ship-scale-beta",
+  "baseline": "fdestroy Defiant Class",
+  "baselineSpan": 11.310083341827543,
+  "changes": [
+    {
+      "unit": "bjlightship",
+      "oldScale": 0.4,
+      "newScale": 0.661632,
+      "oldSpan": 6.837691130195299,
+      "newSpan": 11.310083341827543,
+      "file": "odf\\ships\\bjlightship.odf"
+    },
+    {
+      "unit": "bjraider",
+      "oldScale": 0.8,
+      "newScale": 1.051123,
+      "oldSpan": 8.60799938010955,
+      "newSpan": 11.310083341827543,
+      "file": "odf\\ships\\bjraider.odf"
+    },
+    {
+      "unit": "bjscout",
+      "oldScale": 0.4,
+      "newScale": 0.661632,
+      "oldSpan": 6.837691302578347,
+      "newSpan": 11.310083341827543,
+      "file": "odf\\ships\\bjscout.odf"
+    },
+    {
+      "unit": "bjtransport",
+      "oldScale": 0.48,
+      "newScale": 0.52841,
+      "oldSpan": 10.273914184570312,
+      "newSpan": 11.310083341827543,
+      "file": "odf\\ships\\bjtransport.odf"
+    },
+    {
+      "unit": "fantares",
+      "oldScale": 0.3,
+      "newScale": 0.52841,
+      "oldSpan": 6.421196365356445,
+      "newSpan": 11.310083341827543,
+      "file": "odf\\ships\\fantares.odf"
+    },
+    {
+      "unit": "fcolony",
+      "oldScale": 0.06,
+      "newScale": 0.348217,
+      "oldSpan": 1.9487991861100489,
+      "newSpan": 11.310083341827543,
+      "file": "odf\\ships\\fcolony.odf"
+    },
+    {
+      "unit": "fdanube",
+      "oldScale": 0.5,
+      "newScale": 1.051123,
+      "oldSpan": 5.379999612568469,
+      "newSpan": 11.310083341827543,
+      "file": "odf\\ships\\fdanube.odf"
+    },
+    {
+      "unit": "fdefiant",
+      "oldScale": 0.3,
+      "newScale": 0.392326,
+      "oldSpan": 8.648476961939712,
+      "newSpan": 11.310083341827543,
+      "file": "odf\\ships\\fdefiant.odf"
+    },
+    {
+      "unit": "fdeltaflyer",
+      "oldScale": 0.1,
+      "newScale": 0.200855,
+      "oldSpan": 5.630958458044749,
+      "newSpan": 11.310083341827543,
+      "file": "odf\\ships\\fdeltaflyer.odf"
+    },
+    {
+      "unit": "fdestroy",
+      "oldScale": 0.3,
+      "newScale": 0.405,
+      "oldSpan": 8.377839512464845,
+      "newSpan": 11.310083341827543,
+      "file": "odf\\ships\\fdestroy.odf"
+    },
+    {
+      "unit": "ffighter",
+      "oldScale": 0.5,
+      "newScale": 1.26071,
+      "oldSpan": 4.485600233078003,
+      "newSpan": 11.310083341827543,
+      "file": "odf\\ships\\ffighter.odf"
+    },
+    {
+      "unit": "foberth",
+      "oldScale": 0.25,
+      "newScale": 0.343704,
+      "oldSpan": 8.226611137390137,
+      "newSpan": 11.310083341827543,
+      "file": "odf\\ships\\foberth.odf"
+    },
+    {
+      "unit": "fscout",
+      "oldScale": 0.25,
+      "newScale": 0.661632,
+      "oldSpan": 4.273556963832247,
+      "newSpan": 11.310083341827543,
+      "file": "odf\\ships\\fscout.odf"
+    },
+    {
+      "unit": "xofdestroy",
+      "oldScale": 0.3,
+      "newScale": 0.405,
+      "oldSpan": 8.377839512464845,
+      "newSpan": 11.310083341827543,
+      "file": "odf\\ships\\xofdestroy.odf"
+    }
+  ],
+  "skipped": [
+    {
+      "unit": "brfreight",
+      "reason": "Command '['C:\\\\Users\\\\thoma\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe', 'D:\\\\aramada\\\\scripts\\\\stage-small-ship-scale-beta.py', '--measure', 'brfreight']' timed out after 3 seconds"
+    },
+    {
+      "unit": "cargo",
+      "reason": "Model could not be measured safely"
+    },
+    {
+      "unit": "colony",
+      "reason": "Model could not be measured safely"
+    },
+    {
+      "unit": "const",
+      "reason": "Model could not be measured safely"
+    },
+    {
+      "unit": "destroy",
+      "reason": "Model could not be measured safely"
+    },
+    {
+      "unit": "freight",
+      "reason": "Model could not be measured safely"
+    },
+    {
+      "unit": "rcolony",
+      "reason": "Model could not be measured safely"
+    },
+    {
+      "unit": "scoutbase",
+      "reason": "Model could not be measured safely"
+    },
+    {
+      "unit": "fincursion",
+      "reason": "Excluded: invalid measured geometry or larger special-ship role"
+    },
+    {
+      "unit": "fnova",
+      "reason": "Excluded: invalid measured geometry or larger special-ship role"
+    }
+  ],
+  "files": [
+    "odf\\ships\\bjlightship.odf",
+    "odf\\ships\\bjraider.odf",
+    "odf\\ships\\bjscout.odf",
+    "odf\\ships\\bjtransport.odf",
+    "odf\\ships\\fantares.odf",
+    "odf\\ships\\fcolony.odf",
+    "odf\\ships\\fdanube.odf",
+    "odf\\ships\\fdefiant.odf",
+    "odf\\ships\\fdeltaflyer.odf",
+    "odf\\ships\\fdestroy.odf",
+    "odf\\ships\\ffighter.odf",
+    "odf\\ships\\foberth.odf",
+    "odf\\ships\\fscout.odf",
+    "odf\\ships\\xofdestroy.odf"
+  ],
+  "installed": true,
+  "gameplayVerified": false,
+  "backup": "D:\\Xaramada-Modwork\\backups\\combined-beta-20261017-134814"
+}
