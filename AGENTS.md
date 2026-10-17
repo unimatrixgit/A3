@@ -8,4 +8,6 @@ Keep `status.json` and `build.log` truthful; file validation is not in-game veri
 
 Hero ships are buildable only. Do not add heroes to standard, minimal, super, CTF or other starting fleets. This latest user instruction supersedes earlier one-starting-hero requirements and historical starter scripts. Keep hero production and voice events intact.
 
-Borg cubes must not carry the blue Auto-Assimilator weapon (xacassim/gborgbor). Keep green holding/assimilation, transwarp, remodulation and remaining weapons in their existing relative order with matching hardpoints; no empty weapon slots. Do not rerun historical beam-addition scripts unchanged.
+Borg cubes must not carry the blue Auto-Assimilator weapon (xacassim/gborgbor). Keep green holding/assimilation, transwarp and remaining weapons in their existing relative order with matching hardpoints; no empty weapon slots. Do not rerun historical beam-addition scripts unchanged.
+
+Shield adaptation/remodulation is now restricted to Scout Cube (bscout) and Locutus variants (blocutus, xoblocutus). Do not restore it to other cubes. This supersedes historical all-cubes adaptation scripts.

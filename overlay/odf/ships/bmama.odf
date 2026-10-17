@@ -132,26 +132,40 @@ buildTime = 120
 // Additional green holding/assimilation beam, separate from the existing blue beam.
 
 // Blue auto-assimilation beam removed. Remaining weapon order and hardpoints preserved.
+
+
+
+
+
+
+
+
+
+
+
+// Borg adaptation: native scout passive cloak detector, always on.
+
+
+
+// Technology assimilation: native beam and bounded captured-special capacity.
+
+
+maxExtraWeapons = 4
+
+maxSpecialEnergy = 4000
+
+specialEnergyRate = 40
+
+// Shield adaptation restricted to Scout and Locutus variants.
 weapon1 = "bt5phas"
 weaponHardpoints1 = "hp07" "hp12" "hp17" "hp22"
 weapon2 = "bc4phot"
 weaponHardpoints2 = "hp09" "hp14" "hp19" "hp24"
 weapon3 = "xactwarp"
 weaponHardpoints3 = "hp01"
-weapon4 = "xacremod"
+weapon4 = "xacgreen"
 weaponHardpoints4 = "hp01"
-weapon5 = "xacgreen"
+weapon5 = "gdetect3"
 weaponHardpoints5 = "hp01"
-
-// Borg adaptation: native scout passive cloak detector, always on.
-weapon6 = "gdetect3"
+weapon6 = "gTechAssimBeam"
 weaponHardpoints6 = "hp01"
-
-// Technology assimilation: native beam and bounded captured-special capacity.
-weapon7 = "gTechAssimBeam"
-weaponHardpoints7 = "hp01"
-maxExtraWeapons = 4
-
-maxSpecialEnergy = 4000
-
-specialEnergyRate = 40
