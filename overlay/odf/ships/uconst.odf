@@ -3,9 +3,11 @@
 //Race which can build ship & starting race of ship
 race = "borg"
 
-//Name of Ship class in Ship Display window & in edit mode & tooltip
+//Name of Ship class in Ship Display window & in edit mode & tooltip
 
-//tooltips
+
+//tooltips
+
 
 //Amount of time required to build ship
 
@@ -92,7 +94,7 @@ hotkeyLabel = "HOTKEY_F1"
 
 
 // Use the Borg assembler model and its Borg textures.
-baseName = "bconst"
+
 
 // Xaramada: transwarp for all Borg vessels.
 weapon2 = "xabtrans5"
@@ -100,7 +102,23 @@ weaponHardpoints2 = "hp01"
 
 maxSpecialEnergy = 1000
 
-specialEnergyRate = 10
+specialEnergyRate = 10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Xaramada resource costs: original filename.
@@ -114,22 +132,56 @@ buildTime = 17
 
 unitName = "Universal Assembler"
 
-tooltip = "Universal Assembler"
+tooltip = "Universal Assembler"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 verboseTooltip = "Universal Assembler. Builds the main starbase of every faction."
 
-buildItem0 = "bbase"
 
-buildItem1 = "fbase"
 
-buildItem2 = "kbase"
 
-buildItem3 = "rbase"
 
-buildItem4 = "cbase"
 
-buildItem5 = "dbase"
 
-buildItem6 = "brbase"
 
-buildItem7 = "8472_mothership"
+
+
+
+
+
+
+
+
+
+
+baseName = "xbuconst"
+
+// Borg core facilities remain on the standard Assembler; no overlapping build buttons.
+buildItem0 = "fbase"
+buildItem1 = "kbase"
+buildItem2 = "rbase"
+buildItem3 = "cbase"
+buildItem4 = "dbase"
+buildItem5 = "brbase"
+buildItem6 = "bjbase"
+buildItem7 = "bupgrade"
+buildItem8 = "xbomegalab"
+
+buildItem9 = "xbharvest"
+buildItem10 = "xbassimst"

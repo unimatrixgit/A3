@@ -1,0 +1,157 @@
+#include "turret.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 2200
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 8.0
+
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.50f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.50f
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+//These values are the hitpoint values of the systems
+//If the value is set to zero the ship does not have that system
+weaponsHitPoints = 999
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Photon torpedos
+
+
+
+// Hardpoints to hit for various systems and other locations.
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "PhotonTurretSelect"
+eventAcknowledge = "PhotonTurretAcknowledge"
+eventAttack = "PhotonTurretAttack"
+eventDecommission = "PhotonTurretDecommission"
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "photon_turret"
+
+
+//************************************************************
+// Brian additions for context sensitive menus
+alert = 1
+combat = 1
+
+//scan range in meters
+rangeScan = 1200.0f
+
+
+
+// Xaramada resource costs: original filename.
+
+latinumCost = 0
+biomatterCost = 0
+
+
+
+weaponhardpoints1 = "hp01" "hp02" "hp03" "hp04"
+
+enginestargethardpoints = "hp05"
+
+lifesupporttargethardpoints = "hp06"
+
+weaponstargethardpoints = "hp01"
+
+shieldgeneratortargethardpoints = "hp07"
+
+sensorstargethardpoints = "hp08"
+
+hulltargethardpoints = "hp09"
+
+criticaltargethardpoints = "hp10"
+
+unitName = "Assimilation Station"
+
+tooltip = "Assimilation Station"
+
+verboseTooltip = "Assimilation Station - Green boarding beam. Produces Borg Repair Drones."
+
+baseName = "xbassimst"
+
+weapon1 = "xbassimbeam"
+
+crewCost = 500
+
+maximumCrew = 500
+
+has_crew = 1
+
+lifeSupportHitPoints = 200
+
+crewHitPercent = 13.5
+
+dilithiumCost = 300
+
+metalCost = 600
+
+officerCost = 6
+
+buildTime = 60
+
+maxSpecialEnergy = 1500
+
+specialEnergyRate = 10
+
+hotkeyLabel = "HOTKEY_F11"
+
+classLabel = "shipyard"
+
+builder_ship = 1
+
+buildItem0 = "xbrepair"
+
+buildHardpoint = "build"
+
+repairHardpoint = "repair"
+
+repairFacility = 1
+
+decommissionFacility = 1
+
+animation = 0
+
+repairAnimation = 0

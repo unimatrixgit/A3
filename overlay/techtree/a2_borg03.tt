@@ -111,6 +111,198 @@ rompod23.odf -1                          // research pod (sensor upgrade level 3
 rompod24.odf -1                          // research pod (engine upgrade level 3)
 rompod25.odf -1                          // research pod (life support upgrade level 3)
 
-fyard3.odf -1											// advanced shipyard
 
-ryard3.odf -1                 // advanced shipyard
+
+
+
+bjconst.odf 0
+
+bjbase.odf 0
+
+uconst.odf 0
+
+bjfreight.odf 1 bjmining.odf
+
+bjcargo.odf 1 bjtrading.odf
+
+bjrepair.odf 1 bjyard.odf
+
+bjcolony.odf 2 bjyard.odf bjresear.odf
+
+bjscout.odf 1 bjbase.odf
+
+bjinterceptor.odf 1 bjyard.odf
+
+bjraider.odf 1 bjyard.odf
+
+bjtransport.odf 1 bjyard.odf
+
+bjlightship.odf 1 bjyard.odf
+
+bjassault.odf 2 bjyard.odf bjresear.odf
+
+bjcruiser.odf 1 bjyard2.odf
+
+bjtorpedo.odf 2 bjyard2.odf bjresear.odf
+
+bjfrigate.odf 1 bjyard2.odf
+
+bjartillery.odf 2 bjyard2.odf bjresear2.odf
+
+bjbattle.odf 2 bjyard2.odf bjupgrade.odf
+
+bjspecial.odf 2 bjyard2.odf bjresear2.odf
+
+bjsuper.odf 2 bjyard3.odf bjsuperlab.odf
+
+bjnerys.odf 1 bjyard3.odf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bjpod1.odf 1 bjresear.odf
+
+bjpod2.odf 1 bjresear.odf
+
+bjpod3.odf 1 bjresear.odf
+
+bjpod4.odf 1 bjresear.odf
+
+bjpod5.odf 1 bjresear.odf
+
+bjpod6.odf 1 bjresear2.odf
+
+bjpod7.odf 1 bjresear2.odf
+
+bjpod8.odf 1 bjresear2.odf
+
+bjpod9.odf 1 bjresear2.odf
+
+bjpod11.odf 1 bjupgrade.odf
+
+bjpod12.odf 1 bjupgrade.odf
+
+bjpod13.odf 1 bjupgrade.odf
+
+bjpod14.odf 1 bjupgrade.odf
+
+bjpod15.odf 1 bjupgrade.odf
+
+bjpod16.odf 1 bjresear.odf
+
+bjpod21.odf 2 bjupgrade.odf bjpod11.odf
+
+bjpod22.odf 2 bjupgrade.odf bjpod12.odf
+
+bjpod23.odf 2 bjupgrade.odf bjpod13.odf
+
+bjpod24.odf 2 bjupgrade.odf bjpod14.odf
+
+bjpod25.odf 2 bjupgrade.odf bjpod15.odf
+
+xbj_gtracbm.odf 0
+
+xbj_gminedilithium.odf 0
+
+xbj_gminelatinum.odf 0
+
+xbj_gdetectf.odf 1 bjpod5.odf
+
+xbj_gamine.odf 1 bjpod4.odf
+
+xbj_gfcloak.odf 0
+
+xbj_gchainp.odf 1 bjpod2.odf
+
+xbj_fcolonypod.odf 0
+
+xbj_grepairbeam.odf 0
+
+xbj_gwcover.odf 1 bjpod3.odf
+
+xbj_gshldemt.odf 1 bjpod16.odf
+
+xbj_gselfdes.odf 0
+
+xbj_gcorbom.odf 1 bjpod1.odf
+
+xbj_gshieldh.odf 1 bjpod7.odf
+
+xbj_gmanheim.odf 1 bjpod6.odf
+
+xbj_gpdlaser.odf 1 bjpod9.odf
+
+xbj_gschainp.odf 0
+
+xbuconst.odf 0
+
+xfuconst.odf 0
+
+xkuconst.odf 0
+
+xruconst.odf 0
+
+xcuconst.odf 0
+
+xduconst.odf 0
+
+xbruconst.odf 0
+
+xbjuconst.odf 0
+
+
+
+xbjtakeover.odf 2 bjsuperlab.odf bjpod9.odf
+
+fyard3.odf -1
+
+byard3.odf -1
+
+kyard3.odf 3 kbase.odf kyard2.odf kresear2.odf
+
+ryard3.odf -1
+
+cyard3.odf 3 cbase.odf cyard2.odf cresear2.odf
+
+dyard3.odf 4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf
+
+bryard3.odf 2 bryard.odf brresear.odf
+
+
+xhs_yard3.odf 1 8472_passive.odf
+
+xhs_vanguard.odf 1 xhs_yard3.odf
+
+xhs_sentinel.odf 1 xhs_yard3.odf
+
+xhs_leviathan.odf 1 xhs_yard3.odf
+bjsensor.odf 1 bjbase.odf
+bjturret.odf 1 bjbase.odf
+bjturret2.odf 1 bjresear.odf
+bjmining.odf 0
+bjorbital.odf 1 bjbase.odf
+bjtrading.odf 1 bjbase.odf
+bjyard.odf 1 bjbase.odf
+bjyard2.odf 2 bjyard.odf bjresear.odf
+bjyard3.odf 2 bjresear2.odf bjyard2.odf
+bjresear.odf 2 bjbase.odf bjyard.odf
+bjresear2.odf 2 bjyard2.odf bjresear.odf
+bjupgrade.odf 2 bjresear.odf bjresear2.odf
+bjsuperlab.odf 2 bjresear2.odf bjyard2.odf
+
+// Borg assimilation support
+xbassimst.odf -1											// torpedo turret
+xbrepair.odf 1 xbassimst.odf
+xbharvbeam.odf 0
+xbassimbeam.odf 0

@@ -1,0 +1,179 @@
+{
+  "stage": "D:\\Xaramada-Modwork\\borg-assimilation-stations",
+  "gameplayVerified": false,
+  "units": [
+    {
+      "odf": "xbharvest",
+      "crew": 200,
+      "dilithium": "150",
+      "metal": "150",
+      "buildTime": "30",
+      "class": "sensor"
+    },
+    {
+      "odf": "xbassimst",
+      "crew": 500,
+      "dilithium": "300",
+      "metal": "600",
+      "buildTime": "60",
+      "class": "shipyard"
+    },
+    {
+      "odf": "xbrepair",
+      "crew": 50,
+      "dilithium": "250",
+      "metal": "75",
+      "buildTime": "18",
+      "class": "RepairShip"
+    }
+  ],
+  "issues": [],
+  "files": [
+    {
+      "path": "SOD\\xbassimst.sod",
+      "sha256": "1212f0a6dbc14bfb1d2653c0ddf8d5371973f474125f76798aef0c6b606947c5"
+    },
+    {
+      "path": "SOD\\xbharvest.sod",
+      "sha256": "bcf9e9eaac9f1e9eed1351dff211f1aae478646bcd52aae2542c85779fec3f1a"
+    },
+    {
+      "path": "SOD\\xbrepair.sod",
+      "sha256": "002a49128978d1a2d013cc4ee37666dceae21138f45863284c7a708afd0bf8b6"
+    },
+    {
+      "path": "Sprites\\gui_global.spr",
+      "sha256": "f570b813827642531fe080ca3b7bf56e81b48aefd4f93434caff05255f195f77"
+    },
+    {
+      "path": "techtree\\a2_borg01.tt",
+      "sha256": "47031a14285da8b3d3213eb9cb5b9243043c45eb40a4aac96d04cb346612fe82"
+    },
+    {
+      "path": "techtree\\a2_borg02.tt",
+      "sha256": "63b951f7c0f350b4e3bca90f82e78d95235a37347283c8049b4d4c384dd41f5c"
+    },
+    {
+      "path": "techtree\\a2_borg03.tt",
+      "sha256": "2d0dd35d12dd4d76eb628af51c59ccd0000e4f62ab00e1218451120bf26e5907"
+    },
+    {
+      "path": "techtree\\a2_borg04.tt",
+      "sha256": "276cab31d7079ab63bf69359c0d7dc7359b617a966f9149459959c2542c23816"
+    },
+    {
+      "path": "techtree\\a2_fed01.tt",
+      "sha256": "d9b6a64836d31466088aa914d2eaceda2ccf874287efbeae293f1e12d76060b6"
+    },
+    {
+      "path": "techtree\\a2_fed02.tt",
+      "sha256": "507d8e12166f5c5ffb3c21ea43f6f7aa83c3fe362e562eee82193303a9dab48d"
+    },
+    {
+      "path": "techtree\\a2_fed03.tt",
+      "sha256": "aa3f3fa145ca064bafecdb85a3bce4fa57b9b87d15083248655db6af2c295373"
+    },
+    {
+      "path": "techtree\\a2_fed04.tt",
+      "sha256": "7b472549c4f05b71820e768d6f9407e32caecaf6145984c63e4320782830cc5d"
+    },
+    {
+      "path": "techtree\\a2_fed05.tt",
+      "sha256": "8fd6f61798bb2a9f3fd7fd9a25b926277d6364783f3f413bff6debc4a8c2f0f2"
+    },
+    {
+      "path": "techtree\\a2_fed06.tt",
+      "sha256": "1ae4fd1de4ca1b918ac57a441c6fa873af1349bcb1ca94a3f404a46d2593d2ec"
+    },
+    {
+      "path": "techtree\\a2_fed07.tt",
+      "sha256": "4ad497242119a1f6027fe397c132ba47a1f0c7b5ff68a531d06bb8f65e627ca8"
+    },
+    {
+      "path": "techtree\\a2_fed08.tt",
+      "sha256": "9beee77d7f7626fbf05a4a0444483004653ff325267813f1767c1b4b6153d188"
+    },
+    {
+      "path": "techtree\\a2_fed09.tt",
+      "sha256": "d0795f9b0870a311579e7f5f48082f098155deede7014ef8d24b6a33e01e87f3"
+    },
+    {
+      "path": "techtree\\a2_fed10.tt",
+      "sha256": "b0daa8fcb1c508dee9c26f12eca0456f3bb89c63854de478f565dbfa98673b65"
+    },
+    {
+      "path": "techtree\\demotech.tt",
+      "sha256": "fa093c924607bfb8be7dbcb323eccf20c9d4980cb279f6a7c0cec571f4541b55"
+    },
+    {
+      "path": "techtree\\earlytech.tt",
+      "sha256": "5f6158bb991cf84a31e373489a31c8c9815c441525ed70f3a5f9bf6d64563f19"
+    },
+    {
+      "path": "techtree\\fulltech.tt",
+      "sha256": "02bcaa0a440fdfdd0bf946ce2bc45c757f1635520c27926b6570f2b28b533484"
+    },
+    {
+      "path": "techtree\\nosci.tt",
+      "sha256": "61b06fdba60867021b7b8c9d43edf710a84272c023fd13a22205fffe81591a99"
+    },
+    {
+      "path": "techtree\\nospweap.tt",
+      "sha256": "21c9c0a2ca132568937dfed1971f6a2de884ed4ce2175b21788ac07502dd7061"
+    },
+    {
+      "path": "techtree\\nosuper.tt",
+      "sha256": "02d02228d7c4f7c34711e7f2b64dacd599847895fa99384149e656f3fb541672"
+    },
+    {
+      "path": "techtree\\tech1.tt",
+      "sha256": "0c4da992067ca5f49eb04701b0e539d4de419d2aff259ff8a7e2c3fcd75d07e5"
+    },
+    {
+      "path": "odf\\ships\\uconst.odf",
+      "sha256": "f8cbe9d14ed17368ca36a169f66f2f8c5dc5752d0295187e02ac20ca536991d1"
+    },
+    {
+      "path": "odf\\ships\\xbrepair.odf",
+      "sha256": "9b056f1eada7a9b2e071ea14f2ea9ff26fcf3a3ee00a408858906653cf4b88b9"
+    },
+    {
+      "path": "odf\\ships\\xbuconst.odf",
+      "sha256": "49bf469819eb2992d7948f1074261d493bf47cfea1c39d937875e6ff66bbc104"
+    },
+    {
+      "path": "odf\\special_weapons\\xbassimbeam.odf",
+      "sha256": "a9f9ad507ddabf31ae1acc0201a4aa7129f1fe54974b3089e7b7630f8e182734"
+    },
+    {
+      "path": "odf\\special_weapons\\xbharvbeam.odf",
+      "sha256": "f55ea334b2a0c34ab5929ce32c459831b5f750e080f1d246a695ce345b9c1abb"
+    },
+    {
+      "path": "odf\\stations\\xbassimst.odf",
+      "sha256": "713698b9c88565c1bbd131d816b50376ff2afed3b5513e06899cd8a317a19491"
+    },
+    {
+      "path": "odf\\stations\\xbharvest.odf",
+      "sha256": "0d6424a0aea4016cbbeef64e40e68b44e5f333f77f44dd82614f4b6a34881a24"
+    },
+    {
+      "path": "Textures\\RGB\\xbasstex.tga",
+      "sha256": "ae8d0b1464fbf195e53abf7e9120e226b866d2191c1dce457e3b941da49e7a30"
+    },
+    {
+      "path": "Textures\\RGB\\xbdrntex.tga",
+      "sha256": "81d6488c34d9de85144b3aa1db485a5abdd5b9f3e76de418e12f7849aac1d3c6"
+    },
+    {
+      "path": "Textures\\RGB\\xbharvtex.tga",
+      "sha256": "4f75583cb5545558db685e454160185ac894402d19c648413fb7d203c37d4fe1"
+    },
+    {
+      "path": "Textures\\RGB\\xbstatbtn.tga",
+      "sha256": "bbfbfc103499f0048f1dab9e2b46ffba2334748413f54ead52ce96140fb61a5f"
+    }
+  ],
+  "installed": true,
+  "backup": "D:\\Xaramada-Modwork\\backups\\borg-assimilation-support-20261017-081415"
+}

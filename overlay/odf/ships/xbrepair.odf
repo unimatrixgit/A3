@@ -1,0 +1,113 @@
+#include "repairBase.odf"
+
+//MAIN DESIGN PARAMETERS
+
+//Race which can build ship & starting race of ship
+
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 380
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 500
+enginesHitPoints = 500
+weaponsHitPoints = 500
+lifeSupportHitPoints = 500
+sensorsHitPoints = 500
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 3.8
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "Repair Drone"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Repair Beam
+weapon1 = "gRepairBeam"
+weaponHardpoints1 = "hp16" 
+
+weapon2 = "folympicphas"
+weaponHardpoints2 = "hp01" "hp02" "hp03" "hp04"
+
+//  Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp05" "hp11" "hp12" "hp14" "hp15"
+lifeSupportTargetHardpoints = "hp08" "hp18" "hp19"
+shieldGeneratorTargetHardpoints = "hp16"  
+sensorsTargetHardpoints = "hp09" 
+hullTargetHardpoints = "hp13" "hp20" "hp10" 
+criticalTargetHardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" 
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "placeholder"
+
+
+
+//************************************************************
+// Tara additions for context sensitive menus
+alert = 1
+combat = 1
+
+ScaleSOD = 0.75
+
+
+//physics file for all other physics stuff
+physicsFile = "ffrigatephys.odf"
+trekPhysicsFile = "ffrigatephys.odf"
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 250
+
+latinumCost = 0
+biomatterCost = 0
+crewCost = 50
+officerCost = 2
+
+
+unitName = "Borg Repair Drone"
+
+tooltip = "Borg Repair Drone"
+
+verboseTooltip = "Assimilated Olympic repair vessel. Repairs allied ships."
+
+race = "borg"
+
+baseName = "xbrepair"
+
+metalCost = 75
+
+maximumCrew = 50
+
+buildTime = 18
+
+hotkeyLabel = "HOTKEY_F1"
+
+weapon3 = "gtwarpd"
+
+weaponHardpoints3 = "hp16"
