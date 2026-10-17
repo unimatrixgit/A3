@@ -1,0 +1,90 @@
+//Name of the ODF file for the ordinance for this weapon
+ordName = "holdbm"
+
+//Display name for this weapon
+
+
+//tooltips
+
+
+//Location of the button in the speed panel
+
+
+// location of the button in the popup palette
+
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 10
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+//Time Delay between shots
+
+
+// Range within which the weapon will fire.
+range = 800.0f
+
+//Sound which is played when the weapon fires
+fireSound = "swbhb.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "toggleweapon"
+
+// Special stuff - denote special weapon
+
+
+// Need target
+
+
+// set target restrictions
+
+
+// to allow multiple holding beams to be fired at once
+// Respect native target validity and existing beam reservations.
+
+
+//this special weapon can be assimilated by the borg tech assimilator
+//assimilatable = "borpod2"
+
+// this should NOT start attacking when we use it
+
+
+wpnName = "Assimilate Target"
+
+tooltip = "Assimilate Target"
+
+
+buttonSlot = 3
+
+popupSlot = 4
+
+hotkeyLabel = "HOTKEY_F4"
+
+
+needTarget = 1
+
+targetAlliedCraft = 0
+
+targetAlliedBuildings = 0
+
+targetEnemyCraft = 1
+
+targetEnemyBuildings = 1
+
+restrictFireArc = 0
+
+switchToAttack = 1
+
+shotDelay = 1.0
+
+
+ignoreValidAsTarget = 0
+
+special = 1
+
+verboseTooltip = "Manually target an enemy with Assimilate Target. Requires a valid native beam target."

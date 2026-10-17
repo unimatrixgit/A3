@@ -45,8 +45,8 @@ classLabel = "toggleweapon"
 
 
 // to allow multiple holding beams to be fired at once
-// don't check to see if is valid as target
-ignoreValidAsTarget = 1
+// Respect native target validity and existing beam reservations.
+
 
 //this special weapon can be assimilated by the borg tech assimilator
 //assimilatable = "borpod2"
@@ -84,3 +84,5 @@ switchToAttack = 1
 shotDelay = 1.0
 
 verboseTooltip = "Automatically engages enemy targets in range; native assimilation beam."
+
+ignoreValidAsTarget = 0

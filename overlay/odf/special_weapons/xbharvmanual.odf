@@ -1,0 +1,83 @@
+//Name of the ODF file for the ordinance for this weapon
+ordName = "borgbor"
+
+//Display name for this weapon
+
+
+//tooltips
+
+
+//Location of the button in the speed panel
+
+
+// location of the button in the popup palette
+
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 10
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+// Mark this as a special weapon.
+
+
+// Time Delay between shots
+
+
+// Range within which the weapon will fire.
+range = 800.0
+
+//Sound which is played when the weapon fires
+fireSound = "swbauto.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "toggleweapon"
+
+// We need a target
+
+
+// Respect native target validity and existing beam reservations.
+
+
+//this special weapon can be assimilated by the borg tech assimilator
+//assimilatable = "borpod1"
+
+wpnName = "Harvest Crew"
+
+tooltip = "Harvest Crew"
+
+
+buttonSlot = 3
+
+popupSlot = 4
+
+hotkeyLabel = "HOTKEY_F4"
+
+
+needTarget = 1
+
+targetAlliedCraft = 0
+
+targetAlliedBuildings = 0
+
+targetEnemyCraft = 1
+
+targetEnemyBuildings = 1
+
+restrictFireArc = 0
+
+switchToAttack = 1
+
+shotDelay = 1.0
+
+
+ignoreValidAsTarget = 0
+
+special = 1
+
+verboseTooltip = "Manually target an enemy with Harvest Crew. Requires a valid native beam target."

@@ -19939,3 +19939,9 @@ xbrepairw5 xbstatbtn 128 0 64 64
 @tmaterial=default
 b_xbharvbeam gbbaabore00 0 0 64 64
 b_xbassimbeam gbholdbm00 0 0 64 64
+
+// Manual station beam HUD controls
+@reference=64
+@tmaterial=default
+b_xbharvmanual gbbaabore00 0 0 64 64
+b_xbassimmanual gbholdbm00 0 0 64 64
