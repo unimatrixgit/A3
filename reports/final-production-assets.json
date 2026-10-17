@@ -1,6 +1,6 @@
 {
-  "targetsChecked": 844,
-  "uniqueTargets": 597,
+  "targetsChecked": 851,
+  "uniqueTargets": 603,
   "issues": [],
   "note": "All definition menus including unused legacy content; Planetary shield upgrade is a native effect without a separate model.",
   "rows": [
@@ -920,6 +920,13 @@
       "model": "fds9",
       "modelPresent": true,
       "icon": "b_fds9"
+    },
+    {
+      "producer": "fconst.odf",
+      "target": "xflegacyyard",
+      "model": "fyard3",
+      "modelPresent": true,
+      "icon": "b_xflegacyyard"
     },
     {
       "producer": "fconst2.odf",
@@ -5848,6 +5855,48 @@
       "model": "borpod9",
       "modelPresent": true,
       "icon": "b_xbomegapod"
+    },
+    {
+      "producer": "xflegacyyard.odf",
+      "target": "fnxent",
+      "model": "fnxent",
+      "modelPresent": true,
+      "icon": "b_fnxent"
+    },
+    {
+      "producer": "xflegacyyard.odf",
+      "target": "xhfkirktos",
+      "model": "fent",
+      "modelPresent": true,
+      "icon": "b_xhfkirktos"
+    },
+    {
+      "producer": "xflegacyyard.odf",
+      "target": "xhfkirkrefit",
+      "model": "fenta",
+      "modelPresent": true,
+      "icon": "b_xhfkirkrefit"
+    },
+    {
+      "producer": "xflegacyyard.odf",
+      "target": "xhfharriman",
+      "model": "fentb",
+      "modelPresent": true,
+      "icon": "b_xhfharriman"
+    },
+    {
+      "producer": "xflegacyyard.odf",
+      "target": "xhfgarrett",
+      "model": "fentc",
+      "modelPresent": true,
+      "icon": "b_xhfgarrett"
+    },
+    {
+      "producer": "xflegacyyard.odf",
+      "target": "xhfpicardd",
+      "model": "fentd",
+      "modelPresent": true,
+      "icon": "b_xhfpicardd"
     },
     {
       "producer": "xfomegalab.odf",

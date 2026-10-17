@@ -1,0 +1,71 @@
+{
+  "stage": "D:\\Xaramada-Modwork\\enterprise-legacy-heroes",
+  "heroes": [
+    {
+      "unit": "xhfkirktos",
+      "sourceModel": "fent",
+      "name": "James T Kirk - Enterprise",
+      "weaponCount": 3,
+      "fusionUpgradeRemoved": true
+    },
+    {
+      "unit": "xhfkirkrefit",
+      "sourceModel": "fenta",
+      "name": "James T Kirk - Enterprise A",
+      "weaponCount": 3,
+      "fusionUpgradeRemoved": true
+    },
+    {
+      "unit": "xhfharriman",
+      "sourceModel": "fentb",
+      "name": "John Harriman - Enterprise B",
+      "weaponCount": 4,
+      "fusionUpgradeRemoved": true
+    },
+    {
+      "unit": "xhfgarrett",
+      "sourceModel": "fentc",
+      "name": "Rachel Garrett - Enterprise C",
+      "weaponCount": 3,
+      "fusionUpgradeRemoved": true
+    },
+    {
+      "unit": "xhfpicardd",
+      "sourceModel": "fentd",
+      "name": "Jean-Luc Picard - Enterprise D",
+      "weaponCount": 4,
+      "fusionUpgradeRemoved": true
+    }
+  ],
+  "yard": "xflegacyyard",
+  "producer": "fconst",
+  "producerMenuItems": 13,
+  "existingArcherIncluded": true,
+  "sources": [
+    "https://www.startrek.com/news/ships/enterprise-starfleets-finest-flagships",
+    "https://www.startrek.com/news/who-is-rachel-garrett"
+  ],
+  "usesExistingModelsIconsVoices": true,
+  "voiceNote": "Existing installed command audio reused; no claim of actor-specific Harriman/Garrett recordings.",
+  "files": [
+    "Sprites\\gui_global.spr",
+    "techtree\\earlytech.tt",
+    "techtree\\fulltech.tt",
+    "techtree\\nosci.tt",
+    "techtree\\nospweap.tt",
+    "techtree\\nosuper.tt",
+    "techtree\\tech1.tt",
+    "odf\\ships\\fconst.odf",
+    "odf\\ships\\xhfgarrett.odf",
+    "odf\\ships\\xhfharriman.odf",
+    "odf\\ships\\xhfkirkrefit.odf",
+    "odf\\ships\\xhfkirktos.odf",
+    "odf\\ships\\xhfpicardd.odf",
+    "odf\\stations\\xflegacyyard.odf"
+  ],
+  "installed": true,
+  "gameplayVerified": false,
+  "commandLinksValidated": true,
+  "fusionWeaponsExcluded": true,
+  "backup": "D:\\Xaramada-Modwork\\backups\\enterprise-legacy-20261017-133226"
+}

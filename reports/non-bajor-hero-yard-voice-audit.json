@@ -1,7 +1,7 @@
 {
   "target": "D:\\armadaIII",
   "scope": "Non-Bajoran hero command audio and hero-yard references; read only.",
-  "heroCount": 37,
+  "heroCount": 42,
   "heroes": [
     {
       "unit": "8472_heromother.odf",
@@ -3012,6 +3012,236 @@
       ]
     },
     {
+      "unit": "xhfgarrett.odf",
+      "name": "Rachel Garrett - Enterprise C",
+      "race": "federation",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_fentc_Select",
+          "clips": [
+            "fedass_sel1_att5_move5.wav",
+            "fedass_sel2_att6_move6.wav",
+            "fedass_select3.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_fentc_Acknowledge",
+          "clips": [
+            "fedass_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_fentc_Attack",
+          "clips": [
+            "fedass_attack1.wav",
+            "fedass_attack2.wav",
+            "fedass_attack3.wav",
+            "fedass_ackn1_att4_move4.wav",
+            "fedass_sel1_att5_move5.wav",
+            "fedass_sel2_att6_move6.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_fentc_Stop",
+          "clips": [
+            "fedass_stop1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_fentc_Move",
+          "clips": [
+            "fedass_move1.wav",
+            "fedass_move2.wav",
+            "fedass_move3.wav",
+            "fedass_ackn1_att4_move4.wav",
+            "fedass_sel1_att5_move5.wav",
+            "fedass_sel2_att6_move6.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_fentc_Repair",
+          "clips": [
+            "fedass_repairs1.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_fentc_RedAlert",
+          "clips": [
+            "fedass_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_fentc_YellowAlert",
+          "clips": [
+            "fedass_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_fentc_GreenAlert",
+          "clips": [
+            "fedass_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_fentc_Transport",
+          "clips": [
+            "fedass_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_fentc_SelfDestruct",
+          "clips": [
+            "fedass_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_fentc_Decommission",
+          "clips": [
+            "fedass_ackn1_att4_move4.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "xhfharriman.odf",
+      "name": "John Harriman - Enterprise B",
+      "race": "federation",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_fentb_Select",
+          "clips": [
+            "gvofbs16.wav",
+            "gvofbs17.wav",
+            "gvofbs18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_fentb_Acknowledge",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_fentb_Attack",
+          "clips": [
+            "gvofbs06.wav",
+            "gvofbs07.wav",
+            "gvofbs08.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_fentb_Stop",
+          "clips": [
+            "gvofbs21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_fentb_Move",
+          "clips": [
+            "gvofbs11.wav",
+            "gvofbs12.wav",
+            "gvofbs13.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_fentb_Repair",
+          "clips": [
+            "gvofbs26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_fentb_RedAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_fentb_YellowAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_fentb_GreenAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_fentb_Transport",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_fentb_SelfDestruct",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_fentb_Decommission",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
       "unit": "xhfhero.odf",
       "name": "Jean-Luc Picard - Enterprise E",
       "race": "federation",
@@ -3121,6 +3351,350 @@
           "event": "XV_xhfhero_Decommission",
           "clips": [
             "gvofbs01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "xhfkirkrefit.odf",
+      "name": "James T Kirk - Enterprise A",
+      "race": "federation",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_fenta_Select",
+          "clips": [
+            "gvofbs16.wav",
+            "gvofbs17.wav",
+            "gvofbs18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_fenta_Acknowledge",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_fenta_Attack",
+          "clips": [
+            "gvofbs06.wav",
+            "gvofbs07.wav",
+            "gvofbs08.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_fenta_Stop",
+          "clips": [
+            "gvofbs21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_fenta_Move",
+          "clips": [
+            "gvofbs11.wav",
+            "gvofbs12.wav",
+            "gvofbs13.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_fenta_Repair",
+          "clips": [
+            "gvofbs26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_fenta_RedAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_fenta_YellowAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_fenta_GreenAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_fenta_Transport",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_fenta_SelfDestruct",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_fenta_Decommission",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "xhfkirktos.odf",
+      "name": "James T Kirk - Enterprise",
+      "race": "federation",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_fent_Select",
+          "clips": [
+            "gvofbs16.wav",
+            "gvofbs17.wav",
+            "gvofbs18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_fent_Acknowledge",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_fent_Attack",
+          "clips": [
+            "gvofbs06.wav",
+            "gvofbs07.wav",
+            "gvofbs08.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_fent_Stop",
+          "clips": [
+            "gvofbs21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_fent_Move",
+          "clips": [
+            "gvofbs11.wav",
+            "gvofbs12.wav",
+            "gvofbs13.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_fent_Repair",
+          "clips": [
+            "gvofbs26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_fent_RedAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_fent_YellowAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_fent_GreenAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_fent_Transport",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_fent_SelfDestruct",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_fent_Decommission",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
+      "unit": "xhfpicardd.odf",
+      "name": "Jean-Luc Picard - Enterprise D",
+      "race": "federation",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_fentd_Select",
+          "clips": [
+            "gvopic16.wav",
+            "gvopic20.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_fentd_Acknowledge",
+          "clips": [
+            "gvopic01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_fentd_Attack",
+          "clips": [
+            "gvopic06.wav",
+            "gvopic07.wav",
+            "gvopic01.wav",
+            "gvopic08.wav",
+            "gvopic09.wav",
+            "gvopic10.wav",
+            "gvopic40.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_fentd_Stop",
+          "clips": [
+            "gvopic21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_fentd_Move",
+          "clips": [
+            "gvopic12.wav",
+            "gvopic11.wav",
+            "gvopic15.wav",
+            "gvopic50.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_fentd_Repair",
+          "clips": [
+            "gvopic26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_fentd_RedAlert",
+          "clips": [
+            "gvopic98.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_fentd_YellowAlert",
+          "clips": [
+            "gvopic95.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_fentd_GreenAlert",
+          "clips": [
+            "gvopic99.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_fentd_Transport",
+          "clips": [
+            "gvopic97.wav",
+            "gvopic96.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_fentd_SelfDestruct",
+          "clips": [
+            "gvopic01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_fentd_Decommission",
+          "clips": [
+            "gvopic01.wav"
           ],
           "missingClips": []
         }
