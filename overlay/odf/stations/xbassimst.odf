@@ -73,8 +73,8 @@ eventDecommission = "PhotonTurretDecommission"
 
 //************************************************************
 // Brian additions for context sensitive menus
-alert = 1
-combat = 1
+
+
 
 //scan range in meters
 rangeScan = 1200.0f
@@ -86,9 +86,6 @@ rangeScan = 1200.0f
 latinumCost = 0
 biomatterCost = 0
 
-
-
-weaponhardpoints1 = "hp01" "hp02" "hp03" "hp04"
 
 enginestargethardpoints = "hp05"
 
@@ -155,3 +152,11 @@ decommissionFacility = 1
 animation = 0
 
 repairAnimation = 0
+
+weaponHardpoints1 = "hp01"
+
+combat = 1
+
+alert = 1
+
+SHOW_SW_AUTONOMY = 1

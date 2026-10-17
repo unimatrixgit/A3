@@ -1,0 +1,34 @@
+{
+  "installed": true,
+  "backup": "D:\\Xaramada-Modwork\\backups\\borg-autofire-20261017-091451",
+  "files": [
+    {
+      "path": "odf\\special_weapons\\xbassimbeam.odf",
+      "sha256": "195c60dc572b664d237549deefdc41fbda0bb55ea699e722347667d8ca84cef2"
+    },
+    {
+      "path": "odf\\special_weapons\\xbharvbeam.odf",
+      "sha256": "df72fe3760a0ae7f6db5cb77f00336d5bd2f563763cc6e207fca1c618391416c"
+    },
+    {
+      "path": "odf\\stations\\xbassimst.odf",
+      "sha256": "46fae2ca4edf36bbc0e2155d6d367145662f0ae5c8a53687d6f50e3c8742b3c8"
+    },
+    {
+      "path": "odf\\stations\\xbharvest.odf",
+      "sha256": "13dc5f4e18feb1b362e3837df7a4f6ad912b0a30e09dc62009e64dd3ee80f733"
+    },
+    {
+      "path": "Textures\\RGB\\xbstatbtn.tga",
+      "sha256": "8887bfcb743589de3fb6d23745cb476738846ec1862d4261ed7ae3f82d2bf61b"
+    }
+  ],
+  "changes": [
+    "Station-only beam special=0; retain native toggleweapon and ordnance behavior.",
+    "Enemy-only targeting; single firing hardpoint per station to avoid multiple simultaneous effects.",
+    "Brighter model icons with cyan/green beam badges. Native technology dimming unchanged."
+  ],
+  "source": "https://www.armadafleetcommand.com/onscreen/armada/viewtopic.php?t=4380",
+  "gameplayVerified": false,
+  "note": "Retains energy usage, boarding crew, capture mechanics and repair drone production. Automatic targeting/capture require in-game verification."
+}

@@ -24,7 +24,7 @@ buttonPriority = 10
 buttonBorder = 1
 
 //Time Delay between shots
-shotDelay = 0.0
+
 
 // Range within which the weapon will fire.
 range = 800.0f
@@ -36,16 +36,13 @@ fireSound = "swbhb.wav"
 classLabel = "toggleweapon"
 
 // Special stuff - denote special weapon
-special = 1
+
 
 // Need target
-needTarget = 1
+
 
 // set target restrictions
-targetAlliedCraft = 0
-targetAlliedBuildings = 0
-targetEnemyCraft = 1
-targetEnemyBuildings = 1
+
 
 // to allow multiple holding beams to be fired at once
 // don't check to see if is valid as target
@@ -55,16 +52,35 @@ ignoreValidAsTarget = 1
 //assimilatable = "borpod2"
 
 // this should NOT start attacking when we use it
-switchToAttack = 0
+
 
 wpnName = "Assimilate Target"
 
 tooltip = "Assimilate Target"
 
-verboseTooltip = "Assimilate Target - native Borg beam mechanics."
 
 buttonSlot = 3
 
 popupSlot = 4
 
 hotkeyLabel = "HOTKEY_F4"
+
+special = 0
+
+needTarget = 1
+
+targetAlliedCraft = 0
+
+targetAlliedBuildings = 0
+
+targetEnemyCraft = 1
+
+targetEnemyBuildings = 1
+
+restrictFireArc = 0
+
+switchToAttack = 1
+
+shotDelay = 1.0
+
+verboseTooltip = "Automatically engages enemy targets in range; native assimilation beam."
