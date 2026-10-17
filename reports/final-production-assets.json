@@ -1,0 +1,5902 @@
+{
+  "targetsChecked": 842,
+  "uniqueTargets": 595,
+  "issues": [],
+  "note": "All definition menus including unused legacy content; Planetary shield upgrade is a native effect without a separate model.",
+  "rows": [
+    {
+      "producer": "714const.odf",
+      "target": "714syard",
+      "model": "714syard",
+      "modelPresent": true,
+      "icon": "b_714syard"
+    },
+    {
+      "producer": "714const.odf",
+      "target": "714turr",
+      "model": "714turr",
+      "modelPresent": true,
+      "icon": "b_714turr"
+    },
+    {
+      "producer": "8472_active.odf",
+      "target": "8472_collector",
+      "model": "8472_collector",
+      "modelPresent": true,
+      "icon": "b_8472_collector"
+    },
+    {
+      "producer": "8472_active.odf",
+      "target": "8472_scout",
+      "model": "8472_scout",
+      "modelPresent": true,
+      "icon": "b_8472_scout"
+    },
+    {
+      "producer": "8472_active.odf",
+      "target": "8472fig",
+      "model": "8472fig",
+      "modelPresent": true,
+      "icon": "b_8472fig"
+    },
+    {
+      "producer": "8472_active.odf",
+      "target": "8472_destroy",
+      "model": "8472_destroy",
+      "modelPresent": true,
+      "icon": "b_8472_destroy"
+    },
+    {
+      "producer": "8472_active.odf",
+      "target": "8472_cruise1",
+      "model": "8472_cruise1",
+      "modelPresent": true,
+      "icon": "b_8472_cruise1"
+    },
+    {
+      "producer": "8472_active.odf",
+      "target": "8472_cruise2",
+      "model": "8472_cruise2",
+      "modelPresent": true,
+      "icon": "b_8472_cruise2"
+    },
+    {
+      "producer": "8472_defender.odf",
+      "target": "8472_mine",
+      "model": "8472_mine",
+      "modelPresent": true,
+      "icon": "b_8472_mine"
+    },
+    {
+      "producer": "8472_defender.odf",
+      "target": "8472_sentinel",
+      "model": "8472_sentinel",
+      "modelPresent": true,
+      "icon": "b_8472_sentinel"
+    },
+    {
+      "producer": "8472_heromother.odf",
+      "target": "8472_active",
+      "model": "8472_active",
+      "modelPresent": true,
+      "icon": "b_8472_active"
+    },
+    {
+      "producer": "8472_heromother.odf",
+      "target": "8472_passive",
+      "model": "8472_passive",
+      "modelPresent": true,
+      "icon": "b_8472_passive"
+    },
+    {
+      "producer": "8472_heromothership.odf",
+      "target": "8472_active",
+      "model": "8472_active",
+      "modelPresent": true,
+      "icon": "b_8472_active"
+    },
+    {
+      "producer": "8472_heromothership.odf",
+      "target": "8472_passive",
+      "model": "8472_passive",
+      "modelPresent": true,
+      "icon": "b_8472_passive"
+    },
+    {
+      "producer": "8472_mother.odf",
+      "target": "8472_active",
+      "model": "8472_active",
+      "modelPresent": true,
+      "icon": "b_8472_active"
+    },
+    {
+      "producer": "8472_mother.odf",
+      "target": "8472_passive",
+      "model": "8472_passive",
+      "modelPresent": true,
+      "icon": "b_8472_passive"
+    },
+    {
+      "producer": "8472_mother.odf",
+      "target": "714const",
+      "model": "714const",
+      "modelPresent": true,
+      "icon": "b_714const"
+    },
+    {
+      "producer": "8472_mothership.odf",
+      "target": "8472_active",
+      "model": "8472_active",
+      "modelPresent": true,
+      "icon": "b_8472_active"
+    },
+    {
+      "producer": "8472_mothership.odf",
+      "target": "8472_passive",
+      "model": "8472_passive",
+      "modelPresent": true,
+      "icon": "b_8472_passive"
+    },
+    {
+      "producer": "8472_mothership.odf",
+      "target": "714const",
+      "model": "714const",
+      "modelPresent": true,
+      "icon": "b_714const"
+    },
+    {
+      "producer": "8472_passive.odf",
+      "target": "8472_transmuter",
+      "model": "8472_transmuter",
+      "modelPresent": true,
+      "icon": "b_8472_transmuter"
+    },
+    {
+      "producer": "8472_passive.odf",
+      "target": "8472_basicresearch",
+      "model": "8472_basicresearch",
+      "modelPresent": true,
+      "icon": "b_8472_basicresearch"
+    },
+    {
+      "producer": "8472_passive.odf",
+      "target": "8472_advancedresearch",
+      "model": "xvstock_8472_advancedresearch",
+      "modelPresent": true,
+      "icon": "b_8472_advancedresearch"
+    },
+    {
+      "producer": "8472_passive.odf",
+      "target": "8472_shipupgraderesearch",
+      "model": "8472_shipupgraderesearch",
+      "modelPresent": true,
+      "icon": "b_8472_shipupgraderesearch"
+    },
+    {
+      "producer": "8472_passive.odf",
+      "target": "8472_fluidicgate",
+      "model": "8472_fluidicgate",
+      "modelPresent": true,
+      "icon": "b_8472_fluidicgate"
+    },
+    {
+      "producer": "8472_passive.odf",
+      "target": "xhs_yard3",
+      "model": "8472_mother",
+      "modelPresent": true,
+      "icon": "b_xhs_yard3"
+    },
+    {
+      "producer": "8472_passive.odf",
+      "target": "8472_mothership",
+      "model": "xvstock_8472_mothership",
+      "modelPresent": true,
+      "icon": "b_8472_mothership"
+    },
+    {
+      "producer": "bbattle5.odf",
+      "target": "bscout",
+      "model": "bscout",
+      "modelPresent": true,
+      "icon": "b_bscout"
+    },
+    {
+      "producer": "bbattle5.odf",
+      "target": "bconst",
+      "model": "bconst",
+      "modelPresent": true,
+      "icon": "b_bconst"
+    },
+    {
+      "producer": "bbattle5.odf",
+      "target": "bcruise1",
+      "model": "bcruise1",
+      "modelPresent": true,
+      "icon": "b_bcruise1"
+    },
+    {
+      "producer": "bbattle5.odf",
+      "target": "bbattle2",
+      "model": "bbattle2",
+      "modelPresent": true,
+      "icon": "b_bbattle2"
+    },
+    {
+      "producer": "bbattle5.odf",
+      "target": "bassault",
+      "model": "bassault",
+      "modelPresent": true,
+      "icon": "b_bassault"
+    },
+    {
+      "producer": "bbattle5.odf",
+      "target": "bfreight",
+      "model": "bfreight",
+      "modelPresent": true,
+      "icon": "b_bfreight"
+    },
+    {
+      "producer": "bbattle6.odf",
+      "target": "bscout",
+      "model": "bscout",
+      "modelPresent": true,
+      "icon": "b_bscout"
+    },
+    {
+      "producer": "bbattle6.odf",
+      "target": "bconst",
+      "model": "bconst",
+      "modelPresent": true,
+      "icon": "b_bconst"
+    },
+    {
+      "producer": "bbattle6.odf",
+      "target": "bcruise1",
+      "model": "bcruise1",
+      "modelPresent": true,
+      "icon": "b_bcruise1"
+    },
+    {
+      "producer": "bbattle6.odf",
+      "target": "bbattle2",
+      "model": "bbattle2",
+      "modelPresent": true,
+      "icon": "b_bbattle2"
+    },
+    {
+      "producer": "bbattle6.odf",
+      "target": "bassault",
+      "model": "bassault",
+      "modelPresent": true,
+      "icon": "b_bassault"
+    },
+    {
+      "producer": "bbattle6.odf",
+      "target": "bfreight",
+      "model": "bfreight",
+      "modelPresent": true,
+      "icon": "b_bfreight"
+    },
+    {
+      "producer": "bconst.odf",
+      "target": "bbase",
+      "model": "bbase",
+      "modelPresent": true,
+      "icon": "b_bbase"
+    },
+    {
+      "producer": "bconst.odf",
+      "target": "byard",
+      "model": "xvstock_byard",
+      "modelPresent": true,
+      "icon": "b_byard"
+    },
+    {
+      "producer": "bconst.odf",
+      "target": "bsensor",
+      "model": "xvstock_bsensor",
+      "modelPresent": true,
+      "icon": "b_bsensor"
+    },
+    {
+      "producer": "bconst.odf",
+      "target": "bturret",
+      "model": "xvstock_bturret",
+      "modelPresent": true,
+      "icon": "b_bturret"
+    },
+    {
+      "producer": "bconst.odf",
+      "target": "bmining",
+      "model": "xvstock_bmining",
+      "modelPresent": true,
+      "icon": "b_bmining"
+    },
+    {
+      "producer": "bconst.odf",
+      "target": "bresear",
+      "model": "xvstock_bresear",
+      "modelPresent": true,
+      "icon": "b_bresear"
+    },
+    {
+      "producer": "bconst.odf",
+      "target": "bresear2",
+      "model": "xvstock_bresear2",
+      "modelPresent": true,
+      "icon": "b_bresear2"
+    },
+    {
+      "producer": "bconst.odf",
+      "target": "byard2",
+      "model": "xvstock_byard2",
+      "modelPresent": true,
+      "icon": "b_byard2"
+    },
+    {
+      "producer": "bconst.odf",
+      "target": "bturret2",
+      "model": "xvstock_bturret2",
+      "modelPresent": true,
+      "icon": "b_bturret2"
+    },
+    {
+      "producer": "bconst.odf",
+      "target": "bbase2",
+      "model": "bbase2",
+      "modelPresent": true,
+      "icon": "b_bbase2"
+    },
+    {
+      "producer": "bconst.odf",
+      "target": "brecycle",
+      "model": "brecycle",
+      "modelPresent": true,
+      "icon": "b_brecycle"
+    },
+    {
+      "producer": "bconst.odf",
+      "target": "bsuperbl",
+      "model": "bsuperbl",
+      "modelPresent": true,
+      "icon": "b_bsuperbl"
+    },
+    {
+      "producer": "bconst.odf",
+      "target": "byard3",
+      "model": "byard3",
+      "modelPresent": true,
+      "icon": "b_byard3"
+    },
+    {
+      "producer": "bconst2.odf",
+      "target": "bbase",
+      "model": "bbase",
+      "modelPresent": true,
+      "icon": "b_bbase"
+    },
+    {
+      "producer": "bconst2.odf",
+      "target": "bturret",
+      "model": "xvstock_bturret",
+      "modelPresent": true,
+      "icon": "b_bturret"
+    },
+    {
+      "producer": "bconst2.odf",
+      "target": "bsensor",
+      "model": "xvstock_bsensor",
+      "modelPresent": true,
+      "icon": "b_bsensor"
+    },
+    {
+      "producer": "bconst2.odf",
+      "target": "bbase2",
+      "model": "bbase2",
+      "modelPresent": true,
+      "icon": "b_bbase2"
+    },
+    {
+      "producer": "bconst2.odf",
+      "target": "bassturr",
+      "model": "bassturr",
+      "modelPresent": true,
+      "icon": "b_bassturr"
+    },
+    {
+      "producer": "bconst2.odf",
+      "target": "hub",
+      "model": "hub",
+      "modelPresent": true,
+      "icon": "b_hub"
+    },
+    {
+      "producer": "bjconst.odf",
+      "target": "bjbase",
+      "model": "fds9",
+      "modelPresent": true,
+      "icon": "b_bjbase"
+    },
+    {
+      "producer": "bjconst.odf",
+      "target": "bjyard",
+      "model": "br3_bjyard",
+      "modelPresent": true,
+      "icon": "b_bjyard"
+    },
+    {
+      "producer": "bjconst.odf",
+      "target": "bjyard2",
+      "model": "br3_bjyard2",
+      "modelPresent": true,
+      "icon": "b_bjyard2"
+    },
+    {
+      "producer": "bjconst.odf",
+      "target": "bjmining",
+      "model": "br3_bjmining",
+      "modelPresent": true,
+      "icon": "b_bjmining"
+    },
+    {
+      "producer": "bjconst.odf",
+      "target": "bjorbital",
+      "model": "br3_bjorbital",
+      "modelPresent": true,
+      "icon": "b_bjorbital"
+    },
+    {
+      "producer": "bjconst.odf",
+      "target": "bjtrading",
+      "model": "br3_bjtrading",
+      "modelPresent": true,
+      "icon": "b_bjtrading"
+    },
+    {
+      "producer": "bjconst.odf",
+      "target": "bjresear",
+      "model": "br3_bjresear",
+      "modelPresent": true,
+      "icon": "b_bjresear"
+    },
+    {
+      "producer": "bjconst.odf",
+      "target": "bjresear2",
+      "model": "br3_bjresear2",
+      "modelPresent": true,
+      "icon": "b_bjresear2"
+    },
+    {
+      "producer": "bjconst.odf",
+      "target": "bjupgrade",
+      "model": "br3_bjupgrade",
+      "modelPresent": true,
+      "icon": "b_bjupgrade"
+    },
+    {
+      "producer": "bjconst.odf",
+      "target": "bjsensor",
+      "model": "br3_bjsensor",
+      "modelPresent": true,
+      "icon": "b_bjsensor"
+    },
+    {
+      "producer": "bjconst.odf",
+      "target": "bjturret",
+      "model": "br3_bjturret",
+      "modelPresent": true,
+      "icon": "b_bjturret"
+    },
+    {
+      "producer": "bjconst.odf",
+      "target": "bjturret2",
+      "model": "br3_bjturret2",
+      "modelPresent": true,
+      "icon": "b_bjturret2"
+    },
+    {
+      "producer": "brconst.odf",
+      "target": "brbase",
+      "model": "brbase",
+      "modelPresent": true,
+      "icon": "b_brbase"
+    },
+    {
+      "producer": "brconst.odf",
+      "target": "bryard",
+      "model": "bryard",
+      "modelPresent": true,
+      "icon": "b_bryard"
+    },
+    {
+      "producer": "brconst.odf",
+      "target": "brmining",
+      "model": "brmining",
+      "modelPresent": true,
+      "icon": "b_brmining"
+    },
+    {
+      "producer": "brconst.odf",
+      "target": "brresear",
+      "model": "brresear",
+      "modelPresent": true,
+      "icon": "b_brresear"
+    },
+    {
+      "producer": "brconst.odf",
+      "target": "brresear2",
+      "model": "brresear2",
+      "modelPresent": true,
+      "icon": "b_brresear2"
+    },
+    {
+      "producer": "brconst.odf",
+      "target": "bryard3",
+      "model": "bryard2",
+      "modelPresent": true,
+      "icon": "b_bryard3"
+    },
+    {
+      "producer": "brconst.odf",
+      "target": "bryard2",
+      "model": "bryard2",
+      "modelPresent": true,
+      "icon": "b_bryard2"
+    },
+    {
+      "producer": "brconst.odf",
+      "target": "brorbital",
+      "model": "brorbital",
+      "modelPresent": true,
+      "icon": "b_brorbital"
+    },
+    {
+      "producer": "cconst.odf",
+      "target": "cbase",
+      "model": "xvstock_cbase",
+      "modelPresent": true,
+      "icon": "b_cbase"
+    },
+    {
+      "producer": "cconst.odf",
+      "target": "cyard",
+      "model": "xvstock_cyard",
+      "modelPresent": true,
+      "icon": "b_cyard"
+    },
+    {
+      "producer": "cconst.odf",
+      "target": "csensor",
+      "model": "xvstock_csensor",
+      "modelPresent": true,
+      "icon": "b_csensor"
+    },
+    {
+      "producer": "cconst.odf",
+      "target": "cturret",
+      "model": "xvstock_cturret",
+      "modelPresent": true,
+      "icon": "b_cturret"
+    },
+    {
+      "producer": "cconst.odf",
+      "target": "cmining",
+      "model": "xvstock_cmining",
+      "modelPresent": true,
+      "icon": "b_cmining"
+    },
+    {
+      "producer": "cconst.odf",
+      "target": "cresear",
+      "model": "xvstock_cresear",
+      "modelPresent": true,
+      "icon": "b_cresear"
+    },
+    {
+      "producer": "cconst.odf",
+      "target": "cresear2",
+      "model": "xvstock_cresear2",
+      "modelPresent": true,
+      "icon": "b_cresear2"
+    },
+    {
+      "producer": "cconst.odf",
+      "target": "cyard2",
+      "model": "xvstock_cyard2",
+      "modelPresent": true,
+      "icon": "b_cyard2"
+    },
+    {
+      "producer": "cconst.odf",
+      "target": "cturret2",
+      "model": "xvstock_cturret2",
+      "modelPresent": true,
+      "icon": "b_cturret2"
+    },
+    {
+      "producer": "cconst.odf",
+      "target": "cardassian_super_station",
+      "model": "cardassian_super_station",
+      "modelPresent": true,
+      "icon": "b_cardassian_super_station"
+    },
+    {
+      "producer": "cconst.odf",
+      "target": "cyard3",
+      "model": "cyard2",
+      "modelPresent": true,
+      "icon": "b_cyard3"
+    },
+    {
+      "producer": "cconst.odf",
+      "target": "corbital",
+      "model": "xvstock_corbital",
+      "modelPresent": true,
+      "icon": "b_corbital"
+    },
+    {
+      "producer": "cconst.odf",
+      "target": "ctrading",
+      "model": "xvstock_ctrading",
+      "modelPresent": true,
+      "icon": "b_ctrading"
+    },
+    {
+      "producer": "dconst.odf",
+      "target": "dbase",
+      "model": "dbase",
+      "modelPresent": true,
+      "icon": "b_dbase"
+    },
+    {
+      "producer": "dconst.odf",
+      "target": "dyard",
+      "model": "dyard",
+      "modelPresent": true,
+      "icon": "b_dyard"
+    },
+    {
+      "producer": "dconst.odf",
+      "target": "dsensor",
+      "model": "dsensor",
+      "modelPresent": true,
+      "icon": "b_dsensor"
+    },
+    {
+      "producer": "dconst.odf",
+      "target": "dturret",
+      "model": "dturret",
+      "modelPresent": true,
+      "icon": "b_dturret"
+    },
+    {
+      "producer": "dconst.odf",
+      "target": "dmining",
+      "model": "dmining",
+      "modelPresent": true,
+      "icon": "b_dmining"
+    },
+    {
+      "producer": "dconst.odf",
+      "target": "dresear",
+      "model": "dresear",
+      "modelPresent": true,
+      "icon": "b_dresear"
+    },
+    {
+      "producer": "dconst.odf",
+      "target": "dresear2",
+      "model": "dresear2",
+      "modelPresent": true,
+      "icon": "b_dresear2"
+    },
+    {
+      "producer": "dconst.odf",
+      "target": "dyard2",
+      "model": "dyard2",
+      "modelPresent": true,
+      "icon": "b_dyard2"
+    },
+    {
+      "producer": "dconst.odf",
+      "target": "dturret2",
+      "model": "dturret2",
+      "modelPresent": true,
+      "icon": "b_dturret2"
+    },
+    {
+      "producer": "dconst.odf",
+      "target": "dsuperbl",
+      "model": "dsuperbl",
+      "modelPresent": true,
+      "icon": "b_dsuperbl"
+    },
+    {
+      "producer": "dconst.odf",
+      "target": "dorbital",
+      "model": "dorbital",
+      "modelPresent": true,
+      "icon": "b_dorbital"
+    },
+    {
+      "producer": "dconst.odf",
+      "target": "dtrading",
+      "model": "dtrading",
+      "modelPresent": true,
+      "icon": "b_dtrading"
+    },
+    {
+      "producer": "domconst.odf",
+      "target": "dombase",
+      "model": "dombase",
+      "modelPresent": true,
+      "icon": "b_dombase"
+    },
+    {
+      "producer": "domconst.odf",
+      "target": "domyard",
+      "model": "domyard",
+      "modelPresent": true,
+      "icon": "b_domyard"
+    },
+    {
+      "producer": "domconst.odf",
+      "target": "domabase",
+      "model": "domabase",
+      "modelPresent": true,
+      "icon": "b_domabase"
+    },
+    {
+      "producer": "domconst.odf",
+      "target": "cturret",
+      "model": "xvstock_cturret",
+      "modelPresent": true,
+      "icon": "b_cturret"
+    },
+    {
+      "producer": "domconst.odf",
+      "target": "cmining",
+      "model": "xvstock_cmining",
+      "modelPresent": true,
+      "icon": "b_cmining"
+    },
+    {
+      "producer": "domconst.odf",
+      "target": "corbital",
+      "model": "xvstock_corbital",
+      "modelPresent": true,
+      "icon": "b_corbital"
+    },
+    {
+      "producer": "domconst.odf",
+      "target": "ctrading",
+      "model": "xvstock_ctrading",
+      "modelPresent": true,
+      "icon": "b_ctrading"
+    },
+    {
+      "producer": "domconst.odf",
+      "target": "cobyard",
+      "model": "cobyard",
+      "modelPresent": true,
+      "icon": "b_cobyard"
+    },
+    {
+      "producer": "domconst.odf",
+      "target": "cstation",
+      "model": "cstation",
+      "modelPresent": true,
+      "icon": "b_cstation"
+    },
+    {
+      "producer": "f31const.odf",
+      "target": "fbase",
+      "model": "xvstock_fbase",
+      "modelPresent": true,
+      "icon": "b_fbase"
+    },
+    {
+      "producer": "f31const.odf",
+      "target": "fsensor",
+      "model": "xvstock_fsensor",
+      "modelPresent": true,
+      "icon": "b_fsensor"
+    },
+    {
+      "producer": "f31const.odf",
+      "target": "fturret",
+      "model": "xvstock_fturret",
+      "modelPresent": true,
+      "icon": "b_fturret"
+    },
+    {
+      "producer": "f31const.odf",
+      "target": "fturret2",
+      "model": "xvstock_fturret2",
+      "modelPresent": true,
+      "icon": "b_fturret2"
+    },
+    {
+      "producer": "f31const.odf",
+      "target": "forbital",
+      "model": "xvstock_forbital",
+      "modelPresent": true,
+      "icon": "b_forbital"
+    },
+    {
+      "producer": "f31const.odf",
+      "target": "ftrading",
+      "model": "xvstock_ftrading",
+      "modelPresent": true,
+      "icon": "b_ftrading"
+    },
+    {
+      "producer": "f31const.odf",
+      "target": "s31yard",
+      "model": "s31yard",
+      "modelPresent": true,
+      "icon": "b_s31yard"
+    },
+    {
+      "producer": "fconst.odf",
+      "target": "fbase",
+      "model": "xvstock_fbase",
+      "modelPresent": true,
+      "icon": "b_fbase"
+    },
+    {
+      "producer": "fconst.odf",
+      "target": "fregula",
+      "model": "fregula",
+      "modelPresent": true,
+      "icon": "b_fregula"
+    },
+    {
+      "producer": "fconst.odf",
+      "target": "fyard0",
+      "model": "fyard0",
+      "modelPresent": true,
+      "icon": "b_fyard0"
+    },
+    {
+      "producer": "fconst.odf",
+      "target": "fyard",
+      "model": "xvstock_fyard",
+      "modelPresent": true,
+      "icon": "b_fyard"
+    },
+    {
+      "producer": "fconst.odf",
+      "target": "fyard2",
+      "model": "xvstock_fyard2",
+      "modelPresent": true,
+      "icon": "b_fyard2"
+    },
+    {
+      "producer": "fconst.odf",
+      "target": "fmining",
+      "model": "xvstock_fmining",
+      "modelPresent": true,
+      "icon": "b_fmining"
+    },
+    {
+      "producer": "fconst.odf",
+      "target": "forbital",
+      "model": "xvstock_forbital",
+      "modelPresent": true,
+      "icon": "b_forbital"
+    },
+    {
+      "producer": "fconst.odf",
+      "target": "ftrading",
+      "model": "xvstock_ftrading",
+      "modelPresent": true,
+      "icon": "b_ftrading"
+    },
+    {
+      "producer": "fconst.odf",
+      "target": "fresear",
+      "model": "xvstock_fresear",
+      "modelPresent": true,
+      "icon": "b_fresear"
+    },
+    {
+      "producer": "fconst.odf",
+      "target": "fresear2",
+      "model": "xvstock_fresear2",
+      "modelPresent": true,
+      "icon": "b_fresear2"
+    },
+    {
+      "producer": "fconst.odf",
+      "target": "fupgrade",
+      "model": "xvstock_fupgrade",
+      "modelPresent": true,
+      "icon": "b_fupgrade"
+    },
+    {
+      "producer": "fconst.odf",
+      "target": "fds9",
+      "model": "fds9",
+      "modelPresent": true,
+      "icon": "b_fds9"
+    },
+    {
+      "producer": "fconst2.odf",
+      "target": "foutpost",
+      "model": "foutpost",
+      "modelPresent": true,
+      "icon": "b_foutpost"
+    },
+    {
+      "producer": "fconst2.odf",
+      "target": "fbase2",
+      "model": "fbase2",
+      "modelPresent": true,
+      "icon": "b_fbase2"
+    },
+    {
+      "producer": "fconst2.odf",
+      "target": "fds9",
+      "model": "fds9",
+      "modelPresent": true,
+      "icon": "b_fds9"
+    },
+    {
+      "producer": "fconst2.odf",
+      "target": "fsensor",
+      "model": "xvstock_fsensor",
+      "modelPresent": true,
+      "icon": "b_fsensor"
+    },
+    {
+      "producer": "fconst2.odf",
+      "target": "fturret",
+      "model": "xvstock_fturret",
+      "modelPresent": true,
+      "icon": "b_fturret"
+    },
+    {
+      "producer": "fconst2.odf",
+      "target": "fturret2",
+      "model": "xvstock_fturret2",
+      "modelPresent": true,
+      "icon": "b_fturret2"
+    },
+    {
+      "producer": "fconst2.odf",
+      "target": "fhwp",
+      "model": "fhwp",
+      "modelPresent": true,
+      "icon": "b_fhwp"
+    },
+    {
+      "producer": "fconst2.odf",
+      "target": "fremmeler",
+      "model": "fremmeler",
+      "modelPresent": true,
+      "icon": "b_fremmeler"
+    },
+    {
+      "producer": "fconst2.odf",
+      "target": "fargus",
+      "model": "fargus",
+      "modelPresent": true,
+      "icon": "b_fargus"
+    },
+    {
+      "producer": "fconst2.odf",
+      "target": "fmidas",
+      "model": "fmidas",
+      "modelPresent": true,
+      "icon": "b_fmidas"
+    },
+    {
+      "producer": "fconst2.odf",
+      "target": "fjupiter",
+      "model": "fjupiter",
+      "modelPresent": true,
+      "icon": "b_fjupiter"
+    },
+    {
+      "producer": "fconst2.odf",
+      "target": "fsuperbl",
+      "model": "fsuperbl",
+      "modelPresent": true,
+      "icon": "b_fsuperbl"
+    },
+    {
+      "producer": "fconst2.odf",
+      "target": "fyard3",
+      "model": "fyard3",
+      "modelPresent": true,
+      "icon": "b_fyard3"
+    },
+    {
+      "producer": "kconst.odf",
+      "target": "kbase",
+      "model": "xvstock_kbase",
+      "modelPresent": true,
+      "icon": "b_kbase"
+    },
+    {
+      "producer": "kconst.odf",
+      "target": "kyard",
+      "model": "xvstock_kyard",
+      "modelPresent": true,
+      "icon": "b_kyard"
+    },
+    {
+      "producer": "kconst.odf",
+      "target": "ksensor",
+      "model": "xvstock_ksensor",
+      "modelPresent": true,
+      "icon": "b_ksensor"
+    },
+    {
+      "producer": "kconst.odf",
+      "target": "kturret",
+      "model": "xvstock_kturret",
+      "modelPresent": true,
+      "icon": "b_kturret"
+    },
+    {
+      "producer": "kconst.odf",
+      "target": "kmining",
+      "model": "xvstock_kmining",
+      "modelPresent": true,
+      "icon": "b_kmining"
+    },
+    {
+      "producer": "kconst.odf",
+      "target": "kresear",
+      "model": "xvstock_kresear",
+      "modelPresent": true,
+      "icon": "b_kresear"
+    },
+    {
+      "producer": "kconst.odf",
+      "target": "kresear2",
+      "model": "xvstock_kresear2",
+      "modelPresent": true,
+      "icon": "b_kresear2"
+    },
+    {
+      "producer": "kconst.odf",
+      "target": "kyard2",
+      "model": "xvstock_kyard2",
+      "modelPresent": true,
+      "icon": "b_kyard2"
+    },
+    {
+      "producer": "kconst.odf",
+      "target": "kturret2",
+      "model": "xvstock_kturret2",
+      "modelPresent": true,
+      "icon": "b_kturret2"
+    },
+    {
+      "producer": "kconst.odf",
+      "target": "ksuperbl",
+      "model": "ksuperbl",
+      "modelPresent": true,
+      "icon": "b_ksuperbl"
+    },
+    {
+      "producer": "kconst.odf",
+      "target": "kyard3",
+      "model": "kyard2",
+      "modelPresent": true,
+      "icon": "b_kyard3"
+    },
+    {
+      "producer": "kconst.odf",
+      "target": "korbital",
+      "model": "xvstock_korbital",
+      "modelPresent": true,
+      "icon": "b_korbital"
+    },
+    {
+      "producer": "kconst.odf",
+      "target": "ktrading",
+      "model": "xvstock_ktrading",
+      "modelPresent": true,
+      "icon": "b_ktrading"
+    },
+    {
+      "producer": "kconst2.odf",
+      "target": "kimpbase",
+      "model": "kimpbase",
+      "modelPresent": true,
+      "icon": "b_kimpbase"
+    },
+    {
+      "producer": "kconst2.odf",
+      "target": "kturret",
+      "model": "xvstock_kturret",
+      "modelPresent": true,
+      "icon": "b_kturret"
+    },
+    {
+      "producer": "kconst2.odf",
+      "target": "ksensor",
+      "model": "xvstock_ksensor",
+      "modelPresent": true,
+      "icon": "b_ksensor"
+    },
+    {
+      "producer": "kconst2.odf",
+      "target": "korbital",
+      "model": "xvstock_korbital",
+      "modelPresent": true,
+      "icon": "b_korbital"
+    },
+    {
+      "producer": "kconst2.odf",
+      "target": "kimpyard",
+      "model": "kimpyard",
+      "modelPresent": true,
+      "icon": "b_kimpyard"
+    },
+    {
+      "producer": "kconst2.odf",
+      "target": "ktrading",
+      "model": "xvstock_ktrading",
+      "modelPresent": true,
+      "icon": "b_ktrading"
+    },
+    {
+      "producer": "kconst2.odf",
+      "target": "kbase2",
+      "model": "kbase2",
+      "modelPresent": true,
+      "icon": "b_kbase2"
+    },
+    {
+      "producer": "kconst2.odf",
+      "target": "khwp",
+      "model": "khwp",
+      "modelPresent": true,
+      "icon": "b_khwp"
+    },
+    {
+      "producer": "rconst.odf",
+      "target": "rbase",
+      "model": "xvstock_rbase",
+      "modelPresent": true,
+      "icon": "b_rbase"
+    },
+    {
+      "producer": "rconst.odf",
+      "target": "ryard",
+      "model": "xvstock_ryard",
+      "modelPresent": true,
+      "icon": "b_ryard"
+    },
+    {
+      "producer": "rconst.odf",
+      "target": "rsensor",
+      "model": "xvstock_rsensor",
+      "modelPresent": true,
+      "icon": "b_rsensor"
+    },
+    {
+      "producer": "rconst.odf",
+      "target": "rturret",
+      "model": "xvstock_rturret",
+      "modelPresent": true,
+      "icon": "b_rturret"
+    },
+    {
+      "producer": "rconst.odf",
+      "target": "rmining",
+      "model": "xvstock_rmining",
+      "modelPresent": true,
+      "icon": "b_rmining"
+    },
+    {
+      "producer": "rconst.odf",
+      "target": "rresear",
+      "model": "xvstock_rresear",
+      "modelPresent": true,
+      "icon": "b_rresear"
+    },
+    {
+      "producer": "rconst.odf",
+      "target": "rresear2",
+      "model": "xvstock_rresear2",
+      "modelPresent": true,
+      "icon": "b_rresear2"
+    },
+    {
+      "producer": "rconst.odf",
+      "target": "ryard2",
+      "model": "xvstock_ryard2",
+      "modelPresent": true,
+      "icon": "b_ryard2"
+    },
+    {
+      "producer": "rconst.odf",
+      "target": "rturret2",
+      "model": "xvstock_rturret2",
+      "modelPresent": true,
+      "icon": "b_rturret2"
+    },
+    {
+      "producer": "rconst.odf",
+      "target": "rsuperbl",
+      "model": "rsuperbl",
+      "modelPresent": true,
+      "icon": "b_rsuperbl"
+    },
+    {
+      "producer": "rconst.odf",
+      "target": "ryard3",
+      "model": "ryard3",
+      "modelPresent": true,
+      "icon": "b_ryard3"
+    },
+    {
+      "producer": "rconst.odf",
+      "target": "rorbital",
+      "model": "xvstock_rorbital",
+      "modelPresent": true,
+      "icon": "b_rorbital"
+    },
+    {
+      "producer": "rconst.odf",
+      "target": "rtrading",
+      "model": "xvstock_rtrading",
+      "modelPresent": true,
+      "icon": "b_rtrading"
+    },
+    {
+      "producer": "rconst2.odf",
+      "target": "rbase2",
+      "model": "rbase2",
+      "modelPresent": true,
+      "icon": "b_rbase2"
+    },
+    {
+      "producer": "rconst2.odf",
+      "target": "rtsens",
+      "model": "rtsens",
+      "modelPresent": true,
+      "icon": "b_rtsens"
+    },
+    {
+      "producer": "rconst2.odf",
+      "target": "rturret",
+      "model": "xvstock_rturret",
+      "modelPresent": true,
+      "icon": "b_rturret"
+    },
+    {
+      "producer": "rconst2.odf",
+      "target": "rresear2",
+      "model": "xvstock_rresear2",
+      "modelPresent": true,
+      "icon": "b_rresear2"
+    },
+    {
+      "producer": "rconst2.odf",
+      "target": "rorbital",
+      "model": "xvstock_rorbital",
+      "modelPresent": true,
+      "icon": "b_rorbital"
+    },
+    {
+      "producer": "rconst2.odf",
+      "target": "rhwp",
+      "model": "rhwp",
+      "modelPresent": true,
+      "icon": "b_rhwp"
+    },
+    {
+      "producer": "uconst.odf",
+      "target": "fbase",
+      "model": "xvstock_fbase",
+      "modelPresent": true,
+      "icon": "b_fbase"
+    },
+    {
+      "producer": "uconst.odf",
+      "target": "kbase",
+      "model": "xvstock_kbase",
+      "modelPresent": true,
+      "icon": "b_kbase"
+    },
+    {
+      "producer": "uconst.odf",
+      "target": "rbase",
+      "model": "xvstock_rbase",
+      "modelPresent": true,
+      "icon": "b_rbase"
+    },
+    {
+      "producer": "uconst.odf",
+      "target": "cbase",
+      "model": "xvstock_cbase",
+      "modelPresent": true,
+      "icon": "b_cbase"
+    },
+    {
+      "producer": "uconst.odf",
+      "target": "dbase",
+      "model": "dbase",
+      "modelPresent": true,
+      "icon": "b_dbase"
+    },
+    {
+      "producer": "uconst.odf",
+      "target": "brbase",
+      "model": "brbase",
+      "modelPresent": true,
+      "icon": "b_brbase"
+    },
+    {
+      "producer": "uconst.odf",
+      "target": "bjbase",
+      "model": "fds9",
+      "modelPresent": true,
+      "icon": "b_bjbase"
+    },
+    {
+      "producer": "uconst.odf",
+      "target": "bupgrade",
+      "model": "xvstock_bupgrade",
+      "modelPresent": true,
+      "icon": "b_bupgrade"
+    },
+    {
+      "producer": "uconst.odf",
+      "target": "xbomegalab",
+      "model": "bresear2",
+      "modelPresent": true,
+      "icon": "b_xbomegalab"
+    },
+    {
+      "producer": "uconst.odf",
+      "target": "xbharvest",
+      "model": "xbharvest",
+      "modelPresent": true,
+      "icon": "b_xbharvest"
+    },
+    {
+      "producer": "uconst.odf",
+      "target": "xbassimst",
+      "model": "xbassimst",
+      "modelPresent": true,
+      "icon": "b_xbassimst"
+    },
+    {
+      "producer": "uconst.odf",
+      "target": "btechass",
+      "model": "btechass",
+      "modelPresent": true,
+      "icon": "b_btechass"
+    },
+    {
+      "producer": "uconst.odf",
+      "target": "hub",
+      "model": "hub",
+      "modelPresent": true,
+      "icon": "b_hub"
+    },
+    {
+      "producer": "xbjuconst.odf",
+      "target": "bbase",
+      "model": "bbase",
+      "modelPresent": true,
+      "icon": "b_bbase"
+    },
+    {
+      "producer": "xbjuconst.odf",
+      "target": "fbase",
+      "model": "xvstock_fbase",
+      "modelPresent": true,
+      "icon": "b_fbase"
+    },
+    {
+      "producer": "xbjuconst.odf",
+      "target": "kbase",
+      "model": "xvstock_kbase",
+      "modelPresent": true,
+      "icon": "b_kbase"
+    },
+    {
+      "producer": "xbjuconst.odf",
+      "target": "rbase",
+      "model": "xvstock_rbase",
+      "modelPresent": true,
+      "icon": "b_rbase"
+    },
+    {
+      "producer": "xbjuconst.odf",
+      "target": "cbase",
+      "model": "xvstock_cbase",
+      "modelPresent": true,
+      "icon": "b_cbase"
+    },
+    {
+      "producer": "xbjuconst.odf",
+      "target": "dbase",
+      "model": "dbase",
+      "modelPresent": true,
+      "icon": "b_dbase"
+    },
+    {
+      "producer": "xbjuconst.odf",
+      "target": "brbase",
+      "model": "brbase",
+      "modelPresent": true,
+      "icon": "b_brbase"
+    },
+    {
+      "producer": "xbjuconst.odf",
+      "target": "bjbase",
+      "model": "fds9",
+      "modelPresent": true,
+      "icon": "b_bjbase"
+    },
+    {
+      "producer": "xbjuconst.odf",
+      "target": "bjsuperlab",
+      "model": "br3_bjsuperlab",
+      "modelPresent": true,
+      "icon": "b_bjsuperlab"
+    },
+    {
+      "producer": "xbjuconst.odf",
+      "target": "bjyard3",
+      "model": "br3_bjyard3",
+      "modelPresent": true,
+      "icon": "b_bjyard3"
+    },
+    {
+      "producer": "xbruconst.odf",
+      "target": "bbase",
+      "model": "bbase",
+      "modelPresent": true,
+      "icon": "b_bbase"
+    },
+    {
+      "producer": "xbruconst.odf",
+      "target": "fbase",
+      "model": "xvstock_fbase",
+      "modelPresent": true,
+      "icon": "b_fbase"
+    },
+    {
+      "producer": "xbruconst.odf",
+      "target": "kbase",
+      "model": "xvstock_kbase",
+      "modelPresent": true,
+      "icon": "b_kbase"
+    },
+    {
+      "producer": "xbruconst.odf",
+      "target": "rbase",
+      "model": "xvstock_rbase",
+      "modelPresent": true,
+      "icon": "b_rbase"
+    },
+    {
+      "producer": "xbruconst.odf",
+      "target": "cbase",
+      "model": "xvstock_cbase",
+      "modelPresent": true,
+      "icon": "b_cbase"
+    },
+    {
+      "producer": "xbruconst.odf",
+      "target": "dbase",
+      "model": "dbase",
+      "modelPresent": true,
+      "icon": "b_dbase"
+    },
+    {
+      "producer": "xbruconst.odf",
+      "target": "brbase",
+      "model": "brbase",
+      "modelPresent": true,
+      "icon": "b_brbase"
+    },
+    {
+      "producer": "xbruconst.odf",
+      "target": "bjbase",
+      "model": "fds9",
+      "modelPresent": true,
+      "icon": "b_bjbase"
+    },
+    {
+      "producer": "xbuconst.odf",
+      "target": "fbase",
+      "model": "xvstock_fbase",
+      "modelPresent": true,
+      "icon": "b_fbase"
+    },
+    {
+      "producer": "xbuconst.odf",
+      "target": "kbase",
+      "model": "xvstock_kbase",
+      "modelPresent": true,
+      "icon": "b_kbase"
+    },
+    {
+      "producer": "xbuconst.odf",
+      "target": "rbase",
+      "model": "xvstock_rbase",
+      "modelPresent": true,
+      "icon": "b_rbase"
+    },
+    {
+      "producer": "xbuconst.odf",
+      "target": "cbase",
+      "model": "xvstock_cbase",
+      "modelPresent": true,
+      "icon": "b_cbase"
+    },
+    {
+      "producer": "xbuconst.odf",
+      "target": "dbase",
+      "model": "dbase",
+      "modelPresent": true,
+      "icon": "b_dbase"
+    },
+    {
+      "producer": "xbuconst.odf",
+      "target": "brbase",
+      "model": "brbase",
+      "modelPresent": true,
+      "icon": "b_brbase"
+    },
+    {
+      "producer": "xbuconst.odf",
+      "target": "bjbase",
+      "model": "fds9",
+      "modelPresent": true,
+      "icon": "b_bjbase"
+    },
+    {
+      "producer": "xbuconst.odf",
+      "target": "bupgrade",
+      "model": "xvstock_bupgrade",
+      "modelPresent": true,
+      "icon": "b_bupgrade"
+    },
+    {
+      "producer": "xbuconst.odf",
+      "target": "xbomegalab",
+      "model": "bresear2",
+      "modelPresent": true,
+      "icon": "b_xbomegalab"
+    },
+    {
+      "producer": "xbuconst.odf",
+      "target": "xbharvest",
+      "model": "xbharvest",
+      "modelPresent": true,
+      "icon": "b_xbharvest"
+    },
+    {
+      "producer": "xbuconst.odf",
+      "target": "xbassimst",
+      "model": "xbassimst",
+      "modelPresent": true,
+      "icon": "b_xbassimst"
+    },
+    {
+      "producer": "xbuconst.odf",
+      "target": "btechass",
+      "model": "btechass",
+      "modelPresent": true,
+      "icon": "b_btechass"
+    },
+    {
+      "producer": "xbuconst.odf",
+      "target": "hub",
+      "model": "hub",
+      "modelPresent": true,
+      "icon": "b_hub"
+    },
+    {
+      "producer": "xcuconst.odf",
+      "target": "bbase",
+      "model": "bbase",
+      "modelPresent": true,
+      "icon": "b_bbase"
+    },
+    {
+      "producer": "xcuconst.odf",
+      "target": "fbase",
+      "model": "xvstock_fbase",
+      "modelPresent": true,
+      "icon": "b_fbase"
+    },
+    {
+      "producer": "xcuconst.odf",
+      "target": "kbase",
+      "model": "xvstock_kbase",
+      "modelPresent": true,
+      "icon": "b_kbase"
+    },
+    {
+      "producer": "xcuconst.odf",
+      "target": "rbase",
+      "model": "xvstock_rbase",
+      "modelPresent": true,
+      "icon": "b_rbase"
+    },
+    {
+      "producer": "xcuconst.odf",
+      "target": "cbase",
+      "model": "xvstock_cbase",
+      "modelPresent": true,
+      "icon": "b_cbase"
+    },
+    {
+      "producer": "xcuconst.odf",
+      "target": "dbase",
+      "model": "dbase",
+      "modelPresent": true,
+      "icon": "b_dbase"
+    },
+    {
+      "producer": "xcuconst.odf",
+      "target": "brbase",
+      "model": "brbase",
+      "modelPresent": true,
+      "icon": "b_brbase"
+    },
+    {
+      "producer": "xcuconst.odf",
+      "target": "bjbase",
+      "model": "fds9",
+      "modelPresent": true,
+      "icon": "b_bjbase"
+    },
+    {
+      "producer": "xcuconst.odf",
+      "target": "cupgrade",
+      "model": "xvstock_cupgrade",
+      "modelPresent": true,
+      "icon": "b_cupgrade"
+    },
+    {
+      "producer": "xduconst.odf",
+      "target": "bbase",
+      "model": "bbase",
+      "modelPresent": true,
+      "icon": "b_bbase"
+    },
+    {
+      "producer": "xduconst.odf",
+      "target": "fbase",
+      "model": "xvstock_fbase",
+      "modelPresent": true,
+      "icon": "b_fbase"
+    },
+    {
+      "producer": "xduconst.odf",
+      "target": "kbase",
+      "model": "xvstock_kbase",
+      "modelPresent": true,
+      "icon": "b_kbase"
+    },
+    {
+      "producer": "xduconst.odf",
+      "target": "rbase",
+      "model": "xvstock_rbase",
+      "modelPresent": true,
+      "icon": "b_rbase"
+    },
+    {
+      "producer": "xduconst.odf",
+      "target": "cbase",
+      "model": "xvstock_cbase",
+      "modelPresent": true,
+      "icon": "b_cbase"
+    },
+    {
+      "producer": "xduconst.odf",
+      "target": "dbase",
+      "model": "dbase",
+      "modelPresent": true,
+      "icon": "b_dbase"
+    },
+    {
+      "producer": "xduconst.odf",
+      "target": "brbase",
+      "model": "brbase",
+      "modelPresent": true,
+      "icon": "b_brbase"
+    },
+    {
+      "producer": "xduconst.odf",
+      "target": "bjbase",
+      "model": "fds9",
+      "modelPresent": true,
+      "icon": "b_bjbase"
+    },
+    {
+      "producer": "xduconst.odf",
+      "target": "dupgrade",
+      "model": "dupgrade",
+      "modelPresent": true,
+      "icon": "b_dupgrade"
+    },
+    {
+      "producer": "xduconst.odf",
+      "target": "zsuperbl",
+      "model": "zsuperbl",
+      "modelPresent": true,
+      "icon": "b_zsuperbl"
+    },
+    {
+      "producer": "xduconst.odf",
+      "target": "dyard3",
+      "model": "dyard2",
+      "modelPresent": true,
+      "icon": "b_dyard3"
+    },
+    {
+      "producer": "xfuconst.odf",
+      "target": "bbase",
+      "model": "bbase",
+      "modelPresent": true,
+      "icon": "b_bbase"
+    },
+    {
+      "producer": "xfuconst.odf",
+      "target": "fbase",
+      "model": "xvstock_fbase",
+      "modelPresent": true,
+      "icon": "b_fbase"
+    },
+    {
+      "producer": "xfuconst.odf",
+      "target": "kbase",
+      "model": "xvstock_kbase",
+      "modelPresent": true,
+      "icon": "b_kbase"
+    },
+    {
+      "producer": "xfuconst.odf",
+      "target": "rbase",
+      "model": "xvstock_rbase",
+      "modelPresent": true,
+      "icon": "b_rbase"
+    },
+    {
+      "producer": "xfuconst.odf",
+      "target": "cbase",
+      "model": "xvstock_cbase",
+      "modelPresent": true,
+      "icon": "b_cbase"
+    },
+    {
+      "producer": "xfuconst.odf",
+      "target": "dbase",
+      "model": "dbase",
+      "modelPresent": true,
+      "icon": "b_dbase"
+    },
+    {
+      "producer": "xfuconst.odf",
+      "target": "brbase",
+      "model": "brbase",
+      "modelPresent": true,
+      "icon": "b_brbase"
+    },
+    {
+      "producer": "xfuconst.odf",
+      "target": "bjbase",
+      "model": "fds9",
+      "modelPresent": true,
+      "icon": "b_bjbase"
+    },
+    {
+      "producer": "xfuconst.odf",
+      "target": "xfomegalab",
+      "model": "fresear2",
+      "modelPresent": true,
+      "icon": "b_xfomegalab"
+    },
+    {
+      "producer": "xkuconst.odf",
+      "target": "bbase",
+      "model": "bbase",
+      "modelPresent": true,
+      "icon": "b_bbase"
+    },
+    {
+      "producer": "xkuconst.odf",
+      "target": "fbase",
+      "model": "xvstock_fbase",
+      "modelPresent": true,
+      "icon": "b_fbase"
+    },
+    {
+      "producer": "xkuconst.odf",
+      "target": "kbase",
+      "model": "xvstock_kbase",
+      "modelPresent": true,
+      "icon": "b_kbase"
+    },
+    {
+      "producer": "xkuconst.odf",
+      "target": "rbase",
+      "model": "xvstock_rbase",
+      "modelPresent": true,
+      "icon": "b_rbase"
+    },
+    {
+      "producer": "xkuconst.odf",
+      "target": "cbase",
+      "model": "xvstock_cbase",
+      "modelPresent": true,
+      "icon": "b_cbase"
+    },
+    {
+      "producer": "xkuconst.odf",
+      "target": "dbase",
+      "model": "dbase",
+      "modelPresent": true,
+      "icon": "b_dbase"
+    },
+    {
+      "producer": "xkuconst.odf",
+      "target": "brbase",
+      "model": "brbase",
+      "modelPresent": true,
+      "icon": "b_brbase"
+    },
+    {
+      "producer": "xkuconst.odf",
+      "target": "bjbase",
+      "model": "fds9",
+      "modelPresent": true,
+      "icon": "b_bjbase"
+    },
+    {
+      "producer": "xkuconst.odf",
+      "target": "kupgrade",
+      "model": "xvstock_kupgrade",
+      "modelPresent": true,
+      "icon": "b_kupgrade"
+    },
+    {
+      "producer": "xkuconst.odf",
+      "target": "koutpost",
+      "model": "koutpost",
+      "modelPresent": true,
+      "icon": "b_koutpost"
+    },
+    {
+      "producer": "xruconst.odf",
+      "target": "bbase",
+      "model": "bbase",
+      "modelPresent": true,
+      "icon": "b_bbase"
+    },
+    {
+      "producer": "xruconst.odf",
+      "target": "fbase",
+      "model": "xvstock_fbase",
+      "modelPresent": true,
+      "icon": "b_fbase"
+    },
+    {
+      "producer": "xruconst.odf",
+      "target": "kbase",
+      "model": "xvstock_kbase",
+      "modelPresent": true,
+      "icon": "b_kbase"
+    },
+    {
+      "producer": "xruconst.odf",
+      "target": "rbase",
+      "model": "xvstock_rbase",
+      "modelPresent": true,
+      "icon": "b_rbase"
+    },
+    {
+      "producer": "xruconst.odf",
+      "target": "cbase",
+      "model": "xvstock_cbase",
+      "modelPresent": true,
+      "icon": "b_cbase"
+    },
+    {
+      "producer": "xruconst.odf",
+      "target": "dbase",
+      "model": "dbase",
+      "modelPresent": true,
+      "icon": "b_dbase"
+    },
+    {
+      "producer": "xruconst.odf",
+      "target": "brbase",
+      "model": "brbase",
+      "modelPresent": true,
+      "icon": "b_brbase"
+    },
+    {
+      "producer": "xruconst.odf",
+      "target": "bjbase",
+      "model": "fds9",
+      "modelPresent": true,
+      "icon": "b_bjbase"
+    },
+    {
+      "producer": "xruconst.odf",
+      "target": "rupgrade",
+      "model": "xvstock_rupgrade",
+      "modelPresent": true,
+      "icon": "b_rupgrade"
+    },
+    {
+      "producer": "714syard.odf",
+      "target": "714const",
+      "model": "714const",
+      "modelPresent": true,
+      "icon": "b_714const"
+    },
+    {
+      "producer": "714syard.odf",
+      "target": "714manta",
+      "model": "714manta",
+      "modelPresent": true,
+      "icon": "b_714manta"
+    },
+    {
+      "producer": "714syard.odf",
+      "target": "714rnode",
+      "model": "714rnode",
+      "modelPresent": true,
+      "icon": "b_714rnode"
+    },
+    {
+      "producer": "714syard.odf",
+      "target": "714skate",
+      "model": "714skate",
+      "modelPresent": true,
+      "icon": "b_714skate"
+    },
+    {
+      "producer": "714syard.odf",
+      "target": "714hydra",
+      "model": "714hydra",
+      "modelPresent": true,
+      "icon": "b_714hydra"
+    },
+    {
+      "producer": "714syard.odf",
+      "target": "714orca",
+      "model": "714orca",
+      "modelPresent": true,
+      "icon": "b_714orca"
+    },
+    {
+      "producer": "714syard.odf",
+      "target": "714tmat",
+      "model": "714tmat",
+      "modelPresent": true,
+      "icon": "b_714tmat"
+    },
+    {
+      "producer": "8472_advancedresearch.odf",
+      "target": "8472_podadvanced0",
+      "model": "8472_podadvanced0",
+      "modelPresent": true,
+      "icon": "b_8472_podadvanced0"
+    },
+    {
+      "producer": "8472_advancedresearch.odf",
+      "target": "8472_podadvanced1",
+      "model": "8472_podadvanced1",
+      "modelPresent": true,
+      "icon": "b_8472_podadvanced1"
+    },
+    {
+      "producer": "8472_advancedresearch.odf",
+      "target": "8472_podadvanced2",
+      "model": "8472_podadvanced2",
+      "modelPresent": true,
+      "icon": "b_8472_podadvanced2"
+    },
+    {
+      "producer": "8472_advancedresearch.odf",
+      "target": "8472_podadvanced3",
+      "model": "8472_podadvanced3",
+      "modelPresent": true,
+      "icon": "b_8472_podadvanced3"
+    },
+    {
+      "producer": "8472_basicresearch.odf",
+      "target": "8472_podbasic0",
+      "model": "8472_podbasic0",
+      "modelPresent": true,
+      "icon": "b_8472_podbasic0"
+    },
+    {
+      "producer": "8472_basicresearch.odf",
+      "target": "8472_podbasic1",
+      "model": "8472_podbasic1",
+      "modelPresent": true,
+      "icon": "b_8472_podbasic1"
+    },
+    {
+      "producer": "8472_basicresearch.odf",
+      "target": "8472_podbasic2",
+      "model": "8472_podbasic2",
+      "modelPresent": true,
+      "icon": "b_8472_podbasic2"
+    },
+    {
+      "producer": "8472_basicresearch.odf",
+      "target": "8472_podbasic3",
+      "model": "8472_podbasic3",
+      "modelPresent": true,
+      "icon": "b_8472_podbasic3"
+    },
+    {
+      "producer": "8472_basicresearch.odf",
+      "target": "8472_podbasic4",
+      "model": "8472_podbasic4",
+      "modelPresent": true,
+      "icon": "b_8472_podbasic4"
+    },
+    {
+      "producer": "8472_fluidicgate.odf",
+      "target": "8472_defender",
+      "model": "8472_defender",
+      "modelPresent": true,
+      "icon": "b_8472_defender"
+    },
+    {
+      "producer": "8472_fluidicgate.odf",
+      "target": "8472_frigate",
+      "model": "8472_frigate",
+      "modelPresent": true,
+      "icon": "b_8472_frigate"
+    },
+    {
+      "producer": "8472_fluidicgate.odf",
+      "target": "8472_behemoth",
+      "model": "8472_behemoth",
+      "modelPresent": true,
+      "icon": "b_8472_behemoth"
+    },
+    {
+      "producer": "8472_fluidicgate.odf",
+      "target": "8472_battle",
+      "model": "8472_battle",
+      "modelPresent": true,
+      "icon": "b_8472_battle"
+    },
+    {
+      "producer": "8472_fluidicgate.odf",
+      "target": "8472int",
+      "model": "8472int",
+      "modelPresent": true,
+      "icon": "b_8472int"
+    },
+    {
+      "producer": "8472_fluidicgate.odf",
+      "target": "8472be2",
+      "model": "8472be2",
+      "modelPresent": true,
+      "icon": "b_8472be2"
+    },
+    {
+      "producer": "8472_shipupgraderesearch.odf",
+      "target": "8472_podshipresearch1",
+      "model": "8472_podshipresearch1",
+      "modelPresent": true,
+      "icon": "b_8472_podshipresearch1"
+    },
+    {
+      "producer": "8472_shipupgraderesearch.odf",
+      "target": "8472_podshipresearch2",
+      "model": "8472_podshipresearch2",
+      "modelPresent": true,
+      "icon": "b_8472_podshipresearch2"
+    },
+    {
+      "producer": "8472_shipupgraderesearch.odf",
+      "target": "8472_podshipresearch3",
+      "model": "8472_podshipresearch3",
+      "modelPresent": true,
+      "icon": "b_8472_podshipresearch3"
+    },
+    {
+      "producer": "8472_shipupgraderesearch.odf",
+      "target": "8472_podshipresearch4",
+      "model": "8472_podshipresearch4",
+      "modelPresent": true,
+      "icon": "b_8472_podshipresearch4"
+    },
+    {
+      "producer": "8472_shipupgraderesearch.odf",
+      "target": "8472_podshipresearch21",
+      "model": "8472_podshipresearch21",
+      "modelPresent": true,
+      "icon": "b_8472_podshipresearch21"
+    },
+    {
+      "producer": "8472_shipupgraderesearch.odf",
+      "target": "8472_podshipresearch22",
+      "model": "8472_podshipresearch22",
+      "modelPresent": true,
+      "icon": "b_8472_podshipresearch22"
+    },
+    {
+      "producer": "8472_shipupgraderesearch.odf",
+      "target": "8472_podshipresearch23",
+      "model": "8472_podshipresearch23",
+      "modelPresent": true,
+      "icon": "b_8472_podshipresearch23"
+    },
+    {
+      "producer": "8472_shipupgraderesearch.odf",
+      "target": "8472_podshipresearch24",
+      "model": "8472_podshipresearch24",
+      "modelPresent": true,
+      "icon": "b_8472_podshipresearch24"
+    },
+    {
+      "producer": "bbase.odf",
+      "target": "bconst",
+      "model": "bconst",
+      "modelPresent": true,
+      "icon": "b_bconst"
+    },
+    {
+      "producer": "bbase.odf",
+      "target": "bfreight",
+      "model": "bfreight",
+      "modelPresent": true,
+      "icon": "b_bfreight"
+    },
+    {
+      "producer": "bbase.odf",
+      "target": "bscout",
+      "model": "bscout",
+      "modelPresent": true,
+      "icon": "b_bscout"
+    },
+    {
+      "producer": "bbase.odf",
+      "target": "xbuconst",
+      "model": "xbuconst",
+      "modelPresent": true,
+      "icon": "b_xbuconst"
+    },
+    {
+      "producer": "bjbase.odf",
+      "target": "bjconst",
+      "model": "br3_bjconst",
+      "modelPresent": true,
+      "icon": "b_bjconst"
+    },
+    {
+      "producer": "bjbase.odf",
+      "target": "xbjuconst",
+      "model": "br3_xbjuconst",
+      "modelPresent": true,
+      "icon": "b_xbjuconst"
+    },
+    {
+      "producer": "bjbase.odf",
+      "target": "bjfreight",
+      "model": "br3_bjfreight",
+      "modelPresent": true,
+      "icon": "b_bjfreight"
+    },
+    {
+      "producer": "bjbase.odf",
+      "target": "bjcargo",
+      "model": "br3_bjcargo",
+      "modelPresent": true,
+      "icon": "b_bjcargo"
+    },
+    {
+      "producer": "bjbase.odf",
+      "target": "bjrepair",
+      "model": "br3_bjrepair",
+      "modelPresent": true,
+      "icon": "b_bjrepair"
+    },
+    {
+      "producer": "bjbase.odf",
+      "target": "bjcolony",
+      "model": "br3_bjcolony",
+      "modelPresent": true,
+      "icon": "b_bjcolony"
+    },
+    {
+      "producer": "bjbase.odf",
+      "target": "bjscout",
+      "model": "br3_bjscout",
+      "modelPresent": true,
+      "icon": "b_bjscout"
+    },
+    {
+      "producer": "bjresear.odf",
+      "target": "bjpod5",
+      "model": "br3_bjpod5",
+      "modelPresent": true,
+      "icon": "b_bjpod5"
+    },
+    {
+      "producer": "bjresear.odf",
+      "target": "bjpod4",
+      "model": "br3_bjpod4",
+      "modelPresent": true,
+      "icon": "b_bjpod4"
+    },
+    {
+      "producer": "bjresear.odf",
+      "target": "bjpod2",
+      "model": "br3_bjpod2",
+      "modelPresent": true,
+      "icon": "b_bjpod2"
+    },
+    {
+      "producer": "bjresear.odf",
+      "target": "bjpod3",
+      "model": "br3_bjpod3",
+      "modelPresent": true,
+      "icon": "b_bjpod3"
+    },
+    {
+      "producer": "bjresear.odf",
+      "target": "bjpod1",
+      "model": "br3_bjpod1",
+      "modelPresent": true,
+      "icon": "b_bjpod1"
+    },
+    {
+      "producer": "bjresear.odf",
+      "target": "bjpod16",
+      "model": "br3_bjpod16",
+      "modelPresent": true,
+      "icon": "b_bjpod16"
+    },
+    {
+      "producer": "bjresear2.odf",
+      "target": "bjpod6",
+      "model": "br3_bjpod6",
+      "modelPresent": true,
+      "icon": "b_bjpod6"
+    },
+    {
+      "producer": "bjresear2.odf",
+      "target": "bjpod7",
+      "model": "br3_bjpod7",
+      "modelPresent": true,
+      "icon": "b_bjpod7"
+    },
+    {
+      "producer": "bjresear2.odf",
+      "target": "bjpod8",
+      "model": "br3_bjpod8",
+      "modelPresent": true,
+      "icon": "b_bjpod8"
+    },
+    {
+      "producer": "bjresear2.odf",
+      "target": "bjpod9",
+      "model": "br3_bjpod9",
+      "modelPresent": true,
+      "icon": "b_bjpod9"
+    },
+    {
+      "producer": "bjtrading.odf",
+      "target": "bjcargo",
+      "model": "br3_bjcargo",
+      "modelPresent": true,
+      "icon": "b_bjcargo"
+    },
+    {
+      "producer": "bjupgrade.odf",
+      "target": "bjpod11",
+      "model": "br3_bjpod11",
+      "modelPresent": true,
+      "icon": "b_bjpod11"
+    },
+    {
+      "producer": "bjupgrade.odf",
+      "target": "bjpod12",
+      "model": "br3_bjpod12",
+      "modelPresent": true,
+      "icon": "b_bjpod12"
+    },
+    {
+      "producer": "bjupgrade.odf",
+      "target": "bjpod13",
+      "model": "br3_bjpod13",
+      "modelPresent": true,
+      "icon": "b_bjpod13"
+    },
+    {
+      "producer": "bjupgrade.odf",
+      "target": "bjpod14",
+      "model": "br3_bjpod14",
+      "modelPresent": true,
+      "icon": "b_bjpod14"
+    },
+    {
+      "producer": "bjupgrade.odf",
+      "target": "bjpod15",
+      "model": "br3_bjpod15",
+      "modelPresent": true,
+      "icon": "b_bjpod15"
+    },
+    {
+      "producer": "bjupgrade.odf",
+      "target": "bjpod21",
+      "model": "br3_bjpod21",
+      "modelPresent": true,
+      "icon": "b_bjpod21"
+    },
+    {
+      "producer": "bjupgrade.odf",
+      "target": "bjpod22",
+      "model": "br3_bjpod22",
+      "modelPresent": true,
+      "icon": "b_bjpod22"
+    },
+    {
+      "producer": "bjupgrade.odf",
+      "target": "bjpod23",
+      "model": "br3_bjpod23",
+      "modelPresent": true,
+      "icon": "b_bjpod23"
+    },
+    {
+      "producer": "bjupgrade.odf",
+      "target": "bjpod24",
+      "model": "br3_bjpod24",
+      "modelPresent": true,
+      "icon": "b_bjpod24"
+    },
+    {
+      "producer": "bjupgrade.odf",
+      "target": "bjpod25",
+      "model": "br3_bjpod25",
+      "modelPresent": true,
+      "icon": "b_bjpod25"
+    },
+    {
+      "producer": "bjyard.odf",
+      "target": "bjscout",
+      "model": "br3_bjscout",
+      "modelPresent": true,
+      "icon": "b_bjscout"
+    },
+    {
+      "producer": "bjyard.odf",
+      "target": "bjinterceptor",
+      "model": "br3_bjinterceptor",
+      "modelPresent": true,
+      "icon": "b_bjinterceptor"
+    },
+    {
+      "producer": "bjyard.odf",
+      "target": "bjraider",
+      "model": "br3_bjraider",
+      "modelPresent": true,
+      "icon": "b_bjraider"
+    },
+    {
+      "producer": "bjyard.odf",
+      "target": "bjtransport",
+      "model": "br3_bjtransport",
+      "modelPresent": true,
+      "icon": "b_bjtransport"
+    },
+    {
+      "producer": "bjyard.odf",
+      "target": "bjcolony",
+      "model": "br3_bjcolony",
+      "modelPresent": true,
+      "icon": "b_bjcolony"
+    },
+    {
+      "producer": "bjyard.odf",
+      "target": "bjlightship",
+      "model": "br3_bjlightship",
+      "modelPresent": true,
+      "icon": "b_bjlightship"
+    },
+    {
+      "producer": "bjyard.odf",
+      "target": "bjassault",
+      "model": "br3_bjassault",
+      "modelPresent": true,
+      "icon": "b_bjassault"
+    },
+    {
+      "producer": "bjyard2.odf",
+      "target": "bjcruiser",
+      "model": "br3_bjcruiser",
+      "modelPresent": true,
+      "icon": "b_bjcruiser"
+    },
+    {
+      "producer": "bjyard2.odf",
+      "target": "bjtorpedo",
+      "model": "br3_bjtorpedo",
+      "modelPresent": true,
+      "icon": "b_bjtorpedo"
+    },
+    {
+      "producer": "bjyard2.odf",
+      "target": "bjfrigate",
+      "model": "br3_bjfrigate",
+      "modelPresent": true,
+      "icon": "b_bjfrigate"
+    },
+    {
+      "producer": "bjyard2.odf",
+      "target": "bjartillery",
+      "model": "br3_bjartillery",
+      "modelPresent": true,
+      "icon": "b_bjartillery"
+    },
+    {
+      "producer": "bjyard2.odf",
+      "target": "bjbattle",
+      "model": "br3_bjbattle",
+      "modelPresent": true,
+      "icon": "b_bjbattle"
+    },
+    {
+      "producer": "bjyard2.odf",
+      "target": "bjspecial",
+      "model": "br3_bjspecial",
+      "modelPresent": true,
+      "icon": "b_bjspecial"
+    },
+    {
+      "producer": "bjyard3.odf",
+      "target": "bjnerys",
+      "model": "br3_bjbattle",
+      "modelPresent": true,
+      "icon": "b_bjnerys"
+    },
+    {
+      "producer": "bjyard3.odf",
+      "target": "bjsuper",
+      "model": "br3_bjsuper",
+      "modelPresent": true,
+      "icon": "b_bjsuper"
+    },
+    {
+      "producer": "bjyard3.odf",
+      "target": "bjbattle",
+      "model": "br3_bjbattle",
+      "modelPresent": true,
+      "icon": "b_bjbattle"
+    },
+    {
+      "producer": "bjyard3.odf",
+      "target": "bjspecial",
+      "model": "br3_bjspecial",
+      "modelPresent": true,
+      "icon": "b_bjspecial"
+    },
+    {
+      "producer": "brbase.odf",
+      "target": "brconst",
+      "model": "brconst",
+      "modelPresent": true,
+      "icon": "b_brconst"
+    },
+    {
+      "producer": "brbase.odf",
+      "target": "brfreight",
+      "model": "brfreight",
+      "modelPresent": true,
+      "icon": "b_brfreight"
+    },
+    {
+      "producer": "brbase.odf",
+      "target": "xbruconst",
+      "model": "xbruconst",
+      "modelPresent": true,
+      "icon": "b_xbruconst"
+    },
+    {
+      "producer": "bresear.odf",
+      "target": "borpod5",
+      "model": "borpod5",
+      "modelPresent": true,
+      "icon": "b_borpod5"
+    },
+    {
+      "producer": "bresear.odf",
+      "target": "borpod4",
+      "model": "borpod4",
+      "modelPresent": true,
+      "icon": "b_borpod4"
+    },
+    {
+      "producer": "bresear.odf",
+      "target": "borpod3",
+      "model": "borpod3",
+      "modelPresent": true,
+      "icon": "b_borpod3"
+    },
+    {
+      "producer": "bresear.odf",
+      "target": "borpod1",
+      "model": "borpod1",
+      "modelPresent": true,
+      "icon": "b_borpod1"
+    },
+    {
+      "producer": "bresear.odf",
+      "target": "borpod2",
+      "model": "borpod2",
+      "modelPresent": true,
+      "icon": "b_borpod2"
+    },
+    {
+      "producer": "bresear.odf",
+      "target": "borpod16",
+      "model": "borpod16",
+      "modelPresent": true,
+      "icon": "b_borpod16"
+    },
+    {
+      "producer": "bresear2.odf",
+      "target": "borpod6",
+      "model": "borpod6",
+      "modelPresent": true,
+      "icon": "b_borpod6"
+    },
+    {
+      "producer": "bresear2.odf",
+      "target": "borpod7",
+      "model": "borpod7",
+      "modelPresent": true,
+      "icon": "b_borpod7"
+    },
+    {
+      "producer": "bresear2.odf",
+      "target": "borpod8",
+      "model": "borpod8",
+      "modelPresent": true,
+      "icon": "b_borpod8"
+    },
+    {
+      "producer": "bresear2.odf",
+      "target": "borpod9",
+      "model": "borpod9",
+      "modelPresent": true,
+      "icon": "b_borpod9"
+    },
+    {
+      "producer": "bryard.odf",
+      "target": "brscout",
+      "model": "brscout",
+      "modelPresent": true,
+      "icon": "b_brscout"
+    },
+    {
+      "producer": "bryard.odf",
+      "target": "brdestroy",
+      "model": "brdestroy",
+      "modelPresent": true,
+      "icon": "b_brdestroy"
+    },
+    {
+      "producer": "bryard.odf",
+      "target": "brcolony",
+      "model": "brcolony",
+      "modelPresent": true,
+      "icon": "b_brcolony"
+    },
+    {
+      "producer": "bryard.odf",
+      "target": "brcruise1",
+      "model": "brcruise1",
+      "modelPresent": true,
+      "icon": "b_brcruise1"
+    },
+    {
+      "producer": "bryard.odf",
+      "target": "brcruise2",
+      "model": "brcruise2",
+      "modelPresent": true,
+      "icon": "b_brcruise2"
+    },
+    {
+      "producer": "bryard2.odf",
+      "target": "brfrigate",
+      "model": "brfrigate",
+      "modelPresent": true,
+      "icon": "b_brfrigate"
+    },
+    {
+      "producer": "bryard2.odf",
+      "target": "brbattle",
+      "model": "brbattle",
+      "modelPresent": true,
+      "icon": "b_brbattle"
+    },
+    {
+      "producer": "bryard2.odf",
+      "target": "brbattle2",
+      "model": "brbattle2",
+      "modelPresent": true,
+      "icon": "b_brbattle2"
+    },
+    {
+      "producer": "bryard3.odf",
+      "target": "xhbrhero",
+      "model": "brbattle",
+      "modelPresent": true,
+      "icon": "b_xhbrhero"
+    },
+    {
+      "producer": "btechass.odf",
+      "target": "bhub",
+      "model": "bhub",
+      "modelPresent": true,
+      "icon": "b_bhub"
+    },
+    {
+      "producer": "bupgrade.odf",
+      "target": "borpod11",
+      "model": "borpod11",
+      "modelPresent": true,
+      "icon": "b_borpod11"
+    },
+    {
+      "producer": "bupgrade.odf",
+      "target": "borpod12",
+      "model": "borpod12",
+      "modelPresent": true,
+      "icon": "b_borpod12"
+    },
+    {
+      "producer": "bupgrade.odf",
+      "target": "borpod13",
+      "model": "borpod13",
+      "modelPresent": true,
+      "icon": "b_borpod13"
+    },
+    {
+      "producer": "bupgrade.odf",
+      "target": "borpod14",
+      "model": "borpod14",
+      "modelPresent": true,
+      "icon": "b_borpod14"
+    },
+    {
+      "producer": "bupgrade.odf",
+      "target": "borpod15",
+      "model": "borpod15",
+      "modelPresent": true,
+      "icon": "b_borpod15"
+    },
+    {
+      "producer": "bupgrade.odf",
+      "target": "borpod21",
+      "model": "borpod21",
+      "modelPresent": true,
+      "icon": "b_borpod21"
+    },
+    {
+      "producer": "bupgrade.odf",
+      "target": "borpod22",
+      "model": "borpod22",
+      "modelPresent": true,
+      "icon": "b_borpod22"
+    },
+    {
+      "producer": "bupgrade.odf",
+      "target": "borpod23",
+      "model": "borpod23",
+      "modelPresent": true,
+      "icon": "b_borpod23"
+    },
+    {
+      "producer": "bupgrade.odf",
+      "target": "borpod24",
+      "model": "borpod24",
+      "modelPresent": true,
+      "icon": "b_borpod24"
+    },
+    {
+      "producer": "bupgrade.odf",
+      "target": "borpod25",
+      "model": "borpod25",
+      "modelPresent": true,
+      "icon": "b_borpod25"
+    },
+    {
+      "producer": "byard.odf",
+      "target": "bscout",
+      "model": "bscout",
+      "modelPresent": true,
+      "icon": "b_bscout"
+    },
+    {
+      "producer": "byard.odf",
+      "target": "bdestroy",
+      "model": "bdestroy",
+      "modelPresent": true,
+      "icon": "b_bdestroy"
+    },
+    {
+      "producer": "byard.odf",
+      "target": "bdestroy2",
+      "model": "bdestroy2",
+      "modelPresent": true,
+      "icon": "b_bdestroy2"
+    },
+    {
+      "producer": "byard.odf",
+      "target": "bcolony",
+      "model": "bcolony",
+      "modelPresent": true,
+      "icon": "b_bcolony"
+    },
+    {
+      "producer": "byard.odf",
+      "target": "bcruise1",
+      "model": "bcruise1",
+      "modelPresent": true,
+      "icon": "b_bcruise1"
+    },
+    {
+      "producer": "byard.odf",
+      "target": "bcruise2",
+      "model": "bcruise2",
+      "modelPresent": true,
+      "icon": "b_bcruise2"
+    },
+    {
+      "producer": "byard.odf",
+      "target": "bassault",
+      "model": "bassault",
+      "modelPresent": true,
+      "icon": "b_bassault"
+    },
+    {
+      "producer": "byard.odf",
+      "target": "bcruise3",
+      "model": "bcruise3",
+      "modelPresent": true,
+      "icon": "b_bcruise3"
+    },
+    {
+      "producer": "byard.odf",
+      "target": "xbassimold",
+      "model": "xbassimold",
+      "modelPresent": true,
+      "icon": "b_xbassimold"
+    },
+    {
+      "producer": "byard2.odf",
+      "target": "bfrigate",
+      "model": "bfrigate",
+      "modelPresent": true,
+      "icon": "b_bfrigate"
+    },
+    {
+      "producer": "byard2.odf",
+      "target": "btacpyr",
+      "model": "btacpyr",
+      "modelPresent": true,
+      "icon": "b_btacpyr"
+    },
+    {
+      "producer": "byard2.odf",
+      "target": "bbattle1",
+      "model": "bbattle1",
+      "modelPresent": true,
+      "icon": "b_bbattle1"
+    },
+    {
+      "producer": "byard2.odf",
+      "target": "bspecial",
+      "model": "bspecial",
+      "modelPresent": true,
+      "icon": "b_bspecial"
+    },
+    {
+      "producer": "byard2.odf",
+      "target": "bbattle2",
+      "model": "bbattle2",
+      "modelPresent": true,
+      "icon": "b_bbattle2"
+    },
+    {
+      "producer": "byard2.odf",
+      "target": "brenborg",
+      "model": "brenborg",
+      "modelPresent": true,
+      "icon": "b_brenborg"
+    },
+    {
+      "producer": "byard2.odf",
+      "target": "blocutus",
+      "model": "bbattle1",
+      "modelPresent": true,
+      "icon": "b_blocutus"
+    },
+    {
+      "producer": "byard2.odf",
+      "target": "bsphere",
+      "model": "bsphere",
+      "modelPresent": true,
+      "icon": "b_bsphere"
+    },
+    {
+      "producer": "byard2.odf",
+      "target": "tcube",
+      "model": "tcube",
+      "modelPresent": true,
+      "icon": "b_tcube"
+    },
+    {
+      "producer": "byard2.odf",
+      "target": "bbattle3",
+      "model": "bbattle3",
+      "modelPresent": true,
+      "icon": "b_bbattle3"
+    },
+    {
+      "producer": "byard2.odf",
+      "target": "bbattle4",
+      "model": "bbattle4",
+      "modelPresent": true,
+      "icon": "b_bbattle4"
+    },
+    {
+      "producer": "byard3.odf",
+      "target": "bpentra",
+      "model": "bpentra",
+      "modelPresent": true,
+      "icon": "b_bpentra"
+    },
+    {
+      "producer": "byard3.odf",
+      "target": "bhentra",
+      "model": "bhentra",
+      "modelPresent": true,
+      "icon": "b_bhentra"
+    },
+    {
+      "producer": "byard3.odf",
+      "target": "bomega1",
+      "model": "bomega1",
+      "modelPresent": true,
+      "icon": "b_bomega1"
+    },
+    {
+      "producer": "byard3.odf",
+      "target": "bhentrag",
+      "model": "bhentrag",
+      "modelPresent": true,
+      "icon": "b_bhentrag"
+    },
+    {
+      "producer": "byard3.odf",
+      "target": "bmama",
+      "model": "bmama",
+      "modelPresent": true,
+      "icon": "b_bmama"
+    },
+    {
+      "producer": "byard3.odf",
+      "target": "blocutus",
+      "model": "bbattle1",
+      "modelPresent": true,
+      "icon": "b_blocutus"
+    },
+    {
+      "producer": "byard3.odf",
+      "target": "xobcruise1",
+      "model": "bcruise1",
+      "modelPresent": true,
+      "icon": "b_xobcruise1"
+    },
+    {
+      "producer": "byard3.odf",
+      "target": "xobbattle1",
+      "model": "bbattle1",
+      "modelPresent": true,
+      "icon": "b_xobbattle1"
+    },
+    {
+      "producer": "byard3.odf",
+      "target": "xobbattle2",
+      "model": "bbattle2",
+      "modelPresent": true,
+      "icon": "b_xobbattle2"
+    },
+    {
+      "producer": "byard3.odf",
+      "target": "xoblocutus",
+      "model": "bbattle1",
+      "modelPresent": true,
+      "icon": "b_xoblocutus"
+    },
+    {
+      "producer": "cardassian_super_station.odf",
+      "target": "csuper",
+      "model": "xvstock_csuper",
+      "modelPresent": true,
+      "icon": "b_csuper"
+    },
+    {
+      "producer": "cbase.odf",
+      "target": "cconst",
+      "model": "cconst",
+      "modelPresent": true,
+      "icon": "b_cconst"
+    },
+    {
+      "producer": "cbase.odf",
+      "target": "cfreight",
+      "model": "cfreight",
+      "modelPresent": true,
+      "icon": "b_cfreight"
+    },
+    {
+      "producer": "cbase.odf",
+      "target": "ccargo",
+      "model": "ccargo",
+      "modelPresent": true,
+      "icon": "b_ccargo"
+    },
+    {
+      "producer": "cbase.odf",
+      "target": "csrepair",
+      "model": "csrepair",
+      "modelPresent": true,
+      "icon": "b_csrepair"
+    },
+    {
+      "producer": "cbase.odf",
+      "target": "domconst",
+      "model": "domconst",
+      "modelPresent": true,
+      "icon": "b_domconst"
+    },
+    {
+      "producer": "cbase.odf",
+      "target": "xcuconst",
+      "model": "xcuconst",
+      "modelPresent": true,
+      "icon": "b_xcuconst"
+    },
+    {
+      "producer": "cobyard.odf",
+      "target": "cohideki",
+      "model": "cohideki",
+      "modelPresent": true,
+      "icon": "b_cohideki"
+    },
+    {
+      "producer": "cobyard.odf",
+      "target": "cogalor",
+      "model": "cogalor",
+      "modelPresent": true,
+      "icon": "b_cogalor"
+    },
+    {
+      "producer": "cobyard.odf",
+      "target": "cokaldor",
+      "model": "cokaldor",
+      "modelPresent": true,
+      "icon": "b_cokaldor"
+    },
+    {
+      "producer": "cobyard.odf",
+      "target": "cokeldon",
+      "model": "cokeldon",
+      "modelPresent": true,
+      "icon": "b_cokeldon"
+    },
+    {
+      "producer": "cquantum.odf",
+      "target": "xcuconst",
+      "model": "xcuconst",
+      "modelPresent": true,
+      "icon": "b_xcuconst"
+    },
+    {
+      "producer": "cresear.odf",
+      "target": "carpod5",
+      "model": "carpod5",
+      "modelPresent": true,
+      "icon": "b_carpod5"
+    },
+    {
+      "producer": "cresear.odf",
+      "target": "carpod2",
+      "model": "carpod2",
+      "modelPresent": true,
+      "icon": "b_carpod2"
+    },
+    {
+      "producer": "cresear.odf",
+      "target": "carpod3",
+      "model": "carpod3",
+      "modelPresent": true,
+      "icon": "b_carpod3"
+    },
+    {
+      "producer": "cresear.odf",
+      "target": "carpod4",
+      "model": "carpod4",
+      "modelPresent": true,
+      "icon": "b_carpod4"
+    },
+    {
+      "producer": "cresear.odf",
+      "target": "carpod1",
+      "model": "carpod1",
+      "modelPresent": true,
+      "icon": "b_carpod1"
+    },
+    {
+      "producer": "cresear.odf",
+      "target": "carpod16",
+      "model": "carpod16",
+      "modelPresent": true,
+      "icon": "b_carpod16"
+    },
+    {
+      "producer": "cresear2.odf",
+      "target": "carpod6",
+      "model": "carpod6",
+      "modelPresent": true,
+      "icon": "b_carpod6"
+    },
+    {
+      "producer": "cresear2.odf",
+      "target": "carpod7",
+      "model": "carpod7",
+      "modelPresent": true,
+      "icon": "b_carpod7"
+    },
+    {
+      "producer": "cresear2.odf",
+      "target": "carpod8",
+      "model": "carpod8",
+      "modelPresent": true,
+      "icon": "b_carpod8"
+    },
+    {
+      "producer": "cresear2.odf",
+      "target": "carpod9",
+      "model": "carpod9",
+      "modelPresent": true,
+      "icon": "b_carpod9"
+    },
+    {
+      "producer": "cstation.odf",
+      "target": "cfreight",
+      "model": "cfreight",
+      "modelPresent": true,
+      "icon": "b_cfreight"
+    },
+    {
+      "producer": "cstation.odf",
+      "target": "ccargo",
+      "model": "ccargo",
+      "modelPresent": true,
+      "icon": "b_ccargo"
+    },
+    {
+      "producer": "cstation.odf",
+      "target": "csrepair",
+      "model": "csrepair",
+      "modelPresent": true,
+      "icon": "b_csrepair"
+    },
+    {
+      "producer": "cstation.odf",
+      "target": "ccolony",
+      "model": "ccolony",
+      "modelPresent": true,
+      "icon": "b_ccolony"
+    },
+    {
+      "producer": "cstation.odf",
+      "target": "cscout",
+      "model": "cscout",
+      "modelPresent": true,
+      "icon": "b_cscout"
+    },
+    {
+      "producer": "cstation.odf",
+      "target": "cassault",
+      "model": "cassault",
+      "modelPresent": true,
+      "icon": "b_cassault"
+    },
+    {
+      "producer": "cstation.odf",
+      "target": "cbattle",
+      "model": "cbattle",
+      "modelPresent": true,
+      "icon": "b_cbattle"
+    },
+    {
+      "producer": "cstation.odf",
+      "target": "jemdest",
+      "model": "jemdest",
+      "modelPresent": true,
+      "icon": "b_jemdest"
+    },
+    {
+      "producer": "cstation.odf",
+      "target": "cohideki",
+      "model": "cohideki",
+      "modelPresent": true,
+      "icon": "b_cohideki"
+    },
+    {
+      "producer": "cstation.odf",
+      "target": "xcuconst",
+      "model": "xcuconst",
+      "modelPresent": true,
+      "icon": "b_xcuconst"
+    },
+    {
+      "producer": "cupgrade.odf",
+      "target": "carpod11",
+      "model": "carpod11",
+      "modelPresent": true,
+      "icon": "b_carpod11"
+    },
+    {
+      "producer": "cupgrade.odf",
+      "target": "carpod12",
+      "model": "carpod12",
+      "modelPresent": true,
+      "icon": "b_carpod12"
+    },
+    {
+      "producer": "cupgrade.odf",
+      "target": "carpod13",
+      "model": "carpod13",
+      "modelPresent": true,
+      "icon": "b_carpod13"
+    },
+    {
+      "producer": "cupgrade.odf",
+      "target": "carpod14",
+      "model": "carpod14",
+      "modelPresent": true,
+      "icon": "b_carpod14"
+    },
+    {
+      "producer": "cupgrade.odf",
+      "target": "carpod15",
+      "model": "carpod15",
+      "modelPresent": true,
+      "icon": "b_carpod15"
+    },
+    {
+      "producer": "cupgrade.odf",
+      "target": "carpod21",
+      "model": "carpod21",
+      "modelPresent": true,
+      "icon": "b_carpod21"
+    },
+    {
+      "producer": "cupgrade.odf",
+      "target": "carpod22",
+      "model": "carpod22",
+      "modelPresent": true,
+      "icon": "b_carpod22"
+    },
+    {
+      "producer": "cupgrade.odf",
+      "target": "carpod23",
+      "model": "carpod23",
+      "modelPresent": true,
+      "icon": "b_carpod23"
+    },
+    {
+      "producer": "cupgrade.odf",
+      "target": "carpod24",
+      "model": "carpod24",
+      "modelPresent": true,
+      "icon": "b_carpod24"
+    },
+    {
+      "producer": "cupgrade.odf",
+      "target": "carpod25",
+      "model": "carpod25",
+      "modelPresent": true,
+      "icon": "b_carpod25"
+    },
+    {
+      "producer": "cyard.odf",
+      "target": "cscout",
+      "model": "cscout",
+      "modelPresent": true,
+      "icon": "b_cscout"
+    },
+    {
+      "producer": "cyard.odf",
+      "target": "ctelkor",
+      "model": "ctelkor",
+      "modelPresent": true,
+      "icon": "b_ctelkor"
+    },
+    {
+      "producer": "cyard.odf",
+      "target": "cdestroy2",
+      "model": "cdestroy2",
+      "modelPresent": true,
+      "icon": "b_cdestroy2"
+    },
+    {
+      "producer": "cyard.odf",
+      "target": "ckimal",
+      "model": "ckimal",
+      "modelPresent": true,
+      "icon": "b_ckimal"
+    },
+    {
+      "producer": "cyard.odf",
+      "target": "cdestroy",
+      "model": "cdestroy",
+      "modelPresent": true,
+      "icon": "b_cdestroy"
+    },
+    {
+      "producer": "cyard.odf",
+      "target": "ccolony",
+      "model": "ccolony",
+      "modelPresent": true,
+      "icon": "b_ccolony"
+    },
+    {
+      "producer": "cyard.odf",
+      "target": "ccruise1",
+      "model": "ccruise1",
+      "modelPresent": true,
+      "icon": "b_ccruise1"
+    },
+    {
+      "producer": "cyard.odf",
+      "target": "ccruise2",
+      "model": "ccruise2",
+      "modelPresent": true,
+      "icon": "b_ccruise2"
+    },
+    {
+      "producer": "cyard.odf",
+      "target": "cassault",
+      "model": "cassault",
+      "modelPresent": true,
+      "icon": "b_cassault"
+    },
+    {
+      "producer": "cyard.odf",
+      "target": "ccruise3",
+      "model": "ccruise3",
+      "modelPresent": true,
+      "icon": "b_ccruise3"
+    },
+    {
+      "producer": "cyard2.odf",
+      "target": "cfrigate",
+      "model": "cfrigate",
+      "modelPresent": true,
+      "icon": "b_cfrigate"
+    },
+    {
+      "producer": "cyard2.odf",
+      "target": "cbattle",
+      "model": "cbattle",
+      "modelPresent": true,
+      "icon": "b_cbattle"
+    },
+    {
+      "producer": "cyard2.odf",
+      "target": "cspecial",
+      "model": "cspecial",
+      "modelPresent": true,
+      "icon": "b_cspecial"
+    },
+    {
+      "producer": "cyard2.odf",
+      "target": "cbattle2",
+      "model": "cbattle2",
+      "modelPresent": true,
+      "icon": "b_cbattle2"
+    },
+    {
+      "producer": "cyard2.odf",
+      "target": "chutet",
+      "model": "chutet",
+      "modelPresent": true,
+      "icon": "b_chutet"
+    },
+    {
+      "producer": "cyard3.odf",
+      "target": "xhchero",
+      "model": "cbattle2",
+      "modelPresent": true,
+      "icon": "b_xhchero"
+    },
+    {
+      "producer": "dbase.odf",
+      "target": "dconst",
+      "model": "dconst",
+      "modelPresent": true,
+      "icon": "b_dconst"
+    },
+    {
+      "producer": "dbase.odf",
+      "target": "brconst",
+      "model": "brconst",
+      "modelPresent": true,
+      "icon": "b_brconst"
+    },
+    {
+      "producer": "dbase.odf",
+      "target": "dfreight",
+      "model": "dfreight",
+      "modelPresent": true,
+      "icon": "b_dfreight"
+    },
+    {
+      "producer": "dbase.odf",
+      "target": "dcargo",
+      "model": "dcargo",
+      "modelPresent": true,
+      "icon": "b_dcargo"
+    },
+    {
+      "producer": "dbase.odf",
+      "target": "dsrepair",
+      "model": "dsrepair",
+      "modelPresent": true,
+      "icon": "b_dsrepair"
+    },
+    {
+      "producer": "dbase.odf",
+      "target": "xduconst",
+      "model": "xduconst",
+      "modelPresent": true,
+      "icon": "b_xduconst"
+    },
+    {
+      "producer": "domabase.odf",
+      "target": "xcuconst",
+      "model": "xcuconst",
+      "modelPresent": true,
+      "icon": "b_xcuconst"
+    },
+    {
+      "producer": "dombase.odf",
+      "target": "xcuconst",
+      "model": "xcuconst",
+      "modelPresent": true,
+      "icon": "b_xcuconst"
+    },
+    {
+      "producer": "domyard.odf",
+      "target": "domconst",
+      "model": "domconst",
+      "modelPresent": true,
+      "icon": "b_domconst"
+    },
+    {
+      "producer": "domyard.odf",
+      "target": "domscout",
+      "model": "domscout",
+      "modelPresent": true,
+      "icon": "b_domscout"
+    },
+    {
+      "producer": "domyard.odf",
+      "target": "jemdest",
+      "model": "jemdest",
+      "modelPresent": true,
+      "icon": "b_jemdest"
+    },
+    {
+      "producer": "domyard.odf",
+      "target": "jemdest2",
+      "model": "jemdest2",
+      "modelPresent": true,
+      "icon": "b_jemdest2"
+    },
+    {
+      "producer": "domyard.odf",
+      "target": "sonadest",
+      "model": "sonadest",
+      "modelPresent": true,
+      "icon": "b_sonadest"
+    },
+    {
+      "producer": "domyard.odf",
+      "target": "sonabat",
+      "model": "sonabat",
+      "modelPresent": true,
+      "icon": "b_sonabat"
+    },
+    {
+      "producer": "domyard.odf",
+      "target": "dombat",
+      "model": "dombat",
+      "modelPresent": true,
+      "icon": "b_dombat"
+    },
+    {
+      "producer": "domyard.odf",
+      "target": "domdred",
+      "model": "domdred",
+      "modelPresent": true,
+      "icon": "b_domdred"
+    },
+    {
+      "producer": "dresear.odf",
+      "target": "dompod5",
+      "model": "dompod5",
+      "modelPresent": true,
+      "icon": "b_dompod5"
+    },
+    {
+      "producer": "dresear.odf",
+      "target": "dompod4",
+      "model": "dompod4",
+      "modelPresent": true,
+      "icon": "b_dompod4"
+    },
+    {
+      "producer": "dresear.odf",
+      "target": "dompod2",
+      "model": "dompod2",
+      "modelPresent": true,
+      "icon": "b_dompod2"
+    },
+    {
+      "producer": "dresear.odf",
+      "target": "dompod3",
+      "model": "dompod3",
+      "modelPresent": true,
+      "icon": "b_dompod3"
+    },
+    {
+      "producer": "dresear.odf",
+      "target": "dompod1",
+      "model": "dompod1",
+      "modelPresent": true,
+      "icon": "b_dompod1"
+    },
+    {
+      "producer": "dresear2.odf",
+      "target": "dompod6",
+      "model": "dompod6",
+      "modelPresent": true,
+      "icon": "b_dompod6"
+    },
+    {
+      "producer": "dresear2.odf",
+      "target": "dompod7",
+      "model": "dompod7",
+      "modelPresent": true,
+      "icon": "b_dompod7"
+    },
+    {
+      "producer": "dresear2.odf",
+      "target": "dompod8",
+      "model": "dompod8",
+      "modelPresent": true,
+      "icon": "b_dompod8"
+    },
+    {
+      "producer": "dresear2.odf",
+      "target": "dompod16",
+      "model": "dompod16",
+      "modelPresent": true,
+      "icon": "b_dompod16"
+    },
+    {
+      "producer": "ds9.odf",
+      "target": "fconst",
+      "model": "fconst",
+      "modelPresent": true,
+      "icon": "b_fconst"
+    },
+    {
+      "producer": "ds9.odf",
+      "target": "fcargo",
+      "model": "fcargo",
+      "modelPresent": true,
+      "icon": "b_fcargo"
+    },
+    {
+      "producer": "ds9.odf",
+      "target": "fsrepair",
+      "model": "fsrepair",
+      "modelPresent": true,
+      "icon": "b_fsrepair"
+    },
+    {
+      "producer": "ds9.odf",
+      "target": "ffreight",
+      "model": "ffreight",
+      "modelPresent": true,
+      "icon": "b_ffreight"
+    },
+    {
+      "producer": "ds9.odf",
+      "target": "xfuconst",
+      "model": "xfuconst",
+      "modelPresent": true,
+      "icon": "b_xfuconst"
+    },
+    {
+      "producer": "dsuperbl.odf",
+      "target": "dsuper",
+      "model": "dsuper",
+      "modelPresent": true,
+      "icon": "b_dsuper"
+    },
+    {
+      "producer": "dupgrade.odf",
+      "target": "dompod11",
+      "model": "dompod11",
+      "modelPresent": true,
+      "icon": "b_dompod11"
+    },
+    {
+      "producer": "dupgrade.odf",
+      "target": "dompod12",
+      "model": "dompod12",
+      "modelPresent": true,
+      "icon": "b_dompod12"
+    },
+    {
+      "producer": "dupgrade.odf",
+      "target": "dompod13",
+      "model": "dompod13",
+      "modelPresent": true,
+      "icon": "b_dompod13"
+    },
+    {
+      "producer": "dupgrade.odf",
+      "target": "dompod14",
+      "model": "dompod14",
+      "modelPresent": true,
+      "icon": "b_dompod14"
+    },
+    {
+      "producer": "dupgrade.odf",
+      "target": "dompod15",
+      "model": "dompod15",
+      "modelPresent": true,
+      "icon": "b_dompod15"
+    },
+    {
+      "producer": "dupgrade.odf",
+      "target": "dompod21",
+      "model": "dompod21",
+      "modelPresent": true,
+      "icon": "b_dompod21"
+    },
+    {
+      "producer": "dupgrade.odf",
+      "target": "dompod22",
+      "model": "dompod22",
+      "modelPresent": true,
+      "icon": "b_dompod22"
+    },
+    {
+      "producer": "dupgrade.odf",
+      "target": "dompod23",
+      "model": "dompod23",
+      "modelPresent": true,
+      "icon": "b_dompod23"
+    },
+    {
+      "producer": "dupgrade.odf",
+      "target": "dompod24",
+      "model": "dompod24",
+      "modelPresent": true,
+      "icon": "b_dompod24"
+    },
+    {
+      "producer": "dupgrade.odf",
+      "target": "dompod25",
+      "model": "dompod25",
+      "modelPresent": true,
+      "icon": "b_dompod25"
+    },
+    {
+      "producer": "dyard.odf",
+      "target": "dscout",
+      "model": "dscout",
+      "modelPresent": true,
+      "icon": "b_dscout"
+    },
+    {
+      "producer": "dyard.odf",
+      "target": "ddestroy",
+      "model": "ddestroy",
+      "modelPresent": true,
+      "icon": "b_ddestroy"
+    },
+    {
+      "producer": "dyard.odf",
+      "target": "dcolony",
+      "model": "dcolony",
+      "modelPresent": true,
+      "icon": "b_dcolony"
+    },
+    {
+      "producer": "dyard.odf",
+      "target": "dcruise1",
+      "model": "dcruise1",
+      "modelPresent": true,
+      "icon": "b_dcruise1"
+    },
+    {
+      "producer": "dyard.odf",
+      "target": "dcruise2",
+      "model": "dcruise2",
+      "modelPresent": true,
+      "icon": "b_dcruise2"
+    },
+    {
+      "producer": "dyard.odf",
+      "target": "dassault",
+      "model": "dassault",
+      "modelPresent": true,
+      "icon": "b_dassault"
+    },
+    {
+      "producer": "dyard.odf",
+      "target": "dcruise3",
+      "model": "dcruise3",
+      "modelPresent": true,
+      "icon": "b_dcruise3"
+    },
+    {
+      "producer": "dyard.odf",
+      "target": "dcruise4",
+      "model": "dcruise3",
+      "modelPresent": true,
+      "icon": "b_dcruise4"
+    },
+    {
+      "producer": "dyard2.odf",
+      "target": "dfrigate",
+      "model": "dfrigate",
+      "modelPresent": true,
+      "icon": "b_dfrigate"
+    },
+    {
+      "producer": "dyard2.odf",
+      "target": "dbattle",
+      "model": "dbattle",
+      "modelPresent": true,
+      "icon": "b_dbattle"
+    },
+    {
+      "producer": "dyard2.odf",
+      "target": "dspecial",
+      "model": "dspecial",
+      "modelPresent": true,
+      "icon": "b_dspecial"
+    },
+    {
+      "producer": "dyard2.odf",
+      "target": "dbattle2",
+      "model": "dbattle2",
+      "modelPresent": true,
+      "icon": "b_dbattle2"
+    },
+    {
+      "producer": "dyard2.odf",
+      "target": "dweyoun",
+      "model": "dweyoun",
+      "modelPresent": true,
+      "icon": "b_dweyoun"
+    },
+    {
+      "producer": "dyard3.odf",
+      "target": "xhdhero",
+      "model": "dweyoun",
+      "modelPresent": true,
+      "icon": "b_xhdhero"
+    },
+    {
+      "producer": "fbase.odf",
+      "target": "fconst",
+      "model": "fconst",
+      "modelPresent": true,
+      "icon": "b_fconst"
+    },
+    {
+      "producer": "fbase.odf",
+      "target": "fconst2",
+      "model": "fconst2",
+      "modelPresent": true,
+      "icon": "b_fconst2"
+    },
+    {
+      "producer": "fbase.odf",
+      "target": "ffreight",
+      "model": "ffreight",
+      "modelPresent": true,
+      "icon": "b_ffreight"
+    },
+    {
+      "producer": "fbase.odf",
+      "target": "fcargo",
+      "model": "fcargo",
+      "modelPresent": true,
+      "icon": "b_fcargo"
+    },
+    {
+      "producer": "fbase.odf",
+      "target": "fsrepair",
+      "model": "fsrepair",
+      "modelPresent": true,
+      "icon": "b_fsrepair"
+    },
+    {
+      "producer": "fbase.odf",
+      "target": "fcolony",
+      "model": "fcolony",
+      "modelPresent": true,
+      "icon": "b_fcolony"
+    },
+    {
+      "producer": "fbase.odf",
+      "target": "fscout",
+      "model": "fscout",
+      "modelPresent": true,
+      "icon": "b_fscout"
+    },
+    {
+      "producer": "fbase.odf",
+      "target": "fdanube",
+      "model": "fdanube",
+      "modelPresent": true,
+      "icon": "b_fdanube"
+    },
+    {
+      "producer": "fbase.odf",
+      "target": "ffighter",
+      "model": "ffighter",
+      "modelPresent": true,
+      "icon": "b_ffighter"
+    },
+    {
+      "producer": "fbase.odf",
+      "target": "fdeltaflyer",
+      "model": "fdeltaflyer",
+      "modelPresent": true,
+      "icon": "b_fdeltaflyer"
+    },
+    {
+      "producer": "fbase.odf",
+      "target": "fantares",
+      "model": "fantares",
+      "modelPresent": true,
+      "icon": "b_fantares"
+    },
+    {
+      "producer": "fbase.odf",
+      "target": "xfuconst",
+      "model": "xfuconst",
+      "modelPresent": true,
+      "icon": "b_xfuconst"
+    },
+    {
+      "producer": "fbase2.odf",
+      "target": "fconst",
+      "model": "fconst",
+      "modelPresent": true,
+      "icon": "b_fconst"
+    },
+    {
+      "producer": "fbase2.odf",
+      "target": "fconst2",
+      "model": "fconst2",
+      "modelPresent": true,
+      "icon": "b_fconst2"
+    },
+    {
+      "producer": "fbase2.odf",
+      "target": "ffreight",
+      "model": "ffreight",
+      "modelPresent": true,
+      "icon": "b_ffreight"
+    },
+    {
+      "producer": "fbase2.odf",
+      "target": "fcargo",
+      "model": "fcargo",
+      "modelPresent": true,
+      "icon": "b_fcargo"
+    },
+    {
+      "producer": "fbase2.odf",
+      "target": "fsrepair",
+      "model": "fsrepair",
+      "modelPresent": true,
+      "icon": "b_fsrepair"
+    },
+    {
+      "producer": "fbase2.odf",
+      "target": "fcolony",
+      "model": "fcolony",
+      "modelPresent": true,
+      "icon": "b_fcolony"
+    },
+    {
+      "producer": "fbase2.odf",
+      "target": "fscout",
+      "model": "fscout",
+      "modelPresent": true,
+      "icon": "b_fscout"
+    },
+    {
+      "producer": "fbase2.odf",
+      "target": "fdanube",
+      "model": "fdanube",
+      "modelPresent": true,
+      "icon": "b_fdanube"
+    },
+    {
+      "producer": "fbase2.odf",
+      "target": "ffighter",
+      "model": "ffighter",
+      "modelPresent": true,
+      "icon": "b_ffighter"
+    },
+    {
+      "producer": "fbase2.odf",
+      "target": "fdeltaflyer",
+      "model": "fdeltaflyer",
+      "modelPresent": true,
+      "icon": "b_fdeltaflyer"
+    },
+    {
+      "producer": "fbase2.odf",
+      "target": "fantares",
+      "model": "fantares",
+      "modelPresent": true,
+      "icon": "b_fantares"
+    },
+    {
+      "producer": "fbase2.odf",
+      "target": "fnxent",
+      "model": "fnxent",
+      "modelPresent": true,
+      "icon": "b_fnxent"
+    },
+    {
+      "producer": "fbase2.odf",
+      "target": "xfuconst",
+      "model": "xfuconst",
+      "modelPresent": true,
+      "icon": "b_xfuconst"
+    },
+    {
+      "producer": "fbasehq.odf",
+      "target": "fconst",
+      "model": "fconst",
+      "modelPresent": true,
+      "icon": "b_fconst"
+    },
+    {
+      "producer": "fbasehq.odf",
+      "target": "ffreight",
+      "model": "ffreight",
+      "modelPresent": true,
+      "icon": "b_ffreight"
+    },
+    {
+      "producer": "fbasehq.odf",
+      "target": "xfuconst",
+      "model": "xfuconst",
+      "modelPresent": true,
+      "icon": "b_xfuconst"
+    },
+    {
+      "producer": "fbyard.odf",
+      "target": "fconst",
+      "model": "fconst",
+      "modelPresent": true,
+      "icon": "b_fconst"
+    },
+    {
+      "producer": "fbyard.odf",
+      "target": "fcolony",
+      "model": "fcolony",
+      "modelPresent": true,
+      "icon": "b_fcolony"
+    },
+    {
+      "producer": "fbyard.odf",
+      "target": "ffrigate",
+      "model": "ffrigate",
+      "modelPresent": true,
+      "icon": "b_ffrigate"
+    },
+    {
+      "producer": "fbyard.odf",
+      "target": "fgalaxy",
+      "model": "fgalaxy",
+      "modelPresent": true,
+      "icon": "b_fgalaxy"
+    },
+    {
+      "producer": "fbyard.odf",
+      "target": "fspecial",
+      "model": "fspecial",
+      "modelPresent": true,
+      "icon": "b_fspecial"
+    },
+    {
+      "producer": "fbyard.odf",
+      "target": "fbattle",
+      "model": "fbattle",
+      "modelPresent": true,
+      "icon": "b_fbattle"
+    },
+    {
+      "producer": "fbyard.odf",
+      "target": "xfuconst",
+      "model": "xfuconst",
+      "modelPresent": true,
+      "icon": "b_xfuconst"
+    },
+    {
+      "producer": "fds9.odf",
+      "target": "fconst",
+      "model": "fconst",
+      "modelPresent": true,
+      "icon": "b_fconst"
+    },
+    {
+      "producer": "fds9.odf",
+      "target": "fconst2",
+      "model": "fconst2",
+      "modelPresent": true,
+      "icon": "b_fconst2"
+    },
+    {
+      "producer": "fds9.odf",
+      "target": "ffreight",
+      "model": "ffreight",
+      "modelPresent": true,
+      "icon": "b_ffreight"
+    },
+    {
+      "producer": "fds9.odf",
+      "target": "fcargo",
+      "model": "fcargo",
+      "modelPresent": true,
+      "icon": "b_fcargo"
+    },
+    {
+      "producer": "fds9.odf",
+      "target": "fsrepair",
+      "model": "fsrepair",
+      "modelPresent": true,
+      "icon": "b_fsrepair"
+    },
+    {
+      "producer": "fds9.odf",
+      "target": "fdefiant",
+      "model": "fdefiant",
+      "modelPresent": true,
+      "icon": "b_fdefiant"
+    },
+    {
+      "producer": "fds9.odf",
+      "target": "fvoyager",
+      "model": "fvoyager",
+      "modelPresent": true,
+      "icon": "b_fvoyager"
+    },
+    {
+      "producer": "fds9.odf",
+      "target": "xfuconst",
+      "model": "xfuconst",
+      "modelPresent": true,
+      "icon": "b_xfuconst"
+    },
+    {
+      "producer": "fjupiter.odf",
+      "target": "xfuconst",
+      "model": "xfuconst",
+      "modelPresent": true,
+      "icon": "b_xfuconst"
+    },
+    {
+      "producer": "fmidas.odf",
+      "target": "xfuconst",
+      "model": "xfuconst",
+      "modelPresent": true,
+      "icon": "b_xfuconst"
+    },
+    {
+      "producer": "foutpost.odf",
+      "target": "fconst",
+      "model": "fconst",
+      "modelPresent": true,
+      "icon": "b_fconst"
+    },
+    {
+      "producer": "foutpost.odf",
+      "target": "ffreight",
+      "model": "ffreight",
+      "modelPresent": true,
+      "icon": "b_ffreight"
+    },
+    {
+      "producer": "foutpost.odf",
+      "target": "fcargo",
+      "model": "fcargo",
+      "modelPresent": true,
+      "icon": "b_fcargo"
+    },
+    {
+      "producer": "foutpost.odf",
+      "target": "fsrepair",
+      "model": "fsrepair",
+      "modelPresent": true,
+      "icon": "b_fsrepair"
+    },
+    {
+      "producer": "foutpost.odf",
+      "target": "fscout",
+      "model": "fscout",
+      "modelPresent": true,
+      "icon": "b_fscout"
+    },
+    {
+      "producer": "foutpost.odf",
+      "target": "fdeltaflyer",
+      "model": "fdeltaflyer",
+      "modelPresent": true,
+      "icon": "b_fdeltaflyer"
+    },
+    {
+      "producer": "foutpost.odf",
+      "target": "fantares",
+      "model": "fantares",
+      "modelPresent": true,
+      "icon": "b_fantares"
+    },
+    {
+      "producer": "foutpost.odf",
+      "target": "xfuconst",
+      "model": "xfuconst",
+      "modelPresent": true,
+      "icon": "b_xfuconst"
+    },
+    {
+      "producer": "fregula.odf",
+      "target": "fconst",
+      "model": "fconst",
+      "modelPresent": true,
+      "icon": "b_fconst"
+    },
+    {
+      "producer": "fregula.odf",
+      "target": "ffreight",
+      "model": "ffreight",
+      "modelPresent": true,
+      "icon": "b_ffreight"
+    },
+    {
+      "producer": "fregula.odf",
+      "target": "fcargo",
+      "model": "fcargo",
+      "modelPresent": true,
+      "icon": "b_fcargo"
+    },
+    {
+      "producer": "fregula.odf",
+      "target": "fsrepair",
+      "model": "fsrepair",
+      "modelPresent": true,
+      "icon": "b_fsrepair"
+    },
+    {
+      "producer": "fregula.odf",
+      "target": "fscout",
+      "model": "fscout",
+      "modelPresent": true,
+      "icon": "b_fscout"
+    },
+    {
+      "producer": "fregula.odf",
+      "target": "fdanube",
+      "model": "fdanube",
+      "modelPresent": true,
+      "icon": "b_fdanube"
+    },
+    {
+      "producer": "fregula.odf",
+      "target": "ffighter",
+      "model": "ffighter",
+      "modelPresent": true,
+      "icon": "b_ffighter"
+    },
+    {
+      "producer": "fregula.odf",
+      "target": "xfuconst",
+      "model": "xfuconst",
+      "modelPresent": true,
+      "icon": "b_xfuconst"
+    },
+    {
+      "producer": "fresear.odf",
+      "target": "fedpod5",
+      "model": "fedpod5",
+      "modelPresent": true,
+      "icon": "b_fedpod5"
+    },
+    {
+      "producer": "fresear.odf",
+      "target": "fedpod4",
+      "model": "fedpod4",
+      "modelPresent": true,
+      "icon": "b_fedpod4"
+    },
+    {
+      "producer": "fresear.odf",
+      "target": "fedpod2",
+      "model": "fedpod2",
+      "modelPresent": true,
+      "icon": "b_fedpod2"
+    },
+    {
+      "producer": "fresear.odf",
+      "target": "fedpod3",
+      "model": "fedpod3",
+      "modelPresent": true,
+      "icon": "b_fedpod3"
+    },
+    {
+      "producer": "fresear.odf",
+      "target": "fedpod1",
+      "model": "fedpod1",
+      "modelPresent": true,
+      "icon": "b_fedpod1"
+    },
+    {
+      "producer": "fresear.odf",
+      "target": "fedpod16",
+      "model": "fedpod16",
+      "modelPresent": true,
+      "icon": "b_fedpod16"
+    },
+    {
+      "producer": "fresear2.odf",
+      "target": "fedpod6",
+      "model": "fedpod6",
+      "modelPresent": true,
+      "icon": "b_fedpod6"
+    },
+    {
+      "producer": "fresear2.odf",
+      "target": "fedpod7",
+      "model": "fedpod7",
+      "modelPresent": true,
+      "icon": "b_fedpod7"
+    },
+    {
+      "producer": "fresear2.odf",
+      "target": "fedpod8",
+      "model": "fedpod8",
+      "modelPresent": true,
+      "icon": "b_fedpod8"
+    },
+    {
+      "producer": "fresear2.odf",
+      "target": "fedpod9",
+      "model": "fedpod9",
+      "modelPresent": true,
+      "icon": "b_fedpod9"
+    },
+    {
+      "producer": "fupgrade.odf",
+      "target": "fedpod11",
+      "model": "fedpod11",
+      "modelPresent": true,
+      "icon": "b_fedpod11"
+    },
+    {
+      "producer": "fupgrade.odf",
+      "target": "fedpod12",
+      "model": "fedpod12",
+      "modelPresent": true,
+      "icon": "b_fedpod12"
+    },
+    {
+      "producer": "fupgrade.odf",
+      "target": "fedpod13",
+      "model": "fedpod13",
+      "modelPresent": true,
+      "icon": "b_fedpod13"
+    },
+    {
+      "producer": "fupgrade.odf",
+      "target": "fedpod14",
+      "model": "fedpod14",
+      "modelPresent": true,
+      "icon": "b_fedpod14"
+    },
+    {
+      "producer": "fupgrade.odf",
+      "target": "fedpod15",
+      "model": "fedpod15",
+      "modelPresent": true,
+      "icon": "b_fedpod15"
+    },
+    {
+      "producer": "fupgrade.odf",
+      "target": "fedpod21",
+      "model": "fedpod21",
+      "modelPresent": true,
+      "icon": "b_fedpod21"
+    },
+    {
+      "producer": "fupgrade.odf",
+      "target": "fedpod22",
+      "model": "fedpod22",
+      "modelPresent": true,
+      "icon": "b_fedpod22"
+    },
+    {
+      "producer": "fupgrade.odf",
+      "target": "fedpod23",
+      "model": "fedpod23",
+      "modelPresent": true,
+      "icon": "b_fedpod23"
+    },
+    {
+      "producer": "fupgrade.odf",
+      "target": "fedpod24",
+      "model": "fedpod24",
+      "modelPresent": true,
+      "icon": "b_fedpod24"
+    },
+    {
+      "producer": "fupgrade.odf",
+      "target": "fedpod25",
+      "model": "fedpod25",
+      "modelPresent": true,
+      "icon": "b_fedpod25"
+    },
+    {
+      "producer": "fyard.odf",
+      "target": "fnova",
+      "model": "fnova",
+      "modelPresent": true,
+      "icon": "b_fnova"
+    },
+    {
+      "producer": "fyard.odf",
+      "target": "fdestroy2",
+      "model": "fdestroy2",
+      "modelPresent": true,
+      "icon": "b_fdestroy2"
+    },
+    {
+      "producer": "fyard.odf",
+      "target": "fdestroy",
+      "model": "fdestroy",
+      "modelPresent": true,
+      "icon": "b_fdestroy"
+    },
+    {
+      "producer": "fyard.odf",
+      "target": "fcruise3",
+      "model": "fcruise3",
+      "modelPresent": true,
+      "icon": "b_fcruise3"
+    },
+    {
+      "producer": "fyard.odf",
+      "target": "fcruise2",
+      "model": "fcruise2",
+      "modelPresent": true,
+      "icon": "b_fcruise2"
+    },
+    {
+      "producer": "fyard.odf",
+      "target": "fassault",
+      "model": "fassault",
+      "modelPresent": true,
+      "icon": "b_fassault"
+    },
+    {
+      "producer": "fyard.odf",
+      "target": "fnorway",
+      "model": "fnorway",
+      "modelPresent": true,
+      "icon": "b_fnorway"
+    },
+    {
+      "producer": "fyard.odf",
+      "target": "fintx",
+      "model": "fintx",
+      "modelPresent": true,
+      "icon": "b_fintx"
+    },
+    {
+      "producer": "fyard.odf",
+      "target": "fdauntless",
+      "model": "fdauntless",
+      "modelPresent": true,
+      "icon": "b_fdauntless"
+    },
+    {
+      "producer": "fyard0.odf",
+      "target": "foberth",
+      "model": "foberth",
+      "modelPresent": true,
+      "icon": "b_foberth"
+    },
+    {
+      "producer": "fyard0.odf",
+      "target": "fnx",
+      "model": "fnx",
+      "modelPresent": true,
+      "icon": "b_fnx"
+    },
+    {
+      "producer": "fyard0.odf",
+      "target": "fcentaur",
+      "model": "fcentaur",
+      "modelPresent": true,
+      "icon": "b_fcentaur"
+    },
+    {
+      "producer": "fyard0.odf",
+      "target": "fmiranda",
+      "model": "fmiranda",
+      "modelPresent": true,
+      "icon": "b_fmiranda"
+    },
+    {
+      "producer": "fyard0.odf",
+      "target": "fconstellation",
+      "model": "fconstellation",
+      "modelPresent": true,
+      "icon": "b_fconstellation"
+    },
+    {
+      "producer": "fyard0.odf",
+      "target": "fconstitution",
+      "model": "fconstitution",
+      "modelPresent": true,
+      "icon": "b_fconstitution"
+    },
+    {
+      "producer": "fyard2.odf",
+      "target": "fcruise1",
+      "model": "fcruise1",
+      "modelPresent": true,
+      "icon": "b_fcruise1"
+    },
+    {
+      "producer": "fyard2.odf",
+      "target": "ffrigate",
+      "model": "ffrigate",
+      "modelPresent": true,
+      "icon": "b_ffrigate"
+    },
+    {
+      "producer": "fyard2.odf",
+      "target": "fexcelr",
+      "model": "fexcelr",
+      "modelPresent": true,
+      "icon": "b_fexcelr"
+    },
+    {
+      "producer": "fyard2.odf",
+      "target": "fbattle",
+      "model": "fbattle",
+      "modelPresent": true,
+      "icon": "b_fbattle"
+    },
+    {
+      "producer": "fyard2.odf",
+      "target": "fsovx",
+      "model": "fsovx",
+      "modelPresent": true,
+      "icon": "b_fsovx"
+    },
+    {
+      "producer": "fyard2.odf",
+      "target": "fprometheus",
+      "model": "fprometheus",
+      "modelPresent": true,
+      "icon": "b_fprometheus"
+    },
+    {
+      "producer": "fyard2.odf",
+      "target": "fexcalibur",
+      "model": "fexcalibur",
+      "modelPresent": true,
+      "icon": "b_fexcalibur"
+    },
+    {
+      "producer": "fyard3.odf",
+      "target": "fambassador",
+      "model": "fambassador",
+      "modelPresent": true,
+      "icon": "b_fambassador"
+    },
+    {
+      "producer": "fyard3.odf",
+      "target": "fneworleans",
+      "model": "fneworleans",
+      "modelPresent": true,
+      "icon": "b_fneworleans"
+    },
+    {
+      "producer": "fyard3.odf",
+      "target": "fspecial",
+      "model": "fspecial",
+      "modelPresent": true,
+      "icon": "b_fspecial"
+    },
+    {
+      "producer": "fyard3.odf",
+      "target": "fgalaxy",
+      "model": "fgalaxy",
+      "modelPresent": true,
+      "icon": "b_fgalaxy"
+    },
+    {
+      "producer": "fyard3.odf",
+      "target": "fgalaxyr",
+      "model": "fgalaxyr",
+      "modelPresent": true,
+      "icon": "b_fgalaxyr"
+    },
+    {
+      "producer": "fyard3.odf",
+      "target": "fgalaxyx",
+      "model": "fgalaxyx",
+      "modelPresent": true,
+      "icon": "b_fgalaxyx"
+    },
+    {
+      "producer": "fyard3.odf",
+      "target": "fdawnstar",
+      "model": "fdawnstar",
+      "modelPresent": true,
+      "icon": "b_fdawnstar"
+    },
+    {
+      "producer": "fyard3.odf",
+      "target": "xhfhero",
+      "model": "fente",
+      "modelPresent": true,
+      "icon": "b_xhfhero"
+    },
+    {
+      "producer": "fyard3.odf",
+      "target": "xofdestroy",
+      "model": "fdestroy",
+      "modelPresent": true,
+      "icon": "b_xofdestroy"
+    },
+    {
+      "producer": "fyard3.odf",
+      "target": "xofgalaxy",
+      "model": "fgalaxy",
+      "modelPresent": true,
+      "icon": "b_xofgalaxy"
+    },
+    {
+      "producer": "fyard3.odf",
+      "target": "xofbattle",
+      "model": "fbattle",
+      "modelPresent": true,
+      "icon": "b_xofbattle"
+    },
+    {
+      "producer": "fyard3.odf",
+      "target": "xofprom",
+      "model": "fprom",
+      "modelPresent": true,
+      "icon": "b_xofprom"
+    },
+    {
+      "producer": "fyard3.odf",
+      "target": "xhfriker",
+      "model": "fgalaxyx",
+      "modelPresent": true,
+      "icon": "b_xhfriker"
+    },
+    {
+      "producer": "hub.odf",
+      "target": "twgate1",
+      "model": "twgate1",
+      "modelPresent": true,
+      "icon": "b_twgate1"
+    },
+    {
+      "producer": "hub.odf",
+      "target": "twgate2",
+      "model": "twgate2",
+      "modelPresent": true,
+      "icon": "b_twgate2"
+    },
+    {
+      "producer": "hub.odf",
+      "target": "twgate3",
+      "model": "twgate3",
+      "modelPresent": true,
+      "icon": "b_twgate3"
+    },
+    {
+      "producer": "hub.odf",
+      "target": "twgate4",
+      "model": "twgate4",
+      "modelPresent": true,
+      "icon": "b_twgate4"
+    },
+    {
+      "producer": "hub.odf",
+      "target": "twgate5",
+      "model": "twgate5",
+      "modelPresent": true,
+      "icon": "b_twgate5"
+    },
+    {
+      "producer": "hub.odf",
+      "target": "twgate6",
+      "model": "twgate6",
+      "modelPresent": true,
+      "icon": "b_twgate6"
+    },
+    {
+      "producer": "hub.odf",
+      "target": "twgate7",
+      "model": "twgate7",
+      "modelPresent": true,
+      "icon": "b_twgate7"
+    },
+    {
+      "producer": "hub.odf",
+      "target": "twgate8",
+      "model": "twgate8",
+      "modelPresent": true,
+      "icon": "b_twgate8"
+    },
+    {
+      "producer": "kbase.odf",
+      "target": "kconst",
+      "model": "kconst",
+      "modelPresent": true,
+      "icon": "b_kconst"
+    },
+    {
+      "producer": "kbase.odf",
+      "target": "kfreight",
+      "model": "kfreight",
+      "modelPresent": true,
+      "icon": "b_kfreight"
+    },
+    {
+      "producer": "kbase.odf",
+      "target": "kcargo",
+      "model": "kcargo",
+      "modelPresent": true,
+      "icon": "b_kcargo"
+    },
+    {
+      "producer": "kbase.odf",
+      "target": "ksrepair",
+      "model": "ksrepair",
+      "modelPresent": true,
+      "icon": "b_ksrepair"
+    },
+    {
+      "producer": "kbase.odf",
+      "target": "kconst2",
+      "model": "kconst2",
+      "modelPresent": true,
+      "icon": "b_kconst2"
+    },
+    {
+      "producer": "kbase.odf",
+      "target": "kdestroy2",
+      "model": "kdestroy2",
+      "modelPresent": true,
+      "icon": "b_kdestroy2"
+    },
+    {
+      "producer": "kbase.odf",
+      "target": "xkuconst",
+      "model": "xkuconst",
+      "modelPresent": true,
+      "icon": "b_xkuconst"
+    },
+    {
+      "producer": "kbase2.odf",
+      "target": "kdestroy",
+      "model": "kdestroy",
+      "modelPresent": true,
+      "icon": "b_kdestroy"
+    },
+    {
+      "producer": "kbase2.odf",
+      "target": "xkuconst",
+      "model": "xkuconst",
+      "modelPresent": true,
+      "icon": "b_xkuconst"
+    },
+    {
+      "producer": "khwp.odf",
+      "target": "xkuconst",
+      "model": "xkuconst",
+      "modelPresent": true,
+      "icon": "b_xkuconst"
+    },
+    {
+      "producer": "kimpbase.odf",
+      "target": "kdestroy",
+      "model": "kdestroy",
+      "modelPresent": true,
+      "icon": "b_kdestroy"
+    },
+    {
+      "producer": "kimpbase.odf",
+      "target": "kdestroy2",
+      "model": "kdestroy2",
+      "modelPresent": true,
+      "icon": "b_kdestroy2"
+    },
+    {
+      "producer": "kimpbase.odf",
+      "target": "kimpkoto",
+      "model": "kimpkoto",
+      "modelPresent": true,
+      "icon": "b_kimpkoto"
+    },
+    {
+      "producer": "kimpbase.odf",
+      "target": "kgunboat",
+      "model": "kgunboat",
+      "modelPresent": true,
+      "icon": "b_kgunboat"
+    },
+    {
+      "producer": "kimpbase.odf",
+      "target": "xkuconst",
+      "model": "xkuconst",
+      "modelPresent": true,
+      "icon": "b_xkuconst"
+    },
+    {
+      "producer": "kimpyard.odf",
+      "target": "kavorcha",
+      "model": "kavorcha",
+      "modelPresent": true,
+      "icon": "b_kavorcha"
+    },
+    {
+      "producer": "kimpyard.odf",
+      "target": "kimpvorc",
+      "model": "kimpvorc",
+      "modelPresent": true,
+      "icon": "b_kimpvorc"
+    },
+    {
+      "producer": "kimpyard.odf",
+      "target": "kimpnegh",
+      "model": "kimpnegh",
+      "modelPresent": true,
+      "icon": "b_kimpnegh"
+    },
+    {
+      "producer": "kimpyard.odf",
+      "target": "kdestroy4",
+      "model": "kdestroy4",
+      "modelPresent": true,
+      "icon": "b_kdestroy4"
+    },
+    {
+      "producer": "kimpyard.odf",
+      "target": "kimpnook",
+      "model": "kimpnook",
+      "modelPresent": true,
+      "icon": "b_kimpnook"
+    },
+    {
+      "producer": "kimpyard.odf",
+      "target": "kimpben",
+      "model": "kimpben",
+      "modelPresent": true,
+      "icon": "b_kimpben"
+    },
+    {
+      "producer": "kimpyard.odf",
+      "target": "kimpbakt",
+      "model": "kimpbakt",
+      "modelPresent": true,
+      "icon": "b_kimpbakt"
+    },
+    {
+      "producer": "kimpyard.odf",
+      "target": "kimphut",
+      "model": "kimphut",
+      "modelPresent": true,
+      "icon": "b_kimphut"
+    },
+    {
+      "producer": "kimpyard.odf",
+      "target": "kimpmakd",
+      "model": "kimpmakd",
+      "modelPresent": true,
+      "icon": "b_kimpmakd"
+    },
+    {
+      "producer": "kmarbase.odf",
+      "target": "xkuconst",
+      "model": "xkuconst",
+      "modelPresent": true,
+      "icon": "b_xkuconst"
+    },
+    {
+      "producer": "kmarbase.odf",
+      "target": "kfreight",
+      "model": "kfreight",
+      "modelPresent": true,
+      "icon": "b_kfreight"
+    },
+    {
+      "producer": "kmarbase.odf",
+      "target": "kcargo",
+      "model": "kcargo",
+      "modelPresent": true,
+      "icon": "b_kcargo"
+    },
+    {
+      "producer": "kmarbase.odf",
+      "target": "ksrepair",
+      "model": "ksrepair",
+      "modelPresent": true,
+      "icon": "b_ksrepair"
+    },
+    {
+      "producer": "kmarbase.odf",
+      "target": "kconst2",
+      "model": "kconst2",
+      "modelPresent": true,
+      "icon": "b_kconst2"
+    },
+    {
+      "producer": "kmarbase.odf",
+      "target": "kdestroy2",
+      "model": "kdestroy2",
+      "modelPresent": true,
+      "icon": "b_kdestroy2"
+    },
+    {
+      "producer": "kmarbase.odf",
+      "target": "xkuconst",
+      "model": "xkuconst",
+      "modelPresent": true,
+      "icon": "b_xkuconst"
+    },
+    {
+      "producer": "koutpost.odf",
+      "target": "kconst",
+      "model": "kconst",
+      "modelPresent": true,
+      "icon": "b_kconst"
+    },
+    {
+      "producer": "koutpost.odf",
+      "target": "kcargo",
+      "model": "kcargo",
+      "modelPresent": true,
+      "icon": "b_kcargo"
+    },
+    {
+      "producer": "koutpost.odf",
+      "target": "kgunboat",
+      "model": "kgunboat",
+      "modelPresent": true,
+      "icon": "b_kgunboat"
+    },
+    {
+      "producer": "koutpost.odf",
+      "target": "kdestroy2",
+      "model": "kdestroy2",
+      "modelPresent": true,
+      "icon": "b_kdestroy2"
+    },
+    {
+      "producer": "koutpost.odf",
+      "target": "xkuconst",
+      "model": "xkuconst",
+      "modelPresent": true,
+      "icon": "b_xkuconst"
+    },
+    {
+      "producer": "kprison.odf",
+      "target": "xkuconst",
+      "model": "xkuconst",
+      "modelPresent": true,
+      "icon": "b_xkuconst"
+    },
+    {
+      "producer": "kprison.odf",
+      "target": "kfreight",
+      "model": "kfreight",
+      "modelPresent": true,
+      "icon": "b_kfreight"
+    },
+    {
+      "producer": "kprison.odf",
+      "target": "kcargo",
+      "model": "kcargo",
+      "modelPresent": true,
+      "icon": "b_kcargo"
+    },
+    {
+      "producer": "kprison.odf",
+      "target": "ksrepair",
+      "model": "ksrepair",
+      "modelPresent": true,
+      "icon": "b_ksrepair"
+    },
+    {
+      "producer": "kprison.odf",
+      "target": "kconst2",
+      "model": "kconst2",
+      "modelPresent": true,
+      "icon": "b_kconst2"
+    },
+    {
+      "producer": "kprison.odf",
+      "target": "kdestroy2",
+      "model": "kdestroy2",
+      "modelPresent": true,
+      "icon": "b_kdestroy2"
+    },
+    {
+      "producer": "kprison.odf",
+      "target": "xkuconst",
+      "model": "xkuconst",
+      "modelPresent": true,
+      "icon": "b_xkuconst"
+    },
+    {
+      "producer": "kresear.odf",
+      "target": "klipod5",
+      "model": "klipod5",
+      "modelPresent": true,
+      "icon": "b_klipod5"
+    },
+    {
+      "producer": "kresear.odf",
+      "target": "klipod4",
+      "model": "klipod4",
+      "modelPresent": true,
+      "icon": "b_klipod4"
+    },
+    {
+      "producer": "kresear.odf",
+      "target": "klipod2",
+      "model": "klipod2",
+      "modelPresent": true,
+      "icon": "b_klipod2"
+    },
+    {
+      "producer": "kresear.odf",
+      "target": "klipod3",
+      "model": "klipod3",
+      "modelPresent": true,
+      "icon": "b_klipod3"
+    },
+    {
+      "producer": "kresear.odf",
+      "target": "klipod1",
+      "model": "klipod1",
+      "modelPresent": true,
+      "icon": "b_klipod1"
+    },
+    {
+      "producer": "kresear.odf",
+      "target": "klipod16",
+      "model": "klipod16",
+      "modelPresent": true,
+      "icon": "b_klipod16"
+    },
+    {
+      "producer": "kresear2.odf",
+      "target": "klipod6",
+      "model": "klipod6",
+      "modelPresent": true,
+      "icon": "b_klipod6"
+    },
+    {
+      "producer": "kresear2.odf",
+      "target": "klipod7",
+      "model": "klipod7",
+      "modelPresent": true,
+      "icon": "b_klipod7"
+    },
+    {
+      "producer": "kresear2.odf",
+      "target": "klipod8",
+      "model": "klipod8",
+      "modelPresent": true,
+      "icon": "b_klipod8"
+    },
+    {
+      "producer": "kresear2.odf",
+      "target": "klipod9",
+      "model": "klipod9",
+      "modelPresent": true,
+      "icon": "b_klipod9"
+    },
+    {
+      "producer": "ksuperbl.odf",
+      "target": "ksuper",
+      "model": "xvstock_ksuper",
+      "modelPresent": true,
+      "icon": "b_ksuper"
+    },
+    {
+      "producer": "kupgrade.odf",
+      "target": "klipod11",
+      "model": "klipod11",
+      "modelPresent": true,
+      "icon": "b_klipod11"
+    },
+    {
+      "producer": "kupgrade.odf",
+      "target": "klipod12",
+      "model": "klipod12",
+      "modelPresent": true,
+      "icon": "b_klipod12"
+    },
+    {
+      "producer": "kupgrade.odf",
+      "target": "klipod13",
+      "model": "klipod13",
+      "modelPresent": true,
+      "icon": "b_klipod13"
+    },
+    {
+      "producer": "kupgrade.odf",
+      "target": "klipod14",
+      "model": "klipod14",
+      "modelPresent": true,
+      "icon": "b_klipod14"
+    },
+    {
+      "producer": "kupgrade.odf",
+      "target": "klipod15",
+      "model": "klipod15",
+      "modelPresent": true,
+      "icon": "b_klipod15"
+    },
+    {
+      "producer": "kupgrade.odf",
+      "target": "klipod21",
+      "model": "klipod21",
+      "modelPresent": true,
+      "icon": "b_klipod21"
+    },
+    {
+      "producer": "kupgrade.odf",
+      "target": "klipod22",
+      "model": "klipod22",
+      "modelPresent": true,
+      "icon": "b_klipod22"
+    },
+    {
+      "producer": "kupgrade.odf",
+      "target": "klipod23",
+      "model": "klipod23",
+      "modelPresent": true,
+      "icon": "b_klipod23"
+    },
+    {
+      "producer": "kupgrade.odf",
+      "target": "klipod24",
+      "model": "klipod24",
+      "modelPresent": true,
+      "icon": "b_klipod24"
+    },
+    {
+      "producer": "kupgrade.odf",
+      "target": "klipod25",
+      "model": "klipod25",
+      "modelPresent": true,
+      "icon": "b_klipod25"
+    },
+    {
+      "producer": "kyard.odf",
+      "target": "kscout",
+      "model": "kscout",
+      "modelPresent": true,
+      "icon": "b_kscout"
+    },
+    {
+      "producer": "kyard.odf",
+      "target": "kdestroy",
+      "model": "kdestroy",
+      "modelPresent": true,
+      "icon": "b_kdestroy"
+    },
+    {
+      "producer": "kyard.odf",
+      "target": "kcolony",
+      "model": "kcolony",
+      "modelPresent": true,
+      "icon": "b_kcolony"
+    },
+    {
+      "producer": "kyard.odf",
+      "target": "kcruise1",
+      "model": "kcruise1",
+      "modelPresent": true,
+      "icon": "b_kcruise1"
+    },
+    {
+      "producer": "kyard.odf",
+      "target": "kcruise2",
+      "model": "kcruise2",
+      "modelPresent": true,
+      "icon": "b_kcruise2"
+    },
+    {
+      "producer": "kyard.odf",
+      "target": "kassault",
+      "model": "kassault",
+      "modelPresent": true,
+      "icon": "b_kassault"
+    },
+    {
+      "producer": "kyard.odf",
+      "target": "kcruise3",
+      "model": "kcruise3",
+      "modelPresent": true,
+      "icon": "b_kcruise3"
+    },
+    {
+      "producer": "kyard.odf",
+      "target": "kquon",
+      "model": "kquon",
+      "modelPresent": true,
+      "icon": "b_kquon"
+    },
+    {
+      "producer": "kyard.odf",
+      "target": "kcruise4",
+      "model": "kcruise4",
+      "modelPresent": true,
+      "icon": "b_kcruise4"
+    },
+    {
+      "producer": "kyard2.odf",
+      "target": "kfrigate",
+      "model": "kfrigate",
+      "modelPresent": true,
+      "icon": "b_kfrigate"
+    },
+    {
+      "producer": "kyard2.odf",
+      "target": "kbattle2",
+      "model": "kbattle2",
+      "modelPresent": true,
+      "icon": "b_kbattle2"
+    },
+    {
+      "producer": "kyard2.odf",
+      "target": "kspecial",
+      "model": "kspecial",
+      "modelPresent": true,
+      "icon": "b_kspecial"
+    },
+    {
+      "producer": "kyard2.odf",
+      "target": "kbattle",
+      "model": "kbattle",
+      "modelPresent": true,
+      "icon": "b_kbattle"
+    },
+    {
+      "producer": "kyard2.odf",
+      "target": "kvodleh",
+      "model": "kvodleh",
+      "modelPresent": true,
+      "icon": "b_kvodleh"
+    },
+    {
+      "producer": "kyard2.odf",
+      "target": "kbwing",
+      "model": "kbwing",
+      "modelPresent": true,
+      "icon": "b_kbwing"
+    },
+    {
+      "producer": "kyard2.odf",
+      "target": "kvood",
+      "model": "kvood",
+      "modelPresent": true,
+      "icon": "b_kvood"
+    },
+    {
+      "producer": "kyard2.odf",
+      "target": "kbatleth",
+      "model": "kbatleth",
+      "modelPresent": true,
+      "icon": "b_kbatleth"
+    },
+    {
+      "producer": "kyard3.odf",
+      "target": "xhkhero",
+      "model": "kbattle",
+      "modelPresent": true,
+      "icon": "b_xhkhero"
+    },
+    {
+      "producer": "pb_borga.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "pb_cardassia.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "pb_clssd.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "pb_clssh.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "pb_clssj.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "pb_clssk.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "pb_clssl.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "pb_clssm.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "pb_clsso.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "pb_clssy.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "pb_earth.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "pb_gc00m.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "pb_gc02d.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "pb_gc03h.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "pb_gc04j.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "pb_gc05j.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "pb_gc06j.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "pb_gc07j.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "pb_gc08k.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "pb_moo2d.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "pb_moo3d.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "pb_moo4d.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "pb_moond.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "planet.odf",
+      "target": "shield",
+      "model": "shield",
+      "modelPresent": false,
+      "icon": "b_shield"
+    },
+    {
+      "producer": "rbase.odf",
+      "target": "rconst",
+      "model": "rconst",
+      "modelPresent": true,
+      "icon": "b_rconst"
+    },
+    {
+      "producer": "rbase.odf",
+      "target": "rfreight",
+      "model": "rfreight",
+      "modelPresent": true,
+      "icon": "b_rfreight"
+    },
+    {
+      "producer": "rbase.odf",
+      "target": "rcargo",
+      "model": "rcargo",
+      "modelPresent": true,
+      "icon": "b_rcargo"
+    },
+    {
+      "producer": "rbase.odf",
+      "target": "rsrepair",
+      "model": "rsrepair",
+      "modelPresent": true,
+      "icon": "b_rsrepair"
+    },
+    {
+      "producer": "rbase.odf",
+      "target": "rconst2",
+      "model": "rconst2",
+      "modelPresent": true,
+      "icon": "b_rconst2"
+    },
+    {
+      "producer": "rbase.odf",
+      "target": "rdestroy",
+      "model": "rdestroy",
+      "modelPresent": true,
+      "icon": "b_rdestroy"
+    },
+    {
+      "producer": "rbase.odf",
+      "target": "xruconst",
+      "model": "xruconst",
+      "modelPresent": true,
+      "icon": "b_xruconst"
+    },
+    {
+      "producer": "rbase2.odf",
+      "target": "rconst2",
+      "model": "rconst2",
+      "modelPresent": true,
+      "icon": "b_rconst2"
+    },
+    {
+      "producer": "rbase2.odf",
+      "target": "rfreight",
+      "model": "rfreight",
+      "modelPresent": true,
+      "icon": "b_rfreight"
+    },
+    {
+      "producer": "rbase2.odf",
+      "target": "rcargo",
+      "model": "rcargo",
+      "modelPresent": true,
+      "icon": "b_rcargo"
+    },
+    {
+      "producer": "rbase2.odf",
+      "target": "rtscout",
+      "model": "rtscout",
+      "modelPresent": true,
+      "icon": "b_rtscout"
+    },
+    {
+      "producer": "rbase2.odf",
+      "target": "xruconst",
+      "model": "xruconst",
+      "modelPresent": true,
+      "icon": "b_xruconst"
+    },
+    {
+      "producer": "rhwp.odf",
+      "target": "xruconst",
+      "model": "xruconst",
+      "modelPresent": true,
+      "icon": "b_xruconst"
+    },
+    {
+      "producer": "rresear.odf",
+      "target": "rompod5",
+      "model": "rompod5",
+      "modelPresent": true,
+      "icon": "b_rompod5"
+    },
+    {
+      "producer": "rresear.odf",
+      "target": "rompod2",
+      "model": "rompod2",
+      "modelPresent": true,
+      "icon": "b_rompod2"
+    },
+    {
+      "producer": "rresear.odf",
+      "target": "rompod3",
+      "model": "rompod3",
+      "modelPresent": true,
+      "icon": "b_rompod3"
+    },
+    {
+      "producer": "rresear.odf",
+      "target": "rompod4",
+      "model": "rompod4",
+      "modelPresent": true,
+      "icon": "b_rompod4"
+    },
+    {
+      "producer": "rresear.odf",
+      "target": "rompod1",
+      "model": "rompod1",
+      "modelPresent": true,
+      "icon": "b_rompod1"
+    },
+    {
+      "producer": "rresear.odf",
+      "target": "rompod16",
+      "model": "rompod16",
+      "modelPresent": true,
+      "icon": "b_rompod16"
+    },
+    {
+      "producer": "rresear2.odf",
+      "target": "rompod6",
+      "model": "rompod6",
+      "modelPresent": true,
+      "icon": "b_rompod6"
+    },
+    {
+      "producer": "rresear2.odf",
+      "target": "rompod7",
+      "model": "rompod7",
+      "modelPresent": true,
+      "icon": "b_rompod7"
+    },
+    {
+      "producer": "rresear2.odf",
+      "target": "rompod8",
+      "model": "rompod8",
+      "modelPresent": true,
+      "icon": "b_rompod8"
+    },
+    {
+      "producer": "rresear2.odf",
+      "target": "rompod9",
+      "model": "rompod9",
+      "modelPresent": true,
+      "icon": "b_rompod9"
+    },
+    {
+      "producer": "rsuperbl.odf",
+      "target": "rsuper",
+      "model": "xvstock_rsuper",
+      "modelPresent": true,
+      "icon": "b_rsuper"
+    },
+    {
+      "producer": "rupgrade.odf",
+      "target": "rompod11",
+      "model": "rompod11",
+      "modelPresent": true,
+      "icon": "b_rompod11"
+    },
+    {
+      "producer": "rupgrade.odf",
+      "target": "rompod12",
+      "model": "rompod12",
+      "modelPresent": true,
+      "icon": "b_rompod12"
+    },
+    {
+      "producer": "rupgrade.odf",
+      "target": "rompod13",
+      "model": "rompod13",
+      "modelPresent": true,
+      "icon": "b_rompod13"
+    },
+    {
+      "producer": "rupgrade.odf",
+      "target": "rompod14",
+      "model": "rompod14",
+      "modelPresent": true,
+      "icon": "b_rompod14"
+    },
+    {
+      "producer": "rupgrade.odf",
+      "target": "rompod15",
+      "model": "rompod15",
+      "modelPresent": true,
+      "icon": "b_rompod15"
+    },
+    {
+      "producer": "rupgrade.odf",
+      "target": "rompod21",
+      "model": "rompod21",
+      "modelPresent": true,
+      "icon": "b_rompod21"
+    },
+    {
+      "producer": "rupgrade.odf",
+      "target": "rompod22",
+      "model": "rompod22",
+      "modelPresent": true,
+      "icon": "b_rompod22"
+    },
+    {
+      "producer": "rupgrade.odf",
+      "target": "rompod23",
+      "model": "rompod23",
+      "modelPresent": true,
+      "icon": "b_rompod23"
+    },
+    {
+      "producer": "rupgrade.odf",
+      "target": "rompod24",
+      "model": "rompod24",
+      "modelPresent": true,
+      "icon": "b_rompod24"
+    },
+    {
+      "producer": "rupgrade.odf",
+      "target": "rompod25",
+      "model": "rompod25",
+      "modelPresent": true,
+      "icon": "b_rompod25"
+    },
+    {
+      "producer": "ryard.odf",
+      "target": "rscout",
+      "model": "rscout",
+      "modelPresent": true,
+      "icon": "b_rscout"
+    },
+    {
+      "producer": "ryard.odf",
+      "target": "rdestroy",
+      "model": "rdestroy",
+      "modelPresent": true,
+      "icon": "b_rdestroy"
+    },
+    {
+      "producer": "ryard.odf",
+      "target": "rcolony",
+      "model": "rcolony",
+      "modelPresent": true,
+      "icon": "b_rcolony"
+    },
+    {
+      "producer": "ryard.odf",
+      "target": "rcruise1",
+      "model": "rcruise1",
+      "modelPresent": true,
+      "icon": "b_rcruise1"
+    },
+    {
+      "producer": "ryard.odf",
+      "target": "rcruise3",
+      "model": "rcruise3",
+      "modelPresent": true,
+      "icon": "b_rcruise3"
+    },
+    {
+      "producer": "ryard.odf",
+      "target": "rassault",
+      "model": "rassault",
+      "modelPresent": true,
+      "icon": "b_rassault"
+    },
+    {
+      "producer": "ryard.odf",
+      "target": "rcruise2",
+      "model": "rcruise2",
+      "modelPresent": true,
+      "icon": "b_rcruise2"
+    },
+    {
+      "producer": "ryard.odf",
+      "target": "rcent",
+      "model": "rcent",
+      "modelPresent": true,
+      "icon": "b_rcent"
+    },
+    {
+      "producer": "ryard2.odf",
+      "target": "rfrigate",
+      "model": "rfrigate",
+      "modelPresent": true,
+      "icon": "b_rfrigate"
+    },
+    {
+      "producer": "ryard2.odf",
+      "target": "rktinga",
+      "model": "rktinga",
+      "modelPresent": true,
+      "icon": "b_rktinga"
+    },
+    {
+      "producer": "ryard2.odf",
+      "target": "rscruise",
+      "model": "rscruise",
+      "modelPresent": true,
+      "icon": "b_rscruise"
+    },
+    {
+      "producer": "ryard2.odf",
+      "target": "rbattle2",
+      "model": "rbattle2",
+      "modelPresent": true,
+      "icon": "b_rbattle2"
+    },
+    {
+      "producer": "ryard2.odf",
+      "target": "rspecial",
+      "model": "rspecial",
+      "modelPresent": true,
+      "icon": "b_rspecial"
+    },
+    {
+      "producer": "ryard2.odf",
+      "target": "rbattle",
+      "model": "rbattle",
+      "modelPresent": true,
+      "icon": "b_rbattle"
+    },
+    {
+      "producer": "ryard2.odf",
+      "target": "rdread",
+      "model": "rdread",
+      "modelPresent": true,
+      "icon": "b_rdread"
+    },
+    {
+      "producer": "ryard3.odf",
+      "target": "rtscout",
+      "model": "rtscout",
+      "modelPresent": true,
+      "icon": "b_rtscout"
+    },
+    {
+      "producer": "ryard3.odf",
+      "target": "rtsdest",
+      "model": "rtsdest",
+      "modelPresent": true,
+      "icon": "b_rtsdest"
+    },
+    {
+      "producer": "ryard3.odf",
+      "target": "rtscruis",
+      "model": "rtscruis",
+      "modelPresent": true,
+      "icon": "b_rtscruis"
+    },
+    {
+      "producer": "ryard3.odf",
+      "target": "rtspec",
+      "model": "rtspec",
+      "modelPresent": true,
+      "icon": "b_rtspec"
+    },
+    {
+      "producer": "ryard3.odf",
+      "target": "rtsbcru",
+      "model": "rtsbcru",
+      "modelPresent": true,
+      "icon": "b_rtsbcru"
+    },
+    {
+      "producer": "ryard3.odf",
+      "target": "rtswarb",
+      "model": "rtswarb",
+      "modelPresent": true,
+      "icon": "b_rtswarb"
+    },
+    {
+      "producer": "ryard3.odf",
+      "target": "rtsdread",
+      "model": "rtsdread",
+      "modelPresent": true,
+      "icon": "b_rtsdread"
+    },
+    {
+      "producer": "ryard3.odf",
+      "target": "xhrhero",
+      "model": "rbattle",
+      "modelPresent": true,
+      "icon": "b_xhrhero"
+    },
+    {
+      "producer": "s31yard.odf",
+      "target": "fvalour",
+      "model": "fvalour",
+      "modelPresent": true,
+      "icon": "b_fvalour"
+    },
+    {
+      "producer": "s31yard.odf",
+      "target": "ftengen",
+      "model": "ftengen",
+      "modelPresent": true,
+      "icon": "b_ftengen"
+    },
+    {
+      "producer": "s31yard.odf",
+      "target": "arumaan",
+      "model": "arumaan",
+      "modelPresent": true,
+      "icon": "b_arumaan"
+    },
+    {
+      "producer": "s31yard.odf",
+      "target": "fspectre",
+      "model": "fspectre",
+      "modelPresent": true,
+      "icon": "b_fspectre"
+    },
+    {
+      "producer": "s31yard.odf",
+      "target": "fsent",
+      "model": "fsent",
+      "modelPresent": true,
+      "icon": "b_fsent"
+    },
+    {
+      "producer": "s31yard.odf",
+      "target": "fshadow",
+      "model": "fshadow",
+      "modelPresent": true,
+      "icon": "b_fshadow"
+    },
+    {
+      "producer": "s31yard.odf",
+      "target": "fdallas",
+      "model": "fdallas",
+      "modelPresent": true,
+      "icon": "b_fdallas"
+    },
+    {
+      "producer": "s31yard.odf",
+      "target": "fdeimos",
+      "model": "fdeimos",
+      "modelPresent": true,
+      "icon": "b_fdeimos"
+    },
+    {
+      "producer": "s31yard.odf",
+      "target": "banshee",
+      "model": "banshee",
+      "modelPresent": true,
+      "icon": "b_banshee"
+    },
+    {
+      "producer": "s31yard.odf",
+      "target": "fdiablo",
+      "model": "fdiablo",
+      "modelPresent": true,
+      "icon": "b_fdiablo"
+    },
+    {
+      "producer": "s31yard.odf",
+      "target": "fakisato",
+      "model": "fakisato",
+      "modelPresent": true,
+      "icon": "b_fakisato"
+    },
+    {
+      "producer": "s31yard.odf",
+      "target": "fshak",
+      "model": "fshak",
+      "modelPresent": true,
+      "icon": "b_fshak"
+    },
+    {
+      "producer": "s31yard.odf",
+      "target": "fkaleb",
+      "model": "fkaleb",
+      "modelPresent": true,
+      "icon": "b_fkaleb"
+    },
+    {
+      "producer": "xbassimst.odf",
+      "target": "xbrepair",
+      "model": "xbrepair",
+      "modelPresent": true,
+      "icon": "b_xbrepair"
+    },
+    {
+      "producer": "xbomegalab.odf",
+      "target": "xbomegapod",
+      "model": "borpod9",
+      "modelPresent": true,
+      "icon": "b_xbomegapod"
+    },
+    {
+      "producer": "xfomegalab.odf",
+      "target": "xfomegapod",
+      "model": "fedpod9",
+      "modelPresent": true,
+      "icon": "b_xfomegapod"
+    },
+    {
+      "producer": "xhs_yard3.odf",
+      "target": "xhshero",
+      "model": "8472_battle",
+      "modelPresent": true,
+      "icon": "b_xhshero"
+    },
+    {
+      "producer": "xhs_yard3.odf",
+      "target": "xhs_vanguard",
+      "model": "xhs_vanguard",
+      "modelPresent": true,
+      "icon": "b_xhs_vanguard"
+    },
+    {
+      "producer": "xhs_yard3.odf",
+      "target": "xhs_sentinel",
+      "model": "xhs_sentinel",
+      "modelPresent": true,
+      "icon": "b_xhs_sentinel"
+    },
+    {
+      "producer": "xhs_yard3.odf",
+      "target": "xhs_leviathan",
+      "model": "xhs_leviathan",
+      "modelPresent": true,
+      "icon": "b_xhs_leviathan"
+    },
+    {
+      "producer": "zsuperbl.odf",
+      "target": "dwormddestroy2",
+      "model": "dwormddestroy2",
+      "modelPresent": true,
+      "icon": "b_dwormddestroy2"
+    },
+    {
+      "producer": "zsuperbl.odf",
+      "target": "dwormdbattle",
+      "model": "dwormdbattle",
+      "modelPresent": true,
+      "icon": "b_dwormdbattle"
+    },
+    {
+      "producer": "zsuperbl.odf",
+      "target": "dwormdbattle2",
+      "model": "dwormdbattle2",
+      "modelPresent": true,
+      "icon": "b_dwormdbattle2"
+    },
+    {
+      "producer": "zsuperbl.odf",
+      "target": "dwormdsuper",
+      "model": "dwormdsuper",
+      "modelPresent": true,
+      "icon": "b_dwormdsuper"
+    }
+  ]
+}

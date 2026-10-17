@@ -1,0 +1,108 @@
+{
+  "installedMaps": [
+    {
+      "sourceCatalogue": "alpha-beta-quadrant-map",
+      "sourceMap": "alphabeta2.bzn",
+      "installedMap": "alphabeta2.bzn",
+      "originalEnvironmentRetained": true,
+      "runtimeVerified": false
+    },
+    {
+      "sourceCatalogue": "alpha-quadrant-v2",
+      "sourceMap": "alphaquadv2.bzn",
+      "installedMap": "alphaquadv2.bzn",
+      "originalEnvironmentRetained": true,
+      "runtimeVerified": false
+    },
+    {
+      "sourceCatalogue": "planet-clusters",
+      "sourceMap": "Planet Clusters.bzn",
+      "installedMap": "Planet Clusters.bzn",
+      "originalEnvironmentRetained": true,
+      "runtimeVerified": false
+    },
+    {
+      "sourceCatalogue": "glenns-warzone",
+      "sourceMap": "mp08walr.bzn",
+      "installedMap": "X8_mp08walr.bzn",
+      "originalEnvironmentRetained": true,
+      "runtimeVerified": false
+    }
+  ],
+  "addedFiles": [
+    {
+      "path": "odf/ships/8472_heromother.odf",
+      "sha256": "00e5c7bb2c4de277084b6de9ed0cd414a058ab7b0c7e000f574e583a75c62fec"
+    },
+    {
+      "path": "odf/ships/8472_mother.odf",
+      "sha256": "42785ed23b63d259b0b779a5d378ae9e21c0c70939ab2c42148f3d450caeb9d6"
+    },
+    {
+      "path": "odf/stations/PB_Cardassia.odf",
+      "sha256": "afd4cd0d6245a3b86f0759e9c8232c1faba39801da936e9469a78d0907f31a59"
+    },
+    {
+      "path": "bzn\\alphabeta2.bzn",
+      "sha256": "9a54798028fc220b02e5da3165eccff9d97590cf49226159dfe07617228a5b08"
+    },
+    {
+      "path": "bzn\\alphabeta2.bmp",
+      "sha256": "9648b837dbea301539b40817e3d0f2bffecd60d3b3fa0456c2637cc8ac407d03"
+    },
+    {
+      "path": "bzn\\alphabeta2.txt",
+      "sha256": "fb7bde52d07bf45a929eadb5eee8054abce4dead5a6b840fb40523d0324d008f"
+    },
+    {
+      "path": "bzn\\alphaquadv2.bzn",
+      "sha256": "200858b3c1cc6795d41c8a7639f031902c0c0280af80088db20ede3ea0167352"
+    },
+    {
+      "path": "bzn\\alphaquadv2.txt",
+      "sha256": "f6b0b179efc7a8375beb1d1148d707c5beb3f059dbc3b751d0fc8870ce432a9d"
+    },
+    {
+      "path": "bzn\\Planet Clusters.bzn",
+      "sha256": "52b6a722e34b368507ce7c0e45fe3f5626b8d9448324466a712ef4f05b8ee903"
+    },
+    {
+      "path": "bzn\\Planet Clusters.bmp",
+      "sha256": "9043bf9096c6c967df30ed1729978606a1f6aa6d61ea6c949bd37ef3ca5cfa89"
+    },
+    {
+      "path": "bzn\\Planet Clusters.txt",
+      "sha256": "a5e7831707c7397c3aaf65591d77bc423a258980408ed3e1d5b8db8c42f8ccc7"
+    },
+    {
+      "path": "bzn\\X8_mp08walr.bzn",
+      "sha256": "3420f37127b693e084598e48631231eda932f67d10ae28d280cdf463fa4b1be1"
+    },
+    {
+      "path": "bzn\\X8_mp08walr.bmp",
+      "sha256": "927a3cfea2990b9746283d0acbd2e12ddde957fb08e028e0032fcc763b8775b5"
+    },
+    {
+      "path": "bzn\\X8_mp08walr.txt",
+      "sha256": "e452c4c1c780c565fa5420b17a1bfaf7046824559621992ac3471ef82bce1ceb"
+    }
+  ],
+  "existingFilesOverwritten": 0,
+  "environmentModelsTexturesChanged": 0,
+  "aliases": {
+    "odf/ships/8472_heromother.odf": "#include \"8472_heromothership.odf\"\nbaseName = \"8472_heromothership\"\n",
+    "odf/ships/8472_mother.odf": "#include \"8472_mothership.odf\"\nbaseName = \"xvstock_8472_mothership\"\n",
+    "odf/stations/PB_Cardassia.odf": "#include \"PB_CLSSM.odf\"\nbaseName = \"PB_CLSSM\"\nunitName = \"Cardassia Prime\"\npossibleCraftNames = \"Cardassia Prime\"\n"
+  },
+  "excludedFinal": [
+    {
+      "reason": "Requires Fleet Operations engine",
+      "count": 4
+    },
+    {
+      "reason": "Map binary has four/seven starts rather than verified eight",
+      "count": 4
+    }
+  ],
+  "note": "Original stock planet appearance retained for Glenn and Cardassia. Text companions may contain obsolete handles; binary map untouched. New files only; remove listed files to roll back."
+}

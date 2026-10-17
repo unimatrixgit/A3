@@ -1,29 +1,21 @@
-# Remaining work - current state
+# Remaining work — reconciled 17 October 2026
 
-Active target is D:\armadaIII only. Keep D:\Xaramada untouched. Never shut down the PC; the user meant stop assistant work, not system shutdown.
+## Implemented work
+All concrete configuration/artwork fixes in CURRENT-RELEASE.md are installed in D:/armadaIII. No validated patch is waiting for application. User reports all functions working. Four further maps and compatibility aliases installed during final cleanup. Historical crashes, provisional graphics batches and starting-hero tasks are superseded; do not rerun their installers.
 
-## Implemented and checked
-- Bajor full roster user-confirmed complete; user confirmed icons, DS9 construction and decommission.
-- Federation-equivalent base stats and research settings installed. Bajor artwork/utility layout and custom freighter movement retained.
-- All faction AI reference fixes installed, including five regenerated Bajor profiles with 54 roles reachable.
-- No faction starts with a hero; all hero shipyard production is retained. Nine factions and 27 starting lists updated and verified.
-- Omega weapons moved to native weapon-type folders with complete definitions and unchanged effective properties.
-- Dominion Dreadnought missing button-height value corrected. Build icons resolve for 590 production targets.
-- 346 ship definitions inventoried, 278 production targets; none of those targets lack a model.
-- 206 unique non-Bajor hero WAV files have valid PCM headers; command/event references checked.
-- All 72 ArmadaFiles eight-player archives downloaded/extracted. Of 73 map candidates, 52 already existed byte-for-byte and nine additional maps were installed without overwrites. Twelve candidates held for FleetOps, custom assets or unverified header data. Detailed reasons are in reports/eight-player-map-completion.json.
-- Shared Bajor normal/assimilated texture-only adaptation installed and backed up; DS9 art unchanged.
+## Verification still pending
+- Load/play each of the13 added maps; no runtime loading claim is made.
+- Measure full Omega captured-special HUD behavior; file capacity alone cannot guarantee every button displays.
+- Explicit before/after research-effect measurements and exact voice playback coverage were not supplied. Preserve the user's general success report without inventing detailed results.
 
-## Runtime checks still required
-1. Fresh games with updated Bajor and other AI, sustained construction/research/combat, and Omega ships/stations.
-2. Shield/weapon/engine research effects measured in play. File matching does not establish engine effects.
-3. Ship repair at all three Bajor yards, building repair/self-decommission, and station takeover ability.
-4. Ordinary starts without heroes, hero shipyard production and voice playback, particularly Locutus and Cooper fallback audio.
-5. Loading and playing the nine added eight-player maps; investigate the twelve held candidates separately.
-6. Latest texture appearance in normal and assimilated states.
+## Unsupported or broader unfinished scope
+- Automatic station recrew: no verified stock auto-start mechanism. Manual recrew remains available.
+- Exhaustive every-film/episode ship catalogue/models: current installed inventory exists, but exhaustive coverage is not established. This is a separate large content expansion, not a completed item.
+- Exact STO Cooper voice: conditional request unresolved; existing fallback remains. No actor imitation generated.
 
-## Broader scope still open
-- An exhaustive every-film/episode ship catalogue is not complete; installed roster inventory is available as reports/installed-ship-roster.csv. Bajor roster is already user-confirmed; do not reopen it unnecessarily.
-- Exact STO Cooper recordings were not verified; current fallback is documented. Do not claim actor imitation or exact audio when unavailable.
-- Hero reinforcement calling was explicitly removed at user request and is not an active task.
-- No PC shutdown should be scheduled.
+## Closed/superseded
+- Hero reinforcement calls: removed at user's request; do not restore.
+- Starting heroes: removed at user's request; keep heroes buildable only.
+- Unstable old Bajor art batches: superseded by installed working roster/art.
+- Eight excluded map candidates are not pending stock installation: four require FleetOps, four lack eight verified starts. Do not relabel them eight-player compatible.
+- Do not shut down the PC. Current target D:/armadaIII only; D:/Xaramada untouched.

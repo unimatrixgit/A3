@@ -1,7 +1,7 @@
 {
   "target": "D:\\armadaIII",
   "scope": "Non-Bajoran hero command audio and hero-yard references; read only.",
-  "heroCount": 33,
+  "heroCount": 34,
   "heroes": [
     {
       "unit": "8472_heromothership.odf",
@@ -3011,6 +3011,121 @@
       ]
     },
     {
+      "unit": "xhfriker.odf",
+      "name": "Cpt William T Riker",
+      "race": "federation",
+      "commands": [
+        {
+          "action": "select",
+          "event": "XV_fentdx_Select",
+          "clips": [
+            "gvofbs16.wav",
+            "gvofbs17.wav",
+            "gvofbs18.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "acknowledge",
+          "event": "XV_fentdx_Acknowledge",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "attack",
+          "event": "XV_fentdx_Attack",
+          "clips": [
+            "gvofbs06.wav",
+            "gvofbs07.wav",
+            "gvofbs08.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "stop",
+          "event": "XV_fentdx_Stop",
+          "clips": [
+            "gvofbs21.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "move",
+          "event": "XV_fentdx_Move",
+          "clips": [
+            "gvofbs11.wav",
+            "gvofbs12.wav",
+            "gvofbs13.wav",
+            "gvofbs01.wav",
+            "gvofbs16.wav",
+            "gvofbs17.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "repair",
+          "event": "XV_fentdx_Repair",
+          "clips": [
+            "gvofbs26.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "redalert",
+          "event": "XV_fentdx_RedAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "yellowalert",
+          "event": "XV_fentdx_YellowAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "greenalert",
+          "event": "XV_fentdx_GreenAlert",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "transport",
+          "event": "XV_fentdx_Transport",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "selfdestruct",
+          "event": "XV_fentdx_SelfDestruct",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        },
+        {
+          "action": "decommission",
+          "event": "XV_fentdx_Decommission",
+          "clips": [
+            "gvofbs01.wav"
+          ],
+          "missingClips": []
+        }
+      ]
+    },
+    {
       "unit": "xhkhero.odf",
       "name": "Martok - Negh'Var",
       "race": "klingon",
@@ -3839,7 +3954,8 @@
         "xofdestroy",
         "xofgalaxy",
         "xofbattle",
-        "xofprom"
+        "xofprom",
+        "xhfriker"
       ]
     },
     {
