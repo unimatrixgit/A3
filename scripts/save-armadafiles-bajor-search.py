@@ -1,0 +1,19 @@
+from pathlib import Path
+import json,hashlib
+repo=Path('D:/aramada');src=Path('D:/Xaramada-Modwork/armadafiles-bajor');scan=json.loads((src/'catalogue-scan.json').read_text());details=json.loads((src/'detail-scan.json').read_text());materials=json.loads((src/'source-materials.json').read_text())
+matches=[{'source':'Bajoran Impulse Fighter (Ship Pack)','equivalent':'bjinterceptor / bjscout','sourceTextures':['fmstex'],'compatibleTextureOnly':False}, {'source':'Bajoran Assault Vessel (Ship Pack)','equivalent':'bjassault','sourceTextures':['bavassult','bavarms','baveng','bavphas','bavwind'],'compatibleTextureOnly':False},{'source':'Bajoran Freighter (Ship Pack)','equivalent':'bjfreight / bjcargo','sourceTextures':['rigellian1','rigellian2'],'compatibleTextureOnly':False},{'source':'Bajoran Raider with hardpoints','equivalent':'bjraider / bjscout','sourceTextures':[],'compatibleTextureOnly':False,'reason':'Archive contains SOD/name/hardpoint material, no TGA textures.'},{'source':'Bajoran Starbase v1 / v2','equivalent':'bjbase (starbase role)','compatibleTextureOnly':False,'reason':'Asteroid-station atlas does not fit current DS9 geometry. Keep current DS9 model under texture-only constraint.'}]
+r={'cataloguePagesScanned':scan['listingPages'],'detailPagesScanned':details['pages'],'failedListings':scan['failedListings'],'failedDetails':details['failed'],'relevantSources':[x['url']for x in details['matches']if 'Bajoran'in x['title']],'excludedIncidentalMentions':['Opaka Class is Federation and references Bajor in a story','JuDay Maquis Raider comment requests Bajoran ships','Zarland buildbutton author signature mentions Bajoran; not a Bajor ship','Dominion Deathstar has a story mention of Bajor'],'roleMatches':matches,'sourceMaterials':materials,'currentTextureArchitecture':'Current generated Bajor models share bjrhull and bjrhull_B; source textures use unrelated model-specific UV layouts. Renaming files cannot selectively retexture matched roles.','downloadFolder':str(src),'gameFilesChanged':False,'applied':False,'pendingUserScope':'Keep models: adapt shared atlas, affecting shared users; or allow matching model/material changes while preserving gameplay. No scope expansion assumed.'};(repo/'reports/armadafiles-bajor-texture-search.json').write_text(json.dumps(r,indent=2))
+(repo/'bajor/ARMADAFILES-TEXTURE-SEARCH.md').write_text('''# ArmadaFiles Bajoran graphics search
+
+Scanned 170 ship/station listing pages and all 1,481 linked detail pages; no fetch failures. Full role mappings and compatibility findings are in reports/armadafiles-bajor-texture-search.json.
+
+Relevant downloads (stored outside the game at D:/Xaramada-Modwork/armadafiles-bajor):
+- Bajoran Ship Pack: impulse fighter, assault vessel, freighter. https://armadafiles.com/files/armada-2/ships/bajoran-ship-pack-v10/details
+- Bajoran Raider with hardpoints: model/hardpoint update without texture files. https://armadafiles.com/files/armada-2/ships/other/bajoran-raider-with-hps/details
+- Bajoran Starbase v1 and v2: asteroid-based starbases. https://armadafiles.com/files/armada-2/stations/other/bajoran-starbase/details and https://armadafiles.com/files/armada-2/stations/other/bajoran-starbase-20/details
+
+Credits: Ship Pack by mishkaco, converted by -=WiCKeD=-HARKER; hardpoint update by adm_tyler; starbases by CanadianBorg. Original readmes remain with extracted downloads. Third-party textures/models are not republished in this repository.
+
+No game assets replaced: these models have different texture layouts; current generated Bajor models share a common atlas. Texture-only replacement cannot selectively map their unique source skins onto current geometry. Await scope choice before changing the shared atlas or model/material files. Preserve stats, research and current working DS9 starbase/metal station.
+''')
+print('Saved complete search, sources, role matches and compatibility report; no game changes')

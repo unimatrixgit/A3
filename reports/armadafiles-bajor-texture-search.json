@@ -1,0 +1,112 @@
+{
+  "cataloguePagesScanned": 170,
+  "detailPagesScanned": 1481,
+  "failedListings": [],
+  "failedDetails": [],
+  "relevantSources": [
+    "http://armadafiles.com/files/armada-2/ships/bajoran-ship-pack-v10/details",
+    "http://armadafiles.com/files/armada-2/ships/other/bajoran-raider-with-hps/details",
+    "http://armadafiles.com/files/armada-2/stations/other/bajoran-starbase-20/details",
+    "http://armadafiles.com/files/armada-2/stations/other/bajoran-starbase/details"
+  ],
+  "excludedIncidentalMentions": [
+    "Opaka Class is Federation and references Bajor in a story",
+    "JuDay Maquis Raider comment requests Bajoran ships",
+    "Zarland buildbutton author signature mentions Bajoran; not a Bajor ship",
+    "Dominion Deathstar has a story mention of Bajor"
+  ],
+  "roleMatches": [
+    {
+      "source": "Bajoran Impulse Fighter (Ship Pack)",
+      "equivalent": "bjinterceptor / bjscout",
+      "sourceTextures": [
+        "fmstex"
+      ],
+      "compatibleTextureOnly": false
+    },
+    {
+      "source": "Bajoran Assault Vessel (Ship Pack)",
+      "equivalent": "bjassault",
+      "sourceTextures": [
+        "bavassult",
+        "bavarms",
+        "baveng",
+        "bavphas",
+        "bavwind"
+      ],
+      "compatibleTextureOnly": false
+    },
+    {
+      "source": "Bajoran Freighter (Ship Pack)",
+      "equivalent": "bjfreight / bjcargo",
+      "sourceTextures": [
+        "rigellian1",
+        "rigellian2"
+      ],
+      "compatibleTextureOnly": false
+    },
+    {
+      "source": "Bajoran Raider with hardpoints",
+      "equivalent": "bjraider / bjscout",
+      "sourceTextures": [],
+      "compatibleTextureOnly": false,
+      "reason": "Archive contains SOD/name/hardpoint material, no TGA textures."
+    },
+    {
+      "source": "Bajoran Starbase v1 / v2",
+      "equivalent": "bjbase (starbase role)",
+      "compatibleTextureOnly": false,
+      "reason": "Asteroid-station atlas does not fit current DS9 geometry. Keep current DS9 model under texture-only constraint."
+    }
+  ],
+  "sourceMaterials": [
+    {
+      "model": "bajdestroy.sod",
+      "textures": [
+        "bavarms",
+        "bavassult",
+        "baveng",
+        "bavphas",
+        "bavwind"
+      ],
+      "meshCount": 5,
+      "vertices": 686
+    },
+    {
+      "model": "bajfreight.sod",
+      "textures": [
+        "rigellian1",
+        "rigellian2"
+      ],
+      "meshCount": 2,
+      "vertices": 1091
+    },
+    {
+      "model": "bajscout.sod",
+      "textures": [
+        "fmstex"
+      ],
+      "meshCount": 2,
+      "vertices": 38
+    },
+    {
+      "model": "bajbase.sod",
+      "textures": [
+        "AS_0001D",
+        "atenna",
+        "bajbase",
+        "bajbasedocking",
+        "bavassult",
+        "dome",
+        "lake"
+      ],
+      "meshCount": 13,
+      "vertices": 846
+    }
+  ],
+  "currentTextureArchitecture": "Current generated Bajor models share bjrhull and bjrhull_B; source textures use unrelated model-specific UV layouts. Renaming files cannot selectively retexture matched roles.",
+  "downloadFolder": "D:\\Xaramada-Modwork\\armadafiles-bajor",
+  "gameFilesChanged": false,
+  "applied": false,
+  "pendingUserScope": "Keep models: adapt shared atlas, affecting shared users; or allow matching model/material changes while preserving gameplay. No scope expansion assumed."
+}
