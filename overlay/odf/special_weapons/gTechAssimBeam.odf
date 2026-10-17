@@ -1,0 +1,53 @@
+//Name of the ODF file for the ordinance for this weapon
+ordName = "TechAssimBeam"
+
+//Display name for this weapon
+wpnName = "Technology Assimilation Beam"
+
+//tooltips
+tooltip = "BORG_TECHASSIMBEAM"
+verboseTooltip = "BORG_TECHASSIMBEAM_V"
+
+//Location of the button in the speed panel
+buttonSlot = 7
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 10
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+//Time Delay between shots
+shotDelay = 0.0
+
+// Range within which the weapon will fire.
+range = 800.0f
+
+//Sound which is played when the weapon fires
+fireSound = "swbhb.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "toggleweapon"
+
+// Special stuff - denote special weapon
+special = 1
+
+// Need target
+needTarget = 1
+
+// set target restrictions
+targetAlliedCraft = 0
+targetAlliedBuildings = 0
+targetEnemyCraft = 1
+targetEnemyBuildings = 1
+
+// to allow multiple holding beams to be fired at once
+// don't check to see if is valid as target
+ignoreValidAsTarget = 1
+
+hotkeyLabel = "HOTKEY_F7"
+popupSlot = 7
