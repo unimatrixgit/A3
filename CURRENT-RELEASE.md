@@ -9,3 +9,5 @@ Nothing from the former exact-baseline or AI target patches remains waiting for 
 Latest static checks: 870 Federation/Bajor properties match; 40 research settings match; 54 Bajor roles reachable; all five Bajor AI prerequisite orders valid; 2,087 ODF reference scan clean; 40 non-Bajor AI reference profiles clean.
 
 Binary models/textures/audio/dumps remain local and are excluded from source publication. Historical installers/reports may describe superseded states; verify active hashes and target paths before use.
+
+Final graphics update: user-selected texture-only ArmadaFiles-inspired shared Bajor atlas adaptation installed, normal and assimilated variants. Two textures only; 2,233 protected gameplay/model/icon files verified unchanged. Preview/source files at bajor/artwork/armadafiles-adaptation locally; generated texture binaries remain local. Fresh-game appearance test pending.

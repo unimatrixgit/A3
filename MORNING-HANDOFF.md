@@ -1,4 +1,4 @@
-# Morning handoff â€” 17 October 2026
+# Morning handoff — 17 October 2026
 
 ## Active installation
 Only D:\armadaIII is modified. D:\Xaramada must remain untouched.
@@ -10,7 +10,7 @@ Only D:\armadaIII is modified. D:\Xaramada must remain untouched.
 - Miniature DS9 metal orbital model installed, with existing icon/function preserved.
 - All three Bajor yards support ship repair/decommission. Native facility self-decommission and station repair settings retained.
 - Borg/Romulan bad AI targets corrected across ten profiles. Federation instant-action unbuildable Enterprise-stage requests replaced by existing buildable hero; original ship definitions retained.
-- All five Bajor AI profiles regenerated against current Federation profiles/tech: 54 roles reachable, no prerequisite-order errors, 72â€“108 rows per profile (under 200).
+- All five Bajor AI profiles regenerated against current Federation profiles/tech: 54 roles reachable, no prerequisite-order errors, 72–108 rows per profile (under 200).
 - Installation-wide static audit: 2,087 ODFs, 1,403 includes, 1,432 explicit weapon references, no missing/empty definitions.
 - Earlier checks: 53 Bajor models/hardpoints/textures; 324 GUI mappings; 33 non-Bajor hero voice references and 8 hero-yard links; 25 previously recorded eight-player maps present.
 
@@ -34,3 +34,5 @@ D:\aramada\scripts\start-armadaIII-diagnostics.ps1 starts the exact game folder 
 GitHub: unimatrixgit/armada2 main. Source/scripts/reports only; game binary assets, audio and process dumps intentionally remain local. A source checkout is not a full playable game installation. Historic reports/scripts are historical: always inspect target paths and verify active hashes before reusing installers.
 
 User clarified: stop assistant work after saving and publishing; DO NOT shut down the PC. Continue in morning. Do not mark runtime-only tasks complete.
+
+Final graphics update: user-selected texture-only ArmadaFiles-inspired shared Bajor atlas adaptation installed, normal and assimilated variants. Two textures only; 2,233 protected gameplay/model/icon files verified unchanged. Preview/source files at bajor/artwork/armadafiles-adaptation locally; generated texture binaries remain local. Fresh-game appearance test pending.

@@ -1,0 +1,15 @@
+from pathlib import Path
+from PIL import Image
+import json,shutil,hashlib,datetime,subprocess
+root=Path('D:/armadaIII');repo=Path('D:/aramada');art=repo/'bajor/artwork/armadafiles-adaptation';stage=Path('D:/Xaramada-Modwork/bajor-armadafiles-textures/Textures/RGB');src=Path('C:/Users/thoma/.codex/generated_images/01a145a1-f38b-7cd1-b2f0-542bd7532033/exec-c3c9e4e4-d62c-4555-8010-1d28ab0d6978.png');shutil.copy2(src,art/'assimilated-adapted.png');Image.open(src).convert('RGB').resize((512,512),Image.Resampling.LANCZOS).save(stage/'bjrhull_B.tga')
+protected=json.loads(Path('D:/Xaramada-Modwork/armadafiles-bajor/protected-before-texture-adaptation.json').read_text());assert all(hashlib.sha256((root/p).read_bytes()).hexdigest()==h for p,h in protected.items()),'Protected files changed'
+# No game mutation unless exact target is closed.
+check=subprocess.run(['powershell','-NoProfile','-Command',"Get-Process Armada2 -ErrorAction SilentlyContinue | Where-Object {$_.Path.Replace([char]92,[char]47) -eq 'D:/armadaIII/Armada2.exe'} | Select-Object -ExpandProperty Id"],capture_output=True,text=True);assert not check.stdout.strip(),'Game running'
+backup=Path('D:/Xaramada-Modwork/backups/bajor-armadafiles-textures-'+datetime.datetime.now().strftime('%Y%m%d-%H%M%S'));backup.mkdir(parents=True)
+files=[]
+for name in ['bjrhull.tga','bjrhull_B.tga']:
+ p=root/'Textures/RGB'/name;im=Image.open(stage/name);assert im.size==(512,512)and im.mode=='RGB';shutil.copy2(p,backup/name);shutil.copy2(stage/name,p);assert p.read_bytes()==(stage/name).read_bytes();files.append({'path':'Textures/RGB/'+name,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})
+assert all(hashlib.sha256((root/p).read_bytes()).hexdigest()==h for p,h in protected.items())
+report={'target':str(root),'files':files,'backup':str(backup),'applied':True,'protectedFilesVerifiedUnchanged':len(protected),'modelsChanged':False,'statsChanged':False,'techChanged':False,'iconsChanged':False,'ds9Changed':False,'runtimeVerified':False,'method':'Built-in image_gen adaptation preserving existing four-tile UV atlas layout; source-inspired, not direct installation of incompatible downloaded skins.','references':['Bajoran Ship Pack bavassult.tga and rigellian1.tga','Existing bjrhull atlas and Borg overlay layout'],'scope':'All current model parts referencing shared bjrhull/bjrhull_B atlases. Separate DS9/fds9 textures unaffected.'};(repo/'reports/bajoran-armadafiles-textures-apply.json').write_text(json.dumps(report,indent=2))
+(art/'generation-notes.txt').write_text('Built-in image_gen, two precise-object edits. Normal prompt: preserve exact four equal UV quadrants and existing panel organization; adapt tan/ivory/ochre plate treatment to bavassult and rigellian1 downloaded references; dark cyan machinery and amber windows; no geometry/text/badges. Borg prompt: preserve new normal layout/palette and add restrained dark Borg implants with green lights using prior assimilated atlas as reference. Both resized to native 512x512 RGB24 TGA. Source pack stays local with readmes.\n')
+print('Installed exactly two textures;',len(protected),'protected files verified unchanged. Backup:',backup)

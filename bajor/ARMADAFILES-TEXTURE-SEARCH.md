@@ -10,3 +10,7 @@ Relevant downloads (stored outside the game at D:/Xaramada-Modwork/armadafiles-b
 Credits: Ship Pack by mishkaco, converted by -=WiCKeD=-HARKER; hardpoint update by adm_tyler; starbases by CanadianBorg. Original readmes remain with extracted downloads. Third-party textures/models are not republished in this repository.
 
 No game assets replaced: these models have different texture layouts; current generated Bajor models share a common atlas. Texture-only replacement cannot selectively map their unique source skins onto current geometry. Await scope choice before changing the shared atlas or model/material files. Preserve stats, research and current working DS9 starbase/metal station.
+
+## Selected adaptation installed
+
+User chose option 1: models unchanged, shared texture-only adaptation. New normal and assimilated atlases were generated with the built-in image tool using downloaded Bajoran hull textures as style/panel references while preserving the current four-tile UV layout. This is an adaptation, not a direct copy of incompatible source skins. Only Textures/RGB/bjrhull.tga and bjrhull_B.tga changed. All 2,233 protected ODF/tech/model/icon files matched their pre-update hashes. DS9 textures unaffected. See reports/bajoran-armadafiles-textures-apply.json; original textures backed up locally.

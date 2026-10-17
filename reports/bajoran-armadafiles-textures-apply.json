@@ -1,0 +1,28 @@
+{
+  "target": "D:\\armadaIII",
+  "files": [
+    {
+      "path": "Textures/RGB/bjrhull.tga",
+      "sha256": "e8c4ba5218dafc8d076b205a4d987f6bb2126a2ce7f0118615aae84f2d0bda28"
+    },
+    {
+      "path": "Textures/RGB/bjrhull_B.tga",
+      "sha256": "c85c70d1cc2b4549a50eb59d34791e95d4e7473cc59377d84170de47c7c38d25"
+    }
+  ],
+  "backup": "D:\\Xaramada-Modwork\\backups\\bajor-armadafiles-textures-20261017-064948",
+  "applied": true,
+  "protectedFilesVerifiedUnchanged": 2233,
+  "modelsChanged": false,
+  "statsChanged": false,
+  "techChanged": false,
+  "iconsChanged": false,
+  "ds9Changed": false,
+  "runtimeVerified": false,
+  "method": "Built-in image_gen adaptation preserving existing four-tile UV atlas layout; source-inspired, not direct installation of incompatible downloaded skins.",
+  "references": [
+    "Bajoran Ship Pack bavassult.tga and rigellian1.tga",
+    "Existing bjrhull atlas and Borg overlay layout"
+  ],
+  "scope": "All current model parts referencing shared bjrhull/bjrhull_B atlases. Separate DS9/fds9 textures unaffected."
+}
