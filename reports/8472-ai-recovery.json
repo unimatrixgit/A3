@@ -1,0 +1,454 @@
+{
+  "target": "D:\\armadaIII",
+  "stage": "D:\\Xaramada-Modwork\\8472-ai-recovery",
+  "cause": [
+    "Constructor 714const and its only producer 714syard formed an unreachable cycle.",
+    "Cruisers were ordered before basic/advanced research and economy."
+  ],
+  "fix": [
+    "Mothership builds 714const; no universal assembler added.",
+    "Five AI profiles reordered economy first, then research, yards and fleet; technology checks enabled."
+  ],
+  "dependencyChecks": [
+    {
+      "unit": "8472_mothership",
+      "quantity": 1,
+      "prerequisites": [],
+      "availableProducers": []
+    },
+    {
+      "unit": "8472_active",
+      "quantity": 2,
+      "prerequisites": [
+        "8472_mothership"
+      ],
+      "availableProducers": [
+        "8472_mothership"
+      ]
+    },
+    {
+      "unit": "8472_passive",
+      "quantity": 2,
+      "prerequisites": [
+        "8472_mothership"
+      ],
+      "availableProducers": [
+        "8472_mothership"
+      ]
+    },
+    {
+      "unit": "8472_transmuter",
+      "quantity": 1,
+      "prerequisites": [
+        "8472_passive"
+      ],
+      "availableProducers": [
+        "8472_passive"
+      ]
+    },
+    {
+      "unit": "8472_collector",
+      "quantity": 2,
+      "prerequisites": [
+        "8472_active"
+      ],
+      "availableProducers": [
+        "8472_active"
+      ]
+    },
+    {
+      "unit": "714const",
+      "quantity": 1,
+      "prerequisites": [],
+      "availableProducers": [
+        "8472_mothership"
+      ]
+    },
+    {
+      "unit": "8472_scout",
+      "quantity": 2,
+      "prerequisites": [
+        "8472_active"
+      ],
+      "availableProducers": [
+        "8472_active"
+      ]
+    },
+    {
+      "unit": "8472fig",
+      "quantity": 2,
+      "prerequisites": [
+        "8472_active"
+      ],
+      "availableProducers": [
+        "8472_active"
+      ]
+    },
+    {
+      "unit": "8472_destroy",
+      "quantity": 2,
+      "prerequisites": [
+        "8472_active"
+      ],
+      "availableProducers": [
+        "8472_active"
+      ]
+    },
+    {
+      "unit": "8472_basicresearch",
+      "quantity": 1,
+      "prerequisites": [
+        "8472_passive"
+      ],
+      "availableProducers": [
+        "8472_passive"
+      ]
+    },
+    {
+      "unit": "8472_cruise1",
+      "quantity": 2,
+      "prerequisites": [
+        "8472_basicresearch"
+      ],
+      "availableProducers": [
+        "8472_active"
+      ]
+    },
+    {
+      "unit": "8472_advancedresearch",
+      "quantity": 1,
+      "prerequisites": [
+        "8472_passive",
+        "8472_basicresearch"
+      ],
+      "availableProducers": [
+        "8472_passive"
+      ]
+    },
+    {
+      "unit": "8472_cruise2",
+      "quantity": 2,
+      "prerequisites": [
+        "8472_active",
+        "8472_advancedresearch"
+      ],
+      "availableProducers": [
+        "8472_active"
+      ]
+    },
+    {
+      "unit": "8472_shipupgraderesearch",
+      "quantity": 1,
+      "prerequisites": [
+        "8472_passive",
+        "8472_basicresearch",
+        "8472_advancedresearch"
+      ],
+      "availableProducers": [
+        "8472_passive"
+      ]
+    },
+    {
+      "unit": "8472_fluidicgate",
+      "quantity": 1,
+      "prerequisites": [
+        "8472_passive"
+      ],
+      "availableProducers": [
+        "8472_passive"
+      ]
+    },
+    {
+      "unit": "714syard",
+      "quantity": 1,
+      "prerequisites": [
+        "8472_mothership",
+        "8472_fluidicgate"
+      ],
+      "availableProducers": [
+        "714const"
+      ]
+    },
+    {
+      "unit": "714turr",
+      "quantity": 2,
+      "prerequisites": [],
+      "availableProducers": [
+        "714const"
+      ]
+    },
+    {
+      "unit": "8472_defender",
+      "quantity": 1,
+      "prerequisites": [
+        "8472_fluidicgate"
+      ],
+      "availableProducers": [
+        "8472_fluidicgate"
+      ]
+    },
+    {
+      "unit": "8472_sentinel",
+      "quantity": 2,
+      "prerequisites": [
+        "8472_defender"
+      ],
+      "availableProducers": [
+        "8472_defender"
+      ]
+    },
+    {
+      "unit": "8472_frigate",
+      "quantity": 2,
+      "prerequisites": [
+        "8472_fluidicgate"
+      ],
+      "availableProducers": [
+        "8472_fluidicgate"
+      ]
+    },
+    {
+      "unit": "8472_battle",
+      "quantity": 2,
+      "prerequisites": [
+        "8472_fluidicgate",
+        "8472_shipupgraderesearch"
+      ],
+      "availableProducers": [
+        "8472_fluidicgate"
+      ]
+    },
+    {
+      "unit": "8472_behemoth",
+      "quantity": 1,
+      "prerequisites": [
+        "8472_fluidicgate",
+        "8472_advancedresearch"
+      ],
+      "availableProducers": [
+        "8472_fluidicgate"
+      ]
+    },
+    {
+      "unit": "714rnode",
+      "quantity": 1,
+      "prerequisites": [
+        "714syard"
+      ],
+      "availableProducers": [
+        "714syard"
+      ]
+    },
+    {
+      "unit": "714skate",
+      "quantity": 2,
+      "prerequisites": [
+        "714syard"
+      ],
+      "availableProducers": [
+        "714syard"
+      ]
+    },
+    {
+      "unit": "714orca",
+      "quantity": 1,
+      "prerequisites": [
+        "714syard"
+      ],
+      "availableProducers": [
+        "714syard"
+      ]
+    },
+    {
+      "unit": "714hydra",
+      "quantity": 1,
+      "prerequisites": [
+        "714syard"
+      ],
+      "availableProducers": [
+        "714syard"
+      ]
+    },
+    {
+      "unit": "714tmat",
+      "quantity": 1,
+      "prerequisites": [
+        "714syard"
+      ],
+      "availableProducers": [
+        "714syard"
+      ]
+    },
+    {
+      "unit": "8472_mine",
+      "quantity": 1,
+      "prerequisites": [
+        "8472_defender"
+      ],
+      "availableProducers": [
+        "8472_defender"
+      ]
+    },
+    {
+      "unit": "xhs_yard3",
+      "quantity": 1,
+      "prerequisites": [
+        "8472_passive"
+      ],
+      "availableProducers": [
+        "8472_passive"
+      ]
+    },
+    {
+      "unit": "xhs_vanguard",
+      "quantity": 1,
+      "prerequisites": [
+        "xhs_yard3"
+      ],
+      "availableProducers": [
+        "xhs_yard3"
+      ]
+    },
+    {
+      "unit": "xhs_sentinel",
+      "quantity": 1,
+      "prerequisites": [
+        "xhs_yard3"
+      ],
+      "availableProducers": [
+        "xhs_yard3"
+      ]
+    },
+    {
+      "unit": "xhs_leviathan",
+      "quantity": 1,
+      "prerequisites": [
+        "xhs_yard3"
+      ],
+      "availableProducers": [
+        "xhs_yard3"
+      ]
+    },
+    {
+      "unit": "8472_podshipresearch1",
+      "quantity": 1,
+      "prerequisites": [
+        "8472_shipupgraderesearch"
+      ],
+      "availableProducers": [
+        "8472_shipupgraderesearch"
+      ]
+    },
+    {
+      "unit": "8472_podshipresearch2",
+      "quantity": 1,
+      "prerequisites": [
+        "8472_shipupgraderesearch"
+      ],
+      "availableProducers": [
+        "8472_shipupgraderesearch"
+      ]
+    },
+    {
+      "unit": "8472_podshipresearch3",
+      "quantity": 1,
+      "prerequisites": [
+        "8472_shipupgraderesearch"
+      ],
+      "availableProducers": [
+        "8472_shipupgraderesearch"
+      ]
+    },
+    {
+      "unit": "8472_podshipresearch4",
+      "quantity": 1,
+      "prerequisites": [
+        "8472_shipupgraderesearch"
+      ],
+      "availableProducers": [
+        "8472_shipupgraderesearch"
+      ]
+    },
+    {
+      "unit": "8472_podshipresearch21",
+      "quantity": 1,
+      "prerequisites": [
+        "8472_shipupgraderesearch",
+        "8472_podshipresearch1"
+      ],
+      "availableProducers": [
+        "8472_shipupgraderesearch"
+      ]
+    },
+    {
+      "unit": "8472_podshipresearch22",
+      "quantity": 1,
+      "prerequisites": [
+        "8472_shipupgraderesearch",
+        "8472_podshipresearch2"
+      ],
+      "availableProducers": [
+        "8472_shipupgraderesearch"
+      ]
+    },
+    {
+      "unit": "8472_podshipresearch23",
+      "quantity": 1,
+      "prerequisites": [
+        "8472_shipupgraderesearch",
+        "8472_podshipresearch3"
+      ],
+      "availableProducers": [
+        "8472_shipupgraderesearch"
+      ]
+    },
+    {
+      "unit": "8472_podshipresearch24",
+      "quantity": 1,
+      "prerequisites": [
+        "8472_shipupgraderesearch",
+        "8472_podshipresearch4"
+      ],
+      "availableProducers": [
+        "8472_shipupgraderesearch"
+      ]
+    }
+  ],
+  "files": [
+    "AI\\AIPs\\species8472_build_list.aip",
+    "AI\\AIPs\\species8472_defensive_list.aip",
+    "AI\\AIPs\\species8472_endgame_list.aip",
+    "AI\\AIPs\\species8472_instant_action_build_list.aip",
+    "AI\\AIPs\\species8472_offensive_list.aip",
+    "odf\\ships\\8472_mothership.odf"
+  ],
+  "gameplayVerified": false,
+  "installed": true,
+  "backup": "D:\\Xaramada-Modwork\\backups\\8472-ai-20261017-083236",
+  "installedFiles": [
+    {
+      "path": "AI\\AIPs\\species8472_build_list.aip",
+      "sha256": "60cff1586402cbb5557632819be9cf07fc1041a60e888ca55d3616abeea9e858"
+    },
+    {
+      "path": "AI\\AIPs\\species8472_defensive_list.aip",
+      "sha256": "60cff1586402cbb5557632819be9cf07fc1041a60e888ca55d3616abeea9e858"
+    },
+    {
+      "path": "AI\\AIPs\\species8472_endgame_list.aip",
+      "sha256": "60cff1586402cbb5557632819be9cf07fc1041a60e888ca55d3616abeea9e858"
+    },
+    {
+      "path": "AI\\AIPs\\species8472_instant_action_build_list.aip",
+      "sha256": "60cff1586402cbb5557632819be9cf07fc1041a60e888ca55d3616abeea9e858"
+    },
+    {
+      "path": "AI\\AIPs\\species8472_offensive_list.aip",
+      "sha256": "60cff1586402cbb5557632819be9cf07fc1041a60e888ca55d3616abeea9e858"
+    },
+    {
+      "path": "odf\\ships\\8472_mothership.odf",
+      "sha256": "0301f0d1f9691384abf9a18c8dcc854a4e1808c5317f0fee14e6d4d0a3a97bca"
+    }
+  ]
+}
