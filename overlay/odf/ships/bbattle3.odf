@@ -61,13 +61,13 @@ hullHitPercent = 62.0f
 shieldRate = 58
 
 //Maximum Value of Special Energy
-maxSpecialEnergy = 1000
+
 
 //Rate at which special energy recharges (points per second... we think)
-specialEnergyRate = 32
+
 
 // max number of assimilated weapons
-maxExtraWeapons = 3
+
 
 // don't use the horrible old % crew loss on damage
 saneCrewLossMethod = 1
@@ -195,3 +195,12 @@ weaponHardpoints5 = "hp01"
 // Borg adaptation: native scout passive cloak detector, always on.
 weapon6 = "gdetect3"
 weaponHardpoints6 = "hp01"
+
+// Technology assimilation: native beam and bounded captured-special capacity.
+weapon7 = "gTechAssimBeam"
+weaponHardpoints7 = "hp01"
+maxExtraWeapons = 3
+
+maxSpecialEnergy = 3500
+
+specialEnergyRate = 35

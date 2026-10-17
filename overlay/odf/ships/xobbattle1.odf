@@ -5,8 +5,7 @@ verboseTooltip = "Stabilized Omega refit. Enhanced shields, sustained weapons an
 baseName = "bbattle1"
 maxHealth = 4063
 shieldRate = 28.800
-maxSpecialEnergy = 9750
-specialEnergyRate = 52.500
+
 
 
 
@@ -41,3 +40,12 @@ weaponHardpoints5 = "hp01"
 // Borg adaptation: native scout passive cloak detector, always on.
 weapon6 = "gdetect3"
 weaponHardpoints6 = "hp01"
+
+// Technology assimilation: native beam and bounded captured-special capacity.
+weapon7 = "gTechAssimBeam"
+weaponHardpoints7 = "hp01"
+maxExtraWeapons = 5
+
+maxSpecialEnergy = 4500
+
+specialEnergyRate = 45

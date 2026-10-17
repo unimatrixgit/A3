@@ -132,9 +132,6 @@ officerCost = 4
 
 buildTime = 30
 
-maxSpecialEnergy = 1500
-
-specialEnergyRate = 10
 
 hotkeyLabel = "HOTKEY_F10"
 
@@ -149,3 +146,7 @@ SHOW_SW_AUTONOMY = 1
 // Manual beam control alongside automatic defense. Native validity prevents duplicate reservations.
 weapon2 = "xbharvmanual"
 weaponHardpoints2 = "hp01"
+
+maxSpecialEnergy = 2500
+
+specialEnergyRate = 25

@@ -1,0 +1,71 @@
+//Name of the ODF file for the ordinance for this weapon
+
+// Mark this as a special weapon.
+special = 1
+
+//Display name for this weapon
+wpnName = "Technology Assimilator"
+
+//tooltips
+tooltip = "BORG_TECH_ASSIM"
+verboseTooltip = "BORG_TECH_ASSIM_V"
+
+//Location of the button in the speed panel
+//buttonSlot = 1
+buttonSlot = 2
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 5
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+//Time Delay between shots
+shotDelay = 0.0
+
+// Range within which the weapon will fire.
+range = 400000.0f
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "techassim"
+
+//Don't automatically switch to attack mode 
+switchToAttack = 0
+
+// needs a target
+targetEnemyCraft = 0
+targetEnemyBuildings = 0
+targetAlliedCraft = 1
+needTarget = 1
+
+//beneficial = 1
+
+// Get the classes for it
+
+
+
+
+
+// This doesn't have a hotkey, it's the Technology Assimilator station's weapon, not the Cubes'
+//hotkeyLabel = "HOTKEY_F7"
+// Compatible current cube variants.
+assignClass0 = "bbattle"
+assignClass1 = "bbattle1"
+assignClass2 = "bbattle2"
+assignClass3 = "bbattle3"
+assignClass4 = "bbattle4"
+assignClass5 = "bbattle5"
+assignClass6 = "bbattle6"
+assignClass7 = "bbattle8"
+assignClass8 = "blocutus"
+assignClass9 = "bmama"
+assignClass10 = "bomega1"
+assignClass11 = "bscout"
+assignClass12 = "tcube"
+assignClass13 = "xobbattle1"
+assignClass14 = "xobbattle2"
+assignClass15 = "xoblocutus"

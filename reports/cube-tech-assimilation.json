@@ -1,0 +1,208 @@
+{
+  "installed": true,
+  "capturedSpecialCapacities": {
+    "bbattle": 1,
+    "bbattle1": 1,
+    "bbattle2": 2,
+    "bbattle3": 3,
+    "bbattle4": 4,
+    "bbattle5": 4,
+    "bbattle6": 6,
+    "bbattle8": 1,
+    "blocutus": 3,
+    "bmama": 4,
+    "bomega1": 5,
+    "bscout": 1,
+    "tcube": 2,
+    "xobbattle1": 5,
+    "xobbattle2": 6,
+    "xoblocutus": 6
+  },
+  "cubeWeaponSlot": 7,
+  "cubeAssimilationWeapon": "gTechAssimBeam",
+  "cubeButton": "F7",
+  "stationTechnologyWeapon": "gTechAssim",
+  "stationCompatibility": [
+    "bbattle",
+    "bbattle1",
+    "bbattle2",
+    "bbattle3",
+    "bbattle4",
+    "bbattle5",
+    "bbattle6",
+    "bbattle8",
+    "blocutus",
+    "bmama",
+    "bomega1",
+    "bscout",
+    "tcube",
+    "xobbattle1",
+    "xobbattle2",
+    "xoblocutus"
+  ],
+  "energyCalculation": {
+    "capacityPerActiveAbility": 500,
+    "regenPerActiveAbility": 5,
+    "builtInAbilities": [
+      "transwarp",
+      "shield remodulation",
+      "green assimilation",
+      "technology assimilation"
+    ],
+    "passiveDetectionCounted": false,
+    "note": "Baseline balance calculation, not gameplay simulation. 500 reserve funds 10 seconds of a 50-energy/sec beam before regeneration."
+  },
+  "energy": {
+    "bbattle": {
+      "capturedSlots": 1,
+      "builtInActiveAbilities": 4,
+      "capacity": 2500,
+      "regenPerSecond": 25
+    },
+    "bbattle1": {
+      "capturedSlots": 1,
+      "builtInActiveAbilities": 4,
+      "capacity": 2500,
+      "regenPerSecond": 25
+    },
+    "bbattle2": {
+      "capturedSlots": 2,
+      "builtInActiveAbilities": 4,
+      "capacity": 3000,
+      "regenPerSecond": 30
+    },
+    "bbattle3": {
+      "capturedSlots": 3,
+      "builtInActiveAbilities": 4,
+      "capacity": 3500,
+      "regenPerSecond": 35
+    },
+    "bbattle4": {
+      "capturedSlots": 4,
+      "builtInActiveAbilities": 4,
+      "capacity": 4000,
+      "regenPerSecond": 40
+    },
+    "bbattle5": {
+      "capturedSlots": 4,
+      "builtInActiveAbilities": 4,
+      "capacity": 4000,
+      "regenPerSecond": 40
+    },
+    "bbattle6": {
+      "capturedSlots": 6,
+      "builtInActiveAbilities": 4,
+      "capacity": 5000,
+      "regenPerSecond": 50
+    },
+    "bbattle8": {
+      "capturedSlots": 1,
+      "builtInActiveAbilities": 4,
+      "capacity": 2500,
+      "regenPerSecond": 25
+    },
+    "blocutus": {
+      "capturedSlots": 3,
+      "builtInActiveAbilities": 4,
+      "capacity": 3500,
+      "regenPerSecond": 35
+    },
+    "bmama": {
+      "capturedSlots": 4,
+      "builtInActiveAbilities": 4,
+      "capacity": 4000,
+      "regenPerSecond": 40
+    },
+    "bomega1": {
+      "capturedSlots": 5,
+      "builtInActiveAbilities": 4,
+      "capacity": 4500,
+      "regenPerSecond": 45
+    },
+    "bscout": {
+      "capturedSlots": 1,
+      "builtInActiveAbilities": 4,
+      "capacity": 2500,
+      "regenPerSecond": 25
+    },
+    "tcube": {
+      "capturedSlots": 2,
+      "builtInActiveAbilities": 4,
+      "capacity": 3000,
+      "regenPerSecond": 30
+    },
+    "xobbattle1": {
+      "capturedSlots": 5,
+      "builtInActiveAbilities": 4,
+      "capacity": 4500,
+      "regenPerSecond": 45
+    },
+    "xobbattle2": {
+      "capturedSlots": 6,
+      "builtInActiveAbilities": 4,
+      "capacity": 5000,
+      "regenPerSecond": 50
+    },
+    "xoblocutus": {
+      "capturedSlots": 6,
+      "builtInActiveAbilities": 4,
+      "capacity": 5000,
+      "regenPerSecond": 50
+    },
+    "xbharvest": {
+      "capacity": 2500,
+      "regenPerSecond": 25,
+      "note": "Matches normal cube; one effect shared by automatic/manual controls."
+    },
+    "xbassimst": {
+      "capacity": 2500,
+      "regenPerSecond": 25,
+      "note": "Matches normal cube; one effect shared by automatic/manual controls."
+    }
+  },
+  "backup": "D:\\Xaramada-Modwork\\backups\\cube-tech-energy-20261017-111842",
+  "priorPartialBackup": [
+    "D:\\Xaramada-Modwork\\backups\\cube-tech-assimilation-20261017-111723"
+  ],
+  "files": [
+    "techtree\\a2_borg01.tt",
+    "techtree\\a2_borg02.tt",
+    "techtree\\a2_fed01.tt",
+    "techtree\\a2_fed02.tt",
+    "techtree\\a2_fed03.tt",
+    "techtree\\a2_fed04.tt",
+    "techtree\\a2_fed05.tt",
+    "techtree\\a2_fed06.tt",
+    "techtree\\a2_fed07.tt",
+    "techtree\\a2_fed08.tt",
+    "techtree\\a2_fed09.tt",
+    "techtree\\a2_fed10.tt",
+    "techtree\\demotech.tt",
+    "techtree\\earlytech.tt",
+    "techtree\\fulltech.tt",
+    "techtree\\nosci.tt",
+    "techtree\\nospweap.tt",
+    "techtree\\nosuper.tt",
+    "techtree\\tech1.tt",
+    "odf\\ships\\bbattle.odf",
+    "odf\\ships\\bbattle1.odf",
+    "odf\\ships\\bbattle2.odf",
+    "odf\\ships\\bbattle3.odf",
+    "odf\\ships\\bbattle4.odf",
+    "odf\\ships\\bbattle5.odf",
+    "odf\\ships\\bbattle6.odf",
+    "odf\\ships\\bbattle8.odf",
+    "odf\\ships\\blocutus.odf",
+    "odf\\ships\\bmama.odf",
+    "odf\\ships\\bomega1.odf",
+    "odf\\ships\\bscout.odf",
+    "odf\\ships\\tcube.odf",
+    "odf\\ships\\xobbattle1.odf",
+    "odf\\ships\\xobbattle2.odf",
+    "odf\\ships\\xoblocutus.odf",
+    "odf\\special_weapons\\gTechAssim.odf",
+    "odf\\stations\\xbassimst.odf",
+    "odf\\stations\\xbharvest.odf"
+  ],
+  "gameplayVerified": false
+}

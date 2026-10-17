@@ -27,7 +27,7 @@ saneCrewLossMethod = 1
 maxHealth = 18000
 
 // max number of assimilated weapons
-maxExtraWeapons = 9
+
 
 // Hitpoints
 
@@ -43,10 +43,10 @@ sensorsHitPoints = 3200
 shieldRate = 1600
 
 //Maximum Value of Special Energy
-maxSpecialEnergy = 2000
+
 
 //Rate at which special energy recharges (points per second... we think)
-specialEnergyRate = 1000
+
 
 //**********************************************************************
 
@@ -177,3 +177,12 @@ weaponHardpoints5 = "hp01"
 // Borg adaptation: native scout passive cloak detector, always on.
 weapon6 = "gdetect3"
 weaponHardpoints6 = "hp01"
+
+// Technology assimilation: native beam and bounded captured-special capacity.
+weapon7 = "gTechAssimBeam"
+weaponHardpoints7 = "hp01"
+maxExtraWeapons = 1
+
+maxSpecialEnergy = 2500
+
+specialEnergyRate = 25
