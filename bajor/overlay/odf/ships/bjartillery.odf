@@ -20,18 +20,18 @@
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxhealth = 1150
+maxhealth = 575
 
 // Hitpoints
 
-shieldgeneratorhitpoints = 2212.5
-engineshitpoints = 2212.5
-weaponshitpoints = 2212.5
-lifesupporthitpoints = 2212.5
-sensorshitpoints = 2212.5
+shieldgeneratorhitpoints = 1475
+engineshitpoints = 1475
+weaponshitpoints = 1475
+lifesupporthitpoints = 1475
+sensorshitpoints = 1475
 
 //Rate at which shield recharges (points per second... we think)
-shieldrate = 11.5
+shieldrate = 5.75
 
 //**********************************************************************
 //SHIP NAMES
@@ -101,13 +101,13 @@ trekPhysicsFile = "fdestroyerphys.odf"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 225
-metalCost = 0
-latinumCost = 0
-biomatterCost = 0
-crewCost = 250
-officerCost = 8
-buildTime = 25
+dilithiumcost = 225
+metalcost = 0
+latinumcost = 0
+biomattercost = 0
+crewcost = 250
+officercost = 8
+buildtime = 25
 
 unitName = "Bajoran Long-Range Defense Vessel"
 
@@ -144,3 +144,7 @@ shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
 sensorstargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
 hulltargethardpoints = "hp06" "hp08" "hp10"  "hp12" "hp14" "hp16"
 criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19"
+
+maxspecialenergy = 1000
+
+specialenergyrate = 15

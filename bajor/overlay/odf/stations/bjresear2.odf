@@ -24,10 +24,10 @@ race = "bajoran"
 //Metal cost to build
 
 //Max Shield Strength & Begining Shield Strength <1000
-maxhealth = 2200
+maxhealth = 1100
 
 //Rate at which shield recharges (points per second... we think)
-shieldrate = 22
+shieldrate = 11
 
 //animate looped upon build
 animation = 2
@@ -67,11 +67,11 @@ intrinsicValue = 1.00f
 
 //****************************************************************************************************************************************
 //SYSTEM HITPOINTS
-shieldgeneratorhitpoints = 3000
-enginesHitPoints = 0
-weaponsHitPoints = 0
-lifesupporthitpoints = 3000
-sensorshitpoints = 3000
+shieldgeneratorhitpoints = 2000
+engineshitpoints = 0
+weaponshitpoints = 0
+lifesupporthitpoints = 2000
+sensorshitpoints = 2000
 
 //**********************************************************************
 //MESSAGE & SOUND PARAMETERS
@@ -98,13 +98,13 @@ transporter = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 0
-metalCost = 1250
-latinumCost = 0
-biomatterCost = 0
-crewCost = 200
-officerCost = 15
-buildTime = 150
+dilithiumcost = 0
+metalcost = 1250
+latinumcost = 0
+biomattercost = 0
+crewcost = 200
+officercost = 15
+buildtime = 150
 
 basename = "br3_bjresear2"
 
@@ -125,3 +125,7 @@ hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
 criticaltargethardpoints = "hp01"
 
 scalesod = 1.402322
+
+maxspecialenergy = 0
+
+specialenergyrate = 0

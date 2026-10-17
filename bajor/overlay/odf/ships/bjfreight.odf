@@ -19,18 +19,18 @@
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxhealth = 840
+maxhealth = 420
 
 // Hitpoints
 
-shieldgeneratorhitpoints = 750
-engineshitpoints = 750
-weaponshitpoints = 750
-lifesupporthitpoints = 750
-sensorshitpoints = 750
+shieldgeneratorhitpoints = 500
+engineshitpoints = 500
+weaponshitpoints = 500
+lifesupporthitpoints = 500
+sensorshitpoints = 500
 
 //Rate at which shield recharges (points per second... we think)
-shieldrate = 8.4
+shieldrate = 4.2
 
 // which resources can this station process?
 resourcesCanHandle = "dilithium" "latinum"
@@ -86,13 +86,13 @@ combat = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 150
-metalCost = 0
-latinumCost = 0
-biomatterCost = 0
-crewCost = 100
-officerCost = 1
-buildTime = 13
+dilithiumcost = 150
+metalcost = 0
+latinumcost = 0
+biomattercost = 0
+crewcost = 100
+officercost = 1
+buildtime = 13
 
 
 unitName = "Bajoran Resource Freighter"
@@ -138,3 +138,11 @@ weapon1 = "gmineDilithium"
 weapon2 = "gmineLatinum"
 weaponhardpoints1 = "hp06"
 weaponhardpoints2 = "hp06"
+
+maxspecialenergy = 0
+
+specialenergyrate = 0
+
+weaponyellow = 1.0
+
+weaponred = 1.0

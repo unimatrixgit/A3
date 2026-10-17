@@ -32,10 +32,10 @@ officerGain = 100
 maximumUpgrades = 6
 
 //Max Shield Strength & Begining Shield Strength <1000
-maxhealth = 10000
+maxhealth = 5000
 
 //Rate at which shield recharges (points per second... we think)
-shieldrate = 100
+shieldrate = 50
 
 //Shield absorbs all damage until it's gone
 shieldProtection = 1.0
@@ -154,11 +154,11 @@ weapon15 = "fbasepulse"
 
 // Hitpoints
 
-shieldgeneratorhitpoints = 15000
-enginesHitPoints = 0
-weaponshitpoints = 15000
-lifesupporthitpoints = 15000
-sensorshitpoints = 15000
+shieldgeneratorhitpoints = 10000
+engineshitpoints = 0
+weaponshitpoints = 10000
+lifesupporthitpoints = 10000
+sensorshitpoints = 10000
 
 //**********************************************************************
 
@@ -229,13 +229,13 @@ buildItem6 = "bjscout"
 unitName = "Deep Space 9"
 tooltip = "Deep Space 9"
 verboseTooltip = "Bajoran Militia Headquarters. Extrapolated Bajoran orbital headquarters."
-dilithiumCost = 2000
-metalCost = 2000
-latinumCost = 0
-biomatterCost = 0
-crewCost = 150
-officerCost = 10
-buildTime = 100
+dilithiumcost = 2000
+metalcost = 2000
+latinumcost = 0
+biomattercost = 0
+crewcost = 150
+officercost = 10
+buildtime = 100
 race = "bajoran"
 possibleCraftNames = "Deep Space 9"
 baseName = "fds9"
@@ -265,3 +265,7 @@ hullTargetHardpoints = "hp30" "hp31" "hp32" "hp33"
 criticalTargetHardpoints = "hp17" "hp19"
 dockingHardpoint = "hp69"
 repairHardpoint = "hp02"
+
+maxspecialenergy = 0
+
+specialenergyrate = 0

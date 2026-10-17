@@ -22,18 +22,18 @@
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxhealth = 600
+maxhealth = 300
 
 // Hitpoints
 
-shieldgeneratorhitpoints = 750
-engineshitpoints = 750
-weaponshitpoints = 750
-lifesupporthitpoints = 750
-sensorshitpoints = 750
+shieldgeneratorhitpoints = 500
+engineshitpoints = 500
+weaponshitpoints = 500
+lifesupporthitpoints = 500
+sensorshitpoints = 500
 
 //Rate at which shield recharges (points per second... we think)
-shieldrate = 6
+shieldrate = 3
 
 //**********************************************************************
 //SHIP NAMES
@@ -78,13 +78,13 @@ hotkeyLabel = "HOTKEY_F4"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 400
-metalCost = 60
-latinumCost = 0
-biomatterCost = 0
-crewCost = 100
-officerCost = 4
-buildTime = 30
+dilithiumcost = 400
+metalcost = 60
+latinumcost = 0
+biomattercost = 0
+crewcost = 100
+officercost = 4
+buildtime = 30
 
 unitName = "Bajoran Colonial Transport"
 
@@ -117,3 +117,7 @@ shieldgeneratortargethardpoints = "hp07" "hp08" "hp09"
 sensorstargethardpoints = "hp10" "hp11" "hp12"
 hulltargethardpoints = "hp13" "hp14" "hp15" "hp16"
 criticaltargethardpoints = "hp17" "hp18" "hp19"
+
+maxspecialenergy = 1000
+
+specialenergyrate = 15

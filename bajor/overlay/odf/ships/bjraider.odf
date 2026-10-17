@@ -20,18 +20,18 @@
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxhealth = 150
+maxhealth = 75
 
 // Hitpoints
 
-shieldgeneratorhitpoints = 225
-engineshitpoints = 225
-weaponshitpoints = 225
-lifesupporthitpoints = 225
-sensorshitpoints = 225
+shieldgeneratorhitpoints = 150
+engineshitpoints = 150
+weaponshitpoints = 150
+lifesupporthitpoints = 150
+sensorshitpoints = 150
 
 //Rate at which shield recharges (points per second... we think)
-shieldrate = 1.5
+shieldrate = 0.75
 
 
 //**********************************************************************
@@ -87,13 +87,13 @@ trekPhysicsFile = "fscoutphys.odf"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 270
-metalCost = 0
-latinumCost = 0
-biomatterCost = 0
-crewCost = 3
-officerCost = 4
-buildTime = 15
+dilithiumcost = 270
+metalcost = 0
+latinumcost = 0
+biomattercost = 0
+crewcost = 3
+officercost = 4
+buildtime = 15
 
 unitName = "Bajoran Sub-Impulse Raider"
 
@@ -130,3 +130,7 @@ hulltargethardpoints = "hp06" "hp08" "hp10"  "hp12" "hp14" "hp16" "hp18" "hp20" 
 
 criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp20" "hp20"
 
+
+maxspecialenergy = 0
+
+specialenergyrate = 0

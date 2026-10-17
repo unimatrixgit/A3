@@ -48,18 +48,18 @@
     },
     {
       "path": "odf/stations/bjyard.odf",
-      "sourceSha256": "09484513416b7ab853d7f6b154c94f1864459b5faff87f933aef96a5ca5d9509",
-      "sha256": "29775309e4f48add258b3af511a00837a4e82567cc573862c33d631a1ee91b4e"
+      "sourceSha256": "4dc220e9a9db94e34b274b916ae28d377e8701e877d66b22665eb0409a71eb54",
+      "sha256": "3483190e9bbafad0344720132c578d56eff95fb0a575c502ecf5f6ac7af951d2"
     },
     {
       "path": "odf/stations/bjyard2.odf",
-      "sourceSha256": "973a841573515158fb4a0d6924e98a9ecb6d3d0e399dc8329df907ec4061306b",
-      "sha256": "2bc1dab3cb76e63d9ff05b4c275c7b61c45a81245c274440ca43db41d94e9d84"
+      "sourceSha256": "abd5244f9bc9fa9e6641cae3242ad81e453bbc3aa664a954ea546423b5cbbd0c",
+      "sha256": "09c867c109c54422d2d31105d307bfbb72d4042f6d2cfb61da2d4a63e7f08be9"
     },
     {
       "path": "odf/stations/bjyard3.odf",
-      "sourceSha256": "3c5186020e133519abe523c833a9c66fd1beb5d2b1eacacfc1efe8962bb37571",
-      "sha256": "8afdbe06bb12ea48a0601e2d39eeaaa1a749ba61f87f04b28f4b9a6e9af88247"
+      "sourceSha256": "fb81d1905505aaac689bb9e0b0777cdfc7c33fdb46eb365ba9ba698c96db5908",
+      "sha256": "363b12a5f3342d3da585d9e002f0c7920bc9aa719f4c971504b4699371152f51"
     },
     {
       "path": "odf/stations/bjresear.odf",
@@ -469,7 +469,7 @@
       "value": "\"life_support\""
     }
   ],
-  "applied": false,
+  "applied": true,
   "runtimeVerified": false,
   "sequence": [
     "Resolve native Federation research settings explicitly",
@@ -481,5 +481,6 @@
     "repair-enabled yards",
     "freighter custom physics",
     "Kira Enterprise-E baseline"
-  ]
+  ],
+  "backup": "D:\\Xaramada-Modwork\\backups\\finish-pending-updates-20261017-040042"
 }

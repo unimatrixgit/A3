@@ -25,13 +25,13 @@ hotkeyLabel = "HOTKEY_F3"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 400
-metalCost = 200
-latinumCost = 0
-biomatterCost = 0
-crewCost = 0
-officerCost = 1
-buildTime = 120
+dilithiumcost = 400
+metalcost = 200
+latinumcost = 0
+biomattercost = 0
+crewcost = 0
+officercost = 1
+buildtime = 120
 
 eventacknowledge = "PodAcknowledge"
 
@@ -43,12 +43,28 @@ basename = "br3_bjpod13"
 
 scalesod = 1.0
 
-shieldgeneratorhitpoints = 120
+shieldgeneratorhitpoints = 80
 
-lifesupporthitpoints = 120
+lifesupporthitpoints = 80
 
-sensorshitpoints = 120
+sensorshitpoints = 80
 
-maxhealth = 450
+maxhealth = 300
 
-shieldrate = 1.25
+shieldrate = 1.0
+
+isshipupgrade = 1
+
+upgradelevel = 2
+
+upgrademultiplier = 1.25
+
+upgradesystem = "sensors"
+
+maxspecialenergy = 0
+
+specialenergyrate = 0
+
+engineshitpoints = 0
+
+weaponshitpoints = 0

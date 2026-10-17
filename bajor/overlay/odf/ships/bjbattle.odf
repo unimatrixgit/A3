@@ -16,30 +16,30 @@
 //Number of crew required to build ship & Starting crew
 
 // don't use the horrible old % crew loss on damage
-saneCrewLossMethod = 1
+sanecrewlossmethod = 1
 
 //Dilithium Cost to build
 
 //Metal Cost to build
 //Max Shield Strength & Begining Shield Strength <500
-maxhealth = 2200
+maxhealth = 1100
 
 // Hitpoints
 
-shieldgeneratorhitpoints = 4500
-engineshitpoints = 4500
-weaponshitpoints = 4500
-lifesupporthitpoints = 4500
-sensorshitpoints = 4500
+shieldgeneratorhitpoints = 3000
+engineshitpoints = 3000
+weaponshitpoints = 3000
+lifesupporthitpoints = 3000
+sensorshitpoints = 3000
 
 //Rate at which shield recharges (points per second... we think)
-shieldrate = 22
+shieldrate = 11
 
 //Maximum Value of Special Energy
-maxSpecialEnergy = 1100
+maxspecialenergy = 1100
 
 //Rate at which special energy recharges (points per second... we think)
-specialEnergyRate = 11
+specialenergyrate = 11
 
 //**********************************************************************
 //SHIP NAMES
@@ -90,10 +90,10 @@ weapon2 = "fsovereignphot"
 //**********************************************************************
 //CREW STATUS MULTIPLIERS
 //The multiplier for the delay between shots for weapons while in yellow status
-weaponYellow = 1.0f
+weaponyellow = 1.0f
 
 //The multiplier for the delay between shots for weapons while in red status
-weaponRed = 2.0f
+weaponred = 2.0f
 //**********************************************************************
 
 
@@ -114,13 +114,13 @@ trekPhysicsFile = "fbattlephys.odf"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 450
-metalCost = 100
-latinumCost = 0
-biomatterCost = 0
-crewCost = 700
-officerCost = 12
-buildTime = 22
+dilithiumcost = 450
+metalcost = 100
+latinumcost = 0
+biomattercost = 0
+crewcost = 700
+officercost = 12
+buildtime = 22
 
 unitName = "Bajoran Militia Battleship"
 

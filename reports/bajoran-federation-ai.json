@@ -4,28 +4,28 @@
   "files": [
     {
       "path": "AI/AIPs/bajoran_build_list.aip",
-      "sourceSha256": "117540c5b236520146b737e38706b3516de816598382f9e3d6ba76961bd2e5b8",
+      "sourceSha256": "bc3a70610f244911b04ca9b4c2c56a22b1bd56eea0e253113890a5296553c746",
       "sha256": "bc3a70610f244911b04ca9b4c2c56a22b1bd56eea0e253113890a5296553c746"
     },
     {
       "path": "AI/AIPs/bajoran_instant_action_build_list.aip",
-      "sourceSha256": "117540c5b236520146b737e38706b3516de816598382f9e3d6ba76961bd2e5b8",
-      "sha256": "4fbdad684cb4983d90026c9077072dbb936dbe7019775364c68cac2530873f78"
+      "sourceSha256": "4fbdad684cb4983d90026c9077072dbb936dbe7019775364c68cac2530873f78",
+      "sha256": "80501b58bb8af023d07740e11fd5cbbce20ac634253ed1769b69c0df1c9102a6"
     },
     {
       "path": "AI/AIPs/bajoran_offensive_list.aip",
-      "sourceSha256": "117540c5b236520146b737e38706b3516de816598382f9e3d6ba76961bd2e5b8",
+      "sourceSha256": "7037cd6a95e2a8aad8d8084c78160df315efc56c36a16edf2ee722ed034f315a",
       "sha256": "7037cd6a95e2a8aad8d8084c78160df315efc56c36a16edf2ee722ed034f315a"
     },
     {
       "path": "AI/AIPs/bajoran_defensive_list.aip",
-      "sourceSha256": "117540c5b236520146b737e38706b3516de816598382f9e3d6ba76961bd2e5b8",
+      "sourceSha256": "a2716e2f0f2c7fe893494e01818e78318ab5d61cf0c055c866b9c992cfc881c1",
       "sha256": "a2716e2f0f2c7fe893494e01818e78318ab5d61cf0c055c866b9c992cfc881c1"
     },
     {
       "path": "AI/AIPs/bajoran_endgame_list.aip",
-      "sourceSha256": "117540c5b236520146b737e38706b3516de816598382f9e3d6ba76961bd2e5b8",
-      "sha256": "67ead961c7fcd667089e52dbc1b61243467afd64efe20a20954ced0d3ce33f7a"
+      "sourceSha256": "67ead961c7fcd667089e52dbc1b61243467afd64efe20a20954ced0d3ce33f7a",
+      "sha256": "582f8445b1ccf19a3a852d8e542756a68d3fe7bcfb60daaf972b1167c0a93f33"
     }
   ],
   "profiles": [
@@ -53,9 +53,9 @@
     {
       "profile": "instant_action_build_list",
       "federationSource": "D:/armadaIII/AI/AIPs/federation_instant_action_build_list.aip",
-      "federationSourceSha256": "8ffd528911c4aa3840a518f027b502183952f5e8937308d98fc730d42d21583d",
-      "sourceRows": 109,
-      "mappedRows": 114,
+      "federationSourceSha256": "b4a5bf914622ca4d396a231af7e028ecc34348c2580e6a76088422496564a5a3",
+      "sourceRows": 103,
+      "mappedRows": 108,
       "injectedPrerequisites": [
         "bjyard",
         "bjresear",
@@ -118,9 +118,8 @@
       "federationSource": "D:/armadaIII/AI/AIPs/federation_endgame_list.aip",
       "federationSourceSha256": "e8f6d19e73ddcf0be2c1df2ff2bddefafedafdc8e0622ae522dc94a253d2a193",
       "sourceRows": 62,
-      "mappedRows": 73,
+      "mappedRows": 72,
       "injectedPrerequisites": [
-        "bjyard2",
         "xbjuconst",
         "bjupgrade",
         "bjinterceptor",
@@ -140,6 +139,7 @@
     }
   ],
   "mapping": {
+    "xhfhero": "bjnerys",
     "fbase": "bjbase",
     "fbase2": "bjbase",
     "fds9": "bjbase",
@@ -229,5 +229,5 @@
   "runtimeVerified": false,
   "harvesterFixUntouched": true,
   "scope": "Only five Bajoran AI profiles. Active Federation profiles and all ship/building/audio/visual files untouched.",
-  "backup": "D:\\Xaramada-Modwork\\backups\\bajoran-federation-ai-20261017-011230"
+  "backup": "D:\\Xaramada-Modwork\\backups\\bajoran-federation-ai-20261017-040219"
 }

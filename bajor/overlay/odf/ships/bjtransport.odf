@@ -18,18 +18,18 @@ transporter = 0
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxhealth = 220
+maxhealth = 110
 
 
 // Hitpoints
-shieldgeneratorhitpoints = 322.5
-engineshitpoints = 322.5
-weaponshitpoints = 322.5
-lifesupporthitpoints = 322.5
-sensorshitpoints = 322.5
+shieldgeneratorhitpoints = 215
+engineshitpoints = 215
+weaponshitpoints = 215
+lifesupporthitpoints = 215
+sensorshitpoints = 215
 
 //Rate at which shield recharges (points per second... we think)
-shieldrate = 2.2
+shieldrate = 1.1
 
 //**********************************************************************
 //SHIP NAMES
@@ -79,13 +79,13 @@ trekPhysicsFile = "fscoutphys.odf"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 145
-metalCost = 0
-latinumCost = 0
-biomatterCost = 0
-crewCost = 3
-officerCost = 7
-buildTime = 12
+dilithiumcost = 145
+metalcost = 0
+latinumcost = 0
+biomattercost = 0
+crewcost = 3
+officercost = 7
+buildtime = 12
 
 
 unitName = "Bajoran Antares Transport"
@@ -125,3 +125,7 @@ hulltargethardpoints = "hp06" "hp08" "hp10"  "hp12" "hp14" "hp16" "hp18" "hp20" 
 
 criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp20" "hp20"
 
+
+maxspecialenergy = 0
+
+specialenergyrate = 0
