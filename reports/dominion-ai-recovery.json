@@ -1,0 +1,269 @@
+{
+  "installed": true,
+  "files": [
+    "AI\\AIPs\\dominion_build_list.aip",
+    "AI\\AIPs\\dominion_defensive_list.aip",
+    "AI\\AIPs\\dominion_endgame_list.aip",
+    "AI\\AIPs\\dominion_instant_action_build_list.aip",
+    "AI\\AIPs\\dominion_offensive_list.aip"
+  ],
+  "backup": "D:\\Xaramada-Modwork\\backups\\dominion-ai-20261017-105031",
+  "findings": [
+    "Metal producer was after metal-heavy opening research/fleet expenditure.",
+    "Hero shipyard required dtrading which no plan ordered.",
+    "Finite lifetime row limits restricted replacement production."
+  ],
+  "dependencyChecks": [
+    {
+      "unit": "dbase",
+      "prerequisites": [],
+      "producersAvailable": [
+        "dconst"
+      ]
+    },
+    {
+      "unit": "dconst",
+      "prerequisites": [
+        "dbase"
+      ],
+      "producersAvailable": [
+        "dbase"
+      ]
+    },
+    {
+      "unit": "dorbital",
+      "prerequisites": [],
+      "producersAvailable": [
+        "dconst"
+      ]
+    },
+    {
+      "unit": "dmining",
+      "prerequisites": [],
+      "producersAvailable": [
+        "dconst"
+      ]
+    },
+    {
+      "unit": "dfreight",
+      "prerequisites": [
+        "dbase",
+        "dmining"
+      ],
+      "producersAvailable": [
+        "dbase"
+      ]
+    },
+    {
+      "unit": "dyard",
+      "prerequisites": [
+        "dbase"
+      ],
+      "producersAvailable": [
+        "dconst"
+      ]
+    },
+    {
+      "unit": "dscout",
+      "prerequisites": [
+        "dyard"
+      ],
+      "producersAvailable": [
+        "dyard"
+      ]
+    },
+    {
+      "unit": "ddestroy",
+      "prerequisites": [
+        "dyard"
+      ],
+      "producersAvailable": [
+        "dyard"
+      ]
+    },
+    {
+      "unit": "dresear",
+      "prerequisites": [
+        "dbase"
+      ],
+      "producersAvailable": [
+        "dconst"
+      ]
+    },
+    {
+      "unit": "dcruise1",
+      "prerequisites": [
+        "dyard",
+        "dresear"
+      ],
+      "producersAvailable": [
+        "dyard"
+      ]
+    },
+    {
+      "unit": "dcruise2",
+      "prerequisites": [
+        "dyard",
+        "dresear"
+      ],
+      "producersAvailable": [
+        "dyard"
+      ]
+    },
+    {
+      "unit": "dcolony",
+      "prerequisites": [
+        "dyard",
+        "dresear"
+      ],
+      "producersAvailable": [
+        "dyard"
+      ]
+    },
+    {
+      "unit": "xduconst",
+      "prerequisites": [
+        "dbase"
+      ],
+      "producersAvailable": [
+        "dbase"
+      ]
+    },
+    {
+      "unit": "dyard2",
+      "prerequisites": [
+        "dyard",
+        "dresear"
+      ],
+      "producersAvailable": [
+        "dconst"
+      ]
+    },
+    {
+      "unit": "dresear2",
+      "prerequisites": [
+        "dyard",
+        "dresear"
+      ],
+      "producersAvailable": [
+        "dconst"
+      ]
+    },
+    {
+      "unit": "dupgrade",
+      "prerequisites": [
+        "dresear",
+        "dresear2"
+      ],
+      "producersAvailable": [
+        "xduconst"
+      ]
+    },
+    {
+      "unit": "dbattle",
+      "prerequisites": [
+        "dyard2"
+      ],
+      "producersAvailable": [
+        "dyard2"
+      ]
+    },
+    {
+      "unit": "dompod11",
+      "prerequisites": [
+        "dupgrade"
+      ],
+      "producersAvailable": [
+        "dupgrade"
+      ]
+    },
+    {
+      "unit": "dompod12",
+      "prerequisites": [
+        "dupgrade"
+      ],
+      "producersAvailable": [
+        "dupgrade"
+      ]
+    },
+    {
+      "unit": "dbattle2",
+      "prerequisites": [
+        "dyard2",
+        "dupgrade"
+      ],
+      "producersAvailable": [
+        "dyard2"
+      ]
+    },
+    {
+      "unit": "dtrading",
+      "prerequisites": [
+        "dbase"
+      ],
+      "producersAvailable": [
+        "dconst"
+      ]
+    },
+    {
+      "unit": "dyard3",
+      "prerequisites": [
+        "dtrading",
+        "dyard2",
+        "dresear2",
+        "dupgrade"
+      ],
+      "producersAvailable": [
+        "xduconst"
+      ]
+    },
+    {
+      "unit": "xhdhero",
+      "prerequisites": [
+        "dyard3"
+      ],
+      "producersAvailable": [
+        "dyard3"
+      ]
+    },
+    {
+      "unit": "dfreight",
+      "prerequisites": [
+        "dbase",
+        "dmining"
+      ],
+      "producersAvailable": [
+        "dbase"
+      ]
+    },
+    {
+      "unit": "ddestroy",
+      "prerequisites": [
+        "dyard"
+      ],
+      "producersAvailable": [
+        "dyard"
+      ]
+    },
+    {
+      "unit": "dbattle",
+      "prerequisites": [
+        "dyard2"
+      ],
+      "producersAvailable": [
+        "dyard2"
+      ]
+    },
+    {
+      "unit": "dbattle2",
+      "prerequisites": [
+        "dyard2",
+        "dupgrade"
+      ],
+      "producersAvailable": [
+        "dyard2"
+      ]
+    }
+  ],
+  "gameplayVerified": false
+}
