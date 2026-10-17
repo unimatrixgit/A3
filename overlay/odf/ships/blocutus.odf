@@ -122,7 +122,8 @@ weaponRed = 5.0f
 
 
 //**********************************************************************
-//MESSAGE & SOUND PARAMETERS
+//MESSAGE & SOUND PARAMETERS
+
 
 //**********************************************************************
 
@@ -147,16 +148,6 @@ ScaleSOD = 1.3f
 // Xaramada: two normal weapons and reusable specials on F4 / F5 / F6.
 
 // Xaramada: two normal weapons and reusable specials on F4 / F5 / F6.
-weapon1 = "bbphas"
-weaponHardpoints1 = "hp01" "hp02" "hp07" "hp08" "hp11" "hp14"
-weapon2 = "bbphot"
-weaponHardpoints2 = "hp04" "hp06" "hp09" "hp13" "hp15"
-weapon3 = "xacassim"
-weaponHardpoints3 = "hp01"
-weapon4 = "xactwarp"
-weaponHardpoints4 = "hp01"
-weapon5 = "xacremod"
-weaponHardpoints5 = "hp01"
 
 
 
@@ -171,29 +162,52 @@ officerCost = 7
 buildTime = 150
 
 // Additional green holding/assimilation beam, separate from the existing blue beam.
-weapon6 = "xacgreen"
-weaponHardpoints6 = "hp01"
 
-eventSelect = "XV_blocutus_Select"
 
-eventAcknowledge = "XV_blocutus_Acknowledge"
 
-eventAttack = "XV_blocutus_Attack"
 
-eventStop = "XV_blocutus_Stop"
 
-eventMove = "XV_blocutus_Move"
 
-eventRepair = "XV_blocutus_Repair"
 
-eventRedAlert = "XV_blocutus_RedAlert"
 
-eventYellowAlert = "XV_blocutus_YellowAlert"
 
-eventGreenAlert = "XV_blocutus_GreenAlert"
 
-eventTransport = "XV_blocutus_Transport"
 
-eventSelfDestruct = "XV_blocutus_SelfDestruct"
 
-eventDecommission = "XV_blocutus_Decommission"
+
+
+
+
+
+
+
+
+
+
+
+
+
+eventSelect = "XLocutus_Select"
+eventAcknowledge = "XLocutus_Acknowledge"
+eventMove = "XLocutus_Move"
+eventAttack = "XLocutus_Attack"
+eventStop = "XLocutus_Stop"
+eventRepair = "XLocutus_Repair"
+eventRedAlert = "XLocutus_RedAlert"
+eventYellowAlert = "XLocutus_YellowAlert"
+eventGreenAlert = "XLocutus_GreenAlert"
+eventTransport = "XLocutus_Transport"
+eventSelfDestruct = "XLocutus_SelfDestruct"
+eventDecommission = "XLocutus_Decommission"
+
+// Blue auto-assimilation beam removed. Remaining weapon order and hardpoints preserved.
+weapon1 = "bbphas"
+weaponHardpoints1 = "hp01" "hp02" "hp07" "hp08" "hp11" "hp14"
+weapon2 = "bbphot"
+weaponHardpoints2 = "hp04" "hp06" "hp09" "hp13" "hp15"
+weapon3 = "xactwarp"
+weaponHardpoints3 = "hp01"
+weapon4 = "xacremod"
+weaponHardpoints4 = "hp01"
+weapon5 = "xacgreen"
+weaponHardpoints5 = "hp01"

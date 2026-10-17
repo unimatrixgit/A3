@@ -7,3 +7,5 @@ Back up current armadaIII files before replacing them. Preserve existing stats w
 Keep `status.json` and `build.log` truthful; file validation is not in-game verification.
 
 Hero ships are buildable only. Do not add heroes to standard, minimal, super, CTF or other starting fleets. This latest user instruction supersedes earlier one-starting-hero requirements and historical starter scripts. Keep hero production and voice events intact.
+
+Borg cubes must not carry the blue Auto-Assimilator weapon (xacassim/gborgbor). Keep green holding/assimilation, transwarp, remodulation and remaining weapons in their existing relative order with matching hardpoints; no empty weapon slots. Do not rerun historical beam-addition scripts unchanged.

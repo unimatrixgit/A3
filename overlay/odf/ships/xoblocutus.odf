@@ -7,8 +7,6 @@ maxHealth = 938
 shieldRate = 30.000
 maxSpecialEnergy = 1500
 specialEnergyRate = 15.000
-weapon1 = "xow_bbphas"
-weapon2 = "xow_bbphot"
 
 
 
@@ -27,29 +25,52 @@ officerCost = 8
 buildTime = 171
 
 // Additional green holding/assimilation beam, separate from the existing blue beam.
-weapon6 = "xacgreen"
-weaponHardpoints6 = "hp01"
 
-eventSelect = "XV_xoblocutus_Select"
 
-eventAcknowledge = "XV_xoblocutus_Acknowledge"
 
-eventAttack = "XV_xoblocutus_Attack"
 
-eventStop = "XV_xoblocutus_Stop"
 
-eventMove = "XV_xoblocutus_Move"
 
-eventRepair = "XV_xoblocutus_Repair"
 
-eventRedAlert = "XV_xoblocutus_RedAlert"
 
-eventYellowAlert = "XV_xoblocutus_YellowAlert"
 
-eventGreenAlert = "XV_xoblocutus_GreenAlert"
 
-eventTransport = "XV_xoblocutus_Transport"
 
-eventSelfDestruct = "XV_xoblocutus_SelfDestruct"
 
-eventDecommission = "XV_xoblocutus_Decommission"
+
+
+
+
+
+
+
+
+
+
+
+
+
+eventSelect = "XLocutus_Select"
+eventAcknowledge = "XLocutus_Acknowledge"
+eventMove = "XLocutus_Move"
+eventAttack = "XLocutus_Attack"
+eventStop = "XLocutus_Stop"
+eventRepair = "XLocutus_Repair"
+eventRedAlert = "XLocutus_RedAlert"
+eventYellowAlert = "XLocutus_YellowAlert"
+eventGreenAlert = "XLocutus_GreenAlert"
+eventTransport = "XLocutus_Transport"
+eventSelfDestruct = "XLocutus_SelfDestruct"
+eventDecommission = "XLocutus_Decommission"
+
+// Blue auto-assimilation beam removed. Remaining weapon order and hardpoints preserved.
+weapon1 = "xow_bbphas"
+weaponHardpoints1 = "hp01" "hp02" "hp07" "hp08" "hp11" "hp14"
+weapon2 = "xow_bbphot"
+weaponHardpoints2 = "hp04" "hp06" "hp09" "hp13" "hp15"
+weapon3 = "xactwarp"
+weaponHardpoints3 = "hp01"
+weapon4 = "xacremod"
+weaponHardpoints4 = "hp01"
+weapon5 = "xacgreen"
+weaponHardpoints5 = "hp01"

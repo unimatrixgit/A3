@@ -132,16 +132,6 @@ hotkeyLabel = "HOTKEY_F2"
 // Xaramada: two normal weapons and reusable specials on F4 / F5 / F6.
 
 // Xaramada: two normal weapons and reusable specials on F4 / F5 / F6.
-weapon1 = "bbphas"
-weaponHardpoints1 = "hp01" "hp06" "hp11" "hp16" "hp21" "hp26"
-weapon2 = "bbphot"
-weaponHardpoints2 = "hp02" "hp07" "hp12" "hp17" "hp22" "hp27"
-weapon3 = "xacassim"
-weaponHardpoints3 = "hp01"
-weapon4 = "xactwarp"
-weaponHardpoints4 = "hp01"
-weapon5 = "xacremod"
-weaponHardpoints5 = "hp01"
 
 
 
@@ -158,5 +148,15 @@ officerCost = 7
 buildTime = 120
 
 // Additional green holding/assimilation beam, separate from the existing blue beam.
-weapon6 = "xacgreen"
-weaponHardpoints6 = "hp01"
+
+// Blue auto-assimilation beam removed. Remaining weapon order and hardpoints preserved.
+weapon1 = "bbphas"
+weaponHardpoints1 = "hp01" "hp06" "hp11" "hp16" "hp21" "hp26"
+weapon2 = "bbphot"
+weaponHardpoints2 = "hp02" "hp07" "hp12" "hp17" "hp22" "hp27"
+weapon3 = "xactwarp"
+weaponHardpoints3 = "hp01"
+weapon4 = "xacremod"
+weaponHardpoints4 = "hp01"
+weapon5 = "xacgreen"
+weaponHardpoints5 = "hp01"

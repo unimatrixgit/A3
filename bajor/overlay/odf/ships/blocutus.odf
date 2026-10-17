@@ -122,7 +122,8 @@ weaponRed = 5.0f
 
 
 //**********************************************************************
-//MESSAGE & SOUND PARAMETERS
+//MESSAGE & SOUND PARAMETERS
+
 
 //**********************************************************************
 
@@ -147,16 +148,6 @@ ScaleSOD = 1.3f
 // Xaramada: two normal weapons and reusable specials on F4 / F5 / F6.
 
 // Xaramada: two normal weapons and reusable specials on F4 / F5 / F6.
-weapon1 = "bbphas"
-weaponHardpoints1 = "hp01" "hp02" "hp07" "hp08" "hp11" "hp14"
-weapon2 = "bbphot"
-weaponHardpoints2 = "hp04" "hp06" "hp09" "hp13" "hp15"
-weapon3 = "xacassim"
-weaponHardpoints3 = "hp01"
-weapon4 = "xactwarp"
-weaponHardpoints4 = "hp01"
-weapon5 = "xacremod"
-weaponHardpoints5 = "hp01"
 
 
 
@@ -171,8 +162,7 @@ officerCost = 7
 buildTime = 150
 
 // Additional green holding/assimilation beam, separate from the existing blue beam.
-weapon6 = "xacgreen"
-weaponHardpoints6 = "hp01"
+
 
 
 
@@ -209,3 +199,15 @@ eventGreenAlert = "XLocutus_GreenAlert"
 eventTransport = "XLocutus_Transport"
 eventSelfDestruct = "XLocutus_SelfDestruct"
 eventDecommission = "XLocutus_Decommission"
+
+// Blue auto-assimilation beam removed. Remaining weapon order and hardpoints preserved.
+weapon1 = "bbphas"
+weaponHardpoints1 = "hp01" "hp02" "hp07" "hp08" "hp11" "hp14"
+weapon2 = "bbphot"
+weaponHardpoints2 = "hp04" "hp06" "hp09" "hp13" "hp15"
+weapon3 = "xactwarp"
+weaponHardpoints3 = "hp01"
+weapon4 = "xacremod"
+weaponHardpoints4 = "hp01"
+weapon5 = "xacgreen"
+weaponHardpoints5 = "hp01"

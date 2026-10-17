@@ -7,8 +7,6 @@ maxHealth = 9038
 shieldRate = 27.750
 maxSpecialEnergy = 10200
 specialEnergyRate = 52.500
-weapon1 = "xow_bt4phas"
-weapon2 = "xow_bc3phot"
 
 
 
@@ -27,5 +25,15 @@ officerCost = 44
 buildTime = 68
 
 // Additional green holding/assimilation beam, separate from the existing blue beam.
-weapon6 = "xacgreen"
-weaponHardpoints6 = "hp01"
+
+// Blue auto-assimilation beam removed. Remaining weapon order and hardpoints preserved.
+weapon1 = "xow_bt4phas"
+weaponHardpoints1 = "hp07" "hp11" "hp15" "hp19"
+weapon2 = "xow_bc3phot"
+weaponHardpoints2 = "hp08" "hp12" "hp16" "hp20"
+weapon3 = "xactwarp"
+weaponHardpoints3 = "hp01"
+weapon4 = "xacremod"
+weaponHardpoints4 = "hp01"
+weapon5 = "xacgreen"
+weaponHardpoints5 = "hp01"

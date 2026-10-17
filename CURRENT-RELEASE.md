@@ -17,3 +17,5 @@ Latest installed additions: nine eight-player maps and 25 map/preview files with
 LATEST USER CHANGE: all starting heroes removed across nine factions and all starting modes; retain heroes as buildable only. Twenty-seven entries removed; normal starting units preserved and reindexed. Bajor AI regenerated so Kira can be built instead of assumed present. Missing Galor2.tga alias restored for cogalor model; appearance test pending. This supersedes earlier notes about one starting hero per mode.
 
 LATEST USER CHANGE: heroes are buildable only, with no heroes in any starting fleet. Twenty-seven entries removed across nine factions; normal starting units preserved. Bajor AI now builds Kira rather than assuming a starting hero. Galor2.tga alias installed; fresh-game appearance test pending. This supersedes all older starting-hero notes.
+
+Latest cube change: blue auto-assimilation weapon removed from all 16 cube variants. Remaining order/hardpoints preserved and compacted to five contiguous slots. Green beam, transwarp, remodulation, UI hotkeys and non-cube weapons retained. Backup/report: reports/cubes-no-blue-beam.json.
