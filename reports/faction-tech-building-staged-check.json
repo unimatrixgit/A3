@@ -1,0 +1,503 @@
+{
+  "target": "D:\\armadaIII",
+  "scope": "Faction-specific research/upgrade/technology-assimilation stations; standard start, tech1 dependencies and first13 menu entries. Does not prove runtime construction.",
+  "races": [
+    {
+      "race": "borg",
+      "starts": [
+        "bbase.odf",
+        "bconst.odf",
+        "bscout.odf"
+      ],
+      "reachableCount": 82,
+      "techBuildings": [
+        {
+          "unit": "bresear.odf",
+          "name": "Modification Center",
+          "reachable": true,
+          "producers": [
+            "bconst.odf"
+          ],
+          "tech": [
+            "bbase.odf"
+          ],
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bresear2.odf",
+          "name": "Technology Node",
+          "reachable": true,
+          "producers": [
+            "bconst.odf"
+          ],
+          "tech": [
+            "byard.odf",
+            "bresear.odf"
+          ],
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "btechass.odf",
+          "name": "Technology Assimilator",
+          "reachable": true,
+          "producers": [
+            "uconst.odf",
+            "xbuconst.odf"
+          ],
+          "tech": [
+            "bresear.odf"
+          ],
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bupgrade.odf",
+          "name": "Ship Upgrade Facility",
+          "reachable": true,
+          "producers": [
+            "uconst.odf",
+            "xbuconst.odf"
+          ],
+          "tech": [
+            "bresear.odf",
+            "bresear2.odf"
+          ],
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "hub.odf",
+          "name": "Borg Transwarp Hub",
+          "reachable": true,
+          "producers": [
+            "bconst2.odf",
+            "uconst.odf",
+            "xbuconst.odf"
+          ],
+          "tech": [
+            "bbase.odf",
+            "byard3.odf"
+          ],
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "xbomegalab.odf",
+          "name": "Omega Research Laboratory",
+          "reachable": true,
+          "producers": [
+            "uconst.odf",
+            "xbuconst.odf"
+          ],
+          "tech": [
+            "byard2.odf",
+            "bupgrade.odf"
+          ],
+          "missingPrerequisites": []
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "race": "federation",
+      "starts": [
+        "fbase.odf",
+        "fconst.odf",
+        "fscout.odf"
+      ],
+      "reachableCount": 96,
+      "techBuildings": [
+        {
+          "unit": "fresear.odf",
+          "name": "Blue Ridge Class",
+          "reachable": true,
+          "producers": [
+            "fconst.odf"
+          ],
+          "tech": [
+            "fbase.odf",
+            "fyard.odf"
+          ],
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fresear2.odf",
+          "name": "Sirius Class",
+          "reachable": true,
+          "producers": [
+            "fconst.odf"
+          ],
+          "tech": [
+            "fyard2.odf",
+            "fresear.odf"
+          ],
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fupgrade.odf",
+          "name": "Mars Class",
+          "reachable": true,
+          "producers": [
+            "fconst.odf"
+          ],
+          "tech": [
+            "fresear.odf",
+            "fresear2.odf"
+          ],
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "xfomegalab.odf",
+          "name": "Omega Research Laboratory",
+          "reachable": true,
+          "producers": [
+            "xfuconst.odf"
+          ],
+          "tech": [
+            "fyard2.odf",
+            "fupgrade.odf"
+          ],
+          "missingPrerequisites": []
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "race": "klingon",
+      "starts": [
+        "kbase.odf",
+        "kconst.odf",
+        "kscout.odf"
+      ],
+      "reachableCount": 76,
+      "techBuildings": [
+        {
+          "unit": "kresear.odf",
+          "name": "Weapons Center",
+          "reachable": true,
+          "producers": [
+            "kconst.odf"
+          ],
+          "tech": [
+            "kbase.odf"
+          ],
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kresear2.odf",
+          "name": "Gre'thor Armory",
+          "reachable": true,
+          "producers": [
+            "kconst.odf"
+          ],
+          "tech": [
+            "kyard.odf",
+            "kresear.odf"
+          ],
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kupgrade.odf",
+          "name": "Imperial Research Institute",
+          "reachable": true,
+          "producers": [
+            "xkuconst.odf"
+          ],
+          "tech": [
+            "kresear.odf",
+            "kresear2.odf"
+          ],
+          "missingPrerequisites": []
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "race": "romulan",
+      "starts": [
+        "rbase.odf",
+        "rconst.odf",
+        "rscout.odf"
+      ],
+      "reachableCount": 67,
+      "techBuildings": [
+        {
+          "unit": "rresear.odf",
+          "name": "Covert-Ops Facility",
+          "reachable": true,
+          "producers": [
+            "rconst.odf"
+          ],
+          "tech": [
+            "rbase.odf"
+          ],
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rresear2.odf",
+          "name": "Tal Shiar Facility",
+          "reachable": true,
+          "producers": [
+            "rconst.odf",
+            "rconst2.odf"
+          ],
+          "tech": [
+            "ryard.odf",
+            "rresear.odf"
+          ],
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rupgrade.odf",
+          "name": "Star Empire Research Institute",
+          "reachable": true,
+          "producers": [
+            "xruconst.odf"
+          ],
+          "tech": [
+            "rresear.odf",
+            "rresear2.odf"
+          ],
+          "missingPrerequisites": []
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "race": "cardassian",
+      "starts": [
+        "cbase.odf",
+        "cconst.odf",
+        "cscout.odf"
+      ],
+      "reachableCount": 73,
+      "techBuildings": [
+        {
+          "unit": "cresear.odf",
+          "name": "Military Research Center",
+          "reachable": true,
+          "producers": [
+            "cconst.odf"
+          ],
+          "tech": [
+            "cbase.odf"
+          ],
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cresear2.odf",
+          "name": "Advanced Research Station",
+          "reachable": true,
+          "producers": [
+            "cconst.odf"
+          ],
+          "tech": [
+            "cyard.odf",
+            "cresear.odf"
+          ],
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cupgrade.odf",
+          "name": "Research Institute",
+          "reachable": true,
+          "producers": [
+            "xcuconst.odf"
+          ],
+          "tech": [
+            "cresear.odf",
+            "cresear2.odf"
+          ],
+          "missingPrerequisites": []
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "race": "dominion",
+      "starts": [
+        "dbase.odf",
+        "dconst.odf",
+        "dscout.odf"
+      ],
+      "reachableCount": 58,
+      "techBuildings": [
+        {
+          "unit": "dresear.odf",
+          "name": "Dominion Research Station",
+          "reachable": true,
+          "producers": [
+            "dconst.odf"
+          ],
+          "tech": [
+            "dbase.odf"
+          ],
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dresear2.odf",
+          "name": "Dominion Advanced Science Station",
+          "reachable": true,
+          "producers": [
+            "dconst.odf"
+          ],
+          "tech": [
+            "dyard.odf",
+            "dresear.odf"
+          ],
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dupgrade.odf",
+          "name": "Dominion Ship Upgrade Center",
+          "reachable": true,
+          "producers": [
+            "xduconst.odf"
+          ],
+          "tech": [
+            "dresear.odf",
+            "dresear2.odf"
+          ],
+          "missingPrerequisites": []
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "race": "breen",
+      "starts": [
+        "brbase.odf",
+        "brconst.odf",
+        "brscout.odf"
+      ],
+      "reachableCount": 20,
+      "techBuildings": [
+        {
+          "unit": "brresear.odf",
+          "name": "Breen Research Facility",
+          "reachable": true,
+          "producers": [
+            "brconst.odf"
+          ],
+          "tech": [
+            "bryard.odf"
+          ],
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brresear2.odf",
+          "name": "Breen Science Station",
+          "reachable": true,
+          "producers": [
+            "brconst.odf"
+          ],
+          "tech": [
+            "bryard.odf",
+            "brresear.odf"
+          ],
+          "missingPrerequisites": []
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "race": "bajoran",
+      "starts": [
+        "bjbase.odf",
+        "bjconst.odf",
+        "bjscout.odf"
+      ],
+      "reachableCount": 54,
+      "techBuildings": [
+        {
+          "unit": "bjresear.odf",
+          "name": "Bajoran Engineering Institute",
+          "reachable": true,
+          "producers": [
+            "bjconst.odf"
+          ],
+          "tech": [
+            "bjbase.odf"
+          ],
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjresear2.odf",
+          "name": "Bajoran Advanced Research Institute",
+          "reachable": true,
+          "producers": [
+            "bjconst.odf"
+          ],
+          "tech": [
+            "bjresear.odf"
+          ],
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjupgrade.odf",
+          "name": "Bajoran Systems Upgrade Center",
+          "reachable": true,
+          "producers": [
+            "bjconst.odf"
+          ],
+          "tech": [
+            "bjresear.odf",
+            "bjresear2.odf"
+          ],
+          "missingPrerequisites": []
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "race": "species8472",
+      "starts": [
+        "8472_active.odf",
+        "8472_mothership.odf",
+        "8472_passive.odf",
+        "8472_scout.odf"
+      ],
+      "reachableCount": 53,
+      "techBuildings": [
+        {
+          "unit": "8472_advancedresearch.odf",
+          "name": "Biogenesis Core",
+          "reachable": true,
+          "producers": [
+            "8472_passive.odf"
+          ],
+          "tech": [
+            "8472_passive.odf",
+            "8472_basicresearch.odf"
+          ],
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_basicresearch.odf",
+          "name": "Enhancer",
+          "reachable": true,
+          "producers": [
+            "8472_passive.odf"
+          ],
+          "tech": [
+            "8472_passive.odf"
+          ],
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_shipupgraderesearch.odf",
+          "name": "Metogenesis Core",
+          "reachable": true,
+          "producers": [
+            "8472_passive.odf"
+          ],
+          "tech": [
+            "8472_passive.odf",
+            "8472_basicresearch.odf",
+            "8472_advancedresearch.odf"
+          ],
+          "missingPrerequisites": []
+        }
+      ],
+      "overflow": []
+    }
+  ],
+  "issues": []
+}

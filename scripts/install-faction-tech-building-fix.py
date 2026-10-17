@@ -1,0 +1,8 @@
+from pathlib import Path
+import subprocess,shutil,datetime,json,stat
+r=Path('D:/armadaIII');repo=Path('D:/aramada');o=Path('D:/Xaramada-Modwork/faction-tech-building-fix');assert subprocess.run(['powershell','-NoProfile','-Command','if(Get-Process Armada2 -ErrorAction SilentlyContinue){exit 1}'],capture_output=True).returncode==0,'Game is still running; patch not applied'
+b=Path('D:/Xaramada-Modwork/backups')/('faction-tech-buildings-'+datetime.datetime.now().strftime('%Y%m%d-%H%M%S'));files=[]
+for p in o.rglob('*'):
+ if not p.is_file():continue
+ rel=p.relative_to(o);dst=r/rel;back=b/rel;back.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(dst,back);dst.chmod(dst.stat().st_mode|stat.S_IWRITE);shutil.copy2(p,dst);assert p.read_bytes()==dst.read_bytes();dest=repo/'overlay'/rel;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(p,dest);files.append(str(rel))
+(repo/'reports/faction-tech-building-fix.json').write_text(json.dumps({'installed':True,'files':files,'backup':str(b),'changes':['Federation advanced research requires fyard2 instead of circular fyard3.','Borg Transwarp Hub added to xbuconst/uconst final slot12.'],'gameplayVerified':False},indent=2));p=repo/'status.json';s=json.loads(p.read_text(encoding='utf-8-sig'));s['current']='Installed faction tech-building fix: Federation advanced-research circular lock removed; Borg Transwarp Hub added to second assembler. All30 checked research facilities across9 races have valid dependency/production paths. Four files backed up and verified; gameplay pending.';p.write_text(json.dumps(s,indent=2),encoding='utf-8');print('Installed four-file tech-building fix.')
