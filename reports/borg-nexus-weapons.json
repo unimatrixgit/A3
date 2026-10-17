@@ -1,0 +1,19 @@
+{
+  "target": "D:\\armadaIII",
+  "file": "odf/stations/bbase.odf",
+  "before": {
+    "pulseBanks": 1,
+    "torpedoBanks": 1,
+    "nominalDamagePerSecond": 200
+  },
+  "after": {
+    "pulseBanks": 6,
+    "torpedoBanks": 2,
+    "nominalDamagePerSecond": 600
+  },
+  "note": "Nominal base damage / shot delay only; excludes misses, arcs, target modifiers, upgrades and runtime behavior. No shared weapon or durability/cost changes.",
+  "hardpointsValidated": true,
+  "installed": true,
+  "gameplayVerified": false,
+  "backup": "D:\\Xaramada-Modwork\\backups\\nexus-weapons-20261017-083627\\odf\\stations\\bbase.odf"
+}
