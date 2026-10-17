@@ -36,3 +36,5 @@ GitHub: unimatrixgit/armada2 main. Source/scripts/reports only; game binary asse
 User clarified: stop assistant work after saving and publishing; DO NOT shut down the PC. Continue in morning. Do not mark runtime-only tasks complete.
 
 Final graphics update: user-selected texture-only ArmadaFiles-inspired shared Bajor atlas adaptation installed, normal and assimilated variants. Two textures only; 2,233 protected gameplay/model/icon files verified unchanged. Preview/source files at bajor/artwork/armadafiles-adaptation locally; generated texture binaries remain local. Fresh-game appearance test pending.
+
+Later cleanup installed: nine additional checked eight-player maps (72 catalogue archives scanned), Dominion Dreadnought button-height correction, 14 Omega weapon folder/definition fixes preserving properties, and hero inclusion in eight previously missing super starts. All nine factions now have one hero in standard/minimal/super definitions. Ship inventory: 346 total / 278 production targets, none missing models. GUI references: 590 targets checked. PCM hero audio: 206 clips valid. See updated REMAINING-WORK.md for runtime checks and scope still open.

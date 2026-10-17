@@ -1,0 +1,347 @@
+unit,name,race,hero,class,model,modelPresent,producers,shieldCapacity,shieldRecharge
+ffreight,Kaiser Class,federation,False,mining,ffreight,True,ds9.odf; fbase.odf; fbase2.odf; fbasehq.odf; fds9.odf; foutpost.odf; fregula.odf,420,4.2
+714const,Triton Class,species8472,False,construction,714const,True,714syard.odf,1021,6.2
+714hydra,Hydra Class,species8472,False,battleship,714hydra,True,714syard.odf,9024,9.1
+714manta,Manta Class,species8472,False,scout,714manta,True,714syard.odf,992,7.3
+714orca,Orca Class,species8472,False,battleship,714orca,True,714syard.odf,9481,10.3
+714rnode,Raynode Class,species8472,False,destroyer,714rnode,True,714syard.odf,1237,8.2
+714skate,Skate Class,species8472,False,cruiser,714skate,True,714syard.odf,1748,8.7
+714tmat,Tiamat Class,species8472,False,battleship,714tmat,True,714syard.odf,10021,12.6
+8472be2,Tactical Battleship,species8472,False,battleship,8472be2,True,8472_fluidicgate.odf,5831,8.3
+8472fig,Fighter,species8472,False,scout,8472fig,True,8472_active.odf,413,4.7
+8472int,Tactical Cruiser,species8472,False,cruiser,8472int,True,8472_fluidicgate.odf,5831,8.3
+8472_active,Active Embryo,species8472,False,construction,8472_active,True,8472_heromothership.odf; 8472_mothership.odf,923,5.6
+8472_battle,Battleship,species8472,False,battleship,8472_battle,True,8472_fluidicgate.odf,7147,8.7
+8472_behemoth,Behemoth,species8472,False,battleship,8472_behemoth,True,8472_fluidicgate.odf,9640,12.4
+8472_collector,Collector,species8472,False,mining,8472_collector,True,8472_active.odf,658,2.5
+8472_cruise1,Cruiser,species8472,False,cruiser,8472_cruise1,True,8472_active.odf,2270,7.0
+8472_cruise2,Launcher,species8472,False,cruiser,8472_cruise2,True,8472_active.odf,2784,7.8
+8472_defender,Defender,species8472,False,construction,8472_defender,True,8472_fluidicgate.odf,1974,10.1
+8472_destroy,Destroyer,species8472,False,destroyer,8472_destroy,True,8472_active.odf,2038,6.2
+8472_frigate,Frigate,species8472,False,frigate,8472_frigate,True,8472_fluidicgate.odf,2241,6.4
+8472_heromothership,Rift Maker,species8472,True,starbase,8472_heromother,True,,11296,18.6
+8472_mothership,Mother,species8472,False,starbase,xvstock_8472_mothership,True,8472_passive.odf,10321,14.9
+8472_passive,Passive Embryo,species8472,False,construction,8472_passive,True,8472_heromothership.odf; 8472_mothership.odf,849,4.3
+8472_scout,Scout,species8472,False,scout,8472_scout,True,8472_active.odf,821,7.9
+8472_transmuter,Transmuter,species8472,False,mining,8472_transmuter,True,8472_passive.odf,2284,6.4
+arumaan,Arumaan Class,federation,False,cruiser,arumaan,True,s31yard.odf,907,6.6
+assault,,,False,assault,assault,False,,,
+banshee,Banshee Class,federation,False,destroyer,banshee,True,s31yard.odf,1384,8.8
+bassault,Dominator,borg,False,assault,bassault,True,bbattle5.odf; bbattle6.odf; byard.odf,1468,16.9
+battle,,,False,battleship,battle,False,,,
+battle2,,,False,battleship,battle2,False,,,
+bbattle,Cube,borg,False,battleship,bbattle1,True,,500,8.4375
+bbattle1,Borg Cube,borg,False,battleship,bbattle1,True,byard2.odf,3250,19.2
+bbattle2,Tactical Cube,borg,False,battleship,bbattle2,True,bbattle5.odf; bbattle6.odf; byard2.odf,7230,18.5
+bbattle3,Fusion Cube,borg,False,battleship,bbattle3,True,byard2.odf,8000,58
+bbattle4,Tactical Fusion Cube,borg,False,battleship,bbattle4,True,byard2.odf,14400,116
+bbattle5,Ultra Fusion Cube,borg,False,battleship,bbattle3,True,,10000,200
+bbattle6,Omega Tactical Fusion Cube,borg,False,battleship,bbattle4,True,,144000,1160
+bbattle8,Borg Cube,borg,False,battleship,bbattle1,True,,18000,1600
+bcolony,Colony Vessel,borg,False,colony,bcolony,True,byard.odf,1518,8.9
+bconst,Assembler,borg,False,construction,bconst,True,bbattle5.odf; bbattle6.odf; bbase.odf,798,9.2
+bconst2,Advanced Assembler,borg,False,construction,bconst2,True,,1178,10.8
+bcruise1,Sphere,borg,False,cruiser,bcruise1,True,bbattle5.odf; bbattle6.odf; byard.odf,2140,15.7
+bcruise2,Assimilator,borg,False,cruiser,bcruise2,True,byard.odf,2287,14.8
+bcruise3,Pyramid,borg,False,cruiser,bcruise3,True,byard.odf,2276,16.4
+bdestroy,Interceptor,borg,False,destroyer,bdestroy,True,byard.odf,1315,10.2
+bdestroy2,Interceptor MK2,borg,False,destroyer,bdestroy2,True,byard.odf,1227,12.8
+bfreight,Resource Collector,borg,False,mining,bfreight,True,bbattle5.odf; bbattle6.odf; bbase.odf,658,8.7
+bfrigate,Deemons Tooth,borg,False,frigate,bfrigate,True,byard2.odf,2418,16.2
+bhentra,Hentragon,borg,False,destroyer,bhentra,True,byard3.odf,3464,18.2
+bhentrag,Tentragon,borg,False,destroyer,bhentrag,True,byard3.odf,5902,19.3
+bjartillery,Bajoran Long-Range Defense Vessel,bajoran,False,destroyer,br3_bjartillery,True,bjyard2.odf,575,5.75
+bjassault,Bajoran Assault Vessel,bajoran,False,cruiser,br3_bjassault,True,bjyard.odf,555,5.55
+bjbattle,Bajoran Militia Battleship,bajoran,False,battleship,br3_bjbattle,True,bjyard2.odf; bjyard3.odf,1100,11
+bjcargo,Bajoran Merchant Transport,bajoran,False,cargo,br3_bjcargo,True,bjbase.odf; bjtrading.odf,350,3.5
+bjcolony,Bajoran Colonial Transport,bajoran,False,colony,br3_bjcolony,True,bjbase.odf; bjyard.odf,300,3
+bjconst,Militia Construction Tender,bajoran,False,construction,br3_bjconst,True,bjbase.odf,500,5
+bjcruiser,Bajoran Militia Cruiser,bajoran,False,cruiser,br3_bjcruiser,True,bjyard2.odf,900,9
+bjfreight,Bajoran Resource Freighter,bajoran,False,mining,br3_bjfreight,True,bjbase.odf,420,4.2
+bjfrigate,Bajoran Militia Frigate,bajoran,False,frigate,br3_bjfrigate,True,bjyard2.odf,760,7.6
+bjinterceptor,Bajoran Interceptor,bajoran,False,destroyer,br3_bjinterceptor,True,bjyard.odf,680,6.8
+bjlightship,Bajoran Lightship,bajoran,False,scout,br3_bjlightship,True,bjyard.odf,75,0.75
+bjnerys,Colonel Kira Nerys - Bajoran Command Battleship,bajoran,True,battleship,br3_bjbattle,True,bjyard3.odf,11000,110
+bjraider,Bajoran Sub-Impulse Raider,bajoran,False,scout,br3_bjraider,True,bjyard.odf,75,0.75
+bjrepair,Bajoran Engineering Support Vessel,bajoran,False,repair,br3_bjrepair,True,bjbase.odf,380,3.8
+bjscout,Bajoran Scout Vessel,bajoran,False,scout,br3_bjscout,True,bjbase.odf; bjyard.odf,75,0.75
+bjspecial,Bajoran Science Support Vessel,bajoran,False,special,br3_bjspecial,True,bjyard2.odf; bjyard3.odf,875,8.75
+bjsuper,Bajoran Strategic Command Vessel,bajoran,False,battleship,br3_bjsuper,True,bjyard3.odf,1100,11
+bjtorpedo,Bajoran Torpedo Cruiser,bajoran,False,cruiser,br3_bjtorpedo,True,bjyard2.odf,590,5.9
+bjtransport,Bajoran Antares Transport,bajoran,False,scout,br3_bjtransport,True,bjyard.odf,110,1.1
+blocutus,Locutus' Cube,borg,True,battleship,bbattle1,True,byard2.odf; byard3.odf,750,20.0
+bmama,Mamacube,borg,False,battleship,bmama,True,byard3.odf,10400,21.4
+bomega1,Omega Cube,borg,False,battleship,bomega1,True,byard3.odf,6586,22.4
+bpentra,Pentragon,borg,False,cruiser,bpentra,True,byard3.odf,2785,17.4
+bqueen,Diamond,borg,True,special,bqueen,True,,2258,21.7
+brbattle,Breen Battleship,breen,False,battleship,brbattle,True,bryard2.odf,1500,8.0
+brbattle2,Breen Dreadnought,breen,False,battleship,brbattle2,True,bryard2.odf,2000,8.0
+brcolony,Breen Colony Ship,breen,False,colony,brcolony,True,bryard.odf,250,1.5
+brconst,Breen Construction Ship,breen,False,construction,brconst,True,brbase.odf; dbase.odf,150,3.5
+brcruise1,Breen Cruiser,breen,False,cruiser,brcruise1,True,bryard.odf,200,2
+brcruise2,Breen Torpedo Cruiser,breen,False,cruiser,brcruise2,True,bryard.odf,260,0.6
+brdestroy,Breen Destroyer,breen,False,destroyer,brdestroy,True,bryard.odf,80,0.75
+brenborg,Transwarp Prototype,borg,False,battleship,brenborg,True,byard2.odf,5170,17.9
+brfreight,Breen Mining Freighter,breen,False,mining,brfreight,True,brbase.odf,250,2.5
+brfrigate,Breen Frigate,breen,False,frigate,brfrigate,True,bryard2.odf,290,1.0
+brscout,Breen Scout,breen,False,scout,brscout,True,bryard.odf,30,0.5
+bscout,Scouting Cube,borg,False,scout,bscout,True,bbattle5.odf; bbattle6.odf; bbase.odf; byard.odf,1056,9.7
+bspecial,Diamond,borg,False,special,bspecial,True,byard2.odf,2258,21.7
+bsphere,Tactical Sphere,borg,False,cruiser,bsphere,True,byard2.odf,1200,100
+btacpyr,Tactical Pyramid,borg,False,battleship,btacpyr,True,byard2.odf,2418,18.4
+cargo,,,False,cargo,cargo,False,,,
+cassault,Janissary Class,cardassian,False,assault,cassault,True,cstation.odf; cyard.odf,1875,9.0
+cbakrus,Keldon/Bakrus Class,cardassian,False,battleship,cbattle2,True,,1000,10.0
+cbattle,Galor Class,cardassian,False,battleship,cbattle,True,cstation.odf; cyard2.odf,2976,8.1
+cbattle2,Keldon Class,cardassian,False,battleship,cbattle2,True,cyard2.odf,3321,9.0
+ccargo,Deeter Class,cardassian,False,cargo,ccargo,True,cbase.odf; cstation.odf,602,3.5
+ccolony,Tek Nagor Class,cardassian,False,colony,ccolony,True,cstation.odf; cyard.odf,703,6.3
+cconst,Rengar Class,cardassian,False,construction,cconst,True,cbase.odf,795,4.0
+ccruise1,Brinok Class,cardassian,False,cruiser,ccruise1,True,cyard.odf,1105,6.2
+ccruise2,Gul Vystan Class,cardassian,False,cruiser,ccruise2,True,cyard.odf,1006,7.1
+ccruise3,Legate Class,cardassian,False,cruiser,ccruise3,True,cyard.odf,1009,8.7
+cdestroy,Rasilak Class,cardassian,False,destroyer,cdestroy,True,cyard.odf,1078,5.2
+cdestroy2,Sartan Class,cardassian,False,destroyer,cdestroy2,True,cyard.odf,980,4.5
+cfreight,Varis Class,cardassian,False,mining,cfreight,True,cbase.odf; cstation.odf,324,2.9
+cfrigate,Vasad Class,cardassian,False,frigate,cfrigate,True,cyard2.odf,1124,5.7
+chutet,Hutet Class,cardassian,False,battleship,chutet,True,cyard2.odf,3769,10.6
+Chybrid,Cardassian-Kessok Hybrid Cruiser,cardassian,False,battleship,Chybrid,False,,1200,7.8
+ckentar,Keldon Class,cardassian,True,battleship,ckentar,True,,2976,8.1
+ckimal,Kimal Class,cardassian,False,destroyer,ckimal,True,cyard.odf,947,6.2
+cogalor,Galor Class,cardassian,False,battleship,cogalor,True,cobyard.odf,3413,8.8
+cohideki,Hideki Class,cardassian,False,scout,cohideki,True,cobyard.odf; cstation.odf,512,6.9
+cokaldor,Kaldor Class,cardassian,False,battleship,cokaldor,True,cobyard.odf,2987,8.78
+cokeldon,Keldon Class,cardassian,False,battleship,cokeldon,True,cobyard.odf,3652,9.4
+colony,,,False,colony,colony,False,,,
+const,,,False,construction,const,False,,,
+craft,,,False,craft,craft,False,,,
+cruise1,,,False,cruiser,cruise1,False,,,
+cruise2,,,False,cruiser,cruise2,False,,,
+cruise3,,,False,destroyer,cruise3,False,,,
+cscout,Hideki Class,cardassian,False,scout,cscout,True,cstation.odf; cyard.odf,392,3.3
+cspecial,Kulinor Class,cardassian,False,special,cspecial,True,cyard2.odf,600,3.0
+csrepair,Kaltor Class,cardassian,False,repair,csrepair,True,cbase.odf; cstation.odf,703,4.2
+csuper,Dreadnought Missile,cardassian,False,special,xvstock_csuper,True,cardassian_super_station.odf,2523,8.4
+ctelkor,Telkor Class,cardassian,False,cruiser,ctelkor,True,cyard.odf,1530,8.2
+ctelok,Telok Class,federation,False,cruiser,ctelkor,True,,550,3.5
+dassault,Jem'Hadar Troop Transport,dominion,False,assault,dassault,True,dyard.odf,400,10.0
+dbattle,Jem'Hadar Battle Cruiser,dominion,False,battleship,dbattle,True,dyard2.odf,1500,8.0
+dbattle2,Jem'Hadar Warship,dominion,False,battleship,dbattle2,True,dyard2.odf,2000,8.0
+dcargo,Jem'Hadar Cargo Ship,dominion,False,cargo,dcargo,True,dbase.odf,250,2.5
+dcolony,Jem'Hadar Colony Ship,dominion,False,colony,dcolony,True,dyard.odf,250,1.5
+dconst,Jem'Hadar Construction Ship,dominion,False,construction,dconst,True,dbase.odf,150,3.5
+dcruise1,Jem'Hadar Cruiser,dominion,False,cruiser,dcruise1,True,dyard.odf,200,2
+dcruise2,Jem'Hadar Strike Cruiser,dominion,False,cruiser,dcruise2,True,dyard.odf,225,2
+dcruise3,Jem'Hadar Torpedo Cruiser,dominion,False,cruiser,dcruise3,True,dyard.odf,260,0.6
+dcruise4,Jem'hadar Bomber Ship,dominion,False,,dcruise3,True,dyard.odf,320,1.3
+ddestroy,Jem'HadarDestroyer,dominion,False,destroyer,ddestroy,True,dyard.odf,150,0.8
+destroy,,,False,destroyer,destroy,False,,,
+dfreight,Jem'Hadar Freighter,dominion,False,mining,dfreight,True,dbase.odf,250,2.5
+dfrigate,Jem'Hadar Frigate,dominion,False,frigate,dfrigate,True,dyard2.odf,290,1.0
+dombat,Dominion Battleship,cardassian,False,battleship,dombat,True,domyard.odf,3917,11.8
+domconst,Construction Ship,cardassian,False,construction,domconst,True,cbase.odf; domyard.odf,837,4.4
+domdred,Dreadnought,cardassian,False,battleship,domdred,True,domyard.odf,5238,13.7
+domscout,Dominion Scout,cardassian,False,scout,domscout,True,domyard.odf,839,5.3
+dscout,Jem'Hadar Scout,dominion,False,scout,dscout,True,dyard.odf,50,0.45
+dspecial,Jem'Hadar Science Ship,dominion,False,special,dspecial,True,dyard2.odf,550,3.0
+dsrepair,Jem'Hadar Repair Ship,dominion,False,repair,dsrepair,True,dbase.odf,250,2.5
+dsuper,Jem'Hadar Dreadnought,dominion,False,battleship,dsuper,True,dsuperbl.odf,1700,13.7
+dweyoun,Weyoun's Command Battleship,dominion,True,battleship,dweyoun,True,dyard2.odf,2500,15.0
+dwormdbattle,Wormhole Jem'Hadar Battle Cruiser,dominion,False,battleship,dwormdbattle,True,zsuperbl.odf,1500,8.0
+dwormdbattle2,Wormhole Jem'Hadar Warship,dominion,False,battleship,dwormdbattle2,True,zsuperbl.odf,2000,8.0
+dwormddestroy2,Wormhole Jem'Hadar Strike Destroyer,dominion,False,destroyer,dwormddestroy2,True,zsuperbl.odf,370,0.70
+dwormdsuper,Wormhole Jem'Hadar Dreadnought,dominion,False,battleship,dwormdsuper,True,zsuperbl.odf,1700,13.7
+f31const,Construction Ship,federation,False,construction,f31const,True,,997,4.2
+fakisato,Akisato Class,federation,False,destroyer,fakisato,True,s31yard.odf,2940,10.9
+fambass,Ambassador Class,federation,False,battleship,fambassador,True,,1600,6.6
+fambassador,Ambassador Class,federation,False,cruiser,fambassador,True,fyard3.odf,815,8.15
+fantares,Antares Class,federation,False,scout,fantares,True,fbase.odf; fbase2.odf; foutpost.odf,110,1.1
+fassault,Yeager Class,federation,False,assault,fassault,True,fyard.odf,555,5.55
+fbattle,Sovereign Class,federation,False,battleship,fbattle,True,fbyard.odf; fyard2.odf,1100,11
+fbbridge,Stardrive Section,federation,False,battleship,fbbridge,True,,750,7.5
+fcaddebostan,Nebula Class,federation,True,special,fspecial,True,,875,8.75
+fcargo,Emissary Class,federation,False,cargo,fcargo,True,ds9.odf; fbase.odf; fbase2.odf; fds9.odf; foutpost.odf; fregula.odf,350,3.5
+fcentaur,Centaur Class,federation,False,cruiser,fcentaur,True,fyard0.odf,360,3.6
+fcolony,Raven Class,federation,False,colony,fcolony,True,fbase.odf; fbase2.odf; fbyard.odf,300,3
+fconst,Coronado Class,federation,False,construction,fconst,True,ds9.odf; fbase.odf; fbase2.odf; fbasehq.odf; fbyard.odf; fds9.odf; foutpost.odf; fregula.odf,500,5
+fconst2,Merced Class,federation,False,construction,fconst2,True,fbase.odf; fbase2.odf; fds9.odf,500,5
+fconstellation,Constellation Class,federation,False,cruiser,fconstellation,True,fyard0.odf,315,3.15
+fconstitution,Constitution Class Refit,federation,False,cruiser,fconstitution,True,fyard0.odf,380,3.8
+fcruise1,Akira Class,federation,False,cruiser,fcruise1,True,fyard2.odf,900,9
+fcruise2,Steamrunner Class,federation,False,cruiser,fcruise2,True,fyard.odf,590,5.9
+fcruise3,Intrepid Class,federation,False,destroyer,fcruise3,True,fyard.odf,575,5.75
+fdallas,Dallas Class,federation,False,cruiser,fdallas,True,s31yard.odf,1214,7.6
+fdanube,Danube Class,federation,False,scout,fdanube,True,fbase.odf; fbase2.odf; fregula.odf,75,0.75
+fdata,Data Miner,federation,False,mining,fdata,True,,250,2.5
+fdauntless,Dauntless Class,federation,False,cruiser,fdauntless,True,fyard.odf,580,5.8
+fdawnstar,Dawnstar Class,federation,False,battleship,fdawnstar,True,fyard3.odf,1300,13.0
+fdefiant,Defiant Class,federation,True,destroyer,fdefiant,True,fds9.odf,6800,68
+fdeimos,Deimos Class,federation,False,battleship,fdeimos,True,s31yard.odf,1137,7.6
+fdeltaflyer,Delta Flyer,federation,False,scout,fdeltaflyer,True,fbase.odf; fbase2.odf; foutpost.odf,125,1.25
+fdestroy,Defiant Class,federation,False,destroyer,fdestroy,True,fyard.odf,680,6.8
+fdestroy2,Sabre Class,federation,False,destroyer,fdestroy2,True,fyard.odf,280,2.8
+fdiablo,Diablo Class,federation,False,battleship,fdiablo,True,s31yard.odf,4638,9.7
+fent,Constitution Class,federation,True,cruiser,fent,True,,3500,12.0
+fenta,Constitution Class Refit,federation,True,cruiser,fenta,True,,3800,38
+fentb,Excelsior Class Refit,federation,True,cruiser,fentb,True,,8000,80
+fentc,Ambassador Class,federation,True,cruiser,fentc,True,,8150,81.5
+fentd,Galaxy Class,federation,True,battleship,fentd,True,,10000,100
+fentdx,Galaxy Class X-Refit,federation,True,battleship,fentdx,True,,15000,150
+fente,Sovereign Class,federation,True,battleship,fente,True,,11000,110
+fexcalibur,Excalibur Class,federation,False,battleship,fexcalibur,True,fyard2.odf,2000,20
+fexcel,Excelsior Class,federation,False,cruiser,fexcel,True,,1156,4.9
+fexcelr,Excelsior Class Refit,federation,False,cruiser,fexcelr,True,fyard2.odf,800,8
+ffighter,Peregine Class,federation,False,scout,ffighter,True,fbase.odf; fbase2.odf; fregula.odf,150,1.5
+ffrigate,Excelsior Class,federation,False,frigate,ffrigate,True,fbyard.odf; fyard2.odf,760,7.6
+fgalaxy,Galaxy Class,federation,False,battleship,fgalaxy,True,fbyard.odf; fyard3.odf,1000,10.0
+fgalaxyr,Galaxy Class Refit,federation,False,battleship,fgalaxyr,True,fyard3.odf,1600,16
+fgalaxyx,Galaxy Class X-Refit,federation,False,battleship,fgalaxyx,True,fyard3.odf,1500,15
+fincursion,Incursion Class,federation,True,destroyer,fincursion,True,,1940,6.8
+fintx,Intrepid Class X-Refit,federation,False,destroyer,fintx,True,fyard.odf,685,6.85
+fkaleb,Kaleb Class,federation,False,battleship,fkaleb,True,s31yard.odf,3776,15
+fmiran,Miranda Class,federation,False,destroyer,fmiran,True,,840,2.3
+fmiranda,Miranda Class,federation,False,destroyer,fmiranda,True,fyard0.odf,350,3.5
+fneworleans,New Orleans Class,federation,False,cruiser,fneworleans,True,fyard3.odf,725,7.25
+fnorway,Norway Class,federation,False,cruiser,fnorway,True,fyard.odf,580,5.8
+fnova,Nova Class,federation,False,scout,fnova,True,fyard.odf,265,2.65
+fnx,NX Class,federation,False,scout,fnx,True,fyard0.odf,185,1.85
+fnxent,NX Class,federation,True,scout,fnxent,True,fbase2.odf,2000,20
+fober,Oberth Class,federation,False,destroyer,foberth,True,,90,1
+foberth,Oberth Class,federation,False,scout,foberth,True,fyard0.odf,170,1.7
+fphigh,Upper StarDrive Section,federation,False,battleship,fphigh,False,,1500,15.0
+fplow,Lower StarDrive Section,federation,False,battleship,fplow,False,,1500,15.0
+fprom,Prometheus Class,federation,False,battleship,fprom,True,,4260,12.8
+fprometheus,Prometheus Class,federation,False,battleship,fprometheus,True,fyard2.odf,1200,12
+fpsaucer,Saucer Section,federation,False,starbase,fsaucer,True,,1500,15.0
+freight,,,False,mining,freight,False,,,
+frigate,,,False,frigate,frigate,False,,,
+fsaucer,Saucer Section,federation,False,battleship,fsaucer,True,,250,2.50
+fscorp,Scorpian Class,federation,False,battleship,fscorp,True,,3280,9.8
+fscout,Venture Class,federation,False,scout,fscout,True,fbase.odf; fbase2.odf; foutpost.odf; fregula.odf,75,0.75
+fsent,Sentinel Class,federation,False,battleship,fsent,True,s31yard.odf,1012,10.0
+fshadow,Shadow Class,federation,False,cruiser,fshadow,True,s31yard.odf,988,6.8
+fshak,Shakuras Class,federation,False,battleship,fshak,True,s31yard.odf,2607,12.4
+fsovx,Sovereign-X Class,federation,False,battleship,fsovx,True,fyard2.odf,1400,14
+fspecial,Nebula Class,federation,False,special,fspecial,True,fbyard.odf; fyard3.odf,875,8.75
+fspectre,Spectre Class,federation,False,destroyer,fspectre,True,s31yard.odf,994,6.6
+fsrepair,Olympic Class,federation,False,repair,fsrepair,True,ds9.odf; fbase.odf; fbase2.odf; fds9.odf; foutpost.odf; fregula.odf,380,3.8
+ftengen,Tengen Class,federation,False,destroyer,ftengen,True,s31yard.odf,892,6.4
+fvalour,Valour Class,federation,False,destroyer,fvalour,True,s31yard.odf,717,6.2
+fvoyager,Intrepid Class,federation,True,destroyer,fvoyager,True,fds9.odf,6000,60
+gcutter,Guncutter Class,federation,False,battleship,gcutter,True,,3517,9.6
+jemdest,Jem'Hadar Destroyer,cardassian,False,destroyer,jemdest,True,cstation.odf; domyard.odf,956,5.6
+jemdest2,Destroyer MK2,cardassian,False,destroyer,jemdest2,True,domyard.odf,1015,7.2
+kassault,Chava'Kal Class,klingon,False,assault,kassault,True,kyard.odf,1959,8.9
+kavorcha,Ka'Vor'Cha Class,klingon,False,destroyer,kavorcha,True,kimpyard.odf,1745,10.3
+kbatleth,Batleth Class,klingon,False,battleship,kbatleth,True,kyard2.odf,4089,12.4
+kbattle,Negh'Var Class,klingon,False,battleship,kbattle,True,kyard2.odf,3157,8.9
+kbattle2,Qeh'Ral Class,klingon,False,battleship,kbattle2,True,kyard2.odf,2824,8.3
+kbekta,Qeh'Ral Class,klingon,True,battleship,kbekta,True,,2824,3.375
+kbwing,Bloodwing Class,klingon,False,battleship,kbwing,True,kyard2.odf,2976,9.6
+kcargo,HarQo Class,klingon,False,cargo,kcargo,True,kbase.odf; kmarbase.odf; koutpost.odf; kprison.odf,597,3.6
+kcolony,HeHDaq Class,klingon,False,colony,kcolony,True,kyard.odf,692,1.5
+kconst,Maj'targh Class,klingon,False,construction,kconst,True,kbase.odf; koutpost.odf,815,2.4
+kconst2,DeghwI Class,klingon,False,construction,kconst2,True,kbase.odf; kmarbase.odf; kprison.odf,806,4.2
+kcruise1,Vor'cha Class,klingon,False,cruiser,kcruise1,True,kyard.odf,1758,6.4
+kcruise2,SuQ'jagh Class,klingon,False,cruiser,kcruise2,True,kyard.odf,992,7.0
+kcruise3,K'Vort Class,klingon,False,cruiser,kcruise3,True,kyard.odf,978,5.2
+kcruise4,Hegh'Ta Class,klingon,False,cruiser,kcruise4,True,kyard.odf,920,6.2
+kdestroy,Br'el Class,klingon,False,destroyer,kdestroy,True,kbase2.odf; kimpbase.odf; kyard.odf,376,4.8
+kdestroy2,Korinar Class,klingon,False,destroyer,kdestroy2,True,kbase.odf; kimpbase.odf; kmarbase.odf; koutpost.odf; kprison.odf,652,4.7
+kdestroy4,K'Tinga Class Mk2,klingon,False,cruiser,kdestroy4,True,kimpyard.odf,1296,6.9
+ken_special,Nebula Class,federation,False,special,fspecial,True,,250,1.0
+kfreight,MoH'SoS Class,klingon,False,mining,kfreight,True,kbase.odf; kmarbase.odf; kprison.odf,368,1.9
+kfrigate,D7H Class,klingon,False,frigate,kfrigate,True,kyard2.odf,1148,7.5
+kghosqih,Ghos'QIH Class,klingon,False,battleship,kghosqih,False,,1300,10.0
+kgunboat,Gorath Class,klingon,False,destroyer,kgunboat,True,kimpbase.odf; koutpost.odf,501,3.8
+kimpbakt,IG Bak'Tag Class,klingon,False,battleship,kimpbakt,True,kimpyard.odf,1392,8.7
+kimpben,IG Be'Nal Class,klingon,False,destroyer,kimpben,True,kimpyard.odf,1574,8.7
+kimphut,IG Hu'Tegh Class,klingon,False,battleship,kimphut,True,kimpyard.odf,1321,8.4
+kimpkoto,IG Ko'Tol Class,klingon,False,destroyer,kimpkoto,True,kimpbase.odf,1054,7.4
+kimpmakd,IG Mak'Dar Class,klingon,False,battleship,kimpmakd,True,kimpyard.odf,2657,9.7
+kimpnegh,IG Negh'Var Class,klingon,False,battleship,kimpnegh,True,kimpyard.odf,3204,12.7
+kimpnook,Nook'Nena Class,klingon,False,destroyer,kimpnook,True,kimpyard.odf,1454,7.9
+kimpvorc,IG Vor'cha Class,klingon,False,cruiser,kimpvorc,True,kimpyard.odf,2365,8.9
+kmartok,Negh'Var Class,klingon,True,battleship,kbattle,True,,3157,8.9
+kquon,Gosh'qih Class,klingon,False,cruiser,kquon,True,kyard.odf,1756,9.9
+kscout,NuQ'Duj Class,klingon,False,scout,kscout,True,kyard.odf,376,3.1
+kspecial,Fek'lhr Class,klingon,False,special,kspecial,True,kyard2.odf,1622,7.6
+ksrepair,Qa'ang Class,klingon,False,repair,ksrepair,True,kbase.odf; kmarbase.odf; kprison.odf,692,2.5
+ksuper,Jach'Eng Class,klingon,False,special,xvstock_ksuper,True,ksuperbl.odf,822,6.2
+kvodleh,Vod'Leh Class,klingon,False,battleship,kvodleh,True,kyard2.odf,1589,6.7
+kvood,Voodien Class,klingon,False,battleship,kvood,True,kyard2.odf,3795,9.5
+momega,Omega Particle,alien,True,craft,momega,True,,100,1.0
+Q,Q Continuum,federation,True,battleship,Q,False,,999999,999999
+rassault,Kestrel Class,romulan,False,assault,rassault,True,ryard.odf,1924,9.4
+rbattle,D'Deridex Class,romulan,False,battleship,rbattle,True,ryard2.odf,3017,9.6
+rbattle2,Venator Class,romulan,False,battleship,rbattle2,True,ryard2.odf,3001,9.2
+rcargo,Veris Class,romulan,False,cargo,rcargo,True,rbase.odf; rbase2.odf,598,4.8
+rcent,Centurion Class,romulan,False,destroyer,rcent,True,ryard.odf,621,7.1
+rcolony,Bullanes Class,romulan,False,colony,rcolony,True,ryard.odf,719,6.2
+rconst,Nostan Class,romulan,False,construction,rconst,True,rbase.odf,804,2.6
+rconst2,Selvia Class,romulan,False,construction,rconst2,True,rbase.odf; rbase2.odf,889,3.1
+rcruise1,Griffin Class,romulan,False,cruiser,rcruise1,True,ryard.odf,1147,8.2
+rcruise2,Raptor Class,romulan,False,cruiser,rcruise2,True,ryard.odf,1102,7.8
+rcruise3,Senator Class,romulan,False,destroyer,rcruise3,True,ryard.odf,1228,8.1
+rcruise4,Tal'Arti Remtus,romulan,False,cruiser,rcruise3,True,,130,1.45
+rdestr1,Eagle Class,romulan,False,destroyer,rdestr1,True,,1004,6.0
+rdestroy,Shrike Class,romulan,False,destroyer,rdestroy,True,rbase.odf; ryard.odf,998,6.7
+rdread,Draconia Class,romulan,False,battleship,rdread,True,ryard2.odf,3317,10.9
+rdtaris,D'Taris Class,romulan,False,cruiser,rdtaris,True,,1438,9.6
+rdverix,D'Verix Class,romulan,False,battleship,rdverix,True,,1617,9.9
+repairBase,,,False,repair,repairBase,False,,,
+rfreight,Neriax Class,romulan,False,mining,rfreight,True,rbase.odf; rbase2.odf,398,2.9
+rfrigate,Veles Class,romulan,False,frigate,rfrigate,True,ryard2.odf,1231,8.9
+rktinga,K'Tinga Class,romulan,False,cruiser,rktinga,True,ryard2.odf,994,7.9
+rscout,Talon Class,romulan,False,scout,rscout,True,ryard.odf,394,5.5
+rscruise,Selmak Class,romulan,False,cruiser,rscruise,True,ryard2.odf,881,6.7
+rspecial,Shadow Class,romulan,False,special,rspecial,True,ryard2.odf,1988,6.2
+rsrepair,Reman Class,romulan,False,repair,rsrepair,True,rbase.odf,718,8.3
+rsuper,Phoenix Class,romulan,False,special,xvstock_rsuper,True,rsuperbl.odf,3296,8.4
+rtsbcru,Hyperion Class,romulan,False,battleship,rtsbcru,True,ryard3.odf,2237,12.6
+rtscout,D'Dara Class,romulan,False,scout,rtscout,True,rbase2.odf; ryard3.odf,984,7.6
+rtscru2,V'Nerex Class,romulan,False,cruiser,rtscru2,True,,1078,11.0
+rtscruis,Ater Class,romulan,False,battleship,rtscruis,True,ryard3.odf,1428,9.1
+rtsdest,Lemal Class,romulan,False,destroyer,rtsdest,True,ryard3.odf,1601,8.9
+rtsdread,Sakti Class,romulan,False,battleship,rtsdread,True,ryard3.odf,3826,14.8
+rtspec,Suso Class,romulan,False,destroyer,rtspec,True,ryard3.odf,1928,9.2
+rtswarb,D'Deridex Class,romulan,False,battleship,rtswarb,True,ryard3.odf,4012,14.6
+saucer,,,False,battleship,saucer,False,,,
+scoutBase,,,False,scout,scoutBase,False,,,
+sonabat,Sona Battleship,cardassian,False,battleship,sonabat,True,domyard.odf,2698,8.9
+sonadest,Sona Destroyer,cardassian,False,destroyer,sonadest,True,domyard.odf,1238,7.4
+Sovereign,Sovereign Class,federation,True,battleship,fbattle,True,,3000,15.0
+special,,,False,special,special,False,,,
+super,,,False,special,super,False,,,
+tcube,Class VII Tactical Cube,borg,False,battleship,tcube,True,byard2.odf,9300,100
+uconst,Universal Assembler,borg,False,construction,xbuconst,True,,150,3.5
+xbassimold,Tactical Assimilator,borg,False,cruiser,xbassimold,True,byard.odf,400,20.0
+xbjuconst,Bajoran Universal Constructor,bajoran,False,construction,br3_xbjuconst,True,bjbase.odf,500,5
+xbruconst,Breen Universal Constructor,breen,False,construction,xbruconst,True,brbase.odf,150,3.5
+xbuconst,Borg Universal Assembler,borg,False,construction,xbuconst,True,bbase.odf,798,9.2
+xcuconst,Cardassian Universal Constructor,cardassian,False,construction,xcuconst,True,cbase.odf; cquantum.odf; cstation.odf; domabase.odf; dombase.odf,795,4.0
+xduconst,Dominion Universal Constructor,dominion,False,construction,xduconst,True,dbase.odf,150,3.5
+xfuconst,Federation Universal Constructor,federation,False,construction,xfuconst,True,ds9.odf; fbase.odf; fbase2.odf; fbasehq.odf; fbyard.odf; fds9.odf; fjupiter.odf; fmidas.odf; foutpost.odf; fregula.odf,500,5
+xhbrhero,Thot Gor - Breen Flagship,breen,True,battleship,brbattle,True,bryard3.odf,1800,8.0
+xhchero,Gul Dukat - Keldon,cardassian,True,battleship,cbattle2,True,cyard3.odf,3985,9.0
+xhdhero,Weyoun's Command Battleship,dominion,True,battleship,dweyoun,True,dyard3.odf,3000,15.0
+xhfhero,Jean-Luc Picard - Enterprise E,federation,True,battleship,fente,True,fyard3.odf,13200,110
+xhkhero,Martok - Negh'Var,klingon,True,battleship,kbattle,True,kyard3.odf,3788,8.9
+xhrhero,Sela - Warbird,romulan,True,battleship,rbattle,True,ryard3.odf,3620,9.6
+xhshero,Species 8472 Command Bioship,species8472,True,battleship,8472_battle,True,xhs_yard3.odf,8576,8.7
+xhs_leviathan,Fluidic Leviathan,species8472,True,battleship,xhs_leviathan,True,xhs_yard3.odf,11568,12.4
+xhs_sentinel,Brood Sentinel,species8472,True,frigate,xhs_sentinel,True,xhs_yard3.odf,3362,6.4
+xhs_vanguard,Cooper's Command Bioship,species8472,True,battleship,xhs_vanguard,True,xhs_yard3.odf,8934,8.7
+xkuconst,Klingon Universal Constructor,klingon,False,construction,xkuconst,True,kbase.odf; kbase2.odf; khwp.odf; kimpbase.odf; kmarbase.odf; koutpost.odf; kprison.odf,815,2.4
+xobbattle1,Omega Borg Cube,borg,False,battleship,bbattle1,True,byard3.odf,4063,28.800
+xobbattle2,Omega Tactical Cube,borg,False,battleship,bbattle2,True,byard3.odf,9038,27.750
+xobcruise1,Omega Sphere,borg,False,cruiser,bcruise1,True,byard3.odf,2675,23.550
+xoblocutus,Omega Locutus' Cube,borg,True,battleship,bbattle1,True,byard3.odf,938,30.000
+xofbattle,Omega Sovereign Class,federation,False,battleship,fbattle,True,fyard3.odf,1375,16.500
+xofdestroy,Omega Defiant Class,federation,False,destroyer,fdestroy,True,fyard3.odf,850,10.200
+xofgalaxy,Omega Galaxy Class,federation,False,battleship,fgalaxy,True,fyard3.odf,1250,15.000
+xofprom,Omega Prometheus Class,federation,False,battleship,fprom,True,fyard3.odf,5325,19.200
+xruconst,Romulan Universal Constructor,romulan,False,construction,xruconst,True,rbase.odf; rbase2.odf; rhwp.odf,804,2.6
+zfercarg,Ferengi Cargo Ship,ferengi,False,cargo,zfercarg,True,,250,2.5
+zferscav,Ferengi Scavenger,ferengi,False,cruiser,zferengi,True,,325,20
+zflag,Flag,federation,False,scout,zflag,True,,100000,100000

@@ -1,0 +1,865 @@
+{
+  "target": "D:\\armadaIII",
+  "archivesChecked": 72,
+  "mapCandidates": 73,
+  "maps": [
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/8-crossroads/details",
+      "title": "8 Crossroads",
+      "map": "8Crossroads.bzn",
+      "bytes": 399508,
+      "detectedPlayerStarts": 8,
+      "sha256": "b860b9717fe29ee56e2b32034d852295ea870c85b7b6085792e357c26edbb316",
+      "status": "already present (identical map)",
+      "existingFile": "8Crossroads.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/8-for-the-rich/details",
+      "title": "8 For The Rich",
+      "map": "8ForRch.bzn",
+      "bytes": 83416,
+      "detectedPlayerStarts": 8,
+      "sha256": "d125c1711d749b938fdebb84c787aab53a69d574c6612bf00a243c5be8730337",
+      "status": "already present (identical map)",
+      "existingFile": "8ForRch.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/8-markyt/details",
+      "title": "8 MarkYT",
+      "map": "8MarkYT.bzn",
+      "bytes": 209857,
+      "detectedPlayerStarts": 8,
+      "sha256": "a69583276a5a86aa84a5a97984f63fd24f6be23087a826b6a04380abdd4e3693",
+      "status": "already present (identical map)",
+      "existingFile": "8MarkYT.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/8-player-map/details",
+      "title": "8 Player Map",
+      "map": "ts-1fadmsamtest001.bzn",
+      "bytes": 543163,
+      "detectedPlayerStarts": 8,
+      "sha256": "6f5f49852823b02312a1d9dcd96adba67d0121f5b13e39cec2b1e1bf97ce5f15",
+      "status": "already present (identical map)",
+      "existingFile": "ts-1fadmsamtest001.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/8-player-serraya/details",
+      "title": "8 Player Serraya",
+      "map": "mp08serraya.bzn",
+      "bytes": 332141,
+      "detectedPlayerStarts": 8,
+      "sha256": "d8a61a2b252d183abb98b2e209dbcb2182944cae870861c87744a3e06e261851",
+      "status": "installed",
+      "installedName": "mp08serraya.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/8-unlimited-resources/details",
+      "title": "8 Unlimited Resources",
+      "map": "DocAE2n.bzn",
+      "bytes": 10239,
+      "detectedPlayerStarts": 8,
+      "sha256": "9fe62a38fbf63b231705717e2835a50dc6838f5724ca0eadaa75f8958933ff90",
+      "status": "already present (identical map)",
+      "existingFile": "DocAE2n.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/8bj3/details",
+      "title": "8bj3",
+      "map": "8bj3.bzn",
+      "bytes": 54393,
+      "detectedPlayerStarts": 8,
+      "sha256": "5bdd98eccedd2916dd2dcae5defd453bc5b897597b362cc74fc40c31ccd9f23e",
+      "status": "already present (identical map)",
+      "existingFile": "8bj3.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/8dlg1ckzip/details",
+      "title": "8dlg1ck.zip",
+      "map": "8dlg1ck.bzn",
+      "bytes": 139402,
+      "detectedPlayerStarts": 8,
+      "sha256": "bcb90dd11227a137232ada0b2c1a1c7f2a9ba7da20096236140fb6ab4bd9ea86",
+      "status": "already present (identical map)",
+      "existingFile": "8dlg1ck.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/8dlg2ck/details",
+      "title": "8dlg2ck",
+      "map": "8dlg2ck.bzn",
+      "bytes": 78381,
+      "detectedPlayerStarts": 8,
+      "sha256": "bd2a64efbd2dca011de5180f121302b2595c41804b936861e3086d707177bda5",
+      "status": "already present (identical map)",
+      "existingFile": "8dlg2ck.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/8freeb/details",
+      "title": "8freeb",
+      "map": "8freeb.bzn",
+      "bytes": 118584,
+      "detectedPlayerStarts": 8,
+      "sha256": "80b734c1f9a7750e941437d5951f9862f3cb891d080509eb77662713bdbd756c",
+      "status": "already present (identical map)",
+      "existingFile": "8freeb.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/8kazon1/details",
+      "title": "8kazon1",
+      "map": "8Kazon1.bzn",
+      "bytes": 378319,
+      "detectedPlayerStarts": 8,
+      "sha256": "14de58060b690b14e6a637ccf0b595ba28728e9dcc7157d8cd66400a6a5b33ee",
+      "status": "already present (identical map)",
+      "existingFile": "8Kazon1.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/8surround-4-by-4/details",
+      "title": "8surround 4 by 4",
+      "map": "8surround4by4.bzn",
+      "bytes": 241768,
+      "detectedPlayerStarts": 8,
+      "sha256": "bf730f341356c0fe213738eac6ed4b327e3bd46f70871347db5608ecd2720f4a",
+      "status": "already present (identical map)",
+      "existingFile": "8surround4by4.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/8ua1/details",
+      "title": "8ua1",
+      "map": "8ua1.bzn",
+      "bytes": 128299,
+      "detectedPlayerStarts": 8,
+      "sha256": "8a12ea874657f0b90f3ac556dc9959918e603861b0b5707db0e9f15cfd2ccfe5",
+      "status": "already present (identical map)",
+      "existingFile": "8ua1.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/8ua2/details",
+      "title": "8ua2",
+      "map": "8ua2.bzn",
+      "bytes": 78205,
+      "detectedPlayerStarts": 8,
+      "sha256": "9384ac7c1681a63add0c9aed4afe9c82dd7d6f709fb4d09c46bc329e6fac6094",
+      "status": "already present (identical map)",
+      "existingFile": "8ua2.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/8ua3/details",
+      "title": "8ua3",
+      "map": "8ua3.bzn",
+      "bytes": 72889,
+      "detectedPlayerStarts": 8,
+      "sha256": "cb1e7dddea203d11773378833d354b9abd04ba80ba026a879d829db2b578dcd7",
+      "status": "already present (identical map)",
+      "existingFile": "8ua3.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/allied-bunkers/details",
+      "title": "Allied Bunkers",
+      "map": "allybunk.bzn",
+      "bytes": 530887,
+      "detectedPlayerStarts": 8,
+      "sha256": "b478e7bcb6dba4fe113e242594870b45412ea86366b0defb4aa419f8298fa201",
+      "status": "already present (identical map)",
+      "existingFile": "allybunk.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/alpha-beta-quadrant-map/details",
+      "title": "Alpha / Beta Quadrant Map",
+      "map": "alphabeta2.bzn",
+      "bytes": 190631,
+      "detectedPlayerStarts": 8,
+      "sha256": "9a54798028fc220b02e5da3165eccff9d97590cf49226159dfe07617228a5b08",
+      "status": "excluded missing object definitions",
+      "missingObjects": [
+        "pb_cardassia"
+      ]
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/alpha-quadrant-map/details",
+      "title": "Alpha Quadrant map",
+      "map": "alphaquad.bzn",
+      "bytes": 313732,
+      "detectedPlayerStarts": 8,
+      "sha256": "1d9265f2e85a3a36b42fce3abd4a900a76d6326473f729f27a06ebb755d6acf0",
+      "status": "already present (identical map)",
+      "existingFile": "alphaquad.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/alpha-quadrant-v2/details",
+      "title": "Alpha Quadrant v.2",
+      "map": "alphaquadv2.bzn",
+      "bytes": 384219,
+      "detectedPlayerStarts": 8,
+      "sha256": "200858b3c1cc6795d41c8a7639f031902c0c0280af80088db20ede3ea0167352",
+      "status": "excluded missing object definitions",
+      "missingObjects": [
+        "8472_heromother"
+      ]
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/aos-tw-map/details",
+      "title": "AOS TW MAP",
+      "map": "mp08aostw.bzn",
+      "bytes": 76715,
+      "detectedPlayerStarts": 8,
+      "sha256": "58237fd104b6667bf268fe1366b535eabad1f3beda3a2e3b921efdc5a1282b77",
+      "status": "already present (identical map)",
+      "existingFile": "mp08aostw.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/assult-map/details",
+      "title": "Assult Map",
+      "map": "timberwolves01.bzn",
+      "bytes": 206432,
+      "detectedPlayerStarts": 8,
+      "sha256": "956bb65b38d4274446f497fa63fba317beb451020744bb1c30ac64b3d322cb67",
+      "status": "already present (identical map)",
+      "existingFile": "timberwolves01.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/aufc-map/details",
+      "title": "AUFC Map",
+      "map": "8AUFC1.BZN",
+      "bytes": 519582,
+      "detectedPlayerStarts": 8,
+      "sha256": "1cd294821f0a73bf9e16a26697996dec27cb78813e12ec7c797b6b6840d356ad",
+      "status": "already present (identical map)",
+      "existingFile": "8AUFC1.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/battlearea-v11/details",
+      "title": "Battlearea V1.1",
+      "map": "BattleareaV1.bzn",
+      "bytes": 1458094,
+      "detectedPlayerStarts": 8,
+      "sha256": "6e43a31eeb2ea9b15dfb08bd19ff459e6ff2a79c54330f09cccdcfff77839a1d",
+      "status": "already present (identical map)",
+      "existingFile": "BattleareaV1.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/battlearea-v12/details",
+      "title": "Battlearea V1.2",
+      "map": "BattleareaV2.bzn",
+      "bytes": 1467152,
+      "detectedPlayerStarts": 8,
+      "sha256": "2421d087d5ab515ad4ebf392d56b4a1e0adc5e5fd6cd2532a1d4393e5fb7e58a",
+      "status": "already present (identical map)",
+      "existingFile": "BattleareaV2.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/battlearea-v13/details",
+      "title": "Battlearea v1.3",
+      "map": "BattleareaV3.bzn",
+      "bytes": 1407190,
+      "detectedPlayerStarts": 8,
+      "sha256": "76ea1e6fd855ad6512537126a3cca601b95aa9d908cfe63f0881b8a530ac2207",
+      "status": "already present (identical map)",
+      "existingFile": "BattleareaV3.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/battlearea-v14/details",
+      "title": "Battlearea v1.4",
+      "map": "BattleareaV4.bzn",
+      "bytes": 1197578,
+      "detectedPlayerStarts": 8,
+      "sha256": "130070597447676aa9f6632232dbdd2475386f219a88527a45b79c8ac1c4608c",
+      "status": "already present (identical map)",
+      "existingFile": "BattleareaV4.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/battlezone-map/details",
+      "title": "Battlezone Map",
+      "map": "battlezone.bzn",
+      "bytes": 344158,
+      "detectedPlayerStarts": 8,
+      "sha256": "a0f39502cbbf2ea4dbd2537b506de80ffb9abc897603ea50261c3fcb5f7af9b2",
+      "status": "already present (identical map)",
+      "existingFile": "battlezone.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/better-days-for-romluan-empire/details",
+      "title": "Better Days For Romluan Empire",
+      "map": "ruffspot.bzn",
+      "bytes": 300984,
+      "detectedPlayerStarts": 8,
+      "sha256": "ad00bbfda0d07c710d530c2d28ffcf92b6d64e2729a9e1fc0643d2089b4cd259",
+      "status": "already present (identical map)",
+      "existingFile": "ruffspot.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/beyond-the-wall/details",
+      "title": "Beyond the Wall",
+      "map": "beyond the wall v2.bzn",
+      "bytes": 153706,
+      "detectedPlayerStarts": 4,
+      "sha256": "0a6965f90e7a0b684e78bf7312004504dbda20ede8e580096bb3c3d239e2e1b8",
+      "status": "excluded not verified eight-player binary header"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/beyond-the-wall/details",
+      "title": "Beyond the Wall",
+      "map": "beyond the wall.bzn",
+      "bytes": 121290,
+      "detectedPlayerStarts": 4,
+      "sha256": "044d7c99b8aa561486421d6b109d711cdacb5d28a13beeb0ca0e61974fb8950a",
+      "status": "excluded not verified eight-player binary header"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/borg-base-v1/details",
+      "title": "Borg Base",
+      "map": "Borgbasev1.2.bzn",
+      "bytes": 906697,
+      "detectedPlayerStarts": 8,
+      "sha256": "c732a2c96963d7f718a637d3df4f1313b1827fe2d968d796f2fed17e128512de",
+      "status": "already present (identical map)",
+      "existingFile": "Borgbasev1.2.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/boxes-for-8-1/details",
+      "title": "Boxes for 8",
+      "map": "mp08box.bzn",
+      "bytes": 2394987,
+      "detectedPlayerStarts": 8,
+      "sha256": "dc19d7cd75b9aa0e3f2425d642b97649134a7aad603e37751f249836a27eef01",
+      "status": "installed",
+      "installedName": "mp08box.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/calynns-map-1/details",
+      "title": "Calynn's Map 1",
+      "map": "calynn1.bzn",
+      "bytes": 227146,
+      "detectedPlayerStarts": 8,
+      "sha256": "d5a4cea7a5153f448f1469636e92140d23d16e4888364e6fb73c2b6a7625cc16",
+      "status": "already present (identical map)",
+      "existingFile": "calynn1.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/central-battle/details",
+      "title": "Central Battle",
+      "map": "CentralBattlebySidyous.bzn",
+      "bytes": 462901,
+      "detectedPlayerStarts": 8,
+      "sha256": "a0c1223e5e7e1f5089784a60fd91cdb548daab359cd6918bb80b1863af33e15d",
+      "status": "already present (identical map)",
+      "existingFile": "CentralBattlebySidyous.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/chinktonka-sector/details",
+      "title": "Chinktonka Sector",
+      "map": "Chintoka.bzn",
+      "bytes": 185312,
+      "detectedPlayerStarts": 7,
+      "sha256": "84a93119f6dc815727c1cf41f806ba02925b273f733f8690ed7c06d2d2e7cb34",
+      "status": "excluded not verified eight-player binary header"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/cptsteves-drive-at-5/details",
+      "title": "Cpt.Steve's Drive at 5",
+      "map": "r_cptsteve1.bzn",
+      "bytes": 538752,
+      "detectedPlayerStarts": 8,
+      "sha256": "e9525f7f157ab5e01ccb4c5a21dc4db6c66935dce8cd66eb19d8c113372f79dc",
+      "status": "already present (identical map)",
+      "existingFile": "r_cptsteve1.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/death-comes-v2/details",
+      "title": "Death Comes V2",
+      "map": "8death2.bzn",
+      "bytes": 247162,
+      "detectedPlayerStarts": 8,
+      "sha256": "2e04dcccb097354063607bd8b976efd106773da594d45aa67cdb4ed591cef041",
+      "status": "already present (identical map)",
+      "existingFile": "8death2.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/death-comes/details",
+      "title": "Death Comes",
+      "map": "8death.bzn",
+      "bytes": 203768,
+      "detectedPlayerStarts": 8,
+      "sha256": "c27c3084c5ee5145c95ecad2b138f8ffddc13b21960c619008c3692389bd83fd",
+      "status": "already present (identical map)",
+      "existingFile": "8death.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/ferengi-haven/details",
+      "title": "Ferengi Haven",
+      "map": "mp08ferngi_haven.bzn",
+      "bytes": 827824,
+      "detectedPlayerStarts": 8,
+      "sha256": "58233c4d8030f2bed127b2e480a716e2430c0706d4f1642b07b162f9f0caa6b9",
+      "status": "already present (identical map)",
+      "existingFile": "mp08ferngi_haven.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/fierce-competition-a2/details",
+      "title": "Fierce Competition A2",
+      "map": "8compete.bzn",
+      "bytes": 360722,
+      "detectedPlayerStarts": 8,
+      "sha256": "50026505d87e317b5b806789a53b380e19c477b84c57307b6c147030b604ef84",
+      "status": "installed",
+      "installedName": "8compete.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/fight-for-resources/details",
+      "title": "Fight For Resources",
+      "map": "fight.bzn",
+      "bytes": 39905,
+      "detectedPlayerStarts": 8,
+      "sha256": "0ac169d8e895639d47d3bc59636a4edb22d8e53f214b5d4ba21ccca29676fbfb",
+      "status": "already present (identical map)",
+      "existingFile": "fight.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/four-quadrants-map/details",
+      "title": "Four Quadrants map",
+      "map": "mp08frquad.bzn",
+      "bytes": 159973,
+      "detectedPlayerStarts": 8,
+      "sha256": "bf543e6434a79843f6177a81798878966325caef7c72b7cb7e2b84ad0c7f2b14",
+      "status": "already present (identical map)",
+      "existingFile": "mp08frquad.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/from-hells-heart-for-fleetops-only/details",
+      "title": "From Hell's Heart",
+      "map": "Hellspace.bzn",
+      "bytes": 146615,
+      "detectedPlayerStarts": 8,
+      "sha256": "04feee5aa1af93cc17bf409deadbc03180947bb3c000eae02aa7863cdb9b0c0b",
+      "status": "excluded Fleet Operations requirement"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/glenns-warzone/details",
+      "title": "Glenn's Warzone",
+      "map": "mp08walr.bzn",
+      "bytes": 410669,
+      "detectedPlayerStarts": 8,
+      "sha256": "3420f37127b693e084598e48631231eda932f67d10ae28d280cdf463fa4b1be1",
+      "status": "excluded archive requires extra assets; preserve current environment"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/h-and-h/details",
+      "title": "H and H",
+      "map": "H&H.bzn",
+      "bytes": 119871,
+      "detectedPlayerStarts": 8,
+      "sha256": "70ffb035c9a441a96f965b6934edcba0820bc5692977fde8a67a28a022931711",
+      "status": "already present (identical map)",
+      "existingFile": "H&H.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/it-takes-time/details",
+      "title": "It Takes Time",
+      "map": "gp08time.bzn",
+      "bytes": 1096602,
+      "detectedPlayerStarts": 8,
+      "sha256": "d77fc9d9b4dd2a5dfd4e594e74e0bd8723ffaf66f835b8874ad8583e911b778d",
+      "status": "already present (identical map)",
+      "existingFile": "gp08time.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/j-light/details",
+      "title": "J_Light",
+      "map": "j_light.bzn",
+      "bytes": 211507,
+      "detectedPlayerStarts": 8,
+      "sha256": "509a38c8b352d5b7bbf165739c784e79f57cba1c32d9ed22ce02c855e7a0257d",
+      "status": "already present (identical map)",
+      "existingFile": "j_light.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/jcs-vertical-race/details",
+      "title": "JC's Vertical Race",
+      "map": "r_jcsq1.bzn",
+      "bytes": 815121,
+      "detectedPlayerStarts": 8,
+      "sha256": "0ba6d62f34a1e3a296331df2037a9b83179c7de1c302fa62a87262e8c4120c0c",
+      "status": "already present (identical map)",
+      "existingFile": "r_jcsq1.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/junkyard-omega/details",
+      "title": "Junkyard Omega",
+      "map": "mp08junk.bzn",
+      "bytes": 286452,
+      "detectedPlayerStarts": 8,
+      "sha256": "96d3052d0278c42931e05484b434a2500bf7e6e27da43d4b3b1a5149635e2377",
+      "status": "already present (identical map)",
+      "existingFile": "mp08junk.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/mad-space/details",
+      "title": "Mad Space",
+      "map": "madspace.bzn",
+      "bytes": 472395,
+      "detectedPlayerStarts": 8,
+      "sha256": "9cb63e50214a29cb2166712504d92bf9cedb642ae42947b8d1e25ef026e6db3f",
+      "status": "already present (identical map)",
+      "existingFile": "madspace.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/middle-earth/details",
+      "title": "Middle Earth",
+      "map": "MiddleEarth.bzn",
+      "bytes": 141657,
+      "detectedPlayerStarts": 8,
+      "sha256": "ccad348e5ae38b2b9de02a32274f4184ab2c68b59abee986f1d37189bbd17829",
+      "status": "already present (identical map)",
+      "existingFile": "MiddleEarth.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/murdra-x-request-20/details",
+      "title": "Murdra-X Request (2.0)",
+      "map": "murdra_reqv2.bzn",
+      "bytes": 301671,
+      "detectedPlayerStarts": 8,
+      "sha256": "25a6f68ebb2a747565750de75ef03815af0b6a3caf7d8c15054893406c97fbcb",
+      "status": "already present (identical map)",
+      "existingFile": "murdra_reqv2.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/mwoan-map/details",
+      "title": "M.W.O.A.N map",
+      "map": "TJPMwoan.bzn",
+      "bytes": 725431,
+      "detectedPlayerStarts": 8,
+      "sha256": "24b592b18a4be99016ec0aac623f1625c06c62994b1c2d1cd34b7bc7a06697ec",
+      "status": "installed",
+      "installedName": "TJPMwoan.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/nebula-madness-20/details",
+      "title": "Nebula Madness 2.0",
+      "map": "wampa2.bzn",
+      "bytes": 384052,
+      "detectedPlayerStarts": 8,
+      "sha256": "e619ccf6ba8aa442ac59c35541726c415b140d5eed3d39f5a1a79e0bcc65d9f1",
+      "status": "already present (identical map)",
+      "existingFile": "wampa2.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/nebula-madness/details",
+      "title": "Nebula Madness",
+      "map": "wampa1.bzn",
+      "bytes": 174783,
+      "detectedPlayerStarts": 8,
+      "sha256": "336c088976409f2f9fd51363f1b1861172f98d8ae48f5663dd6e1dae97d1a840",
+      "status": "already present (identical map)",
+      "existingFile": "wampa1.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/planet-clusters/details",
+      "title": "Planet Clusters",
+      "map": "Planet Clusters.bzn",
+      "bytes": 712836,
+      "detectedPlayerStarts": 8,
+      "sha256": "52b6a722e34b368507ce7c0e45fe3f5626b8d9448324466a712ef4f05b8ee903",
+      "status": "excluded missing object definitions",
+      "missingObjects": [
+        "8472_mother"
+      ]
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/praxsis-for-fleetops-only/details",
+      "title": "Praxsis",
+      "map": "praxsis.bzn",
+      "bytes": 1169885,
+      "detectedPlayerStarts": 8,
+      "sha256": "227cff1edcd27e3b038fe47658e7d9418e4bac296f12cc19c07cb957c36f43a6",
+      "status": "excluded Fleet Operations requirement"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/race-cross-tech-assault/details",
+      "title": "Race Cross Tech Assault",
+      "map": "gettechassault.bzn",
+      "bytes": 210656,
+      "detectedPlayerStarts": 8,
+      "sha256": "7694614fd575543373001d33646deb734e8e6242d4fc80e6429d6bd4efe44e75",
+      "status": "already present (identical map)",
+      "existingFile": "gettechassault.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/sector-of-darkness/details",
+      "title": "sector of darkness",
+      "map": "sectorofdeath.bzn",
+      "bytes": 701345,
+      "detectedPlayerStarts": 8,
+      "sha256": "8341875078671596ac9d05821ff8e6a5973f5628cb5ee80f2f2d406448b34c90",
+      "status": "already present (identical map)",
+      "existingFile": "sectorofdeath.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/star-system-19/details",
+      "title": "Star System 19",
+      "map": "mp08system19.bzn",
+      "bytes": 160098,
+      "detectedPlayerStarts": 8,
+      "sha256": "fa734c7ca70417c7f7e285602710b5024a7415f3782efbe39100d517ec969f46",
+      "status": "installed",
+      "installedName": "mp08system19.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/system/details",
+      "title": "System",
+      "map": "system.bzn",
+      "bytes": 144262,
+      "detectedPlayerStarts": 8,
+      "sha256": "cef3bf8367ff5bbabe9169ddecac55db2c8c6bf3d10920f9f8380cef89140687",
+      "status": "installed",
+      "installedName": "AF8_system_system.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/tadeja-10/details",
+      "title": "Tadeja",
+      "map": "a_dare_tadeja.bzn",
+      "bytes": 277214,
+      "detectedPlayerStarts": 8,
+      "sha256": "1f1de2943f0a0c11fc4000c94b29e3091cf7c1dd2ce1ff6f6f717df37af0ce05",
+      "status": "excluded Fleet Operations requirement"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/the-base-11/details",
+      "title": "The_base",
+      "map": "The_Base.bzn",
+      "bytes": 462948,
+      "detectedPlayerStarts": 7,
+      "sha256": "a2304ddcac9de33095daa34a1c399c4b4f2b043058cf8c786a689bb6bc31d2ce",
+      "status": "excluded not verified eight-player binary header"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/the-latinum-diamond/details",
+      "title": "The Latinum Diamond",
+      "map": "mp08engage.bzn",
+      "bytes": 694609,
+      "detectedPlayerStarts": 8,
+      "sha256": "9baba988e0bb39e4d89b615c954fbe520619863e21f35d57a68ac2eae0149873",
+      "status": "already present (identical map)",
+      "existingFile": "mp08engage.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/tic-tac-toe-omega-returns/details",
+      "title": "Tic Tac Toe Omega Returns",
+      "map": "mp08tict.bzn",
+      "bytes": 369907,
+      "detectedPlayerStarts": 8,
+      "sha256": "49f8832fd7027e5f6819044dad16b0a605f606e3b01f873ab6244b67b3ed8b43",
+      "status": "installed",
+      "installedName": "mp08tict.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/tic-tac-toe/details",
+      "title": "Tic Tac Toe",
+      "map": "8tictac2.bzn",
+      "bytes": 220696,
+      "detectedPlayerStarts": 8,
+      "sha256": "9ea05b239a175acd9bb40e262bb9b2e04354008b15ae103bf422ff6d83d0a88a",
+      "status": "already present (identical map)",
+      "existingFile": "8tictac2.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/time-for-fleetops-only/details",
+      "title": "Time",
+      "map": "time.bzn",
+      "bytes": 677017,
+      "detectedPlayerStarts": 8,
+      "sha256": "3b3ed6e68101e02b87e8b99c19083e3f881a1132988cc8bdce7c35df85ae007e",
+      "status": "excluded Fleet Operations requirement"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/tjp-both-ends/details",
+      "title": "TJP Both Ends",
+      "map": "TJPBothEnds.bzn",
+      "bytes": 1118296,
+      "detectedPlayerStarts": 8,
+      "sha256": "3e348d31f26ccdced35c74d173d55520cd59173aac9a4aeeb271a1b0db35b927",
+      "status": "installed",
+      "installedName": "TJPBothEnds.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/tjp-both-ends/details",
+      "title": "TJP Both Ends",
+      "map": "TJPBothEndsv2.bzn",
+      "bytes": 1118915,
+      "detectedPlayerStarts": 8,
+      "sha256": "52ff05111c1721a72725d282bd84ad76d17f3695b3a58b086b3b6db77fcd3cf5",
+      "status": "installed",
+      "installedName": "TJPBothEndsv2.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/tjp-sg-maps/details",
+      "title": "TJP SG Maps",
+      "map": "Get_Out_Of_The_Stargate.bzn",
+      "bytes": 2062199,
+      "detectedPlayerStarts": 8,
+      "sha256": "defba1a1529e51156864c9094b6943fcd04eee2ac1bb90501c721295c9685d89",
+      "status": "already present (identical map)",
+      "existingFile": "get_out_of_the_stargate1.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/tjp-sg-maps/details",
+      "title": "TJP SG Maps",
+      "map": "The_Stargate.bzn",
+      "bytes": 2124378,
+      "detectedPlayerStarts": 8,
+      "sha256": "b673751e777af234d5f43a124d1bbbec789f6c6d9a727dd79952cf3cfd2ba1aa",
+      "status": "already present (identical map)",
+      "existingFile": "the_stargate1.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/warzone/details",
+      "title": "Warzone",
+      "map": "mp08tic-tac-2.bzn",
+      "bytes": 652660,
+      "detectedPlayerStarts": 8,
+      "sha256": "3b5a020fc218e1f90dd0620a856b1d74d230ba9876d9eec3ed240f0baa39830a",
+      "status": "already present (identical map)",
+      "existingFile": "mp08tic-tac-2.bzn"
+    },
+    {
+      "source": "http://armadafiles.com/files/armada-2/maps/8-player/wormhole-madness/details",
+      "title": "Wormhole Madness",
+      "map": "wrmhlmad.bzn",
+      "bytes": 237933,
+      "detectedPlayerStarts": 8,
+      "sha256": "cdd8c3b8eb1cc1da468d34f2177ad3eb6d49b137b2e078aa6ad3e783e030b9c8",
+      "status": "already present (identical map)",
+      "existingFile": "wrmhlmad.bzn"
+    }
+  ],
+  "files": [
+    {
+      "path": "bzn/mp08serraya.bmp",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\mp08serraya.bmp",
+      "sha256": "82364e706a2407387dd55fa1d5f7a2667d0b3aa0186d200a86887fe452653b8f"
+    },
+    {
+      "path": "bzn/mp08serraya.bzn",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\mp08serraya.bzn",
+      "sha256": "d8a61a2b252d183abb98b2e209dbcb2182944cae870861c87744a3e06e261851"
+    },
+    {
+      "path": "bzn/mp08box.bmp",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\mp08box.bmp",
+      "sha256": "e2a4a555c48b78f1b1d26f42a7a9a7d7a1bcc968ac8ca68b8d55c4fc51ce0469"
+    },
+    {
+      "path": "bzn/mp08box.bzn",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\mp08box.bzn",
+      "sha256": "dc19d7cd75b9aa0e3f2425d642b97649134a7aad603e37751f249836a27eef01"
+    },
+    {
+      "path": "bzn/mp08box.txt",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\mp08box.txt",
+      "sha256": "ac814d520d00cb41840f5c71f6b5e2c6464ac3c25bcc22eb224e4d32a4e857cf"
+    },
+    {
+      "path": "bzn/8compete.bmp",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\8compete.bmp",
+      "sha256": "7aba32fce060aa28a63907736e64f589990e2062246c33c6fa7944e6659f5aa3"
+    },
+    {
+      "path": "bzn/8compete.bzn",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\8compete.bzn",
+      "sha256": "50026505d87e317b5b806789a53b380e19c477b84c57307b6c147030b604ef84"
+    },
+    {
+      "path": "bzn/8compete.txt",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\8compete.txt",
+      "sha256": "974d1edbfeec123238191c5e1e0957ea72bdb1046802f1d62f8531e61797ac80"
+    },
+    {
+      "path": "bzn/TJPMwoan.bmp",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\TJPMwoan.bmp",
+      "sha256": "18fb84c0f114b2afbb9ae7b4b8d6f4e21d1fc928214b594f558a008050e627c1"
+    },
+    {
+      "path": "bzn/TJPMwoan.bzn",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\TJPMwoan.bzn",
+      "sha256": "24b592b18a4be99016ec0aac623f1625c06c62994b1c2d1cd34b7bc7a06697ec"
+    },
+    {
+      "path": "bzn/TJPMwoan.txt",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\TJPMwoan.txt",
+      "sha256": "9453d59121a7de7bea4807007f8ae5f58979fe5c63503356f1f9d19872c668a1"
+    },
+    {
+      "path": "bzn/mp08system19.bmp",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\mp08system19.bmp",
+      "sha256": "912019c8c401244834e9d4d911d19c0d9fc1957e718d10a1ea02440f4ec73916"
+    },
+    {
+      "path": "bzn/mp08system19.bzn",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\mp08system19.bzn",
+      "sha256": "fa734c7ca70417c7f7e285602710b5024a7415f3782efbe39100d517ec969f46"
+    },
+    {
+      "path": "bzn/mp08system19.txt",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\mp08system19.txt",
+      "sha256": "62168687b4acabc13df3ed31889465ff2134c24680c9f68c320f562165475bab"
+    },
+    {
+      "path": "bzn/AF8_system_system.bmp",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\AF8_system_system.bmp",
+      "sha256": "bcc31ddeaba100b987271a542786d5e4c7978ffd2466f7c4c6176dd5a8ea56ad"
+    },
+    {
+      "path": "bzn/AF8_system_system.bzn",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\AF8_system_system.bzn",
+      "sha256": "cef3bf8367ff5bbabe9169ddecac55db2c8c6bf3d10920f9f8380cef89140687"
+    },
+    {
+      "path": "bzn/AF8_system_system.txt",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\AF8_system_system.txt",
+      "sha256": "4d4494680201c0d3ac9b80066f36adee4b79a9805e977ce8ab9aa74dd660976d"
+    },
+    {
+      "path": "bzn/mp08tict.bmp",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\mp08tict.bmp",
+      "sha256": "6f279e423e3502e3dae01bfceec68e9f7ddf7b322589fd24696339ba0205b7c4"
+    },
+    {
+      "path": "bzn/mp08tict.bzn",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\mp08tict.bzn",
+      "sha256": "49f8832fd7027e5f6819044dad16b0a605f606e3b01f873ab6244b67b3ed8b43"
+    },
+    {
+      "path": "bzn/TJPBothEnds.bmp",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\TJPBothEnds.bmp",
+      "sha256": "5283b91bc551737edcbf15a32d877a1666cef044607d03aa444b1b902eaa7a42"
+    },
+    {
+      "path": "bzn/TJPBothEnds.bzn",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\TJPBothEnds.bzn",
+      "sha256": "3e348d31f26ccdced35c74d173d55520cd59173aac9a4aeeb271a1b0db35b927"
+    },
+    {
+      "path": "bzn/TJPBothEnds.txt",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\TJPBothEnds.txt",
+      "sha256": "ea397b1f67d2ec689a490731de0f02f4a1d8ae56688402a4881290c684461024"
+    },
+    {
+      "path": "bzn/TJPBothEndsv2.bmp",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\TJPBothEndsv2.bmp",
+      "sha256": "315435d21b8a35fcb8ac3124379bd31927d96e06c71e57c04af4f9605a274908"
+    },
+    {
+      "path": "bzn/TJPBothEndsv2.bzn",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\TJPBothEndsv2.bzn",
+      "sha256": "52ff05111c1721a72725d282bd84ad76d17f3695b3a58b086b3b6db77fcd3cf5"
+    },
+    {
+      "path": "bzn/TJPBothEndsv2.txt",
+      "stage": "D:\\Xaramada-Modwork\\eight-player-completion\\stage\\TJPBothEndsv2.txt",
+      "sha256": "2be789a8e55b7b1cf96d0aedabe24c5bcdd5caba4d80b21d6735bfb3b78d3710"
+    }
+  ],
+  "applied": true,
+  "runtimeVerified": false,
+  "method": "Eight typed player-start strings in native BZN header; compared with all 25 earlier known-eight maps. Archive requirements and companion object references checked where available. No ODF/model/texture imports; existing map files never overwritten.",
+  "installedAt": "2026-10-17T04:57:12.4134033Z"
+}

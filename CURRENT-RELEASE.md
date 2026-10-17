@@ -11,3 +11,5 @@ Latest static checks: 870 Federation/Bajor properties match; 40 research setting
 Binary models/textures/audio/dumps remain local and are excluded from source publication. Historical installers/reports may describe superseded states; verify active hashes and target paths before use.
 
 Final graphics update: user-selected texture-only ArmadaFiles-inspired shared Bajor atlas adaptation installed, normal and assimilated variants. Two textures only; 2,233 protected gameplay/model/icon files verified unchanged. Preview/source files at bajor/artwork/armadafiles-adaptation locally; generated texture binaries remain local. Fresh-game appearance test pending.
+
+Latest installed additions: nine eight-player maps and 25 map/preview files with no overwrites; fixed malformed Dominion Dreadnought build icon; 14 complete Omega weapon definitions relocated into native weapon-type folders; alternate super starts now include one own-faction hero across all nine races. Runtime validation remains pending.

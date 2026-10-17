@@ -1,0 +1,54 @@
+//This is the main phaser odf file
+
+//Display name for this weapon
+wpnName = "Phaser"
+
+//Time Delay between shots
+shotDelay = 2.0f
+
+// Range within which the weapon will fire.
+//range = 575.0f
+range = 600.0f
+
+//Sound which is played when the weapon fires
+fireSound = "phfwea.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "cannon"
+
+// Percent chance of hitting the target.
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a percentage)
+hitChance = 0.75
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the attacker is full impulse
+impulseToHitModifier = -0.25
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not attacker is stopped 
+stopToHitModifier = -0.0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is full impulse
+toHitImpulseModifier = 0.00
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is stopped 
+toHitStopModifier = 0.25
+
+
+
+//Name of the ODF file for the ordinance for this weapon
+ordName = "fsovereignphaso"
+
+//Display name for this weapon
+wpnName = "Phaser"
+
+//Time Delay between shots
+shotDelay = 1.3f
+
+//Sound which is played when the weapon fires
+fireSound = "phfwea.wav"
+
+
+shotDelay = 1.0400

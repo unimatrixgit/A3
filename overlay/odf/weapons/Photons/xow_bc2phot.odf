@@ -1,0 +1,69 @@
+//This is the main photon weapon file
+
+//Name of the ODF file for the ordinance for this weapon
+ordName = "photono"
+
+//Display name for this weapon
+wpnName = "Photon Torpedo"
+
+//Time Delay between shots
+shotDelay = 1.3f
+
+// Range within which the weapon will fire.
+//range = 575.0f
+range = 600.0f
+
+//Sound which is played when the weapon fires
+fireSound = "pofwea2.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "launcher"
+
+// Percent chance of hitting the target.
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a percentage)
+hitChance = 0.5
+	"bbattle.odf" 1.0
+	"fbattle.odf" 1.0
+	"kbattle.odf" 1.0
+	"rbattle.odf" 1.0
+	"fente.odf" 1.0
+	"fgalaxy.odf" 1.0
+	"kmartok.odf" 1.0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the attacker is full impulse
+impulseToHitModifier = -0.0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not attacker is stopped 
+stopToHitModifier = 0.2
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is full impulse
+toHitImpulseModifier = 0.0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is stopped 
+toHitStopModifier = 0.2
+
+
+//Name of the ODF file for the ordinance for this weapon
+ordName = "bphotono"
+
+//Display name for this weapon
+wpnName = "Photon Torpedo"
+
+//Time Delay between shots
+shotDelay = 1.2f
+
+//Sound which is played when the weapon fires
+fireSound = "pobwea.wav"
+
+specialEnergyCost = 32
+damageBase = 114
+shotSpeed = 523.0
+Sprite = "bphoton"
+radius = 3.6f
+range = 597.0f
+
+shotDelay = 0.9600
