@@ -38,6 +38,24 @@ function LastManStanding:setup()
         print('Last Man Standing disabled: no reviewed mission map/site configuration.')
         return
     end
+    -- Stock Instant Action can call setup on a restored match. Never overwrite
+    -- persisted once-only flags merely because MMM did not dispatch resume.
+    local ok,helpers=pcall(function()
+        return EntityFinder(function(e)
+            if not e.valid then return false end
+            local odf=string.lower(e.odf or ''):gsub('%.odf$','')
+            return odf=='mmm_holder' or odf=='mmm_mapper'
+        end):find()
+    end)
+    if not ok then
+        self.disabled=true
+        print('Last Man Standing paused: unable to inspect saved-state helpers.')
+        return
+    end
+    if next(helpers)~=nil then
+        self:resume()
+        return
+    end
     self.adapter=Adapter.new(Config,Definitions,Scenario)
     self.controller=Core.new(Config)
     self.controller:update(self.adapter:snapshot(),self.adapter)

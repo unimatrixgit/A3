@@ -1,0 +1,5191 @@
+{
+  "target": "D:\\ArmadaLab",
+  "readOnly": true,
+  "regions": [
+    {
+      "start": "0x401a30",
+      "instructions": [
+        {
+          "address": "0x401a30",
+          "operation": "push",
+          "operands": "ebp",
+          "symbol": "?Load@AiMission@@UAE_NAAVFileReader@@@Z"
+        },
+        {
+          "address": "0x401a31",
+          "operation": "mov",
+          "operands": "ebp, esp"
+        },
+        {
+          "address": "0x401a33",
+          "operation": "sub",
+          "operands": "esp, 0x10"
+        },
+        {
+          "address": "0x401a36",
+          "operation": "push",
+          "operands": "ebx"
+        },
+        {
+          "address": "0x401a37",
+          "operation": "push",
+          "operands": "esi"
+        },
+        {
+          "address": "0x401a38",
+          "operation": "mov",
+          "operands": "esi, dword ptr [ebp + 8]"
+        },
+        {
+          "address": "0x401a3b",
+          "operation": "push",
+          "operands": "edi"
+        },
+        {
+          "address": "0x401a3c",
+          "operation": "push",
+          "operands": "0x6ed024"
+        },
+        {
+          "address": "0x401a41",
+          "operation": "mov",
+          "operands": "ebx, ecx"
+        },
+        {
+          "address": "0x401a43",
+          "operation": "push",
+          "operands": "esi"
+        },
+        {
+          "address": "0x401a44",
+          "operation": "call",
+          "operands": "0x52d610",
+          "targetSymbol": "?in@@YA_NAAVFileReader@@PAD@Z"
+        },
+        {
+          "address": "0x401a49",
+          "operation": "add",
+          "operands": "esp, 8"
+        },
+        {
+          "address": "0x401a4c",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x401a4e",
+          "operation": "je",
+          "operands": "0x401a7a"
+        },
+        {
+          "address": "0x401a50",
+          "operation": "lea",
+          "operands": "eax, [ebx + 8]"
+        },
+        {
+          "address": "0x401a53",
+          "operation": "push",
+          "operands": "0x40"
+        },
+        {
+          "address": "0x401a55",
+          "operation": "push",
+          "operands": "eax"
+        },
+        {
+          "address": "0x401a56",
+          "operation": "push",
+          "operands": "esi"
+        },
+        {
+          "address": "0x401a57",
+          "operation": "call",
+          "operands": "0x52d6e0",
+          "targetSymbol": "?in@@YA_NAAVFileReader@@PADI@Z"
+        },
+        {
+          "address": "0x401a5c",
+          "operation": "add",
+          "operands": "esp, 0xc"
+        },
+        {
+          "address": "0x401a5f",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x401a61",
+          "operation": "je",
+          "operands": "0x401a7a"
+        },
+        {
+          "address": "0x401a63",
+          "operation": "lea",
+          "operands": "ecx, [ebx + 0x48]"
+        },
+        {
+          "address": "0x401a66",
+          "operation": "push",
+          "operands": "0x40"
+        },
+        {
+          "address": "0x401a68",
+          "operation": "push",
+          "operands": "ecx"
+        },
+        {
+          "address": "0x401a69",
+          "operation": "push",
+          "operands": "esi"
+        },
+        {
+          "address": "0x401a6a",
+          "operation": "call",
+          "operands": "0x52d6e0",
+          "targetSymbol": "?in@@YA_NAAVFileReader@@PADI@Z"
+        },
+        {
+          "address": "0x401a6f",
+          "operation": "add",
+          "operands": "esp, 0xc"
+        },
+        {
+          "address": "0x401a72",
+          "operation": "mov",
+          "operands": "byte ptr [ebp - 1], 1"
+        },
+        {
+          "address": "0x401a76",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x401a78",
+          "operation": "jne",
+          "operands": "0x401a7e"
+        },
+        {
+          "address": "0x401a7a",
+          "operation": "mov",
+          "operands": "byte ptr [ebp - 1], 0"
+        },
+        {
+          "address": "0x401a7e",
+          "operation": "cmp",
+          "operands": "dword ptr [esi + 8], 0x7fa"
+        },
+        {
+          "address": "0x401a85",
+          "operation": "jl",
+          "operands": "0x401aa1"
+        },
+        {
+          "address": "0x401a87",
+          "operation": "lea",
+          "operands": "edx, [ebx + 0x88]"
+        },
+        {
+          "address": "0x401a8d",
+          "operation": "push",
+          "operands": "0x40"
+        },
+        {
+          "address": "0x401a8f",
+          "operation": "push",
+          "operands": "edx"
+        },
+        {
+          "address": "0x401a90",
+          "operation": "push",
+          "operands": "esi"
+        },
+        {
+          "address": "0x401a91",
+          "operation": "call",
+          "operands": "0x52d7a0",
+          "targetSymbol": "?in@@YA_NAAVFileReader@@PAXI@Z"
+        },
+        {
+          "address": "0x401a96",
+          "operation": "mov",
+          "operands": "cl, byte ptr [ebp - 1]"
+        },
+        {
+          "address": "0x401a99",
+          "operation": "add",
+          "operands": "esp, 0xc"
+        },
+        {
+          "address": "0x401a9c",
+          "operation": "and",
+          "operands": "cl, al"
+        },
+        {
+          "address": "0x401a9e",
+          "operation": "mov",
+          "operands": "byte ptr [ebp - 1], cl"
+        },
+        {
+          "address": "0x401aa1",
+          "operation": "mov",
+          "operands": "eax, dword ptr [ebx + 0xe0]"
+        },
+        {
+          "address": "0x401aa7",
+          "operation": "cmp",
+          "operands": "eax, -1"
+        },
+        {
+          "address": "0x401aaa",
+          "operation": "je",
+          "operands": "0x401ab5"
+        },
+        {
+          "address": "0x401aac",
+          "operation": "push",
+          "operands": "eax"
+        },
+        {
+          "address": "0x401aad",
+          "operation": "call",
+          "operands": "0x407ef0",
+          "targetSymbol": "?Trash_Action_Scripts@@YAXH@Z"
+        },
+        {
+          "address": "0x401ab2",
+          "operation": "add",
+          "operands": "esp, 4"
+        },
+        {
+          "address": "0x401ab5",
+          "operation": "mov",
+          "operands": "eax, dword ptr [ebx + 0xe4]"
+        },
+        {
+          "address": "0x401abb",
+          "operation": "cmp",
+          "operands": "eax, -1"
+        },
+        {
+          "address": "0x401abe",
+          "operation": "je",
+          "operands": "0x401ac9"
+        },
+        {
+          "address": "0x401ac0",
+          "operation": "push",
+          "operands": "eax"
+        },
+        {
+          "address": "0x401ac1",
+          "operation": "call",
+          "operands": "0x406660",
+          "targetSymbol": "?Trash_Rules@@YAXH@Z"
+        },
+        {
+          "address": "0x401ac6",
+          "operation": "add",
+          "operands": "esp, 4"
+        },
+        {
+          "address": "0x401ac9",
+          "operation": "lea",
+          "operands": "eax, [ebx + 8]"
+        },
+        {
+          "address": "0x401acc",
+          "operation": "push",
+          "operands": "eax"
+        },
+        {
+          "address": "0x401acd",
+          "operation": "call",
+          "operands": "0x407b70",
+          "targetSymbol": "?Load_Action_Scripts@@YAHPAD@Z"
+        },
+        {
+          "address": "0x401ad2",
+          "operation": "lea",
+          "operands": "ecx, [ebx + 0x48]"
+        },
+        {
+          "address": "0x401ad5",
+          "operation": "mov",
+          "operands": "dword ptr [ebx + 0xe0], eax"
+        },
+        {
+          "address": "0x401adb",
+          "operation": "push",
+          "operands": "ecx"
+        },
+        {
+          "address": "0x401adc",
+          "operation": "call",
+          "operands": "0x406480",
+          "targetSymbol": "?Load_Rules@@YAHPAD@Z"
+        },
+        {
+          "address": "0x401ae1",
+          "operation": "mov",
+          "operands": "dword ptr [ebx + 0xe4], eax"
+        },
+        {
+          "address": "0x401ae7",
+          "operation": "mov",
+          "operands": "al, byte ptr [esi + 5]"
+        },
+        {
+          "address": "0x401aea",
+          "operation": "add",
+          "operands": "esp, 8"
+        },
+        {
+          "address": "0x401aed",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x401aef",
+          "operation": "je",
+          "operands": "0x401bfd"
+        },
+        {
+          "address": "0x401af5",
+          "operation": "mov",
+          "operands": "al, byte ptr [ebp - 1]"
+        },
+        {
+          "address": "0x401af8",
+          "operation": "xor",
+          "operands": "edi, edi"
+        },
+        {
+          "address": "0x401afa",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x401afc",
+          "operation": "mov",
+          "operands": "dword ptr [ebp - 0xc], edi"
+        },
+        {
+          "address": "0x401aff",
+          "operation": "je",
+          "operands": "0x401b18"
+        },
+        {
+          "address": "0x401b01",
+          "operation": "lea",
+          "operands": "edx, [ebp - 0xc]"
+        },
+        {
+          "address": "0x401b04",
+          "operation": "push",
+          "operands": "4"
+        },
+        {
+          "address": "0x401b06",
+          "operation": "push",
+          "operands": "edx"
+        },
+        {
+          "address": "0x401b07",
+          "operation": "push",
+          "operands": "esi"
+        },
+        {
+          "address": "0x401b08",
+          "operation": "call",
+          "operands": "0x52dc70",
+          "targetSymbol": "?in@@YA_NAAVFileReader@@PAHI@Z"
+        },
+        {
+          "address": "0x401b0d",
+          "operation": "add",
+          "operands": "esp, 0xc"
+        },
+        {
+          "address": "0x401b10",
+          "operation": "mov",
+          "operands": "byte ptr [ebp - 1], 1"
+        },
+        {
+          "address": "0x401b14",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x401b16",
+          "operation": "jne",
+          "operands": "0x401b1c"
+        },
+        {
+          "address": "0x401b18",
+          "operation": "mov",
+          "operands": "byte ptr [ebp - 1], 0"
+        },
+        {
+          "address": "0x401b1c",
+          "operation": "mov",
+          "operands": "al, byte ptr [ebp - 1]"
+        },
+        {
+          "address": "0x401b1f",
+          "operation": "mov",
+          "operands": "dword ptr [ebp - 8], edi"
+        },
+        {
+          "address": "0x401b22",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x401b24",
+          "operation": "je",
+          "operands": "0x401b9e"
+        },
+        {
+          "address": "0x401b26",
+          "operation": "mov",
+          "operands": "eax, dword ptr [ebp - 8]"
+        },
+        {
+          "address": "0x401b29",
+          "operation": "mov",
+          "operands": "ecx, dword ptr [ebp - 0xc]"
+        },
+        {
+          "address": "0x401b2c",
+          "operation": "cmp",
+          "operands": "eax, ecx"
+        },
+        {
+          "address": "0x401b2e",
+          "operation": "jge",
+          "operands": "0x401ba9"
+        },
+        {
+          "address": "0x401b30",
+          "operation": "push",
+          "operands": "esi"
+        },
+        {
+          "address": "0x401b31",
+          "operation": "call",
+          "operands": "0x53c2b0",
+          "targetSymbol": "?Load@RtimeClass@@SAPAVSObject@@AAVFileReader@@@Z"
+        },
+        {
+          "address": "0x401b36",
+          "operation": "add",
+          "operands": "esp, 4"
+        },
+        {
+          "address": "0x401b39",
+          "operation": "mov",
+          "operands": "dword ptr [ebp - 0x10], eax"
+        },
+        {
+          "address": "0x401b3c",
+          "operation": "test",
+          "operands": "eax, eax"
+        },
+        {
+          "address": "0x401b3e",
+          "operation": "je",
+          "operands": "0x401b8c"
+        },
+        {
+          "address": "0x401b40",
+          "operation": "mov",
+          "operands": "esi, dword ptr [ebx + 0xcc]"
+        },
+        {
+          "address": "0x401b46",
+          "operation": "push",
+          "operands": "0xc"
+        },
+        {
+          "address": "0x401b48",
+          "operation": "mov",
+          "operands": "edi, dword ptr [esi + 4]"
+        },
+        {
+          "address": "0x401b4b",
+          "operation": "call",
+          "operands": "0x652710",
+          "targetSymbol": "??2@YAPAXI@Z"
+        },
+        {
+          "address": "0x401b50",
+          "operation": "add",
+          "operands": "esp, 4"
+        },
+        {
+          "address": "0x401b53",
+          "operation": "mov",
+          "operands": "ecx, esi"
+        },
+        {
+          "address": "0x401b55",
+          "operation": "test",
+          "operands": "esi, esi"
+        },
+        {
+          "address": "0x401b57",
+          "operation": "jne",
+          "operands": "0x401b5b"
+        },
+        {
+          "address": "0x401b59",
+          "operation": "mov",
+          "operands": "ecx, eax"
+        },
+        {
+          "address": "0x401b5b",
+          "operation": "test",
+          "operands": "edi, edi"
+        },
+        {
+          "address": "0x401b5d",
+          "operation": "mov",
+          "operands": "dword ptr [eax], ecx"
+        },
+        {
+          "address": "0x401b5f",
+          "operation": "jne",
+          "operands": "0x401b63"
+        },
+        {
+          "address": "0x401b61",
+          "operation": "mov",
+          "operands": "edi, eax"
+        },
+        {
+          "address": "0x401b63",
+          "operation": "mov",
+          "operands": "dword ptr [eax + 4], edi"
+        },
+        {
+          "address": "0x401b66",
+          "operation": "mov",
+          "operands": "dword ptr [esi + 4], eax"
+        },
+        {
+          "address": "0x401b69",
+          "operation": "mov",
+          "operands": "ecx, dword ptr [eax + 4]"
+        },
+        {
+          "address": "0x401b6c",
+          "operation": "mov",
+          "operands": "dword ptr [ecx], eax"
+        },
+        {
+          "address": "0x401b6e",
+          "operation": "add",
+          "operands": "eax, 8"
+        },
+        {
+          "address": "0x401b71",
+          "operation": "test",
+          "operands": "eax, eax"
+        },
+        {
+          "address": "0x401b73",
+          "operation": "je",
+          "operands": "0x401b7a"
+        },
+        {
+          "address": "0x401b75",
+          "operation": "mov",
+          "operands": "edx, dword ptr [ebp - 0x10]"
+        },
+        {
+          "address": "0x401b78",
+          "operation": "mov",
+          "operands": "dword ptr [eax], edx"
+        },
+        {
+          "address": "0x401b7a",
+          "operation": "mov",
+          "operands": "eax, dword ptr [ebx + 0xd0]"
+        },
+        {
+          "address": "0x401b80",
+          "operation": "mov",
+          "operands": "esi, dword ptr [ebp + 8]"
+        },
+        {
+          "address": "0x401b83",
+          "operation": "inc",
+          "operands": "eax"
+        },
+        {
+          "address": "0x401b84",
+          "operation": "mov",
+          "operands": "dword ptr [ebx + 0xd0], eax"
+        },
+        {
+          "address": "0x401b8a",
+          "operation": "jmp",
+          "operands": "0x401b90",
+          "targetSymbol": ""
+        },
+        {
+          "address": "0x401b8c",
+          "operation": "mov",
+          "operands": "byte ptr [ebp - 1], 0"
+        },
+        {
+          "address": "0x401b90",
+          "operation": "mov",
+          "operands": "ecx, dword ptr [ebp - 8]"
+        },
+        {
+          "address": "0x401b93",
+          "operation": "mov",
+          "operands": "al, byte ptr [ebp - 1]"
+        },
+        {
+          "address": "0x401b96",
+          "operation": "inc",
+          "operands": "ecx"
+        },
+        {
+          "address": "0x401b97",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x401b99",
+          "operation": "mov",
+          "operands": "dword ptr [ebp - 8], ecx"
+        },
+        {
+          "address": "0x401b9c",
+          "operation": "jne",
+          "operands": "0x401b26"
+        },
+        {
+          "address": "0x401b9e",
+          "operation": "pop",
+          "operands": "edi"
+        },
+        {
+          "address": "0x401b9f",
+          "operation": "pop",
+          "operands": "esi"
+        },
+        {
+          "address": "0x401ba0",
+          "operation": "xor",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x401ba2",
+          "operation": "pop",
+          "operands": "ebx"
+        },
+        {
+          "address": "0x401ba3",
+          "operation": "mov",
+          "operands": "esp, ebp"
+        },
+        {
+          "address": "0x401ba5",
+          "operation": "pop",
+          "operands": "ebp"
+        },
+        {
+          "address": "0x401ba6",
+          "operation": "ret",
+          "operands": "4"
+        },
+        {
+          "address": "0x401ba9",
+          "operation": "mov",
+          "operands": "al, byte ptr [ebp - 1]"
+        },
+        {
+          "address": "0x401bac",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x401bae",
+          "operation": "je",
+          "operands": "0x401b9e"
+        },
+        {
+          "address": "0x401bb0",
+          "operation": "lea",
+          "operands": "eax, [ebx + 0xd4]"
+        },
+        {
+          "address": "0x401bb6",
+          "operation": "push",
+          "operands": "1"
+        },
+        {
+          "address": "0x401bb8",
+          "operation": "push",
+          "operands": "eax"
+        },
+        {
+          "address": "0x401bb9",
+          "operation": "push",
+          "operands": "esi"
+        },
+        {
+          "address": "0x401bba",
+          "operation": "call",
+          "operands": "0x52d8b0",
+          "targetSymbol": "?in@@YA_NAAVFileReader@@PA_NI@Z"
+        },
+        {
+          "address": "0x401bbf",
+          "operation": "add",
+          "operands": "esp, 0xc"
+        },
+        {
+          "address": "0x401bc2",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x401bc4",
+          "operation": "je",
+          "operands": "0x401b9e"
+        },
+        {
+          "address": "0x401bc6",
+          "operation": "lea",
+          "operands": "ecx, [ebx + 0xd8]"
+        },
+        {
+          "address": "0x401bcc",
+          "operation": "push",
+          "operands": "4"
+        },
+        {
+          "address": "0x401bce",
+          "operation": "push",
+          "operands": "ecx"
+        },
+        {
+          "address": "0x401bcf",
+          "operation": "push",
+          "operands": "esi"
+        },
+        {
+          "address": "0x401bd0",
+          "operation": "call",
+          "operands": "0x52df50",
+          "targetSymbol": "?in@@YA_NAAVFileReader@@PAMI@Z"
+        },
+        {
+          "address": "0x401bd5",
+          "operation": "add",
+          "operands": "esp, 0xc"
+        },
+        {
+          "address": "0x401bd8",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x401bda",
+          "operation": "je",
+          "operands": "0x401b9e"
+        },
+        {
+          "address": "0x401bdc",
+          "operation": "add",
+          "operands": "ebx, 0xdc"
+        },
+        {
+          "address": "0x401be2",
+          "operation": "push",
+          "operands": "1"
+        },
+        {
+          "address": "0x401be4",
+          "operation": "push",
+          "operands": "ebx"
+        },
+        {
+          "address": "0x401be5",
+          "operation": "push",
+          "operands": "esi"
+        },
+        {
+          "address": "0x401be6",
+          "operation": "call",
+          "operands": "0x52d8b0",
+          "targetSymbol": "?in@@YA_NAAVFileReader@@PA_NI@Z"
+        },
+        {
+          "address": "0x401beb",
+          "operation": "add",
+          "operands": "esp, 0xc"
+        },
+        {
+          "address": "0x401bee",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x401bf0",
+          "operation": "je",
+          "operands": "0x401b9e"
+        },
+        {
+          "address": "0x401bf2",
+          "operation": "pop",
+          "operands": "edi"
+        },
+        {
+          "address": "0x401bf3",
+          "operation": "pop",
+          "operands": "esi"
+        },
+        {
+          "address": "0x401bf4",
+          "operation": "mov",
+          "operands": "al, 1"
+        },
+        {
+          "address": "0x401bf6",
+          "operation": "pop",
+          "operands": "ebx"
+        },
+        {
+          "address": "0x401bf7",
+          "operation": "mov",
+          "operands": "esp, ebp"
+        },
+        {
+          "address": "0x401bf9",
+          "operation": "pop",
+          "operands": "ebp"
+        },
+        {
+          "address": "0x401bfa",
+          "operation": "ret",
+          "operands": "4"
+        },
+        {
+          "address": "0x401bfd",
+          "operation": "mov",
+          "operands": "al, byte ptr [ebp - 1]"
+        },
+        {
+          "address": "0x401c00",
+          "operation": "pop",
+          "operands": "edi"
+        },
+        {
+          "address": "0x401c01",
+          "operation": "pop",
+          "operands": "esi"
+        },
+        {
+          "address": "0x401c02",
+          "operation": "pop",
+          "operands": "ebx"
+        },
+        {
+          "address": "0x401c03",
+          "operation": "mov",
+          "operands": "esp, ebp"
+        },
+        {
+          "address": "0x401c05",
+          "operation": "pop",
+          "operands": "ebp"
+        },
+        {
+          "address": "0x401c06",
+          "operation": "ret",
+          "operands": "4"
+        },
+        {
+          "address": "0x401c09",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x401c0a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x401c0b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x401c0c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x401c0d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x401c0e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x401c0f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x401c10",
+          "operation": "push",
+          "operands": "ebx",
+          "symbol": "?PostLoad@AiMission@@UAE_NXZ"
+        },
+        {
+          "address": "0x401c11",
+          "operation": "push",
+          "operands": "edi"
+        },
+        {
+          "address": "0x401c12",
+          "operation": "mov",
+          "operands": "edi, ecx"
+        },
+        {
+          "address": "0x401c14",
+          "operation": "mov",
+          "operands": "bl, 1"
+        },
+        {
+          "address": "0x401c16",
+          "operation": "mov",
+          "operands": "ecx, 0x737b30"
+        },
+        {
+          "address": "0x401c1b",
+          "operation": "call",
+          "operands": "0x4865e0",
+          "targetSymbol": "?IsLastLoadASavedGame@Program@@QBE_NXZ"
+        },
+        {
+          "address": "0x401c20",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x401c22",
+          "operation": "je",
+          "operands": "0x401c75"
+        },
+        {
+          "address": "0x401c24",
+          "operation": "mov",
+          "operands": "eax, dword ptr [edi + 0xcc]"
+        },
+        {
+          "address": "0x401c2a",
+          "operation": "push",
+          "operands": "esi"
+        },
+        {
+          "address": "0x401c2b",
+          "operation": "mov",
+          "operands": "esi, dword ptr [eax]"
+        },
+        {
+          "address": "0x401c2d",
+          "operation": "cmp",
+          "operands": "esi, dword ptr [edi + 0xcc]"
+        },
+        {
+          "address": "0x401c33",
+          "operation": "je",
+          "operands": "0x401c51"
+        },
+        {
+          "address": "0x401c35",
+          "operation": "mov",
+          "operands": "ecx, dword ptr [esi + 8]"
+        },
+        {
+          "address": "0x401c38",
+          "operation": "test",
+          "operands": "bl, bl"
+        },
+        {
+          "address": "0x401c3a",
+          "operation": "je",
+          "operands": "0x401c49"
+        },
+        {
+          "address": "0x401c3c",
+          "operation": "mov",
+          "operands": "edx, dword ptr [ecx]"
+        },
+        {
+          "address": "0x401c3e",
+          "operation": "call",
+          "operands": "dword ptr [edx + 8]"
+        },
+        {
+          "address": "0x401c41",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x401c43",
+          "operation": "je",
+          "operands": "0x401c49"
+        },
+        {
+          "address": "0x401c45",
+          "operation": "mov",
+          "operands": "bl, 1"
+        },
+        {
+          "address": "0x401c47",
+          "operation": "jmp",
+          "operands": "0x401c4b",
+          "targetSymbol": ""
+        },
+        {
+          "address": "0x401c49",
+          "operation": "xor",
+          "operands": "bl, bl"
+        },
+        {
+          "address": "0x401c4b",
+          "operation": "mov",
+          "operands": "esi, dword ptr [esi]"
+        },
+        {
+          "address": "0x401c4d",
+          "operation": "test",
+          "operands": "bl, bl"
+        },
+        {
+          "address": "0x401c4f",
+          "operation": "jne",
+          "operands": "0x401c2d"
+        },
+        {
+          "address": "0x401c51",
+          "operation": "mov",
+          "operands": "al, byte ptr [edi + 0xd4]"
+        },
+        {
+          "address": "0x401c57",
+          "operation": "pop",
+          "operands": "esi"
+        },
+        {
+          "address": "0x401c58",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x401c5a",
+          "operation": "je",
+          "operands": "0x401c84"
+        },
+        {
+          "address": "0x401c5c",
+          "operation": "mov",
+          "operands": "dl, byte ptr [edi + 0xdc]"
+        },
+        {
+          "address": "0x401c62",
+          "operation": "test",
+          "operands": "dl, dl"
+        },
+        {
+          "address": "0x401c64",
+          "operation": "sete",
+          "operands": "al"
+        },
+        {
+          "address": "0x401c67",
+          "operation": "push",
+          "operands": "eax"
+        },
+        {
+          "address": "0x401c68",
+          "operation": "call",
+          "operands": "0x401810",
+          "targetSymbol": "?DoEndOfMission@AiMission@@SAX_N@Z"
+        },
+        {
+          "address": "0x401c6d",
+          "operation": "add",
+          "operands": "esp, 4"
+        },
+        {
+          "address": "0x401c70",
+          "operation": "mov",
+          "operands": "al, bl"
+        },
+        {
+          "address": "0x401c72",
+          "operation": "pop",
+          "operands": "edi"
+        },
+        {
+          "address": "0x401c73",
+          "operation": "pop",
+          "operands": "ebx"
+        },
+        {
+          "address": "0x401c74",
+          "operation": "ret",
+          "operands": ""
+        },
+        {
+          "address": "0x401c75",
+          "operation": "mov",
+          "operands": "ecx, dword ptr [edi + 0xe0]"
+        },
+        {
+          "address": "0x401c7b",
+          "operation": "push",
+          "operands": "ecx"
+        },
+        {
+          "address": "0x401c7c",
+          "operation": "call",
+          "operands": "0x407db0",
+          "targetSymbol": "?Init_Action_Scripts@@YAXH@Z"
+        },
+        {
+          "address": "0x401c81",
+          "operation": "add",
+          "operands": "esp, 4"
+        },
+        {
+          "address": "0x401c84",
+          "operation": "mov",
+          "operands": "al, bl"
+        },
+        {
+          "address": "0x401c86",
+          "operation": "pop",
+          "operands": "edi"
+        },
+        {
+          "address": "0x401c87",
+          "operation": "pop",
+          "operands": "ebx"
+        },
+        {
+          "address": "0x401c88",
+          "operation": "ret",
+          "operands": ""
+        },
+        {
+          "address": "0x401c89",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x401c8a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x401c8b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x401c8c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x401c8d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x401c8e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x401c8f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x401c90",
+          "operation": "push",
+          "operands": "ebp",
+          "symbol": "?Save@AiMission@@UAE_NAAVFileWriter@@@Z"
+        },
+        {
+          "address": "0x401c91",
+          "operation": "mov",
+          "operands": "ebp, esp"
+        },
+        {
+          "address": "0x401c93",
+          "operation": "push",
+          "operands": "ecx"
+        },
+        {
+          "address": "0x401c94",
+          "operation": "push",
+          "operands": "ebx"
+        },
+        {
+          "address": "0x401c95",
+          "operation": "push",
+          "operands": "esi"
+        },
+        {
+          "address": "0x401c96",
+          "operation": "mov",
+          "operands": "esi, dword ptr [ebp + 8]"
+        },
+        {
+          "address": "0x401c99",
+          "operation": "push",
+          "operands": "edi"
+        },
+        {
+          "address": "0x401c9a",
+          "operation": "push",
+          "operands": "0x6ed030"
+        },
+        {
+          "address": "0x401c9f",
+          "operation": "mov",
+          "operands": "edi, ecx"
+        },
+        {
+          "address": "0x401ca1",
+          "operation": "push",
+          "operands": "esi"
+        },
+        {
+          "address": "0x401ca2",
+          "operation": "call",
+          "operands": "0x52c650",
+          "targetSymbol": "?out@@YA_NAAVFileWriter@@PAD@Z"
+        },
+        {
+          "address": "0x401ca7",
+          "operation": "add",
+          "operands": "esp, 8"
+        },
+        {
+          "address": "0x401caa",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x401cac",
+          "operation": "je",
+          "operands": "0x401ce2"
+        },
+        {
+          "address": "0x401cae",
+          "operation": "push",
+          "operands": "0x6ed03c"
+        },
+        {
+          "address": "0x401cb3",
+          "operation": "lea",
+          "operands": "eax, [edi + 8]"
+        },
+        {
+          "address": "0x401cb6",
+          "operation": "push",
+          "operands": "0x40"
+        },
+        {
+          "address": "0x401cb8",
+          "operation": "push",
+          "operands": "eax"
+        },
+        {
+          "address": "0x401cb9",
+          "operation": "push",
+          "operands": "esi"
+        },
+        {
+          "address": "0x401cba",
+          "operation": "call",
+          "operands": "0x52c6f0",
+          "targetSymbol": "?out@@YA_NAAVFileWriter@@PADI1@Z"
+        }
+      ]
+    },
+    {
+      "start": "0x451c20",
+      "instructions": [
+        {
+          "address": "0x451c20",
+          "operation": "ret",
+          "operands": "",
+          "symbol": "?PostLoad@DisplayInterface@@UAEXXZ"
+        },
+        {
+          "address": "0x451c21",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c22",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c23",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c24",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c25",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c26",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c27",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c28",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c29",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c2a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c2b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c2c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c2d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c2e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c2f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c30",
+          "operation": "ret",
+          "operands": "",
+          "symbol": "?Cleanup@DisplayInterface@@UAEXXZ"
+        },
+        {
+          "address": "0x451c31",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c32",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c33",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c34",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c35",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c36",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c37",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c38",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c39",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c3a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c3b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c3c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c3d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c3e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c3f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c40",
+          "operation": "ret",
+          "operands": "",
+          "symbol": "?PreSimulate@DisplayInterface@@UAEXXZ"
+        },
+        {
+          "address": "0x451c41",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c42",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c43",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c44",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c45",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c46",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c47",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c48",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c49",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c4a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c4b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c4c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c4d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c4e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c4f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c50",
+          "operation": "ret",
+          "operands": "4",
+          "symbol": "?AlwaysGameSimulate@DisplayInterface@@UAEXM@Z"
+        },
+        {
+          "address": "0x451c53",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c54",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c55",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c56",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c57",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c58",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c59",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c5a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c5b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c5c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c5d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c5e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c5f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c60",
+          "operation": "ret",
+          "operands": "4",
+          "symbol": "?AlwaysEditSimulate@DisplayInterface@@UAEXM@Z"
+        },
+        {
+          "address": "0x451c63",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c64",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c65",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c66",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c67",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c68",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c69",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c6a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c6b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c6c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c6d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c6e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c6f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c70",
+          "operation": "ret",
+          "operands": "4",
+          "symbol": "?HiddenSimulate@DisplayInterface@@UAEXM@Z"
+        },
+        {
+          "address": "0x451c73",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c74",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c75",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c76",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c77",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c78",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c79",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c7a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c7b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c7c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c7d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c7e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c7f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c80",
+          "operation": "ret",
+          "operands": "4",
+          "symbol": "?HiddenGameSimulate@DisplayInterface@@UAEXM@Z"
+        },
+        {
+          "address": "0x451c83",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c84",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c85",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c86",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c87",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c88",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c89",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c8a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c8b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c8c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c8d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c8e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c8f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c90",
+          "operation": "ret",
+          "operands": "4",
+          "symbol": "?HiddenEditSimulate@DisplayInterface@@UAEXM@Z"
+        },
+        {
+          "address": "0x451c93",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c94",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c95",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c96",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c97",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c98",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c99",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c9a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c9b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c9c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c9d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c9e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451c9f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451ca0",
+          "operation": "ret",
+          "operands": "4",
+          "symbol": "?VisibleSimulate@DisplayInterface@@UAEXM@Z"
+        },
+        {
+          "address": "0x451ca3",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451ca4",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451ca5",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451ca6",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451ca7",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451ca8",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451ca9",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451caa",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cab",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cac",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cad",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cae",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451caf",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cb0",
+          "operation": "ret",
+          "operands": "4",
+          "symbol": "?VisibleGameSimulate@DisplayInterface@@UAEXM@Z"
+        },
+        {
+          "address": "0x451cb3",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cb4",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cb5",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cb6",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cb7",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cb8",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cb9",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cba",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cbb",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cbc",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cbd",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cbe",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cbf",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cc0",
+          "operation": "ret",
+          "operands": "4",
+          "symbol": "?VisibleEditSimulate@DisplayInterface@@UAEXM@Z"
+        },
+        {
+          "address": "0x451cc3",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cc4",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cc5",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cc6",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cc7",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cc8",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cc9",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cca",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451ccb",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451ccc",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451ccd",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cce",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451ccf",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cd0",
+          "operation": "ret",
+          "operands": "4",
+          "symbol": "?FocusSimulate@DisplayInterface@@UAEXM@Z"
+        },
+        {
+          "address": "0x451cd3",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cd4",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cd5",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cd6",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cd7",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cd8",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cd9",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cda",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cdb",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cdc",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cdd",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cde",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cdf",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451ce0",
+          "operation": "ret",
+          "operands": "4",
+          "symbol": "?FocusGameSimulate@DisplayInterface@@UAEXM@Z"
+        },
+        {
+          "address": "0x451ce3",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451ce4",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451ce5",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451ce6",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451ce7",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451ce8",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451ce9",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cea",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451ceb",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cec",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451ced",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cee",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cef",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cf0",
+          "operation": "ret",
+          "operands": "4",
+          "symbol": "?FocusEditSimulate@DisplayInterface@@UAEXM@Z"
+        },
+        {
+          "address": "0x451cf3",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cf4",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cf5",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cf6",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cf7",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cf8",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cf9",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cfa",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cfb",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cfc",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cfd",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cfe",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451cff",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d00",
+          "operation": "ret",
+          "operands": "4",
+          "symbol": "?Simulate@DisplayInterface@@UAEXM@Z"
+        },
+        {
+          "address": "0x451d03",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d04",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d05",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d06",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d07",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d08",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d09",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d0a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d0b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d0c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d0d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d0e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d0f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d10",
+          "operation": "ret",
+          "operands": "",
+          "symbol": "?PreRender@DisplayInterface@@UAEXXZ"
+        },
+        {
+          "address": "0x451d11",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d12",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d13",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d14",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d15",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d16",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d17",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d18",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d19",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d1a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d1b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d1c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d1d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d1e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d1f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d20",
+          "operation": "ret",
+          "operands": "",
+          "symbol": "?Render@DisplayInterface@@UAEXXZ"
+        },
+        {
+          "address": "0x451d21",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d22",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d23",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d24",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d25",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d26",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d27",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d28",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d29",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d2a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d2b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d2c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d2d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d2e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d2f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d30",
+          "operation": "ret",
+          "operands": "",
+          "symbol": "?HiddenRender@DisplayInterface@@UAEXXZ"
+        },
+        {
+          "address": "0x451d31",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d32",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d33",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d34",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d35",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d36",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d37",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d38",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d39",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d3a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d3b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d3c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d3d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d3e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d3f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d40",
+          "operation": "push",
+          "operands": "ebp",
+          "symbol": "?SetPanelRect@DisplayInterface@@UAEXPAUtagRECT@@@Z"
+        },
+        {
+          "address": "0x451d41",
+          "operation": "mov",
+          "operands": "ebp, esp"
+        },
+        {
+          "address": "0x451d43",
+          "operation": "mov",
+          "operands": "eax, dword ptr [ebp + 8]"
+        },
+        {
+          "address": "0x451d46",
+          "operation": "add",
+          "operands": "ecx, 4"
+        },
+        {
+          "address": "0x451d49",
+          "operation": "mov",
+          "operands": "edx, dword ptr [eax]"
+        },
+        {
+          "address": "0x451d4b",
+          "operation": "mov",
+          "operands": "dword ptr [ecx], edx"
+        },
+        {
+          "address": "0x451d4d",
+          "operation": "mov",
+          "operands": "edx, dword ptr [eax + 4]"
+        },
+        {
+          "address": "0x451d50",
+          "operation": "mov",
+          "operands": "dword ptr [ecx + 4], edx"
+        },
+        {
+          "address": "0x451d53",
+          "operation": "mov",
+          "operands": "edx, dword ptr [eax + 8]"
+        },
+        {
+          "address": "0x451d56",
+          "operation": "mov",
+          "operands": "dword ptr [ecx + 8], edx"
+        },
+        {
+          "address": "0x451d59",
+          "operation": "mov",
+          "operands": "eax, dword ptr [eax + 0xc]"
+        },
+        {
+          "address": "0x451d5c",
+          "operation": "mov",
+          "operands": "dword ptr [ecx + 0xc], eax"
+        },
+        {
+          "address": "0x451d5f",
+          "operation": "pop",
+          "operands": "ebp"
+        },
+        {
+          "address": "0x451d60",
+          "operation": "ret",
+          "operands": "4"
+        },
+        {
+          "address": "0x451d63",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d64",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d65",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d66",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d67",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d68",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d69",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d6a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d6b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d6c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d6d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d6e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d6f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d70",
+          "operation": "lea",
+          "operands": "eax, [ecx + 4]",
+          "symbol": "?GetPanelRect@DisplayInterface@@UAEPAUtagRECT@@XZ"
+        },
+        {
+          "address": "0x451d73",
+          "operation": "ret",
+          "operands": ""
+        },
+        {
+          "address": "0x451d74",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d75",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d76",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d77",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d78",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d79",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d7a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d7b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d7c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d7d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d7e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d7f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d80",
+          "operation": "xor",
+          "operands": "al, al",
+          "symbol": "?IsMovable@DisplayInterface@@UAE_NXZ"
+        },
+        {
+          "address": "0x451d82",
+          "operation": "ret",
+          "operands": ""
+        },
+        {
+          "address": "0x451d83",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d84",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d85",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d86",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d87",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d88",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d89",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d8a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d8b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d8c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d8d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d8e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d8f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d90",
+          "operation": "xor",
+          "operands": "al, al",
+          "symbol": "?CursorOver@DisplayInterface@@UAE_NXZ"
+        },
+        {
+          "address": "0x451d92",
+          "operation": "ret",
+          "operands": ""
+        },
+        {
+          "address": "0x451d93",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d94",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d95",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d96",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d97",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d98",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d99",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d9a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d9b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d9c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d9d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d9e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451d9f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451da0",
+          "operation": "xor",
+          "operands": "al, al",
+          "symbol": "?CheckFullHide@DisplayInterface@@UAE_NXZ"
+        },
+        {
+          "address": "0x451da2",
+          "operation": "ret",
+          "operands": ""
+        },
+        {
+          "address": "0x451da3",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451da4",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451da5",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451da6",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451da7",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451da8",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451da9",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451daa",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451dab",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451dac",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451dad",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451dae",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451daf",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451db0",
+          "operation": "xor",
+          "operands": "al, al",
+          "symbol": "?CheckMinimize@DisplayInterface@@UAE_NXZ"
+        },
+        {
+          "address": "0x451db2",
+          "operation": "ret",
+          "operands": ""
+        },
+        {
+          "address": "0x451db3",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451db4",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451db5",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451db6",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451db7",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451db8",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451db9",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451dba",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451dbb",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451dbc",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451dbd",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451dbe",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x451dbf",
+          "operation": "nop",
+          "operands": ""
+        }
+      ]
+    },
+    {
+      "start": "0x457d90",
+      "instructions": [
+        {
+          "address": "0x457d90",
+          "operation": "push",
+          "operands": "ebp",
+          "symbol": "?MonitorInputControls@ScriptInterfaceImp@@UAEXP6A_NXZ@Z"
+        },
+        {
+          "address": "0x457d91",
+          "operation": "mov",
+          "operands": "ebp, esp"
+        },
+        {
+          "address": "0x457d93",
+          "operation": "push",
+          "operands": "esi"
+        },
+        {
+          "address": "0x457d94",
+          "operation": "mov",
+          "operands": "esi, dword ptr [ebp + 8]"
+        },
+        {
+          "address": "0x457d97",
+          "operation": "test",
+          "operands": "esi, esi"
+        },
+        {
+          "address": "0x457d99",
+          "operation": "je",
+          "operands": "0x457dc2"
+        },
+        {
+          "address": "0x457d9b",
+          "operation": "push",
+          "operands": "2"
+        },
+        {
+          "address": "0x457d9d",
+          "operation": "push",
+          "operands": "0"
+        },
+        {
+          "address": "0x457d9f",
+          "operation": "mov",
+          "operands": "ecx, 0x735c48"
+        },
+        {
+          "address": "0x457da4",
+          "operation": "call",
+          "operands": "0x51ac50",
+          "targetSymbol": "?AddViewSimulate@DisplayInterface@@QAEXHW4eDisplayPriority@@@Z"
+        },
+        {
+          "address": "0x457da9",
+          "operation": "push",
+          "operands": "2"
+        },
+        {
+          "address": "0x457dab",
+          "operation": "push",
+          "operands": "1"
+        },
+        {
+          "address": "0x457dad",
+          "operation": "mov",
+          "operands": "ecx, 0x735c48"
+        },
+        {
+          "address": "0x457db2",
+          "operation": "call",
+          "operands": "0x51ac50",
+          "targetSymbol": "?AddViewSimulate@DisplayInterface@@QAEXHW4eDisplayPriority@@@Z"
+        },
+        {
+          "address": "0x457db7",
+          "operation": "mov",
+          "operands": "dword ptr [0x735c6c], esi"
+        },
+        {
+          "address": "0x457dbd",
+          "operation": "pop",
+          "operands": "esi"
+        },
+        {
+          "address": "0x457dbe",
+          "operation": "pop",
+          "operands": "ebp"
+        }
+      ]
+    },
+    {
+      "start": "0x458440",
+      "instructions": [
+        {
+          "address": "0x458440",
+          "operation": "push",
+          "operands": "ebp",
+          "symbol": "?LoadScriptUtils@@YA_NAAVFileReader@@@Z"
+        },
+        {
+          "address": "0x458441",
+          "operation": "mov",
+          "operands": "ebp, esp"
+        },
+        {
+          "address": "0x458443",
+          "operation": "sub",
+          "operands": "esp, 0x14"
+        },
+        {
+          "address": "0x458446",
+          "operation": "mov",
+          "operands": "ecx, dword ptr [0x735c70]"
+        },
+        {
+          "address": "0x45844c",
+          "operation": "push",
+          "operands": "ebx"
+        },
+        {
+          "address": "0x45844d",
+          "operation": "push",
+          "operands": "esi"
+        },
+        {
+          "address": "0x45844e",
+          "operation": "push",
+          "operands": "0"
+        },
+        {
+          "address": "0x458450",
+          "operation": "mov",
+          "operands": "eax, dword ptr [ecx]"
+        },
+        {
+          "address": "0x458452",
+          "operation": "call",
+          "operands": "dword ptr [eax + 0x428]"
+        },
+        {
+          "address": "0x458458",
+          "operation": "mov",
+          "operands": "dword ptr [0x735df8], 0xffffffff"
+        },
+        {
+          "address": "0x458462",
+          "operation": "mov",
+          "operands": "dword ptr [0x6f4de0], 1"
+        },
+        {
+          "address": "0x45846c",
+          "operation": "mov",
+          "operands": "dword ptr [0x735de8], 0"
+        },
+        {
+          "address": "0x458476",
+          "operation": "mov",
+          "operands": "byte ptr [0x735ddc], 0"
+        },
+        {
+          "address": "0x45847d",
+          "operation": "mov",
+          "operands": "byte ptr [0x735de4], 0"
+        },
+        {
+          "address": "0x458484",
+          "operation": "mov",
+          "operands": "byte ptr [0x735de5], 0"
+        },
+        {
+          "address": "0x45848b",
+          "operation": "mov",
+          "operands": "esi, 0x735c78"
+        },
+        {
+          "address": "0x458490",
+          "operation": "mov",
+          "operands": "edx, dword ptr [esi]"
+        },
+        {
+          "address": "0x458492",
+          "operation": "push",
+          "operands": "0"
+        },
+        {
+          "address": "0x458494",
+          "operation": "mov",
+          "operands": "ecx, esi"
+        },
+        {
+          "address": "0x458496",
+          "operation": "call",
+          "operands": "dword ptr [edx + 0x1c]"
+        },
+        {
+          "address": "0x458499",
+          "operation": "add",
+          "operands": "esi, 0x24"
+        },
+        {
+          "address": "0x45849c",
+          "operation": "cmp",
+          "operands": "esi, 0x735dbc"
+        },
+        {
+          "address": "0x4584a2",
+          "operation": "jl",
+          "operands": "0x458490"
+        },
+        {
+          "address": "0x4584a4",
+          "operation": "mov",
+          "operands": "ebx, dword ptr [ebp + 8]"
+        },
+        {
+          "address": "0x4584a7",
+          "operation": "mov",
+          "operands": "al, byte ptr [ebx + 5]"
+        },
+        {
+          "address": "0x4584aa",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x4584ac",
+          "operation": "jne",
+          "operands": "0x4584c3"
+        },
+        {
+          "address": "0x4584ae",
+          "operation": "push",
+          "operands": "0x735e74"
+        },
+        {
+          "address": "0x4584b3",
+          "operation": "call",
+          "operands": "0x50c9f0",
+          "targetSymbol": "?SetObjectivesFile@ObjectivesDisplay@@SAXPBD@Z"
+        },
+        {
+          "address": "0x4584b8",
+          "operation": "add",
+          "operands": "esp, 4"
+        },
+        {
+          "address": "0x4584bb",
+          "operation": "mov",
+          "operands": "al, 1"
+        },
+        {
+          "address": "0x4584bd",
+          "operation": "pop",
+          "operands": "esi"
+        },
+        {
+          "address": "0x4584be",
+          "operation": "pop",
+          "operands": "ebx"
+        },
+        {
+          "address": "0x4584bf",
+          "operation": "mov",
+          "operands": "esp, ebp"
+        },
+        {
+          "address": "0x4584c1",
+          "operation": "pop",
+          "operands": "ebp"
+        },
+        {
+          "address": "0x4584c2",
+          "operation": "ret",
+          "operands": ""
+        },
+        {
+          "address": "0x4584c3",
+          "operation": "push",
+          "operands": "0x6f4f30"
+        },
+        {
+          "address": "0x4584c8",
+          "operation": "push",
+          "operands": "ebx"
+        },
+        {
+          "address": "0x4584c9",
+          "operation": "mov",
+          "operands": "byte ptr [ebp - 0x14], 0"
+        },
+        {
+          "address": "0x4584cd",
+          "operation": "call",
+          "operands": "0x52d610",
+          "targetSymbol": "?in@@YA_NAAVFileReader@@PAD@Z"
+        },
+        {
+          "address": "0x4584d2",
+          "operation": "add",
+          "operands": "esp, 8"
+        },
+        {
+          "address": "0x4584d5",
+          "operation": "and",
+          "operands": "al, 1"
+        },
+        {
+          "address": "0x4584d7",
+          "operation": "mov",
+          "operands": "byte ptr [ebp + 0xb], al"
+        },
+        {
+          "address": "0x4584da",
+          "operation": "mov",
+          "operands": "dword ptr [ebp - 4], 0"
+        },
+        {
+          "address": "0x4584e1",
+          "operation": "je",
+          "operands": "0x4584fa"
+        },
+        {
+          "address": "0x4584e3",
+          "operation": "lea",
+          "operands": "eax, [ebp - 4]"
+        },
+        {
+          "address": "0x4584e6",
+          "operation": "push",
+          "operands": "4"
+        },
+        {
+          "address": "0x4584e8",
+          "operation": "push",
+          "operands": "eax"
+        },
+        {
+          "address": "0x4584e9",
+          "operation": "push",
+          "operands": "ebx"
+        },
+        {
+          "address": "0x4584ea",
+          "operation": "call",
+          "operands": "0x52dc70",
+          "targetSymbol": "?in@@YA_NAAVFileReader@@PAHI@Z"
+        },
+        {
+          "address": "0x4584ef",
+          "operation": "add",
+          "operands": "esp, 0xc"
+        },
+        {
+          "address": "0x4584f2",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x4584f4",
+          "operation": "je",
+          "operands": "0x4584fa"
+        },
+        {
+          "address": "0x4584f6",
+          "operation": "mov",
+          "operands": "dl, 1"
+        },
+        {
+          "address": "0x4584f8",
+          "operation": "jmp",
+          "operands": "0x4584fc",
+          "targetSymbol": ""
+        },
+        {
+          "address": "0x4584fa",
+          "operation": "xor",
+          "operands": "dl, dl"
+        },
+        {
+          "address": "0x4584fc",
+          "operation": "mov",
+          "operands": "ecx, dword ptr [0x76b5ac]"
+        },
+        {
+          "address": "0x458502",
+          "operation": "mov",
+          "operands": "eax, dword ptr [ebp - 4]"
+        },
+        {
+          "address": "0x458505",
+          "operation": "push",
+          "operands": "edi"
+        },
+        {
+          "address": "0x458506",
+          "operation": "mov",
+          "operands": "edi, 0x6f4f40"
+        },
+        {
+          "address": "0x45850b",
+          "operation": "mov",
+          "operands": "dword ptr [ecx], eax"
+        },
+        {
+          "address": "0x45850d",
+          "operation": "lea",
+          "operands": "esi, [ebp - 0x14]"
+        },
+        {
+          "address": "0x458510",
+          "operation": "mov",
+          "operands": "ecx, 5"
+        },
+        {
+          "address": "0x458515",
+          "operation": "xor",
+          "operands": "eax, eax"
+        },
+        {
+          "address": "0x458517",
+          "operation": "repe cmpsb",
+          "operands": "byte ptr [esi], byte ptr es:[edi]"
+        },
+        {
+          "address": "0x458519",
+          "operation": "je",
+          "operands": "0x458541"
+        },
+        {
+          "address": "0x45851b",
+          "operation": "lea",
+          "operands": "edi, [ebp - 0x14]"
+        },
+        {
+          "address": "0x45851e",
+          "operation": "or",
+          "operands": "ecx, 0xffffffff"
+        },
+        {
+          "address": "0x458521",
+          "operation": "repne scasb",
+          "operands": "al, byte ptr es:[edi]"
+        },
+        {
+          "address": "0x458523",
+          "operation": "not",
+          "operands": "ecx"
+        },
+        {
+          "address": "0x458525",
+          "operation": "sub",
+          "operands": "edi, ecx"
+        },
+        {
+          "address": "0x458527",
+          "operation": "mov",
+          "operands": "dword ptr [0x735df8], eax"
+        },
+        {
+          "address": "0x45852c",
+          "operation": "mov",
+          "operands": "eax, ecx"
+        },
+        {
+          "address": "0x45852e",
+          "operation": "mov",
+          "operands": "esi, edi"
+        },
+        {
+          "address": "0x458530",
+          "operation": "mov",
+          "operands": "edi, 0x735e00"
+        },
+        {
+          "address": "0x458535",
+          "operation": "shr",
+          "operands": "ecx, 2"
+        },
+        {
+          "address": "0x458538",
+          "operation": "rep movsd",
+          "operands": "dword ptr es:[edi], dword ptr [esi]"
+        },
+        {
+          "address": "0x45853a",
+          "operation": "mov",
+          "operands": "ecx, eax"
+        },
+        {
+          "address": "0x45853c",
+          "operation": "and",
+          "operands": "ecx, 3"
+        },
+        {
+          "address": "0x45853f",
+          "operation": "rep movsb",
+          "operands": "byte ptr es:[edi], byte ptr [esi]"
+        },
+        {
+          "address": "0x458541",
+          "operation": "test",
+          "operands": "dl, dl"
+        },
+        {
+          "address": "0x458543",
+          "operation": "pop",
+          "operands": "edi"
+        },
+        {
+          "address": "0x458544",
+          "operation": "je",
+          "operands": "0x45855d"
+        },
+        {
+          "address": "0x458546",
+          "operation": "mov",
+          "operands": "ecx, dword ptr [0x768e3c]"
+        },
+        {
+          "address": "0x45854c",
+          "operation": "push",
+          "operands": "ebx"
+        },
+        {
+          "address": "0x45854d",
+          "operation": "mov",
+          "operands": "edx, dword ptr [ecx]"
+        },
+        {
+          "address": "0x45854f",
+          "operation": "call",
+          "operands": "dword ptr [edx + 0xc0]"
+        },
+        {
+          "address": "0x458555",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x458557",
+          "operation": "mov",
+          "operands": "byte ptr [ebp + 0xb], 1"
+        },
+        {
+          "address": "0x45855b",
+          "operation": "jne",
+          "operands": "0x458561"
+        },
+        {
+          "address": "0x45855d",
+          "operation": "mov",
+          "operands": "byte ptr [ebp + 0xb], 0"
+        },
+        {
+          "address": "0x458561",
+          "operation": "push",
+          "operands": "0x6f4de0"
+        },
+        {
+          "address": "0x458566",
+          "operation": "push",
+          "operands": "ebx"
+        },
+        {
+          "address": "0x458567",
+          "operation": "call",
+          "operands": "0x52ef70",
+          "targetSymbol": "?in@@YA_NAAVFileReader@@AAH@Z"
+        },
+        {
+          "address": "0x45856c",
+          "operation": "add",
+          "operands": "esp, 8"
+        },
+        {
+          "address": "0x45856f",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x458571",
+          "operation": "je",
+          "operands": "0x45858c"
+        },
+        {
+          "address": "0x458573",
+          "operation": "push",
+          "operands": "0x735de8"
+        },
+        {
+          "address": "0x458578",
+          "operation": "push",
+          "operands": "ebx"
+        },
+        {
+          "address": "0x458579",
+          "operation": "call",
+          "operands": "0x52efb0",
+          "targetSymbol": "?in@@YA_NAAVFileReader@@AAM@Z"
+        },
+        {
+          "address": "0x45857e",
+          "operation": "add",
+          "operands": "esp, 8"
+        },
+        {
+          "address": "0x458581",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x458583",
+          "operation": "je",
+          "operands": "0x45858c"
+        },
+        {
+          "address": "0x458585",
+          "operation": "mov",
+          "operands": "eax, 1"
+        },
+        {
+          "address": "0x45858a",
+          "operation": "jmp",
+          "operands": "0x45858e",
+          "targetSymbol": ""
+        },
+        {
+          "address": "0x45858c",
+          "operation": "xor",
+          "operands": "eax, eax"
+        },
+        {
+          "address": "0x45858e",
+          "operation": "mov",
+          "operands": "cl, byte ptr [ebp + 0xb]"
+        },
+        {
+          "address": "0x458591",
+          "operation": "and",
+          "operands": "cl, al"
+        },
+        {
+          "address": "0x458593",
+          "operation": "mov",
+          "operands": "al, byte ptr [ebx + 5]"
+        },
+        {
+          "address": "0x458596",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x458598",
+          "operation": "mov",
+          "operands": "byte ptr [ebp + 0xb], cl"
+        },
+        {
+          "address": "0x45859b",
+          "operation": "je",
+          "operands": "0x4585bc"
+        },
+        {
+          "address": "0x45859d",
+          "operation": "cmp",
+          "operands": "dword ptr [ebx + 8], 0x866"
+        },
+        {
+          "address": "0x4585a4",
+          "operation": "jle",
+          "operands": "0x4585bc"
+        },
+        {
+          "address": "0x4585a6",
+          "operation": "push",
+          "operands": "0x735ddc"
+        },
+        {
+          "address": "0x4585ab",
+          "operation": "push",
+          "operands": "ebx"
+        },
+        {
+          "address": "0x4585ac",
+          "operation": "call",
+          "operands": "0x52eed0",
+          "targetSymbol": "?in@@YA_NAAVFileReader@@AA_N@Z"
+        },
+        {
+          "address": "0x4585b1",
+          "operation": "mov",
+          "operands": "cl, byte ptr [ebp + 0xb]"
+        },
+        {
+          "address": "0x4585b4",
+          "operation": "add",
+          "operands": "esp, 8"
+        },
+        {
+          "address": "0x4585b7",
+          "operation": "and",
+          "operands": "cl, al"
+        },
+        {
+          "address": "0x4585b9",
+          "operation": "mov",
+          "operands": "byte ptr [ebp + 0xb], cl"
+        },
+        {
+          "address": "0x4585bc",
+          "operation": "mov",
+          "operands": "al, byte ptr [ebp + 0xb]"
+        },
+        {
+          "address": "0x4585bf",
+          "operation": "pop",
+          "operands": "esi"
+        },
+        {
+          "address": "0x4585c0",
+          "operation": "pop",
+          "operands": "ebx"
+        },
+        {
+          "address": "0x4585c1",
+          "operation": "mov",
+          "operands": "esp, ebp"
+        },
+        {
+          "address": "0x4585c3",
+          "operation": "pop",
+          "operands": "ebp"
+        },
+        {
+          "address": "0x4585c4",
+          "operation": "ret",
+          "operands": ""
+        },
+        {
+          "address": "0x4585c5",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x4585c6",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x4585c7",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x4585c8",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x4585c9",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x4585ca",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x4585cb",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x4585cc",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x4585cd",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x4585ce",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x4585cf",
+          "operation": "nop",
+          "operands": ""
+        }
+      ]
+    },
+    {
+      "start": "0x47ce00",
+      "instructions": [
+        {
+          "address": "0x47ce00",
+          "operation": "ret",
+          "operands": "",
+          "symbol": "?PreLoad@GameTypeDLLMission@@UAEXXZ"
+        },
+        {
+          "address": "0x47ce01",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce02",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce03",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce04",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce05",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce06",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce07",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce08",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce09",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce0a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce0b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce0c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce0d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce0e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce0f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce10",
+          "operation": "ret",
+          "operands": "",
+          "symbol": "?PostLoad@GameTypeDLLMission@@UAEXXZ"
+        },
+        {
+          "address": "0x47ce11",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce12",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce13",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce14",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce15",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce16",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce17",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce18",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce19",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce1a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce1b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce1c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce1d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce1e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce1f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce20",
+          "operation": "ret",
+          "operands": "",
+          "symbol": "?Simulate@GameTypeDLLMission@@UAEXXZ"
+        },
+        {
+          "address": "0x47ce21",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce22",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce23",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce24",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce25",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce26",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce27",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce28",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce29",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce2a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce2b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce2c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce2d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce2e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce2f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce30",
+          "operation": "ret",
+          "operands": "",
+          "symbol": "?Render@GameTypeDLLMission@@UAEXXZ"
+        },
+        {
+          "address": "0x47ce31",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce32",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce33",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce34",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce35",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce36",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce37",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce38",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce39",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce3a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce3b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce3c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce3d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce3e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce3f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce40",
+          "operation": "mov",
+          "operands": "al, 1",
+          "symbol": "?IsMission@GameTypeDLLMission@@UBE_NXZ"
+        },
+        {
+          "address": "0x47ce42",
+          "operation": "ret",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce43",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce44",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce45",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce46",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce47",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce48",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce49",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce4a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce4b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce4c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce4d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce4e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce4f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce50",
+          "operation": "xor",
+          "operands": "al, al",
+          "symbol": "?CanAiPlay@GameTypeDLLMission@@UBE_NXZ"
+        },
+        {
+          "address": "0x47ce52",
+          "operation": "ret",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce53",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce54",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce55",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce56",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce57",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce58",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce59",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce5a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce5b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce5c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce5d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce5e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce5f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce60",
+          "operation": "ret",
+          "operands": "4",
+          "symbol": "?Load@GameTypeDLLMission@@UAEXAAVFileReader@@@Z"
+        },
+        {
+          "address": "0x47ce63",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce64",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce65",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce66",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce67",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce68",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce69",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce6a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce6b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce6c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce6d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce6e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce6f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce70",
+          "operation": "ret",
+          "operands": "4",
+          "symbol": "?Save@GameTypeDLLMission@@UAEXAAVFileWriter@@@Z"
+        },
+        {
+          "address": "0x47ce73",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce74",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce75",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce76",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce77",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce78",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce79",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce7a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce7b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce7c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce7d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce7e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce7f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce80",
+          "operation": "xor",
+          "operands": "al, al",
+          "symbol": "?CanSave@GameTypeDLLMission@@UBE_NXZ"
+        },
+        {
+          "address": "0x47ce82",
+          "operation": "ret",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce83",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce84",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce85",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce86",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce87",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce88",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce89",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce8a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce8b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce8c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce8d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce8e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce8f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce90",
+          "operation": "xor",
+          "operands": "al, al",
+          "symbol": "?IsFlag@GameTypeDLLMission@@UBE_NH@Z"
+        },
+        {
+          "address": "0x47ce92",
+          "operation": "ret",
+          "operands": "4"
+        },
+        {
+          "address": "0x47ce95",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce96",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce97",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce98",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce99",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce9a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce9b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce9c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce9d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce9e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ce9f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cea0",
+          "operation": "push",
+          "operands": "ebp",
+          "symbol": "??_GGameTypeDLLMission@@UAEPAXI@Z"
+        },
+        {
+          "address": "0x47cea1",
+          "operation": "mov",
+          "operands": "ebp, esp"
+        },
+        {
+          "address": "0x47cea3",
+          "operation": "push",
+          "operands": "esi"
+        },
+        {
+          "address": "0x47cea4",
+          "operation": "mov",
+          "operands": "esi, ecx"
+        },
+        {
+          "address": "0x47cea6",
+          "operation": "call",
+          "operands": "0x47ced0",
+          "targetSymbol": "??1GameTypeDLLMission@@UAE@XZ"
+        },
+        {
+          "address": "0x47ceab",
+          "operation": "test",
+          "operands": "byte ptr [ebp + 8], 1"
+        },
+        {
+          "address": "0x47ceaf",
+          "operation": "je",
+          "operands": "0x47ceba"
+        },
+        {
+          "address": "0x47ceb1",
+          "operation": "push",
+          "operands": "esi"
+        },
+        {
+          "address": "0x47ceb2",
+          "operation": "call",
+          "operands": "0x6527d0",
+          "targetSymbol": "??3@YAXPAX@Z"
+        },
+        {
+          "address": "0x47ceb7",
+          "operation": "add",
+          "operands": "esp, 4"
+        },
+        {
+          "address": "0x47ceba",
+          "operation": "mov",
+          "operands": "eax, esi"
+        },
+        {
+          "address": "0x47cebc",
+          "operation": "pop",
+          "operands": "esi"
+        },
+        {
+          "address": "0x47cebd",
+          "operation": "pop",
+          "operands": "ebp"
+        },
+        {
+          "address": "0x47cebe",
+          "operation": "ret",
+          "operands": "4"
+        },
+        {
+          "address": "0x47cec1",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cec2",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cec3",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cec4",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cec5",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cec6",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cec7",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cec8",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cec9",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ceca",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cecb",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cecc",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cecd",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cece",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cecf",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ced0",
+          "operation": "mov",
+          "operands": "dword ptr [ecx], 0x6b02d8",
+          "symbol": "??1GameTypeDLLMission@@UAE@XZ"
+        },
+        {
+          "address": "0x47ced6",
+          "operation": "ret",
+          "operands": ""
+        },
+        {
+          "address": "0x47ced7",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ced8",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ced9",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47ceda",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cedb",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cedc",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cedd",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cede",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cedf",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cee0",
+          "operation": "mov",
+          "operands": "edx, ecx",
+          "symbol": "??0GameTypeGeneral@@QAE@XZ"
+        },
+        {
+          "address": "0x47cee2",
+          "operation": "push",
+          "operands": "edi"
+        },
+        {
+          "address": "0x47cee3",
+          "operation": "xor",
+          "operands": "eax, eax"
+        },
+        {
+          "address": "0x47cee5",
+          "operation": "mov",
+          "operands": "ecx, 9"
+        },
+        {
+          "address": "0x47ceea",
+          "operation": "lea",
+          "operands": "edi, [edx + 0xc]"
+        },
+        {
+          "address": "0x47ceed",
+          "operation": "mov",
+          "operands": "dword ptr [edx + 4], eax"
+        },
+        {
+          "address": "0x47cef0",
+          "operation": "mov",
+          "operands": "byte ptr [edx + 8], al"
+        },
+        {
+          "address": "0x47cef3",
+          "operation": "mov",
+          "operands": "dword ptr [edx], 0x6b0468"
+        },
+        {
+          "address": "0x47cef9",
+          "operation": "mov",
+          "operands": "dword ptr [edx + 0x38], eax"
+        },
+        {
+          "address": "0x47cefc",
+          "operation": "mov",
+          "operands": "byte ptr [edx + 0x34], al"
+        },
+        {
+          "address": "0x47ceff",
+          "operation": "mov",
+          "operands": "byte ptr [edx + 0x35], al"
+        },
+        {
+          "address": "0x47cf02",
+          "operation": "rep stosd",
+          "operands": "dword ptr es:[edi], eax"
+        },
+        {
+          "address": "0x47cf04",
+          "operation": "mov",
+          "operands": "eax, edx"
+        },
+        {
+          "address": "0x47cf06",
+          "operation": "pop",
+          "operands": "edi"
+        },
+        {
+          "address": "0x47cf07",
+          "operation": "ret",
+          "operands": ""
+        },
+        {
+          "address": "0x47cf08",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cf09",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cf0a",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cf0b",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cf0c",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cf0d",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cf0e",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cf0f",
+          "operation": "nop",
+          "operands": ""
+        },
+        {
+          "address": "0x47cf10",
+          "operation": "push",
+          "operands": "ebx",
+          "symbol": "?PreLoad@GameTypeGeneral@@UAEXXZ"
+        },
+        {
+          "address": "0x47cf11",
+          "operation": "mov",
+          "operands": "ebx, ecx"
+        },
+        {
+          "address": "0x47cf13",
+          "operation": "mov",
+          "operands": "ecx, dword ptr [0x76b8d4]"
+        },
+        {
+          "address": "0x47cf19",
+          "operation": "push",
+          "operands": "esi"
+        },
+        {
+          "address": "0x47cf1a",
+          "operation": "push",
+          "operands": "edi"
+        },
+        {
+          "address": "0x47cf1b",
+          "operation": "call",
+          "operands": "0x557940",
+          "targetSymbol": "?getGameSetup@Transport@@QAEAAVGameSetup@@XZ"
+        },
+        {
+          "address": "0x47cf20",
+          "operation": "mov",
+          "operands": "edi, eax"
+        },
+        {
+          "address": "0x47cf22",
+          "operation": "mov",
+          "operands": "ecx, edi"
+        },
+        {
+          "address": "0x47cf24",
+          "operation": "call",
+          "operands": "0x547470",
+          "targetSymbol": "?getLocalSlot@GameSetup@@QBEHXZ"
+        },
+        {
+          "address": "0x47cf29",
+          "operation": "push",
+          "operands": "eax"
+        },
+        {
+          "address": "0x47cf2a",
+          "operation": "mov",
+          "operands": "ecx, edi"
+        },
+        {
+          "address": "0x47cf2c",
+          "operation": "call",
+          "operands": "0x546550",
+          "targetSymbol": "?getStartLocation@GameSetup@@QBEHH@Z"
+        },
+        {
+          "address": "0x47cf31",
+          "operation": "mov",
+          "operands": "dword ptr [ebx + 0x30], eax"
+        },
+        {
+          "address": "0x47cf34",
+          "operation": "xor",
+          "operands": "esi, esi"
+        },
+        {
+          "address": "0x47cf36",
+          "operation": "push",
+          "operands": "esi"
+        },
+        {
+          "address": "0x47cf37",
+          "operation": "mov",
+          "operands": "ecx, edi"
+        },
+        {
+          "address": "0x47cf39",
+          "operation": "call",
+          "operands": "0x546b90",
+          "targetSymbol": "?isGamePlayer@GameSetup@@QBE_NH@Z"
+        },
+        {
+          "address": "0x47cf3e",
+          "operation": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x47cf40",
+          "operation": "je",
+          "operands": "0x47cf52"
+        },
+        {
+          "address": "0x47cf42",
+          "operation": "push",
+          "operands": "esi"
+        },
+        {
+          "address": "0x47cf43",
+          "operation": "mov",
+          "operands": "ecx, edi"
+        },
+        {
+          "address": "0x47cf45",
+          "operation": "call",
+          "operands": "0x546550",
+          "targetSymbol": "?getStartLocation@GameSetup@@QBEHH@Z"
+        }
+      ]
+    }
+  ],
+  "callbackSetter": {
+    "address": "0x457d90",
+    "symbol": "?MonitorInputControls@ScriptInterfaceImp@@UAEXP6A_NXZ@Z"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "target": "D:\\ArmadaLab\\missions\\mmm_loader.dll",
+  "backup": "D:\\ArmadaLab\\Development\\backups\\resume-registration-20261018-121316\\mmm_loader.dll",
+  "beforeSha256": "89ab2bd3782384fca5ea315f8d60b2ec50089ae0553bf048831708adc611ac69",
+  "afterSha256": "e85ca8c1e61d89bf9db4b550d35e34d8eb6a506bd1ac1a7892eb3ad09027e04c",
+  "experimental": true,
+  "runtimeVerified": false,
+  "reverted": true,
+  "reason": "Stock saved loads bind the interface but skip AiMission ScriptInit"
+}

@@ -1,0 +1,35 @@
+{
+  "updated": "2026-10-18T12:19:25.055650+02:00",
+  "target": "D:/ArmadaLab",
+  "liveGameModified": false,
+  "nativeSavedMatchLoads": true,
+  "baselineScriptInitFlagAfterSavedLoad": 0,
+  "interfaceBindingExperiment": {
+    "scriptInitFlag": 1,
+    "inputCallback": 0,
+    "result": "Engine clears the callback after interface binding"
+  },
+  "callbackResetSuppressionExperiment": {
+    "callbackPresent": true,
+    "hud": "LMS API PASS: 2 teams; owned spawn/removal; save written",
+    "result": "Script runs fresh-start update, not resume",
+    "releaseSuitable": false
+  },
+  "temporaryBinaryExperimentsReverted": true,
+  "luaResumeValuesVerified": false,
+  "offlineTestsPassed": 31,
+  "newSafeguard": "setup detects persisted MMM helper objects and delegates to resume; discovery/load errors fail closed",
+  "remaining": [
+    "Scoped stock-engine script callback restoration",
+    "In-game saved state restoration proof",
+    "Reviewed rescue sites and full once-only AI rescue gameplay"
+  ],
+  "exitIssue": "GUI exit of interface-binding-only test produced Armada2.exe.31884.dmp at 12:08; unload stability unverified",
+  "scopedCallbackExperiment": {
+    "activeCallbackRetained": true,
+    "savedValueConfirmation": false,
+    "reverted": true,
+    "result": "Native match stable during observation; no Lua LOAD PASS/FAIL confirmation, including after normal ship selection"
+  },
+  "nextDiagnostic": "Trace MMM callback body and mission bootstrap; callback retention alone is insufficient proof of update/resume execution"
+}

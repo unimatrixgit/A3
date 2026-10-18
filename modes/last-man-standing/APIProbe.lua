@@ -1,7 +1,21 @@
 -- Private diagnostic mission. Wrapped modules are prepended by the staging script.
 class 'LMSAPIProbe'
 function LMSAPIProbe:__init() self.checked=false end
-function LMSAPIProbe:setup() print('LMS API probe: mission entered') end
+function LMSAPIProbe:setup()
+    local ok,err=pcall(function()
+        local helpers=EntityFinder(function(e)
+            if not e.valid then return false end
+            local odf=string.lower(e.odf or ''):gsub('%.odf$','')
+            return odf=='mmm_holder' or odf=='mmm_mapper'
+        end):find()
+        if next(helpers)~=nil then self:resume();return end
+        print('LMS API probe: mission entered')
+    end)
+    if not ok then
+        self.checked=true
+        self.resumeResult='LMS SETUP FAIL: '..tostring(err)
+    end
+end
 function LMSAPIProbe:update()
     if self.resumeResult then
         print(self.resumeResult)

@@ -30,3 +30,15 @@ Release cleanup, redistributable installer, website and remaining texture/proven
 
 ## Superseding runtime results
 The later Instant Action probe passed discovery, owned spawn/removal and save-state writing after correcting MMM stock detection. Native disk save, same-process reload and fresh-process reload succeeded. See `reports/lms-runtime-api-results.json` and `reports/mmm-stock-detection-fix.json`. Lua resume confirmation is still unresolved, so full rescue persistence is not verified. Current test copy remains D:/ArmadaLab.
+
+
+## 2026-10-18 save lifecycle investigation (latest)
+All tests were in D:/ArmadaLab. Fresh-process native reload reproduced missing Lua startup. Read-only process inspection: profile guard 0, interface pointer present, MMM ScriptInit flag 0. Native AiMission::PostLoad skips Init_Action_Scripts on saved loads.
+A guarded, backed-up private DLL experiment called ScriptInit on interface binding: flag became 1, but native LoadScriptUtils cleared the input callback to zero. A second private experiment suppressed that reset: the callback remained and the HUD printed the API PASS fresh-start result, NOT LOAD PASS. Therefore callback recovery and lifecycle classification both need work. Both temporary binary experiments have been reverted to prior exact hashes.
+Added setup helper detection to Last Man Standing.lua so an unexpected fresh-start dispatch cannot reset spent rescue flags. Seven new entry lifecycle tests pass; 31 total Lua 5.1 regression tests pass. This source guard is not yet in-game verified. Scenario remains disabled.
+Reports: lms-save-lifecycle-findings.json, native-save-lifecycle.json, mmm-resume-registration-experiment.json, native-callback-reset-experiment.json. The read-only state reader is scripts/read-sandbox-loader-state.py. A GUI exit of the first loader experiment generated Armada2.exe.31884.dmp (12:08); investigate unload stability too. No live-game changes. Game closed at checkpoint.
+Next: implement a narrowly scoped callback restoration path (do NOT ship globally skipping the engine reset), verify actual saved values, then review rescue sites and test real rescue transitions. Remaining six modes, installer, cleanup, website and provenance remain unfinished.
+
+
+### Scoped follow-up (supersedes provisional callback conclusion)
+A new guarded .lms section retained only an exact active MMM callback (GetModuleHandleA base + 0x20a0), leaving stock resets for other callbacks. Read-only process inspection confirmed the nonzero callback after saved-game load. However, neither LOAD PASS nor FAIL appeared with the staged helper-detection probe, including after ship selection. All complete staged scripts parse under Lua 5.1. This experiment also was reverted to the original sandbox executable hash; loader interface-binding experiment reverted too. Do not claim callback preservation alone restores Lua execution. Trace MMM callback/mission bootstrap next. All 31 offline tests remain passing.
