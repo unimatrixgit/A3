@@ -65,10 +65,10 @@ function RescueCore:update(snapshot, adapter)
                     -- Reserve before calling engine code: re-entrant updates cannot spawn twice.
                     state.used, state.pending = true, false
                     local ok, committed = pcall(adapter.deploy, adapter, plan)
-                    if committed == "indeterminate" then
+                    if not ok or committed == "indeterminate" then
                         -- A partial engine rollback could not be verified: never duplicate a fleet.
                         results[#results+1] = { player=team.number, status="deployment_needs_review" }
-                    elseif not ok or not committed then
+                    elseif not committed then
                         -- Adapter must roll back partial spawns before returning false.
                         state.used, state.pending = false, true
                         results[#results+1] = { player=team.number, status="deployment_failed" }

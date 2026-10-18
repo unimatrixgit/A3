@@ -1,5 +1,7 @@
 # Active mod target
 
+Latest user instruction (2026-10-18): execute all further development and runtime testing in the independent game folder `D:/ArmadaLab`. Do not apply further experimental patches to the live `D:/armadaIII` installation. Save checkpoints for the user's return. This staging restriction supersedes the earlier live-target instruction below until the user requests deployment.
+
 The user has explicitly restricted future game modifications to `D:/armadaIII`.
 `D:/Xaramada` was restored to the supplied original installation on 2026-10-16 and must not be modified.
 Historical scripts may contain loops targeting both folders. Do not execute them unchanged.

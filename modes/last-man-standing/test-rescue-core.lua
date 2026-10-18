@@ -102,6 +102,33 @@ test('Failed transactional deployment can retry',function()
     c:update(snapshot({team(2,0)}),a)
     assert(#a.calls==1)
 end)
+test('Uncertain deployment cannot spawn another fleet',function()
+    for _, failure in ipairs({'indeterminate','exception'}) do
+        local c,a=armed()
+        local calls=0
+        a.deploy=function()
+            calls=calls+1
+            if failure=='exception' then error('engine interrupted deployment') end
+            return 'indeterminate'
+        end
+        c:update(snapshot({team(2,0)}),a)
+        c:update(snapshot({team(2,0)}),a)
+        assert(calls==1 and c.teams[2].used)
+    end
+end)
+
+test('Reentrant update cannot duplicate deployment',function()
+    local c,a=armed()
+    local calls=0
+    a.deploy=function()
+        calls=calls+1
+        c:update(snapshot({team(2,0)}),a)
+        return true
+    end
+    c:update(snapshot({team(2,0)}),a)
+    assert(calls==1 and c.teams[2].used)
+end)
+
 test('All nine factions have complete rescue packages',function()
     local n=0
     for race,f in pairs(Config.factions) do

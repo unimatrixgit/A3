@@ -1,0 +1,21 @@
+{
+  "sandbox": "D:/ArmadaLab",
+  "installedInLiveGame": false,
+  "gameplayVerified": true,
+  "selection": "Federation campaign first mission in sandbox only",
+  "preservesNativeRules": true,
+  "preservesMissionMenu": true,
+  "purpose": "Isolate loader initialization from added menu entries and blank rules links",
+  "evidence": "Observed playable Federation mission with UPDATE: Lua mission tick reached in HUD",
+  "scope": "Loader smoke test only, not rescue gameplay",
+  "process": 7552,
+  "subsequentCrash": {
+    "dump": "Armada2.exe.31884.dmp",
+    "instruction": "0x6df43fe",
+    "module": "a2_fed01R.drl",
+    "moduleBase": "0x6df0000",
+    "nativeScriptAlsoLoaded": "a2_fed01S.dsl",
+    "nextTest": "Remove original rules link from map; preserve existing campaign slot"
+  },
+  "stableRuntimeVerified": false
+}

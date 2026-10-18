@@ -23,7 +23,7 @@ race = "borg"
 maximumCrew = 2000
 
 //The number of crew added to the capacity
-maxCrewGain = 6000
+maxCrewGain = 10000
 
 //Dilithium Cost to build
 
@@ -39,7 +39,7 @@ maximumUpgrades = 6
 maxHealth = 9200
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 18.9
+shieldRate = 26.0
 
 //Shield absorbs all damage until it's gone
 shieldProtection = 1.0
@@ -235,3 +235,7 @@ weaponHardpoints8 = "hp12"
 // Green assimilation beam for heavy Borg crew capacity / Nexus.
 weapon9 = "xacgreen"
 weaponHardpoints9 = "hp09"
+
+maxSpecialEnergy = 2500
+
+specialEnergyRate = 25

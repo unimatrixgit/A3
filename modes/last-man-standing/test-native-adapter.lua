@@ -71,6 +71,12 @@ test('Never reduce existing player resources',function()
     assert(Adapter.new(Config,Definitions,scenario):deploy(plan())==true)
     assert(players[2].resources.dilithium==9999)
 end)
+
+test('Silent or deferred removal cannot permit another rescue',function()
+    failAt=3
+    Entity.remove=function() end
+    assert(Adapter.new(Config,Definitions,scenario):deploy(plan())=='indeterminate')
+end)
 test('Map-edge relocation area rejected',function()
     local edge={origins=scenario.origins,sites={{x=9900,z=9900,validated=true,resourcesNearby=true}}}
     local snap=Adapter.new(Config,Definitions,edge):snapshot()
@@ -79,5 +85,11 @@ end)
 test('Invalid entity ignored before property access',function()
     world={{valid=false,isType=function()error('invalid entity read')end}}
     assert(#Adapter.new(Config,Definitions,scenario):snapshot().threats==0)
+end)
+test('Research pods and terrain do not keep an eliminated base alive',function()
+    assert(not Definitions.structures['fedpod1.odf'])
+    assert(not Definitions.structures['pb_earth.odf'])
+    assert(not Definitions.structures['scrap.odf'])
+    assert(Definitions.structures['fbase.odf'] and Definitions.structures['bjmining.odf'])
 end)
 return count

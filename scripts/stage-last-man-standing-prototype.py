@@ -1,7 +1,8 @@
 from pathlib import Path
 import json,re,math,shutil,hashlib
 exec(Path('D:/aramada/scripts/audit-faction-starts-and-maps.py').read_text().split('results=[]')[0])
-mode=repo/'modes/last-man-standing';stage=Path('D:/Xaramada-Modwork/last-man-standing/stage');snap=stage.parent/'source-snapshot';profiles={
+root=Path('D:/ArmadaLab');idx={p.name.lower():p for p in(root/'odf').rglob('*.odf')};cache={}
+mode=repo/'modes/last-man-standing';stage=root/'Development/stage';snap=stage.parent/'source-snapshot';profiles={
 'federation':('xhfhero','fconst',['fdestroy','fcruise1','fbattle'],['fbase','fmining','forbital','fyard0','fyard','fresear','ffreight','ffreight','fconst']),
 'borg':('blocutus','bconst',['bdestroy','bcruise1','bbattle1'],['bbase','bmining','bbase2','byard','bresear','bfreight','bfreight','bconst']),
 'klingon':('xhkhero','kconst',['kdestroy','kcruise1','kbattle'],['kbase','kmining','korbital','kyard','kresear','kfreight','kfreight','kconst']),
@@ -28,12 +29,16 @@ def lua(v):
  if isinstance(v,str):return json.dumps(v)
  if isinstance(v,bool):return 'true'if v else'false'
  return str(v)
-(mode/'RescueConfig.lua').write_text('return '+lua(config)+'\n');dest=stage/'missions/Last Man Standing';dest.mkdir(parents=True,exist_ok=True)
-for n in ['RescueCore.lua','RescueConfig.lua']:shutil.copy2(mode/n,dest/n)
+(mode/'RescueConfig.lua').write_text('LMSRescueConfig='+lua(config)+'\nreturn LMSRescueConfig\n');dest=stage/'missions/Last Man Standing';dest.mkdir(parents=True,exist_ok=True)
+stationClasses={'shipyard','sensor','research','starbase','p_mining','mining','trading_station','minearray','upgrade','planet_shield'}
+definitions=dict(builders={n:True for n in idx if props(n).get('classlabel')=='constructionrig'},
+    structures={n:True for n,p in idx.items() if 'stations' in p.parts and props(n).get('classlabel') in stationClasses})
+(mode/'NativeDefinitions.lua').write_text('LMSNativeDefinitions='+lua(definitions)+'\nreturn LMSNativeDefinitions\n')
+for p in mode.glob('*.lua'):shutil.copy2(p,dest/p.name)
 base=Path('D:/Xaramada-Modwork/last-man-standing/research/mmm-extracted/mmm')
 for rel in ['missions/mmm_loader.dll','odf/system/mmm_holder.odf','odf/system/mmm_mapper.odf']:
  dst=stage/rel;dst.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(base/rel,dst)
 for rel in ['RTS_CFG.h','mshell.set','label.map']:
  p=root/rel
  if p.exists():dst=snap/rel;dst.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(p,dst)
-(repo/'reports/last-man-standing-stage.json').write_text(json.dumps(dict(stage=str(stage),sourceSnapshot=str(snap),factions=9,references=manifest,installed=False,gameplayVerified=False,missing=['MMM adapter','Validated mission map and safe relocation sites','Native loader compatibility test','Gameplay rescue/save-load test']),indent=2));print('Staged loader prerequisites,rule controller and9 validated faction rescue rosters. Live game unchanged.')
+(repo/'reports/last-man-standing-stage.json').write_text(json.dumps(dict(stage=str(stage),sourceSnapshot=str(snap),factions=9,references=manifest,installed=False,gameplayVerified=False,missing=['Adapter engine API test','Validated mission map and safe relocation sites','Gameplay rescue/save-load test']),indent=2));print('Staged loader prerequisites,rule controller and9 validated faction rescue rosters. Live game unchanged.')

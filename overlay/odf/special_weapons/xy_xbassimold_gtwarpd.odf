@@ -1,4 +1,59 @@
-#include "gtwarpd.odf"
+//Name of the ODF file for the ordinance for this weapon
+ordName = "twarpd"
+
+//Display name for this weapon
+wpnName = "Transwarp Drive"
+
+//tooltips
+tooltip = "BORG_POD4"
+verboseTooltip = "BORG_POD4_V"
+
+//Location of the button in the speed panel
+buttonSlot = 1
+
+// location of the button in the popup palette
+popupSlot = 2
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 10
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 2
+
+//Time Delay between shots
+shotDelay = 1.0
+
+// Range within which the weapon will fire.
+range = 20000.0f
+
+//Sound which is played when the weapon fires
+fireSound = "swbtrnsa.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "transwarpconduit"
+
+// Chance of hitting the target.
+hitChance = 1.00
+
+// Set the special flag
+special = 1
+
+// Set the target location flag
+targetLocation = 1
+needTarget = 1
+targetAlliedCraft = 0
+targetAlliedBuildings = 0
+targetEnemyCraft = 0
+targetEnemyBuildings = 0
+
+//this special weapon can be assimilated by the borg tech assimilator
+//assimilatable = "borpod4"
+
+hotkeyLabel = "HOTKEY_F1"
 buttonSlot = 1
 popupSlot = 1
 hotkeyLabel = "HOTKEY_F1"

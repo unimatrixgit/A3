@@ -4,13 +4,14 @@
   "sourceHash": "e14dfa2d26f1f5e0876a8af68808cb47dddb62c9e9c28051694592d824d8efb7",
   "map": "LastManStandingTest.bzn",
   "typedStringChanges": 5,
-  "installed": true,
+  "installed": false,
   "gameplayVerified": false,
   "notes": [
     "Native original mission terrain/objects retained for compatibility smoke test.",
     "Original campaign DSL/DRL links removed in copiedmap only.",
     "Adds one miscellaneous/tutorial mission entry;preserves original campaign lists.",
-    "Diagnostic loader test only;not complete Last Man Standing mode."
+    "Diagnostic loader test only;not complete Last Man Standing mode.",
+    "Native crash0x547b1b before MMM loader appears in dump and before first Lua log. Test integration withdrawn;25AI patches retained."
   ],
   "files": [
     "label.map",
@@ -20,5 +21,17 @@
     "missions\\mmm_loader.dll",
     "objectives\\LastManStandingLoaderTestObjectives.txt"
   ],
-  "backup": "D:\\Xaramada-Modwork\\backups\\ai-final-loader-test-20261018-085031"
+  "backup": "D:\\Xaramada-Modwork\\backups\\ai-final-loader-test-20261018-085031",
+  "withdrawnAfterCrash": true,
+  "withdrawalBackup": "D:\\Xaramada-Modwork\\backups\\loader-test-withdrawn-20261018-085350",
+  "restored": [
+    "label.map",
+    "mshell.set"
+  ],
+  "withdrawn": [
+    "bzn\\LastManStandingTest.bzn",
+    "missions\\Last Man Standing Loader Test.lua",
+    "missions\\mmm_loader.dll",
+    "objectives\\LastManStandingLoaderTestObjectives.txt"
+  ]
 }

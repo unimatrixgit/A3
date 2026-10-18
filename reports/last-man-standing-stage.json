@@ -1,6 +1,6 @@
 {
-  "stage": "D:\\Xaramada-Modwork\\last-man-standing\\stage",
-  "sourceSnapshot": "D:\\Xaramada-Modwork\\last-man-standing\\source-snapshot",
+  "stage": "D:\\ArmadaLab\\Development\\stage",
+  "sourceSnapshot": "D:\\ArmadaLab\\Development\\source-snapshot",
   "factions": 9,
   "references": [
     {
@@ -65,7 +65,7 @@
     },
     {
       "file": "odf\\ships\\bconst.odf",
-      "sha256": "e034358c54aaea52cdeb79cca4e1a2757a94e27672c70fc2578a958497294979"
+      "sha256": "1fd21fcac4acef87087de7cee4a6c74241aa863a76f14e4122335799da4f7d0e"
     },
     {
       "file": "odf\\ships\\bdestroy.odf",
@@ -81,7 +81,7 @@
     },
     {
       "file": "odf\\stations\\bbase.odf",
-      "sha256": "1ceae22583c6841181fc11eb3931733c3d9d5cd42b9a4dc727b3f8faef6abc44"
+      "sha256": "407bdb34b24d7041f97772439aac136615a2e084e6c9b56a92e3ce83e5793c9f"
     },
     {
       "file": "odf\\stations\\bmining.odf",
@@ -109,7 +109,7 @@
     },
     {
       "file": "odf\\ships\\bconst.odf",
-      "sha256": "e034358c54aaea52cdeb79cca4e1a2757a94e27672c70fc2578a958497294979"
+      "sha256": "1fd21fcac4acef87087de7cee4a6c74241aa863a76f14e4122335799da4f7d0e"
     },
     {
       "file": "odf\\ships\\xhkhero.odf",
@@ -471,11 +471,8 @@
   "installed": false,
   "gameplayVerified": false,
   "missing": [
-    "Reviewed mission map and safe relocation sites",
-    "Native loader compatibility test",
+    "Adapter engine API test",
+    "Validated mission map and safe relocation sites",
     "Gameplay rescue/save-load test"
-  ],
-  "coreImplemented": true,
-  "nativeAdapterImplemented": true,
-  "offlineTestsPassed": 20
+  ]
 }

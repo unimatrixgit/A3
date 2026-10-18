@@ -1,4 +1,54 @@
-#include "gborgbor.odf"
+//Name of the ODF file for the ordinance for this weapon
+ordName = "borgbor"
+
+//Display name for this weapon
+wpnName = "Auto-Assimilator"
+
+//tooltips
+tooltip = "BORG_POD1"
+verboseTooltip = "BORG_POD1_V"
+
+//Location of the button in the speed panel
+buttonSlot = 3
+
+// location of the button in the popup palette
+popupSlot = 4
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 10
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+// Mark this as a special weapon.
+special = 1
+
+// Time Delay between shots
+shotDelay = 1.0
+
+// Range within which the weapon will fire.
+range = 800.0
+
+//Sound which is played when the weapon fires
+fireSound = "swbauto.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "toggleweapon"
+
+// We need a target
+needTarget = 1
+
+// don't check to see if is valid as target
+ignoreValidAsTarget = 1
+
+//this special weapon can be assimilated by the borg tech assimilator
+//assimilatable = "borpod1"
+
+hotkeyLabel = "HOTKEY_F3"
 buttonSlot = 3
 popupSlot = 3
 hotkeyLabel = "HOTKEY_F3"

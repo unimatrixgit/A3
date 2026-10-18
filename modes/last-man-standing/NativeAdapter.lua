@@ -77,7 +77,10 @@ function Adapter:deploy(plan)
     print('Last Man Standing deployment failed: '..tostring(err))
     local complete=true
     for _,entity in ipairs(spawned) do
-        local removed=pcall(function() if entity.valid then Entity.remove(entity) end end)
+        local removed=pcall(function()
+            if entity.valid then Entity.remove(entity) end
+            assert(not entity.valid,'Entity removal could not be verified')
+        end)
         if not removed then complete=false end
     end
     for name,value in pairs(oldResources) do

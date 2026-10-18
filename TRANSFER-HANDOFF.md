@@ -1,5 +1,10 @@
 # Armada III checkpoint — 18 October 2026
 
+## Critical latest update: loader test withdrawn after crash
+User reported a crash immediately after installation. Dump C:/Users/thoma/AppData/Local/CrashDumps/Armada2.exe.1564.dmp, native access violation0x547b1b reading null+0xc0. No MMM module listed in dump and no loader-test log: failure appears before script setup. Do NOT repeat the same map/menu integration without finding the cause.
+
+Recovery installed: restored original label.map and mshell.set from ai-final-loader-test backup; moved four new experimental files (testBZN,loaderDLL,testLua,objectiveTXT) OUT of both live game and release overlay into D:/Xaramada-Modwork/backups/loader-test-withdrawn-20261018-085350. No data deleted. All25AI patches retained and all45profiles still pass audit. Last Man Standing remains STAGED ONLY; no loader or new mode active. reports/last-man-standing-loader-test.json records withdrawal. User needs normal-game retest. Investigate stock mission menu count/header/mandatory rules module compatibility in isolated staging before another native test.
+
 ## Update at current checkpoint
 User confirmed Cardassian home-base mining WORKS. Resumed Last Man Standing. Implemented RescueCore.lua, NativeAdapter.lua, nine-faction rescue config/definitions and entry point under modes/last-man-standing. Twenty offline Lua 5.1 tests pass (13 rules +7 mocked-engine adapter); Lupa installed only in D:/Xaramada-Modwork/tools/lua-tests. Safe-site Scenario.lua is deliberately disabled/unassigned; full rescue mode is NOT installed or gameplay-verified.
 
@@ -59,3 +64,15 @@ User plays while we stage/test separately; ask when concrete update is ready. Do
 Python: C:/Users/thoma/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe
 Node: C:/Users/thoma/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe
 Crash libraries: D:/Xaramada-Modwork/tools/crash-analysis. SOD utilities: D:/Xaramada-Modwork/tools/stau/src/sod_utils.
+
+## Latest continuation checkpoint (2026-10-18)
+Installed Borg recovery: 37 new special-weapon aliases flattened without effective property changes; Nexus energy 2500/25. Report borg-weapon-definition-recovery.json, backup borg-weapon-definition-recovery-20261018-093116. Exact weapon in old dump remains unproven. Full per-user WER dumps enabled, bounded to two, in diagnostics/full-native-dumps.
+Independent private runtime sandbox prepared at D:/Xaramada-Modwork/last-man-standing/sandbox-game (9708 copied files; no links; never distribute commercial runtime). Live process7796 was running during continuation; no new live patch applied.
+Native DSL and MMM loader both use interface version0x33 (51). Inspector now follows export jump thunks. This is only one compatibility check; failed map/menu smoke test remains withdrawn. Next isolate map/menu from loader in sandbox; do not reinstall old test unchanged.
+RescueCore now fails closed on thrown deployment errors as well as indeterminate rollback, preventing duplicate fleets. Added uncertainty and reentrant-update tests. All22 Lua5.1 tests pass (15 core,7 adapter), all Lua syntax valid. Engine integration untested; mode not installed. Live webpage updated truthfully.
+
+Isolated loader probe prepared by scripts/stage-isolated-loader-test.py. In sandbox ONLY, first Federation campaign map now loads LMSProbe via MMM, preserving original rules link, filename and mission menu. Expected evidence LMSProbe.log SETUP+UPDATE. No runtime launch/test yet. Live game closed at preparation.
+
+
+## Separate-copy directive and latest checkpoint
+User asked execute everything in a separate game folder while away. Current independent copy D:/ArmadaLab; original long sandbox directory moved, no links. AGENTS.md updated. See reports/sandbox-checkpoint.md and D:/ArmadaLab/Development/READ-ME-FIRST.md for verified results, exact crash modules, current rules-free mp-regular probe and next steps.24 tests pass;2151 ODFs/45 AI plans statically pass. Loader update ran in playable mission but retained native DRL crashed; blank rules caused native menu null fault. Built-in mp-regular header probe now applied to sandbox only, not runtime verified. Desktop input unavailable; no test process left running. Launch using scripts/start-sandbox-game.ps1 (small process PATH). No live DIII changes this continuation. Full mode/release tasks remain unfinished.

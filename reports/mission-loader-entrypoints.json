@@ -1,0 +1,110 @@
+[
+  {
+    "file": "a2_fed01S.dsl",
+    "entries": [
+      {
+        "name": "ScriptExtendInterface",
+        "address": "0x100011a4",
+        "resolvedAddress": "0x1000ac30",
+        "jumpThunks": [
+          "0x100011a4"
+        ],
+        "instructions": [
+          "0x1000ac30 push ebp",
+          "0x1000ac31 mov ebp, esp",
+          "0x1000ac33 sub esp, 0x40",
+          "0x1000ac36 push ebx",
+          "0x1000ac37 push esi",
+          "0x1000ac38 push edi",
+          "0x1000ac39 lea edi, [ebp - 0x40]",
+          "0x1000ac3c mov ecx, 0x10",
+          "0x1000ac41 mov eax, 0xcccccccc",
+          "0x1000ac46 rep stosd dword ptr es:[edi], eax",
+          "0x1000ac48 mov eax, dword ptr [ebp + 8]",
+          "0x1000ac4b mov dword ptr [0x10051114], eax",
+          "0x1000ac50 cmp dword ptr [ebp + 0xc], 0x33",
+          "0x1000ac54 je 0x1000ac5d",
+          "0x1000ac56 mov eax, 0x33",
+          "0x1000ac5b jmp 0x1000ac67",
+          "0x1000ac5d call 0x1000106e",
+          "0x1000ac62 mov eax, 0x33",
+          "0x1000ac67 pop edi",
+          "0x1000ac68 pop esi",
+          "0x1000ac69 pop ebx",
+          "0x1000ac6a add esp, 0x40",
+          "0x1000ac6d cmp ebp, esp",
+          "0x1000ac6f call 0x10012d80",
+          "0x1000ac74 mov esp, ebp",
+          "0x1000ac76 pop ebp",
+          "0x1000ac77 ret "
+        ]
+      },
+      {
+        "name": "ScriptInit",
+        "address": "0x100011e5",
+        "resolvedAddress": "0x1000ac90",
+        "jumpThunks": [
+          "0x100011e5"
+        ],
+        "instructions": [
+          "0x1000ac90 push ebp",
+          "0x1000ac91 mov ebp, esp",
+          "0x1000ac93 sub esp, 0x40",
+          "0x1000ac96 push ebx",
+          "0x1000ac97 push esi",
+          "0x1000ac98 push edi",
+          "0x1000ac99 lea edi, [ebp - 0x40]",
+          "0x1000ac9c mov ecx, 0x10",
+          "0x1000aca1 mov eax, 0xcccccccc",
+          "0x1000aca6 rep stosd dword ptr es:[edi], eax",
+          "0x1000aca8 call 0x100010e1",
+          "0x1000acad pop edi",
+          "0x1000acae pop esi",
+          "0x1000acaf pop ebx",
+          "0x1000acb0 add esp, 0x40",
+          "0x1000acb3 cmp ebp, esp",
+          "0x1000acb5 call 0x10012d80",
+          "0x1000acba mov esp, ebp",
+          "0x1000acbc pop ebp",
+          "0x1000acbd ret "
+        ]
+      }
+    ]
+  },
+  {
+    "file": "mmm_loader.dll",
+    "entries": [
+      {
+        "name": "ScriptExtendInterface",
+        "address": "0x100020d0",
+        "resolvedAddress": "0x100020d0",
+        "jumpThunks": [],
+        "instructions": [
+          "0x100020d0 push ebp",
+          "0x100020d1 mov ebp, esp",
+          "0x100020d3 mov eax, dword ptr [0x76b5ac]",
+          "0x100020d8 cmp byte ptr [eax + 0x84], 0",
+          "0x100020df mov eax, 0x33",
+          "0x100020e4 jne 0x100020ef",
+          "0x100020e6 mov ecx, dword ptr [ebp + 8]",
+          "0x100020e9 mov dword ptr [0x1019ed50], ecx",
+          "0x100020ef pop ebp",
+          "0x100020f0 ret "
+        ]
+      },
+      {
+        "name": "ScriptInit",
+        "address": "0x10002100",
+        "resolvedAddress": "0x10002100",
+        "jumpThunks": [],
+        "instructions": [
+          "0x10002100 mov eax, dword ptr [0x76b5ac]",
+          "0x10002105 cmp byte ptr [eax + 0x84], 0",
+          "0x1000210c je 0x10002114",
+          "0x1000210e mov eax, 0x33",
+          "0x10002113 ret "
+        ]
+      }
+    ]
+  }
+]

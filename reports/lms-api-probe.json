@@ -1,0 +1,11 @@
+{
+  "stage": "D:\\ArmadaLab\\Development\\api-probe",
+  "applied": true,
+  "runtimeVerified": false,
+  "nativeRulesRemoved": true,
+  "headerMode": "mp-regular",
+  "localCampaignSlot": true,
+  "probe": "snapshot, one owned constructor spawn/removal, Save/Load stream round-trip",
+  "guard": "Do not apply while Armada2 is running",
+  "backup": "D:\\ArmadaLab\\Development\\backups\\api-probe-20261018-102043"
+}

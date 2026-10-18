@@ -3,15 +3,16 @@
   "suites": [
     {
       "suite": "test-rescue-core.lua",
-      "passed": 13
+      "passed": 15
     },
     {
       "suite": "test-native-adapter.lua",
-      "passed": 7
+      "passed": 9
     }
   ],
-  "totalPassed": 20,
+  "totalPassed": 24,
   "allLuaSyntaxValid": true,
+  "loaderUpdateVerified": true,
   "engineIntegrationTested": false,
   "installed": false
 }

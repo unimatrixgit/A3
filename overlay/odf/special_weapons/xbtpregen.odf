@@ -1,4 +1,54 @@
-#include "gregen.odf"
+//Display name for this weapon
+wpnName = "Regeneration"
+
+//tooltips
+tooltip = "BORG_POD3"
+verboseTooltip = "BORG_POD3_V"
+
+//Time Delay between shots - not used
+shotDelay = 0.0
+
+//Location of the button in the speed panel
+buttonSlot = 2
+
+// location of the button in the popup palette
+popupSlot = 3
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 10
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 2
+
+// Special stuff - denote special weapon
+special = 1
+
+// Range within which the weapon will fire - not used.
+range = 0.0f
+
+//Sound which is played when the weapon fires - temp sound
+fireSound = "swbreg.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "regeneration"
+
+// Chance of hitting the target. - not used
+hitChance = 1.00
+
+// Special energy cost for the Shield Regenerator
+specialEnergyCost = 80
+
+// Regen modifier
+regenModifier = 60
+
+//this special weapon can be assimilated by the borg tech assimilator
+//assimilatable = "borpod3"
+
+hotkeyLabel = "HOTKEY_F2"
 buttonSlot = 6
 popupSlot = 6
 hotkeyLabel = "HOTKEY_F6"

@@ -8,7 +8,7 @@ One rescue is available per AI per match. Saving and loading must not restore a 
 
 ## Development state
 
-The rule controller is implemented for offline testing. The mission adapter, validated relocation sites, loader compatibility and gameplay test remain required. This file is not a claim that a playable mode is installed.
+The rule controller and mission adapter are implemented for offline testing. In the separate `D:/ArmadaLab` copy, the loader reached a playable mission and executed a Lua update. Retaining the original campaign rules also caused a later crash inside that native rules module; a rules-free API probe is prepared to isolate it. Validated relocation sites, engine API checks and a complete rescue/save-load gameplay test remain required. This file is not a claim that a playable mode is installed.
 
 ## Sources
 
