@@ -31,6 +31,8 @@ local function run(name,helpers,loadError,expectedResume,expectedSave)
     end
     registered.saveState=function()saves=saves+1 end
     registered:setup()
+    assert(resumes==0 and saves==0,name..': discovery must wait for simulation')
+    registered:update()
     assert(resumes==expectedResume,name..': resume count')
     assert(saves==expectedSave,name..': must not overwrite saved flags')
     if loadError or helpers=='error' then assert(registered.disabled,name..': fail closed')end

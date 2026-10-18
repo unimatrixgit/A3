@@ -1,0 +1,1090 @@
+{
+  "date": "2026-10-18T19:11:05.828684+02:00",
+  "userRequestedDeletion": "D:/ArmadaLab",
+  "sourceFilesReviewed": [
+    {
+      "file": "Development/READ-ME-FIRST.md",
+      "sha256": "73eac349fcc0114faf5e1c24ae238f63ac138b90fa139febe6eb7b8f5e64950a",
+      "alreadyInRepository": false,
+      "savedAs": "archive/armadalab-final/Development/READ-ME-FIRST.md"
+    },
+    {
+      "file": "Development/runtime-api-results.json",
+      "sha256": "946dd89e00cec0e29d8515be53e8a87f203a43b9a05db386867e4ab4e6dedd87",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/reports/all-faction-ai-sequence.json",
+      "sha256": "2352bf37b972218346a142a470c388d027b4ffaf401ca6d894eade41433c2bc5",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/reports/installation-wide-diagnostic.json",
+      "sha256": "34ace25b800b777bcd23dd537186b047bf08605f6bab06c2f0d5202e532a30b9",
+      "alreadyInRepository": false,
+      "savedAs": "archive/armadalab-final/Development/reports/installation-wide-diagnostic.json"
+    },
+    {
+      "file": "Development/reports/lms-save-lifecycle-findings.json",
+      "sha256": "76a9ab630d3bcf05b669afd9ca56a9f98465774d54bc9a6399eb8b8972c8afee",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/reports/non-bajor-ai-reference-audit.json",
+      "sha256": "e1db4b48fff7446f6d5ab8c7ec0a625d3e509141fa4a9e0fa3573449cde34ad4",
+      "alreadyInRepository": false,
+      "savedAs": "archive/armadalab-final/Development/reports/non-bajor-ai-reference-audit.json"
+    },
+    {
+      "file": "Development/reports/sandbox-checkpoint.md",
+      "sha256": "71703c276e900425c7196e0f4332940264c69ce5dc3610f414436587c0f7e025",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/reports/summary.json",
+      "sha256": "ea055496062c09bb030fface90c93fa6704cfb6d57c26d9c256f3be09fd7618d",
+      "alreadyInRepository": false,
+      "savedAs": "archive/armadalab-final/Development/reports/summary.json"
+    },
+    {
+      "file": "Development/api-probe/missions/LMSAPIProbe.lua",
+      "sha256": "9b1976b89bb509408d3ed23fde21421ad25e46fbb3b111fe09e0118a7fff86c2",
+      "alreadyInRepository": false,
+      "savedAs": "archive/armadalab-final/Development/api-probe/missions/LMSAPIProbe.lua"
+    },
+    {
+      "file": "Development/backups/api-probe-20261018-101116/manifest.json",
+      "sha256": "821b38848444e2857bde49bda5f1514edf165a6ebffe6986e8d804acced88e9a",
+      "alreadyInRepository": false,
+      "savedAs": "archive/armadalab-final/Development/backups/api-probe-20261018-101116/manifest.json"
+    },
+    {
+      "file": "Development/backups/api-probe-20261018-101408/manifest.json",
+      "sha256": "d1759531dd27a3c68f00a73ad791b4e8e0294123cfdeb35d83a38d697636228f",
+      "alreadyInRepository": false,
+      "savedAs": "archive/armadalab-final/Development/backups/api-probe-20261018-101408/manifest.json"
+    },
+    {
+      "file": "Development/backups/api-probe-20261018-101848/manifest.json",
+      "sha256": "4002c99c6e0e3ea370ea9e3e856ba24c9e80adfd88eb4917f4bcfecca7e7977d",
+      "alreadyInRepository": false,
+      "savedAs": "archive/armadalab-final/Development/backups/api-probe-20261018-101848/manifest.json"
+    },
+    {
+      "file": "Development/backups/api-probe-20261018-102043/manifest.json",
+      "sha256": "4002c99c6e0e3ea370ea9e3e856ba24c9e80adfd88eb4917f4bcfecca7e7977d",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/backups/helper-probe-20261018-121330/LMS API Probe.lua",
+      "sha256": "b8da57f0f5dc8dc0ae9e455d34ef6f4aafbbcf8dbd632b999818c75e6e5617d9",
+      "alreadyInRepository": false,
+      "savedAs": "archive/armadalab-final/Development/backups/helper-probe-20261018-121330/LMS API Probe.lua"
+    },
+    {
+      "file": "Development/backups/helper-probe-20261018-121330/LMSAPIProbe.lua",
+      "sha256": "b8da57f0f5dc8dc0ae9e455d34ef6f4aafbbcf8dbd632b999818c75e6e5617d9",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/backups/probe-lifecycle-20261018-111703/LMS API Probe.lua",
+      "sha256": "9b1976b89bb509408d3ed23fde21421ad25e46fbb3b111fe09e0118a7fff86c2",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/backups/probe-lifecycle-20261018-111703/LMSAPIProbe.lua",
+      "sha256": "9b1976b89bb509408d3ed23fde21421ad25e46fbb3b111fe09e0118a7fff86c2",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/backups/probe-resume-message-20261018-113032/LMS API Probe.lua",
+      "sha256": "432478ac06368708ee2ee8dbb4330f70cab2d35825bae2465213718978f3ee4c",
+      "alreadyInRepository": false,
+      "savedAs": "archive/armadalab-final/Development/backups/probe-resume-message-20261018-113032/LMS API Probe.lua"
+    },
+    {
+      "file": "Development/backups/probe-resume-message-20261018-113032/LMSAPIProbe.lua",
+      "sha256": "432478ac06368708ee2ee8dbb4330f70cab2d35825bae2465213718978f3ee4c",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/backups/api-probe-20261018-101408/missions/LMSAPIProbe.lua",
+      "sha256": "ea33da45fca75d2a5ac2dc0dc373734ed759ad383fa4c58ed34a0d6f8767cf83",
+      "alreadyInRepository": false,
+      "savedAs": "archive/armadalab-final/Development/backups/api-probe-20261018-101408/missions/LMSAPIProbe.lua"
+    },
+    {
+      "file": "Development/backups/api-probe-20261018-101848/missions/LMSAPIProbe.lua",
+      "sha256": "ea33da45fca75d2a5ac2dc0dc373734ed759ad383fa4c58ed34a0d6f8767cf83",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/backups/api-probe-20261018-102043/missions/LMSAPIProbe.lua",
+      "sha256": "9b1976b89bb509408d3ed23fde21421ad25e46fbb3b111fe09e0118a7fff86c2",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/next-rescue-test/missions/Last Man Standing Test.lua",
+      "sha256": "c717b5539a51e13d466ba1806d79d41ac30c1892e47b3ff58d3592dd1a77c9f3",
+      "alreadyInRepository": false,
+      "savedAs": "archive/armadalab-final/Development/next-rescue-test/missions/Last Man Standing Test.lua"
+    },
+    {
+      "file": "Development/source/scripts/add-cube-cloak-detection.py",
+      "sha256": "076fe52c28546b8697926d7c4567248788e3318533fb3f763ff7e7241167a5fc",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/analyze-bajoran-crash-latest.py",
+      "sha256": "fdf0d2e091714f3851a3ee5b6ce7e2cbb1ad66deb5148bcf41674f8e228a830e",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/analyze-bajoran-crash-production.py",
+      "sha256": "e429d335d4e4d319b70dc77193464df18a4f79b0ae3696e8f601fd764679c668",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/analyze-bajoran-crash.py",
+      "sha256": "4f016c173bc5d0df912e671e3e8274782ca62a302ef7ba3997d22a23588d644a",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-bajor-release.ps1",
+      "sha256": "37e4680a213bf8e3cbf7ba90eacdadf75b72fea08f91f364ec030f19e0be5ed6",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-bajoran-ai-diagnostic.ps1",
+      "sha256": "fbd272b0f97cdf125cffd793f42bb2415a1b128cf5f61b539907e4e33f57513c",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-bajoran-armadafiles-textures.py",
+      "sha256": "c4aa1eb774ac553f8a3298034a050f64c885b754ffad798d1c80a8effbfbe41e",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-bajoran-builder-recovery.ps1",
+      "sha256": "235493a444a3c0cdaaddcf286911e83664f68fe2f8ece377d9d8a4ba8c6cb27d",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-bajoran-cardassian-style.ps1",
+      "sha256": "2140f7c477ddbaffcf74faebe40598b58bb8f1c8378f5b25b8269846834d5508",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-bajoran-completion-audio-diagnostic.ps1",
+      "sha256": "621e3dfcb775e9d86a488dbcfbd95ec39286e179872712e66887ffd4a228f464",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-bajoran-completion.ps1",
+      "sha256": "6ed6476a4e634007c398487fa56c029e3472e50e6e68db2b063aa7f67b390cfb",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-bajoran-ds9-animation-recovery.ps1",
+      "sha256": "f083c012b24ded79d01b89f672eda4e74c6dc6382debd332357904f97285cb7f",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-bajoran-event-diagnostic.ps1",
+      "sha256": "f2df8d1f96516504557156111cb0d4f4c52bbd5fdf2954867c6f8f1de2cdb5a3",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-bajoran-federation-ai.ps1",
+      "sha256": "3abd624f145b538195d512f540075844ebe43bc9725878f9daeeba978880234a",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-bajoran-normal-settings.ps1",
+      "sha256": "9bf95bc0f6ab5c9662c265d94333e6ad0b5429444f4244799a696977c2bb3b31",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-bajoran-redesign-v3.ps1",
+      "sha256": "3e9ad813f3722ab9de80726bebf15b1fdedcf93fbb96088ee94990c2fb55532d",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-bajoran-visibility-repair.ps1",
+      "sha256": "24c6c208ad733ed9d81a3843cefafa2506b8c23171be2ae8b9a5590dc7ff1732",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-borg-green-heavy.py",
+      "sha256": "85bd0f0b65202c7cffa4d9c12050caedf9f5e6016199e9edf41014206a46ddfa",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-borg-original-cube-costs.py",
+      "sha256": "9cb061a389a1fd736b2be869c7cba91d1a5760b81be46a06d8ac6e0d5eebd057",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-borg-station-autofire.py",
+      "sha256": "e836fcdc793ea2bec55621ac9db84e9f440477fb6e17895c6d8f009cb31753d7",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-borg-uniform-costs.py",
+      "sha256": "631c51bd6707dcd5b9b453011c6276c77a6e0da372f2535e1620cba879ec2380",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-borg-yard-abilities.py",
+      "sha256": "ae997e77197ad364b0e5222231e4cd6e3fd2e31d32aa864889028fe2f010a624",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-breen-recovery.ps1",
+      "sha256": "44fa69693ad96f0f39473dc04e8fd69a603114daf0b4c79da6feef29d3e5ce6d",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-faction-assemblers.ps1",
+      "sha256": "e137ed969a36df8e008491d1221f02f90bfd4f263cd1702cf34be1cd3f4db8b6",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-faction-starting-heroes.ps1",
+      "sha256": "3da5167e1adc3acd26634621242da2a29a6d30d599ca65be0d6949bd5467002e",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-hero-reinforcements.ps1",
+      "sha256": "24be7af46dbe2b888bf7fd20a31b6e5f7fa9604aebc5633d4123da4b3e551e53",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-hero-yard-voice-update.ps1",
+      "sha256": "f5d8ed67ed8951ac7c400909d1b3176b5ca5a85d09b17f06ececfdb512a138e9",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-prototype-third-torpedo.py",
+      "sha256": "e1e21d781622a1b3c5b414db94435f504d5405f4d5e1dd4f1c34cce777e99764",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-sandbox-probe.py",
+      "sha256": "9ab2b013673a9ab0bf22a24fde5357392b345912c57aec03af5dc8a743ab2999",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/apply-starbase-population-2000.py",
+      "sha256": "3da4c076c2bd38e9182515598dfd7e00161069636888dfaaee314be6318e1a24",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/audit-all-faction-ai-sequence.py",
+      "sha256": "c766cb02a90a51811ece49cf75a037b0af250b53d4296a7b79142533b1b46eaa",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/audit-assimilation.py",
+      "sha256": "5d51921c3db86a4d9505256b33402210d2955140f1ca372b60259ecb38c37bc8",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/audit-bajoran-ai-final.py",
+      "sha256": "e0c541aedba75aedb5873f3aa60d2110c33a42e83da250c8f4aed045d3d50347",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/audit-bajoran-live-weapons.py",
+      "sha256": "ef7b3ecf0dc3c297793cde448ba229b1b4d35f95ac045104bcffe094b4bfbb3f",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/audit-bajoran-postinstall.py",
+      "sha256": "61b15fff9d3a2a7265dab75c8b758c888bdc4820bca027427c68efad9d549d34",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/audit-cube-captured-tech.py",
+      "sha256": "0615c93135ec051547a43634080d8ead26cafc3f6fe6c3147782513d7057f95f",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/audit-faction-starts-and-maps.py",
+      "sha256": "8de682e07794bf91cb9ef0453a1a1f3d4f5b2dbe147f3eb2bee921a2cf8b2243",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/audit-faction-tech-buildings.py",
+      "sha256": "697610c9d6858611d971648c7b485d4d1428b91b3108dbba0bb68d95c77690b8",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/audit-final-production-assets.py",
+      "sha256": "fe0cc84bfb1374fdeae606dd9cfbdba7566badffb21da16820f37a3aa4603e97",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/audit-hero-audio-formats.py",
+      "sha256": "3bf3477c2b02f1e2e84e4bd8fe73057221d342a175caf55b15720641cec9c866",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/audit-installation-references.py",
+      "sha256": "ff76eaac01e7ffaae8d2e70338c6f44d95c8653450ec120b6ea5d3a5eb5c78a3",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/audit-non-bajor-ai.py",
+      "sha256": "700ec269c591ac8a80f019b78c0bd2e7a7ad943cfd625442de569ec9b959c9c4",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/audit-non-bajor-heroes.py",
+      "sha256": "5d85b889c48a45ba186a1662af9ef521df1f28512322aeb6c56fd2632fb7ddd9",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/audit-sandbox.py",
+      "sha256": "9aa79f9b4a1ca75b45c1ded719167804b2175121ee84a478e6ce3ba59bf8e536",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/build-8472-hero-art.py",
+      "sha256": "b4f49b5c4f3a79428a95e98423f1ffebd26e412de2b89c0ddf19fde034d17f0d",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/build-bajoran-completion-models.py",
+      "sha256": "8de7f605fede54fa12e63b06cdbc61ddd0eee7424a51eb3d7527799e08380a70",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/build-bajoran-models.py",
+      "sha256": "9dbfcf927763aab37e6d847d697cfd7e49e0331a5a959a61f04ee02fcca404d0",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/build-bajoran-redesign-v3.py",
+      "sha256": "f85a379f30cca2ffc275c84086fa912d65841096b10a0b5e9247714544b68191",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/build-borg-assimilation-support.py",
+      "sha256": "8b776d07d22897831770ee8a5852f4d1fde2d8c912579de3c9038da8d6022028",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/build-faction-assembler-art.py",
+      "sha256": "7cee36fb0cfce8f87a385c959df935813228963b77f343e3a618c319d3282529",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/build-riker-galaxyx.py",
+      "sha256": "a927056767efcb667d0961a42532bc5cab44c9db6419be1a6f5fa7781de2c9d8",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/cache-mission-api.py",
+      "sha256": "5ba70db3e5723d1808ec117bbc5608c4186055f39615b82a0fbd05a9d66dd1eb",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/compare-federation-bajor.py",
+      "sha256": "97f55f66ba56a8b8abbf325bacc19d34c1c96587e430a4111e30f2df7beba068",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/convert-locutus-recordings.py",
+      "sha256": "2a9d5f8818f423e9c78028d010609bee726e92792bec7b4ddb6ec79d65b2e431",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/crash-capture.ps1",
+      "sha256": "ae33f21fdff29fee2ba7445acb379bd1bc344a6ee5a3bbc9313bd8fb88640dee",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/crash-feed.ps1",
+      "sha256": "73cfd7f9a873403b2aa48c515fc978688e37fa8401d2a76b3cf9779b35f0fe59",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/crawl-armadafiles-bajor.py",
+      "sha256": "87c2fe8c3ccaa76324d68e7c8e1cb382c0de1aeee764f374570308f0f371d30c",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/download-armadafiles-bajor.py",
+      "sha256": "2061c11b11aee74227c2901847cf0172655e917ff86c8b53f6dfd57f785c34ed",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/download-bajor-extra-matches.py",
+      "sha256": "4d2634f504bec4c4ed76c2428a5e5d99327bb5640357626cf4c91a4d9cdb9ebf",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/download-content-expansion.py",
+      "sha256": "35ef8b21a0aa54f7e4cf5421832579ff45027305d1c4d8219364da6ee4092662",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/download-eight-player-catalogue.py",
+      "sha256": "2fe8c60d106273c80965f499066d6b31dc5ddc9edbdeefa5dfab1127f91cceb5",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/extract-armadafiles-bajor.py",
+      "sha256": "db33a7455ae6b71f94730422b4fc94924fab1c27026e80545bacf56067f3be7a",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/extract-eight-player-catalogue.py",
+      "sha256": "3aca62a48baa20b2367f20b8b9a276bcebd73503c8ec21d780ad1dae66e43e2d",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/final-release-closeout.py",
+      "sha256": "fbd6bd070a26556fc164879cdd8b2fbcbb6132cdd4230ad46ac187d69333ad79",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/finish-cube-tech-energy.py",
+      "sha256": "14808dae0f359d64c87cab482ab249a2a6adf8ac5ec399c6503780c33937a2c2",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/fix-8472-ai-production.py",
+      "sha256": "0c0d36991bdf27c06c81b3e17d1cd6623cd973297e95c457d0ea49766de94767",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/fix-all-faction-ai-sequence.py",
+      "sha256": "52159c3d11d6fa37e683001f2cef969c6a510eaa67cbc8459f544f799a8edd95",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/fix-borg-interceptor-tooltip-crash.py",
+      "sha256": "ee2b60c3de11905be4c29e62f3c2cde4ddb68ddb11e176fa63e9f89bb5fd41d8",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/fix-borg-weapon-definition-recovery.py",
+      "sha256": "9786dad84cdd85944068af0b9475165c4c52a5d85652b964eb036aaf389e64c5",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/fix-cube-tech-assimilation.py",
+      "sha256": "38c835f826ef6486b85fb0b8c86ed2394998ce592405e281a17580d25f38d1b3",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/fix-dominion-ai-production.py",
+      "sha256": "bb4a56c2c98605031ea290ef1f8aef29567c75f4a57d705c1de31ed3faec35db",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/fix-empty-weapon-generators.py",
+      "sha256": "685859d78ede5378258d6b58bff03c42cb09ec733fe3863e8d556d7e6fddb941",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/fix-mmm-stock-detection.py",
+      "sha256": "d1a5a70230f3d5a9afda6f785590ee7ea4cddcb4cef93e988e61994c0176e665",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/fix-omega-borg-cost.py",
+      "sha256": "7a5d2d91f43c8a0a440cda6d695b5f0f4c73c793feb318710b83dc6ff2353afc",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/fix-station-target-controls.py",
+      "sha256": "ab451ded6842b8295f747b1146900d12b2c05b82387ab0098b6f50a12d3f6250",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/generate-hero-voice-placeholders.ps1",
+      "sha256": "efe924686e7a9776c4072d52a188fc9984d27e6ee1302d5b9d97f79b0bd2fc24",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/identify-crash-objects.py",
+      "sha256": "60aa20aa84731f42f5fe544daa9c24973b4ef3c5b630e8cf497c405fd198d629",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/inspect-bajor-download-materials.py",
+      "sha256": "56fb9caa123546c6672d3ab63b855e01efa895d649fe61f7ac9ae21cc631f708",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/inspect-crash-dump.py",
+      "sha256": "2dd1a5fb7d0ddefc6ea8c52b2605c43b51b8137372ebd33e640ff74c7882d063",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/inspect-crash-object.py",
+      "sha256": "ba78fb040382267e5be1d81d1c3f3c8755aaeb9dd242da628b5b7fa8adc345ab",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/inspect-latest-crash-callers.py",
+      "sha256": "a1050dbbcc64a61e0a64d84c7b32679ba3c937362e5fec410750c3a74400978f",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/inspect-loader-entrypoints.py",
+      "sha256": "5891da1e50ebf87831d9eb6ac411cbd9497a539ee4fa17b512df34fb5fb59bb9",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/inspect-mission-trigger-interfaces.py",
+      "sha256": "360dee3d8db1710e32c58e72bbdb9cef6e8fdb55974cf319d905ea1f25828556",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/inspect-production-class.py",
+      "sha256": "980dc91596924824e69a4c6a7fd89fb62fc22db39d8b2a12b73216fcaccc5001",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/install-8472-ai-recovery.py",
+      "sha256": "c64f5f41bf25d80c05b968751753669e09d7e860d5968698a7218fb81bfdfc15",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/install-borg-assimilation-support.py",
+      "sha256": "9fc75d5809f42180656cf7c02dbb2d8b304f2e60337e9af224b854dce8ef98f0",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/install-borg-nexus-weapons.py",
+      "sha256": "e2c4addafbef96bbe44aadf56f210bce5c89f85f52a85d4dc447501daa438838",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/install-combined-beta.py",
+      "sha256": "5a5ea385768f3b9c39b0bd702d4ae8f2f7856c115c425b777ae5af7b9a70f33e",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/install-cube-tech-hud-fix.py",
+      "sha256": "4bcaf48472b2139a7adf45b26a5e7d207a90a2e93886645c5faf989fdb255c66",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/install-enterprise-legacy-heroes.py",
+      "sha256": "c141363a51198dc731452da0226b12b862820e55d1b8ce937cd59efbf28340e1",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/install-faction-tech-building-fix.py",
+      "sha256": "419924c805a2336bf5aa8f8ec5869d0172fb787e44ab1e7475ccc59055738605",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/install-riker-galaxyx.py",
+      "sha256": "ba19e14c083ccd332fd2ea14c3375d9ebe003a1f7b5b26e428d2a5d78ae78dbe",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/install-romulan-nemesis-heroes.py",
+      "sha256": "df344777e681f30dfa099c40f40e81854fa675c822d9378992a4e32b901c6093",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/install-station-beam-audio-fix.py",
+      "sha256": "2caf624b65df07fb1f3a053ee35c51504a8fbabf10fb6d8d0bf5347f9f7be27b",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/inventory-ships-and-super-starts.py",
+      "sha256": "771bfb947e56bed72c987632a42ddf1c9a86ba84cada9c3b2e92b5dd06e3c716",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/preload-lms-save-helpers.py",
+      "sha256": "4276110cae6ff3efff1f9f542865c3f608f83cbe6b74fe0b0fcc9db4f9ffb0f5",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-bajoran-cardassian-style.py",
+      "sha256": "d9d19ddbec3409a76ef2684ec621122a53946d6207e9482f064a4bf8a59d2742",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-bajoran-durability-research.py",
+      "sha256": "e0ff89c89edae903c633b5c722ca7b0b5e19381b87798143a574d63d75e037f3",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-bajoran-fed-building-tech.py",
+      "sha256": "1755b13a3d361117decf37f25afef55ee0704c7ec3fc7b804ec12420efaa485e",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-bajoran-federation-balance-repair.py",
+      "sha256": "ec1f5d99ab38d980169417caf88d43cfb0deb32a577c17229a264ad9df878deb",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-bajoran-hero-scale-tractor.py",
+      "sha256": "7a150ac0c0beeb2718e4c3671b90f929f6ebeba234b50adc19f0926019d54982",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-bajoran-icon-hotfix.py",
+      "sha256": "110b13f072a78af5dd0108ce9a7a632c1163cad425ea9d0925078af54a100008",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-bajoran-icon-model-alias-fix.py",
+      "sha256": "cdc5305352d361019346e18b5cb8deacb9ddc95a623e6a0b7fcc4b5cba88511a",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-bajoran-mini-ds9-metal.py",
+      "sha256": "bb8805a28210a3930b6e8ab0e5080d0b186deafc56878c0c16b0e5ab07bc5453",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-bajoran-paired-yard-tech.py",
+      "sha256": "07c76f19acebabd7d7bc85a08051d770ada4609e1be0be6221e912dc08fbd4fc",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-bajoran-research-baseline.py",
+      "sha256": "a619e0cd89d0f994ce521f75d717c7fd120cc3e56f69ee81d5027fcde3d2eab8",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-bajoran-resource-badges.py",
+      "sha256": "6821311902e2f392169be6430c499a14d4a28c0ec78d4c6871d17505a0be6e33",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-bajoran-shield-capacity.py",
+      "sha256": "5729c6c9a9c1bb8d0ceb729b2fd76cf66143bc62910fe6c64e19910aff3d8e2e",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-bajoran-utility-slots.py",
+      "sha256": "950151b62bae2b0fd6a319688d8e9e6c154e40607506f8c0cf67254103317ec5",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-bajoran-visibility-repair.py",
+      "sha256": "90d67a1d707cd0d6351777c55831bc92c3b6aebe4d8aa335880370fc42f7c81c",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-bajoran-weapon-scale-recovery.py",
+      "sha256": "9d088375d8efc9cb72a01356bfa1211d50dc9cc64e657530263366c17fa3de75",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-bajoran-yard-repair.py",
+      "sha256": "af3dc64df36d5bc013ea08a331f5989d0abc740eaded7f180ed26b2f42f36807",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-buildable-heroes-only.py",
+      "sha256": "2bad16b3dea4851364063c2621b3af83bf6307c2b692950900b421331d916151",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-cubes-no-blue-beam.py",
+      "sha256": "86f59a33d0f6d0c8ca0bc59f6ded6b5a8a0a608bdda4c30480973c27b5c08371",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-galor-texture-recovery.py",
+      "sha256": "078ea54257fb72b609b25e014cf4998694f5600321032e3f43cdba05de983253",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-lms-api-probe.py",
+      "sha256": "692d2a4455d299d218ff2707f31886ef32d80afe9f6d1328ac92ce9296710b85",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-lms-instant-action-probe.py",
+      "sha256": "352c5bf828c749d7270dcc908c4713dd7ab7bc17c573788109c5e3e5a2732f31",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-mode-sandbox.py",
+      "sha256": "e036aa5dc31be24fb29ea6c3c906209fec53a59ea47e1285e2a86cd2a3a32316",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-non-bajor-ai-target-fix.py",
+      "sha256": "66dd4ee68bd91788a0ffc5a37d3cd2c60f9d0f7f83cac93e93efb1c051200096",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-non-bajor-gui-aliases.py",
+      "sha256": "8a99d0aecdde2122e77447091dd9621947420c595f0cb29a26f004c8bd22a5c0",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/prepare-omega-weapon-path-recovery.py",
+      "sha256": "54c6c381721325df3ef701981ed65542adba1a4ffb8bac1b198f407107192dd7",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/preview-bajor-armadafiles-textures.py",
+      "sha256": "809cb4254ac9d6f47f47d7b79b460a81014cdec553001ed9a3a09c5910f9b5da",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/preview-romulan-nemesis-models.py",
+      "sha256": "24871bdfc0914f5a40a2a180d000d3380c24b00544ab7b6f11fd297f946112b0",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/recover-legacy-eight-player-maps.py",
+      "sha256": "de42c1f72465b1743f0fdad8bb398c9808d4fea4cd8503c6e136826af3f8a51c",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/render-bajoran-buttons.py",
+      "sha256": "397019fca22d53d2a9b8f0631421205da39557c9ce340d09045e4b0090ba16bf",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/render-bajoran-completion-buttons.py",
+      "sha256": "f5cbb812404da0aac2a3d05d4d9956e60b3696e3585e72bc6ff9ef743ad01b0d",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/render-bajoran-redesign-v3.py",
+      "sha256": "7f3e6c2b5144637c64c5ba8616e285874e9222637d0916897e03a293a3636d4a",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/render-borg-assimilation-support.py",
+      "sha256": "fddda3d6af012bed42afa3a2dee33e7eb24d69adfb0c0cc8db93632f02f15b09",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/render-screen-ships-beta.py",
+      "sha256": "b05cc76f4d13a8309e71d5ab06095978668253db791c94f0bf09a29ea0b2b8c5",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/repair-bajoran-native-references.py",
+      "sha256": "f3f9d3ec38dbb666a3a4d60f0fa705fd27489eebc493392917ec28200869e214",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/research-last-man-standing-loader.py",
+      "sha256": "30cea332179271d52231de6d763bddc876b4adeab8fa5cea4d3e67d1b35aa8e1",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/restore-borg-constructor-techass.py",
+      "sha256": "9ed6aaa13467c9fe22b60f665b8517f97dda58f96b8071ff38eec41b11531e74",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/restrict-cube-adaptation.py",
+      "sha256": "d3e2cba4f72b15e1e6a8c6363a383f1f5832760b5ac1bd3c24db41181018c29f",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/save-armadafiles-bajor-search.py",
+      "sha256": "0eb8f19fcdfb9263c6a996af893d95eef948a5f55fe1273b6bac7bbd5a341091",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/scan-armadafiles-bajor.py",
+      "sha256": "afe3e5030bb9347608555d5e0b192851d577e1e18b5aabed61a496fa7e895b7f",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/scan-armadafiles-details-bajor.py",
+      "sha256": "cf2700bea30631ed899c311571e82215bcf3af2a4a6b1fc9aaedc4b999e2f6b2",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/scan-stronghold-map-candidates.py",
+      "sha256": "be30c3961099037750ec6287cddf36977ede81c6c6f3fe0dcba7f83156759489",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/set-assimilation-station-crew.py",
+      "sha256": "b0596748f425c1f3b0995745451aaa1dcce6b51f81aa59fcd03dbcba5dfb3c52",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/snapshot-texture-adaptation-protected.py",
+      "sha256": "3682ba262463ba5eec84469a6d954f7c9cca77d1acbb066e08b6c04c0a4ea63c",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/stage-all-ai-economy-final.py",
+      "sha256": "97acf77f4094c06cb0c9d5f09cbe0bd42c7dbfa59aad630d135f3e44100f013f",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/stage-armadafiles-bajor-normal.py",
+      "sha256": "cfd307e0785cfbcbbc0f0029fa1dfc50ffc9e137b4519bed807d0f36bafde9e6",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/stage-bajoran-completion-models.py",
+      "sha256": "9af878057e0bdefde110fb40818c935cf198a19527d6511e6f1e82b97cf57c9b",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/stage-bajoran-research-structure.py",
+      "sha256": "0c0860615669a1355d3d105721dc8233f3b1d9427f0d2093d3feea305111f71b",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/stage-borg-ai-beta.py",
+      "sha256": "87c31f0460550a1c8d23704356858649a4a4ba65b8ec96f5bc3e909db756389f",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/stage-borg-final-adjustments.py",
+      "sha256": "93956e266af99dc147a06749ea262002c8ed692879df1ed27779b92daebc678d",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/stage-borg-nexus-weapons.py",
+      "sha256": "dc1c538bec16b32713c9453d10b3d13f8c231a7c69a7246280a28b4d23eefd00",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/stage-cardassian-ai-economy.py",
+      "sha256": "0c25059e1149d7b6af9299426e3006cf1cf7278f727193df22c7f1810183d61b",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/stage-cardassian-local-mining.py",
+      "sha256": "22ba93f4da26e58a5b3bee2e0c9c72f57c4f084f2dc99fb34628e30b83cb2b9a",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/stage-eight-player-catalogue.py",
+      "sha256": "6f491c2d7b783a5ef1ec9a1b1b6a4d6b35a601f407c8ca0493c9713e200d13a9",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/stage-enterprise-legacy-heroes.py",
+      "sha256": "cc195e54379c3f9f3bbda9818615f9ee9240a464f40c33cf889792d936a5f187",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/stage-faction-tech-building-fix.py",
+      "sha256": "442f995eedfd51f41c91743177e535eb56cf1ad420740b14e381c69a0ab9ffb9",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/stage-isolated-loader-test.py",
+      "sha256": "a381d3ae3c89b5291bd8c647443e2a1ae3681d747f034aad673e2f2dabdfde10",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/stage-last-man-standing-loader-test.py",
+      "sha256": "044f2ca489e7753f03e01a4a534a4877da47ba817646981b1f474c6c184ea487",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/stage-last-man-standing-prototype.py",
+      "sha256": "c535f7bb1c47992c4d2d47ed13e87197fd43c53bc550115739a1429c4aa45ea8",
+      "alreadyInRepository": false,
+      "savedAs": "archive/armadalab-final/Development/source/scripts/stage-last-man-standing-prototype.py"
+    },
+    {
+      "file": "Development/source/scripts/stage-romulan-nemesis-heroes.py",
+      "sha256": "fe17c19806bfeb74f7e197ecc8167c73f0619be7044aa3aaf2ab8b7405289e4d",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/stage-screen-ships-beta.py",
+      "sha256": "9911a3ba2981f317e75dc8482505ae308a8731acef871ed27ba79c74fb8c7fbb",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/stage-small-ship-scale-beta.py",
+      "sha256": "6958b37110ae90d06328323eadeb0c970ba9b281aaa5b22d146bb4dce500a3c5",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/stage-station-beam-audio-fix.py",
+      "sha256": "27a0d5d108ecf983aa53b32cc11f50db253922e6d24c75cbe50a9079da711427",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/stage-transwarp-prototype-remake.py",
+      "sha256": "3e7e7168d1e0764d0248a2b4cc56edbb78ba92735c0c99e9194f792f1fafd81b",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/start-armadaIII-diagnostics.ps1",
+      "sha256": "d05a6f6d1fcb157c60a5dfd461bd11629a50cc416254ffeec0da10b286336e70",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/start-sandbox-game.ps1",
+      "sha256": "a74ed5b6f58562e3e36634d573e43bd7016b574e967396cf9a3075fc8fe17d6a",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/validate-bajoran-actual-assets.py",
+      "sha256": "e28fc18d135ca940422ef8982321c7ce374211e06c98085a41e6f4053962d9b5",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/validate-bajoran-balance-assets.py",
+      "sha256": "dc299db263a729bff5530ed4ebd3d46a1c06d55066c79582cb40433446040ffb",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/validate-bajoran-completion-assets.py",
+      "sha256": "8cc54abe8dd7cc0fb749da4028a8300a0d2de898b50b0b2d10c8161218d99112",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/validate-bajoran-durability-assets.py",
+      "sha256": "40552652b005606d5ffc377c6e879a39595c3cdcd089d547eb202fa5561aa7ca",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/validate-bajoran-redesign-v3.py",
+      "sha256": "4ccc22efea2d9b02e40c74ecbcf07854dc6642ebe933b254478b0beb2938d8f9",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/validate-borg-assimilation-support.py",
+      "sha256": "a807e3128ce7aa87c9f1e59e52e0f64e5ded0390d61aee374d505139d3e448a3",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/scripts/withdraw-loader-test-after-crash.py",
+      "sha256": "044446faf318090bc9c9fb7c5800ee30e725dc677d27378fbd90c24fca071af6",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/modes/last-man-standing/APIProbe.lua",
+      "sha256": "51972b323a02095a5f7a77445cb2547c41e28555c7e8e982dee7bb8083739c0c",
+      "alreadyInRepository": false,
+      "savedAs": "archive/armadalab-final/Development/source/modes/last-man-standing/APIProbe.lua"
+    },
+    {
+      "file": "Development/source/modes/last-man-standing/BRIEFING.md",
+      "sha256": "d5699f061c696334fb03076b408f29b667bc4dc7a3dc588e48ec9804e98ae859",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/modes/last-man-standing/Last Man Standing Loader Test.lua",
+      "sha256": "e4bf94a695485b5bfa3cfeb467287044242e615e1fb2a1cba7ee2ed4130bbc14",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/modes/last-man-standing/Last Man Standing.lua",
+      "sha256": "2fa65cb6f6ed76ae17462e9cc60cd9253286adc161b490dad9252c3bb6739cf7",
+      "alreadyInRepository": false,
+      "savedAs": "archive/armadalab-final/Development/source/modes/last-man-standing/Last Man Standing.lua"
+    },
+    {
+      "file": "Development/source/modes/last-man-standing/NativeAdapter.lua",
+      "sha256": "6679fda273d8bc8b462206b08d377e2aa422202c20279afdcabf774b06872533",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/modes/last-man-standing/NativeDefinitions.lua",
+      "sha256": "4c1ba291bae89c1d525a4864f28c6c06e170e2ee5390a08cf38ab83d7a5522eb",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/modes/last-man-standing/rescue-config.json",
+      "sha256": "5f0c2c90bfb5320af99300be95f392eba5a1b4fff8a861481fef57d2ac7985ad",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/modes/last-man-standing/RescueConfig.lua",
+      "sha256": "6e9a8a162093e6305b4d346fe101b345c975f1aabda855bad5d75b989dfdaa73",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/modes/last-man-standing/RescueCore.lua",
+      "sha256": "101f8c5afb07eda3fbbe929c6f8e90f17310380eaf5b3da4ef7ad4bbdec9e6ff",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/modes/last-man-standing/Scenario.lua",
+      "sha256": "516f8c917135f927603d874526e59a7ce4b3fab7d702a105eb415efcbb7e1ebf",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/modes/last-man-standing/test-native-adapter.lua",
+      "sha256": "95b8348c768d194e799d37821234f291468ac75a4b99532663cc614c9f1a62ef",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/source/modes/last-man-standing/test-rescue-core.lua",
+      "sha256": "e1fc38dc371f05d9b318e580f1252bd86c0157f748b1230ad9ace98ad2a18a7a",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/stage/missions/Last Man Standing/APIProbe.lua",
+      "sha256": "8a33b445cd9be225b8e1b3263a7851e7b9ce33d4cf6d5ce70ccb4024ef485e44",
+      "alreadyInRepository": false,
+      "savedAs": "archive/armadalab-final/Development/stage/missions/Last Man Standing/APIProbe.lua"
+    },
+    {
+      "file": "Development/stage/missions/Last Man Standing/Last Man Standing Loader Test.lua",
+      "sha256": "e4bf94a695485b5bfa3cfeb467287044242e615e1fb2a1cba7ee2ed4130bbc14",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/stage/missions/Last Man Standing/Last Man Standing.lua",
+      "sha256": "2fa65cb6f6ed76ae17462e9cc60cd9253286adc161b490dad9252c3bb6739cf7",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/stage/missions/Last Man Standing/NativeAdapter.lua",
+      "sha256": "6679fda273d8bc8b462206b08d377e2aa422202c20279afdcabf774b06872533",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/stage/missions/Last Man Standing/NativeDefinitions.lua",
+      "sha256": "4c1ba291bae89c1d525a4864f28c6c06e170e2ee5390a08cf38ab83d7a5522eb",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/stage/missions/Last Man Standing/RescueConfig.lua",
+      "sha256": "6e9a8a162093e6305b4d346fe101b345c975f1aabda855bad5d75b989dfdaa73",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/stage/missions/Last Man Standing/RescueCore.lua",
+      "sha256": "101f8c5afb07eda3fbbe929c6f8e90f17310380eaf5b3da4ef7ad4bbdec9e6ff",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/stage/missions/Last Man Standing/Scenario.lua",
+      "sha256": "516f8c917135f927603d874526e59a7ce4b3fab7d702a105eb415efcbb7e1ebf",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/stage/missions/Last Man Standing/test-native-adapter.lua",
+      "sha256": "95b8348c768d194e799d37821234f291468ac75a4b99532663cc614c9f1a62ef",
+      "alreadyInRepository": true
+    },
+    {
+      "file": "Development/stage/missions/Last Man Standing/test-rescue-core.lua",
+      "sha256": "e1fc38dc371f05d9b318e580f1252bd86c0157f748b1230ad9ace98ad2a18a7a",
+      "alreadyInRepository": true
+    }
+  ],
+  "commercialRuntimeExcluded": true,
+  "testResult": "User reported rescue test did not work and requested stopping development",
+  "deletionPendingGitHubVerification": true
+}

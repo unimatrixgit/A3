@@ -1,0 +1,99 @@
+{
+  "stage": "D:\\ArmadaLab\\Development\\next-rescue-test",
+  "target": "D:\\ArmadaLab",
+  "selection": "Instant Action > Last Man Standing Test",
+  "installed": true,
+  "runtimeVerified": false,
+  "freshMatchesOnly": true,
+  "firstTest": "One Easy Federation AI; leave its starbase intact, destroy every constructor",
+  "staticSites": [
+    {
+      "x": 3000,
+      "y": 0,
+      "z": 800,
+      "validated": true,
+      "resourcesNearby": true,
+      "staticClearances": {
+        "latinum": 1317,
+        "pb_clssd": 1564,
+        "mafield2": 1406,
+        "mdmoon": 698,
+        "pb_clssm": 2128,
+        "zferscav": 1890,
+        "dlight": 3626
+      }
+    },
+    {
+      "x": 6000,
+      "y": 0,
+      "z": 800,
+      "validated": true,
+      "resourcesNearby": true,
+      "staticClearances": {
+        "latinum": 1271,
+        "pb_clssd": 1467,
+        "mafield2": 1595,
+        "mdmoon": 802,
+        "pb_clssm": 1956,
+        "zferscav": 2056,
+        "dlight": 3659
+      }
+    },
+    {
+      "x": 3000,
+      "y": 0,
+      "z": 8200,
+      "validated": true,
+      "resourcesNearby": true,
+      "staticClearances": {
+        "latinum": 1366,
+        "pb_clssd": 1910,
+        "mafield2": 1459,
+        "mdmoon": 807,
+        "pb_clssm": 2111,
+        "zferscav": 1878,
+        "dlight": 4334
+      }
+    },
+    {
+      "x": 6000,
+      "y": 0,
+      "z": 8200,
+      "validated": true,
+      "resourcesNearby": true,
+      "staticClearances": {
+        "latinum": 1173,
+        "pb_clssd": 1880,
+        "mafield2": 1541,
+        "mdmoon": 692,
+        "pb_clssm": 1984,
+        "zferscav": 1282,
+        "dlight": 4362
+      }
+    }
+  ],
+  "siteReview": "Quad preview and parsed object centers; formation/flight clearance still requires runtime observation",
+  "sourceMapCredit": "Private derivative of Quad by TornMorbid, from existing user installation; not a redistribution license",
+  "files": [
+    {
+      "file": "bzn/lmstest.bmp",
+      "sha256": "51f74d63500a1443c5be0239f933827eba0aac49b7f8d0b842e7acbe9ee6e7dc"
+    },
+    {
+      "file": "bzn/lmstest.bzn",
+      "sha256": "17552af237f52e5690ac29d8ffc5c551cce3405660116eb3279391e17f884a51"
+    },
+    {
+      "file": "missions/Last Man Standing Test.lua",
+      "sha256": "c717b5539a51e13d466ba1806d79d41ac30c1892e47b3ff58d3592dd1a77c9f3"
+    },
+    {
+      "file": "objectives/LastManStandingObjectives.txt",
+      "sha256": "cd59b59f7ba3215c2fd488f0532ff64a38aae68899d86880a659337291e13bf0"
+    }
+  ],
+  "backup": "D:\\ArmadaLab\\Development\\backups\\rescue-test-20261018-182949",
+  "previouslyPresent": [],
+  "userTestResult": "Failed: user said did not work; exact failure not diagnosed because user stopped work",
+  "developmentStopped": true
+}

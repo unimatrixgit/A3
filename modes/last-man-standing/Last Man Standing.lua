@@ -34,6 +34,11 @@ function LastManStanding:saveState()
 end
 
 function LastManStanding:setup()
+    -- Entity discovery belongs in the first simulation update, not map loading.
+    self.pendingSetup=true
+end
+
+function LastManStanding:initialize()
     if self.disabled then
         print('Last Man Standing disabled: no reviewed mission map/site configuration.')
         return
@@ -56,12 +61,35 @@ function LastManStanding:setup()
         self:resume()
         return
     end
+    if Scenario.discoverOrigins then
+        local entities=EntityFinder(function(e)
+            return e.valid and e:isType(Entity.Type.Craft) and not e.destroyed
+        end):find()
+        local priority={}
+        for _,e in pairs(entities) do
+            local number=e.player.number
+            if number>0 and number<=8 then
+                local rank=Definitions.structures[e.odf] and 2 or 1
+                if rank>(priority[number] or 0) then
+                    local p=e.position
+                    Scenario.origins[number]={x=p.x,y=p.y,z=p.z}
+                    priority[number]=rank
+                end
+            end
+        end
+        if next(Scenario.origins)==nil then
+            self.disabled=true
+            print('Last Man Standing paused: starting fleets were not found.')
+            return
+        end
+    end
     self.adapter=Adapter.new(Config,Definitions,Scenario)
     self.controller=Core.new(Config)
     self.controller:update(self.adapter:snapshot(),self.adapter)
     self:saveState()
     Objectives:load('LastManStandingObjectives.txt')
     Objectives.visible=true
+    print('Last Man Standing armed: destroy an AI last constructor; leave a structure intact.')
 end
 
 function LastManStanding:resume()
@@ -88,6 +116,11 @@ function LastManStanding:resume()
 end
 
 function LastManStanding:update()
+    if self.pendingSetup then
+        self.pendingSetup=false
+        self:initialize()
+        return
+    end
     if self.disabled or not self.controller then return end
     local before=self:stateKey()
     local results=self.controller:update(self.adapter:snapshot(),self.adapter)

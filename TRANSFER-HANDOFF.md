@@ -95,3 +95,10 @@ Next: implement a narrowly scoped callback restoration path (do NOT ship globall
 
 ### Scoped follow-up (supersedes provisional callback conclusion)
 A new guarded .lms section retained only an exact active MMM callback (GetModuleHandleA base + 0x20a0), leaving stock resets for other callbacks. Read-only process inspection confirmed the nonzero callback after saved-game load. However, neither LOAD PASS nor FAIL appeared with the staged helper-detection probe, including after ship selection. All complete staged scripts parse under Lua 5.1. This experiment also was reverted to the original sandbox executable hash; loader interface-binding experiment reverted too. Do not claim callback preservation alone restores Lua execution. Trace MMM callback/mission bootstrap next. All 31 offline tests remain passing.
+
+
+Fresh rescue prototype installed on user closed-game approval: reports/lms-rescue-test-stage.json, scripts/stage-lms-rescue-test.py and apply-lms-rescue-test.py. Four lab-only files; select Last Man Standing Test. Fresh matches only, one Easy Federation AI first. Source now defers setup to first update, discovers active origins and uses four static spacing-checked Quad sites. 31 Lua tests passed, runtime rescue not yet proven. Game relaunched for user. No live changes.
+
+
+## Final user stop and lab removal request
+User reported the fresh rescue test did not work, explicitly stopped development, then requested saving all progress to GitHub and deleting only D:/ArmadaLab. Preserve D:/aramada, D:/armadaIII and D:/Xaramada. Unique developer source/report files from the lab are archived under archive/armadalab-final, with content inventory in reports/armadalab-final-archive.json. Commercial runtime/assets excluded from publication. Do not describe Last Man Standing as working. Lab removal follows verified GitHub push.
