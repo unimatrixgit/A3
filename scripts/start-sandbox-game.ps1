@@ -9,7 +9,7 @@ try {
     # Keep this process environment small; do not change Windows/user settings.
     $env:PATH = 'C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem'
     $env:__COMPAT_LAYER = 'DWM8And16BitMitigation HIGHDPIAWARE'
-    Start-Process -FilePath "$testRoot\Armada2.exe" -WorkingDirectory $testRoot
+    Start-Process -FilePath "$testRoot\Armada2.exe" -ArgumentList '-nointro' -WorkingDirectory $testRoot
 } finally {
     $env:PATH = $previousPath
     $env:__COMPAT_LAYER = $previousCompat

@@ -36,8 +36,8 @@ definitions=dict(builders={n:True for n in idx if props(n).get('classlabel')=='c
 (mode/'NativeDefinitions.lua').write_text('LMSNativeDefinitions='+lua(definitions)+'\nreturn LMSNativeDefinitions\n')
 for p in mode.glob('*.lua'):shutil.copy2(p,dest/p.name)
 base=Path('D:/Xaramada-Modwork/last-man-standing/research/mmm-extracted/mmm')
-for rel in ['missions/mmm_loader.dll','odf/system/mmm_holder.odf','odf/system/mmm_mapper.odf']:
- dst=stage/rel;dst.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(base/rel,dst)
+for sourceRel,destRel in [('missions/mmm_loader.dll','missions/mmm_loader.dll'),('odf/system/mmm_holder.odf','odf/other/mmm_holder.odf'),('odf/system/mmm_mapper.odf','odf/other/mmm_mapper.odf')]:
+ dst=stage/destRel;dst.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(base/sourceRel,dst)
 for rel in ['RTS_CFG.h','mshell.set','label.map']:
  p=root/rel
  if p.exists():dst=snap/rel;dst.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(p,dst)

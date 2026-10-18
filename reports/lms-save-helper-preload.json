@@ -1,0 +1,16 @@
+{
+  "target": "D:\\ArmadaLab",
+  "changed": [
+    "tech1.tt",
+    "freetech.tt",
+    "fulltech.tt"
+  ],
+  "backup": "D:\\ArmadaLab\\Development\\backups\\save-helpers-20261018-110117",
+  "runtimeVerified": true,
+  "dump": "Armada2.exe.19836.dmp",
+  "reason": "Save serialization attempted to dereference a null helper entity; register helper classes in startup tech trees",
+  "techEntriesAloneResolvedCrash": false,
+  "repeatDump": "Armada2.exe.33772.dmp",
+  "helperLayout": "Moved helper definitions from Fleet Operations odf/system to stock-game odf/other",
+  "scope": "Helper objects created and state written, after stock-folder relocation AND corrected loader stock detection. Tech entries alone did not resolve the issue."
+}

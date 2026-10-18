@@ -7,7 +7,7 @@ running=subprocess.run(['C:/Windows/System32/WindowsPowerShell/v1.0/powershell.e
     "@(Get-Process Armada2 -ErrorAction SilentlyContinue).Count"],capture_output=True,text=True,check=True)
 if int(running.stdout.strip()):raise SystemExit('No files applied: close the running game before installing this probe.')
 stage=root/'Development/api-probe'
-files=[Path(x) for x in ['missions/LMSAPIProbe.lua','bzn/a2_fed01.bzn','odf/system/mmm_holder.odf','odf/system/mmm_mapper.odf']]
+files=[Path(x) for x in ['missions/LMSAPIProbe.lua','bzn/a2_fed01.bzn','odf/other/mmm_holder.odf','odf/other/mmm_mapper.odf']]
 assert all((stage/p).is_file() for p in files)
 backup=root/'Development/backups'/('api-probe-'+datetime.datetime.now().strftime('%Y%m%d-%H%M%S'))
 manifest=[]

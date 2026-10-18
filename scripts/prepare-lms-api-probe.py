@@ -31,8 +31,8 @@ for field,value in [(first,b'mmm_loader.dll'),(first+72,b''),(first+144,title)]:
     b=b[:field+8]+value.ljust(64,b'\0')+b[field+72:]
 (dest/'bzn').mkdir(exist_ok=True);(dest/'bzn/a2_fed01.bzn').write_bytes(b)
 base=Path('D:/Xaramada-Modwork/last-man-standing/research/mmm-extracted/mmm')
-for rel in ['odf/system/mmm_holder.odf','odf/system/mmm_mapper.odf']:
-    p=dest/rel;p.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(base/rel,p)
+for name in ['mmm_holder.odf','mmm_mapper.odf']:
+    p=dest/'odf/other'/name;p.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(base/'odf/system'/name,p)
 assert rules not in b
 report=dict(stage=str(dest),applied=False,runtimeVerified=False,nativeRulesRemoved=True,headerMode='mp-regular',localCampaignSlot=True,probe='snapshot, one owned constructor spawn/removal, Save/Load stream round-trip',guard='Do not apply while Armada2 is running')
 (repo/'reports/lms-api-probe.json').write_text(json.dumps(report,indent=2));print(json.dumps(report))

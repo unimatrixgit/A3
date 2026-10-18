@@ -1,0 +1,19 @@
+{
+  "target": "D:\\ArmadaLab\\missions\\mmm_loader.dll",
+  "backup": "D:\\ArmadaLab\\Development\\backups\\mmm-stock-check-20261018-112154",
+  "beforeSha256": "92a96beb2c0648ba9a9f9697a47d8ea947273e7d031ddd2bbb1ff5cf79f4e1e8",
+  "afterSha256": "89ab2bd3782384fca5ea315f8d60b2ec50089ae0553bf048831708adc611ac69",
+  "fileOffset": "0x15ae",
+  "original": "cmp eax,-1; setne al",
+  "corrected": "cmp eax,0; setne al",
+  "reason": "GetModuleHandleW returns NULL when FleetOpsHook.dll is absent, not INVALID_HANDLE_VALUE; original comparison enables incompatible extended interface calls",
+  "crashEvidence": "Armada2.exe.16356.dmp: invalid call at MMM RVA0x287e through ScriptInterface offset0x5cc",
+  "runtimeVerified": true,
+  "sources": [
+    "https://learn.microsoft.com/en-us/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandlew",
+    "https://www.fleetops.net/news/item/204-megadroids-mission-mod-101"
+  ],
+  "redistribution": "Private test patch only; no loader binary added to Git",
+  "evidence": "Observed LMS API PASS: 2 teams; owned spawn/removal; save written. Native game save and same-process reload completed without crash.",
+  "fullRescueModeVerified": false
+}

@@ -26,3 +26,7 @@ Launch with `scripts/start-sandbox-game.ps1`, select the first Federation campai
 Full Last Man Standing gameplay still needs a verified map, reviewed safe resource sites, AI rescue transition, once-only behavior and disk save/load. Its Scenario.lua remains disabled. Only after it works should the other six modes be completed together, as requested.
 
 Release cleanup, redistributable installer, website and remaining texture/provenance work are unfinished. Do not distribute ArmadaLab: it contains the user's private commercial game runtime. Do not mark all tasks complete or deploy these tests to the live game.
+
+
+## Superseding runtime results
+The later Instant Action probe passed discovery, owned spawn/removal and save-state writing after correcting MMM stock detection. Native disk save, same-process reload and fresh-process reload succeeded. See `reports/lms-runtime-api-results.json` and `reports/mmm-stock-detection-fix.json`. Lua resume confirmation is still unresolved, so full rescue persistence is not verified. Current test copy remains D:/ArmadaLab.

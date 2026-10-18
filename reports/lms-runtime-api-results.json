@@ -1,0 +1,26 @@
+{
+  "target": "D:\\ArmadaLab",
+  "loaderStockDetectionPatched": true,
+  "helperLocation": "odf/other",
+  "snapshotAndOwnedSpawnRemovalPassed": true,
+  "saveStreamWritePassed": true,
+  "nativeDiskSavePassed": true,
+  "nativeSameProcessReloadPassed": true,
+  "nativeFreshProcessReloadPassed": true,
+  "luaResumeValuesVerified": false,
+  "luaResumeIssue": "No LOAD PASS/FAIL message after actual reload, even after deferring the message to update; investigate script lifecycle on Instant Action saved-game loads",
+  "saveFile": "D:/ArmadaLab/save/s1.sav",
+  "saveContainsMMMHelpersAndEncodedTestValues": true,
+  "fullRescueModeVerified": false,
+  "liveGameModified": false,
+  "offlineTests": [
+    {
+      "suite": "test-rescue-core.lua",
+      "passed": 15
+    },
+    {
+      "suite": "test-native-adapter.lua",
+      "passed": 9
+    }
+  ]
+}
