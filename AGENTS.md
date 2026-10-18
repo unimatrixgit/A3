@@ -13,3 +13,7 @@ Hero ships are buildable only. Do not add heroes to standard, minimal, super, CT
 Borg cubes must not carry the blue Auto-Assimilator weapon (xacassim/gborgbor). Keep green holding/assimilation, transwarp and remaining weapons in their existing relative order with matching hardpoints; no empty weapon slots. Do not rerun historical beam-addition scripts unchanged.
 
 Shield adaptation/remodulation is now restricted to Scout Cube (bscout) and Locutus variants (blocutus, xoblocutus). Do not restore it to other cubes. This supersedes historical all-cubes adaptation scripts.
+
+## Repository destination
+User instruction (2026-10-18): use https://www.dunerealms.com/git/unimatrix/A3/projects from now on. Git clone/push remote: https://www.dunerealms.com/git/unimatrix/A3.git . Do not push to previous GitHub destinations unless the user requests it.
+
