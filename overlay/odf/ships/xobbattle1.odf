@@ -15,12 +15,12 @@ shieldRate = 28.800
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 1248
-metalCost = 1248
+dilithiumCost = 975
+metalCost = 275
 latinumCost = 0
 biomatterCost = 0
 crewCost = 5200
-officerCost = 64
+officerCost = 4
 buildTime = 137
 
 // Additional green holding/assimilation beam, separate from the existing blue beam.
@@ -45,9 +45,7 @@ buildTime = 137
 
 
 maxExtraWeapons = 5
-
 maxSpecialEnergy = 4500
-
 specialEnergyRate = 45
 
 // Shield adaptation restricted to Scout and Locutus variants.
@@ -63,3 +61,6 @@ weapon5 = "gdetect3"
 weaponHardpoints5 = "hp01"
 weapon6 = "gTechAssimBeam"
 weaponHardpoints6 = "hp01"
+
+weapon7 = "xy_xobbattle1_gregen"
+weaponHardpoints7 = "hp07"

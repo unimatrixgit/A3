@@ -43,7 +43,14 @@ impulseSpeed = 89
 warpSpeed = 390
 
 //**********************************************************************
-//Construction Parameters
+//Construction Parameters
+
+
+
+
+
+
+
 
 //**********************************************************************
 //Worker Bee Parameters
@@ -89,24 +96,16 @@ specialEnergyRate = 10
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 700
-metalCost = 0
+dilithiumCost = 150
+metalCost = 50
 latinumCost = 0
 biomatterCost = 0
 crewCost = 651
-officerCost = 3
+officerCost = 1
 buildTime = 28
-
 buildItem0 = "bbase"
-
 buildItem1 = "bturret"
-
-buildItem2 = "byard3"
-
-buildItem3 = "bsensor"
-
-buildItem4 = "bbase2"
-
-buildItem5 = "bassturr"
-
-buildItem6 = "hub"
+buildItem2 = "bsensor"
+buildItem3 = "bbase2"
+buildItem4 = "bassturr"
+buildItem5 = "hub"

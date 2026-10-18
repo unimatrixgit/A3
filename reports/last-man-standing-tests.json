@@ -1,0 +1,17 @@
+{
+  "luaVersion": "5.1",
+  "suites": [
+    {
+      "suite": "test-rescue-core.lua",
+      "passed": 13
+    },
+    {
+      "suite": "test-native-adapter.lua",
+      "passed": 7
+    }
+  ],
+  "totalPassed": 20,
+  "allLuaSyntaxValid": true,
+  "engineIntegrationTested": false,
+  "installed": false
+}

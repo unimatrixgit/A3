@@ -1,0 +1,28 @@
+{
+  "stage": "D:\\Xaramada-Modwork\\transwarp-prototype-remake",
+  "files": [
+    "odf\\special_weapons\\xbtpblue.odf",
+    "odf\\special_weapons\\xbtpgreen.odf",
+    "odf\\special_weapons\\xbtpregen.odf",
+    "odf\\special_weapons\\xbtpwarp.odf",
+    "odf\\ships\\brenborg.odf",
+    "odf\\special_weapons\\gTechAssim.odf"
+  ],
+  "ship": "brenborg",
+  "beamBanks": 4,
+  "torpedoLaunchers": 2,
+  "capturedWeaponSlots": 2,
+  "energyCapacity": 3000,
+  "energyRegeneration": 30,
+  "formula": "(4 + captured slots) *500 capacity;*5 regeneration",
+  "installed": true,
+  "gameplayVerified": false,
+  "notes": [
+    "Ship only; Technology Assimilator assignClass includes prototype.",
+    "Transwarp and self-destruct retained.",
+    "Blue beam added only to this prototype,not cubes.",
+    "Button slots:green3,blue4,transwarp5,regeneration6,tech7;selfdestruct10.",
+    "Continuous toggle drains can exceed regeneration; reserve is finite."
+  ],
+  "backup": "D:\\Xaramada-Modwork\\backups\\transwarp-prototype-20261018-072640"
+}

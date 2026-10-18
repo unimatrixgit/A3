@@ -1,0 +1,119 @@
+{
+  "maps": [
+    {
+      "map": "a2_fed01",
+      "stationCounts": {
+        "federation": 10,
+        "norace": 5
+      },
+      "shipCounts": {
+        "federation": 80,
+        "borg": 1
+      },
+      "stationTypes": {
+        "federation": [
+          "fbase",
+          "fmining",
+          "fresear",
+          "fsuperbl",
+          "fturret2",
+          "fyard"
+        ],
+        "norace": [
+          "pb_clssd",
+          "pb_clssh",
+          "pb_clssk",
+          "pb_clssl"
+        ]
+      },
+      "ownershipVerified": false
+    },
+    {
+      "map": "a2_4jaggeh2",
+      "stationCounts": {
+        "norace": 4,
+        "federation": 7
+      },
+      "shipCounts": {},
+      "stationTypes": {
+        "norace": [
+          "pb_clssd",
+          "pb_clssh",
+          "pb_clssl",
+          "pb_clssm"
+        ],
+        "federation": [
+          "fbasehq",
+          "fyard",
+          "fyard2"
+        ]
+      },
+      "ownershipVerified": false
+    },
+    {
+      "map": "a2_6jaggeh3",
+      "stationCounts": {
+        "norace": 11
+      },
+      "shipCounts": {},
+      "stationTypes": {
+        "norace": [
+          "pb_clssd",
+          "pb_clssh",
+          "pb_clssj",
+          "pb_clssk",
+          "pb_clssl",
+          "pb_clssm"
+        ]
+      },
+      "ownershipVerified": false
+    },
+    {
+      "map": "a2_6jaggeh1",
+      "stationCounts": {
+        "norace": 8
+      },
+      "shipCounts": {},
+      "stationTypes": {
+        "norace": [
+          "pb_clssd",
+          "pb_clssm"
+        ]
+      },
+      "ownershipVerified": false
+    },
+    {
+      "map": "a2_6jaggeh4",
+      "stationCounts": {
+        "norace": 8
+      },
+      "shipCounts": {},
+      "stationTypes": {
+        "norace": [
+          "pb_clssd",
+          "pb_clssm"
+        ]
+      },
+      "ownershipVerified": false
+    },
+    {
+      "map": "a2_4jaggeh5",
+      "stationCounts": {
+        "norace": 6
+      },
+      "shipCounts": {},
+      "stationTypes": {
+        "norace": [
+          "pb_clssd",
+          "pb_clssm"
+        ]
+      },
+      "ownershipVerified": false
+    }
+  ],
+  "notes": [
+    "Counts from map editor handle declarations matched against installed ODFs.",
+    "Race is original unit faction,not team ownership. Player ownership,coordinates and traversability require binary map validation.",
+    "Campaign scripting may depend on preplaced named objects;maps must be copied for mode prototypes."
+  ]
+}

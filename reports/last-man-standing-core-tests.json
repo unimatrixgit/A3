@@ -1,0 +1,10 @@
+{
+  "testsPassed": 13,
+  "luaVersion": "5.1",
+  "engineIntegrationTested": false,
+  "installed": false,
+  "limitations": [
+    "Tests execute actual Lua rule controller with simulated engine adapter.",
+    "Transactional engine spawn rollback,resource grant and native save/load remain integration work."
+  ]
+}

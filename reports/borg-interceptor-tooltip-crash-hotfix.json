@@ -1,0 +1,17 @@
+{
+  "installed": true,
+  "file": "odf\\ships\\bdestroy2.odf",
+  "backup": "D:\\Xaramada-Modwork\\backups\\borg-interceptor-tooltip-20261018-083046\\odf\\ships\\bdestroy2.odf",
+  "dump": "C:/Users/thoma/AppData/Local/CrashDumps/Armada2.exe.30252.dmp",
+  "exceptionAddress": "0x00481cc0",
+  "caller": "0x004e7325",
+  "finding": "Tooltip renderer passes null short-tooltip key into string lookup when verbose text exists. Interceptor MK2 is the only live ODF with verboseTooltip but no tooltip.",
+  "remainingMalformedTooltipDefinitions": [],
+  "gameplayVerified": false,
+  "causeConfirmedInGame": false,
+  "notes": [
+    "Exception context decoded from exception record,not post-crash thread context.",
+    "No dump object pointer retained to confirm hovered unit identity.",
+    "No mode loader or new game mode installed;staged AI economy patch remains separate."
+  ]
+}

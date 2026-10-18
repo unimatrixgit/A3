@@ -1,0 +1,24 @@
+{
+  "stage": "D:\\Xaramada-Modwork\\last-man-standing\\loader-test",
+  "source": "D:\\armadaIII\\bzn\\a2_fed01.bzn",
+  "sourceHash": "e14dfa2d26f1f5e0876a8af68808cb47dddb62c9e9c28051694592d824d8efb7",
+  "map": "LastManStandingTest.bzn",
+  "typedStringChanges": 5,
+  "installed": true,
+  "gameplayVerified": false,
+  "notes": [
+    "Native original mission terrain/objects retained for compatibility smoke test.",
+    "Original campaign DSL/DRL links removed in copiedmap only.",
+    "Adds one miscellaneous/tutorial mission entry;preserves original campaign lists.",
+    "Diagnostic loader test only;not complete Last Man Standing mode."
+  ],
+  "files": [
+    "label.map",
+    "mshell.set",
+    "bzn\\LastManStandingTest.bzn",
+    "missions\\Last Man Standing Loader Test.lua",
+    "missions\\mmm_loader.dll",
+    "objectives\\LastManStandingLoaderTestObjectives.txt"
+  ],
+  "backup": "D:\\Xaramada-Modwork\\backups\\ai-final-loader-test-20261018-085031"
+}

@@ -1,0 +1,481 @@
+{
+  "stage": "D:\\Xaramada-Modwork\\last-man-standing\\stage",
+  "sourceSnapshot": "D:\\Xaramada-Modwork\\last-man-standing\\source-snapshot",
+  "factions": 9,
+  "references": [
+    {
+      "file": "odf\\ships\\xhfhero.odf",
+      "sha256": "18a212d7c7d8bfd2d8bc4c5faff934311cb0bc6f135d07277633b500597bcdd8"
+    },
+    {
+      "file": "odf\\ships\\fconst.odf",
+      "sha256": "3c246ca30e03c6a29b301b0b8b7a52966dfc453be397bb434296c5ca9edc5aa6"
+    },
+    {
+      "file": "odf\\ships\\fdestroy.odf",
+      "sha256": "7271fddbccc51a574d93ec8d4a970b6897768c1230b0f2069318d9284a187ab9"
+    },
+    {
+      "file": "odf\\ships\\fcruise1.odf",
+      "sha256": "9496f4b4b4a00c766a8d12600bef192bf2e2ff111f104c60202ffed5e60f6a03"
+    },
+    {
+      "file": "odf\\ships\\fbattle.odf",
+      "sha256": "c383bcf3c1738b2b72b041bdaf30ea3e4c84913bc39bdd0aa07694d7ed5b53f1"
+    },
+    {
+      "file": "odf\\stations\\fbase.odf",
+      "sha256": "364f974f95fe8ffd5ba09ecf66791a9f6dff4a52c63c2e758d66c4f4b011d9f6"
+    },
+    {
+      "file": "odf\\stations\\fmining.odf",
+      "sha256": "7b44f0836dc2ed16fc7a3e7dbfd10e95ef409b10d2b7a132888bd81f1a6ce7cc"
+    },
+    {
+      "file": "odf\\stations\\forbital.odf",
+      "sha256": "5ad4899d9f06d3303952f94102025907d77c8a801057aa6a6118d6cc941bc589"
+    },
+    {
+      "file": "odf\\stations\\fyard0.odf",
+      "sha256": "676741227430da3aff647f21ccfb438cac78aa6508215573ca8f6723d706ea9a"
+    },
+    {
+      "file": "odf\\stations\\fyard.odf",
+      "sha256": "7cb9b70317bd091585979362ad6277f9d91b753f56545a48d2a03be7ed817e63"
+    },
+    {
+      "file": "odf\\stations\\fresear.odf",
+      "sha256": "49729f4b8e4a6b735d50ef10b4f54c017f0d847c4524ad77b18d7f3a2528328d"
+    },
+    {
+      "file": "odf\\ships\\ffreight.odf",
+      "sha256": "1c21b70fa51e3beabb01f4bcc686a4db97c68b71fbd6c6114f2a47a2e2269eeb"
+    },
+    {
+      "file": "odf\\ships\\ffreight.odf",
+      "sha256": "1c21b70fa51e3beabb01f4bcc686a4db97c68b71fbd6c6114f2a47a2e2269eeb"
+    },
+    {
+      "file": "odf\\ships\\fconst.odf",
+      "sha256": "3c246ca30e03c6a29b301b0b8b7a52966dfc453be397bb434296c5ca9edc5aa6"
+    },
+    {
+      "file": "odf\\ships\\blocutus.odf",
+      "sha256": "9896e261ae45b6772baf0204dc671b7e980aaf8cf66fb523fc62dcd540037ffe"
+    },
+    {
+      "file": "odf\\ships\\bconst.odf",
+      "sha256": "e034358c54aaea52cdeb79cca4e1a2757a94e27672c70fc2578a958497294979"
+    },
+    {
+      "file": "odf\\ships\\bdestroy.odf",
+      "sha256": "caf5dc351d3aa6a5c8e32166e21719f2d5bb4fbf5b5d27c8e1e2bcf7e97da9f6"
+    },
+    {
+      "file": "odf\\ships\\bcruise1.odf",
+      "sha256": "9f1144ea5b6bc9569b45339d817fdd21b195e373df4a2a882a91a52de1ee535b"
+    },
+    {
+      "file": "odf\\ships\\bbattle1.odf",
+      "sha256": "f489767c100376efce05dc0a8f9dce499cacc09d330e126b5d6c1b1805a99a30"
+    },
+    {
+      "file": "odf\\stations\\bbase.odf",
+      "sha256": "1ceae22583c6841181fc11eb3931733c3d9d5cd42b9a4dc727b3f8faef6abc44"
+    },
+    {
+      "file": "odf\\stations\\bmining.odf",
+      "sha256": "30712ca0380f2053fcc0e19822a1120f4124d5a11c23656bf44ac92f87c035b8"
+    },
+    {
+      "file": "odf\\stations\\bbase2.odf",
+      "sha256": "f348898bb68151f6e5089bced5415b0ef877f7d9a4fdb21b4c52a4c59aef8404"
+    },
+    {
+      "file": "odf\\stations\\byard.odf",
+      "sha256": "e6b795c46b5f3bc444198e2e5da771b91ae5e4b215edf0b4a466ddff6d98de3e"
+    },
+    {
+      "file": "odf\\stations\\bresear.odf",
+      "sha256": "397ea95252869f6f978556735c6898f323213e34f52a174f5e7a86aa970fa6f5"
+    },
+    {
+      "file": "odf\\ships\\bfreight.odf",
+      "sha256": "3759b9767672ed9ea1d42c94347a1e44e758720c26492677a2f0999142822b56"
+    },
+    {
+      "file": "odf\\ships\\bfreight.odf",
+      "sha256": "3759b9767672ed9ea1d42c94347a1e44e758720c26492677a2f0999142822b56"
+    },
+    {
+      "file": "odf\\ships\\bconst.odf",
+      "sha256": "e034358c54aaea52cdeb79cca4e1a2757a94e27672c70fc2578a958497294979"
+    },
+    {
+      "file": "odf\\ships\\xhkhero.odf",
+      "sha256": "b0520befe94252a62050561fa628eb7f7289df1a09f1a18fa18c5eb79aa944f3"
+    },
+    {
+      "file": "odf\\ships\\kconst.odf",
+      "sha256": "1cbe2367b7d72dac39d660dcb4033821c6e4fdbc4cfab1e4721585f77695da89"
+    },
+    {
+      "file": "odf\\ships\\kdestroy.odf",
+      "sha256": "a3e88703ac15cb9adef50d910271cff865b3abe3f519104efc17e41165e68efb"
+    },
+    {
+      "file": "odf\\ships\\kcruise1.odf",
+      "sha256": "89b6e146bdfd356c98abce16d388ef2d23f9f7c56c4d596ad42e65583c73ba20"
+    },
+    {
+      "file": "odf\\ships\\kbattle.odf",
+      "sha256": "157cb35a06f89db01799990f7f716573d0709ac775fece8e0db53cbd5035a7ed"
+    },
+    {
+      "file": "odf\\stations\\kbase.odf",
+      "sha256": "507a94831cdb498fb4ac1b71704bffb017dbc02fb465ab98943086fe9073d0a3"
+    },
+    {
+      "file": "odf\\stations\\kmining.odf",
+      "sha256": "0d16258f0ede7b8c61c835ba25ec642fb77a0dbd630960d3b4ac2b23d5cbc131"
+    },
+    {
+      "file": "odf\\stations\\korbital.odf",
+      "sha256": "1fffc8f6e41a69cdf778f680ca165c47e5adc94dc7ce2810788c645d320c785d"
+    },
+    {
+      "file": "odf\\stations\\kyard.odf",
+      "sha256": "f1c2d8830fc1bf40653b4dc2eced1515c7503968296ed287d1ea2e2bc42d304c"
+    },
+    {
+      "file": "odf\\stations\\kresear.odf",
+      "sha256": "63ee3bb25adfb4e23415268ec54da8b12d423a888e66ef807dcb98cc5b6c43f2"
+    },
+    {
+      "file": "odf\\ships\\kfreight.odf",
+      "sha256": "664661d5e4efb30c4b05c5661c42b9eec8291784c4e2f190c39c05e35389d37b"
+    },
+    {
+      "file": "odf\\ships\\kfreight.odf",
+      "sha256": "664661d5e4efb30c4b05c5661c42b9eec8291784c4e2f190c39c05e35389d37b"
+    },
+    {
+      "file": "odf\\ships\\kconst.odf",
+      "sha256": "1cbe2367b7d72dac39d660dcb4033821c6e4fdbc4cfab1e4721585f77695da89"
+    },
+    {
+      "file": "odf\\ships\\xhrhero.odf",
+      "sha256": "2b608bef37ce80262aa2d3cda150b63af6676ff16affc8c78d9235749c000811"
+    },
+    {
+      "file": "odf\\ships\\rconst.odf",
+      "sha256": "3a077bde03b96d7202e5562eda79146a8be72e88fb47afe15e48aef5aa196a6f"
+    },
+    {
+      "file": "odf\\ships\\rdestroy.odf",
+      "sha256": "d80951096f35b0201acae7662fd32a6fbeebdcc3f76862fd7d8ebde598f45b9b"
+    },
+    {
+      "file": "odf\\ships\\rcruise1.odf",
+      "sha256": "d7242ebc43a00efa2358e3aee3a5f4402055a8aa14e429e89ca5347e560eaf96"
+    },
+    {
+      "file": "odf\\ships\\rbattle.odf",
+      "sha256": "8df8bee3d6493c9f1ee4e4a7d50a9a6dff37ecffccd4972bc189cb2b1f13eb83"
+    },
+    {
+      "file": "odf\\stations\\rbase.odf",
+      "sha256": "7b5e235be2678d2b72790c431904df59403c3632e6b7eed3f9ac66b1bf1d6f2e"
+    },
+    {
+      "file": "odf\\stations\\rmining.odf",
+      "sha256": "1b57c91160142e54bbfc121a96f9b7203350d4818f4759b6a5f97adba674cbfb"
+    },
+    {
+      "file": "odf\\stations\\Rorbital.odf",
+      "sha256": "ba73d0bd6c15a72a4156281b1c3c84b4189d6fa43c95bf178dadac3accc40be9"
+    },
+    {
+      "file": "odf\\stations\\ryard.odf",
+      "sha256": "beb57baceed34fbb9d2a98140d1a82e5f1d154c705dcc3580056e109ab5e7748"
+    },
+    {
+      "file": "odf\\stations\\rresear.odf",
+      "sha256": "ee146e6d0977872c0cc243190565fee5735021bdd3f278b60af6c1e6671399ef"
+    },
+    {
+      "file": "odf\\ships\\rfreight.odf",
+      "sha256": "99caa44b4a252cfb4ee6ffefe6bd075219f11a6144a902c8005fcde4be67e759"
+    },
+    {
+      "file": "odf\\ships\\rfreight.odf",
+      "sha256": "99caa44b4a252cfb4ee6ffefe6bd075219f11a6144a902c8005fcde4be67e759"
+    },
+    {
+      "file": "odf\\ships\\rconst.odf",
+      "sha256": "3a077bde03b96d7202e5562eda79146a8be72e88fb47afe15e48aef5aa196a6f"
+    },
+    {
+      "file": "odf\\ships\\xhchero.odf",
+      "sha256": "524f2ce99cce61fe9ba83dbbedab93e8fac3c9d9431c0bc4b8f318e811dea1ce"
+    },
+    {
+      "file": "odf\\ships\\cconst.odf",
+      "sha256": "30c998243e63968d8a311a92be4d0c986f42b9c67857bd30fec5b0e780e1d0fa"
+    },
+    {
+      "file": "odf\\ships\\cdestroy.odf",
+      "sha256": "baebaf6a7f6fc681b6a16fc439555f15af7007e63bd5fe971353a3e5c85fef23"
+    },
+    {
+      "file": "odf\\ships\\ccruise1.odf",
+      "sha256": "104b17c3098ab38fe4a6ee28697dc88471f5dacbea6d77e9cae26420e359115f"
+    },
+    {
+      "file": "odf\\ships\\cbattle.odf",
+      "sha256": "a0c74e99c9d3b909f4036ca0f0a8a051f22e611016cf98fec1f79fbee61426d5"
+    },
+    {
+      "file": "odf\\stations\\cbase.odf",
+      "sha256": "5499a0c07bdb0a0eed128da50955cdf76c54724c004d586a105209308f69575a"
+    },
+    {
+      "file": "odf\\stations\\cmining.odf",
+      "sha256": "d494ba9e5a15c0b5e5486a70f59534df66e37cdef581a3a14b223b244e19c160"
+    },
+    {
+      "file": "odf\\stations\\corbital.odf",
+      "sha256": "5ac88220061a4048d1b915a8bd4cc1560e6617766f5b3258782fecff8d0f4a57"
+    },
+    {
+      "file": "odf\\stations\\cyard.odf",
+      "sha256": "f9fc333ed2739365a71810919de4b25e6727b0645bede8a8719784edea491f59"
+    },
+    {
+      "file": "odf\\stations\\cresear.odf",
+      "sha256": "132afd7c32731d5724cb6c45a42246e11eb0d462f96eeb495e7a57238391aeeb"
+    },
+    {
+      "file": "odf\\ships\\cfreight.odf",
+      "sha256": "607d48e1747ae1b75e67fa24dc0d1852c12f0db66a14f72609f073518dc4a0f8"
+    },
+    {
+      "file": "odf\\ships\\cfreight.odf",
+      "sha256": "607d48e1747ae1b75e67fa24dc0d1852c12f0db66a14f72609f073518dc4a0f8"
+    },
+    {
+      "file": "odf\\ships\\cconst.odf",
+      "sha256": "30c998243e63968d8a311a92be4d0c986f42b9c67857bd30fec5b0e780e1d0fa"
+    },
+    {
+      "file": "odf\\ships\\xhdhero.odf",
+      "sha256": "413568038f46d1f68c4875503a72280e1f54ad25a2466771dc9e3101532ad149"
+    },
+    {
+      "file": "odf\\ships\\dconst.odf",
+      "sha256": "5b46eef4b62615825b86f6493381a4dce2c587c83a90d839a88eaea6d8057105"
+    },
+    {
+      "file": "odf\\ships\\ddestroy.odf",
+      "sha256": "431ea0aabe82d9b3520fe8252cb5f534414bf5b6c98cb246b70404facfb741e4"
+    },
+    {
+      "file": "odf\\ships\\dcruise1.odf",
+      "sha256": "ffd2a48ceecedd1ea4e06a0a888cdb2ccd98a651018c5275bda2407166b68531"
+    },
+    {
+      "file": "odf\\ships\\dbattle.odf",
+      "sha256": "16c9a91979dbd5f0e97096b9b0f77f79db4bf64be3f88cbd947b4dda9e011408"
+    },
+    {
+      "file": "odf\\stations\\dbase.odf",
+      "sha256": "18e1773cc4c9cd2c6b6c2f141af0c5a8a36355fb013742775b59e089998c1f49"
+    },
+    {
+      "file": "odf\\stations\\dmining.odf",
+      "sha256": "969400ceb2072470b23aef239179f6122fe8517a1d229997ca35e536657652ad"
+    },
+    {
+      "file": "odf\\stations\\dorbital.odf",
+      "sha256": "02876b04e09ca9240588c85539c9810d6307a71c7a8e97644a6d907b49b51259"
+    },
+    {
+      "file": "odf\\stations\\dyard.odf",
+      "sha256": "aa37f9a60fb00e20c5e46b008d3949361617983cfe248d922a05a47944ea72f6"
+    },
+    {
+      "file": "odf\\stations\\dresear.odf",
+      "sha256": "5a6ffbce576ea913c9c0eaf14df6f1f6f1025c166b4bd03b490b3b26cce2c7e0"
+    },
+    {
+      "file": "odf\\ships\\dfreight.odf",
+      "sha256": "cd70f080bf9aff4e60fdf2f3fe28642797f197577667d0f4345ba01b8bd3ecab"
+    },
+    {
+      "file": "odf\\ships\\dfreight.odf",
+      "sha256": "cd70f080bf9aff4e60fdf2f3fe28642797f197577667d0f4345ba01b8bd3ecab"
+    },
+    {
+      "file": "odf\\ships\\dconst.odf",
+      "sha256": "5b46eef4b62615825b86f6493381a4dce2c587c83a90d839a88eaea6d8057105"
+    },
+    {
+      "file": "odf\\ships\\xhbrhero.odf",
+      "sha256": "64e61e772c357c39fd42c7175ae54a0eb5dabe0f1ca5f6d18082bd2f07efd949"
+    },
+    {
+      "file": "odf\\ships\\brconst.odf",
+      "sha256": "04867afecedfeea0bbf22af4fd59f8575745f5655ae55c9eab03dba5eb134cd9"
+    },
+    {
+      "file": "odf\\ships\\brdestroy.odf",
+      "sha256": "e4c2ca3882a760464eb4cc9d27f78841fdd0fd5ab65a6d251a74f83777c5b5e7"
+    },
+    {
+      "file": "odf\\ships\\brcruise1.odf",
+      "sha256": "13c336b1d7c684e671c2c589196ef042a4d8ee018b8f84c8cc21827ff330c227"
+    },
+    {
+      "file": "odf\\ships\\brbattle.odf",
+      "sha256": "807ce5f882a9fef759a9d5950fb4c820c54449191a78bc86764cbe560b2e9a14"
+    },
+    {
+      "file": "odf\\stations\\brbase.odf",
+      "sha256": "6bf89e9674e90e67f192d51c6331b19268bd942f3f94a7735af4a69ef019840b"
+    },
+    {
+      "file": "odf\\stations\\brmining.odf",
+      "sha256": "0722d281c24806a8e3b1d75d4aa2e0444a5d30af6b736ec0ba41c629700bf202"
+    },
+    {
+      "file": "odf\\stations\\brorbital.odf",
+      "sha256": "58e3bf6dad1e7cf141319b03626ea71569ba6aca37fbab3e4b9a2dd29b088172"
+    },
+    {
+      "file": "odf\\stations\\bryard.odf",
+      "sha256": "deb48d6a3c040960fe3f04932cefd688305621b44770ed4a474b9a33c77beea4"
+    },
+    {
+      "file": "odf\\stations\\brresear.odf",
+      "sha256": "208dfe265889dcfcac8f9fd895bed9305da7eb7ca63d77b10048f7564f68a40e"
+    },
+    {
+      "file": "odf\\ships\\brfreight.odf",
+      "sha256": "0474299d4a3364f9189dd278fd558a363fa47e16a5a43e1acdb24d1b860ef6f9"
+    },
+    {
+      "file": "odf\\ships\\brfreight.odf",
+      "sha256": "0474299d4a3364f9189dd278fd558a363fa47e16a5a43e1acdb24d1b860ef6f9"
+    },
+    {
+      "file": "odf\\ships\\brconst.odf",
+      "sha256": "04867afecedfeea0bbf22af4fd59f8575745f5655ae55c9eab03dba5eb134cd9"
+    },
+    {
+      "file": "odf\\ships\\bjnerys.odf",
+      "sha256": "ee0cad536cf68a837bc0c6cb24db117e55f8e665f6268c98cf5c9ece48f8b6b9"
+    },
+    {
+      "file": "odf\\ships\\bjconst.odf",
+      "sha256": "6f92841e04cea3dbb2581ed4a1c3f1389e70fc0dd86227817e45e2dbd11efa2d"
+    },
+    {
+      "file": "odf\\ships\\bjinterceptor.odf",
+      "sha256": "3579da695272e5db5fc533b6f07c732017d6c91da4446a414f0f2675cb030236"
+    },
+    {
+      "file": "odf\\ships\\bjcruiser.odf",
+      "sha256": "b194e6f083b8dab2d8590c50b60162defbae430774c320b22e31bdc50efeb000"
+    },
+    {
+      "file": "odf\\ships\\bjbattle.odf",
+      "sha256": "0ed6e9be6ca86d9f2669b34743aadf9eb5107462efe24bae0f74925a822515fa"
+    },
+    {
+      "file": "odf\\stations\\bjbase.odf",
+      "sha256": "c05f9aafa92e298d2639bd4798857e4410a1c58c930ccca25e04225212e5682c"
+    },
+    {
+      "file": "odf\\stations\\bjmining.odf",
+      "sha256": "36312c60cfa224e6dac5cd6b8618090584042af1a22cd09c6d48416ad6f95418"
+    },
+    {
+      "file": "odf\\stations\\bjorbital.odf",
+      "sha256": "313867f2004af6dbb771e2bd7b46ef548199652d0f9767d0e3b5da12337ade81"
+    },
+    {
+      "file": "odf\\stations\\bjyard.odf",
+      "sha256": "3483190e9bbafad0344720132c578d56eff95fb0a575c502ecf5f6ac7af951d2"
+    },
+    {
+      "file": "odf\\stations\\bjresear.odf",
+      "sha256": "7104f85b13d9768bf2b29d9431dcdd590c45790df57d35ba290a79e82a4a0681"
+    },
+    {
+      "file": "odf\\ships\\bjfreight.odf",
+      "sha256": "99328a2fe61216b9b229bf7380d0982d0e9ec095ef880a21846c8a8c5aab0b2d"
+    },
+    {
+      "file": "odf\\ships\\bjfreight.odf",
+      "sha256": "99328a2fe61216b9b229bf7380d0982d0e9ec095ef880a21846c8a8c5aab0b2d"
+    },
+    {
+      "file": "odf\\ships\\bjconst.odf",
+      "sha256": "6f92841e04cea3dbb2581ed4a1c3f1389e70fc0dd86227817e45e2dbd11efa2d"
+    },
+    {
+      "file": "odf\\ships\\xhshero.odf",
+      "sha256": "4ac4e2a0ae1399b906b0792eae5271dee67550c3f2919d634cda13d380cf080b"
+    },
+    {
+      "file": "odf\\ships\\714const.odf",
+      "sha256": "9303ba96429af196a9da0b6e464557ecdf7d209888ee9d3832c674017909f41e"
+    },
+    {
+      "file": "odf\\ships\\8472_destroy.odf",
+      "sha256": "3deaaebecdebdb31e4a72e6e938f5b14563ef3d6a9bb06aac74924470a9d1ec5"
+    },
+    {
+      "file": "odf\\ships\\8472_cruise1.odf",
+      "sha256": "a911fbf25da7e4a87e0834fb226be4db735600928f3678678b378e421dad60ac"
+    },
+    {
+      "file": "odf\\ships\\8472_battle.odf",
+      "sha256": "48eeaa5eb213181c02f0157dfc0367dfa93e7030297ed5e7cd1b6bdda15934f4"
+    },
+    {
+      "file": "odf\\ships\\8472_mothership.odf",
+      "sha256": "0301f0d1f9691384abf9a18c8dcc854a4e1808c5317f0fee14e6d4d0a3a97bca"
+    },
+    {
+      "file": "odf\\ships\\8472_transmuter.odf",
+      "sha256": "fadffbcfd952615e12e8da016f3b87943541780c194fe1f88d220adbbd032cd1"
+    },
+    {
+      "file": "odf\\ships\\8472_collector.odf",
+      "sha256": "1a14be6f9f0cce63026a9ac9cbf5c53076a4efb86c556ea812d4be3e82b6b44e"
+    },
+    {
+      "file": "odf\\ships\\8472_collector.odf",
+      "sha256": "1a14be6f9f0cce63026a9ac9cbf5c53076a4efb86c556ea812d4be3e82b6b44e"
+    },
+    {
+      "file": "odf\\stations\\8472_BasicResearch.odf",
+      "sha256": "99ad79487196f21862abd00ccfed3218df84b5da966bbbf273f7fd5f819390fc"
+    },
+    {
+      "file": "odf\\ships\\714const.odf",
+      "sha256": "9303ba96429af196a9da0b6e464557ecdf7d209888ee9d3832c674017909f41e"
+    }
+  ],
+  "installed": false,
+  "gameplayVerified": false,
+  "missing": [
+    "Reviewed mission map and safe relocation sites",
+    "Native loader compatibility test",
+    "Gameplay rescue/save-load test"
+  ],
+  "coreImplemented": true,
+  "nativeAdapterImplemented": true,
+  "offlineTestsPassed": 20
+}

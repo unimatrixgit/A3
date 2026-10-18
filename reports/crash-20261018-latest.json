@@ -1,0 +1,247 @@
+{
+  "exception": "access violation reading null pointer",
+  "address": "0x481cc0",
+  "registers": {
+    "Eax": "0x3b30850",
+    "Ebx": "0x0",
+    "Ecx": "0x0",
+    "Edx": "0x70a390",
+    "Esi": "0x7ab7",
+    "Edi": "0x0",
+    "Esp": "0x1af9b8",
+    "Ebp": "0x1af9cc",
+    "Eip": "0x481cc0"
+  },
+  "instructions": [
+    "0x481ca4 test byte ptr [ebx - 0x76000000], bh",
+    "0x481caa dec eax",
+    "0x481cab push cs",
+    "0x481cac test cl, cl",
+    "0x481cae jne 0x481d64",
+    "0x481cb4 mov ebx, dword ptr [ebp + 8]",
+    "0x481cb7 xor edi, edi",
+    "0x481cb9 mov ecx, ebx",
+    "0x481cbb mov esi, 0x7ab7",
+    "0x481cc0 mov dl, byte ptr [ebx]",
+    "0x481cc2 mov dword ptr [ebp - 8], edi",
+    "0x481cc5 test dl, dl",
+    "0x481cc7 je 0x481d08",
+    "0x481cc9 cmp dword ptr [ebp - 8], 0x28",
+    "0x481ccd jge 0x481d08",
+    "0x481ccf mov ebx, dword ptr [eax + 8]",
+    "0x481cd2 movsx eax, byte ptr [ecx]",
+    "0x481cd5 cdq ",
+    "0x481cd6 xor eax, edx",
+    "0x481cd8 sub eax, edx",
+    "0x481cda mov edx, esi",
+    "0x481cdc imul edx, edi",
+    "0x481cdf add eax, edx",
+    "0x481ce1 cdq ",
+    "0x481ce2 idiv ebx",
+    "0x481ce4 mov eax, dword ptr [ebp - 8]",
+    "0x481ce7 inc eax",
+    "0x481ce8 inc ecx",
+    "0x481ce9 mov dword ptr [ebp - 8], eax",
+    "0x481cec mov eax, esi",
+    "0x481cee imul eax, eax, 0x6a2f",
+    "0x481cf4 dec ebx",
+    "0x481cf5 mov edi, edx",
+    "0x481cf7 cdq ",
+    "0x481cf8 idiv ebx",
+    "0x481cfa mov al, byte ptr [ecx]",
+    "0x481cfc mov ebx, dword ptr [ebp + 8]",
+    "0x481cff test al, al",
+    "0x481d01 mov eax, dword ptr [ebp - 4]"
+  ],
+  "stackCandidates": [
+    {
+      "stackOffset": 24,
+      "address": "0x4e732a",
+      "nearby": []
+    },
+    {
+      "stackOffset": 44,
+      "address": "0x7643a8",
+      "nearby": [
+        "0x76439c add byte ptr [eax], al",
+        "0x76439e add byte ptr [eax], al",
+        "0x7643a0 add byte ptr [eax], al",
+        "0x7643a2 inc eax",
+        "0x7643a3 inc eax",
+        "0x7643a4 add byte ptr [eax], al",
+        "0x7643a6 add byte ptr [edi], bh",
+        "0x7643a8 or byte ptr [ebx + 0x6b], dl",
+        "0x7643ab add byte ptr [eax], al",
+        "0x7643ad add byte ptr [eax], al",
+        "0x7643af add byte ptr [eax], al",
+        "0x7643b1 add byte ptr [eax], al"
+      ]
+    },
+    {
+      "stackOffset": 84,
+      "address": "0x7643a8",
+      "nearby": [
+        "0x76439c add byte ptr [eax], al",
+        "0x76439e add byte ptr [eax], al",
+        "0x7643a0 add byte ptr [eax], al",
+        "0x7643a2 inc eax",
+        "0x7643a3 inc eax",
+        "0x7643a4 add byte ptr [eax], al",
+        "0x7643a6 add byte ptr [edi], bh",
+        "0x7643a8 or byte ptr [ebx + 0x6b], dl",
+        "0x7643ab add byte ptr [eax], al",
+        "0x7643ad add byte ptr [eax], al",
+        "0x7643af add byte ptr [eax], al",
+        "0x7643b1 add byte ptr [eax], al"
+      ]
+    },
+    {
+      "stackOffset": 120,
+      "address": "0x69ed80",
+      "nearby": []
+    },
+    {
+      "stackOffset": 132,
+      "address": "0x4e6abf",
+      "nearby": []
+    },
+    {
+      "stackOffset": 144,
+      "address": "0x505cdf",
+      "nearby": []
+    },
+    {
+      "stackOffset": 152,
+      "address": "0x763c38",
+      "nearby": [
+        "0x763c2c enter -0x5876, 3",
+        "0x763c30 rcr bh, 1",
+        "0x763c32 mov dh, 3",
+        "0x763c34 fcomp st(4)",
+        "0x763c36 mov dh, 3",
+        "0x763c38 push 0x3b6e0",
+        "0x763c3d loope 0x763bf5"
+      ]
+    },
+    {
+      "stackOffset": 164,
+      "address": "0x763c38",
+      "nearby": [
+        "0x763c2c enter -0x5876, 3",
+        "0x763c30 rcr bh, 1",
+        "0x763c32 mov dh, 3",
+        "0x763c34 fcomp st(4)",
+        "0x763c36 mov dh, 3",
+        "0x763c38 push 0x3b6e0",
+        "0x763c3d loope 0x763bf5"
+      ]
+    },
+    {
+      "stackOffset": 212,
+      "address": "0x69feab",
+      "nearby": []
+    },
+    {
+      "stackOffset": 224,
+      "address": "0x50bf00",
+      "nearby": []
+    },
+    {
+      "stackOffset": 236,
+      "address": "0x763c08",
+      "nearby": [
+        "0x763bfc add byte ptr [eax], al",
+        "0x763bfe add byte ptr [eax], al",
+        "0x763c00 or byte ptr [esi + esi*2], bh",
+        "0x763c03 add byte ptr [eax], al",
+        "0x763c05 add byte ptr [eax], al",
+        "0x763c07 add byte ptr [edi + ecx*2 + 0x163006b], al",
+        "0x763c0e add byte ptr [eax], al",
+        "0x763c10 out 2, eax",
+        "0x763c12 add byte ptr [eax], al"
+      ]
+    },
+    {
+      "stackOffset": 260,
+      "address": "0x50b641",
+      "nearby": []
+    },
+    {
+      "stackOffset": 276,
+      "address": "0x6a0153",
+      "nearby": []
+    },
+    {
+      "stackOffset": 288,
+      "address": "0x4fbc8f",
+      "nearby": []
+    },
+    {
+      "stackOffset": 296,
+      "address": "0x763c08",
+      "nearby": [
+        "0x763bfc add byte ptr [eax], al",
+        "0x763bfe add byte ptr [eax], al",
+        "0x763c00 or byte ptr [esi + esi*2], bh",
+        "0x763c03 add byte ptr [eax], al",
+        "0x763c05 add byte ptr [eax], al",
+        "0x763c07 add byte ptr [edi + ecx*2 + 0x163006b], al",
+        "0x763c0e add byte ptr [eax], al",
+        "0x763c10 out 2, eax",
+        "0x763c12 add byte ptr [eax], al"
+      ]
+    },
+    {
+      "stackOffset": 304,
+      "address": "0x51a142",
+      "nearby": []
+    },
+    {
+      "stackOffset": 336,
+      "address": "0x51ab40",
+      "nearby": []
+    },
+    {
+      "stackOffset": 352,
+      "address": "0x762e18",
+      "nearby": [
+        "0x762e0c mov al, byte ptr [0x102926a]",
+        "0x762e11 add byte ptr [eax], al",
+        "0x762e13 add byte ptr [eax], al",
+        "0x762e15 add byte ptr [eax], al",
+        "0x762e17 add al, ah",
+        "0x762e19 lahf ",
+        "0x762e1a popfd ",
+        "0x762e1b or bh, bh"
+      ]
+    },
+    {
+      "stackOffset": 360,
+      "address": "0x761c10",
+      "nearby": [
+        "0x761c04 add byte ptr [eax], al",
+        "0x761c06 add byte ptr [eax], al",
+        "0x761c08 add byte ptr [eax], al",
+        "0x761c0a add byte ptr [eax], al",
+        "0x761c0c add byte ptr [eax], 0",
+        "0x761c0f add ah, dh",
+        "0x761c11 pop ebx",
+        "0x761c12 add byte ptr [eax], al",
+        "0x761c14 ret ",
+        "0x761c15 mov edx, 0",
+        "0x761c1a add byte ptr [eax], al"
+      ]
+    },
+    {
+      "stackOffset": 372,
+      "address": "0x6527e1",
+      "nearby": []
+    },
+    {
+      "stackOffset": 380,
+      "address": "0x6a1096",
+      "nearby": []
+    }
+  ],
+  "causeConfirmed": false
+}

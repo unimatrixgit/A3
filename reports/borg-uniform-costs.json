@@ -1,0 +1,815 @@
+{
+  "installed": true,
+  "stage": "D:\\Xaramada-Modwork\\borg-uniform-costs",
+  "backup": "D:\\Xaramada-Modwork\\backups\\borg-uniform-costs-20261018-080214",
+  "formula": "score=50+0.12*health+0.08*crew+2*nominalDPS+40*builtInSpecials+80*capturedSlots; totalResourceCost=700*score/referenceCubeScore; dilithium=550*ratio rounded25,min100;metal=150*ratio rounded25,min25;officers=2*ratio rounded,min1",
+  "referenceCube": "bbattle1",
+  "referenceScore": 1127.8095238095239,
+  "changes": [
+    {
+      "ship": "bassault",
+      "name": "Dominator",
+      "file": "odf\\ships\\bassault.odf",
+      "previous": {
+        "dilithiumcost": "275",
+        "metalcost": "275",
+        "officercost": "3"
+      },
+      "dilithium": 475,
+      "metal": 125,
+      "officers": 2,
+      "factors": {
+        "health": 1468.0,
+        "crew": 500.0,
+        "nominalDPS": 281.14,
+        "builtInSpecials": 3,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "bbattle",
+      "name": "Cube",
+      "file": "odf\\ships\\bbattle.odf",
+      "previous": {
+        "dilithiumcost": "225",
+        "metalcost": "225",
+        "officercost": "2"
+      },
+      "dilithium": 350,
+      "metal": 100,
+      "officers": 1,
+      "factors": {
+        "health": 500.0,
+        "crew": 1000.0,
+        "nominalDPS": 150.0,
+        "builtInSpecials": 4,
+        "capturedSlots": 1.0
+      }
+    },
+    {
+      "ship": "bbattle1",
+      "name": "Borg Cube",
+      "file": "odf\\ships\\bbattle1.odf",
+      "previous": {
+        "dilithiumcost": "350",
+        "metalcost": "350",
+        "officercost": "4"
+      },
+      "dilithium": 550,
+      "metal": 150,
+      "officers": 2,
+      "factors": {
+        "health": 3250.0,
+        "crew": 800.0,
+        "nominalDPS": 171.9,
+        "builtInSpecials": 5,
+        "capturedSlots": 1.0
+      }
+    },
+    {
+      "ship": "bbattle2",
+      "name": "Tactical Cube",
+      "file": "odf\\ships\\bbattle2.odf",
+      "previous": {
+        "dilithiumcost": "525",
+        "metalcost": "525",
+        "officercost": "5"
+      },
+      "dilithium": 825,
+      "metal": 225,
+      "officers": 3,
+      "factors": {
+        "health": 7230.0,
+        "crew": 1000.0,
+        "nominalDPS": 171.9,
+        "builtInSpecials": 5,
+        "capturedSlots": 2.0
+      }
+    },
+    {
+      "ship": "bbattle3",
+      "name": "Fusion Cube",
+      "file": "odf\\ships\\bbattle3.odf",
+      "previous": {
+        "dilithiumcost": "1825",
+        "metalcost": "1825",
+        "officercost": "18"
+      },
+      "dilithium": 2775,
+      "metal": 750,
+      "officers": 10,
+      "factors": {
+        "health": 8000.0,
+        "crew": 4800.0,
+        "nominalDPS": 1920.0,
+        "builtInSpecials": 5,
+        "capturedSlots": 3.0
+      }
+    },
+    {
+      "ship": "bbattle4",
+      "name": "Tactical Fusion Cube",
+      "file": "odf\\ships\\bbattle4.odf",
+      "previous": {
+        "dilithiumcost": "1875",
+        "metalcost": "1875",
+        "officercost": "19"
+      },
+      "dilithium": 2875,
+      "metal": 775,
+      "officers": 10,
+      "factors": {
+        "health": 14400.0,
+        "crew": 5600.0,
+        "nominalDPS": 1570.91,
+        "builtInSpecials": 5,
+        "capturedSlots": 4.0
+      }
+    },
+    {
+      "ship": "bbattle5",
+      "name": "Ultra Fusion Cube",
+      "file": "odf\\ships\\bbattle5.odf",
+      "previous": {
+        "dilithiumcost": "3025",
+        "metalcost": "3025",
+        "officercost": "30"
+      },
+      "dilithium": 4600,
+      "metal": 1250,
+      "officers": 17,
+      "factors": {
+        "health": 10000.0,
+        "crew": 48000.0,
+        "nominalDPS": 1920.0,
+        "builtInSpecials": 4,
+        "capturedSlots": 4.0
+      }
+    },
+    {
+      "ship": "bbattle6",
+      "name": "Omega Tactical Fusion Cube",
+      "file": "odf\\ships\\bbattle6.odf",
+      "previous": {
+        "dilithiumcost": "8225",
+        "metalcost": "8225",
+        "officercost": "82"
+      },
+      "dilithium": 12475,
+      "metal": 3400,
+      "officers": 45,
+      "factors": {
+        "health": 144000.0,
+        "crew": 56000.0,
+        "nominalDPS": 1570.91,
+        "builtInSpecials": 4,
+        "capturedSlots": 6.0
+      }
+    },
+    {
+      "ship": "bbattle8",
+      "name": "Borg Cube",
+      "file": "odf\\ships\\bbattle8.odf",
+      "previous": {
+        "dilithiumcost": "925",
+        "metalcost": "925",
+        "officercost": "9"
+      },
+      "dilithium": 1425,
+      "metal": 375,
+      "officers": 5,
+      "factors": {
+        "health": 18000.0,
+        "crew": 2000.0,
+        "nominalDPS": 150.0,
+        "builtInSpecials": 4,
+        "capturedSlots": 1.0
+      }
+    },
+    {
+      "ship": "bcolony",
+      "name": "Colony Vessel",
+      "file": "odf\\ships\\bcolony.odf",
+      "previous": {
+        "dilithiumcost": "125",
+        "metalcost": "125",
+        "officercost": "1"
+      },
+      "dilithium": 200,
+      "metal": 50,
+      "officers": 1,
+      "factors": {
+        "health": 1518.0,
+        "crew": 100.0,
+        "nominalDPS": 0,
+        "builtInSpecials": 4,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "bconst",
+      "name": "Assembler",
+      "file": "odf\\ships\\bconst.odf",
+      "previous": {
+        "dilithiumcost": "100",
+        "metalcost": "100",
+        "officercost": "1"
+      },
+      "dilithium": 125,
+      "metal": 25,
+      "officers": 1,
+      "factors": {
+        "health": 798.0,
+        "crew": 150.0,
+        "nominalDPS": 0,
+        "builtInSpecials": 2,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "bconst2",
+      "name": "Advanced Assembler",
+      "file": "odf\\ships\\bconst2.odf",
+      "previous": {
+        "dilithiumcost": "100",
+        "metalcost": "100",
+        "officercost": "1"
+      },
+      "dilithium": 150,
+      "metal": 50,
+      "officers": 1,
+      "factors": {
+        "health": 1178.0,
+        "crew": 651.0,
+        "nominalDPS": 0,
+        "builtInSpecials": 1,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "bcruise1",
+      "name": "Sphere",
+      "file": "odf\\ships\\bcruise1.odf",
+      "previous": {
+        "dilithiumcost": "225",
+        "metalcost": "225",
+        "officercost": "2"
+      },
+      "dilithium": 375,
+      "metal": 100,
+      "officers": 1,
+      "factors": {
+        "health": 2140.0,
+        "crew": 250.0,
+        "nominalDPS": 157.22,
+        "builtInSpecials": 3,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "bcruise2",
+      "name": "Assimilator",
+      "file": "odf\\ships\\bcruise2.odf",
+      "previous": {
+        "dilithiumcost": "250",
+        "metalcost": "250",
+        "officercost": "3"
+      },
+      "dilithium": 375,
+      "metal": 100,
+      "officers": 1,
+      "factors": {
+        "health": 2287.0,
+        "crew": 250.0,
+        "nominalDPS": 159.67,
+        "builtInSpecials": 3,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "bcruise3",
+      "name": "Pyramid",
+      "file": "odf\\ships\\bcruise3.odf",
+      "previous": {
+        "dilithiumcost": "300",
+        "metalcost": "300",
+        "officercost": "3"
+      },
+      "dilithium": 500,
+      "metal": 125,
+      "officers": 2,
+      "factors": {
+        "health": 2276.0,
+        "crew": 250.0,
+        "nominalDPS": 285.0,
+        "builtInSpecials": 3,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "bdestroy",
+      "name": "Interceptor",
+      "file": "odf\\ships\\bdestroy.odf",
+      "previous": {
+        "dilithiumcost": "175",
+        "metalcost": "175",
+        "officercost": "2"
+      },
+      "dilithium": 325,
+      "metal": 75,
+      "officers": 1,
+      "factors": {
+        "health": 1315.0,
+        "crew": 100.0,
+        "nominalDPS": 154.67,
+        "builtInSpecials": 3,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "bdestroy2",
+      "name": "Interceptor MK2",
+      "file": "odf\\ships\\bdestroy2.odf",
+      "previous": {
+        "dilithiumcost": "200",
+        "metalcost": "200",
+        "officercost": "2"
+      },
+      "dilithium": 325,
+      "metal": 100,
+      "officers": 1,
+      "factors": {
+        "health": 1227.0,
+        "crew": 668.0,
+        "nominalDPS": 154.67,
+        "builtInSpecials": 3,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "bfreight",
+      "name": "Resource Collector",
+      "file": "odf\\ships\\bfreight.odf",
+      "previous": {
+        "dilithiumcost": "100",
+        "metalcost": "100",
+        "officercost": "1"
+      },
+      "dilithium": 125,
+      "metal": 25,
+      "officers": 1,
+      "factors": {
+        "health": 658.0,
+        "crew": 100.0,
+        "nominalDPS": 0,
+        "builtInSpecials": 3,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "bfrigate",
+      "name": "Deemons Tooth",
+      "file": "odf\\ships\\bfrigate.odf",
+      "previous": {
+        "dilithiumcost": "250",
+        "metalcost": "250",
+        "officercost": "3"
+      },
+      "dilithium": 375,
+      "metal": 100,
+      "officers": 1,
+      "factors": {
+        "health": 2418.0,
+        "crew": 200.0,
+        "nominalDPS": 157.22,
+        "builtInSpecials": 3,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "bhentra",
+      "name": "Hentragon",
+      "file": "odf\\ships\\bhentra.odf",
+      "previous": {
+        "dilithiumcost": "375",
+        "metalcost": "375",
+        "officercost": "4"
+      },
+      "dilithium": 600,
+      "metal": 175,
+      "officers": 2,
+      "factors": {
+        "health": 3464.0,
+        "crew": 3940.0,
+        "nominalDPS": 157.22,
+        "builtInSpecials": 4,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "bhentrag",
+      "name": "Tentragon",
+      "file": "odf\\ships\\bhentrag.odf",
+      "previous": {
+        "dilithiumcost": "450",
+        "metalcost": "450",
+        "officercost": "5"
+      },
+      "dilithium": 725,
+      "metal": 200,
+      "officers": 3,
+      "factors": {
+        "health": 5902.0,
+        "crew": 3700.0,
+        "nominalDPS": 124.44,
+        "builtInSpecials": 4,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "blocutus",
+      "name": "Locutus' Cube",
+      "file": "odf\\ships\\blocutus.odf",
+      "previous": {
+        "dilithiumcost": "325",
+        "metalcost": "325",
+        "officercost": "3"
+      },
+      "dilithium": 500,
+      "metal": 125,
+      "officers": 2,
+      "factors": {
+        "health": 750.0,
+        "crew": 1500.0,
+        "nominalDPS": 150.0,
+        "builtInSpecials": 5,
+        "capturedSlots": 3.0
+      }
+    },
+    {
+      "ship": "bmama",
+      "name": "Mamacube",
+      "file": "odf\\ships\\bmama.odf",
+      "previous": {
+        "dilithiumcost": "900",
+        "metalcost": "900",
+        "officercost": "9"
+      },
+      "dilithium": 1400,
+      "metal": 375,
+      "officers": 5,
+      "factors": {
+        "health": 10400.0,
+        "crew": 8000.0,
+        "nominalDPS": 198.75,
+        "builtInSpecials": 5,
+        "capturedSlots": 4.0
+      }
+    },
+    {
+      "ship": "bomega1",
+      "name": "Omega Cube",
+      "file": "odf\\ships\\bomega1.odf",
+      "previous": {
+        "dilithiumcost": "675",
+        "metalcost": "675",
+        "officercost": "7"
+      },
+      "dilithium": 1025,
+      "metal": 275,
+      "officers": 4,
+      "factors": {
+        "health": 6586.0,
+        "crew": 4600.0,
+        "nominalDPS": 150.0,
+        "builtInSpecials": 5,
+        "capturedSlots": 5.0
+      }
+    },
+    {
+      "ship": "bpentra",
+      "name": "Pentragon",
+      "file": "odf\\ships\\bpentra.odf",
+      "previous": {
+        "dilithiumcost": "275",
+        "metalcost": "275",
+        "officercost": "3"
+      },
+      "dilithium": 450,
+      "metal": 125,
+      "officers": 2,
+      "factors": {
+        "health": 2785.0,
+        "crew": 984.0,
+        "nominalDPS": 157.22,
+        "builtInSpecials": 3,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "bqueen",
+      "name": "Diamond",
+      "file": "odf\\ships\\bqueen.odf",
+      "previous": {
+        "dilithiumcost": "275",
+        "metalcost": "275",
+        "officercost": "3"
+      },
+      "dilithium": 425,
+      "metal": 125,
+      "officers": 2,
+      "factors": {
+        "health": 2258.0,
+        "crew": 350.0,
+        "nominalDPS": 157.22,
+        "builtInSpecials": 5,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "brenborg",
+      "name": "Transwarp Prototype",
+      "file": "odf\\ships\\brenborg.odf",
+      "previous": {
+        "dilithiumcost": "1000",
+        "metalcost": "1000",
+        "officercost": "10"
+      },
+      "dilithium": 1500,
+      "metal": 400,
+      "officers": 5,
+      "factors": {
+        "health": 5170.0,
+        "crew": 2297.0,
+        "nominalDPS": 930.95,
+        "builtInSpecials": 5,
+        "capturedSlots": 2.0
+      }
+    },
+    {
+      "ship": "bscout",
+      "name": "Scouting Cube",
+      "file": "odf\\ships\\bscout.odf",
+      "previous": {
+        "dilithiumcost": "250",
+        "metalcost": "250",
+        "officercost": "3"
+      },
+      "dilithium": 350,
+      "metal": 100,
+      "officers": 1,
+      "factors": {
+        "health": 1056.0,
+        "crew": 150.0,
+        "nominalDPS": 136.28,
+        "builtInSpecials": 5,
+        "capturedSlots": 1.0
+      }
+    },
+    {
+      "ship": "bspecial",
+      "name": "Diamond",
+      "file": "odf\\ships\\bspecial.odf",
+      "previous": {
+        "dilithiumcost": "275",
+        "metalcost": "275",
+        "officercost": "3"
+      },
+      "dilithium": 450,
+      "metal": 125,
+      "officers": 2,
+      "factors": {
+        "health": 2258.0,
+        "crew": 350.0,
+        "nominalDPS": 157.22,
+        "builtInSpecials": 6,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "bsphere",
+      "name": "Tactical Sphere",
+      "file": "odf\\ships\\bsphere.ODF",
+      "previous": {
+        "dilithiumcost": "2950",
+        "metalcost": "2950",
+        "officercost": "30"
+      },
+      "dilithium": 4475,
+      "metal": 1225,
+      "officers": 16,
+      "factors": {
+        "health": 1200.0,
+        "crew": 850.0,
+        "nominalDPS": 4370.0,
+        "builtInSpecials": 4,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "btacpyr",
+      "name": "Tactical Pyramid",
+      "file": "odf\\ships\\btacpyr.odf",
+      "previous": {
+        "dilithiumcost": "275",
+        "metalcost": "275",
+        "officercost": "3"
+      },
+      "dilithium": 475,
+      "metal": 125,
+      "officers": 2,
+      "factors": {
+        "health": 2418.0,
+        "crew": 1940.0,
+        "nominalDPS": 157.22,
+        "builtInSpecials": 4,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "tcube",
+      "name": "Class VII Tactical Cube",
+      "file": "odf\\ships\\tcube.odf",
+      "previous": {
+        "dilithiumcost": "750",
+        "metalcost": "750",
+        "officercost": "8"
+      },
+      "dilithium": 1150,
+      "metal": 325,
+      "officers": 4,
+      "factors": {
+        "health": 9300.0,
+        "crew": 6700.0,
+        "nominalDPS": 160.0,
+        "builtInSpecials": 5,
+        "capturedSlots": 2.0
+      }
+    },
+    {
+      "ship": "uconst",
+      "name": "Universal Assembler",
+      "file": "odf\\ships\\uconst.odf",
+      "previous": {
+        "dilithiumcost": "100",
+        "metalcost": "100",
+        "officercost": "1"
+      },
+      "dilithium": 100,
+      "metal": 25,
+      "officers": 1,
+      "factors": {
+        "health": 150.0,
+        "crew": 150.0,
+        "nominalDPS": 0,
+        "builtInSpecials": 2,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "xbassimold",
+      "name": "Tactical Assimilator",
+      "file": "odf\\ships\\xbassimold.odf",
+      "previous": {
+        "dilithiumcost": "225",
+        "metalcost": "225",
+        "officercost": "2"
+      },
+      "dilithium": 375,
+      "metal": 100,
+      "officers": 1,
+      "factors": {
+        "health": 400.0,
+        "crew": 250.0,
+        "nominalDPS": 243.0,
+        "builtInSpecials": 4,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "xbrepair",
+      "name": "Borg Repair Drone",
+      "file": "odf\\ships\\xbrepair.odf",
+      "previous": {
+        "dilithiumcost": "100",
+        "metalcost": "100",
+        "officercost": "1"
+      },
+      "dilithium": 100,
+      "metal": 25,
+      "officers": 1,
+      "factors": {
+        "health": 380.0,
+        "crew": 50.0,
+        "nominalDPS": 7.5,
+        "builtInSpecials": 2,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "xbuconst",
+      "name": "Borg Universal Assembler",
+      "file": "odf\\ships\\xbuconst.odf",
+      "previous": {
+        "dilithiumcost": "100",
+        "metalcost": "100",
+        "officercost": "1"
+      },
+      "dilithium": 125,
+      "metal": 25,
+      "officers": 1,
+      "factors": {
+        "health": 798.0,
+        "crew": 150.0,
+        "nominalDPS": 0,
+        "builtInSpecials": 2,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "xobbattle1",
+      "name": "Omega Borg Cube",
+      "file": "odf\\ships\\xobbattle1.odf",
+      "previous": {
+        "dilithiumcost": "625",
+        "metalcost": "625",
+        "officercost": "6"
+      },
+      "dilithium": 975,
+      "metal": 275,
+      "officers": 4,
+      "factors": {
+        "health": 4063.0,
+        "crew": 5200.0,
+        "nominalDPS": 214.88,
+        "builtInSpecials": 5,
+        "capturedSlots": 5.0
+      }
+    },
+    {
+      "ship": "xobbattle2",
+      "name": "Omega Tactical Cube",
+      "file": "odf\\ships\\xobbattle2.odf",
+      "previous": {
+        "dilithiumcost": "825",
+        "metalcost": "825",
+        "officercost": "8"
+      },
+      "dilithium": 1275,
+      "metal": 350,
+      "officers": 5,
+      "factors": {
+        "health": 9038.0,
+        "crew": 4800.0,
+        "nominalDPS": 214.88,
+        "builtInSpecials": 5,
+        "capturedSlots": 6.0
+      }
+    },
+    {
+      "ship": "xobcruise1",
+      "name": "Omega Sphere",
+      "file": "odf\\ships\\xobcruise1.odf",
+      "previous": {
+        "dilithiumcost": "300",
+        "metalcost": "300",
+        "officercost": "3"
+      },
+      "dilithium": 475,
+      "metal": 125,
+      "officers": 2,
+      "factors": {
+        "health": 2675.0,
+        "crew": 1260.0,
+        "nominalDPS": 196.53,
+        "builtInSpecials": 3,
+        "capturedSlots": 0.0
+      }
+    },
+    {
+      "ship": "xoblocutus",
+      "name": "Omega Locutus' Cube",
+      "file": "odf\\ships\\xoblocutus.odf",
+      "previous": {
+        "dilithiumcost": "425",
+        "metalcost": "425",
+        "officercost": "4"
+      },
+      "dilithium": 650,
+      "metal": 175,
+      "officers": 2,
+      "factors": {
+        "health": 938.0,
+        "crew": 1500.0,
+        "nominalDPS": 187.5,
+        "builtInSpecials": 5,
+        "capturedSlots": 6.0
+      }
+    }
+  ],
+  "gameplayVerified": false,
+  "notes": [
+    "Crew,start/max crew,health,weapon damage,build time,tech and models unchanged.",
+    "DPS assumes one shot per weapon bank,ignoring target armor,misses,travel and special effects;balancing estimate,not combat simulation."
+  ]
+}

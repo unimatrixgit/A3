@@ -6,7 +6,7 @@ baseName = "bcruise1"
 maxHealth = 2675
 shieldRate = 23.550
 maxSpecialEnergy = 6000
-specialEnergyRate = 45.000
+specialEnergyRate = 45
 weapon1 = "xow_bt3phas"
 weapon4 = "xow_bc2phot"
 
@@ -18,10 +18,13 @@ weapon4 = "xow_bc2phot"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 1820
-metalCost = 1820
+dilithiumCost = 475
+metalCost = 125
 latinumCost = 0
 biomatterCost = 0
 crewCost = 1260
-officerCost = 11
+officerCost = 2
 buildTime = 114
+
+weapon5 = "xy_xobcruise1_gborgbor"
+weaponHardpoints5 = "hp08"

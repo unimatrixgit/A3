@@ -1,0 +1,144 @@
+{
+  "stage": "D:\\Xaramada-Modwork\\cardassian-local-mining",
+  "changes": [
+    {
+      "file": "AI\\AIPs\\cardassian_build_list.aip",
+      "sourceHash": "bbd157c5b5be9dd2dab0afa042b150958edb9ecc7c50c5b143ffaf054bd9cccc",
+      "edits": [
+        {
+          "unit": "cmining",
+          "oldBase": 1,
+          "newBase": 0
+        },
+        {
+          "unit": "cmining",
+          "oldBase": 2,
+          "newBase": 0
+        },
+        {
+          "unit": "cmining",
+          "oldBase": 1,
+          "newBase": 0
+        },
+        {
+          "unit": "corbital",
+          "oldBase": 1,
+          "newBase": 0
+        }
+      ]
+    },
+    {
+      "file": "AI\\AIPs\\cardassian_defensive_list.aip",
+      "sourceHash": "bbd157c5b5be9dd2dab0afa042b150958edb9ecc7c50c5b143ffaf054bd9cccc",
+      "edits": [
+        {
+          "unit": "cmining",
+          "oldBase": 1,
+          "newBase": 0
+        },
+        {
+          "unit": "cmining",
+          "oldBase": 2,
+          "newBase": 0
+        },
+        {
+          "unit": "cmining",
+          "oldBase": 1,
+          "newBase": 0
+        },
+        {
+          "unit": "corbital",
+          "oldBase": 1,
+          "newBase": 0
+        }
+      ]
+    },
+    {
+      "file": "AI\\AIPs\\cardassian_endgame_list.aip",
+      "sourceHash": "bbd157c5b5be9dd2dab0afa042b150958edb9ecc7c50c5b143ffaf054bd9cccc",
+      "edits": [
+        {
+          "unit": "cmining",
+          "oldBase": 1,
+          "newBase": 0
+        },
+        {
+          "unit": "cmining",
+          "oldBase": 2,
+          "newBase": 0
+        },
+        {
+          "unit": "cmining",
+          "oldBase": 1,
+          "newBase": 0
+        },
+        {
+          "unit": "corbital",
+          "oldBase": 1,
+          "newBase": 0
+        }
+      ]
+    },
+    {
+      "file": "AI\\AIPs\\cardassian_instant_action_build_list.aip",
+      "sourceHash": "bbd157c5b5be9dd2dab0afa042b150958edb9ecc7c50c5b143ffaf054bd9cccc",
+      "edits": [
+        {
+          "unit": "cmining",
+          "oldBase": 1,
+          "newBase": 0
+        },
+        {
+          "unit": "cmining",
+          "oldBase": 2,
+          "newBase": 0
+        },
+        {
+          "unit": "cmining",
+          "oldBase": 1,
+          "newBase": 0
+        },
+        {
+          "unit": "corbital",
+          "oldBase": 1,
+          "newBase": 0
+        }
+      ]
+    },
+    {
+      "file": "AI\\AIPs\\cardassian_offensive_list.aip",
+      "sourceHash": "bbd157c5b5be9dd2dab0afa042b150958edb9ecc7c50c5b143ffaf054bd9cccc",
+      "edits": [
+        {
+          "unit": "cmining",
+          "oldBase": 1,
+          "newBase": 0
+        },
+        {
+          "unit": "cmining",
+          "oldBase": 2,
+          "newBase": 0
+        },
+        {
+          "unit": "cmining",
+          "oldBase": 1,
+          "newBase": 0
+        },
+        {
+          "unit": "corbital",
+          "oldBase": 1,
+          "newBase": 0
+        }
+      ]
+    }
+  ],
+  "installed": true,
+  "gameplayVerified": false,
+  "notes": [
+    "User confirmed constructors crossing map to place stations.",
+    "Changed mining facility and orbital extractor expansion-base1/2 directives to home-base0.",
+    "Native resource-site selection may still pick distant resources if local sites are unavailable.",
+    "No unit,building,weapon,resource cost or starting fleet edits."
+  ],
+  "backup": "D:\\Xaramada-Modwork\\backups\\cardassian-local-mining-20261018-084014"
+}

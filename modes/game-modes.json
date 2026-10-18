@@ -1,0 +1,55 @@
+{
+  "localOnly": true,
+  "totalModes": 7,
+  "modes": [
+    {
+      "id": "last-man-standing",
+      "name": "Last Man Standing",
+      "rule": "Once per AI per match,last constructor lost while structures remain triggers hero+9escorts+constructor at another valid location with rebuilding grant.",
+      "status": "loader compatibility investigation"
+    },
+    {
+      "id": "stronghold",
+      "name": "Stronghold",
+      "rule": "Completed base,all standard facilities,basic fleet;normal expansion and victory.",
+      "status": "campaign map candidates under review"
+    },
+    {
+      "id": "siege",
+      "name": "Siege",
+      "rule": "Defend fortified base against escalating AI attack waves.",
+      "status": "planned"
+    },
+    {
+      "id": "border-war",
+      "name": "Border War",
+      "rule": "Small starting outposts and light fleets;research unlocks capital ships.",
+      "status": "planned"
+    },
+    {
+      "id": "hero-command",
+      "name": "Hero Command",
+      "rule": "One faction hero and escorts;hero survival is a defeat condition.",
+      "status": "planned"
+    },
+    {
+      "id": "king-of-the-wormhole",
+      "name": "King of the Wormhole",
+      "rule": "Control a central objective to accumulate victory points.",
+      "status": "planned"
+    },
+    {
+      "id": "kobayashi-maru",
+      "name": "Kobayashi Maru",
+      "rule": "No-win rescue simulation:attempt to save a disabled civilian freighter while overwhelming hostile reinforcements escalate. No conventional victory;evaluate civilians rescued,survival time and command decisions.",
+      "briefing": "Starfleet Academy Command Evaluation. The civilian freighter Kobayashi Maru transmits a distress call from contested space. Rescue exposes your task force to overwhelming enemy forces. Your orders are to render aid and preserve life. This simulation evaluates your decisions under impossible conditions.",
+      "status": "planned",
+      "source": "https://www.startrek.com/news/the-kobayashi-maru-hits-the-web"
+    }
+  ],
+  "notes": [
+    "Design manifest only;not installed/playable menu options.",
+    "Stronghold means standard structures,not every mutually exclusive or unique special station."
+  ],
+  "implementationOrder": "Last Man Standing first;only after working gameplay proof,build remaining six modes as one combined patch."
+}

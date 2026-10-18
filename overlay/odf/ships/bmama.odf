@@ -121,12 +121,12 @@ keymapLabel = "borg_battle"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 9600
-metalCost = 9600
+dilithiumCost = 1400
+metalCost = 375
 latinumCost = 0
 biomatterCost = 0
 crewCost = 8000
-officerCost = 56
+officerCost = 5
 buildTime = 120
 
 // Additional green holding/assimilation beam, separate from the existing blue beam.
@@ -151,9 +151,7 @@ buildTime = 120
 
 
 maxExtraWeapons = 4
-
 maxSpecialEnergy = 4000
-
 specialEnergyRate = 40
 
 // Shield adaptation restricted to Scout and Locutus variants.
@@ -169,3 +167,6 @@ weapon5 = "gdetect3"
 weaponHardpoints5 = "hp01"
 weapon6 = "gTechAssimBeam"
 weaponHardpoints6 = "hp01"
+
+weapon7 = "xy_bmama_gregen"
+weaponHardpoints7 = "hp07"

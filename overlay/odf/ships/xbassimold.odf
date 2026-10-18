@@ -1,8 +1,10 @@
 #include "cruise2.odf"
 
-//Name of Ship class in Ship Display window & in edit mode & tooltip
+//Name of Ship class in Ship Display window & in edit mode & tooltip
 
-//tooltips
+
+//tooltips
+
 
 //Race which can build ship & starting race of ship
 race = "borg"
@@ -11,17 +13,17 @@ race = "borg"
 buildTime = 20.0
 
 //Number of officers required to build this ship
-officerCost = 8
+officerCost = 1
 
 //Number of crew required to build ship & Starting crew
 crewCost = 250
 
 //Dilithium Cost to build
-dilithiumCost = 200
+dilithiumCost = 375
 
 
 //Metal Cost to build
-metalCost = 80
+metalCost = 100
 
 //Max Shield Strength & Begining Shield Strength <500
 maxHealth = 400
@@ -40,7 +42,7 @@ sensorsHitPoints = 59
 shieldRate = 20.0
 
 //Maximum Value of Special Energy
-maxSpecialEnergy = 1000
+maxSpecialEnergy = 2000
 
 //Rate at which special energy recharges (points per second... we think)
 specialEnergyRate = 30
@@ -139,10 +141,17 @@ hotkeyLabel = "HOTKEY_F5"
 
 ScaleSOD = 1.75
 
-
-
-
-unitName = "Assimilator (Original)"
-tooltip = "Assimilator (Original)"
-verboseTooltip = "Original-install Assimilator, available separately alongside the current variant."
 baseName = "xbassimold"
+
+unitName = "Tactical Assimilator"
+
+tooltip = "Tactical Assimilator"
+
+
+verboseTooltip = "Tactical Assimilator. Requires the Technology Node (tier-two Borg research) and Assembly Matrix."
+
+weapon7 = "xy_xbassimold_gtwarpd"
+weaponHardpoints7 = "hp01"
+
+weapon8 = "xy_xbassimold_gregen"
+weaponHardpoints8 = "hp01"
