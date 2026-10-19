@@ -1,0 +1,124 @@
+#include "destroy.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "IG Be'Nal Class"
+
+//tooltips
+tooltip = "IG Be'Nal Class"
+verboseTooltip = "Imperial Gaurd Heavy Destroyer"
+
+//Race which can build ship & starting race of ship
+race = "klingon"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 1574
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 617
+enginesHitPoints = 602
+weaponsHitPoints = 656
+lifeSupportHitPoints = 602
+sensorsHitPoints = 602
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 8.7			
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 96
+impulseSpeed = 78
+warpSpeed = 972
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 2400
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 24
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "IKS Qup'SoH" "IKS TlhIH'Hu" "IKS Hob'DIS" "IKS Chong'pogh" "IKS TaD'moH" "IKS Huj'a'SIp"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Phaser
+weapon1 = "kc06phas"
+weaponHardpoints1 = "hp10" "hp11"
+
+// Cloaking
+weapon2 = "gkcloak"
+weaponHardpoints2 = "hp13"
+
+// Photon Torpedos
+weapon3 = "kc02phot"
+weaponHardpoints3 = "hp09"
+
+// Special weapon
+//weapon4 = "unknown"
+//weaponHardpoints4 = "hp12"
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" 
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" 
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" 
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" 
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" 
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" 
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" 
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.25f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.25f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 0.75f
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "kling_destroyer"
+hotkeyLabel = "HOTKEY_F2"
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 605
+metalCost = 290
+latinumCost = 0
+biomatterCost = 0
+crewCost = 137
+officerCost = 16
+buildTime = 31
+
+// Visual size: 150 percent of pre-patch scale.
+ScaleSOD = 1.5

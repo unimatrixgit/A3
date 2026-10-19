@@ -1,0 +1,76 @@
+#include "kbase.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Starbase"
+
+tooltip = "KLI_MARTOK_BASE"
+verboseTooltip = "KLI_MARTOK_BASE_V"
+
+//Possible Craft Names
+possibleCraftNames = "Martok's base"
+
+baseName = "kbase"
+
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "MartokSelect"
+eventAcknowledge = "MartokAcknowledge"
+eventAttack = "MartokAttack"
+eventStop = "MartokStop"
+eventMove = "MartokMove"
+eventRepair = "MartokRepair"
+eventTransport = "BattleTransport"
+eventSelfDestruct = "BattleSelfDestruct"
+
+
+
+
+
+
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 2000
+metalCost = 2000
+latinumCost = 0
+biomatterCost = 0
+crewCost = 150
+officerCost = 10
+buildTime = 100
+buildItem0 = "xkuconst"
+
+maximumCrew = 2000
+
+// Equal visual span: vanilla Borg Nexus reference.
+ScaleSOD = 2.70301319
+
+
+
+
+
+
+
+
+
+
+
+eastBuffer = 0
+
+westBuffer = 0
+
+northBuffer = 0
+
+southBuffer = 0
+
+footprintBuffer = 80

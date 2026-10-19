@@ -16,7 +16,7 @@
 //Number of crew required to build ship & Starting crew
 
 //Number of maximum crew (only specified if different from crewCost)
-maximumCrew = 5000
+maximumCrew = 2000
 
 //The number of crew added to the capacity
 maxCrewGain = 3000
@@ -239,7 +239,7 @@ buildtime = 100
 race = "bajoran"
 possibleCraftNames = "Deep Space 9"
 baseName = "fds9"
-ScaleSOD = 0.8858
+
 buildHardpoint = "hp06"
 weaponHardpoints1 = "hp22" "hp25"
 weaponHardpoints2 = "hp23" "hp26"
@@ -269,3 +269,26 @@ repairHardpoint = "hp02"
 maxspecialenergy = 0
 
 specialenergyrate = 0
+
+// Equal visual span: vanilla Borg Nexus reference.
+ScaleSOD = 1.19999721
+
+
+
+
+
+
+
+
+
+
+
+eastBuffer = 0
+
+westBuffer = 0
+
+northBuffer = 0
+
+southBuffer = 0
+
+footprintBuffer = 80

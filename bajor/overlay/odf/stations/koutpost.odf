@@ -20,7 +20,7 @@ race = "klingon"
 //Number of crew required to build ship & Starting crew
 
 //Number of maximum crew (only specified if different from crewCost)
-maximumCrew = 1074
+maximumCrew = 2000
 
 //Dilithium Cost to build
 
@@ -179,3 +179,26 @@ buildItem1 = "kcargo"
 buildItem2 = "kgunboat"
 buildItem3 = "kdestroy2"
 buildItem4 = "xkuconst"
+
+// Equal visual span: vanilla Borg Nexus reference.
+ScaleSOD = 2.40033219
+
+
+
+
+
+
+
+
+
+
+
+eastBuffer = 0
+
+westBuffer = 0
+
+northBuffer = 0
+
+southBuffer = 0
+
+footprintBuffer = 80

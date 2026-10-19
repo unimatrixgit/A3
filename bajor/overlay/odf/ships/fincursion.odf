@@ -124,7 +124,8 @@ latinumCost = 0
 biomatterCost = 0
 crewCost = 80
 officerCost = 7
-buildTime = 12
+buildTime = 12
+
 
 eventSelect = "XV_fincursion_Select"
 
@@ -149,3 +150,6 @@ eventTransport = "XV_fincursion_Transport"
 eventSelfDestruct = "XV_fincursion_SelfDestruct"
 
 eventDecommission = "XV_fincursion_Decommission"
+
+// Visual size: 150 percent of pre-patch scale.
+ScaleSOD = 0.6075

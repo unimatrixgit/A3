@@ -37,10 +37,10 @@ sensorshitpoints = 1800
 shieldrate = 8.75
 
 //Maximum Value of Special Energy
-maxspecialenergy = 875
+
 
 //Rate at which special energy recharges (points per second... we think)
-specialenergyrate = 8.75
+
 
 //**********************************************************************
 //SHIP NAMES
@@ -162,7 +162,7 @@ weapon5 = "xbj_gpdlaser"
 
 weapon7 = "xbj_gselfdes"
 
-weapon6 = "xbj_gschainp"
+
 baseName = "br3_bjspecial"
 ScaleSOD = 1.76
 
@@ -193,3 +193,9 @@ shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
 sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
 hulltargethardpoints = "hp06" "hp08" "hp10"  "hp12" "hp14" "hp16" "hp18" "hp20" "hp24" "hp25"
 criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp22" "hp23"
+
+weapon6 = "y2a001"
+
+maxSpecialEnergy = 1800
+
+specialEnergyRate = 18.0

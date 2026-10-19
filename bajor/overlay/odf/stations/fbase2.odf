@@ -19,7 +19,7 @@ race = "federation"
 //Number of crew required to build ship & Starting crew
 
 //Number of maximum crew (only specified if different from crewCost)
-maximumCrew = 15000
+maximumCrew = 2000
 
 //The number of crew added to the capacity
 maxCrewGain = 5000
@@ -204,7 +204,7 @@ SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
 // let's make this a bit bigger
-ScaleSOD = 3.0
+
 
 //always avoid this object
 //avoidanceClass = 100000
@@ -235,3 +235,26 @@ buildItem9 = "fdeltaflyer"
 buildItem10 = "fantares"
 buildItem11 = "fnxent"
 buildItem12 = "xfuconst"
+
+// Equal visual span: vanilla Borg Nexus reference.
+ScaleSOD = 1.03668462
+
+
+
+
+
+
+
+
+
+
+
+eastBuffer = 0
+
+westBuffer = 0
+
+northBuffer = 0
+
+southBuffer = 0
+
+footprintBuffer = 80

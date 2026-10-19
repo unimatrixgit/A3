@@ -1,0 +1,155 @@
+#include "fdestroy.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & 
+unitName = "Incursion Class"
+
+//tooltips
+tooltip = "FED_INCURSION"
+verboseTooltip = "FED_INCURSION_V"
+
+//This ship is a hero.
+isHero = 1
+
+//Ship label provided because this is a unique ship.
+label = "USS Incursion"
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 1940
+
+//This is the range in meters which the ships sensors can see (LOS)
+rangeScan = 1000.0f
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 2000
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 27
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 417
+enginesHitPoints = 397
+weaponsHitPoints = 528
+lifeSupportHitPoints = 391
+sensorsHitPoints = 379
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 95
+impulseSpeed = 80
+warpSpeed = 957
+
+//**********************************************************************
+//SHIP NAMES
+//Possible Craft Names
+possibleCraftNames = "USS Incursion"
+//**********************************************************************
+
+//ART PARAMETERS & WEAPON NAMES
+
+// Class 1 Pulse Phaser
+weapon1 = "fdpulse"
+weaponHardpoints1 = "hp01"
+
+// Class 1 Pulse Phaser
+weapon2 = "fdpulse"
+weaponHardpoints2 = "hp02"
+
+// Class 1 Pulse Phaser
+weapon3 = "fdpulse"
+weaponHardpoints3 = "hp03"
+
+// Class 1 Pulse Phaser
+weapon4 = "fdpulse"
+weaponHardpoints4 = "hp04"
+
+// Holo-generator
+weapon5 = "ghologen"
+weaponHardpoints5 = "hp26" "hp27" "hp28" "hp29"
+
+// Class 'B' Quantum Torpedo
+weapon6 = "fclassbt"
+weaponHardpoints6 = "hp05" 
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15" 
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29"
+shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hullTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+criticalTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+
+//**********************************************************************
+//Maximum Value of Special Energy
+maxSpecialEnergy = 1000
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 3.5
+
+//**********************************************************************
+
+//MESSAGE & SOUND PARAMETERS
+
+//eventSelect = "IncursionSelect"
+//eventAcknowledge = "IncursionAcknowledge"
+//eventAttack = "IncursionAttack"
+//eventRedAlert = "IncursionRedAlert"
+//eventYellowAlert = "IncursionYellowAlert"
+//eventGreenAlert = "IncursionGreenAlert"
+//eventStop = "IncursionStop"
+//eventMove = "IncursionMove"
+//eventRepair = "IncursionRepair"
+//eventDecommission = "IncursionDecommission"
+//eventTransport = "IncursionTransport"
+//eventSelfDestruct = "IncursionSelfDestruct"
+
+//physics file for all other physics stuff
+physicsFile = "fincursionphys.odf"
+
+
+
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 140
+metalCost = 0
+latinumCost = 0
+biomatterCost = 0
+crewCost = 80
+officerCost = 7
+buildTime = 12
+
+
+eventSelect = "XV_fincursion_Select"
+
+eventAcknowledge = "XV_fincursion_Acknowledge"
+
+eventAttack = "XV_fincursion_Attack"
+
+eventStop = "XV_fincursion_Stop"
+
+eventMove = "XV_fincursion_Move"
+
+eventRepair = "XV_fincursion_Repair"
+
+eventRedAlert = "XV_fincursion_RedAlert"
+
+eventYellowAlert = "XV_fincursion_YellowAlert"
+
+eventGreenAlert = "XV_fincursion_GreenAlert"
+
+eventTransport = "XV_fincursion_Transport"
+
+eventSelfDestruct = "XV_fincursion_SelfDestruct"
+
+eventDecommission = "XV_fincursion_Decommission"
+
+// Visual size: 150 percent of pre-patch scale.
+ScaleSOD = 0.6075

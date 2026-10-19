@@ -91,7 +91,7 @@ officercost = 2
 buildtime = 6
 race = "bajoran"
 baseName = "br3_bjscout"
-ScaleSOD = 0.4
+
 weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04"
 weaponHardpoints2 = "hp05"
 enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
@@ -105,3 +105,6 @@ criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp22" "hp2
 maxspecialenergy = 0
 
 specialenergyrate = 0
+
+// Visual size: 150 percent of pre-patch scale.
+ScaleSOD = 0.992448

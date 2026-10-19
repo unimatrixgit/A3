@@ -9,7 +9,7 @@ label = "Brood Sentinel"
 maxHealth = 3362
 biomatterCost = 348
 buildTime = 35
-ScaleSOD = 1
+
 possibleCraftNames = "Brood Sentinel"
 
 eventSelect = "XV_xhshero_Select"
@@ -35,3 +35,6 @@ eventTransport = "XV_xhshero_Transport"
 eventSelfDestruct = "XV_xhshero_SelfDestruct"
 
 eventDecommission = "XV_xhshero_Decommission"
+
+// Visual size: 150 percent of pre-patch scale.
+ScaleSOD = 1.5

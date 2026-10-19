@@ -51,20 +51,29 @@ latinumTransferRate = 15.0
 //ART PARAMETERS & WEAPON NAMES
 
 // Pulse Phaser
-weapon1 = "cc10phas"
+weapon1 = "cc10phas"
+
 
 // Pulse Phaser
-weapon2 = "cc10phas"
+weapon2 = "cc10phas"
+
 
 // Pulse Phaser
-weapon3 = "cc08plas"
+weapon3 = "cc08plas"
 
-// Hardpoints to hit for various systems and other locations.
-"HP07" "HP08"
-"HP07" "HP08"
-"HP07" "HP08"
-"HP07" "HP08"
-"HP07" "HP08"
+
+// Hardpoints to hit for various systems and other locations.
+
+"HP07" "HP08"
+
+"HP07" "HP08"
+
+"HP07" "HP08"
+
+"HP07" "HP08"
+
+"HP07" "HP08"
+
 "HP07" "HP08"
 
 //**********************************************************************
@@ -165,7 +174,7 @@ combat = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
-ScaleSOD = 1.6
+
 
 
 
@@ -221,3 +230,28 @@ unitName = "Terok Nor"
 tooltip = "Terok Nor"
 verboseTooltip = "Cardassian Terok Nor command station. Nor-class station naming theme; existing combat and economic statistics retained."
 possibleCraftNames = "Terok Nor" "Empok Nor" "Keldar Nor" "Velor Nor" "Damar Nor" "Lakarian Nor"
+
+maximumCrew = 2000
+
+// Equal visual span: vanilla Borg Nexus reference.
+ScaleSOD = 2.1593943
+
+
+
+
+
+
+
+
+
+
+
+eastBuffer = 0
+
+westBuffer = 0
+
+northBuffer = 0
+
+southBuffer = 0
+
+footprintBuffer = 80

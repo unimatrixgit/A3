@@ -48,7 +48,21 @@ maxSpecialEnergy = 2400
 specialEnergyRate = 24 
 
 //**********************************************************************
-//Construction Parameters
+//Construction Parameters
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //**********************************************************************
 //Worker Bee Parameters
@@ -86,15 +100,16 @@ criticalTargetHardpoints = "hp12" "hp17" "hp22" "hp24" "hp26"
 //**********************************************************************
 
 // Tara additions for context sensitive menus
-alert = 1
-combat = 1
+
+
 can_sandd = 1
 
 
 
 // Xaramada: cloaking device.
 weapon3 = "gkcloak"
-weaponHardpoints3 = "hp01"
+weaponHardpoints3 = "hp01"
+
 
 
 
@@ -124,3 +139,13 @@ buildItem6 = "brbase"
 buildItem7 = "bjbase"
 buildItem8 = "kupgrade"
 buildItem9 = "koutpost"
+
+weapon4 = "xp9t"
+
+weaponHardpoints4 = "hp04"
+
+canAttack = 1
+
+combat = 1
+
+alert = 1

@@ -121,7 +121,7 @@ race = "bajoran"
 
 
 baseName = "br3_bjartillery"
-ScaleSOD = 0.8
+
 
 
 
@@ -145,10 +145,17 @@ sensorstargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
 hulltargethardpoints = "hp06" "hp08" "hp10"  "hp12" "hp14" "hp16"
 criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19"
 
-maxspecialenergy = 1000
 
-specialenergyrate = 15
+
+
 
 weapon5 = "xbj_gamine"
 
 weaponHardpoints5 = "hp01"
+
+// Visual size: 150 percent of pre-patch scale.
+ScaleSOD = 1.2
+
+maxSpecialEnergy = 900
+
+specialEnergyRate = 9.0

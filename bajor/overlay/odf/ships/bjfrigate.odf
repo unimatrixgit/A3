@@ -37,10 +37,10 @@ sensorshitpoints = 1700
 shieldrate = 7.6
 
 //Maximum Value of Special Energy
-maxspecialenergy = 760
+
 
 //Rate at which special energy recharges (points per second... we think)
-specialenergyrate = 7.6
+
 
 
 //**********************************************************************
@@ -145,7 +145,7 @@ weapon3 = "frphot"
 
 weapon5 = "xbj_gshldemt"
 baseName = "br3_bjfrigate"
-ScaleSOD = 1.6
+
 
 
 
@@ -168,3 +168,10 @@ weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
 shieldgeneratortargethardpoints = "hp10"
 sensorstargethardpoints = "hp07"
 hulltargethardpoints = "hp13" "hp20"
+
+// Visual size: 150 percent of pre-patch scale.
+ScaleSOD = 2.4
+
+maxSpecialEnergy = 900
+
+specialEnergyRate = 9.0

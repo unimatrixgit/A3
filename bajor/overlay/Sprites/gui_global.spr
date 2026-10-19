@@ -3548,6 +3548,7 @@ b_cobyard			gbcobyard		0	0	64	64
 @reference=64
 @tmaterial=default
 b_cstation			gbcstation		0	0	64	64
+b_chwp			gbcstation		0	0	64	64
 @skip=off
 @reference=64
 @tmaterial=default
@@ -4168,6 +4169,7 @@ cobyardw1			cardwf04		128	0	128	128
 @tmaterial=interface
 @reference=256
 cstationw1			cardwf04		0	128	128	128
+chwpw1			cardwf04		0	128	128	128
 @skip=off
 @tmaterial=interface
 @reference=256
@@ -4390,6 +4392,7 @@ b_fgalaxyx	               	gbfgalaxyx		0       0       64      64
 @tmaterial=default
 @reference=64
 b_fhwp                     	gbfhwp		       	0       0       64      64
+b_bjhwp                     	gbfhwp		       	0       0       64      64
 @skip=off
 @tmaterial=default
 @reference=64
@@ -4978,22 +4981,27 @@ fgalaxyxw5			wffghost09	192	0	48	48
 @tmaterial=interface
 @reference=256
 fhwpw1				wffghost09	0	48	48	48
+bjhwpw1				wffghost09	0	48	48	48
 @skip=off
 @tmaterial=interface
 @reference=256
 fhwpw2				wffghost09	48	48	48	48
+bjhwpw2				wffghost09	48	48	48	48
 @skip=off
 @tmaterial=interface
 @reference=256
 fhwpw3				wffghost09	96	48	48	48
+bjhwpw3				wffghost09	96	48	48	48
 @skip=off
 @tmaterial=interface
 @reference=256
 fhwpw4				wffghost09	144	48	48	48
+bjhwpw4				wffghost09	144	48	48	48
 @skip=off
 @tmaterial=interface
 @reference=256
 fhwpw5				wffghost09	192	48	48	48
+bjhwpw5				wffghost09	192	48	48	48
 @skip=off
 @tmaterial=interface
 @reference=256
@@ -7710,6 +7718,7 @@ xvstock_bturretw5 borgwireframe05 192	48	48	48
 @reference=64
 @tmaterial=default
 b_bturret2 gbbturret2 0	0	64	64		
+b_bhwp gbbturret2 0	0	64	64		
 
 @reference=64
 @tmaterial=default
@@ -7718,6 +7727,7 @@ b_xvstock_bturret2 gbbturret2 0	0	64	64
 @reference=256
 @tmaterial=interface
 bturret2w1 borgwireframe05 0	96	48	48		
+bhwpw1 borgwireframe05 0	96	48	48		
 
 @reference=256
 @tmaterial=interface
@@ -7726,6 +7736,7 @@ xvstock_bturret2w1 borgwireframe05 0	96	48	48
 @reference=256
 @tmaterial=interface
 bturret2w2 borgwireframe05 48	96	48	48		
+bhwpw2 borgwireframe05 48	96	48	48		
 
 @reference=256
 @tmaterial=interface
@@ -7734,6 +7745,7 @@ xvstock_bturret2w2 borgwireframe05 48	96	48	48
 @reference=256
 @tmaterial=interface
 bturret2w3 borgwireframe05 96	96	48	48		
+bhwpw3 borgwireframe05 96	96	48	48		
 
 @reference=256
 @tmaterial=interface
@@ -7742,6 +7754,7 @@ xvstock_bturret2w3 borgwireframe05 96	96	48	48
 @reference=256
 @tmaterial=interface
 bturret2w4 borgwireframe05 144	96	48	48		
+bhwpw4 borgwireframe05 144	96	48	48		
 
 @reference=256
 @tmaterial=interface
@@ -7750,6 +7763,7 @@ xvstock_bturret2w4 borgwireframe05 144	96	48	48
 @reference=256
 @tmaterial=interface
 bturret2w5 borgwireframe05 192	96	48	48
+bhwpw5 borgwireframe05 192	96	48	48
 
 @reference=256
 @tmaterial=interface
@@ -11002,18 +11016,22 @@ cobyardw5 gbcobyard 0	0	64	64
 @reference=64
 @tmaterial=default
 cstationw2 gbcstation 0	0	64	64
+chwpw2 gbcstation 0	0	64	64
 
 @reference=64
 @tmaterial=default
 cstationw3 gbcstation 0	0	64	64
+chwpw3 gbcstation 0	0	64	64
 
 @reference=64
 @tmaterial=default
 cstationw4 gbcstation 0	0	64	64
+chwpw4 gbcstation 0	0	64	64
 
 @reference=64
 @tmaterial=default
 cstationw5 gbcstation 0	0	64	64
+chwpw5 gbcstation 0	0	64	64
 
 @reference=64
 @tmaterial=default
@@ -19913,3 +19931,277 @@ br3_xbjuconstw4 bjic53 0 0 64 64
 @reference=64
 @tmaterial=default
 br3_xbjuconstw5 bjic53 0 0 64 64
+
+// Borg assimilation support - matching model icons
+@reference=512
+@tmaterial=default
+b_xbharvest xbstatbtn 0 0 64 64
+xbharvestw1 xbstatbtn 0 0 64 64
+xbharvestw2 xbstatbtn 0 0 64 64
+xbharvestw3 xbstatbtn 0 0 64 64
+xbharvestw4 xbstatbtn 0 0 64 64
+xbharvestw5 xbstatbtn 0 0 64 64
+b_xbassimst xbstatbtn 64 0 64 64
+xbassimstw1 xbstatbtn 64 0 64 64
+xbassimstw2 xbstatbtn 64 0 64 64
+xbassimstw3 xbstatbtn 64 0 64 64
+xbassimstw4 xbstatbtn 64 0 64 64
+xbassimstw5 xbstatbtn 64 0 64 64
+b_xbrepair xbstatbtn 128 0 64 64
+xbrepairw1 xbstatbtn 128 0 64 64
+xbrepairw2 xbstatbtn 128 0 64 64
+xbrepairw3 xbstatbtn 128 0 64 64
+xbrepairw4 xbstatbtn 128 0 64 64
+xbrepairw5 xbstatbtn 128 0 64 64
+@reference=64
+@tmaterial=default
+b_xbharvbeam gbbaabore00 0 0 64 64
+b_xbassimbeam gbholdbm00 0 0 64 64
+
+// Manual station beam HUD controls
+@reference=64
+@tmaterial=default
+b_xbharvmanual gbbaabore00 0 0 64 64
+b_xbassimmanual gbholdbm00 0 0 64 64
+
+// Riker Galaxy-X hero build icon; model uses existing Galaxy-X wireframes.
+@reference=64
+@tmaterial=default
+b_xhfriker gbfgalaxyx 0 0 64 64
+
+// Nemesis hero artwork from k_merse pack.
+@reference=64
+@tmaterial=default
+b_xhrshinzon gbrscimitar 0 0 64 64
+b_xhrdonatra gbrvaldore 0 0 64 64
+b_rscimitar gbrscimitar 0 0 64 64
+b_rvaldore gbrvaldore 0 0 64 64
+@reference=128
+rscimitarw1 wfrscimitar 0 0 128 128
+rscimitarw2 wfrscimitar 0 0 128 128
+rscimitarw3 wfrscimitar 0 0 128 128
+rscimitarw4 wfrscimitar 0 0 128 128
+rscimitarw5 wfrscimitar 0 0 128 128
+rvaldorew1 wfrvaldore 0 0 128 128
+rvaldorew2 wfrvaldore 0 0 128 128
+rvaldorew3 wfrvaldore 0 0 128 128
+rvaldorew4 wfrvaldore 0 0 128 128
+rvaldorew5 wfrvaldore 0 0 128 128
+
+// Enterprise Legacy Yard and direct hero build icons.
+@reference=64
+@tmaterial=default
+b_xflegacyyard gbfyard3 0 0 64 64
+b_xhfkirktos gbfent 0 0 64 64
+b_xhfkirkrefit gbfenta 0 0 64 64
+b_xhfharriman gbfentb 0 0 64 64
+b_xhfgarrett gbfentc 0 0 64 64
+b_xhfpicardd gbfentd 0 0 64 64
+
+// Screen-era command ship icons.
+@reference=512
+@tmaterial=default
+b_xhftitan xscrbuttons 0 0 64 64
+xhftitanw1 xscrbuttons 0 0 64 64
+xhftitanw2 xscrbuttons 0 0 64 64
+xhftitanw3 xscrbuttons 0 0 64 64
+xhftitanw4 xscrbuttons 0 0 64 64
+xhftitanw5 xscrbuttons 0 0 64 64
+b_xhfdaedalus xscrbuttons 64 0 64 64
+xhfdaedalusw1 xscrbuttons 64 0 64 64
+xhfdaedalusw2 xscrbuttons 64 0 64 64
+xhfdaedalusw3 xscrbuttons 64 0 64 64
+xhfdaedalusw4 xscrbuttons 64 0 64 64
+xhfdaedalusw5 xscrbuttons 64 0 64 64
+b_xhkraptor xscrbuttons 128 0 64 64
+xhkraptorw1 xscrbuttons 128 0 64 64
+xhkraptorw2 xscrbuttons 128 0 64 64
+xhkraptorw3 xscrbuttons 128 0 64 64
+xhkraptorw4 xscrbuttons 128 0 64 64
+xhkraptorw5 xscrbuttons 128 0 64 64
+b_xhkold7 xscrbuttons 192 0 64 64
+xhkold7w1 xscrbuttons 192 0 64 64
+xhkold7w2 xscrbuttons 192 0 64 64
+xhkold7w3 xscrbuttons 192 0 64 64
+xhkold7w4 xscrbuttons 192 0 64 64
+xhkold7w5 xscrbuttons 192 0 64 64
+b_xhrtosbird xscrbuttons 256 0 64 64
+xhrtosbirdw1 xscrbuttons 256 0 64 64
+xhrtosbirdw2 xscrbuttons 256 0 64 64
+xhrtosbirdw3 xscrbuttons 256 0 64 64
+xhrtosbirdw4 xscrbuttons 256 0 64 64
+xhrtosbirdw5 xscrbuttons 256 0 64 64
+b_xhrearlybird xscrbuttons 320 0 64 64
+xhrearlybirdw1 xscrbuttons 320 0 64 64
+xhrearlybirdw2 xscrbuttons 320 0 64 64
+xhrearlybirdw3 xscrbuttons 320 0 64 64
+xhrearlybirdw4 xscrbuttons 320 0 64 64
+xhrearlybirdw5 xscrbuttons 320 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bassault_gborgbor gbbaabore00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bassault_gregen gbregen00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bbattle1_gregen gbregen00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bbattle2_gregen gbregen00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bbattle3_gregen gbregen00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bbattle4_gregen gbregen00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bcolony_gborgbor gbbaabore00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bcruise1_gborgbor gbbaabore00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bcruise2_gregen gbregen00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bcruise3_gborgbor gbbaabore00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bcruise3_gregen gbregen00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bdestroy_gborgbor gbbaabore00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bdestroy_gregen gbregen00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bdestroy2_gborgbor gbbaabore00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bdestroy2_gregen gbregen00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bfrigate_gborgbor gbbaabore00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bhentra_gborgbor gbbaabore00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bhentra_gregen gbregen00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bhentrag_gborgbor gbbaabore00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bhentrag_gregen gbregen00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bmama_gregen gbregen00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bomega1_gregen gbregen00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bpentra_gborgbor gbbaabore00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bpentra_gregen gbregen00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_bspecial_gborgbor gbbaabore00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_btacpyr_gborgbor gbbaabore00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_btacpyr_gregen gbregen00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_tcube_gregen gbregen00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_xbassimold_gtwarpd gbtwarpd00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_xbassimold_gregen gbregen00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_xobbattle1_gregen gbregen00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_xobbattle2_gregen gbregen00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xy_xobcruise1_gborgbor gbbaabore00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xbtpblue gbbaabore00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xbtpgreen gbholdbm00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xbtpregen gbregen00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xbtpwarp gbtwarpd00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_y2a001			gbchnrxn00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_y2a002			gbtwarpd00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_y2a003			hcompovr00		0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_y2a004			gbcloak00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_y2a005			gbmicro00		0	0	64	64		

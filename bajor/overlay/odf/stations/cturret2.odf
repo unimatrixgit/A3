@@ -50,11 +50,9 @@ weaponsHitPoints = 999
 //ART PARAMETERS & WEAPON NAMES
 
 // Photon torpedos
+weapon1 = "cd03torp"
 
-
-
-// Hardpoints to hit for various systems and other locations.
-
+// Hardpoints to hit for various systems and other locations.
 
 //**********************************************************************
 //MESSAGE & SOUND PARAMETERS
@@ -81,17 +79,17 @@ rangeScan = 1100.0f
 
 
 // Xaramada resource costs: original filename.
-
-
-
-
-
-
-
+dilithiumCost = 150
+metalCost = 250
+latinumCost = 0
+biomatterCost = 0
+crewCost = 0
+officerCost = 4
+buildTime = 75
 
 baseName = "xvstock_cturret2"
 
-
+weaponhardpoints1 = "HP01" 
 
 enginestargethardpoints = "HP01" "HP02" "HP03"
 
@@ -106,43 +104,3 @@ sensorstargethardpoints = "HP01" "HP02" "HP03"
 hulltargethardpoints = "HP01" "HP02" "HP03"
 
 criticaltargethardpoints = "HP01" "HP02" "HP03"
-
-weapon1 = "xp4b"
-
-weaponHardpoints1 = "hp01"
-
-weapon2 = "xp4b"
-
-weaponHardpoints2 = "hp02"
-
-weapon3 = "xp4b"
-
-weaponHardpoints3 = "hp03"
-
-weapon4 = "xp4t"
-
-weaponHardpoints4 = "hp01"
-
-weapon5 = "xp4t"
-
-weaponHardpoints5 = "hp02"
-
-weapon6 = "xp4r"
-
-weaponHardpoints6 = "hp03"
-
-dilithiumCost = 900
-
-metalCost = 900
-
-latinumCost = 0
-
-biomatterCost = 0
-
-crewCost = 200
-
-officerCost = 8
-
-buildTime = 90
-
-maximumCrew = 200

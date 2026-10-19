@@ -1,0 +1,908 @@
+{
+  "backup": "D:\\Xaramada-Modwork\\backups\\shape-preserving-footprints-20261019-215943",
+  "replaces": "equal-building-footprints.json",
+  "method": "Native per-model placement rectangle plus uniform clearance; no forced common rectangle or asymmetric buffers",
+  "units": [
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "fhwp.odf",
+      "category": "heavy",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 10,
+      "calculatedFootprintXZ": [
+        -38.790109634399414,
+        -37.09427261352539,
+        38.7901554107666,
+        40.485984802246094
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "khwp.odf",
+      "category": "heavy",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 10,
+      "calculatedFootprintXZ": [
+        -38.62163838208993,
+        -38.54356021160845,
+        38.958626685670666,
+        38.97772692997563
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "rhwp.odf",
+      "category": "heavy",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 10,
+      "calculatedFootprintXZ": [
+        -38.7901302591906,
+        -38.79013097005737,
+        38.79013458374592,
+        38.79013097360101
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "chwp.odf",
+      "category": "heavy",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 10,
+      "calculatedFootprintXZ": [
+        -37.90215577543864,
+        -38.59026996409465,
+        39.44311765216365,
+        38.98999501208698
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "dturret3.odf",
+      "category": "heavy",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 10,
+      "calculatedFootprintXZ": [
+        -39.81929536395827,
+        -44.02998541030816,
+        37.76096977528913,
+        32.644437247186914
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "bjhwp.odf",
+      "category": "heavy",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 10,
+      "calculatedFootprintXZ": [
+        -38.790109634399414,
+        -37.09427261352539,
+        38.7901554107666,
+        40.485984802246094
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "bhwp.odf",
+      "category": "heavy",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 10,
+      "calculatedFootprintXZ": [
+        -21.478485319354903,
+        -25.36938897021663,
+        56.10177961078592,
+        28.13310312103987
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "bbase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -273.53209412308536,
+        -186.920824386829,
+        355.6474633821518,
+        288.36109137228317
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "bjbase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -310.8144664837631,
+        -314.58100603434815,
+        317.5716133954053,
+        314.59855166003643
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "brbase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -267.680196698675,
+        -287.9136069688934,
+        323.1543352692444,
+        341.2659497138444
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "cbase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -314.5897883664111,
+        -318.6386938735885,
+        314.58976777282226,
+        285.8402321899076
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "cstation.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -307.9711656831743,
+        -313.10008515053306,
+        319.4568602063888,
+        316.07947086010984
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "dbase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -318.51593323833345,
+        -285.1288830244994,
+        310.6636233568397,
+        287.5502001688876
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "domabase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -346.55334143954593,
+        -299.84494436375167,
+        282.6262156235151,
+        321.2748247301578
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "dombase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -314.5897782006552,
+        -288.8010530870771,
+        314.5897782006552,
+        288.8010512364249
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "ds9.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -310.8144664837631,
+        -314.58100603434815,
+        317.5716133954053,
+        314.59855166003643
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "fbase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -233.75399513158328,
+        -233.82759316703084,
+        232.2514699325589,
+        230.720731809395
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "fbase2.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -313.8727138265909,
+        -228.92689249972167,
+        315.3068435132109,
+        228.91632372974692
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "fbaseHQ.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -244.4669025313429,
+        -236.13567278695794,
+        244.4669025313429,
+        236.13566207092967
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "fds9.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -310.8144664837631,
+        -314.58100603434815,
+        317.5716133954053,
+        314.59855166003643
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "foutpost.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -263.4116862169325,
+        -253.79714811257202,
+        255.64866263505428,
+        253.79103709983386
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "kbase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -316.3179406534917,
+        -345.5048736782368,
+        312.8616162306479,
+        231.84124981586803
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "kbase2.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -245.82315944020172,
+        -279.7024105343173,
+        328.023070434837,
+        285.9260961816793
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "kimpbase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -313.5584913469255,
+        -281.35396408457905,
+        315.6210652094585,
+        302.655833788205
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "kmarbase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -316.3179195412419,
+        -345.50489688375455,
+        312.8616372588615,
+        231.84129112098123
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "koutpost.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -314.58977184545836,
+        -316.0124140094735,
+        314.5897844272869,
+        267.6327185744471
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "rbase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -330.31846012122855,
+        -328.3888555425692,
+        286.91761034628513,
+        300.7907015078415
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "rbase2.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -315.5220988037518,
+        -304.6521581887588,
+        313.65745775170654,
+        301.49455916403264
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "8472_mother.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -237.75814766712693,
+        -318.09209067622106,
+        239.12467767310835,
+        311.0874667560487
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "8472_mothership.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -237.75814766712693,
+        -318.09209067622106,
+        239.12467767310835,
+        311.0874667560487
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "fhwp.odf",
+      "category": "heavy",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 10,
+      "calculatedFootprintXZ": [
+        -38.790109634399414,
+        -37.09427261352539,
+        38.7901554107666,
+        40.485984802246094
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "khwp.odf",
+      "category": "heavy",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 10,
+      "calculatedFootprintXZ": [
+        -38.62163838208993,
+        -38.54356021160845,
+        38.958626685670666,
+        38.97772692997563
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "rhwp.odf",
+      "category": "heavy",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 10,
+      "calculatedFootprintXZ": [
+        -38.7901302591906,
+        -38.79013097005737,
+        38.79013458374592,
+        38.79013097360101
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "chwp.odf",
+      "category": "heavy",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 10,
+      "calculatedFootprintXZ": [
+        -37.90215577543864,
+        -38.59026996409465,
+        39.44311765216365,
+        38.98999501208698
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "dturret3.odf",
+      "category": "heavy",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 10,
+      "calculatedFootprintXZ": [
+        -39.81929536395827,
+        -44.02998541030816,
+        37.76096977528913,
+        32.644437247186914
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "bjhwp.odf",
+      "category": "heavy",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 10,
+      "calculatedFootprintXZ": [
+        -38.790109634399414,
+        -37.09427261352539,
+        38.7901554107666,
+        40.485984802246094
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "bhwp.odf",
+      "category": "heavy",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 10,
+      "calculatedFootprintXZ": [
+        -21.478485319354903,
+        -25.36938897021663,
+        56.10177961078592,
+        28.13310312103987
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "bbase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -273.53209412308536,
+        -186.920824386829,
+        355.6474633821518,
+        288.36109137228317
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "bjbase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -310.8144664837631,
+        -314.58100603434815,
+        317.5716133954053,
+        314.59855166003643
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "brbase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -267.680196698675,
+        -287.9136069688934,
+        323.1543352692444,
+        341.2659497138444
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "cbase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -314.5897883664111,
+        -318.6386938735885,
+        314.58976777282226,
+        285.8402321899076
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "cstation.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -307.9711656831743,
+        -313.10008515053306,
+        319.4568602063888,
+        316.07947086010984
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "dbase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -318.51593323833345,
+        -285.1288830244994,
+        310.6636233568397,
+        287.5502001688876
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "domabase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -346.55334143954593,
+        -299.84494436375167,
+        282.6262156235151,
+        321.2748247301578
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "dombase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -314.5897782006552,
+        -288.8010530870771,
+        314.5897782006552,
+        288.8010512364249
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "ds9.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -310.8144664837631,
+        -314.58100603434815,
+        317.5716133954053,
+        314.59855166003643
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "fbase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -233.75399513158328,
+        -233.82759316703084,
+        232.2514699325589,
+        230.720731809395
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "fbase2.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -313.8727138265909,
+        -228.92689249972167,
+        315.3068435132109,
+        228.91632372974692
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "fbaseHQ.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -244.4669025313429,
+        -236.13567278695794,
+        244.4669025313429,
+        236.13566207092967
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "fds9.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -310.8144664837631,
+        -314.58100603434815,
+        317.5716133954053,
+        314.59855166003643
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "foutpost.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -263.4116862169325,
+        -253.79714811257202,
+        255.64866263505428,
+        253.79103709983386
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "kbase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -316.3179406534917,
+        -345.5048736782368,
+        312.8616162306479,
+        231.84124981586803
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "kbase2.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -245.82315944020172,
+        -279.7024105343173,
+        328.023070434837,
+        285.9260961816793
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "kimpbase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -313.5584913469255,
+        -281.35396408457905,
+        315.6210652094585,
+        302.655833788205
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "kmarbase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -316.3179195412419,
+        -345.50489688375455,
+        312.8616372588615,
+        231.84129112098123
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "koutpost.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -314.58977184545836,
+        -316.0124140094735,
+        314.5897844272869,
+        267.6327185744471
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "rbase.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -330.31846012122855,
+        -328.3888555425692,
+        286.91761034628513,
+        300.7907015078415
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "rbase2.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -315.5220988037518,
+        -304.6521581887588,
+        313.65745775170654,
+        301.49455916403264
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "8472_mother.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -237.75814766712693,
+        -318.09209067622106,
+        239.12467767310835,
+        311.0874667560487
+      ],
+      "visualScaleUnchanged": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "8472_mothership.odf",
+      "category": "starbase",
+      "nativeModelFootprint": true,
+      "directionalBuffers": 0,
+      "uniformClearance": 100,
+      "calculatedFootprintXZ": [
+        -237.75814766712693,
+        -318.09209067622106,
+        239.12467767310835,
+        311.0874667560487
+      ],
+      "visualScaleUnchanged": true
+    }
+  ],
+  "runtimeVerified": false
+}

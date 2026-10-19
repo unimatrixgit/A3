@@ -115,7 +115,7 @@ transporter = 0
 
 verboseTooltip = "Bajoran solar lightship. Civilian survey vessel; unarmed. Game adaptation of the TV lightship."
 baseName = "br3_bjlightship"
-ScaleSOD = 0.4
+
 
 
 
@@ -138,3 +138,6 @@ criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp22" "hp2
 maxspecialenergy = 0
 
 specialenergyrate = 0
+
+// Visual size: 150 percent of pre-patch scale.
+ScaleSOD = 0.992448

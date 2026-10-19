@@ -20,7 +20,8 @@ shieldRate = 20
 //Possible Craft Names
 possibleCraftNames = "Enterprise NX-01" 
 
-weapon3 = "fnxenttoent"
+weapon3 = "fnxenttoent"
+
 
 
 
@@ -35,7 +36,8 @@ latinumCost = 0
 biomatterCost = 0
 crewCost = 85
 officerCost = 9
-buildTime = 22
+buildTime = 22
+
 
 eventSelect = "XV_fnxent_Select"
 
@@ -60,3 +62,6 @@ eventTransport = "XV_fnxent_Transport"
 eventSelfDestruct = "XV_fnxent_SelfDestruct"
 
 eventDecommission = "XV_fnxent_Decommission"
+
+// Visual size: 150 percent of pre-patch scale.
+ScaleSOD = 0.375

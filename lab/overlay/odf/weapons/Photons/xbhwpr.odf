@@ -1,0 +1,24 @@
+// Explicit native weapon definition; no cross-directory includes.
+ordname = "bfphotono"
+
+
+range = 600.0f
+firesound = "pobwea.wav"
+classlabel = "cannon"
+hitchance = 0.5
+impulsetohitmodifier = -0.0
+stoptohitmodifier = 0.2
+tohitimpulsemodifier = 0.0
+tohitstopmodifier = 0.2
+restrictfirearc = 0
+firearc = 360
+
+shotDelay = 0.375
+
+maxShots = 1
+
+minimumShotInterval = 0.375
+
+saveFire = 0
+
+wpnName = "Rapid-fire Borg Torpedo"

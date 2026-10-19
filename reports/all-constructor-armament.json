@@ -1,0 +1,1138 @@
+{
+  "backup": "D:\\Xaramada-Modwork\\backups\\all-constructor-arms-20261019-214339",
+  "constructors": [
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "714const.odf",
+      "name": "Triton Class",
+      "race": "species8472",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "biolev2",
+          "slot": 3,
+          "hardpoint": "hp03"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp12t",
+          "slot": 4,
+          "hardpoint": "hp04"
+        }
+      ],
+      "previousWeaponSlots": 2,
+      "model": "714const",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "8472_active.odf",
+      "name": "Active Embryo",
+      "race": "species8472",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "biolev2",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp12t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "8472_active",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "8472_defender.odf",
+      "name": "Defender",
+      "race": "species8472",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "biolev2",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp12t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "8472_defender",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "8472_passive.odf",
+      "name": "Passive Embryo",
+      "race": "species8472",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "biolev2",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp12t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "8472_passive",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "bconst.odf",
+      "name": "Assembler",
+      "race": "borg",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "bc1phas",
+          "slot": 3,
+          "hardpoint": "hp03"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp6t",
+          "slot": 4,
+          "hardpoint": "hp04"
+        }
+      ],
+      "previousWeaponSlots": 2,
+      "model": "bconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "bconst2.odf",
+      "name": "Omega Powered Constructor",
+      "race": "borg",
+      "added": [],
+      "previousWeaponSlots": 5,
+      "model": "bconst2",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "bjconst.odf",
+      "name": "Militia Construction Tender",
+      "race": "bajoran",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "xp14b",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp14t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "br3_bjconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "brconst.odf",
+      "name": "Breen Construction Ship",
+      "race": "breen",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "xp13b",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp13t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "brconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "cconst.odf",
+      "name": "Rengar Class",
+      "race": "cardassian",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "xp11b",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp11t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "cconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "dconst.odf",
+      "name": "Jem'Hadar Construction Ship",
+      "race": "dominion",
+      "added": [
+        {
+          "kind": "torpedo",
+          "weapon": "xp12t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 2,
+      "model": "dconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "domconst.odf",
+      "name": "Construction Ship",
+      "race": "cardassian",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "xp11b",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp11t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "domconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "f31const.odf",
+      "name": "Construction Ship",
+      "race": "federation",
+      "added": [
+        {
+          "kind": "torpedo",
+          "weapon": "xp8t",
+          "slot": 2,
+          "hardpoint": "hp02"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "f31const",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "fconst.odf",
+      "name": "Coronado Class",
+      "race": "federation",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "fc08phas",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp8t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "fconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "fconst2.odf",
+      "name": "Merced Class",
+      "race": "federation",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "fc08phas",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp8t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "fconst2",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "kconst.odf",
+      "name": "Maj'targh Class",
+      "race": "klingon",
+      "added": [
+        {
+          "kind": "torpedo",
+          "weapon": "xp9t",
+          "slot": 4,
+          "hardpoint": "hp04"
+        }
+      ],
+      "previousWeaponSlots": 3,
+      "model": "kconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "kconst2.odf",
+      "name": "DeghwI Class",
+      "race": "klingon",
+      "added": [
+        {
+          "kind": "torpedo",
+          "weapon": "xp9t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 2,
+      "model": "kconst2",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "rconst.odf",
+      "name": "Nostan Class",
+      "race": "romulan",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "rc01phas",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp10t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "rconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "rconst2.odf",
+      "name": "Selvia Class",
+      "race": "romulan",
+      "added": [
+        {
+          "kind": "torpedo",
+          "weapon": "xp10t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 2,
+      "model": "rconst2",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "uconst.odf",
+      "name": "Universal Assembler",
+      "race": "borg",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "bc1phas",
+          "slot": 3,
+          "hardpoint": "hp03"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp6t",
+          "slot": 4,
+          "hardpoint": "hp04"
+        }
+      ],
+      "previousWeaponSlots": 2,
+      "model": "xbuconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "xbjuconst.odf",
+      "name": "Bajoran Universal Constructor",
+      "race": "bajoran",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "xp14b",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp14t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "br3_xbjuconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "xbruconst.odf",
+      "name": "Breen Universal Constructor",
+      "race": "breen",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "xp13b",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp13t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "xbruconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "xbuconst.odf",
+      "name": "Universal Assembler",
+      "race": "borg",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "bc1phas",
+          "slot": 3,
+          "hardpoint": "hp03"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp6t",
+          "slot": 4,
+          "hardpoint": "hp04"
+        }
+      ],
+      "previousWeaponSlots": 2,
+      "model": "xbuconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "xcuconst.odf",
+      "name": "Cardassian Universal Constructor",
+      "race": "cardassian",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "xp11b",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp11t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "xcuconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "xduconst.odf",
+      "name": "Dominion Universal Constructor",
+      "race": "dominion",
+      "added": [
+        {
+          "kind": "torpedo",
+          "weapon": "xp12t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 2,
+      "model": "xduconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "xfuconst.odf",
+      "name": "Federation Universal Constructor",
+      "race": "federation",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "fc08phas",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp8t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "xfuconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "xkuconst.odf",
+      "name": "Klingon Universal Constructor",
+      "race": "klingon",
+      "added": [
+        {
+          "kind": "torpedo",
+          "weapon": "xp9t",
+          "slot": 4,
+          "hardpoint": "hp04"
+        }
+      ],
+      "previousWeaponSlots": 3,
+      "model": "xkuconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "unit": "xruconst.odf",
+      "name": "Romulan Universal Constructor",
+      "race": "romulan",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "rc01phas",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp10t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "xruconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "714const.odf",
+      "name": "Triton Class",
+      "race": "species8472",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "biolev2",
+          "slot": 3,
+          "hardpoint": "hp03"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp12t",
+          "slot": 4,
+          "hardpoint": "hp04"
+        }
+      ],
+      "previousWeaponSlots": 2,
+      "model": "714const",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "8472_active.odf",
+      "name": "Active Embryo",
+      "race": "species8472",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "biolev2",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp12t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "8472_active",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "8472_defender.odf",
+      "name": "Defender",
+      "race": "species8472",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "biolev2",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp12t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "8472_defender",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "8472_passive.odf",
+      "name": "Passive Embryo",
+      "race": "species8472",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "biolev2",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp12t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "8472_passive",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "bconst.odf",
+      "name": "Assembler",
+      "race": "borg",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "bc1phas",
+          "slot": 3,
+          "hardpoint": "hp03"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp6t",
+          "slot": 4,
+          "hardpoint": "hp04"
+        }
+      ],
+      "previousWeaponSlots": 2,
+      "model": "bconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "bconst2.odf",
+      "name": "Omega Powered Constructor",
+      "race": "borg",
+      "added": [],
+      "previousWeaponSlots": 5,
+      "model": "bconst2",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "bjconst.odf",
+      "name": "Militia Construction Tender",
+      "race": "bajoran",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "xp14b",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp14t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "br3_bjconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "brconst.odf",
+      "name": "Breen Construction Ship",
+      "race": "breen",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "xp13b",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp13t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "brconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "cconst.odf",
+      "name": "Rengar Class",
+      "race": "cardassian",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "xp11b",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp11t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "cconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "dconst.odf",
+      "name": "Jem'Hadar Construction Ship",
+      "race": "dominion",
+      "added": [
+        {
+          "kind": "torpedo",
+          "weapon": "xp12t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 2,
+      "model": "dconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "domconst.odf",
+      "name": "Construction Ship",
+      "race": "cardassian",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "xp11b",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp11t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "domconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "f31const.odf",
+      "name": "Construction Ship",
+      "race": "federation",
+      "added": [
+        {
+          "kind": "torpedo",
+          "weapon": "xp8t",
+          "slot": 2,
+          "hardpoint": "hp02"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "f31const",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "fconst.odf",
+      "name": "Coronado Class",
+      "race": "federation",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "fc08phas",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp8t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "fconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "fconst2.odf",
+      "name": "Merced Class",
+      "race": "federation",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "fc08phas",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp8t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "fconst2",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "kconst.odf",
+      "name": "Maj'targh Class",
+      "race": "klingon",
+      "added": [
+        {
+          "kind": "torpedo",
+          "weapon": "xp9t",
+          "slot": 4,
+          "hardpoint": "hp04"
+        }
+      ],
+      "previousWeaponSlots": 3,
+      "model": "kconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "kconst2.odf",
+      "name": "DeghwI Class",
+      "race": "klingon",
+      "added": [
+        {
+          "kind": "torpedo",
+          "weapon": "xp9t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 2,
+      "model": "kconst2",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "rconst.odf",
+      "name": "Nostan Class",
+      "race": "romulan",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "rc01phas",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp10t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "rconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "rconst2.odf",
+      "name": "Selvia Class",
+      "race": "romulan",
+      "added": [
+        {
+          "kind": "torpedo",
+          "weapon": "xp10t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 2,
+      "model": "rconst2",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "uconst.odf",
+      "name": "Universal Assembler",
+      "race": "borg",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "bc1phas",
+          "slot": 3,
+          "hardpoint": "hp03"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp6t",
+          "slot": 4,
+          "hardpoint": "hp04"
+        }
+      ],
+      "previousWeaponSlots": 2,
+      "model": "xbuconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "xbjuconst.odf",
+      "name": "Bajoran Universal Constructor",
+      "race": "bajoran",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "xp14b",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp14t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "br3_xbjuconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "xbruconst.odf",
+      "name": "Breen Universal Constructor",
+      "race": "breen",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "xp13b",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp13t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "xbruconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "xbuconst.odf",
+      "name": "Universal Assembler",
+      "race": "borg",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "bc1phas",
+          "slot": 3,
+          "hardpoint": "hp03"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp6t",
+          "slot": 4,
+          "hardpoint": "hp04"
+        }
+      ],
+      "previousWeaponSlots": 2,
+      "model": "xbuconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "xcuconst.odf",
+      "name": "Cardassian Universal Constructor",
+      "race": "cardassian",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "xp11b",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp11t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "xcuconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "xduconst.odf",
+      "name": "Dominion Universal Constructor",
+      "race": "dominion",
+      "added": [
+        {
+          "kind": "torpedo",
+          "weapon": "xp12t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 2,
+      "model": "xduconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "xfuconst.odf",
+      "name": "Federation Universal Constructor",
+      "race": "federation",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "fc08phas",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp8t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "xfuconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "xkuconst.odf",
+      "name": "Klingon Universal Constructor",
+      "race": "klingon",
+      "added": [
+        {
+          "kind": "torpedo",
+          "weapon": "xp9t",
+          "slot": 4,
+          "hardpoint": "hp04"
+        }
+      ],
+      "previousWeaponSlots": 3,
+      "model": "xkuconst",
+      "attackEnabled": true
+    },
+    {
+      "root": "D:\\armadaIII",
+      "unit": "xruconst.odf",
+      "name": "Romulan Universal Constructor",
+      "race": "romulan",
+      "added": [
+        {
+          "kind": "beam",
+          "weapon": "rc01phas",
+          "slot": 2,
+          "hardpoint": "hp02"
+        },
+        {
+          "kind": "torpedo",
+          "weapon": "xp10t",
+          "slot": 3,
+          "hardpoint": "hp03"
+        }
+      ],
+      "previousWeaponSlots": 1,
+      "model": "xruconst",
+      "attackEnabled": true
+    }
+  ],
+  "runtimeVerified": false
+}

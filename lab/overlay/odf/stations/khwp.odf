@@ -149,7 +149,7 @@ alert = 1
 combat = 1
 
 // make it bigger
-ScaleSOD = 1.75
+
 
 
 
@@ -201,4 +201,33 @@ crewCost = 200
 
 officerCost = 8
 
-buildTime = 90
+
+
+// Equal visual span: Federation Cyclone reference.
+ScaleSOD = 0.953935785
+
+
+
+
+
+
+
+
+
+
+
+eastBuffer = 0
+
+westBuffer = 0
+
+northBuffer = 0
+
+southBuffer = 0
+
+footprintBuffer = 10
+
+maxCrewGain = 0
+
+officerGain = 0
+
+buildTime = 75

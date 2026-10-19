@@ -20,7 +20,7 @@ race = "klingon"
 //Number of crew required to build ship & Starting crew
 
 //Number of maximum crew (only specified if different from crewCost)
-maximumCrew = 5743
+maximumCrew = 2000
 
 //The number of crew added to the capacity
 maxCrewGain = 5743
@@ -54,15 +54,19 @@ possibleCraftNames = "Ejyowaw-7" "Ejyowaw-24" "Ejyowaw-6" "Ejyowaw-99" "Ejyowaw-
 //ART PARAMETERS & WEAPON NAMES
 
 // Pulse Phaser
-weapon1 = "kc12phas"
+weapon1 = "kc12phas"
+
 
 // Photon Torpedo
-weapon7 = "kc05phot"
+weapon7 = "kc05phot"
+
 
 // Photon Torpedo
-weapon8 = "kc05phot"
+weapon8 = "kc05phot"
 
-// Hardpoints to hit for various systems and other locations.
+
+// Hardpoints to hit for various systems and other locations.
+
 
 //**********************************************************************
 //Construction Parameters
@@ -165,7 +169,7 @@ SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
 // make it bigger
-ScaleSOD = 1.75
+
 
 
 
@@ -220,3 +224,26 @@ buildItem3 = "ksrepair"
 buildItem4 = "kconst2"
 buildItem5 = "kdestroy2"
 buildItem6 = "xkuconst"
+
+// Equal visual span: vanilla Borg Nexus reference.
+ScaleSOD = 2.70301295
+
+
+
+
+
+
+
+
+
+
+
+eastBuffer = 0
+
+westBuffer = 0
+
+northBuffer = 0
+
+southBuffer = 0
+
+footprintBuffer = 80

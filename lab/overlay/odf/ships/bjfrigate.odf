@@ -1,0 +1,177 @@
+#include "frigate.odf"
+
+//MAIN DESIGN PARAMETERS
+
+//Race which can build ship & starting race of ship
+
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxhealth = 760
+
+// Hitpoints
+
+shieldgeneratorhitpoints = 1700
+engineshitpoints = 1700
+weaponshitpoints = 1700
+lifesupporthitpoints = 1700
+sensorshitpoints = 1700
+
+
+//Rate at which shield recharges (points per second... we think)
+shieldrate = 7.6
+
+//Maximum Value of Special Energy
+
+
+//Rate at which special energy recharges (points per second... we think)
+
+
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+	"USS Almirante" "USS Espora" "USS Hercules" "USS Yingtan" "USS Xiamen"
+	"USS Minerva" "USS Isikari" "USS Kongo" "USS Haruna"
+	"USS Anzac" "USS Excelsior" "USS Boxer" "USS Broadsword" "USS Salisbury"
+	"USS Leopard" "USS Whitby" "USS Tribal" "USS Tallinn" "USS Minsk"
+	"USS Knox" "USS Bronstein" "USS Bainbridge" "USS Leahy" "USS Bremen"
+	"USS Brandenburg" "USS Barbaros" "USS Yavuz" "USS Halifax" "USS Loch"
+	"USS Yang" "USS Buckley" "USS Visby" "USS Caldwell" "USS Aylwin"
+	"USS Leander" "USS Argyll" "USS Kent" "USS Grafton" "USS Sutherland"
+	"USS D. Robinson" "USS Brasi"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Phaser
+weapon1 = "fexcelsiorphas"
+
+
+// Photon torpedos
+weapon2 = "frphot"
+
+
+//Detect Cloak 3
+
+
+
+weapon4 = "xbj_gdetectf"
+
+
+
+
+
+// Hardpoints to hit for various systems and other locations.
+
+
+
+
+
+
+criticalTargetHardpoints = 
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponyellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponred = 1.0f
+//**********************************************************************
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "placeholder"
+hotkeyLabel = "HOTKEY_F1"
+
+
+// let's make this a bit bigger
+
+
+
+// ship type for formations
+shipType = "C"
+
+
+//physics file for all other physics stuff
+physicsFile = "fcruiserphys.odf"
+trekPhysicsFile = "fcruiserphys.odf"
+
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumcost = 150
+metalcost = 35
+latinumcost = 0
+biomattercost = 0
+crewcost = 200
+officercost = 5
+buildtime = 17
+
+unitName = "Bajoran Militia Frigate"
+
+tooltip = "Bajoran Militia Frigate"
+
+verboseTooltip = "Bajoran Militia Frigate. Extrapolated interceptor escort family."
+
+race = "bajoran"
+
+
+
+
+
+weapon3 = "frphot"
+
+weapon5 = "xbj_gshldemt"
+baseName = "br3_bjfrigate"
+
+
+
+
+
+
+
+
+
+
+
+
+weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05"
+weaponHardpoints2 = "hp11"
+weaponHardpoints3 = "hp12"
+weaponHardpoints4 = "hp23"
+weaponHardpoints5 = "hp10"
+enginestargethardpoints = "hp08" "hp09" "hp16" "hp17" "hp18" "hp19"
+lifesupporttargethardpoints = "hp06"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+shieldgeneratortargethardpoints = "hp10"
+sensorstargethardpoints = "hp07"
+hulltargethardpoints = "hp13" "hp20"
+
+// Visual size: 150 percent of pre-patch scale.
+ScaleSOD = 2.4
+
+maxSpecialEnergy = 900
+
+specialEnergyRate = 9.0

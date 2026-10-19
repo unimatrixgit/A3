@@ -57,7 +57,9 @@ shieldRate = 14.9
 shieldProtection = 1.0
 
 //**********************************************************************
-//Construction Parameters
+//Construction Parameters
+
+
 
 //Hardpoint location for building.
 buildHardpoint = "hp01"
@@ -91,31 +93,41 @@ eventRepair = "BattleRepair"
 animation=2
 
 // Pulse Phaser
-weapon1 = "biopul4"
+weapon1 = "biopul4"
+
 
 // Pulse Phaser
-weapon2 = "biopul4"
+weapon2 = "biopul4"
+
 
 // Pulse Phaser
-weapon3 = "biopul4"
+weapon3 = "biopul4"
+
 
 // Pulse Phaser
-weapon4 = "biopul4"
+weapon4 = "biopul4"
+
 
 // Pulse Phaser
-weapon5 = "biopul4"
+weapon5 = "biopul4"
+
 
 // Pulse Phaser
-weapon6 = "biopul4"
+weapon6 = "biopul4"
+
 
 // Pulse Phaser
-weapon7 = "biopul4"
+weapon7 = "biopul4"
+
 
 // Pulse Phaser
-weapon8 = "biopul4"
+weapon8 = "biopul4"
 
-// Hardpoints to hit for various systems and other locations.
-"hp12" "hp13" "hp14" "hp15" "hp16"
+
+// Hardpoints to hit for various systems and other locations.
+
+"hp12" "hp13" "hp14" "hp15" "hp16"
+
 "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
 
 physicsFile = "8472_smotPhys.odf"
@@ -132,7 +144,8 @@ classLabel = "starbase"
 // keymapLabel = "starbase"
 hotkeyLabel = "HOTKEY_F6"
 
-// added to change to a Shipyard from a construction ship..this is the name of the SOD
+// added to change to a Shipyard from a construction ship..this is the name of the SOD
+
 
 // So it recomputes the rally point.
 alwaysRecomputeRallyPoint = 1
@@ -150,7 +163,8 @@ SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 can_repair = 0
 can_sandd = 1
-can_explore = 1
+can_explore = 1
+
 
 
 
@@ -198,3 +212,29 @@ hulltargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11"
 criticaltargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11"
 buildItem0 = "8472_active"
 buildItem1 = "8472_passive"
+
+// Break constructor/yard bootstrap cycle; Species 8472 constructor only.
+buildItem2 = "714const"
+
+// Equal visual span: vanilla Borg Nexus reference.
+ScaleSOD = 1.99461374
+
+
+
+
+
+
+
+
+
+
+
+eastBuffer = 0
+
+westBuffer = 0
+
+northBuffer = 0
+
+southBuffer = 0
+
+footprintBuffer = 80

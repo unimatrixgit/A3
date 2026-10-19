@@ -137,7 +137,7 @@ combat = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
-scaleSOD = 2.0
+
 
 
 
@@ -152,3 +152,28 @@ crewCost = 792
 officerCost = 10
 buildTime = 100
 buildItem0 = "xcuconst"
+
+maximumCrew = 2000
+
+// Equal visual span: vanilla Borg Nexus reference.
+ScaleSOD = 4.08229795
+
+
+
+
+
+
+
+
+
+
+
+eastBuffer = 0
+
+westBuffer = 0
+
+northBuffer = 0
+
+southBuffer = 0
+
+footprintBuffer = 80

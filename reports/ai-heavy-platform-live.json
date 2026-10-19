@@ -1,0 +1,160 @@
+{
+  "files": 38,
+  "plansCovered": 35,
+  "backup": "D:\\Xaramada-Modwork\\backups\\ai-heavy-live-20261019-213239",
+  "runtimeVerified": false,
+  "filesCopied": [
+    {
+      "path": "odf/stations/bbase.odf",
+      "sha256": "c1ddafa42015996c87cad28200df72db5ec81d765f036a5e21a5806c2b2a1d54"
+    },
+    {
+      "path": "odf/ships/dconst.odf",
+      "sha256": "0f72580b717d33591dda96a56239d3412ea77deee6c5f74c3b7aa775a9faa8a7"
+    },
+    {
+      "path": "techtree/tech1.tt",
+      "sha256": "5182bc6002dd349fb1b6c4a37e7d280110823252ae4ec51622faba3018f1e32a"
+    },
+    {
+      "path": "techtree/earlytech.tt",
+      "sha256": "72812280ca1b04a0e14c6e22304a16f5b943f4fb84e95358cc17316b195e0b34"
+    },
+    {
+      "path": "techtree/fulltech.tt",
+      "sha256": "b5aac5011b517269f3e91bff8a588ed7d035293ac644bf6ced1df01fd3a3961f"
+    },
+    {
+      "path": "techtree/nosci.tt",
+      "sha256": "67c8a3e4a90472ea0f2a4e54049b2a75a41229bce06d41571f3705679b89440b"
+    },
+    {
+      "path": "techtree/nosuper.tt",
+      "sha256": "ec6451b89223bd31a238e7bc9abad25ebcee2d9a24b883f2add33969828e7779"
+    },
+    {
+      "path": "techtree/nospweap.tt",
+      "sha256": "6d4f59d67d53696f42ae1e268cb990ec7a2ff3e276c0f3cb01cf2fde3df307f7"
+    },
+    {
+      "path": "AI/AIPs/borg_build_list.aip",
+      "sha256": "6a2b7fa4ccdc47fbd3ba99c18cc710f3deaa73189961919b5c71fb1c2f76dd80"
+    },
+    {
+      "path": "AI/AIPs/borg_defensive_list.aip",
+      "sha256": "c9fbdb898b5327046fa1fbdbf9b09d292bb09cd238fac3d6783eb764f922e884"
+    },
+    {
+      "path": "AI/AIPs/borg_endgame_list.aip",
+      "sha256": "6a2b7fa4ccdc47fbd3ba99c18cc710f3deaa73189961919b5c71fb1c2f76dd80"
+    },
+    {
+      "path": "AI/AIPs/borg_instant_action_build_list.aip",
+      "sha256": "6a2b7fa4ccdc47fbd3ba99c18cc710f3deaa73189961919b5c71fb1c2f76dd80"
+    },
+    {
+      "path": "AI/AIPs/borg_offensive_list.aip",
+      "sha256": "6a2b7fa4ccdc47fbd3ba99c18cc710f3deaa73189961919b5c71fb1c2f76dd80"
+    },
+    {
+      "path": "AI/AIPs/bajoran_build_list.aip",
+      "sha256": "5e7b36d32e77191063081b807eefe672d7c85463ca1e5b0189f1715a5ad4bd37"
+    },
+    {
+      "path": "AI/AIPs/bajoran_defensive_list.aip",
+      "sha256": "1fefc3753118e1d49036c317ab81402fe79058ac5956e4e1df4d90f2ade7a5f4"
+    },
+    {
+      "path": "AI/AIPs/bajoran_endgame_list.aip",
+      "sha256": "6d2926ddd11b490d3897d8a13c5870f41b68b0fa67d403d731358b0aec8b6f95"
+    },
+    {
+      "path": "AI/AIPs/bajoran_instant_action_build_list.aip",
+      "sha256": "abb4f8c71ff5ab9acdc331d5588898546027ab504eeac9fa7b6d3cee8c25b4fa"
+    },
+    {
+      "path": "AI/AIPs/bajoran_offensive_list.aip",
+      "sha256": "e9abfec4018dfafd9b3c56da32ef30a069871988f781ce0de7489dffb5c32596"
+    },
+    {
+      "path": "AI/AIPs/cardassian_build_list.aip",
+      "sha256": "07515b25df0a2c67b7a3e60f8a03cba6d18121513d802a4ef55b75030e6394e4"
+    },
+    {
+      "path": "AI/AIPs/cardassian_defensive_list.aip",
+      "sha256": "e9e08e2988b00c9a5189e7f1e4e0ac4542a9ab9999113e3e8428c91f686fce4b"
+    },
+    {
+      "path": "AI/AIPs/cardassian_endgame_list.aip",
+      "sha256": "07515b25df0a2c67b7a3e60f8a03cba6d18121513d802a4ef55b75030e6394e4"
+    },
+    {
+      "path": "AI/AIPs/cardassian_instant_action_build_list.aip",
+      "sha256": "07515b25df0a2c67b7a3e60f8a03cba6d18121513d802a4ef55b75030e6394e4"
+    },
+    {
+      "path": "AI/AIPs/cardassian_offensive_list.aip",
+      "sha256": "07515b25df0a2c67b7a3e60f8a03cba6d18121513d802a4ef55b75030e6394e4"
+    },
+    {
+      "path": "AI/AIPs/federation_build_list.aip",
+      "sha256": "b6ef88ce74259b5687bc45b1014a5a1d7e7e9b022f80560de459f67c674736c6"
+    },
+    {
+      "path": "AI/AIPs/federation_defensive_list.aip",
+      "sha256": "695e1784504f667c3c1cb1db1d700d6a343134d50136d96b2c97e7b55195f24c"
+    },
+    {
+      "path": "AI/AIPs/federation_endgame_list.aip",
+      "sha256": "94ec723a50e3b2c4a1e821f29719c1a4e8a7eba716f3416ab8612dfec6f89a33"
+    },
+    {
+      "path": "AI/AIPs/federation_instant_action_build_list.aip",
+      "sha256": "651d89958f5f58e31e9bd26e0fe888ab8795bc8768f0484bf5ef8f0ad06e7a8f"
+    },
+    {
+      "path": "AI/AIPs/federation_offensive_list.aip",
+      "sha256": "5bce1d7fa1a710146533d81efcfd25bdb5033d8501f63d5aff3d3dc37a8993cd"
+    },
+    {
+      "path": "AI/AIPs/klingon_build_list.aip",
+      "sha256": "8703e96024c2d39cb804ffb90f0a59753dc3b45564db2755288c826430dde369"
+    },
+    {
+      "path": "AI/AIPs/klingon_defensive_list.aip",
+      "sha256": "2d41c8d55ff4602f54fc1f5af92646cd1754227d1b01b9042f31775131950f14"
+    },
+    {
+      "path": "AI/AIPs/klingon_endgame_list.aip",
+      "sha256": "8703e96024c2d39cb804ffb90f0a59753dc3b45564db2755288c826430dde369"
+    },
+    {
+      "path": "AI/AIPs/klingon_instant_action_build_list.aip",
+      "sha256": "8703e96024c2d39cb804ffb90f0a59753dc3b45564db2755288c826430dde369"
+    },
+    {
+      "path": "AI/AIPs/klingon_offensive_list.aip",
+      "sha256": "8703e96024c2d39cb804ffb90f0a59753dc3b45564db2755288c826430dde369"
+    },
+    {
+      "path": "AI/AIPs/dominion_build_list.aip",
+      "sha256": "d1b344925554abbd9b4ebad89583a6ed618bf2fbcac3c43236ce9e6f534866eb"
+    },
+    {
+      "path": "AI/AIPs/dominion_defensive_list.aip",
+      "sha256": "dd697a42b915975f63f92cff92e40b4c038677cb37b983574f035aebef643dcc"
+    },
+    {
+      "path": "AI/AIPs/dominion_endgame_list.aip",
+      "sha256": "d1b344925554abbd9b4ebad89583a6ed618bf2fbcac3c43236ce9e6f534866eb"
+    },
+    {
+      "path": "AI/AIPs/dominion_instant_action_build_list.aip",
+      "sha256": "d1b344925554abbd9b4ebad89583a6ed618bf2fbcac3c43236ce9e6f534866eb"
+    },
+    {
+      "path": "AI/AIPs/dominion_offensive_list.aip",
+      "sha256": "d1b344925554abbd9b4ebad89583a6ed618bf2fbcac3c43236ce9e6f534866eb"
+    }
+  ]
+}

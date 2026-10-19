@@ -93,7 +93,7 @@ alert = 1
 //scan range in meters
 rangeScan = 1000.0f
 
-ScaleSod = 2.7
+
 
 
 baseName = "dturret2"
@@ -144,6 +144,35 @@ crewCost = 200
 
 officerCost = 8
 
-buildTime = 90
+
 
 maximumCrew = 200
+
+// Equal visual span: Federation Cyclone reference.
+ScaleSOD = 2.89508399
+
+
+
+
+
+
+
+
+
+
+
+eastBuffer = 0
+
+westBuffer = 0
+
+northBuffer = 0
+
+southBuffer = 0
+
+footprintBuffer = 10
+
+maxCrewGain = 0
+
+officerGain = 0
+
+buildTime = 75

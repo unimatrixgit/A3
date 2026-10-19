@@ -1,95 +1,64 @@
-//
-// Borg_Build_List.aip
-//
-// Contains a default build list for the klingon AI
-//
-// edited by the Nord
-
-// Load up the basic structures...
+// Borg economy-first beta build order. Three constructor types; native technology checks.
 #include "aipdef.h"
-
-// This aip needs to play by the rules
-int checkTechnologyAvailable = 0;
-
-Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] = 
+int checkTechnologyAvailable = 1;
+Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 {
-//--------------------------------------------------------------------  
-
-//
-// Syntax: "ODF name", number to build, base to build at, max number from this line, min tech level
-//
-
-	//
-	// Phase I. Starting Base, basic defenses, basic shipyard, starting mining
-	//
-
-	"bbase",	1,0, -1,  0,	// nexus
-    "xbuconst", 1, 0, 1, 0, // Faction Universal constructor for advanced facilities
-	"bconst",	1,0, -1,  0,	// assembler
-	"bconst",	1,0, -1,  0,	// assembler
-	"bmining",	1,0, -1,  0,	// mining facility
-	"byard",	1,0, -1,  0,	// standard assembly matrix
-	"bturret",	2,0, -1,  0,	// pulse turret
-	"bdestroy",	1,0, -1,  0,	// interceptor
-	"bfreight",	1,0, -1,  0,	// freighter
-	"bsensor",	1,0, -1,  0,	// sensor turret
-	"bcolony",	1,0, -1,  0,	// colony vessel
-	"byard",	1,0, -1,  0,	// standard assembly matrix
-
-	//
-	// Phase II. shipbuild, further mining, further defense, advanced shipyard
-	//
-
-	"bmining",	1,1, -1,  0,	// mining facility
-	"bturret",	2,1, -1,  0,	// pulse turret
-	"bturret2",	1,0, -1,  0,	// torpedo turret
-	"bcruise1",	1,0, -1,  0,	// sphere
-	"bbase2",	1,0, -1,  0,	// orbital metal extractor
-	"bcruise2",	1,0, -1,  0,	// assimilator
-	"bmining",	1,2, -1,  0,	// mining facility
-	"bassturr",	1,1, -1,  0,	// assimilation facility
-	"byard2",	1,0, -1,  0,	// advanced assembly matrix
-	"bdestroy2", 1,0, -1, 0,	// interceptor mk2
-
-	//
-	// Phase III. further shipbuild, more defenses, 3rd borg shipyard
-	//
-
-	"bturret",	2,2, -1,  0,	// pulse turret
-	"bturret2",	1,1, -1,  0,	// torpedo turret
-	"bassault",	1,0, -1,  0,	// dominator
-	"bbattle1",	1,0, -1,  0,	// cube
-	"bcruise1",	1,0, -1,  0,	// sphere
-	"byard2",	1,0, -1,  0,	// advanced assembly matrix
-	"btacpyr",	1,0, -1,  0,	// tactical pyramid
-	"bassturr",	1,2, -1,  0,	// assmilation facility
-	"byard3",	1,0, -1,  0,	// 3rd construction matrix
-
-	//
-	// Phase IV. base advancement
-	//
-	
-	"bcruise3",	1,0, -1,  0,	// standard pyramid
-	"bbattle2",	1,0, -1,  0,	// tactical cube
-	"bomega1",	1,0, -1,  0,	// omega powered cube
-	"bspecial",	1,0, -1,  0,	// diamond
-	"byard",	1,1, -1,  0,	// standard assembly matrix
-	"bcruise1",	1,0, -1,  0,	// sphere
-	"bcruise2",	1,0, -1,  0,	// assimilator
-	"bfrigate",	1,0, -1,  0,	// deemon tooth
-	"bturret",	1,2, -1,  0,	// pulse turret
-	"bturret2",	1,1, -1,  0,	// torpedo turret
-
-	//
-	// Phase V. base advancement
-	//
-
-	"brenborg",	1,0, -1,  0,	// transwarp prototype
-	"bdestroy",	1,0, -1,  0,	// interceptor
-	"bmining",	1,1, -1,  0,	// mining facility
-	"bbattle1",	1,0, -1,  0,	// cube
-	"bbattle2", 1,0, -1,  0,	// tactical cube
-	"bcruise1",	1,0, -1,  0,	// sphere
-	"bmama",	1,0, -1,  0,	// mama cube
-
-}; 
+    "bbase", 1, 0, -1, 0,
+    "bconst", 2, 0, -1, 0,
+    "bbase2", 1, 0, -1, 0,
+    "bmining", 1, 0, -1, 0,
+    "bfreight", 2, 0, -1, 0,
+    "byard", 1, 0, -1, 0,
+    "bdestroy", 3, 0, -1, 0,
+    "bsensor", 1, 0, -1, 0,
+    "bturret", 2, 0, -1, 0,
+    "bresear", 1, 0, -1, 0,
+    "bcruise1", 2, 0, -1, 0,
+    "bcolony", 1, 0, -1, 0,
+    "bresear2", 1, 0, -1, 0,
+    "xbuconst", 1, 0, -1, 0,
+    "bconst2", 1, 0, -1, 0, // Overflow Assembler before advanced buildings
+    "bupgrade", 1, 0, -1, 0,
+    "byard2", 1, 0, -1, 0,
+    "bhwp", 2, 0, -1, 0, // Heavy defense after economy and required construction tech
+    "bfreight", 3, 0, -1, 0,
+    "bturret2", 2, 0, -1, 0,
+    "bcruise2", 2, 0, -1, 0,
+    "bbattle1", 2, 0, -1, 0,
+    "brecycle", 1, 0, -1, 0,
+    "btechass", 1, 0, -1, 0,
+    "xbharvest", 1, 0, -1, 0,
+    "xbassimst", 1, 0, -1, 0,
+    "xbrepair", 1, 0, -1, 0,
+    "borpod11", 1, 0, -1, 0,
+    "borpod12", 1, 0, -1, 0,
+    "borpod13", 1, 0, -1, 0,
+    "borpod14", 1, 0, -1, 0,
+    "borpod15", 1, 0, -1, 0,
+    "borpod21", 1, 0, -1, 0,
+    "borpod22", 1, 0, -1, 0,
+    "borpod23", 1, 0, -1, 0,
+    "borpod24", 1, 0, -1, 0,
+    "borpod25", 1, 0, -1, 0,
+    "bbattle2", 2, 0, -1, 0,
+    "bspecial", 1, 0, -1, 0,
+    "borpod5", 1, 0, -1, 0,
+    "borpod4", 1, 0, -1, 0,
+    "borpod3", 1, 0, -1, 0,
+    "borpod1", 1, 0, -1, 0,
+    "borpod2", 1, 0, -1, 0,
+    "borpod6", 1, 0, -1, 0,
+    "borpod7", 1, 0, -1, 0,
+    "borpod8", 1, 0, -1, 0,
+    "borpod9", 1, 0, -1, 0,
+    "bsuperbl", 1, 0, -1, 0,
+    "byard3", 1, 0, -1, 0,
+    "blocutus", 1, 0, -1, 0,
+    "bomega1", 1, 0, -1, 0,
+    "xbomegalab", 1, 0, -1, 0,
+    "xbomegapod", 1, 0, -1, 0,
+    "xobbattle1", 1, 0, -1, 0,
+    "bdestroy2", 5, 0, -1, 0,
+    "bbattle1", 4, 0, -1, 0,
+    "bbattle2", 4, 0, -1, 0,
+};

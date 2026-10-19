@@ -1,0 +1,4695 @@
+{
+  "backup": "D:\\Xaramada-Modwork\\backups\\yard2-special-rebalance-20261019-224236",
+  "ships": [
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "bjcruiser",
+      "name": "Bajoran Militia Cruiser",
+      "yards": [
+        "bjyard2"
+      ],
+      "race": "bajoran",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 900.0,
+      "regenBefore": 9.0,
+      "energyAfter": 1200,
+      "regenAfter": 12.0,
+      "maximumActivationCost": 800.0,
+      "abilities": [
+        {
+          "odf": "xbj_gchainp",
+          "name": "Chain Reaction Pulsar",
+          "class": "minelayer",
+          "button": "2",
+          "popup": "3"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "bjtorpedo",
+      "name": "Bajoran Torpedo Cruiser",
+      "yards": [
+        "bjyard2"
+      ],
+      "race": "bajoran",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 601.0,
+      "regenBefore": 5.9,
+      "energyAfter": 1000,
+      "regenAfter": 10.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "xbj_gwcover",
+          "name": "Engine Overload",
+          "class": "areacannon",
+          "button": "3",
+          "popup": "4"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "bjfrigate",
+      "name": "Bajoran Militia Frigate",
+      "yards": [
+        "bjyard2"
+      ],
+      "race": "bajoran",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 760.0,
+      "regenBefore": 7.6,
+      "energyAfter": 900,
+      "regenAfter": 9.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "xbj_gdetectf",
+          "name": "Detect Cloak",
+          "class": "detectcloak",
+          "button": "0",
+          "popup": null
+        },
+        {
+          "odf": "xbj_gshldemt",
+          "name": "Shield Recharger",
+          "class": "areacannon",
+          "button": "5",
+          "popup": "11"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "bjartillery",
+      "name": "Bajoran Long-Range Defense Vessel",
+      "yards": [
+        "bjyard2"
+      ],
+      "race": "bajoran",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1000.0,
+      "regenBefore": 15.0,
+      "energyAfter": 900,
+      "regenAfter": 9.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "xbj_gamine",
+          "name": "Antimatter Mines",
+          "class": "minelayer",
+          "button": "1",
+          "popup": "2"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "bjbattle",
+      "name": "Bajoran Militia Battleship",
+      "yards": [
+        "bjyard2"
+      ],
+      "race": "bajoran",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 990.0,
+      "regenBefore": 9.9,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 80.0,
+      "abilities": [
+        {
+          "odf": "xbj_gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "xbj_gcorbom",
+          "name": "Corbomite Reflector",
+          "class": "reflectweapon",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "bjspecial",
+      "name": "Bajoran Science Support Vessel",
+      "yards": [
+        "bjyard2"
+      ],
+      "race": "bajoran",
+      "added": null,
+      "slotCorrections": [
+        {
+          "from": "xbj_gschainp",
+          "to": "y2a001",
+          "button": 3,
+          "popup": 1
+        }
+      ],
+      "energyBefore": 875.0,
+      "regenBefore": 8.75,
+      "energyAfter": 1800,
+      "regenAfter": 18.0,
+      "maximumActivationCost": 800.0,
+      "abilities": [
+        {
+          "odf": "xbj_gshieldh",
+          "name": "Shield Disruptor",
+          "class": "areamissile",
+          "button": "2",
+          "popup": "8"
+        },
+        {
+          "odf": "xbj_gmanheim",
+          "name": "Gemini Effect",
+          "class": "launcher",
+          "button": "1",
+          "popup": "10"
+        },
+        {
+          "odf": "xbj_gpdlaser",
+          "name": "Point Defense Phaser",
+          "class": "PointDefenseLaser",
+          "button": "4",
+          "popup": "7"
+        },
+        {
+          "odf": "y2a001",
+          "name": "Chain Reaction Pulsar",
+          "class": "minelayer",
+          "button": "3",
+          "popup": "1"
+        },
+        {
+          "odf": "xbj_gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "brfrigate",
+      "name": "Breen Frigate",
+      "yards": [
+        "bryard2"
+      ],
+      "race": "breen",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1500.0,
+      "regenBefore": 10.0,
+      "energyAfter": 900,
+      "regenAfter": 9.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "brgshldemt",
+          "name": "Shield Recharger",
+          "class": "areacannon",
+          "button": "5",
+          "popup": "11"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "brbattle",
+      "name": "Breen Battleship",
+      "yards": [
+        "bryard2"
+      ],
+      "race": "breen",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1000.0,
+      "regenBefore": 15.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 800.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "brgshieldd",
+          "name": "Shield Disruptor",
+          "class": "areamissile",
+          "button": "2",
+          "popup": "8"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "brbattle2",
+      "name": "Breen Dreadnought",
+      "yards": [
+        "bryard2"
+      ],
+      "race": "breen",
+      "added": {
+        "weapon": "brgshieldd",
+        "name": "Shield Disruptor",
+        "hardpoint": "hp01"
+      },
+      "slotCorrections": [],
+      "energyBefore": 0.0,
+      "regenBefore": 0.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 800.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "brgshieldd",
+          "name": "Shield Disruptor",
+          "class": "areamissile",
+          "button": "2",
+          "popup": "8"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "bfrigate",
+      "name": "Deemons Tooth",
+      "yards": [
+        "byard2"
+      ],
+      "race": "borg",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 4600.0,
+      "regenBefore": 25.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "gengyemt",
+          "name": "Special Energy Recharger",
+          "class": "areacannon",
+          "button": "3",
+          "popup": "6"
+        },
+        {
+          "odf": "gtwarpd",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "1",
+          "popup": "2"
+        },
+        {
+          "odf": "xy_bfrigate_gborgbor",
+          "name": "Auto-Assimilator",
+          "class": "toggleweapon",
+          "button": "4",
+          "popup": "4"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "btacpyr",
+      "name": "Tactical Pyramid",
+      "yards": [
+        "byard2"
+      ],
+      "race": "borg",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 4500.0,
+      "regenBefore": 25.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gtwarpd",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "1",
+          "popup": "2"
+        },
+        {
+          "odf": "xacgreen",
+          "name": "Green Holding / Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "3",
+          "popup": "3"
+        },
+        {
+          "odf": "xy_btacpyr_gborgbor",
+          "name": "Auto-Assimilator",
+          "class": "toggleweapon",
+          "button": "4",
+          "popup": "4"
+        },
+        {
+          "odf": "xy_btacpyr_gregen",
+          "name": "Regeneration",
+          "class": "regeneration",
+          "button": "5",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "bbattle1",
+      "name": "Borg Cube",
+      "yards": [
+        "byard2"
+      ],
+      "race": "borg",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 2500.0,
+      "regenBefore": 25.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "xactwarp",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "5",
+          "popup": "5"
+        },
+        {
+          "odf": "xacgreen",
+          "name": "Green Holding / Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "3",
+          "popup": "3"
+        },
+        {
+          "odf": "gdetect3",
+          "name": "Detect Cloak",
+          "class": "detectcloak",
+          "button": "0",
+          "popup": null
+        },
+        {
+          "odf": "gTechAssimBeam",
+          "name": "Technology Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "7",
+          "popup": "7"
+        },
+        {
+          "odf": "xy_bbattle1_gregen",
+          "name": "Regeneration",
+          "class": "regeneration",
+          "button": "1",
+          "popup": "1"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "bspecial",
+      "name": "Diamond",
+      "yards": [
+        "byard2"
+      ],
+      "race": "borg",
+      "added": null,
+      "slotCorrections": [
+        {
+          "from": "gtwarpd",
+          "to": "y2a002",
+          "button": 6,
+          "popup": 2
+        }
+      ],
+      "energyBefore": 8500.0,
+      "regenBefore": 37.0,
+      "energyAfter": 1800,
+      "regenAfter": 18.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "gutribm",
+          "name": "Ultritium Burst",
+          "class": "cannon",
+          "button": "4",
+          "popup": "10"
+        },
+        {
+          "odf": "gnanites",
+          "name": "Nanites",
+          "class": "cannon",
+          "button": "3",
+          "popup": "9"
+        },
+        {
+          "odf": "goverrid",
+          "name": "Computer Override",
+          "class": "cannon",
+          "button": "2",
+          "popup": "8"
+        },
+        {
+          "odf": "gremod",
+          "name": "Shield Remodulation",
+          "class": "cannon",
+          "button": "1",
+          "popup": "7"
+        },
+        {
+          "odf": "y2a002",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "6",
+          "popup": "2"
+        },
+        {
+          "odf": "xy_bspecial_gborgbor",
+          "name": "Auto-Assimilator",
+          "class": "toggleweapon",
+          "button": "5",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "bbattle2",
+      "name": "Tactical Cube",
+      "yards": [
+        "byard2"
+      ],
+      "race": "borg",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 3000.0,
+      "regenBefore": 30.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "xactwarp",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "5",
+          "popup": "5"
+        },
+        {
+          "odf": "xacgreen",
+          "name": "Green Holding / Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "3",
+          "popup": "3"
+        },
+        {
+          "odf": "gdetect3",
+          "name": "Detect Cloak",
+          "class": "detectcloak",
+          "button": "0",
+          "popup": null
+        },
+        {
+          "odf": "gTechAssimBeam",
+          "name": "Technology Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "7",
+          "popup": "7"
+        },
+        {
+          "odf": "xy_bbattle2_gregen",
+          "name": "Regeneration",
+          "class": "regeneration",
+          "button": "1",
+          "popup": "1"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "brenborg",
+      "name": "Transwarp Prototype",
+      "yards": [
+        "byard2"
+      ],
+      "race": "borg",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 3000.0,
+      "regenBefore": 30.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "xbtpgreen",
+          "name": "Green Holding / Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "3",
+          "popup": "3"
+        },
+        {
+          "odf": "xbtpblue",
+          "name": "Auto-Assimilator",
+          "class": "toggleweapon",
+          "button": "4",
+          "popup": "4"
+        },
+        {
+          "odf": "xbtpregen",
+          "name": "Regeneration",
+          "class": "regeneration",
+          "button": "6",
+          "popup": "6"
+        },
+        {
+          "odf": "xbtpwarp",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "5",
+          "popup": "5"
+        },
+        {
+          "odf": "gTechAssimBeam",
+          "name": "Technology Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "7",
+          "popup": "7"
+        },
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "blocutus",
+      "name": "Locutus' Cube",
+      "yards": [
+        "byard2"
+      ],
+      "race": "borg",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 3500.0,
+      "regenBefore": 35.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "xactwarp",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "5",
+          "popup": "5"
+        },
+        {
+          "odf": "xacremod",
+          "name": "Shield Remodulation",
+          "class": "cannon",
+          "button": "6",
+          "popup": "6"
+        },
+        {
+          "odf": "xacgreen",
+          "name": "Green Holding / Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "3",
+          "popup": "3"
+        },
+        {
+          "odf": "gdetect3",
+          "name": "Detect Cloak",
+          "class": "detectcloak",
+          "button": "0",
+          "popup": null
+        },
+        {
+          "odf": "gTechAssimBeam",
+          "name": "Technology Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "7",
+          "popup": "7"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "bsphere",
+      "name": "Tactical Sphere",
+      "yards": [
+        "byard2"
+      ],
+      "race": "borg",
+      "added": null,
+      "slotCorrections": [
+        {
+          "from": "hoverrid",
+          "to": "y2a003",
+          "button": 1,
+          "popup": 8
+        }
+      ],
+      "energyBefore": 2000.0,
+      "regenBefore": 400.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "gregen",
+          "name": "Regeneration",
+          "class": "regeneration",
+          "button": "2",
+          "popup": "3"
+        },
+        {
+          "odf": "y2a003",
+          "name": "Computer Override",
+          "class": "cannon",
+          "button": "1",
+          "popup": "8"
+        },
+        {
+          "odf": "gborgbor",
+          "name": "Auto-Assimilator",
+          "class": "toggleweapon",
+          "button": "3",
+          "popup": "4"
+        },
+        {
+          "odf": "xabtrans5",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "5",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "tcube",
+      "name": "Class VII Tactical Cube",
+      "yards": [
+        "byard2"
+      ],
+      "race": "borg",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 3000.0,
+      "regenBefore": 30.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "xactwarp",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "5",
+          "popup": "5"
+        },
+        {
+          "odf": "xacgreen",
+          "name": "Green Holding / Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "3",
+          "popup": "3"
+        },
+        {
+          "odf": "gdetect3",
+          "name": "Detect Cloak",
+          "class": "detectcloak",
+          "button": "0",
+          "popup": null
+        },
+        {
+          "odf": "gTechAssimBeam",
+          "name": "Technology Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "7",
+          "popup": "7"
+        },
+        {
+          "odf": "xy_tcube_gregen",
+          "name": "Regeneration",
+          "class": "regeneration",
+          "button": "1",
+          "popup": "1"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "bbattle3",
+      "name": "Fusion Cube",
+      "yards": [
+        "byard2"
+      ],
+      "race": "borg",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 3500.0,
+      "regenBefore": 35.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "xactwarp",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "5",
+          "popup": "5"
+        },
+        {
+          "odf": "xacgreen",
+          "name": "Green Holding / Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "3",
+          "popup": "3"
+        },
+        {
+          "odf": "gdetect3",
+          "name": "Detect Cloak",
+          "class": "detectcloak",
+          "button": "0",
+          "popup": null
+        },
+        {
+          "odf": "gTechAssimBeam",
+          "name": "Technology Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "7",
+          "popup": "7"
+        },
+        {
+          "odf": "xy_bbattle3_gregen",
+          "name": "Regeneration",
+          "class": "regeneration",
+          "button": "1",
+          "popup": "1"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "bbattle4",
+      "name": "Tactical Fusion Cube",
+      "yards": [
+        "byard2"
+      ],
+      "race": "borg",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 4000.0,
+      "regenBefore": 40.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "xactwarp",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "5",
+          "popup": "5"
+        },
+        {
+          "odf": "xacgreen",
+          "name": "Green Holding / Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "3",
+          "popup": "3"
+        },
+        {
+          "odf": "gdetect3",
+          "name": "Detect Cloak",
+          "class": "detectcloak",
+          "button": "0",
+          "popup": null
+        },
+        {
+          "odf": "gTechAssimBeam",
+          "name": "Technology Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "7",
+          "popup": "7"
+        },
+        {
+          "odf": "xy_bbattle4_gregen",
+          "name": "Regeneration",
+          "class": "regeneration",
+          "button": "1",
+          "popup": "1"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "cfrigate",
+      "name": "Vasad Class",
+      "yards": [
+        "cyard2"
+      ],
+      "race": "cardassian",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 2200.0,
+      "regenBefore": 38.0,
+      "energyAfter": 900,
+      "regenAfter": 9.0,
+      "maximumActivationCost": 60.0,
+      "abilities": [
+        {
+          "odf": "gsensorscram",
+          "name": "Sensor Scrambler",
+          "class": "rangedobjectaffector",
+          "button": "1",
+          "popup": "11"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "cbattle",
+      "name": "Galor Class",
+      "yards": [
+        "cyard2"
+      ],
+      "race": "cardassian",
+      "added": {
+        "weapon": "gplasmabank",
+        "name": "Plasma Bank Overload",
+        "hardpoint": "hp01"
+      },
+      "slotCorrections": [],
+      "energyBefore": 2200.0,
+      "regenBefore": 38.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gplasmabank",
+          "name": "Plasma Bank Overload",
+          "class": "launcher",
+          "button": "2",
+          "popup": null
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "cspecial",
+      "name": "Kulinor Class",
+      "yards": [
+        "cyard2"
+      ],
+      "race": "cardassian",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1000.0,
+      "regenBefore": 10.0,
+      "energyAfter": 1800,
+      "regenAfter": 18.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "gaccelcannon",
+          "name": "Plasma Cannon",
+          "class": "toggleweapon",
+          "button": "1",
+          "popup": null
+        },
+        {
+          "odf": "gquanteffect",
+          "name": "Quantum Singularity Effect",
+          "class": "quantumeffect",
+          "button": "2",
+          "popup": null
+        },
+        {
+          "odf": "gwarpboost",
+          "name": "Impulse Engine Boost",
+          "class": "speed_boost",
+          "button": "3",
+          "popup": null
+        },
+        {
+          "odf": "gsdisruptor",
+          "name": "Shield Harmonics Disruptor",
+          "class": "toggleweapon",
+          "button": "4",
+          "popup": null
+        },
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "cbattle2",
+      "name": "Keldon Class",
+      "yards": [
+        "cyard2"
+      ],
+      "race": "cardassian",
+      "added": {
+        "weapon": "gplasmabank",
+        "name": "Plasma Bank Overload",
+        "hardpoint": "hp01"
+      },
+      "slotCorrections": [],
+      "energyBefore": 2200.0,
+      "regenBefore": 38.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gplasmabank",
+          "name": "Plasma Bank Overload",
+          "class": "launcher",
+          "button": "2",
+          "popup": null
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "chutet",
+      "name": "Hutet Class",
+      "yards": [
+        "cyard2"
+      ],
+      "race": "cardassian",
+      "added": {
+        "weapon": "gaccelcannon",
+        "name": "Plasma Cannon",
+        "hardpoint": "hp01"
+      },
+      "slotCorrections": [],
+      "energyBefore": 2200.0,
+      "regenBefore": 38.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 100.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gaccelcannon",
+          "name": "Plasma Cannon",
+          "class": "toggleweapon",
+          "button": "1",
+          "popup": null
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "dfrigate",
+      "name": "Jem'Hadar Frigate",
+      "yards": [
+        "dyard2"
+      ],
+      "race": "dominion",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1500.0,
+      "regenBefore": 10.0,
+      "energyAfter": 900,
+      "regenAfter": 9.0,
+      "maximumActivationCost": 60.0,
+      "abilities": [
+        {
+          "odf": "dwenhance",
+          "name": "Weapon Enhancer",
+          "class": "rangedobjectaffector",
+          "button": "5",
+          "popup": "11"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "dbattle",
+      "name": "Jem'Hadar Battle Cruiser",
+      "yards": [
+        "dyard2"
+      ],
+      "race": "dominion",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1000.0,
+      "regenBefore": 10.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 800.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "dgpolerond",
+          "name": "Polaron Torpedo",
+          "class": "launcher",
+          "button": "1",
+          "popup": "2"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "dspecial",
+      "name": "Jem'Hadar Science Ship",
+      "yards": [
+        "dyard2"
+      ],
+      "race": "dominion",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1500.0,
+      "regenBefore": 15.0,
+      "energyAfter": 1800,
+      "regenAfter": 18.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "gholod",
+          "name": "Holo-Emitter",
+          "class": "cannon",
+          "button": "3",
+          "popup": "10"
+        },
+        {
+          "odf": "gvortex",
+          "name": "Vortex",
+          "class": "toggleweapon",
+          "button": "5",
+          "popup": null
+        },
+        {
+          "odf": "prot1",
+          "name": "Protonic Shockwave",
+          "class": "areacannon",
+          "button": "1",
+          "popup": null
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "dbattle2",
+      "name": "Jem'Hadar Warship",
+      "yards": [
+        "dyard2"
+      ],
+      "race": "dominion",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1000.0,
+      "regenBefore": 10.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 800.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gshieldd",
+          "name": "Shield Disruptor",
+          "class": "areamissile",
+          "button": "2",
+          "popup": "8"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "dweyoun",
+      "name": "Weyoun's Command Battleship",
+      "yards": [
+        "dyard2"
+      ],
+      "race": "dominion",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1500.0,
+      "regenBefore": 20.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 800.0,
+      "abilities": [
+        {
+          "odf": "dwgpolerond",
+          "name": "Polaron Torpedo",
+          "class": "launcher",
+          "button": "1",
+          "popup": "2"
+        },
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "fcruise1",
+      "name": "Akira Class",
+      "yards": [
+        "fyard2"
+      ],
+      "race": "federation",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 900.0,
+      "regenBefore": 9.0,
+      "energyAfter": 1200,
+      "regenAfter": 12.0,
+      "maximumActivationCost": 800.0,
+      "abilities": [
+        {
+          "odf": "gchainp",
+          "name": "Chain Reaction Pulsar",
+          "class": "minelayer",
+          "button": "2",
+          "popup": "3"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "ffrigate",
+      "name": "Excelsior Class",
+      "yards": [
+        "fyard2"
+      ],
+      "race": "federation",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 760.0,
+      "regenBefore": 7.6,
+      "energyAfter": 900,
+      "regenAfter": 9.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "gdetectf",
+          "name": "Detect Cloak",
+          "class": "detectcloak",
+          "button": "0",
+          "popup": null
+        },
+        {
+          "odf": "gshldemt",
+          "name": "Shield Recharger",
+          "class": "areacannon",
+          "button": "5",
+          "popup": "11"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "fexcelr",
+      "name": "Excelsior Class Refit",
+      "yards": [
+        "fyard2"
+      ],
+      "race": "federation",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1001.0,
+      "regenBefore": 8.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "ftwarpd",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "1",
+          "popup": "2"
+        }
+      ],
+      "hardpointCorrection": {
+        "ability": "ftwarpd",
+        "old": "hp23",
+        "new": "hp01"
+      }
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "fbattle",
+      "name": "Sovereign Class",
+      "yards": [
+        "fyard2"
+      ],
+      "race": "federation",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1100.0,
+      "regenBefore": 11.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 80.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gcorbom",
+          "name": "Corbomite Reflector",
+          "class": "reflectweapon",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "fsovx",
+      "name": "Sovereign-X Class",
+      "yards": [
+        "fyard2"
+      ],
+      "race": "federation",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1400.0,
+      "regenBefore": 14.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 80.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gcorbom",
+          "name": "Corbomite Reflector",
+          "class": "reflectweapon",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "fprometheus",
+      "name": "Prometheus Class",
+      "yards": [
+        "fyard2"
+      ],
+      "race": "federation",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1200.0,
+      "regenBefore": 12.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 800.0,
+      "abilities": [
+        {
+          "odf": "gshieldh",
+          "name": "Shield Disruptor",
+          "class": "areamissile",
+          "button": "2",
+          "popup": "8"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "fexcalibur",
+      "name": "Excalibur Class",
+      "yards": [
+        "fyard2"
+      ],
+      "race": "federation",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 2000.0,
+      "regenBefore": 20.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "ftwarpd",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "1",
+          "popup": "2"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "kfrigate",
+      "name": "D7H Class",
+      "yards": [
+        "kyard2"
+      ],
+      "race": "klingon",
+      "added": null,
+      "slotCorrections": [
+        {
+          "from": "gkcloak",
+          "to": "y2a004",
+          "button": 1,
+          "popup": 6
+        }
+      ],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 900,
+      "regenAfter": 9.0,
+      "maximumActivationCost": 100.0,
+      "abilities": [
+        {
+          "odf": "wenhance",
+          "name": "Weapon Enhancer",
+          "class": "rangedobjectaffector",
+          "button": "5",
+          "popup": "11"
+        },
+        {
+          "odf": "y2a004",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "1",
+          "popup": "6"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "kbattle2",
+      "name": "Qeh'Ral Class",
+      "yards": [
+        "kyard2"
+      ],
+      "race": "klingon",
+      "added": {
+        "weapon": "gplasmac",
+        "name": "Ion Cannon",
+        "hardpoint": "hp01"
+      },
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "gkcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        },
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gplasmac",
+          "name": "Ion Cannon",
+          "class": "launcher",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "kspecial",
+      "name": "Fek'lhr Class",
+      "yards": [
+        "kyard2"
+      ],
+      "race": "klingon",
+      "added": null,
+      "slotCorrections": [
+        {
+          "from": "gmicro",
+          "to": "y2a005",
+          "button": 4,
+          "popup": 1
+        }
+      ],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1800,
+      "regenAfter": 18.0,
+      "maximumActivationCost": 800.0,
+      "abilities": [
+        {
+          "odf": "gionstm",
+          "name": "Ion Storm",
+          "class": "cannon",
+          "button": "3",
+          "popup": "10"
+        },
+        {
+          "odf": "gdchant",
+          "name": "Death Chant",
+          "class": "areacannon",
+          "button": "1",
+          "popup": "9"
+        },
+        {
+          "odf": "grfield",
+          "name": "Repulsion Wave",
+          "class": "cannon",
+          "button": "2",
+          "popup": "7"
+        },
+        {
+          "odf": "y2a005",
+          "name": "Energy Dissipator",
+          "class": "areamissile",
+          "button": "4",
+          "popup": "1"
+        },
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gkcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "kbattle",
+      "name": "Negh'Var Class",
+      "yards": [
+        "kyard2"
+      ],
+      "race": "klingon",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gkcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        },
+        {
+          "odf": "gplasmac",
+          "name": "Ion Cannon",
+          "class": "launcher",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "kvodleh",
+      "name": "Vod'Leh Class",
+      "yards": [
+        "kyard2"
+      ],
+      "race": "klingon",
+      "added": {
+        "weapon": "gplasmac",
+        "name": "Ion Cannon",
+        "hardpoint": "hp01"
+      },
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gkcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        },
+        {
+          "odf": "gplasmac",
+          "name": "Ion Cannon",
+          "class": "launcher",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "kbwing",
+      "name": "Bloodwing Class",
+      "yards": [
+        "kyard2"
+      ],
+      "race": "klingon",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "gkcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        },
+        {
+          "odf": "gplasmac",
+          "name": "Ion Cannon",
+          "class": "launcher",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "kvood",
+      "name": "Voodien Class",
+      "yards": [
+        "kyard2"
+      ],
+      "race": "klingon",
+      "added": {
+        "weapon": "gplasmac",
+        "name": "Ion Cannon",
+        "hardpoint": "hp01"
+      },
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gkcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        },
+        {
+          "odf": "gplasmac",
+          "name": "Ion Cannon",
+          "class": "launcher",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "kbatleth",
+      "name": "Batleth Class",
+      "yards": [
+        "kyard2"
+      ],
+      "race": "klingon",
+      "added": {
+        "weapon": "gplasmac",
+        "name": "Ion Cannon",
+        "hardpoint": "hp01"
+      },
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gkcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        },
+        {
+          "odf": "gplasmac",
+          "name": "Ion Cannon",
+          "class": "launcher",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "rfrigate",
+      "name": "Veles Class",
+      "yards": [
+        "ryard2"
+      ],
+      "race": "romulan",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 900,
+      "regenAfter": 9.0,
+      "maximumActivationCost": 100.0,
+      "abilities": [
+        {
+          "odf": "gclkenh",
+          "name": "Cloak Enhancer",
+          "class": "rangedobjectaffector",
+          "button": "4",
+          "popup": "11"
+        },
+        {
+          "odf": "grcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "rktinga",
+      "name": "K'Tinga Class",
+      "yards": [
+        "ryard2"
+      ],
+      "race": "romulan",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "grcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        },
+        {
+          "odf": "gplasmaw",
+          "name": "Heated Plasma",
+          "class": "launcher",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "rscruise",
+      "name": "Selmak Class",
+      "yards": [
+        "ryard2"
+      ],
+      "race": "romulan",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1200,
+      "regenAfter": 12.0,
+      "maximumActivationCost": 800.0,
+      "abilities": [
+        {
+          "odf": "grcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        },
+        {
+          "odf": "gposijam",
+          "name": "Sensor Jammer",
+          "class": "areacannon",
+          "button": "2",
+          "popup": "3"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "rbattle2",
+      "name": "Venator Class",
+      "yards": [
+        "ryard2"
+      ],
+      "race": "romulan",
+      "added": {
+        "weapon": "gplasmaw",
+        "name": "Heated Plasma",
+        "hardpoint": "hp01"
+      },
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "grcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        },
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gplasmaw",
+          "name": "Heated Plasma",
+          "class": "launcher",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "rspecial",
+      "name": "Shadow Class",
+      "yards": [
+        "ryard2"
+      ],
+      "race": "romulan",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1800,
+      "regenAfter": 18.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "gpsyblst",
+          "name": "Psychonic Blast",
+          "class": "cannon",
+          "button": "2",
+          "popup": "8"
+        },
+        {
+          "odf": "gpcloak",
+          "name": "Phase Cloak",
+          "class": "phasecloakdevice",
+          "button": "4",
+          "popup": "7"
+        },
+        {
+          "odf": "gholoemt",
+          "name": "Holo-Emitter",
+          "class": "areacannon",
+          "button": "1",
+          "popup": "10"
+        },
+        {
+          "odf": "gesconv",
+          "name": "Shield Projector",
+          "class": "toggleweapon",
+          "button": "3",
+          "popup": "9"
+        },
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "rbattle",
+      "name": "D'Deridex Class",
+      "yards": [
+        "ryard2"
+      ],
+      "race": "romulan",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 100.0,
+      "abilities": [
+        {
+          "odf": "grcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        },
+        {
+          "odf": "gshieldi",
+          "name": "Shield Inversion Beam",
+          "class": "toggleweapon",
+          "button": "4",
+          "popup": "5"
+        },
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        }
+      ]
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "ship": "rdread",
+      "name": "Draconia Class",
+      "yards": [
+        "ryard2"
+      ],
+      "race": "romulan",
+      "added": {
+        "weapon": "gplasmaw",
+        "name": "Heated Plasma",
+        "hardpoint": "hp01"
+      },
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "grcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        },
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gplasmaw",
+          "name": "Heated Plasma",
+          "class": "launcher",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "bjcruiser",
+      "name": "Bajoran Militia Cruiser",
+      "yards": [
+        "bjyard2"
+      ],
+      "race": "bajoran",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 900.0,
+      "regenBefore": 9.0,
+      "energyAfter": 1200,
+      "regenAfter": 12.0,
+      "maximumActivationCost": 800.0,
+      "abilities": [
+        {
+          "odf": "xbj_gchainp",
+          "name": "Chain Reaction Pulsar",
+          "class": "minelayer",
+          "button": "2",
+          "popup": "3"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "bjtorpedo",
+      "name": "Bajoran Torpedo Cruiser",
+      "yards": [
+        "bjyard2"
+      ],
+      "race": "bajoran",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 601.0,
+      "regenBefore": 5.9,
+      "energyAfter": 1000,
+      "regenAfter": 10.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "xbj_gwcover",
+          "name": "Engine Overload",
+          "class": "areacannon",
+          "button": "3",
+          "popup": "4"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "bjfrigate",
+      "name": "Bajoran Militia Frigate",
+      "yards": [
+        "bjyard2"
+      ],
+      "race": "bajoran",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 760.0,
+      "regenBefore": 7.6,
+      "energyAfter": 900,
+      "regenAfter": 9.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "xbj_gdetectf",
+          "name": "Detect Cloak",
+          "class": "detectcloak",
+          "button": "0",
+          "popup": null
+        },
+        {
+          "odf": "xbj_gshldemt",
+          "name": "Shield Recharger",
+          "class": "areacannon",
+          "button": "5",
+          "popup": "11"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "bjartillery",
+      "name": "Bajoran Long-Range Defense Vessel",
+      "yards": [
+        "bjyard2"
+      ],
+      "race": "bajoran",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1000.0,
+      "regenBefore": 15.0,
+      "energyAfter": 900,
+      "regenAfter": 9.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "xbj_gamine",
+          "name": "Antimatter Mines",
+          "class": "minelayer",
+          "button": "1",
+          "popup": "2"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "bjbattle",
+      "name": "Bajoran Militia Battleship",
+      "yards": [
+        "bjyard2"
+      ],
+      "race": "bajoran",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 990.0,
+      "regenBefore": 9.9,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 80.0,
+      "abilities": [
+        {
+          "odf": "xbj_gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "xbj_gcorbom",
+          "name": "Corbomite Reflector",
+          "class": "reflectweapon",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "bjspecial",
+      "name": "Bajoran Science Support Vessel",
+      "yards": [
+        "bjyard2"
+      ],
+      "race": "bajoran",
+      "added": null,
+      "slotCorrections": [
+        {
+          "from": "xbj_gschainp",
+          "to": "y2a001",
+          "button": 3,
+          "popup": 1
+        }
+      ],
+      "energyBefore": 875.0,
+      "regenBefore": 8.75,
+      "energyAfter": 1800,
+      "regenAfter": 18.0,
+      "maximumActivationCost": 800.0,
+      "abilities": [
+        {
+          "odf": "xbj_gshieldh",
+          "name": "Shield Disruptor",
+          "class": "areamissile",
+          "button": "2",
+          "popup": "8"
+        },
+        {
+          "odf": "xbj_gmanheim",
+          "name": "Gemini Effect",
+          "class": "launcher",
+          "button": "1",
+          "popup": "10"
+        },
+        {
+          "odf": "xbj_gpdlaser",
+          "name": "Point Defense Phaser",
+          "class": "PointDefenseLaser",
+          "button": "4",
+          "popup": "7"
+        },
+        {
+          "odf": "y2a001",
+          "name": "Chain Reaction Pulsar",
+          "class": "minelayer",
+          "button": "3",
+          "popup": "1"
+        },
+        {
+          "odf": "xbj_gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "brfrigate",
+      "name": "Breen Frigate",
+      "yards": [
+        "bryard2"
+      ],
+      "race": "breen",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1500.0,
+      "regenBefore": 10.0,
+      "energyAfter": 900,
+      "regenAfter": 9.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "brgshldemt",
+          "name": "Shield Recharger",
+          "class": "areacannon",
+          "button": "5",
+          "popup": "11"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "brbattle",
+      "name": "Breen Battleship",
+      "yards": [
+        "bryard2"
+      ],
+      "race": "breen",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1000.0,
+      "regenBefore": 15.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 800.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "brgshieldd",
+          "name": "Shield Disruptor",
+          "class": "areamissile",
+          "button": "2",
+          "popup": "8"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "brbattle2",
+      "name": "Breen Dreadnought",
+      "yards": [
+        "bryard2"
+      ],
+      "race": "breen",
+      "added": {
+        "weapon": "brgshieldd",
+        "name": "Shield Disruptor",
+        "hardpoint": "hp01"
+      },
+      "slotCorrections": [],
+      "energyBefore": 0.0,
+      "regenBefore": 0.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 800.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "brgshieldd",
+          "name": "Shield Disruptor",
+          "class": "areamissile",
+          "button": "2",
+          "popup": "8"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "bfrigate",
+      "name": "Deemons Tooth",
+      "yards": [
+        "byard2"
+      ],
+      "race": "borg",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 4600.0,
+      "regenBefore": 25.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "gengyemt",
+          "name": "Special Energy Recharger",
+          "class": "areacannon",
+          "button": "3",
+          "popup": "6"
+        },
+        {
+          "odf": "gtwarpd",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "1",
+          "popup": "2"
+        },
+        {
+          "odf": "xy_bfrigate_gborgbor",
+          "name": "Auto-Assimilator",
+          "class": "toggleweapon",
+          "button": "4",
+          "popup": "4"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "btacpyr",
+      "name": "Tactical Pyramid",
+      "yards": [
+        "byard2"
+      ],
+      "race": "borg",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 4500.0,
+      "regenBefore": 25.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gtwarpd",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "1",
+          "popup": "2"
+        },
+        {
+          "odf": "xacgreen",
+          "name": "Green Holding / Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "3",
+          "popup": "3"
+        },
+        {
+          "odf": "xy_btacpyr_gborgbor",
+          "name": "Auto-Assimilator",
+          "class": "toggleweapon",
+          "button": "4",
+          "popup": "4"
+        },
+        {
+          "odf": "xy_btacpyr_gregen",
+          "name": "Regeneration",
+          "class": "regeneration",
+          "button": "5",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "bbattle1",
+      "name": "Borg Cube",
+      "yards": [
+        "byard2"
+      ],
+      "race": "borg",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 2500.0,
+      "regenBefore": 25.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "xactwarp",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "5",
+          "popup": "5"
+        },
+        {
+          "odf": "xacgreen",
+          "name": "Green Holding / Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "3",
+          "popup": "3"
+        },
+        {
+          "odf": "gdetect3",
+          "name": "Detect Cloak",
+          "class": "detectcloak",
+          "button": "0",
+          "popup": null
+        },
+        {
+          "odf": "gTechAssimBeam",
+          "name": "Technology Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "7",
+          "popup": "7"
+        },
+        {
+          "odf": "xy_bbattle1_gregen",
+          "name": "Regeneration",
+          "class": "regeneration",
+          "button": "1",
+          "popup": "1"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "bspecial",
+      "name": "Diamond",
+      "yards": [
+        "byard2"
+      ],
+      "race": "borg",
+      "added": null,
+      "slotCorrections": [
+        {
+          "from": "gtwarpd",
+          "to": "y2a002",
+          "button": 6,
+          "popup": 2
+        }
+      ],
+      "energyBefore": 8500.0,
+      "regenBefore": 37.0,
+      "energyAfter": 1800,
+      "regenAfter": 18.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "gutribm",
+          "name": "Ultritium Burst",
+          "class": "cannon",
+          "button": "4",
+          "popup": "10"
+        },
+        {
+          "odf": "gnanites",
+          "name": "Nanites",
+          "class": "cannon",
+          "button": "3",
+          "popup": "9"
+        },
+        {
+          "odf": "goverrid",
+          "name": "Computer Override",
+          "class": "cannon",
+          "button": "2",
+          "popup": "8"
+        },
+        {
+          "odf": "gremod",
+          "name": "Shield Remodulation",
+          "class": "cannon",
+          "button": "1",
+          "popup": "7"
+        },
+        {
+          "odf": "y2a002",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "6",
+          "popup": "2"
+        },
+        {
+          "odf": "xy_bspecial_gborgbor",
+          "name": "Auto-Assimilator",
+          "class": "toggleweapon",
+          "button": "5",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "bbattle2",
+      "name": "Tactical Cube",
+      "yards": [
+        "byard2"
+      ],
+      "race": "borg",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 3000.0,
+      "regenBefore": 30.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "xactwarp",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "5",
+          "popup": "5"
+        },
+        {
+          "odf": "xacgreen",
+          "name": "Green Holding / Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "3",
+          "popup": "3"
+        },
+        {
+          "odf": "gdetect3",
+          "name": "Detect Cloak",
+          "class": "detectcloak",
+          "button": "0",
+          "popup": null
+        },
+        {
+          "odf": "gTechAssimBeam",
+          "name": "Technology Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "7",
+          "popup": "7"
+        },
+        {
+          "odf": "xy_bbattle2_gregen",
+          "name": "Regeneration",
+          "class": "regeneration",
+          "button": "1",
+          "popup": "1"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "brenborg",
+      "name": "Transwarp Prototype",
+      "yards": [
+        "byard2"
+      ],
+      "race": "borg",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 3000.0,
+      "regenBefore": 30.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "xbtpgreen",
+          "name": "Green Holding / Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "3",
+          "popup": "3"
+        },
+        {
+          "odf": "xbtpblue",
+          "name": "Auto-Assimilator",
+          "class": "toggleweapon",
+          "button": "4",
+          "popup": "4"
+        },
+        {
+          "odf": "xbtpregen",
+          "name": "Regeneration",
+          "class": "regeneration",
+          "button": "6",
+          "popup": "6"
+        },
+        {
+          "odf": "xbtpwarp",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "5",
+          "popup": "5"
+        },
+        {
+          "odf": "gTechAssimBeam",
+          "name": "Technology Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "7",
+          "popup": "7"
+        },
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "blocutus",
+      "name": "Locutus' Cube",
+      "yards": [
+        "byard2"
+      ],
+      "race": "borg",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 3500.0,
+      "regenBefore": 35.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "xactwarp",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "5",
+          "popup": "5"
+        },
+        {
+          "odf": "xacremod",
+          "name": "Shield Remodulation",
+          "class": "cannon",
+          "button": "6",
+          "popup": "6"
+        },
+        {
+          "odf": "xacgreen",
+          "name": "Green Holding / Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "3",
+          "popup": "3"
+        },
+        {
+          "odf": "gdetect3",
+          "name": "Detect Cloak",
+          "class": "detectcloak",
+          "button": "0",
+          "popup": null
+        },
+        {
+          "odf": "gTechAssimBeam",
+          "name": "Technology Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "7",
+          "popup": "7"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "bsphere",
+      "name": "Tactical Sphere",
+      "yards": [
+        "byard2"
+      ],
+      "race": "borg",
+      "added": null,
+      "slotCorrections": [
+        {
+          "from": "hoverrid",
+          "to": "y2a003",
+          "button": 1,
+          "popup": 8
+        }
+      ],
+      "energyBefore": 2000.0,
+      "regenBefore": 400.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "gregen",
+          "name": "Regeneration",
+          "class": "regeneration",
+          "button": "2",
+          "popup": "3"
+        },
+        {
+          "odf": "y2a003",
+          "name": "Computer Override",
+          "class": "cannon",
+          "button": "1",
+          "popup": "8"
+        },
+        {
+          "odf": "gborgbor",
+          "name": "Auto-Assimilator",
+          "class": "toggleweapon",
+          "button": "3",
+          "popup": "4"
+        },
+        {
+          "odf": "xabtrans5",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "5",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "tcube",
+      "name": "Class VII Tactical Cube",
+      "yards": [
+        "byard2"
+      ],
+      "race": "borg",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 3000.0,
+      "regenBefore": 30.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "xactwarp",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "5",
+          "popup": "5"
+        },
+        {
+          "odf": "xacgreen",
+          "name": "Green Holding / Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "3",
+          "popup": "3"
+        },
+        {
+          "odf": "gdetect3",
+          "name": "Detect Cloak",
+          "class": "detectcloak",
+          "button": "0",
+          "popup": null
+        },
+        {
+          "odf": "gTechAssimBeam",
+          "name": "Technology Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "7",
+          "popup": "7"
+        },
+        {
+          "odf": "xy_tcube_gregen",
+          "name": "Regeneration",
+          "class": "regeneration",
+          "button": "1",
+          "popup": "1"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "bbattle3",
+      "name": "Fusion Cube",
+      "yards": [
+        "byard2"
+      ],
+      "race": "borg",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 3500.0,
+      "regenBefore": 35.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "xactwarp",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "5",
+          "popup": "5"
+        },
+        {
+          "odf": "xacgreen",
+          "name": "Green Holding / Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "3",
+          "popup": "3"
+        },
+        {
+          "odf": "gdetect3",
+          "name": "Detect Cloak",
+          "class": "detectcloak",
+          "button": "0",
+          "popup": null
+        },
+        {
+          "odf": "gTechAssimBeam",
+          "name": "Technology Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "7",
+          "popup": "7"
+        },
+        {
+          "odf": "xy_bbattle3_gregen",
+          "name": "Regeneration",
+          "class": "regeneration",
+          "button": "1",
+          "popup": "1"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "bbattle4",
+      "name": "Tactical Fusion Cube",
+      "yards": [
+        "byard2"
+      ],
+      "race": "borg",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 4000.0,
+      "regenBefore": 40.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "xactwarp",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "5",
+          "popup": "5"
+        },
+        {
+          "odf": "xacgreen",
+          "name": "Green Holding / Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "3",
+          "popup": "3"
+        },
+        {
+          "odf": "gdetect3",
+          "name": "Detect Cloak",
+          "class": "detectcloak",
+          "button": "0",
+          "popup": null
+        },
+        {
+          "odf": "gTechAssimBeam",
+          "name": "Technology Assimilation Beam",
+          "class": "toggleweapon",
+          "button": "7",
+          "popup": "7"
+        },
+        {
+          "odf": "xy_bbattle4_gregen",
+          "name": "Regeneration",
+          "class": "regeneration",
+          "button": "1",
+          "popup": "1"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "cfrigate",
+      "name": "Vasad Class",
+      "yards": [
+        "cyard2"
+      ],
+      "race": "cardassian",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 2200.0,
+      "regenBefore": 38.0,
+      "energyAfter": 900,
+      "regenAfter": 9.0,
+      "maximumActivationCost": 60.0,
+      "abilities": [
+        {
+          "odf": "gsensorscram",
+          "name": "Sensor Scrambler",
+          "class": "rangedobjectaffector",
+          "button": "1",
+          "popup": "11"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "cbattle",
+      "name": "Galor Class",
+      "yards": [
+        "cyard2"
+      ],
+      "race": "cardassian",
+      "added": {
+        "weapon": "gplasmabank",
+        "name": "Plasma Bank Overload",
+        "hardpoint": "hp01"
+      },
+      "slotCorrections": [],
+      "energyBefore": 2200.0,
+      "regenBefore": 38.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gplasmabank",
+          "name": "Plasma Bank Overload",
+          "class": "launcher",
+          "button": "2",
+          "popup": null
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "cspecial",
+      "name": "Kulinor Class",
+      "yards": [
+        "cyard2"
+      ],
+      "race": "cardassian",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1000.0,
+      "regenBefore": 10.0,
+      "energyAfter": 1800,
+      "regenAfter": 18.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "gaccelcannon",
+          "name": "Plasma Cannon",
+          "class": "toggleweapon",
+          "button": "1",
+          "popup": null
+        },
+        {
+          "odf": "gquanteffect",
+          "name": "Quantum Singularity Effect",
+          "class": "quantumeffect",
+          "button": "2",
+          "popup": null
+        },
+        {
+          "odf": "gwarpboost",
+          "name": "Impulse Engine Boost",
+          "class": "speed_boost",
+          "button": "3",
+          "popup": null
+        },
+        {
+          "odf": "gsdisruptor",
+          "name": "Shield Harmonics Disruptor",
+          "class": "toggleweapon",
+          "button": "4",
+          "popup": null
+        },
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "cbattle2",
+      "name": "Keldon Class",
+      "yards": [
+        "cyard2"
+      ],
+      "race": "cardassian",
+      "added": {
+        "weapon": "gplasmabank",
+        "name": "Plasma Bank Overload",
+        "hardpoint": "hp01"
+      },
+      "slotCorrections": [],
+      "energyBefore": 2200.0,
+      "regenBefore": 38.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gplasmabank",
+          "name": "Plasma Bank Overload",
+          "class": "launcher",
+          "button": "2",
+          "popup": null
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "chutet",
+      "name": "Hutet Class",
+      "yards": [
+        "cyard2"
+      ],
+      "race": "cardassian",
+      "added": {
+        "weapon": "gaccelcannon",
+        "name": "Plasma Cannon",
+        "hardpoint": "hp01"
+      },
+      "slotCorrections": [],
+      "energyBefore": 2200.0,
+      "regenBefore": 38.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 100.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gaccelcannon",
+          "name": "Plasma Cannon",
+          "class": "toggleweapon",
+          "button": "1",
+          "popup": null
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "dfrigate",
+      "name": "Jem'Hadar Frigate",
+      "yards": [
+        "dyard2"
+      ],
+      "race": "dominion",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1500.0,
+      "regenBefore": 10.0,
+      "energyAfter": 900,
+      "regenAfter": 9.0,
+      "maximumActivationCost": 60.0,
+      "abilities": [
+        {
+          "odf": "dwenhance",
+          "name": "Weapon Enhancer",
+          "class": "rangedobjectaffector",
+          "button": "5",
+          "popup": "11"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "dbattle",
+      "name": "Jem'Hadar Battle Cruiser",
+      "yards": [
+        "dyard2"
+      ],
+      "race": "dominion",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1000.0,
+      "regenBefore": 10.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 800.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "dgpolerond",
+          "name": "Polaron Torpedo",
+          "class": "launcher",
+          "button": "1",
+          "popup": "2"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "dspecial",
+      "name": "Jem'Hadar Science Ship",
+      "yards": [
+        "dyard2"
+      ],
+      "race": "dominion",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1500.0,
+      "regenBefore": 15.0,
+      "energyAfter": 1800,
+      "regenAfter": 18.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "gholod",
+          "name": "Holo-Emitter",
+          "class": "cannon",
+          "button": "3",
+          "popup": "10"
+        },
+        {
+          "odf": "gvortex",
+          "name": "Vortex",
+          "class": "toggleweapon",
+          "button": "5",
+          "popup": null
+        },
+        {
+          "odf": "prot1",
+          "name": "Protonic Shockwave",
+          "class": "areacannon",
+          "button": "1",
+          "popup": null
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "dbattle2",
+      "name": "Jem'Hadar Warship",
+      "yards": [
+        "dyard2"
+      ],
+      "race": "dominion",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1000.0,
+      "regenBefore": 10.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 800.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gshieldd",
+          "name": "Shield Disruptor",
+          "class": "areamissile",
+          "button": "2",
+          "popup": "8"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "dweyoun",
+      "name": "Weyoun's Command Battleship",
+      "yards": [
+        "dyard2"
+      ],
+      "race": "dominion",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1500.0,
+      "regenBefore": 20.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 800.0,
+      "abilities": [
+        {
+          "odf": "dwgpolerond",
+          "name": "Polaron Torpedo",
+          "class": "launcher",
+          "button": "1",
+          "popup": "2"
+        },
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "fcruise1",
+      "name": "Akira Class",
+      "yards": [
+        "fyard2"
+      ],
+      "race": "federation",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 900.0,
+      "regenBefore": 9.0,
+      "energyAfter": 1200,
+      "regenAfter": 12.0,
+      "maximumActivationCost": 800.0,
+      "abilities": [
+        {
+          "odf": "gchainp",
+          "name": "Chain Reaction Pulsar",
+          "class": "minelayer",
+          "button": "2",
+          "popup": "3"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "ffrigate",
+      "name": "Excelsior Class",
+      "yards": [
+        "fyard2"
+      ],
+      "race": "federation",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 760.0,
+      "regenBefore": 7.6,
+      "energyAfter": 900,
+      "regenAfter": 9.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "gdetectf",
+          "name": "Detect Cloak",
+          "class": "detectcloak",
+          "button": "0",
+          "popup": null
+        },
+        {
+          "odf": "gshldemt",
+          "name": "Shield Recharger",
+          "class": "areacannon",
+          "button": "5",
+          "popup": "11"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "fexcelr",
+      "name": "Excelsior Class Refit",
+      "yards": [
+        "fyard2"
+      ],
+      "race": "federation",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1001.0,
+      "regenBefore": 8.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "ftwarpd",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "1",
+          "popup": "2"
+        }
+      ],
+      "hardpointCorrection": {
+        "ability": "ftwarpd",
+        "old": "hp23",
+        "new": "hp01"
+      }
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "fbattle",
+      "name": "Sovereign Class",
+      "yards": [
+        "fyard2"
+      ],
+      "race": "federation",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1100.0,
+      "regenBefore": 11.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 80.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gcorbom",
+          "name": "Corbomite Reflector",
+          "class": "reflectweapon",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "fsovx",
+      "name": "Sovereign-X Class",
+      "yards": [
+        "fyard2"
+      ],
+      "race": "federation",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1400.0,
+      "regenBefore": 14.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 80.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gcorbom",
+          "name": "Corbomite Reflector",
+          "class": "reflectweapon",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "fprometheus",
+      "name": "Prometheus Class",
+      "yards": [
+        "fyard2"
+      ],
+      "race": "federation",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 1200.0,
+      "regenBefore": 12.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 800.0,
+      "abilities": [
+        {
+          "odf": "gshieldh",
+          "name": "Shield Disruptor",
+          "class": "areamissile",
+          "button": "2",
+          "popup": "8"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "fexcalibur",
+      "name": "Excalibur Class",
+      "yards": [
+        "fyard2"
+      ],
+      "race": "federation",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 2000.0,
+      "regenBefore": 20.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "ftwarpd",
+          "name": "Transwarp Drive",
+          "class": "transwarpconduit",
+          "button": "1",
+          "popup": "2"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "kfrigate",
+      "name": "D7H Class",
+      "yards": [
+        "kyard2"
+      ],
+      "race": "klingon",
+      "added": null,
+      "slotCorrections": [
+        {
+          "from": "gkcloak",
+          "to": "y2a004",
+          "button": 1,
+          "popup": 6
+        }
+      ],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 900,
+      "regenAfter": 9.0,
+      "maximumActivationCost": 100.0,
+      "abilities": [
+        {
+          "odf": "wenhance",
+          "name": "Weapon Enhancer",
+          "class": "rangedobjectaffector",
+          "button": "5",
+          "popup": "11"
+        },
+        {
+          "odf": "y2a004",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "1",
+          "popup": "6"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "kbattle2",
+      "name": "Qeh'Ral Class",
+      "yards": [
+        "kyard2"
+      ],
+      "race": "klingon",
+      "added": {
+        "weapon": "gplasmac",
+        "name": "Ion Cannon",
+        "hardpoint": "hp01"
+      },
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "gkcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        },
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gplasmac",
+          "name": "Ion Cannon",
+          "class": "launcher",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "kspecial",
+      "name": "Fek'lhr Class",
+      "yards": [
+        "kyard2"
+      ],
+      "race": "klingon",
+      "added": null,
+      "slotCorrections": [
+        {
+          "from": "gmicro",
+          "to": "y2a005",
+          "button": 4,
+          "popup": 1
+        }
+      ],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1800,
+      "regenAfter": 18.0,
+      "maximumActivationCost": 800.0,
+      "abilities": [
+        {
+          "odf": "gionstm",
+          "name": "Ion Storm",
+          "class": "cannon",
+          "button": "3",
+          "popup": "10"
+        },
+        {
+          "odf": "gdchant",
+          "name": "Death Chant",
+          "class": "areacannon",
+          "button": "1",
+          "popup": "9"
+        },
+        {
+          "odf": "grfield",
+          "name": "Repulsion Wave",
+          "class": "cannon",
+          "button": "2",
+          "popup": "7"
+        },
+        {
+          "odf": "y2a005",
+          "name": "Energy Dissipator",
+          "class": "areamissile",
+          "button": "4",
+          "popup": "1"
+        },
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gkcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "kbattle",
+      "name": "Negh'Var Class",
+      "yards": [
+        "kyard2"
+      ],
+      "race": "klingon",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gkcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        },
+        {
+          "odf": "gplasmac",
+          "name": "Ion Cannon",
+          "class": "launcher",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "kvodleh",
+      "name": "Vod'Leh Class",
+      "yards": [
+        "kyard2"
+      ],
+      "race": "klingon",
+      "added": {
+        "weapon": "gplasmac",
+        "name": "Ion Cannon",
+        "hardpoint": "hp01"
+      },
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gkcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        },
+        {
+          "odf": "gplasmac",
+          "name": "Ion Cannon",
+          "class": "launcher",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "kbwing",
+      "name": "Bloodwing Class",
+      "yards": [
+        "kyard2"
+      ],
+      "race": "klingon",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "gkcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        },
+        {
+          "odf": "gplasmac",
+          "name": "Ion Cannon",
+          "class": "launcher",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "kvood",
+      "name": "Voodien Class",
+      "yards": [
+        "kyard2"
+      ],
+      "race": "klingon",
+      "added": {
+        "weapon": "gplasmac",
+        "name": "Ion Cannon",
+        "hardpoint": "hp01"
+      },
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gkcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        },
+        {
+          "odf": "gplasmac",
+          "name": "Ion Cannon",
+          "class": "launcher",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "kbatleth",
+      "name": "Batleth Class",
+      "yards": [
+        "kyard2"
+      ],
+      "race": "klingon",
+      "added": {
+        "weapon": "gplasmac",
+        "name": "Ion Cannon",
+        "hardpoint": "hp01"
+      },
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 600.0,
+      "abilities": [
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gkcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        },
+        {
+          "odf": "gplasmac",
+          "name": "Ion Cannon",
+          "class": "launcher",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "rfrigate",
+      "name": "Veles Class",
+      "yards": [
+        "ryard2"
+      ],
+      "race": "romulan",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 900,
+      "regenAfter": 9.0,
+      "maximumActivationCost": 100.0,
+      "abilities": [
+        {
+          "odf": "gclkenh",
+          "name": "Cloak Enhancer",
+          "class": "rangedobjectaffector",
+          "button": "4",
+          "popup": "11"
+        },
+        {
+          "odf": "grcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "rktinga",
+      "name": "K'Tinga Class",
+      "yards": [
+        "ryard2"
+      ],
+      "race": "romulan",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "grcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        },
+        {
+          "odf": "gplasmaw",
+          "name": "Heated Plasma",
+          "class": "launcher",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "rscruise",
+      "name": "Selmak Class",
+      "yards": [
+        "ryard2"
+      ],
+      "race": "romulan",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1200,
+      "regenAfter": 12.0,
+      "maximumActivationCost": 800.0,
+      "abilities": [
+        {
+          "odf": "grcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        },
+        {
+          "odf": "gposijam",
+          "name": "Sensor Jammer",
+          "class": "areacannon",
+          "button": "2",
+          "popup": "3"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "rbattle2",
+      "name": "Venator Class",
+      "yards": [
+        "ryard2"
+      ],
+      "race": "romulan",
+      "added": {
+        "weapon": "gplasmaw",
+        "name": "Heated Plasma",
+        "hardpoint": "hp01"
+      },
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "grcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        },
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gplasmaw",
+          "name": "Heated Plasma",
+          "class": "launcher",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "rspecial",
+      "name": "Shadow Class",
+      "yards": [
+        "ryard2"
+      ],
+      "race": "romulan",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1800,
+      "regenAfter": 18.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "gpsyblst",
+          "name": "Psychonic Blast",
+          "class": "cannon",
+          "button": "2",
+          "popup": "8"
+        },
+        {
+          "odf": "gpcloak",
+          "name": "Phase Cloak",
+          "class": "phasecloakdevice",
+          "button": "4",
+          "popup": "7"
+        },
+        {
+          "odf": "gholoemt",
+          "name": "Holo-Emitter",
+          "class": "areacannon",
+          "button": "1",
+          "popup": "10"
+        },
+        {
+          "odf": "gesconv",
+          "name": "Shield Projector",
+          "class": "toggleweapon",
+          "button": "3",
+          "popup": "9"
+        },
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "rbattle",
+      "name": "D'Deridex Class",
+      "yards": [
+        "ryard2"
+      ],
+      "race": "romulan",
+      "added": null,
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1400,
+      "regenAfter": 14.0,
+      "maximumActivationCost": 100.0,
+      "abilities": [
+        {
+          "odf": "grcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        },
+        {
+          "odf": "gshieldi",
+          "name": "Shield Inversion Beam",
+          "class": "toggleweapon",
+          "button": "4",
+          "popup": "5"
+        },
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        }
+      ]
+    },
+    {
+      "root": "D:\\armadaIII",
+      "ship": "rdread",
+      "name": "Draconia Class",
+      "yards": [
+        "ryard2"
+      ],
+      "race": "romulan",
+      "added": {
+        "weapon": "gplasmaw",
+        "name": "Heated Plasma",
+        "hardpoint": "hp01"
+      },
+      "slotCorrections": [],
+      "energyBefore": 2400.0,
+      "regenBefore": 24.0,
+      "energyAfter": 1500,
+      "regenAfter": 15.0,
+      "maximumActivationCost": 1000.0,
+      "abilities": [
+        {
+          "odf": "grcloak",
+          "name": "Cloak",
+          "class": "cloakingdevice",
+          "button": "5",
+          "popup": "6"
+        },
+        {
+          "odf": "gselfdes",
+          "name": "Self Destruct",
+          "class": "selfdestruct",
+          "button": "10",
+          "popup": null
+        },
+        {
+          "odf": "gplasmaw",
+          "name": "Heated Plasma",
+          "class": "launcher",
+          "button": "4",
+          "popup": "5"
+        }
+      ]
+    }
+  ],
+  "runtimeVerified": false,
+  "heavyPlatformBuildTime": 75,
+  "changedFiles": [
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\bjcruiser.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\bjtorpedo.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\bjfrigate.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\bjartillery.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\bjbattle.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\special_weapons\\y2a001.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\bjspecial.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\brfrigate.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\brbattle.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\brbattle2.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\bfrigate.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\btacpyr.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\bbattle1.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\special_weapons\\y2a002.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\bspecial.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\bbattle2.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\brenborg.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\blocutus.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\special_weapons\\y2a003.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\bsphere.ODF"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\tcube.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\bbattle3.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\bbattle4.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\cfrigate.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\cbattle.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\cspecial.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\cbattle2.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\chutet.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\dfrigate.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\dbattle.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\dspecial.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\dbattle2.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\dweyoun.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\fcruise1.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\ffrigate.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\fexcelr.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\fbattle.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\fsovx.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\fprometheus.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\fexcalibur.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\special_weapons\\y2a004.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\kfrigate.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\kbattle2.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\special_weapons\\y2a005.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\kspecial.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\kbattle.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\kvodleh.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\kbwing.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\kvood.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\kbatleth.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\rfrigate.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\rktinga.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\rscruise.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\rbattle2.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\rspecial.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\rbattle.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\ships\\rdread.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "Sprites\\gui_global.spr"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "techtree\\tech1.tt"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "techtree\\earlytech.tt"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "techtree\\fulltech.tt"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "techtree\\nosci.tt"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "techtree\\nosuper.tt"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "techtree\\nospweap.tt"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\stations\\fhwp.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\stations\\khwp.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\stations\\rhwp.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\stations\\chwp.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\stations\\dturret3.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\stations\\bjhwp.odf"
+    },
+    {
+      "root": "D:\\ArmadaLab",
+      "path": "odf\\stations\\bhwp.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\bjcruiser.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\bjtorpedo.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\bjfrigate.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\bjartillery.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\bjbattle.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\special_weapons\\y2a001.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\bjspecial.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\brfrigate.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\brbattle.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\brbattle2.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\bfrigate.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\btacpyr.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\bbattle1.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\special_weapons\\y2a002.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\bspecial.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\bbattle2.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\brenborg.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\blocutus.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\special_weapons\\y2a003.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\bsphere.ODF"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\tcube.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\bbattle3.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\bbattle4.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\cfrigate.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\cbattle.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\cspecial.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\cbattle2.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\chutet.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\dfrigate.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\dbattle.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\dspecial.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\dbattle2.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\dweyoun.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\fcruise1.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\ffrigate.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\fexcelr.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\fbattle.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\fsovx.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\fprometheus.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\fexcalibur.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\special_weapons\\y2a004.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\kfrigate.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\kbattle2.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\special_weapons\\y2a005.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\kspecial.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\kbattle.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\kvodleh.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\kbwing.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\kvood.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\kbatleth.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\rfrigate.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\rktinga.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\rscruise.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\rbattle2.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\rspecial.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\rbattle.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\ships\\rdread.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "Sprites\\gui_global.spr"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "techtree\\tech1.tt"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "techtree\\earlytech.tt"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "techtree\\fulltech.tt"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "techtree\\nosci.tt"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "techtree\\nosuper.tt"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "techtree\\nospweap.tt"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\stations\\fhwp.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\stations\\khwp.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\stations\\rhwp.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\stations\\chwp.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\stations\\dturret3.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\stations\\bjhwp.odf"
+    },
+    {
+      "root": "D:\\armadaIII",
+      "path": "odf\\stations\\bhwp.odf"
+    }
+  ]
+}

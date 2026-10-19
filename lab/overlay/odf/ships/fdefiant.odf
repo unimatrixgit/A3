@@ -1,0 +1,84 @@
+#include "fdestroy.odf"
+
+//This ship is a hero.
+isHero = 1
+
+//Ship label provided because this is a unique ship.
+label = "USS Defiant NX-74205"
+verboseTooltip = "Captain Sisko's Defiant."
+
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 6800
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 68
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 6800
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 68
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "USS Defiant"
+
+eventCloakEngage = "SiskoCloakEngage"
+eventCloakDisengage = "SiskoCloakDisengage"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Xaramada resource costs: original matching class.
+dilithiumCost = 140
+metalCost = 0
+latinumCost = 0
+biomatterCost = 0
+crewCost = 80
+officerCost = 7
+buildTime = 12
+
+
+eventSelect = "XV_fdefiant_Select"
+
+eventAcknowledge = "XV_fdefiant_Acknowledge"
+
+eventAttack = "XV_fdefiant_Attack"
+
+eventStop = "XV_fdefiant_Stop"
+
+eventMove = "XV_fdefiant_Move"
+
+eventRepair = "XV_fdefiant_Repair"
+
+eventRedAlert = "XV_fdefiant_RedAlert"
+
+eventYellowAlert = "XV_fdefiant_YellowAlert"
+
+eventGreenAlert = "XV_fdefiant_GreenAlert"
+
+eventTransport = "XV_fdefiant_Transport"
+
+eventSelfDestruct = "XV_fdefiant_SelfDestruct"
+
+eventDecommission = "XV_fdefiant_Decommission"
+
+
+
+// Visual size: 150 percent of pre-patch scale.
+ScaleSOD = 0.588489

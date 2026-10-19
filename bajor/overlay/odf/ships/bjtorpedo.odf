@@ -34,10 +34,10 @@ sensorshitpoints = 1415
 shieldrate = 5.9
 
 //Maximum Value of Special Energy
-maxspecialenergy = 601
+
 
 //Rate at which special energy recharges (points per second... we think)
-specialenergyrate = 5.9
+
 
 //**********************************************************************
 //SHIP NAMES
@@ -154,3 +154,7 @@ shieldgeneratortargethardpoints = "hp06"
 sensorstargethardpoints = "hp18"
 hulltargethardpoints = "hp18" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
 criticaltargethardpoints = "hp14" "hp15"
+
+maxSpecialEnergy = 1000
+
+specialEnergyRate = 10.0

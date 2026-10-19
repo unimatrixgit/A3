@@ -1,0 +1,40 @@
+#include "8472_frigate.odf"
+unitName = "Brood Sentinel"
+tooltip = "Brood Sentinel"
+verboseTooltip = "A long-spined tactical guardian with elongated organic fins. Hero organism; rebuilt at the Advanced Hatchery."
+race = "species8472"
+baseName = "xhs_sentinel"
+isHero = 1
+label = "Brood Sentinel"
+maxHealth = 3362
+biomatterCost = 348
+buildTime = 35
+
+possibleCraftNames = "Brood Sentinel"
+
+eventSelect = "XV_xhshero_Select"
+
+eventAcknowledge = "XV_xhshero_Acknowledge"
+
+eventAttack = "XV_xhshero_Attack"
+
+eventStop = "XV_xhshero_Stop"
+
+eventMove = "XV_xhshero_Move"
+
+eventRepair = "XV_xhshero_Repair"
+
+eventRedAlert = "XV_xhshero_RedAlert"
+
+eventYellowAlert = "XV_xhshero_YellowAlert"
+
+eventGreenAlert = "XV_xhshero_GreenAlert"
+
+eventTransport = "XV_xhshero_Transport"
+
+eventSelfDestruct = "XV_xhshero_SelfDestruct"
+
+eventDecommission = "XV_xhshero_Decommission"
+
+// Visual size: 150 percent of pre-patch scale.
+ScaleSOD = 1.5

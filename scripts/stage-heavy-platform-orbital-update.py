@@ -56,7 +56,7 @@ for number,name in enumerate(heavy+miners,1):
  t=re.sub(r'(?mi)^[ \t]*weapon(?:Hardpoints)?\d+[ \t]*=[^\r\n]*','',t)
  layout=[(aliases['beam'],[hps[i%len(hps)]])for i in range(bank_count)]+[(aliases['torpedo'],[hps[(bank_count+i)%len(hps)]])for i in range(2)]
  if name in heavy:layout.append((aliases['rapid'],[hps[5%len(hps)]]))
- layout+=preserved
+ layout=preserved+layout  # Native orbital mining must remain in weapon slot 1.
  if len(layout)>16:raise ValueError('Weapon slot overflow '+name)
  for i,(w,hp)in enumerate(layout,1):
   hp=hp or[hps[(i-1)%len(hps)]]

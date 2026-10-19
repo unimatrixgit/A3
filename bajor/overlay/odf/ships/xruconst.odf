@@ -48,7 +48,20 @@ maxSpecialEnergy = 2400
 specialEnergyRate = 24 
 
 //**********************************************************************
-//Construction Parameters
+//Construction Parameters
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //**********************************************************************
 //Worker Bee Parameters
@@ -84,7 +97,8 @@ hullTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
 criticalTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
 
 //**********************************************************************
-
+
+
 
 
 
@@ -113,3 +127,17 @@ buildItem5 = "dbase"
 buildItem6 = "brbase"
 buildItem7 = "bjbase"
 buildItem8 = "rupgrade"
+
+weapon2 = "rc01phas"
+
+weaponHardpoints2 = "hp02"
+
+weapon3 = "xp10t"
+
+weaponHardpoints3 = "hp03"
+
+canAttack = 1
+
+combat = 1
+
+alert = 1

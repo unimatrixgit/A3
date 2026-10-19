@@ -170,7 +170,7 @@ weapon5 = "fdefiantphot"
 
 weapon8 = "xbj_gfcloak"
 baseName = "br3_bjinterceptor"
-ScaleSOD = 0.48
+
 
 
 
@@ -201,3 +201,6 @@ shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
 sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
 hulltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
 criticaltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+
+// Visual size: 150 percent of pre-patch scale.
+ScaleSOD = 0.72

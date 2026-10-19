@@ -123,9 +123,10 @@ hotkeyLabel = "HOTKEY_F6"
 
 
 // let's make this a bit bigger
-ScaleSOD = 1.5
 
-baseName = "fvoyager"
+
+baseName = "fvoyager"
+
 
 
 //physics file for all other physics stuff
@@ -141,7 +142,8 @@ latinumCost = 0
 biomatterCost = 0
 crewCost = 250
 officerCost = 8
-buildTime = 25
+buildTime = 25
+
 
 eventSelect = "XV_fvoyager_Select"
 
@@ -166,3 +168,6 @@ eventTransport = "XV_fvoyager_Transport"
 eventSelfDestruct = "XV_fvoyager_SelfDestruct"
 
 eventDecommission = "XV_fvoyager_Decommission"
+
+// Visual size: 150 percent of pre-patch scale.
+ScaleSOD = 2.25

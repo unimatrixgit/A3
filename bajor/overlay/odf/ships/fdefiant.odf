@@ -24,7 +24,8 @@ specialEnergyRate = 68
 //SHIP NAMES
 
 //Possible Craft Names
-possibleCraftNames = "USS Defiant"
+possibleCraftNames = "USS Defiant"
+
 eventCloakEngage = "SiskoCloakEngage"
 eventCloakDisengage = "SiskoCloakDisengage"
 
@@ -50,7 +51,8 @@ latinumCost = 0
 biomatterCost = 0
 crewCost = 80
 officerCost = 7
-buildTime = 12
+buildTime = 12
+
 
 eventSelect = "XV_fdefiant_Select"
 
@@ -75,3 +77,8 @@ eventTransport = "XV_fdefiant_Transport"
 eventSelfDestruct = "XV_fdefiant_SelfDestruct"
 
 eventDecommission = "XV_fdefiant_Decommission"
+
+
+
+// Visual size: 150 percent of pre-patch scale.
+ScaleSOD = 0.588489

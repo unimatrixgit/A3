@@ -147,7 +147,7 @@ SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
 // make it bigger
-ScaleSOD = 2.5
+
 
 
 
@@ -199,4 +199,33 @@ crewCost = 200
 
 officerCost = 8
 
-buildTime = 90
+
+
+// Equal visual span: Federation Cyclone reference.
+ScaleSOD = 1.13365623
+
+
+
+
+
+
+
+
+
+
+
+eastBuffer = 0
+
+westBuffer = 0
+
+northBuffer = 0
+
+southBuffer = 0
+
+footprintBuffer = 10
+
+maxCrewGain = 0
+
+officerGain = 0
+
+buildTime = 75

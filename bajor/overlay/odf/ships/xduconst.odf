@@ -26,7 +26,21 @@ hullHitPercent = 57.0f
 
 // End main properties
 
-// Begin build menu
+// Begin build menu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // End build menu
 
@@ -89,7 +103,7 @@ workerBeeName = "bbee"
 weldingBeamWidth = 5.0
 
 
-canAttack = 0
+
 numberOfWorkerBees = 6
 weldingBeamSprite = "weldbeam"
 timeUntilTakeoff = 2.0
@@ -126,7 +140,8 @@ has_crew = 1
 transporter = 1
 can_explore = 1
 
-// End misc properties
+// End misc properties
+
 
 
 
@@ -157,3 +172,13 @@ buildItem7 = "bjbase"
 buildItem8 = "dupgrade"
 buildItem9 = "zsuperbl"
 buildItem10 = "dyard3"
+
+weapon3 = "xp12t"
+
+weaponHardpoints3 = "hp03"
+
+canAttack = 1
+
+combat = 1
+
+alert = 1

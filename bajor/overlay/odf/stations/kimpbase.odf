@@ -158,7 +158,7 @@ combat = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
-ScaleSOD = 4.5
+
 
 
 
@@ -177,3 +177,28 @@ buildItem1 = "kdestroy2"
 buildItem2 = "kimpkoto"
 buildItem3 = "kgunboat"
 buildItem4 = "xkuconst"
+
+maximumCrew = 2000
+
+// Equal visual span: vanilla Borg Nexus reference.
+ScaleSOD = 2.7785273
+
+
+
+
+
+
+
+
+
+
+
+eastBuffer = 0
+
+westBuffer = 0
+
+northBuffer = 0
+
+southBuffer = 0
+
+footprintBuffer = 80

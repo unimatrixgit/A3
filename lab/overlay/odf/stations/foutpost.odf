@@ -1,0 +1,226 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Spartan Class"
+
+//tooltips
+tooltip = "Spartan Class - Outpost"
+verboseTooltip = "This station is well armed but lacks the firepower of a Starbase."
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Number of maximum crew (only specified if different from crewCost)
+maximumCrew = 2000
+
+//The number of crew added to the capacity
+maxCrewGain = 3000
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Number of Officers starbase gives by default
+officerGain = 100
+
+//Maximum number of officer quarters
+maximumUpgrades = 6
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 3000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 30
+
+//Shield absorbs all damage until it's gone
+shieldProtection = 1.0
+
+// Rate at which latinum is transfered from freighters
+latinumTransferRate = 15.0
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Outpost 612" "Outpost 473" "Outpost 263" "Outpost 823"
+	"Outpost 173" "Outpost 383" "Outpost 420" "Outpost 252" 
+	"Outpost 419" "Outpost 521" "Outpost 152" "Outpost 528"
+	"Outpost 357" "Outpost 523" "Outpost 162" "Outpost 693"
+	"Outpost 344" "Outpost 182" "Outpost 106" "Outpost 260"
+	"Outpost 123" "Outpost 312" "Outpost 412" "Outpost 411"
+	"Outpost 452" "Outpost 422" "Outpost 102" "Outpost 34"
+	"Outpost 62" "Outpost 17" "Outpost 93" "Outpost 27"
+	"Outpost 303" "Outpost 72" "Outpost 28" "Outpost 64"
+	"Outpost 82" "Outpost 12" "Outpost 44" "Outpost 77"
+	"Outpost 11" "Outpost 34" "Outpost 67" "Outpost 69"
+	"Outpost 99" "Outpost 86" "Outpost 268" "Outpost 623"
+	"Outpost 40" "Outpost 176"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Pulse Phaser
+weapon1 = "foutpostpulse"
+weaponHardpoints1 = "hp01" 
+
+// Pulse Phaser
+weapon2 = "foutpostpulse"
+weaponHardpoints2 = "hp02" 
+
+// Pulse Phaser
+weapon3 = "foutpostpulse"
+weaponHardpoints3 = "hp03"
+
+// Pulse Phaser
+weapon4 = "foutpostpulse"
+weaponHardpoints4 = "hp04"
+
+// Pulse Phaser
+weapon5 = "foutpostpulse"
+weaponHardpoints5 = "hp05"
+
+// Pulse Phaser
+weapon6 = "foutpostpulse"
+weaponHardpoints6 = "hp06"
+
+// Pulse Phaser
+weapon7 = "foutpostpulse"
+weaponHardpoints7 = "hp07"
+
+// Pulse Phaser
+weapon8 = "foutpostpulse"
+weaponHardpoints8 = "hp08"
+
+// Photon Torpedo
+//weapon2 = "fdphot"
+//weaponHardpoints2 = "hp200" "hp201" "hp202" "hp203" "hp204" "hp205" "hp206" "hp207"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
+lifeSupportTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+shieldGeneratorTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
+sensorsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
+hullTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16" "hp17" "hp18" "hp19" "hp20"
+criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16" "hp17" "hp18" "hp19" "hp20"
+
+//**********************************************************************
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+
+
+
+//Hardpoint location for building.
+buildHardpoint = "hp30"
+
+dockinghardpoint = "hp31"
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 8000
+enginesHitPoints = 0
+weaponsHitPoints = 8000
+lifeSupportHitPoints = 8000
+sensorsHitPoints = 8000
+
+//**********************************************************************
+
+
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "StarbaseSelect"
+eventAcknowledge = "StarbaseAcknowledge"
+eventAttack = "StarbaseAttack"
+eventDecommission = "StarbaseDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "starbase"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "starbase"
+hotkeyLabel = "HOTKEY_F1"
+
+//************************************************************
+// Brian additions for context sensitive menus
+alert = 1
+combat = 1
+builder_ship = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+// let's make this a bit bigger
+
+
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 1415
+metalCost = 1415
+latinumCost = 0
+biomatterCost = 0
+crewCost = 350
+officerCost = 8
+buildTime = 84
+buildItem0 = "fconst"
+buildItem1 = "ffreight"
+buildItem2 = "fcargo"
+buildItem3 = "fsrepair"
+buildItem4 = "fscout"
+buildItem5 = "fdeltaflyer"
+buildItem6 = "fantares"
+buildItem7 = "xfuconst"
+
+// Equal visual span: vanilla Borg Nexus reference.
+ScaleSOD = 3.57364798
+
+
+
+
+
+
+
+
+
+
+
+eastBuffer = 0
+
+westBuffer = 0
+
+northBuffer = 0
+
+southBuffer = 0
+
+footprintBuffer = 80

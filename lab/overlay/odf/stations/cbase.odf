@@ -1,0 +1,257 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "cardassian"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//The number of crew added to the capacity
+maxCrewGain = 5500
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Number of Officers starbase gives by default
+officerGain = 16
+
+//Maximum number of officer quarters
+maximumUpgrades = 6
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 6104
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 5.9
+
+//Shield absorbs all damage until it's gone
+shieldProtection = 1.0
+
+// rate at which latinum is removed from freighters
+latinumTransferRate = 15.0
+
+//Possible Craft Names
+
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Pulse Phaser
+weapon1 = "cc10phas"
+
+
+// Pulse Phaser
+weapon2 = "cc10phas"
+
+
+// Pulse Phaser
+weapon3 = "cc08plas"
+
+
+// Hardpoints to hit for various systems and other locations.
+
+"HP07" "HP08"
+
+"HP07" "HP08"
+
+"HP07" "HP08"
+
+"HP07" "HP08"
+
+"HP07" "HP08"
+
+"HP07" "HP08"
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+
+//Hardpoint location for building.
+buildHardpoint = "build"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.50f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 2.00f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.5f
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 997
+enginesHitPoints = 0
+weaponsHitPoints = 999
+lifeSupportHitPoints = 1000
+sensorsHitPoints = 999
+
+//**********************************************************************
+//SYSTEM DAMAGE DISTRIBUTION
+//The following section's values should add up to 100
+//Percent Chance out of 100 of engines being destroyed
+enginesHitPercent = 0.0f
+
+//Percent Chance out of 100 of life support being destroyed
+lifeSupportHitPercent = 10.5f
+
+//Percent Chance out of 100 of weapons being destroyed
+weaponsHitPercent = 10.0f
+
+//Percent Chance out of 100 of shields being destroyed
+shieldGeneratorHitPercent = 13.0f
+
+//Percent Chance out of 100 of sensors being destroyed
+sensorsHitPercent = 13.0f
+
+//Percent Chance out of 100 of hull being hit (crew dying)
+crewHitPercent = 13.5f
+
+//Percent Chance out of 100 of entire ship exploding
+hullHitPercent = 40.0f
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "StarbaseSelect"
+eventAcknowledge = "StarbaseAcknowledge"
+eventAttack = "StarbaseAttack"
+eventDecommission = "StarbaseDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "starbase"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "starbase"
+hotkeyLabel = "HOTKEY_F1"
+
+//************************************************************
+// Brian additions for context sensitive menus
+builder_ship = 1
+transporter = 1
+alert = 1
+combat = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 2000
+metalCost = 2000
+latinumCost = 0
+biomatterCost = 0
+crewCost = 150
+officerCost = 10
+buildTime = 100
+
+baseName = "xvstock_cbase"
+
+weaponhardpoints1 = "HP01"
+
+weaponhardpoints2 = "HP02"
+
+weaponhardpoints3 = "HP03"
+
+weaponhardpoints4 = "HP04"
+
+weaponhardpoints5 = "HP05"
+
+weaponhardpoints6 = "HP06"
+
+weaponhardpoints7 = "HP07"
+
+weaponhardpoints8 = "HP08"
+
+enginestargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" 
+
+lifesupporttargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" 
+
+weaponstargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" 
+
+shieldgeneratortargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" 
+
+sensorstargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" 
+
+hulltargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" 
+
+criticaltargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06"
+buildItem0 = "cconst"
+buildItem1 = "cfreight"
+buildItem2 = "ccargo"
+buildItem3 = "csrepair"
+buildItem4 = "domconst"
+buildItem5 = "xcuconst"
+unitName = "Terok Nor"
+tooltip = "Terok Nor"
+verboseTooltip = "Cardassian Terok Nor command station. Nor-class station naming theme; existing combat and economic statistics retained."
+possibleCraftNames = "Terok Nor" "Empok Nor" "Keldar Nor" "Velor Nor" "Damar Nor" "Lakarian Nor"
+
+maximumCrew = 2000
+
+// Equal visual span: vanilla Borg Nexus reference.
+ScaleSOD = 2.1593943
+
+
+
+
+
+
+
+
+
+
+
+eastBuffer = 0
+
+westBuffer = 0
+
+northBuffer = 0
+
+southBuffer = 0
+
+footprintBuffer = 80

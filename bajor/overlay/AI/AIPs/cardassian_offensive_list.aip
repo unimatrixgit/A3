@@ -1,112 +1,78 @@
-
-// Load up the basic structures...
+// Cardassian economy recovery:metal and dilithium before research;early defense.
 #include "aipdef.h"
-
-// This aip needs to play by the rules
-int checkTechnologyAvailable = 0;
-
-Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] = 
+int checkTechnologyAvailable = 1;
+Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 {
-//--------------------------------------------------------------------  
-
-//
-// Syntax: "ODF name", number to build, base to build at, max number from this line, min tech level
-//
-
-	//
-	// Phase I. Starting Base, basic defenses, basic shipyard, starting mining
-	//
-
-	"cbase",	1,0, -1,  1,	// starbase
-    "xcuconst", 1, 0, 1, 0, // Faction Universal constructor for advanced facilities
-	"cconst",	1,0, -1,  0,	// construction ship 
-	"cconst",	1,0, -1,  0,	// construction ship
-	"cscout",	1,0, -1,  0,	// hideki class
-	"cmining",	1,0, -1,  0,	// mining station
-	"cfreight",	1,0, -1,  0,	// freighter
-	"cturret",	2,0, -1,  0,	// ODP
-	"cturret2",	1,0, -1,  0,	// torpedo turret
-	"cyard",	1,0, -1,  0,	// shipyard
-
-	//
-	// Phase II. shipbuild, further mining, further defense, advanced shipyard
-	//
-
-	"ccolony",	1,0, -1,  0,	// colony vessel
-	"cmining",	1,1, -1,  0,	// mining station
-	"corbital",	1,0, -1,  0,	// orbital station
-	"domconst",	1,0, -1,  0,	// dominion construction vessel
-	"cyard",	1,0, -1,  0,	// shipyard
-	"cdestroy",	1,0, -1,  0,	// rasilik class
-	"cturret",	2,1, -1,  0,	// ODP
-	"cmining",	1,2, -1,  0,	// mining station
-	"csensor",	1,1, -1,  0,	// sensor turret
-	"cyard2",	1,0, -1,  0,	// advanced shipyard
-	"cbattle",	1,0, -1,  0,	// galor class
-	"domyard",	1,0, -1,  0,	// dominion shipyard
-
-	//
-	// Phase III. further shipbuild, more defenses, obsidian order shipyard
-	//
-
-	"cmining",	1,1, -1,  0,	// mining station
-	"cturret",	1,1, -1,  0,	// ODP
-	"cturret2",	1,1, -1,  0,	// torpedo turret
-	"ckimal",	1,0, -1,  0,	// kimal class
-	"cobyard",	1,0, -1,  0,	// obsidian order shipyard
-	"cturret",	2,2, -1,  0,	// ODP
-	"cogalor",	1,0, -1,  0,	// obsidian order galor class
-	"cassault",	1,0, -1,  0,	// janissary class
-	"csrepair",	1,0, -1,  0,	// repair vessel
-	"jemdest",	1,0, -1,  0,	// jem hadar destroyer
-	"cturret2",	1,2, -1,  0,	// torpedo turret
-	"ccruise1", 1,0, -1,  0,	// brinok class
-	"jemdest",	1,0, -1,  0,	// jem hadar destroyer
-	"cspecial",	1,0, -1,  0,	// kulinor class
-
-	//
-	// Phase IV. base advancement
-	//
-	
-	"ccolony",	1,0, -1,  0,	// colony vessel
-	"jemdest",	1,0, -1,  0,	// jem hadar destroyer
-	"cyard2",	1,1, -1,  0,	// advanced shipyard
-	"chutet",	1,0, -1,  0,	// hutet class
-	"domdred",	1,0, -1,  0,	// dominion dreadnought
-	"cturret",	1,2, -1,  0,	// ODP
-	"dombase",	1,2, -1,  0,	// dominion starbase
-	"ccruise2",	1,0, -1,  0,	// gul vystan class
-	"ccruise3",	1,0, -1,  0,	// legate class
-	"cbattle",	1,0, -1,  0,	// galor class
-	"cturret",	1,1, -1,  0,	// ODP
-	"corbital",	1,1, -1,  0,	// orbital station
-
-	//
-	// Phase V. Sona introduction
-	//
-
-	"domyard",	1,1, -1,  0,	// dominion shipyard
-	"sonabat",	1,0, -1,  0,	// sona battleship
-	"cokeldon",	1,0, -1,  0,	// obsidian order keldon class
-	"cdestroy2", 1,0, -1, 0,	// sartan class
-	"cardassian_super_station", 1,0, -1,  0,	// dreandought missile facility
-	"csuper",	1,0, -1,  0,	// dreadnought missile
-	"cbattle",	1,0, -1,  0,	// galor class
-	"cbattle2",	1,0, -1,  0,	// keldon class
-	"dombat",	1,0, -1,  0,	// dominion battleship
-
-	//
-	// Phase VI. final phase
-	//
-
-	"cfrigate",	1,0, -1,  0,	// vasad class
-	"jemdest2",	1,0, -1,  0,	// jem hadar advanced destroyer
-	"cbattle",	1,0, -1,  0,	// galor class
-	"ckimal",	1,0, -1,  0,	// kimal class
-	"ccruise2",	1,0, -1,  0,	// gul vystan class
-	"cokeldon",	1,0, -1,  0,	// obdisian order keldon class
-	"sonadest",	1,0, -1,  0,	// sona destroyer
-	"cdestroy",	1,0, -1,  0,	// rasilik class
-	"cstation",	1,0, -1,  0,	// nor class battlestation
-
-}; 
+    "cbase", 1, 0, -1, 0,
+    "cconst", 2, 0, -1, 0,
+    "corbital", 1, 0, -1, 0,
+    "cmining", 1, 0, -1, 0,
+    "cfreight", 2, 0, -1, 0,
+    "cyard", 1, 0, -1, 0,
+    "cdestroy", 2, 0, -1, 0,
+    "csensor", 1, 0, -1, 0,
+    "cturret", 2, 0, -1, 0,
+    "cresear", 1, 0, -1, 0,
+    "ccolony", 1, 0, -1, 0,
+    "xcuconst", 1, 0, -1, 0,
+    "cresear2", 1, 0, -1, 0,
+    "chwp", 1, 0, -1, 0, // Heavy defense after economy and required construction tech
+    "cturret2", 1, 0, -1, 0,
+    "cmining", 1, 0, -1, 0,
+    "corbital", 1, 0, -1, 0,
+    "domconst", 1, 0, -1, 0,
+    "cyard", 1, 0, -1, 0,
+    "cdestroy", 1, 0, -1, 0,
+    "cturret", 2, 1, -1, 0,
+    "cmining", 1, 0, -1, 0,
+    "csensor", 1, 1, -1, 0,
+    "cyard2", 1, 0, -1, 0,
+    "cbattle", 1, 0, -1, 0,
+    "dombase", 1, 0, -1, 0,
+    "domyard", 1, 0, -1, 0,
+    "cmining", 1, 0, -1, 0,
+    "cturret", 1, 1, -1, 0,
+    "cturret2", 1, 1, -1, 0,
+    "ckimal", 1, 0, -1, 0,
+    "cobyard", 1, 0, -1, 0,
+    "cturret", 2, 2, -1, 0,
+    "cogalor", 1, 0, -1, 0,
+    "cassault", 1, 0, -1, 0,
+    "csrepair", 1, 0, -1, 0,
+    "jemdest", 1, 0, -1, 0,
+    "cturret2", 1, 2, -1, 0,
+    "ccruise1", 1, 0, -1, 0,
+    "jemdest", 1, 0, -1, 0,
+    "cspecial", 1, 0, -1, 0,
+    "ccolony", 1, 0, -1, 0,
+    "jemdest", 1, 0, -1, 0,
+    "cyard2", 1, 1, -1, 0,
+    "chutet", 1, 0, -1, 0,
+    "domdred", 1, 0, -1, 0,
+    "cturret", 1, 2, -1, 0,
+    "dombase", 1, 2, -1, 0,
+    "ccruise2", 1, 0, -1, 0,
+    "ccruise3", 1, 0, -1, 0,
+    "cbattle", 1, 0, -1, 0,
+    "cturret", 1, 1, -1, 0,
+    "corbital", 1, 0, -1, 0,
+    "domyard", 1, 1, -1, 0,
+    "sonabat", 1, 0, -1, 0,
+    "cokeldon", 1, 0, -1, 0,
+    "cdestroy2", 1, 0, -1, 0,
+    "cardassian_super_station", 1, 0, -1, 0,
+    "csuper", 1, 0, -1, 0,
+    "cbattle", 1, 0, -1, 0,
+    "cupgrade", 1, 0, -1, 0,
+    "cbattle2", 1, 0, -1, 0,
+    "dombat", 1, 0, -1, 0,
+    "cfrigate", 1, 0, -1, 0,
+    "jemdest2", 1, 0, -1, 0,
+    "cbattle", 1, 0, -1, 0,
+    "ckimal", 1, 0, -1, 0,
+    "ccruise2", 1, 0, -1, 0,
+    "cokeldon", 1, 0, -1, 0,
+    "sonadest", 1, 0, -1, 0,
+    "cdestroy", 1, 0, -1, 0,
+    "cstation", 1, 0, -1, 0,
+};

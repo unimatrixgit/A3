@@ -19,7 +19,7 @@ race = "federation"
 //Number of crew required to build ship & Starting crew
 
 //Number of maximum crew (only specified if different from crewCost)
-maximumCrew = 3000
+maximumCrew = 2000
 
 //Dilithium Cost to build
 
@@ -207,3 +207,26 @@ buildTime = 50
 buildItem0 = "fconst"
 buildItem1 = "ffreight"
 buildItem2 = "xfuconst"
+
+// Equal visual span: vanilla Borg Nexus reference.
+ScaleSOD = 2.24731401
+
+
+
+
+
+
+
+
+
+
+
+eastBuffer = 0
+
+westBuffer = 0
+
+northBuffer = 0
+
+southBuffer = 0
+
+footprintBuffer = 80

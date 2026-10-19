@@ -1,0 +1,181 @@
+#include "battle.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Borg Cube"
+
+//tooltips
+tooltip = "Borg Cube"
+verboseTooltip = "Borg Standard Cube. Able to Assimilate 2 additional special weapons."
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+// don't use the horrible old % crew loss on damage
+saneCrewLossMethod = 1
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 3250
+
+// max number of assimilated weapons
+
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 1000
+enginesHitPoints = 1000
+weaponsHitPoints = 1000
+lifeSupportHitPoints = 1000
+sensorsHitPoints = 1000
+
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 19.2
+
+//Maximum Value of Special Energy
+
+
+//Rate at which special energy recharges (points per second... we think)
+
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 91
+impulseSpeed = 89
+warpSpeed = 999
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "C935-73743" "C935-34632" "C935-46818" "C935-86287" "C935-48648" "C935-86248" 
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Phaser
+
+// Phaser
+	
+// Photon Torpedo
+
+// Holding Beam
+
+//Self Destruct
+
+// Technology Assimilation Beam
+
+//Transwarp Drive
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 1.00f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.50f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 5.0f
+//**********************************************************************
+
+//PHYSICS PARAMETERS
+
+//physics file for all other physics stuff
+physicsFile = "bbatphys.odf"
+
+//John avoidance stuff DO NOT CHANGE
+avoidanceClass = 9
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "borg_battle"
+hotkeyLabel = "HOTKEY_F2"
+// Xaramada: two normal weapons and reusable specials on F4 / F5 / F6.
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 550
+metalCost = 150
+latinumCost = 0
+biomatterCost = 0
+crewCost = 800
+officerCost = 2
+buildTime = 38
+
+// Additional green holding/assimilation beam, separate from the existing blue beam.
+
+// Blue auto-assimilation beam removed. Remaining weapon order and hardpoints preserved.
+
+
+
+
+
+
+
+
+
+
+
+// Borg adaptation: native scout passive cloak detector, always on.
+
+
+
+// Technology assimilation: native beam and bounded captured-special capacity.
+
+
+maxExtraWeapons = 1
+
+
+
+// Shield adaptation restricted to Scout and Locutus variants.
+weapon1 = "bt4phas"
+weaponHardpoints1 = "hp07" "hp10" "hp13" "hp16"
+weapon2 = "bc3phot"
+weaponHardpoints2 = "hp09" "hp12" "hp15" "hp18"
+weapon3 = "xactwarp"
+weaponHardpoints3 = "hp01"
+weapon4 = "xacgreen"
+weaponHardpoints4 = "hp01"
+weapon5 = "gdetect3"
+weaponHardpoints5 = "hp01"
+weapon6 = "gTechAssimBeam"
+weaponHardpoints6 = "hp01"
+
+weapon7 = "xy_bbattle1_gregen"
+weaponHardpoints7 = "hp07"
+
+maxSpecialEnergy = 1500
+
+specialEnergyRate = 15.0

@@ -45,10 +45,10 @@ impulseSpeed = 78
 warpSpeed = 920
 
 //Maximum Value of Special Energy
-maxSpecialEnergy = 2400
+
 
 //Rate at which special energy recharges (points per second... we think)
-specialEnergyRate = 24 
+
 
 //**********************************************************************
 //AI system parameters
@@ -121,3 +121,7 @@ buildTime = 65
 weapon4 = "gplasmac"
 
 weaponHardpoints4 = "hp01"
+
+maxSpecialEnergy = 1400
+
+specialEnergyRate = 14.0

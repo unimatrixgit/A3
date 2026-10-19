@@ -1,0 +1,189 @@
+#include "turret.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+
+
+//Rate at which shield recharges (points per second... we think)
+
+
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.50f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.50f
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+//These values are the hitpoint values of the systems
+//If the value is set to zero the ship does not have that system
+
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Photon torpedos
+
+
+
+// Hardpoints to hit for various systems and other locations.
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "PhotonTurretSelect"
+eventAcknowledge = "PhotonTurretAcknowledge"
+eventAttack = "PhotonTurretAttack"
+eventDecommission = "PhotonTurretDecommission"
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "photon_turret"
+hotkeyLabel = "HOTKEY_F9"
+
+//************************************************************
+// Brian additions for context sensitive menus
+alert = 1
+combat = 1
+
+//scan range in meters
+rangeScan = 1200.0f
+
+
+
+// Xaramada resource costs: original filename.
+
+
+latinumCost = 0
+biomatterCost = 0
+
+
+
+
+baseName = "xvstock_bturret2"
+
+
+
+enginestargethardpoints = "hp05"
+
+lifesupporttargethardpoints = "hp06"
+
+weaponstargethardpoints = "hp01"
+
+shieldgeneratortargethardpoints = "hp07"
+
+sensorstargethardpoints = "hp08"
+
+hulltargethardpoints = "hp09"
+
+criticaltargethardpoints = "hp10"
+
+unitName = "Oblivion Defense Nexus"
+
+tooltip = "Oblivion Defense Nexus"
+
+verboseTooltip = "Borg heavy defense platform. Three beam banks, two torpedo banks and one rapid-fire torpedo launcher."
+
+
+
+maxHealth = 5250
+
+shieldRate = 6.8
+
+weaponsHitPoints = 1000
+
+crewCost = 200
+
+maximumCrew = 200
+
+dilithiumCost = 900
+
+metalCost = 900
+
+officerCost = 8
+
+
+
+weapon1 = "xp6b"
+
+weaponHardpoints1 = "hp01"
+
+weapon2 = "xp6b"
+
+weaponHardpoints2 = "hp02"
+
+weapon3 = "xp6b"
+
+weaponHardpoints3 = "hp03"
+
+weapon4 = "xp6t"
+
+weaponHardpoints4 = "hp04"
+
+weapon5 = "xp6t"
+
+weaponHardpoints5 = "hp01"
+
+weapon6 = "xbhwpr"
+
+weaponHardpoints6 = "hp02"
+
+// Equal visual span: Federation Cyclone reference.
+ScaleSOD = 1.33250668
+
+
+
+
+
+
+
+
+
+
+
+eastBuffer = 0
+
+westBuffer = 0
+
+northBuffer = 0
+
+southBuffer = 0
+
+footprintBuffer = 10
+
+maxCrewGain = 0
+
+officerGain = 0
+
+buildTime = 75

@@ -1,0 +1,147 @@
+#include "special.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Diamond"
+
+//tooltips
+tooltip = "Diamond"
+verboseTooltip = "Borg Collective Diamond."
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+// don't use the horrible old % crew loss on damage
+saneCrewLossMethod = 1
+
+//Dilithium Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 2258
+
+// Hitpoints
+shieldGeneratorHitPoints = 924
+enginesHitPoints = 918
+weaponsHitPoints = 937
+lifeSupportHitPoints = 952
+sensorsHitPoints = 901
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 21.7
+
+//Maximum Value of Special Energy
+
+
+//Rate at which special energy recharges (points per second... we think)
+
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 89
+impulseSpeed = 85
+warpSpeed = 929
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "X892-18416" "X892-84168" "X892-55468" "X892-18674"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Phaser
+weapon1 = "bt3phas"
+weaponHardpoints1 = "hp08" "hp09" "hp10" "hp11"
+
+// Photon Torpedoes
+weapon2 = "bc2phot"
+weaponHardpoints2 = "hp12" "hp13"
+
+// Ultritium Burst
+weapon3 = "gutribm"
+weaponHardpoints3 = "hp14"
+
+// Nanites
+weapon4 = "gnanites"
+weaponHardpoints4 = "hp15"
+
+// Computer Override
+weapon5 = "goverrid"
+weaponHardpoints5 = "hp16"
+
+// Shield Remodulation
+weapon6 = "gremod"
+weaponHardpoints6 = "hp17"
+
+//Transwarp Drive
+
+weaponHardpoints7 = "hp18" "hp19"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" 
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" 
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" 
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" 
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" 
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" 
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" 
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.60f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.50f
+
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 5.0f
+//**********************************************************************
+//PHYSICS PARAMETERS
+
+//physics file for all other physics stuff
+physicsFile = "bbatphys.odf"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "borg_science"
+hotkeyLabel = "HOTKEY_F3"
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 450
+metalCost = 125
+latinumCost = 0
+biomatterCost = 0
+crewCost = 350
+officerCost = 2
+buildTime = 50
+
+weapon8 = "xy_bspecial_gborgbor"
+weaponHardpoints8 = "hp08"
+
+weapon7 = "y2a002"
+
+maxSpecialEnergy = 1800
+
+specialEnergyRate = 18.0

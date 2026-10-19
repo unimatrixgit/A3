@@ -35,7 +35,19 @@ sensorsHitPoints = 1000
 shieldRate = 5
 
 //**********************************************************************
-//Construction Parameters
+//Construction Parameters
+
+
+
+
+
+
+
+
+
+
+
+
 //**********************************************************************
 
 //**********************************************************************
@@ -89,7 +101,8 @@ criticalTargetHardpoints = "hp06"
 
 //**********************************************************************
 
-hotkeyLabel = "HOTKEY_F1"
+hotkeyLabel = "HOTKEY_F1"
+
 
 
 
@@ -115,3 +128,17 @@ buildItem9 = "fmidas"
 buildItem10 = "fjupiter"
 buildItem11 = "fsuperbl"
 buildItem12 = "fyard3"
+
+weapon2 = "fc08phas"
+
+weaponHardpoints2 = "hp02"
+
+weapon3 = "xp8t"
+
+weaponHardpoints3 = "hp03"
+
+canAttack = 1
+
+combat = 1
+
+alert = 1

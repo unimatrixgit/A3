@@ -103,8 +103,7 @@ possibleCraftNames =
 // End ship names
 
 // Begin misc properties
-
-maximumCrew = 1500
+maximumCrew = 2000
 maxCrewGain = 3000
 officerGain = 0
 maximumUpgrades = 6
@@ -120,11 +119,11 @@ builder_ship = 1
 transporter = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
-ScaleSOD = 6.8
+
 shieldDelay = 3.0f
 rangeScan = 800.0f
 damagedScan = 100.0f
-footprintBuffer = 100.0f
+
 repairYellow = 2.0f
 repairRed = 4.0f
 enginesRepairTime = 1.0f
@@ -167,3 +166,26 @@ buildItem2 = "dfreight"
 buildItem3 = "dcargo"
 buildItem4 = "dsrepair"
 buildItem5 = "xduconst"
+
+// Equal visual span: vanilla Borg Nexus reference.
+ScaleSOD = 9.8665068
+
+
+
+
+
+
+
+
+
+
+
+eastBuffer = 0
+
+westBuffer = 0
+
+northBuffer = 0
+
+southBuffer = 0
+
+footprintBuffer = 80

@@ -40,7 +40,20 @@ impulseSpeed = 78
 warpSpeed = 0
 
 //**********************************************************************
-//Construction Parameters
+//Construction Parameters
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //**********************************************************************
 //Worker Bee Parameters
@@ -73,7 +86,8 @@ criticalTargetHardpoints =  "hp01" "hp03" "hp05" "hp07" "hp09"
 
 //**********************************************************************
 
-hotkeyLabel = "HOTKEY_F1"
+hotkeyLabel = "HOTKEY_F1"
+
 
 
 
@@ -99,3 +113,19 @@ buildItem9 = "cardassian_super_station"
 buildItem10 = "cyard3"
 buildItem11 = "corbital"
 buildItem12 = "ctrading"
+
+buildItem13 = "chwp"
+
+weapon2 = "xp11b"
+
+weaponHardpoints2 = "hp02"
+
+weapon3 = "xp11t"
+
+weaponHardpoints3 = "hp03"
+
+canAttack = 1
+
+combat = 1
+
+alert = 1

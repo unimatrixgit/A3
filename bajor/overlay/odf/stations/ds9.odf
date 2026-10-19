@@ -25,7 +25,11 @@ crewHitPercent = 13.5f
 
 // End main properties
 
-// Begin build menu
+// Begin build menu
+
+
+
+
 
 // End build menu
 
@@ -75,7 +79,7 @@ dilithiumTransferRate = 10
 metalTransferRate = 10
 latinumTransferRate = 10
 biomatterTransferRate = 10
-maximumCrew = 3000
+maximumCrew = 2000
 weaponYellow = 1.5f
 weaponRed = 2.5f
 criticalHitPercent = 2.5f
@@ -86,11 +90,11 @@ builder_ship = 1
 transporter = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
-ScaleSOD = 2.0
+
 shieldDelay = 3.0f
 rangeScan = 800.0f
 damagedScan = 100.0f
-footprintBuffer = 100.0f
+
 repairYellow = 2.0f
 repairRed = 4.0f
 enginesRepairTime = 1.0f
@@ -143,7 +147,8 @@ cargoValue11 = 0.5
 cargoKey12 = "GUI_SD_RAKTAJINO"
 cargoValue12 = 1.0
 
-// End misc properties
+// End misc properties
+
 
 
 
@@ -163,3 +168,26 @@ buildItem1 = "fcargo"
 buildItem2 = "fsrepair"
 buildItem3 = "ffreight"
 buildItem4 = "xfuconst"
+
+// Equal visual span: vanilla Borg Nexus reference.
+ScaleSOD = 1.19999721
+
+
+
+
+
+
+
+
+
+
+
+eastBuffer = 0
+
+westBuffer = 0
+
+northBuffer = 0
+
+southBuffer = 0
+
+footprintBuffer = 80
