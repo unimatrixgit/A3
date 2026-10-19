@@ -1,0 +1,19 @@
+// Explicit native weapon definition; no cross-directory includes.
+ordname = "rbphotono"
+wpnname = "Photon Torpedo"
+shotdelay = 1.7f
+range = 590.0f
+firesound = "porwea.wav"
+classlabel = "cannon"
+hitchance = 0.5
+impulsetohitmodifier = -0.0
+stoptohitmodifier = 0.2
+tohitimpulsemodifier = 0.0
+tohitstopmodifier = 0.2
+specialenergycost = 18
+damagebase = 102
+shotspeed = 503.0
+sprite = "rphoton"
+radius = 3.6f
+restrictfirearc = 0
+firearc = 360

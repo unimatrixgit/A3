@@ -104,3 +104,6 @@ buildTime = 127
 unitName = "Obsidian Command Yard"
 tooltip = "Obsidian Command Yard"
 verboseTooltip = "Obsidian Command Yard. Produces faction heroes. Available at the same technology tier as cardassian_super_station."
+
+// Lab safety fix: this model has no repair docking node. Do not accept repair orders, including after capture.
+repairFacility = 0

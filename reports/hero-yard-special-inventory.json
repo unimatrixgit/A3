@@ -1,0 +1,1613 @@
+{
+  "yards": [
+    "bjyard3",
+    "bryard3",
+    "byard2",
+    "byard3",
+    "cyard3",
+    "dyard2",
+    "dyard3",
+    "fyard3",
+    "kyard3",
+    "ryard3",
+    "xflegacyyard"
+  ],
+  "targets": [
+    {
+      "yard": "bjyard3",
+      "unit": "bjnerys",
+      "name": "Colonel Kira Nerys - Bajoran Command Battleship",
+      "race": "bajoran",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        },
+        {
+          "w": "gcorbom",
+          "type": "reflectweapon",
+          "cost": "80",
+          "slot": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "yard": "bjyard3",
+      "unit": "bjsuper",
+      "name": "Bajoran Strategic Command Vessel",
+      "race": "bajoran",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "xbj_gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        },
+        {
+          "w": "xbj_gcorbom",
+          "type": "reflectweapon",
+          "cost": "80",
+          "slot": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "yard": "bjyard3",
+      "unit": "bjbattle",
+      "name": "Bajoran Militia Battleship",
+      "race": "bajoran",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "xbj_gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        },
+        {
+          "w": "xbj_gcorbom",
+          "type": "reflectweapon",
+          "cost": "80",
+          "slot": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "yard": "bjyard3",
+      "unit": "bjspecial",
+      "name": "Bajoran Science Support Vessel",
+      "race": "bajoran",
+      "role": "special",
+      "special": [
+        {
+          "w": "xbj_gshieldh",
+          "type": "areamissile",
+          "slot": "2",
+          "popup": "8"
+        },
+        {
+          "w": "xbj_gmanheim",
+          "type": "launcher",
+          "slot": "1",
+          "popup": "10"
+        },
+        {
+          "w": "xbj_gpdlaser",
+          "type": "PointDefenseLaser",
+          "cost": "40",
+          "slot": "4",
+          "popup": "7"
+        },
+        {
+          "w": "xbj_gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        },
+        {
+          "w": "xbj_gschainp",
+          "type": "minelayer",
+          "slot": "1",
+          "popup": "7"
+        }
+      ]
+    },
+    {
+      "yard": "bryard3",
+      "unit": "xhbrhero",
+      "name": "Thot Gor - Breen Flagship",
+      "race": "breen",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        },
+        {
+          "w": "brgshieldd",
+          "type": "areamissile",
+          "slot": "2",
+          "popup": "8"
+        }
+      ]
+    },
+    {
+      "yard": "byard2",
+      "unit": "bfrigate",
+      "name": "Deemons Tooth",
+      "race": "borg",
+      "role": "frigate",
+      "special": [
+        {
+          "w": "gengyemt",
+          "type": "areacannon",
+          "slot": "3",
+          "popup": "6"
+        },
+        {
+          "w": "gtwarpd",
+          "type": "transwarpconduit",
+          "slot": "1",
+          "popup": "2"
+        },
+        {
+          "w": "xy_bfrigate_gborgbor",
+          "type": "toggleweapon",
+          "slot": "4",
+          "popup": "4"
+        }
+      ]
+    },
+    {
+      "yard": "byard2",
+      "unit": "btacpyr",
+      "name": "Tactical Pyramid",
+      "race": "borg",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        },
+        {
+          "w": "gtwarpd",
+          "type": "transwarpconduit",
+          "slot": "1",
+          "popup": "2"
+        },
+        {
+          "w": "xacgreen",
+          "type": "toggleweapon",
+          "slot": "3",
+          "popup": "3"
+        },
+        {
+          "w": "xy_btacpyr_gborgbor",
+          "type": "toggleweapon",
+          "slot": "4",
+          "popup": "4"
+        },
+        {
+          "w": "xy_btacpyr_gregen",
+          "type": "regeneration",
+          "cost": "80",
+          "slot": "5",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "yard": "byard2",
+      "unit": "bbattle1",
+      "name": "Borg Cube",
+      "race": "borg",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "xactwarp",
+          "type": "transwarpconduit",
+          "slot": "5",
+          "popup": "5"
+        },
+        {
+          "w": "xacgreen",
+          "type": "toggleweapon",
+          "slot": "3",
+          "popup": "3"
+        },
+        {
+          "w": "gTechAssimBeam",
+          "type": "toggleweapon",
+          "slot": "7",
+          "popup": "7"
+        },
+        {
+          "w": "xy_bbattle1_gregen",
+          "type": "regeneration",
+          "cost": "80",
+          "slot": "1",
+          "popup": "1"
+        }
+      ]
+    },
+    {
+      "yard": "byard2",
+      "unit": "bspecial",
+      "name": "Diamond",
+      "race": "borg",
+      "role": "special",
+      "special": [
+        {
+          "w": "gutribm",
+          "type": "cannon",
+          "slot": "4",
+          "popup": "10"
+        },
+        {
+          "w": "gnanites",
+          "type": "cannon",
+          "slot": "3",
+          "popup": "9"
+        },
+        {
+          "w": "goverrid",
+          "type": "cannon",
+          "slot": "2",
+          "popup": "8"
+        },
+        {
+          "w": "gremod",
+          "type": "cannon",
+          "slot": "1",
+          "popup": "7"
+        },
+        {
+          "w": "gtwarpd",
+          "type": "transwarpconduit",
+          "slot": "1",
+          "popup": "2"
+        },
+        {
+          "w": "xy_bspecial_gborgbor",
+          "type": "toggleweapon",
+          "slot": "5",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "yard": "byard2",
+      "unit": "bbattle2",
+      "name": "Tactical Cube",
+      "race": "borg",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "xactwarp",
+          "type": "transwarpconduit",
+          "slot": "5",
+          "popup": "5"
+        },
+        {
+          "w": "xacgreen",
+          "type": "toggleweapon",
+          "slot": "3",
+          "popup": "3"
+        },
+        {
+          "w": "gTechAssimBeam",
+          "type": "toggleweapon",
+          "slot": "7",
+          "popup": "7"
+        },
+        {
+          "w": "xy_bbattle2_gregen",
+          "type": "regeneration",
+          "cost": "80",
+          "slot": "1",
+          "popup": "1"
+        }
+      ]
+    },
+    {
+      "yard": "byard2",
+      "unit": "brenborg",
+      "name": "Transwarp Prototype",
+      "race": "borg",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "xbtpgreen",
+          "type": "toggleweapon",
+          "slot": "3",
+          "popup": "3"
+        },
+        {
+          "w": "xbtpblue",
+          "type": "toggleweapon",
+          "slot": "4",
+          "popup": "4"
+        },
+        {
+          "w": "xbtpregen",
+          "type": "regeneration",
+          "cost": "80",
+          "slot": "6",
+          "popup": "6"
+        },
+        {
+          "w": "xbtpwarp",
+          "type": "transwarpconduit",
+          "slot": "5",
+          "popup": "5"
+        },
+        {
+          "w": "gTechAssimBeam",
+          "type": "toggleweapon",
+          "slot": "7",
+          "popup": "7"
+        },
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "byard2",
+      "unit": "blocutus",
+      "name": "Locutus' Cube",
+      "race": "borg",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "xactwarp",
+          "type": "transwarpconduit",
+          "slot": "5",
+          "popup": "5"
+        },
+        {
+          "w": "xacremod",
+          "type": "cannon",
+          "slot": "6",
+          "popup": "6"
+        },
+        {
+          "w": "xacgreen",
+          "type": "toggleweapon",
+          "slot": "3",
+          "popup": "3"
+        },
+        {
+          "w": "gTechAssimBeam",
+          "type": "toggleweapon",
+          "slot": "7",
+          "popup": "7"
+        }
+      ]
+    },
+    {
+      "yard": "byard2",
+      "unit": "tcube",
+      "name": "Class VII Tactical Cube",
+      "race": "borg",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "xactwarp",
+          "type": "transwarpconduit",
+          "slot": "5",
+          "popup": "5"
+        },
+        {
+          "w": "xacgreen",
+          "type": "toggleweapon",
+          "slot": "3",
+          "popup": "3"
+        },
+        {
+          "w": "gTechAssimBeam",
+          "type": "toggleweapon",
+          "slot": "7",
+          "popup": "7"
+        },
+        {
+          "w": "xy_tcube_gregen",
+          "type": "regeneration",
+          "cost": "80",
+          "slot": "1",
+          "popup": "1"
+        }
+      ]
+    },
+    {
+      "yard": "byard2",
+      "unit": "bbattle3",
+      "name": "Fusion Cube",
+      "race": "borg",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "xactwarp",
+          "type": "transwarpconduit",
+          "slot": "5",
+          "popup": "5"
+        },
+        {
+          "w": "xacgreen",
+          "type": "toggleweapon",
+          "slot": "3",
+          "popup": "3"
+        },
+        {
+          "w": "gTechAssimBeam",
+          "type": "toggleweapon",
+          "slot": "7",
+          "popup": "7"
+        },
+        {
+          "w": "xy_bbattle3_gregen",
+          "type": "regeneration",
+          "cost": "80",
+          "slot": "1",
+          "popup": "1"
+        }
+      ]
+    },
+    {
+      "yard": "byard2",
+      "unit": "bbattle4",
+      "name": "Tactical Fusion Cube",
+      "race": "borg",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "xactwarp",
+          "type": "transwarpconduit",
+          "slot": "5",
+          "popup": "5"
+        },
+        {
+          "w": "xacgreen",
+          "type": "toggleweapon",
+          "slot": "3",
+          "popup": "3"
+        },
+        {
+          "w": "gTechAssimBeam",
+          "type": "toggleweapon",
+          "slot": "7",
+          "popup": "7"
+        },
+        {
+          "w": "xy_bbattle4_gregen",
+          "type": "regeneration",
+          "cost": "80",
+          "slot": "1",
+          "popup": "1"
+        }
+      ]
+    },
+    {
+      "yard": "byard3",
+      "unit": "bpentra",
+      "name": "Pentragon",
+      "race": "borg",
+      "role": "cruiser",
+      "special": [
+        {
+          "w": "gtwarpd",
+          "type": "transwarpconduit",
+          "slot": "1",
+          "popup": "2"
+        },
+        {
+          "w": "xy_bpentra_gborgbor",
+          "type": "toggleweapon",
+          "slot": "3",
+          "popup": "3"
+        },
+        {
+          "w": "xy_bpentra_gregen",
+          "type": "regeneration",
+          "cost": "80",
+          "slot": "4",
+          "popup": "4"
+        }
+      ]
+    },
+    {
+      "yard": "byard3",
+      "unit": "bhentra",
+      "name": "Hentragon",
+      "race": "borg",
+      "role": "destroyer",
+      "special": [
+        {
+          "w": "gtwarpd",
+          "type": "transwarpconduit",
+          "slot": "1",
+          "popup": "2"
+        },
+        {
+          "w": "xacgreen",
+          "type": "toggleweapon",
+          "slot": "3",
+          "popup": "3"
+        },
+        {
+          "w": "xy_bhentra_gborgbor",
+          "type": "toggleweapon",
+          "slot": "4",
+          "popup": "4"
+        },
+        {
+          "w": "xy_bhentra_gregen",
+          "type": "regeneration",
+          "cost": "80",
+          "slot": "5",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "yard": "byard3",
+      "unit": "bomega1",
+      "name": "Omega Cube",
+      "race": "borg",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "xactwarp",
+          "type": "transwarpconduit",
+          "slot": "5",
+          "popup": "5"
+        },
+        {
+          "w": "xacgreen",
+          "type": "toggleweapon",
+          "slot": "3",
+          "popup": "3"
+        },
+        {
+          "w": "gTechAssimBeam",
+          "type": "toggleweapon",
+          "slot": "7",
+          "popup": "7"
+        },
+        {
+          "w": "xy_bomega1_gregen",
+          "type": "regeneration",
+          "cost": "80",
+          "slot": "1",
+          "popup": "1"
+        }
+      ]
+    },
+    {
+      "yard": "byard3",
+      "unit": "bhentrag",
+      "name": "Tentragon",
+      "race": "borg",
+      "role": "destroyer",
+      "special": [
+        {
+          "w": "gtwarpd",
+          "type": "transwarpconduit",
+          "slot": "1",
+          "popup": "2"
+        },
+        {
+          "w": "xacgreen",
+          "type": "toggleweapon",
+          "slot": "3",
+          "popup": "3"
+        },
+        {
+          "w": "xy_bhentrag_gborgbor",
+          "type": "toggleweapon",
+          "slot": "4",
+          "popup": "4"
+        },
+        {
+          "w": "xy_bhentrag_gregen",
+          "type": "regeneration",
+          "cost": "80",
+          "slot": "5",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "yard": "byard3",
+      "unit": "bmama",
+      "name": "Mamacube",
+      "race": "borg",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "xactwarp",
+          "type": "transwarpconduit",
+          "slot": "5",
+          "popup": "5"
+        },
+        {
+          "w": "xacgreen",
+          "type": "toggleweapon",
+          "slot": "3",
+          "popup": "3"
+        },
+        {
+          "w": "gTechAssimBeam",
+          "type": "toggleweapon",
+          "slot": "7",
+          "popup": "7"
+        },
+        {
+          "w": "xy_bmama_gregen",
+          "type": "regeneration",
+          "cost": "80",
+          "slot": "1",
+          "popup": "1"
+        }
+      ]
+    },
+    {
+      "yard": "byard3",
+      "unit": "blocutus",
+      "name": "Locutus' Cube",
+      "race": "borg",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "xactwarp",
+          "type": "transwarpconduit",
+          "slot": "5",
+          "popup": "5"
+        },
+        {
+          "w": "xacremod",
+          "type": "cannon",
+          "slot": "6",
+          "popup": "6"
+        },
+        {
+          "w": "xacgreen",
+          "type": "toggleweapon",
+          "slot": "3",
+          "popup": "3"
+        },
+        {
+          "w": "gTechAssimBeam",
+          "type": "toggleweapon",
+          "slot": "7",
+          "popup": "7"
+        }
+      ]
+    },
+    {
+      "yard": "byard3",
+      "unit": "xobcruise1",
+      "name": "Omega Sphere",
+      "race": "borg",
+      "role": "cruiser",
+      "special": [
+        {
+          "w": "gregen",
+          "type": "regeneration",
+          "cost": "80",
+          "slot": "2",
+          "popup": "3"
+        },
+        {
+          "w": "gtwarpd",
+          "type": "transwarpconduit",
+          "slot": "1",
+          "popup": "2"
+        },
+        {
+          "w": "xy_xobcruise1_gborgbor",
+          "type": "toggleweapon",
+          "slot": "4",
+          "popup": "4"
+        }
+      ]
+    },
+    {
+      "yard": "byard3",
+      "unit": "xobbattle1",
+      "name": "Omega Borg Cube",
+      "race": "borg",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "xactwarp",
+          "type": "transwarpconduit",
+          "slot": "5",
+          "popup": "5"
+        },
+        {
+          "w": "xacgreen",
+          "type": "toggleweapon",
+          "slot": "3",
+          "popup": "3"
+        },
+        {
+          "w": "gTechAssimBeam",
+          "type": "toggleweapon",
+          "slot": "7",
+          "popup": "7"
+        },
+        {
+          "w": "xy_xobbattle1_gregen",
+          "type": "regeneration",
+          "cost": "80",
+          "slot": "1",
+          "popup": "1"
+        }
+      ]
+    },
+    {
+      "yard": "byard3",
+      "unit": "xobbattle2",
+      "name": "Omega Tactical Cube",
+      "race": "borg",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "xactwarp",
+          "type": "transwarpconduit",
+          "slot": "5",
+          "popup": "5"
+        },
+        {
+          "w": "xacgreen",
+          "type": "toggleweapon",
+          "slot": "3",
+          "popup": "3"
+        },
+        {
+          "w": "gTechAssimBeam",
+          "type": "toggleweapon",
+          "slot": "7",
+          "popup": "7"
+        },
+        {
+          "w": "xy_xobbattle2_gregen",
+          "type": "regeneration",
+          "cost": "80",
+          "slot": "1",
+          "popup": "1"
+        }
+      ]
+    },
+    {
+      "yard": "byard3",
+      "unit": "xoblocutus",
+      "name": "Omega Locutus' Cube",
+      "race": "borg",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "xactwarp",
+          "type": "transwarpconduit",
+          "slot": "5",
+          "popup": "5"
+        },
+        {
+          "w": "xacremod",
+          "type": "cannon",
+          "slot": "6",
+          "popup": "6"
+        },
+        {
+          "w": "xacgreen",
+          "type": "toggleweapon",
+          "slot": "3",
+          "popup": "3"
+        },
+        {
+          "w": "gTechAssimBeam",
+          "type": "toggleweapon",
+          "slot": "7",
+          "popup": "7"
+        }
+      ]
+    },
+    {
+      "yard": "cyard3",
+      "unit": "xhchero",
+      "name": "Gul Dukat - Keldon",
+      "race": "cardassian",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "dyard2",
+      "unit": "dfrigate",
+      "name": "Jem'Hadar Frigate",
+      "race": "dominion",
+      "role": "frigate",
+      "special": [
+        {
+          "w": "dwenhance",
+          "type": "rangedobjectaffector",
+          "cost": "60",
+          "slot": "5",
+          "popup": "11"
+        }
+      ]
+    },
+    {
+      "yard": "dyard2",
+      "unit": "dbattle",
+      "name": "Jem'Hadar Battle Cruiser",
+      "race": "dominion",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        },
+        {
+          "w": "dgpolerond",
+          "type": "launcher",
+          "slot": "1",
+          "popup": "2"
+        }
+      ]
+    },
+    {
+      "yard": "dyard2",
+      "unit": "dspecial",
+      "name": "Jem'Hadar Science Ship",
+      "race": "dominion",
+      "role": "special",
+      "special": [
+        {
+          "w": "gholod",
+          "type": "cannon",
+          "slot": "3",
+          "popup": "10"
+        },
+        {
+          "w": "gvortex",
+          "type": "toggleweapon",
+          "slot": "5"
+        },
+        {
+          "w": "prot1",
+          "type": "areacannon",
+          "slot": "1"
+        }
+      ]
+    },
+    {
+      "yard": "dyard2",
+      "unit": "dbattle2",
+      "name": "Jem'Hadar Warship",
+      "race": "dominion",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        },
+        {
+          "w": "gshieldd",
+          "type": "areamissile",
+          "slot": "2",
+          "popup": "8"
+        }
+      ]
+    },
+    {
+      "yard": "dyard2",
+      "unit": "dweyoun",
+      "name": "Weyoun's Command Battleship",
+      "race": "dominion",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "dwgpolerond",
+          "type": "launcher",
+          "slot": "1",
+          "popup": "2"
+        },
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "dyard3",
+      "unit": "xhdhero",
+      "name": "Weyoun's Command Battleship",
+      "race": "dominion",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "dwgpolerond",
+          "type": "launcher",
+          "slot": "1",
+          "popup": "2"
+        },
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "fyard3",
+      "unit": "fambassador",
+      "name": "Ambassador Class",
+      "race": "federation",
+      "role": "cruiser",
+      "special": [
+        {
+          "w": "gfedrep",
+          "type": "cannon",
+          "slot": "3",
+          "popup": "9"
+        }
+      ]
+    },
+    {
+      "yard": "fyard3",
+      "unit": "fneworleans",
+      "name": "New Orleans Class",
+      "race": "federation",
+      "role": "cruiser",
+      "special": []
+    },
+    {
+      "yard": "fyard3",
+      "unit": "fspecial",
+      "name": "Nebula Class",
+      "race": "federation",
+      "role": "special",
+      "special": [
+        {
+          "w": "gshieldh",
+          "type": "areamissile",
+          "slot": "2",
+          "popup": "8"
+        },
+        {
+          "w": "gmanheim",
+          "type": "launcher",
+          "slot": "1",
+          "popup": "10"
+        },
+        {
+          "w": "gpdlaser",
+          "type": "PointDefenseLaser",
+          "cost": "40",
+          "slot": "4",
+          "popup": "7"
+        },
+        {
+          "w": "gschainp",
+          "type": "minelayer",
+          "slot": "1",
+          "popup": "7"
+        },
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "fyard3",
+      "unit": "fgalaxy",
+      "name": "Galaxy Class",
+      "race": "federation",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "ggalseparator",
+          "type": "separatingweapon",
+          "cost": "0",
+          "slot": "4"
+        }
+      ]
+    },
+    {
+      "yard": "fyard3",
+      "unit": "fgalaxyr",
+      "name": "Galaxy Class Refit",
+      "race": "federation",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gcorbom",
+          "type": "reflectweapon",
+          "cost": "80",
+          "slot": "4",
+          "popup": "5"
+        },
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        },
+        {
+          "w": "gpdlaser",
+          "type": "PointDefenseLaser",
+          "cost": "40",
+          "slot": "4",
+          "popup": "7"
+        },
+        {
+          "w": "gshieldh",
+          "type": "areamissile",
+          "slot": "2",
+          "popup": "8"
+        },
+        {
+          "w": "gwcover",
+          "type": "areacannon",
+          "slot": "3",
+          "popup": "4"
+        }
+      ]
+    },
+    {
+      "yard": "fyard3",
+      "unit": "fgalaxyx",
+      "name": "Galaxy Class X-Refit",
+      "race": "federation",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "fyard3",
+      "unit": "fdawnstar",
+      "name": "Dawnstar Class",
+      "race": "federation",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gtracbm",
+          "type": "toggleweapon",
+          "slot": "1",
+          "popup": "12"
+        },
+        {
+          "w": "gcorbom",
+          "type": "reflectweapon",
+          "cost": "80",
+          "slot": "4",
+          "popup": "5"
+        },
+        {
+          "w": "slipstream",
+          "type": "transRiftWeapon",
+          "slot": "4"
+        }
+      ]
+    },
+    {
+      "yard": "fyard3",
+      "unit": "xhfhero",
+      "name": "Jean-Luc Picard - Enterprise E",
+      "race": "federation",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        },
+        {
+          "w": "gcorbom",
+          "type": "reflectweapon",
+          "cost": "80",
+          "slot": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "yard": "fyard3",
+      "unit": "xofdestroy",
+      "name": "Omega Defiant Class",
+      "race": "federation",
+      "role": "destroyer",
+      "special": [
+        {
+          "w": "gamine",
+          "type": "minelayer",
+          "slot": "1",
+          "popup": "2"
+        }
+      ]
+    },
+    {
+      "yard": "fyard3",
+      "unit": "xofgalaxy",
+      "name": "Omega Galaxy Class",
+      "race": "federation",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "ggalseparator",
+          "type": "separatingweapon",
+          "cost": "0",
+          "slot": "4"
+        }
+      ]
+    },
+    {
+      "yard": "fyard3",
+      "unit": "xofbattle",
+      "name": "Omega Sovereign Class",
+      "race": "federation",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        },
+        {
+          "w": "gcorbom",
+          "type": "reflectweapon",
+          "cost": "80",
+          "slot": "4",
+          "popup": "5"
+        }
+      ]
+    },
+    {
+      "yard": "fyard3",
+      "unit": "xofprom",
+      "name": "Omega Prometheus Class",
+      "race": "federation",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "fyard3",
+      "unit": "xhfriker",
+      "name": "Cpt William T Riker",
+      "race": "federation",
+      "role": "battleship",
+      "special": []
+    },
+    {
+      "yard": "kyard3",
+      "unit": "xhkhero",
+      "name": "Martok - Negh'Var",
+      "race": "klingon",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "kyard3",
+      "unit": "xhkraptor",
+      "name": "Raptor Command Ship",
+      "race": "klingon",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "kyard3",
+      "unit": "xhkold7",
+      "name": "Koloth - D7 Command Cruiser",
+      "race": "klingon",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "ryard3",
+      "unit": "rtscout",
+      "name": "D'Dara Class",
+      "race": "romulan",
+      "role": "scout",
+      "special": []
+    },
+    {
+      "yard": "ryard3",
+      "unit": "rtsdest",
+      "name": "Lemal Class",
+      "race": "romulan",
+      "role": "destroyer",
+      "special": [
+        {
+          "w": "gromspy",
+          "type": "cannon",
+          "slot": "1",
+          "popup": "2"
+        }
+      ]
+    },
+    {
+      "yard": "ryard3",
+      "unit": "rtscruis",
+      "name": "Ater Class",
+      "race": "romulan",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "ryard3",
+      "unit": "rtspec",
+      "name": "Suso Class",
+      "race": "romulan",
+      "role": "destroyer",
+      "special": []
+    },
+    {
+      "yard": "ryard3",
+      "unit": "rtsbcru",
+      "name": "Hyperion Class",
+      "race": "romulan",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "ryard3",
+      "unit": "rtswarb",
+      "name": "D'Deridex Class",
+      "race": "romulan",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gshieldi",
+          "type": "toggleweapon",
+          "slot": "4",
+          "popup": "5"
+        },
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "ryard3",
+      "unit": "rtsdread",
+      "name": "Sakti Class",
+      "race": "romulan",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "ryard3",
+      "unit": "xhrhero",
+      "name": "Sela - Warbird",
+      "race": "romulan",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gshieldi",
+          "type": "toggleweapon",
+          "slot": "4",
+          "popup": "5"
+        },
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "ryard3",
+      "unit": "xhrshinzon",
+      "name": "Shinzon - Scimitar",
+      "race": "romulan",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        },
+        {
+          "w": "gtracbm",
+          "type": "toggleweapon",
+          "slot": "1",
+          "popup": "12"
+        },
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "ryard3",
+      "unit": "xhrdonatra",
+      "name": "Donatra - Valdore",
+      "race": "romulan",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gromspy",
+          "type": "cannon",
+          "slot": "1",
+          "popup": "2"
+        },
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        },
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "ryard3",
+      "unit": "xhrtosbird",
+      "name": "Romulan Commander - TOS Warbird",
+      "race": "romulan",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "ryard3",
+      "unit": "xhrearlybird",
+      "name": "Minefield Command Warbird",
+      "race": "romulan",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "xflegacyyard",
+      "unit": "fnxent",
+      "name": "NX Class",
+      "race": "federation",
+      "role": "scout",
+      "special": [
+        {
+          "w": "fnxenttoent",
+          "type": "fusingweapon",
+          "slot": "2"
+        }
+      ]
+    },
+    {
+      "yard": "xflegacyyard",
+      "unit": "xhfkirktos",
+      "name": "James T Kirk - Enterprise",
+      "race": "federation",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "xflegacyyard",
+      "unit": "xhfkirkrefit",
+      "name": "James T Kirk - Enterprise A",
+      "race": "federation",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "xflegacyyard",
+      "unit": "xhfharriman",
+      "name": "John Harriman - Enterprise B",
+      "race": "federation",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "ftwarpd",
+          "type": "transwarpconduit",
+          "slot": "1",
+          "popup": "2"
+        },
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "xflegacyyard",
+      "unit": "xhfgarrett",
+      "name": "Rachel Garrett - Enterprise C",
+      "race": "federation",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    },
+    {
+      "yard": "xflegacyyard",
+      "unit": "xhfpicardd",
+      "name": "Jean-Luc Picard - Enterprise D",
+      "race": "federation",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        },
+        {
+          "w": "gtracbm",
+          "type": "toggleweapon",
+          "slot": "1",
+          "popup": "12"
+        }
+      ]
+    },
+    {
+      "yard": "xflegacyyard",
+      "unit": "xhftitan",
+      "name": "William T Riker - USS Titan",
+      "race": "federation",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        },
+        {
+          "w": "gtracbm",
+          "type": "toggleweapon",
+          "slot": "1",
+          "popup": "12"
+        }
+      ]
+    },
+    {
+      "yard": "xflegacyyard",
+      "unit": "xhfdaedalus",
+      "name": "Daedalus Command Prototype",
+      "race": "federation",
+      "role": "battleship",
+      "special": [
+        {
+          "w": "gselfdes",
+          "type": "selfdestruct",
+          "cost": "0",
+          "slot": "10"
+        }
+      ]
+    }
+  ]
+}

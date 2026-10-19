@@ -1,0 +1,110 @@
+#include "orbital.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Orbital Extraction Facility"
+
+//tooltips
+tooltip = "Borg Orbital"
+verboseTooltip = "The Borg Orbital Device can be used instead of the freighter to extract metal."
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Amount of time required to build facility
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 3000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 6.2
+
+// Speed multiplier for mining
+miningMultiplier = 0.5
+
+//Possible Craft Names
+possibleCraftNames = "OEF-1174" "OEF-6198" "OEF-2057"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Mining Beam
+
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "OrbitalFacilitySelect"
+eventAcknowledge = "OrbitalFacilityAcknowledge"
+eventDecommission = "OrbitalFacilityDecommission"
+
+//**********************************************************************
+
+hotkeyLabel = "HOTKEY_F11"
+animation = 2
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+
+
+
+
+
+
+
+
+weapon1 = "xp7b"
+
+weaponHardpoints1 = "hp01"
+
+weapon2 = "xp7b"
+
+weaponHardpoints2 = "hp02"
+
+weapon3 = "xp7t"
+
+weaponHardpoints3 = "hp03"
+
+weapon4 = "xp7t"
+
+weaponHardpoints4 = "hp04"
+
+weapon5 = "gOrbitalBeam"
+
+weaponHardpoints5 = "hp07"
+
+dilithiumCost = 400
+
+metalCost = 0
+
+latinumCost = 0
+
+biomatterCost = 0
+
+crewCost = 100
+
+officerCost = 2
+
+buildTime = 60
+
+maximumCrew = 250

@@ -381,7 +381,7 @@ dspecial.odf 1 dyard2.odf
 dbattle2.odf 1 dyard2.odf
 dweyoun.odf 1 dyard2.odf
 fconst2.odf 1 fbase.odf
-fcolony.odf 1 fbase.odf
+
 fscout.odf 1 fbase.odf
 fdanube.odf 1 fbase.odf
 ffighter.odf 1 fbase.odf
@@ -557,7 +557,8 @@ dwormdsuper.odf 1 zsuperbl.odf
 xacgreen.odf 0 // additional green holding/assimilation beam
 
 
-bbase2.odf 0
+bbase2.odf 0
+
 
 bsphere.odf 1 byard2.odf
 
@@ -771,3 +772,40 @@ bjresear.odf 2 bjbase.odf bjyard.odf
 bjresear2.odf 2 bjyard2.odf bjresear.odf
 bjupgrade.odf 2 bjresear.odf bjresear2.odf
 bjsuperlab.odf 2 bjresear2.odf bjyard2.odf
+
+// Borg assimilation support
+xbharvest.odf 1 bconst.odf
+xbassimst.odf 1 bconst.odf
+xbrepair.odf 1 xbassimst.odf
+xbharvbeam.odf 0
+xbassimbeam.odf 0
+
+xbharvmanual.odf 0
+xbassimmanual.odf 0
+
+// Riker Galaxy-X hero; same availability as Federation command hero.
+xhfriker.odf 1 fyard3.odf
+
+// Native cube technology assimilation control.
+gTechAssimBeam.odf 0
+
+xhrshinzon.odf 1 ryard3.odf
+xhrdonatra.odf 1 ryard3.odf
+
+xflegacyyard.odf 1 fyard3.odf
+xhfkirktos.odf 1 xflegacyyard.odf
+xhfkirkrefit.odf 1 xflegacyyard.odf
+xhfharriman.odf 1 xflegacyyard.odf
+xhfgarrett.odf 1 xflegacyyard.odf
+xhfpicardd.odf 1 xflegacyyard.odf
+
+// Screen-era command additions.
+xhftitan.odf 1 xflegacyyard.odf
+xhfdaedalus.odf 1 xflegacyyard.odf
+xhkraptor.odf 1 kyard3.odf
+xhkold7.odf 1 kyard3.odf
+xhrtosbird.odf 1 ryard3.odf
+xhrearlybird.odf 1 ryard3.odf
+
+// Federation colony ships unlock with the standard shipyard.
+fcolony.odf 1 fyard.odf

@@ -1,0 +1,721 @@
+{
+  "root": "D:\\ArmadaLab",
+  "backup": "D:\\Xaramada-Modwork\\backups\\heavy-orbital-lab-20261019-202617",
+  "units": [
+    {
+      "unit": "fhwp",
+      "name": "Cyclone Defense Station",
+      "category": "heavy platform",
+      "beamBanks": 3,
+      "torpedoBanks": 2,
+      "rapidTorpedoBanks": 1,
+      "rapidInterval": 0.375,
+      "preservedWeapons": [],
+      "costs": {
+        "dilithiumCost": 900,
+        "metalCost": 900,
+        "latinumCost": 0,
+        "biomatterCost": 0,
+        "crewCost": 200,
+        "officerCost": 8,
+        "buildTime": 90
+      },
+      "model": "fhwp",
+      "attachmentsVerified": true,
+      "originalCosts": {
+        "dilithiumCost": "135",
+        "metalCost": "70",
+        "latinumCost": "0",
+        "biomatterCost": "0",
+        "crewCost": "0",
+        "officerCost": "2",
+        "buildTime": "29"
+      }
+    },
+    {
+      "unit": "khwp",
+      "name": "Klingon HWP",
+      "category": "heavy platform",
+      "beamBanks": 3,
+      "torpedoBanks": 2,
+      "rapidTorpedoBanks": 1,
+      "rapidInterval": 0.375,
+      "preservedWeapons": [],
+      "costs": {
+        "dilithiumCost": 900,
+        "metalCost": 900,
+        "latinumCost": 0,
+        "biomatterCost": 0,
+        "crewCost": 200,
+        "officerCost": 8,
+        "buildTime": 90
+      },
+      "model": "khwp",
+      "attachmentsVerified": true,
+      "originalCosts": {
+        "dilithiumCost": "1870",
+        "metalCost": "1870",
+        "latinumCost": "0",
+        "biomatterCost": "0",
+        "crewCost": "752",
+        "officerCost": "10",
+        "buildTime": "97"
+      }
+    },
+    {
+      "unit": "rhwp",
+      "name": "Heavy Weapons Platform",
+      "category": "heavy platform",
+      "beamBanks": 3,
+      "torpedoBanks": 2,
+      "rapidTorpedoBanks": 1,
+      "rapidInterval": 0.375,
+      "preservedWeapons": [],
+      "costs": {
+        "dilithiumCost": 900,
+        "metalCost": 900,
+        "latinumCost": 0,
+        "biomatterCost": 0,
+        "crewCost": 200,
+        "officerCost": 8,
+        "buildTime": 90
+      },
+      "model": "rhwp",
+      "attachmentsVerified": true,
+      "originalCosts": {
+        "dilithiumCost": "2210",
+        "metalCost": "2210",
+        "latinumCost": "0",
+        "biomatterCost": "0",
+        "crewCost": "732",
+        "officerCost": "11",
+        "buildTime": "105"
+      }
+    },
+    {
+      "unit": "cturret2",
+      "name": "Heavy Plasma Turret",
+      "category": "heavy platform",
+      "beamBanks": 3,
+      "torpedoBanks": 2,
+      "rapidTorpedoBanks": 1,
+      "rapidInterval": 0.375,
+      "preservedWeapons": [],
+      "costs": {
+        "dilithiumCost": 900,
+        "metalCost": 900,
+        "latinumCost": 0,
+        "biomatterCost": 0,
+        "crewCost": 200,
+        "officerCost": 8,
+        "buildTime": 90
+      },
+      "model": "xvstock_cturret2",
+      "attachmentsVerified": true,
+      "originalCosts": {
+        "dilithiumCost": "150",
+        "metalCost": "250",
+        "latinumCost": "0",
+        "biomatterCost": "0",
+        "crewCost": "0",
+        "officerCost": "4",
+        "buildTime": "75"
+      }
+    },
+    {
+      "unit": "dturret3",
+      "name": "Nova Cannon",
+      "category": "heavy platform",
+      "beamBanks": 3,
+      "torpedoBanks": 2,
+      "rapidTorpedoBanks": 1,
+      "rapidInterval": 0.375,
+      "preservedWeapons": [],
+      "costs": {
+        "dilithiumCost": 900,
+        "metalCost": 900,
+        "latinumCost": 0,
+        "biomatterCost": 0,
+        "crewCost": 200,
+        "officerCost": 8,
+        "buildTime": 90
+      },
+      "model": "dturret2",
+      "attachmentsVerified": true,
+      "originalCosts": {
+        "dilithiumCost": "75",
+        "metalCost": "75",
+        "latinumCost": "0",
+        "biomatterCost": "0",
+        "crewCost": "0",
+        "officerCost": "3",
+        "buildTime": "75"
+      }
+    },
+    {
+      "unit": "bbase2",
+      "name": "Orbital Base",
+      "category": "orbital miner",
+      "beamBanks": 2,
+      "torpedoBanks": 2,
+      "rapidTorpedoBanks": 0,
+      "rapidInterval": null,
+      "preservedWeapons": [
+        "gOrbitalBeam"
+      ],
+      "costs": {
+        "dilithiumCost": 400,
+        "metalCost": 0,
+        "latinumCost": 0,
+        "biomatterCost": 0,
+        "crewCost": 100,
+        "officerCost": 2,
+        "buildTime": 60,
+        "maximumCrew": 250
+      },
+      "model": "bbase2",
+      "attachmentsVerified": true,
+      "originalCosts": {
+        "dilithiumCost": "400",
+        "metalCost": "0",
+        "latinumCost": "0",
+        "biomatterCost": "0",
+        "crewCost": "100",
+        "officerCost": "2",
+        "buildTime": "60",
+        "maximumCrew": "500"
+      }
+    },
+    {
+      "unit": "borbital",
+      "name": "Orbital Extraction Facility",
+      "category": "orbital miner",
+      "beamBanks": 2,
+      "torpedoBanks": 2,
+      "rapidTorpedoBanks": 0,
+      "rapidInterval": null,
+      "preservedWeapons": [
+        "gOrbitalBeam"
+      ],
+      "costs": {
+        "dilithiumCost": 400,
+        "metalCost": 0,
+        "latinumCost": 0,
+        "biomatterCost": 0,
+        "crewCost": 100,
+        "officerCost": 2,
+        "buildTime": 60,
+        "maximumCrew": 250
+      },
+      "model": "borbital",
+      "attachmentsVerified": true,
+      "originalCosts": {
+        "dilithiumCost": "275",
+        "metalCost": "110",
+        "latinumCost": "0",
+        "biomatterCost": "0",
+        "crewCost": "850",
+        "officerCost": "15",
+        "buildTime": "44",
+        "maximumCrew": null
+      }
+    },
+    {
+      "unit": "forbital",
+      "name": "Spear Class",
+      "category": "orbital miner",
+      "beamBanks": 2,
+      "torpedoBanks": 2,
+      "rapidTorpedoBanks": 0,
+      "rapidInterval": null,
+      "preservedWeapons": [
+        "gOrbitalBeam"
+      ],
+      "costs": {
+        "dilithiumCost": 400,
+        "metalCost": 0,
+        "latinumCost": 0,
+        "biomatterCost": 0,
+        "crewCost": 100,
+        "officerCost": 2,
+        "buildTime": 60,
+        "maximumCrew": 250
+      },
+      "model": "xvstock_forbital",
+      "attachmentsVerified": true,
+      "originalCosts": {
+        "dilithiumCost": "400",
+        "metalCost": "0",
+        "latinumCost": "0",
+        "biomatterCost": "0",
+        "crewCost": "100",
+        "officerCost": "2",
+        "buildTime": "60",
+        "maximumCrew": null
+      }
+    },
+    {
+      "unit": "korbital",
+      "name": "Orbital Processing Facility",
+      "category": "orbital miner",
+      "beamBanks": 2,
+      "torpedoBanks": 2,
+      "rapidTorpedoBanks": 0,
+      "rapidInterval": null,
+      "preservedWeapons": [
+        "gOrbitalBeam"
+      ],
+      "costs": {
+        "dilithiumCost": 400,
+        "metalCost": 0,
+        "latinumCost": 0,
+        "biomatterCost": 0,
+        "crewCost": 100,
+        "officerCost": 2,
+        "buildTime": 60,
+        "maximumCrew": 250
+      },
+      "model": "xvstock_korbital",
+      "attachmentsVerified": true,
+      "originalCosts": {
+        "dilithiumCost": "400",
+        "metalCost": "0",
+        "latinumCost": "0",
+        "biomatterCost": "0",
+        "crewCost": "100",
+        "officerCost": "2",
+        "buildTime": "60",
+        "maximumCrew": null
+      }
+    },
+    {
+      "unit": "rorbital",
+      "name": "Orbital Processing Facility",
+      "category": "orbital miner",
+      "beamBanks": 2,
+      "torpedoBanks": 2,
+      "rapidTorpedoBanks": 0,
+      "rapidInterval": null,
+      "preservedWeapons": [
+        "gOrbitalBeam",
+        "gOrbitalBeam"
+      ],
+      "costs": {
+        "dilithiumCost": 400,
+        "metalCost": 0,
+        "latinumCost": 0,
+        "biomatterCost": 0,
+        "crewCost": 100,
+        "officerCost": 2,
+        "buildTime": 60,
+        "maximumCrew": 250
+      },
+      "model": "xvstock_rorbital",
+      "attachmentsVerified": true,
+      "originalCosts": {
+        "dilithiumCost": "400",
+        "metalCost": "0",
+        "latinumCost": "0",
+        "biomatterCost": "0",
+        "crewCost": "100",
+        "officerCost": "2",
+        "buildTime": "60",
+        "maximumCrew": null
+      }
+    },
+    {
+      "unit": "corbital",
+      "name": "Orbital Processing Facility",
+      "category": "orbital miner",
+      "beamBanks": 2,
+      "torpedoBanks": 2,
+      "rapidTorpedoBanks": 0,
+      "rapidInterval": null,
+      "preservedWeapons": [
+        "gOrbitalBeam"
+      ],
+      "costs": {
+        "dilithiumCost": 400,
+        "metalCost": 0,
+        "latinumCost": 0,
+        "biomatterCost": 0,
+        "crewCost": 100,
+        "officerCost": 2,
+        "buildTime": 60,
+        "maximumCrew": 250
+      },
+      "model": "xvstock_corbital",
+      "attachmentsVerified": true,
+      "originalCosts": {
+        "dilithiumCost": "400",
+        "metalCost": "0",
+        "latinumCost": "0",
+        "biomatterCost": "0",
+        "crewCost": "100",
+        "officerCost": "2",
+        "buildTime": "60",
+        "maximumCrew": null
+      }
+    },
+    {
+      "unit": "dorbital",
+      "name": "Orbital Mining Facility",
+      "category": "orbital miner",
+      "beamBanks": 2,
+      "torpedoBanks": 2,
+      "rapidTorpedoBanks": 0,
+      "rapidInterval": null,
+      "preservedWeapons": [
+        "gOrbitalBeam"
+      ],
+      "costs": {
+        "dilithiumCost": 400,
+        "metalCost": 0,
+        "latinumCost": 0,
+        "biomatterCost": 0,
+        "crewCost": 100,
+        "officerCost": 2,
+        "buildTime": 60,
+        "maximumCrew": 250
+      },
+      "model": "dorbital",
+      "attachmentsVerified": true,
+      "originalCosts": {
+        "dilithiumCost": "400",
+        "metalCost": "0",
+        "latinumCost": "0",
+        "biomatterCost": "0",
+        "crewCost": "100",
+        "officerCost": "2",
+        "buildTime": "60",
+        "maximumCrew": null
+      }
+    },
+    {
+      "unit": "brorbital",
+      "name": "Breen Orbital Processing Facility",
+      "category": "orbital miner",
+      "beamBanks": 2,
+      "torpedoBanks": 2,
+      "rapidTorpedoBanks": 0,
+      "rapidInterval": null,
+      "preservedWeapons": [
+        "gOrbitalBeam"
+      ],
+      "costs": {
+        "dilithiumCost": 400,
+        "metalCost": 0,
+        "latinumCost": 0,
+        "biomatterCost": 0,
+        "crewCost": 100,
+        "officerCost": 2,
+        "buildTime": 60,
+        "maximumCrew": 250
+      },
+      "model": "brorbital",
+      "attachmentsVerified": true,
+      "originalCosts": {
+        "dilithiumCost": "400",
+        "metalCost": "0",
+        "latinumCost": "0",
+        "biomatterCost": "0",
+        "crewCost": "100",
+        "officerCost": "2",
+        "buildTime": "60",
+        "maximumCrew": null
+      }
+    },
+    {
+      "unit": "bjorbital",
+      "name": "Bajoran Orbital Processing Facility",
+      "category": "orbital miner",
+      "beamBanks": 2,
+      "torpedoBanks": 2,
+      "rapidTorpedoBanks": 0,
+      "rapidInterval": null,
+      "preservedWeapons": [
+        "gOrbitalBeam"
+      ],
+      "costs": {
+        "dilithiumCost": 400,
+        "metalCost": 0,
+        "latinumCost": 0,
+        "biomatterCost": 0,
+        "crewCost": 100,
+        "officerCost": 2,
+        "buildTime": 60,
+        "maximumCrew": 250
+      },
+      "model": "br3_bjorbital",
+      "attachmentsVerified": true,
+      "originalCosts": {
+        "dilithiumCost": "400",
+        "metalCost": "0",
+        "latinumCost": "0",
+        "biomatterCost": "0",
+        "crewCost": "100",
+        "officerCost": "2",
+        "buildTime": "60",
+        "maximumCrew": null
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "odf/weapons/Phasers/xp1b.odf",
+      "existed": false,
+      "sha256": "8b7d34a90d698a6caec485a7d3ff0cd2accff350b82c670ff422282a58bb7efd"
+    },
+    {
+      "path": "odf/weapons/Photons/xp1t.odf",
+      "existed": false,
+      "sha256": "d253d46ba1a949f9f6b634ee5383dac1a5984a2ae9d2e0b786e8edceb98e44ea"
+    },
+    {
+      "path": "odf/weapons/Photons/xp1r.odf",
+      "existed": false,
+      "sha256": "1fd1dc3ddce0bb88d9233eb0d5a890ac0b8e5915a7906923060f745a00c9ec80"
+    },
+    {
+      "path": "odf/stations/fhwp.odf",
+      "existed": true,
+      "sha256": "79493623182a0c2c81dbbc7aec626b9ae0574dab85322a269748161138689501"
+    },
+    {
+      "path": "odf/weapons/Phasers/xp2b.odf",
+      "existed": false,
+      "sha256": "71cddff0f2daac0e686f06af3901973fed2fbd57ff79ecc05b2a5e91006fe8dc"
+    },
+    {
+      "path": "odf/weapons/Photons/xp2t.odf",
+      "existed": false,
+      "sha256": "9e88dfe3ebe5afa3f3a0562b4bee79b205a4778ac8d3051822a726053785c63c"
+    },
+    {
+      "path": "odf/weapons/Photons/xp2r.odf",
+      "existed": false,
+      "sha256": "49ba034870dcf5cfe670fecb350013b34e0209efaaff84ead7167738582ee9bc"
+    },
+    {
+      "path": "odf/stations/khwp.odf",
+      "existed": true,
+      "sha256": "296a514127b718b91c5e516b415f7fccf41cef6f2f133817a5e7dba2b5d02112"
+    },
+    {
+      "path": "odf/weapons/Phasers/xp3b.odf",
+      "existed": false,
+      "sha256": "93b6b9a82ae5768cffebccb954d097187ab0e2a0ef29973c5eb9f68d6388a825"
+    },
+    {
+      "path": "odf/weapons/Photons/xp3t.odf",
+      "existed": false,
+      "sha256": "05a49c87468a276d81357500113cd1953848b9cbe78868f8ec2d6f32f6c33368"
+    },
+    {
+      "path": "odf/weapons/Photons/xp3r.odf",
+      "existed": false,
+      "sha256": "9dd2f9f4c352f417385f9afdbae94909b9b763eed0178a5bcac2360c232c50ae"
+    },
+    {
+      "path": "odf/stations/rhwp.odf",
+      "existed": true,
+      "sha256": "978b849affcd3971b8e5a9454a689224520ec34d1b6ce99619bdc4ae4706f78f"
+    },
+    {
+      "path": "odf/weapons/Phasers/xp4b.odf",
+      "existed": false,
+      "sha256": "f927eec79001b80c4d1cd289b51d39de6bde41e995575da3b6dbf8e3671236ca"
+    },
+    {
+      "path": "odf/weapons/Photons/xp4t.odf",
+      "existed": false,
+      "sha256": "1605c396da49e8b2a3ed0eaa223c7f49d572b65e72c5ee9cb91325e38d5f6ada"
+    },
+    {
+      "path": "odf/weapons/Photons/xp4r.odf",
+      "existed": false,
+      "sha256": "5174d5efd6834e8fbf6474d6a737060bb477689c042c3e9891a5fe4c00f973cc"
+    },
+    {
+      "path": "odf/stations/cturret2.odf",
+      "existed": true,
+      "sha256": "099a5e8a7856a13b16517973e26746f9c06f5f3f987f0538740ece3759ac111b"
+    },
+    {
+      "path": "odf/weapons/Phasers/xp5b.odf",
+      "existed": false,
+      "sha256": "788b0a2f620dc6e7c6dd1241e8fc10b94df43bb0ec78d519a89b8a10f94dac5f"
+    },
+    {
+      "path": "odf/weapons/Photons/xp5t.odf",
+      "existed": false,
+      "sha256": "6d31317cee8f3c4774903fd23e87500141d6ccd56aee3e9ce466a4c09e1be5c0"
+    },
+    {
+      "path": "odf/weapons/Photons/xp5r.odf",
+      "existed": false,
+      "sha256": "32ce666213c09909ac37df5afe930fd95de8594a247abedbc0a9178a5a4416aa"
+    },
+    {
+      "path": "odf/stations/dturret3.odf",
+      "existed": true,
+      "sha256": "761e449df7b4945dcc39599c3deaf19e0a97f77239840381bad130c39699d858"
+    },
+    {
+      "path": "odf/weapons/Phasers/xp6b.odf",
+      "existed": false,
+      "sha256": "97d9ff4e059756f237520d61c778a096442ee0fce716e87a7c6521cb6d17bc1a"
+    },
+    {
+      "path": "odf/weapons/Photons/xp6t.odf",
+      "existed": false,
+      "sha256": "488420435655098e0c868bdb9916be24711f6588a39d92818c968b61efa9af06"
+    },
+    {
+      "path": "odf/stations/bbase2.odf",
+      "existed": true,
+      "sha256": "0ea4b8f27ff2337767cb11ab5e8fc973436be217323d53634d11175c0bc6be15"
+    },
+    {
+      "path": "odf/weapons/Phasers/xp7b.odf",
+      "existed": false,
+      "sha256": "97d9ff4e059756f237520d61c778a096442ee0fce716e87a7c6521cb6d17bc1a"
+    },
+    {
+      "path": "odf/weapons/Photons/xp7t.odf",
+      "existed": false,
+      "sha256": "488420435655098e0c868bdb9916be24711f6588a39d92818c968b61efa9af06"
+    },
+    {
+      "path": "odf/stations/borbital.odf",
+      "existed": true,
+      "sha256": "40dafcc25221519c7144fee33b4a4d84d4f48730d6c08ce28a8a648321832c73"
+    },
+    {
+      "path": "odf/weapons/Phasers/xp8b.odf",
+      "existed": false,
+      "sha256": "539f9fae08c645d1679a24f14076db238cc4ae112c1b03a7b27970645fa30683"
+    },
+    {
+      "path": "odf/weapons/Photons/xp8t.odf",
+      "existed": false,
+      "sha256": "a55ff1957ff5b0e2241b96d2d931eededf83ee983f737374a2d223c2d7ecaa05"
+    },
+    {
+      "path": "odf/stations/forbital.odf",
+      "existed": true,
+      "sha256": "c921c8c99018164aeb86b19ae7ddbe3f1aa4d9cb9233c2f8199a282202260470"
+    },
+    {
+      "path": "odf/weapons/Phasers/xp9b.odf",
+      "existed": false,
+      "sha256": "71cddff0f2daac0e686f06af3901973fed2fbd57ff79ecc05b2a5e91006fe8dc"
+    },
+    {
+      "path": "odf/weapons/Photons/xp9t.odf",
+      "existed": false,
+      "sha256": "c790903a24b66628eea8ba26c4c2247b8c108417528b6263049d5d69832b9e2e"
+    },
+    {
+      "path": "odf/stations/korbital.odf",
+      "existed": true,
+      "sha256": "8ecda7733472eabe1a3ce1e3d1722144c20478597c1f0a5301af65999ec92f4b"
+    },
+    {
+      "path": "odf/weapons/Phasers/xp10b.odf",
+      "existed": false,
+      "sha256": "93b6b9a82ae5768cffebccb954d097187ab0e2a0ef29973c5eb9f68d6388a825"
+    },
+    {
+      "path": "odf/weapons/Photons/xp10t.odf",
+      "existed": false,
+      "sha256": "551c93a96c6431b01ada56cab279800d01ff443106270d88232167f5257ebbe1"
+    },
+    {
+      "path": "odf/stations/Rorbital.odf",
+      "existed": true,
+      "sha256": "e79a5ba68bc2fbe53d7345d8e5edbcdc835968aed37b5c76e230df7a74095a1e"
+    },
+    {
+      "path": "odf/weapons/Phasers/xp11b.odf",
+      "existed": false,
+      "sha256": "f927eec79001b80c4d1cd289b51d39de6bde41e995575da3b6dbf8e3671236ca"
+    },
+    {
+      "path": "odf/weapons/Photons/xp11t.odf",
+      "existed": false,
+      "sha256": "264c5f41ce67d5d8a714fdbcd1ea49b4061dcc94866cfc04746bd41f35d0d6da"
+    },
+    {
+      "path": "odf/stations/corbital.odf",
+      "existed": true,
+      "sha256": "a54a087906d98eb5cf18874c431cfefb7e917305a1d8f09c02e50122165f5fc7"
+    },
+    {
+      "path": "odf/weapons/Phasers/xp12b.odf",
+      "existed": false,
+      "sha256": "101e4acc4750f9372f7dd6d20c5944a677872f9e15c44263e53eb9c81039b3aa"
+    },
+    {
+      "path": "odf/weapons/Photons/xp12t.odf",
+      "existed": false,
+      "sha256": "ff9bb8dff846d3ab1d29f7cbd4ed10585355c97f32f0c3698c8361fdf86ab562"
+    },
+    {
+      "path": "odf/stations/dorbital.odf",
+      "existed": true,
+      "sha256": "64db6cafbc376a8197ece9b1c06a60be867f4be19d103fa822bbbc9d7dcba012"
+    },
+    {
+      "path": "odf/weapons/Phasers/xp13b.odf",
+      "existed": false,
+      "sha256": "101e4acc4750f9372f7dd6d20c5944a677872f9e15c44263e53eb9c81039b3aa"
+    },
+    {
+      "path": "odf/weapons/Photons/xp13t.odf",
+      "existed": false,
+      "sha256": "ff9bb8dff846d3ab1d29f7cbd4ed10585355c97f32f0c3698c8361fdf86ab562"
+    },
+    {
+      "path": "odf/stations/brorbital.odf",
+      "existed": true,
+      "sha256": "13fe6cfc4ff3da6d8e198532353c724e3495223411ee5469a589a6c786fba924"
+    },
+    {
+      "path": "odf/weapons/Phasers/xp14b.odf",
+      "existed": false,
+      "sha256": "539f9fae08c645d1679a24f14076db238cc4ae112c1b03a7b27970645fa30683"
+    },
+    {
+      "path": "odf/weapons/Photons/xp14t.odf",
+      "existed": false,
+      "sha256": "a55ff1957ff5b0e2241b96d2d931eededf83ee983f737374a2d223c2d7ecaa05"
+    },
+    {
+      "path": "odf/stations/bjorbital.odf",
+      "existed": true,
+      "sha256": "63a9e078ac923227a3dcde8dc9e0f40a04048bfc4972d42a89a49d84e89cc4d5"
+    }
+  ],
+  "heavyCost": {
+    "dilithiumCost": 900,
+    "metalCost": 900,
+    "latinumCost": 0,
+    "biomatterCost": 0,
+    "crewCost": 200,
+    "officerCost": 8,
+    "buildTime": 90
+  },
+  "orbitalCost": {
+    "dilithiumCost": 400,
+    "metalCost": 0,
+    "latinumCost": 0,
+    "biomatterCost": 0,
+    "crewCost": 100,
+    "officerCost": 2,
+    "buildTime": 60,
+    "maximumCrew": 250
+  },
+  "runtimeVerified": false,
+  "deployed": false
+}

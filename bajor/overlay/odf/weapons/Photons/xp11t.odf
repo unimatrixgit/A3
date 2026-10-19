@@ -1,0 +1,18 @@
+// Explicit native weapon definition; no cross-directory includes.
+ordname = "cplaso"
+wpnname = "Plasma Bank"
+shotdelay = 1.5f
+range = 588.0f
+firesound = "porwea.wav"
+classlabel = "cannon"
+hitchance = 0.83
+impulsetohitmodifier = -0.0
+stoptohitmodifier = 0.2
+tohitimpulsemodifier = 0.0
+tohitstopmodifier = 0.2
+damagebase = 90
+specialenergycost = 18
+lifespan = 1.8
+sprite = "cphoton"
+restrictfirearc = 0
+firearc = 360

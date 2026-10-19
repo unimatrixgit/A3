@@ -1,0 +1,84 @@
+{
+  "dump": "Armada2.exe.30124.dmp",
+  "fault": "0x004d162c GameObject::Init, null first weapon class during Shipyard::FinishBuild",
+  "unitEvidence": "bjbattle string occurs in crash dump; exact instance/class heap not captured",
+  "causeConfirmed": false,
+  "mitigation": "Replace inherited cross-directory timing wrappers with self-contained native cannon definitions, short identifiers, and native weapon subfolders",
+  "units": [
+    {
+      "unit": "bjbattle",
+      "banks": [
+        {
+          "slot": 1,
+          "weapon": "bjbphs",
+          "classLabel": "cannon",
+          "ordName": "fsovereignphaso",
+          "shotDelay": "1.444444"
+        },
+        {
+          "slot": 2,
+          "weapon": "bjbtor",
+          "classLabel": "cannon",
+          "ordName": "fqphotono",
+          "shotDelay": "1.111111"
+        }
+      ]
+    },
+    {
+      "unit": "bjsuper",
+      "banks": [
+        {
+          "slot": 1,
+          "weapon": "bjsphs",
+          "classLabel": "cannon",
+          "ordName": "fsovereignphaso",
+          "shotDelay": "1.300000"
+        },
+        {
+          "slot": 2,
+          "weapon": "bjstor",
+          "classLabel": "cannon",
+          "ordName": "fqphotono",
+          "shotDelay": "1.000000"
+        }
+      ]
+    },
+    {
+      "unit": "bjnerys",
+      "banks": [
+        {
+          "slot": 1,
+          "weapon": "bjnphs",
+          "classLabel": "cannon",
+          "ordName": "fsovereignphaso",
+          "shotDelay": "1.238095"
+        },
+        {
+          "slot": 2,
+          "weapon": "bjntor",
+          "classLabel": "cannon",
+          "ordName": "fqphotono",
+          "shotDelay": "0.952381"
+        }
+      ]
+    }
+  ],
+  "runtimeVerified": false,
+  "files": [
+    "odf/weapons/Phasers/bjbphs.odf",
+    "odf/weapons/xlab_bjbattle_weapon1.odf",
+    "odf/weapons/Photons/bjbtor.odf",
+    "odf/weapons/xlab_bjbattle_weapon2.odf",
+    "odf\\ships\\bjbattle.odf",
+    "odf/weapons/Phasers/bjsphs.odf",
+    "odf/weapons/xlab_bjsuper_weapon1.odf",
+    "odf/weapons/Photons/bjstor.odf",
+    "odf/weapons/xlab_bjsuper_weapon2.odf",
+    "odf\\ships\\bjsuper.odf",
+    "odf/weapons/Phasers/bjnphs.odf",
+    "odf/weapons/xlab_bjnerys_weapon1.odf",
+    "odf/weapons/Photons/bjntor.odf",
+    "odf/weapons/xlab_bjnerys_weapon2.odf",
+    "odf\\ships\\bjnerys.odf"
+  ]
+}

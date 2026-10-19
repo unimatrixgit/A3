@@ -113,3 +113,13 @@ buildTime = 110
 unitName = "Raptor's Talon Shipyard"
 tooltip = "Raptor's Talon Shipyard"
 verboseTooltip = "Raptor's Talon Shipyard. Produces faction heroes. Available at the same technology tier as rsuperbl."
+
+buildItem8 = "xhrshinzon"
+buildItem9 = "xhrdonatra"
+
+buildItem10 = "xhrtosbird"
+
+buildItem11 = "xhrearlybird"
+
+// Lab safety fix: this model has no repair docking node. Do not accept repair orders, including after capture.
+repairFacility = 0

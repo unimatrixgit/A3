@@ -1,0 +1,14 @@
+// Explicit native weapon definition; no cross-directory includes.
+ordname = "jmphotono"
+wpnname = "Photon Torpedo"
+shotdelay = 1.5f
+range = 600.0f
+firesound = "pofwea.wav"
+classlabel = "cannon"
+hitchance = 0.5
+impulsetohitmodifier = -0.0
+stoptohitmodifier = 0.2
+tohitimpulsemodifier = 0.0
+tohitstopmodifier = 0.2
+restrictfirearc = 0
+firearc = 360

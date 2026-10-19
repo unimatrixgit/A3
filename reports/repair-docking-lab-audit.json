@@ -1,0 +1,733 @@
+{
+  "root": "D:\\ArmadaLab",
+  "yards": [
+    {
+      "unit": "714syard.odf",
+      "race": "species8472",
+      "model": "714syard",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": false,
+      "modelNodeCount": 22
+    },
+    {
+      "unit": "8472_fluidicgate.odf",
+      "race": "species8472",
+      "model": "8472_FluidicGate",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": false,
+      "modelNodeCount": 17
+    },
+    {
+      "unit": "bjyard.odf",
+      "race": "bajoran",
+      "model": "br3_bjyard",
+      "repairFacility": "1",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair",
+      "repairNodeExists": true,
+      "modelNodeCount": 60
+    },
+    {
+      "unit": "bjyard2.odf",
+      "race": "bajoran",
+      "model": "br3_bjyard2",
+      "repairFacility": "1",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair",
+      "repairNodeExists": true,
+      "modelNodeCount": 52
+    },
+    {
+      "unit": "bjyard3.odf",
+      "race": "bajoran",
+      "model": "br3_bjyard3",
+      "repairFacility": "1",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair",
+      "repairNodeExists": true,
+      "modelNodeCount": 52
+    },
+    {
+      "unit": "brecycle.odf",
+      "race": "borg",
+      "model": "brecycle",
+      "repairFacility": "0",
+      "repairSide": "5",
+      "repairHardpoint": "repair",
+      "repairNodeExists": true,
+      "modelNodeCount": 52
+    },
+    {
+      "unit": "bryard.odf",
+      "race": "breen",
+      "model": "bryard",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "hp03",
+      "repairNodeExists": true,
+      "modelNodeCount": 34
+    },
+    {
+      "unit": "bryard2.odf",
+      "race": "breen",
+      "model": "bryard2",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "hp03",
+      "repairNodeExists": true,
+      "modelNodeCount": 34
+    },
+    {
+      "unit": "bryard3.odf",
+      "race": "breen",
+      "model": "bryard2",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "hp03",
+      "repairNodeExists": true,
+      "modelNodeCount": 34
+    },
+    {
+      "unit": "byard.odf",
+      "race": "borg",
+      "model": "xvstock_byard",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair",
+      "repairNodeExists": true,
+      "modelNodeCount": 62
+    },
+    {
+      "unit": "byard2.odf",
+      "race": "borg",
+      "model": "xvstock_byard2",
+      "repairFacility": "1 (native default)",
+      "repairSide": "9",
+      "repairHardpoint": "repair",
+      "repairNodeExists": true,
+      "modelNodeCount": 50
+    },
+    {
+      "unit": "byard3.odf",
+      "race": "borg",
+      "model": "byard3",
+      "repairFacility": "1 (native default)",
+      "repairSide": "9",
+      "repairHardpoint": "repair",
+      "repairNodeExists": true,
+      "modelNodeCount": 20
+    },
+    {
+      "unit": "cardassian_super_station.odf",
+      "race": "cardassian",
+      "model": "cardassian_super_station",
+      "repairFacility": "0",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": false,
+      "modelNodeCount": 52
+    },
+    {
+      "unit": "cobyard.odf",
+      "race": "cardassian",
+      "model": "cobyard",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": true,
+      "modelNodeCount": 25
+    },
+    {
+      "unit": "cyard.odf",
+      "race": "cardassian",
+      "model": "xvstock_cyard",
+      "repairFacility": "1 (native default)",
+      "repairSide": "4",
+      "repairHardpoint": "repair",
+      "repairNodeExists": true,
+      "modelNodeCount": 60
+    },
+    {
+      "unit": "cyard2.odf",
+      "race": "cardassian",
+      "model": "xvstock_cyard2",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": true,
+      "modelNodeCount": 52
+    },
+    {
+      "unit": "cyard3.odf",
+      "race": "cardassian",
+      "model": "cyard2",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": false,
+      "modelNodeCount": 21
+    },
+    {
+      "unit": "domyard.odf",
+      "race": "cardassian",
+      "model": "domyard",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": false,
+      "modelNodeCount": 22
+    },
+    {
+      "unit": "dsuperbl.odf",
+      "race": "dominion",
+      "model": "dsuperbl",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "hp08",
+      "repairNodeExists": true,
+      "modelNodeCount": 22
+    },
+    {
+      "unit": "dyard.odf",
+      "race": "dominion",
+      "model": "dyard",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": true,
+      "modelNodeCount": 33
+    },
+    {
+      "unit": "dyard2.odf",
+      "race": "dominion",
+      "model": "dyard2",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": true,
+      "modelNodeCount": 41
+    },
+    {
+      "unit": "dyard3.odf",
+      "race": "dominion",
+      "model": "dyard2",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": true,
+      "modelNodeCount": 41
+    },
+    {
+      "unit": "fremmeler.odf",
+      "race": "federation",
+      "model": "fremmeler",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "hp01",
+      "repairNodeExists": true,
+      "modelNodeCount": 22
+    },
+    {
+      "unit": "fyard.odf",
+      "race": "federation",
+      "model": "xvstock_fyard",
+      "repairFacility": "0",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": true,
+      "modelNodeCount": 76
+    },
+    {
+      "unit": "fyard0.odf",
+      "race": "federation",
+      "model": "fyard0",
+      "repairFacility": "0",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": false,
+      "modelNodeCount": 24
+    },
+    {
+      "unit": "fyard2.odf",
+      "race": "federation",
+      "model": "xvstock_fyard2",
+      "repairFacility": "0",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": true,
+      "modelNodeCount": 77
+    },
+    {
+      "unit": "fyard3.odf",
+      "race": "federation",
+      "model": "fyard3",
+      "repairFacility": "0",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": false,
+      "modelNodeCount": 119
+    },
+    {
+      "unit": "kimpyard.odf",
+      "race": "klingon",
+      "model": "kimpyard",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": false,
+      "modelNodeCount": 24
+    },
+    {
+      "unit": "ksuperbl.odf",
+      "race": "klingon",
+      "model": "ksuperbl",
+      "repairFacility": "0",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": false,
+      "modelNodeCount": 35
+    },
+    {
+      "unit": "kyard.odf",
+      "race": "klingon",
+      "model": "xvstock_kyard",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": true,
+      "modelNodeCount": 82
+    },
+    {
+      "unit": "kyard2.odf",
+      "race": "klingon",
+      "model": "xvstock_kyard2",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": true,
+      "modelNodeCount": 45
+    },
+    {
+      "unit": "kyard3.odf",
+      "race": "klingon",
+      "model": "kyard2",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": true,
+      "modelNodeCount": 45
+    },
+    {
+      "unit": "rsuperbl.odf",
+      "race": "romulan",
+      "model": "rsuperbl",
+      "repairFacility": "0",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": false,
+      "modelNodeCount": 37
+    },
+    {
+      "unit": "ryard.odf",
+      "race": "romulan",
+      "model": "xvstock_ryard",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": true,
+      "modelNodeCount": 173
+    },
+    {
+      "unit": "ryard2.odf",
+      "race": "romulan",
+      "model": "xvstock_ryard2",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": true,
+      "modelNodeCount": 61
+    },
+    {
+      "unit": "ryard3.odf",
+      "race": "romulan",
+      "model": "ryard3",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": false,
+      "modelNodeCount": 25
+    },
+    {
+      "unit": "s31yard.odf",
+      "race": "federation",
+      "model": "s31yard",
+      "repairFacility": "1 (native default)",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": false,
+      "modelNodeCount": 37
+    },
+    {
+      "unit": "xbassimst.odf",
+      "race": "borg",
+      "model": "xbassimst",
+      "repairFacility": "1",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair",
+      "repairNodeExists": true,
+      "modelNodeCount": 38
+    },
+    {
+      "unit": "xflegacyyard.odf",
+      "race": "federation",
+      "model": "fyard3",
+      "repairFacility": "0",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": false,
+      "modelNodeCount": 119
+    },
+    {
+      "unit": "zsuperbl.odf",
+      "race": "dominion",
+      "model": "zsuperbl",
+      "repairFacility": "0",
+      "repairSide": "2 (native default)",
+      "repairHardpoint": "repair (native default)",
+      "repairNodeExists": false,
+      "modelNodeCount": 51
+    }
+  ],
+  "borgShips": [
+    {
+      "unit": "bassault.odf",
+      "shieldRate": "16.9",
+      "healthRate": "native default",
+      "crewCost": "500",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bbattle.odf",
+      "shieldRate": "8.4375",
+      "healthRate": "native default",
+      "crewCost": "1000",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bbattle1.odf",
+      "shieldRate": "19.2",
+      "healthRate": "native default",
+      "crewCost": "800",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bbattle2.odf",
+      "shieldRate": "18.5",
+      "healthRate": "native default",
+      "crewCost": "1000",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bbattle3.odf",
+      "shieldRate": "58",
+      "healthRate": "native default",
+      "crewCost": "4800",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bbattle4.odf",
+      "shieldRate": "116",
+      "healthRate": "native default",
+      "crewCost": "5600",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bbattle5.odf",
+      "shieldRate": "200",
+      "healthRate": "native default",
+      "crewCost": "48000",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bbattle6.odf",
+      "shieldRate": "1160",
+      "healthRate": "native default",
+      "crewCost": "56000",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bbattle8.odf",
+      "shieldRate": "1600",
+      "healthRate": "native default",
+      "crewCost": "2000",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bcolony.odf",
+      "shieldRate": "8.9",
+      "healthRate": "native default",
+      "crewCost": "100",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bconst.odf",
+      "shieldRate": "9.2",
+      "healthRate": "native default",
+      "crewCost": "150",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bconst2.odf",
+      "shieldRate": "10.8",
+      "healthRate": "native default",
+      "crewCost": "651",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bcruise1.odf",
+      "shieldRate": "15.7",
+      "healthRate": "native default",
+      "crewCost": "250",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bcruise2.odf",
+      "shieldRate": "14.8",
+      "healthRate": "native default",
+      "crewCost": "250",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bcruise3.odf",
+      "shieldRate": "16.4",
+      "healthRate": "native default",
+      "crewCost": "250",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bdestroy.odf",
+      "shieldRate": "10.2",
+      "healthRate": "native default",
+      "crewCost": "100",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bdestroy2.odf",
+      "shieldRate": "12.8",
+      "healthRate": "native default",
+      "crewCost": "668",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bfreight.odf",
+      "shieldRate": "8.7",
+      "healthRate": "native default",
+      "crewCost": "100",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bfrigate.odf",
+      "shieldRate": "16.2",
+      "healthRate": "native default",
+      "crewCost": "200",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bhentra.odf",
+      "shieldRate": "18.2",
+      "healthRate": "native default",
+      "crewCost": "3940",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bhentrag.odf",
+      "shieldRate": "19.3",
+      "healthRate": "native default",
+      "crewCost": "3700",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "blocutus.odf",
+      "shieldRate": "20.0",
+      "healthRate": "native default",
+      "crewCost": "1500",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bmama.odf",
+      "shieldRate": "21.4",
+      "healthRate": "native default",
+      "crewCost": "8000",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bomega1.odf",
+      "shieldRate": "22.4",
+      "healthRate": "native default",
+      "crewCost": "4600",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bpentra.odf",
+      "shieldRate": "17.4",
+      "healthRate": "native default",
+      "crewCost": "984",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bqueen.odf",
+      "shieldRate": "21.7",
+      "healthRate": "native default",
+      "crewCost": "350",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "brenborg.odf",
+      "shieldRate": "17.9",
+      "healthRate": "native default",
+      "crewCost": "2297",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bscout.odf",
+      "shieldRate": "9.7",
+      "healthRate": "native default",
+      "crewCost": "150",
+      "maximumCrew": "150",
+      "issues": []
+    },
+    {
+      "unit": "bspecial.odf",
+      "shieldRate": "21.7",
+      "healthRate": "native default",
+      "crewCost": "350",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "bsphere.odf",
+      "shieldRate": "100",
+      "healthRate": "native default",
+      "crewCost": "850",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "btacpyr.odf",
+      "shieldRate": "18.4",
+      "healthRate": "native default",
+      "crewCost": "1940",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "tcube.odf",
+      "shieldRate": "100",
+      "healthRate": "93",
+      "crewCost": "6700",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "uconst.odf",
+      "shieldRate": "3.5",
+      "healthRate": "native default",
+      "crewCost": "150",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "xbassimold.odf",
+      "shieldRate": "20.0",
+      "healthRate": "native default",
+      "crewCost": "250",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "xbrepair.odf",
+      "shieldRate": "3.8",
+      "healthRate": "native default",
+      "crewCost": "50",
+      "maximumCrew": "50",
+      "issues": []
+    },
+    {
+      "unit": "xbuconst.odf",
+      "shieldRate": "9.2",
+      "healthRate": "native default",
+      "crewCost": "150",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "xobbattle1.odf",
+      "shieldRate": "28.800",
+      "healthRate": "native default",
+      "crewCost": "5200",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "xobbattle2.odf",
+      "shieldRate": "27.750",
+      "healthRate": "native default",
+      "crewCost": "4800",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "xobcruise1.odf",
+      "shieldRate": "23.550",
+      "healthRate": "native default",
+      "crewCost": "1260",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    },
+    {
+      "unit": "xoblocutus.odf",
+      "shieldRate": "30.000",
+      "healthRate": "native default",
+      "crewCost": "1500",
+      "maximumCrew": "crewCost default",
+      "issues": []
+    }
+  ],
+  "runtimeVerified": false,
+  "nativeFindings": [
+    "NeedsRepair checks crew, five systems, hull and shields, rather than the rounded GUI percentages.",
+    "RepairQueueManager invokes DryDockRepairShip for a docked vessel independent of its original race.",
+    "No executable changes made."
+  ]
+}

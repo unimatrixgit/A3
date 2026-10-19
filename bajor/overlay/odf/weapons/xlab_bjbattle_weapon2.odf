@@ -1,0 +1,17 @@
+// Standalone native cannon definition. No cross-directory includes.
+ordname = "fqphotono"
+wpnname = "Photon Torpedo"
+shotdelay = 1.111111
+range = 600.0f
+firesound = "pofwea.wav"
+classlabel = "cannon"
+hitchance = 0.5
+impulsetohitmodifier = -0.0
+stoptohitmodifier = 0.2
+tohitimpulsemodifier = 0.0
+tohitstopmodifier = 0.2
+savefire = 1
+maxshots = 5
+minimumshotinterval = 0.25
+restrictfirearc = 1
+firearc = 45

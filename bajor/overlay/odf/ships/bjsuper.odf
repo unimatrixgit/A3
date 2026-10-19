@@ -33,13 +33,13 @@ lifesupporthitpoints = 3000
 sensorshitpoints = 3000
 
 //Rate at which shield recharges (points per second... we think)
-shieldrate = 11
+
 
 //Maximum Value of Special Energy
-maxspecialenergy = 1100
+
 
 //Rate at which special energy recharges (points per second... we think)
-specialenergyrate = 11
+
 
 //**********************************************************************
 //SHIP NAMES
@@ -59,12 +59,12 @@ possibleCraftNames =
 //ART PARAMETERS & WEAPON NAMES
 
 // phaser
-weapon1 = "fsovereignphas"
+
 
 	"hp17" "hp18" "hp19" "hp20" "hp21" "hp22" "hp23" "hp24" "hp25" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32" "hp33" "hp34"
 
 // Photon torpedos
-weapon2 = "fsovereignphot"
+
 
 
 //Self Destruct
@@ -115,8 +115,8 @@ trekPhysicsFile = "fbattlephys.odf"
 
 // Xaramada resource costs: original filename.
 
-latinumcost = 0
-biomattercost = 0
+
+
 
 
 unitName = "Bajoran Strategic Command Vessel"
@@ -131,17 +131,17 @@ race = "bajoran"
 
 
 
-maxhealth = 1100
 
-dilithiumcost = 450
 
-metalcost = 100
 
-crewcost = 700
 
-officercost = 12
 
-buildtime = 22
+
+
+
+
+
+
 
 weapon3 = "xbj_gselfdes"
 
@@ -170,3 +170,33 @@ shieldgeneratortargethardpoints = "hp61" "hp62" "hp63" "hp64"
 sensorstargethardpoints = "hp65"
 hulltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
 criticaltargethardpoints = "hp37" "hp38" "hp39" "hp60"
+
+maxHealth = 1100
+
+shieldRate = 11
+
+maxspecialenergy = 1100
+
+specialenergyrate = 11
+
+dilithiumcost = 518
+
+metalcost = 115
+
+latinumcost = 0
+
+biomattercost = 0
+
+officercost = 14
+
+crewCost = 700
+
+buildTime = 27
+
+
+
+
+
+weapon1 = "bjsphs"
+
+weapon2 = "bjstor"

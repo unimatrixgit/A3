@@ -1,0 +1,128 @@
+#include "cruise1.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "K'Tinga Class"
+
+//tooltips
+tooltip = "K'Tinga Class"
+verboseTooltip = "Romulan Border Patrol Vessel"
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 994
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 625
+enginesHitPoints = 525
+weaponsHitPoints = 525
+lifeSupportHitPoints = 425
+sensorsHitPoints = 230
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 7.9
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 80
+impulseSpeed = 78
+warpSpeed = 762
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 2400
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 24 
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "Delens" "Sasicius" "Albisius" "Atis" "Ladreius" "Tonia" "Nitrontus"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Phaser
+weapon1 = "rc03pul"
+weaponHardpoints1 = "hp11"
+
+// Phaser
+weapon2 = "rc03pul"
+weaponHardpoints2 = "hp12"
+
+// Cloaking Device
+weapon3 = "grcloak"
+weaponHardpoints3 = "hp15"
+
+// Torpedo
+weapon4 = "rc03phot"
+weaponHardpoints4 = "hp13" "hp14"
+
+// Unassigned hardpoint located on middle top
+//weapon5 = "unused"
+//weaponHardpoints5 = "hp16"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.75f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.30f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+
+ScaleSOD = 1.2
+//**********************************************************************
+//KEYMAP LABEL
+hotkeyLabel = "HOTKEY_F5"
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+dilithiumCost = 305
+metalCost = 55
+latinumCost = 0
+biomatterCost = 0
+crewCost = 894
+officerCost = 10
+buildTime = 22
+
+weapon5 = "gplasmaw"
+
+weaponHardpoints5 = "hp01"

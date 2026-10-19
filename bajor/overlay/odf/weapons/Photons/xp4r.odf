@@ -1,0 +1,21 @@
+// Explicit native weapon definition; no cross-directory includes.
+ordname = "zphotono"
+wpnname = "Continuous Torpedo Launcher"
+shotdelay = 0.375
+range = 614.0f
+firesound = "porwea.wav"
+classlabel = "cannon"
+hitchance = 0.87
+impulsetohitmodifier = -0.0
+stoptohitmodifier = 0.2
+tohitimpulsemodifier = 0.0
+tohitstopmodifier = 0.2
+damagebase = 110
+specialenergycost = 0
+lifespan = 1.8
+sprite = "dtorpedo"
+restrictfirearc = 0
+firearc = 360
+maxshots = 1
+minimumshotinterval = 0.375
+savefire = 0

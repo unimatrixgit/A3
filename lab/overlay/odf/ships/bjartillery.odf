@@ -1,0 +1,154 @@
+#include "cruise3.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+//Race which can build ship & starting race of ship
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxhealth = 575
+
+// Hitpoints
+
+shieldgeneratorhitpoints = 1475
+engineshitpoints = 1475
+weaponshitpoints = 1475
+lifesupporthitpoints = 1475
+sensorshitpoints = 1475
+
+//Rate at which shield recharges (points per second... we think)
+shieldrate = 5.75
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+	"USS Christophe" "USS Dessalines" "USS Rochambeau" "USS Toussaint" "USS Rosenberg"
+	"USS Karr" "USS Blakey" "USS Mingus" "USS Armstrong" "USS Monk"
+	"USS Shorter" "USS Garrison" "USS Tyner" "USS Jones" "USS Basie"
+	"USS Henderson" "USS Evans" "USS Parker" "USS Rollins"
+	"USS Teagarden" "USS Willard" "USS Hawkins" "USS Johnson" "USS Oliver"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Phaser
+weapon1 = "fintrepidphas"
+
+
+// Photon Torpedo
+weapon2 = "ftype6"
+
+
+// Phaser
+weapon3 = "fintrepidphas"
+
+
+// Photon Torpedo
+weapon4 = "ftype6"
+
+
+// Hardpoints to hit for various systems and other locations.
+
+
+
+
+
+
+
+
+
+//**********************************************************************
+//PHYSICS PARAMETERS
+
+// Scripted 3D Attack paths
+attack_path0 = "p2.pth"
+attack_path1 = "p3.pth"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "fed_destroyer"
+hotkeyLabel = "HOTKEY_F6"
+
+
+// let's make this a bit bigger
+
+
+
+
+//physics file for all other physics stuff
+physicsFile = "fdestroyerphys.odf"
+trekPhysicsFile = "fdestroyerphys.odf"
+
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumcost = 225
+metalcost = 0
+latinumcost = 0
+biomattercost = 0
+crewcost = 250
+officercost = 8
+buildtime = 25
+
+unitName = "Bajoran Long-Range Defense Vessel"
+
+tooltip = "Bajoran Long-Range Defense Vessel"
+
+verboseTooltip = "Bajoran Long-Range Defense Vessel. Extrapolated standoff assault hull."
+
+race = "bajoran"
+
+
+
+
+baseName = "br3_bjartillery"
+ScaleSOD = 0.8
+
+
+
+
+
+
+
+
+
+
+
+weaponHardpoints1 = "hp03" "hp06" "hp22"
+weaponHardpoints2 = "hp07" "hp11"
+weaponHardpoints3 = "hp04" "hp05" "hp21"
+weaponHardpoints4 = "hp08" "hp10"
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32"
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorstargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+hulltargethardpoints = "hp06" "hp08" "hp10"  "hp12" "hp14" "hp16"
+criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19"
+
+maxspecialenergy = 1000
+
+specialenergyrate = 15
+
+weapon5 = "xbj_gamine"
+
+weaponHardpoints5 = "hp01"

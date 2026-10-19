@@ -1,0 +1,14 @@
+// Explicit native weapon definition; no cross-directory includes.
+wpnname = "Phaser"
+shotdelay = 0.5625f
+range = 600.0f
+firesound = "phbwea.wav"
+classlabel = "cannon"
+hitchance = 0.75
+impulsetohitmodifier = -0.25
+stoptohitmodifier = -0.0
+tohitimpulsemodifier = 0.00
+tohitstopmodifier = 0.25
+ordname = "bb3phaso"
+restrictfirearc = 0
+firearc = 360

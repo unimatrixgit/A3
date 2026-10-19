@@ -1,0 +1,22 @@
+// Explicit native weapon definition; no cross-directory includes.
+ordname = "kphotono"
+wpnname = "Continuous Torpedo Launcher"
+shotdelay = 0.375
+range = 614.0f
+firesound = "pokplas.wav"
+classlabel = "cannon"
+hitchance = 0.5
+impulsetohitmodifier = -0.0
+stoptohitmodifier = 0.2
+tohitimpulsemodifier = 0.0
+tohitstopmodifier = 0.2
+specialenergycost = 0
+damagebase = 125
+shotspeed = 406.0
+sprite = "kphoton"
+radius = 4.0f
+restrictfirearc = 0
+firearc = 360
+maxshots = 1
+minimumshotinterval = 0.375
+savefire = 0

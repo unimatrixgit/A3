@@ -1,0 +1,186 @@
+{
+  "backup": "D:\\Xaramada-Modwork\\backups\\yard-specials-colony-live-20261019-203103",
+  "files": [
+    {
+      "path": "odf/ships/kbwing.odf",
+      "sha256": "a34bd4ca72afd6d15f071f673abd5204f87bfc54c11a576a292d2fc9c2c3a78a"
+    },
+    {
+      "path": "odf/ships/rktinga.odf",
+      "sha256": "68b13a3b27b80211bf254f7c5f967210739b49d3acfb03be74f587d89b2f9592"
+    },
+    {
+      "path": "odf/ships/rscruise.odf",
+      "sha256": "57d360c6cc2777013b0f9c517c8109f550d65c8aa53bdf162551c519545c10a2"
+    },
+    {
+      "path": "odf/ships/bjartillery.odf",
+      "sha256": "f5164f8bfce21586f4b08b33071d0c06c1ec1b511f98e5e36ca26fbecffa9173"
+    },
+    {
+      "path": "odf/ships/fneworleans.odf",
+      "sha256": "30d4e728cb9db313338420660f2c949dcf87fd101aadb4e436e02993c7d6922f"
+    },
+    {
+      "path": "odf/ships/xhfriker.odf",
+      "sha256": "0f3b71f81913c728c24c8271c03e652fa691ca9b770976c686a59ceac3deae74"
+    },
+    {
+      "path": "odf/ships/rtscout.odf",
+      "sha256": "48746196c06536c516aa587edb8f1bd29a5a8b18c1f2e4398f0227893539ba33"
+    },
+    {
+      "path": "odf/ships/rtspec.odf",
+      "sha256": "67dc9dec5be2fb71a4ca4df9e5f3db2595108e5d5edc113730ccccd8572c32c1"
+    },
+    {
+      "path": "techtree/tech1.tt",
+      "sha256": "33bfafa594f4e7c2a262fbed580c9fab451a62f0a50e756f6330e62e9bdeb888"
+    },
+    {
+      "path": "techtree/earlytech.tt",
+      "sha256": "86b94b293b48601b199ed4ca430d95be26274a8cd9d0d0cdb7e6023b3450b62e"
+    },
+    {
+      "path": "techtree/nosci.tt",
+      "sha256": "5c3ec1d45c1235d123319c91e72285660cbbc2423234aedf3a9e55bcfcdca7c8"
+    },
+    {
+      "path": "techtree/nosuper.tt",
+      "sha256": "adfacc3886e3a81ce38bf20800b2b2883d9e63b0fddd399f9e6544b5c45e5d05"
+    },
+    {
+      "path": "techtree/nospweap.tt",
+      "sha256": "d7e279d46fef5c6501de37965a5f1e8ba20ed094c8afe14ddebec90351bd4036"
+    },
+    {
+      "path": "techtree/fulltech.tt",
+      "sha256": "bb57da8be28c67eb5f972db81ffddbf18039b21d13582e6939b9d28dbe5edbd4"
+    }
+  ],
+  "ships": [
+    {
+      "unit": "kbwing",
+      "ability": "gplasmac",
+      "abilityName": "Ion Cannon",
+      "sourceShip": "kbattle",
+      "race": "klingon",
+      "reason": "battleship ion cannon",
+      "newWeaponSlot": 4,
+      "hardpoint": "hp01",
+      "requiredEnergy": 600.0,
+      "energyCapacity": 2400.0
+    },
+    {
+      "unit": "rktinga",
+      "ability": "gplasmaw",
+      "abilityName": "Heated Plasma",
+      "sourceShip": "rcruise4",
+      "race": "romulan",
+      "reason": "cruiser offensive plasma",
+      "newWeaponSlot": 5,
+      "hardpoint": "hp01",
+      "requiredEnergy": 1000.0,
+      "energyCapacity": 2400.0
+    },
+    {
+      "unit": "rscruise",
+      "ability": "gposijam",
+      "abilityName": "Sensor Jammer",
+      "sourceShip": "rcruise1",
+      "race": "romulan",
+      "reason": "cruiser sensor disruption",
+      "newWeaponSlot": 6,
+      "hardpoint": "hp01",
+      "requiredEnergy": 800.0,
+      "energyCapacity": 2400.0
+    },
+    {
+      "unit": "bjartillery",
+      "ability": "xbj_gamine",
+      "abilityName": "Antimatter Mines",
+      "sourceShip": "bjinterceptor",
+      "race": "bajoran",
+      "reason": "destroyer-derived artillery defensive mines",
+      "newWeaponSlot": 5,
+      "hardpoint": "hp01",
+      "requiredEnergy": 600.0,
+      "energyCapacity": 1000.0
+    },
+    {
+      "unit": "fneworleans",
+      "ability": "gchainp",
+      "abilityName": "Chain Reaction Pulsar",
+      "sourceShip": "fcruise1",
+      "race": "federation",
+      "reason": "cruiser chain-reaction pulsar",
+      "newWeaponSlot": 5,
+      "hardpoint": "hp01",
+      "requiredEnergy": 800.0,
+      "energyCapacity": 800.0
+    },
+    {
+      "unit": "xhfriker",
+      "ability": "gcorbom",
+      "abilityName": "Corbomite Reflector",
+      "sourceShip": "fente",
+      "race": "federation",
+      "reason": "battleship defensive reflector",
+      "newWeaponSlot": 7,
+      "hardpoint": "hp01",
+      "requiredEnergy": 80.0,
+      "energyCapacity": 15000.0
+    },
+    {
+      "unit": "rtscout",
+      "ability": "gromspy",
+      "abilityName": "Romulan Spy",
+      "sourceShip": "rdestroy",
+      "race": "romulan",
+      "reason": "scout reconnaissance",
+      "newWeaponSlot": 9,
+      "hardpoint": "hp01",
+      "requiredEnergy": 400.0,
+      "energyCapacity": 2400.0
+    },
+    {
+      "unit": "rtspec",
+      "ability": "gromspy",
+      "abilityName": "Romulan Spy",
+      "sourceShip": "rdestroy",
+      "race": "romulan",
+      "reason": "destroyer reconnaissance",
+      "newWeaponSlot": 8,
+      "hardpoint": "hp01",
+      "requiredEnergy": 400.0,
+      "energyCapacity": 2400.0
+    }
+  ],
+  "techTrees": [
+    {
+      "tree": "tech1.tt",
+      "entry": "fcolony.odf 1 fyard.odf"
+    },
+    {
+      "tree": "earlytech.tt",
+      "entry": "fcolony.odf 1 fyard.odf"
+    },
+    {
+      "tree": "nosci.tt",
+      "entry": "fcolony.odf 1 fyard.odf"
+    },
+    {
+      "tree": "nosuper.tt",
+      "entry": "fcolony.odf 1 fyard.odf"
+    },
+    {
+      "tree": "nospweap.tt",
+      "entry": "fcolony.odf 1 fyard.odf"
+    },
+    {
+      "tree": "fulltech.tt",
+      "entry": "fcolony.odf 0"
+    }
+  ],
+  "runtimeVerified": false
+}
