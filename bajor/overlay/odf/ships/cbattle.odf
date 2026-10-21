@@ -4,8 +4,8 @@
 unitName = "Galor Class"
 
 //tooltips
-tooltip = "Galor Class"
-verboseTooltip = "Cardassian Battleship"
+
+
 
 //Race which can build ship & starting race of ship
 race = "cardassian"
@@ -68,7 +68,7 @@ weapon2 = "cc06plas"
 weaponHardpoints2 = "hp11"
 
 //Special Weapon - Self-Destruct
-weapon3 = "gselfdes"
+
 weaponHardpoints3 = "hp12"
 
 // Hardpoints to hit for various systems and other locations.
@@ -102,11 +102,11 @@ hotkeyLabel = "HOTKEY_F2"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 400
-metalCost = 100
-latinumCost = 0
-biomatterCost = 0
-crewCost = 400
+
+
+
+
+
 officerCost = 10
 buildTime = 24
 
@@ -117,3 +117,21 @@ weaponHardpoints4 = "hp01"
 maxSpecialEnergy = 1500
 
 specialEnergyRate = 15.0
+
+
+
+
+
+
+
+
+
+tooltip = "Capital Ship (Galor Class)"
+
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Plasma Bank Overload. Availability follows the selected technology tree."
+weapon3 = "z21ca45955"
+dilithiumcost = 430
+metalcost = 185
+latinumcost = 0
+biomattercost = 0
+crewCost = 740

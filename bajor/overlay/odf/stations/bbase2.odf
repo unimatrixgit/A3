@@ -5,8 +5,8 @@
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
 unitName = "Orbital Base"
-tooltip = "Orbital Base"
-verboseTooltip = "Heavy armed orbital base."
+
+
 
 //Race which can build ship & starting race of ship
 race = "borg"
@@ -309,3 +309,9 @@ weaponHardpoints6 = "hp14"
 
 weapon7 = "bc2phas"
 weaponHardpoints7 = "hp15"
+
+tooltip = "Orbital Mining Station (Orbital Base)"
+
+verboseTooltip = "Processes planetary resources and supports orbital operations. Collective engineering integrates this asset into the unimatrix. Special systems: Orbital Mining Beam. Availability follows the selected technology tree."
+
+recrewRate = 10

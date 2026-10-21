@@ -7,8 +7,8 @@ race = "klingon"
 unitName = "Maj'targh Class"
 
 //tooltips
-tooltip = "Maj'targh Class"
-verboseTooltip = "Klingon Construction vessel"
+
+
 
 //Amount of time required to build ship
 
@@ -107,7 +107,7 @@ can_sandd = 1
 hotkeyLabel = "HOTKEY_F1"
 
 // Xaramada: cloaking device.
-weapon3 = "gkcloak"
+
 weaponHardpoints3 = "hp01"
 
 
@@ -115,11 +115,11 @@ weaponHardpoints3 = "hp01"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 250
-metalCost = 0
-latinumCost = 0
-biomatterCost = 0
-crewCost = 150
+
+
+
+
+
 officerCost = 2
 buildTime = 17
 buildItem0 = "kbase"
@@ -145,3 +145,21 @@ canAttack = 1
 combat = 1
 
 alert = 1
+
+
+
+
+
+
+
+
+
+tooltip = "Constructor (Maj'targh Class)"
+
+verboseTooltip = "Builds the structures listed in its construction menu. Klingon engineering serves the Empire with direct, relentless force. Special systems: Tractor Beam, Cloak. Availability follows the selected technology tree."
+weapon3 = "z21kf18a27"
+dilithiumcost = 125
+metalcost = 25
+latinumcost = 0
+biomattercost = 0
+crewCost = 100

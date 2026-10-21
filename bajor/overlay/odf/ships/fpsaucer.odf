@@ -1,0 +1,185 @@
+#include "station.odf"
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Saucer Section"
+
+//tooltips
+
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+// don't use the horrible old % crew loss on damage
+saneCrewLossMethod = 1
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 1500
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 150
+enginesHitPoints = 120
+weaponsHitPoints = 120
+lifeSupportHitPoints = 150
+sensorsHitPoints = 110
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 15.0
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 2000
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 20
+
+//Shield absorbs all damage until it's gone
+shieldProtection = 1.0
+
+//**********************************************************************
+//Construction Parameters
+
+
+//Hardpoint location for building.
+buildHardpoint = "hp21"
+//**********************************************************************
+
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Prometheus Saucer Section"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Weapon Name (ex. "gphaser" -> gphaser.odf)
+weapon1 = "fsaucerphas"
+weaponHardpoints1 = "hp02" "hp06" "hp08" "hp14" "hp15" "hp19" "hp24"
+
+// Weapon Name (ex. "gphaser" -> gphaser.odf)
+weapon2 = "fsaucerphas"
+weaponHardpoints2 = "hp01" "hp03" "hp09" "hp13" "hp16" "hp20" "hp22" "hp23"
+
+// prom reIntegrator
+weapon3 = "promint"
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "BattleSelect"
+eventAcknowledge = "BattleAcknowledge"
+eventAttack = "BattleAttack"
+eventStop = "BattleStop"
+eventMove = "BattleMove"
+eventRepair = "BattleRepair"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32" "hp33" "hp34" "hp35" "hp36"
+shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hullTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+criticalTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+//**********************************************************************
+
+
+physicsFile = "battphys.odf"
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "starbase"
+
+//**********************************************************************
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "starbase"
+hotkeyLabel = "HOTKEY_F6"
+
+// added to change to a Shipyard from a construction ship..this is the name of the SOD
+baseName = "fsaucer"
+
+// So it recomputes the rally point.
+alwaysRecomputeRallyPoint = 1
+
+//************************************************************
+// Brian additions for context sensitive menus
+alert = 1
+combat = 1
+transporter = 1
+facility = 0
+ship = 1
+is_starbase = 0
+builder_ship = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+can_repair = 0
+can_sandd = 1
+can_explore = 1
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 1.00f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.50f
+
+//**********************************************************************
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+//**********************************************************************
+
+
+
+
+// Xaramada resource costs: original matching class.
+
+
+
+
+
+officerCost = 3
+buildTime = 27
+
+
+
+
+
+
+
+
+
+tooltip = "Fleet Ship (Saucer Section)"
+
+verboseTooltip = "A Federation vessel for fleet operations. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Prometheus Intergrator. Availability follows the selected technology tree."
+dilithiumcost = 200
+metalcost = 70
+latinumcost = 0
+biomattercost = 0
+crewCost = 210

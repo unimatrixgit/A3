@@ -6,8 +6,8 @@
 //Name of Ship class in Ship Display window & in edit mode & tooltip
 unitName = "Mining Facility"
 
-tooltip = "Mining Facility"
-verboseTooltip = "Romulan Mining station"
+
+
 
 //Name of the ODF file of the matching freighter to build with the station
 freighterName = "rfreight"
@@ -51,13 +51,20 @@ possibleCraftNames = "S'klar-84" "S'klar-94" "S'klar-15" "S'klar-64" "S'klar-94"
 //weapon1 = "gcloak"
 //weaponHardpoints1 = "hp100"
 
-// Hardpoints to hit for various systems and other locations.
-"hp14" "hp16" "hp17" "hp20"
-"hp14" "hp16" "hp17" "hp20"
-"hp14" "hp16" "hp17" "hp20"
-"hp14" "hp16" "hp17" "hp20"
-"hp14" "hp16" "hp17" "hp20"
-"hp14" "hp16" "hp17" "hp20"
+// Hardpoints to hit for various systems and other locations.
+
+"hp14" "hp16" "hp17" "hp20"
+
+"hp14" "hp16" "hp17" "hp20"
+
+"hp14" "hp16" "hp17" "hp20"
+
+"hp14" "hp16" "hp17" "hp20"
+
+"hp14" "hp16" "hp17" "hp20"
+
+"hp14" "hp16" "hp17" "hp20"
+
 "hp14" "hp16" "hp17" "hp20"
 
 //**********************************************************************
@@ -97,10 +104,10 @@ resourcesCanHandle = "dilithium"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 0
-metalCost = 400
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 250
 officerCost = 4
 buildTime = 50
@@ -120,3 +127,15 @@ sensorstargethardpoints = "hp01" "hp02" "hp08" "hp10" "hp12" "hp13"
 hulltargethardpoints = "hp01" "hp02" "hp08" "hp10" "hp12" "hp13"
 
 criticaltargethardpoints = "hp01" "hp02" "hp08" "hp10" "hp12" "hp13"
+
+dilithiumCost = 300
+
+metalCost = 200
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Resource Processing Station (Mining Facility)"
+
+verboseTooltip = "Receives and processes resources delivered by mining vessels. Romulan engineering favors calculated strikes and control of the battlefield."

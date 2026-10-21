@@ -4,8 +4,8 @@
 unitName = "Class VII Tactical Cube"
 
 //tooltips
-tooltip = "Class VII Tactical Cube"
-verboseTooltip = "BORG_BATTLE2_V"
+
+
 
 //Race which can build ship & starting race of ship
 race = "borg"
@@ -130,11 +130,11 @@ ScaleSOD = 2.5
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 1150
-metalCost = 325
-latinumCost = 0
-biomatterCost = 0
-crewCost = 6700
+
+
+
+
+
 officerCost = 4
 buildTime = 60
 
@@ -183,3 +183,20 @@ weaponHardpoints7 = "hp01"
 maxSpecialEnergy = 1500
 
 specialEnergyRate = 15.0
+
+
+
+
+
+
+
+
+
+tooltip = "Capital Ship (Class VII Tactical Cube)"
+
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Collective engineering integrates this asset into the unimatrix. Special systems: Transwarp Drive, Green Holding / Assimilation Beam, Technology Assimilation Beam, Regeneration. Availability follows the selected technology tree."
+dilithiumcost = 955
+metalcost = 260
+latinumcost = 0
+biomattercost = 0
+crewCost = 1055

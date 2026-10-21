@@ -1,0 +1,142 @@
+#include "cruise2.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Telkor Class"
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "cardassian"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 1530
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 462
+enginesHitPoints = 569
+weaponsHitPoints = 572
+lifeSupportHitPoints = 609
+sensorsHitPoints = 496
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 8.2
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 2200
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 38
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 92
+impulseSpeed = 78
+warpSpeed = 897
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "Aeri" "Sarkmaer" "Gintild" "Hjottar" "Galfrek" "Borr" "Nod" "Orgi"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Phaser
+weapon1 = "cc05phas"
+weaponHardpoints1 = "hp09"
+
+// Cloaking Device
+weapon2 = "gccloak"
+weaponHardpoints2 = "hp14"
+
+// Plasma Torpedo
+weapon3 = "ftrict"
+weaponHardpoints3 = "hp11"
+
+// Plasma Torpedo
+weapon4 = "ftrict"
+weaponHardpoints4 = "hp12"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.75f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.30f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 0.75f
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "X"
+hotkeyLabel = "HOTKEY_F6"
+
+scaleSOD = 1.2
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+
+
+
+
+
+officerCost = 11
+buildTime = 27
+
+weapon5 = "ya0013"
+
+weaponHardpoints5 = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Cruiser (Telkor Class)"
+
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Cloak, Drones. Availability follows the selected technology tree."
+dilithiumcost = 480
+metalcost = 160
+latinumcost = 0
+biomattercost = 0
+crewCost = 290

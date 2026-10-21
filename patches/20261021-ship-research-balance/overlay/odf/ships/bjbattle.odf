@@ -1,0 +1,214 @@
+#include "battle.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+//Race which can build ship & starting race of ship
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+// don't use the horrible old % crew loss on damage
+sanecrewlossmethod = 1
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+//Max Shield Strength & Begining Shield Strength <500
+
+
+// Hitpoints
+
+shieldgeneratorhitpoints = 3000
+engineshitpoints = 3000
+weaponshitpoints = 3000
+lifesupporthitpoints = 3000
+sensorshitpoints = 3000
+
+//Rate at which shield recharges (points per second... we think)
+
+
+//Maximum Value of Special Energy
+
+
+//Rate at which special energy recharges (points per second... we think)
+
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+	"USS Saratoga" "USS Rand" "USS Faithful" "USS Archangel"
+	"USS Atlas" "USS Legacy" "USS Challenger" "USS Justice" 
+	"USS Integrity" "USS Alexandra" "USS Endurance" "USS Midway"
+	"USS Majestic" "USS Hyperion" "USS Avatar" "USS Avalon"
+	"USS Horizon" "USS Nimitz" "USS Aries" "USS Leviathan"
+	"USS Sentinel" "USS Tiberius" "USS Odin" "USS Providence"
+	"USS Formidable" "USS Destiny" "USS Tempest" "USS Cavalier"
+	"USS Yamato" "USS Calabria" "USS Coburn" "USS Hickey" "USS Hope"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// phaser
+
+
+	"hp17" "hp18" "hp19" "hp20" "hp21" "hp22" "hp23" "hp24" "hp25" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32" "hp33" "hp34"
+
+// Photon torpedos
+
+
+
+//Self Destruct
+
+
+
+//Corbimite Refractor
+
+
+
+// Hardpoints to hit for various systems and other locations.
+
+
+
+	"hp17" "hp18" "hp19" "hp20" "hp21" "hp22" "hp23" "hp24" "hp25" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32" "hp33" "hp34"
+
+
+
+
+
+//**********************************************************************
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponyellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponred = 2.0f
+//**********************************************************************
+
+
+//change the scale
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "fed_battle"
+hotkeyLabel = "HOTKEY_F4"
+
+//physics file for all other physics stuff
+physicsFile = "fbattlephys.odf"
+trekPhysicsFile = "fbattlephys.odf"
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+
+
+
+unitName = "Bajoran Militia Battleship"
+
+
+
+
+
+race = "bajoran"
+
+
+
+
+
+weapon3 = "xbj_gselfdes"
+
+weapon4 = "xbj_gcorbom"
+baseName = "br3_bjbattle"
+ScaleSOD = 3.248
+
+
+
+
+
+
+
+
+
+
+
+weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp15" "hp16"
+weaponHardpoints2 = "hp14" "hp68"
+weaponHardpoints3 = "hp34" "hp35" "hp36"
+weaponHardpoints4 = "hp34" "hp35" "hp36"
+enginestargethardpoints = "hp35" "hp36" "hp40" "hp41" "hp42" "hp43" "hp44" "hp45" "hp46" "hp47" "hp48" "hp49" "hp50" "hp51" "hp52" "hp53" "hp54" "hp55" "hp56" "hp57" "hp58" "hp59"
+lifesupporttargethardpoints = "hp37" "hp38" "hp39" "hp60"
+weaponstargethardpoints = "hp14" "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp15" "hp16"
+shieldgeneratortargethardpoints = "hp61" "hp62" "hp63" "hp64"
+sensorstargethardpoints = "hp65"
+hulltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+criticaltargethardpoints = "hp37" "hp38" "hp39" "hp60"
+
+maxHealth = 990
+
+shieldRate = 9.9
+
+
+
+
+
+
+
+
+
+
+
+
+
+officercost = 12
+
+
+
+buildTime = 25
+
+
+
+
+
+weapon1 = "bjbphs"
+
+weapon2 = "bjbtor"
+
+maxSpecialEnergy = 1400
+
+specialEnergyRate = 14.0
+
+
+
+
+
+
+
+
+
+tooltip = "Capital Ship (Bajoran Militia Battleship)"
+
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Bajoran militia engineering protects Bajor and its neighboring systems. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+dilithiumcost = 345
+metalcost = 150
+latinumcost = 0
+biomattercost = 0
+crewCost = 665

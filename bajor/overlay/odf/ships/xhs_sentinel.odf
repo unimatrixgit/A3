@@ -1,13 +1,13 @@
 #include "8472_frigate.odf"
 unitName = "Brood Sentinel"
-tooltip = "Brood Sentinel"
-verboseTooltip = "A long-spined tactical guardian with elongated organic fins. Hero organism; rebuilt at the Advanced Hatchery."
+
+
 race = "species8472"
 baseName = "xhs_sentinel"
 isHero = 1
 label = "Brood Sentinel"
 maxHealth = 3362
-biomatterCost = 348
+
 buildTime = 35
 
 possibleCraftNames = "Brood Sentinel"
@@ -38,3 +38,20 @@ eventDecommission = "XV_xhshero_Decommission"
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.5
+
+
+
+
+
+
+
+
+
+tooltip = "Hero Ship (Brood Sentinel)"
+
+verboseTooltip = "A named command vessel serving the Species 8472 fleet. Living biotechnology shapes this organism for operations beyond fluidic space. Special systems: 8472 Bio-Pulse Conduit. Availability follows the selected technology tree."
+dilithiumcost = 0
+metalcost = 0
+latinumcost = 0
+biomattercost = 430
+crewCost = 0

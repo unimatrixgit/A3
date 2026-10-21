@@ -4,8 +4,8 @@
 unitName = "D'Dara Class"
 
 //tooltips
-tooltip = "D'Dara Class"
-verboseTooltip = "Tal Shiar Scout"
+
+
 
 //Race which can build ship & starting race of ship
 race = "romulan"
@@ -125,11 +125,11 @@ hotkeyLabel = "HOTKEY_F1"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 305
-metalCost = 50
-latinumCost = 0
-biomatterCost = 0
-crewCost = 39
+
+
+
+
+
 officerCost = 10
 buildTime = 21
 
@@ -139,3 +139,20 @@ weaponHardpoints9 = "hp01"
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.5
+
+
+
+
+
+
+
+
+
+tooltip = "Scout (D'Dara Class)"
+
+verboseTooltip = "Surveys space and locates threats ahead of the fleet. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Romulan Spy. Availability follows the selected technology tree."
+dilithiumcost = 615
+metalcost = 0
+latinumcost = 0
+biomattercost = 0
+crewCost = 85

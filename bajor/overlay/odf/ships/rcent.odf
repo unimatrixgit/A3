@@ -4,8 +4,8 @@
 unitName = "Centurion Class"
 
 //tooltips
-tooltip = "Centurion Class"
-verboseTooltip = "Romulan Bird Of Prey MkII"
+
+
 
 //Race which can build ship & starting race of ship
 race = "romulan"
@@ -110,13 +110,34 @@ hotkeyLabel = "HOTKEY_F2"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 240
-metalCost = 40
-latinumCost = 0
-biomatterCost = 0
-crewCost = 150
+
+
+
+
+
 officerCost = 9
 buildTime = 19
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.5
+
+weapon4 = "ya0053"
+
+weaponHardpoints4 = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Attack Ship (Centurion Class)"
+
+verboseTooltip = "A light combat ship for interception and fleet support. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Romulan Spy. Availability follows the selected technology tree."
+dilithiumcost = 190
+metalcost = 45
+latinumcost = 0
+biomattercost = 0
+crewCost = 90

@@ -7,8 +7,8 @@
 unitName = "Dominion Oupost"
 
 //tooltips
-tooltip = "Dominion Outpost"
-verboseTooltip = "Dominion Heavy Outpost"
+
+
 
 //Race which can build ship & starting race of ship
 race = "cardassian"
@@ -148,19 +148,19 @@ SHOW_SW_AUTONOMY = 1
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 1480
-metalCost = 1480
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 276
 officerCost = 9
 buildTime = 86
-buildItem0 = "xcuconst"
+
 
 maximumCrew = 2000
 
 // Equal visual span: vanilla Borg Nexus reference.
-ScaleSOD = 5.20545982
+ScaleSOD = 4.68491384
 
 
 
@@ -180,4 +180,26 @@ northBuffer = 0
 
 southBuffer = 0
 
-footprintBuffer = 80
+footprintBuffer = 72
+
+dilithiumCost = 1650
+
+metalCost = 1650
+
+latinumCost = 0
+
+biomatterCost = 0
+
+buildItem0 = "xcuconst"
+buildItem1 = "xcdconst"
+buildItem2 = "xcduniv"
+buildItem3 = "xdofighter"
+buildItem4 = "xdofrigate"
+buildItem5 = "xdocargo"
+buildItem6 = "xdominer"
+
+buildItem7 = "xdjacht"
+
+tooltip = "Starbase (Dominion Oupost)"
+
+verboseTooltip = "A fortified center for fleet operations and local production. Cardassian engineering sustains the Union through ordered, persistent operations."

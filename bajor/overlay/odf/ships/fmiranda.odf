@@ -2,8 +2,8 @@
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
 unitName = "Miranda Class"
-tooltip = "Miranda Class - Frigate"
-verboseTooltip = "In order to extend its lifetime Star Fleet has equipped the Miranda with a gravity mine laying system."
+
+
 
 //Race which can build ship & starting race of ship
 race = "federation"
@@ -118,13 +118,30 @@ trekPhysicsFile = "ffrigatephys.odf"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 150
-metalCost = 80
-latinumCost = 0
-biomatterCost = 0
-crewCost = 200
+
+
+
+
+
 officerCost = 4
 buildTime = 12
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 0.3
+
+
+
+
+
+
+
+
+
+tooltip = "Attack Ship (Miranda Class)"
+
+verboseTooltip = "A light combat ship for interception and fleet support. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Gravity Mines. Availability follows the selected technology tree."
+dilithiumcost = 140
+metalcost = 35
+latinumcost = 0
+biomattercost = 0
+crewCost = 80

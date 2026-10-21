@@ -7,8 +7,8 @@
 unitName = "Disruptor Cannon"
 
 //tooltips
-tooltip = "KLI_TURRET"
-verboseTooltip = "KLI_TURRET_V"
+
+
 
 //Race which can build ship & starting race of ship
 race = "klingon"
@@ -50,9 +50,11 @@ weaponsHitPoints = 1000
 //ART PARAMETERS & WEAPON NAMES
 
 // Pulse Phaser
-weapon1 = "kc06pul"
+weapon1 = "kc06pul"
 
-// Hardpoints to hit for various systems and other locations.
+
+// Hardpoints to hit for various systems and other locations.
+
 
 //**********************************************************************
 //MESSAGE & SOUND PARAMETERS
@@ -79,10 +81,10 @@ rangeScan = 829.0f
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 75
-metalCost = 75
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 0
 officerCost = 3
 buildTime = 45
@@ -104,3 +106,15 @@ sensorstargethardpoints = "hp04" "hp05" "hp06"
 hulltargethardpoints = "hp04" "hp05" "hp06" 
 
 criticaltargethardpoints = "hp04" "hp05" "hp06" 
+
+dilithiumCost = 150
+
+metalCost = 150
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Defense Station (Disruptor Cannon)"
+
+verboseTooltip = "A fixed defensive installation protecting nearby fleet assets. Klingon engineering serves the Empire with direct, relentless force."

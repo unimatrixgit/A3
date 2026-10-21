@@ -1,0 +1,135 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "San Fransisco Class"
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 1000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 10
+
+//Even though we are a shipyard we don't have a repair facility
+repairFacility = 0
+
+decommissionFacility = 0
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Barisa Prime" "Tau Ceti Prime" "Tessen Prime" "Taurus Prime"
+	"Meldrar Prime" "Moriya Prime" "Erabus Prime" "Finnea Prime"
+	"Acamar Prime" "Aldea Prime" "Andoria Prime" "Calder Prime"
+	"Iyaar Prime" "Denocet Prime" "Dytallix Prime" "Galor Prime"
+	"Minos Prime" "Nausicaa Prime" "Oyarsa Prime" "Qualor Prime" 
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp08" 
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp08"
+weaponsTargetHardpoints = "hp01" "hp02" "hp08"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp08"
+sensorsTargetHardpoints = "hp01" "hp02" "hp08"
+hullTargetHardpoints = "hp03" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14"
+criticalTargetHardpoints = "hp08" "hp09"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//Construction Parameters
+
+//Hardpoint location for building.
+buildHardpoint = "hp01"
+
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "ShipyardSelect"
+eventAcknowledge = "ShipyardAcknowledge"
+eventDecommission = "ShipyardDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "shipyard"
+
+// Hotkey label
+hotkeyLabel = "HOTKEY_F2"
+
+//************************************************************
+// Brian additions for context sensitive menus
+builder_ship = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+// make it bigger
+ScaleSOD = 1.25
+
+
+buildItem0 = "foberth"
+buildItem1 = "fnx"
+buildItem2 = "fcentaur"
+buildItem3 = "fmiranda"
+buildItem4 = "fconstellation"
+buildItem5 = "fconstitution"
+
+
+// Xaramada resource costs: calculated from original comparable.
+
+
+
+
+crewCost = 250
+officerCost = 4
+buildTime = 21
+
+dilithiumCost = 250
+
+metalCost = 750
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Shipyard (San Fransisco Class)"
+
+verboseTooltip = "Produces the vessels listed in its construction menu. Starfleet engineering supports a disciplined, versatile fleet."

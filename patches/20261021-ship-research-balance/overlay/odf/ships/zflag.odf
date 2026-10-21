@@ -1,0 +1,238 @@
+
+//
+//
+//
+// This is for the capture the flag "flag" ships
+//
+//
+//
+
+
+// This is for stat accumulation - note that flags are explicitly ignored by the admirals log!
+shipclass = "scout"
+
+
+
+//**********************************************************************
+// FLAG "FOOTPRINT" area, prevents construction in the home location
+footprintBuffer = 20.0f
+eastBuffer = 10.0f
+westBuffer = 10.0f
+northBuffer = 10.0f
+southBuffer = 10.0f
+
+
+
+//**********************************************************************
+//SYSTEM REPAIR RATES
+//This is the amount of time in seconds to repair ONE hitpoint of damage
+//modified by race and crew status
+enginesRepairTime = 5.0f
+lifeSupportRepairTime = 10.0f
+weaponsRepairTime = 60.0f
+shieldGeneratorRepairTime = 60.0f
+sensorsRepairTime = 60.0f
+//**********************************************************************
+
+
+//**********************************************************************
+//CREW CASUALTY FOR SYSTEM DESTRUCTION
+//The percentage of crew killed when the engines are destroyed
+enginesCrewLoss = 5.0f
+
+//The percentage of crew killed when the lifesupport is destroyed
+lifeSupportCrewLoss = 3.0f
+
+//The percentage of crew killed when the weapons are destroyed
+weaponsCrewLoss = 2.0f
+
+//The percentage of crew killed when the shields are destroyed
+shieldGeneratorCrewLoss = 2.0f
+
+//The percentage of crew killed when the sensors are destroyed
+sensorsCrewLoss = 2.0f
+
+//The percentage of crew lost every second while life support is disabled
+lifeSupportLoss = 2.0f
+
+//**********************************************************************
+
+// This is the size of the build animation sparks.
+weldingRadius = 1.0
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//programming thing DO NOT CHANGE
+classLabel = "craft"
+
+//AI stuff UNKNOWN May be related to sound stuff
+aiName = "CraftProcess"
+
+//assume mid-size ship
+avoidanceClass = 5
+
+//Explosion to use
+fireball = "xfirebmd"
+
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 0
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 0
+
+//This is the range in meters which the ships sensors can see (LOS)
+rangeScan = 0.00001f
+
+//This is the range in meters which the ships sensors can see when destroyed
+damagedScan = 0.00001f
+
+//Delay before shield begins recharging once it has reached zero (secs)
+// (irrelivant?)
+shieldDelay = 3.0f
+
+
+
+//default to scout mode in instant action
+scout = 1
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.0f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+//there is no value attacking this target, but it needs to be > 0 for the ai not to assert
+intrinsicValue = 0.000001f
+
+//**********************************************************************
+
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+//These values are the hitpoint values of the systems
+//If the value is set to zero the ship does not have that system
+// there are no engines on a flag
+// there are no sensors on a flag
+// there are no weapons on a flag
+enginesHitPoints = 0
+lifeSupportHitPoints = 0
+weaponsHitPoints = 0
+shieldGeneratorHitPoints = 0
+sensorsHitPoints = 0
+//**********************************************************************
+ 
+//**********************************************************************
+//SYSTEM DAMAGE DISTRIBUTION
+//The following section's values should add up to 100
+enginesHitPercent = 0.0f
+lifeSupportHitPercent = 0.0f
+weaponsHitPercent = 0.0f
+shieldGeneratorHitPercent = 0.0f
+sensorsHitPercent = 0.0f
+hullHitPercent = 100.0f
+crewHitPercent = 0.0f
+
+//**********************************************************************
+
+
+
+// This is the size of the build animation sparks.
+weldingRadius = 0.25
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+// there are no events for the flag
+//eventSelect = "ScoutSelect"
+//eventAcknowledge = "ScoutAcknowledge"
+//eventAttack = "ScoutAttack"
+//eventStop = "ScoutStop"
+//eventMove = "ScoutMove"
+//eventRepair = "ScoutRepair"
+
+//**********************************************************************
+//PHYSICS PARAMETERS
+
+//physics file for all other physics stuff
+physicsFile = "sdestphys.odf"
+
+//for obstacle avoidance
+avoidanceClass = 1
+
+//Explosion to use
+fireball = "xfirebsm"
+
+
+//**********************************************************************
+
+//Name of Flag Class in Ship Display window & in edit mode & tooltip
+unitName = "Flag"
+tooltip = "Z_FLAG"
+verboseTooltip = "Z_FLAG_V"
+
+//Race which can build ship & starting race of ship
+// GDM - note that this is set dynamically to be the race of the player at flag creation time.
+race = "federation"
+
+//Amount of time required to build ship (we'd never build one)
+
+// the flag will recharge its sheilds more or less instantly
+//Rate at which shield recharges (points per second... we think)
+// the flag will recharge its sheilds more or less instantly
+maxHealth = 100000
+shieldRate = 100000
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names - note that flags get their name assigned in code based on their player
+possibleCraftNames = "Flag@"
+	
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+criticalTargetHardpoints = "hp01"
+
+animation=2
+
+//**********************************************************************
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+//**********************************************************************
+
+// Director radius scale.  So the director zooms out a bit from it.
+directorRadiusScale = 6.0
+
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+
+
+
+
+crewCost = 0
+officerCost = 1
+buildTime = 5
+
+// Visual size: 150 percent of pre-patch scale.
+ScaleSOD = 1.5
+dilithiumcost = 10630
+metalcost = 0
+latinumcost = 0
+biomattercost = 0

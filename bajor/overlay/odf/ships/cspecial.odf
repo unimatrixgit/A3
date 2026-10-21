@@ -4,8 +4,8 @@
 unitName = "Kulinor Class"
 
 //tooltips
-tooltip = "CARD_SPECIAL"
-verboseTooltip = "CARD_SPECIAL_V"
+
+
 
 //Race which can build ship & starting race of ship
 race = "cardassian"
@@ -17,16 +17,16 @@ buildTime = 53.0
 officerCost = 10
 
 //Number of crew required to build ship & Starting crew
-crewCost = 300
+
 
 // don't use the horrible old % crew loss on damage
 saneCrewLossMethod = 1
 
 //Dilithium Cost to build
-dilithiumCost = 450
+
 
 //Metal Cost to build
-metalCost = 150
+
 
 //Max Shield Strength & Begining Shield Strength <500
 maxHealth = 600
@@ -84,7 +84,7 @@ weapon5 = "gsdisruptor"
 weaponHardpoints5 = "hp28"
 
 //Self Destruct
-weapon6 = "gselfdes"
+
 weaponHardpoints6 = "hp28"
 
 // Hardpoints to hit for various systems and other locations.
@@ -136,3 +136,21 @@ ScaleSOD = 2.0
 maxSpecialEnergy = 1800
 
 specialEnergyRate = 18.0
+
+
+
+
+
+
+
+
+
+tooltip = "Support Ship (Kulinor Class)"
+
+verboseTooltip = "Provides specialist support for fleet operations. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Plasma Cannon, Quantum Singularity Effect, Impulse Engine Boost, Shield Harmonics Disruptor. Availability follows the selected technology tree."
+weapon6 = "z21ca45955"
+dilithiumcost = 70
+metalcost = 25
+latinumcost = 0
+biomattercost = 0
+crewCost = 80

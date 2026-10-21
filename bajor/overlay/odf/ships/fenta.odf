@@ -20,7 +20,8 @@ shieldRate = 38
 possibleCraftNames = 
 	"USS Enterprise - A"
 
-weapon3 = "fentatoentb"
+weapon3 = "fentatoentb"
+
 
 
 
@@ -30,13 +31,14 @@ weapon3 = "fentatoentb"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 2250
-metalCost = 340
-latinumCost = 0
-biomatterCost = 0
-crewCost = 184
+
+
+
+
+
 officerCost = 7
-buildTime = 85
+buildTime = 85
+
 
 eventSelect = "XV_fenta_Select"
 
@@ -61,3 +63,16 @@ eventTransport = "XV_fenta_Transport"
 eventSelfDestruct = "XV_fenta_SelfDestruct"
 
 eventDecommission = "XV_fenta_Decommission"
+
+
+
+
+
+
+
+
+dilithiumcost = 485
+metalcost = 165
+latinumcost = 0
+biomattercost = 0
+crewCost = 295

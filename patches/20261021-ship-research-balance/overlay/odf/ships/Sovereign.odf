@@ -1,0 +1,168 @@
+// Begin main properties
+
+unitName = "Sovereign Class"
+
+
+race = "federation"
+maxHealth = 3000
+shieldGeneratorHitPoints = 600
+enginesHitPoints = 600
+weaponsHitPoints = 600
+lifeSupportHitPoints = 600
+sensorsHitPoints = 600
+shieldRate = 15.0
+maxSpecialEnergy = 1000
+specialEnergyRate = 21
+enginesHitPoints = 20
+lifeSupportHitPoints = 20
+weaponsHitPoints = 20
+shieldGeneratorHitPoints = 20
+sensorsHitPoints = 20
+attackPower = 1.00f
+intrinsicValue = 0.60f
+shipclass = "battleship"
+enginesHitPercent = 5.0f
+lifeSupportHitPercent = 8.5f
+weaponsHitPercent = 5.0f
+shieldGeneratorHitPercent = 8.0f
+sensorsHitPercent = 8.0f
+crewHitPercent = 8.5f
+hullHitPercent = 57.0f
+
+// End main properties
+
+// Begin weapons
+
+weapon1 = "fbphas"
+weaponHardpoints1 = "hp04" "hp05" "hp08" "hp09" "hp12" "hp13" 
+weapon2 = "fbattlephot"
+weaponHardpoints2 = "hp01" "hp28" 
+weapon3 = "Pgcorbom"
+weaponHardpoints3 = "hp10" "hp11" "hp26" "hp27" "hp29" "hp30" "hp34" "hp35" 
+
+weaponHardpoints4 = "hp10" "hp11" "hp26" "hp27" "hp29" "hp30" "hp34" "hp35" 
+
+// End weapons
+
+// Begin hardpoints
+
+enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32" "hp33" "hp34" "hp35" "hp36"
+shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hullTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+criticalTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+
+// End hardpoints
+
+// Begin sounds
+
+
+
+// End sounds
+
+// Begin ship names
+
+possibleCraftNames = "USS Enterprise-E" 
+
+// End ship names
+
+// Begin misc properties
+
+isHero = 1
+label = "Enterprise NCC 1701-E"
+weaponYellow = 1.0f
+weaponRed = 2.0f
+ScaleSOD = 1.8
+avoidanceClass = 8
+canAttackPlanets = 1
+physicsFile = "sbattphys.odf"
+trekPhysicsFile = "trek_sbattphys.odf"
+fireball = "xfireblg"
+combat = 1
+alert = 1
+can_sandd = 1
+shipType = "B"
+shieldDelay = 3.0f
+rangeScan = 800.0f
+damagedScan = 125.0
+enginesRepairTime = 1.0f
+lifeSupportRepairTime = 0.1f
+weaponsRepairTime = 2.0f
+shieldGeneratorRepairTime = 2.0f
+sensorsRepairTime = 3.0f
+enginesCrewLoss = 5.0f
+lifeSupportCrewLoss = 3.0f
+weaponsCrewLoss = 2.0f
+shieldGeneratorCrewLoss = 2.0f
+sensorsCrewLoss = 2.0f
+lifeSupportLoss = 2.0f
+weldingRadius = 1.0
+classLabel = "craft"
+aiName = "CraftProcess"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+can_explore = 1
+
+// End misc properties
+
+
+
+baseName = "fbattle"
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+officerCost = 7
+buildTime = 80
+
+
+eventSelect = "XV_sovereign_Select"
+
+eventAcknowledge = "XV_sovereign_Acknowledge"
+
+eventAttack = "XV_sovereign_Attack"
+
+eventStop = "XV_sovereign_Stop"
+
+eventMove = "XV_sovereign_Move"
+
+eventRepair = "XV_sovereign_Repair"
+
+eventRedAlert = "XV_sovereign_RedAlert"
+
+eventYellowAlert = "XV_sovereign_YellowAlert"
+
+eventGreenAlert = "XV_sovereign_GreenAlert"
+
+eventTransport = "XV_sovereign_Transport"
+
+eventSelfDestruct = "XV_sovereign_SelfDestruct"
+
+eventDecommission = "XV_sovereign_Decommission"
+
+
+
+
+
+
+
+
+
+tooltip = "Hero Ship (Sovereign Class)"
+
+verboseTooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+weapon4 = "z21fa45955"
+dilithiumcost = 365
+metalcost = 160
+latinumcost = 0
+biomattercost = 0
+crewCost = 685

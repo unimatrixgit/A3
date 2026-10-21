@@ -1,7 +1,7 @@
 #include "dweyoun.odf"
 unitName = "Weyoun's Command Battleship"
-tooltip = "Weyoun's Command Battleship"
-verboseTooltip = "Faction command hero. Replacements available at the Command Shipyard."
+
+
 baseName = "dweyoun"
 race = "dominion"
 isHero = 1
@@ -16,13 +16,14 @@ maxHealth = 3000
 
 
 // Xaramada resource costs: original matching class.
-dilithiumCost = 1440
-metalCost = 840
-latinumCost = 0
-biomatterCost = 0
-crewCost = 725
+
+
+
+
+
 officerCost = 11
-buildTime = 110
+buildTime = 110
+
 
 eventSelect = "XV_xhdhero_Select"
 
@@ -50,3 +51,21 @@ eventDecommission = "XV_xhdhero_Decommission"
 
 
 
+
+
+
+
+
+
+
+
+
+tooltip = "Hero Ship (Weyoun's Command Battleship)"
+
+verboseTooltip = "A named command vessel serving the Dominion fleet. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Polaron Torpedo. Availability follows the selected technology tree."
+weapon5 = "z21da45955"
+dilithiumcost = 335
+metalcost = 145
+latinumcost = 0
+biomattercost = 0
+crewCost = 655

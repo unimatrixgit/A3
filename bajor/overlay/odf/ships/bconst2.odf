@@ -152,9 +152,9 @@ maximumCrew = 150
 
 unitName = "Omega Powered Constructor"
 
-tooltip = "Omega Powered Constructor"
 
-verboseTooltip = "Omega Powered Constructor. Builds advanced Borg facilities. Armed with three cutting beams and a continuous torpedo launcher; retains Transwarp Drive."
+
+
 
 
 
@@ -187,3 +187,7 @@ canAttack = 1
 combat = 1
 
 alert = 1
+
+tooltip = "Constructor (Omega Powered Constructor)"
+
+verboseTooltip = "Builds the structures listed in its construction menu. Collective engineering integrates this asset into the unimatrix. Special systems: Transwarp Drive. Availability follows the selected technology tree."

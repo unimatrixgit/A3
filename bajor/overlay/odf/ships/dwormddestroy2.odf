@@ -1,8 +1,8 @@
 // Begin main properties
 
 unitName = "Wormhole Jem'Hadar Strike Destroyer"
-tooltip = "Wormhole Jem'Hadar Strike Destroyer"
-verboseTooltip = "Strike destroyer from the Gamma Quadrant."
+
+
 race = "dominion"
 maxHealth = 370
 shieldGeneratorHitPoints = 30
@@ -123,13 +123,30 @@ saneCrewLossMethod = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 50
-metalCost = 30
-latinumCost = 0
-biomatterCost = 0
-crewCost = 100
+
+
+
+
+
 officerCost = 6
 buildTime = 5
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 2.25
+
+
+
+
+
+
+
+
+
+tooltip = "Attack Ship (Wormhole Jem'Hadar Strike Destroyer)"
+
+verboseTooltip = "A light combat ship for interception and fleet support. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Tractor Beam. Availability follows the selected technology tree."
+dilithiumcost = 85
+metalcost = 20
+latinumcost = 0
+biomattercost = 0
+crewCost = 60

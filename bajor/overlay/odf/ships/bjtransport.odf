@@ -79,20 +79,20 @@ trekPhysicsFile = "fscoutphys.odf"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumcost = 145
-metalcost = 0
-latinumcost = 0
-biomattercost = 0
-crewcost = 3
+
+
+
+
+
 officercost = 7
 buildtime = 12
 
 
 unitName = "Bajoran Antares Transport"
 
-tooltip = "Bajoran Antares Transport"
 
-verboseTooltip = "Bajoran Antares Transport. TV Antares transport family."
+
+
 
 race = "bajoran"
 
@@ -132,3 +132,20 @@ specialenergyrate = 0
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 0.792615
+
+
+
+
+
+
+
+
+
+tooltip = "Scout (Bajoran Antares Transport)"
+
+verboseTooltip = "Surveys space and locates threats ahead of the fleet. Bajoran militia engineering protects Bajor and its neighboring systems."
+dilithiumcost = 80
+metalcost = 0
+latinumcost = 0
+biomattercost = 0
+crewCost = 30

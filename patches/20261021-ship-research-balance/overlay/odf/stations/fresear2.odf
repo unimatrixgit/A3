@@ -1,0 +1,139 @@
+#include "research.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Sirius Class"
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 1100
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 11
+
+//animate looped upon build
+animation = 2
+//**********************************************************************
+//Construction Parameters
+
+buildItem0 = "fedpod6"
+buildItem1 = "fedpod7"
+buildItem2 = "fedpod8"
+buildItem3 = "fedpod9"
+
+//**********************************************************************
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Asimov Center" "Sagan Center" "Gibson Center" "Brin Center"
+	"Bradbury Center" "Niven Center" "Pournelle Center" "Clark Center"
+	"Huxley Center" "Heinlein Center" "Welles Center" "Bova Center"
+	"Verne Center" "Chriton Center" "Simmons Center"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Hardpoints to hit for various systems and other locations.
+
+
+//****//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//****************************************************************************************************************************************
+//SYSTEM HITPOINTS
+shieldGeneratorHitPoints = 2000
+enginesHitPoints = 0
+weaponsHitPoints = 0
+lifeSupportHitPoints = 2000
+sensorsHitPoints = 2000
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "AdvResearchStationSelect"
+eventAcknowledge = "AdvResearchStationAcknowledge"
+eventDecommission = "AdvResearchStationDecommission"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "science_station"
+hotkeyLabel = "HOTKEY_F7"
+
+//************************************************************
+// Brian additions for context sensitive menus
+transporter = 1
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewCost = 200
+officerCost = 15
+buildTime = 150
+
+baseName = "xvstock_fresear2"
+
+
+
+enginestargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+
+lifesupporttargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+
+weaponstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+
+shieldgeneratortargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+
+sensorstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+
+hulltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+
+criticaltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+
+dilithiumCost = 350
+
+metalCost = 900
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Research Facility (Sirius Class)"
+
+verboseTooltip = "Supports the technologies and upgrades available in its research menu. Starfleet engineering supports a disciplined, versatile fleet."
+buildItem4 = "z21fspec"
+podHardpoints = "pod01" "pod02" "pod03" "pod04" "hp10"

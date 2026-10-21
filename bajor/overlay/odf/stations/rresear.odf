@@ -7,8 +7,8 @@
 unitName = "Covert-Ops Facility"
 
 //tooltips
-tooltip = "Covert-Ops Facility"
-verboseTooltip = "Romulan Basic Research facility"
+
+
 
 //Race which can build ship & starting race of ship
 race = "romulan"
@@ -35,7 +35,8 @@ shieldRate = 3.6
 possibleCraftNames = "D'lerex I"
 
 //**********************************************************************
-//Construction Parameters
+//Construction Parameters
+
 buildItem0 = "rompod5"
 buildItem1 = "rompod2"
 buildItem2 = "rompod3"
@@ -50,7 +51,8 @@ buildItem5 = "rompod16"
 //weapon3 = "gcloak"
 //weaponHardpoints3 = "hp01"
 
-// Hardpoints to hit for various systems and other locations.
+// Hardpoints to hit for various systems and other locations.
+
 
 //**********************************************************************
 //AI system parameters
@@ -80,10 +82,10 @@ transporter = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 0
-metalCost = 500
-latinumCost = 500
-biomatterCost = 0
+
+
+
+
 crewCost = 300
 officerCost = 10
 buildTime = 110
@@ -105,3 +107,23 @@ sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
 hulltargethardpoints = "hp06"
 
 criticaltargethardpoints = "hp01"
+
+
+
+
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 500
+
+latinumCost = 500
+
+biomatterCost = 0
+
+tooltip = "Research Facility (Covert-Ops Facility)"
+
+verboseTooltip = "Supports the technologies and upgrades available in its research menu. Romulan engineering favors calculated strikes and control of the battlefield."

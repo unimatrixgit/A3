@@ -6,8 +6,8 @@
 //Name of Ship class in Ship Display window & in edit mode & tooltip
 unitName = "Starbase"
 
-tooltip = "KLI_MARTOK_BASE"
-verboseTooltip = "KLI_MARTOK_BASE_V"
+
+
 
 //Possible Craft Names
 possibleCraftNames = "Martok's base"
@@ -41,10 +41,10 @@ eventSelfDestruct = "BattleSelfDestruct"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 2000
-metalCost = 2000
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 150
 officerCost = 10
 buildTime = 100
@@ -53,7 +53,7 @@ buildItem0 = "xkuconst"
 maximumCrew = 2000
 
 // Equal visual span: vanilla Borg Nexus reference.
-ScaleSOD = 2.70301319
+ScaleSOD = 2.43271187
 
 
 
@@ -73,4 +73,16 @@ northBuffer = 0
 
 southBuffer = 0
 
-footprintBuffer = 80
+footprintBuffer = 72
+
+dilithiumCost = 2550
+
+metalCost = 2550
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Starbase (Starbase)"
+
+verboseTooltip = "A fortified center for fleet operations and local production. Klingon engineering serves the Empire with direct, relentless force."

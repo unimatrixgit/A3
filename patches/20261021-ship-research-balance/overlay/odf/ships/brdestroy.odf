@@ -1,0 +1,152 @@
+// Begin main properties
+
+unitName = "Breen Destroyer"
+
+race = "breen"
+maxHealth = 80
+shieldGeneratorHitPoints = 20
+enginesHitPoints = 20
+weaponsHitPoints = 20
+lifeSupportHitPoints = 20
+sensorsHitPoints = 20
+shieldRate = 0.75
+
+specialEnergyRate = 10
+attackPower = 0.25f
+intrinsicValue = 0.25f
+shipclass = "destroyer"
+enginesHitPercent = 5.0f
+lifeSupportHitPercent = 8.5f
+weaponsHitPercent = 5.0f
+shieldGeneratorHitPercent = 8.0f
+sensorsHitPercent = 8.0f
+crewHitPercent = 8.5f
+hullHitPercent = 57.0f
+
+
+// End main properties
+
+// Begin weapons
+
+weapon1 = "zjmphas"
+weaponHardpoints1 = "hp04" "hp05"
+weapon2 = "jmphot"
+weaponHardpoints2 = "hp01"
+
+// End weapons
+
+// Begin hardpoints
+
+enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29"
+shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hullTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
+criticalTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+
+// End hardpoints
+
+// Begin sounds
+
+eventSelect = "BreenSelect"
+eventAcknowledge = "BreenAcknowledge"
+eventAttack = "BreenAttack"
+eventStop = "BreenStop"
+eventMove = "BreenMove"
+eventRepair = "BreenRepair"
+
+// End sounds
+
+// Begin ship names
+possibleCraftNames = 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+
+// End ship names
+
+// Begin misc properties
+
+weaponYellow = 1.0f
+weaponRed = 2.0f
+attack_path0 = "p2.pth"
+attack_path1 = "p3.pth"
+hotkeyLabel = "HOTKEY_F3"
+
+weldingRadius = 0.25
+physicsFile = "sdestphys.odf"
+trekPhysicsFile = "trek_sdestphys.odf"
+avoidanceClass = 3
+fireball = "xfirebsm"
+combat = 1
+alert = 1
+can_sandd = 1
+shipType = "D"
+shieldDelay = 3.0f
+rangeScan = 800.0f
+damagedScan = 125.0
+enginesRepairTime = 1.0f
+lifeSupportRepairTime = 0.1f
+weaponsRepairTime = 2.0f
+shieldGeneratorRepairTime = 2.0f
+sensorsRepairTime = 3.0f
+enginesCrewLoss = 5.0f
+lifeSupportCrewLoss = 3.0f
+weaponsCrewLoss = 2.0f
+shieldGeneratorCrewLoss = 2.0f
+sensorsCrewLoss = 2.0f
+lifeSupportLoss = 2.0f
+classLabel = "craft"
+aiName = "CraftProcess"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+can_explore = 1
+
+// End misc properties
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+officerCost = 6
+buildTime = 12
+
+// Visual size: 150 percent of pre-patch scale.
+ScaleSOD = 0.51
+
+weapon3 = "ya0007"
+
+weaponHardpoints3 = "hp01"
+
+maxSpecialEnergy = 1200
+
+
+
+
+
+
+
+
+
+tooltip = "Attack Ship (Breen Destroyer)"
+
+verboseTooltip = "A light combat ship for interception and fleet support. Breen engineering supports the Confederacy with focused, uncompromising efficiency. Special systems: Polaron Torpedo. Availability follows the selected technology tree."
+dilithiumcost = 60
+metalcost = 15
+latinumcost = 0
+biomattercost = 0
+crewCost = 40

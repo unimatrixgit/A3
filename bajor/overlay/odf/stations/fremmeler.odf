@@ -1,0 +1,133 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Remmla class"
+
+
+
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 750
+
+//SYSTEM HITPOINTS
+shieldGeneratorHitPoints = 1500
+enginesHitPoints = 0
+weaponsHitPoints = 0
+lifeSupportHitPoints = 1500
+sensorsHitPoints = 1500
+
+//Hardpoint location for building.
+
+repairhardpoint = "hp01"
+
+//**********************************************************************
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 7.5
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Station Alpha" "Station Beta" "Station Gamma" "Station Delta" 
+	"Station Omicron" "Station Theta" "Station Epsilon"     
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = 
+lifeSupportTargetHardpoints = "hp05" "hp06" "hp07"
+weaponsTargetHardpoints = "hp03"
+shieldGeneratorTargetHardpoints = "hp04"
+sensorsTargetHardpoints = "hp05"
+hullTargetHardpoints = "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+criticalTargetHardpoints = "hp01" 
+
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.50f
+
+
+//**********************************************************************
+
+
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+
+eventSelect = "ShipyardSelect"
+eventAcknowledge = "ShipyardAcknowledge"
+eventDecommission = "ShipyardDecommission"
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "shipyard"
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "mining_station"
+hotkeyLabel = "HOTKEY_F5"
+
+//************************************************************
+// Brian additions for context sensitive menus
+
+//*************************************************************
+// Make sure we can build this base near dilithium moons and planets
+//resourcesCanHandle = "dilithium"
+
+builder_ship = 0
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 0
+SHOW_SW_AUTONOMY = 0
+ScaleSOD = 2.5
+avoidMe = 0
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+
+
+
+
+crewCost = 300
+officerCost = 4
+buildTime = 20
+
+dilithiumCost = 250
+
+metalCost = 750
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Fleet Installation (Remmla class)"
+
+verboseTooltip = "A specialist installation supporting Federation operations. Starfleet engineering supports a disciplined, versatile fleet."

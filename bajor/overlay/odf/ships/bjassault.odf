@@ -116,20 +116,20 @@ trekPhysicsFile = "fcruiserphys.odf"
 
 
 // Xaramada resource costs: original filename.
-dilithiumcost = 150
-metalcost = 50
-latinumcost = 0
-biomattercost = 0
-crewcost = 500
+
+
+
+
+
 officercost = 4
 buildtime = 12
 
 
 unitName = "Bajoran Assault Vessel"
 
-tooltip = "Bajoran Assault Vessel"
 
-verboseTooltip = "Bajoran Assault Vessel. TV multi-role assault vessel."
+
+
 
 race = "bajoran"
 
@@ -167,3 +167,20 @@ weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp23" "hp23" "hp23
 
 
 sanecrewlossmethod = 1
+
+
+
+
+
+
+
+
+
+tooltip = "Cruiser (Bajoran Assault Vessel)"
+
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Bajoran militia engineering protects Bajor and its neighboring systems. Special systems: Chain Reaction Pulsar. Availability follows the selected technology tree."
+dilithiumcost = 250
+metalcost = 85
+latinumcost = 0
+biomattercost = 0
+crewCost = 210

@@ -36,7 +36,7 @@ race = "cardassian"
 
 
 // rate at which latinum is removed from freighters
-latinumTransferRate = 15.0
+
 
 //Possible Craft Names
 
@@ -61,18 +61,18 @@ latinumTransferRate = 15.0
 
 
 // Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" 
+
 "HP07" "HP08"
-lifeSupportTargetHardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" 
+
 "HP07" "HP08"
-weaponsTargetHardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" 
+
 "HP07" "HP08"
-shieldGeneratorTargetHardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "HP07" "HP08"
-sensorsTargetHardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" 
+
+
 "HP07" "HP08"
-hullTargetHardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" 
+
 "HP07" "HP08"
-criticalTargetHardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" 
+
 "HP07" "HP08"
 
 //**********************************************************************
@@ -129,25 +129,25 @@ weaponRed = 2.5f
 //SYSTEM DAMAGE DISTRIBUTION
 //The following section's values should add up to 100
 //Percent Chance out of 100 of engines being destroyed
-enginesHitPercent = 0.0f
+
 
 //Percent Chance out of 100 of life support being destroyed
-lifeSupportHitPercent = 10.5f
+
 
 //Percent Chance out of 100 of weapons being destroyed
-weaponsHitPercent = 10.0f
+
 
 //Percent Chance out of 100 of shields being destroyed
-shieldGeneratorHitPercent = 13.0f
+
 
 //Percent Chance out of 100 of sensors being destroyed
-sensorsHitPercent = 13.0f
+
 
 //Percent Chance out of 100 of hull being hit (crew dying)
-crewHitPercent = 13.5f
+
 
 //Percent Chance out of 100 of entire ship exploding
-hullHitPercent = 40.0f
+
 
 //**********************************************************************
 //MESSAGE & SOUND PARAMETERS
@@ -162,7 +162,7 @@ eventDecommission = "StarbaseDecommission"
 //PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
 
 //Runtime class label for instantiation of object.
-classLabel = "starbase"
+
 
 //**********************************************************************
 //KEYMAP LABEL
@@ -173,7 +173,7 @@ hotkeyLabel = "HOTKEY_F1"
 //************************************************************
 // Brian additions for context sensitive menus
 
-transporter = 1
+
 
 
 SHOW_MOVEMENT_AUTONOMY = 1
@@ -208,27 +208,27 @@ SHOW_SW_AUTONOMY = 1
 
 unitName = "Vekor-class Defense Station"
 
-tooltip = "Vekor-class Defense Station"
-
-verboseTooltip = "Compact Cardassian heavy defense station. Three beam banks, two torpedo banks and a rapid-fire torpedo launcher."
-
-baseName = "cstation"
 
 
 
-crewCost = 200
 
-maximumCrew = 200
 
-dilithiumCost = 900
 
-metalCost = 900
 
-latinumCost = 0
 
-biomatterCost = 0
 
-officerCost = 8
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -242,11 +242,11 @@ shieldProtection = 1.0
 
 builder_ship = 0
 
-repairFacility = 0
 
-combat = 1
 
-alert = 1
+
+
+
 
 possibleCraftNames = "Vekor" "Gul Vornar" "Korinas"
 
@@ -254,38 +254,37 @@ shieldGeneratorHitPoints = 1000
 
 enginesHitPoints = 0
 
-weaponsHitPoints = 1000
 
-lifeSupportHitPoints = 1000
+
+
 
 sensorsHitPoints = 1000
 
 weapon1 = "xp4b"
 
-weaponHardpoints1 = "hp09"
+
 
 weapon2 = "xp4b"
 
-weaponHardpoints2 = "hp10"
+
 
 weapon3 = "xp4b"
 
-weaponHardpoints3 = "hp11"
+
 
 weapon4 = "xp4t"
 
-weaponHardpoints4 = "hp12"
+
 
 weapon5 = "xp4t"
 
-weaponHardpoints5 = "hp13"
+
 
 weapon6 = "xp4r"
 
-weaponHardpoints6 = "hp14"
+
 
 // Equal visual span: Federation Cyclone reference.
-ScaleSOD = 0.204566717
 
 
 
@@ -296,6 +295,202 @@ ScaleSOD = 0.204566717
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+buildTime = 75
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Heavy platform artwork restored from before starbase-model change.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "xvstock_cbase"
+
+
+
+weaponHardpoints1 = "hp01"
+
+weaponHardpoints2 = "hp02"
+
+weaponHardpoints3 = "hp03"
+
+weaponHardpoints4 = "hp04"
+
+weaponHardpoints5 = "hp05"
+
+weaponHardpoints6 = "hp06"
+
+enginestargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06"
+
+lifesupporttargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06"
+
+weaponstargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06"
+
+shieldgeneratortargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "HP07" "HP08"
+
+sensorstargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06"
+
+hulltargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06"
+
+criticaltargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06"
+
+
+
+
+
+
+
+
+
+
+
+facility = 1
+
+has_crew = 1
+
+has_hitpoints = 1
+
+
+
+transporter = 1
+
+combat = 1
+
+alert = 1
+
+recrewRate = 10
+
+
+
+
+
+lifeSupportHitPoints = 1000
+
+weaponsHitPoints = 1000.0
+
+enginesHitPercent = 0
+
+lifeSupportHitPercent = 10.5
+
+weaponsHitPercent = 10
+
+shieldGeneratorHitPercent = 13
+
+sensorsHitPercent = 13
+
+crewHitPercent = 13.5
+
+hullHitPercent = 40
+
+dilithiumCost = 150
+
+metalCost = 300
+
+latinumCost = 0
+
+biomatterCost = 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+weapon7 = "xhwpdis"
+
+weaponHardpoints7 = "hp01"
+
+weapon8 = "xhwpdis"
+
+weaponHardpoints8 = "hp02"
+
+weapon9 = "xhwpdis"
+
+weaponHardpoints9 = "hp03"
+
+weapon10 = "xhwpdis"
+
+weaponHardpoints10 = "hp04"
+
+tooltip = "Heavy Weapons Platform (Vekor-class Defense Station)"
+
+verboseTooltip = "Lantean technology infused Platform, With ZPM."
+
+ScaleSOD = 1.257861816
+
+footprintBuffer = 25.0
 
 eastBuffer = 0
 
@@ -305,10 +500,17 @@ northBuffer = 0
 
 southBuffer = 0
 
-footprintBuffer = 10
+classLabel = "starbase"
+
+latinumTransferRate = 15.0
+
+is_starbase = 1
 
 maxCrewGain = 0
 
 officerGain = 0
 
-buildTime = 75
+repairFacility = 0
+crewCost = 0
+maximumCrew = 0
+officerCost = 16

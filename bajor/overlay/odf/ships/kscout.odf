@@ -4,8 +4,8 @@
 unitName = "NuQ'Duj Class"
 
 //tooltips
-tooltip = "NuQ'Duj Class"
-verboseTooltip = "Klingon Scout"
+
+
 
 //Race which can build ship & starting race of ship
 race = "klingon"
@@ -113,20 +113,42 @@ weaponRed = 0.75f
 hotkeyLabel = "HOTKEY_F1"
 
 // Xaramada: cloaking device.
-weapon6 = "gkcloak"
+
 weaponHardpoints6 = "hp01"
 
 
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 50
-metalCost = 0
-latinumCost = 0
-biomatterCost = 0
-crewCost = 10
+
+
+
+
+
 officerCost = 2
 buildTime = 6
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.5
+
+weapon7 = "ya0046"
+
+weaponHardpoints7 = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Scout (NuQ'Duj Class)"
+
+verboseTooltip = "Surveys space and locates threats ahead of the fleet. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak, Polaron Torpedo. Availability follows the selected technology tree."
+weapon6 = "z21kf18a27"
+dilithiumcost = 185
+metalcost = 0
+latinumcost = 0
+biomattercost = 0
+crewCost = 45

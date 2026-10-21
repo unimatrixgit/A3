@@ -1,0 +1,160 @@
+// Begin main properties
+
+unitName = "Q Continuum"
+
+
+race = "federation"
+maxHealth = 999999
+shieldGeneratorHitPoints = 999999
+enginesHitPoints = 999999
+weaponsHitPoints = 999999
+lifeSupportHitPoints = 999999
+sensorsHitPoints = 999999
+shieldRate = 999999
+maxSpecialEnergy = 3000
+specialEnergyRate = 600
+shipclass = "battleship"
+attackPower = 1.0f
+intrinsicValue = 1.0f
+enginesHitPercent = 10.0f
+lifeSupportHitPercent = 10.0f
+weaponsHitPercent = 10.0f
+shieldGeneratorHitPercent = 0.0f
+sensorsHitPercent = 10.0f
+crewHitPercent = 10.0f
+hullHitPercent = 50.0f
+
+// End main properties
+
+// Begin weapons
+
+weapon1 = "omega1"
+weaponHardpoints1 = "hp01"
+weapon2 = "gsnap"
+weaponHardpoints2 = "hp01"
+weapon3 = "gfake"
+weaponHardpoints3 = "hp01"
+weapon4 = "gcontrol"
+weaponHardpoints4 = "hp01"
+
+// End weapons
+
+// Begin hardpoints
+
+enginesTargetHardpoints = "hp01"
+lifeSupportTargetHardpoints = "hp01"
+weaponsTargetHardpoints = "hp01"
+shieldGeneratorTargetHardpoints = "hp01"
+sensorsTargetHardpoints = "hp01"
+hullTargetHardpoints = "hp01"
+criticalTargetHardpoints = "hp01"
+
+// End hardpoints
+
+// Begin sounds
+
+
+// End sounds
+
+// Begin ship names
+
+possibleCraftNames = "Q"
+
+// End ship names
+
+// Begin misc properties
+
+saneCrewLossMethod = 1
+weaponYellow = 1.0f
+weaponRed = 2.0f
+ScaleSOD = 1.1
+hotkeyLabel = "HOTKEY_F2"
+show_sw_autonomy = 0
+physicsFile = "sdeltaflyerphys.odf"
+avoidanceClass = 8
+canAttackPlanets = 1
+fireball = "xfireblg"
+combat = 1
+alert = 1
+can_sandd = 1
+shipType = "B"
+shieldDelay = 3.0f
+rangeScan = 1000.0f
+damagedScan = 125.0
+enginesRepairTime = 0.2f
+lifeSupportRepairTime = 0.1f
+weaponsRepairTime = 0.5f
+shieldGeneratorRepairTime = 1.0f
+sensorsRepairTime = 0.5f
+enginesCrewLoss = 5.0f
+lifeSupportCrewLoss = 3.0f
+weaponsCrewLoss = 2.0f
+shieldGeneratorCrewLoss = 2.0f
+sensorsCrewLoss = 2.0f
+lifeSupportLoss = 2.0f
+weldingRadius = 1.0
+classLabel = "craft"
+aiName = "CraftProcess"
+ship = 1
+has_hitpoints = 1
+has_crew = 0
+transporter = 0
+SHOW_MOVEMENT_AUTONOMY = 1
+can_explore = 0
+isHero = 1
+label = "Q"
+
+// End misc properties
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewCost = 0
+officerCost = 1
+buildTime = 5
+
+
+eventSelect = "XV_q_Select"
+
+eventAcknowledge = "XV_q_Acknowledge"
+
+eventAttack = "XV_q_Attack"
+
+eventStop = "XV_q_Stop"
+
+eventMove = "XV_q_Move"
+
+eventRepair = "XV_q_Repair"
+
+eventRedAlert = "XV_q_RedAlert"
+
+eventYellowAlert = "XV_q_YellowAlert"
+
+eventGreenAlert = "XV_q_GreenAlert"
+
+eventTransport = "XV_q_Transport"
+
+eventSelfDestruct = "XV_q_SelfDestruct"
+
+eventDecommission = "XV_q_Decommission"
+
+
+
+
+
+
+
+
+
+tooltip = "Hero Ship (Q Continuum)"
+
+verboseTooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Supernova,  Q Teleport, Q duplicate, Q control. Availability follows the selected technology tree."
+dilithiumcost = 71905
+metalcost = 30820
+latinumcost = 0
+biomattercost = 0

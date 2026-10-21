@@ -7,8 +7,8 @@
 unitName = "Biogenesis Core"
 
 //tooltips
-tooltip = "8472_ADV_RESEARCH"
-verboseTooltip = "8472_ADV_RESEARCH_V"
+
+
 
 //Race which can build ship & starting race of ship
 race = "species8472"
@@ -32,7 +32,8 @@ shieldRate = 3.8
 possibleCraftNames = "Biogenesis Core-C37T" "Biogenesis Core-C83U"
 
 //**********************************************************************
-//Construction Parameters
+//Construction Parameters
+
 buildItem0 = "8472_PodAdvanced0"
 buildItem1 = "8472_PodAdvanced1"
 buildItem2 = "8472_PodAdvanced2"
@@ -44,8 +45,10 @@ buildItem3 = "8472_PodAdvanced3"
 animation=2
 
 // Hardpoints to hit for various systems and other locations.
-//enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12"
-//weaponsTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12"
+//enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12"
+
+//weaponsTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12"
+
 
 //**********************************************************************
 //AI system parameters
@@ -73,10 +76,10 @@ hotkeyLabel = "HOTKEY_F3"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 0
-metalCost = 0
-latinumCost = 0
-biomatterCost = 1400
+
+
+
+
 crewCost = 0
 officerCost = 1
 buildTime = 180
@@ -94,3 +97,15 @@ sensorstargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12"
 hulltargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12"
 
 criticaltargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12"
+
+dilithiumCost = 0
+
+metalCost = 0
+
+latinumCost = 0
+
+biomatterCost = 1250
+
+tooltip = "Research Facility (Biogenesis Core)"
+
+verboseTooltip = "Supports the technologies and upgrades available in its research menu. Living biotechnology shapes this organism for operations beyond fluidic space."

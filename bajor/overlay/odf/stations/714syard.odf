@@ -7,8 +7,8 @@
 unitName = "Shipyard"
 
 //tooltips
-tooltip = "Shipyard"
-verboseTooltip = "Organically based construction facility"
+
+
 
 //Race which can build ship & starting race of ship
 race = "species8472"
@@ -96,13 +96,25 @@ has_crew = 0
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 0
-metalCost = 0
-latinumCost = 0
-biomatterCost = 2370
+
+
+
+
 crewCost = 0
 officerCost = 1
 buildTime = 160
 
 // Lab safety fix: this model has no repair docking node. Do not accept repair orders, including after capture.
 repairFacility = 0
+
+dilithiumCost = 0
+
+metalCost = 0
+
+latinumCost = 0
+
+biomatterCost = 1000
+
+tooltip = "Shipyard (Shipyard)"
+
+verboseTooltip = "Produces the vessels listed in its construction menu. Living biotechnology shapes this organism for operations beyond fluidic space."

@@ -1,8 +1,8 @@
 // Begin main properties
 
 unitName = "Jem'Hadar Science Ship"
-tooltip = "Jem'Hadar Science Ship"
-verboseTooltip = "Science Ship equipped with various experimental weapons: Vortex, Holo-Emitter and Protonic Shockwave."
+
+
 race = "dominion"
 maxHealth = 550
 shieldGeneratorHitPoints = 10
@@ -128,14 +128,31 @@ can_explore = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 450
-metalCost = 150
-latinumCost = 0
-biomatterCost = 0
-crewCost = 300
+
+
+
+
+
 officerCost = 10
 buildTime = 30
 
 maxSpecialEnergy = 1800
 
 specialEnergyRate = 18.0
+
+
+
+
+
+
+
+
+
+tooltip = "Support Ship (Jem'Hadar Science Ship)"
+
+verboseTooltip = "Provides specialist support for fleet operations. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Holo-Emitter, Vortex, Protonic Shockwave. Availability follows the selected technology tree."
+dilithiumcost = 110
+metalcost = 40
+latinumcost = 0
+biomattercost = 0
+crewCost = 100

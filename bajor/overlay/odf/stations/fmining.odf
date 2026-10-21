@@ -6,8 +6,8 @@
 //Name of Ship class in Ship Display window & in edit mode & tooltip
 unitName = "Kiluauea Class"
 
-tooltip = "Kiluauea Class - Mining Station"
-verboseTooltip = "FED_MINING_V"
+
+
 
 //Name of the ODF file of the matching freighter to build with the station
 freighterName = "ffreight"
@@ -51,7 +51,8 @@ possibleCraftNames =
 //ART PARAMETERS & WEAPON NAMES
 
 
-// Hardpoints to hit for various systems and other locations.
+// Hardpoints to hit for various systems and other locations.
+
 
 //**********************************************************************
 //**********************************************************************
@@ -101,10 +102,10 @@ resourcesCanHandle = "dilithium"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 0
-metalCost = 400
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 250
 officerCost = 4
 buildTime = 50
@@ -124,3 +125,15 @@ sensorstargethardpoints = "hp03" "hp08" "hp09"
 hulltargethardpoints = "hp01" "hp02" "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
 
 criticaltargethardpoints = "hp03" "hp08" "hp09"
+
+dilithiumCost = 300
+
+metalCost = 200
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Resource Processing Station (Kiluauea Class)"
+
+verboseTooltip = "Receives and processes resources delivered by mining vessels. Starfleet engineering supports a disciplined, versatile fleet."

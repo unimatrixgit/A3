@@ -7,8 +7,8 @@
 unitname = "Bajoran Advanced Research Institute"
 
 //tooltips
-tooltip = "Bajoran Advanced Research Institute"
-verbosetooltip = "Bajoran Advanced Research Institute. Extrapolated advanced research station."
+
+
 
 //Race which can build ship & starting race of ship
 race = "bajoran"
@@ -98,17 +98,17 @@ transporter = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumcost = 0
-metalcost = 1250
-latinumcost = 0
-biomattercost = 0
+
+
+
+
 crewcost = 200
 officercost = 15
 buildtime = 150
 
 basename = "br3_bjresear2"
 
-podhardpoints = "hp51" "hp52" "hp53" "hp54"
+
 
 enginestargethardpoints = "hp01" "hp06" "hp07" "hp08" "hp09" "hp10"
 
@@ -129,3 +129,25 @@ scalesod = 1.402322
 maxspecialenergy = 0
 
 specialenergyrate = 0
+
+
+
+
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 625
+
+latinumCost = 625
+
+biomatterCost = 0
+
+tooltip = "Research Facility (Bajoran Advanced Research Institute)"
+
+verboseTooltip = "Supports the technologies and upgrades available in its research menu. Bajoran militia engineering protects Bajor and its neighboring systems."
+buildItem4 = "z21bjspec"
+podHardpoints = "hp51" "hp52" "hp53" "hp54" "hp01"

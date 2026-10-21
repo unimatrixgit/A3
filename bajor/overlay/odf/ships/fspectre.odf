@@ -4,8 +4,8 @@
 unitName = "Spectre Class"
 
 //tooltips
-tooltip = "Spectre Class"
-verboseTooltip = "Section 31 Heavy Escort."
+
+
 
 //Race which can build ship & starting race of ship
 race = "federation"
@@ -118,13 +118,34 @@ hotkeyLabel = "HOTKEY_F3"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 140
-metalCost = 0
-latinumCost = 0
-biomatterCost = 0
-crewCost = 114
+
+
+
+
+
 officerCost = 7
 buildTime = 12
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.5
+
+weapon5 = "ya0062"
+
+weaponHardpoints5 = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Attack Ship (Spectre Class)"
+
+verboseTooltip = "A light combat ship for interception and fleet support. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Cloak, Antimatter Mines. Availability follows the selected technology tree."
+dilithiumcost = 335
+metalcost = 85
+latinumcost = 0
+biomattercost = 0
+crewCost = 125

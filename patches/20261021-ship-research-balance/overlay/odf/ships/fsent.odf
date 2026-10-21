@@ -1,0 +1,138 @@
+#include "battle.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Sentinel Class"
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+// don't use the horrible old % crew loss on damage
+saneCrewLossMethod = 1
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 1012
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 175
+enginesHitPoints = 170
+weaponsHitPoints = 177
+lifeSupportHitPoints = 173
+sensorsHitPoints = 179
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 10.0
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 1000
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 14
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 89
+impulseSpeed = 80
+warpSpeed = 890
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "USS Sentinel" "USS Defender" "USS Repulse"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Type X Phaser
+weapon1 = "fc10phas"
+weaponHardpoints1 = "hp30" "hp31" "hp32" "hp33" "hp34"
+
+// Type X Phaser
+weapon2 = "fc10phas"
+weaponHardpoints2 = "hp50"
+	
+// Class 'A' Quantum Torpedo
+weapon2 = "fclassat"
+weaponHardpoints2 = "hp50"
+
+// Hardpoints to hit for various systems and other locations.
+
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04"
+lifeSupportTargetHardpoints = "hp05" "hp06" "hp07" "hp08"
+weaponsTargetHardpoints = "hp09" "hp10" "hp11" "hp12"
+shieldGeneratorTargetHardpoints = "hp13" "hp14" "hp15" "hp16"
+sensorsTargetHardpoints = "hp17" "hp18" "h19"
+hullTargetHardpoints = "hp01" "hp06" "hp09"  "hp12" "hp14" "hp18"
+criticalTargetHardpoints = "hp01" "hp06" "hp09"  "hp12" "hp14" "hp18"
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "Cruiser1Select"
+eventAcknowledge = "Cruiser1Acknowledge"
+eventAttack = "Cruiser1Attack"
+eventStop = "Cruiser1Stop"
+eventMove = "Cruiser1Move"
+eventRepair = "Cruiser1Repair"
+
+//**********************************************************************
+
+hotkeyLabel = "HOTKEY_F2"
+
+// take out the special weapon autonomy
+show_sw_autonomy = 0
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+
+
+
+
+
+officerCost = 7
+buildTime = 12
+
+weapon3 = "ya0063"
+
+weaponHardpoints3 = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Capital Ship (Sentinel Class)"
+
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+dilithiumcost = 260
+metalcost = 115
+latinumcost = 0
+biomattercost = 0
+crewCost = 575

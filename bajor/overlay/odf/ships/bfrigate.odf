@@ -9,8 +9,8 @@ race = "borg"
 unitName = "Deemons Tooth"
 
 //tooltips
-tooltip = "Deemons Tooth"
-verboseTooltip = "Borg Deemons Tooth heavy frigate."
+
+
 
 //Amount of time required to build ship
 
@@ -119,11 +119,11 @@ hotkeyLabel = "HOTKEY_F1"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 375
-metalCost = 100
-latinumCost = 0
-biomatterCost = 0
-crewCost = 200
+
+
+
+
+
 officerCost = 1
 buildTime = 24
 
@@ -136,3 +136,20 @@ ScaleSOD = 1.5
 maxSpecialEnergy = 1500
 
 specialEnergyRate = 15.0
+
+
+
+
+
+
+
+
+
+tooltip = "Frigate (Deemons Tooth)"
+
+verboseTooltip = "A combat escort for patrols and coordinated fleet engagements. Collective engineering integrates this asset into the unimatrix. Special systems: Special Energy Recharger, Transwarp Drive, Auto-Assimilator. Availability follows the selected technology tree."
+dilithiumcost = 420
+metalcost = 115
+latinumcost = 0
+biomattercost = 0
+crewCost = 700

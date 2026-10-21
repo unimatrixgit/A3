@@ -1,0 +1,62 @@
+#include "pod.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Nanites Pod"
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Dilithium Cost to build
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+//eventSelect = "Nanites"
+
+//**********************************************************************
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "nanites"
+hotkeyLabel = "HOTKEY_F3"
+
+ScaleSOD = 2.0
+
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewCost = 0
+officerCost = 2
+buildTime = 140
+
+dilithiumCost = 400
+
+metalCost = 200
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Research Upgrade (Nanites Pod)"
+
+verboseTooltip = "Researches Nanites Pod. Collective engineering integrates this asset into the unimatrix."

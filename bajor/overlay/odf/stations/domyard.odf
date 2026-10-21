@@ -7,8 +7,8 @@
 unitName = "Dominion Shipyard"
 
 //tooltips
-tooltip = "Dominion Shipyard"
-verboseTooltip = "Dominion vessel construction facility"
+
+
 
 //Race which can build ship & starting race of ship
 race = "cardassian"
@@ -99,13 +99,25 @@ ScaleSOD = 2.5
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 370
-metalCost = 1230
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 515
 officerCost = 6
 buildTime = 133
 
 // Lab safety fix: this model has no repair docking node. Do not accept repair orders, including after capture.
 repairFacility = 0
+
+dilithiumCost = 250
+
+metalCost = 750
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Shipyard (Dominion Shipyard)"
+
+verboseTooltip = "Produces the vessels listed in its construction menu. Cardassian engineering sustains the Union through ordered, persistent operations."

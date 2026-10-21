@@ -7,8 +7,8 @@
 unitName = "Plasma Cannon"
 
 //tooltips
-tooltip = "Plasma Cannon"
-verboseTooltip = "Basic Defense Turret"
+
+
 
 //Race which can build ship & starting race of ship
 race = "romulan"
@@ -50,9 +50,11 @@ weaponsHitPoints = 1000
 //ART PARAMETERS & WEAPON NAMES
 
 // Pulse Phaser
-weapon1 = "rc05pul"
+weapon1 = "rc05pul"
 
-// Hardpoints to hit for various systems and other locations.
+
+// Hardpoints to hit for various systems and other locations.
+
 
 //**********************************************************************
 //MESSAGE & SOUND PARAMETERS
@@ -77,10 +79,10 @@ rangeScan = 800.0f
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 75
-metalCost = 75
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 0
 officerCost = 3
 buildTime = 45
@@ -102,3 +104,15 @@ sensorstargethardpoints = "hp04" "hp05" "hp06"
 hulltargethardpoints = "hp04" "hp05" "hp06" 
 
 criticaltargethardpoints = "hp04" "hp05" "hp06" 
+
+dilithiumCost = 150
+
+metalCost = 250
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Defense Station (Plasma Cannon)"
+
+verboseTooltip = "A fixed defensive installation protecting nearby fleet assets. Romulan engineering favors calculated strikes and control of the battlefield."

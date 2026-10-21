@@ -4,8 +4,8 @@
 unitName = "Korinar Class"
 
 //tooltips
-tooltip = "Korinar Class"
-verboseTooltip = "Klingon Fast Attack vessel"
+
+
 
 //Race which can build ship & starting race of ship
 race = "klingon"
@@ -61,7 +61,7 @@ weapon1 = "kc05phas"
 weaponHardpoints1 = "hp07" "hp08"
 
 // Cloaking
-weapon2 = "gkcloak"
+
 weaponHardpoints2 = "hp12"
 
 // Photon Torpedos
@@ -112,13 +112,31 @@ hotkeyLabel = "HOTKEY_F2"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 290
-metalCost = 55
-latinumCost = 0
-biomatterCost = 0
-crewCost = 58
+
+
+
+
+
 officerCost = 9
 buildTime = 20
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.5
+
+
+
+
+
+
+
+
+
+tooltip = "Attack Ship (Korinar Class)"
+
+verboseTooltip = "A light combat ship for interception and fleet support. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak, Death Chant. Availability follows the selected technology tree."
+weapon2 = "z21kf18a27"
+dilithiumcost = 200
+metalcost = 50
+latinumcost = 0
+biomattercost = 0
+crewCost = 95

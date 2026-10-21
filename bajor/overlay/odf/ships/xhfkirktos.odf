@@ -1,0 +1,64 @@
+#include "battle.odf"
+unitName = "James T Kirk - Enterprise"
+label = "James T Kirk - Enterprise"
+
+
+baseName = "fent"
+race = "federation"
+isHero = 1
+possibleCraftNames = "Enterprise"
+hotkeyLabel = ""
+maxHealth = 3500
+shieldRate = 12.0
+maxSpecialEnergy = 1000
+specialEnergyRate = 15
+
+officerCost = 7
+buildTime = 83
+ScaleSOD = 0.1
+physicsFile = "ffrigatephys.odf"
+trekPhysicsFile = "ffrigatephys.odf"
+
+
+
+
+weapon1 = "fentphas"
+weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp10" "hp12"
+weapon2 = "frphot"
+weaponHardpoints2 = "hp06"
+
+weaponHardpoints3 = "hp01"
+eventSelect = "XV_fent_Select"
+eventAcknowledge = "XV_fent_Acknowledge"
+eventAttack = "XV_fent_Attack"
+eventStop = "XV_fent_Stop"
+eventMove = "XV_fent_Move"
+eventRepair = "XV_fent_Repair"
+eventRedAlert = "XV_fent_RedAlert"
+eventYellowAlert = "XV_fent_YellowAlert"
+eventGreenAlert = "XV_fent_GreenAlert"
+eventTransport = "XV_fent_Transport"
+eventSelfDestruct = "XV_fent_SelfDestruct"
+eventDecommission = "XV_fent_Decommission"
+
+weapon4 = "ya0072"
+
+weaponHardpoints4 = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Hero Ship (James T Kirk - Enterprise)"
+
+verboseTooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+weapon3 = "z21fa45955"
+dilithiumcost = 430
+metalcost = 185
+latinumcost = 0
+biomattercost = 0
+crewCost = 740

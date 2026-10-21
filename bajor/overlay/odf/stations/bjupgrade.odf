@@ -7,8 +7,8 @@
 unitname = "Bajoran Systems Upgrade Center"
 
 //tooltips
-tooltip = "Bajoran Systems Upgrade Center"
-verbosetooltip = "Bajoran Systems Upgrade Center. Extrapolated systems engineering station."
+
+
 
 //Race which can build ship & starting race of ship
 race = "bajoran"
@@ -107,10 +107,10 @@ transporter = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumcost = 0
-metalcost = 1500
-latinumcost = 0
-biomattercost = 0
+
+
+
+
 crewcost = 400
 officercost = 10
 buildtime = 150
@@ -144,3 +144,23 @@ specialenergyrate = 0
 engineshitpoints = 0
 
 weaponshitpoints = 0
+
+
+
+
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 625
+
+latinumCost = 625
+
+biomatterCost = 0
+
+tooltip = "Production Facility (Bajoran Systems Upgrade Center)"
+
+verboseTooltip = "Produces the units or upgrades listed in its construction menu. Bajoran militia engineering protects Bajor and its neighboring systems."

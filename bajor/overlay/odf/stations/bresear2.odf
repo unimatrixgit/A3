@@ -5,8 +5,8 @@
 //Name of Ship class in Ship Display window & in edit mode & tooltip
 unitName = "Technology Node"
 
-tooltip = "BORG_RESEARCH_2"
-verboseTooltip = "BORG_RESEARCH_2_V"
+
+
 
 //Race which can build ship & starting race of ship
 race = "borg"
@@ -33,7 +33,8 @@ shieldRate = 7.4
 possibleCraftNames = "XT96-646147"
 
 //**********************************************************************
-//Construction Parameters
+//Construction Parameters
+
 buildItem0 = "borpod6"
 buildItem1 = "borpod7"
 buildItem2 = "borpod8"
@@ -42,7 +43,8 @@ buildItem3 = "borpod9"
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
 
-// Hardpoints to hit for various systems and other locations.
+// Hardpoints to hit for various systems and other locations.
+
 
 //**********************************************************************
 //AI system parameters
@@ -72,17 +74,17 @@ transporter = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 0
-metalCost = 1250
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 200
 officerCost = 10
 buildTime = 150
 
 baseName = "xvstock_bresear2"
 
-podhardpoints = "pod01" "pod02" "pod03" "pod04"
+
 
 enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
 
@@ -97,3 +99,19 @@ sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25" "hp26" "hp27"
 hulltargethardpoints = "hp06"
 
 criticaltargethardpoints = "hp01"
+
+dilithiumCost = 350
+
+metalCost = 900
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Research Facility (Technology Node)"
+
+verboseTooltip = "Supports the technologies and upgrades available in its research menu. Collective engineering integrates this asset into the unimatrix."
+
+recrewRate = 10
+buildItem4 = "z21bspec"
+podHardpoints = "pod01" "pod02" "pod03" "pod04" "hp01"

@@ -124,9 +124,9 @@ trekPhysicsFile = "fbattlephys.odf"
 
 unitName = "Bajoran Militia Battleship"
 
-tooltip = "Bajoran Militia Battleship"
 
-verboseTooltip = "Bajoran Militia Battleship. Extrapolated heavy assault-family flagship."
+
+
 
 race = "bajoran"
 
@@ -170,17 +170,17 @@ shieldRate = 9.9
 
 
 
-dilithiumcost = 450
 
-metalcost = 100
 
-latinumcost = 0
 
-biomattercost = 0
+
+
+
+
 
 officercost = 12
 
-crewCost = 700
+
 
 buildTime = 25
 
@@ -195,3 +195,20 @@ weapon2 = "bjbtor"
 maxSpecialEnergy = 1400
 
 specialEnergyRate = 14.0
+
+
+
+
+
+
+
+
+
+tooltip = "Capital Ship (Bajoran Militia Battleship)"
+
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Bajoran militia engineering protects Bajor and its neighboring systems. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+dilithiumcost = 345
+metalcost = 150
+latinumcost = 0
+biomattercost = 0
+crewCost = 665

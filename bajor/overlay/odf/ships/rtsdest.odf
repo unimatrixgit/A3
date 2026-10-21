@@ -4,8 +4,8 @@
 unitName = "Lemal Class"
 
 //tooltips
-tooltip = "Lemal Class"
-verboseTooltip = "Tal Shiar Destroyer"
+
+
 
 //Race which can build ship & starting race of ship
 race = "romulan"
@@ -118,13 +118,30 @@ hotkeyLabel = "HOTKEY_F2"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 420
-metalCost = 120
-latinumCost = 0
-biomatterCost = 0
-crewCost = 224
+
+
+
+
+
 officerCost = 13
 buildTime = 25
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.5
+
+
+
+
+
+
+
+
+
+tooltip = "Attack Ship (Lemal Class)"
+
+verboseTooltip = "A light combat ship for interception and fleet support. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Romulan Spy. Availability follows the selected technology tree."
+dilithiumcost = 525
+metalcost = 130
+latinumcost = 0
+biomattercost = 0
+crewCost = 155

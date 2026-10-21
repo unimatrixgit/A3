@@ -1,0 +1,57 @@
+#include "ShieldUpgradePod2.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Level 3 Shields Pod"
+
+//Race which can build ship & starting race of ship
+race = "cardassian"
+
+//tooltips
+
+
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Latinum Cost to build
+
+//Number of officers required to build this ship
+
+//Amount of time required to build ship
+
+//make this slightly larger than the level one pod
+scaleSOD = 1.2
+
+hotkeyLabel = "HOTKEY_F2"
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewCost = 0
+officerCost = 2
+buildTime = 240
+
+
+
+
+
+
+
+
+
+dilithiumCost = 375
+
+metalCost = 125
+
+latinumCost = 250
+
+biomatterCost = 0
+
+tooltip = "Research Upgrade (Level 3 Shields Pod)"
+
+verboseTooltip = "Researches Level 3 Shields Pod. Cardassian engineering sustains the Union through ordered, persistent operations."

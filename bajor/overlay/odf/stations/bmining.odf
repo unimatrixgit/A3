@@ -6,8 +6,8 @@
 //Name of Ship class in Ship Display window & in edit mode & tooltip
 unitName = "Resource Processing Node"
 
-tooltip = "BORG_MINING"
-verboseTooltip = "BORG_MINING_V"
+
+
 
 //Name of the ODF file of the matching freighter to build with the station
 freighterName = "bfreight"
@@ -48,7 +48,8 @@ possibleCraftNames = "PN72-8657" "PN72-8946" "PN72-7291" "PN72-0848"
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
 
-// Hardpoints to hit for various systems and other locations.
+// Hardpoints to hit for various systems and other locations.
+
 
 //**********************************************************************
 //AI system parameters
@@ -92,10 +93,10 @@ resourcesCanHandle = "metal" "dilithium"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 200
-metalCost = 200
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 250
 officerCost = 4
 buildTime = 50
@@ -115,3 +116,17 @@ sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
 hulltargethardpoints = "hp06"
 
 criticaltargethardpoints = "hp01"
+
+dilithiumCost = 300
+
+metalCost = 200
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Resource Processing Station (Resource Processing Node)"
+
+verboseTooltip = "Receives and processes resources delivered by mining vessels. Collective engineering integrates this asset into the unimatrix."
+
+recrewRate = 10

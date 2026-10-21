@@ -7,8 +7,8 @@
 unitName = "Orbital Extraction Facility"
 
 //tooltips
-tooltip = "Borg Orbital"
-verboseTooltip = "The Borg Orbital Device can be used instead of the freighter to extract metal."
+
+
 
 //Race which can build ship & starting race of ship
 race = "borg"
@@ -168,3 +168,9 @@ weaponHardpoints6 = "hp05"
 
 weapon7 = "bc2phas"
 weaponHardpoints7 = "hp06"
+
+tooltip = "Orbital Mining Station (Orbital Extraction Facility)"
+
+verboseTooltip = "Processes planetary resources and supports orbital operations. Collective engineering integrates this asset into the unimatrix. Special systems: Orbital Mining Beam. Availability follows the selected technology tree."
+
+recrewRate = 10

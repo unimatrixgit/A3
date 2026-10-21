@@ -7,8 +7,8 @@ unitname = "Bajoran Weapons II"
 race = "bajoran"
 
 //tooltips
-tooltip = "Bajoran Weapons II"
-verbosetooltip = "Bajoran Weapons II. Extrapolated technology pod."
+
+
 
 //Dilithium Cost to build
 
@@ -25,10 +25,10 @@ hotkeyLabel = "HOTKEY_F1"
 
 
 // Xaramada resource costs: original filename.
-dilithiumcost = 400
-metalcost = 200
-latinumcost = 0
-biomattercost = 0
+
+
+
+
 crewcost = 0
 officercost = 1
 buildtime = 120
@@ -68,3 +68,15 @@ specialenergyrate = 0
 engineshitpoints = 0
 
 weaponshitpoints = 0
+
+dilithiumCost = 0
+
+metalCost = 300
+
+latinumCost = 300
+
+biomatterCost = 0
+
+tooltip = "Research Upgrade (Bajoran Weapons II)"
+
+verboseTooltip = "Researches Bajoran Weapons II. Bajoran militia engineering protects Bajor and its neighboring systems."

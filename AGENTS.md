@@ -1,5 +1,7 @@
 # Active mod target
 
+Latest user instruction (2026-10-21): apply the ship research/cost and crewless heavy-platform update only to D:/armadaIII. Do not mirror this patch into ArmadaLab or Xaramada. Push approved source changes to the DuneGit origin. This explicit deployment request supersedes the older lab-only staging restriction below for this work.
+
 Latest user instruction (2026-10-18): execute all further development and runtime testing in the independent game folder `D:/ArmadaLab`. Do not apply further experimental patches to the live `D:/armadaIII` installation. Save checkpoints for the user's return. This staging restriction supersedes the earlier live-target instruction below until the user requests deployment.
 
 The user has explicitly restricted future game modifications to `D:/armadaIII`.

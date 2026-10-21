@@ -2,8 +2,8 @@
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
 unitName = "Excalibur Class"
-tooltip = "Excalibur Class - Dreadnaught"
-verboseTooltip = "This experimental ship is heavily armed and is equipped with Star Fleet's Transwarp Drive."
+
+
 
 //Race which can build ship & starting race of ship
 race = "federation"
@@ -68,7 +68,7 @@ weapon3 = "fexcaliburphot"
 weaponHardpoints3 = "hp07"
 
 //Self Destruct
-weapon4 = "gselfdes"
+
 weaponHardpoints4 = "hp24"
 
 weapon5 = "ftwarpd"
@@ -124,14 +124,36 @@ trekPhysicsFile = "fdreadphys.odf"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 850
-metalCost = 1500
-latinumCost = 0
-biomatterCost = 0
-crewCost = 1876
+
+
+
+
+
 officerCost = 9
 buildTime = 22
 
 maxSpecialEnergy = 1500
 
 specialEnergyRate = 15.0
+
+weapon8 = "ya0034"
+
+weaponHardpoints8 = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Capital Ship (Excalibur Class)"
+
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Transwarp Drive, Corbomite Reflector. Availability follows the selected technology tree."
+weapon4 = "z21fa45955"
+dilithiumcost = 750
+metalcost = 325
+latinumcost = 0
+biomattercost = 0
+crewCost = 980

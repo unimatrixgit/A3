@@ -7,8 +7,8 @@
 unitName = "Torpedo Turret"
 
 //tooltips
-tooltip = "Torpedo Turret"
-verboseTooltip = "Heavy Torpedo Turret"
+
+
 
 //Race which can build ship & starting race of ship
 race = "romulan"
@@ -50,13 +50,15 @@ weaponsHitPoints = 1000
 //ART PARAMETERS & WEAPON NAMES
 
 // Photon torpedos
-weapon1 = "rc07phot"
+weapon1 = "rc07phot"
+
 
 // Photon torpedos
 weapon2 = "rc07phot"
 weaponHardpoints2 = "hp10"
 
-// Hardpoints to hit for various systems and other locations.
+// Hardpoints to hit for various systems and other locations.
+
 
 //**********************************************************************
 //MESSAGE & SOUND PARAMETERS
@@ -106,3 +108,7 @@ sensorstargethardpoints = "hp04" "hp05" "hp06"
 hulltargethardpoints = "hp04" "hp05" "hp06" 
 
 criticaltargethardpoints = "hp04" "hp05" "hp06" 
+
+tooltip = "Defense Station (Torpedo Turret)"
+
+verboseTooltip = "A fixed defensive installation protecting nearby fleet assets. Romulan engineering favors calculated strikes and control of the battlefield."

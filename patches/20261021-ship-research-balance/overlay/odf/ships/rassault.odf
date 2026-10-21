@@ -1,0 +1,148 @@
+#include "assault.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Kestrel Class"
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+// don't use the horrible old % crew loss on damage
+saneCrewLossMethod = 1
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 1924
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 238
+enginesHitPoints = 238
+weaponsHitPoints = 197
+lifeSupportHitPoints = 219
+sensorsHitPoints = 199
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 9.4
+
+//The multiplier used when a boarding party is sent to an enemy ship
+boardingPartyStrength = 5.0
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 81
+impulseSpeed = 78
+warpSpeed = 780
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 2400
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 24 
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "Abirus" "Accius" "Agius" "Ahinius"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Pulse Phaser
+weapon1 = "rc05phas"
+weaponHardpoints1 = "hp09" "hp10" "hp11"
+
+// Towing Beam
+weapon2 = "gtracbm"
+weaponhardpoints2 = "hp15"
+
+// Torpedo
+weapon3 = "rc02phot"
+weaponHardpoints3 = "hp12"
+
+// Torpedo
+weapon4 = "rc02phot"
+weaponHardpoints4 = "hp13"
+
+// Cloaking Device
+weapon5 = "grcloak"
+weaponHardpoints5 = "hp14"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.25f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.25f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "placeholder"
+hotkeyLabel = "HOTKEY_F6"
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+officerCost = 4
+buildTime = 13
+
+
+
+
+
+
+
+
+
+tooltip = "Assault Ship (Kestrel Class)"
+
+verboseTooltip = "Supports offensive operations and hostile boarding actions. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Tractor Beam, Cloak. Availability follows the selected technology tree."
+dilithiumcost = 400
+metalcost = 135
+latinumcost = 0
+biomattercost = 0
+crewCost = 295

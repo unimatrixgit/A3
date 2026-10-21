@@ -101,19 +101,19 @@ trekPhysicsFile = "fdestroyerphys.odf"
 
 
 // Xaramada resource costs: original filename.
-dilithiumcost = 225
-metalcost = 0
-latinumcost = 0
-biomattercost = 0
-crewcost = 250
+
+
+
+
+
 officercost = 8
 buildtime = 25
 
 unitName = "Bajoran Long-Range Defense Vessel"
 
-tooltip = "Bajoran Long-Range Defense Vessel"
 
-verboseTooltip = "Bajoran Long-Range Defense Vessel. Extrapolated standoff assault hull."
+
+
 
 race = "bajoran"
 
@@ -159,3 +159,20 @@ ScaleSOD = 1.2
 maxSpecialEnergy = 900
 
 specialEnergyRate = 9.0
+
+
+
+
+
+
+
+
+
+tooltip = "Attack Ship (Bajoran Long-Range Defense Vessel)"
+
+verboseTooltip = "A light combat ship for interception and fleet support. Bajoran militia engineering protects Bajor and its neighboring systems. Special systems: Antimatter Mines. Availability follows the selected technology tree."
+dilithiumcost = 275
+metalcost = 70
+latinumcost = 0
+biomattercost = 0
+crewCost = 110

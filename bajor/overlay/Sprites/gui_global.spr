@@ -522,7 +522,7 @@ b_dsuperbl				gbdomyard			0	0	64	64
 b_dtrading				gbdtrading			0	0	64	64
 b_dturret				gbdturret			0	0	64	64
 b_dturret2				gbdturret2			0	0	64	64
-b_dturret3				gbdturret2			0	0	64	64
+
 b_dupgrade				gbdupgrade			0	0	64	64
 b_dyard				gbdyard			0	0	64	64
 b_dyard2				gbdyard2			0	0	64	64
@@ -3483,7 +3483,7 @@ b_kgunboat			gbkgunboat		0	0  	64  64
 @skip=off
 @tmaterial=default
 @reference=64
-b_khwp			gbkhwp		0	0  	64  64
+
 @skip=off
 @tmaterial=default
 @reference=64
@@ -3548,7 +3548,7 @@ b_cobyard			gbcobyard		0	0	64	64
 @reference=64
 @tmaterial=default
 b_cstation			gbcstation		0	0	64	64
-b_chwp			gbcstation		0	0	64	64
+
 @skip=off
 @reference=64
 @tmaterial=default
@@ -3648,7 +3648,7 @@ b_rdverix			gbrdverix	0	0	64	64
 @skip=off
 @tmaterial=default
 @reference=64
-b_rhwp			gbrhwp	0	0	64	64
+
 @skip=off
 @tmaterial=default
 @reference=64
@@ -4020,7 +4020,7 @@ kgunboatw1			klinwf09		128	128	128	128
 @skip=off
 @tmaterial=interface
 @reference=256
-khwpw1			klinwf10		0	0	128	128
+
 @skip=off
 @tmaterial=interface
 @reference=256
@@ -4116,7 +4116,7 @@ rdverixw1			romwf05		128	0	128	128
 @skip=off
 @tmaterial=interface
 @reference=256
-rhwpw1			romwf06		0	0	128	128
+
 @skip=off
 @tmaterial=interface
 @reference=256
@@ -4169,7 +4169,7 @@ cobyardw1			cardwf04		128	0	128	128
 @tmaterial=interface
 @reference=256
 cstationw1			cardwf04		0	128	128	128
-chwpw1			cardwf04		0	128	128	128
+
 @skip=off
 @tmaterial=interface
 @reference=256
@@ -4391,8 +4391,8 @@ b_fgalaxyx	               	gbfgalaxyx		0       0       64      64
 @skip=off
 @tmaterial=default
 @reference=64
-b_fhwp                     	gbfhwp		       	0       0       64      64
-b_bjhwp                     	gbfhwp		       	0       0       64      64
+
+
 @skip=off
 @tmaterial=default
 @reference=64
@@ -4980,28 +4980,28 @@ fgalaxyxw5			wffghost09	192	0	48	48
 @skip=off
 @tmaterial=interface
 @reference=256
-fhwpw1				wffghost09	0	48	48	48
-bjhwpw1				wffghost09	0	48	48	48
+
+
 @skip=off
 @tmaterial=interface
 @reference=256
-fhwpw2				wffghost09	48	48	48	48
-bjhwpw2				wffghost09	48	48	48	48
+
+
 @skip=off
 @tmaterial=interface
 @reference=256
-fhwpw3				wffghost09	96	48	48	48
-bjhwpw3				wffghost09	96	48	48	48
+
+
 @skip=off
 @tmaterial=interface
 @reference=256
-fhwpw4				wffghost09	144	48	48	48
-bjhwpw4				wffghost09	144	48	48	48
+
+
 @skip=off
 @tmaterial=interface
 @reference=256
-fhwpw5				wffghost09	192	48	48	48
-bjhwpw5				wffghost09	192	48	48	48
+
+
 @skip=off
 @tmaterial=interface
 @reference=256
@@ -7718,7 +7718,7 @@ xvstock_bturretw5 borgwireframe05 192	48	48	48
 @reference=64
 @tmaterial=default
 b_bturret2 gbbturret2 0	0	64	64		
-b_bhwp gbbturret2 0	0	64	64		
+
 
 @reference=64
 @tmaterial=default
@@ -7727,7 +7727,7 @@ b_xvstock_bturret2 gbbturret2 0	0	64	64
 @reference=256
 @tmaterial=interface
 bturret2w1 borgwireframe05 0	96	48	48		
-bhwpw1 borgwireframe05 0	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7736,7 +7736,7 @@ xvstock_bturret2w1 borgwireframe05 0	96	48	48
 @reference=256
 @tmaterial=interface
 bturret2w2 borgwireframe05 48	96	48	48		
-bhwpw2 borgwireframe05 48	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7745,7 +7745,7 @@ xvstock_bturret2w2 borgwireframe05 48	96	48	48
 @reference=256
 @tmaterial=interface
 bturret2w3 borgwireframe05 96	96	48	48		
-bhwpw3 borgwireframe05 96	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7754,7 +7754,7 @@ xvstock_bturret2w3 borgwireframe05 96	96	48	48
 @reference=256
 @tmaterial=interface
 bturret2w4 borgwireframe05 144	96	48	48		
-bhwpw4 borgwireframe05 144	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7763,7 +7763,7 @@ xvstock_bturret2w4 borgwireframe05 144	96	48	48
 @reference=256
 @tmaterial=interface
 bturret2w5 borgwireframe05 192	96	48	48
-bhwpw5 borgwireframe05 192	96	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -10447,23 +10447,23 @@ ds9w5 wffghost06 192	0	48	48
 
 @reference=256
 @tmaterial=interface
-dturret3w1 domwireframe06 0	0	48	48
+
 
 @reference=256
 @tmaterial=interface
-dturret3w2 domwireframe06 48	0	48	48
+
 
 @reference=256
 @tmaterial=interface
-dturret3w3 domwireframe06 96	0	48	48
+
 
 @reference=256
 @tmaterial=interface
-dturret3w4 domwireframe06 144	0	48	48
+
 
 @reference=256
 @tmaterial=interface
-dturret3w5 domwireframe06 192	0	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -11016,22 +11016,22 @@ cobyardw5 gbcobyard 0	0	64	64
 @reference=64
 @tmaterial=default
 cstationw2 gbcstation 0	0	64	64
-chwpw2 gbcstation 0	0	64	64
+
 
 @reference=64
 @tmaterial=default
 cstationw3 gbcstation 0	0	64	64
-chwpw3 gbcstation 0	0	64	64
+
 
 @reference=64
 @tmaterial=default
 cstationw4 gbcstation 0	0	64	64
-chwpw4 gbcstation 0	0	64	64
+
 
 @reference=64
 @tmaterial=default
 cstationw5 gbcstation 0	0	64	64
-chwpw5 gbcstation 0	0	64	64
+
 
 @reference=64
 @tmaterial=default
@@ -11115,19 +11115,19 @@ kbase2w5 gbkbase2 0	0  	64  64
 
 @reference=64
 @tmaterial=default
-khwpw2 gbkhwp 0	0  	64  64
+
 
 @reference=64
 @tmaterial=default
-khwpw3 gbkhwp 0	0  	64  64
+
 
 @reference=64
 @tmaterial=default
-khwpw4 gbkhwp 0	0  	64  64
+
 
 @reference=64
 @tmaterial=default
-khwpw5 gbkhwp 0	0  	64  64
+
 
 @reference=64
 @tmaterial=default
@@ -11163,19 +11163,19 @@ rtsensw5 gbrtsens 0	0	64	64
 
 @reference=64
 @tmaterial=default
-rhwpw2 gbrhwp 0	0	64	64
+
 
 @reference=64
 @tmaterial=default
-rhwpw3 gbrhwp 0	0	64	64
+
 
 @reference=64
 @tmaterial=default
-rhwpw4 gbrhwp 0	0	64	64
+
 
 @reference=64
 @tmaterial=default
-rhwpw5 gbrhwp 0	0	64	64
+
 
 @reference=64
 @tmaterial=default
@@ -20205,3 +20205,1075 @@ b_y2a004			gbcloak00		0	0	64	64
 @reference=64
 @tmaterial=default
 b_y2a005			gbmicro00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0001					gbclairvoyance		0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_ya0002				gbclairvoyantLink	0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_ya0003				gbpsionicDisruption	0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_ya0004				gbpsionicInsanity	0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_ya0005				gbpsionicInsanity	0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_ya0006				gbpsionicInsanity	0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_ya0007		gbpolrntrp00	0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_ya0008		gbsensorscram00	0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0009		gbplasmabank00	0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0010		gbplasmabank00	0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0011		gbplasmabank00	0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0012		gbsensorscram00	0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0013			gbdrones00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0014		gbmicroorgs00	0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0015		gbmicroorgs00	0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0016			gbdrones00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0017		gbsensorscram00	0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0018		gbmicroorgs00	0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0019		gbmicroorgs00	0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0020		gbmicroorgs00	0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0021		gbplasmabank00	0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0022		gbplasmabank00	0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0023		gbplasmabank00	0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0024			gbsdisruptor00	0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_ya0025			gbamine00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0026			gbamine00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0027			gbchnrxn00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0028			gbchnrxn00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0029			gbamine00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0030			gbchnrxn00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0031			gbchnrxn00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0032			gbchnrxn00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0033			gbchnrxn00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0034			gbcorbom00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0035			gbcorbom00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0036			gbcorbom00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0037  		gbpolrntrp00	0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_ya0038  		gbpolrntrp00	0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_ya0039			gbplasmac00		0	0	64	64			
+
+@reference=64
+@tmaterial=default
+b_ya0040  		gbpolrntrp00	0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_ya0041  		gbpolrntrp00	0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_ya0042  		gbpolrntrp00	0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_ya0043			gbplasmac00		0	0	64	64			
+
+@reference=64
+@tmaterial=default
+b_ya0044			gbplasmac00		0	0	64	64			
+
+@reference=64
+@tmaterial=default
+b_ya0045			gbplasmac00		0	0	64	64			
+
+@reference=64
+@tmaterial=default
+b_ya0046  		gbpolrntrp00	0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_ya0047  		gbpolrntrp00	0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_ya0048			gbplasmac00		0	0	64	64			
+
+@reference=64
+@tmaterial=default
+b_ya0049			gbplasmac00		0	0	64	64			
+
+@reference=64
+@tmaterial=default
+b_ya0050			gbplasmac00		0	0	64	64			
+
+@reference=64
+@tmaterial=default
+b_ya0051			gbromspy00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0052			gbromspy00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0053			gbromspy00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0054			gbplasmac00		0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_ya0055			gbplasmac00		0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_ya0056			gbplasmac00		0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_ya0057			gbplasmac00		0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_ya0058			gbplasmac00		0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_ya0059			gbamine00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0060			gbamine00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0061			gbchnrxn00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0062			gbamine00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0063			gbcorbom00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0064			gbchnrxn00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0065			gbchnrxn00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0066			gbcorbom00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0067			gbamine00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0068			gbcorbom00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0069			gbamine00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0070			gbcorbom00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0071			gbcorbom00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0072			gbcorbom00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0073			gbcorbom00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0074			gbcorbom00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0075			gbcorbom00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0076			gbcorbom00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ya0077			gbsdisruptor00	0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_ya0078			gbsdisruptor00	0	0	64	64
+
+@reference=64
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=128
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=256
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+b_xcdconst				gbdconst			0	0	64	64
+
+@reference=256
+@tmaterial=default
+xcdconstw1			domwireframe02		0	48	48	48
+
+@reference=256
+@tmaterial=default
+xcdconstw2			domwireframe02		48	48	48	48
+
+@reference=256
+@tmaterial=default
+xcdconstw3			domwireframe02		96	48	48	48
+
+@reference=256
+@tmaterial=default
+xcdconstw4			domwireframe02		144	48	48	48
+
+@reference=256
+@tmaterial=default
+xcdconstw5			domwireframe02		192	48	48	48
+
+@reference=512
+@tmaterial=default
+b_xcduniv xuconstbuttons 320 0 64 64
+
+@reference=512
+@tmaterial=default
+xcdunivw1 xuconstbuttons 320 0 64 64
+
+@reference=512
+@tmaterial=default
+xcdunivw2 xuconstbuttons 320 0 64 64
+
+@reference=512
+@tmaterial=default
+xcdunivw3 xuconstbuttons 320 0 64 64
+
+@reference=512
+@tmaterial=default
+xcdunivw4 xuconstbuttons 320 0 64 64
+
+@reference=512
+@tmaterial=default
+xcdunivw5 xuconstbuttons 320 0 64 64
+
+@reference=64
+@tmaterial=default
+b_fhwp gbfbase 0	0	64	64
+
+@reference=256
+@tmaterial=default
+fhwpw1 fedwireframe05 0	48	48	48		
+
+@reference=256
+@tmaterial=default
+fhwpw2 fedwireframe05 48	48	48	48		
+
+@reference=256
+@tmaterial=default
+fhwpw3 fedwireframe05 96	48	48	48		
+
+@reference=256
+@tmaterial=default
+fhwpw4 fedwireframe05 144	48	48	48		
+
+@reference=256
+@tmaterial=default
+fhwpw5 fedwireframe05 192	48	48	48	
+
+@reference=128
+@tmaterial=default
+b_khwp gbkbld300 0	0	64	64		
+
+@reference=256
+@tmaterial=default
+khwpw1 klingwireframe04 0	144	48	48		
+
+@reference=256
+@tmaterial=default
+khwpw2 klingwireframe04 48	144	48	48		
+
+@reference=256
+@tmaterial=default
+khwpw3 klingwireframe04 96	144	48	48		
+
+@reference=256
+@tmaterial=default
+khwpw4 klingwireframe04 144	144	48	48		
+
+@reference=256
+@tmaterial=default
+khwpw5 klingwireframe04 192	144	48	48
+
+@reference=64
+@tmaterial=default
+b_rhwp gbrbase 0	0	64	64
+
+@reference=256
+@tmaterial=default
+rhwpw1 romwireframe04 0	96	48	48		
+
+@reference=256
+@tmaterial=default
+rhwpw2 romwireframe04 48	96	48	48		
+
+@reference=256
+@tmaterial=default
+rhwpw3 romwireframe04 96	96	48	48		
+
+@reference=256
+@tmaterial=default
+rhwpw4 romwireframe04 144	96	48	48		
+
+@reference=256
+@tmaterial=default
+rhwpw5 romwireframe04 192	96	48	48
+
+@reference=64
+@tmaterial=default
+b_chwp gbcbase 0	0	64	64
+
+@reference=256
+@tmaterial=default
+chwpw1 cardwireframe04 0	144	48	48		
+
+@reference=256
+@tmaterial=default
+chwpw2 cardwireframe04 48	144	48	48		
+
+@reference=256
+@tmaterial=default
+chwpw3 cardwireframe04 96	144	48	48		
+
+@reference=256
+@tmaterial=default
+chwpw4 cardwireframe04 144	144	48	48		
+
+@reference=256
+@tmaterial=default
+chwpw5 cardwireframe04 192	144	48	48
+
+@reference=64
+@tmaterial=default
+b_dturret3				gbdbase			0	0	64	64
+
+@reference=256
+@tmaterial=default
+dturret3w1			domwireframe01		0	48	48	48	
+
+@reference=256
+@tmaterial=default
+dturret3w2			domwireframe01		48	48	48	48	
+
+@reference=256
+@tmaterial=default
+dturret3w3			domwireframe01		96	48	48	48	
+
+@reference=256
+@tmaterial=default
+dturret3w4			domwireframe01		144	48	48	48	
+
+@reference=256
+@tmaterial=default
+dturret3w5			domwireframe01		192	48	48	48	
+
+@reference=64
+@tmaterial=default
+b_bjhwp gbfds9 0	0	64	64		
+
+@reference=256
+@tmaterial=default
+bjhwpw1 wffghost06 0	0	48	48
+
+@reference=256
+@tmaterial=default
+bjhwpw2 wffghost06 48	0	48	48
+
+@reference=256
+@tmaterial=default
+bjhwpw3 wffghost06 96	0	48	48
+
+@reference=256
+@tmaterial=default
+bjhwpw4 wffghost06 144	0	48	48
+
+@reference=256
+@tmaterial=default
+bjhwpw5 wffghost06 192	0	48	48
+
+@reference=64
+@tmaterial=default
+b_bhwp gbbbase 0	0	64	64
+
+@reference=256
+@tmaterial=default
+bhwpw1 borgwireframe04 0	48	48	48		
+
+@reference=256
+@tmaterial=default
+bhwpw2 borgwireframe04 48	48	48	48		
+
+@reference=256
+@tmaterial=default
+bhwpw3 borgwireframe04 96	48	48	48		
+
+@reference=256
+@tmaterial=default
+bhwpw4 borgwireframe04 144	48	48	48		
+
+@reference=256
+@tmaterial=default
+bhwpw5 borgwireframe04 192	48	48	48	
+
+@reference=128
+@tmaterial=default
+b_yabrpolpod			gbrpod100	0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_xdofighter				gbddestroy			0	0	64	64
+
+@reference=256
+@tmaterial=default
+xdofighterw1			domwireframe03		0	0	48	48
+
+@reference=256
+@tmaterial=default
+xdofighterw2			domwireframe03		48	0	48	48
+
+@reference=256
+@tmaterial=default
+xdofighterw3			domwireframe03		96	0	48	48
+
+@reference=256
+@tmaterial=default
+xdofighterw4			domwireframe03		144	0	48	48
+
+@reference=256
+@tmaterial=default
+xdofighterw5			domwireframe03		192	0	48	48
+
+@reference=64
+@tmaterial=default
+b_xdofrigate				gbdfrigate			0	0	64	64
+
+@reference=256
+@tmaterial=default
+xdofrigatew1			domwireframe03		0	96	48	48
+
+@reference=256
+@tmaterial=default
+xdofrigatew2			domwireframe03		48	96	48	48
+
+@reference=256
+@tmaterial=default
+xdofrigatew3			domwireframe03		96	96	48	48
+
+@reference=256
+@tmaterial=default
+xdofrigatew4			domwireframe03		144	96	48	48
+
+@reference=256
+@tmaterial=default
+xdofrigatew5			domwireframe03		192	96	48	48
+
+@reference=64
+@tmaterial=default
+b_xdocargo				gbdcargo			0	0	64	64
+
+@reference=256
+@tmaterial=default
+xdocargow1			domwireframe01		0	192	48	48
+
+@reference=256
+@tmaterial=default
+xdocargow2			domwireframe01		48	192	48	48
+
+@reference=256
+@tmaterial=default
+xdocargow3			domwireframe01		96	192	48	48
+
+@reference=256
+@tmaterial=default
+xdocargow4			domwireframe01		144	192	48	48
+
+@reference=256
+@tmaterial=default
+xdocargow5			domwireframe01		192	192	48	48
+
+@reference=64
+@tmaterial=default
+b_xdominer				gbdfreight			0	0	64	64
+
+@reference=256
+@tmaterial=default
+xdominerw1			domwireframe03		0	48	48	48
+
+@reference=256
+@tmaterial=default
+xdominerw2			domwireframe03		48	48	48	48
+
+@reference=256
+@tmaterial=default
+xdominerw3			domwireframe03		96	48	48	48
+
+@reference=256
+@tmaterial=default
+xdominerw4			domwireframe03		144	48	48	48
+
+@reference=256
+@tmaterial=default
+xdominerw5			domwireframe03		192	48	48	48
+
+@reference=64
+@tmaterial=default
+b_xdjacht				gbddestroy			0	0	64	64
+
+@reference=256
+@tmaterial=default
+xdjachtw1			domwireframe03		0	0	48	48
+
+@reference=256
+@tmaterial=default
+xdjachtw2			domwireframe03		48	0	48	48
+
+@reference=256
+@tmaterial=default
+xdjachtw3			domwireframe03		96	0	48	48
+
+@reference=256
+@tmaterial=default
+xdjachtw4			domwireframe03		144	0	48	48
+
+@reference=256
+@tmaterial=default
+xdjachtw5			domwireframe03		192	0	48	48
+
+@reference=64
+@tmaterial=default
+b_xdjboard			gbjemwarriors	0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_xbaautoman			gbholdbm00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_z21bjspec bjic38 0 0 64 64
+
+@reference=128
+@tmaterial=default
+b_z21bspec			gbbpod200	64	0	64	64		
+
+@reference=128
+@tmaterial=default
+b_z21brspec			gbrpod100	0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_z21cspec			gbcarpod6		0	0	64	64
+
+@reference=128
+@tmaterial=default
+b_z21dspec				gbrpod200			64	0	64	64
+
+@reference=128
+@tmaterial=default
+b_z21fspec			gbfpod200		64	0	64	64		
+
+@reference=128
+@tmaterial=default
+b_z21kspec			gbkpod200		64	0	64	64		
+
+@reference=128
+@tmaterial=default
+b_z21rspec			gbrpod200	64	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_z21bj1ec392			gbcorbom00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_z21ff18a27			gbcloak00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_z21kf18a27			gbcloak00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_z21bja45955			gbselfdes00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_z21ba45955			gbselfdes00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_z21bra45955			gbselfdes00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_z21ca45955			gbselfdes00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_z21da45955			gbselfdes00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_z21fa45955			gbselfdes00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_z21ka45955			gbselfdes00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_z21ra45955			gbselfdes00		0	0	64	64		

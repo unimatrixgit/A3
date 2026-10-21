@@ -108,13 +108,27 @@ buildItem9 = "xoblocutus"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 960
-metalCost = 960
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 1700
 officerCost = 6
 buildTime = 113
 unitName = "Advanced Assimilated Matrix"
-tooltip = "Advanced Assimilated Matrix"
-verboseTooltip = "Advanced Assimilated Matrix. Produces faction heroes. Available at the same technology tier as bsuperbl."
+
+
+
+dilithiumCost = 450
+
+metalCost = 1350
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Shipyard (Advanced Assimilated Matrix)"
+
+verboseTooltip = "Produces the vessels listed in its construction menu. Collective engineering integrates this asset into the unimatrix."
+
+recrewRate = 10

@@ -4,8 +4,8 @@
 unitName = "Tactical Pyramid"
 
 //tooltips
-tooltip = "Tactical Pyramid"
-verboseTooltip = "Borg Tactical Pyramid"
+
+
 
 //Race which can build ship & starting race of ship
 race = "borg"
@@ -69,7 +69,7 @@ weapon2 = "bc2phot"
 weaponHardpoints2 = "hp07" "hp09" "hp11" "hp13"
 
 //Self Destruct
-weapon3 = "gselfdes"
+
 weaponHardpoints3 = "hp14"
 
 //Transwarp Drive
@@ -124,11 +124,11 @@ hotkeyLabel = "HOTKEY_F2"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 475
-metalCost = 125
-latinumCost = 0
-biomatterCost = 0
-crewCost = 1940
+
+
+
+
+
 officerCost = 2
 buildTime = 95
 
@@ -145,3 +145,21 @@ weaponHardpoints7 = "hp06"
 maxSpecialEnergy = 1500
 
 specialEnergyRate = 15.0
+
+
+
+
+
+
+
+
+
+tooltip = "Capital Ship (Tactical Pyramid)"
+
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Collective engineering integrates this asset into the unimatrix. Special systems: Transwarp Drive, Green Holding / Assimilation Beam, Auto-Assimilator, Regeneration. Availability follows the selected technology tree."
+weapon3 = "z21ba45955"
+dilithiumcost = 450
+metalcost = 125
+latinumcost = 0
+biomattercost = 0
+crewCost = 725

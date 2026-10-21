@@ -1,0 +1,16 @@
+// ordnance for biopulse weapon frigate
+// Just an effect, the damage comes from the weapon
+#include "spbphaso.odf"
+
+// sprite is biopulsebm
+Sprite = "biopulsebm"
+
+Radius = 15
+
+damageBase = 0
+damageVariance = 0
+lifeSpan = 122
+// This is so that even with the long lifespan it doesn't take too long to hit its mark.
+travelTimeFraction = .001
+
+hitSound = "swkionx.wav"

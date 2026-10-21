@@ -7,8 +7,8 @@
 unitName = "Weapons Center"
 
 //tooltips
-tooltip = "KLI_RESEARCH"
-verboseTooltip = "KLI_RESEARCH_V"
+
+
 
 //Race which can build ship & starting race of ship
 race = "klingon"
@@ -35,7 +35,8 @@ shieldRate = 2.5
 possibleCraftNames = "NuH botlh-650"
 
 //**********************************************************************
-//Construction Parameters
+//Construction Parameters
+
 buildItem0 = "klipod5"
 buildItem1 = "klipod4"
 buildItem2 = "klipod2"
@@ -46,13 +47,20 @@ buildItem5 = "klipod16"
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
 
-// Hardpoints to hit for various systems and other locations.
-"hp17" "hp18" "hp19"
-"hp17" "hp18" "hp19"
-"hp17" "hp18" "hp19"
-"hp17" "hp18" "hp19"
-"hp17" "hp18" "hp19"
-"hp17" "hp18" "hp19"
+// Hardpoints to hit for various systems and other locations.
+
+"hp17" "hp18" "hp19"
+
+"hp17" "hp18" "hp19"
+
+"hp17" "hp18" "hp19"
+
+"hp17" "hp18" "hp19"
+
+"hp17" "hp18" "hp19"
+
+"hp17" "hp18" "hp19"
+
 "hp17" "hp18" "hp19"
 
 //**********************************************************************
@@ -83,10 +91,10 @@ transporter = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 0
-metalCost = 500
-latinumCost = 500
-biomatterCost = 0
+
+
+
+
 crewCost = 300
 officerCost = 10
 buildTime = 120
@@ -108,3 +116,23 @@ sensorstargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp16"
 hulltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp16" 
 
 criticaltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp16" 
+
+
+
+
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 500
+
+latinumCost = 500
+
+biomatterCost = 0
+
+tooltip = "Research Facility (Weapons Center)"
+
+verboseTooltip = "Supports the technologies and upgrades available in its research menu. Klingon engineering serves the Empire with direct, relentless force."

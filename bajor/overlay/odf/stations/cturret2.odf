@@ -7,8 +7,8 @@
 unitName = "Heavy Plasma Turret"
 
 //tooltips
-tooltip = "Heavy Plasma Turret"
-verboseTooltip = "Secondary Base defense"
+
+
 
 //Race which can build ship & starting race of ship
 race = "cardassian"
@@ -50,9 +50,11 @@ weaponsHitPoints = 999
 //ART PARAMETERS & WEAPON NAMES
 
 // Photon torpedos
-weapon1 = "cd03torp"
+weapon1 = "cd03torp"
 
-// Hardpoints to hit for various systems and other locations.
+
+// Hardpoints to hit for various systems and other locations.
+
 
 //**********************************************************************
 //MESSAGE & SOUND PARAMETERS
@@ -104,3 +106,7 @@ sensorstargethardpoints = "HP01" "HP02" "HP03"
 hulltargethardpoints = "HP01" "HP02" "HP03"
 
 criticaltargethardpoints = "HP01" "HP02" "HP03"
+
+tooltip = "Defense Station (Heavy Plasma Turret)"
+
+verboseTooltip = "A fixed defensive installation protecting nearby fleet assets. Cardassian engineering sustains the Union through ordered, persistent operations."

@@ -1,0 +1,139 @@
+#include "assault.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Janissary Class"
+
+
+
+
+//Race which can build ship & starting race of ship
+race = "cardassian"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+// don't use the horrible old % crew loss on damage
+saneCrewLossMethod = 1
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 1875
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 225
+enginesHitPoints = 225
+weaponsHitPoints = 188
+lifeSupportHitPoints = 298
+sensorsHitPoints = 188
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 9.0
+
+//The multiplier used when a boarding party is sent to an enemy ship
+boardingPartyStrength = 5.0
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 2200
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 38
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 86
+impulseSpeed = 78
+warpSpeed = 840
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "Kirlak" "Moresh" "Glorthane" "Marereon" "Firad" "Forenil" "Tor" "Drartheon" 
+
+//**********************************************************************
+
+//ART PARAMETERS & WEAPON NAMES
+
+// Pulse Phaser
+weapon1 = "cc05phas"
+weaponHardpoints1 = "hp07" "hp08"
+
+// Towing Beam
+weapon2 = "gtracbm"
+weaponhardpoints2 = "hp10"
+
+// Torpedo
+weapon3 = "cc05plas"
+weaponHardpoints3 = "hp09"
+
+//Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.25f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.25f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "placeholder"
+hotkeyLabel = "HOTKEY_F7"
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+officerCost = 4
+buildTime = 13
+
+
+
+
+
+
+
+
+
+tooltip = "Assault Ship (Janissary Class)"
+
+verboseTooltip = "Supports offensive operations and hostile boarding actions. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Tractor Beam. Availability follows the selected technology tree."
+dilithiumcost = 315
+metalcost = 105
+latinumcost = 0
+biomattercost = 0
+crewCost = 260

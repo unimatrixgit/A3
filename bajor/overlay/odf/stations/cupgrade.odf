@@ -7,8 +7,8 @@
 unitName = "Research Institute"
 
 //tooltips
-tooltip = "Research Institute"
-verboseTooltip = "Cardassian Research Institute"
+
+
 
 //Race which can build ship & starting race of ship
 race = "cardassian"
@@ -35,7 +35,8 @@ shieldRate = 2.9
 possibleCraftNames = "Vratphk-3"
 
 //**********************************************************************
-//Construction Parameters
+//Construction Parameters
+
 buildItem0 = "carpod11"
 buildItem1 = "carpod12"
 buildItem2 = "carpod13"
@@ -51,7 +52,8 @@ secondaryBuildItem4 = "carpod25"
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
 
-// Hardpoints to hit for various systems and other locations.
+// Hardpoints to hit for various systems and other locations.
+
 
 animation = 2
 
@@ -82,10 +84,10 @@ transporter = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 0
-metalCost = 750
-latinumCost = 750
-biomatterCost = 0
+
+
+
+
 crewCost = 400
 officerCost = 10
 buildTime = 180
@@ -103,3 +105,23 @@ sensorstargethardpoints = "hp16"
 hulltargethardpoints = "hp17" "hp18" "hp19" "hp20" "hp21"
 
 criticaltargethardpoints = "hp22"
+
+
+
+
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 750
+
+latinumCost = 750
+
+biomatterCost = 0
+
+tooltip = "Research Facility (Research Institute)"
+
+verboseTooltip = "Supports the technologies and upgrades available in its research menu. Cardassian engineering sustains the Union through ordered, persistent operations."

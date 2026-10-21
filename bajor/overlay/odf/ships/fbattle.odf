@@ -4,8 +4,8 @@
 unitName = "Sovereign Class"
 
 //tooltips
-tooltip = "Sovereign Class - BattleShip"
-verboseTooltip = "This vessel is Star Fleet's premier flagship and what this first production ship to be equipped with Quantum Torpedos."
+
+
 
 //Race which can build ship & starting race of ship
 race = "federation"
@@ -69,7 +69,7 @@ weapon2 = "fsovereignphot"
 weaponHardpoints2 = "hp14" "hp68"
 
 //Self Destruct
-weapon3 = "gselfdes"
+
 weaponHardpoints3 = "hp34" "hp35" "hp36"
 
 //Corbimite Refractor
@@ -115,10 +115,10 @@ trekPhysicsFile = "fbattlephys.odf"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 450
-metalCost = 100
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 700
 officerCost = 12
 buildTime = 22
@@ -126,3 +126,16 @@ buildTime = 22
 maxSpecialEnergy = 1400
 
 specialEnergyRate = 14.0
+
+dilithiumCost = 385
+
+metalCost = 165
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Capital Ship (Sovereign Class)"
+
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+weapon3 = "z21fa45955"

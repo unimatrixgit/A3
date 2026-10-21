@@ -121,9 +121,9 @@ trekPhysicsFile = "fbattlephys.odf"
 
 unitName = "Bajoran Strategic Command Vessel"
 
-tooltip = "Bajoran Strategic Command Vessel"
 
-verboseTooltip = "Bajoran Strategic Command Vessel. Extrapolated heavy command hull, not a canon class."
+
+
 
 race = "bajoran"
 
@@ -179,13 +179,13 @@ maxspecialenergy = 1100
 
 specialenergyrate = 11
 
-dilithiumcost = 518
 
-metalcost = 115
 
-latinumcost = 0
 
-biomattercost = 0
+
+
+
+
 
 officercost = 14
 
@@ -200,3 +200,15 @@ buildTime = 27
 weapon1 = "bjsphs"
 
 weapon2 = "bjstor"
+
+dilithiumCost = 385
+
+metalCost = 165
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Capital Ship (Bajoran Strategic Command Vessel)"
+
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Bajoran militia engineering protects Bajor and its neighboring systems. Special systems: Corbomite Reflector. Availability follows the selected technology tree."

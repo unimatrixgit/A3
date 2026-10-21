@@ -7,8 +7,8 @@
 unitname = "Bajoran Shield Modulation"
 
 //tooltips
-tooltip = "Bajoran Shield Modulation"
-verbosetooltip = "Bajoran Shield Modulation. Extrapolated technology pod."
+
+
 
 //Race which can build ship & starting race of ship
 race = "bajoran"
@@ -39,10 +39,10 @@ hotkeyLabel = "HOTKEY_F3"
 
 
 // Xaramada resource costs: original filename.
-dilithiumcost = 0
-metalcost = 400
-latinumcost = 0
-biomattercost = 0
+
+
+
+
 crewcost = 0
 officercost = 1
 buildtime = 80
@@ -74,3 +74,23 @@ specialenergyrate = 0
 engineshitpoints = 0
 
 weaponshitpoints = 0
+
+
+
+
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 300
+
+latinumCost = 300
+
+biomatterCost = 0
+
+tooltip = "Research Upgrade (Bajoran Shield Modulation)"
+
+verboseTooltip = "Researches Bajoran Shield Modulation. Bajoran militia engineering protects Bajor and its neighboring systems."

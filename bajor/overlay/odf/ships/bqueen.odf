@@ -4,8 +4,8 @@
 unitName = "Diamond"
 
 //tooltips
-tooltip = "BORG_QUEEN"
-verboseTooltip = "BORG_QUEEN_V"
+
+
 
 //This ship is a hero.
 isHero = 1
@@ -127,18 +127,21 @@ physicsFile = "bbatphys.odf"
 keymapLabel = "borg_science"
 
 //**********************************************************************
-//MESSAGE & SOUND PARAMETERS
+//MESSAGE & SOUND PARAMETERS
+
+
 
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 1400
-metalCost = 1400
-latinumCost = 0
-biomatterCost = 0
-crewCost = 350
-officerCost = 10
-buildTime = 100
+
+
+
+
+
+officerCost = 2
+buildTime = 100
+
 
 eventSelect = "XV_bqueen_Select"
 
@@ -163,3 +166,20 @@ eventTransport = "XV_bqueen_Transport"
 eventSelfDestruct = "XV_bqueen_SelfDestruct"
 
 eventDecommission = "XV_bqueen_Decommission"
+
+
+
+
+
+
+
+
+
+tooltip = "Hero Ship (Diamond)"
+
+verboseTooltip = "A named command vessel serving the Borg fleet. Collective engineering integrates this asset into the unimatrix. Special systems: Ultritium Burst, Nanites, Computer Override, Shield Remodulation, Transwarp Drive. Availability follows the selected technology tree."
+dilithiumcost = 445
+metalcost = 120
+latinumcost = 0
+biomattercost = 0
+crewCost = 720

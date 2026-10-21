@@ -5,8 +5,8 @@
 unitName = "Fusion Cube"
 
 //tooltips
-tooltip = "BORG_BATTLE3"
-verboseTooltip = "BORG_BATTLE3_V"
+
+
 
 //Race which can build ship & starting race of ship
 race = "borg"
@@ -170,11 +170,11 @@ keymapLabel = "borg_battle"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 2775
-metalCost = 750
-latinumCost = 0
-biomatterCost = 0
-crewCost = 4800
+
+
+
+
+
 officerCost = 10
 buildTime = 40
 
@@ -223,3 +223,20 @@ weaponHardpoints7 = "hp35"
 maxSpecialEnergy = 1500
 
 specialEnergyRate = 15.0
+
+
+
+
+
+
+
+
+
+tooltip = "Capital Ship (Fusion Cube)"
+
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Collective engineering integrates this asset into the unimatrix. Special systems: Transwarp Drive, Green Holding / Assimilation Beam, Technology Assimilation Beam, Regeneration. Availability follows the selected technology tree."
+dilithiumcost = 2565
+metalcost = 700
+latinumcost = 0
+biomattercost = 0
+crewCost = 1730

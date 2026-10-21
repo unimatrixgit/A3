@@ -145,20 +145,20 @@ trekPhysicsFile = "fdefiantphys.odf"
 
 
 // Xaramada resource costs: original filename.
-dilithiumcost = 140
-metalcost = 0
-latinumcost = 0
-biomattercost = 0
-crewcost = 80
+
+
+
+
+
 officercost = 7
 buildtime = 12
 
 
 unitName = "Bajoran Interceptor"
 
-tooltip = "Bajoran Interceptor"
 
-verboseTooltip = "Bajoran Interceptor. TV interceptor."
+
+
 
 race = "bajoran"
 
@@ -204,3 +204,20 @@ criticaltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 0.72
+
+
+
+
+
+
+
+
+
+tooltip = "Attack Ship (Bajoran Interceptor)"
+
+verboseTooltip = "A light combat ship for interception and fleet support. Bajoran militia engineering protects Bajor and its neighboring systems. Special systems: Antimatter Mines, Cloak. Availability follows the selected technology tree."
+dilithiumcost = 290
+metalcost = 75
+latinumcost = 0
+biomattercost = 0
+crewCost = 115

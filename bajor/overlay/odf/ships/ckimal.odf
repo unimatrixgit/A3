@@ -4,8 +4,8 @@
 unitName = "Kimal Class"
 
 //tooltips
-tooltip = "Kimal Class"
-verboseTooltip = "Cardassian Phaser Cruiser"
+
+
 
 //Race which can build ship & starting race of ship
 race = "cardassian"
@@ -99,13 +99,34 @@ hotkeyLabel = "HOTKEY_F3"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 485
-metalCost = 290
-latinumCost = 0
-biomatterCost = 0
-crewCost = 86
+
+
+
+
+
 officerCost = 12
 buildTime = 99
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.5
+
+weapon2 = "ya0015"
+
+weaponHardpoints2 = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Attack Ship (Kimal Class)"
+
+verboseTooltip = "A light combat ship for interception and fleet support. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Micro Organisms. Availability follows the selected technology tree."
+dilithiumcost = 240
+metalcost = 60
+latinumcost = 0
+biomattercost = 0
+crewCost = 105

@@ -7,8 +7,8 @@
 unitName = "Trading Station"
 
 //tooltips
-tooltip = "Tradin Station"
-verboseTooltip = "Cardassian Trading Station"
+
+
 
 //Name of the ODF file of the matching freighter to build with the station
 //freighterName = "ccargo"
@@ -45,7 +45,8 @@ possibleCraftNames = "Arbak-1T4" "Arbak-1T7" "Arbak-1T9"
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
 
-// Hardpoints to hit for various systems and other locations.
+// Hardpoints to hit for various systems and other locations.
+
 
 //**********************************************************************
 //AI system parameters
@@ -86,10 +87,10 @@ ScaleSOD = 3.5
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 750
-metalCost = 750
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 300
 officerCost = 6
 buildTime = 50
@@ -109,3 +110,15 @@ sensorstargethardpoints = "hp01" "hp11" "hp12" "hp13" "hp14" "hp15"
 hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
 
 criticaltargethardpoints = "hp01"
+
+dilithiumCost = 400
+
+metalCost = 300
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Trading Station (Trading Station)"
+
+verboseTooltip = "Supports cargo exchange and trade operations. Cardassian engineering sustains the Union through ordered, persistent operations."

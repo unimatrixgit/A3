@@ -88,19 +88,19 @@ trekPhysicsFile = "ffrigatephys.odf"
 
 
 // Xaramada resource costs: original filename.
-dilithiumcost = 250
-metalcost = 0
-latinumcost = 0
-biomattercost = 0
+
+
+
+
 crewcost = 50
 officercost = 2
 buildtime = 12
 
 unitName = "Bajoran Engineering Support Vessel"
 
-tooltip = "Bajoran Engineering Support Vessel"
 
-verboseTooltip = "Bajoran Engineering Support Vessel. Extrapolated repair tender."
+
+
 
 race = "bajoran"
 
@@ -136,3 +136,15 @@ maxspecialenergy = 1
 specialenergyrate = 1
 
 repairrate = .25
+
+dilithiumCost = 250
+
+metalCost = 150
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Repair Ship (Bajoran Engineering Support Vessel)"
+
+verboseTooltip = "Supports damaged vessels with field repairs. Bajoran militia engineering protects Bajor and its neighboring systems. Special systems: Repair Beam. Availability follows the selected technology tree."

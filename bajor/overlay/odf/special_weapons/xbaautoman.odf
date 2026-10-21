@@ -1,0 +1,11 @@
+#include "gholdbm2.odf"
+// Same existing holding beam, exposed as a player command.
+special = 1
+buttonSlot = 1
+popupSlot = 1
+buttonPriority = 10
+buttonBorder = 1
+hotkeyLabel = "HOTKEY_F1"
+wpnName = "Assimilation Holding Beam"
+tooltip = "Assimilation Holding Beam"
+verboseTooltip = "Manually target an enemy ship with the Auto Assimilator holding beam."

@@ -6,8 +6,8 @@
 unitName = "Section 31 Shipyard"
 
 //tooltips
-tooltip = "Section 31 Shipyard"
-verboseTooltip = "Construction facility designed to build all Section 31 vessel classes."
+
+
 
 //Race which can build ship & starting race of ship
 race = "federation"
@@ -104,13 +104,25 @@ SHOW_SW_AUTONOMY = 1
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 390
-metalCost = 1295
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 750
 officerCost = 6
 buildTime = 137
 
 // Lab safety fix: this model has no repair docking node. Do not accept repair orders, including after capture.
 repairFacility = 0
+
+dilithiumCost = 450
+
+metalCost = 1350
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Shipyard (Section 31 Shipyard)"
+
+verboseTooltip = "Produces the vessels listed in its construction menu. Starfleet engineering supports a disciplined, versatile fleet."

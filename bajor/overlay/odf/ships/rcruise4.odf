@@ -1,0 +1,153 @@
+// Begin main properties
+
+unitName = "Tal'Arti Remtus"
+
+
+race = "romulan"
+maxHealth = 130
+shieldGeneratorHitPoints = 30
+enginesHitPoints = 30
+weaponsHitPoints = 30
+lifeSupportHitPoints = 30
+sensorsHitPoints = 35
+shieldRate = 1.45
+maxSpecialEnergy = 1500
+specialEnergyRate = 20
+attackPower = 0.75f
+intrinsicValue = 0.30f
+shipclass = "cruiser"
+enginesHitPercent = 5.0f
+lifeSupportHitPercent = 8.5f
+weaponsHitPercent = 5.0f
+shieldGeneratorHitPercent = 8.0f
+sensorsHitPercent = 8.0f
+crewHitPercent = 8.5f
+hullHitPercent = 57.0f
+
+// End main properties
+
+// Begin weapons
+
+weapon1 = "rc3phas"
+weaponHardpoints1 = "hp10" "hp11"
+weapon2 = "rc3phas"
+weaponHardpoints2 = "hp02" "hp03" "hp06" "hp08"
+weapon3 = "rbphot"
+weaponHardpoints3 = "hp01" "hp09"
+weapon4 = "gplasmaw"
+weaponHardpoints4 = "hp08"
+weapon5 = "grcloak"
+weaponHardpoints5 = "hp05" "hp06" "hp04" "hp07"
+
+// End weapons
+
+// Begin hardpoints
+
+enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp13" "hp11"
+shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hullTargetHardpoints = "hp06" "hp08" "hp10" "" "hp12" "hp14" "hp16" "hp18" "hp20" "hp24" "hp25"
+criticalTargetHardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp22" "hp23"
+
+// End hardpoints
+
+// Begin sounds
+
+eventSelect = "Cruiser2Select"
+eventAcknowledge = "Cruiser2Acknowledge"
+eventAttack = "Cruiser2Attack"
+eventStop = "Cruiser2Stop"
+eventMove = "Cruiser2Move"
+eventRepair = "Cruiser2Repair"
+
+// End sounds
+
+// Begin ship names
+possibleCraftNames = 
+	"Tal Sh'Ar" "Sonnus" "Cula" "Valvonius" 
+	"Pricito" "Mutinsocian" "Senerus" "Fisnus" 
+	"Sannantius" "Jonnius" "Heranius" "Delens" 
+	"Sasicius" "Albisius" "Atis" "Ladreius" 
+	"Tonia" "Nitrontus" "Conuvius" "Acceius" 
+	"Punia" "Ducteris" "Vedisor" "Etrius" 
+	"Apunus" "Minutius" "Alficus" "Equinius" 
+	"Neccelus" "Dentius" "Asius" "Porittius" 
+	"Badrius" "Contius" "Silia" "Fralellia" 
+	"Minia" "Caecius" "Rato" "Faureius" 
+	"Vergiulus" "Glecus" "Mummius" "Solian" 
+	"Vottetus" 
+
+// End ship names
+
+// Begin misc properties
+
+weaponYellow = 1.5f
+weaponRed = 2.0f
+hotkeyLabel = "HOTKEY_F5"
+weldingRadius = 0.25
+scaleSOD = 2.5
+physicsFile = "sdestphys.odf"
+trekPhysicsFile = "trek_scruise3phys.odf"
+avoidanceClass = 3
+fireball = "xfirebsm"
+combat = 1
+alert = 1
+can_sandd = 1
+shipType = "C"
+shieldDelay = 3.0f
+rangeScan = 800.0f
+damagedScan = 125.0
+enginesRepairTime = 1.0f
+lifeSupportRepairTime = 0.1f
+weaponsRepairTime = 2.0f
+shieldGeneratorRepairTime = 2.0f
+sensorsRepairTime = 3.0f
+enginesCrewLoss = 5.0f
+lifeSupportCrewLoss = 3.0f
+weaponsCrewLoss = 2.0f
+shieldGeneratorCrewLoss = 2.0f
+sensorsCrewLoss = 2.0f
+lifeSupportLoss = 2.0f
+classLabel = "craft"
+aiName = "CraftProcess"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+can_explore = 1
+
+// End misc properties
+
+
+
+baseName = "rcruise3"
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+officerCost = 10
+buildTime = 15
+
+
+
+
+
+
+
+
+
+tooltip = "Cruiser (Tal'Arti Remtus)"
+
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Heated Plasma, Cloak. Availability follows the selected technology tree."
+dilithiumcost = 70
+metalcost = 25
+latinumcost = 0
+biomattercost = 0
+crewCost = 115

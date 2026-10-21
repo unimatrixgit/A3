@@ -7,8 +7,8 @@ race = "federation"
 unitName = "Coronado Class"
 
 //tooltips
-tooltip = "Coronado Class - Construction Ship"
-verboseTooltip = "Builds outposts, shipyard, mining facilities, and research stations."
+
+
 
 //Amount of time required to build ship
 
@@ -107,11 +107,11 @@ hotkeyLabel = "HOTKEY_F1"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 250
-metalCost = 0
-latinumCost = 0
-biomatterCost = 0
-crewCost = 150
+
+
+
+
+
 officerCost = 2
 buildTime = 17
 buildItem0 = "fbase"
@@ -142,3 +142,20 @@ canAttack = 1
 combat = 1
 
 alert = 1
+
+
+
+
+
+
+
+
+
+tooltip = "Constructor (Coronado Class)"
+
+verboseTooltip = "Builds the structures listed in its construction menu. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Tractor Beam. Availability follows the selected technology tree."
+dilithiumcost = 125
+metalcost = 25
+latinumcost = 0
+biomattercost = 0
+crewCost = 100

@@ -1,8 +1,8 @@
 // Begin main properties
 
 unitName = "Sovereign Class"
-tooltip = "USS Enterprise NCC 1701-E - Corbomite Reflector"
-verboseTooltip = "Flagship of the Federation's armada and commanded by Captain Jean-Luc Picard"
+
+
 race = "federation"
 maxHealth = 3000
 shieldGeneratorHitPoints = 600
@@ -39,7 +39,7 @@ weapon2 = "fbattlephot"
 weaponHardpoints2 = "hp01" "hp28" 
 weapon3 = "Pgcorbom"
 weaponHardpoints3 = "hp10" "hp11" "hp26" "hp27" "hp29" "hp30" "hp34" "hp35" 
-weapon4 = "gselfdes"
+
 weaponHardpoints4 = "hp10" "hp11" "hp26" "hp27" "hp29" "hp30" "hp34" "hp35" 
 
 // End weapons
@@ -56,7 +56,9 @@ criticalTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
 
 // End hardpoints
 
-// Begin sounds
+// Begin sounds
+
+
 
 // End sounds
 
@@ -114,13 +116,14 @@ baseName = "fbattle"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 2000
-metalCost = 300
-latinumCost = 0
-biomatterCost = 0
-crewCost = 750
+
+
+
+
+
 officerCost = 7
-buildTime = 80
+buildTime = 80
+
 
 eventSelect = "XV_sovereign_Select"
 
@@ -145,3 +148,21 @@ eventTransport = "XV_sovereign_Transport"
 eventSelfDestruct = "XV_sovereign_SelfDestruct"
 
 eventDecommission = "XV_sovereign_Decommission"
+
+
+
+
+
+
+
+
+
+tooltip = "Hero Ship (Sovereign Class)"
+
+verboseTooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+weapon4 = "z21fa45955"
+dilithiumcost = 365
+metalcost = 160
+latinumcost = 0
+biomattercost = 0
+crewCost = 685

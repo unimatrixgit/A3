@@ -7,8 +7,8 @@
 unitName = "Military Research Center"
 
 //tooltips
-tooltip = "Military Research Center"
-verboseTooltip = "Cardassian special weapon reseach facility"
+
+
 
 //Race which can build ship & starting race of ship
 race = "cardassian"
@@ -34,7 +34,8 @@ shieldRate = 3.2
 possibleCraftNames = "Tuok MR-819"
 
 //**********************************************************************
-//Construction Parameters
+//Construction Parameters
+
 
 buildItem0 = "carpod5"
 buildItem1 = "carpod2"
@@ -46,7 +47,8 @@ buildItem5 = "carpod16"
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
 
-// Hardpoints to hit for various systems and other locations.
+// Hardpoints to hit for various systems and other locations.
+
 
 //**********************************************************************
 //AI system parameters
@@ -78,10 +80,10 @@ animation = 2
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 0
-metalCost = 500
-latinumCost = 500
-biomatterCost = 0
+
+
+
+
 crewCost = 300
 officerCost = 10
 buildTime = 120
@@ -103,3 +105,23 @@ sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08
 hulltargethardpoints = "hp01" "hp16" "hp17" "hp18" "hp19" "hp20"
 
 criticaltargethardpoints = "hp01" "hp23"
+
+
+
+
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 500
+
+latinumCost = 500
+
+biomatterCost = 0
+
+tooltip = "Research Facility (Military Research Center)"
+
+verboseTooltip = "Supports the technologies and upgrades available in its research menu. Cardassian engineering sustains the Union through ordered, persistent operations."

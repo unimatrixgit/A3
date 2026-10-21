@@ -4,8 +4,8 @@
 unitName = "Sentinel Class"
 
 //tooltips
-tooltip = "Sentinel Class"
-verboseTooltip = "Section 31 Defense Cruiser"
+
+
 
 //Race which can build ship & starting race of ship
 race = "federation"
@@ -108,10 +108,31 @@ show_sw_autonomy = 0
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 140
-metalCost = 0
-latinumCost = 0
-biomatterCost = 0
-crewCost = 328
+
+
+
+
+
 officerCost = 7
 buildTime = 12
+
+weapon3 = "ya0063"
+
+weaponHardpoints3 = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Capital Ship (Sentinel Class)"
+
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+dilithiumcost = 260
+metalcost = 115
+latinumcost = 0
+biomattercost = 0
+crewCost = 575

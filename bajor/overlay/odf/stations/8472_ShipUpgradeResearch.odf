@@ -1,0 +1,107 @@
+#include "research.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Metogenesis Core"
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "species8472"
+
+// This ship is evolved from another ship
+shipIsBuiltByEvolution = 1
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+// amount of biomatter needed to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 4000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.9
+
+//Possible Craft Names
+possibleCraftNames = "Metogenesis Core-G01" "Metogenesis Core-G61"
+  
+//**********************************************************************
+//Construction Parameters
+
+podHardpoints = "hp01" "hp02" "hp03" "hp04" "hp21" "hp22" "hp23" "hp24" 
+buildItem0 = "8472_PodShipResearch1"
+buildItem1 = "8472_PodShipResearch2"
+buildItem2 = "8472_PodShipResearch3"
+buildItem3 = "8472_PodShipResearch4"
+
+// Upgraded pods
+secondaryBuildItem0 = "8472_PodShipResearch21"
+secondaryBuildItem1 = "8472_PodShipResearch22"
+secondaryBuildItem2 = "8472_PodShipResearch23"
+secondaryBuildItem3 = "8472_PodShipResearch24"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+animation=2
+
+// Hardpoints to hit for various systems and other locations.
+//enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12"
+lifeSupportTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12"
+//weaponsTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12"
+shieldGeneratorTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12"
+sensorsTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12"
+hullTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12"
+criticalTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "ShipUpgradeStationSelect"
+eventAcknowledge = "ShipUpgradeStationAcknowledge"
+eventDecommission = "ShipUpgradeStationDecommission"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "research_station"
+hotkeyLabel = "HOTKEY_F4"
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewCost = 0
+officerCost = 1
+buildTime = 210
+
+dilithiumCost = 0
+
+metalCost = 0
+
+latinumCost = 0
+
+biomatterCost = 1250
+
+tooltip = "Research Facility (Metogenesis Core)"
+
+verboseTooltip = "Supports the technologies and upgrades available in its research menu. Living biotechnology shapes this organism for operations beyond fluidic space."

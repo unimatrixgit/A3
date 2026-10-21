@@ -5,7 +5,7 @@ isHero = 1
 
 //Ship label provided because this is a unique ship.
 label = "USS Defiant NX-74205"
-verboseTooltip = "Captain Sisko's Defiant."
+
 
 
 //Max Shield Strength & Begining Shield Strength <500
@@ -45,11 +45,11 @@ eventCloakDisengage = "SiskoCloakDisengage"
 
 
 // Xaramada resource costs: original matching class.
-dilithiumCost = 140
-metalCost = 0
-latinumCost = 0
-biomatterCost = 0
-crewCost = 80
+
+
+
+
+
 officerCost = 7
 buildTime = 12
 
@@ -82,3 +82,20 @@ eventDecommission = "XV_fdefiant_Decommission"
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 0.588489
+
+
+
+
+
+
+
+
+
+tooltip = "Hero Ship (Defiant Class)"
+
+verboseTooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Antimatter Mines, Cloak. Availability follows the selected technology tree."
+dilithiumcost = 1040
+metalcost = 260
+latinumcost = 0
+biomattercost = 0
+crewCost = 215

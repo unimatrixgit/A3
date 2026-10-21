@@ -1,0 +1,128 @@
+#include "research.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Breen Science Station"
+
+//tooltips
+
+//verboseTooltip = "WRITEME"
+
+//Race which can build ship & starting race of ship
+race = "breen"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 3000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.5
+
+//animate looped upon build
+animation = 2
+//**********************************************************************
+//Construction Parameters
+
+//**********************************************************************
+
+//Possible Craft Names
+possibleCraftNames = 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" "unknown" 
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+lifeSupportTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+weaponsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+shieldGeneratorTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+sensorsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+hullTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+
+//****//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//****************************************************************************************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "AdvResearchStationSelect"
+eventAcknowledge = "AdvResearchStationAcknowledge"
+eventDecommission = "AdvResearchStationDecommission"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "science_station"
+hotkeyLabel = "HOTKEY_F7"
+
+//************************************************************
+// Brian additions for context sensitive menus
+transporter = 1
+
+scaleSOD = 5.7
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewCost = 200
+officerCost = 15
+buildTime = 150
+
+
+
+
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 625
+
+latinumCost = 625
+
+biomatterCost = 0
+
+tooltip = "Research Facility (Breen Science Station)"
+
+verboseTooltip = "Supports the technologies and upgrades available in its research menu. Breen engineering supports the Confederacy with focused, uncompromising efficiency."

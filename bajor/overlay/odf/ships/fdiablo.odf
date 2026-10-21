@@ -1,0 +1,147 @@
+#include "battle.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Diablo Class"
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+// don't use the horrible old % crew loss on damage
+saneCrewLossMethod = 1
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 4638
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 739
+enginesHitPoints = 720
+weaponsHitPoints = 774
+lifeSupportHitPoints = 694
+sensorsHitPoints = 662
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 9.7
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 1000
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 15
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 98
+impulseSpeed = 80
+warpSpeed = 960
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "USS Diablo" "USS Vulcan" "USS Zues" "USS Hades"
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Type XII Phaser
+weapon1 = "fc13phas"
+weaponHardpoints1 = "hp30" "hp31" "hp32" "hp33" "hp34" "hp35"
+
+// Type XII Phaser
+weapon2 = "fc13phas"
+weaponHardpoints2 = "hp40" "hp41" "hp42" "hp43" "hp44" "hp45"
+
+// Type 'C' Quantum Torpedo
+weapon3 = "fclassct"
+weaponHardpoints3 = "hp50"
+
+// Type 'C' Quantum Torpedo
+weapon4 = "fclassct"
+weaponHardpoints4 = "hp51"
+
+//Self Destruct
+
+weaponHardpoints5 = "hp01" "hp03" "hp03"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+lifeSupportTargetHardpoints = "hp07" "hp08" "hp09"
+weaponsTargetHardpoints = "hp10" "hp11" "hp12"
+shieldGeneratorTargetHardpoints = "hp13" "hp14" "hp15" "hp16" "hp17"
+sensorsTargetHardpoints = "hp18" "hp19"
+hullTargetHardpoints = "hp02" "hp05" "hp08" "hp11" "hp14" "hp16" "hp18"
+criticalTargetHardpoints = "hp02" "hp05" "hp08" "hp11" "hp14" "hp16" "hp18"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 1.00f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.50f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "fed_battle"
+hotkeyLabel = "HOTKEY_F4"
+
+
+// Xaramada resource costs: calculated from original comparable.
+
+
+
+
+
+officerCost = 8
+buildTime = 89
+
+weapon6 = "ya0068"
+
+weaponHardpoints6 = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Capital Ship (Diablo Class)"
+
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+weapon5 = "z21fa45955"
+dilithiumcost = 960
+metalcost = 415
+latinumcost = 0
+biomattercost = 0
+crewCost = 1105

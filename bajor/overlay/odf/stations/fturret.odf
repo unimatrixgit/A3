@@ -7,8 +7,8 @@
 unitName = "Mark III"
 
 //tooltips
-tooltip = "Mark III - Phaser Turret"
-verboseTooltip = "FED_TURRET_V"
+
+
 
 //Race which can build ship & starting race of ship
 race = "federation"
@@ -58,10 +58,13 @@ weaponsHitPoints = 333
 //ART PARAMETERS & WEAPON NAMES
 
 // Pulse Phaser
-weapon1 = "ftpulse"
+weapon1 = "ftpulse"
 
-// Hardpoints to hit for various systems and other locations.
-lifeSupportTargetHardpoints =
+
+// Hardpoints to hit for various systems and other locations.
+
+lifeSupportTargetHardpoints =
+
 
 //**********************************************************************
 
@@ -94,10 +97,10 @@ rangeScan = 800.0f
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 75
-metalCost = 75
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 0
 officerCost = 3
 buildTime = 45
@@ -117,3 +120,15 @@ sensorstargethardpoints = "hp01" "hp02"
 hulltargethardpoints = "hp03" "hp04" "hp05"
 
 criticaltargethardpoints = "hp03" "hp04" "hp05"
+
+dilithiumCost = 150
+
+metalCost = 150
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Defense Station (Mark III)"
+
+verboseTooltip = "A fixed defensive installation protecting nearby fleet assets. Starfleet engineering supports a disciplined, versatile fleet."

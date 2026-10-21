@@ -1,7 +1,7 @@
 // Begin main properties
 
 unitName = "Breen Dreadnought"
-tooltip = "Breen Dreadnought"
+
 race = "breen"
 maxHealth = 2000
 shieldGeneratorHitPoints = 260
@@ -22,7 +22,7 @@ shieldGeneratorHitPercent = 8.0f
 sensorsHitPercent = 8.0f
 crewHitPercent = 8.5f
 hullHitPercent = 57.0f
-verboseTooltip = "Breen's largest ship that aids in the Dominion fleet"
+
 
 // End main properties
 
@@ -38,7 +38,7 @@ weapon4 = "zjmphas"
 weaponHardpoints4 = "hp02"
 weapon5 = "zdpulse"
 weaponHardpoints5 = "hp04"
-weapon6 = "gselfdes"
+
 weaponHardpoints6 = "hp04" "hp07" "hp08"
 
 // End weapons
@@ -126,11 +126,11 @@ can_explore = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 450
-metalCost = 100
-latinumCost = 0
-biomatterCost = 0
-crewCost = 850
+
+
+
+
+
 officerCost = 12
 buildTime = 30
 
@@ -141,3 +141,21 @@ weaponHardpoints7 = "hp01"
 maxSpecialEnergy = 1400
 
 specialEnergyRate = 14.0
+
+
+
+
+
+
+
+
+
+tooltip = "Capital Ship (Breen Dreadnought)"
+
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Breen engineering supports the Confederacy with focused, uncompromising efficiency. Special systems: Shield Disruptor. Availability follows the selected technology tree."
+weapon6 = "z21bra45955"
+dilithiumcost = 345
+metalcost = 150
+latinumcost = 0
+biomattercost = 0
+crewCost = 665

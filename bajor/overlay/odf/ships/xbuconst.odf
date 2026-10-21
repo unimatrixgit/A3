@@ -174,9 +174,9 @@ buildItem7 = "bjbase"
 
 unitName = "Universal Assembler"
 
-tooltip = "Universal Assembler"
 
-verboseTooltip = "Universal Assembler. Builds the main starbase of every conventional faction."
+
+
 
 dilithiumCost = 125
 
@@ -207,3 +207,7 @@ canAttack = 1
 combat = 1
 
 alert = 1
+
+tooltip = "Constructor (Universal Assembler)"
+
+verboseTooltip = "Builds the structures listed in its construction menu. Collective engineering integrates this asset into the unimatrix. Special systems: Tractor Beam, Transwarp Drive. Availability follows the selected technology tree."

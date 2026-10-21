@@ -4,8 +4,8 @@
 unitName = "Qeh'Ral Class"
 
 //tooltips
-tooltip = "KLI_BEKTA"
-verboseTooltip = "KLI_BEKTA_V"
+
+
 
 //This ship is a hero.
 isHero = 1
@@ -69,11 +69,11 @@ weapon2 = "kc03phot"
 weaponHardpoints2 = "hp09" "hp10"
 
 // Cloaking Device
-weapon3 = "gkcloak"
+
 weaponHardpoints3 = "hp16"
 
 // Self Destruct
-weapon4 = "gselfdes"
+
 weaponHardpoints4 = "hp20"
 
 // Hardpoints to hit for various systems and other locations.
@@ -102,13 +102,14 @@ hotkeyLabel = "HOTKEY_F2"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 600
-metalCost = 600
-latinumCost = 0
-biomatterCost = 0
-crewCost = 300
+
+
+
+
+
 officerCost = 7
-buildTime = 65
+buildTime = 65
+
 
 eventSelect = "XV_kbekta_Select"
 
@@ -133,3 +134,22 @@ eventTransport = "XV_kbekta_Transport"
 eventSelfDestruct = "XV_kbekta_SelfDestruct"
 
 eventDecommission = "XV_kbekta_Decommission"
+
+
+
+
+
+
+
+
+
+tooltip = "Hero Ship (Qeh'Ral Class)"
+
+verboseTooltip = "A named command vessel serving the Klingon fleet. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak. Availability follows the selected technology tree."
+weapon3 = "z21kf18a27"
+weapon4 = "z21ka45955"
+dilithiumcost = 415
+metalcost = 175
+latinumcost = 0
+biomattercost = 0
+crewCost = 725

@@ -7,8 +7,8 @@
 unitName = "Fluidic Gate"
 
 //tooltips
-tooltip = "8472_FLUIDIC"
-verboseTooltip = "8472_FLUIDIC_V"
+
+
 
 //Race which can build ship & starting race of ship
 race = "species8472"
@@ -98,13 +98,25 @@ scaleSOD = 2.0
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 0
-metalCost = 0
-latinumCost = 0
-biomatterCost = 3000
+
+
+
+
 crewCost = 0
 officerCost = 1
 buildTime = 180
 
 // Lab safety fix: this model has no repair docking node. Do not accept repair orders, including after capture.
 repairFacility = 0
+
+dilithiumCost = 0
+
+metalCost = 0
+
+latinumCost = 0
+
+biomatterCost = 1000
+
+tooltip = "Production Facility (Fluidic Gate)"
+
+verboseTooltip = "Produces the units or upgrades listed in its construction menu. Living biotechnology shapes this organism for operations beyond fluidic space."

@@ -87,19 +87,19 @@ trekPhysicsFile = "fscoutphys.odf"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumcost = 270
-metalcost = 0
-latinumcost = 0
-biomattercost = 0
-crewcost = 3
+
+
+
+
+
 officercost = 4
 buildtime = 15
 
 unitName = "Bajoran Sub-Impulse Raider"
 
-tooltip = "Bajoran Sub-Impulse Raider"
 
-verboseTooltip = "Bajoran Sub-Impulse Raider. TV sub-impulse raider, adapted for map travel."
+
+
 
 race = "bajoran"
 
@@ -137,3 +137,20 @@ specialenergyrate = 0
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.5766845
+
+
+
+
+
+
+
+
+
+tooltip = "Scout (Bajoran Sub-Impulse Raider)"
+
+verboseTooltip = "Surveys space and locates threats ahead of the fleet. Bajoran militia engineering protects Bajor and its neighboring systems."
+dilithiumcost = 75
+metalcost = 0
+latinumcost = 0
+biomattercost = 0
+crewCost = 15

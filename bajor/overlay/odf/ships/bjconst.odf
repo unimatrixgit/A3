@@ -96,13 +96,13 @@ hotkeyLabel = "HOTKEY_F1"
 
 // Xaramada resource costs: original filename.
 unitName = "Militia Construction Tender"
-tooltip = "Militia Construction Tender"
-verboseTooltip = "Militia Construction Tender. Extrapolated utility tender."
-dilithiumcost = 250
-metalcost = 0
-latinumcost = 0
-biomattercost = 0
-crewcost = 150
+
+
+
+
+
+
+
 officercost = 2
 buildtime = 17
 race = "bajoran"
@@ -153,3 +153,20 @@ canAttack = 1
 combat = 1
 
 alert = 1
+
+
+
+
+
+
+
+
+
+tooltip = "Constructor (Militia Construction Tender)"
+
+verboseTooltip = "Builds the structures listed in its construction menu. Bajoran militia engineering protects Bajor and its neighboring systems. Special systems: Tractor Beam. Availability follows the selected technology tree."
+dilithiumcost = 125
+metalcost = 25
+latinumcost = 0
+biomattercost = 0
+crewCost = 100

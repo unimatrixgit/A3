@@ -1,7 +1,7 @@
 #include "rbattle.odf"
 unitName = "Sela - Warbird"
-tooltip = "Sela - Warbird"
-verboseTooltip = "Faction command hero. Replacements available at the Command Shipyard."
+
+
 baseName = "rbattle"
 race = "romulan"
 isHero = 1
@@ -16,13 +16,14 @@ maxHealth = 3620
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 635
-metalCost = 180
-latinumCost = 0
-biomatterCost = 0
-crewCost = 1450
+
+
+
+
+
 officerCost = 16
-buildTime = 31
+buildTime = 31
+
 
 eventSelect = "XV_xhrhero_Select"
 
@@ -50,3 +51,21 @@ eventDecommission = "XV_xhrhero_Decommission"
 
 
 
+
+
+
+
+
+
+
+
+
+tooltip = "Hero Ship (Sela - Warbird)"
+
+verboseTooltip = "A named command vessel serving the Romulan fleet. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Shield Inversion Beam. Availability follows the selected technology tree."
+weapon9 = "z21ra45955"
+dilithiumcost = 880
+metalcost = 380
+latinumcost = 0
+biomattercost = 0
+crewCost = 1060

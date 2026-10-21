@@ -1,13 +1,13 @@
 #include "8472_behemoth.odf"
 unitName = "Fluidic Leviathan"
-tooltip = "Fluidic Leviathan"
-verboseTooltip = "A broad armored broodship extrapolated from the Behemoth. Hero organism; rebuilt at the Advanced Hatchery."
+
+
 race = "species8472"
 baseName = "xhs_leviathan"
 isHero = 1
 label = "Fluidic Leviathan"
 maxHealth = 11568
-biomatterCost = 1080
+
 buildTime = 61
 ScaleSOD = 1
 possibleCraftNames = "Fluidic Leviathan"
@@ -35,3 +35,20 @@ eventTransport = "XV_xhshero_Transport"
 eventSelfDestruct = "XV_xhshero_SelfDestruct"
 
 eventDecommission = "XV_xhshero_Decommission"
+
+
+
+
+
+
+
+
+
+tooltip = "Hero Ship (Fluidic Leviathan)"
+
+verboseTooltip = "A named command vessel serving the Species 8472 fleet. Living biotechnology shapes this organism for operations beyond fluidic space. Special systems: 8472 Nebula Generation, 8472 Nebula Flux, 8472 Transient Rift. Availability follows the selected technology tree."
+dilithiumcost = 0
+metalcost = 0
+latinumcost = 0
+biomattercost = 1190
+crewCost = 0

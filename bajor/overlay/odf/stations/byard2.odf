@@ -7,8 +7,8 @@
 unitName = "Adv. Assembly Matrix"
 
 //tooltips
-tooltip = "BORG_YARD2"
-verboseTooltip = "BORG_YARD2_V"
+
+
 
 //Race which can build ship & starting race of ship
 race = "borg"
@@ -39,10 +39,17 @@ possibleCraftNames = "AAM99-326497" "AAM99-4894636" "AAM99-808688"
 //ART PARAMETERS & WEAPON NAMES
 
 
-// Hardpoints to hit for various systems and other locations.
+// Hardpoints to hit for various systems and other locations.
+
 
 //**********************************************************************
-//Construction Parameters
+//Construction Parameters
+
+
+
+
+
+
 
 //Hardpoint location for building.
 buildHardpoint = "build"
@@ -83,7 +90,8 @@ builder_ship = 1
 transporter = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
-//animation = 2
+//animation = 2
+
 
 
 
@@ -134,3 +142,9 @@ buildItem8 = "tcube"
 buildItem9 = "bbattle3"
 
 buildItem10 = "bbattle4"
+
+tooltip = "Shipyard (Adv. Assembly Matrix)"
+
+verboseTooltip = "Produces the vessels listed in its construction menu. Collective engineering integrates this asset into the unimatrix."
+
+recrewRate = 10

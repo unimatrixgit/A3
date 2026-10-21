@@ -1,0 +1,151 @@
+#include "scoutBase.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+//tooltips
+
+//Race which can build ship & starting race of ship
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+transporter = 0
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxhealth = 110
+
+
+// Hitpoints
+shieldgeneratorhitpoints = 215
+engineshitpoints = 215
+weaponshitpoints = 215
+lifesupporthitpoints = 215
+sensorshitpoints = 215
+
+//Rate at which shield recharges (points per second... we think)
+shieldrate = 1.1
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 	 
+	"USS Danube" "USS Ganges" "USS Mekong" "USS Orinoco"
+	"USS Rio Grand" "USS Rubicon" "USS Shenandoah" "USS Volga"
+	"USS Yangtzee Kiang" "USS Yukon" "USS Ottawa" "USS Paris"
+	"USS Othello" "USS Aberdeen" "USS Kingston" "USS Coltrane"
+	"USS Horatio" "USS Golgotha" "USS Sparta" "USS Perth"
+	"USS Troy" "USS Carbides" "USS Calais" "USS Jade"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Pulse Phaser
+weapon1 = "fantarespulse"
+
+ 
+// Photon Torpedo
+weapon2 = "fmicrotype6"
+
+
+
+// Hardpoints to hit for various systems and other locations.
+
+
+
+
+
+
+
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "fed_scout"
+hotkeyLabel = "HOTKEY_F1"
+
+
+//physics file for all other physics stuff
+physicsFile = "fscoutphys.odf"
+trekPhysicsFile = "fscoutphys.odf"
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+
+
+
+
+
+officercost = 7
+buildtime = 12
+
+
+unitName = "Bajoran Antares Transport"
+
+
+
+
+
+race = "bajoran"
+
+
+
+
+baseName = "br3_bjtransport"
+
+
+
+
+
+
+
+
+
+
+weaponHardpoints1 = "hp01" "hp02"
+weaponHardpoints2 = "hp03"
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp13" "hp11"
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+
+
+
+sensorstargethardpoints = "hp20" "hp20" "hp20" "hp20" "hp20"
+
+hulltargethardpoints = "hp06" "hp08" "hp10"  "hp12" "hp14" "hp16" "hp18" "hp20" "hp20" "hp20"
+
+criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp20" "hp20"
+
+
+maxspecialenergy = 0
+
+specialenergyrate = 0
+
+// Visual size: 150 percent of pre-patch scale.
+ScaleSOD = 0.792615
+
+
+
+
+
+
+
+
+
+tooltip = "Scout (Bajoran Antares Transport)"
+
+verboseTooltip = "Surveys space and locates threats ahead of the fleet. Bajoran militia engineering protects Bajor and its neighboring systems."
+dilithiumcost = 80
+metalcost = 0
+latinumcost = 0
+biomattercost = 0
+crewCost = 30

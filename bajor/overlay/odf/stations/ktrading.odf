@@ -7,8 +7,8 @@
 unitName = "Trading Station"
 
 //tooltips
-tooltip = "KLI_TRADING"
-verboseTooltip = "KLI_TRADING_V"
+
+
 
 //Name of the ODF file of the matching freighter to build with the station
 //freighterName = "kcargo"
@@ -47,7 +47,8 @@ possibleCraftNames =
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
 
-// Hardpoints to hit for various systems and other locations.
+// Hardpoints to hit for various systems and other locations.
+
 "hp21"
 
 //**********************************************************************
@@ -90,10 +91,10 @@ trade_station = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 750
-metalCost = 750
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 300
 officerCost = 6
 buildTime = 50
@@ -107,3 +108,15 @@ sensorstargethardpoints = "hp02" "hp06" "hp10" "hp19"
 hulltargethardpoints = "hp03" "hp07" "hp11" "hp13" "hp17" "hp01"
 
 criticaltargethardpoints = "hp04" "hp08" "hp14" "hp15" "hp20" "hp01"
+
+dilithiumCost = 400
+
+metalCost = 300
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Trading Station (Trading Station)"
+
+verboseTooltip = "Supports cargo exchange and trade operations. Klingon engineering serves the Empire with direct, relentless force."

@@ -1,0 +1,150 @@
+#include "scoutBase.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Dominion Scout"
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "cardassian"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 839
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 144
+enginesHitPoints = 102
+weaponsHitPoints = 131
+lifeSupportHitPoints = 84
+sensorsHitPoints = 117
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 5.3
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 2200
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 38
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 98
+impulseSpeed = 78
+warpSpeed = 827
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "Dominion Scout"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Phasers
+weapon1 = "cd01pul"
+weaponHardpoints1 = "hp09"
+
+//Cloaking Device
+weapon2 ="gccloak"
+weaponHardpoints1 = "hp12"
+
+// Detect Cloak Level 3
+weapon3 = "gdetectc"
+weaponHardpoints3 = "hp12"
+
+// Phasers
+weapon4 = "cd01pul"
+weaponHardpoints4 = "hp10"
+
+// torpedo
+weapon5 = "cd01torp"
+weaponHardpoints5 = "hp11"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.10f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.15f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 0.75f
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "X"
+hotkeyLabel = "HOTKEY_F1"
+
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+
+
+
+
+
+officerCost = 12
+buildTime = 34
+
+// Visual size: 150 percent of pre-patch scale.
+ScaleSOD = 1.2
+
+weapon6 = "ya0017"
+
+weaponHardpoints6 = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Scout (Dominion Scout)"
+
+verboseTooltip = "Surveys space and locates threats ahead of the fleet. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Cloak, Sensor Scrambler. Availability follows the selected technology tree."
+dilithiumcost = 430
+metalcost = 0
+latinumcost = 0
+biomattercost = 0
+crewCost = 70

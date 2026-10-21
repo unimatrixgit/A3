@@ -1,0 +1,119 @@
+#include "cargo.odf"
+
+//MAIN DESIGN PARAMETERS
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Veris Class"
+
+//tooltips
+
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <250
+maxHealth = 598
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 129
+enginesHitPoints = 89
+weaponsHitPoints = 37
+lifeSupportHitPoints = 120
+sensorsHitPoints = 52
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 4.8
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 39
+impulseSpeed = 78
+warpSpeed = 0
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 2400
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 24 
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "Entia" "Fasinibius" "Faunepius"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Pulse Phaser
+weapon1 = "rc01phas"
+weaponHardpoints1 = "hp09"
+
+// Torpedo
+weapon2 = "rc01phot"
+weaponHardpoints2 = "hp10"
+
+// Cloaking Device
+weapon3 = "grcloak"
+weaponHardpoints3 = "hp11"
+
+// Unassigned hardpoint located at rear
+//weapon4 = "unused"
+//weaponHardpoints4 = "hp12"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+
+//**********************************************************************
+hotkeyLabel = "HOTKEY_F3"
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewCost = 100
+officerCost = 4
+buildTime = 20
+
+dilithiumCost = 200
+
+metalCost = 100
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Trade Freighter (Veris Class)"
+
+verboseTooltip = "Transports cargo between compatible trading stations. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak. Availability follows the selected technology tree."

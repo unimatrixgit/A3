@@ -147,16 +147,16 @@ can_explore = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 250
-metalCost = 0
-latinumCost = 0
-biomatterCost = 0
-crewCost = 150
+
+
+
+
+
 officerCost = 2
 buildTime = 17
 unitName = "Dominion Universal Constructor"
-tooltip = "Dominion Universal Constructor"
-verboseTooltip = "Dominion Universal Constructor. Builds allied faction starbases and assigned advanced facilities. Species 8472 biotechnology is excluded."
+
+
 race = "dominion"
 baseName = "xduconst"
 ScaleSOD = 1.0
@@ -182,3 +182,20 @@ canAttack = 1
 combat = 1
 
 alert = 1
+
+
+
+
+
+
+
+
+
+tooltip = "Constructor (Dominion Universal Constructor)"
+
+verboseTooltip = "Builds the structures listed in its construction menu. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Tractor Beam. Availability follows the selected technology tree."
+dilithiumcost = 125
+metalcost = 25
+latinumcost = 0
+biomattercost = 0
+crewCost = 100

@@ -4,8 +4,8 @@
 unitName = "Galaxy Class"
 
 //tooltips
-tooltip = "FED_GALAXY"
-verboseTooltip = "Captain Picard's Enterprise"
+
+
 
 //This ship is a hero.
 isHero = 1
@@ -65,7 +65,7 @@ weapon2 = "fgalaxyphot"
 weaponHardpoints2 = "hp30" "hp31"
 
 //Self Destruct
-weapon4 = "gselfdes"
+
 weaponHardpoints4 = "hp34"
 
 // Towing Beam
@@ -96,7 +96,9 @@ weaponRed = 2.0f
 //**********************************************************************
 
 //**********************************************************************
-//MESSAGE & SOUND PARAMETERS
+//MESSAGE & SOUND PARAMETERS
+
+
 
 //**********************************************************************
 
@@ -116,13 +118,14 @@ trekPhysicsFile = "fbattlephys.odf"
 
 
 // Xaramada resource costs: original matching class.
-dilithiumCost = 350
-metalCost = 50
-latinumCost = 0
-biomatterCost = 0
-crewCost = 500
+
+
+
+
+
 officerCost = 10
-buildTime = 30
+buildTime = 30
+
 
 eventSelect = "XV_fentd_Select"
 
@@ -147,3 +150,21 @@ eventTransport = "XV_fentd_Transport"
 eventSelfDestruct = "XV_fentd_SelfDestruct"
 
 eventDecommission = "XV_fentd_Decommission"
+
+
+
+
+
+
+
+
+
+tooltip = "Hero Ship (Galaxy Class)"
+
+verboseTooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Enterprise Upgrade, Tractor Beam. Availability follows the selected technology tree."
+weapon4 = "z21fa45955"
+dilithiumcost = 925
+metalcost = 400
+latinumcost = 0
+biomattercost = 0
+crewCost = 1090

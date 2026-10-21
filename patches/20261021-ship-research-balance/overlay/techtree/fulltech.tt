@@ -1,0 +1,1653 @@
+// Xaramada merged technology tree. Source credits: Borg Incursion 2, Ghost, original installation.
+
+// Xaramada validated technology entries
+dconst.odf 0
+dfreight.odf 0
+dcargo.odf 0
+dsrepair.odf 0
+dscout.odf 0
+ddestroy.odf 0
+dcruise1.odf 0
+dcruise2.odf 0
+dcruise3.odf 0
+dcolony.odf 0
+dassault.odf 0
+dbattle.odf 0
+dbattle2.odf 0
+dfrigate.odf 0
+dspecial.odf 0
+dsuper.odf 0
+dwormdbattle.odf 0
+dwormdbattle2.odf 0
+dwormddestroy2.odf 0
+dwormdsuper.odf 0
+dweyoun.odf 0
+dbase.odf 0
+dmining.odf 0
+dorbital.odf 0
+dsensor.odf 0
+dturret.odf 0
+dturret2.odf 0
+dyard.odf 0
+dyard2.odf 0
+dtrading.odf 0
+dresear.odf 0
+dresear2.odf 0
+dupgrade.odf 0
+dsuperbl.odf 0
+zsuperbl.odf 0
+dompod1.odf 0
+dompod2.odf 0
+dompod3.odf 0
+dompod4.odf 0
+dompod5.odf 0
+dompod6.odf 0
+dompod7.odf 0
+dompod8.odf 0
+dompod16.odf 0
+dompod11.odf 0
+dompod12.odf 0
+dompod13.odf 0
+dompod14.odf 0
+dompod15.odf 0
+dompod21.odf 0
+dompod22.odf 0
+dompod23.odf 0
+dompod24.odf 0
+dompod25.odf 0
+
+
+
+
+
+
+
+
+
+
+
+brconst.odf 0
+brfreight.odf 0
+brscout.odf 0
+brdestroy.odf 0
+brcruise1.odf 0
+brcolony.odf 0
+brbattle.odf 0
+brbattle2.odf 0
+brfrigate.odf 0
+brbase.odf 0
+brmining.odf 0
+brorbital.odf 0
+bryard.odf 0
+bryard2.odf 0
+brresear.odf 0
+brresear2.odf 0
+brcruise2.odf 0
+
+
+
+
+fbase.odf 0
+fmining.odf 0
+fconst.odf 0
+fsensor.odf 0
+fturret.odf 0
+fyard.odf 0
+ffreight.odf 0
+fscout.odf 0
+fdestroy.odf 0
+fdestroy2.odf 0
+fresear.odf 0
+fturret2.odf 0
+fcruise1.odf 0
+fcruise2.odf 0
+fcruise3.odf 0
+fyard2.odf 0
+fspecial.odf 0
+fresear2.odf 0
+fbattle.odf 0
+fsuperbl.odf 0
+gtempor.odf 0
+fassault.odf 0
+
+ffrigate.odf 0
+fsrepair.odf 0
+fcargo.odf 0
+forbital.odf 0
+ftrading.odf 0
+fupgrade.odf 0
+fgalaxy.odf 0
+fedpod1.odf 0
+fedpod2.odf 0
+fedpod3.odf 0
+fedpod4.odf 0
+fedpod5.odf 0
+fedpod6.odf 0
+fedpod7.odf 0
+fedpod8.odf 0
+fedpod9.odf 0
+fedpod11.odf 0
+fedpod12.odf 0
+fedpod13.odf 0
+fedpod14.odf 0
+fedpod15.odf 0
+fedpod16.odf 0
+fedpod21.odf 0
+fedpod22.odf 0
+fedpod23.odf 0
+fedpod24.odf 0
+fedpod25.odf 0
+
+
+
+
+
+
+
+
+
+
+
+kbase.odf 0
+kmining.odf 0
+kconst.odf 0
+ksensor.odf 0
+kturret.odf 0
+kyard.odf 0
+kfreight.odf 0
+kscout.odf 0
+kdestroy.odf 0
+kresear.odf 0
+kturret2.odf 0
+kcruise1.odf 0
+kcruise2.odf 0
+kcruise3.odf 0
+kyard2.odf 0
+kspecial.odf 0
+kresear2.odf 0
+kbattle.odf 0
+kbattle2.odf 0
+ksuperbl.odf 0
+ksuper.odf 0
+
+kassault.odf 0
+ksrepair.odf 0
+kcolony.odf 0
+kcargo.odf 0
+kfrigate.odf 0
+korbital.odf 0
+ktrading.odf 0
+kupgrade.odf 0
+klipod1.odf 0
+klipod2.odf 0
+klipod3.odf 0
+klipod4.odf 0
+klipod5.odf 0
+klipod6.odf 0
+klipod7.odf 0
+klipod8.odf 0
+klipod9.odf 0
+klipod11.odf 0
+klipod12.odf 0
+klipod13.odf 0
+klipod14.odf 0
+klipod15.odf 0
+klipod16.odf 0
+klipod21.odf 0
+klipod22.odf 0
+klipod23.odf 0
+klipod24.odf 0
+klipod25.odf 0
+
+
+
+
+
+
+
+
+gmicro.odf 0
+
+
+cbase.odf 0
+cyard.odf 0
+cyard2.odf 0
+csensor.odf 0
+cturret.odf 0
+cturret2.odf 0
+cmining.odf 0
+cresear.odf 0
+cresear2.odf 0
+corbital.odf 0
+ctrading.odf 0
+cupgrade.odf 0
+cconst.odf 0
+cfreight.odf 0
+csrepair.odf 0
+cscout.odf 0
+cdestroy.odf 0
+cdestroy2.odf 0
+cfrigate.odf 0
+ccruise1.odf 0
+ccruise2.odf 0
+ccruise3.odf 0
+ccolony.odf 0
+cbattle.odf 0
+cbattle2.odf 0
+cspecial.odf 0
+cassault.odf 0
+ccargo.odf 0
+csuper.odf 0
+carpod1.odf 0
+carpod2.odf 0
+carpod3.odf 0
+carpod4.odf 0
+carpod5.odf 0
+carpod6.odf 0
+carpod7.odf 0
+carpod8.odf 0
+carpod9.odf 0
+carpod11.odf 0
+carpod12.odf 0
+carpod13.odf 0
+carpod14.odf 0
+carpod15.odf 0
+carpod16.odf 0
+carpod21.odf 0
+carpod22.odf 0
+carpod23.odf 0
+carpod24.odf 0
+carpod25.odf 0
+cardassian_super_station.odf 0
+
+
+
+
+
+
+
+
+
+
+gwposipulse.odf 0
+rbase.odf 0
+rmining.odf 0
+rconst.odf 0
+rsensor.odf 0
+rturret.odf 0
+ryard.odf 0
+rfreight.odf 0
+rscout.odf 0
+rdestroy.odf 0
+rresear.odf 0
+rturret2.odf 0
+rcruise1.odf 0
+rcruise2.odf 0
+rcruise3.odf 0
+ryard2.odf 0
+rspecial.odf 0
+rresear2.odf 0
+rbattle.odf 0
+rbattle2.odf 0
+rsuperbl.odf 0
+rsuper.odf 0
+
+rassault.odf 0
+rsrepair.odf 0
+rcolony.odf 0
+rcargo.odf 0
+rfrigate.odf 0
+rorbital.odf 0
+rtrading.odf 0
+rupgrade.odf 0
+rompod1.odf 0
+rompod2.odf 0
+rompod3.odf 0
+rompod4.odf 0
+rompod5.odf 0
+rompod6.odf 0
+rompod7.odf 0
+rompod8.odf 0
+rompod9.odf 0
+rompod11.odf 0
+rompod12.odf 0
+rompod13.odf 0
+rompod14.odf 0
+rompod15.odf 0
+rompod16.odf 0
+rompod21.odf 0
+rompod22.odf 0
+rompod23.odf 0
+rompod24.odf 0
+rompod25.odf 0
+
+
+
+
+
+
+
+
+
+
+
+bbase.odf 0
+bmining.odf 0
+bconst.odf 0
+bscout.odf 0
+bsensor.odf 0
+bturret.odf 0
+byard.odf 0
+bfreight.odf 0
+bdestroy.odf 0
+bresear.odf 0
+bturret2.odf 0
+bcruise1.odf 0
+bcruise2.odf 0
+bcruise3.odf 0
+byard2.odf 0
+bspecial.odf 0
+brecycle.odf 0
+bresear2.odf 0
+btechass.odf 0
+bbattle1.odf 0
+bbattle2.odf 0
+bsuperbl.odf 0
+gmastran.odf 0
+gporthole.odf 0
+bcolony.odf 0
+bmama.odf 0
+
+bassault.odf 0
+bfrigate.odf 0
+borpod1.odf 0
+borpod2.odf 0
+borpod3.odf 0
+borpod4.odf 0
+borpod5.odf 0
+borpod6.odf 0
+borpod7.odf 0
+borpod8.odf 0
+borpod9.odf 0
+borpod11.odf 0
+borpod12.odf 0
+borpod13.odf 0
+borpod14.odf 0
+borpod15.odf 0
+borpod16.odf 0
+borpod21.odf 0
+borpod22.odf 0
+borpod23.odf 0
+borpod24.odf 0
+borpod25.odf 0
+bhub.odf 0
+
+gholdbm.odf 0
+fusiongholdbm.odf 0
+
+
+
+
+
+
+
+
+gtracbm.odf 0
+gselfdes.odf 0
+
+gcubeintegrator.odf 0
+gtcubeintegrator.odf 0
+hamine.odf 0
+hcorbom.odf 0
+hmanheim.odf 0
+hplasmac.odf 0
+hshieldi.odf 0
+hholdbm.odf 0
+hwcover.odf 0
+hmicro.odf 0
+hpoleron.odf 0
+
+hplasma2.odf 0
+gnttblst.odf 0
+gtracbmo.odf 0
+hutribm.odf 0
+hnanites.odf 0
+hoverrid.odf 0
+hremod.odf 0
+gcloak.odf 0
+
+gkcloak.odf 0
+
+
+shield.odf 0
+8472_mothership.odf 0
+8472_active.odf 0
+8472_passive.odf 0
+8472_scout.odf 0
+8472_destroy.odf 0
+8472_cruise1.odf 0
+8472_cruise2.odf 0
+8472_collector.odf 0
+8472_defender.odf 0
+8472_transmuter.odf 0
+8472_frigate.odf 0
+8472_battle.odf 0
+8472_behemoth.odf 0
+8472_mine.odf 0
+8472_basicresearch.odf 0
+8472_advancedresearch.odf 0
+8472_shipupgraderesearch.odf 0
+8472_fluidicgate.odf 0
+8472_podbasic0.odf 0
+8472_podbasic1.odf 0
+8472_podbasic2.odf 0
+8472_podbasic3.odf 0
+8472_podbasic4.odf 0
+8472_podadvanced0.odf 0
+8472_podadvanced1.odf 0
+8472_podadvanced2.odf 0
+8472_podadvanced3.odf 0
+8472_podshipresearch1.odf 0
+8472_podshipresearch2.odf 0
+8472_podshipresearch3.odf 0
+8472_podshipresearch4.odf 0
+8472_podshipresearch21.odf 0
+8472_podshipresearch22.odf 0
+8472_podshipresearch23.odf 0
+8472_podshipresearch24.odf 0
+
+
+
+
+
+
+
+
+
+xacassim.odf 0
+
+
+
+s31yard.odf 0
+f31const.odf 0
+fvalour.odf 0
+ftengen.odf 0
+arumaan.odf 0
+fspectre.odf 0
+fsent.odf 0
+fshadow.odf 0
+fdallas.odf 0
+fdeimos.odf 0
+banshee.odf 0
+fdiablo.odf 0
+fakisato.odf 0
+fshak.odf 0
+fkaleb.odf 0
+fscorp.odf 0
+fnorway.odf 0
+fnova.odf 0
+fmiran.odf 0
+fprom.odf 0
+fexcel.odf 0
+koutpost.odf 0
+kimpbase.odf 0
+kimpyard.odf 0
+khwp.odf 0 // Heavy platform unlocked by first faction shipyard
+kbase2.odf 0
+kconst2.odf 0
+kdestroy2.odf 0
+ktinga.odf 0
+kcruise4.odf 0
+kvodleh.odf 0
+kvood.odf 0
+kbatleth.odf 0
+kbwing.odf 0
+kquon.odf 0
+kimpnegh.odf 0
+kimpvorc.odf 0
+kimpnook.odf 0
+kimpben.odf 0
+kimpbakt.odf 0
+kimphut.odf 0
+kimpkoto.odf 0
+kimpmakd.odf 0
+kavorcha.odf 0
+kgunboat.odf 0
+cobyard.odf 0
+cstation.odf 0
+domconst.odf 0
+ctelkor.odf 0
+ckimal.odf 0
+chutet.odf 0
+domyard.odf 0
+dombase.odf 0
+domabase.odf 0
+domscout.odf 0
+jemdest.odf 0
+jemdest2.odf 0
+sonadest.odf 0
+sonabat.odf 0
+dombat.odf 0
+domdred.odf 0
+cogalor.odf 0
+cohideki.odf 0
+cokaldor.odf 0
+cokeldon.odf 0
+rdest1.odf 0
+rconst2.odf 0
+rcent.odf 0
+rdread.odf 0
+rktinga.odf 0
+rscruise.odf 0
+rbase2.odf 0
+rtsens.odf 0
+rhwp.odf 0 // Heavy platform unlocked by first faction shipyard
+rtswarb.odf 0
+rtsdest.odf 0
+rtscruis.odf 0
+rtscout.odf 0
+rtsdread.odf 0
+rtsbcru.odf 0
+rtspec.odf 0
+
+bdestroy2.odf 0
+btacpyr.odf 0
+brenborg.odf 0
+bpentra.odf 0
+bhentra.odf 0
+bomega1.odf 0
+bassturr.odf 0
+borbital.odf 0
+bhentrag.odf 0
+hub.odf 0
+twgate1.odf 0
+twgate2.odf 0
+twgate3.odf 0
+twgate4.odf 0
+twgate5.odf 0
+twgate6.odf 0
+twgate7.odf 0
+twgate8.odf 0
+8472fig.odf 0
+8472int.odf 0
+8472be2.odf 0
+714const.odf 0
+714syard.odf 0
+714turr.odf 0
+714hydra.odf 0
+714manta.odf 0
+714orca.odf 0
+714rnode.odf 0
+714skate.odf 0
+714tmat.odf 0
+fconst2.odf 0
+fdanube.odf 0
+ffighter.odf 0
+fdeltaflyer.odf 0
+fantares.odf 0
+foberth.odf 0
+fnx.odf 0
+fcentaur.odf 0
+fmiranda.odf 0
+fconstellation.odf 0
+fconstitution.odf 0
+fdauntless.odf 0
+fintx.odf 0
+fambassador.odf 0
+fneworleans.odf 0
+fgalaxyr.odf 0
+fgalaxyx.odf 0
+fdawnstar.odf 0
+fexcelr.odf 0
+fsovx.odf 0
+fprometheus.odf 0
+fexcalibur.odf 0
+fnxent.odf 0
+fent.odf 0
+fenta.odf 0
+fentb.odf 0
+fentc.odf 0
+fentd.odf 0
+fentdx.odf 0
+fente.odf 0
+fvoyager.odf 0
+fdefiant.odf 0
+foutpost.odf 0
+fregula.odf 0
+fyard0.odf 0
+fbase2.odf 0
+fhwp.odf 0 // Heavy platform unlocked by first faction shipyard
+fremmeler.odf 0
+fmidas.odf 0
+fjupiter.odf 0
+fargus.odf 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+xhfhero.odf 0
+
+blocutus.odf 0
+
+xhkhero.odf 0
+
+xhrhero.odf 0
+
+xhchero.odf 0
+
+xhdhero.odf 0
+
+xhbrhero.odf 0
+
+xhshero.odf 0
+fds9.odf 0
+xfomegalab.odf 0
+xfomegapod.odf 0
+xofdestroy.odf 0
+xofgalaxy.odf 0
+xofbattle.odf 0
+xofprom.odf 0
+xbomegalab.odf 0
+xbomegapod.odf 0
+xobcruise1.odf 0
+xobbattle1.odf 0
+xobbattle2.odf 0
+xoblocutus.odf 0
+8472_sentinel.odf 0
+bupgrade.odf 0
+
+dcruise4.odf 0
+kdestroy4.odf 0
+
+
+
+
+bbase2.odf 0
+
+
+bsphere.odf 0
+
+tcube.odf 0
+
+bbattle3.odf 0
+
+bbattle4.odf 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bjconst.odf 0
+
+bjbase.odf 0
+
+uconst.odf 0
+
+bjfreight.odf 0
+
+bjcargo.odf 0
+
+bjrepair.odf 0
+
+bjcolony.odf 0
+
+bjscout.odf 0
+
+bjinterceptor.odf 0
+
+bjraider.odf 0
+
+bjtransport.odf 0
+
+bjlightship.odf 0
+
+bjassault.odf 0
+
+bjcruiser.odf 0
+
+bjtorpedo.odf 0
+
+bjfrigate.odf 0
+
+bjartillery.odf 0
+
+bjbattle.odf 0
+
+bjspecial.odf 0
+
+bjsuper.odf 0
+
+bjnerys.odf 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bjpod1.odf 0
+
+bjpod2.odf 0
+
+bjpod3.odf 0
+
+bjpod4.odf 0
+
+bjpod5.odf 0
+
+bjpod6.odf 0
+
+bjpod7.odf 0
+
+bjpod8.odf 0
+
+bjpod9.odf 0
+
+bjpod11.odf 0
+
+bjpod12.odf 0
+
+bjpod13.odf 0
+
+bjpod14.odf 0
+
+bjpod15.odf 0
+
+bjpod16.odf 0
+
+bjpod21.odf 0
+
+bjpod22.odf 0
+
+bjpod23.odf 0
+
+bjpod24.odf 0
+
+bjpod25.odf 0
+
+xbj_gtracbm.odf 0
+
+xbj_gminedilithium.odf 0
+
+xbj_gminelatinum.odf 0
+
+
+
+
+
+
+
+
+
+xbj_fcolonypod.odf 0
+
+xbj_grepairbeam.odf 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xbj_gschainp.odf 0
+
+xbassimold.odf 0
+
+xbuconst.odf 0
+
+xfuconst.odf 0
+
+xkuconst.odf 0
+
+xruconst.odf 0
+
+xcuconst.odf 0
+
+xduconst.odf 0
+
+xbruconst.odf 0
+
+xbjuconst.odf 0
+
+
+
+xbjtakeover.odf 0
+
+fyard3.odf 0
+
+byard3.odf 0
+
+kyard3.odf 0
+
+ryard3.odf 0
+
+cyard3.odf 0
+
+dyard3.odf 0
+
+bryard3.odf 0
+
+
+xhs_yard3.odf 0
+
+xhs_vanguard.odf 0
+
+xhs_sentinel.odf 0
+
+xhs_leviathan.odf 0
+bjsensor.odf 0
+bjturret.odf 0
+bjturret2.odf 0
+bjmining.odf 0
+bjorbital.odf 0
+bjtrading.odf 0
+bjyard.odf 0
+bjyard2.odf 0
+bjyard3.odf 0
+bjresear.odf 0
+bjresear2.odf 0
+bjupgrade.odf 0
+bjsuperlab.odf 0
+
+// Borg assimilation support
+xbharvest.odf 0
+xbassimst.odf 0
+xbrepair.odf 0
+xbharvbeam.odf 0
+xbassimbeam.odf 0
+
+xbharvmanual.odf 0
+xbassimmanual.odf 0
+
+// Riker Galaxy-X hero; same availability as Federation command hero.
+xhfriker.odf 0
+
+// Native cube technology assimilation control.
+
+
+xhrshinzon.odf 0
+xhrdonatra.odf 0
+
+xflegacyyard.odf 0
+xhfkirktos.odf 0
+xhfkirkrefit.odf 0
+xhfharriman.odf 0
+xhfgarrett.odf 0
+xhfpicardd.odf 0
+
+// Screen-era command additions.
+xhftitan.odf 0
+xhfdaedalus.odf 0
+xhkraptor.odf 0
+xhkold7.odf 0
+xhrtosbird.odf 0
+xhrearlybird.odf 0
+
+mmm_holder.odf 0
+
+mmm_mapper.odf 0
+
+// Federation colony ships unlock with the standard shipyard.
+fcolony.odf 0
+
+chwp.odf 0 // Heavy platform unlocked by first faction shipyard
+
+bjhwp.odf 0 // Heavy platform unlocked by first faction shipyard
+
+bhwp.odf 0 // Heavy platform unlocked by first faction shipyard
+
+dturret3.odf 0 // Heavy platform unlocked by first faction shipyard
+
+bconst2.odf 0 // Overflow Assembler; available from Nexus
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xcdconst.odf 0 // Dominion constructor from Cardassian Dominion Starbase
+
+xcduniv.odf 0 // Dominion constructor from Cardassian Dominion Starbase
+
+yabrpolpod.odf 0 // Breen Polaron research
+
+xdofighter.odf 0 // Dominion Outpost production
+
+xdofrigate.odf 0 // Dominion Outpost production
+
+xdocargo.odf 0 // Dominion Outpost production
+
+xdominer.odf 0 // Dominion Outpost production
+
+xdjacht.odf 0 // Founders hero fighter
+
+
+
+xbaautoman.odf 0 // Manual control of existing Auto Assimilator defense beam
+
+z21bjspec.odf 0 // Faction special systems research
+
+z21bspec.odf 0 // Faction special systems research
+
+z21brspec.odf 0 // Faction special systems research
+
+z21cspec.odf 0 // Faction special systems research
+
+z21dspec.odf 0 // Faction special systems research
+
+z21fspec.odf 0 // Faction special systems research
+
+z21kspec.odf 0 // Faction special systems research
+
+z21rspec.odf 0 // Faction special systems research
+
+brgdetectd.odf 0 // Faction special systems research
+
+brgpolerond.odf 0 // Faction special systems research
+
+brgshieldd.odf 0 // Faction special systems research
+
+brgshldemt.odf 0 // Faction special systems research
+
+cgwposipulse.odf 0 // Faction special systems research
+
+dwgpolerond.odf 0 // Faction special systems research
+
+fentatoentb.odf 0 // Faction special systems research
+
+fentbtoentc.odf 0 // Faction special systems research
+
+fentctoentd.odf 0 // Faction special systems research
+
+fentdtoentdx.odf 0 // Faction special systems research
+
+fentdxtoente.odf 0 // Faction special systems research
+
+fenttoenta.odf 0 // Faction special systems research
+
+fnxenttoent.odf 0 // Faction special systems research
+
+ftwarpd.odf 0 // Faction special systems research
+
+gbholeg.odf 0 // Faction special systems research
+
+gborgionbeam.odf 0 // Faction special systems research
+
+gccloak.odf 0 // Faction special systems research
+
+gcdreadnaught.odf 0 // Faction special systems research
+
+gcontrol.odf 0 // Faction special systems research
+
+z21bj1ec392.odf 0 // Faction special systems research
+
+gdetect3.odf 0 // Faction special systems research
+
+z21bj6b0464.odf 0 // Faction special systems research
+
+gfake.odf 0 // Faction special systems research
+
+gfcloak.odf 0 // Faction special systems research
+
+ggalintegrator.odf 0 // Faction special systems research
+
+ggalseparator.odf 0 // Faction special systems research
+
+ghologen.odf 0 // Faction special systems research
+
+z21ff18a27.odf 0 // Faction special systems research
+
+z21kf18a27.odf 0 // Faction special systems research
+
+gphastorp.odf 0 // Faction special systems research
+
+gplasmaw.odf 0 // Faction special systems research
+
+gram.odf 0 // Faction special systems research
+
+grcloak.odf 0 // Faction special systems research
+
+grwave.odf 0 // Faction special systems research
+
+gschainp.odf 0 // Faction special systems research
+
+z21bja45955.odf 0 // Faction special systems research
+
+z21ba45955.odf 0 // Faction special systems research
+
+z21bra45955.odf 0 // Faction special systems research
+
+z21ca45955.odf 0 // Faction special systems research
+
+z21da45955.odf 0 // Faction special systems research
+
+z21fa45955.odf 0 // Faction special systems research
+
+z21ka45955.odf 0 // Faction special systems research
+
+z21ra45955.odf 0 // Faction special systems research
+
+gshieldd.odf 0 // Faction special systems research
+
+gsnap.odf 0 // Faction special systems research
+
+gtechassimbeam.odf 0 // Faction special systems research
+
+hcloak.odf 0 // Faction special systems research
+
+hshieldh.odf 0 // Faction special systems research
+
+kgplasmac.odf 0 // Faction special systems research
+
+omega1.odf 0 // Faction special systems research
+
+pgcorbom.odf 0 // Faction special systems research
+
+promint.odf 0 // Faction special systems research
+
+slipstream.odf 0 // Faction special systems research
+
+xabtrans5.odf 0 // Faction special systems research
+
+xacgreen.odf 0 // Faction special systems research
+
+xacremod.odf 0 // Faction special systems research
+
+xactwarp.odf 0 // Faction special systems research
+
+xbj_gfcloak.odf 0 // Faction special systems research
+
+xbj_gselfdes.odf 0 // Faction special systems research
+
+xbtpblue.odf 0 // Faction special systems research
+
+xbtpgreen.odf 0 // Faction special systems research
+
+xbtpregen.odf 0 // Faction special systems research
+
+xbtpwarp.odf 0 // Faction special systems research
+
+xy_bassault_gborgbor.odf 0 // Faction special systems research
+
+xy_bassault_gregen.odf 0 // Faction special systems research
+
+xy_bbattle1_gregen.odf 0 // Faction special systems research
+
+xy_bbattle2_gregen.odf 0 // Faction special systems research
+
+xy_bbattle3_gregen.odf 0 // Faction special systems research
+
+xy_bbattle4_gregen.odf 0 // Faction special systems research
+
+xy_bcolony_gborgbor.odf 0 // Faction special systems research
+
+xy_bcruise1_gborgbor.odf 0 // Faction special systems research
+
+xy_bcruise2_gregen.odf 0 // Faction special systems research
+
+xy_bcruise3_gborgbor.odf 0 // Faction special systems research
+
+xy_bcruise3_gregen.odf 0 // Faction special systems research
+
+xy_bdestroy2_gborgbor.odf 0 // Faction special systems research
+
+xy_bdestroy2_gregen.odf 0 // Faction special systems research
+
+xy_bdestroy_gborgbor.odf 0 // Faction special systems research
+
+xy_bdestroy_gregen.odf 0 // Faction special systems research
+
+xy_bfrigate_gborgbor.odf 0 // Faction special systems research
+
+xy_bhentra_gborgbor.odf 0 // Faction special systems research
+
+xy_bhentra_gregen.odf 0 // Faction special systems research
+
+xy_bhentrag_gborgbor.odf 0 // Faction special systems research
+
+xy_bhentrag_gregen.odf 0 // Faction special systems research
+
+xy_bmama_gregen.odf 0 // Faction special systems research
+
+xy_bomega1_gregen.odf 0 // Faction special systems research
+
+xy_bpentra_gborgbor.odf 0 // Faction special systems research
+
+xy_bpentra_gregen.odf 0 // Faction special systems research
+
+xy_bspecial_gborgbor.odf 0 // Faction special systems research
+
+xy_btacpyr_gborgbor.odf 0 // Faction special systems research
+
+xy_btacpyr_gregen.odf 0 // Faction special systems research
+
+xy_tcube_gregen.odf 0 // Faction special systems research
+
+xy_xbassimold_gregen.odf 0 // Faction special systems research
+
+xy_xbassimold_gtwarpd.odf 0 // Faction special systems research
+
+xy_xobbattle1_gregen.odf 0 // Faction special systems research
+
+xy_xobbattle2_gregen.odf 0 // Faction special systems research
+
+xy_xobcruise1_gborgbor.odf 0 // Faction special systems research
+
+y2a001.odf 0 // Faction special systems research
+
+y2a003.odf 0 // Faction special systems research
+
+y2a004.odf 0 // Faction special systems research
+
+ya0004.odf 0 // Faction special systems research
+
+ya0001.odf 0 // Faction special systems research
+
+ya0005.odf 0 // Faction special systems research
+
+ya0002.odf 0 // Faction special systems research
+
+ya0003.odf 0 // Faction special systems research
+
+ya0006.odf 0 // Faction special systems research
+
+gpsionicinsanity.odf 0 // Faction special systems research
+
+gtachdetgrid.odf 0 // Faction special systems research
+
+gbiopulse.odf 0 // Faction special systems research
+
+gnebulageneration.odf 0 // Faction special systems research
+
+gnebulaflux.odf 0 // Faction special systems research
+
+gtransientrift.odf 0 // Faction special systems research
+
+gpsionicdisruption.odf 0 // Faction special systems research
+
+gclairvoyantlink.odf 0 // Faction special systems research
+
+gclairvoyance.odf 0 // Faction special systems research
+
+ya0061.odf 0 // Faction special systems research
+
+ya0067.odf 0 // Faction special systems research
+
+gtwarpd.odf 0 // Faction special systems research
+
+gregen.odf 0 // Faction special systems research
+
+gborgbor.odf 0 // Faction special systems research
+
+gengyemt.odf 0 // Faction special systems research
+
+xbj_gamine.odf 0 // Faction special systems research
+
+xbj_gchainp.odf 0 // Faction special systems research
+
+xbj_gcorbom.odf 0 // Faction special systems research
+
+xbj_gdetectf.odf 0 // Faction special systems research
+
+xbj_gshldemt.odf 0 // Faction special systems research
+
+xbj_gshieldh.odf 0 // Faction special systems research
+
+xbj_gmanheim.odf 0 // Faction special systems research
+
+xbj_gpdlaser.odf 0 // Faction special systems research
+
+xbj_gwcover.odf 0 // Faction special systems research
+
+gutribm.odf 0 // Faction special systems research
+
+gnanites.odf 0 // Faction special systems research
+
+goverrid.odf 0 // Faction special systems research
+
+gremod.odf 0 // Faction special systems research
+
+ya0007.odf 0 // Faction special systems research
+
+y2a002.odf 0 // Faction special systems research
+
+gplasmabank.odf 0 // Faction special systems research
+
+gdrones.odf 0 // Faction special systems research
+
+gfluxwave.odf 0 // Faction special systems research
+
+ya0016.odf 0 // Faction special systems research
+
+gmicroorgs.odf 0 // Faction special systems research
+
+ya0014.odf 0 // Faction special systems research
+
+gsensorscram.odf 0 // Faction special systems research
+
+gaccelcannon.odf 0 // Faction special systems research
+
+ya0015.odf 0 // Faction special systems research
+
+ya0009.odf 0 // Faction special systems research
+
+gdetectc.odf 0 // Faction special systems research
+
+ya0008.odf 0 // Faction special systems research
+
+ya0010.odf 0 // Faction special systems research
+
+ya0011.odf 0 // Faction special systems research
+
+ya0012.odf 0 // Faction special systems research
+
+gquanteffect.odf 0 // Faction special systems research
+
+gwarpboost.odf 0 // Faction special systems research
+
+gsdisruptor.odf 0 // Faction special systems research
+
+ya0013.odf 0 // Faction special systems research
+
+dgpolerond.odf 0 // Faction special systems research
+
+gdcteam.odf 0 // Faction special systems research
+
+gdomspy.odf 0 // Faction special systems research
+
+dwenhance.odf 0 // Faction special systems research
+
+ya0022.odf 0 // Faction special systems research
+
+ya0023.odf 0 // Faction special systems research
+
+ya0017.odf 0 // Faction special systems research
+
+gdetectd.odf 0 // Faction special systems research
+
+gholod.odf 0 // Faction special systems research
+
+gvortex.odf 0 // Faction special systems research
+
+prot1.odf 0 // Faction special systems research
+
+ya0024.odf 0 // Faction special systems research
+
+ya0077.odf 0 // Faction special systems research
+
+ya0078.odf 0 // Faction special systems research
+
+ya0069.odf 0 // Faction special systems research
+
+gfedrep.odf 0 // Faction special systems research
+
+ya0027.odf 0 // Faction special systems research
+
+gcorbom.odf 0 // Faction special systems research
+
+gshieldh.odf 0 // Faction special systems research
+
+gmanheim.odf 0 // Faction special systems research
+
+gpdlaser.odf 0 // Faction special systems research
+
+ya0030.odf 0 // Faction special systems research
+
+ya0031.odf 0 // Faction special systems research
+
+ya0032.odf 0 // Faction special systems research
+
+gchainp.odf 0 // Faction special systems research
+
+gwcover.odf 0 // Faction special systems research
+
+ya0026.odf 0 // Faction special systems research
+
+ya0065.odf 0 // Faction special systems research
+
+gdetectf.odf 0 // Faction special systems research
+
+gamine.odf 0 // Faction special systems research
+
+ya0066.odf 0 // Faction special systems research
+
+ya0025.odf 0 // Faction special systems research
+
+ya0068.odf 0 // Faction special systems research
+
+ya0033.odf 0 // Faction special systems research
+
+ya0034.odf 0 // Faction special systems research
+
+gshldemt.odf 0 // Faction special systems research
+
+ya0035.odf 0 // Faction special systems research
+
+ya0029.odf 0 // Faction special systems research
+
+ya0071.odf 0 // Faction special systems research
+
+fgrvmine.odf 0 // Faction special systems research
+
+ya0028.odf 0 // Faction special systems research
+
+ya0063.odf 0 // Faction special systems research
+
+ya0064.odf 0 // Faction special systems research
+
+ya0070.odf 0 // Faction special systems research
+
+ya0062.odf 0 // Faction special systems research
+
+ya0060.odf 0 // Faction special systems research
+
+ya0059.odf 0 // Faction special systems research
+
+ya0018.odf 0 // Faction special systems research
+
+ya0019.odf 0 // Faction special systems research
+
+ya0037.odf 0 // Faction special systems research
+
+gplasmac.odf 0 // Faction special systems research
+
+gpoleron.odf 0 // Faction special systems research
+
+gkcteam.odf 0 // Faction special systems research
+
+ggrvmine.odf 0 // Faction special systems research
+
+ya0047.odf 0 // Faction special systems research
+
+gdchant.odf 0 // Faction special systems research
+
+ya0040.odf 0 // Faction special systems research
+
+wenhance.odf 0 // Faction special systems research
+
+ya0043.odf 0 // Faction special systems research
+
+ya0042.odf 0 // Faction special systems research
+
+ya0044.odf 0 // Faction special systems research
+
+ya0045.odf 0 // Faction special systems research
+
+ya0039.odf 0 // Faction special systems research
+
+ya0041.odf 0 // Faction special systems research
+
+ya0038.odf 0 // Faction special systems research
+
+grfield.odf 0 // Faction special systems research
+
+gdetectk.odf 0 // Faction special systems research
+
+ya0046.odf 0 // Faction special systems research
+
+gionstm.odf 0 // Faction special systems research
+
+y2a005.odf 0 // Faction special systems research
+
+gshieldi.odf 0 // Faction special systems research
+
+ya0053.odf 0 // Faction special systems research
+
+gposijam.odf 0 // Faction special systems research
+
+gmyotron.odf 0 // Faction special systems research
+
+ya0052.odf 0 // Faction special systems research
+
+gromspy.odf 0 // Faction special systems research
+
+gclkenh.odf 0 // Faction special systems research
+
+gdetectr.odf 0 // Faction special systems research
+
+ya0051.odf 0 // Faction special systems research
+
+gpsyblst.odf 0 // Faction special systems research
+
+gpcloak.odf 0 // Faction special systems research
+
+gholoemt.odf 0 // Faction special systems research
+
+gesconv.odf 0 // Faction special systems research
+
+ya0055.odf 0 // Faction special systems research
+
+ya0054.odf 0 // Faction special systems research
+
+ya0056.odf 0 // Faction special systems research
+
+ya0021.odf 0 // Faction special systems research
+
+ya0020.odf 0 // Faction special systems research
+
+gdetectb.odf 0 // Faction special systems research
+
+domgshieldd.odf 0 // Faction special systems research
+
+xdjboard.odf 0 // Faction special systems research
+
+ya0076.odf 0 // Faction special systems research
+
+ya0075.odf 0 // Faction special systems research
+
+ya0074.odf 0 // Faction special systems research
+
+ya0073.odf 0 // Faction special systems research
+
+ya0072.odf 0 // Faction special systems research
+
+ya0048.odf 0 // Faction special systems research
+
+ya0050.odf 0 // Faction special systems research
+
+ya0049.odf 0 // Faction special systems research
+
+ya0058.odf 0 // Faction special systems research
+
+ya0057.odf 0 // Faction special systems research
+
+ya0036.odf 0 // Faction special systems research

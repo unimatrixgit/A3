@@ -1,8 +1,8 @@
 // Begin main properties
 
 unitName = "Weyoun's Command Battleship"
-tooltip = "Weyoun's Command Battleship"
-verboseTooltip = "Weyoun's Command Warship used in the Dominion during battles."
+
+
 race = "dominion"
 maxHealth = 2500
 shieldGeneratorHitPoints = 600
@@ -36,7 +36,7 @@ weapon3 = "zdpulse"
 weaponHardpoints3 = "hp01" "hp02"
 weapon4 = "dwgpolerond"
 weaponHardpoints4 = "hp05"
-weapon5 = "gselfdes"
+
 weaponHardpoints5 = "hp06" "hp08" "hp09" "hp10"
 
 // End weapons
@@ -127,11 +127,11 @@ can_explore = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 1200
-metalCost = 700
-latinumCost = 0
-biomatterCost = 0
-crewCost = 725
+
+
+
+
+
 officerCost = 10
 buildTime = 100
 
@@ -166,3 +166,21 @@ eventDecommission = "XV_dweyoun_Decommission"
 maxSpecialEnergy = 1400
 
 specialEnergyRate = 14.0
+
+
+
+
+
+
+
+
+
+tooltip = "Hero Ship (Weyoun's Command Battleship)"
+
+verboseTooltip = "A named command vessel serving the Dominion fleet. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Polaron Torpedo. Availability follows the selected technology tree."
+weapon5 = "z21da45955"
+dilithiumcost = 310
+metalcost = 130
+latinumcost = 0
+biomattercost = 0
+crewCost = 625

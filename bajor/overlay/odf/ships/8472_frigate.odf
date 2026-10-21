@@ -9,8 +9,8 @@ race = "species8472"
 unitName = "Frigate"
 
 //tooltips
-tooltip = "8472_FRIGATE"
-verboseTooltip = "8472_FRIGATE_V"
+
+
 
 //Can decommission itself anywhere
 recyclesInPlace = 1
@@ -112,13 +112,30 @@ shipType = "C"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 0
-metalCost = 0
-latinumCost = 0
-biomatterCost = 240
-crewCost = 0
+
+
+
+
+
 officerCost = 1
 buildTime = 24
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.5
+
+
+
+
+
+
+
+
+
+tooltip = "Frigate (Frigate)"
+
+verboseTooltip = "A combat escort for patrols and coordinated fleet engagements. Living biotechnology shapes this organism for operations beyond fluidic space. Special systems: 8472 Bio-Pulse Conduit. Availability follows the selected technology tree."
+dilithiumcost = 0
+metalcost = 0
+latinumcost = 0
+biomattercost = 345
+crewCost = 0

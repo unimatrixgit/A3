@@ -4,8 +4,8 @@
 unitName = "Shadow Class"
 
 //tooltips
-tooltip = "Shadow Class"
-verboseTooltip = "Romulan Special Cruiser"
+
+
 
 //Race which can build ship & starting race of ship
 race = "romulan"
@@ -84,7 +84,7 @@ weapon6 = "gesconv"
 weaponHardpoints6 = "hp20"
 
 //Self Destruct
-weapon7 = "gselfdes"
+
 weaponHardpoints7 = "hp18"
 
 // Hardpoints to hit for various systems and other locations.
@@ -125,14 +125,32 @@ hotkeyLabel = "HOTKEY_F3"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 450
-metalCost = 150
-latinumCost = 0
-biomatterCost = 0
-crewCost = 300
+
+
+
+
+
 officerCost = 10
 buildTime = 33
 
 maxSpecialEnergy = 1800
 
 specialEnergyRate = 18.0
+
+
+
+
+
+
+
+
+
+tooltip = "Support Ship (Shadow Class)"
+
+verboseTooltip = "Provides specialist support for fleet operations. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Psychonic Blast, Phase Cloak, Holo-Emitter, Shield Projector. Availability follows the selected technology tree."
+weapon7 = "z21ra45955"
+dilithiumcost = 375
+metalcost = 125
+latinumcost = 0
+biomattercost = 0
+crewCost = 185

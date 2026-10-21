@@ -1,0 +1,160 @@
+#include "battle.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Sakti Class"
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 3826
+
+// don't use the horrible old % crew loss on damage
+saneCrewLossMethod = 1
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 1250
+enginesHitPoints = 1000
+weaponsHitPoints = 1090
+lifeSupportHitPoints = 999
+sensorsHitPoints = 998
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 14.8
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 84
+impulseSpeed = 78
+warpSpeed = 917
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 2400
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 24 
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "V'ashan" "V'rela" "Sakti"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Phaser
+weapon1 = "rc04pul"
+weaponHardpoints1 = "hp11" "hp14"
+
+// Phaser
+weapon2 = "rc04pul"
+weaponHardpoints2 = "hp12" "hp15"
+
+// Phaser
+weapon3 = "rc04pul"
+weaponHardpoints3 = "hp13" "hp16"
+
+// Photon Torpedo
+weapon4 = "rc06phot"
+weaponHardpoints4 = "hp17"
+
+// Photon Torpedo
+weapon5 = "rc06phot"
+weaponHardpoints5 = "hp18"
+
+// Cloaking Device
+weapon6 = "grcloak"
+weaponHardpoints6 = "hp19"
+
+// Self Destruct
+
+weaponHardpoints7 = "hp20" "hp21"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 1.00f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.50f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+
+//change the scale
+ScaleSOD = 1.6
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "rom_battle"
+hotkeyLabel = "HOTKEY_F4"
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+
+
+
+
+
+officerCost = 16
+buildTime = 31
+
+weapon8 = "ya0056"
+
+weaponHardpoints8 = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Capital Ship (Sakti Class)"
+
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Heated Plasma. Availability follows the selected technology tree."
+weapon7 = "z21ra45955"
+dilithiumcost = 845
+metalcost = 365
+latinumcost = 0
+biomattercost = 0
+crewCost = 1040

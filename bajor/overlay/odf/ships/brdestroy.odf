@@ -1,7 +1,7 @@
 // Begin main properties
 
 unitName = "Breen Destroyer"
-tooltip = "Breen Destroyer"
+
 race = "breen"
 maxHealth = 80
 shieldGeneratorHitPoints = 20
@@ -10,7 +10,7 @@ weaponsHitPoints = 20
 lifeSupportHitPoints = 20
 sensorsHitPoints = 20
 shieldRate = 0.75
-maxSpecialEnergy = 1000
+
 specialEnergyRate = 10
 attackPower = 0.25f
 intrinsicValue = 0.25f
@@ -22,7 +22,7 @@ shieldGeneratorHitPercent = 8.0f
 sensorsHitPercent = 8.0f
 crewHitPercent = 8.5f
 hullHitPercent = 57.0f
-verboseTooltip = "The most common ship in the Breen fleet. Its small size and cheap cost mean they can be mass produced with little expense."
+
 
 // End main properties
 
@@ -117,13 +117,36 @@ can_explore = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 150
-metalCost = 20
-latinumCost = 0
-biomatterCost = 0
-crewCost = 40
+
+
+
+
+
 officerCost = 6
 buildTime = 12
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 0.51
+
+weapon3 = "ya0007"
+
+weaponHardpoints3 = "hp01"
+
+maxSpecialEnergy = 1200
+
+
+
+
+
+
+
+
+
+tooltip = "Attack Ship (Breen Destroyer)"
+
+verboseTooltip = "A light combat ship for interception and fleet support. Breen engineering supports the Confederacy with focused, uncompromising efficiency. Special systems: Polaron Torpedo. Availability follows the selected technology tree."
+dilithiumcost = 60
+metalcost = 15
+latinumcost = 0
+biomattercost = 0
+crewCost = 40

@@ -111,19 +111,19 @@ trekPhysicsFile = "fdestroyerphys.odf"
 
 
 // Xaramada resource costs: original filename.
-dilithiumcost = 350
-metalcost = 300
-latinumcost = 0
-biomattercost = 0
-crewcost = 250
+
+
+
+
+
 officercost = 10
 buildtime = 13
 
 unitName = "Bajoran Torpedo Cruiser"
 
-tooltip = "Bajoran Torpedo Cruiser"
 
-verboseTooltip = "Bajoran Torpedo Cruiser. Extrapolated assault hull with torpedo pods."
+
+
 
 race = "bajoran"
 
@@ -158,3 +158,20 @@ criticaltargethardpoints = "hp14" "hp15"
 maxSpecialEnergy = 1000
 
 specialEnergyRate = 10.0
+
+
+
+
+
+
+
+
+
+tooltip = "Cruiser (Bajoran Torpedo Cruiser)"
+
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Bajoran militia engineering protects Bajor and its neighboring systems. Special systems: Engine Overload. Availability follows the selected technology tree."
+dilithiumcost = 185
+metalcost = 60
+latinumcost = 0
+biomattercost = 0
+crewCost = 180

@@ -86,10 +86,10 @@ combat = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumcost = 150
-metalcost = 0
-latinumcost = 0
-biomattercost = 0
+
+
+
+
 crewcost = 100
 officercost = 1
 buildtime = 13
@@ -97,9 +97,9 @@ buildtime = 13
 
 unitName = "Bajoran Resource Freighter"
 
-tooltip = "Bajoran Resource Freighter"
 
-verboseTooltip = "Bajoran Resource Freighter. TV Bajoran freighter / transport family."
+
+
 
 race = "bajoran"
 
@@ -146,3 +146,15 @@ specialenergyrate = 0
 weaponyellow = 1.0
 
 weaponred = 1.0
+
+dilithiumCost = 175
+
+metalCost = 75
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Resource Miner (Bajoran Resource Freighter)"
+
+verboseTooltip = "Collects resources and delivers them to compatible processing facilities. Bajoran militia engineering protects Bajor and its neighboring systems. Special systems: Mining Beam. Availability follows the selected technology tree."

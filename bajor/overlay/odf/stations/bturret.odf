@@ -7,8 +7,8 @@
 unitName = "Energy Cannon"
 
 //tooltips
-tooltip = "BORG_TURRET"
-verboseTooltip = "BORG_TURRET_V"
+
+
 
 //Race which can build ship & starting race of ship
 race = "borg"
@@ -51,9 +51,11 @@ weaponsHitPoints = 999
 //ART PARAMETERS & WEAPON NAMES
 
 // Phaser
-weapon1 = "bc4pul"
+weapon1 = "bc4pul"
 
-// Hardpoints to hit for various systems and other locations.
+
+// Hardpoints to hit for various systems and other locations.
+
 
 //**********************************************************************
 //MESSAGE & SOUND PARAMETERS
@@ -84,10 +86,10 @@ rangeScan = 800.0f
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 75
-metalCost = 75
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 0
 officerCost = 3
 buildTime = 45
@@ -109,3 +111,15 @@ sensorstargethardpoints = "hp08"
 hulltargethardpoints = "hp09"
 
 criticaltargethardpoints = "hp10"
+
+dilithiumCost = 150
+
+metalCost = 150
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Defense Station (Energy Cannon)"
+
+verboseTooltip = "A fixed defensive installation protecting nearby fleet assets. Collective engineering integrates this asset into the unimatrix."

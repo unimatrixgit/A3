@@ -9,8 +9,8 @@ race = "cardassian"
 unitName = "Vasad Class"
 
 //tooltips
-tooltip = "Vasad Class"
-verboseTooltip = "Cardassian Frigate"
+
+
 
 //Amount of time required to build ship
 
@@ -109,11 +109,11 @@ hotkeyLabel = "HOTKEY_F1"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 165
-metalCost = 35
-latinumCost = 0
-biomatterCost = 0
-crewCost = 200
+
+
+
+
+
 officerCost = 5
 buildTime = 15
 
@@ -123,3 +123,20 @@ ScaleSOD = 1.5
 maxSpecialEnergy = 900
 
 specialEnergyRate = 9.0
+
+
+
+
+
+
+
+
+
+tooltip = "Frigate (Vasad Class)"
+
+verboseTooltip = "A combat escort for patrols and coordinated fleet engagements. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Sensor Scrambler. Availability follows the selected technology tree."
+dilithiumcost = 260
+metalcost = 85
+latinumcost = 0
+biomattercost = 0
+crewCost = 175

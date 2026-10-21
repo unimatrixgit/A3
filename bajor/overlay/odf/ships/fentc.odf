@@ -25,7 +25,8 @@ specialEnergyRate = 81.5
 //Possible Craft Names
 possibleCraftNames = "USS Enterprise - C"
 
-weapon3 = "fentctoentd"
+weapon3 = "fentctoentd"
+
 
 
 
@@ -37,13 +38,14 @@ weapon3 = "fentctoentd"
 
 
 // Xaramada resource costs: original matching class.
-dilithiumCost = 300
-metalCost = 40
-latinumCost = 0
-biomatterCost = 0
-crewCost = 400
+
+
+
+
+
 officerCost = 8
-buildTime = 30
+buildTime = 30
+
 
 eventSelect = "XV_fentc_Select"
 
@@ -68,3 +70,16 @@ eventTransport = "XV_fentc_Transport"
 eventSelfDestruct = "XV_fentc_SelfDestruct"
 
 eventDecommission = "XV_fentc_Decommission"
+
+
+
+
+
+
+
+
+dilithiumcost = 810
+metalcost = 270
+latinumcost = 0
+biomattercost = 0
+crewCost = 380

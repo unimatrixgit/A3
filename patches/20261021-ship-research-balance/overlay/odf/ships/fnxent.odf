@@ -1,0 +1,84 @@
+#include "fnx.odf"
+
+//This ship is a hero.
+isHero = 1
+
+//Ship label provided because this is a unique ship.
+label = "Enterprise NX-01"
+
+
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 2000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 20
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "Enterprise NX-01" 
+
+weapon3 = "fnxenttoent"
+
+
+
+
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+
+
+
+
+
+officerCost = 9
+buildTime = 22
+
+
+eventSelect = "XV_fnxent_Select"
+
+eventAcknowledge = "XV_fnxent_Acknowledge"
+
+eventAttack = "XV_fnxent_Attack"
+
+eventStop = "XV_fnxent_Stop"
+
+eventMove = "XV_fnxent_Move"
+
+eventRepair = "XV_fnxent_Repair"
+
+eventRedAlert = "XV_fnxent_RedAlert"
+
+eventYellowAlert = "XV_fnxent_YellowAlert"
+
+eventGreenAlert = "XV_fnxent_GreenAlert"
+
+eventTransport = "XV_fnxent_Transport"
+
+eventSelfDestruct = "XV_fnxent_SelfDestruct"
+
+eventDecommission = "XV_fnxent_Decommission"
+
+// Visual size: 150 percent of pre-patch scale.
+ScaleSOD = 0.375
+
+
+
+
+
+
+
+
+
+tooltip = "Hero Ship (NX Class)"
+
+verboseTooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Enterprise Upgrade. Availability follows the selected technology tree."
+dilithiumcost = 205
+metalcost = 0
+latinumcost = 0
+biomattercost = 0
+crewCost = 50

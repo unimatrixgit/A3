@@ -4,8 +4,8 @@
 unitName = "Banshee Class"
 
 //tooltips
-tooltip = "Banshee Class"
-verboseTooltip = "Section 31 medium Cruiser."
+
+
 
 //Race which can build ship & starting race of ship
 race = "federation"
@@ -117,13 +117,34 @@ hotkeyLabel = "HOTKEY_F3"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 280
-metalCost = 35
-latinumCost = 0
-biomatterCost = 0
-crewCost = 427
+
+
+
+
+
 officerCost = 8
 buildTime = 29
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.5
+
+weapon4 = "ya0067"
+
+weaponHardpoints4 = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Attack Ship (Banshee Class)"
+
+verboseTooltip = "A light combat ship for interception and fleet support. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Antimatter Mines. Availability follows the selected technology tree."
+dilithiumcost = 440
+metalcost = 110
+latinumcost = 0
+biomattercost = 0
+crewCost = 140

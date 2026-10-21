@@ -1,0 +1,186 @@
+#include "super.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Jach'Eng Class"
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "klingon"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 822
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 257
+enginesHitPoints = 92
+weaponsHitPoints = 87
+lifeSupportHitPoints = 48
+sensorsHitPoints = 118
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 6.2
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 29
+impulseSpeed = 78
+warpSpeed = 210
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 2400
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 24 
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+	"IKS Qaw'Hoch"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Super Weapon
+//Sub Space Ripple
+weapon1 = "grwave"
+
+
+// Disruptor
+weapon2 = "kc04phas"
+weaponHardpoints2 = "hp12"
+
+// Hardpoints to hit for various systems and other locations.
+
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.75f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.75f
+
+//**********************************************************************
+//SYSTEM DAMAGE DISTRIBUTION
+//The following section's values should add up to 100
+//Percent Chance out of 100 of engines being destroyed
+enginesHitPercent = 11.0f
+
+//Percent Chance out of 100 of life support being destroyed
+lifeSupportHitPercent = 8.5f
+
+//Percent Chance out of 100 of weapons being destroyed
+weaponsHitPercent = 8.0f
+
+//Percent Chance out of 100 of shields being destroyed
+shieldGeneratorHitPercent = 11.0f
+
+//Percent Chance out of 100 of sensors being destroyed
+sensorsHitPercent = 11.0f
+
+//Percent Chance out of 100 of hull being hit (crew dying)
+crewHitPercent = 11.5f
+
+//Percent Chance out of 100 of entire ship exploding
+hullHitPercent = 39.0f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "SuperSelect"
+eventAcknowledge = "SuperAcknowledge"
+eventAttack = "SuperAttack"
+eventStop = "SuperStop"
+eventMove = "SuperMove"
+eventRepair = "SuperRepair"
+
+//**********************************************************************
+//PHYSICS PARAMETERS
+
+//for obstacle avoidance
+avoidanceClass = 7
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "kling_super"
+hotkeyLabel = "HOTKEY_F1"
+
+// take out the special weapon autonomy buttons
+show_sw_autonomy = 0
+can_guard = 0
+can_sandd = 0
+can_explore = 0
+// Xaramada: cloaking device.
+
+weaponHardpoints3 = "hp01"
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+officerCost = 5
+buildTime = 117
+
+baseName = "xvstock_ksuper"
+
+weaponhardpoints1 = "hp01" "hp02" "hp03"	
+
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp13" "hp11"
+
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+
+sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+
+hulltargethardpoints = "hp06" "hp08" "hp10"  "hp12" "hp14" "hp16" "hp18" "hp20" "hp22"
+
+criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp21" "hp23"
+
+
+
+
+
+
+
+
+
+tooltip = "Support Ship (Jach'Eng Class)"
+
+verboseTooltip = "Provides specialist support for fleet operations. Klingon engineering serves the Empire with direct, relentless force. Special systems: Subspace Shockwave, Cloak. Availability follows the selected technology tree."
+weapon3 = "z21kf18a27"
+dilithiumcost = 150
+metalcost = 50
+latinumcost = 0
+biomattercost = 0
+crewCost = 115

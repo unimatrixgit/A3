@@ -6,8 +6,8 @@
 //Name of Ship class in Ship Display window & in edit mode & tooltip
 unitName = "Dilithium Refinery"
 
-tooltip = "Dilithium Refinery"
-verboseTooltip = "Facility for processing raw dilithium into a usable resource."
+
+
 
 //Name of the ODF file of the matching freighter to build with the station
 freighterName = "kfreight"
@@ -48,13 +48,20 @@ possibleCraftNames = "Cha'puj Q'ho-32" "Cha'puj Q'ho-17" "Cha'puj Q'ho-05" "Cha'
 //ART PARAMETERS & WEAPON NAMES
 
 
-// Hardpoints to hit for various systems and other locations.
-"hp23" "hp27" "hp29" "hp32"
-"hp23" "hp27" "hp29" "hp32"
-"hp23" "hp27" "hp29" "hp32"
-"hp23" "hp27" "hp29" "hp32"
-"hp23" "hp27" "hp29" "hp32"
-"hp23" "hp27" "hp29" "hp32"
+// Hardpoints to hit for various systems and other locations.
+
+"hp23" "hp27" "hp29" "hp32"
+
+"hp23" "hp27" "hp29" "hp32"
+
+"hp23" "hp27" "hp29" "hp32"
+
+"hp23" "hp27" "hp29" "hp32"
+
+"hp23" "hp27" "hp29" "hp32"
+
+"hp23" "hp27" "hp29" "hp32"
+
 "hp23" "hp27" "hp29" "hp32"
 
 //**********************************************************************
@@ -97,10 +104,10 @@ resourcesCanHandle = "dilithium"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 0
-metalCost = 400
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 250
 officerCost = 4
 buildTime = 50
@@ -120,3 +127,15 @@ sensorstargethardpoints = "hp10" "hp12" "hp14" "hp19" "hp20" "hp22"
 hulltargethardpoints = "hp10" "hp12" "hp14" "hp19" "hp20" "hp22" 
 
 criticaltargethardpoints = "hp10" "hp12" "hp14" "hp19" "hp20" "hp22" 
+
+dilithiumCost = 300
+
+metalCost = 200
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Resource Processing Station (Dilithium Refinery)"
+
+verboseTooltip = "Receives and processes resources delivered by mining vessels. Klingon engineering serves the Empire with direct, relentless force."

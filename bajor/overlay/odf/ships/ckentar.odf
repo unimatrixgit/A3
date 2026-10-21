@@ -4,8 +4,8 @@
 unitName = "Keldon Class"
 
 //tooltips
-tooltip = "CARD_KENTAR"
-verboseTooltip = "CARD_KENTAR_V"
+
+
 
 //This ship is a hero.
 isHero = 1
@@ -75,7 +75,7 @@ weapon2 = "cc06plas"
 weaponHardpoints2 = "hp11"
 
 //Special Weapon - Self-Destruct
-weapon3 = "gselfdes"
+
 weaponHardpoints3 = "hp12"
 
 // Hardpoints to hit for various systems and other locations.
@@ -114,13 +114,14 @@ weaponRed = 2.0f
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 850
-metalCost = 850
-latinumCost = 0
-biomatterCost = 0
-crewCost = 500
+
+
+
+
+
 officerCost = 10
-buildTime = 85
+buildTime = 85
+
 
 eventSelect = "XV_ckentar_Select"
 
@@ -145,3 +146,21 @@ eventTransport = "XV_ckentar_Transport"
 eventSelfDestruct = "XV_ckentar_SelfDestruct"
 
 eventDecommission = "XV_ckentar_Decommission"
+
+
+
+
+
+
+
+
+
+tooltip = "Hero Ship (Keldon Class)"
+
+verboseTooltip = "A named command vessel serving the Cardassian fleet. Cardassian engineering sustains the Union through ordered, persistent operations."
+weapon3 = "z21ca45955"
+dilithiumcost = 415
+metalcost = 175
+latinumcost = 0
+biomattercost = 0
+crewCost = 725

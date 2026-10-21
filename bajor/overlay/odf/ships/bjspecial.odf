@@ -134,19 +134,19 @@ shipType = "C"
 
 
 // Xaramada resource costs: original filename.
-dilithiumcost = 450
-metalcost = 150
-latinumcost = 0
-biomattercost = 0
-crewcost = 300
+
+
+
+
+
 officercost = 10
 buildtime = 35
 
 unitName = "Bajoran Science Support Vessel"
 
-tooltip = "Bajoran Science Support Vessel"
 
-verboseTooltip = "Bajoran Science Support Vessel. Extrapolated sensor/engineering support hull."
+
+
 
 race = "bajoran"
 
@@ -199,3 +199,20 @@ weapon6 = "y2a001"
 maxSpecialEnergy = 1800
 
 specialEnergyRate = 18.0
+
+
+
+
+
+
+
+
+
+tooltip = "Support Ship (Bajoran Science Support Vessel)"
+
+verboseTooltip = "Provides specialist support for fleet operations. Bajoran militia engineering protects Bajor and its neighboring systems. Special systems: Shield Disruptor, Gemini Effect, Point Defense Phaser, Chain Reaction Pulsar. Availability follows the selected technology tree."
+dilithiumcost = 280
+metalcost = 95
+latinumcost = 0
+biomattercost = 0
+crewCost = 160

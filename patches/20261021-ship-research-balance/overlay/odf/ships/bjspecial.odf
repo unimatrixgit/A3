@@ -1,0 +1,218 @@
+#include "special.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+//Race which can build ship & starting race of ship
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+// don't use the horrible old % crew loss on damage
+sanecrewlossmethod = 1
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxhealth = 875
+
+// Hitpoints
+
+shieldgeneratorhitpoints = 1800
+engineshitpoints = 1800
+weaponshitpoints = 1800
+lifesupporthitpoints = 1800
+sensorshitpoints = 1800
+
+//Rate at which shield recharges (points per second... we think)
+shieldrate = 8.75
+
+//Maximum Value of Special Energy
+
+
+//Rate at which special energy recharges (points per second... we think)
+
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+	"USS Pasteur" "USS Newton" "USS Hawking" "USS Curie" 
+	"USS Einstein" "USS Faraday" "USS Oppenheimer" "USS Heisenberg" 
+	"USS Nobel" "USS Bell" "USS Crick" "USS Gates"
+	"USS Edison" "USS Euclid" "USS Aristotle" "USS Schrodinger" 
+	"USS Boyle" "USS Pascal" "USS Whitney" "USS Ockham"
+	"USS Kelvin" "USS Fermi" "USS Descartes" "USS Newell"
+	"USS Pavlov" "USS Foucault" "USS Cousteau" "USS Knuth"
+	"USS Darwin" "USS Zee-Magnees" "USS Godel" "USS Tesla"
+	"USS Hegel" "USS Zimmerman" "USS Salk" "USS Schweitzer"
+	"USS Galileo" "USS Pythagoras" "USS Tomaselli" 
+	"USS Farragut" "USS Hera" "USS Proxima" "USS Hubble" 
+	"USS Jacobus" "USS Koerner"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Phaser
+weapon1 = "fnebulaphas"
+
+	
+// Photon torpedo
+weapon2 = "fnebulaphot"
+
+
+//Shield Harmonics Disruptor
+
+
+
+//Manheim Effect
+
+
+
+// Point Defense Laser
+
+
+
+//Special chain pulsar for a special science-vessel only techtree
+
+
+
+//Self Destruct
+
+
+
+// Hardpoints to hit for various systems and other locations.
+
+
+
+
+
+
+
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponyellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponred = 2.0f
+//**********************************************************************
+
+
+//**********************************************************************
+
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "fed_science"
+hotkeyLabel = "HOTKEY_F3"
+
+// Change the scale
+
+// with no scale, 1/3 of sovereign
+// Want 2/3 of sovereign
+
+
+//physics file for all other physics stuff
+physicsFile = "fcruiserphys.odf"
+trekPhysicsFile = "fcruiserphys.odf"
+
+// ship type for formations
+shipType = "C"
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+officercost = 10
+buildtime = 35
+
+unitName = "Bajoran Science Support Vessel"
+
+
+
+
+
+race = "bajoran"
+
+
+
+
+
+weapon3 = "xbj_gshieldh"
+
+weapon4 = "xbj_gmanheim"
+
+weapon5 = "xbj_gpdlaser"
+
+weapon7 = "xbj_gselfdes"
+
+
+baseName = "br3_bjspecial"
+ScaleSOD = 1.76
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp31" "hp32"
+weaponHardpoints2 = "hp11" "hp23"
+weaponHardpoints3 = "hp12" "hp14" "hp16" "hp18"
+weaponHardpoints4 = "hp12" "hp14" "hp16" "hp18"
+weaponHardpoints5 = "hp12" "hp14" "hp16" "hp18"
+weaponHardpoints7 = "hp12" "hp14" "hp16" "hp18"
+weaponHardpoints6 = "hp12" "hp14" "hp16" "hp18"
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32" "hp33"
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hulltargethardpoints = "hp06" "hp08" "hp10"  "hp12" "hp14" "hp16" "hp18" "hp20" "hp24" "hp25"
+criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp22" "hp23"
+
+weapon6 = "y2a001"
+
+maxSpecialEnergy = 1800
+
+specialEnergyRate = 18.0
+
+
+
+
+
+
+
+
+
+tooltip = "Support Ship (Bajoran Science Support Vessel)"
+
+verboseTooltip = "Provides specialist support for fleet operations. Bajoran militia engineering protects Bajor and its neighboring systems. Special systems: Shield Disruptor, Gemini Effect, Point Defense Phaser, Chain Reaction Pulsar. Availability follows the selected technology tree."
+dilithiumcost = 280
+metalcost = 95
+latinumcost = 0
+biomattercost = 0
+crewCost = 160

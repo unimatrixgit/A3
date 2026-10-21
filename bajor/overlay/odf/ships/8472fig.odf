@@ -7,8 +7,8 @@ unitName = "Fighter"
 shipIsBuiltByEvolution = 1
 
 //tooltips
-tooltip = "Tactical Fighter"
-verboseTooltip = "Species 8472 Tactical FIghter"
+
+
 
 //Can decommission itself anywhere
 recyclesInPlace = 1
@@ -110,13 +110,30 @@ can_repair = 0
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 0
-metalCost = 0
-latinumCost = 0
-biomatterCost = 310
-crewCost = 0
+
+
+
+
+
 officerCost = 1
 buildTime = 78
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.5
+
+
+
+
+
+
+
+
+
+tooltip = "Scout (Fighter)"
+
+verboseTooltip = "Surveys space and locates threats ahead of the fleet. Living biotechnology shapes this organism for operations beyond fluidic space."
+dilithiumcost = 0
+metalcost = 0
+latinumcost = 0
+biomattercost = 75
+crewCost = 0

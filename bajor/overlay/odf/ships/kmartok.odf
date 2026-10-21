@@ -4,8 +4,8 @@
 unitName = "Negh'Var Class"
 
 //tooltips
-tooltip = "KLI_MARTOK"
-verboseTooltip = "KLI_MARTOK_V"
+
+
 
 //This ship is a hero.
 isHero = 1
@@ -95,11 +95,11 @@ weapon4 = "kc04phot"
 weaponHardpoints4 = "hp20"
 
 // Self Destruct
-weapon5 = "gselfdes"
+
 weaponHardpoints5 = "hp21"
 
 // Cloaking Device
-weapon6 = "gkcloak"
+
 weaponHardpoints6 = "hp21"
 
 // Pulse Phaser
@@ -142,7 +142,8 @@ shieldGeneratorHitPoints = 20
 sensorsHitPoints = 20
 
 //**********************************************************************
-//MESSAGE & SOUND PARAMETERS
+//MESSAGE & SOUND PARAMETERS
+
 
 //**********************************************************************
 
@@ -155,13 +156,14 @@ hotkeyLabel = "HOTKEY_F4"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 1600
-metalCost = 200
-latinumCost = 0
-biomatterCost = 0
-crewCost = 500
+
+
+
+
+
 officerCost = 7
-buildTime = 80
+buildTime = 80
+
 
 eventSelect = "XV_kmartok_Select"
 
@@ -186,3 +188,22 @@ eventTransport = "XV_kmartok_Transport"
 eventSelfDestruct = "XV_kmartok_SelfDestruct"
 
 eventDecommission = "XV_kmartok_Decommission"
+
+
+
+
+
+
+
+
+
+tooltip = "Hero Ship (Negh'Var Class)"
+
+verboseTooltip = "A named command vessel serving the Klingon fleet. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak. Availability follows the selected technology tree."
+weapon6 = "z21kf18a27"
+weapon5 = "z21ka45955"
+dilithiumcost = 745
+metalcost = 320
+latinumcost = 0
+biomattercost = 0
+crewCost = 975

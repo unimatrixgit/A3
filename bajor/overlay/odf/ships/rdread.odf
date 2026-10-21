@@ -4,8 +4,8 @@
 unitName = "Draconia Class"
 
 //tooltips
-tooltip = "Draconia Class"
-verboseTooltip = "Romulan Dreadnought"
+
+
 
 //Race which can build ship & starting race of ship
 race = "romulan"
@@ -76,7 +76,7 @@ weapon4 = "rc06phas"
 weaponHardpoints4 = "hp12" "hp13"
 
 // Self Destruct
-weapon5 = "gselfdes"
+
 weaponHardpoints5 = "hp18"
 
 // Photon Torpedo
@@ -126,11 +126,11 @@ hotkeyLabel = "HOTKEY_F4"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 610
-metalCost = 175
-latinumCost = 0
-biomatterCost = 0
-crewCost = 1024
+
+
+
+
+
 officerCost = 16
 buildTime = 30
 
@@ -141,3 +141,21 @@ weaponHardpoints7 = "hp01"
 maxSpecialEnergy = 1500
 
 specialEnergyRate = 15.0
+
+
+
+
+
+
+
+
+
+tooltip = "Capital Ship (Draconia Class)"
+
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Heated Plasma. Availability follows the selected technology tree."
+weapon5 = "z21ra45955"
+dilithiumcost = 670
+metalcost = 285
+latinumcost = 0
+biomattercost = 0
+crewCost = 920

@@ -1,0 +1,158 @@
+// Begin main properties
+
+unitName = "Jem'Hadar Science Ship"
+
+
+race = "dominion"
+maxHealth = 550
+shieldGeneratorHitPoints = 10
+enginesHitPoints = 10
+weaponsHitPoints = 30
+lifeSupportHitPoints = 20
+sensorsHitPoints = 15
+shieldRate = 3.0
+
+
+attackPower = 0.60f
+intrinsicValue = 0.50f
+shipclass = "special"
+enginesHitPercent = 5.0f
+lifeSupportHitPercent = 8.5f
+weaponsHitPercent = 5.0f
+shieldGeneratorHitPercent = 8.0f
+sensorsHitPercent = 8.0f
+crewHitPercent = 8.5f
+hullHitPercent = 57.0f
+
+// End main properties
+
+// Begin weapons
+
+weapon1 = "zjmphas"
+weaponHardpoints1 = "hp01" "hp04" "hp05"
+weapon2 = "jmphot"
+weaponHardpoints2 = "hp01"
+weapon3 = "gholod"
+weaponHardpoints3 = "hp01"
+weapon4 = "gvortex"
+weaponHardpoints4 = "hp01"
+weapon5 = "prot1"
+weaponHardpoints5 = "hp08"
+
+// End weapons
+
+// Begin hardpoints
+
+enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29"
+shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hullTargetHardpoints = "hp06" "hp08" "hp10" "" "hp12" "hp14" "hp16" "hp18" "hp20" "hp22"
+criticalTargetHardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp21" "hp23"
+
+// End hardpoints
+
+// Begin sounds
+
+eventSelect = "SpecialSelect"
+eventAcknowledge = "SpecialAcknowledge"
+eventAttack = "SpecialAttackt"
+eventStop = "SpecialStop"
+eventMove = "SpecialMove"
+eventRepair = "SpecialRepair"
+
+// End sounds
+
+// Begin ship names
+possibleCraftNames = 
+	"1st Div 1st Bat" "1st Div 2nd Bat" "1st Div 3rd Bat" 
+	"1st Div 4th Bat" "1st Div 5th Bat" "1st Div 6th Bat" 
+	"1st Div 7th Bat" "1st Div 8th Bat" "1st Div 9th Bat" 
+	"2nd Div 1st Bat" "2nd Div 2nd Bat" "2nd Div 3rd Bat" 
+	"2nd Div 4th Bat" "2nd Div 5th Bat" "2nd Div 6th Bat" 
+	"2nd Div 7th Bat" "2nd Div 8th Bat" "2nd Div 9th Bat" 
+	"3rd Div 1st Bat" "3rd Div 2nd Bat" "3rd Div 3rd Bat" 
+	"3rd Div 4th Bat" "3rd Div 5th Bat" "3rd Div 6th Bat" 
+	"3rd Div 7th Bat" "3rd Div 8th Bat" "3rd Div 9th Bat"
+	"4th Div 1st Bat" "4th Div 2nd Bat" "4th Div 3rd Bat" 
+	"4th Div 4th Bat" "4th Div 5th Bat" "4th Div 6th Bat" 
+	"4th Div 7th Bat" "4th Div 8th Bat" "4th Div 9th Bat" 
+	"5th Div 1st Bat" "5th Div 2nd Bat" "5th Div 3rd Bat" 
+	"5th Div 4th Bat" "5th Div 5th Bat" "5th Div 6th Bat" 
+	"5th Div 7th Bat" "5th Div 8th Bat" "5th Div 9th Bat" 
+
+// End ship names
+
+// Begin misc properties
+
+saneCrewLossMethod = 1
+weaponYellow = 1.0f
+weaponRed = 0.75f
+hotkeyLabel = "HOTKEY_F3"
+ScaleSOD = 1.3
+weldingRadius = 0.5
+physicsFile = "sbattphys.odf"
+avoidanceClass = 8
+shipType = "X"
+combat = 1
+alert = 1
+can_sandd = 1
+shieldDelay = 3.0f
+rangeScan = 800.0f
+damagedScan = 125.0
+enginesRepairTime = 1.0f
+lifeSupportRepairTime = 0.1f
+weaponsRepairTime = 2.0f
+shieldGeneratorRepairTime = 2.0f
+sensorsRepairTime = 3.0f
+enginesCrewLoss = 5.0f
+lifeSupportCrewLoss = 3.0f
+weaponsCrewLoss = 2.0f
+shieldGeneratorCrewLoss = 2.0f
+sensorsCrewLoss = 2.0f
+lifeSupportLoss = 2.0f
+classLabel = "craft"
+aiName = "CraftProcess"
+fireball = "xfirebmd"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+can_explore = 1
+
+// End misc properties
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+officerCost = 10
+buildTime = 30
+
+maxSpecialEnergy = 1800
+
+specialEnergyRate = 18.0
+
+
+
+
+
+
+
+
+
+tooltip = "Support Ship (Jem'Hadar Science Ship)"
+
+verboseTooltip = "Provides specialist support for fleet operations. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Holo-Emitter, Vortex, Protonic Shockwave. Availability follows the selected technology tree."
+dilithiumcost = 110
+metalcost = 40
+latinumcost = 0
+biomattercost = 0
+crewCost = 100

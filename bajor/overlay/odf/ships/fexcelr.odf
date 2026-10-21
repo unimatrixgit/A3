@@ -2,8 +2,8 @@
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
 unitName = "Excelsior Class Refit"
-tooltip = "Excelsior Class Refit - Cruiser"
-verboseTooltip = "This ship is the culmination of Star Fleet's research into a transwarp drive system.  Yes we did fix what Scotty Broke!"
+
+
 
 //Race which can build ship & starting race of ship
 race = "federation"
@@ -128,14 +128,35 @@ trekPhysicsFile = "fcruiserphys.odf"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 370
-metalCost = 55
-latinumCost = 0
-biomatterCost = 0
-crewCost = 376
+
+
+
+
+
 officerCost = 10
 buildTime = 31
 
 maxSpecialEnergy = 1500
 
 specialEnergyRate = 15.0
+
+weapon5 = "ya0033"
+
+weaponHardpoints5 = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Cruiser (Excelsior Class Refit)"
+
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Transwarp Drive, Chain Reaction Pulsar. Availability follows the selected technology tree."
+dilithiumcost = 290
+metalcost = 95
+latinumcost = 0
+biomattercost = 0
+crewCost = 225

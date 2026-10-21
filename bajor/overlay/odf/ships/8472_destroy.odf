@@ -4,8 +4,8 @@
 unitName = "Destroyer"
 
 //tooltips
-tooltip = "8472_DESTROYER"
-verboseTooltip = "8472_DESTROYER_V"
+
+
 
 //Can decommission itself anywhere
 recyclesInPlace = 1
@@ -110,13 +110,30 @@ can_repair = 0
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 0
-metalCost = 0
-latinumCost = 0
-biomatterCost = 150
-crewCost = 0
+
+
+
+
+
 officerCost = 1
 buildTime = 40
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.5
+
+
+
+
+
+
+
+
+
+tooltip = "Attack Ship (Destroyer)"
+
+verboseTooltip = "A light combat ship for interception and fleet support. Living biotechnology shapes this organism for operations beyond fluidic space. Special systems: 8472 Clairvoyant Link. Availability follows the selected technology tree."
+dilithiumcost = 0
+metalcost = 0
+latinumcost = 0
+biomattercost = 330
+crewCost = 0

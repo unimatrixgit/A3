@@ -2,8 +2,8 @@
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
 unitName = "Peregine Class"
-tooltip = "Peregine Class - Federation Tactical Fighter"
-verboseTooltip = "Used extensively in the Dominion War this fighter was able to support fleet operations with it's high manuvarbility and firepower."
+
+
 
 //Race which can build ship & starting race of ship
 race = "federation"
@@ -88,13 +88,30 @@ trekPhysicsFile = "ffighterphys.odf"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 150
-metalCost = 0
-latinumCost = 0
-biomatterCost = 0
-crewCost = 1
+
+
+
+
+
 officerCost = 3
 buildTime = 27
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.891065
+
+
+
+
+
+
+
+
+
+tooltip = "Scout (Peregine Class)"
+
+verboseTooltip = "Surveys space and locates threats ahead of the fleet. Starfleet engineering supports a disciplined, versatile fleet."
+dilithiumcost = 75
+metalcost = 0
+latinumcost = 0
+biomattercost = 0
+crewCost = 25

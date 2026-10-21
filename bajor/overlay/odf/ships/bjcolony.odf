@@ -78,19 +78,19 @@ hotkeyLabel = "HOTKEY_F4"
 
 
 // Xaramada resource costs: original filename.
-dilithiumcost = 400
-metalcost = 60
-latinumcost = 0
-biomattercost = 0
+
+
+
+
 crewcost = 100
 officercost = 4
 buildtime = 30
 
 unitName = "Bajoran Colonial Transport"
 
-tooltip = "Bajoran Colonial Transport"
 
-verboseTooltip = "Bajoran Colonial Transport. Extrapolated transport-family colony ship."
+
+
 
 race = "bajoran"
 
@@ -121,3 +121,15 @@ criticaltargethardpoints = "hp17" "hp18" "hp19"
 maxspecialenergy = 1000
 
 specialenergyrate = 15
+
+dilithiumCost = 250
+
+metalCost = 100
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Colony Ship (Bajoran Colonial Transport)"
+
+verboseTooltip = "Establishes colonies on suitable planets. Bajoran militia engineering protects Bajor and its neighboring systems. Special systems: Colony Pods. Availability follows the selected technology tree."

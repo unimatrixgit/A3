@@ -1,12 +1,11 @@
 #include "blocutus.odf"
 unitName = "Omega Locutus' Cube"
-tooltip = "Omega Locutus' Cube"
-verboseTooltip = "Stabilized Omega refit. Enhanced shields, sustained weapons and energy regeneration."
+
+
 baseName = "bbattle1"
 maxHealth = 938
 shieldRate = 30.000
-maxSpecialEnergy = 1500
-specialEnergyRate = 15.000
+
 
 
 
@@ -16,12 +15,12 @@ specialEnergyRate = 15.000
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 1560
-metalCost = 1560
-latinumCost = 0
-biomatterCost = 0
-crewCost = 1500
-officerCost = 8
+
+
+
+
+
+officerCost = 2
 buildTime = 171
 
 // Additional green holding/assimilation beam, separate from the existing blue beam.
@@ -74,3 +73,33 @@ weapon4 = "xacremod"
 weaponHardpoints4 = "hp01"
 weapon5 = "xacgreen"
 weaponHardpoints5 = "hp01"
+
+// Borg adaptation: native scout passive cloak detector, always on.
+weapon6 = "gdetect3"
+weaponHardpoints6 = "hp01"
+
+// Technology assimilation: native beam and bounded captured-special capacity.
+weapon7 = "gTechAssimBeam"
+weaponHardpoints7 = "hp01"
+maxExtraWeapons = 6
+
+maxSpecialEnergy = 5000
+
+specialEnergyRate = 50
+
+
+
+
+
+
+
+
+
+tooltip = "Hero Ship (Omega Locutus' Cube)"
+
+verboseTooltip = "A named command vessel serving the Borg fleet. Collective engineering integrates this asset into the unimatrix. Special systems: Transwarp Drive, Shield Remodulation, Green Holding / Assimilation Beam, Technology Assimilation Beam. Availability follows the selected technology tree."
+dilithiumcost = 330
+metalcost = 90
+latinumcost = 0
+biomattercost = 0
+crewCost = 620

@@ -7,8 +7,8 @@
 unitName = "Imperial Research Institute"
 
 //tooltips
-tooltip = "KLI_UPGRADE"
-verboseTooltip = "KLI_UPGRADE_V"
+
+
 
 //Race which can build ship & starting race of ship
 race = "klingon"
@@ -33,7 +33,8 @@ shieldRate = 2.2
 possibleCraftNames = "Kang Center"
 
 //**********************************************************************
-//Construction Parameters
+//Construction Parameters
+
 buildItem0 = "klipod11"
 buildItem1 = "klipod12"
 buildItem2 = "klipod13"
@@ -49,10 +50,14 @@ secondaryBuildItem4 = "klipod25"
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
 
-// Hardpoints to hit for various systems and other locations.
-"hp17" "hp18" "hp19"
-"hp17" "hp18" "hp19"
-"hp17" "hp18" "hp19"
+// Hardpoints to hit for various systems and other locations.
+
+"hp17" "hp18" "hp19"
+
+"hp17" "hp18" "hp19"
+
+"hp17" "hp18" "hp19"
+
 "hp21"
 
 //**********************************************************************
@@ -84,10 +89,10 @@ transporter = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 0
-metalCost = 750
-latinumCost = 750
-biomatterCost = 0
+
+
+
+
 crewCost = 400
 officerCost = 10
 buildTime = 180
@@ -109,3 +114,23 @@ sensorstargethardpoints = "hp02" "hp06" "hp10" "hp19"
 hulltargethardpoints = "hp03" "hp07" "hp11" "hp13" "hp17" "hp01"
 
 criticaltargethardpoints = "hp04" "hp08" "hp14" "hp15" "hp20" "hp01"
+
+
+
+
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 750
+
+latinumCost = 750
+
+biomatterCost = 0
+
+tooltip = "Research Facility (Imperial Research Institute)"
+
+verboseTooltip = "Supports the technologies and upgrades available in its research menu. Klingon engineering serves the Empire with direct, relentless force."

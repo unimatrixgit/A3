@@ -1,0 +1,161 @@
+#include "battle.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Dawnstar Class"
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+// don't use the horrible old % crew loss on damage
+saneCrewLossMethod = 1
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 1300
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 3500
+enginesHitPoints = 3500
+weaponsHitPoints = 3500
+lifeSupportHitPoints = 3500
+sensorsHitPoints = 3500
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 13.0
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 1300
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 13
+
+//**********************************************************************
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+	"USS Payne" "USS Dennis" "USS REDRAGON" "USS APCMmkII"
+	"USS Monkeyhead" "USS PORTSTORM" "USS Dark Avenger"
+	"USS Shortone"
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Weapon Name (ex. "gphaser" -> gphaser.odf)
+weapon1 = "fdawnstarphas"
+weaponHardpoints1 = "hp02" "hp04" 
+
+// Weapon Name (ex. "gphaser" -> gphaser.odf)
+weapon2 = "fdawnstarphas"
+weaponHardpoints2 = "hp03" "hp05"
+
+// Photon Torpedoes
+weapon3 = "fdawnstarphot"
+weaponHardpoints3 = "hp08"
+
+// Towing Beam
+weapon4 = "gtracbm"
+weaponhardpoints4 = "hp21"
+
+//Detect Cloak 3
+weapon5 = "gdetectf"
+weaponHardpoints5 = "hp09"
+
+//Corbimite Refractor
+weapon6 = "gcorbom"
+weaponHardpoints6 = "hp14" "hp15" "hp16" 
+
+weapon7 = "slipstream"
+weaponHardpoints7 = "hp10" "hp13"
+
+// Hardpoints to hit for various systems and other locations.
+
+enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30"
+shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hullTargetHardpoints = "hp06" "hp08" "hp10"  "hp12" "hp14" "hp16" "hp18" "hp20" "hp22"
+criticalTargetHardpoints = "hp21"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+//**********************************************************************
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "Cruiser1Select"
+eventAcknowledge = "Cruiser1Acknowledge"
+eventAttack = "Cruiser1Attack"
+eventStop = "Cruiser1Stop"
+eventMove = "Cruiser1Move"
+eventRepair = "Cruiser1Repair"
+
+//**********************************************************************
+
+//change the scale
+
+// 94% of a sovereign
+ScaleSOD = 1.3
+
+hotkeyLabel = "HOTKEY_F2"
+
+// take out the special weapon autonomy
+show_sw_autonomy = 1
+
+
+//physics file for all other physics stuff
+physicsFile = "fbattlephys.odf"
+trekPhysicsFile = "fbattlephys.odf"
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+
+
+
+
+
+officerCost = 8
+buildTime = 28
+
+
+
+
+
+
+
+
+
+tooltip = "Capital Ship (Dawnstar Class)"
+
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Tractor Beam, Corbomite Reflector, Slipstream Drive. Availability follows the selected technology tree."
+dilithiumcost = 540
+metalcost = 230
+latinumcost = 0
+biomattercost = 0
+crewCost = 830

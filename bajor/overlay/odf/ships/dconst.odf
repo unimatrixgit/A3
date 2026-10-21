@@ -2,8 +2,8 @@
 
 race = "dominion"
 unitName = "Jem'Hadar Construction Ship"
-tooltip = "Jem'Hadar Construction Ship"
-verboseTooltip = "Builds all Dominion stations and facilities."
+
+
 maxHealth = 150
 shieldGeneratorHitPoints = 30
 enginesHitPoints = 30
@@ -147,11 +147,11 @@ can_explore = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 250
-metalCost = 0
-latinumCost = 0
-biomatterCost = 0
-crewCost = 150
+
+
+
+
+
 officerCost = 2
 buildTime = 17
 buildItem0 = "dbase"
@@ -178,3 +178,20 @@ canAttack = 1
 combat = 1
 
 alert = 1
+
+
+
+
+
+
+
+
+
+tooltip = "Constructor (Jem'Hadar Construction Ship)"
+
+verboseTooltip = "Builds the structures listed in its construction menu. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Tractor Beam. Availability follows the selected technology tree."
+dilithiumcost = 125
+metalcost = 25
+latinumcost = 0
+biomattercost = 0
+crewCost = 100

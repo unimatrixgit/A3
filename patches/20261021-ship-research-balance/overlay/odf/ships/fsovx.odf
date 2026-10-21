@@ -1,0 +1,162 @@
+#include "battle.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Sovereign-X Class"
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+// don't use the horrible old % crew loss on damage
+saneCrewLossMethod = 1
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 1400
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 3750
+enginesHitPoints = 3750
+weaponsHitPoints = 3750
+lifeSupportHitPoints = 3750
+sensorsHitPoints = 3750
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 14
+
+//Maximum Value of Special Energy
+
+
+//Rate at which special energy recharges (points per second... we think)
+
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+	"USS Saratoga" "USS Rand" "USS Faithful" "USS Archangel"
+	"USS Atlas" "USS Legacy" "USS Challenger" "USS Justice" 
+	"USS Integrity" "USS Alexandra" "USS Endurance" "USS Midway"
+	"USS Majestic" "USS Hyperion" "USS Avatar" "USS Avalon"
+	"USS Horizon" "USS Nimitz" "USS Aries" "USS Leviathan"
+	"USS Sentinel" "USS Tiberius" "USS Odin" "USS Providence"
+	"USS Formidable" "USS Destiny" "USS Tempest" "USS Cavalier"
+	"USS Yamato" "USS Calabria" "USS Coburn" "USS Hickey" "USS Hope"
+
+//**********************************************************************
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// phaser
+weapon1 = "fsovxphas"
+weaponHardpoints1 = "hp03" "hp04" "hp05"
+
+// Photon torpedos
+weapon2 = "fsovxphot"
+weaponHardpoints2 = "hp06" 
+
+//Self Destruct
+
+weaponHardpoints3 = "hp01" "hp17" "hp26"
+
+//Corbimite Refractor
+weapon4 = "gcorbom"
+weaponHardpoints4 = "hp01" "hp17" "hp26"
+
+// Photon torpedos
+weapon5 = "fsovxphot"
+weaponHardpoints5 = "hp27"
+
+// Photon torpedos
+weapon6 = "fsovxphot"
+weaponHardpoints6 = "hp28"
+
+// pulse phaser
+weapon7 = "fsovxpulse"
+weaponHardpoints7 = "hp29"
+
+// pulse phaser
+weapon8 = "fsovxpulse"
+weaponHardpoints8 = "hp30"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32" "hp33" "hp34" "hp35" "hp36"
+shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hullTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+criticalTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+
+//**********************************************************************
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+//**********************************************************************
+
+
+//change the scale
+ScaleSOD = .775
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "fed_battle"
+hotkeyLabel = "HOTKEY_F4"
+
+//physics file for all other physics stuff
+physicsFile = "fbattlephys.odf"
+trekPhysicsFile = "fbattlephys.odf"
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+
+
+
+
+
+officerCost = 8
+buildTime = 29
+
+maxSpecialEnergy = 1400
+
+specialEnergyRate = 14.0
+
+
+
+
+
+
+
+
+
+tooltip = "Capital Ship (Sovereign-X Class)"
+
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+weapon3 = "z21fa45955"
+dilithiumcost = 635
+metalcost = 275
+latinumcost = 0
+biomattercost = 0
+crewCost = 900

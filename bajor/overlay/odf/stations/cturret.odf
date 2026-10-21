@@ -7,8 +7,8 @@
 unitName = "Defense Turret"
 
 //tooltips
-tooltip = "Defense Turret"
-verboseTooltip = "Primary Defensive station"
+
+
 
 //Race which can build ship & starting race of ship
 race = "cardassian"
@@ -50,13 +50,15 @@ weaponsHitPoints = 997
 //ART PARAMETERS & WEAPON NAMES
 
 // Pulse Phaser
-weapon1 = "ct01pul"
+weapon1 = "ct01pul"
+
 
 // Plasma Torpedo
 weapon2 = "cc08plas"
 weaponHardpoints2 = "hp07"
 
-// Hardpoints to hit for various systems and other locations.
+// Hardpoints to hit for various systems and other locations.
+
 
 //**********************************************************************
 //MESSAGE & SOUND PARAMETERS
@@ -81,10 +83,10 @@ rangeScan = 800.0f
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 75
-metalCost = 75
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 0
 officerCost = 3
 buildTime = 45
@@ -106,3 +108,15 @@ sensorstargethardpoints = "HP01" "HP02" "HP03"
 hulltargethardpoints = "HP01" "HP02" "HP03"
 
 criticaltargethardpoints = "HP01" "HP02" "HP03"
+
+dilithiumCost = 150
+
+metalCost = 150
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Defense Station (Defense Turret)"
+
+verboseTooltip = "A fixed defensive installation protecting nearby fleet assets. Cardassian engineering sustains the Union through ordered, persistent operations."

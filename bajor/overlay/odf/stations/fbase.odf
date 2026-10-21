@@ -7,8 +7,8 @@
 unitName = "SpaceDock"
 
 //tooltips
-tooltip = "SpaceDock - Starbase"
-verboseTooltip = "This is the central Communication and command station for the ships and stations in the area."
+
+
 
 //Race which can build ship & starting race of ship
 race = "federation"
@@ -220,10 +220,10 @@ SHOW_SW_AUTONOMY = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 2000
-metalCost = 2000
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 150
 officerCost = 10
 buildTime = 100
@@ -273,7 +273,6 @@ buildItem10 = "fantares"
 buildItem11 = "xfuconst"
 
 // Equal visual span: vanilla Borg Nexus reference.
-ScaleSOD = 0.526853038
 
 
 
@@ -284,6 +283,33 @@ ScaleSOD = 0.526853038
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+dilithiumCost = 2150
+
+metalCost = 2150
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Starbase (SpaceDock)"
+
+verboseTooltip = "A fortified center for fleet operations and local production. Starfleet engineering supports a disciplined, versatile fleet."
+
+ScaleSOD = 0.711251601
+
+footprintBuffer = 108
 
 eastBuffer = 0
 
@@ -292,5 +318,3 @@ westBuffer = 0
 northBuffer = 0
 
 southBuffer = 0
-
-footprintBuffer = 80

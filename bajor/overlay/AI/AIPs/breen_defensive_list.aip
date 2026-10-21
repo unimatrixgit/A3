@@ -1,21 +1,20 @@
-// Xaramada Breen AI: all build targets exist and are Breen faction units.
+// Economy-first opening;original later force choices and tech phases retained.
 #include "aipdef.h"
-
 int checkTechnologyAvailable = 1;
-
 Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 {
     "brbase", 1, 0, -1, 1,
-    "xbruconst", 1, 0, 1, 0, // Faction Universal constructor for advanced facilities
-    "brconst", 1, 0, -1, 0,
-    "brconst", 1, 0, -1, 0,
-    "brscout", 1, 0, 2, 0,
-    "brmining", 1, 1, -1, 0,
+    "brconst", 2, 0, -1, 0,
+    "brorbital", 1, 0, -1, 0,
+    "brmining", 1, 0, -1, 0,
     "brfreight", 3, 0, -1, 0,
     "bryard", 1, 0, -1, 0,
-    "brdestroy", 2, 0, 6, -2,
+    "brdestroy", 2, 0, -1, 0,
+    "xbruconst", 1, 0, -1, 0,
+    "brconst", 1, 0, -1, 0,
+    "brscout", 1, 0, 2, 0,
     "brresear", 1, 0, -1, 2,
-    "brorbital", 1, 1, -1, 0,
+    "z21brspec", 1, 0, -1, 0, // Additional special ability research
     "brcolony", 1, 0, 3, 0,
     "brmining", 1, 2, -1, 0,
     "brfreight", 2, 0, -1, 0,

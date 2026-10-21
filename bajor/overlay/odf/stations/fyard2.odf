@@ -7,8 +7,8 @@
 unitName = "Sacramento Class"
 
 //tooltips
-tooltip = "Sacramento Class - Shipyard"
-verboseTooltip = "Builds capital ships including Akira, Excelsior, Excelsior Refit, Sovereign, Sovereign Refit, Prometheus, and Excalibur."
+
+
 
 //Race which can build ship & starting race of ship
 race = "federation"
@@ -45,7 +45,8 @@ possibleCraftNames =
 //ART PARAMETERS & WEAPON NAMES
 
 
-// Hardpoints to hit for various systems and other locations.
+// Hardpoints to hit for various systems and other locations.
+
 
 //**********************************************************************
 
@@ -133,3 +134,7 @@ sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08
 hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
 
 criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+
+tooltip = "Shipyard (Sacramento Class)"
+
+verboseTooltip = "Produces the vessels listed in its construction menu. Starfleet engineering supports a disciplined, versatile fleet."

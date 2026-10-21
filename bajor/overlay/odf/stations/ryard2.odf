@@ -7,8 +7,8 @@
 unitName = "Advanced Shipyard"
 
 //tooltips
-tooltip = "ROM_YARD2"
-verboseTooltip = "ROM_YARD2_V"
+
+
 
 //Race which can build ship & starting race of ship
 race = "romulan"
@@ -37,7 +37,8 @@ possibleCraftNames =
 //ART PARAMETERS & WEAPON NAMES
 
 
-// Hardpoints to hit for various systems and other locations.
+// Hardpoints to hit for various systems and other locations.
+
 
 //**********************************************************************
 //Construction Parameters
@@ -116,3 +117,7 @@ sensorstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17
 hulltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
 
 criticaltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+
+tooltip = "Shipyard (Advanced Shipyard)"
+
+verboseTooltip = "Produces the vessels listed in its construction menu. Romulan engineering favors calculated strikes and control of the battlefield."

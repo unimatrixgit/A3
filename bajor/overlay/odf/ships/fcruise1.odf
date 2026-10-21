@@ -4,8 +4,8 @@
 unitName = "Akira Class"
 
 //tooltips
-tooltip = "Akira Class - Heavy Cruiser"
-verboseTooltip = "Designed to be a multi-role vessel the Akira boasts tremendous firepower through multiple torpedo bays."
+
+
 
 //Race which can build ship & starting race of ship
 race = "federation"
@@ -122,14 +122,31 @@ trekPhysicsFile = "fcruiserphys.odf"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 175
-metalCost = 100
-latinumCost = 0
-biomatterCost = 0
-crewCost = 200
+
+
+
+
+
 officerCost = 9
 buildTime = 12
 
 maxSpecialEnergy = 1200
 
 specialEnergyRate = 12.0
+
+
+
+
+
+
+
+
+
+tooltip = "Cruiser (Akira Class)"
+
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Chain Reaction Pulsar. Availability follows the selected technology tree."
+dilithiumcost = 390
+metalcost = 130
+latinumcost = 0
+biomattercost = 0
+crewCost = 265

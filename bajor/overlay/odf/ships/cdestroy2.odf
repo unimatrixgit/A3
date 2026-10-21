@@ -4,8 +4,8 @@
 unitName = "Sartan Class"
 
 //tooltips
-tooltip = "Sartan Class"
-verboseTooltip = "Cardassian Medium Destroyer"
+
+
 
 //Race which can build ship & starting race of ship
 race = "cardassian"
@@ -103,13 +103,34 @@ hotkeyLabel = "HOTKEY_F2"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 100
-metalCost = 0
-latinumCost = 0
-biomatterCost = 0
-crewCost = 70
+
+
+
+
+
 officerCost = 6
 buildTime = 23
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.5
+
+weapon3 = "ya0014"
+
+weaponHardpoints3 = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Attack Ship (Sartan Class)"
+
+verboseTooltip = "A light combat ship for interception and fleet support. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Micro Organisms. Availability follows the selected technology tree."
+dilithiumcost = 235
+metalcost = 60
+latinumcost = 0
+biomattercost = 0
+crewCost = 105

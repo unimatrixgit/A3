@@ -1,0 +1,65 @@
+#include "battle.odf"
+unitName = "Daedalus Command Prototype"
+label = "Daedalus Command Prototype"
+
+
+race = "federation"
+baseName = "xhfdaedalus"
+isHero = 1
+possibleCraftNames = "Daedalus Command Prototype"
+maxHealth = 2200
+shieldRate = 22.0
+maxSpecialEnergy = 2500
+specialEnergyRate = 25
+
+
+
+
+
+maximumCrew = 101
+officerCost = 5
+buildTime = 60
+ScaleSOD = 1
+physicsFile = "ffrigatephys.odf"
+trekPhysicsFile = "ffrigatephys.odf"
+hotkeyLabel = ""
+weapon1 = "fentphas"
+weaponHardpoints1 = "hp01"
+weapon2 = "frphot"
+weaponHardpoints2 = "hp02"
+
+weaponHardpoints3 = "hp03"
+eventSelect = "XV_fent_Select"
+eventAcknowledge = "XV_fent_Acknowledge"
+eventAttack = "XV_fent_Attack"
+eventStop = "XV_fent_Stop"
+eventMove = "XV_fent_Move"
+eventRepair = "XV_fent_Repair"
+eventRedAlert = "XV_fent_RedAlert"
+eventYellowAlert = "XV_fent_YellowAlert"
+eventGreenAlert = "XV_fent_GreenAlert"
+eventTransport = "XV_fent_Transport"
+eventSelfDestruct = "XV_fent_SelfDestruct"
+eventDecommission = "XV_fent_Decommission"
+
+weapon4 = "ya0076"
+
+weaponHardpoints4 = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Hero Ship (Daedalus Command Prototype)"
+
+verboseTooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+weapon3 = "z21fa45955"
+dilithiumcost = 350
+metalcost = 150
+latinumcost = 0
+biomattercost = 0
+crewCost = 101

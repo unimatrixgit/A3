@@ -1,0 +1,127 @@
+#include "cruise1.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Centaur Class"
+
+
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 360
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 750
+enginesHitPoints = 750
+weaponsHitPoints = 750
+lifeSupportHitPoints = 750
+sensorsHitPoints = 750
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 3.6
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+	"USS Wolverine" "USS Relentless" "USS Hurricane" 
+	"USS Spitfire" "USS Havoc" "USS Kingfisher" "USS Nomad"
+	"USS Renegade" "USS Vigilant" "USS Manowar" "USS Savannah"
+	"USS Ajax" "USS Law" "USS Cheyenne" "USS Baracuda"
+	"USS Armstrong" "USS Concord" "USS Crockett" "USS Eagle"
+	"USS Hornet" "USS Potemkin" "USS Revere" "USS Rockford"
+	"USS Triumph" "USS Victoria" "USS Reliant" "HMS Fisher"
+	"USS Helena" "USS Corvus" "USS Pleiades" "USS Tsunami"
+	"USS Mongoose" "USS Cobra" "USS Wasp" "USS Scorpion"
+	"USS Condor" "USS Albatross" "USS Voltaire" "USS Python"
+	"USS Raven" "USS Falkirk" "USS Stromming" "USS Zeppelin"
+	"USS Matador" "USS Turin" "USS Ottawa" "USS Snake Eyes"
+	"USS Quillon" "USS Gauntlet" "USS Halberd" "USS Monsoon"                      
+	"USS Tenacious" "USS Javelin" "USS Brookfield" "USS Baracus"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Pulse Phaser
+weapon1 = "fcentaurphas"
+weaponHardpoints1 = "hp22" "hp23" 
+
+// Photon Torpedo
+weapon2 = "frphot"
+weaponHardpoints2 = "hp10" "hp13"
+
+// Photon Torpedo
+weapon3 = "frphot"
+weaponHardpoints3 = "hp11" "hp12"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp02" "hp03" "hp08" "hp09" "hp04" "hp05"
+lifeSupportTargetHardpoints = "hp14" "hp15" 
+weaponsTargetHardpoints = "hp22" "hp23" "hp10" "hp13" "hp11" "hp12"
+shieldGeneratorTargetHardpoints = "hp06" "hp07"
+sensorsTargetHardpoints = "hp16" "hp17" "hp20" "hp21" 
+hullTargetHardpoints = "hp01" "hp20" "hp21" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19"
+criticalTargetHardpoints = "hp06" "hp07" 
+
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "fed_destroyer"
+hotkeyLabel = "HOTKEY_F2"
+
+
+// let's make this a bit smaller
+ScaleSOD = 0.33
+
+
+//physics file for all other physics stuff
+physicsFile = "ffrigatephys.odf"
+trekPhysicsFile = "ffrigatephys.odf"
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+officerCost = 4
+buildTime = 15
+
+weapon4 = "ya0030"
+
+weaponHardpoints4 = "hp01"
+
+maxSpecialEnergy = 1200
+
+
+
+
+
+
+
+
+
+tooltip = "Cruiser (Centaur Class)"
+
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Chain Reaction Pulsar. Availability follows the selected technology tree."
+dilithiumcost = 170
+metalcost = 60
+latinumcost = 0
+biomattercost = 0
+crewCost = 175

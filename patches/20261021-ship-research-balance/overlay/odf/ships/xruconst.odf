@@ -1,0 +1,160 @@
+#include "const.odf"
+
+//Race which can build ship & starting race of ship
+
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 804
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 239
+enginesHitPoints = 190
+weaponsHitPoints = 92
+lifeSupportHitPoints = 215
+sensorsHitPoints = 112
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.6
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 29
+impulseSpeed = 78
+warpSpeed = 0
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 2400
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 24 
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//**********************************************************************
+//Worker Bee Parameters
+
+// Name of the worker bee SOD.
+workerBeeName = "rbee"
+weldingBeamWidth = 5.0
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "Mamiusias" "Mictius" "Miullo" "Natenis" "Nirutius" "Nostan"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Phaser
+//weapon1 = "gphaser"
+//weaponHardpoints1 = "hp01" "hp02" 
+
+// Towing Beam
+weapon1 = "gtracbm"
+weaponHardpoints1 = "hp03"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+lifeSupportTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+weaponsTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+shieldGeneratorTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+sensorsTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+hullTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+criticalTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+
+//**********************************************************************
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+officerCost = 2
+buildTime = 17
+unitName = "Romulan Universal Constructor"
+
+
+race = "romulan"
+baseName = "xruconst"
+ScaleSOD = 1.0
+hotkeyLabel = "HOTKEY_F2"
+buildItem0 = "bbase"
+buildItem1 = "fbase"
+buildItem2 = "kbase"
+buildItem3 = "rbase"
+buildItem4 = "cbase"
+buildItem5 = "dbase"
+buildItem6 = "brbase"
+buildItem7 = "bjbase"
+buildItem8 = "rupgrade"
+
+weapon2 = "rc01phas"
+
+weaponHardpoints2 = "hp02"
+
+weapon3 = "xp10t"
+
+weaponHardpoints3 = "hp03"
+
+canAttack = 1
+
+combat = 1
+
+alert = 1
+
+
+
+
+
+
+
+
+
+tooltip = "Constructor (Romulan Universal Constructor)"
+
+verboseTooltip = "Builds the structures listed in its construction menu. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Tractor Beam. Availability follows the selected technology tree."
+dilithiumcost = 125
+metalcost = 25
+latinumcost = 0
+biomattercost = 0
+crewCost = 100

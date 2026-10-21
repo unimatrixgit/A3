@@ -1,0 +1,38 @@
+#include "SensorUpgradePod.odf"
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Level 2 Sensors Pod"
+
+//tooltips
+
+
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Latinum Cost to build
+
+//Number of officers required to build this ship
+
+//Amount of time required to build ship
+
+hotkeyLabel = "HOTKEY_F3"
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 400
+metalCost = 200
+latinumCost = 0
+biomatterCost = 0
+crewCost = 0
+officerCost = 1
+buildTime = 120
+
+tooltip = "Research Upgrade (Level 2 Sensors Pod)"
+
+verboseTooltip = "Researches Level 2 Sensors Pod. Collective engineering integrates this asset into the unimatrix."

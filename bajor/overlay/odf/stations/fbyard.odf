@@ -6,8 +6,8 @@
 //Name of Ship class in Ship Display window & in edit mode & tooltip
 unitName = "Bigstar-class Advanced Shipyard"
 
-tooltip = "Bigstar-class advanced Shipyard"
-verboseTooltip = "Bigstar-class Advanced Shipyard"
+
+
 
 //Race which can build ship & starting race of ship
 race = "federation"
@@ -189,10 +189,10 @@ baseName = "fyard2"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 1000
-metalCost = 1000
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 600
 officerCost = 4
 buildTime = 35
@@ -203,3 +203,15 @@ buildItem3 = "fgalaxy"
 buildItem4 = "fspecial"
 buildItem5 = "fbattle"
 buildItem6 = "xfuconst"
+
+dilithiumCost = 300
+
+metalCost = 1000
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Shipyard (Bigstar-class Advanced Shipyard)"
+
+verboseTooltip = "Produces the vessels listed in its construction menu. Starfleet engineering supports a disciplined, versatile fleet."

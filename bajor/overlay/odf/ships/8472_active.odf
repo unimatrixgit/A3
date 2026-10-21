@@ -14,8 +14,8 @@ animation = 2
 unitName = "Active Embryo"
 
 //tooltips
-tooltip = "8472_ACTIVE"
-verboseTooltip = "8472_ACTIVE_V"
+
+
 
 //Can decommission itself anywhere
 recyclesInPlace = 1
@@ -115,10 +115,10 @@ hotkeyLabel = "HOTKEY_F1"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 0
-metalCost = 0
-latinumCost = 0
-biomatterCost = 40
+
+
+
+
 crewCost = 0
 officerCost = 0
 buildTime = 13
@@ -136,3 +136,15 @@ canAttack = 1
 combat = 1
 
 alert = 1
+
+dilithiumCost = 0
+
+metalCost = 0
+
+latinumCost = 0
+
+biomatterCost = 150
+
+tooltip = "Bio-Constructor (Active Embryo)"
+
+verboseTooltip = "Grows the biological structures listed in its construction menu. Living biotechnology shapes this organism for operations beyond fluidic space. Special systems: Tractor Beam. Availability follows the selected technology tree."

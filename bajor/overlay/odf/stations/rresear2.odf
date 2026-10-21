@@ -7,8 +7,8 @@
 unitName = "Tal Shiar Facility"
 
 //tooltips
-tooltip = "Tal Shiar Facility"
-verboseTooltip = "Romulan Advanced Research Center"
+
+
 
 //Race which can build ship & starting race of ship
 race = "romulan"
@@ -35,7 +35,8 @@ shieldRate = 4.1
 possibleCraftNames = "Classified"
 
 //**********************************************************************
-//Construction Parameters
+//Construction Parameters
+
 buildItem0 = "rompod6"
 buildItem1 = "rompod7"
 buildItem2 = "rompod8"
@@ -44,13 +45,20 @@ buildItem3 = "rompod9"
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
 
-// Hardpoints to hit for various systems and other locations.
-"hp20" "hp21" "hp23" "hp25" "hp26"
-"hp20" "hp21" "hp23" "hp25" "hp26"
-"hp20" "hp21" "hp23" "hp25" " hp26"
-"hp20" "hp21" "hp23" "hp25" "hp26"
-"hp20" "hp21" "hp23" "hp25" "hp26"
-"hp20" "hp21" "hp23" "hp25" "hp26"
+// Hardpoints to hit for various systems and other locations.
+
+"hp20" "hp21" "hp23" "hp25" "hp26"
+
+"hp20" "hp21" "hp23" "hp25" "hp26"
+
+"hp20" "hp21" "hp23" "hp25" " hp26"
+
+"hp20" "hp21" "hp23" "hp25" "hp26"
+
+"hp20" "hp21" "hp23" "hp25" "hp26"
+
+"hp20" "hp21" "hp23" "hp25" "hp26"
+
 "hp20" "hp21" "hp23" "hp25" "hp26"
 
 //**********************************************************************
@@ -82,17 +90,17 @@ transporter = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 0
-metalCost = 750
-latinumCost = 500
-biomatterCost = 0
+
+
+
+
 crewCost = 200
 officerCost = 15
 buildTime = 140
 
 baseName = "xvstock_rresear2"
 
-podhardpoints = "pod01" "pod02" "pod03" "pod04"
+
 
 enginestargethardpoints = "hp10" "hp11" "hp14" "hp15" "hp17" "hp18" 
 
@@ -107,3 +115,25 @@ sensorstargethardpoints = "hp10" "hp11" "hp14" "hp15" "hp17" "hp18"
 hulltargethardpoints = "hp10" "hp11" "hp14" "hp15" "hp17" "hp18" 
 
 criticaltargethardpoints = "hp10" "hp11" "hp14" "hp15" "hp17" "hp18" 
+
+
+
+
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 750
+
+latinumCost = 500
+
+biomatterCost = 0
+
+tooltip = "Research Facility (Tal Shiar Facility)"
+
+verboseTooltip = "Supports the technologies and upgrades available in its research menu. Romulan engineering favors calculated strikes and control of the battlefield."
+buildItem4 = "z21rspec"
+podHardpoints = "pod01" "pod02" "pod03" "pod04" "hp10"

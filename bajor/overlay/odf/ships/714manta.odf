@@ -4,8 +4,8 @@
 unitName = "Manta Class"
 
 //tooltips
-tooltip = "Manta Class"
-verboseTooltip = "Organic Fighter"
+
+
 
 //Can decommission itself anywhere
 recyclesInPlace = 1
@@ -117,13 +117,34 @@ can_repair = 0
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 0
-metalCost = 0
-latinumCost = 0
-biomatterCost = 795
-crewCost = 0
+
+
+
+
+
 officerCost = 1
 buildTime = 45
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.5
+
+weapon4 = "ya0001"
+
+weaponHardpoints4 = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Scout (Manta Class)"
+
+verboseTooltip = "Surveys space and locates threats ahead of the fleet. Living biotechnology shapes this organism for operations beyond fluidic space. Special systems: Clairvoyance. Availability follows the selected technology tree."
+dilithiumcost = 0
+metalcost = 0
+latinumcost = 0
+biomattercost = 190
+crewCost = 0

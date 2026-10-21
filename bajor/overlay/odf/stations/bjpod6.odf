@@ -7,8 +7,8 @@
 unitname = "Bajoran Engineering Support"
 
 //tooltips
-tooltip = "Bajoran Engineering Support"
-verbosetooltip = "Bajoran Engineering Support. Extrapolated technology pod."
+
+
 
 //Race which can build ship & starting race of ship
 race = "bajoran"
@@ -40,10 +40,10 @@ hotkeyLabel = "HOTKEY_F1"
 
 
 // Xaramada resource costs: original filename.
-dilithiumcost = 0
-metalcost = 550
-latinumcost = 0
-biomattercost = 0
+
+
+
+
 crewcost = 0
 officercost = 2
 buildtime = 140
@@ -75,3 +75,23 @@ specialenergyrate = 0
 engineshitpoints = 0
 
 weaponshitpoints = 0
+
+
+
+
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 300
+
+latinumCost = 300
+
+biomatterCost = 0
+
+tooltip = "Research Upgrade (Bajoran Engineering Support)"
+
+verboseTooltip = "Researches Bajoran Engineering Support. Bajoran militia engineering protects Bajor and its neighboring systems."

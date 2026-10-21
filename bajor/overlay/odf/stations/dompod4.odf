@@ -1,0 +1,70 @@
+#include "pod.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Poleron Torpedo Pod"
+
+//tooltips
+
+//verboseTooltip = "Passes through the shields of an enemy ship and disables a system."
+
+//Race which can build ship & starting race of ship
+race = "dominion"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//metal Cost to build
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+//eventSelect = "AntiMatter"
+
+//**********************************************************************
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "an_mines"
+hotkeyLabel = "HOTKEY_F2"
+
+
+
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewCost = 0
+officerCost = 1
+buildTime = 50
+
+
+
+
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 300
+
+latinumCost = 300
+
+biomatterCost = 0
+
+tooltip = "Research Upgrade (Poleron Torpedo Pod)"
+
+verboseTooltip = "Researches Poleron Torpedo Pod. Dominion engineering serves the Founders through disciplined JemHadar operations."

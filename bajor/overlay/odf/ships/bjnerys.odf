@@ -4,7 +4,7 @@
 unitName = "Colonel Kira Nerys - Bajoran Command Battleship"
 
 //tooltips
-tooltip = "Colonel Kira Nerys - Bajoran Command Battleship"
+
 
 
 //This ship is a hero.
@@ -66,11 +66,11 @@ weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp0
 weaponHardpoints2 = "hp14" "hp68"
 
 //Self Destruct
-weapon3 = "gselfdes"
+
 weaponHardpoints3 = "hp34" "hp35" "hp36"
 
 //Corbimite Refractor
-weapon4 = "gcorbom"
+
 weaponHardpoints4 = "hp34" "hp35" "hp36"
 
 
@@ -148,26 +148,45 @@ maxspecialenergy = 1265
 
 specialenergyrate = 12.65
 
-dilithiumcost = 630
 
-metalcost = 140
 
-latinumcost = 0
 
-biomattercost = 0
+
+
+
+
 
 officercost = 17
 
-crewCost = 770
+
 buildTime = 33
 
 
 
 
 
-verboseTooltip = "Kira Nerys command battleship. Lab balance: 15 percent tougher than a standard Sovereign, with a modest weapon bonus."
+
 
 
 weapon1 = "bjnphs"
 
 weapon2 = "bjntor"
+
+
+
+
+
+
+
+
+
+tooltip = "Hero Ship (Colonel Kira Nerys - Bajoran Command Battleship)"
+
+verboseTooltip = "A named command vessel serving the Bajoran fleet. Bajoran militia engineering protects Bajor and its neighboring systems. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+weapon4 = "z21bj1ec392"
+weapon3 = "z21bja45955"
+dilithiumcost = 425
+metalcost = 180
+latinumcost = 0
+biomattercost = 0
+crewCost = 735

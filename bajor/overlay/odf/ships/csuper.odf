@@ -4,8 +4,8 @@
 unitName = "Dreadnought Missile"
 
 //tooltips
-tooltip = "Dreadnought Missile"
-verboseTooltip = "Cardassian Automated weapon of mass destruction"
+
+
 
 //Race which can build ship & starting race of ship
 race = "cardassian"
@@ -57,7 +57,8 @@ possibleCraftNames = "Gloril" "Lagrim" "Thorthesh"
 //ART PARAMETERS & WEAPON NAMES
 
 // Super Weapon @TODO make this unique, this is the phoenix weapon.
-weapon1 = "gcDreadNaught"
+weapon1 = "gcDreadNaught"
+
 
 // This is a missile
 missileDetonator = "gcDreadnaught"
@@ -74,7 +75,8 @@ weaponHardpoints3 = "hp01"
 weapon4 = "cc07plas"
 weaponHardpoints4 = "hp09"
 	
-// Hardpoints to hit for various systems and other locations.
+// Hardpoints to hit for various systems and other locations.
+
 
 //**********************************************************************
 //AI system parameters
@@ -134,11 +136,11 @@ canAttackPlanets = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 1000
-metalCost = 1000
-latinumCost = 0
-biomatterCost = 0
-crewCost = 0
+
+
+
+
+
 officerCost = 0
 buildTime = 117
 
@@ -159,3 +161,20 @@ sensorstargethardpoints = "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
 hulltargethardpoints = "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
 
 criticaltargethardpoints = "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+
+
+
+
+
+
+
+
+
+tooltip = "Support Ship (Dreadnought Missile)"
+
+verboseTooltip = "Provides specialist support for fleet operations. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: , hidden, requires none., Cloak. Availability follows the selected technology tree."
+dilithiumcost = 455
+metalcost = 155
+latinumcost = 0
+biomattercost = 0
+crewCost = 0

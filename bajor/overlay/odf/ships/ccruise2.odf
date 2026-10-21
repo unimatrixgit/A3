@@ -1,0 +1,131 @@
+#include "cruise2.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Gul Vystan Class"
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "cardassian"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 1006
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 543
+enginesHitPoints = 517
+weaponsHitPoints = 438
+lifeSupportHitPoints = 429
+sensorsHitPoints = 254
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 7.1
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 2200
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 38
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 85
+impulseSpeed = 78
+warpSpeed = 860
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "Imsarir" "Ginmar" "Hlotild" "Svidi" "Svird" "Thoning" "Svoding" "Lostli" "Alding" "Eylimi" "Slurnskar"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Phaser
+weapon1 = "cc06phas"
+weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04"
+
+// Special Weapon flux wave
+weapon2 = "gfluxwave"
+weaponHardpoints2 = "hp05"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26"
+shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hullTargetHardpoints = "hp06" "hp08" "hp10"  "hp12" "hp14" "hp16" "hp18" "hp20" "hp24" "hp25"
+criticalTargetHardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp22" "hp23"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.75f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.30f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 0.75f
+//**********************************************************************
+
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "X"
+hotkeyLabel = "HOTKEY_F6"
+
+scaleSOD = 1.45
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+officerCost = 8
+buildTime = 15
+
+
+
+
+
+
+
+
+
+tooltip = "Cruiser (Gul Vystan Class)"
+
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Flux Wave. Availability follows the selected technology tree."
+dilithiumcost = 145
+metalcost = 50
+latinumcost = 0
+biomattercost = 0
+crewCost = 160

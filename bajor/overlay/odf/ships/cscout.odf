@@ -4,8 +4,8 @@
 unitName = "Hideki Class"
 
 //tooltips
-tooltip = "Hideki Class"
-verboseTooltip = "Cardassian Medium Scout"
+
+
 
 //Race which can build ship & starting race of ship
 race = "cardassian"
@@ -105,13 +105,34 @@ hotkeyLabel = "HOTKEY_F1"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 40
-metalCost = 0
-latinumCost = 0
-biomatterCost = 0
-crewCost = 10
+
+
+
+
+
 officerCost = 2
 buildTime = 10
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.65
+
+weapon4 = "ya0012"
+
+weaponHardpoints4 = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Scout (Hideki Class)"
+
+verboseTooltip = "Surveys space and locates threats ahead of the fleet. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Sensor Scrambler. Availability follows the selected technology tree."
+dilithiumcost = 100
+metalcost = 0
+latinumcost = 0
+biomattercost = 0
+crewCost = 35

@@ -1,0 +1,52 @@
+//This is the main phaser ordinance file
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "phaser"
+
+//The number of units which are subtracted from the Special Energy Reserve
+specialEnergyCost = 0
+
+//The base amount of damage which the ordinance does with each hit
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a number)
+damageBase = 20
+
+//The amount of variance applied to the damage (i.e. 10 + or - 2)
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a number)
+damageVariance = 0
+
+//The threshold which must be exceeded to cause crew casualties prior
+//to shield exhaustion
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a number)
+damageThreshold = 20
+
+//The multiplier by which any damage which exceeds the threshold is 
+//multiplied by to calculate the percentage of crew lost with that hit
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a multiplier)
+shieldCrewModifier = 0.15
+
+//The multiplier by which any damage which is applied to the hull is
+//multiplied by to calculate the percentage of crew lost with that hit
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a multiplier)
+hullCrewModifier = 0.05
+
+//Amount of time the ordinance will exists without hitting something
+lifeSpan = 1.6
+
+//Length of the shield hit animation.
+shieldDuration = 1.0
+
+//How fast the shot moves
+shotSpeed = 1e6
+
+//The sprite which is used for this ordinance
+Sprite = "cphaser"
+
+//Phaser specific: this modifies the color of the phaser
+shotColor = 227
+
+//Phaser specific: this is the thickness of the beam
+Radius = 4.0
+
+// Time to play through the animation for the sprite in seconds
+spriteDuration = 1.0
+

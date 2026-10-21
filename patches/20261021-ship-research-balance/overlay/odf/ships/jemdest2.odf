@@ -1,0 +1,157 @@
+#include "destroy.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Destroyer MK2"
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "cardassian"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 1015
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 891
+enginesHitPoints = 605
+weaponsHitPoints = 765
+lifeSupportHitPoints = 398
+sensorsHitPoints = 479
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 7.2			
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 2200
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 38
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 99
+impulseSpeed = 78
+warpSpeed = 961
+
+//**********************************************************************
+//SHIP NAMES
+
+possibleCraftNames = 
+	"1st Div 1st Wing" "1st Div 2nd Wing" "1st Div 3rd Wing"
+	"1st Div 4th Wing" "1st Div 5th Wing" "1st Div 6th Wing"
+	"1st Div 7th Wing" "1st Div 8th Wing" "1st Div 9th Wing"
+	"2nd Div 1st Wing" "2nd Div 2nd Wing" "2nd Div 3rd Wing"
+	"2nd Div 4th Wing" "2nd Div 5th Wing" "2nd Div 6th Wing"
+	"2nd Div 7th Wing" "2nd Div 8th Wing" "2nd Div 9th Wing"
+	"3rd Div 1st Wing" "3rd Div 2nd Wing" "3rd Div 3rd Wing"
+	"3rd Div 4th Wing" "3rd Div 5th Wing" "3rd Div 6th Wing"
+	"3rd Div 7th Wing" "3rd Div 8th Wing" "3rd Div 9th Wing"
+	"4th Div 1st Wing" "4th Div 2nd Wing" "4th Div 3rd Wing"
+	"4th Div 4th Wing" "4th Div 5th Wing" "4th Div 6th Wing"
+	"4th Div 7th Wing" "4th Div 8th Wing" "4th Div 9th Wing"
+	"5th Div 1st Wing" "5th Div 2nd Wing" "5th Div 3rd Wing"
+	"5th Div 4th Wing" "5th Div 5th Wing" "5th Div 6th Wing"
+	"5th Div 7th Wing" "5th Div 8th Wing" "5th Div 9th Wing"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Pulse Phaser
+weapon1 = "cd02phas"
+weaponHardpoints1 = "hp07" 
+
+// Plasma Bank
+weapon2 = "cd01torp"
+weaponHardpoints2 = "hp08"
+
+// Plasma Bank
+weapon3 = "cd01torp"
+weaponHardpoints3 = "hp09"
+
+/// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.25f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.25f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 0.75f
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "car_destroyer"
+hotkeyLabel = "HOTKEY_F3"
+
+
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+
+
+
+
+
+officerCost = 12
+buildTime = 100
+
+// Visual size: 150 percent of pre-patch scale.
+ScaleSOD = 1.95
+
+weapon4 = "ya0019"
+
+weaponHardpoints4 = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Attack Ship (Destroyer MK2)"
+
+verboseTooltip = "A light combat ship for interception and fleet support. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Micro Organisms. Availability follows the selected technology tree."
+dilithiumcost = 340
+metalcost = 85
+latinumcost = 0
+biomattercost = 0
+crewCost = 125

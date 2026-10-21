@@ -145,8 +145,8 @@ buildItem3 = "bjspecial"
 
 
 unitName = "Dahkur Command Shipyard"
-tooltip = "Dahkur Command Shipyard"
-verboseTooltip = "Dahkur Command Shipyard. Produces faction heroes. Available at the same technology tier as bjsuperlab."
+
+
 baseName = "br3_bjyard3"
 ScaleSOD = 1.380014
 buildhardpoint = "build"
@@ -157,10 +157,10 @@ lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp17" "hp21" "
 sensorstargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp23" "hp24" "hp25"
 shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp19" "hp21" "hp22"
 weaponstargethardpoints = "hp13" "hp14" "hp15" "hp18" "hp23" "hp24" "hp25"
-dilithiumcost = 300
-metalcost = 1000
-latinumcost = 0
-biomattercost = 0
+
+
+
+
 crewcost = 500
 officercost = 5
 buildtime = 120
@@ -180,3 +180,15 @@ specialenergyrate = 0
 engineshitpoints = 0
 
 weaponshitpoints = 0
+
+dilithiumCost = 450
+
+metalCost = 1350
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Shipyard (Dahkur Command Shipyard)"
+
+verboseTooltip = "Produces the vessels listed in its construction menu. Bajoran militia engineering protects Bajor and its neighboring systems."

@@ -4,8 +4,8 @@
 unitName = "Venture Class"
 
 //tooltips
-tooltip = "Venture Class - Scout"
-verboseTooltip = "FED_SCOUT_V"
+
+
 
 //Race which can build ship & starting race of ship
 race = "federation"
@@ -92,13 +92,30 @@ trekPhysicsFile = "fscoutphys.odf"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 55
-metalCost = 0
-latinumCost = 0
-biomatterCost = 0
-crewCost = 10
+
+
+
+
+
 officerCost = 2
 buildTime = 6
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 0.992448
+
+
+
+
+
+
+
+
+
+tooltip = "Scout (Venture Class)"
+
+verboseTooltip = "Surveys space and locates threats ahead of the fleet. Starfleet engineering supports a disciplined, versatile fleet."
+dilithiumcost = 75
+metalcost = 0
+latinumcost = 0
+biomattercost = 0
+crewCost = 15

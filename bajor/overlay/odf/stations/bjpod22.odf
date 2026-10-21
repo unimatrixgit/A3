@@ -7,8 +7,8 @@ unitname = "Bajoran Shields III"
 race = "bajoran"
 
 //tooltips
-tooltip = "Bajoran Shields III"
-verbosetooltip = "Bajoran Shields III. Extrapolated technology pod."
+
+
 
 //Dilithium Cost to build
 
@@ -28,10 +28,10 @@ hotkeyLabel = "HOTKEY_F2"
 
 
 // Xaramada resource costs: original filename.
-dilithiumcost = 450
-metalcost = 225
-latinumcost = 0
-biomattercost = 0
+
+
+
+
 crewcost = 0
 officercost = 2
 buildtime = 240
@@ -69,3 +69,23 @@ specialenergyrate = 0
 engineshitpoints = 0
 
 weaponshitpoints = 0
+
+
+
+
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 300
+
+latinumCost = 300
+
+biomatterCost = 0
+
+tooltip = "Research Upgrade (Bajoran Shields III)"
+
+verboseTooltip = "Researches Bajoran Shields III. Bajoran militia engineering protects Bajor and its neighboring systems."

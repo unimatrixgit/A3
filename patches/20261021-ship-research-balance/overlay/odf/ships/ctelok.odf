@@ -1,0 +1,129 @@
+#include "cruise1.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Telok Class"
+
+
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 550
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 3.5
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 1000
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 10
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Borad" "Tored" "Kraxon" "Rekleen" "Hakero" "Nerok" "Teknor"
+	"Parn" "Aldara" "Remak" "Terak" "Telor" "Arokan"  "Norar"
+	"Ranek" "Koredd" "Ritara" "Zenar" "Horaell" "Trokar" "Remnor"
+	"Algar" "Tavek" "Monak" "Heraz" "Runor" "Telok" "Taphir" "Jonak"
+	"Herres" "Altak" "Krypton" "Gonazak" "Helipok" "Krisnak" "Opaak"
+	"Zanar" "Girreb" "Nelvak" "Brakzaz" "Hodiak" "Ukiren" "Lanal" 
+	"Klotos" "Minwab" "Geldrak" "Sarax" "Rikan" "Tomak" "Brexxil"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Phaser
+weapon1 = "cphas1"
+weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04"
+
+// Photon torpedos
+weapon2 = "cphot1"
+weaponHardpoints2 = "hp01" 
+
+// Selfdestruction
+
+weaponHardpoints3 = "hp08" 
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+lifeSupportTargetHardpoints =  "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+weaponsTargetHardpoints =  "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+shieldGeneratorTargetHardpoints =  "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+sensorsTargetHardpoints =  "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+hullTargetHardpoints =  "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+criticalTargetHardpoints =  "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.75f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.30f
+
+//**********************************************************************
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+//**********************************************************************
+
+//**********************************************************************
+//KEYMAP LABEL
+keymapLabel = "fed_phaser"
+
+scaleSOD = 1.6
+
+
+
+
+baseName = "ctelkor"
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+officerCost = 6
+buildTime = 55
+
+
+
+
+
+
+
+
+
+tooltip = "Cruiser (Telok Class)"
+
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Starfleet engineering supports a disciplined, versatile fleet."
+weapon3 = "z21fa45955"
+dilithiumcost = 75
+metalcost = 25
+latinumcost = 0
+biomattercost = 0
+crewCost = 115

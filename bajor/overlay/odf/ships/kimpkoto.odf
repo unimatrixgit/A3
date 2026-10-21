@@ -4,8 +4,8 @@
 unitName = "IG Ko'Tol Class"
 
 //tooltips
-tooltip = "IG Ko'Tol Class"
-verboseTooltip = "Imperial Gaurd Bird Of Prey"
+
+
 
 //Race which can build ship & starting race of ship
 race = "klingon"
@@ -65,7 +65,7 @@ weapon2 = "kc02pul"
 weaponHardpoints2 = "hp09"
 
 // Cloaking
-weapon3 = "gkcloak"
+
 weaponHardpoints3 = "hp13"
 
 // Photon Torpedos
@@ -124,13 +124,31 @@ hotkeyLabel = "HOTKEY_F2"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 370
-metalCost = 70
-latinumCost = 0
-biomatterCost = 0
-crewCost = 75
+
+
+
+
+
 officerCost = 10
 buildTime = 23
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.5
+
+
+
+
+
+
+
+
+
+tooltip = "Attack Ship (IG Ko'Tol Class)"
+
+verboseTooltip = "A light combat ship for interception and fleet support. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak. Availability follows the selected technology tree."
+weapon3 = "z21kf18a27"
+dilithiumcost = 310
+metalcost = 80
+latinumcost = 0
+biomattercost = 0
+crewCost = 120

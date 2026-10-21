@@ -4,8 +4,8 @@
 unitName = "Destroyer MK2"
 
 //tooltips
-tooltip = "Jem'Hadar Destroyer"
-verboseTooltip = "Mk II Version"
+
+
 
 //Race which can build ship & starting race of ship
 race = "cardassian"
@@ -124,13 +124,34 @@ hotkeyLabel = "HOTKEY_F3"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 505
-metalCost = 300
-latinumCost = 0
-biomatterCost = 0
-crewCost = 92
+
+
+
+
+
 officerCost = 12
 buildTime = 100
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.95
+
+weapon4 = "ya0019"
+
+weaponHardpoints4 = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Attack Ship (Destroyer MK2)"
+
+verboseTooltip = "A light combat ship for interception and fleet support. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Micro Organisms. Availability follows the selected technology tree."
+dilithiumcost = 340
+metalcost = 85
+latinumcost = 0
+biomattercost = 0
+crewCost = 125

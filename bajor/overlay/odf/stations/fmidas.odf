@@ -7,8 +7,8 @@
 unitName = "Midas Array"
 
 //tooltips
-tooltip = "Midas Array - Research"
-verboseTooltip = "Advanced Communications station designed to keep the entire fleet in contact"
+
+
 
 //Race which can build ship & starting race of ship
 race = "federation"
@@ -100,11 +100,23 @@ avoidme = 0
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 1000
-metalCost = 1000
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 0
 officerCost = 7
 buildTime = 71
 buildItem0 = "xfuconst"
+
+dilithiumCost = 500
+
+metalCost = 1000
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Starbase (Midas Array)"
+
+verboseTooltip = "A fortified center for fleet operations and local production. Starfleet engineering supports a disciplined, versatile fleet."

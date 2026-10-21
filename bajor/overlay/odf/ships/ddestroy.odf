@@ -1,8 +1,8 @@
 // Begin main properties
 
 unitName = "Jem'HadarDestroyer"
-tooltip = "Jem'Hadar Destroyer"
-verboseTooltip = "The most common ship in the Dominion fleet. Its small size and cheap cost mean they can be mass produced with little expense."
+
+
 race = "dominion"
 maxHealth = 150
 shieldGeneratorHitPoints = 20
@@ -126,13 +126,30 @@ can_explore = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 140
-metalCost = 0
-latinumCost = 0
-biomatterCost = 0
-crewCost = 40
+
+
+
+
+
 officerCost = 4
 buildTime = 12
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 3.3
+
+
+
+
+
+
+
+
+
+tooltip = "Attack Ship (Jem'HadarDestroyer)"
+
+verboseTooltip = "A light combat ship for interception and fleet support. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Ramming Speed. Availability follows the selected technology tree."
+dilithiumcost = 60
+metalcost = 15
+latinumcost = 0
+biomattercost = 0
+crewCost = 50

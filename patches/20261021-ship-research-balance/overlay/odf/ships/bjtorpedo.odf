@@ -1,0 +1,177 @@
+#include "cruise1.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//Race which can build ship & starting race of ship
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxhealth = 590
+
+//This is the range in meters which the ships sensors can see (LOS)
+//rangeScan = 900.0f
+
+// Hitpoints
+
+shieldgeneratorhitpoints = 1415
+engineshitpoints = 1415
+weaponshitpoints = 1415
+lifesupporthitpoints = 1415
+sensorshitpoints = 1415
+
+//Rate at which shield recharges (points per second... we think)
+shieldrate = 5.9
+
+//Maximum Value of Special Energy
+
+
+//Rate at which special energy recharges (points per second... we think)
+
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+	"USS Protege" "USS Cimmeron" "USS Kodiak" "USS Iron Horse"
+	"USS Patton" "USS Enforcer" "USS Knox" "USS Maryland"
+	"USS Protector" "USS Ironclad" "USS Diligent" "USS Aselin"
+	"USS Lexington" "USS Savior" "USS Maker"
+	"USS Appalachia" "USS Columbia" "USS Gettysburg" "USS Kyushu"
+	"USS Zephyr" "USS Sacramento" "USS Eureka" "USS Arcadia"
+	"USS San Diego" "USS Dublin" "USS October" "USS Churchill"
+	"USS Ballista" "USS Georgia" "USS Trebuchet" "USS Vambrace"
+	"USS Jerusalem" "USS Bangkok" "USS Crowell" "USS Caspars"
+	"USS Icarus" "USS Benevolence" "USS Trafalgar" "USS Amsterdam"
+	"USS Alamo" "USS Cerberus" "USS Sierra" "USS Denver"
+	"USS Budapest" "USS Cairo" "USS Wyoming" "USS Archon"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Photon Torpedo
+weapon1 = "frphot"
+
+
+//Warp Core Overload
+
+
+
+// Phaser
+weapon3 = "xbj_gwcover"
+
+
+
+// Hardpoints to hit for various systems and other locations.
+
+// Hardpoints to hit for various systems and other locations.
+
+
+
+
+
+
+
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponyellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponred = 2.0f
+//**********************************************************************
+
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "fed_photon"
+hotkeyLabel = "HOTKEY_F8"
+
+//physics file for all other physics stuff
+physicsFile = "fdestroyerphys.odf"
+trekPhysicsFile = "fdestroyerphys.odf"
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+officercost = 10
+buildtime = 13
+
+unitName = "Bajoran Torpedo Cruiser"
+
+
+
+
+
+race = "bajoran"
+
+
+
+
+
+weapon2 = "fsteamrunnerphas"
+baseName = "br3_bjtorpedo"
+ScaleSOD = 1.6
+
+
+
+
+
+
+
+
+
+
+weaponHardpoints1 = "hp01"
+weaponHardpoints2 = "hp02" "hp03" "hp16" "hp17"
+weaponHardpoints3 = "hp06"
+enginestargethardpoints = "hp13" "hp12"  "hp09" "hp10"
+lifesupporttargethardpoints = "hp05"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp26"
+shieldgeneratortargethardpoints = "hp06"
+sensorstargethardpoints = "hp18"
+hulltargethardpoints = "hp18" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
+criticaltargethardpoints = "hp14" "hp15"
+
+maxSpecialEnergy = 1000
+
+specialEnergyRate = 10.0
+
+
+
+
+
+
+
+
+
+tooltip = "Cruiser (Bajoran Torpedo Cruiser)"
+
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Bajoran militia engineering protects Bajor and its neighboring systems. Special systems: Engine Overload. Availability follows the selected technology tree."
+dilithiumcost = 185
+metalcost = 60
+latinumcost = 0
+biomattercost = 0
+crewCost = 180

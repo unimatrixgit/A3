@@ -7,8 +7,8 @@
 unitName = "Quantum Facility"
 
 //tooltips
-tooltip = "Quantum Facility"
-verboseTooltip = "CARD_QUANTUM_V"
+
+
 
 //Race which can build ship & starting race of ship
 race = "cardassian"
@@ -149,11 +149,23 @@ combat = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 2000
-metalCost = 2000
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 800
 officerCost = 0
 buildTime = 100
 buildItem0 = "xcuconst"
+
+dilithiumCost = 500
+
+metalCost = 1000
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Starbase (Quantum Facility)"
+
+verboseTooltip = "A fortified center for fleet operations and local production. Cardassian engineering sustains the Union through ordered, persistent operations."

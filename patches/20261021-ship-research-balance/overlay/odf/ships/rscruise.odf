@@ -1,0 +1,152 @@
+#include "cruise1.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Selmak Class"
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 881
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 525
+enginesHitPoints = 525
+weaponsHitPoints = 525
+lifeSupportHitPoints = 525
+sensorsHitPoints = 530
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 6.7
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 84
+impulseSpeed = 78
+warpSpeed = 842
+
+//Maximum Value of Special Energy
+
+
+//Rate at which special energy recharges (points per second... we think)
+
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "Nuco" "Octiulus" "Opalius" "Pelliulus" "Pesanius"  "Pi"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Pulse Phaser
+weapon1 = "rc02pul"
+weaponHardpoints1 = "hp11"
+
+// Pulse Phaser
+weapon2 = "rc02pul"
+weaponHardpoints2 = "hp12"
+
+// Cloaking Device
+weapon3 = "grcloak"
+weaponHardpoints3 = "hp15" 
+
+// Torpedo
+weapon4 = "rc02phot"
+weaponHardpoints4 = "hp13"
+
+// Torpedo
+weapon5 = "rc02phot"
+weaponHardpoints5 = "hp14"
+
+// unused hardpoint
+//weapon6 = "unused"
+//weaponHardpoints6 = "hp16"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.75f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.30f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+
+//**********************************************************************
+//KEYMAP LABEL
+hotkeyLabel = "HOTKEY_F4"
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+
+
+
+
+
+officerCost = 10
+buildTime = 21
+
+weapon6 = "gposijam"
+
+weaponHardpoints6 = "hp01"
+
+maxSpecialEnergy = 1200
+
+specialEnergyRate = 12.0
+
+
+
+
+
+
+
+
+
+tooltip = "Cruiser (Selmak Class)"
+
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Sensor Jammer. Availability follows the selected technology tree."
+dilithiumcost = 340
+metalcost = 115
+latinumcost = 0
+biomattercost = 0
+crewCost = 245

@@ -54,7 +54,7 @@ possibleCraftNames =
 weapon1 = "fventurepulse"
  
 //Detect Cloak 3
-weapon2 = "gdetectf"
+
 
 
 
@@ -80,13 +80,13 @@ trekPhysicsFile = "fscoutphys.odf"
 
 // Xaramada resource costs: original filename.
 unitName = "Bajoran Scout Vessel"
-tooltip = "Bajoran Scout Vessel"
-verboseTooltip = "Bajoran Scout Vessel. TV multi-role Bajoran vessel."
-dilithiumcost = 55
-metalcost = 0
-latinumcost = 0
-biomattercost = 0
-crewcost = 10
+
+
+
+
+
+
+
 officercost = 2
 buildtime = 6
 race = "bajoran"
@@ -108,3 +108,21 @@ specialenergyrate = 0
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 0.992448
+
+
+
+
+
+
+
+
+
+tooltip = "Scout (Bajoran Scout Vessel)"
+
+verboseTooltip = "Surveys space and locates threats ahead of the fleet. Bajoran militia engineering protects Bajor and its neighboring systems."
+weapon2 = "z21bj6b0464"
+dilithiumcost = 75
+metalcost = 0
+latinumcost = 0
+biomattercost = 0
+crewCost = 15

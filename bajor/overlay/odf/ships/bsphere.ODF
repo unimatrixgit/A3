@@ -4,8 +4,8 @@
 unitName = "Tactical Sphere"
 
 //tooltips
-tooltip = "Tactical Sphere"
-verboseTooltip = "Well armed and dangerous"
+
+
 
 //Race which can build ship & starting race of ship
 race = "borg"
@@ -157,11 +157,11 @@ weaponHardpoints10 = "hp01"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 4475
-metalCost = 1225
-latinumCost = 0
-biomatterCost = 0
-crewCost = 850
+
+
+
+
+
 officerCost = 16
 buildTime = 26
 
@@ -170,3 +170,20 @@ weapon8 = "y2a003"
 maxSpecialEnergy = 1500
 
 specialEnergyRate = 15.0
+
+
+
+
+
+
+
+
+
+tooltip = "Cruiser (Tactical Sphere)"
+
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Collective engineering integrates this asset into the unimatrix. Special systems: Transwarp Drive, Regeneration, Computer Override, Auto-Assimilator. Availability follows the selected technology tree."
+dilithiumcost = 2025
+metalcost = 555
+latinumcost = 0
+biomattercost = 0
+crewCost = 1535

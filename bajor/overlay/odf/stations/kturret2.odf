@@ -7,8 +7,8 @@
 unitName = "Torpedo Turret"
 
 //tooltips
-tooltip = "KLI_TURRET2"
-verboseTooltip = "KLI_TURRET2_V"
+
+
 
 //Race which can build ship & starting race of ship
 race = "klingon"
@@ -51,13 +51,15 @@ weaponsHitPoints = 1000
 //ART PARAMETERS & WEAPON NAMES
 
 // Photon torpedo
-weapon1 = "kc05phot"
+weapon1 = "kc05phot"
+
 
 // Photon torpedo
 weapon2 = "kc05phot"
 weaponHardpoints2 = "hp07"
 
-// Hardpoints to hit for various systems and other locations.
+// Hardpoints to hit for various systems and other locations.
+
 
 //**********************************************************************
 //MESSAGE & SOUND PARAMETERS
@@ -108,3 +110,7 @@ sensorstargethardpoints = "hp04" "hp05" "hp06"
 hulltargethardpoints = "hp04" "hp05" "hp06" 
 
 criticaltargethardpoints = "hp04" "hp05" "hp06" 
+
+tooltip = "Defense Station (Torpedo Turret)"
+
+verboseTooltip = "A fixed defensive installation protecting nearby fleet assets. Klingon engineering serves the Empire with direct, relentless force."

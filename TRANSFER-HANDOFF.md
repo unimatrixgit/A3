@@ -102,3 +102,7 @@ Fresh rescue prototype installed on user closed-game approval: reports/lms-rescu
 
 ## Final user stop and lab removal request
 User reported the fresh rescue test did not work, explicitly stopped development, then requested saving all progress to GitHub and deleting only D:/ArmadaLab. Preserve D:/aramada, D:/armadaIII and D:/Xaramada. Unique developer source/report files from the lab are archived under archive/armadalab-final, with content inventory in reports/armadalab-final-archive.json. Commercial runtime/assets excluded from publication. Do not describe Last Man Standing as working. Lab removal follows verified GitHub push.
+
+
+## 21 October 2026: ship research and cost patch
+User explicitly selected D:/armadaIII only and requested DuneGit push. Installed patches/20261021-ship-research-balance: 349 faction ships audited, 601 non-utility special slots faction-research gated; 8 new Special Systems Research pods and 40 AI profiles. 347 prices reviewed, 303 ships changed in resources/crew. Utility equipment exempt, full/free-tech modes intentionally unlocked. Heavy platforms crew0/maxcrew0/officers16. 391 installed files match staged hashes; gameplay pending. Backup: D:\Xaramada-Modwork\backups\ship-research-balance-20261021-192335. Lab unchanged. Existing unrelated working-tree edits were retained.

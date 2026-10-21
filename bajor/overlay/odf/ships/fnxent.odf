@@ -6,7 +6,7 @@ isHero = 1
 //Ship label provided because this is a unique ship.
 label = "Enterprise NX-01"
 
-verboseTooltip = "Captain Archer's Enterprise."
+
 
 //Max Shield Strength & Begining Shield Strength <500
 maxHealth = 2000
@@ -30,11 +30,11 @@ weapon3 = "fnxenttoent"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 850
-metalCost = 1500
-latinumCost = 0
-biomatterCost = 0
-crewCost = 85
+
+
+
+
+
 officerCost = 9
 buildTime = 22
 
@@ -65,3 +65,20 @@ eventDecommission = "XV_fnxent_Decommission"
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 0.375
+
+
+
+
+
+
+
+
+
+tooltip = "Hero Ship (NX Class)"
+
+verboseTooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Enterprise Upgrade. Availability follows the selected technology tree."
+dilithiumcost = 205
+metalcost = 0
+latinumcost = 0
+biomattercost = 0
+crewCost = 50

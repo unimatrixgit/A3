@@ -4,8 +4,8 @@
 unitName = "Jem'Hadar Destroyer"
 
 //tooltips
-tooltip = "Jem'Hadar Destroyer"
-verboseTooltip = "Fast Attack Destroyer"
+
+
 
 //Race which can build ship & starting race of ship
 race = "cardassian"
@@ -117,13 +117,34 @@ hotkeyLabel = "HOTKEY_F3"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 490
-metalCost = 295
-latinumCost = 0
-biomatterCost = 0
-crewCost = 35
+
+
+
+
+
 officerCost = 12
 buildTime = 99
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.5
+
+weapon3 = "ya0018"
+
+weaponHardpoints3 = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Attack Ship (Jem'Hadar Destroyer)"
+
+verboseTooltip = "A light combat ship for interception and fleet support. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Micro Organisms. Availability follows the selected technology tree."
+dilithiumcost = 265
+metalcost = 65
+latinumcost = 0
+biomattercost = 0
+crewCost = 110

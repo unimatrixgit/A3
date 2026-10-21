@@ -90,17 +90,17 @@ trekPhysicsFile = "fscoutphys.odf"
 
 
 // Xaramada resource costs: original filename.
-dilithiumcost = 55
-metalcost = 0
-latinumcost = 0
-biomattercost = 0
-crewcost = 10
+
+
+
+
+
 officercost = 2
 buildtime = 6
 
 unitName = "Bajoran Lightship"
 
-tooltip = "Bajoran Lightship"
+
 
 
 race = "bajoran"
@@ -113,7 +113,7 @@ canAttack = 0
 
 transporter = 0
 
-verboseTooltip = "Bajoran solar lightship. Civilian survey vessel; unarmed. Game adaptation of the TV lightship."
+
 baseName = "br3_bjlightship"
 
 
@@ -141,3 +141,20 @@ specialenergyrate = 0
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 0.992448
+
+
+
+
+
+
+
+
+
+tooltip = "Scout (Bajoran Lightship)"
+
+verboseTooltip = "Surveys space and locates threats ahead of the fleet. Bajoran militia engineering protects Bajor and its neighboring systems."
+dilithiumcost = 75
+metalcost = 0
+latinumcost = 0
+biomattercost = 0
+crewCost = 25

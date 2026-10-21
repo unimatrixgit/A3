@@ -7,8 +7,8 @@
 unitName = "Jupiter Station"
 
 //tooltips
-tooltip = "Jupiter Station - Research"
-verboseTooltip = "Once built allows for use of Transwarp and Slipstream Drives."
+
+
 
 //Race which can build ship & starting race of ship
 race = "federation"
@@ -84,11 +84,23 @@ ScaleSOD = 3.0
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 1155
-metalCost = 1155
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 3200
 officerCost = 8
 buildTime = 76
 buildItem0 = "xfuconst"
+
+dilithiumCost = 500
+
+metalCost = 1000
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Starbase (Jupiter Station)"
+
+verboseTooltip = "A fortified center for fleet operations and local production. Starfleet engineering supports a disciplined, versatile fleet."

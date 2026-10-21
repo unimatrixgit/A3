@@ -1,0 +1,73 @@
+#include "pod.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+//Race which can build ship & starting race of ship
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Dilithium Cost to build
+
+animation = 2
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "si_beam"
+hotkeyLabel = "HOTKEY_F5"
+
+
+
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewCost = 0
+officerCost = 1
+buildTime = 128
+
+
+
+
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 300
+
+latinumCost = 300
+
+biomatterCost = 0
+
+unitName = "Polaron Disruptor Research"
+
+
+
+
+
+race = "breen"
+
+baseName = "rompod1"
+
+tooltip = "Research Upgrade (Polaron Disruptor Research)"
+
+verboseTooltip = "Researches Polaron Disruptor Research. Breen engineering supports the Confederacy with focused, uncompromising efficiency."

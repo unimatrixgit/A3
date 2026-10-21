@@ -4,8 +4,8 @@
 unitName = "Sabre Class"
 
 //tooltips
-tooltip = "Sabre Class - Frigate"
-verboseTooltip = "Created during the battle with the Borg the Sabre is intended to be a bait ship to lure Borg vessels to waiting fleets."
+
+
 
 //Race which can build ship & starting race of ship
 race = "federation"
@@ -110,13 +110,34 @@ trekPhysicsFile = "ffrigatephys.odf"
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 100
-metalCost = 0
-latinumCost = 0
-biomatterCost = 0
-crewCost = 80
+
+
+
+
+
 officerCost = 6
 buildTime = 18
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 2.25
+
+weapon2 = "ya0025"
+
+weaponHardpoints2 = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Attack Ship (Sabre Class)"
+
+verboseTooltip = "A light combat ship for interception and fleet support. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Antimatter Mines. Availability follows the selected technology tree."
+dilithiumcost = 60
+metalcost = 15
+latinumcost = 0
+biomattercost = 0
+crewCost = 50

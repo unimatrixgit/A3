@@ -103,11 +103,11 @@ possibleCraftNames =
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 250
-metalCost = 0
-latinumCost = 0
-biomatterCost = 0
-crewCost = 150
+
+
+
+
+
 officerCost = 2
 buildTime = 17
 
@@ -154,8 +154,8 @@ buildTime = 17
 
 weapon1 = "gtracbm"
 unitName = "Bajoran Universal Constructor"
-tooltip = "Bajoran Universal Constructor"
-verboseTooltip = "Bajoran Universal Constructor. Builds allied faction starbases and assigned advanced facilities. Species 8472 biotechnology is excluded."
+
+
 race = "bajoran"
 
 
@@ -214,3 +214,20 @@ canAttack = 1
 combat = 1
 
 alert = 1
+
+
+
+
+
+
+
+
+
+tooltip = "Constructor (Bajoran Universal Constructor)"
+
+verboseTooltip = "Builds the structures listed in its construction menu. Bajoran militia engineering protects Bajor and its neighboring systems. Special systems: Tractor Beam. Availability follows the selected technology tree."
+dilithiumcost = 125
+metalcost = 25
+latinumcost = 0
+biomattercost = 0
+crewCost = 100

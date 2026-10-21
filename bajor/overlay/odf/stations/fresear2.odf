@@ -7,8 +7,8 @@
 unitName = "Sirius Class"
 
 //tooltips
-tooltip = "Sirius Class - Research"
-verboseTooltip = "FED_RESEARCH2_V"
+
+
 
 //Race which can build ship & starting race of ship
 race = "federation"
@@ -32,7 +32,8 @@ shieldRate = 11
 //animate looped upon build
 animation = 2
 //**********************************************************************
-//Construction Parameters
+//Construction Parameters
+
 buildItem0 = "fedpod6"
 buildItem1 = "fedpod7"
 buildItem2 = "fedpod8"
@@ -51,7 +52,8 @@ possibleCraftNames =
 //ART PARAMETERS & WEAPON NAMES
 
 
-// Hardpoints to hit for various systems and other locations.
+// Hardpoints to hit for various systems and other locations.
+
 
 //****//**********************************************************************
 //AI system parameters
@@ -96,17 +98,17 @@ transporter = 1
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 0
-metalCost = 1250
-latinumCost = 0
-biomatterCost = 0
+
+
+
+
 crewCost = 200
 officerCost = 15
 buildTime = 150
 
 baseName = "xvstock_fresear2"
 
-podhardpoints = "pod01" "pod02" "pod03" "pod04"
+
 
 enginestargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
 
@@ -121,3 +123,17 @@ sensorstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18
 hulltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
 
 criticaltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
+
+dilithiumCost = 350
+
+metalCost = 900
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Research Facility (Sirius Class)"
+
+verboseTooltip = "Supports the technologies and upgrades available in its research menu. Starfleet engineering supports a disciplined, versatile fleet."
+buildItem4 = "z21fspec"
+podHardpoints = "pod01" "pod02" "pod03" "pod04" "hp10"

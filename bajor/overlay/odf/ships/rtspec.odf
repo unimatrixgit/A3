@@ -9,8 +9,8 @@ race = "romulan"
 unitName = "Suso Class"
 
 //tooltips
-tooltip = "Suso Class"
-verboseTooltip = "Tal Shiar Hunter"
+
+
 
 //Amount of time required to build ship
 
@@ -127,11 +127,11 @@ hotkeyLabel = "HOTKEY_F1"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 465
-metalCost = 130
-latinumCost = 0
-biomatterCost = 0
-crewCost = 179
+
+
+
+
+
 officerCost = 14
 buildTime = 26
 
@@ -141,3 +141,20 @@ weaponHardpoints8 = "hp01"
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.5
+
+
+
+
+
+
+
+
+
+tooltip = "Attack Ship (Suso Class)"
+
+verboseTooltip = "A light combat ship for interception and fleet support. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Romulan Spy. Availability follows the selected technology tree."
+dilithiumcost = 690
+metalcost = 175
+latinumcost = 0
+biomattercost = 0
+crewCost = 180

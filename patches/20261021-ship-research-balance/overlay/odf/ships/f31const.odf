@@ -1,0 +1,130 @@
+#include "const.odf"
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Construction Ship"
+
+//tooltips
+
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 997
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 347
+enginesHitPoints = 297
+weaponsHitPoints = 225
+lifeSupportHitPoints = 339
+sensorsHitPoints = 258
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 4.2
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 1000
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 10
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 69
+impulseSpeed = 80
+warpSpeed = 270
+
+//**********************************************************************
+//Construction Parameters
+buildItem0 = "fbase"
+buildItem1 = "fsensor"
+buildItem2 = "fturret"
+buildItem3 = "fturret2"
+buildItem4 = "forbital"
+buildItem5 = "ftrading"
+buildItem6 = "s31yard"
+//**********************************************************************
+//Worker Bee Parameters
+
+// Name of the worker bee SOD.
+workerBeeName = "fbee"
+weldingBeamWidth = 5.0
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "USS Rickmore" "USS Merchantman" "USS Vega"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Type VIII Phaser
+weapon1 = "fc08phas"
+weaponHardpoints1 = "hp20" "hp21"
+
+// Hardpoints to hit for various systems and other locations.
+
+enginesTargetHardpoints = "hp01" "hp02" "hp03"
+lifeSupportTargetHardpoints = "hp04" "hp05" 
+weaponsTargetHardpoints = "hp06" "hp07" "hp08"
+shieldGeneratorTargetHardpoints = "hp09" "hp10" "hp11" "hp12" "hp13" 
+sensorsTargetHardpoints = "hp14" "hp15"
+hullTargetHardpoints = "hp01" "hp03" "hp04" "hp07" "hp09" "hp12" "hp14" "hp15" 
+criticalTargetHardpoints = "hp02" "hp04" "hp14"
+
+//**********************************************************************
+
+hotkeyLabel = "HOTKEY_F1"
+
+
+
+
+// Xaramada resource costs: original matching class.
+
+
+
+
+
+officerCost = 2
+buildTime = 17
+
+weapon2 = "xp8t"
+
+weaponHardpoints2 = "hp02"
+
+canAttack = 1
+
+combat = 1
+
+alert = 1
+
+
+
+
+
+
+
+
+
+tooltip = "Constructor (Construction Ship)"
+
+verboseTooltip = "Builds the structures listed in its construction menu. Starfleet engineering supports a disciplined, versatile fleet."
+dilithiumcost = 125
+metalcost = 25
+latinumcost = 0
+biomattercost = 0
+crewCost = 100

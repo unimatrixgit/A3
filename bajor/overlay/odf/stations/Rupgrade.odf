@@ -7,8 +7,8 @@
 unitName = "Star Empire Research Institute"
 
 //tooltips
-tooltip = "Star Empire Research Institute"
-verboseTooltip = "Systems Upgrade Facility"
+
+
 
 //Race which can build ship & starting race of ship
 race = "romulan"
@@ -35,7 +35,8 @@ shieldRate = 3.1
 possibleCraftNames = "Aurelius Center"
 
 //**********************************************************************
-//Construction Parameters
+//Construction Parameters
+
 buildItem0 = "rompod11"
 buildItem1 = "rompod12"
 buildItem2 = "rompod13"
@@ -51,7 +52,8 @@ secondaryBuildItem4 = "rompod25"
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
 
-// Hardpoints to hit for various systems and other locations.
+// Hardpoints to hit for various systems and other locations.
+
 
 //**********************************************************************
 //AI system parameters
@@ -84,10 +86,10 @@ ScaleSOD = 0.75
 
 
 // Xaramada resource costs: original filename.
-dilithiumCost = 0
-metalCost = 750
-latinumCost = 750
-biomatterCost = 0
+
+
+
+
 crewCost = 400
 officerCost = 10
 buildTime = 170
@@ -109,3 +111,23 @@ sensorstargethardpoints = "hp01" "hp16" "hp17" "hp18" "hp19" "hp20"
 hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
 
 criticaltargethardpoints = "hp01"
+
+
+
+
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 750
+
+latinumCost = 750
+
+biomatterCost = 0
+
+tooltip = "Research Facility (Star Empire Research Institute)"
+
+verboseTooltip = "Supports the technologies and upgrades available in its research menu. Romulan engineering favors calculated strikes and control of the battlefield."

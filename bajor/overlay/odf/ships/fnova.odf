@@ -1,8 +1,8 @@
 #include "scoutBase.odf"
 //Name of Ship class in Ship Display window & in edit mode & tooltip
 unitName = "Nova Class"
-tooltip = "Nova Class - Frigate"
-verboseTooltip = "An Exploration and Scout vessel the Nova is lightly armed but very fast."
+
+
 
 //Race which can build ship & starting race of ship
 race = "federation"
@@ -95,13 +95,30 @@ trekPhysicsFile = "fscoutphys.odf"
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 465
-metalCost = 155
-latinumCost = 0
-biomatterCost = 0
-crewCost = 44
+
+
+
+
+
 officerCost = 10
 buildTime = 38
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 0.45
+
+
+
+
+
+
+
+
+
+tooltip = "Scout (Nova Class)"
+
+verboseTooltip = "Surveys space and locates threats ahead of the fleet. Starfleet engineering supports a disciplined, versatile fleet."
+dilithiumcost = 75
+metalcost = 0
+latinumcost = 0
+biomattercost = 0
+crewCost = 25

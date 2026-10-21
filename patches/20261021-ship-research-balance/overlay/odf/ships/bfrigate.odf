@@ -1,0 +1,155 @@
+#include "frigate.odf"
+
+//MAIN DESIGN PARAMETERS
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Deemons Tooth"
+
+//tooltips
+
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 2418
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 937
+enginesHitPoints = 854
+weaponsHitPoints = 914
+lifeSupportHitPoints = 922
+sensorsHitPoints = 658
+
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 16.2
+
+//Maximum Value of Special Energy
+
+
+//Rate at which special energy recharges (points per second... we think)
+
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 91
+impulseSpeed = 89
+warpSpeed = 960
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "HD047-89416" "HD047-48084" "HD047-78466" "HD047-15145" "HD047-16458" "HD047-08450" "HD047-84015" "HD047-68405" "HD047-47850" "HD047-48469"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Phaser
+weapon1 = "bt3phas"
+weaponHardpoints1 = "hp05" "hp06"
+
+// Photon
+weapon2 = "bc2phot"
+weaponhardpoints2 = "hp07" "hp08"
+
+// Special Energy Recharge
+weapon3 = "gengyemt"
+weaponHardpoints3 = "hp09"
+
+//Transwarp Drive
+weapon4 = "gtwarpd"
+weaponHardpoints4 = "hp09"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04"
+
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.50f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.50f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 1.0f
+//**********************************************************************
+
+// Physics
+physicsFile = "borg_sbattphys"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "placeholder"
+hotkeyLabel = "HOTKEY_F1"
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+officerCost = 1
+buildTime = 24
+
+weapon5 = "xy_bfrigate_gborgbor"
+weaponHardpoints5 = "hp05"
+
+// Visual size: 150 percent of pre-patch scale.
+ScaleSOD = 1.5
+
+maxSpecialEnergy = 1500
+
+specialEnergyRate = 15.0
+
+
+
+
+
+
+
+
+
+tooltip = "Frigate (Deemons Tooth)"
+
+verboseTooltip = "A combat escort for patrols and coordinated fleet engagements. Collective engineering integrates this asset into the unimatrix. Special systems: Special Energy Recharger, Transwarp Drive, Auto-Assimilator. Availability follows the selected technology tree."
+dilithiumcost = 420
+metalcost = 115
+latinumcost = 0
+biomattercost = 0
+crewCost = 700

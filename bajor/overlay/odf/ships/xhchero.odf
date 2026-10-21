@@ -1,7 +1,7 @@
 #include "cbattle2.odf"
 unitName = "Gul Dukat - Keldon"
-tooltip = "Gul Dukat - Keldon"
-verboseTooltip = "Faction command hero. Replacements available at the Command Shipyard."
+
+
 baseName = "cbattle2"
 race = "cardassian"
 isHero = 1
@@ -16,13 +16,14 @@ maxHealth = 3985
 
 
 // Xaramada resource costs: calculated from original comparable.
-dilithiumCost = 1080
-metalCost = 600
-latinumCost = 0
-biomatterCost = 0
-crewCost = 800
+
+
+
+
+
 officerCost = 16
-buildTime = 33
+buildTime = 33
+
 
 eventSelect = "XV_xhchero_Select"
 
@@ -50,3 +51,21 @@ eventDecommission = "XV_xhchero_Decommission"
 
 
 
+
+
+
+
+
+
+
+
+
+tooltip = "Hero Ship (Gul Dukat - Keldon)"
+
+verboseTooltip = "A named command vessel serving the Cardassian fleet. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Plasma Bank Overload. Availability follows the selected technology tree."
+weapon3 = "z21ca45955"
+dilithiumcost = 530
+metalcost = 230
+latinumcost = 0
+biomattercost = 0
+crewCost = 820

@@ -1,0 +1,170 @@
+#include "battle2.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Galaxy Class"
+
+//tooltips
+
+
+
+//This ship is a hero.
+isHero = 1
+
+//Ship label provided because this is a unique ship.
+label = "USS Enterprise NCC-1701-D"
+
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+// don't use the horrible old % crew loss on damage
+saneCrewLossMethod = 1
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 10000
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 2500
+enginesHitPoints = 2500
+weaponsHitPoints = 2500
+lifeSupportHitPoints = 2500
+sensorsHitPoints = 2500
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 100
+
+//**********************************************************************
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+	"USS Enterprise - D"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Phaser
+weapon1 = "fgalaxyphas"
+weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20" "hp21" "hp22" "hp23" "hp24" "hp25" "hp26" "hp27" "hp28""hp29"
+	
+// Photon Torpedoes
+weapon2 = "fgalaxyphot"
+weaponHardpoints2 = "hp30" "hp31"
+
+//Self Destruct
+
+weaponHardpoints4 = "hp34"
+
+// Towing Beam
+weapon5 = "gtracbm"
+weaponhardpoints5 = "hp33"
+
+weapon3 = "fentdtoentdx"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30"
+shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hullTargetHardpoints = "hp06" "hp08" "hp10"  "hp12" "hp14" "hp16" "hp18" "hp20" "hp22"
+criticalTargetHardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp21" "hp23"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.0f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+//**********************************************************************
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+
+
+//**********************************************************************
+
+//change the scale
+// 94% of a sovereign
+ScaleSOD = 1.45
+
+hotkeyLabel = "HOTKEY_F2"
+
+//**********************************************************************
+//PHYSICS PARAMETERS
+
+//physics file for all other physics stuff
+physicsFile = "fbattlephys.odf"
+trekPhysicsFile = "fbattlephys.odf"
+
+
+
+// Xaramada resource costs: original matching class.
+
+
+
+
+
+officerCost = 10
+buildTime = 30
+
+
+eventSelect = "XV_fentd_Select"
+
+eventAcknowledge = "XV_fentd_Acknowledge"
+
+eventAttack = "XV_fentd_Attack"
+
+eventStop = "XV_fentd_Stop"
+
+eventMove = "XV_fentd_Move"
+
+eventRepair = "XV_fentd_Repair"
+
+eventRedAlert = "XV_fentd_RedAlert"
+
+eventYellowAlert = "XV_fentd_YellowAlert"
+
+eventGreenAlert = "XV_fentd_GreenAlert"
+
+eventTransport = "XV_fentd_Transport"
+
+eventSelfDestruct = "XV_fentd_SelfDestruct"
+
+eventDecommission = "XV_fentd_Decommission"
+
+
+
+
+
+
+
+
+
+tooltip = "Hero Ship (Galaxy Class)"
+
+verboseTooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Enterprise Upgrade, Tractor Beam. Availability follows the selected technology tree."
+weapon4 = "z21fa45955"
+dilithiumcost = 925
+metalcost = 400
+latinumcost = 0
+biomattercost = 0
+crewCost = 1090
