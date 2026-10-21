@@ -48,19 +48,19 @@ possibleCraftNames =
 //ART PARAMETERS & WEAPON NAMES
 
 // Phaser
-weapon1 = "fintrepidphas"
+
 
 
 // Photon Torpedo
-weapon2 = "ftype6"
+
 
 
 // Phaser
-weapon3 = "fintrepidphas"
+
 
 
 // Photon Torpedo
-weapon4 = "ftype6"
+
 
 
 // Hardpoints to hit for various systems and other locations.
@@ -93,7 +93,7 @@ hotkeyLabel = "HOTKEY_F6"
 
 
 //physics file for all other physics stuff
-physicsFile = "fdestroyerphys.odf"
+physicsfile = "fdestroyerphys.odf"
 trekPhysicsFile = "fdestroyerphys.odf"
 
 
@@ -133,10 +133,10 @@ baseName = "br3_bjartillery"
 
 
 
-weaponHardpoints1 = "hp03" "hp06" "hp22"
-weaponHardpoints2 = "hp07" "hp11"
-weaponHardpoints3 = "hp04" "hp05" "hp21"
-weaponHardpoints4 = "hp08" "hp10"
+
+
+
+
 enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
 lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
 weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32"
@@ -149,16 +149,16 @@ criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19"
 
 
 
-weapon5 = "xbj_gamine"
 
-weaponHardpoints5 = "hp01"
+
+
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.2
 
-maxSpecialEnergy = 900
+maxspecialenergy = 1000
 
-specialEnergyRate = 9.0
+specialenergyrate = 15
 
 
 
@@ -176,3 +176,41 @@ metalcost = 70
 latinumcost = 0
 biomattercost = 0
 crewCost = 110
+
+shieldgeneratorhitpercent = 8.0f
+
+engineshitpercent = 5.0f
+
+weaponshitpercent = 5.0f
+
+lifesupporthitpercent = 8.5f
+
+sensorshitpercent = 8.0f
+
+crewhitpercent = 8.5f
+
+hullhitpercent = 57.0f
+
+rangescan = 800.0f
+
+damagedscan = 125.0
+
+weapon1 = "fintrepidphas"
+
+weaponHardpoints1 = "hp03" "hp06" "hp22"
+
+weapon2 = "ftype6"
+
+weaponHardpoints2 = "hp07" "hp11"
+
+weapon3 = "fintrepidphas"
+
+weaponHardpoints3 = "hp04" "hp05" "hp21"
+
+weapon4 = "ftype6"
+
+weaponHardpoints4 = "hp08" "hp10"
+
+weapon5 = "xbj_gamine"
+
+weaponHardpoints5 = "hp01"

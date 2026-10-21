@@ -107,7 +107,7 @@ weaponred = 2.0f
 hotkeyLabel = "HOTKEY_F4"
 
 //physics file for all other physics stuff
-physicsFile = "fbattlephys.odf"
+physicsfile = "fbattlephys.odf"
 trekPhysicsFile = "fbattlephys.odf"
 
 
@@ -143,9 +143,9 @@ race = "bajoran"
 
 
 
-weapon3 = "xbj_gselfdes"
 
-weapon4 = "xbj_gcorbom"
+
+
 baseName = "br3_bjsuper"
 ScaleSOD = 3.248
 
@@ -159,10 +159,10 @@ ScaleSOD = 3.248
 
 
 
-weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp15" "hp16"
-weaponHardpoints2 = "hp14" "hp68"
-weaponHardpoints3 = "hp34" "hp35" "hp36"
-weaponHardpoints4 = "hp34" "hp35" "hp36"
+
+
+
+
 enginestargethardpoints = "hp35" "hp36" "hp40" "hp41" "hp42" "hp43" "hp44" "hp45" "hp46" "hp47" "hp48" "hp49" "hp50" "hp51" "hp52" "hp53" "hp54" "hp55" "hp56" "hp57" "hp58" "hp59"
 lifesupporttargethardpoints = "hp37" "hp38" "hp39" "hp60"
 weaponstargethardpoints = "hp14" "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp15" "hp16"
@@ -171,13 +171,13 @@ sensorstargethardpoints = "hp65"
 hulltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
 criticaltargethardpoints = "hp37" "hp38" "hp39" "hp60"
 
-maxHealth = 1100
+maxhealth = 1100
 
-shieldRate = 11
+shieldrate = 11
 
-maxspecialenergy = 1100
+maxspecialenergy = 1400
 
-specialenergyrate = 11
+specialenergyrate = 14.0
 
 
 
@@ -197,9 +197,9 @@ buildTime = 27
 
 
 
-weapon1 = "bjsphs"
 
-weapon2 = "bjstor"
+
+
 
 dilithiumCost = 385
 
@@ -212,3 +212,37 @@ biomatterCost = 0
 tooltip = "Capital Ship (Bajoran Strategic Command Vessel)"
 
 verboseTooltip = "A heavy warship built to anchor major fleet engagements. Bajoran militia engineering protects Bajor and its neighboring systems. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+
+shieldgeneratorhitpercent = 8.0f
+
+engineshitpercent = 5.0f
+
+weaponshitpercent = 5.0f
+
+lifesupporthitpercent = 8.5f
+
+sensorshitpercent = 8.0f
+
+crewhitpercent = 8.5f
+
+hullhitpercent = 57.0f
+
+rangescan = 800.0f
+
+damagedscan = 125.0
+
+weapon1 = "fsovereignphas"
+
+weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp15" "hp16"
+
+weapon2 = "fsovereignphot"
+
+weaponHardpoints2 = "hp14" "hp68"
+
+weapon3 = "xbj_gselfdes"
+
+weaponHardpoints3 = "hp34" "hp35" "hp36"
+
+weapon4 = "xbj_gcorbom"
+
+weaponHardpoints4 = "hp34" "hp35" "hp36"

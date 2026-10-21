@@ -130,7 +130,7 @@ hulltargethardpoints = "hp05"
 criticaltargethardpoints = "hp05"
 latinum_spray_hardpoint = "hp05"
 
-physicsFile = "bjfreightphys.odf"
+physicsfile = "sconstphys.odf"
 
 // Preserve utility ability slots independently of combat balance.
 
@@ -158,3 +158,21 @@ biomatterCost = 0
 tooltip = "Resource Miner (Bajoran Resource Freighter)"
 
 verboseTooltip = "Collects resources and delivers them to compatible processing facilities. Bajoran militia engineering protects Bajor and its neighboring systems. Special systems: Mining Beam. Availability follows the selected technology tree."
+
+shieldgeneratorhitpercent = 8.0f
+
+engineshitpercent = 5.0f
+
+weaponshitpercent = 5.0f
+
+lifesupporthitpercent = 8.5f
+
+sensorshitpercent = 8.0f
+
+crewhitpercent = 8.5f
+
+hullhitpercent = 57.0f
+
+rangescan = 800.0f
+
+damagedscan = 125.0

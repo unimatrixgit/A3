@@ -17,18 +17,18 @@
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxHealth = 500
+maxhealth = 500
 
 // Hitpoints
 
-shieldGeneratorHitPoints = 1000
-enginesHitPoints = 1000
-weaponsHitPoints = 1000
-lifeSupportHitPoints = 1000
-sensorsHitPoints = 1000
+shieldgeneratorhitpoints = 1000
+engineshitpoints = 1000
+weaponshitpoints = 1000
+lifesupporthitpoints = 1000
+sensorshitpoints = 1000
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 5
+shieldrate = 5
 
 //**********************************************************************
 //Construction Parameters
@@ -231,3 +231,27 @@ metalcost = 25
 latinumcost = 0
 biomattercost = 0
 crewCost = 100
+
+maxspecialenergy = 0
+
+specialenergyrate = 0
+
+shieldgeneratorhitpercent = 8.0f
+
+engineshitpercent = 5.0f
+
+weaponshitpercent = 5.0f
+
+lifesupporthitpercent = 8.5f
+
+sensorshitpercent = 8.0f
+
+crewhitpercent = 8.5f
+
+hullhitpercent = 57.0f
+
+physicsfile = "sconstphys.odf"
+
+rangescan = 800.0f
+
+damagedscan = 125.0

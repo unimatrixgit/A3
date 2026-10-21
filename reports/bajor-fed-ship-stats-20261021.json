@@ -1,0 +1,437 @@
+{
+  "target": "D:\\armadaIII",
+  "backup": "D:\\Xaramada-Modwork\\backups\\bajor-fed-stats-20261021-215123",
+  "ships": [
+    {
+      "unit": "bjconst",
+      "federationCounterpart": "fconst",
+      "changes": {}
+    },
+    {
+      "unit": "bjfreight",
+      "federationCounterpart": "ffreight",
+      "changes": {
+        "physicsfile": {
+          "before": "\"bjfreightphys.odf\"",
+          "after": "\"sconstphys.odf\""
+        }
+      }
+    },
+    {
+      "unit": "bjscout",
+      "federationCounterpart": "fscout",
+      "changes": {
+        "normalWeapons": {
+          "before": [
+            "\"fventurepulse\""
+          ],
+          "after": [
+            "\"fventurepulse\""
+          ]
+        }
+      }
+    },
+    {
+      "unit": "bjinterceptor",
+      "federationCounterpart": "fdestroy",
+      "changes": {
+        "normalWeapons": {
+          "before": [
+            "\"fdefiantpulse\"",
+            "\"fdefiantpulse\"",
+            "\"fdefiantpulse\"",
+            "\"fdefiantpulse\"",
+            "\"fdefiantphot\"",
+            "\"fdefiantphot\""
+          ],
+          "after": [
+            "\"fdefiantpulse\"",
+            "\"fdefiantpulse\"",
+            "\"fdefiantpulse\"",
+            "\"fdefiantpulse\"",
+            "\"fdefiantphot\"",
+            "\"fdefiantphot\""
+          ]
+        }
+      }
+    },
+    {
+      "unit": "bjassault",
+      "federationCounterpart": "fassault",
+      "changes": {
+        "maxspecialenergy": {
+          "before": "1000",
+          "after": "1200"
+        },
+        "physicsfile": {
+          "before": "\"fcruiserphys.odf\"",
+          "after": "\"fdestroyerphys.odf\""
+        },
+        "normalWeapons": {
+          "before": [
+            "\"fyeagerphas\"",
+            "\"ftype6\"",
+            "\"fyeagerphas\"",
+            "\"ftype6\""
+          ],
+          "after": [
+            "\"fyeagerphas\"",
+            "\"ftype6\"",
+            "\"fyeagerphas\"",
+            "\"ftype6\""
+          ]
+        }
+      }
+    },
+    {
+      "unit": "bjtransport",
+      "federationCounterpart": "fantares",
+      "changes": {
+        "normalWeapons": {
+          "before": [
+            "\"fantarespulse\"",
+            "\"fmicrotype6\""
+          ],
+          "after": [
+            "\"fantarespulse\"",
+            "\"fmicrotype6\""
+          ]
+        }
+      }
+    },
+    {
+      "unit": "bjnerys",
+      "federationCounterpart": "fente",
+      "changes": {
+        "maxhealth": {
+          "before": "1265",
+          "after": "11000"
+        },
+        "shieldrate": {
+          "before": "12.65",
+          "after": "110"
+        },
+        "maxspecialenergy": {
+          "before": "1265",
+          "after": "11000"
+        },
+        "specialenergyrate": {
+          "before": "12.65",
+          "after": "110"
+        },
+        "normalWeapons": {
+          "before": [
+            "\"bjnphs\"",
+            "\"bjntor\""
+          ],
+          "after": [
+            "\"fsovereignphas\"",
+            "\"fsovereignphot\""
+          ]
+        }
+      }
+    },
+    {
+      "unit": "bjraider",
+      "federationCounterpart": "ffighter",
+      "changes": {
+        "maxhealth": {
+          "before": "75",
+          "after": "150"
+        },
+        "shieldrate": {
+          "before": "0.75",
+          "after": "1.5"
+        },
+        "shieldgeneratorhitpoints": {
+          "before": "150",
+          "after": "200"
+        },
+        "engineshitpoints": {
+          "before": "150",
+          "after": "200"
+        },
+        "weaponshitpoints": {
+          "before": "150",
+          "after": "200"
+        },
+        "lifesupporthitpoints": {
+          "before": "150",
+          "after": "200"
+        },
+        "sensorshitpoints": {
+          "before": "150",
+          "after": "200"
+        },
+        "physicsfile": {
+          "before": "\"fscoutphys.odf\"",
+          "after": "\"ffighterphys.odf\""
+        },
+        "normalWeapons": {
+          "before": [
+            "\"fdanubephas\""
+          ],
+          "after": [
+            "\"ffighterpulse\"",
+            "\"ffighterpulse\""
+          ]
+        }
+      }
+    },
+    {
+      "unit": "bjlightship",
+      "federationCounterpart": "fdestroy",
+      "changes": {
+        "maxhealth": {
+          "before": "75",
+          "after": "680"
+        },
+        "shieldrate": {
+          "before": "0.75",
+          "after": "6.8"
+        },
+        "maxspecialenergy": {
+          "before": "0",
+          "after": "680"
+        },
+        "specialenergyrate": {
+          "before": "0",
+          "after": "6.8"
+        },
+        "shieldgeneratorhitpoints": {
+          "before": "115",
+          "after": "1680"
+        },
+        "engineshitpoints": {
+          "before": "115",
+          "after": "1680"
+        },
+        "weaponshitpoints": {
+          "before": "115",
+          "after": "1680"
+        },
+        "lifesupporthitpoints": {
+          "before": "115",
+          "after": "1680"
+        },
+        "sensorshitpoints": {
+          "before": "115",
+          "after": "1680"
+        },
+        "weaponred": {
+          "before": null,
+          "after": "2.0f"
+        },
+        "weaponyellow": {
+          "before": null,
+          "after": "1.0f"
+        },
+        "physicsfile": {
+          "before": "\"fscoutphys.odf\"",
+          "after": "\"fdefiantphys.odf\""
+        },
+        "rangescan": {
+          "before": "1250.0f",
+          "after": "800.0f"
+        },
+        "normalWeapons": {
+          "before": [],
+          "after": [
+            "\"fdefiantpulse\"",
+            "\"fdefiantpulse\"",
+            "\"fdefiantpulse\"",
+            "\"fdefiantpulse\"",
+            "\"fdefiantphot\"",
+            "\"fdefiantphot\""
+          ]
+        }
+      }
+    },
+    {
+      "unit": "bjcolony",
+      "federationCounterpart": "fcolony",
+      "changes": {}
+    },
+    {
+      "unit": "bjcargo",
+      "federationCounterpart": "fcargo",
+      "changes": {}
+    },
+    {
+      "unit": "bjrepair",
+      "federationCounterpart": "fsrepair",
+      "changes": {}
+    },
+    {
+      "unit": "bjcruiser",
+      "federationCounterpart": "fcruise1",
+      "changes": {
+        "normalWeapons": {
+          "before": [
+            "\"fakiraphas\"",
+            "\"fakiraphot\"",
+            "\"fakiraphot\"",
+            "\"fakiraphot\"",
+            "\"fakiraphot\""
+          ],
+          "after": [
+            "\"fakiraphas\"",
+            "\"fakiraphot\"",
+            "\"fakiraphot\"",
+            "\"fakiraphot\"",
+            "\"fakiraphot\""
+          ]
+        }
+      }
+    },
+    {
+      "unit": "bjtorpedo",
+      "federationCounterpart": "fcruise2",
+      "changes": {
+        "maxspecialenergy": {
+          "before": "1000",
+          "after": "601"
+        },
+        "specialenergyrate": {
+          "before": "10.0",
+          "after": "5.9"
+        },
+        "normalWeapons": {
+          "before": [
+            "\"frphot\"",
+            "\"fsteamrunnerphas\""
+          ],
+          "after": [
+            "\"frphot\"",
+            "\"fsteamrunnerphas\""
+          ]
+        }
+      }
+    },
+    {
+      "unit": "bjfrigate",
+      "federationCounterpart": "ffrigate",
+      "changes": {
+        "normalWeapons": {
+          "before": [
+            "\"fexcelsiorphas\"",
+            "\"frphot\"",
+            "\"frphot\""
+          ],
+          "after": [
+            "\"fexcelsiorphas\"",
+            "\"frphot\"",
+            "\"frphot\""
+          ]
+        }
+      }
+    },
+    {
+      "unit": "bjartillery",
+      "federationCounterpart": "fcruise3",
+      "changes": {
+        "maxspecialenergy": {
+          "before": "900",
+          "after": "1000"
+        },
+        "specialenergyrate": {
+          "before": "9.0",
+          "after": "15"
+        },
+        "normalWeapons": {
+          "before": [
+            "\"fintrepidphas\"",
+            "\"ftype6\"",
+            "\"fintrepidphas\"",
+            "\"ftype6\""
+          ],
+          "after": [
+            "\"fintrepidphas\"",
+            "\"ftype6\"",
+            "\"fintrepidphas\"",
+            "\"ftype6\""
+          ]
+        }
+      }
+    },
+    {
+      "unit": "bjbattle",
+      "federationCounterpart": "fbattle",
+      "changes": {
+        "maxhealth": {
+          "before": "990",
+          "after": "1100"
+        },
+        "shieldrate": {
+          "before": "9.9",
+          "after": "11"
+        },
+        "normalWeapons": {
+          "before": [
+            "\"bjbphs\"",
+            "\"bjbtor\""
+          ],
+          "after": [
+            "\"fsovereignphas\"",
+            "\"fsovereignphot\""
+          ]
+        }
+      }
+    },
+    {
+      "unit": "bjspecial",
+      "federationCounterpart": "fspecial",
+      "changes": {
+        "maxspecialenergy": {
+          "before": "1800",
+          "after": "875"
+        },
+        "specialenergyrate": {
+          "before": "18.0",
+          "after": "8.75"
+        },
+        "normalWeapons": {
+          "before": [
+            "\"fnebulaphas\"",
+            "\"fnebulaphot\""
+          ],
+          "after": [
+            "\"fnebulaphas\"",
+            "\"fnebulaphot\""
+          ]
+        }
+      }
+    },
+    {
+      "unit": "bjsuper",
+      "federationCounterpart": "fbattle",
+      "changes": {
+        "maxspecialenergy": {
+          "before": "1100",
+          "after": "1400"
+        },
+        "specialenergyrate": {
+          "before": "11",
+          "after": "14.0"
+        },
+        "normalWeapons": {
+          "before": [
+            "\"bjsphs\"",
+            "\"bjstor\""
+          ],
+          "after": [
+            "\"fsovereignphas\"",
+            "\"fsovereignphot\""
+          ]
+        }
+      }
+    },
+    {
+      "unit": "xbjuconst",
+      "federationCounterpart": "xfuconst",
+      "changes": {}
+    }
+  ],
+  "costsCrewArtworkResearchPreserved": true,
+  "runtimeVerified": false
+}

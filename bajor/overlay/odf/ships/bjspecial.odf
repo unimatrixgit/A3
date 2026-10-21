@@ -65,11 +65,11 @@ possibleCraftNames =
 
 
 // Phaser
-weapon1 = "fnebulaphas"
+
 
 	
 // Photon torpedo
-weapon2 = "fnebulaphot"
+
 
 
 //Shield Harmonics Disruptor
@@ -125,7 +125,7 @@ hotkeyLabel = "HOTKEY_F3"
 
 
 //physics file for all other physics stuff
-physicsFile = "fcruiserphys.odf"
+physicsfile = "fcruiserphys.odf"
 trekPhysicsFile = "fcruiserphys.odf"
 
 // ship type for formations
@@ -154,13 +154,13 @@ race = "bajoran"
 
 
 
-weapon3 = "xbj_gshieldh"
 
-weapon4 = "xbj_gmanheim"
 
-weapon5 = "xbj_gpdlaser"
 
-weapon7 = "xbj_gselfdes"
+
+
+
+
 
 
 baseName = "br3_bjspecial"
@@ -179,13 +179,13 @@ ScaleSOD = 1.76
 
 
 
-weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp31" "hp32"
-weaponHardpoints2 = "hp11" "hp23"
-weaponHardpoints3 = "hp12" "hp14" "hp16" "hp18"
-weaponHardpoints4 = "hp12" "hp14" "hp16" "hp18"
-weaponHardpoints5 = "hp12" "hp14" "hp16" "hp18"
-weaponHardpoints7 = "hp12" "hp14" "hp16" "hp18"
-weaponHardpoints6 = "hp12" "hp14" "hp16" "hp18"
+
+
+
+
+
+
+
 enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
 lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
 weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32" "hp33"
@@ -194,11 +194,11 @@ sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
 hulltargethardpoints = "hp06" "hp08" "hp10"  "hp12" "hp14" "hp16" "hp18" "hp20" "hp24" "hp25"
 criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp22" "hp23"
 
-weapon6 = "y2a001"
 
-maxSpecialEnergy = 1800
 
-specialEnergyRate = 18.0
+maxspecialenergy = 875
+
+specialenergyrate = 8.75
 
 
 
@@ -216,3 +216,49 @@ metalcost = 95
 latinumcost = 0
 biomattercost = 0
 crewCost = 160
+
+shieldgeneratorhitpercent = 8.0f
+
+engineshitpercent = 5.0f
+
+weaponshitpercent = 5.0f
+
+lifesupporthitpercent = 8.5f
+
+sensorshitpercent = 8.0f
+
+crewhitpercent = 8.5f
+
+hullhitpercent = 57.0f
+
+rangescan = 800.0f
+
+damagedscan = 125.0
+
+weapon1 = "fnebulaphas"
+
+weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp31" "hp32"
+
+weapon2 = "fnebulaphot"
+
+weaponHardpoints2 = "hp11" "hp23"
+
+weapon3 = "xbj_gshieldh"
+
+weaponHardpoints3 = "hp12" "hp14" "hp16" "hp18"
+
+weapon4 = "xbj_gmanheim"
+
+weaponHardpoints4 = "hp12" "hp14" "hp16" "hp18"
+
+weapon5 = "xbj_gpdlaser"
+
+weaponHardpoints5 = "hp12" "hp14" "hp16" "hp18"
+
+weapon6 = "y2a001"
+
+weaponHardpoints6 = "hp12" "hp14" "hp16" "hp18"
+
+weapon7 = "xbj_gselfdes"
+
+weaponHardpoints7 = "hp12" "hp14" "hp16" "hp18"

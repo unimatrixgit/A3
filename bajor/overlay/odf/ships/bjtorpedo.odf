@@ -61,7 +61,7 @@ possibleCraftNames =
 //ART PARAMETERS & WEAPON NAMES
 
 // Photon Torpedo
-weapon1 = "frphot"
+
 
 
 //Warp Core Overload
@@ -69,7 +69,7 @@ weapon1 = "frphot"
 
 
 // Phaser
-weapon3 = "xbj_gwcover"
+
 
 
 
@@ -102,7 +102,7 @@ weaponred = 2.0f
 hotkeyLabel = "HOTKEY_F8"
 
 //physics file for all other physics stuff
-physicsFile = "fdestroyerphys.odf"
+physicsfile = "fdestroyerphys.odf"
 trekPhysicsFile = "fdestroyerphys.odf"
 
 
@@ -131,7 +131,7 @@ race = "bajoran"
 
 
 
-weapon2 = "fsteamrunnerphas"
+
 baseName = "br3_bjtorpedo"
 ScaleSOD = 1.6
 
@@ -144,9 +144,9 @@ ScaleSOD = 1.6
 
 
 
-weaponHardpoints1 = "hp01"
-weaponHardpoints2 = "hp02" "hp03" "hp16" "hp17"
-weaponHardpoints3 = "hp06"
+
+
+
 enginestargethardpoints = "hp13" "hp12"  "hp09" "hp10"
 lifesupporttargethardpoints = "hp05"
 weaponstargethardpoints = "hp01" "hp02" "hp03" "hp26"
@@ -155,9 +155,9 @@ sensorstargethardpoints = "hp18"
 hulltargethardpoints = "hp18" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
 criticaltargethardpoints = "hp14" "hp15"
 
-maxSpecialEnergy = 1000
+maxspecialenergy = 601
 
-specialEnergyRate = 10.0
+specialenergyrate = 5.9
 
 
 
@@ -175,3 +175,33 @@ metalcost = 60
 latinumcost = 0
 biomattercost = 0
 crewCost = 180
+
+shieldgeneratorhitpercent = 8.0f
+
+engineshitpercent = 5.0f
+
+weaponshitpercent = 5.0f
+
+lifesupporthitpercent = 8.5f
+
+sensorshitpercent = 8.0f
+
+crewhitpercent = 8.5f
+
+hullhitpercent = 57.0f
+
+rangescan = 800.0f
+
+damagedscan = 125.0
+
+weapon1 = "frphot"
+
+weaponHardpoints1 = "hp01"
+
+weapon2 = "fsteamrunnerphas"
+
+weaponHardpoints2 = "hp02" "hp03" "hp16" "hp17"
+
+weapon3 = "xbj_gwcover"
+
+weaponHardpoints3 = "hp06"

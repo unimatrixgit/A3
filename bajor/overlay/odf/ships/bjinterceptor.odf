@@ -70,19 +70,19 @@ possibleCraftNames =
 //ART PARAMETERS & WEAPON NAMES
 
 // Pulse Phaser
-weapon1 = "fdefiantpulse"
 
-
-// Pulse Phaser
-weapon2 = "fdefiantpulse"
 
 
 // Pulse Phaser
-weapon3 = "fdefiantpulse"
+
 
 
 // Pulse Phaser
-weapon4 = "fdefiantpulse"
+
+
+
+// Pulse Phaser
+
 
 
 //Anti-matter Mines
@@ -90,11 +90,11 @@ weapon4 = "fdefiantpulse"
 
 
 // Photon Torpedo
-weapon6 = "fdefiantphot"
+
 
 
 // Photon Torpedo
-weapon7 = "xbj_gamine"
+
 
 
 // Cloaking
@@ -137,7 +137,7 @@ hotkeyLabel = "HOTKEY_F3"
 
 
 //physics file for all other physics stuff
-physicsFile = "fdefiantphys.odf"
+physicsfile = "fdefiantphys.odf"
 trekPhysicsFile = "fdefiantphys.odf"
 
 
@@ -166,9 +166,9 @@ race = "bajoran"
 
 
 
-weapon5 = "fdefiantphot"
 
-weapon8 = "xbj_gfcloak"
+
+
 baseName = "br3_bjinterceptor"
 
 
@@ -186,14 +186,14 @@ baseName = "br3_bjinterceptor"
 
 
 
-weaponHardpoints1 = "hp01"
-weaponHardpoints2 = "hp02"
-weaponHardpoints3 = "hp03"
-weaponHardpoints4 = "hp04"
-weaponHardpoints5 = "hp05"
-weaponHardpoints6 = "hp06"
-weaponHardpoints7 = "hp14" "hp15"
-weaponHardpoints8 = "hp09"
+
+
+
+
+
+
+
+
 enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
 lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
 weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29"
@@ -221,3 +221,53 @@ metalcost = 75
 latinumcost = 0
 biomattercost = 0
 crewCost = 115
+
+shieldgeneratorhitpercent = 8.0f
+
+engineshitpercent = 5.0f
+
+weaponshitpercent = 5.0f
+
+lifesupporthitpercent = 8.5f
+
+sensorshitpercent = 8.0f
+
+crewhitpercent = 8.5f
+
+hullhitpercent = 57.0f
+
+rangescan = 800.0f
+
+damagedscan = 125.0
+
+weapon1 = "fdefiantpulse"
+
+weaponHardpoints1 = "hp01"
+
+weapon2 = "fdefiantpulse"
+
+weaponHardpoints2 = "hp02"
+
+weapon3 = "fdefiantpulse"
+
+weaponHardpoints3 = "hp03"
+
+weapon4 = "fdefiantpulse"
+
+weaponHardpoints4 = "hp04"
+
+weapon5 = "fdefiantphot"
+
+weaponHardpoints5 = "hp05"
+
+weapon6 = "fdefiantphot"
+
+weaponHardpoints6 = "hp06"
+
+weapon7 = "xbj_gamine"
+
+weaponHardpoints7 = "hp14" "hp15"
+
+weapon8 = "xbj_gfcloak"
+
+weaponHardpoints8 = "hp09"
