@@ -50,26 +50,26 @@ fedpod22.odf 1 fedpod12.odf
 fedpod23.odf 1 fedpod13.odf
 fedpod24.odf 1 fedpod14.odf
 fedpod25.odf 1 fedpod15.odf
-
-
-
-
-
-
-
-
-
-
-
-
+gcorbom.odf 1 fedpod1.odf
+gchainp.odf 1 fedpod2.odf
+gwcover.odf 1 fedpod3.odf
+gamine.odf 1 fedpod4.odf
+gdetectf.odf 1 fedpod5.odf
+gmanheim.odf 1 fedpod6.odf
+gshieldh.odf 1 fedpod7.odf
+gfedrep.odf 1 fedpod8.odf
+gpdlaser.odf 1 fedpod9.odf
+gshldemt.odf 1 fedpod16.odf
+ggalintegrator.odf 0
+ggalseparator.odf 0
 gtempor.odf 0
-
-
-
-
-
-
-
+gphastorp.odf 0
+gsnap.odf 0
+ghologen.odf 0
+gfake.odf 0
+gcontrol.odf 0
+omega1.odf 0
+pgcorbom.odf 1 fedpod1.odf // Existing ability research; same requirement as gcorbom
 kconst.odf 1 kbase.odf
 kfreight.odf 2 kbase.odf kmining.odf
 kcargo.odf 2 kbase.odf ktrading.odf
@@ -119,18 +119,18 @@ klipod22.odf 1 klipod12.odf
 klipod23.odf 1 klipod13.odf
 klipod24.odf 1 klipod14.odf
 klipod25.odf 1 klipod15.odf
-
-
-
-
-
-
-
-
+gplasmac.odf 1 klipod1.odf
+gpoleron.odf 1 klipod2.odf
+gkcteam.odf 1 klipod3.odf
+ggrvmine.odf 1 klipod4.odf
+gdetectk.odf 1 klipod5.odf
+gdchant.odf 1 klipod6.odf
+grfield.odf 1 klipod7.odf
+gionstm.odf 1 klipod8.odf
 gmicro.odf 1 klipod9.odf
-
-
-
+wenhance.odf 1 klipod16.odf
+grwave.odf 0
+kgplasmac.odf 1 klipod1.odf // Existing ability research; same requirement as gplasmac
 bconst.odf 1 bbase.odf
 bfreight.odf 2 bbase.odf bmining.odf
 bscout.odf 1 byard.odf
@@ -179,17 +179,17 @@ borpod22.odf 1 borpod12.odf
 borpod23.odf 1 borpod13.odf
 borpod24.odf 1 borpod14.odf
 borpod25.odf 1 borpod15.odf
-
+gborgbor.odf 1 borpod1.odf
 gholdbm.odf 1 borpod2.odf
 fusiongholdbm.odf 1 borpod2.odf
-
-
-
-
-
-
-
-
+gregen.odf 1 borpod3.odf
+gtwarpd.odf 1 borpod4.odf
+gdetectb.odf 1 borpod5.odf
+gremod.odf 1 borpod6.odf
+goverrid.odf 1 borpod7.odf
+gnanites.odf 1 borpod8.odf
+gutribm.odf 1 borpod9.odf
+gengyemt.odf 1 borpod16.odf
 gtechassim.odf 1 btechass.odf
 gmastran.odf 0
 gcubeintegrator.odf 1 bhub.odf
@@ -243,17 +243,17 @@ rompod22.odf 1 rompod12.odf
 rompod23.odf 1 rompod13.odf
 rompod24.odf 1 rompod14.odf
 rompod25.odf 1 rompod15.odf
-
-
-
-
-
-
-
-
-
-
-
+gshieldi.odf 1 rompod1.odf
+gromspy.odf 1 rompod2.odf
+gposijam.odf 1 rompod3.odf
+gmyotron.odf 1 rompod4.odf
+gdetectr.odf 1 rompod5.odf
+gholoemt.odf 1 rompod6.odf
+gpsyblst.odf 1 rompod7.odf
+gesconv.odf 1 rompod8.odf
+gpcloak.odf 1 rompod9.odf
+gclkenh.odf 1 rompod16.odf
+gbholeg.odf 0
 cconst.odf 1 cbase.odf
 cfreight.odf 2 cbase.odf cmining.odf
 ccargo.odf 2 cbase.odf ctrading.odf
@@ -304,17 +304,17 @@ carpod22.odf 1 carpod12.odf
 carpod23.odf 1 carpod13.odf
 carpod24.odf 1 carpod14.odf
 carpod25.odf 1 carpod15.odf
-
-
-
-
-
-
-
-
-
-
-
+gccloak.odf 0
+gplasmabank.odf 1 carpod1.odf
+gmicroorgs.odf 1 carpod2.odf
+gdrones.odf 1 carpod3.odf
+gfluxwave.odf 1 carpod4.odf
+gdetectc.odf 1 carpod5.odf
+gaccelcannon.odf 1 carpod6.odf
+gquanteffect.odf 1 carpod7.odf
+gwarpboost.odf 1 carpod8.odf
+gsdisruptor.odf 1 carpod9.odf
+gsensorscram.odf 1 carpod16.odf
 8472_mothership.odf 0
 8472_active.odf 1 8472_mothership.odf
 8472_passive.odf 1 8472_mothership.odf
@@ -350,15 +350,15 @@ carpod25.odf 1 carpod15.odf
 8472_podshipresearch22.odf 1 8472_podshipresearch2.odf
 8472_podshipresearch23.odf 1 8472_podshipresearch3.odf
 8472_podshipresearch24.odf 1 8472_podshipresearch4.odf
-
-
-
-
-
-
-
-
-
+gclairvoyance.odf 1 8472_podbasic0.odf
+gclairvoyantlink.odf 1 8472_podbasic1.odf
+gpsionicdisruption.odf 1 8472_podbasic2.odf
+gpsionicinsanity.odf 1 8472_podbasic3.odf
+gtachdetgrid.odf 1 8472_podbasic4.odf
+gbiopulse.odf 1 8472_podadvanced0.odf
+gnebulageneration.odf 1 8472_podadvanced1.odf
+gnebulaflux.odf 1 8472_podadvanced2.odf
+gtransientrift.odf 1 8472_podadvanced3.odf
 gresourceextractionbeam.odf 0
 dconst.odf 1 dbase.odf
 dfreight.odf 2 dbase.odf dmining.odf
@@ -414,17 +414,17 @@ dompod22.odf 1 dompod12.odf
 dompod23.odf 1 dompod13.odf
 dompod24.odf 1 dompod14.odf
 dompod25.odf 1 dompod15.odf
-
-
-
-
-
-
-
-
-
-
-
+gdetectd.odf 1 dompod5.odf
+dgpolerond.odf 1 dompod4.odf
+gdcteam.odf 1 dompod2.odf
+gdomspy.odf 1 dompod3.odf
+domgshieldd.odf 1 dompod1.odf
+dwenhance.odf 1 dompod16.odf
+prot1.odf 1 dompod7.odf
+gholod.odf 1 dompod6.odf
+gvortex.odf 1 dompod8.odf
+gram.odf 0
+dwgpolerond.odf 0
 brconst.odf 1 brbase.odf
 brfreight.odf 2 brbase.odf brmining.odf
 brscout.odf 1 bryard.odf
@@ -442,10 +442,10 @@ bryard.odf 1 brbase.odf
 bryard2.odf 2 bryard.odf brresear.odf
 brresear.odf 1 bryard.odf
 brresear2.odf 2 bryard.odf brresear.odf
-
-
-
-
+brgshldemt.odf 1 brresear2.odf
+brgshieldd.odf 1 brresear2.odf
+brgdetectd.odf 0
+brgpolerond.odf 1 brresear.odf
 hamine.odf 0
 hcorbom.odf 0
 hmanheim.odf 0
@@ -454,7 +454,7 @@ hshieldi.odf 0
 hholdbm.odf 0
 hmicro.odf 0
 hpoleron.odf 0
-
+hshieldh.odf 1 fedpod7.odf // Existing ability research; same requirement as gshieldh
 hplasma2.odf 0
 hutribm.odf 0
 hnanites.odf 0
@@ -465,15 +465,15 @@ gtracbmo.odf 0
 gselfdes.odf 0
 gtracbm.odf 0
 gcloak.odf 0
-
+grcloak.odf 0
 gkcloak.odf 0
-
+hcloak.odf 0
 shield.odf 0
-
+gplasmaw.odf 1 rompod11.odf // Existing ability research; same requirement as ya0054
 xacassim.odf 0
-
-
-
+xactwarp.odf 1 borpod4.odf // Existing ability research; same requirement as y2a002
+xacremod.odf 1 borpod6.odf // Existing ability research; same requirement as gremod
+xabtrans5.odf 1 borpod4.odf // Existing ability research; same requirement as y2a002
 s31yard.odf 3 fyard2.odf fresear2.odf fupgrade.odf
 f31const.odf 2 fbase.odf fupgrade.odf
 fvalour.odf 1 s31yard.odf
@@ -628,16 +628,16 @@ fremmeler.odf 1 fyard0.odf
 fmidas.odf 1 fupgrade.odf
 fjupiter.odf 1 fmidas.odf
 fargus.odf 2 fmidas.odf fjupiter.odf
-
-
-
-
-
-
-
-
-
-
+ftwarpd.odf 1 fjupiter.odf
+slipstream.odf 1 fjupiter.odf
+fnxenttoent.odf 1 fyard0.odf
+fenttoenta.odf 1 fresear.odf
+fentatoentb.odf 1 fyard2.odf
+fentbtoentc.odf 1 fresear2.odf
+fentctoentd.odf 1 fyard3.odf
+fentdtoentdx.odf 1 fyard3.odf
+fentdxtoente.odf 1 fupgrade.odf
+fgrvmine.odf 1 fedpod4.odf
 
 xhfhero.odf 1 fyard3.odf
 
@@ -672,7 +672,7 @@ xoblocutus.odf 2 byard3.odf xbomegapod.odf
 dcruise4.odf 1 dyard.odf
 kdestroy4.odf 1 kimpyard.odf
 
-
+xacgreen.odf 0 // additional green holding/assimilation beam
 
 
 bbase2.odf 0
@@ -805,31 +805,31 @@ xbj_gminedilithium.odf 0
 
 xbj_gminelatinum.odf 0
 
+xbj_gdetectf.odf 1 bjpod5.odf
 
+xbj_gamine.odf 1 bjpod4.odf
 
+xbj_gfcloak.odf 0
 
-
-
-
-
+xbj_gchainp.odf 1 bjpod2.odf
 
 xbj_fcolonypod.odf 0
 
 xbj_grepairbeam.odf 0
 
+xbj_gwcover.odf 1 bjpod3.odf
 
+xbj_gshldemt.odf 1 bjpod16.odf
 
+xbj_gselfdes.odf 0
 
+xbj_gcorbom.odf 1 bjpod1.odf
 
+xbj_gshieldh.odf 1 bjpod7.odf
 
+xbj_gmanheim.odf 1 bjpod6.odf
 
-
-
-
-
-
-
-
+xbj_gpdlaser.odf 1 bjpod9.odf
 
 xbj_gschainp.odf 0
 
@@ -905,7 +905,7 @@ xbassimmanual.odf 0
 xhfriker.odf 1 fyard3.odf
 
 // Native cube technology assimilation control.
-
+gTechAssimBeam.odf 0
 
 xhrshinzon.odf 1 ryard3.odf
 xhrdonatra.odf 1 ryard3.odf
@@ -938,171 +938,171 @@ dturret3.odf 1 dyard.odf // Heavy platform unlocked by first faction shipyard
 
 bconst2.odf 1 bbase.odf // Overflow Assembler; available from Nexus
 
+y2a001.odf 1 bjpod2.odf // Existing ability research; same requirement as xbj_gchainp
 
+y2a002.odf 1 borpod4.odf // GUI alias of gtwarpd
 
+y2a003.odf 1 borpod7.odf // Existing ability research; same requirement as goverrid
 
+y2a004.odf 0 // GUI alias of gkcloak
 
+y2a005.odf 1 klipod9.odf // GUI alias of gmicro
 
+ya0001.odf 1 8472_podbasic0.odf // Added ability research lock
 
+ya0002.odf 1 8472_podbasic1.odf // Added ability research lock
 
+ya0003.odf 1 8472_podbasic2.odf // Added ability research lock
 
+ya0004.odf 1 8472_podbasic3.odf // Added ability research lock
 
+ya0005.odf 1 8472_podbasic3.odf // Added ability research lock
 
+ya0006.odf 1 8472_podbasic3.odf // Added ability research lock
 
+ya0007.odf 1 yabrpolpod.odf // Added ability research lock
 
+ya0008.odf 1 carpod16.odf // Added ability research lock
 
+ya0009.odf 1 carpod1.odf // Added ability research lock
 
+ya0010.odf 1 carpod1.odf // Added ability research lock
 
+ya0011.odf 1 carpod1.odf // Added ability research lock
 
+ya0012.odf 1 carpod16.odf // Added ability research lock
 
+ya0013.odf 1 carpod3.odf // Added ability research lock
 
+ya0014.odf 1 carpod2.odf // Added ability research lock
 
+ya0015.odf 1 carpod2.odf // Added ability research lock
 
+ya0016.odf 1 carpod3.odf // Added ability research lock
 
+ya0017.odf 1 carpod16.odf // Added ability research lock
 
+ya0018.odf 1 carpod2.odf // Added ability research lock
 
+ya0019.odf 1 carpod2.odf // Added ability research lock
 
+ya0020.odf 1 carpod2.odf // Added ability research lock
 
+ya0021.odf 1 carpod1.odf // Added ability research lock
 
+ya0022.odf 1 carpod1.odf // Added ability research lock
 
+ya0023.odf 1 carpod1.odf // Added ability research lock
 
+ya0024.odf 1 dompod1.odf // Added ability research lock
 
+ya0025.odf 1 fedpod4.odf // Added ability research lock
 
+ya0026.odf 1 fedpod4.odf // Added ability research lock
 
+ya0027.odf 1 fedpod2.odf // Added ability research lock
 
+ya0028.odf 1 fedpod2.odf // Added ability research lock
 
+ya0029.odf 1 fedpod4.odf // Added ability research lock
 
+ya0030.odf 1 fedpod2.odf // Added ability research lock
 
+ya0031.odf 1 fedpod2.odf // Added ability research lock
 
+ya0032.odf 1 fedpod2.odf // Added ability research lock
 
+ya0033.odf 1 fedpod2.odf // Added ability research lock
 
+ya0034.odf 1 fedpod1.odf // Added ability research lock
 
+ya0035.odf 1 fedpod1.odf // Added ability research lock
 
+ya0036.odf 1 fedpod1.odf // Added ability research lock
 
+ya0037.odf 1 klipod2.odf // Added ability research lock
 
+ya0038.odf 1 klipod2.odf // Added ability research lock
 
+ya0039.odf 1 klipod1.odf // Added ability research lock
 
+ya0040.odf 1 klipod2.odf // Added ability research lock
 
+ya0041.odf 1 klipod2.odf // Added ability research lock
 
+ya0042.odf 1 klipod2.odf // Added ability research lock
 
+ya0043.odf 1 klipod1.odf // Added ability research lock
 
+ya0044.odf 1 klipod1.odf // Added ability research lock
 
+ya0045.odf 1 klipod1.odf // Added ability research lock
 
+ya0046.odf 1 klipod2.odf // Added ability research lock
 
+ya0047.odf 1 klipod2.odf // Added ability research lock
 
+ya0048.odf 1 klipod1.odf // Added ability research lock
 
+ya0049.odf 1 klipod1.odf // Added ability research lock
 
+ya0050.odf 1 klipod1.odf // Added ability research lock
 
+ya0051.odf 1 rompod2.odf // Added ability research lock
 
+ya0052.odf 1 rompod2.odf // Added ability research lock
 
+ya0053.odf 1 rompod2.odf // Added ability research lock
 
+ya0054.odf 1 rompod11.odf // Added ability research lock
 
+ya0055.odf 1 rompod11.odf // Added ability research lock
 
+ya0056.odf 1 rompod11.odf // Added ability research lock
 
+ya0057.odf 1 rompod11.odf // Added ability research lock
 
+ya0058.odf 1 rompod11.odf // Added ability research lock
 
+ya0059.odf 1 fedpod4.odf // Added ability research lock
 
+ya0060.odf 1 fedpod4.odf // Added ability research lock
 
+ya0061.odf 1 fedpod2.odf // Added ability research lock
 
+ya0062.odf 1 fedpod4.odf // Added ability research lock
 
+ya0063.odf 1 fedpod1.odf // Added ability research lock
 
+ya0064.odf 1 fedpod2.odf // Added ability research lock
 
+ya0065.odf 1 fedpod2.odf // Added ability research lock
 
+ya0066.odf 1 fedpod1.odf // Added ability research lock
 
+ya0067.odf 1 fedpod4.odf // Added ability research lock
 
+ya0068.odf 1 fedpod1.odf // Added ability research lock
 
+ya0069.odf 1 fedpod4.odf // Added ability research lock
 
+ya0070.odf 1 fedpod1.odf // Added ability research lock
 
+ya0071.odf 1 fedpod1.odf // Added ability research lock
 
+ya0072.odf 1 fedpod1.odf // Added ability research lock
 
+ya0073.odf 1 fedpod1.odf // Added ability research lock
 
+ya0074.odf 1 fedpod1.odf // Added ability research lock
 
+ya0075.odf 1 fedpod1.odf // Added ability research lock
 
+ya0076.odf 1 fedpod1.odf // Added ability research lock
 
+ya0077.odf 1 dompod1.odf // Added ability research lock
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ya0078.odf 1 dompod1.odf // Added ability research lock
 
 xcdconst.odf 1 dombase.odf // Dominion constructor from Cardassian Dominion Starbase
 
@@ -1120,534 +1120,47 @@ xdominer.odf 1 domabase.odf // Dominion Outpost production
 
 xdjacht.odf 1 domabase.odf // Founders hero fighter
 
-
+xdjboard.odf 1 dompod2.odf // Founders jacht JemHadar boarding research
 
 xbaautoman.odf 0 // Manual control of existing Auto Assimilator defense beam
-
-z21bjspec.odf 1 bjresear2.odf // Faction special systems research
-
-z21bspec.odf 1 bresear2.odf // Faction special systems research
-
-z21brspec.odf 1 brresear.odf // Faction special systems research
-
-z21cspec.odf 1 cresear2.odf // Faction special systems research
-
-z21dspec.odf 1 dresear2.odf // Faction special systems research
-
-z21fspec.odf 1 fresear2.odf // Faction special systems research
-
-z21kspec.odf 1 kresear2.odf // Faction special systems research
-
-z21rspec.odf 1 rresear2.odf // Faction special systems research
-
-brgdetectd.odf 1 z21brspec.odf // Faction special systems research
-
-brgpolerond.odf 1 z21brspec.odf // Faction special systems research
-
-brgshieldd.odf 1 z21brspec.odf // Faction special systems research
-
-brgshldemt.odf 1 z21brspec.odf // Faction special systems research
-
-cgwposipulse.odf 1 z21cspec.odf // Faction special systems research
-
-dwgpolerond.odf 1 z21dspec.odf // Faction special systems research
-
-fentatoentb.odf 1 z21fspec.odf // Faction special systems research
-
-fentbtoentc.odf 1 z21fspec.odf // Faction special systems research
-
-fentctoentd.odf 1 z21fspec.odf // Faction special systems research
-
-fentdtoentdx.odf 1 z21fspec.odf // Faction special systems research
-
-fentdxtoente.odf 1 z21fspec.odf // Faction special systems research
-
-fenttoenta.odf 1 z21fspec.odf // Faction special systems research
-
-fnxenttoent.odf 1 z21fspec.odf // Faction special systems research
-
-ftwarpd.odf 1 z21fspec.odf // Faction special systems research
-
-gbholeg.odf 1 z21rspec.odf // Faction special systems research
-
-gborgionbeam.odf 1 z21bspec.odf // Faction special systems research
-
-gccloak.odf 1 z21cspec.odf // Faction special systems research
-
-gcdreadnaught.odf 1 z21cspec.odf // Faction special systems research
-
-gcontrol.odf 1 z21fspec.odf // Faction special systems research
-
-z21bj1ec392.odf 1 z21bjspec.odf // Faction special systems research
-
-gdetect3.odf 1 z21bspec.odf // Faction special systems research
-
-z21bj6b0464.odf 1 z21bjspec.odf // Faction special systems research
-
-gfake.odf 1 z21fspec.odf // Faction special systems research
-
-gfcloak.odf 1 z21fspec.odf // Faction special systems research
-
-ggalintegrator.odf 1 z21fspec.odf // Faction special systems research
-
-ggalseparator.odf 1 z21fspec.odf // Faction special systems research
-
-ghologen.odf 1 z21fspec.odf // Faction special systems research
-
-z21ff18a27.odf 1 z21fspec.odf // Faction special systems research
-
-z21kf18a27.odf 1 z21kspec.odf // Faction special systems research
-
-gphastorp.odf 1 z21fspec.odf // Faction special systems research
-
-gplasmaw.odf 1 z21rspec.odf // Faction special systems research
-
-gram.odf 1 z21dspec.odf // Faction special systems research
-
-grcloak.odf 1 z21rspec.odf // Faction special systems research
-
-grwave.odf 1 z21kspec.odf // Faction special systems research
-
-gschainp.odf 1 z21fspec.odf // Faction special systems research
-
-z21bja45955.odf 1 z21bjspec.odf // Faction special systems research
-
-z21ba45955.odf 1 z21bspec.odf // Faction special systems research
-
-z21bra45955.odf 1 z21brspec.odf // Faction special systems research
-
-z21ca45955.odf 1 z21cspec.odf // Faction special systems research
-
-z21da45955.odf 1 z21dspec.odf // Faction special systems research
-
-z21fa45955.odf 1 z21fspec.odf // Faction special systems research
-
-z21ka45955.odf 1 z21kspec.odf // Faction special systems research
-
-z21ra45955.odf 1 z21rspec.odf // Faction special systems research
-
-gshieldd.odf 1 z21dspec.odf // Faction special systems research
-
-gsnap.odf 1 z21fspec.odf // Faction special systems research
-
-gtechassimbeam.odf 1 z21bspec.odf // Faction special systems research
-
-hcloak.odf 1 z21fspec.odf // Faction special systems research
-
-hshieldh.odf 1 z21fspec.odf // Faction special systems research
-
-kgplasmac.odf 1 z21kspec.odf // Faction special systems research
-
-omega1.odf 1 z21fspec.odf // Faction special systems research
-
-pgcorbom.odf 1 z21fspec.odf // Faction special systems research
-
-promint.odf 1 z21fspec.odf // Faction special systems research
-
-slipstream.odf 1 z21fspec.odf // Faction special systems research
-
-xabtrans5.odf 1 z21bspec.odf // Faction special systems research
-
-xacgreen.odf 1 z21bspec.odf // Faction special systems research
-
-xacremod.odf 1 z21bspec.odf // Faction special systems research
-
-xactwarp.odf 1 z21bspec.odf // Faction special systems research
-
-xbj_gfcloak.odf 1 z21bjspec.odf // Faction special systems research
-
-xbj_gselfdes.odf 1 z21bjspec.odf // Faction special systems research
-
-xbtpblue.odf 1 z21bspec.odf // Faction special systems research
-
-xbtpgreen.odf 1 z21bspec.odf // Faction special systems research
-
-xbtpregen.odf 1 z21bspec.odf // Faction special systems research
-
-xbtpwarp.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bassault_gborgbor.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bassault_gregen.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bbattle1_gregen.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bbattle2_gregen.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bbattle3_gregen.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bbattle4_gregen.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bcolony_gborgbor.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bcruise1_gborgbor.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bcruise2_gregen.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bcruise3_gborgbor.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bcruise3_gregen.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bdestroy2_gborgbor.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bdestroy2_gregen.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bdestroy_gborgbor.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bdestroy_gregen.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bfrigate_gborgbor.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bhentra_gborgbor.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bhentra_gregen.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bhentrag_gborgbor.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bhentrag_gregen.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bmama_gregen.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bomega1_gregen.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bpentra_gborgbor.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bpentra_gregen.odf 1 z21bspec.odf // Faction special systems research
-
-xy_bspecial_gborgbor.odf 1 z21bspec.odf // Faction special systems research
-
-xy_btacpyr_gborgbor.odf 1 z21bspec.odf // Faction special systems research
-
-xy_btacpyr_gregen.odf 1 z21bspec.odf // Faction special systems research
-
-xy_tcube_gregen.odf 1 z21bspec.odf // Faction special systems research
-
-xy_xbassimold_gregen.odf 1 z21bspec.odf // Faction special systems research
-
-xy_xbassimold_gtwarpd.odf 1 z21bspec.odf // Faction special systems research
-
-xy_xobbattle1_gregen.odf 1 z21bspec.odf // Faction special systems research
-
-xy_xobbattle2_gregen.odf 1 z21bspec.odf // Faction special systems research
-
-xy_xobcruise1_gborgbor.odf 1 z21bspec.odf // Faction special systems research
-
-y2a001.odf 1 z21bjspec.odf // Faction special systems research
-
-y2a003.odf 1 z21bspec.odf // Faction special systems research
-
-y2a004.odf 1 z21kspec.odf // Faction special systems research
-
-ya0004.odf 1 8472_podbasic3.odf // Faction special systems research
-
-ya0001.odf 1 8472_podbasic0.odf // Faction special systems research
-
-ya0005.odf 1 8472_podbasic3.odf // Faction special systems research
-
-ya0002.odf 1 8472_podbasic1.odf // Faction special systems research
-
-ya0003.odf 1 8472_podbasic2.odf // Faction special systems research
-
-ya0006.odf 1 8472_podbasic3.odf // Faction special systems research
-
-gpsionicinsanity.odf 1 8472_podbasic3.odf // Faction special systems research
-
-gtachdetgrid.odf 1 8472_podbasic4.odf // Faction special systems research
-
-gbiopulse.odf 1 8472_podadvanced0.odf // Faction special systems research
-
-gnebulageneration.odf 1 8472_podadvanced1.odf // Faction special systems research
-
-gnebulaflux.odf 1 8472_podadvanced2.odf // Faction special systems research
-
-gtransientrift.odf 1 8472_podadvanced3.odf // Faction special systems research
-
-gpsionicdisruption.odf 1 8472_podbasic2.odf // Faction special systems research
-
-gclairvoyantlink.odf 1 8472_podbasic1.odf // Faction special systems research
-
-gclairvoyance.odf 1 8472_podbasic0.odf // Faction special systems research
-
-ya0061.odf 1 fedpod2.odf // Faction special systems research
-
-ya0067.odf 1 fedpod4.odf // Faction special systems research
-
-gtwarpd.odf 1 borpod4.odf // Faction special systems research
-
-gregen.odf 1 borpod3.odf // Faction special systems research
-
-gborgbor.odf 1 borpod1.odf // Faction special systems research
-
-gengyemt.odf 1 borpod16.odf // Faction special systems research
-
-xbj_gamine.odf 1 bjpod4.odf // Faction special systems research
-
-xbj_gchainp.odf 1 bjpod2.odf // Faction special systems research
-
-xbj_gcorbom.odf 1 bjpod1.odf // Faction special systems research
-
-xbj_gdetectf.odf 1 bjpod5.odf // Faction special systems research
-
-xbj_gshldemt.odf 1 bjpod16.odf // Faction special systems research
-
-xbj_gshieldh.odf 1 bjpod7.odf // Faction special systems research
-
-xbj_gmanheim.odf 1 bjpod6.odf // Faction special systems research
-
-xbj_gpdlaser.odf 1 bjpod9.odf // Faction special systems research
-
-xbj_gwcover.odf 1 bjpod3.odf // Faction special systems research
-
-gutribm.odf 1 borpod9.odf // Faction special systems research
-
-gnanites.odf 1 borpod8.odf // Faction special systems research
-
-goverrid.odf 1 borpod7.odf // Faction special systems research
-
-gremod.odf 1 borpod6.odf // Faction special systems research
-
-ya0007.odf 1 yabrpolpod.odf // Faction special systems research
-
-y2a002.odf 1 borpod4.odf // Faction special systems research
-
-gplasmabank.odf 1 carpod1.odf // Faction special systems research
-
-gdrones.odf 1 carpod3.odf // Faction special systems research
-
-gfluxwave.odf 1 carpod4.odf // Faction special systems research
-
-ya0016.odf 1 carpod3.odf // Faction special systems research
-
-gmicroorgs.odf 1 carpod2.odf // Faction special systems research
-
-ya0014.odf 1 carpod2.odf // Faction special systems research
-
-gsensorscram.odf 1 carpod16.odf // Faction special systems research
-
-gaccelcannon.odf 1 carpod6.odf // Faction special systems research
-
-ya0015.odf 1 carpod2.odf // Faction special systems research
-
-ya0009.odf 1 carpod1.odf // Faction special systems research
-
-gdetectc.odf 1 carpod5.odf // Faction special systems research
-
-ya0008.odf 1 carpod16.odf // Faction special systems research
-
-ya0010.odf 1 carpod1.odf // Faction special systems research
-
-ya0011.odf 1 carpod1.odf // Faction special systems research
-
-ya0012.odf 1 carpod16.odf // Faction special systems research
-
-gquanteffect.odf 1 carpod7.odf // Faction special systems research
-
-gwarpboost.odf 1 carpod8.odf // Faction special systems research
-
-gsdisruptor.odf 1 carpod9.odf // Faction special systems research
-
-ya0013.odf 1 carpod3.odf // Faction special systems research
-
-dgpolerond.odf 1 dompod4.odf // Faction special systems research
-
-gdcteam.odf 1 dompod2.odf // Faction special systems research
-
-gdomspy.odf 1 dompod3.odf // Faction special systems research
-
-dwenhance.odf 1 dompod16.odf // Faction special systems research
-
-ya0022.odf 1 carpod1.odf // Faction special systems research
-
-ya0023.odf 1 carpod1.odf // Faction special systems research
-
-ya0017.odf 1 carpod16.odf // Faction special systems research
-
-gdetectd.odf 1 dompod5.odf // Faction special systems research
-
-gholod.odf 1 dompod6.odf // Faction special systems research
-
-gvortex.odf 1 dompod8.odf // Faction special systems research
-
-prot1.odf 1 dompod7.odf // Faction special systems research
-
-ya0024.odf 1 dompod1.odf // Faction special systems research
-
-ya0077.odf 1 dompod1.odf // Faction special systems research
-
-ya0078.odf 1 dompod1.odf // Faction special systems research
-
-ya0069.odf 1 fedpod4.odf // Faction special systems research
-
-gfedrep.odf 1 fedpod8.odf // Faction special systems research
-
-ya0027.odf 1 fedpod2.odf // Faction special systems research
-
-gcorbom.odf 1 fedpod1.odf // Faction special systems research
-
-gshieldh.odf 1 fedpod7.odf // Faction special systems research
-
-gmanheim.odf 1 fedpod6.odf // Faction special systems research
-
-gpdlaser.odf 1 fedpod9.odf // Faction special systems research
-
-ya0030.odf 1 fedpod2.odf // Faction special systems research
-
-ya0031.odf 1 fedpod2.odf // Faction special systems research
-
-ya0032.odf 1 fedpod2.odf // Faction special systems research
-
-gchainp.odf 1 fedpod2.odf // Faction special systems research
-
-gwcover.odf 1 fedpod3.odf // Faction special systems research
-
-ya0026.odf 1 fedpod4.odf // Faction special systems research
-
-ya0065.odf 1 fedpod2.odf // Faction special systems research
-
-gdetectf.odf 1 fedpod5.odf // Faction special systems research
-
-gamine.odf 1 fedpod4.odf // Faction special systems research
-
-ya0066.odf 1 fedpod1.odf // Faction special systems research
-
-ya0025.odf 1 fedpod4.odf // Faction special systems research
-
-ya0068.odf 1 fedpod1.odf // Faction special systems research
-
-ya0033.odf 1 fedpod2.odf // Faction special systems research
-
-ya0034.odf 1 fedpod1.odf // Faction special systems research
-
-gshldemt.odf 1 fedpod16.odf // Faction special systems research
-
-ya0035.odf 1 fedpod1.odf // Faction special systems research
-
-ya0029.odf 1 fedpod4.odf // Faction special systems research
-
-ya0071.odf 1 fedpod1.odf // Faction special systems research
-
-fgrvmine.odf 1 fedpod4.odf // Faction special systems research
-
-ya0028.odf 1 fedpod2.odf // Faction special systems research
-
-ya0063.odf 1 fedpod1.odf // Faction special systems research
-
-ya0064.odf 1 fedpod2.odf // Faction special systems research
-
-ya0070.odf 1 fedpod1.odf // Faction special systems research
-
-ya0062.odf 1 fedpod4.odf // Faction special systems research
-
-ya0060.odf 1 fedpod4.odf // Faction special systems research
-
-ya0059.odf 1 fedpod4.odf // Faction special systems research
-
-ya0018.odf 1 carpod2.odf // Faction special systems research
-
-ya0019.odf 1 carpod2.odf // Faction special systems research
-
-ya0037.odf 1 klipod2.odf // Faction special systems research
-
-gplasmac.odf 1 klipod1.odf // Faction special systems research
-
-gpoleron.odf 1 klipod2.odf // Faction special systems research
-
-gkcteam.odf 1 klipod3.odf // Faction special systems research
-
-ggrvmine.odf 1 klipod4.odf // Faction special systems research
-
-ya0047.odf 1 klipod2.odf // Faction special systems research
-
-gdchant.odf 1 klipod6.odf // Faction special systems research
-
-ya0040.odf 1 klipod2.odf // Faction special systems research
-
-wenhance.odf 1 klipod16.odf // Faction special systems research
-
-ya0043.odf 1 klipod1.odf // Faction special systems research
-
-ya0042.odf 1 klipod2.odf // Faction special systems research
-
-ya0044.odf 1 klipod1.odf // Faction special systems research
-
-ya0045.odf 1 klipod1.odf // Faction special systems research
-
-ya0039.odf 1 klipod1.odf // Faction special systems research
-
-ya0041.odf 1 klipod2.odf // Faction special systems research
-
-ya0038.odf 1 klipod2.odf // Faction special systems research
-
-grfield.odf 1 klipod7.odf // Faction special systems research
-
-gdetectk.odf 1 klipod5.odf // Faction special systems research
-
-ya0046.odf 1 klipod2.odf // Faction special systems research
-
-gionstm.odf 1 klipod8.odf // Faction special systems research
-
-y2a005.odf 1 klipod9.odf // Faction special systems research
-
-gshieldi.odf 1 rompod1.odf // Faction special systems research
-
-ya0053.odf 1 rompod2.odf // Faction special systems research
-
-gposijam.odf 1 rompod3.odf // Faction special systems research
-
-gmyotron.odf 1 rompod4.odf // Faction special systems research
-
-ya0052.odf 1 rompod2.odf // Faction special systems research
-
-gromspy.odf 1 rompod2.odf // Faction special systems research
-
-gclkenh.odf 1 rompod16.odf // Faction special systems research
-
-gdetectr.odf 1 rompod5.odf // Faction special systems research
-
-ya0051.odf 1 rompod2.odf // Faction special systems research
-
-gpsyblst.odf 1 rompod7.odf // Faction special systems research
-
-gpcloak.odf 1 rompod9.odf // Faction special systems research
-
-gholoemt.odf 1 rompod6.odf // Faction special systems research
-
-gesconv.odf 1 rompod8.odf // Faction special systems research
-
-ya0055.odf 1 rompod11.odf // Faction special systems research
-
-ya0054.odf 1 rompod11.odf // Faction special systems research
-
-ya0056.odf 1 rompod11.odf // Faction special systems research
-
-ya0021.odf 1 carpod1.odf // Faction special systems research
-
-ya0020.odf 1 carpod2.odf // Faction special systems research
-
-gdetectb.odf 1 borpod5.odf // Faction special systems research
-
-domgshieldd.odf 1 dompod1.odf // Faction special systems research
-
-xdjboard.odf 1 dompod2.odf // Faction special systems research
-
-ya0076.odf 1 fedpod1.odf // Faction special systems research
-
-ya0075.odf 1 fedpod1.odf // Faction special systems research
-
-ya0074.odf 1 fedpod1.odf // Faction special systems research
-
-ya0073.odf 1 fedpod1.odf // Faction special systems research
-
-ya0072.odf 1 fedpod1.odf // Faction special systems research
-
-ya0048.odf 1 klipod1.odf // Faction special systems research
-
-ya0050.odf 1 klipod1.odf // Faction special systems research
-
-ya0049.odf 1 klipod1.odf // Faction special systems research
-
-ya0058.odf 1 rompod11.odf // Faction special systems research
-
-ya0057.odf 1 rompod11.odf // Faction special systems research
-
-ya0036.odf 1 fedpod1.odf // Faction special systems research
+gcubeintegrator2.odf 1 bhub.odf // Existing ability research; same requirement as gcubeintegrator2
+gdetect3.odf 1 borpod5.odf // Existing ability research; same requirement as gdetectb
+gschainp.odf 1 fedpod2.odf // Existing ability research; same requirement as gchainp
+gshieldd.odf 1 dompod1.odf // Existing ability research; same requirement as ya0024
+gtcubeintegrator2.odf 1 bhub.odf // Existing ability research; same requirement as gtcubeintegrator2
+xbtpblue.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
+xbtpregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
+xbtpwarp.odf 1 borpod4.odf // Existing ability research; same requirement as y2a002
+xy_bassault_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
+xy_bassault_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
+xy_bbattle1_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
+xy_bbattle2_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
+xy_bbattle3_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
+xy_bbattle4_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
+xy_bcolony_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
+xy_bcruise1_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
+xy_bcruise2_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
+xy_bcruise3_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
+xy_bcruise3_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
+xy_bdestroy2_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
+xy_bdestroy2_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
+xy_bdestroy_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
+xy_bdestroy_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
+xy_bfrigate_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
+xy_bhentra_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
+xy_bhentra_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
+xy_bhentrag_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
+xy_bhentrag_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
+xy_bmama_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
+xy_bomega1_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
+xy_bpentra_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
+xy_bpentra_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
+xy_bspecial_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
+xy_btacpyr_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
+xy_btacpyr_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
+xy_tcube_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
+xy_xbassimold_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
+xy_xbassimold_gtwarpd.odf 1 borpod4.odf // Existing ability research; same requirement as y2a002
+xy_xobbattle1_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
+xy_xobbattle2_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
+xy_xobcruise1_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor

@@ -1,3 +1,9 @@
+# Latest correction — 21 October 2026
+
+Narrow existing-ability research correction installed in D:/armadaIII only. 49 variants, 246 tech entries; zero new research or weapon ODFs. Broad generated files removed from active game and archived. Ship resource/crew balance retained; seven heavy platforms has_crew/crewCost/maximumCrew=0, officers=16. File checks passed; gameplay pending. Eight-player map still pending.
+
+Broad source package and generators retired to D:/Xaramada-Modwork/backups/undo-broad-research-20261021-195148/retired-source. Do not rerun them. Permanent deletion was blocked; recovery archives are outside game and repository. Only existing research requirements may be reused.
+
 # Armada III checkpoint — 18 October 2026
 
 ## Critical latest update: loader test withdrawn after crash
