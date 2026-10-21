@@ -1,0 +1,64 @@
+{
+  "backup": "D:\\Xaramada-Modwork\\backups\\heavy-repair-production-20261021-214926",
+  "platforms": [
+    {
+      "platform": "fhwp",
+      "craft": "fsrepair",
+      "tech": "fsrepair.odf 1 fupgrade.odf",
+      "gui": "b_fsrepair",
+      "repairDock": false,
+      "decommissionDock": false
+    },
+    {
+      "platform": "khwp",
+      "craft": "ksrepair",
+      "tech": "ksrepair.odf 2 kbase.odf kupgrade.odf",
+      "gui": "b_ksrepair",
+      "repairDock": false,
+      "decommissionDock": false
+    },
+    {
+      "platform": "rhwp",
+      "craft": "rsrepair",
+      "tech": "rsrepair.odf 2 rbase.odf rupgrade.odf",
+      "gui": "b_rsrepair",
+      "repairDock": false,
+      "decommissionDock": false
+    },
+    {
+      "platform": "chwp",
+      "craft": "csrepair",
+      "tech": "csrepair.odf 2 cbase.odf cresear2.odf",
+      "gui": "b_csrepair",
+      "repairDock": false,
+      "decommissionDock": false
+    },
+    {
+      "platform": "dturret3",
+      "craft": "dsrepair",
+      "tech": "dsrepair.odf 2 dbase.odf dupgrade.odf",
+      "gui": "b_dsrepair",
+      "repairDock": false,
+      "decommissionDock": false
+    },
+    {
+      "platform": "bjhwp",
+      "craft": "bjrepair",
+      "tech": "bjrepair.odf 1 bjyard.odf",
+      "gui": "b_bjrepair",
+      "repairDock": false,
+      "decommissionDock": false
+    },
+    {
+      "platform": "bhwp",
+      "craft": "xbrepair",
+      "tech": "xbrepair.odf 1 xbassimst.odf",
+      "gui": "b_xbrepair",
+      "repairDock": false,
+      "decommissionDock": false
+    }
+  ],
+  "techChanges": 0,
+  "existingRequirementsRetained": true,
+  "runtimeVerified": false
+}

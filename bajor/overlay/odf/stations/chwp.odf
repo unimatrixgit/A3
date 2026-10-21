@@ -240,7 +240,7 @@ shieldProtection = 1.0
 
 
 
-builder_ship = 0
+builder_ship = 1
 
 
 
@@ -529,3 +529,9 @@ weapon15 = "fbpulse"
 weaponHardpoints15 = "hp05"
 weapon16 = "fbpulse"
 weaponHardpoints16 = "hp06"
+
+decommissionFacility = 0
+
+buildHardpoint = "hp01"
+
+buildItem0 = "csrepair"
