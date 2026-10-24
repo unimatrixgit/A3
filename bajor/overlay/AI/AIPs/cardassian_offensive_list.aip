@@ -3,37 +3,32 @@
 int checkTechnologyAvailable = 1;
 Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 {
-    "cconst", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "cyard2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xcuconst", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    // Economy first; every producer and research dependency precedes its unit.
     "cbase", 1, 0, -1, 0,
-    "corbital", 1, 0, -1, 0,
+    "cconst", 2, 0, -1, 0,
+    "xcconst2", 1, 0, -1, 0,
     "cmining", 1, 0, -1, 0,
+    "cfreight", 1, 0, -1, 0,
     "cfreight", 2, 0, -1, 0,
-    "cyard", 1, 0, -1, 0,
-    "cdestroy", 2, 0, -1, 0,
-    "xcconst2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "chwp", 1, 0, -1, 0,
-    "csensor", 1, 0, -1, 0,
-    "cturret", 2, 0, -1, 0,
-    "cresear", 1, 0, -1, 0,
-    "ccolony", 1, 0, -1, 0,
-    "cresear2", 1, 0, -1, 0,
-    "chwp", 1, 0, -1, 0,
-    "cturret2", 1, 0, -1, 0,
-    "cmining", 1, 0, -1, 0,
     "corbital", 1, 0, -1, 0,
     "cyard", 1, 0, -1, 0,
     "cdestroy", 1, 0, -1, 0,
-    "cturret", 2, 1, -1, 0,
-    "cmining", 1, 0, -1, 0,
-    "csensor", 1, 1, -1, 0,
+    "cdestroy", 2, 0, -1, 0,
+    "cresear", 1, 0, -1, 0,
     "cyard2", 1, 0, -1, 0,
+    "xcuconst", 1, 0, -1, 0,
+    "chwp", 1, 0, -1, 0,
+    "csensor", 1, 0, -1, 0,
+    "cturret", 1, 0, -1, 0,
+    "cturret", 2, 0, -1, 0,
+    "ccolony", 1, 0, -1, 0,
+    "cresear2", 1, 0, -1, 0,
+    "cturret2", 1, 0, -1, 0,
+    "cturret", 2, 1, -1, 0,
+    "csensor", 1, 1, -1, 0,
     "cbattle", 1, 0, -1, 0,
     "dombase", 1, 0, -1, 0,
     "domyard", 1, 0, -1, 0,
-    "cmining", 1, 0, -1, 0,
-    "cturret", 1, 1, -1, 0,
     "cturret2", 1, 1, -1, 0,
     "ckimal", 1, 0, -1, 0,
     "cobyard", 1, 0, -1, 0,
@@ -44,40 +39,26 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "jemdest", 1, 0, -1, 0,
     "cturret2", 1, 2, -1, 0,
     "ccruise1", 1, 0, -1, 0,
-    "jemdest", 1, 0, -1, 0,
     "cspecial", 1, 0, -1, 0,
-    "ccolony", 1, 0, -1, 0,
-    "jemdest", 1, 0, -1, 0,
     "cyard2", 1, 1, -1, 0,
     "chutet", 1, 0, -1, 0,
     "domdred", 1, 0, -1, 0,
-    "cturret", 1, 2, -1, 0,
     "dombase", 1, 2, -1, 0,
     "ccruise2", 1, 0, -1, 0,
     "ccruise3", 1, 0, -1, 0,
-    "cbattle", 1, 0, -1, 0,
-    "cturret", 1, 1, -1, 0,
-    "corbital", 1, 0, -1, 0,
     "domyard", 1, 1, -1, 0,
     "sonabat", 1, 0, -1, 0,
     "cokeldon", 1, 0, -1, 0,
     "cdestroy2", 1, 0, -1, 0,
     "cardassian_super_station", 1, 0, -1, 0,
     "csuper", 1, 0, -1, 0,
-    "cbattle", 1, 0, -1, 0,
     "cupgrade", 1, 0, -1, 0,
     "cbattle2", 1, 0, -1, 0,
     "dombat", 1, 0, -1, 0,
     "cfrigate", 1, 0, -1, 0,
     "jemdest2", 1, 0, -1, 0,
-    "cbattle", 1, 0, -1, 0,
-    "ckimal", 1, 0, -1, 0,
-    "ccruise2", 1, 0, -1, 0,
-    "cokeldon", 1, 0, -1, 0,
     "sonadest", 1, 0, -1, 0,
-    "cdestroy", 1, 0, -1, 0,
     "cstation", 1, 0, -1, 0,
-    "dombase", 1, 0, -1, 0,
     "domabase", 1, 0, -1, 0,
     "xdjacht", 1, 0, -1, 0,
     "carpod1", 1, 0, -1, 0,
@@ -89,25 +70,25 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "carpod7", 1, 0, -1, 0,
     "carpod8", 1, 0, -1, 0,
     "carpod9", 1, 0, -1, 0,
-    "mrycard", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "mrc005", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xfgmerc", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xfgconst", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xfgserv", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xfgresearch", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xfgpdil", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xfgpmet", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xfgpdil2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xfgpmet2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xfgdil3", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xfgmetal3", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xfgfight", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xfgcruis", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xfgquark", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xfgplat", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xfgplat2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xfglat3", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xfgtrade", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "mryfer", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "mrc026", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "mrycard", 1, 0, -1, 0,
+    "mrc005", 1, 0, -1, 0,
+    "xfgmerc", 1, 0, -1, 0,
+    "xfgconst", 1, 0, -1, 0,
+    "xfgserv", 1, 0, -1, 0,
+    "xfgresearch", 1, 0, -1, 0,
+    "xfgpdil", 1, 0, -1, 0,
+    "xfgpmet", 1, 0, -1, 0,
+    "xfgpdil2", 1, 0, -1, 0,
+    "xfgpmet2", 1, 0, -1, 0,
+    "xfgdil3", 1, 0, -1, 0,
+    "xfgmetal3", 1, 0, -1, 0,
+    "xfgfight", 1, 0, -1, 0,
+    "xfgcruis", 1, 0, -1, 0,
+    "xfgquark", 1, 0, -1, 0,
+    "xfgplat", 1, 0, -1, 0,
+    "xfgplat2", 1, 0, -1, 0,
+    "xfglat3", 1, 0, -1, 0,
+    "xfgtrade", 1, 0, -1, 0,
+    "mryfer", 1, 0, -1, 0,
+    "mrc026", 1, 0, -1, 0,
 };

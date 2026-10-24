@@ -215,7 +215,9 @@ for f in(root/'AI/AIPs').glob('*.aip'):
  if 'the_build_list'not in t:continue
  lines=t.splitlines();start=next((i for i,s in enumerate(lines)if re.match(r'^\s*\{',s)),None);end=next((i for i,s in enumerate(lines)if re.match(r'^\s*\};',s)),None)
  if start is None or end is None:continue
- rows=lines[start+1:end];out=[];built=set();inserted=[]
+ rows=lines[start+1:end];out=[];inserted=[]
+ config={'federation':'fed','klingon':'kling','romulan':'rom','cardassian':'card'}.get(race,race)
+ built={Path(v).stem.lower()for k,v in resolve(config).items()if re.fullmatch('standardunits[0-9]+',k)}
  def add(n,count=1):
   if n in built:return
   # Explicit tech prerequisites for this patch are built before use.

@@ -3,29 +3,36 @@
 int checkTechnologyAvailable = 1;
 Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 {
-    "bconst", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "byard2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xbuconst", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    // Economy first; every producer and research dependency precedes its unit.
     "bbase", 1, 0, -1, 0,
-    "bbase2", 1, 0, -1, 0,
+    "bconst", 2, 0, -1, 0,
+    "bconst2", 1, 0, -1, 0,
     "bmining", 1, 0, -1, 0,
+    "bfreight", 1, 0, -1, 0,
     "bfreight", 2, 0, -1, 0,
+    "bbase2", 1, 0, -1, 0,
     "byard", 1, 0, -1, 0,
+    "bdestroy", 1, 0, -1, 0,
+    "bdestroy", 2, 0, -1, 0,
+    "bresear", 1, 0, -1, 0,
+    "byard2", 1, 0, -1, 0,
+    "xbuconst", 1, 0, -1, 0,
     "bdestroy", 3, 0, -1, 0,
-    "bconst2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
     "bhwp", 1, 0, -1, 0,
     "bsensor", 1, 0, -1, 0,
+    "bturret", 1, 0, -1, 0,
     "bturret", 2, 0, -1, 0,
-    "bresear", 1, 0, -1, 0,
+    "bcruise1", 1, 0, -1, 0,
     "bcruise1", 2, 0, -1, 0,
     "bcolony", 1, 0, -1, 0,
     "bresear2", 1, 0, -1, 0,
     "bupgrade", 1, 0, -1, 0,
-    "byard2", 1, 0, -1, 0,
-    "bhwp", 1, 0, -1, 0,
     "bfreight", 3, 0, -1, 0,
+    "bturret2", 1, 0, -1, 0,
     "bturret2", 2, 0, -1, 0,
+    "bcruise2", 1, 0, -1, 0,
     "bcruise2", 2, 0, -1, 0,
+    "bbattle1", 1, 0, -1, 0,
     "bbattle1", 2, 0, -1, 0,
     "brecycle", 1, 0, -1, 0,
     "btechass", 1, 0, -1, 0,
@@ -42,6 +49,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "borpod23", 1, 0, -1, 0,
     "borpod24", 1, 0, -1, 0,
     "borpod25", 1, 0, -1, 0,
+    "bbattle2", 1, 0, -1, 0,
     "bbattle2", 2, 0, -1, 0,
     "bspecial", 1, 0, -1, 0,
     "borpod5", 1, 0, -1, 0,
@@ -60,23 +68,24 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "xbomegalab", 1, 0, -1, 0,
     "xbomegapod", 1, 0, -1, 0,
     "xobbattle1", 1, 0, -1, 0,
+    "bdestroy2", 1, 0, -1, 0,
     "bdestroy2", 5, 0, -1, 0,
     "bbattle1", 4, 0, -1, 0,
     "bbattle2", 4, 0, -1, 0,
-    "xu3bor2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "mryborg", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "mrc003", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xbgmerc", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xbgconst", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xbgserv", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xbgresearch", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xbgpdil", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xbgpmet", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xbgpdil2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xbgpmet2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xbgdil3", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xbgmetal3", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xbgfight", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xbgcruis", 1, 0, -1, 0, // A3 tier, resource and mirror integration
-    "xbgquark", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xu3bor2", 1, 0, -1, 0,
+    "mryborg", 1, 0, -1, 0,
+    "mrc003", 1, 0, -1, 0,
+    "xbgmerc", 1, 0, -1, 0,
+    "xbgconst", 1, 0, -1, 0,
+    "xbgserv", 1, 0, -1, 0,
+    "xbgresearch", 1, 0, -1, 0,
+    "xbgpdil", 1, 0, -1, 0,
+    "xbgpmet", 1, 0, -1, 0,
+    "xbgpdil2", 1, 0, -1, 0,
+    "xbgpmet2", 1, 0, -1, 0,
+    "xbgdil3", 1, 0, -1, 0,
+    "xbgmetal3", 1, 0, -1, 0,
+    "xbgfight", 1, 0, -1, 0,
+    "xbgcruis", 1, 0, -1, 0,
+    "xbgquark", 1, 0, -1, 0,
 };
