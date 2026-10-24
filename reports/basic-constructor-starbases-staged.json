@@ -1,0 +1,101 @@
+{
+  "status": "applied in combined constructor/cube patch",
+  "stage": "D:/Xaramada-Modwork/staged-basic-starbases-2026-10-24T02-55-34-694Z",
+  "created": "2026-10-24T02:55:35.289Z",
+  "changes": [
+    {
+      "unit": "8472_passive",
+      "race": "species8472",
+      "starbase": "8472_mothership",
+      "slot": 8,
+      "relativePath": "odf/ships/8472_passive.odf",
+      "liveSHA256": "7e4536695a3cc9996c3ff73a587c3596b36f76f5d51e8da86f91c566cb13aed2",
+      "stagedSHA256": "bb558645fd42e6fbe2c66e776938fc52bd80196e31d35a62f801978ca0a4e438"
+    },
+    {
+      "unit": "bconst",
+      "race": "borg",
+      "starbase": "bbase",
+      "slot": 9,
+      "relativePath": "odf/ships/bconst.odf",
+      "liveSHA256": "1211ac841a848d80915345360459b09c41d78cbc7d7f6d18279f4efb31ff763a",
+      "stagedSHA256": "f52704ab2738b1c364557567551bb34a1184e349c6143589d8e2f660f6141eba"
+    },
+    {
+      "unit": "bjconst",
+      "race": "bajoran",
+      "starbase": "bjbase",
+      "slot": 9,
+      "relativePath": "odf/ships/bjconst.odf",
+      "liveSHA256": "1e215383ba3eda01a7da0b28125bf4bcaf25ce134578d2402465ff724c99b1b6",
+      "stagedSHA256": "9382c6e3119ce6333be559fd3b9b6fa2d4752054b16fb7981582bbaecf35ce40"
+    },
+    {
+      "unit": "cconst",
+      "race": "cardassian",
+      "starbase": "cbase",
+      "slot": 11,
+      "relativePath": "odf/ships/cconst.odf",
+      "liveSHA256": "6bec41ebc5b65c6dd986b3be275ae4cf8356c5a45a1e9bc012b7d57f9d4d98aa",
+      "stagedSHA256": "acfa9894a23485f1f3ede96ee9719e7504986f9e9e21ed356740b0aa91e44265"
+    },
+    {
+      "unit": "dconst",
+      "race": "dominion",
+      "starbase": "dbase",
+      "slot": 9,
+      "relativePath": "odf/ships/dconst.odf",
+      "liveSHA256": "7082181317080687467676abdfb52d5f5d4256bda1da8cda3d731fa68fed500d",
+      "stagedSHA256": "495a6fa7065bc96323d495b285cc07018e1612ea04e635329a73c784ce3ea5ec"
+    },
+    {
+      "unit": "fconst",
+      "race": "federation",
+      "starbase": "fbase",
+      "slot": 12,
+      "relativePath": "odf/ships/fconst.odf",
+      "liveSHA256": "ad19c0228d15007bb44bd722e1e96d87121ab886b6a51a0ac65b95ae9ed94dae",
+      "stagedSHA256": "45a2ea9b71ae70ab75ed1be47119dca129936f18986971990c059d54c4a01bd2"
+    },
+    {
+      "unit": "kconst",
+      "race": "klingon",
+      "starbase": "kbase",
+      "slot": 9,
+      "relativePath": "odf/ships/kconst.odf",
+      "liveSHA256": "3e3326ac0b375a4c9e6cc96f45d5863af0cef42cc117fa27132aeb5232222eaf",
+      "stagedSHA256": "5b682312f5a11e49ea439baf6243da1c0cc9b3f58e5838a260549915a5ecfd72"
+    },
+    {
+      "unit": "rconst",
+      "race": "romulan",
+      "starbase": "rbase",
+      "slot": 11,
+      "relativePath": "odf/ships/rconst.odf",
+      "liveSHA256": "5adcbf5e4f983cb416df15e9e9e82b86c41a016451232d26d81ef0eb57e70b00",
+      "stagedSHA256": "1a15e9775bfc02c3690e9234d3fafa7cf5867bf31d6e2eb13c129de17f399774"
+    },
+    {
+      "unit": "xcdconst",
+      "race": "dominion",
+      "starbase": "dbase",
+      "slot": 9,
+      "relativePath": "odf/ships/xcdconst.odf",
+      "liveSHA256": "c04132509a0b477b080db4f91ae3ca8ccaf5c5603edc93cbec247ffbd0e91767",
+      "stagedSHA256": "0145c3a09fc2511d43566fc411caaabc928c5eb8a5fa23a5c0eddf7e47424b8a"
+    }
+  ],
+  "alreadyAvailable": [
+    "brconst.odf",
+    "xbrconst2.odf",
+    "xbruconst.odf"
+  ],
+  "existingIconsReused": true,
+  "liveGameFilesChanged": false,
+  "techTreeChangesRequired": false,
+  "startingFleetsChanged": false,
+  "aiOrdersChanged": false,
+  "applied": true,
+  "appliedAt": "2026-10-24T02:57:26.887Z",
+  "combinedReport": "pending-game-patch-staged.json"
+}

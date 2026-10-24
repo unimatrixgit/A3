@@ -81,8 +81,7 @@ maxextraweapons = 6
 tooltip = "Hero Ship (Omega Locutus' Cube)"
 verbosetooltip = "A named command vessel serving the Borg fleet. Collective engineering integrates this asset into the unimatrix. Special systems: Transwarp Drive, Shield Remodulation, Green Holding / Assimilation Beam, Technology Assimilation Beam. Availability follows the selected technology tree."
 latinumcost = 0
-biomattercost = 0
-crewcost = 620
+biomattercost = 0
 maxhealth = 7500
 shieldrate = 30.000
 dilithiumcost = 900
@@ -151,3 +150,7 @@ weaponHardpoints9 = "hp05"
 maxspecialenergy = 5000
 
 specialenergyrate = 50
+
+crewCost = 837
+
+maximumCrew = 837

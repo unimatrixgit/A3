@@ -278,8 +278,7 @@ verboseTooltip = "A heavy warship built to anchor major fleet engagements. Colle
 dilithiumcost = 11560
 metalcost = 3155
 latinumcost = 0
-biomattercost = 0
-crewCost = 3670
+biomattercost = 0
 
 buildItem0 = "bscout"
 
@@ -289,12 +288,14 @@ buildItem2 = "bconst2"
 
 buildItem3 = "xbuconst"
 
-buildItem4 = "xu3bor2"
+buildItem4 = "bcruise1"
 
-buildItem5 = "bcruise1"
+buildItem5 = "bbattle2"
 
-buildItem6 = "bbattle2"
+buildItem6 = "bassault"
 
-buildItem7 = "bassault"
+buildItem7 = "bfreight"
 
-buildItem8 = "bfreight"
+crewCost = 4955
+
+maximumCrew = 4955

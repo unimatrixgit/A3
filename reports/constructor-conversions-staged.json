@@ -1,0 +1,800 @@
+{
+  "status": "applied in combined constructor/cube patch",
+  "stage": "D:/Xaramada-Modwork/staged-basic-starbases-2026-10-24T02-55-34-694Z",
+  "crewMultiplier": 1.35,
+  "rounding": "nearest whole crew member",
+  "changes": [
+    {
+      "unit": "bbattle",
+      "name": "Cube",
+      "oldCrew": 465,
+      "newCrew": 628,
+      "oldMaximumCrew": 465,
+      "newMaximumCrew": 628
+    },
+    {
+      "unit": "bbattle1",
+      "name": "Borg Cube",
+      "oldCrew": 800,
+      "newCrew": 1080,
+      "oldMaximumCrew": 800,
+      "newMaximumCrew": 1080
+    },
+    {
+      "unit": "bbattle2",
+      "name": "Tactical Cube",
+      "oldCrew": 985,
+      "newCrew": 1330,
+      "oldMaximumCrew": 985,
+      "newMaximumCrew": 1330
+    },
+    {
+      "unit": "bbattle3",
+      "name": "Fusion Cube",
+      "oldCrew": 1730,
+      "newCrew": 2336,
+      "oldMaximumCrew": 1730,
+      "newMaximumCrew": 2336
+    },
+    {
+      "unit": "bbattle4",
+      "name": "Tactical Fusion Cube",
+      "oldCrew": 1980,
+      "newCrew": 2673,
+      "oldMaximumCrew": 1980,
+      "newMaximumCrew": 2673
+    },
+    {
+      "unit": "bbattle5",
+      "name": "Ultra Fusion Cube",
+      "oldCrew": 1885,
+      "newCrew": 2545,
+      "oldMaximumCrew": 1885,
+      "newMaximumCrew": 2545
+    },
+    {
+      "unit": "bbattle6",
+      "name": "Omega Tactical Fusion Cube",
+      "oldCrew": 3670,
+      "newCrew": 4955,
+      "oldMaximumCrew": 3670,
+      "newMaximumCrew": 4955
+    },
+    {
+      "unit": "bbattle8",
+      "name": "Borg Cube",
+      "oldCrew": 1480,
+      "newCrew": 1998,
+      "oldMaximumCrew": 1480,
+      "newMaximumCrew": 1998
+    },
+    {
+      "unit": "blocutus",
+      "name": "Locutus' Cube",
+      "oldCrew": 545,
+      "newCrew": 736,
+      "oldMaximumCrew": 545,
+      "newMaximumCrew": 736
+    },
+    {
+      "unit": "bmama",
+      "name": "Mamacube",
+      "oldCrew": 1115,
+      "newCrew": 1505,
+      "oldMaximumCrew": 1115,
+      "newMaximumCrew": 1505
+    },
+    {
+      "unit": "bomega1",
+      "name": "Omega Cube",
+      "oldCrew": 920,
+      "newCrew": 1242,
+      "oldMaximumCrew": 920,
+      "newMaximumCrew": 1242
+    },
+    {
+      "unit": "bscout",
+      "name": "Scouting Cube",
+      "oldCrew": 150,
+      "newCrew": 203,
+      "oldMaximumCrew": 150,
+      "newMaximumCrew": 203
+    },
+    {
+      "unit": "mrc003",
+      "name": "Hugh's Cube",
+      "oldCrew": 545,
+      "newCrew": 736,
+      "oldMaximumCrew": 545,
+      "newMaximumCrew": 736
+    },
+    {
+      "unit": "mrc058",
+      "name": "Hugh's Cube",
+      "oldCrew": 620,
+      "newCrew": 837,
+      "oldMaximumCrew": 620,
+      "newMaximumCrew": 837
+    },
+    {
+      "unit": "tcube",
+      "name": "Class VII Tactical Cube",
+      "oldCrew": 1055,
+      "newCrew": 1424,
+      "oldMaximumCrew": 1055,
+      "newMaximumCrew": 1424
+    },
+    {
+      "unit": "xobbattle1",
+      "name": "Omega Borg Cube",
+      "oldCrew": 900,
+      "newCrew": 1215,
+      "oldMaximumCrew": 900,
+      "newMaximumCrew": 1215
+    },
+    {
+      "unit": "xobbattle2",
+      "name": "Omega Tactical Cube",
+      "oldCrew": 1100,
+      "newCrew": 1485,
+      "oldMaximumCrew": 1100,
+      "newMaximumCrew": 1485
+    },
+    {
+      "unit": "xoblocutus",
+      "name": "Omega Locutus' Cube",
+      "oldCrew": 620,
+      "newCrew": 837,
+      "oldMaximumCrew": 620,
+      "newMaximumCrew": 837
+    }
+  ],
+  "files": [
+    {
+      "relativePath": "odf/ships/8472_passive.odf",
+      "liveSHA256": "7e4536695a3cc9996c3ff73a587c3596b36f76f5d51e8da86f91c566cb13aed2",
+      "stagedSHA256": "240947a5df56a17163236e614dd7df368cefe4d3d815b2343c276c8db01b9214"
+    },
+    {
+      "relativePath": "odf/ships/bconst.odf",
+      "liveSHA256": "1211ac841a848d80915345360459b09c41d78cbc7d7f6d18279f4efb31ff763a",
+      "stagedSHA256": "47e1c64fb44d81c71600345ffb0f84e59263d0d1261e9cbcb02810fa6ce8f817"
+    },
+    {
+      "relativePath": "odf/ships/bjconst.odf",
+      "liveSHA256": "1e215383ba3eda01a7da0b28125bf4bcaf25ce134578d2402465ff724c99b1b6",
+      "stagedSHA256": "fbfa9615c2177bc8070e19e92d9af2316d07d1945b363605eda918e189199647"
+    },
+    {
+      "relativePath": "odf/ships/cconst.odf",
+      "liveSHA256": "6bec41ebc5b65c6dd986b3be275ae4cf8356c5a45a1e9bc012b7d57f9d4d98aa",
+      "stagedSHA256": "56c57676746b72c84be0e10a958c9d0b4c253834ada5e352aa2d67852cec59bb"
+    },
+    {
+      "relativePath": "odf/ships/dconst.odf",
+      "liveSHA256": "7082181317080687467676abdfb52d5f5d4256bda1da8cda3d731fa68fed500d",
+      "stagedSHA256": "1d81fa2f4c291794367cb61a2f8e6a53117f477ef56534eed9d93baa25942429"
+    },
+    {
+      "relativePath": "odf/ships/fconst.odf",
+      "liveSHA256": "ad19c0228d15007bb44bd722e1e96d87121ab886b6a51a0ac65b95ae9ed94dae",
+      "stagedSHA256": "fd33adaf4d1ff3fdd4e1a2dee497b348aabdf81eb90f8251e98d246e77af507f"
+    },
+    {
+      "relativePath": "odf/ships/kconst.odf",
+      "liveSHA256": "3e3326ac0b375a4c9e6cc96f45d5863af0cef42cc117fa27132aeb5232222eaf",
+      "stagedSHA256": "1f635a811a4e310ecdbf79863d135420e4730614e716239d1afdc01cfacb5bbb"
+    },
+    {
+      "relativePath": "odf/ships/rconst.odf",
+      "liveSHA256": "5adcbf5e4f983cb416df15e9e9e82b86c41a016451232d26d81ef0eb57e70b00",
+      "stagedSHA256": "95060f2eab468777df856232e48025bf8012044ce3a9bf6cf8ec6bd7626bb0d8"
+    },
+    {
+      "relativePath": "odf/ships/xcdconst.odf",
+      "liveSHA256": "c04132509a0b477b080db4f91ae3ca8ccaf5c5603edc93cbec247ffbd0e91767",
+      "stagedSHA256": "c70d363af30e427103eb9e7fcb7f99e3cdbbe5d03cfdd32f23c86de133c5628e"
+    },
+    {
+      "relativePath": "odf/ships/bconst2.odf",
+      "liveSHA256": "bd033dbe62eae00458e0293347ff930be521937b15092f57c541cfb08ae3a6f4",
+      "stagedSHA256": "2af41a2a9a6fb1a8d9a4d5a5ac225cd4d728ef979f94f6c574aa1e5b6256350a"
+    },
+    {
+      "relativePath": "odf/ships/bbattle5.odf",
+      "liveSHA256": "3eab0e31b7b13e11be8301849d8fa713256df25dc84cc6c026d51f6215340b0c",
+      "stagedSHA256": "fe1fda53bced52df25baaf3d84833d655b10e068233db1c8eec67035810111ac"
+    },
+    {
+      "relativePath": "odf/ships/bbattle6.odf",
+      "liveSHA256": "975e23676043932643a7ad84ceb32d6bd50c9094f06e3561cf18f9c92c7d2658",
+      "stagedSHA256": "e603093b13206e0cef943dd94db20a4151c0da1923c7a42e38aa6d16a9fd66a5"
+    },
+    {
+      "relativePath": "odf/stations/bbase.odf",
+      "liveSHA256": "9cea5321141a459dd1d257c432a8428348a72105a4426371818188b829958e62",
+      "stagedSHA256": "c7868997089a8ad7531e0b3275e480be44bb19ef068ab47727414a9988b4cb84"
+    },
+    {
+      "relativePath": "odf/stations/bhwp.odf",
+      "liveSHA256": "3f380796d865e0c1e042e11219228482de894d149b5281cf42d5ad25b692aa23",
+      "stagedSHA256": "37738024cd748e2740ffd74da50d873983004e73f8cdd67704a4e738b06077e9"
+    },
+    {
+      "relativePath": "odf/stations/unicomplex.odf",
+      "liveSHA256": "f460099db56869acd9c4025e4f8d8fd07d69c2e54056e86a03c2ae814c70c810",
+      "stagedSHA256": "5a5d41617554934557e9350888b47e764e5cf370ba1d7880a2b8718c58b663cb"
+    },
+    {
+      "relativePath": "odf/stations/xbtarray.odf",
+      "liveSHA256": "8ee11bb1820213ab018eb2e616bb978789907520238931c0bea00bda7fe1bf18",
+      "stagedSHA256": "f9afdf80c42ce19af2d3c302cd33515c4054c2eae7f20c231a887279b2936f99"
+    },
+    {
+      "relativePath": "techtree/tech1.tt",
+      "liveSHA256": "d583bcfa7a264abb7404b46afe4789ecf478b1a841215f889d91379821f0bc0e",
+      "stagedSHA256": "67b9d5c0bb81c4df57358789dc4d3f1d505f7ee7f9d5e64a87b591c5911fec2f"
+    },
+    {
+      "relativePath": "techtree/earlytech.tt",
+      "liveSHA256": "b76eda3326b1cdf045e8b218c1507a051526d1085f0bca26020cb3db48739d3a",
+      "stagedSHA256": "a79febf74ef88c0a9be785aebfa192b23245cd3bcc46503d855a18d46827aea4"
+    },
+    {
+      "relativePath": "techtree/fulltech.tt",
+      "liveSHA256": "e84e170ff1acb7e6bd3916ea2078e5acc78df8c3817082b0277ef443b3441e81",
+      "stagedSHA256": "9a36dbac95767cb879740e3048da00c32db5f1660ecbaf1fe78c3ea0c0f8b84b"
+    },
+    {
+      "relativePath": "techtree/nosci.tt",
+      "liveSHA256": "bb2854f4f7dbca22dc11dd143c3640e2d0c170c51efad3de23ae3b06e7d9e394",
+      "stagedSHA256": "65ab9a6f27a90eefa1452ba45c91f0fc99f02b0a4d8350ee50ac96fa56a07f27"
+    },
+    {
+      "relativePath": "techtree/nospweap.tt",
+      "liveSHA256": "5b537418040e095759f01fa933960099968d82014d0f73e8343334d7b224e71b",
+      "stagedSHA256": "5c1252854a8535c4f23f51b1548483485e87e4def76d4c9725851c36d9c35719"
+    },
+    {
+      "relativePath": "techtree/nosuper.tt",
+      "liveSHA256": "922e0060b49bc5641e858e0cd89919442bc52c0fffbb41613e196ef4898d88e0",
+      "stagedSHA256": "13b8b2ff008d4d45569ebba093aa9bae0a2f8fc1686b3fd55b201019a088c1cf"
+    },
+    {
+      "relativePath": "AI/AIPs/borg_build_list.aip",
+      "liveSHA256": "5eecfd9ef6d494b3057bf43879435021273c08106080c7ff516d38721a35569f",
+      "stagedSHA256": "1aa30de0820fb731f5ec6217175c0beece91b78ba9b1b15e1fc3e26cd363e929"
+    },
+    {
+      "relativePath": "AI/AIPs/borg_defensive_list.aip",
+      "liveSHA256": "d581e49557f4f450796b007626e8d3b6c7431481f10224d0aef7273cdd55c268",
+      "stagedSHA256": "2471a1dfbdcf1fa09c856423ad2a5910292c78217aaf7f2b55df577a9d2ce291"
+    },
+    {
+      "relativePath": "AI/AIPs/borg_endgame_list.aip",
+      "liveSHA256": "5eecfd9ef6d494b3057bf43879435021273c08106080c7ff516d38721a35569f",
+      "stagedSHA256": "1aa30de0820fb731f5ec6217175c0beece91b78ba9b1b15e1fc3e26cd363e929"
+    },
+    {
+      "relativePath": "AI/AIPs/borg_instant_action_build_list.aip",
+      "liveSHA256": "5eecfd9ef6d494b3057bf43879435021273c08106080c7ff516d38721a35569f",
+      "stagedSHA256": "1aa30de0820fb731f5ec6217175c0beece91b78ba9b1b15e1fc3e26cd363e929"
+    },
+    {
+      "relativePath": "AI/AIPs/borg_offensive_list.aip",
+      "liveSHA256": "5eecfd9ef6d494b3057bf43879435021273c08106080c7ff516d38721a35569f",
+      "stagedSHA256": "1aa30de0820fb731f5ec6217175c0beece91b78ba9b1b15e1fc3e26cd363e929"
+    },
+    {
+      "relativePath": "odf/ships/bbattle.odf",
+      "liveSHA256": "32de9e856a7704d9ae0574d10a1f1254d015d376950c41f34c4e58aad2caedf7",
+      "stagedSHA256": "5e6bde22d815ed63dc60cd046cf1725a5d6997ac1121c321d70d7aecff69fcbe"
+    },
+    {
+      "relativePath": "odf/ships/bbattle1.odf",
+      "liveSHA256": "33855017e0510d020866a45cbb30249a6df53abca8b9531979c3f9ad77b81c26",
+      "stagedSHA256": "77edc09a9488c59075f9fb32c2047acd68615b7bf3555b816431f52b5ebba4b8"
+    },
+    {
+      "relativePath": "odf/ships/bbattle2.odf",
+      "liveSHA256": "aaad8279d41c79a5615dd9a2fd388321aed4e9168ece80f795b9914b9c8a9c84",
+      "stagedSHA256": "b1724114a812fe5c9333a2af3c5e05ee2c24006f7c435a77a4aa719c8332cdc5"
+    },
+    {
+      "relativePath": "odf/ships/bbattle3.odf",
+      "liveSHA256": "0e148e666a8c2f8ba85b8c859b8bdef770d2942c302bc9e7c32fb59ca9915227",
+      "stagedSHA256": "0d4543a9a03cf90d194982e445e3057442e0f8fc684fede9c939bd0f5cf03f2d"
+    },
+    {
+      "relativePath": "odf/ships/bbattle4.odf",
+      "liveSHA256": "193b64a31157bb65543d551b250047b07dbdf2a6512f3ed5beb2dc337d015916",
+      "stagedSHA256": "d796294247f8c2fd87f8292fc37ecff50d5e6673c3cd4cd6251308ac76f93224"
+    },
+    {
+      "relativePath": "odf/ships/bbattle8.odf",
+      "liveSHA256": "4b35df01aee16bc61b65f5b53436364a6d8a837271a2a480d710d07decc32e3c",
+      "stagedSHA256": "8056fec08e5b44fdd5319e28a7fa7c71e784c325c692f9e33d144dd236f953f4"
+    },
+    {
+      "relativePath": "odf/ships/blocutus.odf",
+      "liveSHA256": "9a6e33b5156e6a8e26d316bdcb8926fe0adab49a27f1cacc5d8e25072f5c8eb2",
+      "stagedSHA256": "ac84e1e456dc3719554aa66cf3c2998a794e2383ba06001de8c1036012e96f21"
+    },
+    {
+      "relativePath": "odf/ships/bmama.odf",
+      "liveSHA256": "b74a3d2835661fd6fc0e13d8a58d2bc375171a49b0bff668e1765c6df3f7dac9",
+      "stagedSHA256": "fea55270dbe40cc59a3f338cca7832af65c23ff977134ccbe1e734d945f65fbe"
+    },
+    {
+      "relativePath": "odf/ships/bomega1.odf",
+      "liveSHA256": "96c7be23ee21180faa1b03e9c69807841c9fa5bd874e466964491e2c54d2e612",
+      "stagedSHA256": "dd4b031ea71858f7a3715780bc0e123680fed992ce9f7f39c1d395a9ba5a6bf7"
+    },
+    {
+      "relativePath": "odf/ships/bscout.odf",
+      "liveSHA256": "2f0bca8b8fa80f1dc09c3e6c37f02796a2a5159203e3f184ed5d285119ff56e1",
+      "stagedSHA256": "ab96f46cd5dcb0e6bb2e15f6715e9cd0bb232c1118ee595169fef6ef83827f3d"
+    },
+    {
+      "relativePath": "odf/ships/mrc003.odf",
+      "liveSHA256": "7e9374ccc13196cf6d2d4378001f3f931e1094916d8c72519d75b8dc2ff33486",
+      "stagedSHA256": "425255c9eba28b31d49fd5677147cebcfbd344f918336be962afc2a295303f95"
+    },
+    {
+      "relativePath": "odf/ships/mrc058.odf",
+      "liveSHA256": "45530013f2a31d8148d8217444e3a9b0760e8513a630a46098b8e7900f8c325b",
+      "stagedSHA256": "50ec03327236d10c5315cc58e4502c5cf99ef6135fdeb63fd773e285c5cfca49"
+    },
+    {
+      "relativePath": "odf/ships/tcube.odf",
+      "liveSHA256": "4887adfefbc2c02b6c557f36f7a46e03e481d872d833eac4d58d0d5345c9125e",
+      "stagedSHA256": "2a281609d89b1d9329034e5ccc4553c063ab4d26712325885f5e3f5b1eddc808"
+    },
+    {
+      "relativePath": "odf/ships/xobbattle1.odf",
+      "liveSHA256": "4cc1ca77761e699029338130d87c8808bfb80410d6a5a27e33ac172da9e80e18",
+      "stagedSHA256": "1dba46932f811022938486c3ed3c778aba86baac11feb3147f602500eed442d8"
+    },
+    {
+      "relativePath": "odf/ships/xobbattle2.odf",
+      "liveSHA256": "d73352be9fe3fc2e79d7f4f318e2067ca29b09b491156e746128ddc24d23136a",
+      "stagedSHA256": "f9d17810d98ab040e03b37c3af4ccedbc91ea379500d31818fe2bdfbdd8bbac9"
+    },
+    {
+      "relativePath": "odf/ships/xoblocutus.odf",
+      "liveSHA256": "9f458d9659ba62f57ef5869571bc584f7b165ec6f499b2bd79eb0c5537dfd321",
+      "stagedSHA256": "9799a82a21c0d7c86098be556a9d858544a0f33a37c06eb5e6b60ff495117840"
+    },
+    {
+      "relativePath": "odf/special_weapons/xcv_714const_u.odf",
+      "liveSHA256": null,
+      "stagedSHA256": "6ca67918f808fb0f0d9d20ca95a6d84fc69412e8235c12ccaed878a28f22f109"
+    },
+    {
+      "relativePath": "odf/ships/714const.odf",
+      "liveSHA256": "008eb074fd291c3acc29e69607de45af6166d72e617ba08761cee0ceae6ada54",
+      "stagedSHA256": "3d612043f6fb254944c699064314fb2bc711b601044af141392259eacce082b6"
+    },
+    {
+      "relativePath": "odf/special_weapons/xcv_8472_defender_u.odf",
+      "liveSHA256": null,
+      "stagedSHA256": "24ab6e04693d40512a19d9f7f3418539740478a4c8bdc4a88885f26b3ac28e64"
+    },
+    {
+      "relativePath": "odf/ships/8472_defender.odf",
+      "liveSHA256": "dfd4d6d2f46a9fca9e73f0f10cec34033aa592ff4c302203e55719bf06d58b9f",
+      "stagedSHA256": "66a3254db26f842a4f34c89b354688e93faa7b55b074af7999d371a536711dca"
+    },
+    {
+      "relativePath": "odf/special_weapons/xcv_8472_passive_u.odf",
+      "liveSHA256": null,
+      "stagedSHA256": "4380700bf2b7edad06df96fd337096ff7b01f7c57175b2336ed62419f79e0ece"
+    },
+    {
+      "relativePath": "odf/special_weapons/xcv_bconst_u.odf",
+      "liveSHA256": null,
+      "stagedSHA256": "6b2581f532139e09e24e82d0f76958011bd24fc7b1e5e8c2aabd0a3c3c3974a2"
+    },
+    {
+      "relativePath": "odf/special_weapons/xcv_bconst2_u.odf",
+      "liveSHA256": null,
+      "stagedSHA256": "b355b6ba876c560ca6f0affefe594876c69c2530e08919b97ea67e0099ddcede"
+    },
+    {
+      "relativePath": "odf/special_weapons/xcv_bjconst_u.odf",
+      "liveSHA256": null,
+      "stagedSHA256": "80cf592f67c106a41b37d574822801fa312dec464c8dc3fbb80f45c348492456"
+    },
+    {
+      "relativePath": "odf/special_weapons/xcv_cconst_u.odf",
+      "liveSHA256": null,
+      "stagedSHA256": "4942c5068754f19fe28ba6d20f7d4525544624f1ff885f9218306b6ce5988ae5"
+    },
+    {
+      "relativePath": "odf/special_weapons/xcv_dconst_u.odf",
+      "liveSHA256": null,
+      "stagedSHA256": "f75e69f9048a46261c93bfed8a4454fd14ff0e2d14e0e1af0e8b68c1edc63d52"
+    },
+    {
+      "relativePath": "odf/special_weapons/xcv_domconst_u.odf",
+      "liveSHA256": null,
+      "stagedSHA256": "d0dea2c3dafc1fb45bffbc59908dbad1b25fc575bdfc2b228a6adef7e36736ec"
+    },
+    {
+      "relativePath": "odf/ships/domconst.odf",
+      "liveSHA256": "1d7d8ebf8b658289379162fdea62780f0844080bbfe5baed6b958960274f2f6f",
+      "stagedSHA256": "548739e7cdac5905e4f06398851f19e2045ba6ee4ccf31a392789aca657472a0"
+    },
+    {
+      "relativePath": "odf/special_weapons/xcv_f31const_u.odf",
+      "liveSHA256": null,
+      "stagedSHA256": "ed27d450990342a2ff3842117d89f52f4d6ee16eb82777dfd26844e73b8f1ade"
+    },
+    {
+      "relativePath": "odf/ships/f31const.odf",
+      "liveSHA256": "0442af7a34fdb086f3bcf3d002c4d58c6d947cf8cd865a6c59908fc7c92120a2",
+      "stagedSHA256": "56dd9d819788ec83364ae966e48eaf5ca8d1ffaa444995250890facd2a6f0423"
+    },
+    {
+      "relativePath": "odf/special_weapons/xcv_fconst_u.odf",
+      "liveSHA256": null,
+      "stagedSHA256": "2bd105543773f88ba3106ecd28d61bd8908ccd6c5d19fd78e763e758ea12dad0"
+    },
+    {
+      "relativePath": "odf/special_weapons/xcv_fconst2_u.odf",
+      "liveSHA256": null,
+      "stagedSHA256": "732c7f2c09abfd4e9af2b3fa98921de6e61f6f416875bebf77563a5531193a47"
+    },
+    {
+      "relativePath": "odf/ships/fconst2.odf",
+      "liveSHA256": "29016b216dde711c22e3e6f885c56bded461a4dd198c1aa447ca487f8f528c36",
+      "stagedSHA256": "80795182b539d3a5b73de5c5e0511f7f1104cf50bdcb83a62fda44c87a9c2632"
+    },
+    {
+      "relativePath": "odf/special_weapons/xcv_kconst_u.odf",
+      "liveSHA256": null,
+      "stagedSHA256": "fd4adab55b3d66bfe903238a7055ccee710ee4c816a0efe85172da961826d505"
+    },
+    {
+      "relativePath": "odf/special_weapons/xcv_kconst2_u.odf",
+      "liveSHA256": null,
+      "stagedSHA256": "ac96161a8df402012b3461c77ffee622eb45f66cb5067db0053920d75a0967a1"
+    },
+    {
+      "relativePath": "odf/ships/kconst2.odf",
+      "liveSHA256": "91d886229b73f9782da98a228a169459d1208f14bd7e468c85e0ee9251c954fc",
+      "stagedSHA256": "1610637a7a950d17a8ff27f37705b6509375077806cd1f4e114175dd9f3758a9"
+    },
+    {
+      "relativePath": "odf/special_weapons/xcv_rconst_u.odf",
+      "liveSHA256": null,
+      "stagedSHA256": "88fd4307ef7ce07fd3eee1276ad22cb7c21be955b370f32d578d922ac47f3382"
+    },
+    {
+      "relativePath": "odf/special_weapons/xcv_rconst2_u.odf",
+      "liveSHA256": null,
+      "stagedSHA256": "b013889a9eda82d4e3fe37d4a9ab65f56f64f0462ad7f67a7d16dabad5570158"
+    },
+    {
+      "relativePath": "odf/ships/rconst2.odf",
+      "liveSHA256": "4a7bb371c1a21b1af3500325a65f2008094fccdd22239e228e4fc33e6892c9d2",
+      "stagedSHA256": "50ed02c9583eb31ee4c6800d53a511bd94ef500798daf5e6bb1bbde2d5ecefa8"
+    },
+    {
+      "relativePath": "odf/special_weapons/xcv_xbjconst2_u.odf",
+      "liveSHA256": null,
+      "stagedSHA256": "87d6358ee1f1668d1bf6f291a7c2db05236ece471050f93243b58061b7018f4f"
+    },
+    {
+      "relativePath": "odf/ships/xbjconst2.odf",
+      "liveSHA256": "f5a6fbd0e761c93cfd1a273c2f9100d39215fb7c876f1a7ed2dcd13d52c12da0",
+      "stagedSHA256": "b7590f9515402ace341dbccdb53782c61f79d1ec1f8f4889a4962cffa2e12d57"
+    },
+    {
+      "relativePath": "odf/special_weapons/xcv_xcconst2_u.odf",
+      "liveSHA256": null,
+      "stagedSHA256": "daaaaacb4a81db5fb995ebc7214a441cdfa99ec608cb25691108c138314f75d9"
+    },
+    {
+      "relativePath": "odf/ships/xcconst2.odf",
+      "liveSHA256": "a5d33450271e412782e42f52bd1ee263c982b4840c1d731f6ff47936cc971ab2",
+      "stagedSHA256": "ba22d4c3545e8956519e43297382e5b79394a31717f35176829f3c7f4b6cf9a2"
+    },
+    {
+      "relativePath": "odf/special_weapons/xcv_xcdconst_u.odf",
+      "liveSHA256": null,
+      "stagedSHA256": "bbe284be0214f51bb77a0d8f4ab387c8cb9c7a28a61f5e0ffdd2154eea6ceb78"
+    },
+    {
+      "relativePath": "odf/special_weapons/xcv_xdconst2_u.odf",
+      "liveSHA256": null,
+      "stagedSHA256": "724a3239bd31d7b456d9c352c7c09012d23fb5b5405274aec6b6c8845621e49b"
+    },
+    {
+      "relativePath": "odf/ships/xdconst2.odf",
+      "liveSHA256": "bd757ca19f527eba4ab665df36133ab408524535f582a7701f5ba2d8207caa7a",
+      "stagedSHA256": "6844fb9b30c335633e4ca41be198ec4026078496a1fbacf3acc473c40dba554f"
+    },
+    {
+      "relativePath": "Sprites/gui_global.spr",
+      "liveSHA256": "280502c1553fbd95e4bb00cd552c6d70c232b82756437ba8b3375e1f615276d8",
+      "stagedSHA256": "5c4cfedd2ba108167ec6b4afa2c6c998d7f247013fbf09748e31eb2c8996849a"
+    }
+  ],
+  "includesOwnStarbaseT1Stage": true,
+  "includesBorgSpecialistRemovalStage": true,
+  "liveGameFilesChanged": false,
+  "startingFleetsChanged": false,
+  "iconsChanged": false,
+  "constructorConversions": [
+    {
+      "ability": "xcv_714const_u",
+      "source": "714const",
+      "target": "xsuconst",
+      "targetTier": 3,
+      "direction": "up",
+      "slot": 1,
+      "hotkey": "HOTKEY_F8",
+      "hardpoint": "hp01",
+      "cost": 0,
+      "researchRequired": false
+    },
+    {
+      "ability": "xcv_8472_defender_u",
+      "source": "8472_defender",
+      "target": "xsuconst",
+      "targetTier": 3,
+      "direction": "up",
+      "slot": 1,
+      "hotkey": "HOTKEY_F8",
+      "hardpoint": "hp05",
+      "cost": 0,
+      "researchRequired": false
+    },
+    {
+      "ability": "xcv_8472_passive_u",
+      "source": "8472_passive",
+      "target": "714const",
+      "targetTier": 2,
+      "direction": "up",
+      "slot": 1,
+      "hotkey": "HOTKEY_F8",
+      "hardpoint": "hp01",
+      "cost": 0,
+      "researchRequired": false
+    },
+    {
+      "ability": "xcv_bconst_u",
+      "source": "bconst",
+      "target": "bconst2",
+      "targetTier": 2,
+      "direction": "up",
+      "slot": 1,
+      "hotkey": "HOTKEY_F8",
+      "hardpoint": "hp01",
+      "cost": 0,
+      "researchRequired": false
+    },
+    {
+      "ability": "xcv_bconst2_u",
+      "source": "bconst2",
+      "target": "xbuconst",
+      "targetTier": 3,
+      "direction": "up",
+      "slot": 1,
+      "hotkey": "HOTKEY_F8",
+      "hardpoint": "hp01",
+      "cost": 0,
+      "researchRequired": false
+    },
+    {
+      "ability": "xcv_bjconst_u",
+      "source": "bjconst",
+      "target": "xbjconst2",
+      "targetTier": 2,
+      "direction": "up",
+      "slot": 1,
+      "hotkey": "HOTKEY_F8",
+      "hardpoint": "hp06",
+      "cost": 0,
+      "researchRequired": false
+    },
+    {
+      "ability": "xcv_cconst_u",
+      "source": "cconst",
+      "target": "xcconst2",
+      "targetTier": 2,
+      "direction": "up",
+      "slot": 1,
+      "hotkey": "HOTKEY_F8",
+      "hardpoint": "hp01",
+      "cost": 0,
+      "researchRequired": false
+    },
+    {
+      "ability": "xcv_dconst_u",
+      "source": "dconst",
+      "target": "xdconst2",
+      "targetTier": 2,
+      "direction": "up",
+      "slot": 1,
+      "hotkey": "HOTKEY_F8",
+      "hardpoint": "hp06",
+      "cost": 0,
+      "researchRequired": false
+    },
+    {
+      "ability": "xcv_domconst_u",
+      "source": "domconst",
+      "target": "xcuconst",
+      "targetTier": 3,
+      "direction": "up",
+      "slot": 1,
+      "hotkey": "HOTKEY_F8",
+      "hardpoint": "hp10",
+      "cost": 0,
+      "researchRequired": false
+    },
+    {
+      "ability": "xcv_f31const_u",
+      "source": "f31const",
+      "target": "xfuconst",
+      "targetTier": 3,
+      "direction": "up",
+      "slot": 1,
+      "hotkey": "HOTKEY_F8",
+      "hardpoint": "hp01",
+      "cost": 0,
+      "researchRequired": false
+    },
+    {
+      "ability": "xcv_fconst_u",
+      "source": "fconst",
+      "target": "fconst2",
+      "targetTier": 2,
+      "direction": "up",
+      "slot": 1,
+      "hotkey": "HOTKEY_F8",
+      "hardpoint": "hp06",
+      "cost": 0,
+      "researchRequired": false
+    },
+    {
+      "ability": "xcv_fconst2_u",
+      "source": "fconst2",
+      "target": "xfuconst",
+      "targetTier": 3,
+      "direction": "up",
+      "slot": 1,
+      "hotkey": "HOTKEY_F8",
+      "hardpoint": "hp02",
+      "cost": 0,
+      "researchRequired": false
+    },
+    {
+      "ability": "xcv_kconst_u",
+      "source": "kconst",
+      "target": "kconst2",
+      "targetTier": 2,
+      "direction": "up",
+      "slot": 1,
+      "hotkey": "HOTKEY_F8",
+      "hardpoint": "hp12",
+      "cost": 0,
+      "researchRequired": false
+    },
+    {
+      "ability": "xcv_kconst2_u",
+      "source": "kconst2",
+      "target": "xkuconst",
+      "targetTier": 3,
+      "direction": "up",
+      "slot": 1,
+      "hotkey": "HOTKEY_F8",
+      "hardpoint": "hp01",
+      "cost": 0,
+      "researchRequired": false
+    },
+    {
+      "ability": "xcv_rconst_u",
+      "source": "rconst",
+      "target": "rconst2",
+      "targetTier": 2,
+      "direction": "up",
+      "slot": 1,
+      "hotkey": "HOTKEY_F8",
+      "hardpoint": "hp10",
+      "cost": 0,
+      "researchRequired": false
+    },
+    {
+      "ability": "xcv_rconst2_u",
+      "source": "rconst2",
+      "target": "xruconst",
+      "targetTier": 3,
+      "direction": "up",
+      "slot": 1,
+      "hotkey": "HOTKEY_F8",
+      "hardpoint": "hp01",
+      "cost": 0,
+      "researchRequired": false
+    },
+    {
+      "ability": "xcv_xbjconst2_u",
+      "source": "xbjconst2",
+      "target": "xbjuconst",
+      "targetTier": 3,
+      "direction": "up",
+      "slot": 1,
+      "hotkey": "HOTKEY_F8",
+      "hardpoint": "hp06",
+      "cost": 0,
+      "researchRequired": false
+    },
+    {
+      "ability": "xcv_xcconst2_u",
+      "source": "xcconst2",
+      "target": "xcuconst",
+      "targetTier": 3,
+      "direction": "up",
+      "slot": 1,
+      "hotkey": "HOTKEY_F8",
+      "hardpoint": "hp01",
+      "cost": 0,
+      "researchRequired": false
+    },
+    {
+      "ability": "xcv_xcdconst_u",
+      "source": "xcdconst",
+      "target": "xdconst2",
+      "targetTier": 2,
+      "direction": "up",
+      "slot": 1,
+      "hotkey": "HOTKEY_F8",
+      "hardpoint": "hp06",
+      "cost": 0,
+      "researchRequired": false
+    },
+    {
+      "ability": "xcv_xdconst2_u",
+      "source": "xdconst2",
+      "target": "xduconst",
+      "targetTier": 3,
+      "direction": "up",
+      "slot": 1,
+      "hotkey": "HOTKEY_F8",
+      "hardpoint": "hp06",
+      "cost": 0,
+      "researchRequired": false
+    }
+  ],
+  "conversionUnits": [
+    "714const",
+    "8472_defender",
+    "8472_passive",
+    "bconst",
+    "bconst2",
+    "bjconst",
+    "cconst",
+    "dconst",
+    "domconst",
+    "f31const",
+    "fconst",
+    "fconst2",
+    "kconst",
+    "kconst2",
+    "rconst",
+    "rconst2",
+    "xbjconst2",
+    "xcconst2",
+    "xcdconst",
+    "xdconst2"
+  ],
+  "conversionType": "NX hero native fusingweapon, one source ship, upgrade only",
+  "conversionCosts": 0,
+  "conversionResearchRequired": false,
+  "breenAndFerengiUnchanged": true,
+  "applied": true,
+  "appliedAt": "2026-10-24T02:57:26.887Z",
+  "combinedReport": "pending-game-patch-staged.json"
+}

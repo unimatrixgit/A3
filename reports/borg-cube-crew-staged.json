@@ -1,0 +1,377 @@
+{
+  "status": "applied in combined constructor/cube patch",
+  "stage": "D:/Xaramada-Modwork/staged-basic-starbases-2026-10-24T02-55-34-694Z",
+  "crewMultiplier": 1.35,
+  "rounding": "nearest whole crew member",
+  "changes": [
+    {
+      "unit": "bbattle",
+      "name": "Cube",
+      "oldCrew": 465,
+      "newCrew": 628,
+      "oldMaximumCrew": 465,
+      "newMaximumCrew": 628
+    },
+    {
+      "unit": "bbattle1",
+      "name": "Borg Cube",
+      "oldCrew": 800,
+      "newCrew": 1080,
+      "oldMaximumCrew": 800,
+      "newMaximumCrew": 1080
+    },
+    {
+      "unit": "bbattle2",
+      "name": "Tactical Cube",
+      "oldCrew": 985,
+      "newCrew": 1330,
+      "oldMaximumCrew": 985,
+      "newMaximumCrew": 1330
+    },
+    {
+      "unit": "bbattle3",
+      "name": "Fusion Cube",
+      "oldCrew": 1730,
+      "newCrew": 2336,
+      "oldMaximumCrew": 1730,
+      "newMaximumCrew": 2336
+    },
+    {
+      "unit": "bbattle4",
+      "name": "Tactical Fusion Cube",
+      "oldCrew": 1980,
+      "newCrew": 2673,
+      "oldMaximumCrew": 1980,
+      "newMaximumCrew": 2673
+    },
+    {
+      "unit": "bbattle5",
+      "name": "Ultra Fusion Cube",
+      "oldCrew": 1885,
+      "newCrew": 2545,
+      "oldMaximumCrew": 1885,
+      "newMaximumCrew": 2545
+    },
+    {
+      "unit": "bbattle6",
+      "name": "Omega Tactical Fusion Cube",
+      "oldCrew": 3670,
+      "newCrew": 4955,
+      "oldMaximumCrew": 3670,
+      "newMaximumCrew": 4955
+    },
+    {
+      "unit": "bbattle8",
+      "name": "Borg Cube",
+      "oldCrew": 1480,
+      "newCrew": 1998,
+      "oldMaximumCrew": 1480,
+      "newMaximumCrew": 1998
+    },
+    {
+      "unit": "blocutus",
+      "name": "Locutus' Cube",
+      "oldCrew": 545,
+      "newCrew": 736,
+      "oldMaximumCrew": 545,
+      "newMaximumCrew": 736
+    },
+    {
+      "unit": "bmama",
+      "name": "Mamacube",
+      "oldCrew": 1115,
+      "newCrew": 1505,
+      "oldMaximumCrew": 1115,
+      "newMaximumCrew": 1505
+    },
+    {
+      "unit": "bomega1",
+      "name": "Omega Cube",
+      "oldCrew": 920,
+      "newCrew": 1242,
+      "oldMaximumCrew": 920,
+      "newMaximumCrew": 1242
+    },
+    {
+      "unit": "bscout",
+      "name": "Scouting Cube",
+      "oldCrew": 150,
+      "newCrew": 203,
+      "oldMaximumCrew": 150,
+      "newMaximumCrew": 203
+    },
+    {
+      "unit": "mrc003",
+      "name": "Hugh's Cube",
+      "oldCrew": 545,
+      "newCrew": 736,
+      "oldMaximumCrew": 545,
+      "newMaximumCrew": 736
+    },
+    {
+      "unit": "mrc058",
+      "name": "Hugh's Cube",
+      "oldCrew": 620,
+      "newCrew": 837,
+      "oldMaximumCrew": 620,
+      "newMaximumCrew": 837
+    },
+    {
+      "unit": "tcube",
+      "name": "Class VII Tactical Cube",
+      "oldCrew": 1055,
+      "newCrew": 1424,
+      "oldMaximumCrew": 1055,
+      "newMaximumCrew": 1424
+    },
+    {
+      "unit": "xobbattle1",
+      "name": "Omega Borg Cube",
+      "oldCrew": 900,
+      "newCrew": 1215,
+      "oldMaximumCrew": 900,
+      "newMaximumCrew": 1215
+    },
+    {
+      "unit": "xobbattle2",
+      "name": "Omega Tactical Cube",
+      "oldCrew": 1100,
+      "newCrew": 1485,
+      "oldMaximumCrew": 1100,
+      "newMaximumCrew": 1485
+    },
+    {
+      "unit": "xoblocutus",
+      "name": "Omega Locutus' Cube",
+      "oldCrew": 620,
+      "newCrew": 837,
+      "oldMaximumCrew": 620,
+      "newMaximumCrew": 837
+    }
+  ],
+  "files": [
+    {
+      "relativePath": "odf/ships/8472_passive.odf",
+      "liveSHA256": "7e4536695a3cc9996c3ff73a587c3596b36f76f5d51e8da86f91c566cb13aed2",
+      "stagedSHA256": "bb558645fd42e6fbe2c66e776938fc52bd80196e31d35a62f801978ca0a4e438"
+    },
+    {
+      "relativePath": "odf/ships/bconst.odf",
+      "liveSHA256": "1211ac841a848d80915345360459b09c41d78cbc7d7f6d18279f4efb31ff763a",
+      "stagedSHA256": "f52704ab2738b1c364557567551bb34a1184e349c6143589d8e2f660f6141eba"
+    },
+    {
+      "relativePath": "odf/ships/bjconst.odf",
+      "liveSHA256": "1e215383ba3eda01a7da0b28125bf4bcaf25ce134578d2402465ff724c99b1b6",
+      "stagedSHA256": "9382c6e3119ce6333be559fd3b9b6fa2d4752054b16fb7981582bbaecf35ce40"
+    },
+    {
+      "relativePath": "odf/ships/cconst.odf",
+      "liveSHA256": "6bec41ebc5b65c6dd986b3be275ae4cf8356c5a45a1e9bc012b7d57f9d4d98aa",
+      "stagedSHA256": "acfa9894a23485f1f3ede96ee9719e7504986f9e9e21ed356740b0aa91e44265"
+    },
+    {
+      "relativePath": "odf/ships/dconst.odf",
+      "liveSHA256": "7082181317080687467676abdfb52d5f5d4256bda1da8cda3d731fa68fed500d",
+      "stagedSHA256": "495a6fa7065bc96323d495b285cc07018e1612ea04e635329a73c784ce3ea5ec"
+    },
+    {
+      "relativePath": "odf/ships/fconst.odf",
+      "liveSHA256": "ad19c0228d15007bb44bd722e1e96d87121ab886b6a51a0ac65b95ae9ed94dae",
+      "stagedSHA256": "45a2ea9b71ae70ab75ed1be47119dca129936f18986971990c059d54c4a01bd2"
+    },
+    {
+      "relativePath": "odf/ships/kconst.odf",
+      "liveSHA256": "3e3326ac0b375a4c9e6cc96f45d5863af0cef42cc117fa27132aeb5232222eaf",
+      "stagedSHA256": "5b682312f5a11e49ea439baf6243da1c0cc9b3f58e5838a260549915a5ecfd72"
+    },
+    {
+      "relativePath": "odf/ships/rconst.odf",
+      "liveSHA256": "5adcbf5e4f983cb416df15e9e9e82b86c41a016451232d26d81ef0eb57e70b00",
+      "stagedSHA256": "1a15e9775bfc02c3690e9234d3fafa7cf5867bf31d6e2eb13c129de17f399774"
+    },
+    {
+      "relativePath": "odf/ships/xcdconst.odf",
+      "liveSHA256": "c04132509a0b477b080db4f91ae3ca8ccaf5c5603edc93cbec247ffbd0e91767",
+      "stagedSHA256": "0145c3a09fc2511d43566fc411caaabc928c5eb8a5fa23a5c0eddf7e47424b8a"
+    },
+    {
+      "relativePath": "odf/ships/bconst2.odf",
+      "liveSHA256": "bd033dbe62eae00458e0293347ff930be521937b15092f57c541cfb08ae3a6f4",
+      "stagedSHA256": "281ef1a3ebcb31a29024d2f3deef5f352de5374eccb288f9e2d4cad5514c18c3"
+    },
+    {
+      "relativePath": "odf/ships/bbattle5.odf",
+      "liveSHA256": "3eab0e31b7b13e11be8301849d8fa713256df25dc84cc6c026d51f6215340b0c",
+      "stagedSHA256": "fe1fda53bced52df25baaf3d84833d655b10e068233db1c8eec67035810111ac"
+    },
+    {
+      "relativePath": "odf/ships/bbattle6.odf",
+      "liveSHA256": "975e23676043932643a7ad84ceb32d6bd50c9094f06e3561cf18f9c92c7d2658",
+      "stagedSHA256": "e603093b13206e0cef943dd94db20a4151c0da1923c7a42e38aa6d16a9fd66a5"
+    },
+    {
+      "relativePath": "odf/stations/bbase.odf",
+      "liveSHA256": "9cea5321141a459dd1d257c432a8428348a72105a4426371818188b829958e62",
+      "stagedSHA256": "c7868997089a8ad7531e0b3275e480be44bb19ef068ab47727414a9988b4cb84"
+    },
+    {
+      "relativePath": "odf/stations/bhwp.odf",
+      "liveSHA256": "3f380796d865e0c1e042e11219228482de894d149b5281cf42d5ad25b692aa23",
+      "stagedSHA256": "37738024cd748e2740ffd74da50d873983004e73f8cdd67704a4e738b06077e9"
+    },
+    {
+      "relativePath": "odf/stations/unicomplex.odf",
+      "liveSHA256": "f460099db56869acd9c4025e4f8d8fd07d69c2e54056e86a03c2ae814c70c810",
+      "stagedSHA256": "5a5d41617554934557e9350888b47e764e5cf370ba1d7880a2b8718c58b663cb"
+    },
+    {
+      "relativePath": "odf/stations/xbtarray.odf",
+      "liveSHA256": "8ee11bb1820213ab018eb2e616bb978789907520238931c0bea00bda7fe1bf18",
+      "stagedSHA256": "f9afdf80c42ce19af2d3c302cd33515c4054c2eae7f20c231a887279b2936f99"
+    },
+    {
+      "relativePath": "techtree/tech1.tt",
+      "liveSHA256": "d583bcfa7a264abb7404b46afe4789ecf478b1a841215f889d91379821f0bc0e",
+      "stagedSHA256": "b7bb3b4ed1ac06e1b12b6e60b5e985f90409278fc0e6b89d2ad78678932397dc"
+    },
+    {
+      "relativePath": "techtree/earlytech.tt",
+      "liveSHA256": "b76eda3326b1cdf045e8b218c1507a051526d1085f0bca26020cb3db48739d3a",
+      "stagedSHA256": "e28751e7a37131445c4471b74391759c5f709cbd69688c5e38a41dc931c6b07b"
+    },
+    {
+      "relativePath": "techtree/fulltech.tt",
+      "liveSHA256": "e84e170ff1acb7e6bd3916ea2078e5acc78df8c3817082b0277ef443b3441e81",
+      "stagedSHA256": "ed65df3728eaa21c2b42cf90a4fe6e07e3c35810160aea88119c11dcedb8f393"
+    },
+    {
+      "relativePath": "techtree/nosci.tt",
+      "liveSHA256": "bb2854f4f7dbca22dc11dd143c3640e2d0c170c51efad3de23ae3b06e7d9e394",
+      "stagedSHA256": "e212dbd6692c83c7a50d8e161af468cfd4dd8a1b405c57e4f942594dbde68d1f"
+    },
+    {
+      "relativePath": "techtree/nospweap.tt",
+      "liveSHA256": "5b537418040e095759f01fa933960099968d82014d0f73e8343334d7b224e71b",
+      "stagedSHA256": "bee26800a0374735dfdae9a3db6d8199c210e19f5c5ff2077e8980d845537f5b"
+    },
+    {
+      "relativePath": "techtree/nosuper.tt",
+      "liveSHA256": "922e0060b49bc5641e858e0cd89919442bc52c0fffbb41613e196ef4898d88e0",
+      "stagedSHA256": "26f3790b66102fa3adad1e8146ea828501f0a9fdd99801e89057357732601264"
+    },
+    {
+      "relativePath": "AI/AIPs/borg_build_list.aip",
+      "liveSHA256": "5eecfd9ef6d494b3057bf43879435021273c08106080c7ff516d38721a35569f",
+      "stagedSHA256": "1aa30de0820fb731f5ec6217175c0beece91b78ba9b1b15e1fc3e26cd363e929"
+    },
+    {
+      "relativePath": "AI/AIPs/borg_defensive_list.aip",
+      "liveSHA256": "d581e49557f4f450796b007626e8d3b6c7431481f10224d0aef7273cdd55c268",
+      "stagedSHA256": "2471a1dfbdcf1fa09c856423ad2a5910292c78217aaf7f2b55df577a9d2ce291"
+    },
+    {
+      "relativePath": "AI/AIPs/borg_endgame_list.aip",
+      "liveSHA256": "5eecfd9ef6d494b3057bf43879435021273c08106080c7ff516d38721a35569f",
+      "stagedSHA256": "1aa30de0820fb731f5ec6217175c0beece91b78ba9b1b15e1fc3e26cd363e929"
+    },
+    {
+      "relativePath": "AI/AIPs/borg_instant_action_build_list.aip",
+      "liveSHA256": "5eecfd9ef6d494b3057bf43879435021273c08106080c7ff516d38721a35569f",
+      "stagedSHA256": "1aa30de0820fb731f5ec6217175c0beece91b78ba9b1b15e1fc3e26cd363e929"
+    },
+    {
+      "relativePath": "AI/AIPs/borg_offensive_list.aip",
+      "liveSHA256": "5eecfd9ef6d494b3057bf43879435021273c08106080c7ff516d38721a35569f",
+      "stagedSHA256": "1aa30de0820fb731f5ec6217175c0beece91b78ba9b1b15e1fc3e26cd363e929"
+    },
+    {
+      "relativePath": "odf/ships/bbattle.odf",
+      "liveSHA256": "32de9e856a7704d9ae0574d10a1f1254d015d376950c41f34c4e58aad2caedf7",
+      "stagedSHA256": "5e6bde22d815ed63dc60cd046cf1725a5d6997ac1121c321d70d7aecff69fcbe"
+    },
+    {
+      "relativePath": "odf/ships/bbattle1.odf",
+      "liveSHA256": "33855017e0510d020866a45cbb30249a6df53abca8b9531979c3f9ad77b81c26",
+      "stagedSHA256": "77edc09a9488c59075f9fb32c2047acd68615b7bf3555b816431f52b5ebba4b8"
+    },
+    {
+      "relativePath": "odf/ships/bbattle2.odf",
+      "liveSHA256": "aaad8279d41c79a5615dd9a2fd388321aed4e9168ece80f795b9914b9c8a9c84",
+      "stagedSHA256": "b1724114a812fe5c9333a2af3c5e05ee2c24006f7c435a77a4aa719c8332cdc5"
+    },
+    {
+      "relativePath": "odf/ships/bbattle3.odf",
+      "liveSHA256": "0e148e666a8c2f8ba85b8c859b8bdef770d2942c302bc9e7c32fb59ca9915227",
+      "stagedSHA256": "0d4543a9a03cf90d194982e445e3057442e0f8fc684fede9c939bd0f5cf03f2d"
+    },
+    {
+      "relativePath": "odf/ships/bbattle4.odf",
+      "liveSHA256": "193b64a31157bb65543d551b250047b07dbdf2a6512f3ed5beb2dc337d015916",
+      "stagedSHA256": "d796294247f8c2fd87f8292fc37ecff50d5e6673c3cd4cd6251308ac76f93224"
+    },
+    {
+      "relativePath": "odf/ships/bbattle8.odf",
+      "liveSHA256": "4b35df01aee16bc61b65f5b53436364a6d8a837271a2a480d710d07decc32e3c",
+      "stagedSHA256": "8056fec08e5b44fdd5319e28a7fa7c71e784c325c692f9e33d144dd236f953f4"
+    },
+    {
+      "relativePath": "odf/ships/blocutus.odf",
+      "liveSHA256": "9a6e33b5156e6a8e26d316bdcb8926fe0adab49a27f1cacc5d8e25072f5c8eb2",
+      "stagedSHA256": "ac84e1e456dc3719554aa66cf3c2998a794e2383ba06001de8c1036012e96f21"
+    },
+    {
+      "relativePath": "odf/ships/bmama.odf",
+      "liveSHA256": "b74a3d2835661fd6fc0e13d8a58d2bc375171a49b0bff668e1765c6df3f7dac9",
+      "stagedSHA256": "fea55270dbe40cc59a3f338cca7832af65c23ff977134ccbe1e734d945f65fbe"
+    },
+    {
+      "relativePath": "odf/ships/bomega1.odf",
+      "liveSHA256": "96c7be23ee21180faa1b03e9c69807841c9fa5bd874e466964491e2c54d2e612",
+      "stagedSHA256": "dd4b031ea71858f7a3715780bc0e123680fed992ce9f7f39c1d395a9ba5a6bf7"
+    },
+    {
+      "relativePath": "odf/ships/bscout.odf",
+      "liveSHA256": "2f0bca8b8fa80f1dc09c3e6c37f02796a2a5159203e3f184ed5d285119ff56e1",
+      "stagedSHA256": "ab96f46cd5dcb0e6bb2e15f6715e9cd0bb232c1118ee595169fef6ef83827f3d"
+    },
+    {
+      "relativePath": "odf/ships/mrc003.odf",
+      "liveSHA256": "7e9374ccc13196cf6d2d4378001f3f931e1094916d8c72519d75b8dc2ff33486",
+      "stagedSHA256": "425255c9eba28b31d49fd5677147cebcfbd344f918336be962afc2a295303f95"
+    },
+    {
+      "relativePath": "odf/ships/mrc058.odf",
+      "liveSHA256": "45530013f2a31d8148d8217444e3a9b0760e8513a630a46098b8e7900f8c325b",
+      "stagedSHA256": "50ec03327236d10c5315cc58e4502c5cf99ef6135fdeb63fd773e285c5cfca49"
+    },
+    {
+      "relativePath": "odf/ships/tcube.odf",
+      "liveSHA256": "4887adfefbc2c02b6c557f36f7a46e03e481d872d833eac4d58d0d5345c9125e",
+      "stagedSHA256": "2a281609d89b1d9329034e5ccc4553c063ab4d26712325885f5e3f5b1eddc808"
+    },
+    {
+      "relativePath": "odf/ships/xobbattle1.odf",
+      "liveSHA256": "4cc1ca77761e699029338130d87c8808bfb80410d6a5a27e33ac172da9e80e18",
+      "stagedSHA256": "1dba46932f811022938486c3ed3c778aba86baac11feb3147f602500eed442d8"
+    },
+    {
+      "relativePath": "odf/ships/xobbattle2.odf",
+      "liveSHA256": "d73352be9fe3fc2e79d7f4f318e2067ca29b09b491156e746128ddc24d23136a",
+      "stagedSHA256": "f9d17810d98ab040e03b37c3af4ccedbc91ea379500d31818fe2bdfbdd8bbac9"
+    },
+    {
+      "relativePath": "odf/ships/xoblocutus.odf",
+      "liveSHA256": "9f458d9659ba62f57ef5869571bc584f7b165ec6f499b2bd79eb0c5537dfd321",
+      "stagedSHA256": "9799a82a21c0d7c86098be556a9d858544a0f33a37c06eb5e6b60ff495117840"
+    }
+  ],
+  "includesOwnStarbaseT1Stage": true,
+  "includesBorgSpecialistRemovalStage": true,
+  "liveGameFilesChanged": false,
+  "startingFleetsChanged": false,
+  "iconsChanged": false,
+  "applied": true,
+  "appliedAt": "2026-10-24T02:57:26.887Z",
+  "combinedReport": "pending-game-patch-staged.json"
+}

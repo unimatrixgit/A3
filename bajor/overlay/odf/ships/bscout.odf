@@ -143,9 +143,7 @@ maxExtraWeapons = 1
 
 maxSpecialEnergy = 2500
 
-specialEnergyRate = 25
-
-maximumCrew = 150
+specialEnergyRate = 25
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.5
@@ -164,5 +162,8 @@ verboseTooltip = "Surveys space and locates threats ahead of the fleet. Collecti
 dilithiumcost = 275
 metalcost = 75
 latinumcost = 0
-biomattercost = 0
-crewCost = 150
+biomattercost = 0
+
+crewCost = 203
+
+maximumCrew = 203
