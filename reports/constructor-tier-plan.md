@@ -1,14 +1,34 @@
-# Proposed constructor tiers
+# Applied constructor, mirror yard and resource patch
 
-Not applied. Existing construction options are preserved across the proposed tiers. Mirror yards and tier-II Ferengi equipment are planned additions, not yet installed. Maximum 13 menu entries per constructor; additional T3 variants retain overflow.
+Applied only to D:/armadaIII. Source files mirrored to D:/aramada/bajor/overlay. File validation passed; gameplay has not been tested.
 
-T1: economy, standard yards, research and upgrades. T2: hero/Omega/mirror yards and defenses. T3: all eight primary faction starbases, faction special structures and Ferengi facilities. Ferengi constructors themselves are T3.
+## Constructor roles
 
-All strategic starbases: requested price 1,500 dilithium + 1,500 metal, starting crew150; maximum crew unchanged. Heavy platforms and ships using the starbase engine class are not automatically treated as strategic starbases. Species8472 economic compatibility needs to be preserved.
+T1: mining, standard yards, research and upgrade facilities. T2: defenses, hero/Omega and Mirror Universe yards. T3: all eight main faction starbases, faction special structures and Ferengi facilities. Extra T3 variants preserve overflow. Legacy constructor files remain compatible aliases. Constructors carry no weapons.
 
-## federation
+Standard constructor prices: T1 125 dilithium/25 metal, T2 200/100, T3 300/200. Starting crew150; build times20/30/40 seconds. Ferengi constructors cost500 latinum; Borg-priced Ferengi constructors cost300 dilithium/200 metal. Species8472 constructors use biomatter. Existing hulls, model proportions and worker-bee systems are preserved.
 
-### T1 — fconst
+## Starbase prices
+
+All strategic conventional starbases cost1,500 dilithium +1,500 metal, with150 starting crew and unchanged maximum crew. Other resource costs are zero. Species8472 retains its biomatter economy. Heavy weapons platforms, tactical arrays, special shipyards and ships implemented through the starbase engine class are excluded from this price change.
+
+## Mirror Universe
+
+59 counterparts are built through11 normal shipyards, including two Federation yards. Ordinary production gives the building player ownership. The failed summon abilities and mirror-research menus are removed from gameplay; their dormant definitions are disabled in all six technology trees. Native abilities remain. Mirror ships retain double normal damage,75% health and125% model size. Their resource prices and build times are125% of the corresponding original hero. Hugh uses the battle-pack cube; the Queen counterpart retains its sphere model. No starting fleets were changed.
+
+## Resource research
+
+Two tiers unlock new equipment variants: +50% and +100% over the base extraction rate. Existing units do not upgrade retroactively. Normal Ferengi research covers dilithium/metal/latinum; Borg contracts cover dilithium/metal only. Research costs900/1350 latinum, or the same value split60% dilithium and40% metal for Borg contracts.
+
+Species8472 has its own Biomatter Metabolism Institute, built by T1. It uses Chiletrek's Species8472 Pack07 research station/pod models and textures under unique filenames. Research costs900/1350 biomatter and unlocks enhanced Collectors on the Active Embryo. Biomatter mining yield and extraction conversion improve50%/100%; other mining beams and storage capacities are unchanged. No Ferengi facilities or units were added to8472.
+
+## AI and interface
+
+45 faction skirmish/strategy build lists order the correct constructors before their buildings. Eligible factions use the Ferengi contract, service and research facilities; Borg plans use the Borg-priced catalog and omit latinum research/collectors. Every faction builds its mirror yards and a counterpart from each. Icons distinguish constructor tiers, mirror production and resource research tiers.
+
+## Applied constructor menus
+
+### federation — T1 (`fconst`)
 
 - San Fransisco Class (`fyard0`)
 - Algol Class (`fyard`)
@@ -23,7 +43,7 @@ All strategic starbases: requested price 1,500 dilithium + 1,500 metal, starting
 - Remmla class (`fremmeler`)
 - Argus Array (`fargus`)
 
-### T2 — fconst2
+### federation — T2 (`fconst2`)
 
 - Enterprise Legacy Yard (`xflegacyyard`)
 - Mark III (`fturret`)
@@ -32,10 +52,10 @@ All strategic starbases: requested price 1,500 dilithium + 1,500 metal, starting
 - Laforge's Shipyard (`fyard3`)
 - Section 31 Shipyard (`s31yard`)
 - Omega Research Laboratory (`xfomegalab`)
-- mryfeda (`mryfeda`) — planned Mirror Universe yard
-- mryfedb (`mryfedb`) — planned Mirror Universe yard
+- mryfeda (`mryfeda`)
+- mryfedb (`mryfedb`)
 
-### T3 — xfuconst
+### federation — T3 (`xfuconst`)
 
 - Nexus (`bbase`)
 - SpaceDock (`fbase`)
@@ -51,16 +71,12 @@ All strategic starbases: requested price 1,500 dilithium + 1,500 metal, starting
 - Darius Class (`fbase2`)
 - Midas Array (`fmidas`)
 
-### T3 — xu3fed2 (new)
+### federation — T3 (`xu3fed2`)
 
 - Jupiter Station (`fjupiter`)
 - Manheim Class (`fsuperbl`)
 
-Previously available buildings omitted: none.
-
-## borg
-
-### T1 — bconst
+### borg — T1 (`bconst`)
 
 - Assembly Matrix (`byard`)
 - Detection Array (`bsensor`)
@@ -72,7 +88,7 @@ Previously available buildings omitted: none.
 - Recycler (`brecycle`)
 - Ship Upgrade Facility (`bupgrade`)
 
-### T2 — bconst2
+### borg — T2 (`bconst2`)
 
 - Energy Cannon (`bturret`)
 - Torpedo Turret (`bturret2`)
@@ -80,9 +96,9 @@ Previously available buildings omitted: none.
 - Oblivion Defense Nexus (`bhwp`)
 - Omega Research Laboratory (`xbomegalab`)
 - Borg Tactical Battle Array (`xbtarray`)
-- mryborg (`mryborg`) — planned Mirror Universe yard
+- mryborg (`mryborg`)
 
-### T3 — xbuconst
+### borg — T3 (`xbuconst`)
 
 - Nexus (`bbase`)
 - SpaceDock (`fbase`)
@@ -98,17 +114,13 @@ Previously available buildings omitted: none.
 - Harvester Station (`xbharvest`)
 - Assimilation Station (`xbassimst`)
 
-### T3 — xu3bor2 (new)
+### borg — T3 (`xu3bor2`)
 
 - Borg Transwarp Hub (`hub`)
 - Mercenary Ferengi Contract Yard (`xbgmerc`)
 - Central Unicomplex (`unicomplex`)
 
-Previously available buildings omitted: none.
-
-## klingon
-
-### T1 — kconst
+### klingon — T1 (`kconst`)
 
 - Shipyard (`kyard`)
 - Sensor Array (`ksensor`)
@@ -120,16 +132,16 @@ Previously available buildings omitted: none.
 - Trading Station (`ktrading`)
 - Imperial Research Institute (`kupgrade`)
 
-### T2 — kconst2
+### klingon — T2 (`kconst2`)
 
 - Disruptor Cannon (`kturret`)
 - Torpedo Turret (`kturret2`)
 - Kahless' Forge (`kyard3`)
 - Imperial Shipyard (`kimpyard`)
 - Klingon HWP (`khwp`)
-- mrykling (`mrykling`) — planned Mirror Universe yard
+- mrykling (`mrykling`)
 
-### T3 — xkuconst
+### klingon — T3 (`xkuconst`)
 
 - Nexus (`bbase`)
 - SpaceDock (`fbase`)
@@ -145,11 +157,7 @@ Previously available buildings omitted: none.
 - Mercenary Ferengi Contract Yard (`xfgmerc`)
 - Outpost (`koutpost`)
 
-Previously available buildings omitted: none.
-
-## romulan
-
-### T1 — rconst
+### romulan — T1 (`rconst`)
 
 - Shipyard (`ryard`)
 - Spy Satellite (`rsensor`)
@@ -163,15 +171,15 @@ Previously available buildings omitted: none.
 - Sela's Research (`xselaresearch`)
 - Star Empire Research Institute (`rupgrade`)
 
-### T2 — rconst2
+### romulan — T2 (`rconst2`)
 
 - Plasma Cannon (`rturret`)
 - Torpedo Turret (`rturret2`)
 - Raptor's Talon Shipyard (`ryard3`)
 - Heavy Weapons Platform (`rhwp`)
-- mryrom (`mryrom`) — planned Mirror Universe yard
+- mryrom (`mryrom`)
 
-### T3 — xruconst
+### romulan — T3 (`xruconst`)
 
 - Nexus (`bbase`)
 - SpaceDock (`fbase`)
@@ -185,11 +193,7 @@ Previously available buildings omitted: none.
 - Tal Shiar HQ (`rbase2`)
 - Mercenary Ferengi Contract Yard (`xfgmerc`)
 
-Previously available buildings omitted: none.
-
-## cardassian
-
-### T1 — cconst
+### cardassian — T1 (`cconst`)
 
 - Shipyard (`cyard`)
 - Sensor Array (`csensor`)
@@ -203,16 +207,16 @@ Previously available buildings omitted: none.
 - Dominion Shipyard (`domyard`)
 - Research Institute (`cupgrade`)
 
-### T2 — xcconst2 (new)
+### cardassian — T2 (`xcconst2`)
 
 - Defense Turret (`cturret`)
 - Heavy Plasma Turret (`cturret2`)
 - Obsidian Command Yard (`cyard3`)
 - Vekor-class Defense Station (`chwp`)
 - Obsidian Order Shipyard (`cobyard`)
-- mrycard (`mrycard`) — planned Mirror Universe yard
+- mrycard (`mrycard`)
 
-### T3 — xcuconst
+### cardassian — T3 (`xcuconst`)
 
 - Nexus (`bbase`)
 - SpaceDock (`fbase`)
@@ -227,11 +231,7 @@ Previously available buildings omitted: none.
 - Nor Class Station (`cstation`)
 - Mercenary Ferengi Contract Yard (`xfgmerc`)
 
-Previously available buildings omitted: none.
-
-## dominion
-
-### T1 — dconst
+### dominion — T1 (`dconst`)
 
 - Dominion Shipyard (`dyard`)
 - Dominion Sensor Satellite (`dsensor`)
@@ -243,16 +243,16 @@ Previously available buildings omitted: none.
 - Trading Station (`dtrading`)
 - Dominion Ship Upgrade Center (`dupgrade`)
 
-### T2 — xdconst2 (new)
+### dominion — T2 (`xdconst2`)
 
 - Dominion Phaser Turret (`dturret`)
 - Dominion Torpedo Turret (`dturret2`)
 - Dominion Dreadnought Construction Yard (`dsuperbl`)
 - Nova Cannon (`dturret3`)
 - Founders' Command Yard (`dyard3`)
-- mrydom (`mrydom`) — planned Mirror Universe yard
+- mrydom (`mrydom`)
 
-### T3 — xduconst
+### dominion — T3 (`xduconst`)
 
 - Nexus (`bbase`)
 - SpaceDock (`fbase`)
@@ -265,11 +265,7 @@ Previously available buildings omitted: none.
 - Dominion Artificial Wormhole Creator (`zsuperbl`)
 - Mercenary Ferengi Contract Yard (`xfgmerc`)
 
-Previously available buildings omitted: none.
-
-## breen
-
-### T1 — brconst
+### breen — T1 (`brconst`)
 
 - Breen Shipyard (`bryard`)
 - Breen Mining Station (`brmining`)
@@ -278,12 +274,12 @@ Previously available buildings omitted: none.
 - Breen Advanced Shipyard (`bryard2`)
 - Breen Orbital Processing Facility (`brorbital`)
 
-### T2 — xbrconst2 (new)
+### breen — T2 (`xbrconst2`)
 
 - Thot's Command Dock (`bryard3`)
-- mrybreen (`mrybreen`) — planned Mirror Universe yard
+- mrybreen (`mrybreen`)
 
-### T3 — xbruconst
+### breen — T3 (`xbruconst`)
 
 - Nexus (`bbase`)
 - SpaceDock (`fbase`)
@@ -295,11 +291,7 @@ Previously available buildings omitted: none.
 - Deep Space 9 (`bjbase`)
 - Mercenary Ferengi Contract Yard (`xfgmerc`)
 
-Previously available buildings omitted: none.
-
-## bajoran
-
-### T1 — bjconst
+### bajoran — T1 (`bjconst`)
 
 - Militia Shipyard I (`bjyard`)
 - Militia Shipyard II (`bjyard2`)
@@ -311,15 +303,15 @@ Previously available buildings omitted: none.
 - Bajoran Systems Upgrade Center (`bjupgrade`)
 - Bajoran Sensor Array (`bjsensor`)
 
-### T2 — xbjconst2 (new)
+### bajoran — T2 (`xbjconst2`)
 
 - Bajoran Defense Emplacement (`bjturret`)
 - Bajoran Torpedo Defense Emplacement (`bjturret2`)
 - Bajoran Cyclone Defense Station (`bjhwp`)
 - Dahkur Command Shipyard (`bjyard3`)
-- mrybajor (`mrybajor`) — planned Mirror Universe yard
+- mrybajor (`mrybajor`)
 
-### T3 — xbjuconst
+### bajoran — T3 (`xbjuconst`)
 
 - Nexus (`bbase`)
 - SpaceDock (`fbase`)
@@ -333,11 +325,7 @@ Previously available buildings omitted: none.
 - Bajoran Asteroid Outpost (`xbjoutpost`)
 - Mercenary Ferengi Contract Yard (`xfgmerc`)
 
-Previously available buildings omitted: none.
-
-## species8472
-
-### T1 — 8472_passive
+### species8472 — T1 (`8472_passive`)
 
 - Shipyard (`714syard`)
 - Transmuter (`8472_transmuter`)
@@ -346,15 +334,16 @@ Previously available buildings omitted: none.
 - Metogenesis Core (`8472_shipupgraderesearch`)
 - Fluidic Gate (`8472_fluidicgate`)
 - Mine (`8472_mine`)
+- xsbiolab (`xsbiolab`)
 
-### T2 — 714const
+### species8472 — T2 (`714const`)
 
 - Beam Turret (`714turr`)
 - Advanced Hatchery (`xhs_yard3`)
 - Sentinel (`8472_sentinel`)
-- mry8472 (`mry8472`) — planned Mirror Universe yard
+- mry8472 (`mry8472`)
 
-### T3 — xsuconst (new)
+### species8472 — T3 (`xsuconst`)
 
 - Nexus (`bbase`)
 - SpaceDock (`fbase`)
@@ -366,11 +355,7 @@ Previously available buildings omitted: none.
 - Deep Space 9 (`bjbase`)
 - Mother (`8472_mothership`)
 
-Previously available buildings omitted: none.
-
-## ferengi
-
-### T3 — xfgconst
+### ferengi — T3 (`xfgconst`)
 
 - Nexus (`bbase`)
 - SpaceDock (`fbase`)
@@ -384,17 +369,13 @@ Previously available buildings omitted: none.
 - Mercenary Ferengi Service Yard (`xfgserv`)
 - Ferengi Commerce Institute (`xfgresearch`)
 - Mercenary Ferengi Advanced Metal Orbital (`xfgmetal2`)
-- mryfer (`mryfer`) — planned Mirror Universe yard
+- mryfer (`mryfer`)
 
-### T3 — xu3fer2 (new)
+### ferengi — T3 (`xu3fer2`)
 
 - xfgmetal3 (`xfgmetal3`)
 
-Previously available buildings omitted: none.
-
-## borg_ferengi
-
-### T3 — xbgconst
+### borg_ferengi — T3 (`xbgconst`)
 
 - Nexus (`bbase`)
 - SpaceDock (`fbase`)
@@ -410,20 +391,19 @@ Previously available buildings omitted: none.
 - Mercenary Ferengi Advanced Metal Orbital (`xbgmetal2`)
 - xbgmetal3 (`xbgmetal3`)
 
-Previously available buildings omitted: none.
+## Validation
 
-## Unreferenced station definitions
+259 ODFs, 216 models, 130 build buttons, six technology trees and45 AI plans checked. No new validation errors. Existing source warnings remain:
 
-These already lack a production reference in the current installation; they are not buildings removed by this proposal. Campaign/script placement and actual purpose must be checked before enabling them. Research pods are excluded by class where identifiable.
+- fbyard: unchanged source hardpoint absent: build (buildhardpoint)
+- fbyard: unchanged source hardpoint absent: hp01 (weaponhardpoints1)
+- fbyard: unchanged source hardpoint absent: hp02 (weaponhardpoints2)
+- fbyard: unchanged source hardpoint absent: hp03 (weaponhardpoints3)
+- fbyard: unchanged source hardpoint absent: hp04 (weaponhardpoints4)
+- fentc: pre-existing damagesm texture reference
+- kbase: unchanged source hardpoint absent: build (buildhardpoint)
+- mrc012: pre-existing damagesm texture reference
+- mrc037: pre-existing damagesm texture reference
+- xhfgarrett: pre-existing damagesm texture reference
 
-- borg: Omega Containment (`bomega`, sensor)
-- borg: Orbital Extraction Facility (`borbital`, p_mining)
-- borg: Transwarp Portal (`bportal`, sensor)
-- cardassian: Quantum Facility (`cquantum`, starbase)
-- federation: Deep Space 9 (`ds9`, starbase)
-- borg: Transwarp Gate (`f6bsuper`, sensor)
-- federation: Starfleet Command (`fbasehq`, starbase)
-- federation: Bigstar-class Advanced Shipyard (`fbyard`, starbase)
-- federation: Long Range Sensor Array (`fsensor_neutral_zone`, sensor)
-- klingon: Starbase (`kmarbase`, starbase)
-- klingon: Klingon Prison (`kprison`, starbase)
+Backup: D:\Xaramada-Modwork\backups\constructor-mirror-20261024-035048
