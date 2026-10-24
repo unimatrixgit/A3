@@ -1,247 +1,153 @@
-#include "battle.odf"
-
-//Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Locutus' Cube"
+shielddelay = 1.0f
+rangescan = 800.0f
 
 
-
-
-//This ship is a hero.
-isHero = 1
-
-//Ship label provided because this is a unique ship.
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 9
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.75f
+engineshitpoints = 1200
+lifesupporthitpoints = 1200
+weaponshitpoints = 1200
+shieldgeneratorhitpoints = 1200
+sensorshitpoints = 1200
+eventselect = "XLocutus_Select"
+eventacknowledge = "XLocutus_Acknowledge"
+eventattack = "XLocutus_Attack"
+eventstop = "XLocutus_Stop"
+eventmove = "XLocutus_Move"
+eventrepair = "XLocutus_Repair"
+canattackplanets = 1
+physicsfile = "bbatphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "Locutus' Cube"
+ishero = 1
 label = "Locutus"
-
-//Race which can build ship & starting race of ship
 race = "borg"
-
-//Amount of time required to build ship
-
-//Number of officers required to build this ship
-
-//Number of crew required to build ship & Starting crew
-
-//Dilithium Cost to build
-
-//Metal Cost to build
-
-//Max Shield Strength & Begining Shield Strength <500
-maxHealth = 750
-
-// Hitpoints
-
-shieldGeneratorHitPoints = 200
-enginesHitPoints = 135
-weaponsHitPoints = 135
-lifeSupportHitPoints = 135
-sensorsHitPoints = 135
-
-//Rate at which shield recharges (points per second... we think)
-shieldRate = 20.0
-
-//Maximum Value of Special Energy
-
-
-//Rate at which special energy recharges (points per second... we think)
-
-
-//**********************************************************************
-
-//**********************************************************************
-//SHIP NAMES
-
-//Possible Craft Names
-possibleCraftNames = "Locutus Cube"
-
-//**********************************************************************
-
-//**********************************************************************
-//ART PARAMETERS & WEAPON NAMES
-
-// Phaser
-	
-// Photon Torpedo
-
-//Auto Assimilating Bore
-
-//Self Destruct
-
-
-// Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp18" "hp20" "hp22" "hp24" "hp26"
-lifeSupportTargetHardpoints = "hp18" "hp20" "hp22" "hp24" "hp26"
-weaponsTargetHardpoints = "hp18" "hp20" "hp22" "hp24" "hp26"
-shieldGeneratorTargetHardpoints = "hp18" "hp20" "hp22" "hp24" "hp26"
-sensorsTargetHardpoints = "hp18" "hp20" "hp22" "hp24" "hp26"
-hullTargetHardpoints = "hp17" "hp18" "hp19" "hp20" "hp21" "hp22" "hp23" 
-	"hp24" "hp25" "hp26"
-criticalTargetHardpoints = "hp18" "hp20" "hp22" "hp24" "hp26"
-
-
-//**********************************************************************
-
-//**********************************************************************
-//SYSTEM HITPOINTS
-//These values are the hitpoint values of the systems
-//If the value is set to zero the ship does not have that system
-enginesHitPoints = 20
-lifeSupportHitPoints = 20
-weaponsHitPoints = 20
-shieldGeneratorHitPoints = 20
-sensorsHitPoints = 20
-//**********************************************************************
- 
-
-
-//**********************************************************************
-//AI system parameters
-//These parameters influence how the AI evaluates and compares craft.
-
-//An abstract number that represents how much extra strength must be
-//used to attack this craft due to its weapons. 
-// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
-attackPower = 1.00f
-
-//The normalized intrinsic value of a target.  High value craft make good
-//attack targets. (0.0=lowest value, 1.0=highest value)
-intrinsicValue = 0.75f
-
-
-//**********************************************************************
-
-//**********************************************************************
-//CREW STATUS MULTIPLIERS
-//The multiplier for the delay between shots for weapons while in yellow status
-weaponYellow = 1.5f
-
-//The multiplier for the delay between shots for weapons while in red status
-weaponRed = 5.0f
-//**********************************************************************
-
-
-
-
-//**********************************************************************
-//MESSAGE & SOUND PARAMETERS
-
-
-//**********************************************************************
-
-
-//John avoidance stuff DO NOT CHANGE
-avoidanceClass = 9
-
-
-//**********************************************************************
-//PHYSICS PARAMETERS
-
-//physics file for all other physics stuff
-physicsFile = "bbatphys.odf"
-
-// Name of the geometry it is using
-baseName = "bbattle1"
-
-// Rescale the sod
-ScaleSOD = 1.3f
-
-
-// Xaramada: two normal weapons and reusable specials on F4 / F5 / F6.
-
-// Xaramada: two normal weapons and reusable specials on F4 / F5 / F6.
-
-
-
-
-// Xaramada resource costs: original filename.
-
-
-
-
-
-officerCost = 2
-buildTime = 150
-
-// Additional green holding/assimilation beam, separate from the existing blue beam.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-eventSelect = "XLocutus_Select"
-eventAcknowledge = "XLocutus_Acknowledge"
-eventMove = "XLocutus_Move"
-eventAttack = "XLocutus_Attack"
-eventStop = "XLocutus_Stop"
-eventRepair = "XLocutus_Repair"
-eventRedAlert = "XLocutus_RedAlert"
-eventYellowAlert = "XLocutus_YellowAlert"
-eventGreenAlert = "XLocutus_GreenAlert"
-eventTransport = "XLocutus_Transport"
-eventSelfDestruct = "XLocutus_SelfDestruct"
-eventDecommission = "XLocutus_Decommission"
-
-// Blue auto-assimilation beam removed. Remaining weapon order and hardpoints preserved.
-weapon1 = "bbphas"
-weaponHardpoints1 = "hp01" "hp02" "hp07" "hp08" "hp11" "hp14"
-weapon2 = "bbphot"
-weaponHardpoints2 = "hp04" "hp06" "hp09" "hp13" "hp15"
-weapon3 = "xactwarp"
-weaponHardpoints3 = "hp01"
-weapon4 = "xacremod"
-weaponHardpoints4 = "hp01"
-weapon5 = "xacgreen"
-weaponHardpoints5 = "hp01"
-
-// Borg adaptation: native scout passive cloak detector, always on.
-weapon6 = "gdetect3"
-weaponHardpoints6 = "hp01"
-
-// Technology assimilation: native beam and bounded captured-special capacity.
-weapon7 = "gTechAssimBeam"
-weaponHardpoints7 = "hp01"
-maxExtraWeapons = 3
-
-
-
-
-
-maxSpecialEnergy = 1500
-
-specialEnergyRate = 15.0
-
-
-
-
-
-
-
-
-
+possiblecraftnames = "Locutus Cube"
+enginestargethardpoints = "hp18" "hp20" "hp22" "hp24" "hp26"
+lifesupporttargethardpoints = "hp18" "hp20" "hp22" "hp24" "hp26"
+weaponstargethardpoints = "hp18" "hp20" "hp22" "hp24" "hp26"
+shieldgeneratortargethardpoints = "hp18" "hp20" "hp22" "hp24" "hp26"
+sensorstargethardpoints = "hp18" "hp20" "hp22" "hp24" "hp26"
+hulltargethardpoints = "hp17" "hp18" "hp19" "hp20" "hp21" "hp22" "hp23"
+criticaltargethardpoints = "hp18" "hp20" "hp22" "hp24" "hp26"
+weaponyellow = 1.5f
+weaponred = 5.0f
+basename = "bbattle1"
+scalesod = 1.3f
+officercost = 2
+buildtime = 150
+eventredalert = "XLocutus_RedAlert"
+eventyellowalert = "XLocutus_YellowAlert"
+eventgreenalert = "XLocutus_GreenAlert"
+eventtransport = "XLocutus_Transport"
+eventselfdestruct = "XLocutus_SelfDestruct"
+eventdecommission = "XLocutus_Decommission"
+maxextraweapons = 3
 tooltip = "Hero Ship (Locutus' Cube)"
-
-verboseTooltip = "A named command vessel serving the Borg fleet. Collective engineering integrates this asset into the unimatrix. Special systems: Transwarp Drive, Shield Remodulation, Green Holding / Assimilation Beam, Technology Assimilation Beam. Availability follows the selected technology tree."
-dilithiumcost = 255
-metalcost = 70
+verbosetooltip = "A named command vessel serving the Borg fleet. Collective engineering integrates this asset into the unimatrix. Special systems: Transwarp Drive, Shield Remodulation, Green Holding / Assimilation Beam, Technology Assimilation Beam. Availability follows the selected technology tree."
 latinumcost = 0
 biomattercost = 0
-crewCost = 545
+crewcost = 545
+maxhealth = 6000
+shieldrate = 24
+dilithiumcost = 700
+metalcost = 190
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "bbphas"
+
+weaponHardpoints1 = "hp01" "hp02" "hp07" "hp08" "hp11" "hp14"
+
+weapon2 = "bbphot"
+
+weaponHardpoints2 = "hp04" "hp06" "hp09" "hp13" "hp15"
+
+weapon3 = "xactwarp"
+
+weaponHardpoints3 = "hp01"
+
+weapon4 = "xacremod"
+
+weaponHardpoints4 = "hp01"
+
+weapon5 = "xacgreen"
+
+weaponHardpoints5 = "hp01"
+
+weapon6 = "gdetect3"
+
+weaponHardpoints6 = "hp01"
+
+weapon7 = "gTechAssimBeam"
+
+weaponHardpoints7 = "hp01"
+
+weapon8 = "bbphas"
+
+weaponHardpoints8 = "hp03"
+
+weapon9 = "bbphot"
+
+weaponHardpoints9 = "hp05"
+
+maxspecialenergy = 1600
+
+specialenergyrate = 16

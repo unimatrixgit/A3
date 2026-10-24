@@ -74,8 +74,8 @@ possibleCraftNames =
 //weaponHardpoints1 = "hp12" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
 
 // Towing Beam
-weapon1 = "gtracbm"
-weaponhardpoints1 = "hp12"
+
+
 
 // Hardpoints to hit for various systems and other locations.
 
@@ -113,35 +113,35 @@ criticalTargetHardpoints = "hp06" "hp08" "hp09"
 
 
 officerCost = 2
-buildTime = 17
-unitName = "Federation Universal Constructor"
+
+
 
 
 race = "federation"
-baseName = "xfuconst"
+
 ScaleSOD = 1.0
-hotkeyLabel = "HOTKEY_F2"
-buildItem0 = "bbase"
-buildItem1 = "fbase"
-buildItem2 = "kbase"
-buildItem3 = "rbase"
-buildItem4 = "cbase"
-buildItem5 = "dbase"
-buildItem6 = "brbase"
-buildItem7 = "bjbase"
-buildItem8 = "xfomegalab"
 
-weapon2 = "fc08phas"
 
-weaponHardpoints2 = "hp02"
 
-weapon3 = "xp8t"
 
-weaponHardpoints3 = "hp03"
 
-canAttack = 1
 
-combat = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 alert = 1
 
@@ -153,11 +153,75 @@ alert = 1
 
 
 
-tooltip = "Constructor (Federation Universal Constructor)"
 
-verboseTooltip = "Builds the structures listed in its construction menu. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Tractor Beam. Availability follows the selected technology tree."
-dilithiumcost = 125
-metalcost = 25
-latinumcost = 0
-biomattercost = 0
-crewCost = 100
+
+
+
+
+
+
+
+
+
+
+
+
+combat = 0
+
+attackPower = 0.0
+
+buildItem0 = "bbase"
+
+buildItem1 = "fbase"
+
+buildItem2 = "kbase"
+
+buildItem3 = "rbase"
+
+buildItem4 = "cbase"
+
+buildItem5 = "dbase"
+
+buildItem6 = "brbase"
+
+buildItem7 = "bjbase"
+
+buildItem8 = "fregula"
+
+buildItem9 = "fds9"
+
+buildItem10 = "foutpost"
+
+buildItem11 = "fbase2"
+
+buildItem12 = "fmidas"
+
+unitName = "Federation Universal Constructor III"
+
+tooltip = "Federation Universal Constructor III"
+
+verboseTooltip = "Tier 3: starbases, special installations and Ferengi facilities."
+
+baseName = "xfuconst"
+
+dilithiumCost = 300
+
+metalCost = 200
+
+latinumCost = 0
+
+biomatterCost = 0
+
+crewCost = 150
+
+maximumCrew = 150
+
+buildTime = 40
+
+hotkeyLabel = "HOTKEY_F3"
+
+canAttack = 0
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0

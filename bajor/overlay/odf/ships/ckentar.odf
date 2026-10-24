@@ -1,166 +1,130 @@
-#include "battle.odf"
-
-//Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Keldon Class"
-
-//tooltips
+shielddelay = 1.0f
+rangescan = 800.0f
 
 
-
-//This ship is a hero.
-isHero = 1
-
-//Ship label provided because this is a unique ship.
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 624
+lifesupporthitpoints = 678
+weaponshitpoints = 590
+shieldgeneratorhitpoints = 702
+sensorshitpoints = 596
+eventselect = "XV_ckentar_Select"
+eventacknowledge = "XV_ckentar_Acknowledge"
+eventattack = "XV_ckentar_Attack"
+eventstop = "XV_ckentar_Stop"
+eventmove = "XV_ckentar_Move"
+eventrepair = "XV_ckentar_Repair"
+canattackplanets = 1
+physicsfile = "sbattphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "Keldon Class"
+ishero = 1
 label = "Kentar's Keldon"
-
-//Race which can build ship & starting race of ship
 race = "cardassian"
-
-//Amount of time required to build ship
-
-//Number of officers required to build this ship
-
-//Number of crew required to build ship & Starting crew
-
-// don't use the horrible old % crew loss on damage
-saneCrewLossMethod = 1
-
-//Dilithium Cost to build
-
-//Metal Cost to build
-
-//Max Shield Strength & Begining Shield Strength <500
-maxHealth = 2976
-
-// Hitpoints
-
-shieldGeneratorHitPoints = 702
-enginesHitPoints = 624
-weaponsHitPoints = 590
-lifeSupportHitPoints = 678
-sensorsHitPoints = 596
-
-//Rate at which shield recharges (points per second... we think)
-shieldRate = 8.1
-
-//Maximum Value of Special Energy
-maxSpecialEnergy = 2200
-
-//Rate at which special energy recharges (points per second... we think)
-specialEnergyRate = 38
-
-//**********************************************************************
-
-// Ship's full throttle forward speed when under impluse power.
-combatSpeed = 87
-impulseSpeed = 78
-warpSpeed = 890
-
-//**********************************************************************
-//SHIP NAMES
-
-//SHIP NAMES
-
-//Possible Craft Names
-possibleCraftNames = "Kentar's Keldon"
-//**********************************************************************
-//ART PARAMETERS & WEAPON NAMES
-
-// Phasers
-weapon1 = "cc07phas"
-weaponHardpoints1 = "hp07" "hp08" "hp09" "hp10"
-
-// Plasma Banks
-weapon2 = "cc06plas"
-weaponHardpoints2 = "hp11"
-
-//Special Weapon - Self-Destruct
-
-weaponHardpoints3 = "hp12"
-
-// Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
-lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
-weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
-shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
-sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
-hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
-criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
-
-//**********************************************************************
-//AI system parameters
-//These parameters influence how the AI evaluates and compares craft.
-
-//An abstract number that represents how much extra strength must be
-//used to attack this craft due to its weapons. 
-// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
-attackPower = 1.00f
-
-//The normalized intrinsic value of a target.  High value craft make good
-//attack targets. (0.0=lowest value, 1.0=highest value)
-intrinsicValue = 0.50f
-
-//**********************************************************************
-//CREW STATUS MULTIPLIERS
-//The multiplier for the delay between shots for weapons while in yellow status
-weaponYellow = 1.0f
-
-//The multiplier for the delay between shots for weapons while in red status
-weaponRed = 2.0f
-//**********************************************************************
-//KEYMAP LABEL
-//keymapLabel = "car_battle2"
-
-
-
-// Xaramada resource costs: original filename.
-
-
-
-
-
-officerCost = 10
-buildTime = 85
-
-
-eventSelect = "XV_ckentar_Select"
-
-eventAcknowledge = "XV_ckentar_Acknowledge"
-
-eventAttack = "XV_ckentar_Attack"
-
-eventStop = "XV_ckentar_Stop"
-
-eventMove = "XV_ckentar_Move"
-
-eventRepair = "XV_ckentar_Repair"
-
-eventRedAlert = "XV_ckentar_RedAlert"
-
-eventYellowAlert = "XV_ckentar_YellowAlert"
-
-eventGreenAlert = "XV_ckentar_GreenAlert"
-
-eventTransport = "XV_ckentar_Transport"
-
-eventSelfDestruct = "XV_ckentar_SelfDestruct"
-
-eventDecommission = "XV_ckentar_Decommission"
-
-
-
-
-
-
-
-
-
+sanecrewlossmethod = 1
+maxhealth = 2976
+shieldrate = 8.1
+combatspeed = 87
+impulsespeed = 78
+warpspeed = 890
+possiblecraftnames = "Kentar's Keldon"
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+weaponyellow = 1.0f
+weaponred = 2.0f
+officercost = 10
+buildtime = 85
+eventredalert = "XV_ckentar_RedAlert"
+eventyellowalert = "XV_ckentar_YellowAlert"
+eventgreenalert = "XV_ckentar_GreenAlert"
+eventtransport = "XV_ckentar_Transport"
+eventselfdestruct = "XV_ckentar_SelfDestruct"
+eventdecommission = "XV_ckentar_Decommission"
 tooltip = "Hero Ship (Keldon Class)"
-
-verboseTooltip = "A named command vessel serving the Cardassian fleet. Cardassian engineering sustains the Union through ordered, persistent operations."
-weapon3 = "gselfdes"
+verbosetooltip = "A named command vessel serving the Cardassian fleet. Cardassian engineering sustains the Union through ordered, persistent operations."
 dilithiumcost = 415
 metalcost = 175
 latinumcost = 0
 biomattercost = 0
-crewCost = 725
+crewcost = 725
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "cc07phas"
+
+weaponHardpoints1 = "hp07" "hp08" "hp09" "hp10"
+
+weapon2 = "cc06plas"
+
+weaponHardpoints2 = "hp11"
+
+weapon3 = "gselfdes"
+
+weaponHardpoints3 = "hp12"
+
+weapon4 = "cc07phas"
+
+weaponHardpoints4 = "hp01"
+
+weapon5 = "cc06plas"
+
+weaponHardpoints5 = "hp02"
+
+maxspecialenergy = 2200
+
+specialenergyrate = 38

@@ -37,17 +37,7 @@ shieldrate = 6.8
 //SHIP NAMES
 
 //Possible Craft Names
-possibleCraftNames = 	 
-	"USS Drake" "USS Guernica" "USS Redoubt" "USS Firestreak"
-	"USS Flynt" "USS Appomatox" "USS Serpentine" "USS Vanguard"
-	"USS Santa Maria" "USS Nina" "USS Pinta" "USS Paris"
-	"USS Othello" "USS Aberdeen" "USS Kingston" "USS Coltrane"
-	"USS Horatio" "USS Tokugawa" "USS Sparta" "USS Perth"
-	"USS Troy" "USS Carbides" "USS Calais" "USS Jade"
-	"USS Circe" "USS Skylark" "USS Arrowhead" "USS Ursula" 
-	"USS Vizier" "USS Dunkirk" "USS Casablanca" "USS Zurich"
-	"USS Crimea" "USS Nobunaga" "USS Fletcher" "USS Partisan" 
-	"USS Grace" "USS Vivian"
+
 	
 
 //**********************************************************************
@@ -114,7 +104,7 @@ canAttack = 0
 transporter = 0
 
 
-baseName = "br3_bjlightship"
+
 
 
 
@@ -204,3 +194,7 @@ weaponHardpoints5 = "hp01"
 weapon6 = "fdefiantphot"
 
 weaponHardpoints6 = "hp01"
+
+baseName = "bv4_bjlightship"
+
+possibleCraftNames = "BMS Kendra" "BMS Dahkur" "BMS Rakantha" "BMS Hathon" "BMS Jalanda" "BMS Dakor" "BMS Tozhat" "BMS Musilla" "BMS Hedrikspool" "BMS Dakhur" "BMS Ashalla" "BMS Dahkur Dawn" "BMS Kendra Spirit" "BMS Bajoran Dawn" "BMS Prophets Grace" "BMS First Light" "BMS Celestial Dawn" "BMS Valley Guardian" "BMS Militia Resolve" "BMS Freedom of Bajor" "BMS Dahkur Sentinel" "BMS Rakantha Shield" "BMS Kendra Vigil" "BMS Bajor Ascendant" "BMS Jalanda Star" "BMS Hathon Guard" "BMS Emissarys Hope" "BMS Liberation" "BMS Gratitude" "BMS New Dawn" "BMS Dahkur Resolve" "BMS Celestial Guardian"

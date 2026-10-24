@@ -1,0 +1,129 @@
+shielddelay = 1.0f
+rangescan = 800.0f
+maxspecialenergy = 6800
+specialenergyrate = 68
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 0.25
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 3
+fireball = "xfirebsm"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "destroyer"
+attackpower = 0.25f
+intrinsicvalue = 0.25f
+engineshitpoints = 1680
+lifesupporthitpoints = 1680
+weaponshitpoints = 1680
+shieldgeneratorhitpoints = 1680
+sensorshitpoints = 1680
+eventselect = "XV_fdefiant_Select"
+eventacknowledge = "XV_fdefiant_Acknowledge"
+eventattack = "XV_fdefiant_Attack"
+eventstop = "XV_fdefiant_Stop"
+eventmove = "XV_fdefiant_Move"
+eventrepair = "XV_fdefiant_Repair"
+physicsfile = "fdefiantphys.odf"
+trekphysicsfile = "fdefiantphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "D"
+unitname = "Mirror Defiant Class"
+race = "federation"
+maxhealth = 5100
+shieldrate = 68
+possiblecraftnames = "Mirror Defiant Class"
+weapon1 = "mrw017"
+weaponhardpoints1 = "hp01"
+weapon2 = "mrw017"
+weaponhardpoints2 = "hp02"
+weapon3 = "mrw017"
+weaponhardpoints3 = "hp03"
+weapon4 = "mrw017"
+weaponhardpoints4 = "hp04"
+weapon5 = "gamine"
+weaponhardpoints5 = "hp14" "hp15"
+weapon6 = "mrw018"
+weaponhardpoints6 = "hp05"
+weapon7 = "mrw018"
+weaponhardpoints7 = "hp06"
+weapon8 = "gfcloak"
+weaponhardpoints8 = "hp09"
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29"
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hulltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
+criticaltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponyellow = 1.0f
+weaponred = 2.0f
+attack_path0 = "p2.pth"
+attack_path1 = "p3.pth"
+
+officercost = 7
+
+scalesod = 0.73561125
+tooltip = "Mirror Defiant Class"
+
+
+
+
+
+crewcost = 215
+ishero = 0
+label = "USS Defiant NX-74205"
+eventcloakengage = "SiskoCloakEngage"
+eventcloakdisengage = "SiskoCloakDisengage"
+eventredalert = "XV_fdefiant_RedAlert"
+eventyellowalert = "XV_fdefiant_YellowAlert"
+eventgreenalert = "XV_fdefiant_GreenAlert"
+eventtransport = "XV_fdefiant_Transport"
+eventselfdestruct = "XV_fdefiant_SelfDestruct"
+eventdecommission = "XV_fdefiant_Decommission"
+weapon9 = "mrw015"
+weaponhardpoints9 = "hp07"
+weapon10 = "mrw005"
+weaponhardpoints10 = "hp08"
+
+
+baseName = "mrc008"
+
+dilithiumCost = 1300
+
+metalCost = 325
+
+latinumCost = 0
+
+biomatterCost = 0
+
+buildTime = 15
+
+hotkeyLabel = "HOTKEY_F2"
+
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

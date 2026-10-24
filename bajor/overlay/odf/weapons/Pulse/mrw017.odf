@@ -1,0 +1,19 @@
+#include "pulse.odf"
+
+//Name of the ODF file for the ordinance for this weapon
+
+
+//Display name for this weapon
+wpnName = "Pulse"
+
+//Time Delay between shots
+shotDelay = 2.0
+
+// Range within which the weapon will fire.
+range = 600.0f
+
+//Sound which is played when the weapon fires
+fireSound = "ppfwea.wav"
+
+
+ordName = "mrw017o"

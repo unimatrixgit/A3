@@ -164,11 +164,11 @@ SHOW_SW_AUTONOMY = 1
 
 
 
-crewCost = 1257
+
 officerCost = 11
 buildTime = 111
-buildItem0 = "kdestroy"
-buildItem1 = "xkuconst"
+
+
 
 maximumCrew = 2000
 
@@ -195,14 +195,34 @@ southBuffer = 0
 
 footprintBuffer = 72
 
-dilithiumCost = 2700
 
-metalCost = 2700
+
+
+
+
+
+
+
+tooltip = "Starbase (Ty'Go'Kor)"
+
+verboseTooltip = "A fortified center for fleet operations and local production. Klingon engineering serves the Empire with direct, relentless force."
+
+repairFacility = 0
+
+buildItem0 = "kdestroy"
+
+buildItem1 = "kconst"
+
+buildItem2 = "kconst2"
+
+buildItem3 = "xkuconst"
+
+dilithiumCost = 1500
+
+metalCost = 1500
 
 latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Starbase (Ty'Go'Kor)"
-
-verboseTooltip = "A fortified center for fleet operations and local production. Klingon engineering serves the Empire with direct, relentless force."
+crewCost = 150

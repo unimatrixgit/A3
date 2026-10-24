@@ -1,84 +1,130 @@
-#include "fnx.odf"
-
-//This ship is a hero.
-isHero = 1
-
-//Ship label provided because this is a unique ship.
-label = "Enterprise NX-01"
+shielddelay = 1.0f
+rangescan = 1250.0f
 
 
-
-//Max Shield Strength & Begining Shield Strength <500
-maxHealth = 2000
-
-//Rate at which shield recharges (points per second... we think)
-shieldRate = 20
-
-//**********************************************************************
-//SHIP NAMES
-
-//Possible Craft Names
-possibleCraftNames = "Enterprise NX-01" 
-
-weapon3 = "fnxenttoent"
-
-
-
-
-
-
-
-
-// Xaramada resource costs: calculated from original comparable.
-
-
-
-
-
-officerCost = 9
-buildTime = 22
-
-
-eventSelect = "XV_fnxent_Select"
-
-eventAcknowledge = "XV_fnxent_Acknowledge"
-
-eventAttack = "XV_fnxent_Attack"
-
-eventStop = "XV_fnxent_Stop"
-
-eventMove = "XV_fnxent_Move"
-
-eventRepair = "XV_fnxent_Repair"
-
-eventRedAlert = "XV_fnxent_RedAlert"
-
-eventYellowAlert = "XV_fnxent_YellowAlert"
-
-eventGreenAlert = "XV_fnxent_GreenAlert"
-
-eventTransport = "XV_fnxent_Transport"
-
-eventSelfDestruct = "XV_fnxent_SelfDestruct"
-
-eventDecommission = "XV_fnxent_Decommission"
-
-// Visual size: 150 percent of pre-patch scale.
-ScaleSOD = 0.375
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 0.25
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 1
+fireball = "xfirebsm"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 0
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "scout"
+scout = 1
+attackpower = 0.10f
+intrinsicvalue = 0.15f
+engineshitpoints = 480
+lifesupporthitpoints = 480
+weaponshitpoints = 480
+shieldgeneratorhitpoints = 480
+sensorshitpoints = 480
+eventselect = "XV_fnxent_Select"
+eventacknowledge = "XV_fnxent_Acknowledge"
+eventattack = "XV_fnxent_Attack"
+eventstop = "XV_fnxent_Stop"
+eventmove = "XV_fnxent_Move"
+eventrepair = "XV_fnxent_Repair"
+physicsfile = "ffrigatephys.odf"
+trekphysicsfile = "ffrigatephys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "S"
+unitname = "NX Class"
+race = "federation"
+maxhealth = 2000
+shieldrate = 20
+possiblecraftnames = "Enterprise NX-01"
 
 
 
 
-
-
-
-
-
+enginestargethardpoints = "hp08" "hp09" "hp10" "hp11"
+lifesupporttargethardpoints = "hp18"
+weaponstargethardpoints = "hp02" "hp05"
+shieldgeneratortargethardpoints = "hp01"
+hulltargethardpoints = "hp03" "hp04" "hp06" "hp07" "hp12"
+criticaltargethardpoints = ""
+weaponyellow = 1.0f
+weaponred = 2.0f
+attack_path0 = "p2.pth"
+attack_path1 = "p3.pth"
+hotkeylabel = "HOTKEY_F9"
+officercost = 9
+buildtime = 22
+scalesod = 0.375
 tooltip = "Hero Ship (NX Class)"
-
-verboseTooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Enterprise Upgrade. Availability follows the selected technology tree."
+verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Enterprise Upgrade. Availability follows the selected technology tree."
 dilithiumcost = 205
 metalcost = 0
 latinumcost = 0
 biomattercost = 0
-crewCost = 50
+crewcost = 50
+ishero = 1
+label = "Enterprise NX-01"
+eventredalert = "XV_fnxent_RedAlert"
+eventyellowalert = "XV_fnxent_YellowAlert"
+eventgreenalert = "XV_fnxent_GreenAlert"
+eventtransport = "XV_fnxent_Transport"
+eventselfdestruct = "XV_fnxent_SelfDestruct"
+eventdecommission = "XV_fnxent_Decommission"
+
+
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "fnxphas"
+
+weaponHardpoints1 = "hp02"
+
+weapon2 = "fnxphas"
+
+weaponHardpoints2 = "hp05"
+
+weapon3 = "fnxenttoent"
+
+weaponHardpoints3 = "hp01"
+
+weapon4 = "fnxphas"
+
+weaponHardpoints4 = "hp01"
+
+weapon5 = "xhtphase"
+
+weaponHardpoints5 = "hp03"
+
+maxspecialenergy = 0
+
+specialenergyrate = 0

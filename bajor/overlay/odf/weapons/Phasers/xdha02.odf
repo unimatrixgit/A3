@@ -1,0 +1,10 @@
+#include "phasero.odf"
+
+//The base amount of damage which the ordinance does with each hit
+damageBase = 44
+
+//The sprite which is used for this ordinance
+Sprite = "blphaser"
+
+//Size of the flare around the phaser
+flareRadiusMultiplier = 0.7

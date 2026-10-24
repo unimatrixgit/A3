@@ -37,10 +37,9 @@ possibleCraftNames = "QeD botlh-041" "QeD botlh-094"
 //**********************************************************************
 //Construction Parameters
 
-buildItem0 = "klipod6"
-buildItem1 = "klipod7"
-buildItem2 = "klipod8"
-buildItem3 = "klipod9"
+
+
+
 
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
@@ -86,23 +85,12 @@ transporter = 1
 crewCost = 200
 officerCost = 10
 buildTime = 150
-
-baseName = "xvstock_kresear2"
-
-podhardpoints = "pod01" "pod02" "pod03" "pod04"
-
 enginestargethardpoints = "hp16" "hp18" "hp19" "hp23"
-
 lifesupporttargethardpoints = "hp16" "hp18" "hp19" "hp23"
-
 weaponstargethardpoints = "hp16" "hp18" "hp19" "hp23"
-
 shieldgeneratortargethardpoints = "hp16" "hp18" "hp19" "hp23"
-
 sensorstargethardpoints = "hp16" "hp18" "hp19" "hp23"
-
 hulltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp20" "hp21"
-
 criticaltargethardpoints = "hp16" "hp18" "hp19" "hp23"
 
 
@@ -124,3 +112,16 @@ biomatterCost = 0
 tooltip = "Research Facility (Gre'thor Armory)"
 
 verboseTooltip = "Supports the technologies and upgrades available in its research menu. Klingon engineering serves the Empire with direct, relentless force."
+
+baseName = "mrst_kli"
+
+podHardpoints = "pod01" "pod02" "pod03" "pod04" "mirrorpod"
+
+
+buildItem0 = "klipod6"
+
+buildItem1 = "klipod7"
+
+buildItem2 = "klipod8"
+
+buildItem3 = "klipod9"

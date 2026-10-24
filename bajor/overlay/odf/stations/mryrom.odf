@@ -1,0 +1,157 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 2500
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.08
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Velesh Prime" "Plupus Prime" "Folcus Prime" "Capulvian Prime" 
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Hardpoints to hit for various systems and other locations.
+
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+
+
+
+//Hardpoint location for building.
+buildHardpoint = "build"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "AdvShipyardSelect"
+eventAcknowledge = "AdvShipyardAcknowledge"
+eventDecommission = "AdvShipyardDecommission"
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "shipyard"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "adv_shipyard"
+
+
+//************************************************************
+// Brian additions for context sensitive menus
+builder_ship = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+ScaleSOD = 1.95
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+officerCost = 5
+
+
+
+
+enginestargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+
+lifesupporttargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+
+weaponstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+
+shieldgeneratortargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+
+sensorstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+
+hulltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+
+criticaltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+
+
+
+
+
+buildItem0 = "mrc049"
+
+buildItem1 = "mrc050"
+
+buildItem2 = "mrc051"
+
+buildItem3 = "mrc052"
+
+buildItem4 = "mrc053"
+
+dilithiumCost = 600
+
+metalCost = 400
+
+latinumCost = 0
+
+biomatterCost = 0
+
+baseName = "mryrom"
+
+unitName = "Romulan Mirror Universe Yard"
+
+tooltip = "Romulan Mirror Universe Yard"
+
+verboseTooltip = "Builds controllable Mirror Universe counterparts. Double normal weapon damage, 75 percent original durability and 125 percent original size. No summoning research is required."
+
+buildTime = 100
+
+crewCost = 150
+
+maximumCrew = 150
+
+hotkeyLabel = "HOTKEY_F7"

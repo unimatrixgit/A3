@@ -1,68 +1,134 @@
-#include "battle.odf"
-unitName = "Raptor Command Ship"
+shielddelay = 1.0f
+rangescan = 800.0f
+
+
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 500
+lifesupporthitpoints = 500
+weaponshitpoints = 500
+shieldgeneratorhitpoints = 500
+sensorshitpoints = 500
+eventselect = "XV_xhkhero_Select"
+eventacknowledge = "XV_xhkhero_Acknowledge"
+eventattack = "XV_xhkhero_Attack"
+eventstop = "XV_xhkhero_Stop"
+eventmove = "XV_xhkhero_Move"
+eventrepair = "XV_xhkhero_Repair"
+canattackplanets = 1
+physicsfile = "scruise1phys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "Raptor Command Ship"
 label = "Raptor Command Ship"
-
-
 race = "klingon"
-baseName = "xhkraptor"
-isHero = 1
-possibleCraftNames = "Raptor Command Ship"
-maxHealth = 2500
-shieldRate = 25.0
-maxSpecialEnergy = 2500
-specialEnergyRate = 25
+basename = "xhkraptor"
+ishero = 1
+possiblecraftnames = "Raptor Command Ship"
+maxhealth = 2500
+shieldrate = 25.0
+maximumcrew = 45
+officercost = 5
+buildtime = 60
+scalesod = 1.3
+trekphysicsfile = "scruise1phys.odf"
+hotkeylabel = ""
+eventredalert = "XV_xhkhero_RedAlert"
+eventyellowalert = "XV_xhkhero_YellowAlert"
+eventgreenalert = "XV_xhkhero_GreenAlert"
+eventtransport = "XV_xhkhero_Transport"
+eventselfdestruct = "XV_xhkhero_SelfDestruct"
+eventdecommission = "XV_xhkhero_Decommission"
+tooltip = "Hero Ship (Raptor Command Ship)"
+verbosetooltip = "A named command vessel serving the Klingon fleet. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak, Ion Cannon. Availability follows the selected technology tree."
+dilithiumcost = 410
+metalcost = 175
+latinumcost = 0
+biomattercost = 0
+crewcost = 45
 
 
 
 
 
-maximumCrew = 45
-officerCost = 5
-buildTime = 60
-ScaleSOD = 1.3
-physicsFile = "scruise1phys.odf"
-trekPhysicsFile = "scruise1phys.odf"
-hotkeyLabel = ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 weapon1 = "kc07phas"
+
 weaponHardpoints1 = "hp01"
+
 weapon2 = "kc02phot"
+
 weaponHardpoints2 = "hp02"
+
+weapon3 = "gkcloak"
 
 weaponHardpoints3 = "hp03"
 
+weapon4 = "gselfdes"
+
 weaponHardpoints4 = "hp04"
-eventSelect = "XV_xhkhero_Select"
-eventAcknowledge = "XV_xhkhero_Acknowledge"
-eventAttack = "XV_xhkhero_Attack"
-eventStop = "XV_xhkhero_Stop"
-eventMove = "XV_xhkhero_Move"
-eventRepair = "XV_xhkhero_Repair"
-eventRedAlert = "XV_xhkhero_RedAlert"
-eventYellowAlert = "XV_xhkhero_YellowAlert"
-eventGreenAlert = "XV_xhkhero_GreenAlert"
-eventTransport = "XV_xhkhero_Transport"
-eventSelfDestruct = "XV_xhkhero_SelfDestruct"
-eventDecommission = "XV_xhkhero_Decommission"
 
 weapon5 = "ya0049"
 
 weaponHardpoints5 = "hp01"
 
+weapon6 = "kc07phas"
 
+weaponHardpoints6 = "hp05"
 
+weapon7 = "kc02phot"
 
+weaponHardpoints7 = "hp06"
 
+maxspecialenergy = 2500
 
-
-
-
-tooltip = "Hero Ship (Raptor Command Ship)"
-
-verboseTooltip = "A named command vessel serving the Klingon fleet. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak, Ion Cannon. Availability follows the selected technology tree."
-weapon3 = "gkcloak"
-weapon4 = "gselfdes"
-dilithiumcost = 410
-metalcost = 175
-latinumcost = 0
-biomattercost = 0
-crewCost = 45
+specialenergyrate = 25

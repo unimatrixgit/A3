@@ -1,172 +1,163 @@
-#include "fdestroy.odf"
-
-//Name of Ship class in Ship Display window & in edit mode & 
-unitName = "Incursion Class"
-
-//tooltips
-
-
-
-//This ship is a hero.
-isHero = 1
-
-//Ship label provided because this is a unique ship.
-label = "USS Incursion"
-
-//Max Shield Strength & Begining Shield Strength <500
-maxHealth = 1940
-
-//This is the range in meters which the ships sensors can see (LOS)
-rangeScan = 1000.0f
-
-//Maximum Value of Special Energy
-maxSpecialEnergy = 2000
-
-//Rate at which special energy recharges (points per second... we think)
-specialEnergyRate = 27
-
-// Hitpoints
-
-shieldGeneratorHitPoints = 417
-enginesHitPoints = 397
-weaponsHitPoints = 528
-lifeSupportHitPoints = 391
-sensorsHitPoints = 379
-
-//**********************************************************************
-
-// Ship's full throttle forward speed when under impluse power.
-combatSpeed = 95
-impulseSpeed = 80
-warpSpeed = 957
-
-//**********************************************************************
-//SHIP NAMES
-//Possible Craft Names
-possibleCraftNames = "USS Incursion"
-//**********************************************************************
-
-//ART PARAMETERS & WEAPON NAMES
-
-// Class 1 Pulse Phaser
-weapon1 = "fdpulse"
-weaponHardpoints1 = "hp01"
-
-// Class 1 Pulse Phaser
-weapon2 = "fdpulse"
-weaponHardpoints2 = "hp02"
-
-// Class 1 Pulse Phaser
-weapon3 = "fdpulse"
-weaponHardpoints3 = "hp03"
-
-// Class 1 Pulse Phaser
-weapon4 = "fdpulse"
-weaponHardpoints4 = "hp04"
-
-// Holo-generator
-weapon5 = "ghologen"
-weaponHardpoints5 = "hp26" "hp27" "hp28" "hp29"
-
-// Class 'B' Quantum Torpedo
-weapon6 = "fclassbt"
-weaponHardpoints6 = "hp05" 
-
-
-// Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
-lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15" 
-weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29"
-shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
-sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
-hullTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
-criticalTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
-
-//**********************************************************************
-//Maximum Value of Special Energy
-maxSpecialEnergy = 1000
-
-//Rate at which special energy recharges (points per second... we think)
-specialEnergyRate = 3.5
-
-//**********************************************************************
-
-//MESSAGE & SOUND PARAMETERS
-
-//eventSelect = "IncursionSelect"
-//eventAcknowledge = "IncursionAcknowledge"
-//eventAttack = "IncursionAttack"
-//eventRedAlert = "IncursionRedAlert"
-//eventYellowAlert = "IncursionYellowAlert"
-//eventGreenAlert = "IncursionGreenAlert"
-//eventStop = "IncursionStop"
-//eventMove = "IncursionMove"
-//eventRepair = "IncursionRepair"
-//eventDecommission = "IncursionDecommission"
-//eventTransport = "IncursionTransport"
-//eventSelfDestruct = "IncursionSelfDestruct"
-
-//physics file for all other physics stuff
-physicsFile = "fincursionphys.odf"
-
-
-
-
-
-
-
-
-
-// Xaramada resource costs: original filename.
-
-
-
-
-
-officerCost = 7
-buildTime = 12
-
-
-eventSelect = "XV_fincursion_Select"
-
-eventAcknowledge = "XV_fincursion_Acknowledge"
-
-eventAttack = "XV_fincursion_Attack"
-
-eventStop = "XV_fincursion_Stop"
-
-eventMove = "XV_fincursion_Move"
-
-eventRepair = "XV_fincursion_Repair"
-
-eventRedAlert = "XV_fincursion_RedAlert"
-
-eventYellowAlert = "XV_fincursion_YellowAlert"
-
-eventGreenAlert = "XV_fincursion_GreenAlert"
-
-eventTransport = "XV_fincursion_Transport"
-
-eventSelfDestruct = "XV_fincursion_SelfDestruct"
-
-eventDecommission = "XV_fincursion_Decommission"
-
-// Visual size: 150 percent of pre-patch scale.
-ScaleSOD = 0.6075
-
-
-
-
-
-
-
-
-
+shielddelay = 1.0f
+rangescan = 1000.0f
+
+
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 0.25
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 3
+fireball = "xfirebsm"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "destroyer"
+attackpower = 0.25f
+intrinsicvalue = 0.25f
+engineshitpoints = 397
+lifesupporthitpoints = 391
+weaponshitpoints = 528
+shieldgeneratorhitpoints = 417
+sensorshitpoints = 379
+eventselect = "XV_fincursion_Select"
+eventacknowledge = "XV_fincursion_Acknowledge"
+eventattack = "XV_fincursion_Attack"
+eventstop = "XV_fincursion_Stop"
+eventmove = "XV_fincursion_Move"
+eventrepair = "XV_fincursion_Repair"
+physicsfile = "fincursionphys.odf"
+trekphysicsfile = "fdefiantphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "D"
+unitname = "Incursion Class"
+race = "federation"
+maxhealth = 1940
+shieldrate = 6.8
+possiblecraftnames = "USS Incursion"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29"
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hulltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+criticaltargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+weaponyellow = 1.0f
+weaponred = 2.0f
+attack_path0 = "p2.pth"
+attack_path1 = "p3.pth"
+hotkeylabel = "HOTKEY_F3"
+officercost = 7
+buildtime = 12
+scalesod = 0.6075
 tooltip = "Hero Ship (Incursion Class)"
-
-verboseTooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Holo-Generator, Cloak. Availability follows the selected technology tree."
+verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Holo-Generator, Cloak. Availability follows the selected technology tree."
 dilithiumcost = 500
 metalcost = 125
 latinumcost = 0
 biomattercost = 0
-crewCost = 150
+crewcost = 150
+ishero = 1
+label = "USS Incursion"
+combatspeed = 95
+impulsespeed = 80
+warpspeed = 957
+eventredalert = "XV_fincursion_RedAlert"
+eventyellowalert = "XV_fincursion_YellowAlert"
+eventgreenalert = "XV_fincursion_GreenAlert"
+eventtransport = "XV_fincursion_Transport"
+eventselfdestruct = "XV_fincursion_SelfDestruct"
+eventdecommission = "XV_fincursion_Decommission"
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "fdpulse"
+
+weaponHardpoints1 = "hp01"
+
+weapon2 = "fdpulse"
+
+weaponHardpoints2 = "hp02"
+
+weapon3 = "fdpulse"
+
+weaponHardpoints3 = "hp03"
+
+weapon4 = "fdpulse"
+
+weaponHardpoints4 = "hp04"
+
+weapon5 = "ghologen"
+
+weaponHardpoints5 = "hp26" "hp27" "hp28" "hp29"
+
+weapon6 = "fclassbt"
+
+weaponHardpoints6 = "hp05"
+
+weapon7 = "fdefiantphot"
+
+weaponHardpoints7 = "hp06"
+
+weapon8 = "gfcloak"
+
+weaponHardpoints8 = "hp09"
+
+weapon9 = "fnebulaphas"
+
+weaponHardpoints9 = "hp07"
+
+weapon10 = "xhtphase"
+
+weaponHardpoints10 = "hp08"
+
+maxspecialenergy = 1000
+
+specialenergyrate = 3.5

@@ -48,7 +48,7 @@ latinumTransferRate = 15.0
 //we have an animation when we build a ship
 
 //Even though we are a shipyard we don't have a repair facility
-repairFacility = 0
+
 
 //scan range in meters
 rangeScan = 1000.0f
@@ -210,22 +210,6 @@ SHOW_SW_AUTONOMY = 1
 
 
 
-
-
-
-
-
-
-
-
-
-buildItem0 = "bjconst"
-buildItem1 = "xbjuconst"
-buildItem2 = "bjfreight"
-buildItem3 = "bjcargo"
-buildItem4 = "bjrepair"
-buildItem5 = "bjcolony"
-buildItem6 = "bjscout"
 unitName = "Deep Space 9"
 
 
@@ -233,12 +217,12 @@ unitName = "Deep Space 9"
 
 
 
-crewcost = 150
+
 officercost = 10
 buildtime = 100
 race = "bajoran"
 possibleCraftNames = "Deep Space 9"
-baseName = "fds9"
+
 
 buildHardpoint = "hp06"
 weaponHardpoints1 = "hp22" "hp25"
@@ -293,14 +277,44 @@ southBuffer = 0
 
 footprintBuffer = 72
 
-dilithiumCost = 2150
 
-metalCost = 2150
+
+
+
+
+
+
+
+tooltip = "Starbase (Deep Space 9)"
+
+verboseTooltip = "A fortified center for fleet operations and local production. Bajoran militia engineering protects Bajor and its neighboring systems."
+
+repairFacility = 0
+
+baseName = "bv4_bjbase"
+
+buildItem0 = "bjconst"
+
+buildItem1 = "xbjconst2"
+
+buildItem2 = "xbjuconst"
+
+buildItem3 = "bjfreight"
+
+buildItem4 = "bjcargo"
+
+buildItem5 = "bjrepair"
+
+buildItem6 = "bjcolony"
+
+buildItem7 = "bjscout"
+
+dilithiumCost = 1500
+
+metalCost = 1500
 
 latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Starbase (Deep Space 9)"
-
-verboseTooltip = "A fortified center for fleet operations and local production. Bajoran militia engineering protects Bajor and its neighboring systems."
+crewCost = 150

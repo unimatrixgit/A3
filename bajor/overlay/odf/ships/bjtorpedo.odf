@@ -43,19 +43,7 @@ shieldrate = 5.9
 //SHIP NAMES
 
 //Possible Craft Names
-possibleCraftNames = 
-	"USS Protege" "USS Cimmeron" "USS Kodiak" "USS Iron Horse"
-	"USS Patton" "USS Enforcer" "USS Knox" "USS Maryland"
-	"USS Protector" "USS Ironclad" "USS Diligent" "USS Aselin"
-	"USS Lexington" "USS Savior" "USS Maker"
-	"USS Appalachia" "USS Columbia" "USS Gettysburg" "USS Kyushu"
-	"USS Zephyr" "USS Sacramento" "USS Eureka" "USS Arcadia"
-	"USS San Diego" "USS Dublin" "USS October" "USS Churchill"
-	"USS Ballista" "USS Georgia" "USS Trebuchet" "USS Vambrace"
-	"USS Jerusalem" "USS Bangkok" "USS Crowell" "USS Caspars"
-	"USS Icarus" "USS Benevolence" "USS Trafalgar" "USS Amsterdam"
-	"USS Alamo" "USS Cerberus" "USS Sierra" "USS Denver"
-	"USS Budapest" "USS Cairo" "USS Wyoming" "USS Archon"
+
 
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
@@ -132,7 +120,7 @@ race = "bajoran"
 
 
 
-baseName = "br3_bjtorpedo"
+
 ScaleSOD = 1.6
 
 
@@ -205,3 +193,7 @@ weaponHardpoints2 = "hp02" "hp03" "hp16" "hp17"
 weapon3 = "xbj_gwcover"
 
 weaponHardpoints3 = "hp06"
+
+baseName = "bv4_bjtorpedo"
+
+possibleCraftNames = "BMS Kendra" "BMS Dahkur" "BMS Rakantha" "BMS Hathon" "BMS Jalanda" "BMS Dakor" "BMS Tozhat" "BMS Musilla" "BMS Hedrikspool" "BMS Dakhur" "BMS Ashalla" "BMS Dahkur Dawn" "BMS Kendra Spirit" "BMS Bajoran Dawn" "BMS Prophets Grace" "BMS First Light" "BMS Celestial Dawn" "BMS Valley Guardian" "BMS Militia Resolve" "BMS Freedom of Bajor" "BMS Dahkur Sentinel" "BMS Rakantha Shield" "BMS Kendra Vigil" "BMS Bajor Ascendant" "BMS Jalanda Star" "BMS Hathon Guard" "BMS Emissarys Hope" "BMS Liberation" "BMS Gratitude" "BMS New Dawn" "BMS Dahkur Resolve" "BMS Celestial Guardian"

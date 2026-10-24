@@ -1,87 +1,63 @@
-#include "fdestroy.odf"
-
-//This ship is a hero.
-isHero = 1
-
-//Ship label provided because this is a unique ship.
-label = "USS Defiant NX-74205"
+shielddelay = 1.0f
+rangescan = 800.0f
 
 
-
-//Max Shield Strength & Begining Shield Strength <500
-maxHealth = 6800
-
-//Rate at which shield recharges (points per second... we think)
-shieldRate = 68
-
-//Maximum Value of Special Energy
-maxSpecialEnergy = 6800
-
-//Rate at which special energy recharges (points per second... we think)
-specialEnergyRate = 68
-
-//**********************************************************************
-//SHIP NAMES
-
-//Possible Craft Names
-possibleCraftNames = "USS Defiant"
-
-eventCloakEngage = "SiskoCloakEngage"
-eventCloakDisengage = "SiskoCloakDisengage"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Xaramada resource costs: original matching class.
-
-
-
-
-
-officerCost = 7
-buildTime = 12
-
-
-eventSelect = "XV_fdefiant_Select"
-
-eventAcknowledge = "XV_fdefiant_Acknowledge"
-
-eventAttack = "XV_fdefiant_Attack"
-
-eventStop = "XV_fdefiant_Stop"
-
-eventMove = "XV_fdefiant_Move"
-
-eventRepair = "XV_fdefiant_Repair"
-
-eventRedAlert = "XV_fdefiant_RedAlert"
-
-eventYellowAlert = "XV_fdefiant_YellowAlert"
-
-eventGreenAlert = "XV_fdefiant_GreenAlert"
-
-eventTransport = "XV_fdefiant_Transport"
-
-eventSelfDestruct = "XV_fdefiant_SelfDestruct"
-
-eventDecommission = "XV_fdefiant_Decommission"
-
-
-
-// Visual size: 150 percent of pre-patch scale.
-ScaleSOD = 0.588489
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 0.25
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 3
+fireball = "xfirebsm"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "destroyer"
+attackpower = 0.25f
+intrinsicvalue = 0.25f
+engineshitpoints = 1680
+lifesupporthitpoints = 1680
+weaponshitpoints = 1680
+shieldgeneratorhitpoints = 1680
+sensorshitpoints = 1680
+eventselect = "XV_fdefiant_Select"
+eventacknowledge = "XV_fdefiant_Acknowledge"
+eventattack = "XV_fdefiant_Attack"
+eventstop = "XV_fdefiant_Stop"
+eventmove = "XV_fdefiant_Move"
+eventrepair = "XV_fdefiant_Repair"
+physicsfile = "fdefiantphys.odf"
+trekphysicsfile = "fdefiantphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "D"
+unitname = "Defiant Class"
+race = "federation"
+maxhealth = 6800
+shieldrate = 68
+possiblecraftnames = "USS Defiant"
 
 
 
@@ -91,11 +67,96 @@ ScaleSOD = 0.588489
 
 
 
+
+
+
+
+
+
+
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29"
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hulltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
+criticaltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponyellow = 1.0f
+weaponred = 2.0f
+attack_path0 = "p2.pth"
+attack_path1 = "p3.pth"
+hotkeylabel = "HOTKEY_F3"
+officercost = 7
+buildtime = 12
+scalesod = 0.588489
 tooltip = "Hero Ship (Defiant Class)"
-
-verboseTooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Antimatter Mines, Cloak. Availability follows the selected technology tree."
+verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Antimatter Mines, Cloak. Availability follows the selected technology tree."
 dilithiumcost = 1040
 metalcost = 260
 latinumcost = 0
 biomattercost = 0
-crewCost = 215
+crewcost = 215
+ishero = 1
+label = "USS Defiant NX-74205"
+eventcloakengage = "SiskoCloakEngage"
+eventcloakdisengage = "SiskoCloakDisengage"
+eventredalert = "XV_fdefiant_RedAlert"
+eventyellowalert = "XV_fdefiant_YellowAlert"
+eventgreenalert = "XV_fdefiant_GreenAlert"
+eventtransport = "XV_fdefiant_Transport"
+eventselfdestruct = "XV_fdefiant_SelfDestruct"
+eventdecommission = "XV_fdefiant_Decommission"
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "fdefiantpulse"
+
+weaponHardpoints1 = "hp01"
+
+weapon2 = "fdefiantpulse"
+
+weaponHardpoints2 = "hp02"
+
+weapon3 = "fdefiantpulse"
+
+weaponHardpoints3 = "hp03"
+
+weapon4 = "fdefiantpulse"
+
+weaponHardpoints4 = "hp04"
+
+weapon5 = "gamine"
+
+weaponHardpoints5 = "hp14" "hp15"
+
+weapon6 = "fdefiantphot"
+
+weaponHardpoints6 = "hp05"
+
+weapon7 = "fdefiantphot"
+
+weaponHardpoints7 = "hp06"
+
+weapon8 = "gfcloak"
+
+weaponHardpoints8 = "hp09"
+
+weapon9 = "fnebulaphas"
+
+weaponHardpoints9 = "hp07"
+
+weapon10 = "xhtphase"
+
+weaponHardpoints10 = "hp08"
+
+maxspecialenergy = 6800
+
+specialenergyrate = 68

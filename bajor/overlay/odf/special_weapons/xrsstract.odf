@@ -1,0 +1,58 @@
+//Name of the ODF file for the ordinance for this weapon
+ordName = "tracbm"
+
+//Display name for this weapon
+wpnName = "Tractor Beam"
+tooltip = "Tractor Beam"
+verboseTooltip = "Locks on a target vessel with disabled engines, allowing it to be towed."
+
+//Location of the button in the speed panel
+
+
+// location of the button in the popup palette
+popupSlot = 12
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 2
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 2
+
+//Time Delay between shots
+shotDelay = 0.0
+
+// Range within which the weapon will fire.
+range = 200.0f
+
+//Sound which is played when the weapon fires
+fireSound = "minebeam.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "toggleweapon"
+
+// Special stuff - denote special weapon
+special = 1
+
+// Need a target for this one
+needTarget = 1
+
+// The weapon is not harmful to the target (so don't fire regular weapons at it)
+beneficial = 1
+
+//Switch to attack is false
+switchToAttack = 0
+
+// allow this weapon to target allied craft
+targetAlliedCraft = 1
+
+forceInvalidateTarget = 1
+
+// This one weapon is used by all races and craft with a tractor beam
+
+buttonSlot = 6
+
+hotkeyLabel = "HOTKEY_F6"

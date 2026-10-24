@@ -47,14 +47,14 @@ criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp0
 
 //**********************************************************************
 //Construction Parameters
-buildItem0 = "domconst"
-buildItem1 = "domscout"
-buildItem2 = "jemdest"
-buildItem3 = "jemdest2"
-buildItem4 = "sonadest"
-buildItem5 = "sonabat"
-buildItem6 = "dombat"
-buildItem7 = "domdred"
+
+
+
+
+
+
+
+
 
 //Hardpoint location for building.
 buildHardpoint = "build"
@@ -121,3 +121,23 @@ biomatterCost = 0
 tooltip = "Shipyard (Dominion Shipyard)"
 
 verboseTooltip = "Produces the vessels listed in its construction menu. Cardassian engineering sustains the Union through ordered, persistent operations."
+
+buildItem0 = "cconst"
+
+buildItem1 = "xcconst2"
+
+buildItem2 = "xcuconst"
+
+buildItem3 = "domscout"
+
+buildItem4 = "jemdest"
+
+buildItem5 = "jemdest2"
+
+buildItem6 = "sonadest"
+
+buildItem7 = "sonabat"
+
+buildItem8 = "dombat"
+
+buildItem9 = "domdred"

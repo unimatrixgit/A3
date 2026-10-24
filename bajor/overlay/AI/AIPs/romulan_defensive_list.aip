@@ -1,17 +1,19 @@
-// Economy-first opening;original later force choices and tech phases retained.
+// Updated current-faction economy, heavy defense, production and research order.
 #include "aipdef.h"
 int checkTechnologyAvailable = 1;
 Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 {
+    "rconst", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "ryard2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xruconst", 1, 0, -1, 0, // A3 tier, resource and mirror integration
     "rbase", 1, 0, -1, 1,
-    "rconst", 2, 0, -1, 0,
     "rorbital", 1, 0, -1, 0,
     "rmining", 1, 0, -1, 0,
     "rfreight", 2, 0, -1, 0,
     "ryard", 1, 0, -1, 0,
     "rdestroy", 2, 0, -1, 0,
-    "xruconst", 1, 0, -1, 0,
-    "rconst", 1, 0, -1, 0,
+    "rconst2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "rhwp", 2, 0, -1, 0,
     "rscout", 1, 0, -1, 0,
     "rturret", 3, 1, -1, 0,
     "rresear", 1, 0, -1, 0,
@@ -20,7 +22,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "ryard", 1, 0, -1, 0,
     "rsensor", 1, 1, -1, 0,
     "rcolony", 1, 0, -1, 0,
-    "rconst2", 1, 0, -1, 0,
     "rmining", 1, 0, -1, 0,
     "ryard", 1, 0, -1, 0,
     "rcruise1", 1, 0, -1, 0,
@@ -73,4 +74,40 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "rassault", 1, 0, -1, 0,
     "rtsdread", 1, 0, -1, 0,
     "rbattle", 2, 0, -1, 0,
+    "xselaresearch", 1, 0, -1, 0,
+    "xrplasmapod", 1, 0, -1, 0,
+    "rompod1", 1, 0, -1, 0,
+    "rompod16", 1, 0, -1, 0,
+    "xrthelpod", 1, 0, -1, 0,
+    "xhrshinzon", 1, 0, -1, 0,
+    "rompod2", 1, 0, -1, 0,
+    "rompod3", 1, 0, -1, 0,
+    "rompod4", 1, 0, -1, 0,
+    "rompod5", 1, 0, -1, 0,
+    "rompod6", 1, 0, -1, 0,
+    "rompod7", 1, 0, -1, 0,
+    "rompod8", 1, 0, -1, 0,
+    "rompod9", 1, 0, -1, 0,
+    "mryrom", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "mrc049", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xfgmerc", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xfgconst", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xfgserv", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xfgresearch", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xu3fer2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xfgpdil", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xfgpmet", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xfgpdil2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xfgpmet2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xfgdil3", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xfgmetal3", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xfgfight", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xfgcruis", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xfgquark", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xfgplat", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xfgplat2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xfglat3", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xfgtrade", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "mryfer", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "mrc026", 1, 0, -1, 0, // A3 tier, resource and mirror integration
 };

@@ -1,72 +1,153 @@
-#include "fspecial.odf"
+shielddelay = 1.0f
+rangescan = 800.0f
 
-// This is a unique ship based on the Federation Nebula-class vessel.
-// All properties match that of the parent odf, with the exception
-// of the following properties:
 
-// This ship is a hero.
-isHero = 1
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 0.5
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfirebmd"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "special"
+attackpower = 0.60f
+intrinsicvalue = 0.50f
+engineshitpoints = 1800
+lifesupporthitpoints = 1800
+weaponshitpoints = 1800
+shieldgeneratorhitpoints = 1800
+sensorshitpoints = 1800
+eventselect = "XV_fcaddebostan_Select"
+eventacknowledge = "XV_fcaddebostan_Acknowledge"
+eventattack = "XV_fcaddebostan_Attack"
+eventstop = "XV_fcaddebostan_Stop"
+eventmove = "XV_fcaddebostan_Move"
+eventrepair = "XV_fcaddebostan_Repair"
+physicsfile = "fcruiserphys.odf"
+shiptype = "C"
+combat = 1
+alert = 1
+can_sandd = 1
+unitname = "Nebula Class"
+race = "federation"
+sanecrewlossmethod = 1
+maxhealth = 875
+shieldrate = 8.75
+possiblecraftnames = "USS Caddebostan"
 
-//tooltips
+
+
+
+
+
+
+
+
+
+
+
+
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32" "hp33"
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hulltargethardpoints = "hp06" "hp08" "hp10" "hp12" "hp14" "hp16" "hp18" "hp20" "hp24" "hp25"
+criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp22" "hp23"
+weaponyellow = 1.0f
+weaponred = 2.0f
+hotkeylabel = "HOTKEY_F3"
+scalesod = 1.1
+trekphysicsfile = "fcruiserphys.odf"
+officercost = 10
+buildtime = 35
 tooltip = "FED_SPECIAL"
-verboseTooltip = "FED_SPECIAL_V"
+verbosetooltip = "FED_SPECIAL_V"
 
-//Possible Craft Names
-possibleCraftNames = "USS Caddebostan"
-
-baseName = "fspecial"
-
-
-
-
-
-
-
-
-// Xaramada resource costs: original filename.
-
-
-
-
-
-officerCost = 10
-buildTime = 35
-
-
-eventSelect = "XV_fcaddebostan_Select"
-
-eventAcknowledge = "XV_fcaddebostan_Acknowledge"
-
-eventAttack = "XV_fcaddebostan_Attack"
-
-eventStop = "XV_fcaddebostan_Stop"
-
-eventMove = "XV_fcaddebostan_Move"
-
-eventRepair = "XV_fcaddebostan_Repair"
-
-eventRedAlert = "XV_fcaddebostan_RedAlert"
-
-eventYellowAlert = "XV_fcaddebostan_YellowAlert"
-
-eventGreenAlert = "XV_fcaddebostan_GreenAlert"
-
-eventTransport = "XV_fcaddebostan_Transport"
-
-eventSelfDestruct = "XV_fcaddebostan_SelfDestruct"
-
-eventDecommission = "XV_fcaddebostan_Decommission"
-
-
-
-
-
-
-
-
-weapon6 = "gselfdes"
 dilithiumcost = 280
 metalcost = 95
 latinumcost = 0
 biomattercost = 0
-crewCost = 160
+crewcost = 160
+ishero = 1
+basename = "fspecial"
+eventredalert = "XV_fcaddebostan_RedAlert"
+eventyellowalert = "XV_fcaddebostan_YellowAlert"
+eventgreenalert = "XV_fcaddebostan_GreenAlert"
+eventtransport = "XV_fcaddebostan_Transport"
+eventselfdestruct = "XV_fcaddebostan_SelfDestruct"
+eventdecommission = "XV_fcaddebostan_Decommission"
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "fnebulaphas"
+
+weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp31" "hp32"
+
+weapon2 = "fnebulaphot"
+
+weaponHardpoints2 = "hp11" "hp23"
+
+weapon3 = "gshieldh"
+
+weaponHardpoints3 = "hp12" "hp14" "hp16" "hp18"
+
+weapon4 = "gmanheim"
+
+weaponHardpoints4 = "hp12" "hp14" "hp16" "hp18"
+
+weapon5 = "gpdlaser"
+
+weaponHardpoints5 = "hp12" "hp14" "hp16" "hp18"
+
+weapon6 = "gselfdes"
+
+weaponHardpoints6 = "hp12" "hp14" "hp16" "hp18"
+
+weapon7 = "gschainp"
+
+weaponHardpoints7 = "hp12" "hp14" "hp16" "hp18"
+
+weapon8 = "fnebulaphas"
+
+weaponHardpoints8 = "hp08"
+
+weapon9 = "xhtphase"
+
+weaponHardpoints9 = "hp09"
+
+maxspecialenergy = 875
+
+specialenergyrate = 8.75

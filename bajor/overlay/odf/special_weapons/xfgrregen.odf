@@ -1,0 +1,68 @@
+//Display name for this weapon
+
+
+//tooltips
+
+
+
+//Time Delay between shots - not used
+
+
+//Location of the button in the speed panel
+
+
+// location of the button in the popup palette
+
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 10
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 2
+
+// Special stuff - denote special weapon
+special = 1
+
+// Range within which the weapon will fire - not used.
+range = 0.0f
+
+//Sound which is played when the weapon fires - temp sound
+fireSound = "swbreg.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "regeneration"
+
+// Chance of hitting the target. - not used
+hitChance = 1.00
+
+// Special energy cost for the Shield Regenerator
+
+
+// Regen modifier
+regenModifier = 60
+
+//this special weapon can be assimilated by the borg tech assimilator
+//assimilatable = "borpod3"
+
+
+wpnName = "Rom's Emergency Repairs"
+
+tooltip = "Rom's Emergency Repairs"
+
+verboseTooltip = "Regenerates this ship."
+
+buttonSlot = 1
+
+popupSlot = 1
+
+hotkeyLabel = "HOTKEY_F1"
+
+shotDelay = 25
+
+specialEnergyCost = 600
+
+maxTargets = 1

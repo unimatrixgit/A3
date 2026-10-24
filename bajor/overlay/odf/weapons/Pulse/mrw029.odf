@@ -1,0 +1,40 @@
+#include "pulse.odf"
+
+//Name of the ODF file for the ordinance for this weapon
+
+
+//Display name for this weapon
+wpnName = "Pulse"
+
+//Time Delay between shots
+shotDelay = 2.0
+
+// Range within which the weapon will fire.
+range = 474.0f
+
+//Sound which is played when the weapon fires
+fireSound = "ppfwea.wav"
+
+Length = 20.0
+Sprite = "pphaser"
+
+restrictFireArc = 1
+
+// Use this fire arc restriction
+fireArc = 1.61
+
+//save up our fire
+saveFire = 1
+
+//max number of shots we can save
+maxShots = 3
+
+//the minimum time between saved shots
+minimumShotInterval = 0.2
+
+specialEnergyCost = 20
+
+Radius = 4.8
+damagebase = 174
+
+ordName = "mrw029o"

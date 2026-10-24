@@ -1,0 +1,72 @@
+//Display name for this weapon
+
+
+//tooltips
+
+
+
+//Name of the ODF file for the ordinance for this weapon
+
+
+//Location of the button in the speed panel
+
+
+// location of the button in the popup palette
+
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 5
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 2
+
+// Mark this as a special weapon.
+special = 1
+
+
+//Time Delay between shots
+shotDelay = 3.5
+
+// Range within which the weapon will fire.
+range = 700.0f
+
+//Sound which is played when the weapon fires
+//fireSound = ""
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "areacannon"
+
+//Should not be used
+wpnReticle = "gblast"
+
+//UNKNOWN
+wpnPriority = 0
+
+//UNKNOWN
+wpnCategory = "AREA"
+
+// 	HIT_EVERYONE = 0,
+//	HIT_ALLIES = 1,
+//	HIT_ENEMIES = 2
+hitCondition = 1
+
+
+buttonSlot = 2
+
+popupSlot = 2
+
+hotkeyLabel = "HOTKEY_F2"
+
+assimilatable = "carpod1"
+
+ordName = "xhgarakcmdo"
+
+wpnName = "Flagship Command System"
+
+tooltip = "Flagship Command System"
+
+verboseTooltip = "Temporarily coordinates nearby allied ships. Requires Plasma Bank Overload research."

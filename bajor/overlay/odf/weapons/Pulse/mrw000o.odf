@@ -1,0 +1,21 @@
+#include "pulseo.odf"
+
+//The base amount of damage which the ordinance does with each hit
+
+
+//The sprite which is used for this ordinance
+Sprite = "pphaser"
+
+//Phaser specific: this modifies the color of the phaser
+shotColor = 227
+
+// Time to play through the animation for the sprite in seconds
+spriteDuration = 1.0
+
+// Length of the beam.
+Length = 30.0
+
+
+damagebase = 22
+
+damagevariance = 2

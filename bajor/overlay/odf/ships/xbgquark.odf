@@ -1,0 +1,163 @@
+shielddelay = 1.0f
+rangescan = 800.0f
+
+
+damagedscan = 125.0
+shieldprotection = 1
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 0.5
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 5
+fireball = "xfirebmd"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 0.75f
+intrinsicvalue = 0.30f
+engineshitpoints = 900
+lifesupporthitpoints = 900
+weaponshitpoints = 900
+shieldgeneratorhitpoints = 900
+sensorshitpoints = 900
+eventselect = "Cruiser1Select"
+eventacknowledge = "Cruiser1Acknowledge"
+eventattack = "Cruiser1Attack"
+eventstop = "Cruiser1Stop"
+eventmove = "Cruiser1Move"
+eventrepair = "Cruiser1Repair"
+physicsfile = "scruise1phys.odf"
+trekphysicsfile = "trek_scruise1phys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "C"
+unitname = "Mercenary Ferengi Quark's Battleship"
+tooltip = "Mercenary Ferengi Quark's Battleship"
+basename = "xfgquark"
+ishero = 1
+maxhealth = 4500
+shieldrate = 18
+crewcost = 800
+maximumcrew = 1000
+officercost = 16
+buildtime = 130
+scalesod = 1.3
+hotkeylabel = "HOTKEY_F6"
+possiblecraftnames = "Quark's Battleship"
+enginestargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14"
+lifesupporttargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14"
+weaponstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14"
+shieldgeneratortargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14"
+sensorstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14"
+hulltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14"
+criticaltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+race = "borg"
+dilithiumcost = 750
+metalcost = 500
+latinumcost = 0
+biomattercost = 0
+verbosetooltip = "Borg contract paid in dilithium and metal. dilithium and metal-funded Ferengi contract vessel. Hero abilities are available without research."
+
+
+
+
+
+
+
+weapon1 = "xfgquarkb"
+
+weaponHardpoints1 = "hp10"
+
+weapon2 = "xfgquarkb"
+
+weaponHardpoints2 = "hp11"
+
+weapon3 = "xfgquarkb"
+
+weaponHardpoints3 = "hp12"
+
+weapon4 = "xfgquarkb"
+
+weaponHardpoints4 = "hp13"
+
+weapon5 = "xfgquarkb"
+
+weaponHardpoints5 = "hp14"
+
+weapon6 = "xfgquarkb"
+
+weaponHardpoints6 = "hp15"
+
+weapon7 = "xfgquarkt"
+
+weaponHardpoints7 = "hp16"
+
+weapon8 = "xfgquarkt"
+
+weaponHardpoints8 = "hp06"
+
+weapon9 = "xfgquarkt"
+
+weaponHardpoints9 = "hp04"
+
+weapon10 = "xfgquarkt"
+
+weaponHardpoints10 = "hp05"
+
+weapon11 = "xfgqholo"
+
+weaponHardpoints11 = "hp02"
+
+weapon12 = "xfgqcloak"
+
+weaponHardpoints12 = "hp03"
+
+maxspecialenergy = 2400
+
+specialenergyrate = 24

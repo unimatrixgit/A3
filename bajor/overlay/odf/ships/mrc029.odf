@@ -1,0 +1,163 @@
+shielddelay = 1.0f
+rangescan = 800.0f
+maxspecialenergy = 3000
+specialenergyrate = 30
+damagedscan = 125.0
+shieldprotection = 1
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 0.5
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfirebmd"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "special"
+attackpower = 0.60f
+intrinsicvalue = 0.50f
+engineshitpoints = 1200
+lifesupporthitpoints = 1200
+weaponshitpoints = 1200
+shieldgeneratorhitpoints = 1200
+sensorshitpoints = 1200
+eventselect = "XV_bqueen_Select"
+eventacknowledge = "XV_bqueen_Acknowledge"
+eventattack = "XV_bqueen_Attack"
+eventstop = "XV_bqueen_Stop"
+eventmove = "XV_bqueen_Move"
+eventrepair = "XV_bqueen_Repair"
+physicsfile = "bbatphys.odf"
+shiptype = "X"
+combat = 1
+alert = 1
+can_sandd = 1
+sanecrewlossmethod = 1
+weaponyellow = 1.5f
+weaponred = 5.0f
+keymaplabel = "borg_science"
+
+label = "Borg Queen's Personal Diamond"
+
+
+
+race = "borg"
+ishero = 0
+maxhealth = 4500
+shieldrate = 24
+crewcost = 700
+maximumcrew = 1000
+officercost = 16
+
+
+
+
+
+
+
+
+eventredalert = "XV_bqueen_RedAlert"
+eventyellowalert = "XV_bqueen_YellowAlert"
+eventgreenalert = "XV_bqueen_GreenAlert"
+eventtransport = "XV_bqueen_Transport"
+eventselfdestruct = "XV_bqueen_SelfDestruct"
+eventdecommission = "XV_bqueen_Decommission"
+
+
+
+
+
+
+
+weapon1 = "mrw047"
+
+weapon2 = "mrw047"
+
+weapon3 = "mrw047"
+
+weapon4 = "mrw047"
+
+weapon5 = "mrw047"
+
+weapon6 = "mrw048"
+
+weapon7 = "mrw048"
+
+weapon8 = "mrw048"
+
+weapon9 = "gutribm"
+
+weapon10 = "gnanites"
+
+weapon11 = "goverrid"
+
+weapon12 = "xqgreen"
+
+weapon13 = "xqwarp"
+
+
+
+
+ScaleSOD = 4.193049928
+
+unitName = "Mirror Queen's Sphere"
+
+tooltip = "Mirror Queen's Sphere"
+
+possibleCraftNames = "Mirror Queen's Sphere"
+weaponhardpoints1 = "hp19"
+weaponhardpoints2 = "hp18"
+weaponhardpoints3 = "hp17"
+weaponhardpoints4 = "hp16"
+weaponhardpoints5 = "hp15"
+weaponhardpoints6 = "hp14"
+weaponhardpoints7 = "hp13"
+weaponhardpoints8 = "hp12"
+weaponhardpoints9 = "hp11"
+weaponhardpoints10 = "hp10"
+weaponhardpoints11 = "hp09"
+weaponhardpoints12 = "hp08"
+weaponhardpoints13 = "hp07"
+enginesTargetHardpoints = "hp19" "hp18" "hp17" "hp16" "hp15" "hp14"
+lifeSupportTargetHardpoints = "hp19" "hp18" "hp17" "hp16" "hp15" "hp14"
+weaponsTargetHardpoints = "hp19" "hp18" "hp17" "hp16" "hp15" "hp14"
+shieldGeneratorTargetHardpoints = "hp19" "hp18" "hp17" "hp16" "hp15" "hp14"
+sensorsTargetHardpoints = "hp19" "hp18" "hp17" "hp16" "hp15" "hp14"
+hullTargetHardpoints = "hp19" "hp18" "hp17" "hp16" "hp15" "hp14"
+criticalTargetHardpoints = "hp19" "hp18" "hp17" "hp16" "hp15" "hp14"
+
+baseName = "mrc029"
+
+dilithiumCost = 1062
+
+metalCost = 562
+
+latinumCost = 0
+
+biomatterCost = 0
+
+buildTime = 188
+
+hotkeyLabel = "HOTKEY_F6"
+
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

@@ -1,0 +1,121 @@
+shielddelay = 1.0f
+rangescan = 800.0f
+maxspecialenergy = 1600
+specialenergyrate = 16
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 797
+lifesupporthitpoints = 797
+weaponshitpoints = 797
+shieldgeneratorhitpoints = 797
+sensorshitpoints = 797
+eventselect = "XV_xhchero_Select"
+eventacknowledge = "XV_xhchero_Acknowledge"
+eventattack = "XV_xhchero_Attack"
+eventstop = "XV_xhchero_Stop"
+eventmove = "XV_xhchero_Move"
+eventrepair = "XV_xhchero_Repair"
+canattackplanets = 1
+physicsfile = "sbattphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "Mirror Gul Dukat - Keldon"
+race = "cardassian"
+sanecrewlossmethod = 1
+maxhealth = 2988.75
+shieldrate = 15.94
+combatspeed = 87
+impulsespeed = 78
+warpspeed = 920
+possiblecraftnames = "Mirror Gul Dukat - Keldon"
+weapon1 = "mrw049"
+weaponhardpoints1 = "hp07" "hp08" "hp09" "hp10"
+weapon2 = "mrw011"
+weaponhardpoints2 = "hp11"
+weaponhardpoints3 = "hp12"
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+weaponyellow = 1.0f
+weaponred = 2.0f
+
+officercost = 16
+
+weapon4 = "gplasmabank"
+weaponhardpoints4 = "hp01"
+tooltip = "Mirror Gul Dukat - Keldon"
+
+weapon3 = "gselfdes"
+
+
+
+
+crewcost = 820
+
+ishero = 0
+label = "Gul Dukat - Keldon"
+eventredalert = "XV_xhchero_RedAlert"
+eventyellowalert = "XV_xhchero_YellowAlert"
+eventgreenalert = "XV_xhchero_GreenAlert"
+eventtransport = "XV_xhchero_Transport"
+eventselfdestruct = "XV_xhchero_SelfDestruct"
+eventdecommission = "XV_xhchero_Decommission"
+weapon5 = "mrw049"
+weaponhardpoints5 = "hp02"
+weapon6 = "mrw011"
+weaponhardpoints6 = "hp03"
+scalesod = 1.25
+
+baseName = "mrc031"
+
+dilithiumCost = 662
+
+metalCost = 288
+
+latinumCost = 0
+
+biomatterCost = 0
+
+buildTime = 75
+
+hotkeyLabel = "HOTKEY_F2"
+
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

@@ -1,0 +1,25 @@
+#include "photon.odf"
+
+//Name of the ODF file for the ordinance for this weapon
+
+
+//Display name for this weapon
+wpnName = "Photon Torpedo"
+
+//Time Delay between shots
+shotDelay = 1.7f
+
+//Sound which is played when the weapon fires
+fireSound = "porwea.wav"
+
+specialEnergyCost = 18
+
+shotSpeed = 503.0
+Sprite = "rphoton"
+radius = 3.6f
+range = 590.0f
+
+
+damagebase = 204
+
+ordName = "mrw059o"

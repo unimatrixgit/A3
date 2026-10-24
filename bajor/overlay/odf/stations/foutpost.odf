@@ -190,17 +190,17 @@ SHOW_SW_AUTONOMY = 1
 
 
 
-crewCost = 350
+
 officerCost = 8
 buildTime = 84
-buildItem0 = "fconst"
-buildItem1 = "ffreight"
-buildItem2 = "fcargo"
-buildItem3 = "fsrepair"
-buildItem4 = "fscout"
-buildItem5 = "fdeltaflyer"
-buildItem6 = "fantares"
-buildItem7 = "xfuconst"
+
+
+
+
+
+
+
+
 
 // Equal visual span: vanilla Borg Nexus reference.
 ScaleSOD = 3.21628318
@@ -225,14 +225,46 @@ southBuffer = 0
 
 footprintBuffer = 72
 
-dilithiumCost = 1650
 
-metalCost = 1650
+
+
+
+
+
+
+
+tooltip = "Starbase (Spartan Class)"
+
+verboseTooltip = "A fortified center for fleet operations and local production. Starfleet engineering supports a disciplined, versatile fleet."
+
+repairFacility = 0
+
+buildItem0 = "fconst"
+
+buildItem1 = "fconst2"
+
+buildItem2 = "xfuconst"
+
+buildItem3 = "xu3fed2"
+
+buildItem4 = "ffreight"
+
+buildItem5 = "fcargo"
+
+buildItem6 = "fsrepair"
+
+buildItem7 = "fscout"
+
+buildItem8 = "fdeltaflyer"
+
+buildItem9 = "fantares"
+
+dilithiumCost = 1500
+
+metalCost = 1500
 
 latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Starbase (Spartan Class)"
-
-verboseTooltip = "A fortified center for fleet operations and local production. Starfleet engineering supports a disciplined, versatile fleet."
+crewCost = 150

@@ -4,7 +4,7 @@
 race = "cardassian"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Construction Ship"
+
 
 //tooltips
 
@@ -41,15 +41,15 @@ warpSpeed = 698
 
 //**********************************************************************
 //Construction Parameters
-buildItem0 = "dombase"
-buildItem1 = "domyard"
-buildItem2 = "domabase"
-buildItem3 = "cturret"
-buildItem4 = "cmining"
-buildItem5 = "corbital"
-buildItem6 = "ctrading"
-buildItem7 = "cobyard"
-buildItem8 = "cstation"
+
+
+
+
+
+
+
+
+
 
 //**********************************************************************
 //Worker Bee Parameters
@@ -68,8 +68,8 @@ possibleCraftNames = "Eris" "Vishanti" "Faris"
 //ART PARAMETERS & WEAPON NAMES
 
 // Towing Beam
-weapon1 = "gtracbm"
-weaponHardpoints1 = "hp01"
+
+
 
 // Hardpoints to hit for various systems and other locations.
 enginesTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
@@ -92,21 +92,20 @@ hotkeyLabel = "HOTKEY_F1"
 
 
 officerCost = 2
-buildTime = 17
 
-buildItem9 = "chwp"
 
-weapon2 = "xp11b"
 
-weaponHardpoints2 = "hp02"
 
-weapon3 = "xp11t"
 
-weaponHardpoints3 = "hp03"
 
-canAttack = 1
 
-combat = 1
+
+
+
+
+
+
+
 
 alert = 1
 
@@ -118,11 +117,57 @@ alert = 1
 
 
 
-tooltip = "Constructor (Construction Ship)"
 
-verboseTooltip = "Builds the structures listed in its construction menu. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Tractor Beam. Availability follows the selected technology tree."
-dilithiumcost = 125
-metalcost = 25
+
+
+
+
+
+
+
+
+
+
+
+
+combat = 0
+
+attackPower = 0.0
+
+buildItem0 = "cturret"
+
+buildItem1 = "cturret2"
+
+buildItem2 = "cyard3"
+
+buildItem3 = "chwp"
+
+buildItem4 = "cobyard"
+
+buildItem5 = "mrycard"
+
+unitname = "Cardassian Constructor II"
+
+tooltip = "Cardassian Constructor II"
+
+verbosetooltip = "Tier 2: defenses and hero, Omega and Mirror Universe yards."
+
+dilithiumcost = 200
+
+metalcost = 100
+
 latinumcost = 0
+
 biomattercost = 0
-crewCost = 100
+
+crewcost = 150
+
+buildtime = 30
+
+canattack = 0
+
+maxspecialenergy = 0
+
+specialenergyrate = 0
+
+baseName = "domconst"

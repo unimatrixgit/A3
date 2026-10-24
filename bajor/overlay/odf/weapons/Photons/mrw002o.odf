@@ -1,0 +1,86 @@
+//This is the main photon ordinance file
+
+//Programming Stuff DO NOT CHANGE
+
+
+//The number of units which are subtracted from the Special Energy Reserve
+
+
+//The base amount of damage which the ordinance does with each hit
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a number)
+
+
+//The amount of variance applied to the damage (i.e. 10 + or - 2)
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a number)
+
+
+//The threshold which must be exceeded to cause crew casualties prior
+//to shield exhaustion
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a number)
+
+
+//The multiplier by which any damage which exceeds the threshold is 
+//multiplied by to calculate the percentage of crew lost with that hit
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a multiplier)
+
+
+//The multiplier by which any damage which is applied to the hull is
+//multiplied by to calculate the percentage of crew lost with that hit
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a multiplier)
+
+
+//Amount of time the ordinance will exists without hitting something
+
+
+//How fast the shot moves
+
+
+// This affects the turning radius/rate somewhat unknown.
+omegaTurn = 2.5
+
+//The amount of time that the missile obeys the limitations of omegaTurn
+//After that, it heads straight for the target
+seekTime = 0.25
+
+//The sprite which is used for this ordinance
+
+
+// Time to play through the animation for the sprite in seconds
+spriteDuration = 0.5
+
+//this modifies the color of the ordinance (not currently working)
+shotColor = 227
+
+// Size of photon torpedo.
+
+
+lightColor = 0.0 1.0 1.0
+lightFalloffStart = 50.0
+lightFalloffRange = 5.0
+classLabel = "photontorpedo"
+
+
+
+
+
+specialEnergyCost = 0
+
+ignoreShield = 0
+
+Sprite = "spphoton"
+
+radius = 3.5
+
+shotSpeed = 540
+
+lifeSpan = 8
+
+damageThreshold = 25
+
+shieldCrewModifier = 0.1
+
+hullCrewModifier = 0.05
+
+damagebase = 168
+
+damagevariance = 4

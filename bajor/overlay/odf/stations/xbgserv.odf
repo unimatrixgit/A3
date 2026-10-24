@@ -1,0 +1,208 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+
+
+//Amount of time required to build ship
+
+
+//Number of officers required to build this ship
+
+
+//Number of crew required to build ship & Starting crew
+
+
+//Dilithium Cost to build
+
+
+//Metal cost to build
+
+
+//Max Shield Strength & Begining Shield Strength <1000
+
+
+//Rate at which shield recharges (points per second... we think)
+
+
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Salvaged Barisa Prime" "Salvaged Tau Ceti Prime" "Salvaged Tessen Prime" "Salvaged Taurus Prime"
+	"Salvaged Meldrar Prime" "Salvaged Moriya Prime" "Salvaged Erabus Prime" "Salvaged Finnea Prime"
+	"Salvaged Acamar Prime" "Salvaged Aldea Prime" "Salvaged Andoria Prime" "Salvaged Calder Prime"
+	"Salvaged Iyaar Prime" "Salvaged Denocet Prime" "Salvaged Dytallix Prime" "Salvaged Galor Prime"
+	"Salvaged Minos Prime" "Salvaged Nausicaa Prime" "Salvaged Oyarsa Prime" "Salvaged Qualor Prime" 
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+
+
+
+
+
+
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+
+
+
+
+
+//Hardpoint location for building.
+
+
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "ShipyardSelect"
+eventAcknowledge = "ShipyardAcknowledge"
+eventDecommission = "ShipyardDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "shipyard"
+
+// Hotkey label
+
+
+//************************************************************
+// Brian additions for context sensitive menus
+builder_ship = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+// make it bigger
+
+
+
+
+
+
+
+
+
+
+
+
+
+crewCost = 200
+
+maximumCrew = 400
+
+officerCost = 10
+
+
+
+
+
+
+
+
+
+buildTime = 90
+
+repairFacility = 1
+enginesTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
+lifeSupportTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
+weaponsTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
+shieldGeneratorTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
+sensorsTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
+hullTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
+criticalTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
+
+baseName = "xfgserv"
+
+unitName = "Mercenary Ferengi Service Yard"
+
+tooltip = "Mercenary Ferengi Service Yard"
+
+
+
+maxHealth = 2400
+
+shieldRate = 10
+
+
+
+ScaleSOD = 1.71787360
+
+buildHardpoint = "build"
+
+repairHardpoint = "repair"
+
+hotkeyLabel = "HOTKEY_F11"
+
+
+
+race = "borg"
+
+dilithiumCost = 390
+
+metalCost = 260
+
+latinumCost = 0
+
+biomatterCost = 0
+
+verboseTooltip = "Borg contract paid in dilithium and metal. Ferengi construction, trade, mining, colony and repair contracts. Resource costs are dilithium and metal only."
+
+
+
+
+
+
+
+
+buildItem0 = "xbgconst"
+
+buildItem1 = "xfgtrade"
+
+buildItem2 = "xbgmine"
+
+buildItem3 = "xbgrepair"
+
+buildItem4 = "xbgcolony"
+
+buildItem5 = "xbgdil2"
+
+buildItem6 = "xbgdil3"

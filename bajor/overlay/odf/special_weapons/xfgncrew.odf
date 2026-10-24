@@ -1,0 +1,75 @@
+//Name of the ODF file for the ordinance for this weapon
+
+
+//Display name for this weapon
+
+
+//tooltips
+
+
+
+//Location of the button in the speed panel
+
+
+// location of the button in the popup palette
+
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 5
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+// Mark this as a special weapon.
+special = 1
+
+// 	HIT_EVERYONE = 0,
+//	HIT_ALLIES = 1,
+//	HIT_ENEMIES = 2
+hitCondition = 2
+
+// Time Delay between shots
+
+
+//Maxiumum number of targets
+
+
+// Range within which the weapon will fire.
+range = 400.0f
+
+//Sound which is played when the weapon fires
+fireSound = "swcmicrf.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "areamissile"
+
+// Need a target?
+needTarget = 0
+
+//this special weapon can be assimilated by the borg tech assimilator
+
+
+
+wpnName = "Life Support Sanctions"
+
+tooltip = "Life Support Sanctions"
+
+verboseTooltip = "Drains enemy crew. Systems Embargo can separately disable life support."
+
+buttonSlot = 4
+
+popupSlot = 4
+
+hotkeyLabel = "HOTKEY_F4"
+
+shotDelay = 25
+
+specialEnergyCost = 600
+
+maxTargets = 1
+
+ordName = "xfgncrewo"

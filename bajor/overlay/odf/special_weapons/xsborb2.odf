@@ -1,0 +1,29 @@
+//Name of the ODF file for the ordinance for this weapon
+
+
+//Display name for this weapon
+wpnName = "Planet Mining Beam"
+tooltip = "Planet Mining Beam"
+verboseTooltip = "WRITE ME"
+
+//Time Delay between shots
+shotDelay = 1.2
+
+//This doesn't show on the speed rail
+buttonSlot = 0
+
+//It is a special weapon
+special = 1
+
+// Range within which the weapon will fire.
+range = 500.0f
+
+//Sound which is played when the weapon fires
+fireSound = "minePlanet.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "cannon"
+
+//The crew status (yellow or red) does NOT affect the weapon fire rate
+crewAffectsWeaponDelay = 0
+ordName = "xsborb2o"

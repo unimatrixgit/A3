@@ -1,0 +1,87 @@
+//Name of the ODF file for the ordinance for this weapon
+
+
+// Mark this as a special weapon.
+special = 1
+
+//Display name for this weapon
+
+
+//tooltips
+
+
+
+//Location of the button in the speed panel
+
+
+// location of the button in the popup palette
+
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 5
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+//Time Delay between shots
+
+
+// Range within which the weapon will fire.
+range = 700.0f
+
+//Sound which is played when the weapon fires
+fireSound = "swrholof.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "areacannon"
+
+//Should not be used
+wpnReticle = "gblast"
+
+//UNKNOWN
+wpnPriority = 0
+
+//UNKNOWN
+wpnCategory = "ARCA"
+
+// 	HIT_EVERYONE = 0,
+//	HIT_ALLIES = 1,
+//	HIT_ENEMIES = 2
+hitCondition = 2
+
+//Don't automatically switch to attack mode 
+switchToAttack = 0
+
+// set wave effect
+waveEffect = 1
+
+// set wave name
+waveName = "Wholowav"
+
+//this special weapon can be assimilated by the borg tech assimilator
+
+
+
+wpnName = "Quark's Holo-Emitter"
+
+tooltip = "Quark's Holo-Emitter"
+
+verboseTooltip = "Projects deceptive holograms around enemy ships."
+
+buttonSlot = 1
+
+popupSlot = 1
+
+hotkeyLabel = "HOTKEY_F1"
+
+shotDelay = 25
+
+specialEnergyCost = 700
+
+maxTargets = 1
+
+ordName = "xfgqholoo"

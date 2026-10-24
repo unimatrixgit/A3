@@ -1,40 +1,67 @@
-#include "8472_behemoth.odf"
-unitName = "Fluidic Leviathan"
+shielddelay = 1.0f
+rangescan = 800.0f
 
 
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 0
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 2314
+lifesupporthitpoints = 2314
+weaponshitpoints = 2314
+shieldgeneratorhitpoints = 2314
+sensorshitpoints = 2314
+eventselect = "XV_xhshero_Select"
+eventacknowledge = "XV_xhshero_Acknowledge"
+eventattack = "XV_xhshero_Attack"
+eventstop = "XV_xhshero_Stop"
+eventmove = "XV_xhshero_Move"
+eventrepair = "XV_xhshero_Repair"
+canattackplanets = 1
+physicsfile = "sbattphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "Fluidic Leviathan"
+recyclesinplace = 1
 race = "species8472"
-baseName = "xhs_leviathan"
-isHero = 1
-label = "Fluidic Leviathan"
-maxHealth = 11568
-
-buildTime = 61
-ScaleSOD = 1
-possibleCraftNames = "Fluidic Leviathan"
-
-eventSelect = "XV_xhshero_Select"
-
-eventAcknowledge = "XV_xhshero_Acknowledge"
-
-eventAttack = "XV_xhshero_Attack"
-
-eventStop = "XV_xhshero_Stop"
-
-eventMove = "XV_xhshero_Move"
-
-eventRepair = "XV_xhshero_Repair"
-
-eventRedAlert = "XV_xhshero_RedAlert"
-
-eventYellowAlert = "XV_xhshero_YellowAlert"
-
-eventGreenAlert = "XV_xhshero_GreenAlert"
-
-eventTransport = "XV_xhshero_Transport"
-
-eventSelfDestruct = "XV_xhshero_SelfDestruct"
-
-eventDecommission = "XV_xhshero_Decommission"
+maxhealth = 11568
+combatspeed = 52
+impulsespeed = 78
+warpspeed = 679
+shieldrate = 46.27
+possiblecraftnames = "Fluidic Leviathan"
 
 
 
@@ -43,12 +70,71 @@ eventDecommission = "XV_xhshero_Decommission"
 
 
 
-
+enginestargethardpoints = "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp12" "hp14" "hp16" "hp18" "hp20"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp20"
+shieldgeneratortargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp15" "hp17" "hp19"
+sensorstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+hulltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp15" "hp17" "hp19"
+criticaltargethardpoints = "hp06" "hp08" "hp10" "hp12" "hp14" "hp16" "hp18" "hp20"
+weaponyellow = 1.0f
+weaponred = 0.75f
+hotkeylabel = "HOTKEY_F3"
+can_repair = 0
+officercost = 1
+buildtime = 116
 tooltip = "Hero Ship (Fluidic Leviathan)"
-
-verboseTooltip = "A named command vessel serving the Species 8472 fleet. Living biotechnology shapes this organism for operations beyond fluidic space. Special systems: 8472 Nebula Generation, 8472 Nebula Flux, 8472 Transient Rift. Availability follows the selected technology tree."
+verbosetooltip = "A named command vessel serving the Species 8472 fleet. Living biotechnology shapes this organism for operations beyond fluidic space. Special systems: 8472 Nebula Generation, 8472 Nebula Flux, 8472 Transient Rift. Availability follows the selected technology tree."
 dilithiumcost = 0
 metalcost = 0
 latinumcost = 0
-biomattercost = 1190
-crewCost = 0
+biomattercost = 1390
+crewcost = 0
+basename = "xhs_leviathan"
+ishero = 1
+label = "Fluidic Leviathan"
+scalesod = 1
+eventredalert = "XV_xhshero_RedAlert"
+eventyellowalert = "XV_xhshero_YellowAlert"
+eventgreenalert = "XV_xhshero_GreenAlert"
+eventtransport = "XV_xhshero_Transport"
+eventselfdestruct = "XV_xhshero_SelfDestruct"
+eventdecommission = "XV_xhshero_Decommission"
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "biolev4"
+
+weaponHardpoints1 = "hp01" "hp02" "hp03"
+
+weapon2 = "gnebulaGeneration"
+
+weaponHardpoints2 = "hp20"
+
+weapon3 = "gnebulaFlux"
+
+weaponHardpoints3 = "hp04"
+
+weapon4 = "gtransientRift"
+
+weaponHardpoints4 = "hp04"
+
+weapon5 = "biolev4"
+
+weaponHardpoints5 = "hp05"
+
+weapon6 = "xhbiph"
+
+weaponHardpoints6 = "hp06"
+
+maxspecialenergy = 6800
+
+specialenergyrate = 68

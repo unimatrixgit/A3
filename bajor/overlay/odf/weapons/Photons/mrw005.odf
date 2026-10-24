@@ -1,0 +1,63 @@
+//This is the main photon weapon file
+
+//Name of the ODF file for the ordinance for this weapon
+
+
+//Display name for this weapon
+
+
+//Time Delay between shots
+
+
+// Range within which the weapon will fire.
+//range = 575.0f
+
+
+//Sound which is played when the weapon fires
+
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "launcher"
+
+// Percent chance of hitting the target.
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a percentage)
+hitChance = 0.5
+	"bbattle.odf" 1.0
+	"fbattle.odf" 1.0
+	"kbattle.odf" 1.0
+	"rbattle.odf" 1.0
+	"fente.odf" 1.0
+	"fgalaxy.odf" 1.0
+	"kmartok.odf" 1.0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the attacker is full impulse
+impulseToHitModifier = -0.0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not attacker is stopped 
+stopToHitModifier = 0.2
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is full impulse
+toHitImpulseModifier = 0.0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is stopped 
+toHitStopModifier = 0.2
+
+
+
+wpnName = "Transphasic Torpedo"
+
+shotDelay = 8
+
+range = 600
+
+special = 0
+
+specialEnergyCost = 0
+
+fireSound = "pofwea.wav"
+
+ordName = "mrw005o"

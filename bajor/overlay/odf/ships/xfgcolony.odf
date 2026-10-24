@@ -1,0 +1,69 @@
+#include "colony.odf"
+
+enginesTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+
+lifeSupportTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+
+weaponsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+
+shieldGeneratorTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+
+sensorsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+
+hullTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+
+criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+
+baseName = "xfgcolony"
+
+race = "ferengi"
+
+unitName = "Mercenary Ferengi Colony Ship"
+
+tooltip = "Mercenary Ferengi Colony Ship"
+
+verboseTooltip = "Ferengi colony ship. Contracted at the Ferengi Service Yard for latinum."
+
+maxHealth = 700
+
+shieldRate = 4
+
+crewCost = 200
+
+maximumCrew = 300
+
+officerCost = 3
+
+dilithiumCost = 0
+
+metalCost = 0
+
+latinumCost = 350
+
+biomatterCost = 0
+
+buildTime = 35
+
+ScaleSOD = 1.5
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0
+
+hotkeyLabel = "HOTKEY_F5"
+
+possibleCraftNames = "Opportunity" "New Horizons" "Useful Assets" "Paid In Full"
+
+shieldGeneratorHitPoints = 140
+
+enginesHitPoints = 140
+
+weaponsHitPoints = 140
+
+lifeSupportHitPoints = 140
+
+sensorsHitPoints = 140
+
+weapon1 = "fcolonypod"
+
+weaponHardpoints1 = "hp10"

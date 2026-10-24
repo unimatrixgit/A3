@@ -1,0 +1,23 @@
+#include "phaser.odf"
+
+//Name of the ODF file for the ordinance for this weapon
+
+
+//Display name for this weapon
+wpnName = "Phaser"
+
+//Time Delay between shots
+shotDelay = 1.8f
+
+//Sound which is played when the weapon fires
+fireSound = "phfwea.wav"
+
+
+range = 598.0f
+specialEnergyCost = 36
+lifeSpan = 1.5
+Sprite = "cphaser"
+hitChance = 0.70
+damagebase = 174
+
+ordName = "mrw049o"

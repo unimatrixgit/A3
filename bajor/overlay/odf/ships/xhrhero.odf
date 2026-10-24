@@ -1,53 +1,67 @@
-#include "rbattle.odf"
-unitName = "Sela - Warbird"
+shielddelay = 1.0f
+rangescan = 800.0f
 
 
-baseName = "rbattle"
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 724
+lifesupporthitpoints = 724
+weaponshitpoints = 724
+shieldgeneratorhitpoints = 724
+sensorshitpoints = 724
+eventselect = "XSH_SelaSelect"
+eventacknowledge = "XSH_SelaAcknowledge"
+eventattack = "XSH_SelaAttack"
+eventstop = "XSH_SelaStop"
+eventmove = "XSH_SelaMove"
+eventrepair = "XSH_SelaRepair"
+canattackplanets = 1
+physicsfile = "sbattphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "Sela - Warbird"
 race = "romulan"
-isHero = 1
-label = "Sela - Warbird"
-maxHealth = 3620
-
-
-
-
-
-
-
-
-// Xaramada resource costs: calculated from original comparable.
-
-
-
-
-
-officerCost = 16
-buildTime = 31
-
-
-eventSelect = "XV_xhrhero_Select"
-
-eventAcknowledge = "XV_xhrhero_Acknowledge"
-
-eventAttack = "XV_xhrhero_Attack"
-
-eventStop = "XV_xhrhero_Stop"
-
-eventMove = "XV_xhrhero_Move"
-
-eventRepair = "XV_xhrhero_Repair"
-
-eventRedAlert = "XV_xhrhero_RedAlert"
-
-eventYellowAlert = "XV_xhrhero_YellowAlert"
-
-eventGreenAlert = "XV_xhrhero_GreenAlert"
-
-eventTransport = "XV_xhrhero_Transport"
-
-eventSelfDestruct = "XV_xhrhero_SelfDestruct"
-
-eventDecommission = "XV_xhrhero_Decommission"
+maxhealth = 3620
+sanecrewlossmethod = 1
+shieldrate = 14.48
+combatspeed = 83
+impulsespeed = 78
+warpspeed = 924
+possiblecraftnames = "D'desedex" "D'entin" "D'ereq" "D'seret" "D'varian" "D'vinn"
 
 
 
@@ -60,12 +74,98 @@ eventDecommission = "XV_xhrhero_Decommission"
 
 
 
+
+
+
+
+
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+weaponyellow = 1.5f
+weaponred = 2.0f
+hotkeylabel = "HOTKEY_F4"
+officercost = 16
+buildtime = 60
 tooltip = "Hero Ship (Sela - Warbird)"
+verbosetooltip = "A named command vessel serving the Romulan fleet. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Shield Inversion Beam. Availability follows the selected technology tree."
 
-verboseTooltip = "A named command vessel serving the Romulan fleet. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Shield Inversion Beam. Availability follows the selected technology tree."
-weapon9 = "gselfdes"
 dilithiumcost = 880
 metalcost = 380
 latinumcost = 0
 biomattercost = 0
-crewCost = 1060
+crewcost = 1060
+ishero = 1
+label = "Sela - Warbird"
+eventdecommission = "XV_xhrhero_Decommission"
+basename = "xselahero"
+scalesod = 0.5
+eventredalert = "XSH_SelaRedAlert"
+eventyellowalert = "XSH_SelaYellowAlert"
+eventgreenalert = "XSH_SelaGreenAlert"
+eventtransport = "XSH_SelaTransport"
+eventcloakengage = "XSH_SelaCloakEngage"
+eventcloakdisengage = "XSH_SelaCloakDisengage"
+eventselfdestruct = "XSH_SelaSelfDestruct"
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "rc06phas"
+
+weaponHardpoints1 = "hp09" "hp10" "hp11" "hp12" "hp13"
+
+weapon2 = "rc05phot"
+
+weaponHardpoints2 = "hp18"
+
+weapon3 = "rc03pul"
+
+weaponHardpoints3 = "hp14"
+
+weapon4 = "rc03pul"
+
+weaponHardpoints4 = "hp15"
+
+weapon5 = "rc03pul"
+
+weaponHardpoints5 = "hp16"
+
+weapon6 = "rc03pul"
+
+weaponHardpoints6 = "hp17"
+
+weapon7 = "grcloak"
+
+weaponHardpoints7 = "hp19"
+
+weapon8 = "gshieldi"
+
+weaponHardpoints8 = "hp20"
+
+weapon9 = "gselfdes"
+
+weaponHardpoints9 = "hp19"
+
+weapon10 = "rc06phas"
+
+weaponHardpoints10 = "hp01"
+
+weapon11 = "rc05phot"
+
+weaponHardpoints11 = "hp02"
+
+maxspecialenergy = 1600
+
+specialenergyrate = 16

@@ -31,7 +31,7 @@ shieldRate = 15
 
 
 //Even though we are a shipyard we don't have a repair facility
-repairFacility = 0
+
 decommissionFacility = 0
 
 //Possible Craft Names
@@ -160,3 +160,7 @@ biomatterCost = 0
 tooltip = "Shipyard (Enterprise Legacy Yard)"
 
 verboseTooltip = "Produces the vessels listed in its construction menu. Starfleet engineering supports a disciplined, versatile fleet."
+
+repairFacility = 1
+
+repairHardpoint = "HP01"

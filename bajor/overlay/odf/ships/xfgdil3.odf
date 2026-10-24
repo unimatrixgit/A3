@@ -1,0 +1,99 @@
+#include "freight.odf"
+enginesTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
+lifeSupportTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
+weaponsTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
+shieldGeneratorTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
+sensorsTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
+hullTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
+criticalTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
+
+
+
+race = "ferengi"
+
+
+
+
+
+
+
+maxHealth = 500
+
+shieldRate = 4
+
+crewCost = 100
+
+maximumCrew = 150
+
+officerCost = 3
+
+
+
+
+
+
+
+biomatterCost = 0
+
+buildTime = 35
+
+ScaleSOD = 1.5
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0
+
+
+
+possibleCraftNames = "Opportunity" "New Horizons" "Useful Assets" "Paid In Full"
+
+shieldGeneratorHitPoints = 100
+
+enginesHitPoints = 100
+
+weaponsHitPoints = 100
+
+lifeSupportHitPoints = 100
+
+sensorsHitPoints = 100
+
+
+
+maxDilithium = 300
+
+maxLatinum = 150
+
+
+
+
+
+
+
+
+
+
+
+resourcesCanHandle = "dilithium"
+
+
+weaponHardpoints1 = "hp01"
+
+
+
+hotkeyLabel = "HOTKEY_F6"
+
+unitName = "Mercenary Ferengi Dilithium Collector II"
+
+tooltip = "Ferengi Dil Equipment II"
+
+verboseTooltip = "Tier-II resource equipment: twice the base Ferengi extraction rate. Research required."
+
+latinumCost = 500
+
+dilithiumCost = 0
+
+metalCost = 0
+
+weapon1 = "xfgmindil3"
+
+baseName = "xfgdil3"

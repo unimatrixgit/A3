@@ -1,0 +1,55 @@
+//Name of the ODF file for the ordinance for this weapon
+
+
+//Display name for this weapon
+wpnName = "8472 Resource Extraction Beam"
+
+//tooltips
+tooltip = "8472_RESOURCEBEAM"
+verboseTooltip = "8472_RESOURCEBEAM_V"
+
+// location in popup palette
+buttonSlot = 1
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+//It is a special weapon
+special = 1
+
+
+//Time Delay between shots
+shotDelay = 0.0
+
+// Range within which the weapon will fire.
+range = 180.0f
+
+//Sound which is played when the weapon fires
+fireSound = "resourceExtract.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "toggleweapon"
+
+//The crew status (yellow or red) does NOT affect the weapon fire rate
+crewAffectsWeaponDelay = 0
+
+// Need a target for this one
+needTarget = 1
+
+toggle = 1
+
+//Don't automatically switch to attack mode after launching a mine
+switchToAttack = 0
+
+// set target restrictions
+targetAlliedCraft = 1
+targetAlliedBuildings = 1
+targetEnemyCraft = 1
+targetEnemyBuildings = 1
+
+
+animateOwner = 1
+ordName = "xsbext1o"

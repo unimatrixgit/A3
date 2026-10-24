@@ -1,0 +1,81 @@
+//Display name for this weapon
+
+
+//tooltips
+
+
+
+//Name of the ODF file for the ordinance for this weapon
+
+
+//Location of the button in the speed panel
+
+
+// location of the button in the popup palette
+
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 10
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+// Mark this as a special weapon.
+special = 1
+
+//Maxiumum number of targets
+
+
+//Time Delay between shots
+
+
+// Range within which the weapon will fire.
+range = 800.0f
+
+//Sound which is played when the weapon fires
+fireSound = "swfengof.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "areacannon"
+
+//Should not be used
+wpnReticle = "gblast"
+
+//UNKNOWN
+wpnPriority = 0
+
+//UNKNOWN
+wpnCategory = "ARCA"
+
+// 	HIT_EVERYONE = 0,
+//	HIT_ALLIES = 1,
+//	HIT_ENEMIES = 2
+hitCondition = 2
+
+//this special weapon can be assimilated by the borg tech assimilator
+
+
+
+wpnName = "Engine Embargo"
+
+tooltip = "Engine Embargo"
+
+verboseTooltip = "Temporarily disables enemy engines."
+
+buttonSlot = 3
+
+popupSlot = 3
+
+hotkeyLabel = "HOTKEY_F3"
+
+shotDelay = 25
+
+specialEnergyCost = 600
+
+maxTargets = 1
+
+ordName = "xfgnengineo"

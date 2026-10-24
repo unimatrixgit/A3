@@ -1,0 +1,117 @@
+shielddelay = 1.0f
+rangescan = 800.0f
+maxspecialenergy = 1200
+specialenergyrate = 15
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 0.5
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 5
+fireball = "xfirebmd"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "cruiser"
+attackpower = 0.75f
+intrinsicvalue = 0.30f
+engineshitpoints = 1000
+lifesupporthitpoints = 1000
+weaponshitpoints = 1000
+shieldgeneratorhitpoints = 1000
+sensorshitpoints = 1000
+eventselect = "XV_fenta_Select"
+eventacknowledge = "XV_fenta_Acknowledge"
+eventattack = "XV_fenta_Attack"
+eventstop = "XV_fenta_Stop"
+eventmove = "XV_fenta_Move"
+eventrepair = "XV_fenta_Repair"
+physicsfile = "ffrigatephys.odf"
+trekphysicsfile = "ffrigatephys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "C"
+unitname = "Mirror Constitution Class Refit"
+race = "federation"
+maxhealth = 2850
+shieldrate = 38
+possiblecraftnames = "Mirror Constitution Class Refit"
+weapon1 = "mrw021"
+weaponhardpoints1 = "hp01" "hp02" "hp05"
+weapon2 = "mrw020"
+weaponhardpoints2 = "hp04"
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hulltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
+criticaltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18" "hp19" "hp20"
+weaponyellow = 1.0f
+weaponred = 2.0f
+attack_path0 = "p2.pth"
+attack_path1 = "p3.pth"
+
+scalesod = 0.8125
+officercost = 7
+
+weapon3 = "fentatoentb"
+weaponhardpoints3 = "hp01"
+tooltip = "Mirror Constitution Class Refit"
+
+
+
+
+
+crewcost = 295
+ishero = 0
+label = "USS Enterprise NCC-1701-A"
+eventredalert = "XV_fenta_RedAlert"
+eventyellowalert = "XV_fenta_YellowAlert"
+eventgreenalert = "XV_fenta_GreenAlert"
+eventtransport = "XV_fenta_Transport"
+eventselfdestruct = "XV_fenta_SelfDestruct"
+eventdecommission = "XV_fenta_Decommission"
+weapon4 = "mrw021"
+weaponhardpoints4 = "hp03"
+weapon5 = "mrw005"
+weaponhardpoints5 = "hp06"
+
+
+baseName = "mrc010"
+
+dilithiumCost = 606
+
+metalCost = 206
+
+latinumCost = 0
+
+biomatterCost = 0
+
+buildTime = 106
+
+hotkeyLabel = "HOTKEY_F4"
+
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

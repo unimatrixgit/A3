@@ -1,0 +1,65 @@
+//Name of the ODF file for the ordinance for this weapon
+ordName = "plasmabanko"
+
+// Mark this as a special weapon.
+special = 1
+
+needTarget = 1
+
+//Display name for this weapon
+wpnName = "Plasma Bank Overload"
+
+//tooltips
+tooltip = "CARD_POD1"
+verboseTooltip = "CARD_POD1_V"
+
+//Location of the button in the speed panel
+
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 5
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+//Time Delay between shots
+shotDelay = 1.0
+
+// Range within which the weapon will fire.
+range = 575.0f
+
+//Sound which is played when the weapon fires
+fireSound = "plasmaBank.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "launcher"
+
+//Should not be used
+wpnReticle = "gblast"
+
+//UNKNOWN
+wpnPriority = 0
+
+//UNKNOWN
+wpnCategory = "ARCA"
+
+// 	HIT_EVERYONE = 0,
+//	HIT_ALLIES = 1,
+//	HIT_ENEMIES = 2
+hitCondition = 2
+
+//this special weapon can be assimilated by the borg tech assimilator
+
+
+
+buttonSlot = 1
+
+popupSlot = 1
+
+hotkeyLabel = "HOTKEY_F1"
+
+assimilatable = "carpod1"

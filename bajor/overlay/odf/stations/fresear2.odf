@@ -34,10 +34,9 @@ animation = 2
 //**********************************************************************
 //Construction Parameters
 
-buildItem0 = "fedpod6"
-buildItem1 = "fedpod7"
-buildItem2 = "fedpod8"
-buildItem3 = "fedpod9"
+
+
+
 
 //**********************************************************************
 
@@ -105,23 +104,12 @@ transporter = 1
 crewCost = 200
 officerCost = 15
 buildTime = 150
-
-baseName = "xvstock_fresear2"
-
-podhardpoints = "pod01" "pod02" "pod03" "pod04"
-
 enginestargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
-
 lifesupporttargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
-
 weaponstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
-
 shieldgeneratortargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
-
 sensorstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
-
 hulltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
-
 criticaltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
 
 dilithiumCost = 350
@@ -135,3 +123,16 @@ biomatterCost = 0
 tooltip = "Research Facility (Sirius Class)"
 
 verboseTooltip = "Supports the technologies and upgrades available in its research menu. Starfleet engineering supports a disciplined, versatile fleet."
+
+baseName = "mrst_fed"
+
+podHardpoints = "pod01" "pod02" "pod03" "pod04" "mirrorpod"
+
+
+buildItem0 = "fedpod6"
+
+buildItem1 = "fedpod7"
+
+buildItem2 = "fedpod8"
+
+buildItem3 = "fedpod9"

@@ -1,0 +1,25 @@
+#include "photon.odf"
+
+//Name of the ODF file for the ordinance for this weapon
+
+
+//Display name for this weapon
+wpnName = "Plasma Bank"
+
+//Time Delay between shots
+shotDelay = 1.5f
+
+//Sound which is played when the weapon fires
+fireSound = "porwea.wav"
+
+
+range = 588.0f
+specialEnergyCost = 18
+lifeSpan = 1.8
+Sprite = "cphoton"
+hitChance = 0.83
+
+
+damagebase = 180
+
+ordName = "mrw011o"

@@ -4,7 +4,7 @@
 race = "klingon"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Maj'targh Class"
+
 
 //tooltips
 
@@ -42,10 +42,10 @@ impulseSpeed = 79
 warpSpeed = 0
 
 //Maximum Value of Special Energy
-maxSpecialEnergy = 2400
+
 
 //Rate at which special energy recharges (points per second... we think)
-specialEnergyRate = 24 
+
 
 //**********************************************************************
 //Construction Parameters
@@ -81,12 +81,12 @@ possibleCraftNames = "IKS Maj'targh" "IKS TujyopwaH " "IKS Vatlh'pI" "IKS MoDtIq
 //ART PARAMETERS & WEAPON NAMES
 
 // Towing Beam
-weapon1 = "gtracbm"
-weaponHardpoints1 = "hp04"
+
+
 
 // Phaser
-weapon2 = "kc03phas"
-weaponHardpoints2 = "hp01" "hp02" "hp03"
+
+
 
 // Hardpoints to hit for various systems and other locations.
 enginesTargetHardpoints = "hp12" "hp17" "hp22" "hp24" "hp26"
@@ -104,11 +104,11 @@ criticalTargetHardpoints = "hp12" "hp17" "hp22" "hp24" "hp26"
 
 can_sandd = 1
 
-hotkeyLabel = "HOTKEY_F1"
+
 
 // Xaramada: cloaking device.
 
-weaponHardpoints3 = "hp01"
+
 
 
 
@@ -121,28 +121,28 @@ weaponHardpoints3 = "hp01"
 
 
 officerCost = 2
-buildTime = 17
-buildItem0 = "kbase"
-buildItem1 = "kyard"
-buildItem2 = "ksensor"
-buildItem3 = "kturret"
-buildItem4 = "kmining"
-buildItem5 = "kresear"
-buildItem6 = "kresear2"
-buildItem7 = "kyard2"
-buildItem8 = "kturret2"
-buildItem9 = "ksuperbl"
-buildItem10 = "kyard3"
-buildItem11 = "korbital"
-buildItem12 = "ktrading"
 
-weapon4 = "xp9t"
 
-weaponHardpoints4 = "hp04"
 
-canAttack = 1
 
-combat = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 alert = 1
 
@@ -154,12 +154,70 @@ alert = 1
 
 
 
-tooltip = "Constructor (Maj'targh Class)"
 
-verboseTooltip = "Builds the structures listed in its construction menu. Klingon engineering serves the Empire with direct, relentless force. Special systems: Tractor Beam, Cloak. Availability follows the selected technology tree."
-weapon3 = "gkcloak"
-dilithiumcost = 125
-metalcost = 25
-latinumcost = 0
-biomattercost = 0
-crewCost = 100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+combat = 0
+
+attackPower = 0.0
+
+buildItem0 = "kyard"
+
+buildItem1 = "ksensor"
+
+buildItem2 = "kmining"
+
+buildItem3 = "kresear"
+
+buildItem4 = "kresear2"
+
+buildItem5 = "kyard2"
+
+buildItem6 = "korbital"
+
+buildItem7 = "ktrading"
+
+buildItem8 = "kupgrade"
+
+unitName = "Klingon Constructor I"
+
+tooltip = "Klingon Constructor I"
+
+verboseTooltip = "Tier 1: mining, regular yards, research and upgrade facilities."
+
+baseName = "kconst"
+
+dilithiumCost = 125
+
+metalCost = 25
+
+latinumCost = 0
+
+biomatterCost = 0
+
+crewCost = 150
+
+maximumCrew = 150
+
+buildTime = 20
+
+hotkeyLabel = "HOTKEY_F1"
+
+canAttack = 0
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0

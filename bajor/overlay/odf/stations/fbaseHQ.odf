@@ -201,12 +201,12 @@ keymapLabel = "starbase"
 
 
 
-crewCost = 800
+
 officerCost = 0
 buildTime = 50
-buildItem0 = "fconst"
-buildItem1 = "ffreight"
-buildItem2 = "xfuconst"
+
+
+
 
 // Equal visual span: vanilla Borg Nexus reference.
 ScaleSOD = 2.02258261
@@ -231,14 +231,36 @@ southBuffer = 0
 
 footprintBuffer = 72
 
-dilithiumCost = 2200
 
-metalCost = 2200
+
+
+
+
+
+
+
+tooltip = "Starbase (Starfleet Command)"
+
+verboseTooltip = "A fortified center for fleet operations and local production. Starfleet engineering supports a disciplined, versatile fleet."
+
+repairFacility = 0
+
+buildItem0 = "fconst"
+
+buildItem1 = "fconst2"
+
+buildItem2 = "xfuconst"
+
+buildItem3 = "xu3fed2"
+
+buildItem4 = "ffreight"
+
+dilithiumCost = 1500
+
+metalCost = 1500
 
 latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Starbase (Starfleet Command)"
-
-verboseTooltip = "A fortified center for fleet operations and local production. Starfleet engineering supports a disciplined, versatile fleet."
+crewCost = 150

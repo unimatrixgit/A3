@@ -29,19 +29,45 @@ possibleCraftNames =
 
 
 
-crewCost = 150
+
 officerCost = 10
 buildTime = 100
-buildItem0 = "xkuconst"
 
-dilithiumCost = 500
 
-metalCost = 1000
+
+
+
+
+
+
+
+
+tooltip = "Starbase (Klingon Prison)"
+
+verboseTooltip = "A fortified center for fleet operations and local production. Klingon engineering serves the Empire with direct, relentless force."
+
+repairFacility = 0
+
+buildItem0 = "kconst"
+
+buildItem1 = "kconst2"
+
+buildItem2 = "xkuconst"
+
+buildItem3 = "kfreight"
+
+buildItem4 = "kcargo"
+
+buildItem5 = "ksrepair"
+
+buildItem6 = "kdestroy2"
+
+dilithiumCost = 1500
+
+metalCost = 1500
 
 latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Starbase (Klingon Prison)"
-
-verboseTooltip = "A fortified center for fleet operations and local production. Klingon engineering serves the Empire with direct, relentless force."
+crewCost = 150

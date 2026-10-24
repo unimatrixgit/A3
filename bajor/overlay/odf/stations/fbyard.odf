@@ -196,13 +196,13 @@ baseName = "fyard2"
 crewCost = 600
 officerCost = 4
 buildTime = 35
-buildItem0 = "fconst"
-buildItem1 = "fcolony"
-buildItem2 = "ffrigate"
-buildItem3 = "fgalaxy"
-buildItem4 = "fspecial"
-buildItem5 = "fbattle"
-buildItem6 = "xfuconst"
+
+
+
+
+
+
+
 
 dilithiumCost = 300
 
@@ -215,3 +215,23 @@ biomatterCost = 0
 tooltip = "Shipyard (Bigstar-class Advanced Shipyard)"
 
 verboseTooltip = "Produces the vessels listed in its construction menu. Starfleet engineering supports a disciplined, versatile fleet."
+
+repairFacility = 0
+
+buildItem0 = "fconst"
+
+buildItem1 = "fconst2"
+
+buildItem2 = "xfuconst"
+
+buildItem3 = "xu3fed2"
+
+buildItem4 = "fcolony"
+
+buildItem5 = "ffrigate"
+
+buildItem6 = "fgalaxy"
+
+buildItem7 = "fspecial"
+
+buildItem8 = "fbattle"

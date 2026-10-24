@@ -1,0 +1,192 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 1500
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 15
+
+
+//Even though we are a shipyard we don't have a repair facility
+
+decommissionFacility = 0
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Cestus Prime" "Bolarus Prime" "Altair Prime" "Barcon Prime"
+	"Idran Prime" "Invernia Prime" "Ledonia Prime" "Janus Prime"
+	"Tellar Prime"
+
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//Construction Parameters
+
+
+//Hardpoint location for building.
+buildHardpoint = "root"
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//**********************************************************************
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "AdvShipyardSelect"
+eventAcknowledge = "AdvShipyardAcknowledge"
+eventDecommission = "AdvShipyardDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "shipyard"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "adv_shipyard"
+
+
+//************************************************************
+// Brian additions for context sensitive menus
+builder_ship = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+// make it bigger
+ScaleSOD = 2.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+
+
+
+
+
+officerCost = 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+repairFacility = 1
+
+repairHardpoint = "HP01"
+
+buildItem0 = "mrc021"
+
+buildItem1 = "mrc036"
+
+buildItem2 = "mrc037"
+
+buildItem3 = "mrc038"
+
+buildItem4 = "mrc039"
+
+buildItem5 = "mrc040"
+
+buildItem6 = "mrc041"
+
+buildItem7 = "mrc042"
+
+buildItem8 = "mrc043"
+
+buildItem9 = "mrc044"
+
+dilithiumCost = 600
+
+metalCost = 400
+
+latinumCost = 0
+
+biomatterCost = 0
+
+baseName = "mryfedb"
+
+unitName = "Federation Mirror Universe Yard 2"
+
+tooltip = "Federation Mirror Universe Yard 2"
+
+verboseTooltip = "Builds controllable Mirror Universe counterparts. Double normal weapon damage, 75 percent original durability and 125 percent original size. No summoning research is required."
+
+buildTime = 100
+
+crewCost = 150
+
+maximumCrew = 150
+
+hotkeyLabel = "HOTKEY_F8"

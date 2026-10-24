@@ -40,30 +40,7 @@ specialenergyrate = 6.8
 //SHIP NAMES
 
 //Possible Craft Names
-possibleCraftNames = 
-	"USS Wolverine" "USS Relentless" "USS Hurricane" 
-	"USS Spitfire" "USS Havoc" "USS Kingfisher" "USS Nomad"
-	"USS Renegade" "USS Vigilant" "USS Man-o-War" "USS Savannah"
-	"USS Ajax" "USS Law" "USS Cheyenne" "USS Barracuda"
-	"USS Armstead" "USS Concord" "USS Crockett" "USS Eagle"
-	"USS Hornet" "USS Potemkin" "USS Revere" "USS Rockford"
-	"USS Triumph" "USS Alaska" "USS Michigan" "USS Rome"
-	"USS Merrimack" "USS Monitor" "USS Champion" "USS Sioux"
-	"USS Warspite" "USS Ramses" "USS Thor" "USS Triton"
-	"USS Loki" "USS Titan" "USS Aldebaran" "USS Treplev"
-	"USS Leyte" "USS Coral Sea" "USS Sirocco" "USS Kant"
-	"USS Vanya" "USS Medvedev" "USS Eclipse"
-	"USS Lee" "USS Grant" "USS Galahad" "USS Gawain"
-	"USS Morgana" "USS Pendragon" "USS Myrmidon"  
-	"USS Baton Rouge" "USS Fargo" "USS Cormir" "USS Victoria"
-	"USS Helena" "USS Corvus" "USS Pleiades" "USS Tsunami"
-	"USS Mongoose" "USS Cobra" "USS Wasp" "USS Scorpion"
-	"USS Condor" "USS Albatross" "USS Voltaire" "USS Python"
-	"USS Vasily" "USS Falkirk" "USS Stromming" "USS Zeppelin"
-	"USS Matador" "USS Turin" "USS Valiant" "USS Logan"
-	"USS Quillon" "USS Gauntlet" "USS Halberd" "USS Monsoon"                      
-	"USS Tenacious" "USS Javelin" "USS Sao Paulo" "USS Baracus"
-	"USS Maya"
+
 
 
 //**********************************************************************
@@ -169,7 +146,6 @@ race = "bajoran"
 
 
 
-baseName = "br3_bjinterceptor"
 
 
 
@@ -194,16 +170,17 @@ baseName = "br3_bjinterceptor"
 
 
 
-enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
-lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
-weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29"
-shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
-sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
-hulltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
-criticaltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+
+
+
+
+
+
+
+
 
 // Visual size: 150 percent of pre-patch scale.
-ScaleSOD = 0.72
+
 
 
 
@@ -242,32 +219,70 @@ damagedscan = 125.0
 
 weapon1 = "fdefiantpulse"
 
-weaponHardpoints1 = "hp01"
+
 
 weapon2 = "fdefiantpulse"
 
-weaponHardpoints2 = "hp02"
+
 
 weapon3 = "fdefiantpulse"
 
-weaponHardpoints3 = "hp03"
+
 
 weapon4 = "fdefiantpulse"
 
-weaponHardpoints4 = "hp04"
+
 
 weapon5 = "fdefiantphot"
 
-weaponHardpoints5 = "hp05"
+
 
 weapon6 = "fdefiantphot"
 
-weaponHardpoints6 = "hp06"
+
 
 weapon7 = "xbj_gamine"
 
-weaponHardpoints7 = "hp14" "hp15"
+
 
 weapon8 = "xbj_gfcloak"
 
-weaponHardpoints8 = "hp09"
+
+
+
+
+ScaleSOD = 2.199721
+
+enginestargethardpoints = "hardpoints"
+
+lifesupporttargethardpoints = "hardpoints"
+
+weaponstargethardpoints = "hardpoints"
+
+shieldgeneratortargethardpoints = "hardpoints"
+
+sensorstargethardpoints = "hardpoints"
+
+hulltargethardpoints = "hardpoints"
+
+criticaltargethardpoints = "hardpoints"
+
+weaponhardpoints1 = "hardpoints"
+
+weaponhardpoints2 = "hardpoints"
+
+weaponhardpoints3 = "hardpoints"
+
+weaponhardpoints4 = "hardpoints"
+
+weaponhardpoints5 = "hardpoints"
+
+weaponhardpoints6 = "hardpoints"
+
+weaponhardpoints7 = "hardpoints"
+
+weaponhardpoints8 = "hardpoints"
+
+baseName = "bv4_bjinterceptor"
+
+possibleCraftNames = "BMS Kendra" "BMS Dahkur" "BMS Rakantha" "BMS Hathon" "BMS Jalanda" "BMS Dakor" "BMS Tozhat" "BMS Musilla" "BMS Hedrikspool" "BMS Dakhur" "BMS Ashalla" "BMS Dahkur Dawn" "BMS Kendra Spirit" "BMS Bajoran Dawn" "BMS Prophets Grace" "BMS First Light" "BMS Celestial Dawn" "BMS Valley Guardian" "BMS Militia Resolve" "BMS Freedom of Bajor" "BMS Dahkur Sentinel" "BMS Rakantha Shield" "BMS Kendra Vigil" "BMS Bajor Ascendant" "BMS Jalanda Star" "BMS Hathon Guard" "BMS Emissarys Hope" "BMS Liberation" "BMS Gratitude" "BMS New Dawn" "BMS Dahkur Resolve" "BMS Celestial Guardian"

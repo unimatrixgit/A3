@@ -1,0 +1,103 @@
+#include "cruise1.odf"
+
+unitName = "Mercenary Ferengi D'Kora Battleship"
+
+tooltip = "Mercenary Ferengi D'Kora Battleship"
+
+verboseTooltip = "Latinum-funded Ferengi contract vessel. Available from the Mercenary Ferengi Contract Yard."
+
+baseName = "xfgbatt"
+
+race = "ferengi"
+
+classLabel = "craft"
+
+aiName = "CraftProcess"
+
+shipclass = "battleship"
+
+isHero = 0
+
+maxHealth = 3200
+
+shieldRate = 13
+
+shieldProtection = 1
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0
+
+crewCost = 600
+
+maximumCrew = 750
+
+officerCost = 12
+
+buildTime = 100
+
+dilithiumCost = 0
+
+metalCost = 0
+
+latinumCost = 850
+
+biomatterCost = 0
+
+ScaleSOD = 1.3
+
+hotkeyLabel = "HOTKEY_F5"
+
+possibleCraftNames = "Profit Margin" "Golden Rule" "Risk Premium" "Liquid Assets" "Fair Acquisition"
+
+shieldGeneratorHitPoints = 640
+
+enginesHitPoints = 640
+
+weaponsHitPoints = 640
+
+lifeSupportHitPoints = 640
+
+sensorsHitPoints = 640
+
+enginesTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14"
+
+lifeSupportTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14"
+
+weaponsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14"
+
+shieldGeneratorTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14"
+
+sensorsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14"
+
+hullTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14"
+
+criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14"
+
+weapon1 = "xfgbattb"
+
+weaponHardpoints1 = "hp10"
+
+weapon2 = "xfgbattb"
+
+weaponHardpoints2 = "hp11"
+
+weapon3 = "xfgbattb"
+
+weaponHardpoints3 = "hp12"
+
+weapon4 = "xfgbattb"
+
+weaponHardpoints4 = "hp13"
+
+weapon5 = "xfgbattt"
+
+weaponHardpoints5 = "hp14"
+
+weapon6 = "xfgbattt"
+
+weaponHardpoints6 = "hp15"
+
+weapon7 = "xfgbattt"
+
+weaponHardpoints7 = "hp16"

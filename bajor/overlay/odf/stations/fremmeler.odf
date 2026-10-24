@@ -34,7 +34,7 @@ sensorsHitPoints = 1500
 
 //Hardpoint location for building.
 
-repairhardpoint = "hp01"
+
 
 //**********************************************************************
 //Rate at which shield recharges (points per second... we think)
@@ -131,3 +131,7 @@ biomatterCost = 0
 tooltip = "Fleet Installation (Remmla class)"
 
 verboseTooltip = "A specialist installation supporting Federation operations. Starfleet engineering supports a disciplined, versatile fleet."
+
+repairFacility = 1
+
+repairHardpoint = "hp01"

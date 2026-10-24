@@ -1,0 +1,144 @@
+shielddelay = 3.0f
+maxspecialenergy = 8900
+specialenergyrate = 24
+rangescan = 1400.0f
+damagedscan = 100.0f
+footprintbuffer = 100.0f
+attackpower = 0.00f
+repairyellow = 2.0f
+repairred = 4.0f
+shieldgeneratorhitpoints = 2948
+engineshitpoints = 2238
+weaponshitpoints = 2963
+lifesupporthitpoints = 2928
+sensorshitpoints = 2408
+engineshitpercent = 0.0f
+lifesupporthitpercent = 10.5f
+weaponshitpercent = 0.0f
+shieldgeneratorhitpercent = 13.0f
+sensorshitpercent = 13.0f
+crewhitpercent = 13.5f
+hullhitpercent = 50.0f
+enginesrepairtime = 1.0f
+lifesupportrepairtime = 0.1f
+weaponsrepairtime = 2.0f
+shieldgeneratorrepairtime = 2.0f
+sensorsrepairtime = 3.0f
+enginescrewloss = 0.0f
+lifesupportcrewloss = 10.0f
+weaponscrewloss = 5.0f
+shieldgeneratorcrewloss = 15.0f
+sensorscrewloss = 5.0f
+lifesupportloss = 5.0f
+is_starbase = 0
+avoidanceclass = 1000
+weldingradius = 1.0
+ainame = "StarbaseProcess"
+fireball = "xfirebal"
+facility = 0
+has_crew = 1
+has_hitpoints = 1
+checkvalidresourceinterval = 10.0f
+race = "species8472"
+unitname = "Mirror Rift Maker"
+recyclesinplace = 1
+ishero = 0
+maxhealth = 8472
+combatspeed = 22
+impulsespeed = 32
+warpspeed = 0
+shieldrate = 18.6
+shieldprotection = 1.0
+
+
+buildhardpoint = "hp01"
+possiblecraftnames = "Mirror Rift Maker"
+animation = 2
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp12" "hp13" "hp14" "hp15" "hp16"
+weaponstargethardpoints = "hp02" "hp03" "hp04" "hp05"
+shieldgeneratortargethardpoints = "hp17" "hp18" "hp19" "hp20"
+sensorstargethardpoints = "hp12" "hp13" "hp14" "hp15" "hp16"
+hulltargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11"
+criticaltargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11"
+physicsfile = "8472_smotPhys.odf"
+classlabel = "starbase"
+
+
+alwaysrecomputerallypoint = 1
+alert = 1
+combat = 1
+transporter = 0
+ship = 1
+builder_ship = 1
+show_movement_autonomy = 1
+show_sw_autonomy = 1
+can_repair = 0
+can_sandd = 1
+can_explore = 1
+officercost = 2
+
+eventselect = "XV_8472_heromothership_Select"
+eventacknowledge = "XV_8472_heromothership_Acknowledge"
+eventattack = "XV_8472_heromothership_Attack"
+eventstop = "XV_8472_heromothership_Stop"
+eventmove = "XV_8472_heromothership_Move"
+eventrepair = "XV_8472_heromothership_Repair"
+eventredalert = "XV_8472_heromothership_RedAlert"
+eventyellowalert = "XV_8472_heromothership_YellowAlert"
+eventgreenalert = "XV_8472_heromothership_GreenAlert"
+eventtransport = "XV_8472_heromothership_Transport"
+eventselfdestruct = "XV_8472_heromothership_SelfDestruct"
+eventdecommission = "XV_8472_heromothership_Decommission"
+tooltip = "Mirror Rift Maker"
+
+
+
+
+
+crewcost = 0
+weapon1 = "mrw000"
+weaponhardpoints1 = "hp02"
+weapon2 = "mrw000"
+weaponhardpoints2 = "hp03"
+weapon3 = "mrw000"
+weaponhardpoints3 = "hp04"
+weapon4 = "mrw000"
+weaponhardpoints4 = "hp05"
+weapon5 = "mrw000"
+weaponhardpoints5 = "hp21"
+weapon6 = "mrw000"
+weaponhardpoints6 = "hp22"
+weapon7 = "mrw000"
+weaponhardpoints7 = "hp23"
+weapon8 = "mrw000"
+weaponhardpoints8 = "hp24"
+weapon9 = "mrw001"
+weaponhardpoints9 = "hp01"
+weapon10 = "mrw002"
+weaponhardpoints10 = "hp06"
+scalesod = 1.25
+
+baseName = "mrc001"
+
+dilithiumCost = 0
+
+metalCost = 0
+
+latinumCost = 0
+
+biomatterCost = 2381
+
+buildTime = 12
+
+hotkeyLabel = "HOTKEY_F2"
+
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."
+
+buildItem0 = "8472_active"
+
+buildItem1 = "8472_passive"
+
+buildItem2 = "714const"
+
+buildItem3 = "xsuconst"

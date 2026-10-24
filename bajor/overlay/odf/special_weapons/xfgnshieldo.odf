@@ -1,0 +1,43 @@
+//Programming Stuff DO NOT CHANGE
+classLabel = "shieldh"
+
+//The number of units which are subtracted from the Special Energy Reserve
+
+
+//The number of seconds which the special weapon works for
+specialValue = 15
+
+//The base amount of damage which the ordinance does with each hit
+damageBase = 0
+
+//The amount of variance applied to the damage (i.e. 10 + or - 2)
+damageVariance = 0
+
+//The threshold which must be exceeded to cause crew casualties prior
+//to shield exhaustion
+damageThreshold = 0
+
+//The multiplier by which any damage which exceeds the threshold is 
+//multiplied by to calculate the percentage of crew lost with that hit
+shieldCrewModifier = 0
+
+//The multiplier by which any damage which is applied to the hull is
+//multiplied by to calculate the percentage of crew lost with that hit
+hullCrewModifier = 0
+
+//Amount of time the ordinance will exists without hitting something
+lifeSpan = 10.0
+
+//How fast the shot moves
+shotSpeed = 250
+
+// Weapon geometry file name
+shotGeometry = "Wshldisr.sod"
+
+// Rate to spin the ordnance geometry.
+rollRate = 12
+
+// The sound of the ordinance hitting the Target
+hitSound = "swfshldx.wav"
+
+specialEnergyCost = 600

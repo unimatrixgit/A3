@@ -1,0 +1,23 @@
+#include "photon.odf"
+
+//Name of the ODF file for the ordinance for this weapon
+
+
+//Display name for this weapon
+wpnName = "Quantum Torpedo"
+
+//Time Delay between shots
+shotDelay = 1.3f
+
+//Sound which is played when the weapon fires
+fireSound = "pofwea.wav"
+
+specialEnergyCost = 12
+
+shotSpeed = 520.0
+Sprite = "wbluephoton"
+radius = 3.6f
+range = 596.0f
+damagebase = 210
+
+ordName = "mrw030o"

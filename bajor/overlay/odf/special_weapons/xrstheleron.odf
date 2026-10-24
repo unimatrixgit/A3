@@ -1,0 +1,92 @@
+//Name of the ODF file for the ordinance for this weapon
+ordName = "theleronbeam"
+
+//Display name for this weapon
+wpnName = "Theleron Beam"
+
+//tooltips
+tooltip = "Theleron Beam"
+verboseTooltip = "Fires a highly concentrated beam of theleron radiation, possibly destroying the ship and most certainly killing the crew"
+
+//Location of the button in the speed panel
+
+
+// location of the button in the popup palette
+
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+
+
+// Ignore the shield
+ignoreShield = 1
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+//Time Delay between shots
+shotDelay = 7.5
+
+// Range within which the weapon will fire.
+range = 700.0f
+
+//Sound which is played when the weapon fires
+fireSound = "swbultrf.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "cannon"
+
+// Percent chance of hitting the target.
+hitChance = 1.00
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the attacker is full impulse
+impulseToHitModifier = -0.25
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not attacker is stopped 
+stopToHitModifier = 0.15
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is full impulse
+toHitImpulseModifier = 0.20
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is stopped 
+toHitStopModifier = 0.50
+
+//Special
+special = 1
+
+// Set the target location flag
+targetLocation = 1
+
+// Set the need target flag
+needTarget = 1
+
+targetEnemyCraft = 0
+targetAlliedCraft = 0
+targetEnemyBuildings = 0
+AItargetLocation = 1
+
+//this special weapon can be assimilated by the borg tech assimilator
+//assimilatable = "borpod9"
+
+
+
+
+
+popupSlot = 4
+
+
+
+assimilatable = "xrthelpod"
+
+buttonSlot = 1
+
+hotkeyLabel = "HOTKEY_F1"
+
+buttonPriority = 100

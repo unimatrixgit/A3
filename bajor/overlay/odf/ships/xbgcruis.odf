@@ -1,0 +1,101 @@
+#include "cruise1.odf"
+
+unitName = "Mercenary Ferengi Tokron Cruiser"
+
+tooltip = "Mercenary Ferengi Tokron Cruiser"
+
+
+
+baseName = "xfgcruis"
+
+
+
+classLabel = "craft"
+
+aiName = "CraftProcess"
+
+shipclass = "cruiser"
+
+isHero = 0
+
+maxHealth = 2200
+
+shieldRate = 9
+
+shieldProtection = 1
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0
+
+crewCost = 300
+
+maximumCrew = 375
+
+officerCost = 8
+
+buildTime = 70
+
+
+
+
+
+
+
+
+
+ScaleSOD = 1.3
+
+hotkeyLabel = "HOTKEY_F4"
+
+possibleCraftNames = "Profit Margin" "Golden Rule" "Risk Premium" "Liquid Assets" "Fair Acquisition"
+
+shieldGeneratorHitPoints = 440
+
+enginesHitPoints = 440
+
+weaponsHitPoints = 440
+
+lifeSupportHitPoints = 440
+
+sensorsHitPoints = 440
+enginesTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04"
+lifeSupportTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04"
+weaponsTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04"
+shieldGeneratorTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04"
+sensorsTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04"
+hullTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04"
+criticalTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04"
+
+weapon1 = "xfgcruisb"
+weaponHardpoints1 = "hp01"
+
+weapon2 = "xfgcruisb"
+weaponHardpoints2 = "hp03"
+
+weapon3 = "xfgcruisb"
+weaponHardpoints3 = "hp02"
+
+weapon4 = "xfgcruisb"
+weaponHardpoints4 = "hp05"
+
+weapon5 = "xfgcruist"
+weaponHardpoints5 = "hp04"
+
+weapon6 = "xfgcruist"
+weaponHardpoints6 = "hp06"
+
+weapon7 = "xfgcruist"
+weaponHardpoints7 = "hp16"
+
+race = "borg"
+
+dilithiumCost = 300
+
+metalCost = 200
+
+latinumCost = 0
+
+biomatterCost = 0
+
+verboseTooltip = "Borg contract paid in dilithium and metal. dilithium and metal-funded Ferengi contract vessel. Available from the Mercenary Ferengi Contract Yard."

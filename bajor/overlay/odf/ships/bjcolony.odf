@@ -39,14 +39,7 @@ shieldrate = 3
 //SHIP NAMES
 
 //Possible Craft Names
-possibleCraftNames = 
-	"USS Deneb" "USS Los Angeles" "USS Yuma" "USS Coventry"	"USS Pueblo"
-	"USS Syracuse" "USS Moscow" "USS Akron" "USS Beijing" "USS Izmir"
-	"USS Ankara" "USS Bogota" "USS Brisbane" "USS Aberdeen" "USS Algiers"
- 	"USS Barcelona" "USS Bonn" "USS Brussels" "USS Copenhagen" "USS Dakar"
-	"USS Frankfurt" "USS Helsinki" "USS Karachi" "USS Lagos" "USS Lisbon" 
-	"USS Madrid" "USS Nairobi" "USS Nassau" "USS New Delhi"	"USS Oslo" 
-	"USS Riyadh" "Sarajevo" "USS Seoul" "USS Singapore" "USS Sofia"
+
 
 
 //**********************************************************************
@@ -99,7 +92,7 @@ race = "bajoran"
 
 
 weapon1 = "fcolonypod"
-baseName = "br3_bjcolony"
+
 ScaleSOD = 0.6
 
 
@@ -153,3 +146,7 @@ physicsfile = "sbattphys.odf"
 rangescan = 800.0f
 
 damagedscan = 125.0
+
+baseName = "bv4_bjcolony"
+
+possibleCraftNames = "BMS Kendra" "BMS Dahkur" "BMS Rakantha" "BMS Hathon" "BMS Jalanda" "BMS Dakor" "BMS Tozhat" "BMS Musilla" "BMS Hedrikspool" "BMS Dakhur" "BMS Ashalla" "BMS Dahkur Dawn" "BMS Kendra Spirit" "BMS Bajoran Dawn" "BMS Prophets Grace" "BMS First Light" "BMS Celestial Dawn" "BMS Valley Guardian" "BMS Militia Resolve" "BMS Freedom of Bajor" "BMS Dahkur Sentinel" "BMS Rakantha Shield" "BMS Kendra Vigil" "BMS Bajor Ascendant" "BMS Jalanda Star" "BMS Hathon Guard" "BMS Emissarys Hope" "BMS Liberation" "BMS Gratitude" "BMS New Dawn" "BMS Dahkur Resolve" "BMS Celestial Guardian"

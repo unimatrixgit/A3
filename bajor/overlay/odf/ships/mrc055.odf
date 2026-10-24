@@ -1,0 +1,117 @@
+shielddelay = 1.0f
+rangescan = 800.0f
+maxspecialenergy = 3100
+specialenergyrate = 31
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 0.5
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 5
+fireball = "xfirebmd"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 0
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "frigate"
+attackpower = 0.50f
+intrinsicvalue = 0.50f
+engineshitpoints = 1576
+lifesupporthitpoints = 1415
+weaponshitpoints = 1588
+shieldgeneratorhitpoints = 1589
+sensorshitpoints = 1502
+eventselect = "XV_xhshero_Select"
+eventacknowledge = "XV_xhshero_Acknowledge"
+eventattack = "XV_xhshero_Attack"
+eventstop = "XV_xhshero_Stop"
+eventmove = "XV_xhshero_Move"
+eventrepair = "XV_xhshero_Repair"
+physicsfile = "sbattphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "C"
+race = "species8472"
+unitname = "Mirror Brood Sentinel"
+recyclesinplace = 1
+maxhealth = 2521.5
+combatspeed = 77
+impulsespeed = 78
+warpspeed = 903
+shieldrate = 13.45
+possiblecraftnames = "Mirror Brood Sentinel"
+weapon1 = "mrw064"
+weaponhardpoints1 = "hp01" "hp02" "hp03" "hp21" "hp22" "hp23"
+weapon2 = "gbiopulse"
+weaponhardpoints2 = "hp24"
+enginestargethardpoints = "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp06" "hp08" "hp10" "hp12" "hp14" "hp16" "hp18"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp21" "hp22" "hp23"
+shieldgeneratortargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp15" "hp17" "hp19"
+sensorstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+hulltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp15" "hp17" "hp19"
+criticaltargethardpoints = "hp06" "hp08" "hp10" "hp12" "hp14" "hp16" "hp18" "hp20"
+weaponyellow = 1.0f
+weaponred = 1.0f
+
+can_repair = 0
+officercost = 1
+
+scalesod = 1.875
+tooltip = "Mirror Brood Sentinel"
+
+
+
+
+
+crewcost = 0
+
+ishero = 0
+label = "Brood Sentinel"
+eventredalert = "XV_xhshero_RedAlert"
+eventyellowalert = "XV_xhshero_YellowAlert"
+eventgreenalert = "XV_xhshero_GreenAlert"
+eventtransport = "XV_xhshero_Transport"
+eventselfdestruct = "XV_xhshero_SelfDestruct"
+eventdecommission = "XV_xhshero_Decommission"
+weapon3 = "mrw064"
+weaponhardpoints3 = "hp04"
+weapon4 = "mrw002"
+weaponhardpoints4 = "hp05"
+
+baseName = "mrc055"
+
+dilithiumCost = 0
+
+metalCost = 0
+
+latinumCost = 0
+
+biomatterCost = 538
+
+buildTime = 75
+
+hotkeyLabel = "HOTKEY_F4"
+
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

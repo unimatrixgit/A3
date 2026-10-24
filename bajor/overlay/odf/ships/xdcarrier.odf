@@ -1,0 +1,155 @@
+// Begin main properties
+
+
+
+
+
+buildTime = 80.0
+officerCost = 15
+crewCost = 2000
+dilithiumCost = 1200
+metalCost = 300
+maxHealth = 1800
+shieldGeneratorHitPoints = 1030
+enginesHitPoints = 1050
+weaponsHitPoints = 1150
+lifeSupportHitPoints = 1010
+sensorsHitPoints = 1000
+shieldRate = 31.0
+maxSpecialEnergy = 1000
+specialEnergyRate = 20
+attackPower = 1.00f
+intrinsicValue = 0.50f
+shipclass = "battleship"
+enginesHitPercent = 5.0f
+lifeSupportHitPercent = 8.5f
+weaponsHitPercent = 5.0f
+shieldGeneratorHitPercent = 8.0f
+sensorsHitPercent = 8.0f
+crewHitPercent = 8.5f
+hullHitPercent = 57.0f
+
+// End main properties
+
+// Begin weapons
+
+// Multi-Targeting Phasers
+weapon1 = "xdca01"
+weaponHardpoints1 = "hp01"  "hp02"  "hp03"  "hp04"  "hp05"  "hp06"
+weapon2 = "xdca02"
+weaponHardpoints2 = "hp07"  "hp08"  "hp09"  "hp10"  "hp11"  "hp12"
+// Torpedos
+weapon3 = "xdca04"
+weaponHardpoints3 = "hp13" "hp14"
+weapon4 = "xdca04"
+weaponHardpoints4 = "hp15" "hp16"
+// Self Destruct
+weapon5 = "gselfdes"
+weaponHardpoints5 = "hp17"
+// Hardpoint for Special (deflector)
+//weapon6 = "Phased_Poleron_Beam"
+//weaponHardpoints6 = "hp17"
+// Hardpoints for fighter launchers
+//weapon6 = "Fighter_Launcher"
+//weaponHardpoints6 = "hp18"
+//weapon7 = "Fighter_Launcher"
+//weaponHardpoints7 = "hp19"
+
+// End weapons
+
+// Begin hardpoints
+
+enginesTargetHardpoints = "hp20" "hp21" "hp22" "hp23" "hp24" "hp25" "hp26" "hp27"
+lifeSupportTargetHardpoints = "hp56" "hp57" "hp58" "hp59" "hp60" "hp61" "hp62"
+weaponsTargetHardpoints = "hp28" "hp29" "hp30" "hp31" "hp32" "hp33"
+shieldGeneratorTargetHardpoints = "hp34" "hp35" "hp36" "hp37" "hp38" "hp39"
+sensorsTargetHardpoints = "hp40" "hp42" "hp43"
+hullTargetHardpoints = "hp44" "hp45" "hp46" "hp47" "hp48" "hp49" "hp50" "hp51" "hp52" "hp53" "hp54" "hp55"
+criticalTargetHardpoints = "hp63" "hp64"
+
+// End hardpoints
+
+// Begin ship names
+possibleCraftNames = 
+	"1st Div 1st Dread" "1st Div 2nd Dread" "1st Div 3rd Dread" 
+	"1st Div 4th Dread" "1st Div 5th Dread" "1st Div 6th Dread" 
+	"1st Div 7th Dread" "1st Div 8th Dread" "1st Div 9th Dread" 
+	"2nd Div 1st Dread" "2nd Div 2nd Dread" "2nd Div 3rd Dread" 
+	"2nd Div 4th Dread" "2nd Div 5th Dread" "2nd Div 6th Dread" 
+	"2nd Div 7th Dread" "2nd Div 8th Dread" "2nd Div 9th Dread" 
+	"3rd Div 1st Dread" "3rd Div 2nd Dread" "3rd Div 3rd Dread" 
+	"3rd Div 4th Dread" "3rd Div 5th Dread" "3rd Div 6th Dread" 
+	"3rd Div 7th Dread" "3rd Div 8th Dread" "3rd Div 9th Dread" 
+	"4th Div 1st Dread" "4th Div 2nd Dread" "4th Div 3rd Dread" 
+	"4th Div 4th Dread" "4th Div 5th Dread" "4th Div 6th Dread" 
+	"4th Div 7th Dread" "4th Div 8th Dread" "4th Div 9th Dread" 
+	"5th Div 1st Dread" "5th Div 2nd Dread" "5th Div 3rd Dread" 
+	"5th Div 4th Dread" "5th Div 5th Dread" "5th Div 6th Dread" 
+	"5th Div 7th Dread" "5th Div 8th Dread" "5th Div 9th Dread" 
+
+// End ship names
+
+// Begin misc properties
+
+shieldProtection = 1.0
+saneCrewLossMethod = 1
+combatSpeed = 100
+impulseSpeed = 150
+warpSpeed = 1500
+weaponYellow = 1.0f
+weaponRed = 1.5f
+
+ScaleSOD = 1.4
+avoidanceClass = 2
+canAttackPlanets = 1
+physicsFile = "sbattphys.odf"
+trekPhysicsFile = "trek_sbattphys.odf"
+fireball = "xfireblg"
+combat = 1
+alert = 1
+can_sandd = 1
+shipType = "B"
+shieldDelay = 3.0f
+rangeScan = 800.0f
+damagedScan = 125.0
+enginesRepairTime = 1.0f
+lifeSupportRepairTime = 0.1f
+weaponsRepairTime = 2.0f
+shieldGeneratorRepairTime = 2.0f
+sensorsRepairTime = 3.0f
+enginesCrewLoss = 5.0f
+lifeSupportCrewLoss = 3.0f
+weaponsCrewLoss = 2.0f
+shieldGeneratorCrewLoss = 2.0f
+sensorsCrewLoss = 2.0f
+lifeSupportLoss = 2.0f
+weldingRadius = 1.0
+classLabel = "craft"
+aiName = "CraftProcess"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+can_explore = 1
+
+// End misc properties
+
+
+unitName = "Dominion Carrier"
+
+tooltip = "Dominion Carrier"
+
+verboseTooltip = "Dominion heavy carrier with multi-targeting phasers and photon torpedoes. Built at the Founders Command Yard."
+
+race = "dominion"
+
+baseName = "xdcarrier"
+
+
+
+latinumCost = 0
+
+biomatterCost = 0
+
+hotkeyLabel = "HOTKEY_F3"

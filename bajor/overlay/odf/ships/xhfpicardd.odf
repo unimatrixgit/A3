@@ -1,62 +1,127 @@
-#include "battle.odf"
-unitName = "Jean-Luc Picard - Enterprise D"
+shielddelay = 1.0f
+rangescan = 800.0f
+
+
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 10
+lifesupporthitpoints = 10
+weaponshitpoints = 10
+shieldgeneratorhitpoints = 10
+sensorshitpoints = 10
+eventselect = "XV_fentd_Select"
+eventacknowledge = "XV_fentd_Acknowledge"
+eventattack = "XV_fentd_Attack"
+eventstop = "XV_fentd_Stop"
+eventmove = "XV_fentd_Move"
+eventrepair = "XV_fentd_Repair"
+canattackplanets = 1
+physicsfile = "fbattlephys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "Jean-Luc Picard - Enterprise D"
 label = "Jean-Luc Picard - Enterprise D"
-
-
-baseName = "fentd"
+basename = "fentd"
 race = "federation"
-isHero = 1
-possibleCraftNames = "Enterprise D"
-hotkeyLabel = ""
-maxHealth = 10000
-shieldRate = 100
-maxSpecialEnergy = 1000
-specialEnergyRate = 15
+ishero = 1
+possiblecraftnames = "Enterprise D"
+hotkeylabel = ""
+maxhealth = 10000
+shieldrate = 100
+officercost = 10
+buildtime = 30
+scalesod = 1.45
+trekphysicsfile = "fbattlephys.odf"
+eventredalert = "XV_fentd_RedAlert"
+eventyellowalert = "XV_fentd_YellowAlert"
+eventgreenalert = "XV_fentd_GreenAlert"
+eventtransport = "XV_fentd_Transport"
+eventselfdestruct = "XV_fentd_SelfDestruct"
+eventdecommission = "XV_fentd_Decommission"
+tooltip = "Hero Ship (Jean-Luc Picard - Enterprise D)"
+verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Tractor Beam. Availability follows the selected technology tree."
+dilithiumcost = 895
+metalcost = 385
+latinumcost = 0
+biomattercost = 0
+crewcost = 1065
 
-officerCost = 10
-buildTime = 30
-ScaleSOD = 1.45
-physicsFile = "fbattlephys.odf"
-trekPhysicsFile = "fbattlephys.odf"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 weapon1 = "fgalaxyphas"
+
 weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20" "hp21" "hp22" "hp23" "hp24" "hp25" "hp26" "hp27" "hp28" "hp29"
+
 weapon2 = "fgalaxyphot"
+
 weaponHardpoints2 = "hp30" "hp31"
 
-weaponHardpoints3 = "hp34"
-weapon4 = "gtracbm"
-weaponHardpoints4 = "hp33"
-eventSelect = "XV_fentd_Select"
-eventAcknowledge = "XV_fentd_Acknowledge"
-eventAttack = "XV_fentd_Attack"
-eventStop = "XV_fentd_Stop"
-eventMove = "XV_fentd_Move"
-eventRepair = "XV_fentd_Repair"
-eventRedAlert = "XV_fentd_RedAlert"
-eventYellowAlert = "XV_fentd_YellowAlert"
-eventGreenAlert = "XV_fentd_GreenAlert"
-eventTransport = "XV_fentd_Transport"
-eventSelfDestruct = "XV_fentd_SelfDestruct"
-eventDecommission = "XV_fentd_Decommission"
-
-
-
-
-
-
-
-
-
-tooltip = "Hero Ship (Jean-Luc Picard - Enterprise D)"
-
-verboseTooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Tractor Beam. Availability follows the selected technology tree."
 weapon3 = "gselfdes"
-dilithiumcost = 895
-metalcost = 385
-latinumcost = 0
-biomattercost = 0
-crewCost = 1065
+
+weaponHardpoints3 = "hp34"
+
+weapon4 = "gtracbm"
+
+weaponHardpoints4 = "hp33"
+
+weapon5 = "fgalaxyphas"
+
+weaponHardpoints5 = "hp32"
+
+weapon6 = "xhtphase"
+
+weaponHardpoints6 = "hp01"
+
+maxspecialenergy = 1000
+
+specialenergyrate = 15

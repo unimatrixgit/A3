@@ -1,12 +1,95 @@
-#include "kmartok.odf"
-unitName = "Martok - Negh'Var"
+shielddelay = 1.0f
+rangescan = 800.0f
 
 
-baseName = "kbattle"
-race = "klingon"
-isHero = 1
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 758
+lifesupporthitpoints = 758
+weaponshitpoints = 758
+shieldgeneratorhitpoints = 758
+sensorshitpoints = 758
+eventselect = "XV_xhkhero_Select"
+eventacknowledge = "XV_xhkhero_Acknowledge"
+eventattack = "XV_xhkhero_Attack"
+eventstop = "XV_xhkhero_Stop"
+eventmove = "XV_xhkhero_Move"
+eventrepair = "XV_xhkhero_Repair"
+canattackplanets = 1
+physicsfile = "sbattphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "Martok - Negh'Var"
+ishero = 1
 label = "Martok - Negh'Var"
-maxHealth = 3788
+race = "klingon"
+sanecrewlossmethod = 1
+maxhealth = 3788
+shieldrate = 15.15
+combatspeed = 91
+impulsespeed = 78
+warpspeed = 925
+possiblecraftnames = "Martok's Negh'Var"
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+weaponyellow = 1.0f
+weaponred = 0.75f
+basename = "kbattle"
+hotkeylabel = "HOTKEY_F4"
+officercost = 8
+buildtime = 71
+eventredalert = "XV_xhkhero_RedAlert"
+eventyellowalert = "XV_xhkhero_YellowAlert"
+eventgreenalert = "XV_xhkhero_GreenAlert"
+eventtransport = "XV_xhkhero_Transport"
+eventselfdestruct = "XV_xhkhero_SelfDestruct"
+eventdecommission = "XV_xhkhero_Decommission"
+tooltip = "Hero Ship (Martok - Negh'Var)"
+verbosetooltip = "A named command vessel serving the Klingon fleet. Klingon engineering serves the Empire with direct, relentless force. Special systems: Ion Cannon, Cloak. Availability follows the selected technology tree."
+dilithiumcost = 855
+metalcost = 365
+latinumcost = 0
+biomattercost = 0
+crewcost = 1040
 
 
 
@@ -15,62 +98,77 @@ maxHealth = 3788
 
 
 
-// Xaramada resource costs: calculated from original comparable.
 
 
 
 
 
-officerCost = 8
-buildTime = 71
-
-
-eventSelect = "XV_xhkhero_Select"
-
-eventAcknowledge = "XV_xhkhero_Acknowledge"
-
-eventAttack = "XV_xhkhero_Attack"
-
-eventStop = "XV_xhkhero_Stop"
-
-eventMove = "XV_xhkhero_Move"
-
-eventRepair = "XV_xhkhero_Repair"
-
-eventRedAlert = "XV_xhkhero_RedAlert"
-
-eventYellowAlert = "XV_xhkhero_YellowAlert"
-
-eventGreenAlert = "XV_xhkhero_GreenAlert"
-
-eventTransport = "XV_xhkhero_Transport"
-
-eventSelfDestruct = "XV_xhkhero_SelfDestruct"
-
-eventDecommission = "XV_xhkhero_Decommission"
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "kc10phas"
+
+weaponHardpoints1 = "hp14" "hp15" "hp16" "hp17"
+
+weapon2 = "kc04phot"
+
+weaponHardpoints2 = "hp18"
+
+weapon3 = "kc04phot"
+
+weaponHardpoints3 = "hp19"
+
+weapon4 = "kc04phot"
+
+weaponHardpoints4 = "hp20"
+
+weapon5 = "gselfdes"
+
+weaponHardpoints5 = "hp21"
+
+weapon6 = "gkcloak"
+
+weaponHardpoints6 = "hp21"
+
+weapon7 = "kc05pul"
+
+weaponHardpoints7 = "hp11"
+
+weapon8 = "kc05pul"
+
+weaponHardpoints8 = "hp12"
+
+weapon9 = "kc05pul"
+
+weaponHardpoints9 = "hp13"
 
 weapon10 = "ya0048"
 
 weaponHardpoints10 = "hp01"
 
+weapon11 = "kc10phas"
 
+weaponHardpoints11 = "hp02"
 
+weapon12 = "kc04phot"
 
+weaponHardpoints12 = "hp03"
 
+maxspecialenergy = 2400
 
-
-
-
-tooltip = "Hero Ship (Martok - Negh'Var)"
-
-verboseTooltip = "A named command vessel serving the Klingon fleet. Klingon engineering serves the Empire with direct, relentless force. Special systems: Ion Cannon, Cloak. Availability follows the selected technology tree."
-weapon6 = "gkcloak"
-weapon5 = "gselfdes"
-dilithiumcost = 855
-metalcost = 365
-latinumcost = 0
-biomattercost = 0
-crewCost = 1040
+specialenergyrate = 24

@@ -1,0 +1,136 @@
+Species 8472 Pack 07 (Research Stations and Fluidic Gate):
+
+ Hello:
+ I am Chiletrek and this mod contains my version of the Species 8472 Research Stations and the Fluidic Gate. 
+
+ Species 8472 is a powerful presence in the game, but it is always one of the most neglected races, still it is between the races with the best quality of stock models and textures; but after this many years since the game first came out, all races began having updates on their models and now I wanted to try and give Species 8472 some new models and, in this way, to update them a bit.
+
+
+ Things I made:
+
+1) New models and textures to replace the stock Species 8472 Enhancer (and pods), Biogenesis Core (and pods), Metogenesis Core and Fluidic Gate. All been been released together as they share the same texture color scheme and somewhat similar functions.
+
+2) New buildbuttons, wireframes, Admiral's Log pics and ODFs.
+
+3) This Read me.
+
+
+ Installation Instructions:
+
+ Before anything, you should make a backup of your files since they will edited and/or replaced. The file that will receive a big editing will be gui_global.spr, so try to have a backup of it before editing it, so it will be easier to revert to a previous state.
+
+1) Unzip the contents of this file on a temporary folder.
+
+2) Open your Star Trek Armada II folder.
+
+3) Copy .sod files from this "SOD" folder and paste them in your SOD folder located in the main game directory.
+
+4) Copy 8472_AdvancedResearch.bmp, 8472_BasicResearch.bmp, 8472_FluidicGate.bmp and 8472_ShipUpgradeResearch and paste them in your \bitmaps\AdmiralsLog\ShipImages folder.
+
+5) Copy the content of the "stations" folder and paste them in your \odf\stations folder. Replace if asked, these are the files are the stations' main odf files. No new odfs are needed for the Pods.
+
+6) Copy all .tga files of the "RGB" folder and paste them in your  \Textures\RGB folder.
+
+6a) The files with the -512 suffix are lower resolution versions of the texture files (512x512), copy these one and rename them by removing such suffix if you have lags ingame or if don't want/can't use the higher resolution ones (1024x1024).
+
+7) Open your Sprites folder and open gui_global.spr with Notepad.
+
+8) Search for:  #8472 Wireframes
+		@reference=128
+		
+9) Paste these lines:  
+
+8472_basicresearchw1		8472_research01wire	40	 0	40	40		
+8472_basicresearchw2		8472_research01wire	 0	40	40	40		
+8472_basicresearchw3		8472_research01wire	40	40	40	40		
+8472_basicresearchw4		8472_research01wire	80	 0	40	40		
+8472_basicresearchw5		8472_research01wire	 0	 0	40	40
+
+8472_advancedresearchw1		8472_research02wire	40	 0	40	40		
+8472_advancedresearchw2		8472_research02wire	 0	40	40	40		
+8472_advancedresearchw3		8472_research02wire	40	40	40	40		
+8472_advancedresearchw4		8472_research02wire	80	 0	40	40		
+8472_advancedresearchw5		8472_research02wire	 0	 0	40	40
+
+8472_shipupgraderesearchw1	8472_research03wire	40	 0	40	40		
+8472_shipupgraderesearchw2	8472_research03wire	 0	40	40	40		
+8472_shipupgraderesearchw3	8472_research03wire	40	40	40	40		
+8472_shipupgraderesearchw4	8472_research03wire	80	 0	40	40		
+8472_shipupgraderesearchw5	8472_research03wire	 0	 0	40	40
+
+8472_fluidicgatew1		8472_fluidicgatewire	40	 0	40	40		
+8472_fluidicgatew2		8472_fluidicgatewire	 0	40	40	40		
+8472_fluidicgatew3		8472_fluidicgatewire	40	40	40	40		
+8472_fluidicgatew4		8472_fluidicgatewire	80	 0	40	40		
+8472_fluidicgatew5		8472_fluidicgatewire	 0	 0	40	40
+
+if you cannot fine the @reference=128 line, you can add it, this will allow for the correct visualization of the new wireframes.
+
+10) Now Search for:
+
+8472_fluidicgatew1		8472wireframe04	0	48	48	48		
+8472_fluidicgatew2		8472wireframe04	48	48	48	48		
+8472_fluidicgatew3		8472wireframe04	96	48	48	48		
+8472_fluidicgatew4		8472wireframe04	144	48	48	48		
+8472_fluidicgatew5		8472wireframe04	192	48	48	48	
+
+8472_basicresearchw1		8472wireframe04	0	96	48	48		
+8472_basicresearchw2		8472wireframe04	48	96	48	48		
+8472_basicresearchw3		8472wireframe04	96	96	48	48		
+8472_basicresearchw4		8472wireframe04	144	96	48	48		
+8472_basicresearchw5		8472wireframe04	192	96	48	48
+
+8472_advancedresearchw1		8472wireframe04	0	144	48	48		
+8472_advancedresearchw2		8472wireframe04	48	144	48	48		
+8472_advancedresearchw3		8472wireframe04	96	144	48	48		
+8472_advancedresearchw4		8472wireframe04	144	144	48	48		
+8472_advancedresearchw5		8472wireframe04	192	144	48	48
+
+8472_shipupgraderesearchw1	8472wireframe04	0	192	48	48		
+8472_shipupgraderesearchw2	8472wireframe04	48	192	48	48		
+8472_shipupgraderesearchw3	8472wireframe04	96	192	48	48		
+8472_shipupgraderesearchw4	8472wireframe04	144	192	48	48		
+8472_shipupgraderesearchw5	8472wireframe04	192	192	48	48
+
+below the @reference=256 and erase them, this will allow the use of the new wireframes instead of the original ones.
+
+11) The build buttons are new designs using Yacuzza's 8472 button template from the Twilight Mod, the will replace stock buttons but they don't need new codes.
+
+ MS3d files are present in the MS3d folder, if someone wants to take a look at them ;) .
+
+12) Pheewwww, Finally, you are ready to enjoy this mod, I'm sorry to make such long read me but it was neccesary to try to avoid problems.
+
+
+ Credits:
+
+1) Gene Roddenberry: For creating the Star Trek saga. Thank you very much!
+
+2) Activision and Mad-Doc Software: For making the game.
+
+3) Yacuzza for allowing me to use his Species 8472 button template from the Twilight Mod.
+
+4) My friends, who have been quite insistent with me so I can begin releasing new modding materials  XD .
+
+5) Chiletrek (me!): Made the new models and textures.
+
+6) You: For taking your time to take a look at my mod :)
+
+
+ Contact:
+
+ Any doubts, questions or suggestions, you can E-mail me at: astro_nejiro at hotmail.com
+
+ If you want to include any of my models into your mod, please let me know :) .
+--------------------------------------------------------------------------------------------
+
+I am not responsible for any type of damage, either for virus or for the use of this MOD.
+
+Copyright and Distribution Permissions
+--------------------------------------
+THIS PATCH IS NOT MADE, DISTRIBUTED, OR SUPPORTED BY ACTIVISION
+ TM & (C) ACTIVISION & PARAMOUNT PICTURES.
+
+Copyright notices: 
+
+Star Trek, Star Trek Armada II, Star Trek: Deep Space Nine, Star Trek: The Next Generation,
+Star Trek: Voyager (and the various logo devices used in them) are copyright Paramount Pictures, as are the characters, related images, and sound from the productions.

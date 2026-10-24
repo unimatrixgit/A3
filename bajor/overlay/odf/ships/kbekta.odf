@@ -1,155 +1,133 @@
-#include "battle.odf"
-
-//Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Qeh'Ral Class"
-
-//tooltips
+shielddelay = 1.0f
+rangescan = 800.0f
 
 
-
-//This ship is a hero.
-isHero = 1
-
-//Set the label as martok
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 613
+lifesupporthitpoints = 640
+weaponshitpoints = 569
+shieldgeneratorhitpoints = 698
+sensorshitpoints = 479
+eventselect = "XV_kbekta_Select"
+eventacknowledge = "XV_kbekta_Acknowledge"
+eventattack = "XV_kbekta_Attack"
+eventstop = "XV_kbekta_Stop"
+eventmove = "XV_kbekta_Move"
+eventrepair = "XV_kbekta_Repair"
+canattackplanets = 1
+physicsfile = "sbattphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "Qeh'Ral Class"
+ishero = 1
 label = "IKS Sad'taj, Captain Bek'Ta's Qeh'Ral"
-
-//Race which can build ship & starting race of ship
 race = "klingon"
-
-//Amount of time required to build ship
-
-//Number of officers required to build this ship
-
-//Number of crew required to build ship & Starting crew
-
-//Dilithium Cost to build
-
-//Metal Cost to build
-
-//Max Shield Strength & Begining Shield Strength <500
-maxHealth = 2824
-
-shieldGeneratorHitPoints = 698
-enginesHitPoints = 613
-weaponsHitPoints = 569
-lifeSupportHitPoints = 640
-sensorsHitPoints = 479
-
-//Rate at which shield recharges (points per second... we think)
-shieldRate = 3.375
-
-//**********************************************************************
-//AI system parameters
-//These parameters influence how the AI evaluates and compares craft.
-
-//An abstract number that represents how much extra strength must be
-//used to attack this craft due to its weapons. 
-// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
-attackPower = 1.00f
-
-//The normalized intrinsic value of a target.  High value craft make good
-//attack targets. (0.0=lowest value, 1.0=highest value)
-intrinsicValue = 0.50f
-
-//**********************************************************************
-//SHIP NAMES
-
-//Possible Craft Names
-possibleCraftNames = "IKS Sad'taj"
-
-//**********************************************************************
-//ART PARAMETERS & WEAPON NAMES
-
-// Phaser
-weapon1 = "kc08phas"
-weaponHardpoints1 = "hp11" "hp12" "hp13" "hp14" "hp15"
-
-// Photon Torpedo
-weapon2 = "kc03phot" 
-weaponHardpoints2 = "hp09" "hp10"
-
-// Cloaking Device
-
-weaponHardpoints3 = "hp16"
-
-// Self Destruct
-
-weaponHardpoints4 = "hp20"
-
-// Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
-lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
-weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
-shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
-sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
-hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
-criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
-
-//**********************************************************************
-//CREW STATUS MULTIPLIERS
-//The multiplier for the delay between shots for weapons while in yellow status
-weaponYellow = 1.0f
-
-//The multiplier for the delay between shots for weapons while in red status
-weaponRed = 0.75f
-
-//**********************************************************************
-//KEYMAP LABEL
-// Obsolete, use hotkeyLabel
-// keymapLabel = "kling_battle"
-hotkeyLabel = "HOTKEY_F2"
-
-
-
-// Xaramada resource costs: original filename.
-
-
-
-
-
-officerCost = 7
-buildTime = 65
-
-
-eventSelect = "XV_kbekta_Select"
-
-eventAcknowledge = "XV_kbekta_Acknowledge"
-
-eventAttack = "XV_kbekta_Attack"
-
-eventStop = "XV_kbekta_Stop"
-
-eventMove = "XV_kbekta_Move"
-
-eventRepair = "XV_kbekta_Repair"
-
-eventRedAlert = "XV_kbekta_RedAlert"
-
-eventYellowAlert = "XV_kbekta_YellowAlert"
-
-eventGreenAlert = "XV_kbekta_GreenAlert"
-
-eventTransport = "XV_kbekta_Transport"
-
-eventSelfDestruct = "XV_kbekta_SelfDestruct"
-
-eventDecommission = "XV_kbekta_Decommission"
-
-
-
-
-
-
-
-
-
+maxhealth = 2824
+shieldrate = 3.375
+possiblecraftnames = "IKS Sad'taj"
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+weaponyellow = 1.0f
+weaponred = 0.75f
+hotkeylabel = "HOTKEY_F2"
+officercost = 7
+buildtime = 65
+eventredalert = "XV_kbekta_RedAlert"
+eventyellowalert = "XV_kbekta_YellowAlert"
+eventgreenalert = "XV_kbekta_GreenAlert"
+eventtransport = "XV_kbekta_Transport"
+eventselfdestruct = "XV_kbekta_SelfDestruct"
+eventdecommission = "XV_kbekta_Decommission"
 tooltip = "Hero Ship (Qeh'Ral Class)"
-
-verboseTooltip = "A named command vessel serving the Klingon fleet. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak. Availability follows the selected technology tree."
-weapon3 = "gkcloak"
-weapon4 = "gselfdes"
+verbosetooltip = "A named command vessel serving the Klingon fleet. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak. Availability follows the selected technology tree."
 dilithiumcost = 415
 metalcost = 175
 latinumcost = 0
 biomattercost = 0
-crewCost = 725
+crewcost = 725
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "kc08phas"
+
+weaponHardpoints1 = "hp11" "hp12" "hp13" "hp14" "hp15"
+
+weapon2 = "kc03phot"
+
+weaponHardpoints2 = "hp09" "hp10"
+
+weapon3 = "gkcloak"
+
+weaponHardpoints3 = "hp16"
+
+weapon4 = "gselfdes"
+
+weaponHardpoints4 = "hp20"
+
+weapon5 = "kc08phas"
+
+weaponHardpoints5 = "hp01"
+
+weapon6 = "kc03phot"
+
+weaponHardpoints6 = "hp02"
+
+maxspecialenergy = 1000
+
+specialenergyrate = 15

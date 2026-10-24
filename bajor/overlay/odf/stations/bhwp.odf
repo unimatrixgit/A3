@@ -393,14 +393,33 @@ weaponHardpoints15 = "hp05"
 weapon16 = "fbpulse"
 weaponHardpoints16 = "hp06"
 
-classLabel = "shipyard"
+
 
 builder_ship = 1
 
-repairFacility = 0
+
 
 decommissionFacility = 0
 
 buildHardpoint = "hp01"
 
+
+
+
+
+
+classLabel = "starbase"
+
+repairFacility = 0
+
 buildItem0 = "xbrepair"
+
+buildItem1 = "bfreight"
+
+buildItem2 = "bconst"
+
+buildItem3 = "bconst2"
+
+buildItem4 = "xbuconst"
+
+buildItem5 = "xu3bor2"

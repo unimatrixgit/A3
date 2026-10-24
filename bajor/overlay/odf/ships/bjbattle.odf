@@ -45,15 +45,7 @@ sensorshitpoints = 3000
 //SHIP NAMES
 
 //Possible Craft Names
-possibleCraftNames = 
-	"USS Saratoga" "USS Rand" "USS Faithful" "USS Archangel"
-	"USS Atlas" "USS Legacy" "USS Challenger" "USS Justice" 
-	"USS Integrity" "USS Alexandra" "USS Endurance" "USS Midway"
-	"USS Majestic" "USS Hyperion" "USS Avatar" "USS Avalon"
-	"USS Horizon" "USS Nimitz" "USS Aries" "USS Leviathan"
-	"USS Sentinel" "USS Tiberius" "USS Odin" "USS Providence"
-	"USS Formidable" "USS Destiny" "USS Tempest" "USS Cavalier"
-	"USS Yamato" "USS Calabria" "USS Coburn" "USS Hickey" "USS Hope"
+
 
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
@@ -137,7 +129,7 @@ race = "bajoran"
 
 
 
-baseName = "br3_bjbattle"
+
 ScaleSOD = 3.248
 
 
@@ -246,3 +238,7 @@ weaponHardpoints3 = "hp34" "hp35" "hp36"
 weapon4 = "xbj_gcorbom"
 
 weaponHardpoints4 = "hp34" "hp35" "hp36"
+
+baseName = "bv4_bjbattle"
+
+possibleCraftNames = "BMS Kendra" "BMS Dahkur" "BMS Rakantha" "BMS Hathon" "BMS Jalanda" "BMS Dakor" "BMS Tozhat" "BMS Musilla" "BMS Hedrikspool" "BMS Dakhur" "BMS Ashalla" "BMS Dahkur Dawn" "BMS Kendra Spirit" "BMS Bajoran Dawn" "BMS Prophets Grace" "BMS First Light" "BMS Celestial Dawn" "BMS Valley Guardian" "BMS Militia Resolve" "BMS Freedom of Bajor" "BMS Dahkur Sentinel" "BMS Rakantha Shield" "BMS Kendra Vigil" "BMS Bajor Ascendant" "BMS Jalanda Star" "BMS Hathon Guard" "BMS Emissarys Hope" "BMS Liberation" "BMS Gratitude" "BMS New Dawn" "BMS Dahkur Resolve" "BMS Celestial Guardian"

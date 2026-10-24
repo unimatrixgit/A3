@@ -1,7 +1,7 @@
 // Begin main properties
 
 race = "dominion"
-unitName = "Jem'Hadar Construction Ship"
+
 
 
 maxHealth = 150
@@ -12,9 +12,9 @@ lifeSupportHitPoints = 30
 sensorsHitPoints = 30
 shieldRate = 3.5
 shipclass = "construction"
-maxSpecialEnergy = 0
-specialEnergyRate = 0
-attackPower = 0.00f
+
+
+
 intrinsicValue = 0.40f
 enginesHitPercent = 5.0f
 lifeSupportHitPercent = 8.5f
@@ -46,10 +46,10 @@ hullHitPercent = 57.0f
 
 // Begin weapons
 
-weapon1 = "dphaser"
-weaponHardpoints1 = "hp01" "hp02"
-weapon2 = "gtracbm"
-weaponhardpoints2 = "hp02"
+
+
+
+
 
 // End weapons
 
@@ -101,7 +101,7 @@ possibleCraftNames =
 
 workerBeeName = "bbee"
 weldingBeamWidth = 5.0
-hotkeyLabel = "HOTKEY_F1"
+
 ScaleSOD = 1.0
 
 numberOfWorkerBees = 6
@@ -153,29 +153,28 @@ can_explore = 1
 
 
 officerCost = 2
-buildTime = 17
-buildItem0 = "dbase"
-buildItem1 = "dyard"
-buildItem2 = "dsensor"
-buildItem3 = "dturret"
-buildItem4 = "dmining"
-buildItem5 = "dresear"
-buildItem6 = "dresear2"
-buildItem7 = "dyard2"
-buildItem8 = "dturret2"
-buildItem9 = "dsuperbl"
-buildItem10 = "dorbital"
-buildItem11 = "dtrading"
 
-buildItem12 = "dturret3"
 
-weapon3 = "xp12t"
 
-weaponHardpoints3 = "hp03"
 
-canAttack = 1
 
-combat = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 alert = 1
 
@@ -187,11 +186,67 @@ alert = 1
 
 
 
-tooltip = "Constructor (Jem'Hadar Construction Ship)"
 
-verboseTooltip = "Builds the structures listed in its construction menu. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Tractor Beam. Availability follows the selected technology tree."
-dilithiumcost = 125
-metalcost = 25
-latinumcost = 0
-biomattercost = 0
-crewCost = 100
+
+
+
+
+
+
+
+
+
+
+
+
+combat = 0
+
+attackPower = 0.0
+
+buildItem0 = "dyard"
+
+buildItem1 = "dsensor"
+
+buildItem2 = "dmining"
+
+buildItem3 = "dresear"
+
+buildItem4 = "dresear2"
+
+buildItem5 = "dyard2"
+
+buildItem6 = "dorbital"
+
+buildItem7 = "dtrading"
+
+buildItem8 = "dupgrade"
+
+unitName = "Dominion Constructor I"
+
+tooltip = "Dominion Constructor I"
+
+verboseTooltip = "Tier 1: mining, regular yards, research and upgrade facilities."
+
+baseName = "dconst"
+
+dilithiumCost = 125
+
+metalCost = 25
+
+latinumCost = 0
+
+biomatterCost = 0
+
+crewCost = 150
+
+maximumCrew = 150
+
+buildTime = 20
+
+hotkeyLabel = "HOTKEY_F1"
+
+canAttack = 0
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0

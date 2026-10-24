@@ -1,0 +1,61 @@
+//Display name for this weapon
+wpnName = "Scimitar Theleron Cloak"
+
+//tooltips
+tooltip = "Scimitar Theleron Cloak"
+verboseTooltip = "This allows the scimitar fire when cloaked"
+
+//Time Delay between shots - not used
+shotDelay = 0.0
+
+//Location of the button in the speed panel
+
+
+// location of the button in the popup palette
+
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 10
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 2
+
+// Special stuff - denote special weapon
+special = 1
+
+// Range within which the weapon will fire.  Needs to be able to hit itself, so has to have reasonable range.
+range = 0.0f
+
+//Sound which is played when the weapon fires
+fireSound = "clkenh.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "rangedobjectaffector"
+
+// cloak enhancer = affector type 0
+affectorType = 0
+
+// Special energy cost for the cloak enhancer
+specialEnergyCost = 10
+
+//don't auto-switch to attack mode after this
+switchToAttack = 1
+
+// You can use the cloak enhancer while cloaked...
+cloakEnable = 1
+
+
+// wave displayed around the ship using this weapon
+wave_Effect = "CloakEnhancerWave"
+
+
+
+buttonSlot = 4
+
+popupSlot = 3
+
+hotkeyLabel = "HOTKEY_F4"

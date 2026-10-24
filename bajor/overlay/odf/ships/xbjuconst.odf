@@ -45,22 +45,7 @@ weldingBeamWidth = 5.0
 //SHIP NAMES
 
 //Possible Craft Names
-possibleCraftNames = 
-	"USS Geary" "USS Wright" "USS Raphael" "USS Pei"
-	"USS Teich" "USS Farrar" "USS Wasserman" "USS Fleming" 
-	"USS Danan" "USS Davis" "USS Braverman"
-	"USS Muir" "USS Scarpa" "USS Gaudi" "USS Palladio"
-	"USS Hejduk" "USS Meyers" "USS Calatravo" "USS Eisenman"
-	"USS Sullivan" "USS Roddenberry" "USS Frost" "USS Elliot"
-	"USS Walden" "USS O'Toole" "USS Zechariah" "USS M.L.King, Jr."
-	"USS Walkin" "USS Lamia" "USS Campbell" "USS Calabria"                      
-	"USS Bradshaw" "USS Moore" "USS Webster" "USS Lang"
-	"USS Dutton" "USS Scott" "USS Malamed" "USS Moyes"
-	"USS Somers" "USS Graham" "USS Boehm" "USS Budington"
-	"USS Robinson" "USS Truffaut" "USS Godard" "USS Swiderek"
-	"USS Wolff" "USS McDermott" "USS Mysliwy" "USS Nadeau"
-	"USS Ryan" "USS Hastings" "USS Dunlop" "USS Knox"
-	"USS Greco" "USS Wyman" "USS Blumberg"
+
 
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
@@ -109,7 +94,6 @@ possibleCraftNames =
 
 
 officerCost = 2
-buildTime = 17
 
 
 
@@ -152,14 +136,14 @@ buildTime = 17
 
 
 
-weapon1 = "gtracbm"
-unitName = "Bajoran Universal Constructor"
+
+
+
 
 
 race = "bajoran"
 
 
-hotkeyLabel = "HOTKEY_F2"
 
 
 
@@ -170,7 +154,8 @@ hotkeyLabel = "HOTKEY_F2"
 
 
 
-baseName = "br3_xbjuconst"
+
+
 ScaleSOD = 0.65
 
 
@@ -182,7 +167,7 @@ ScaleSOD = 0.65
 
 
 workerbeehardpoints = "bot1" "bot2" "bot3" "bot4" "bot5" "bot6"
-weaponhardpoints1 = "hp12"
+
 enginestargethardpoints = "hp06"
 lifesupporttargethardpoints = "hp06" "hp08" "hp09"
 weaponstargethardpoints = "hp06" "hp08" "hp09"
@@ -190,28 +175,28 @@ shieldgeneratortargethardpoints = "hp06" "hp08" "hp09"
 sensorstargethardpoints = "hp06" "hp08" "hp09"
 hulltargethardpoints = "hp08" "hp09" "hp10" "hp11" "hp13"
 criticaltargethardpoints = "hp06" "hp08" "hp09"
-buildItem0 = "bbase"
-buildItem1 = "fbase"
-buildItem2 = "kbase"
-buildItem3 = "rbase"
-buildItem4 = "cbase"
-buildItem5 = "dbase"
-buildItem6 = "brbase"
-buildItem7 = "bjbase"
-buildItem8 = "bjsuperlab"
-buildItem9 = "bjyard3"
 
-weapon2 = "xp14b"
 
-weaponHardpoints2 = "hp02"
 
-weapon3 = "xp14t"
 
-weaponHardpoints3 = "hp03"
 
-canAttack = 1
 
-combat = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 alert = 1
 
@@ -223,18 +208,18 @@ alert = 1
 
 
 
-tooltip = "Constructor (Bajoran Universal Constructor)"
 
-verboseTooltip = "Builds the structures listed in its construction menu. Bajoran militia engineering protects Bajor and its neighboring systems. Special systems: Tractor Beam. Availability follows the selected technology tree."
-dilithiumcost = 125
-metalcost = 25
-latinumcost = 0
-biomattercost = 0
-crewCost = 100
 
-maxspecialenergy = 0
 
-specialenergyrate = 0
+
+
+
+
+
+
+
+
+
 
 shieldgeneratorhitpercent = 8.0f
 
@@ -255,3 +240,69 @@ physicsfile = "sconstphys.odf"
 rangescan = 800.0f
 
 damagedscan = 125.0
+
+
+
+
+
+combat = 0
+
+attackPower = 0.0
+
+
+
+
+possibleCraftNames = "BMS Kendra" "BMS Dahkur" "BMS Rakantha" "BMS Hathon" "BMS Jalanda" "BMS Dakor" "BMS Tozhat" "BMS Musilla" "BMS Hedrikspool" "BMS Dakhur" "BMS Ashalla" "BMS Dahkur Dawn" "BMS Kendra Spirit" "BMS Bajoran Dawn" "BMS Prophets Grace" "BMS First Light" "BMS Celestial Dawn" "BMS Valley Guardian" "BMS Militia Resolve" "BMS Freedom of Bajor" "BMS Dahkur Sentinel" "BMS Rakantha Shield" "BMS Kendra Vigil" "BMS Bajor Ascendant" "BMS Jalanda Star" "BMS Hathon Guard" "BMS Emissarys Hope" "BMS Liberation" "BMS Gratitude" "BMS New Dawn" "BMS Dahkur Resolve" "BMS Celestial Guardian"
+
+
+buildItem0 = "bbase"
+
+buildItem1 = "fbase"
+
+buildItem2 = "kbase"
+
+buildItem3 = "rbase"
+
+buildItem4 = "cbase"
+
+buildItem5 = "dbase"
+
+buildItem6 = "brbase"
+
+buildItem7 = "bjbase"
+
+buildItem8 = "bjsuperlab"
+
+buildItem9 = "xbjoutpost"
+
+buildItem10 = "xfgmerc"
+
+unitName = "Bajoran Universal Constructor III"
+
+tooltip = "Bajoran Universal Constructor III"
+
+verboseTooltip = "Tier 3: starbases, special installations and Ferengi facilities."
+
+baseName = "xbjuconst"
+
+dilithiumCost = 300
+
+metalCost = 200
+
+latinumCost = 0
+
+biomatterCost = 0
+
+crewCost = 150
+
+maximumCrew = 150
+
+buildTime = 40
+
+hotkeyLabel = "HOTKEY_F3"
+
+canAttack = 0
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0

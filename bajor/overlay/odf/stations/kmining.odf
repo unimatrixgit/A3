@@ -128,14 +128,26 @@ hulltargethardpoints = "hp10" "hp12" "hp14" "hp19" "hp20" "hp22"
 
 criticaltargethardpoints = "hp10" "hp12" "hp14" "hp19" "hp20" "hp22" 
 
-dilithiumCost = 300
+
+
+
+
+
+
+
+
+tooltip = "Resource Processing Station (Dilithium Refinery)"
+
+verboseTooltip = "Receives and processes resources delivered by mining vessels. Klingon engineering serves the Empire with direct, relentless force."
+
+
+
+
+
+dilithiumCost = 0
 
 metalCost = 200
 
 latinumCost = 0
 
 biomatterCost = 0
-
-tooltip = "Resource Processing Station (Dilithium Refinery)"
-
-verboseTooltip = "Receives and processes resources delivered by mining vessels. Klingon engineering serves the Empire with direct, relentless force."

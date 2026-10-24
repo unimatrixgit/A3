@@ -1,0 +1,112 @@
+shielddelay = 1.0f
+rangescan = 800.0f
+maxspecialenergy = 2500
+specialenergyrate = 25
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 600
+lifesupporthitpoints = 600
+weaponshitpoints = 600
+shieldgeneratorhitpoints = 600
+sensorshitpoints = 600
+eventselect = "XV_xhrhero_Select"
+eventacknowledge = "XV_xhrhero_Acknowledge"
+eventattack = "XV_xhrhero_Attack"
+eventstop = "XV_xhrhero_Stop"
+eventmove = "XV_xhrhero_Move"
+eventrepair = "XV_xhrhero_Repair"
+canattackplanets = 1
+physicsfile = "scruise1phys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "Mirror Romulan Commander - TOS Warbird"
+label = "Romulan Commander - TOS Warbird"
+race = "romulan"
+
+ishero = 0
+possiblecraftnames = "Mirror Romulan Commander - TOS Warbird"
+maxhealth = 2250
+shieldrate = 30.0
+maximumcrew = 80
+officercost = 7
+
+scalesod = 0.4375
+trekphysicsfile = "scruise1phys.odf"
+
+eventredalert = "XV_xhrhero_RedAlert"
+eventyellowalert = "XV_xhrhero_YellowAlert"
+eventgreenalert = "XV_xhrhero_GreenAlert"
+eventtransport = "XV_xhrhero_Transport"
+eventselfdestruct = "XV_xhrhero_SelfDestruct"
+eventdecommission = "XV_xhrhero_Decommission"
+tooltip = "Mirror Romulan Commander - TOS Warbird"
+
+
+
+crewcost = 80
+
+
+weapon1 = "mrw061"
+weaponhardpoints1 = "hp01"
+weapon2 = "mrw062"
+weaponhardpoints2 = "hp02"
+weapon3 = "grcloak"
+weaponhardpoints3 = "hp03"
+weapon4 = "gselfdes"
+weaponhardpoints4 = "hp04"
+weapon5 = "ya0057"
+weaponhardpoints5 = "hp01"
+weapon6 = "mrw061"
+weaponhardpoints6 = "hp05"
+weapon7 = "mrw062"
+weaponhardpoints7 = "hp06"
+
+baseName = "mrc053"
+
+dilithiumCost = 375
+
+metalCost = 150
+
+latinumCost = 0
+
+biomatterCost = 0
+
+buildTime = 75
+
+hotkeyLabel = "HOTKEY_F5"
+
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

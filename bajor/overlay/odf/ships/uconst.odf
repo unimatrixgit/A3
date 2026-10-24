@@ -69,8 +69,8 @@ possibleCraftNames =
 //weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05"
 
 // Towing Beam
-weapon1 = "gtracbm"
-weaponHardpoints1 = "hp06" "hp07" "hp08" "hp09" "hp10"
+
+
 
 
 // Hardpoints to hit for various systems and other locations.
@@ -97,12 +97,12 @@ hotkeyLabel = "HOTKEY_F1"
 
 
 // Xaramada: transwarp for all Borg vessels.
-weapon2 = "xabtrans5"
-weaponHardpoints2 = "hp01"
 
-maxSpecialEnergy = 1000
 
-specialEnergyRate = 10
+
+
+
+
 
 
 
@@ -170,7 +170,7 @@ specialEnergyRate = 10
 
 
 
-baseName = "xbuconst"
+
 
 // Borg core facilities remain on the standard Assembler; no overlapping build buttons.
 
@@ -192,6 +192,65 @@ baseName = "xbuconst"
 // Advanced transwarp facility; avoids an unavailable third builder.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+officerCost = 1
+
+
+
+maximumCrew = 150
+
+
+
+
+
+
+
+
+
+
+
+
+
+alert = 1
+
+
+
+
+
+
+
+
+
+
+
+combat = 0
+
+attackPower = 0.0
+
+
+
 buildItem0 = "bbase"
 
 buildItem1 = "fbase"
@@ -208,42 +267,38 @@ buildItem6 = "brbase"
 
 buildItem7 = "bjbase"
 
-unitName = "Universal Assembler"
+buildItem8 = "bsuperbl"
 
+buildItem9 = "bassturr"
 
+buildItem10 = "btechass"
 
+buildItem11 = "xbharvest"
 
+buildItem12 = "xbassimst"
 
-dilithiumCost = 125
+unitname = "Borg Universal Constructor III"
 
-metalCost = 25
+tooltip = "Borg Universal Constructor III"
 
-latinumCost = 0
+verbosetooltip = "Tier 3: starbases, special installations and Ferengi facilities."
 
-biomatterCost = 0
+dilithiumcost = 300
 
-crewCost = 150
+metalcost = 200
 
-officerCost = 1
+latinumcost = 0
 
-buildTime = 17
+biomattercost = 0
 
-maximumCrew = 150
+crewcost = 150
 
-weapon3 = "bc1phas"
+buildtime = 40
 
-weaponHardpoints3 = "hp03"
+canattack = 0
 
-weapon4 = "xp6t"
+maxspecialenergy = 0
 
-weaponHardpoints4 = "hp04"
+specialenergyrate = 0
 
-canAttack = 1
-
-combat = 1
-
-alert = 1
-
-tooltip = "Constructor (Universal Assembler)"
-
-verboseTooltip = "Builds the structures listed in its construction menu. Collective engineering integrates this asset into the unimatrix. Special systems: Tractor Beam, Transwarp Drive. Availability follows the selected technology tree."
+baseName = "uconst"

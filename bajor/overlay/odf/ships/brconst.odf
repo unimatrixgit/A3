@@ -1,7 +1,7 @@
 // Begin main properties
 
 race = "breen"
-unitName = "Breen Construction Ship"
+
 
 
 maxHealth = 150
@@ -12,9 +12,9 @@ lifeSupportHitPoints = 30
 sensorsHitPoints = 30
 shieldRate = 3.5
 shipclass = "construction"
-maxSpecialEnergy = 0
-specialEnergyRate = 0
-attackPower = 0.00f
+
+
+
 intrinsicValue = 0.40f
 enginesHitPercent = 5.0f
 lifeSupportHitPercent = 8.5f
@@ -39,8 +39,8 @@ hullHitPercent = 57.0f
 
 // Begin weapons
 
-weapon1 = "gtracbm"
-weaponhardpoints1 = "hp12"
+
+
 
 // End weapons
 
@@ -84,7 +84,7 @@ possibleCraftNames =
 
 workerBeeName = "bbee"
 weldingBeamWidth = 5.0
-hotkeyLabel = "HOTKEY_F1"
+
 ScaleSOD = 1.5
 
 numberOfWorkerBees = 6
@@ -136,27 +136,27 @@ can_explore = 1
 
 
 officerCost = 2
-buildTime = 17
-buildItem0 = "brbase"
-buildItem1 = "bryard"
-buildItem2 = "brmining"
-buildItem3 = "brresear"
-buildItem4 = "brresear2"
-buildItem5 = "bryard3"
-buildItem6 = "bryard2"
-buildItem7 = "brorbital"
 
-weapon2 = "xp13b"
 
-weaponHardpoints2 = "hp02"
 
-weapon3 = "xp13t"
 
-weaponHardpoints3 = "hp03"
 
-canAttack = 1
 
-combat = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 alert = 1
 
@@ -168,11 +168,61 @@ alert = 1
 
 
 
-tooltip = "Constructor (Breen Construction Ship)"
 
-verboseTooltip = "Builds the structures listed in its construction menu. Breen engineering supports the Confederacy with focused, uncompromising efficiency. Special systems: Tractor Beam. Availability follows the selected technology tree."
-dilithiumcost = 125
-metalcost = 25
-latinumcost = 0
-biomattercost = 0
-crewCost = 100
+
+
+
+
+
+
+
+
+
+
+
+
+combat = 0
+
+attackPower = 0.0
+
+buildItem0 = "bryard"
+
+buildItem1 = "brmining"
+
+buildItem2 = "brresear"
+
+buildItem3 = "brresear2"
+
+buildItem4 = "bryard2"
+
+buildItem5 = "brorbital"
+
+unitName = "Breen Constructor I"
+
+tooltip = "Breen Constructor I"
+
+verboseTooltip = "Tier 1: mining, regular yards, research and upgrade facilities."
+
+baseName = "brconst"
+
+dilithiumCost = 125
+
+metalCost = 25
+
+latinumCost = 0
+
+biomatterCost = 0
+
+crewCost = 150
+
+maximumCrew = 150
+
+buildTime = 20
+
+hotkeyLabel = "HOTKEY_F1"
+
+canAttack = 0
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0

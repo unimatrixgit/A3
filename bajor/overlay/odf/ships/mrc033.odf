@@ -1,0 +1,128 @@
+race = "dominion"
+shipclass = "destroyer"
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29"
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hulltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
+criticaltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponyellow = 1.0f
+weaponred = 2.0f
+attack_path0 = "p2.pth"
+attack_path1 = "p3.pth"
+weldingradius = 0.25
+physicsfile = "sdestphys.odf"
+trekphysicsfile = "trek_sdestphys.odf"
+avoidanceclass = 3
+fireball = "xfirebsm"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "D"
+shielddelay = 3.0f
+rangescan = 800.0f
+damagedscan = 125.0
+enginesrepairtime = 1.0f
+lifesupportrepairtime = 0.1f
+weaponsrepairtime = 2.0f
+shieldgeneratorrepairtime = 2.0f
+sensorsrepairtime = 3.0f
+enginescrewloss = 5.0f
+lifesupportcrewloss = 3.0f
+weaponscrewloss = 2.0f
+shieldgeneratorcrewloss = 2.0f
+sensorscrewloss = 2.0f
+lifesupportloss = 2.0f
+classlabel = "craft"
+ainame = "CraftProcess"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+unitname = "Mirror The founders's jacht"
+label = "The founders's jacht"
+
+ishero = 0
+possiblecraftnames = "Mirror The founders's jacht"
+maxspecialenergy = 1600
+specialenergyrate = 16
+maximumcrew = 180
+officercost = 8
+
+scalesod = 5.15625
+attackpower = 1.6
+intrinsicvalue = 1.5
+eventselect = "XV_xhdhero_Select"
+eventacknowledge = "XV_xhdhero_Acknowledge"
+eventattack = "XV_xhdhero_Attack"
+eventstop = "XV_xhdhero_Stop"
+eventmove = "XV_xhdhero_Move"
+eventrepair = "XV_xhdhero_Repair"
+eventredalert = "XV_xhdhero_RedAlert"
+eventyellowalert = "XV_xhdhero_YellowAlert"
+eventgreenalert = "XV_xhdhero_GreenAlert"
+eventtransport = "XV_xhdhero_Transport"
+eventselfdestruct = "XV_xhdhero_SelfDestruct"
+eventdecommission = "XV_xhdhero_Decommission"
+maxhealth = 2250
+shieldrate = 15
+shieldprotection = 1.0
+shieldgeneratorhitpoints = 600
+engineshitpoints = 600
+weaponshitpoints = 600
+lifesupporthitpoints = 600
+sensorshitpoints = 600
+tooltip = "Mirror The founders's jacht"
+
+
+
+
+
+crewcost = 155
+
+weapon1 = "mrw012"
+weaponhardpoints1 = "hp01" "hp06"
+weapon2 = "mrw013"
+weaponhardpoints2 = "hp01"
+weapon3 = "mrw014"
+weaponhardpoints3 = "hp02" "hp03"
+weapon4 = "dgpolerond"
+weaponhardpoints4 = "hp01"
+weapon5 = "domgshieldd"
+weaponhardpoints5 = "hp01"
+weapon6 = "xdjboard"
+weaponhardpoints6 = "hp01"
+weapon7 = "mrw012"
+weaponhardpoints7 = "hp02" "hp03"
+weapon8 = "mrw014"
+weaponhardpoints8 = "hp01" "hp06"
+weapon9 = "mrw012"
+weaponhardpoints9 = "hp04"
+weapon10 = "mrw013"
+weaponhardpoints10 = "hp05"
+
+baseName = "mrc033"
+
+dilithiumCost = 644
+
+metalCost = 162
+
+latinumCost = 0
+
+biomatterCost = 0
+
+buildTime = 125
+
+hotkeyLabel = "HOTKEY_F4"
+
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

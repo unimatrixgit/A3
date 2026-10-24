@@ -1,0 +1,143 @@
+#include "freight.odf"
+
+//Race which can build ship & starting race of ship
+race = "species8472"
+
+// This ship is evolved from another ship
+shipIsBuiltByEvolution = 1
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Can decommission itself anywhere
+recyclesInPlace = 1
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+// amount of biomatter needed to build this ship
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 658
+
+maxMetal = 150
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 643
+enginesHitPoints = 621
+weaponsHitPoints = 678
+lifeSupportHitPoints = 692
+sensorsHitPoints = 688
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 37
+impulseSpeed = 78
+warpSpeed = 0
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.5
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 2400
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 24 
+
+// can hold metal
+maxMetal = 75
+maxBiomatter = 150
+
+// which resources can this station process?
+resourcesCanHandle = "dilithium" "biomatter" "latinum"
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "Collector-F4E23" "Collector-F2B74" "Collector-F5Y10" "Collector-F7O98"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Mining Beam MUST BE WEAPON #1
+weapon1 = "gmineDilithium"
+weaponHardpoints1 = "hp01" "hp02" "hp03"
+
+// Planetary mining beam MUST BE WEAPON #2
+
+weaponHardpoints2 = "hp01" "hp02" "hp03"
+
+// Resource extracter.  Hopefully this can be weapon #3 and still work.
+
+weaponHardpoints3 = "hp01" "hp02" "hp03"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+lifeSupportTargetHardpoints = "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+weaponsTargetHardpoints = "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+shieldGeneratorTargetHardpoints ="hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+sensorsTargetHardpoints = "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+hullTargetHardpoints = "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+criticalTargetHardpoints = "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+
+transporter = 0
+can_repair = 0
+
+
+
+// ship type for formations
+shipType = "N"
+
+// If we're trying to target a ship, use weapon at index 2 (weapon3)
+weaponIndexForShips = 2
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewCost = 0
+officerCost = 1
+buildTime = 15
+
+dilithiumCost = 0
+
+metalCost = 0
+
+latinumCost = 0
+
+
+
+
+
+
+
+weapon2 = "xsborb1"
+
+weapon3 = "xsbext1"
+
+unitName = "Biomatter Collector I"
+
+tooltip = "Biomatter Collector 1"
+
+verboseTooltip = "Improved biomatter extraction only: +50 percent. Other resource beams and capacity are unchanged."
+
+biomatterCost = 350
+
+hotkeyLabel = "HOTKEY_F7"
+
+
+
+baseName = "xsbcol1"

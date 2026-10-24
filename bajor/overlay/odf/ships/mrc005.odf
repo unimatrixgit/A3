@@ -1,0 +1,118 @@
+shielddelay = 1.0f
+rangescan = 800.0f
+maxspecialenergy = 2200
+specialenergyrate = 38
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 624
+lifesupporthitpoints = 678
+weaponshitpoints = 590
+shieldgeneratorhitpoints = 702
+sensorshitpoints = 596
+eventselect = "XV_ckentar_Select"
+eventacknowledge = "XV_ckentar_Acknowledge"
+eventattack = "XV_ckentar_Attack"
+eventstop = "XV_ckentar_Stop"
+eventmove = "XV_ckentar_Move"
+eventrepair = "XV_ckentar_Repair"
+canattackplanets = 1
+physicsfile = "sbattphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "Mirror Keldon Class"
+ishero = 0
+label = "Kentar's Keldon"
+race = "cardassian"
+sanecrewlossmethod = 1
+maxhealth = 2232
+shieldrate = 8.1
+combatspeed = 87
+impulsespeed = 78
+warpspeed = 890
+possiblecraftnames = "Mirror Keldon Class"
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+weaponyellow = 1.0f
+weaponred = 2.0f
+officercost = 10
+
+eventredalert = "XV_ckentar_RedAlert"
+eventyellowalert = "XV_ckentar_YellowAlert"
+eventgreenalert = "XV_ckentar_GreenAlert"
+eventtransport = "XV_ckentar_Transport"
+eventselfdestruct = "XV_ckentar_SelfDestruct"
+eventdecommission = "XV_ckentar_Decommission"
+tooltip = "Mirror Keldon Class"
+
+
+
+
+
+crewcost = 725
+weapon1 = "mrw010"
+weaponhardpoints1 = "hp07" "hp08" "hp09" "hp10"
+weapon2 = "mrw011"
+weaponhardpoints2 = "hp11"
+weapon3 = "gselfdes"
+weaponhardpoints3 = "hp12"
+weapon4 = "mrw010"
+weaponhardpoints4 = "hp01"
+weapon5 = "mrw011"
+weaponhardpoints5 = "hp02"
+
+scalesod = 1.25
+
+baseName = "mrc005"
+
+dilithiumCost = 519
+
+metalCost = 219
+
+latinumCost = 0
+
+biomatterCost = 0
+
+buildTime = 106
+
+hotkeyLabel = "HOTKEY_F1"
+
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

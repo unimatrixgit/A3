@@ -7,7 +7,7 @@ race = "species8472"
 //NOT ANYMORE IT AINTshipIsBuiltByEvolution = 1
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Defender"
+
 
 //tooltips
 
@@ -44,15 +44,15 @@ warpSpeed = 768
 shieldRate = 10.1
 
 //Maximum Value of Special Energy
-maxSpecialEnergy = 2800
+
 
 //Rate at which special energy recharges (points per second... we think)
-specialEnergyRate = 10
+
 
 //**********************************************************************
 //Construction Parameters
-buildItem0 = "8472_Mine"
-buildItem1 = "8472_Sentinel"
+
+
 
 //Hardpoint location for building.
 buildHardpoint = "hp21"
@@ -81,8 +81,8 @@ possibleCraftNames =
 //ART PARAMETERS & WEAPON NAMES
 
 // Towing Beam
-weapon1 = "gtracbm"
-weaponHardpoints1 = "hp06"
+
+
 
 // Hardpoints to hit for various systems and other locations.
 enginesTargetHardpoints = "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
@@ -111,32 +111,74 @@ hotkeyLabel = "HOTKEY_F1"
 
 
 
-crewCost = 0
+
 officerCost = 1
-buildTime = 13
 
-weapon2 = "biolev2"
 
-weaponHardpoints2 = "hp02"
 
-weapon3 = "xp12t"
 
-weaponHardpoints3 = "hp03"
 
-canAttack = 1
 
-combat = 1
+
+
+
+
+
+
+
 
 alert = 1
 
-dilithiumCost = 0
 
-metalCost = 0
 
-latinumCost = 0
 
-biomatterCost = 150
 
-tooltip = "Constructor (Defender)"
 
-verboseTooltip = "Builds the structures listed in its construction menu. Living biotechnology shapes this organism for operations beyond fluidic space. Special systems: Tractor Beam. Availability follows the selected technology tree."
+
+
+
+
+
+
+
+
+
+
+
+combat = 0
+
+attackPower = 0.0
+
+buildItem0 = "714turr"
+
+buildItem1 = "xhs_yard3"
+
+buildItem2 = "8472_sentinel"
+
+buildItem3 = "mry8472"
+
+unitname = "Species8472 Constructor II"
+
+tooltip = "Species8472 Constructor II"
+
+verbosetooltip = "Tier 2: defenses and hero, Omega and Mirror Universe yards."
+
+dilithiumcost = 0
+
+metalcost = 0
+
+latinumcost = 0
+
+biomattercost = 300
+
+crewcost = 0
+
+buildtime = 30
+
+canattack = 0
+
+maxspecialenergy = 0
+
+specialenergyrate = 0
+
+baseName = "8472_defender"

@@ -1,0 +1,13 @@
+#include "phasero.odf"
+
+//The sprite which is used for this ordinance
+Sprite = "rphaser"
+
+//The base amount of damage which the ordinance does with each hit
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a number)
+
+
+//Size of the flare around the phaser
+flareRadiusMultiplier = 1.0
+
+damageBase = 77

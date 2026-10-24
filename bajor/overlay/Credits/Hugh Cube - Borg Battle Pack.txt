@@ -1,0 +1,125 @@
+This folder contains my versions of the bbattle1, bbattle2.
+
+I tried to stay close to the originalships, as seen in various tv series and movies.
+The fused tactical cubes turned out to have a high polycount, so this file could be to big for old computers.
+
+Important Note:
+Make a backup of your existing files, because most files in this folder will overwrite the stock files!
+
+Credits:
+
+As allways, thanks to Wrath of Achilles for his Texture Tutorial and Major A Payne for his SodTutorial. 
+
+All meshes, textures, etc are by me. 
+
+Please note:
+
+I cannot be hold responsible for any damage or problems otherwise regarding this model. 
+
+
+You may use this ship in your mod, just give credit where its do. 
+
+THIS MATERIAL IS NOT MADE OR SUPPORTED BY ACTIVISION.
+
+Thank you for downloading.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Installation instructions
+
+Open the SOD folder -->
+
+Put the sod files into the sod folder of Armada II. When prompted to overwrite, click 'yes'. 
+
+Open the ODF folder -->
+
+Put the odf file into the odf ship folder of Armada II. When prompted to overwrite, click 'yes'. 
+
+Open the Texturefolder -->
+put the tga into the texture RGB folder of Armada II. When prompted to overwrite, click 'yes'. 
+
+( I include the MS3D files for those who are interested.)
+
+Open the Bitmaps folder -->
+
+Open the Bitmaps folder of Armada II --> open Admiralslog --> open ShipImages and put the images there. When prompted to overwrite, click 'yes'.  
+
+
+****************************************
+Open Sprites --> open gui_global
+
+find the lines:
+ 
+# Borg wireframes
+
+@reference=256
+
+delete the following lines:
+
+bbattle1w1			borgwireframe01	0	0	48	48		
+bbattle1w2			borgwireframe01	48	0	48	48		
+bbattle1w3			borgwireframe01	96	0	48	48		
+bbattle1w4			borgwireframe01	144	0	48	48		
+bbattle1w5			borgwireframe01	192	0	48	48
+
+bbattle2w1			borgwireframe01	0	48	48	48		
+bbattle2w2			borgwireframe01	48	48	48	48		
+bbattle2w3			borgwireframe01	96	48	48	48		
+bbattle2w4			borgwireframe01	144	48	48	48		
+bbattle2w5			borgwireframe01	192	48	48	48
+
+bbattle3w1			borgwireframe02	0	144	48	48		
+bbattle3w2			borgwireframe02	48	144	48	48		
+bbattle3w3			borgwireframe02	96	144	48	48		
+bbattle3w4			borgwireframe02	144	144	48	48		
+bbattle3w5			borgwireframe02	192	144	48	48
+
+bbattle4w1			borgwireframe02	0	192	48	48		
+bbattle4w2			borgwireframe02	48	192	48	48		
+bbattle4w3			borgwireframe02	96	192	48	48		
+bbattle4w4			borgwireframe02	144	192	48	48		
+bbattle4w5			borgwireframe02	192	192	48	48
+
+next:
+
+find the lines:
+
+# Borg wireframes
+
+@reference=128 (if not present, just add the reference)
+
+add below that list:
+
+bbattle1			wfbbattle1     	0	0	128	128
+
+bbattle2			wfbbattle2     	0	0	128	128
+
+bbattle3			wfbbattle3     	0	0	128	128
+
+bbattle4			wfbbattle4     	0	0	128	128
+
+********************************************************************
+
+
+
+
+That should do it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

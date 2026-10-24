@@ -27,16 +27,13 @@ hullHitPercent = 50.0f
 
 // Begin build menu
 
-buildItem0 = "dompod6"
-buildItem1 = "dompod7"
-buildItem2 = "dompod8"
-buildItem3 = "dompod16"
+
+
+
 
 // End build menu
 
 // Begin hardpoints
-
-podHardpoints = "pod01" "pod02" "pod03" "pod04"
 enginesTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
 lifeSupportTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
 weaponsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18"
@@ -135,3 +132,16 @@ biomatterCost = 0
 tooltip = "Research Facility (Dominion Advanced Science Station)"
 
 verboseTooltip = "Supports the technologies and upgrades available in its research menu. Dominion engineering serves the Founders through disciplined JemHadar operations."
+
+baseName = "mrst_dom"
+
+podHardpoints = "pod01" "pod02" "pod03" "pod04" "mirrorpod"
+
+
+buildItem0 = "dompod6"
+
+buildItem1 = "dompod7"
+
+buildItem2 = "dompod8"
+
+buildItem3 = "dompod16"

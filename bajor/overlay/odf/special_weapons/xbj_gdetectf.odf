@@ -1,10 +1,9 @@
-// Standalone native weapon definition; Bajoran tech identity retained.
 //Display name for this weapon
 wpnName = "Detect Cloak"
 
 //tooltips
-tooltip = "FED_POD5"
-verboseTooltip = "FED_POD5_V"
+
+
 
 //Location of the button in the speed panel
 buttonSlot = 0
@@ -38,3 +37,6 @@ detectTimer = 10.0f
 
 // Always on, has no button and no hotkey
 // hotkeyLabel = "HOTKEY_~"
+tooltip = "Bajoran Tachyon Detection"
+
+verboseTooltip = "Automatically detects cloaked ships. Requires Bajoran Tachyon Detection research."

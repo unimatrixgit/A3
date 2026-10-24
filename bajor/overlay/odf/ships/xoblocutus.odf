@@ -1,105 +1,153 @@
-#include "blocutus.odf"
-unitName = "Omega Locutus' Cube"
+shielddelay = 1.0f
+rangescan = 800.0f
 
 
-baseName = "bbattle1"
-maxHealth = 938
-shieldRate = 30.000
-
-
-
-
-
-
-
-
-
-// Xaramada resource costs: calculated from original comparable.
-
-
-
-
-
-officerCost = 2
-buildTime = 171
-
-// Additional green holding/assimilation beam, separate from the existing blue beam.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-eventSelect = "XLocutus_Select"
-eventAcknowledge = "XLocutus_Acknowledge"
-eventMove = "XLocutus_Move"
-eventAttack = "XLocutus_Attack"
-eventStop = "XLocutus_Stop"
-eventRepair = "XLocutus_Repair"
-eventRedAlert = "XLocutus_RedAlert"
-eventYellowAlert = "XLocutus_YellowAlert"
-eventGreenAlert = "XLocutus_GreenAlert"
-eventTransport = "XLocutus_Transport"
-eventSelfDestruct = "XLocutus_SelfDestruct"
-eventDecommission = "XLocutus_Decommission"
-
-// Blue auto-assimilation beam removed. Remaining weapon order and hardpoints preserved.
-weapon1 = "xow_bbphas"
-weaponHardpoints1 = "hp01" "hp02" "hp07" "hp08" "hp11" "hp14"
-weapon2 = "xow_bbphot"
-weaponHardpoints2 = "hp04" "hp06" "hp09" "hp13" "hp15"
-weapon3 = "xactwarp"
-weaponHardpoints3 = "hp01"
-weapon4 = "xacremod"
-weaponHardpoints4 = "hp01"
-weapon5 = "xacgreen"
-weaponHardpoints5 = "hp01"
-
-// Borg adaptation: native scout passive cloak detector, always on.
-weapon6 = "gdetect3"
-weaponHardpoints6 = "hp01"
-
-// Technology assimilation: native beam and bounded captured-special capacity.
-weapon7 = "gTechAssimBeam"
-weaponHardpoints7 = "hp01"
-maxExtraWeapons = 6
-
-maxSpecialEnergy = 5000
-
-specialEnergyRate = 50
-
-
-
-
-
-
-
-
-
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 9
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.75f
+engineshitpoints = 1500
+lifesupporthitpoints = 1500
+weaponshitpoints = 1500
+shieldgeneratorhitpoints = 1500
+sensorshitpoints = 1500
+eventselect = "XLocutus_Select"
+eventacknowledge = "XLocutus_Acknowledge"
+eventattack = "XLocutus_Attack"
+eventstop = "XLocutus_Stop"
+eventmove = "XLocutus_Move"
+eventrepair = "XLocutus_Repair"
+canattackplanets = 1
+physicsfile = "bbatphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "Omega Locutus' Cube"
+ishero = 1
+label = "Locutus"
+race = "borg"
+possiblecraftnames = "Locutus Cube"
+enginestargethardpoints = "hp18" "hp20" "hp22" "hp24" "hp26"
+lifesupporttargethardpoints = "hp18" "hp20" "hp22" "hp24" "hp26"
+weaponstargethardpoints = "hp18" "hp20" "hp22" "hp24" "hp26"
+shieldgeneratortargethardpoints = "hp18" "hp20" "hp22" "hp24" "hp26"
+sensorstargethardpoints = "hp18" "hp20" "hp22" "hp24" "hp26"
+hulltargethardpoints = "hp17" "hp18" "hp19" "hp20" "hp21" "hp22" "hp23"
+criticaltargethardpoints = "hp18" "hp20" "hp22" "hp24" "hp26"
+weaponyellow = 1.5f
+weaponred = 5.0f
+basename = "bbattle1"
+scalesod = 1.3f
+officercost = 2
+buildtime = 171
+eventredalert = "XLocutus_RedAlert"
+eventyellowalert = "XLocutus_YellowAlert"
+eventgreenalert = "XLocutus_GreenAlert"
+eventtransport = "XLocutus_Transport"
+eventselfdestruct = "XLocutus_SelfDestruct"
+eventdecommission = "XLocutus_Decommission"
+maxextraweapons = 6
 tooltip = "Hero Ship (Omega Locutus' Cube)"
-
-verboseTooltip = "A named command vessel serving the Borg fleet. Collective engineering integrates this asset into the unimatrix. Special systems: Transwarp Drive, Shield Remodulation, Green Holding / Assimilation Beam, Technology Assimilation Beam. Availability follows the selected technology tree."
-dilithiumcost = 330
-metalcost = 90
+verbosetooltip = "A named command vessel serving the Borg fleet. Collective engineering integrates this asset into the unimatrix. Special systems: Transwarp Drive, Shield Remodulation, Green Holding / Assimilation Beam, Technology Assimilation Beam. Availability follows the selected technology tree."
 latinumcost = 0
 biomattercost = 0
-crewCost = 620
+crewcost = 620
+maxhealth = 7500
+shieldrate = 30.000
+dilithiumcost = 900
+metalcost = 245
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "xow_bbphas"
+
+weaponHardpoints1 = "hp01" "hp02" "hp07" "hp08" "hp11" "hp14"
+
+weapon2 = "xow_bbphot"
+
+weaponHardpoints2 = "hp04" "hp06" "hp09" "hp13" "hp15"
+
+weapon3 = "xactwarp"
+
+weaponHardpoints3 = "hp01"
+
+weapon4 = "xacremod"
+
+weaponHardpoints4 = "hp01"
+
+weapon5 = "xacgreen"
+
+weaponHardpoints5 = "hp01"
+
+weapon6 = "gdetect3"
+
+weaponHardpoints6 = "hp01"
+
+weapon7 = "gTechAssimBeam"
+
+weaponHardpoints7 = "hp01"
+
+weapon8 = "xow_bbphas"
+
+weaponHardpoints8 = "hp03"
+
+weapon9 = "xow_bbphot"
+
+weaponHardpoints9 = "hp05"
+
+maxspecialenergy = 5000
+
+specialenergyrate = 50

@@ -1,0 +1,63 @@
+//Programming Stuff DO NOT CHANGE
+classLabel = "ionstorm_tp"
+
+//The number of units which are subtracted from the Special Energy Reserve
+
+
+//The base amount of damage which the ordinance does with each hit
+
+
+//The amount of variance applied to the damage (i.e. 10 + or - 2)
+
+
+//The threshold which must be exceeded to cause crew casualties prior
+//to shield exhaustion
+damageThreshold = 1
+
+//The multiplier by which any damage which exceeds the threshold is 
+//multiplied by to calculate the percentage of crew lost with that hit
+shieldCrewModifier = 0
+
+//The multiplier by which any damage which is applied to the hull is
+//multiplied by to calculate the percentage of crew lost with that hit
+hullCrewModifier = 0
+
+//Amount of time the ordinance will exists without hitting something
+
+
+//How fast the shot moves
+
+
+//The sprite which is used for this ordinance
+Sprite = "pphaser"
+
+//Phaser specific: this modifies the color of the phaser
+shotColor = 227
+
+//Phaser specific: this is the thickness of the beam
+Radius = 1.0
+
+// Time to play through the animation for the sprite in seconds
+spriteDuration = 1.0
+
+// Length of the beam.
+Length = 10.0
+
+// Set the object odf name
+
+
+// The sound of the ordinance hitting the Target
+hitSound = "swkionx.wav"
+
+
+objectName = "mrc023"
+
+specialEnergyCost = 1500
+
+damageBase = 0
+
+damageVariance = 0
+
+lifeSpan = 4
+
+shotSpeed = 400

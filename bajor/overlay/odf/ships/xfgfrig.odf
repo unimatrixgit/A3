@@ -1,0 +1,87 @@
+#include "cruise1.odf"
+
+unitName = "Mercenary Ferengi Goront Frigate"
+
+tooltip = "Mercenary Ferengi Goront Frigate"
+
+verboseTooltip = "Latinum-funded Ferengi contract vessel. Available from the Mercenary Ferengi Contract Yard."
+
+baseName = "xfgfrig"
+
+race = "ferengi"
+
+classLabel = "craft"
+
+aiName = "CraftProcess"
+
+shipclass = "frigate"
+
+isHero = 0
+
+maxHealth = 900
+
+shieldRate = 4
+
+shieldProtection = 1
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0
+
+crewCost = 100
+
+maximumCrew = 125
+
+officerCost = 3
+
+buildTime = 40
+
+dilithiumCost = 0
+
+metalCost = 0
+
+latinumCost = 240
+
+biomatterCost = 0
+
+ScaleSOD = 1.3
+
+hotkeyLabel = "HOTKEY_F2"
+
+possibleCraftNames = "Profit Margin" "Golden Rule" "Risk Premium" "Liquid Assets" "Fair Acquisition"
+
+shieldGeneratorHitPoints = 180
+
+enginesHitPoints = 180
+
+weaponsHitPoints = 180
+
+lifeSupportHitPoints = 180
+
+sensorsHitPoints = 180
+
+enginesTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14"
+
+lifeSupportTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14"
+
+weaponsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14"
+
+shieldGeneratorTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14"
+
+sensorsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14"
+
+hullTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14"
+
+criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14"
+
+weapon1 = "xfgfrigb"
+
+weaponHardpoints1 = "hp10"
+
+weapon2 = "xfgfrigb"
+
+weaponHardpoints2 = "hp11"
+
+weapon3 = "xfgfrigt"
+
+weaponHardpoints3 = "hp12"

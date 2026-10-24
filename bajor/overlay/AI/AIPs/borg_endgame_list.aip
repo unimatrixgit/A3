@@ -1,26 +1,28 @@
-// Borg economy-first beta build order. Three constructor types; native technology checks.
+// Updated current-faction economy, heavy defense, production and research order.
 #include "aipdef.h"
 int checkTechnologyAvailable = 1;
 Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 {
+    "bconst", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "byard2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xbuconst", 1, 0, -1, 0, // A3 tier, resource and mirror integration
     "bbase", 1, 0, -1, 0,
-    "bconst", 2, 0, -1, 0,
     "bbase2", 1, 0, -1, 0,
     "bmining", 1, 0, -1, 0,
     "bfreight", 2, 0, -1, 0,
     "byard", 1, 0, -1, 0,
     "bdestroy", 3, 0, -1, 0,
+    "bconst2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "bhwp", 1, 0, -1, 0,
     "bsensor", 1, 0, -1, 0,
     "bturret", 2, 0, -1, 0,
     "bresear", 1, 0, -1, 0,
     "bcruise1", 2, 0, -1, 0,
     "bcolony", 1, 0, -1, 0,
     "bresear2", 1, 0, -1, 0,
-    "xbuconst", 1, 0, -1, 0,
-    "bconst2", 1, 0, -1, 0, // Overflow Assembler before advanced buildings
     "bupgrade", 1, 0, -1, 0,
     "byard2", 1, 0, -1, 0,
-    "bhwp", 1, 0, -1, 0, // Heavy defense after economy and required construction tech
+    "bhwp", 1, 0, -1, 0,
     "bfreight", 3, 0, -1, 0,
     "bturret2", 2, 0, -1, 0,
     "bcruise2", 2, 0, -1, 0,
@@ -61,4 +63,20 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "bdestroy2", 5, 0, -1, 0,
     "bbattle1", 4, 0, -1, 0,
     "bbattle2", 4, 0, -1, 0,
+    "xu3bor2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "mryborg", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "mrc003", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xbgmerc", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xbgconst", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xbgserv", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xbgresearch", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xbgpdil", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xbgpmet", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xbgpdil2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xbgpmet2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xbgdil3", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xbgmetal3", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xbgfight", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xbgcruis", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xbgquark", 1, 0, -1, 0, // A3 tier, resource and mirror integration
 };

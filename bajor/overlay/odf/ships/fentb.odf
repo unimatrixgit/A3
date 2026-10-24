@@ -1,72 +1,63 @@
-#include "fexcelr.odf"
-
-//This ship is a hero.
-isHero = 1
-
-//Ship label provided because this is a unique ship.
-label = "USS Enterprise NCC-1701-B"
-verboseTooltip = "Captain Harriman's Enterprise."
-
-//Max Shield Strength & Begining Shield Strength <500
-maxHealth = 8000
-
-//Rate at which shield recharges (points per second... we think)
-shieldRate = 80
-
-//Maximum Value of Special Energy
-maxSpecialEnergy = 8000
-
-//Rate at which special energy recharges (points per second... we think)
-specialEnergyRate = 80
-//**********************************************************************
-//SHIP NAMES
-
-//Possible Craft Names
-possibleCraftNames = "USS Enterprise - B"
-
-weapon4 = "fentbtoentc"
+shielddelay = 1.0f
+rangescan = 800.0f
 
 
-
-
-
-
-
-
-
-// Xaramada resource costs: calculated from original comparable.
-
-
-
-
-
-officerCost = 9
-buildTime = 102
-
-
-eventSelect = "XV_fentb_Select"
-
-eventAcknowledge = "XV_fentb_Acknowledge"
-
-eventAttack = "XV_fentb_Attack"
-
-eventStop = "XV_fentb_Stop"
-
-eventMove = "XV_fentb_Move"
-
-eventRepair = "XV_fentb_Repair"
-
-eventRedAlert = "XV_fentb_RedAlert"
-
-eventYellowAlert = "XV_fentb_YellowAlert"
-
-eventGreenAlert = "XV_fentb_GreenAlert"
-
-eventTransport = "XV_fentb_Transport"
-
-eventSelfDestruct = "XV_fentb_SelfDestruct"
-
-eventDecommission = "XV_fentb_Decommission"
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 0.5
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 5
+fireball = "xfirebmd"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "cruiser"
+attackpower = 0.25f
+intrinsicvalue = 0.25f
+engineshitpoints = 1750
+lifesupporthitpoints = 1750
+weaponshitpoints = 1750
+shieldgeneratorhitpoints = 1750
+sensorshitpoints = 1750
+eventselect = "XV_fentb_Select"
+eventacknowledge = "XV_fentb_Acknowledge"
+eventattack = "XV_fentb_Attack"
+eventstop = "XV_fentb_Stop"
+eventmove = "XV_fentb_Move"
+eventrepair = "XV_fentb_Repair"
+physicsfile = "fcruiserphys.odf"
+trekphysicsfile = "fcruiserphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "C"
+unitname = "Excelsior Class Refit"
+race = "federation"
+maxhealth = 8000
+shieldrate = 80
+possiblecraftnames = "USS Enterprise - B"
 
 
 
@@ -75,8 +66,77 @@ eventDecommission = "XV_fentb_Decommission"
 
 
 
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32"
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorstargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+hulltargethardpoints = "hp06" "hp08" "hp10" "hp12" "hp14" "hp16"
+criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19"
+weaponyellow = 1.0f
+weaponred = 2.0f
+attack_path0 = "p2.pth"
+attack_path1 = "p3.pth"
+hotkeylabel = "HOTKEY_F6"
+scalesod = 2.0
+officercost = 9
+buildtime = 102
+
+
+tooltip = "Cruiser (Excelsior Class Refit)"
+verbosetooltip = "Captain Harriman's Enterprise."
 dilithiumcost = 860
 metalcost = 285
 latinumcost = 0
 biomattercost = 0
-crewCost = 390
+crewcost = 390
+ishero = 1
+label = "USS Enterprise NCC-1701-B"
+eventredalert = "XV_fentb_RedAlert"
+eventyellowalert = "XV_fentb_YellowAlert"
+eventgreenalert = "XV_fentb_GreenAlert"
+eventtransport = "XV_fentb_Transport"
+eventselfdestruct = "XV_fentb_SelfDestruct"
+eventdecommission = "XV_fentb_Decommission"
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "fexcelsiorphas"
+
+weaponHardpoints1 = "hp01" "hp02" "hp03"
+
+weapon2 = "frphot"
+
+weaponHardpoints2 = "hp04"
+
+weapon3 = "ftwarpd"
+
+weaponHardpoints3 = "hp01"
+
+weapon4 = "fentbtoentc"
+
+weaponHardpoints4 = "hp05"
+
+weapon5 = "ya0033"
+
+weaponHardpoints5 = "hp01"
+
+weapon6 = "fexcelsiorphas"
+
+weaponHardpoints6 = "hp06"
+
+weapon7 = "xhtphase"
+
+weaponHardpoints7 = "hp07"
+
+maxspecialenergy = 8000
+
+specialenergyrate = 80

@@ -35,10 +35,9 @@ possibleCraftNames = "XT96-646147"
 //**********************************************************************
 //Construction Parameters
 
-buildItem0 = "borpod6"
-buildItem1 = "borpod7"
-buildItem2 = "borpod8"
-buildItem3 = "borpod9"
+
+
+
 
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
@@ -81,23 +80,12 @@ transporter = 1
 crewCost = 200
 officerCost = 10
 buildTime = 150
-
-baseName = "xvstock_bresear2"
-
-podhardpoints = "pod01" "pod02" "pod03" "pod04"
-
 enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
-
 lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
-
 weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
-
 shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
-
 sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25" "hp26" "hp27"
-
 hulltargethardpoints = "hp06"
-
 criticaltargethardpoints = "hp01"
 
 dilithiumCost = 350
@@ -113,3 +101,16 @@ tooltip = "Research Facility (Technology Node)"
 verboseTooltip = "Supports the technologies and upgrades available in its research menu. Collective engineering integrates this asset into the unimatrix."
 
 recrewRate = 10
+
+baseName = "mrst_bor"
+
+podHardpoints = "pod01" "pod02" "pod03" "pod04" "mirrorpod"
+
+
+buildItem0 = "borpod6"
+
+buildItem1 = "borpod7"
+
+buildItem2 = "borpod8"
+
+buildItem3 = "borpod9"

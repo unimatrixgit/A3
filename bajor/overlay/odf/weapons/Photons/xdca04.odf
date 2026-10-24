@@ -1,0 +1,17 @@
+#include "photon.odf"
+
+//Name of the ODF file for the ordinance for this weapon
+ordName = "xdca05"
+
+//Display name for this weapon
+wpnName = "Photon Torpedo"
+
+//Time Delay between shots
+shotDelay = 2.0f
+
+//Sound which is played when the weapon fires
+fireSound = "pofwea.wav"
+
+// Range within which the weapon will fire.
+range = 700.0f
+

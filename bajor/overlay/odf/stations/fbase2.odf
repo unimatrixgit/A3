@@ -47,7 +47,7 @@ latinumTransferRate = 50.0
 rangeScan = 1000.0f
 
 //Even though we are a shipyard we don't have a repair facility
-repairFacility = 1
+
 decommissionFacility = 1
 
 //Possible Craft Names
@@ -219,22 +219,22 @@ avoidMe = 0
 
 
 
-crewCost = 2000
+
 officerCost = 9
 buildTime = 5
-buildItem0 = "fconst"
-buildItem1 = "fconst2"
-buildItem2 = "ffreight"
-buildItem3 = "fcargo"
-buildItem4 = "fsrepair"
-buildItem5 = "fcolony"
-buildItem6 = "fscout"
-buildItem7 = "fdanube"
-buildItem8 = "ffighter"
-buildItem9 = "fdeltaflyer"
-buildItem10 = "fantares"
-buildItem11 = "fnxent"
-buildItem12 = "xfuconst"
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Equal visual span: vanilla Borg Nexus reference.
 ScaleSOD = 0.933016158
@@ -259,14 +259,54 @@ southBuffer = 0
 
 footprintBuffer = 72
 
-dilithiumCost = 3025
 
-metalCost = 3025
+
+
+
+
+
+
+
+tooltip = "Starbase (Darius Class)"
+
+verboseTooltip = "A fortified center for fleet operations and local production. Starfleet engineering supports a disciplined, versatile fleet."
+
+repairFacility = 0
+
+buildItem0 = "fconst"
+
+buildItem1 = "fconst2"
+
+buildItem2 = "xfuconst"
+
+buildItem3 = "xu3fed2"
+
+buildItem4 = "ffreight"
+
+buildItem5 = "fcargo"
+
+buildItem6 = "fsrepair"
+
+buildItem7 = "fcolony"
+
+buildItem8 = "fscout"
+
+buildItem9 = "fdanube"
+
+buildItem10 = "ffighter"
+
+buildItem11 = "fdeltaflyer"
+
+buildItem12 = "fantares"
+
+buildItem13 = "fnxent"
+
+dilithiumCost = 1500
+
+metalCost = 1500
 
 latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Starbase (Darius Class)"
-
-verboseTooltip = "A fortified center for fleet operations and local production. Starfleet engineering supports a disciplined, versatile fleet."
+crewCost = 150

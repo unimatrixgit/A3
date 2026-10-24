@@ -1,0 +1,30 @@
+// Include standard cloak.
+#include "gcloak.odf"
+
+// ROMULAN Specific Cloak.
+
+// Sound which is played when the weapon fires - a.k.a. the ship cloaks.
+fireSound = "clrengag.wav"
+
+// Sound which is played when the weapon turns off - a.k.a. the ship decloaks.
+offSound = "clrdisen.wav"
+
+wpnName = "Quark's Cloaking Device"
+
+tooltip = "Quark's Cloaking Device"
+
+verboseTooltip = "Conceals the ship using a conventional cloaking device."
+
+buttonSlot = 2
+
+popupSlot = 2
+
+hotkeyLabel = "HOTKEY_F2"
+
+
+
+specialEnergyCost = 0
+
+maxTargets = 1
+
+shotDelay = 0

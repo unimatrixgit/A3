@@ -1,0 +1,71 @@
+#include "repairBase.odf"
+
+enginesTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04" "hp06"
+
+lifeSupportTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04" "hp06"
+
+weaponsTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04" "hp06"
+
+shieldGeneratorTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04" "hp06"
+
+sensorsTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04" "hp06"
+
+hullTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04" "hp06"
+
+criticalTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04" "hp06"
+
+baseName = "xfgrepair"
+
+race = "ferengi"
+
+unitName = "Mercenary Ferengi Repair Tender"
+
+tooltip = "Mercenary Ferengi Repair Tender"
+
+verboseTooltip = "Ferengi repair tender. Contracted at the Ferengi Service Yard for latinum."
+
+maxHealth = 650
+
+shieldRate = 4
+
+crewCost = 80
+
+maximumCrew = 120
+
+officerCost = 3
+
+dilithiumCost = 0
+
+metalCost = 0
+
+latinumCost = 300
+
+biomatterCost = 0
+
+buildTime = 35
+
+ScaleSOD = 1.5
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0
+
+hotkeyLabel = "HOTKEY_F4"
+
+possibleCraftNames = "Opportunity" "New Horizons" "Useful Assets" "Paid In Full"
+
+shieldGeneratorHitPoints = 130
+
+enginesHitPoints = 130
+
+weaponsHitPoints = 130
+
+lifeSupportHitPoints = 130
+
+sensorsHitPoints = 130
+
+repairRate = 0.25
+
+weapon1 = "gRepairBeam"
+
+weaponHardpoints1 = "hp01"

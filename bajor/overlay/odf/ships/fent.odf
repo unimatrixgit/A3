@@ -1,135 +1,126 @@
-#include "cruise1.odf"
-
-//Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Constitution Class"
+shielddelay = 1.0f
+rangescan = 800.0f
 
 
-
-//This ship is a hero.
-isHero = 1
-
-//Ship label provided because this is a unique ship.
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 0.5
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 5
+fireball = "xfirebmd"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "cruiser"
+attackpower = 0.75f
+intrinsicvalue = 0.30f
+engineshitpoints = 800
+lifesupporthitpoints = 800
+weaponshitpoints = 800
+shieldgeneratorhitpoints = 800
+sensorshitpoints = 800
+eventselect = "XV_fent_Select"
+eventacknowledge = "XV_fent_Acknowledge"
+eventattack = "XV_fent_Attack"
+eventstop = "XV_fent_Stop"
+eventmove = "XV_fent_Move"
+eventrepair = "XV_fent_Repair"
+physicsfile = "ffrigatephys.odf"
+trekphysicsfile = "ffrigatephys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "C"
+unitname = "Constitution Class"
+ishero = 1
 label = "USS Enterprise NCC-1701"
-
-//Race which can build ship & starting race of ship
 race = "federation"
-
-//Amount of time required to build ship
-
-//Number of officers required to build this ship
-
-//Number of crew required to build ship & Starting crew
-
-//Dilithium Cost to build
-
-//Metal Cost to build
-
-//Max Shield Strength & Begining Shield Strength <500
-maxHealth = 3500
-
-// Hitpoints
-
-shieldGeneratorHitPoints = 800
-enginesHitPoints = 800
-weaponsHitPoints = 800
-lifeSupportHitPoints = 800
-sensorsHitPoints = 800
-
-//Rate at which shield recharges (points per second... we think)
-shieldRate = 12.0
-
-//**********************************************************************
-//SHIP NAMES
-
-//Possible Craft Names
-possibleCraftNames = 
-	"USS Enterprise"
-
-//**********************************************************************
-//ART PARAMETERS & WEAPON NAMES
-
-// Pulse Phaser
-weapon1 = "fentphas"
-weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp10" "hp12"
-
-// Photon Torpedo
-weapon2 = "frphot"
-weaponHardpoints2 = "hp06" 
-
-weapon3 = "fenttoenta"
-
-// Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
-lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15" 
-weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
-shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
-sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
-hullTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
-criticalTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"  "hp17" "hp18" "hp19" "hp20"
-
-//KEYMAP LABEL
-// Obsolete, use hotkeyLabel
-// keymapLabel = "fed_destroyer"
-hotkeyLabel = "HOTKEY_F2"
-
-
-// let's make this a bit smaller
-ScaleSOD = 0.1
-
-
-//physics file for all other physics stuff
-physicsFile = "ffrigatephys.odf"
-trekPhysicsFile = "ffrigatephys.odf"
-
-
-
-// Xaramada resource costs: calculated from original comparable.
-
-
-
-
-
-officerCost = 7
-buildTime = 83
-
-
-eventSelect = "XV_fent_Select"
-
-eventAcknowledge = "XV_fent_Acknowledge"
-
-eventAttack = "XV_fent_Attack"
-
-eventStop = "XV_fent_Stop"
-
-eventMove = "XV_fent_Move"
-
-eventRepair = "XV_fent_Repair"
-
-eventRedAlert = "XV_fent_RedAlert"
-
-eventYellowAlert = "XV_fent_YellowAlert"
-
-eventGreenAlert = "XV_fent_GreenAlert"
-
-eventTransport = "XV_fent_Transport"
-
-eventSelfDestruct = "XV_fent_SelfDestruct"
-
-eventDecommission = "XV_fent_Decommission"
-
-
-
-
-
-
-
-
-
+maxhealth = 3500
+shieldrate = 12.0
+possiblecraftnames = "USS Enterprise"
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hulltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
+criticaltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15" "hp17" "hp18" "hp19" "hp20"
+hotkeylabel = "HOTKEY_F2"
+scalesod = 0.1
+officercost = 7
+buildtime = 83
+eventredalert = "XV_fent_RedAlert"
+eventyellowalert = "XV_fent_YellowAlert"
+eventgreenalert = "XV_fent_GreenAlert"
+eventtransport = "XV_fent_Transport"
+eventselfdestruct = "XV_fent_SelfDestruct"
+eventdecommission = "XV_fent_Decommission"
 tooltip = "Hero Ship (Constitution Class)"
-
-verboseTooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Enterprise Upgrade. Availability follows the selected technology tree."
+verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Enterprise Upgrade. Availability follows the selected technology tree."
 dilithiumcost = 440
 metalcost = 150
 latinumcost = 0
 biomattercost = 0
-crewCost = 280
+crewcost = 280
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "fentphas"
+
+weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp10" "hp12"
+
+weapon2 = "frphot"
+
+weaponHardpoints2 = "hp06"
+
+weapon3 = "fenttoenta"
+
+weaponHardpoints3 = "hp01"
+
+weapon4 = "fentphas"
+
+weaponHardpoints4 = "hp05"
+
+weapon5 = "xhtphase"
+
+weaponHardpoints5 = "hp07"
+
+maxspecialenergy = 1000
+
+specialenergyrate = 15

@@ -1,0 +1,20 @@
+#include "phaser.odf"
+
+//Name of the ODF file for the ordinance for this weapon
+ordName = "xdca03"
+
+//Display name for this weapon
+wpnName = "Phaser"
+
+// Range within which the weapon will fire.
+range = 700.0f
+
+//Time Delay between shots
+shotDelay = 3.1f
+
+//Sound which is played when the weapon fires
+fireSound = "phfwea.wav"
+
+classLabel = "areacannon"
+maxTargets = 4
+hitCondition = 2

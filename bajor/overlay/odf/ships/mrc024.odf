@@ -1,0 +1,119 @@
+shielddelay = 1.0f
+rangescan = 800.0f
+maxspecialenergy = 2600
+specialenergyrate = 26
+damagedscan = 125.0
+shieldprotection = 1
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 0.5
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 5
+fireball = "xfirebmd"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "cruiser"
+attackpower = 0.75f
+intrinsicvalue = 0.30f
+engineshitpoints = 720
+lifesupporthitpoints = 720
+weaponshitpoints = 720
+shieldgeneratorhitpoints = 720
+sensorshitpoints = 720
+eventselect = "Cruiser1Select"
+eventacknowledge = "Cruiser1Acknowledge"
+eventattack = "Cruiser1Attack"
+eventstop = "Cruiser1Stop"
+eventmove = "Cruiser1Move"
+eventrepair = "Cruiser1Repair"
+physicsfile = "scruise1phys.odf"
+trekphysicsfile = "trek_scruise1phys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "C"
+unitname = "Mirror Mercenary Ferengi Rom's Cruiser"
+tooltip = "Mirror Mercenary Ferengi Rom's Cruiser"
+
+ishero = 0
+maxhealth = 2700
+shieldrate = 16
+crewcost = 450
+maximumcrew = 562
+officercost = 12
+
+scalesod = 1.625
+
+possiblecraftnames = "Mirror Mercenary Ferengi Rom's Cruiser"
+enginestargethardpoints = "hp01" "hp03" "hp02" "hp05" "hp04"
+lifesupporttargethardpoints = "hp01" "hp03" "hp02" "hp05" "hp04"
+weaponstargethardpoints = "hp01" "hp03" "hp02" "hp05" "hp04"
+shieldgeneratortargethardpoints = "hp01" "hp03" "hp02" "hp05" "hp04"
+sensorstargethardpoints = "hp01" "hp03" "hp02" "hp05" "hp04"
+hulltargethardpoints = "hp01" "hp03" "hp02" "hp05" "hp04"
+criticaltargethardpoints = "hp01" "hp03" "hp02" "hp05" "hp04"
+weapon1 = "mrw045"
+weaponhardpoints1 = "hp01"
+weapon2 = "mrw045"
+weaponhardpoints2 = "hp03"
+weapon3 = "mrw045"
+weaponhardpoints3 = "hp02"
+weapon4 = "mrw045"
+weaponhardpoints4 = "hp05"
+weapon5 = "mrw045"
+weaponhardpoints5 = "hp04"
+weapon6 = "mrw046"
+weaponhardpoints6 = "hp06"
+weapon7 = "mrw046"
+weaponhardpoints7 = "hp16"
+weapon8 = "mrw046"
+weaponhardpoints8 = "hp15"
+weapon9 = "xfgrregen"
+weaponhardpoints9 = "hp14"
+weapon10 = "xfgrshield"
+weaponhardpoints10 = "hp13"
+weapon11 = "xfgrenergy"
+weaponhardpoints11 = "hp12"
+race = "borg"
+
+
+
+
+
+
+baseName = "mrc024"
+
+dilithiumCost = 825
+
+metalCost = 550
+
+latinumCost = 0
+
+biomatterCost = 0
+
+buildTime = 144
+
+hotkeyLabel = "HOTKEY_F5"
+
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

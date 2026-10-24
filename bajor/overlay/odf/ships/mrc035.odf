@@ -1,0 +1,118 @@
+shielddelay = 1.0f
+rangescan = 800.0f
+maxspecialenergy = 1800
+specialenergyrate = 18
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 700
+lifesupporthitpoints = 700
+weaponshitpoints = 700
+shieldgeneratorhitpoints = 700
+sensorshitpoints = 700
+eventselect = "BattleSelect"
+eventacknowledge = "BattleAcknowledge"
+eventattack = "BattleAttack"
+eventstop = "BattleStop"
+eventmove = "BattleMove"
+eventrepair = "BattleRepair"
+canattackplanets = 1
+physicsfile = "sbattphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+weaponyellow = 1.0f
+weaponred = 2.0f
+unitname = "Mirror Odo's Battleship"
+label = "Odo's Battleship"
+tooltip = "Mirror Odo's Battleship"
+
+
+race = "dominion"
+ishero = 0
+maxhealth = 2625
+shieldrate = 15
+crewcost = 725
+maximumcrew = 1000
+officercost = 12
+
+
+
+
+
+scalesod = 1.875
+possiblecraftnames = "Mirror Odo's Battleship"
+
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+weapon1 = "mrw012"
+weaponhardpoints1 = "hp01"
+weapon2 = "mrw014"
+weaponhardpoints2 = "hp02"
+weapon3 = "mrw014"
+weaponhardpoints3 = "hp03"
+weapon4 = "mrw013"
+weaponhardpoints4 = "hp04"
+weapon5 = "mrw013"
+weaponhardpoints5 = "hp05"
+weapon6 = "xhodobr"
+weaponhardpoints6 = "hp06"
+weapon7 = "xhodosh"
+weaponhardpoints7 = "hp07"
+weapon8 = "mrw012"
+weaponhardpoints8 = "hp01"
+weapon9 = "mrw013"
+weaponhardpoints9 = "hp02"
+
+baseName = "mrc035"
+
+dilithiumCost = 550
+
+metalCost = 238
+
+latinumCost = 0
+
+biomatterCost = 0
+
+buildTime = 156
+
+hotkeyLabel = "HOTKEY_F6"
+
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

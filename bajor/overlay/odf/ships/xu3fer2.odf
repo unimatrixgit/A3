@@ -1,0 +1,137 @@
+#include "const.odf"
+enginesTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+lifeSupportTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+shieldGeneratorTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+sensorsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+hullTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+
+
+
+race = "ferengi"
+
+
+
+
+
+
+
+maxHealth = 600
+
+shieldRate = 3.5
+
+
+
+
+
+officerCost = 3
+
+
+
+
+
+
+
+
+
+
+
+ScaleSOD = 1.5
+
+workerBeeName = "fbee"
+
+
+
+
+
+
+
+
+
+possibleCraftNames = "Compound Interest" "Capital Builder" "New Acquisition" "Expansion Clause"
+
+shieldGeneratorHitPoints = 120
+
+enginesHitPoints = 120
+
+weaponsHitPoints = 120
+
+lifeSupportHitPoints = 120
+
+sensorsHitPoints = 120
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+buildItem0 = "xfgmetal3"
+
+unitName = "Ferengi Universal Constructor III - Specialist"
+
+tooltip = "Ferengi Universal Constructor III - Specialist"
+
+verboseTooltip = "Tier 3: starbases, special installations and Ferengi facilities."
+
+baseName = "xu3fer2"
+
+dilithiumCost = 0
+
+metalCost = 0
+
+latinumCost = 500
+
+biomatterCost = 0
+
+crewCost = 150
+
+maximumCrew = 150
+
+buildTime = 40
+
+hotkeyLabel = "HOTKEY_F3"
+
+canAttack = 0
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0

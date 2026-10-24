@@ -1,53 +1,22 @@
-#include "brbattle.odf"
-unitName = "Thot Gor - Breen Flagship"
-
-
-baseName = "brbattle"
+unitname = "Thot Gor - Breen Flagship"
 race = "breen"
-isHero = 1
-label = "Thot Gor - Breen Flagship"
-maxHealth = 1800
-
-
-
-
-
-
-
-
-// Xaramada resource costs: calculated from original comparable.
-
-
-
-
-
-officerCost = 13
-buildTime = 33
-
-
-eventSelect = "XV_xhbrhero_Select"
-
-eventAcknowledge = "XV_xhbrhero_Acknowledge"
-
-eventAttack = "XV_xhbrhero_Attack"
-
-eventStop = "XV_xhbrhero_Stop"
-
-eventMove = "XV_xhbrhero_Move"
-
-eventRepair = "XV_xhbrhero_Repair"
-
-eventRedAlert = "XV_xhbrhero_RedAlert"
-
-eventYellowAlert = "XV_xhbrhero_YellowAlert"
-
-eventGreenAlert = "XV_xhbrhero_GreenAlert"
-
-eventTransport = "XV_xhbrhero_Transport"
-
-eventSelfDestruct = "XV_xhbrhero_SelfDestruct"
-
-eventDecommission = "XV_xhbrhero_Decommission"
+maxhealth = 3000
+shieldgeneratorhitpoints = 600
+engineshitpoints = 600
+weaponshitpoints = 600
+lifesupporthitpoints = 600
+sensorshitpoints = 600
+shieldrate = 12
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+shipclass = "battleship"
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
 
 
 
@@ -57,15 +26,117 @@ eventDecommission = "XV_xhbrhero_Decommission"
 
 
 
-
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32" "hp33" "hp34" "hp35" "hp36"
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hulltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+criticaltargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+eventselect = "XV_xhbrhero_Select"
+eventacknowledge = "XV_xhbrhero_Acknowledge"
+eventattack = "XV_xhbrhero_Attack"
+eventstop = "XV_xhbrhero_Stop"
+eventmove = "XV_xhbrhero_Move"
+eventrepair = "XV_xhbrhero_Repair"
+possiblecraftnames = "unknown" "unknown" "unknown" "unknown"
+sanecrewlossmethod = 1
+weaponyellow = 1.0f
+weaponred = 2.0f
+scalesod = 1.1
+hotkeylabel = "HOTKEY_F4"
+avoidanceclass = 8
+canattackplanets = 1
+physicsfile = "sbattphys.odf"
+trekphysicsfile = "trek_sbattphys.odf"
+fireball = "xfireblg"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+shielddelay = 3.0f
+rangescan = 800.0f
+damagedscan = 125.0
+enginesrepairtime = 1.0f
+lifesupportrepairtime = 0.1f
+weaponsrepairtime = 2.0f
+shieldgeneratorrepairtime = 2.0f
+sensorsrepairtime = 3.0f
+enginescrewloss = 5.0f
+lifesupportcrewloss = 3.0f
+weaponscrewloss = 2.0f
+shieldgeneratorcrewloss = 2.0f
+sensorscrewloss = 2.0f
+lifesupportloss = 2.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+officercost = 13
+buildtime = 60
 
 
 tooltip = "Hero Ship (Thot Gor - Breen Flagship)"
+verbosetooltip = "A named command vessel serving the Breen fleet. Breen engineering supports the Confederacy with focused, uncompromising efficiency. Special systems: Shield Disruptor. Availability follows the selected technology tree."
 
-verboseTooltip = "A named command vessel serving the Breen fleet. Breen engineering supports the Confederacy with focused, uncompromising efficiency. Special systems: Shield Disruptor. Availability follows the selected technology tree."
-weapon3 = "gselfdes"
-dilithiumcost = 255
-metalcost = 110
+dilithiumcost = 300
+metalcost = 120
 latinumcost = 0
 biomattercost = 0
-crewCost = 570
+crewcost = 570
+basename = "brbattle"
+ishero = 1
+label = "Thot Gor - Breen Flagship"
+eventredalert = "XV_xhbrhero_RedAlert"
+eventyellowalert = "XV_xhbrhero_YellowAlert"
+eventgreenalert = "XV_xhbrhero_GreenAlert"
+eventtransport = "XV_xhbrhero_Transport"
+eventselfdestruct = "XV_xhbrhero_SelfDestruct"
+eventdecommission = "XV_xhbrhero_Decommission"
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "zjmphas"
+
+weaponHardpoints1 = "hp02" "hp04"
+
+weapon2 = "jmphot"
+
+weaponHardpoints2 = "hp07"
+
+weapon3 = "gselfdes"
+
+weaponHardpoints3 = "hp03" "hp05" "hp06"
+
+weapon4 = "zdpulse"
+
+weaponHardpoints4 = "hp06"
+
+weapon5 = "brgshieldd"
+
+weaponHardpoints5 = "hp01"
+
+weapon6 = "zjmphas"
+
+weaponHardpoints6 = "hp08"
+
+weapon7 = "jmphot"
+
+weaponHardpoints7 = "hp01"
+
+maxspecialenergy = 1600
+
+specialenergyrate = 16

@@ -1,0 +1,31 @@
+//Programming Stuff DO NOT CHANGE
+classLabel = "minebm"
+
+//The number of units which are subtracted from the Special Energy Reserve
+specialEnergyCost = 0
+
+//Amount of metal removed from the moon per hit
+
+
+//Amount of time before the ordnance expires
+lifeSpan = 1.0
+
+//How fast the shot moves
+shotSpeed = 100
+
+// Weapon geometry file name
+shotGeometry = "wOrbitalBeam.sod"
+
+// The target range
+targetRange = 400.0f
+
+// Radius scale.
+radiusScale = 5.0
+
+// Length scale
+lengthScale = 5.0
+
+// Ignore the shield
+ignoreShield = 1
+
+damageBase = 105.0

@@ -163,7 +163,7 @@ hotkeyLabel = "HOTKEY_F1"
 
 
 
-buildItem0 = "xkuconst"
+
 
 weapon1 = "xp2b"
 
@@ -418,7 +418,7 @@ northBuffer = 0
 
 southBuffer = 0
 
-classLabel = "starbase"
+
 
 latinumTransferRate = 15.0
 
@@ -428,7 +428,7 @@ maxCrewGain = 0
 
 officerGain = 0
 
-repairFacility = 0
+
 crewCost = 0
 maximumCrew = 0
 officerCost = 16
@@ -454,4 +454,21 @@ decommissionFacility = 0
 
 buildHardpoint = "hp01"
 
-buildItem1 = "ksrepair"
+
+
+
+
+
+classLabel = "starbase"
+
+repairFacility = 0
+
+buildItem0 = "kconst"
+
+buildItem1 = "kconst2"
+
+buildItem2 = "xkuconst"
+
+buildItem3 = "ksrepair"
+
+buildItem4 = "kfreight"

@@ -1,0 +1,39 @@
+//Display name for this weapon
+wpnName = "Detect Cloak"
+
+//tooltips
+tooltip = "FED_POD5"
+verboseTooltip = "FED_POD5_V"
+
+//Location of the button in the speed panel
+buttonSlot = 0
+
+//Time Delay between shots - not used
+shotDelay = 0.0
+
+// Special stuff - denote special weapon
+special = 1
+
+// Range within which the weapon will fire - not used.
+range = 0.0f
+
+//Sound which is played when the weapon fires - temp sound
+fireSound = "cloak.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "detectcloak"
+
+// Chance of hitting the target. - not used
+hitChance = 1.00
+
+// Special energy cost for the cloaking device
+specialEnergyCost = 2
+
+// Detect class
+detectClass = 3
+
+// Detect Timer
+detectTimer = 10.0f
+
+// Always on, has no button and no hotkey
+// hotkeyLabel = "HOTKEY_~"

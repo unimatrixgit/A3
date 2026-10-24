@@ -1,0 +1,120 @@
+unitname = "Mirror Thot Gor - Breen Flagship"
+race = "breen"
+maxhealth = 2250
+shieldgeneratorhitpoints = 600
+engineshitpoints = 600
+weaponshitpoints = 600
+lifesupporthitpoints = 600
+sensorshitpoints = 600
+shieldrate = 12
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+shipclass = "battleship"
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weapon1 = "mrw012"
+weaponhardpoints1 = "hp02" "hp04"
+weapon2 = "mrw013"
+weaponhardpoints2 = "hp07"
+weaponhardpoints3 = "hp03" "hp05" "hp06"
+weapon4 = "mrw014"
+weaponhardpoints4 = "hp06"
+weapon5 = "brgshieldd"
+weaponhardpoints5 = "hp01"
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32" "hp33" "hp34" "hp35" "hp36"
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hulltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+criticaltargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+eventselect = "XV_xhbrhero_Select"
+eventacknowledge = "XV_xhbrhero_Acknowledge"
+eventattack = "XV_xhbrhero_Attack"
+eventstop = "XV_xhbrhero_Stop"
+eventmove = "XV_xhbrhero_Move"
+eventrepair = "XV_xhbrhero_Repair"
+possiblecraftnames = "Mirror Thot Gor - Breen Flagship"
+sanecrewlossmethod = 1
+weaponyellow = 1.0f
+weaponred = 2.0f
+scalesod = 1.375
+
+avoidanceclass = 8
+canattackplanets = 1
+physicsfile = "sbattphys.odf"
+trekphysicsfile = "trek_sbattphys.odf"
+fireball = "xfireblg"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+shielddelay = 3.0f
+rangescan = 800.0f
+damagedscan = 125.0
+enginesrepairtime = 1.0f
+lifesupportrepairtime = 0.1f
+weaponsrepairtime = 2.0f
+shieldgeneratorrepairtime = 2.0f
+sensorsrepairtime = 3.0f
+enginescrewloss = 5.0f
+lifesupportcrewloss = 3.0f
+weaponscrewloss = 2.0f
+shieldgeneratorcrewloss = 2.0f
+sensorscrewloss = 2.0f
+lifesupportloss = 2.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+officercost = 13
+
+maxspecialenergy = 1600
+specialenergyrate = 16
+tooltip = "Mirror Thot Gor - Breen Flagship"
+
+weapon3 = "gselfdes"
+
+
+
+
+crewcost = 570
+
+ishero = 0
+label = "Thot Gor - Breen Flagship"
+eventredalert = "XV_xhbrhero_RedAlert"
+eventyellowalert = "XV_xhbrhero_YellowAlert"
+eventgreenalert = "XV_xhbrhero_GreenAlert"
+eventtransport = "XV_xhbrhero_Transport"
+eventselfdestruct = "XV_xhbrhero_SelfDestruct"
+eventdecommission = "XV_xhbrhero_Decommission"
+weapon6 = "mrw012"
+weaponhardpoints6 = "hp08"
+weapon7 = "mrw013"
+weaponhardpoints7 = "hp01"
+
+baseName = "mrc030"
+
+dilithiumCost = 375
+
+metalCost = 150
+
+latinumCost = 0
+
+biomatterCost = 0
+
+buildTime = 75
+
+hotkeyLabel = "HOTKEY_F1"
+
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

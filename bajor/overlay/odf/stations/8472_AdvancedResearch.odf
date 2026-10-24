@@ -34,10 +34,9 @@ possibleCraftNames = "Biogenesis Core-C37T" "Biogenesis Core-C83U"
 //**********************************************************************
 //Construction Parameters
 
-buildItem0 = "8472_PodAdvanced0"
-buildItem1 = "8472_PodAdvanced1"
-buildItem2 = "8472_PodAdvanced2"
-buildItem3 = "8472_PodAdvanced3"
+
+
+
 
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
@@ -83,19 +82,10 @@ hotkeyLabel = "HOTKEY_F3"
 crewCost = 0
 officerCost = 1
 buildTime = 180
-
-baseName = "xvstock_8472_advancedresearch"
-
-podhardpoints = "hp01" "hp02" "hp03" "hp04"
-
 lifesupporttargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12"
-
 shieldgeneratortargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12"
-
 sensorstargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12"
-
 hulltargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12"
-
 criticaltargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12"
 
 dilithiumCost = 0
@@ -109,3 +99,16 @@ biomatterCost = 1250
 tooltip = "Research Facility (Biogenesis Core)"
 
 verboseTooltip = "Supports the technologies and upgrades available in its research menu. Living biotechnology shapes this organism for operations beyond fluidic space."
+
+baseName = "mrst_spe"
+
+podHardpoints = "hp01" "hp02" "hp03" "hp04" "mirrorpod"
+
+
+buildItem0 = "8472_PodAdvanced0"
+
+buildItem1 = "8472_PodAdvanced1"
+
+buildItem2 = "8472_PodAdvanced2"
+
+buildItem3 = "8472_PodAdvanced3"

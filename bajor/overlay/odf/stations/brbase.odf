@@ -152,12 +152,12 @@ checkValidResourceInterval = 10.0f
 
 
 
-crewCost = 150
+
 officerCost = 10
 buildTime = 100
-buildItem0 = "brconst"
-buildItem1 = "brfreight"
-buildItem2 = "xbruconst"
+
+
+
 
 // Equal visual span: vanilla Borg Nexus reference.
 ScaleSOD = 5.69279228
@@ -182,14 +182,34 @@ southBuffer = 0
 
 footprintBuffer = 72
 
-dilithiumCost = 2200
 
-metalCost = 2200
+
+
+
+
+
+
+
+tooltip = "Starbase (Breen Starbase)"
+
+verboseTooltip = "A fortified center for fleet operations and local production. Breen engineering supports the Confederacy with focused, uncompromising efficiency."
+
+repairFacility = 0
+
+buildItem0 = "brconst"
+
+buildItem1 = "xbrconst2"
+
+buildItem2 = "xbruconst"
+
+buildItem3 = "brfreight"
+
+dilithiumCost = 1500
+
+metalCost = 1500
 
 latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Starbase (Breen Starbase)"
-
-verboseTooltip = "A fortified center for fleet operations and local production. Breen engineering supports the Confederacy with focused, uncompromising efficiency."
+crewCost = 150

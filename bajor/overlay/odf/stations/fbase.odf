@@ -54,7 +54,7 @@ animation = 1
 buildAnimation = 1
 
 //Even though we are a shipyard we don't have a repair facility
-repairFacility = 0
+
 
 //scan range in meters
 rangeScan = 1000.0f
@@ -224,7 +224,7 @@ SHOW_SW_AUTONOMY = 1
 
 
 
-crewCost = 150
+
 officerCost = 10
 buildTime = 100
 
@@ -259,18 +259,18 @@ sensorstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16"
 hulltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16" "hp17" "hp18" "hp19" "hp20"
 
 criticaltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16" "hp17" "hp18" "hp19" "hp20"
-buildItem0 = "fconst"
-buildItem1 = "fconst2"
-buildItem2 = "ffreight"
-buildItem3 = "fcargo"
-buildItem4 = "fsrepair"
-buildItem5 = "fcolony"
-buildItem6 = "fscout"
-buildItem7 = "fdanube"
-buildItem8 = "ffighter"
-buildItem9 = "fdeltaflyer"
-buildItem10 = "fantares"
-buildItem11 = "xfuconst"
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Equal visual span: vanilla Borg Nexus reference.
 
@@ -295,13 +295,13 @@ buildItem11 = "xfuconst"
 
 
 
-dilithiumCost = 2150
 
-metalCost = 2150
 
-latinumCost = 0
 
-biomatterCost = 0
+
+
+
+
 
 tooltip = "Starbase (SpaceDock)"
 
@@ -318,3 +318,42 @@ westBuffer = 0
 northBuffer = 0
 
 southBuffer = 0
+
+repairFacility = 0
+
+
+buildItem0 = "fconst"
+
+buildItem1 = "fconst2"
+
+buildItem2 = "xfuconst"
+
+buildItem3 = "xu3fed2"
+
+buildItem4 = "ffreight"
+
+buildItem5 = "fcargo"
+
+buildItem6 = "fsrepair"
+
+buildItem7 = "fcolony"
+
+buildItem8 = "fscout"
+
+buildItem9 = "fdanube"
+
+buildItem10 = "ffighter"
+
+buildItem11 = "fdeltaflyer"
+
+buildItem12 = "fantares"
+
+dilithiumCost = 1500
+
+metalCost = 1500
+
+latinumCost = 0
+
+biomatterCost = 0
+
+crewCost = 150

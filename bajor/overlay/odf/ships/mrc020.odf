@@ -1,0 +1,131 @@
+shielddelay = 1.0f
+rangescan = 800.0f
+maxspecialenergy = 2400
+specialenergyrate = 24
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 20
+lifesupporthitpoints = 20
+weaponshitpoints = 20
+shieldgeneratorhitpoints = 20
+sensorshitpoints = 20
+eventselect = "XV_kmartok_Select"
+eventacknowledge = "XV_kmartok_Acknowledge"
+eventattack = "XV_kmartok_Attack"
+eventstop = "XV_kmartok_Stop"
+eventmove = "XV_kmartok_Move"
+eventrepair = "XV_kmartok_Repair"
+canattackplanets = 1
+physicsfile = "sbattphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "Mirror Negh'Var Class"
+ishero = 0
+label = "Martok's Negh'Var"
+race = "klingon"
+sanecrewlossmethod = 1
+maxhealth = 2367.75
+shieldrate = 8.9
+combatspeed = 91
+impulsespeed = 78
+warpspeed = 925
+possiblecraftnames = "Mirror Negh'Var Class"
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+weaponyellow = 1.0f
+weaponred = 0.75f
+
+
+officercost = 7
+
+eventredalert = "XV_kmartok_RedAlert"
+eventyellowalert = "XV_kmartok_YellowAlert"
+eventgreenalert = "XV_kmartok_GreenAlert"
+eventtransport = "XV_kmartok_Transport"
+eventselfdestruct = "XV_kmartok_SelfDestruct"
+eventdecommission = "XV_kmartok_Decommission"
+tooltip = "Mirror Negh'Var Class"
+
+
+
+
+
+crewcost = 975
+weapon1 = "mrw036"
+weaponhardpoints1 = "hp14" "hp15" "hp16" "hp17"
+weapon2 = "mrw037"
+weaponhardpoints2 = "hp18"
+weapon3 = "mrw037"
+weaponhardpoints3 = "hp19"
+weapon4 = "mrw037"
+weaponhardpoints4 = "hp20"
+weapon5 = "gselfdes"
+weaponhardpoints5 = "hp21"
+weapon6 = "gkcloak"
+weaponhardpoints6 = "hp21"
+weapon7 = "mrw038"
+weaponhardpoints7 = "hp11"
+weapon8 = "mrw038"
+weaponhardpoints8 = "hp12"
+weapon9 = "mrw038"
+weaponhardpoints9 = "hp13"
+weapon10 = "mrw036"
+weaponhardpoints10 = "hp01"
+weapon11 = "mrw037"
+weaponhardpoints11 = "hp02"
+scalesod = 1.25
+
+baseName = "mrc020"
+
+dilithiumCost = 931
+
+metalCost = 400
+
+latinumCost = 0
+
+biomatterCost = 0
+
+buildTime = 100
+
+hotkeyLabel = "HOTKEY_F2"
+
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

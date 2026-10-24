@@ -1,0 +1,112 @@
+###########################################Transphasic Torpedo#######################################################
+1. History
+2. What is it.
+3. What does it do.
+4. How to install it.
+5. Credits.
+#####################################################################################################################
+
+
+
+
+1. History of the Transphasic Torpedo;
+
+The transphasic torpedo was a Starfleet weapon developed sometime in the 2380s in a future alternate timeline.
+It was designed specifically to handle the Borg threat, with input by Captain Kathryn Janeway and the crew of 
+the USS Voyager. 
+In 2378, the point to which Admiral Janeway from the alternate timeline had traveled back in time,
+the admiral introduced Captain Janeway to this technology for use in reaching a Borg transwarp hub 
+accessing the Borg transwarp network to return to Earth. When entering the nebula where the transwarp 
+hub was located, one transphasic torpedo was enough to destroy a Borg cube. Despite the use of transphasic 
+torpedoes to destroy two cubes, the Collective had not yet adapted to the torpedoes when Voyager fired at 
+the interspatial manifolds in the transwarp network. (VOY: "Endgame")
+
+
+
+2. What is it?
+
+It is a special weapon. A WHITE transphasic Torpedo, like in the movie.
+
+
+
+
+3. What does it do?
+
+It destroys enemy ship (or friendly ships) with ease.
+
+
+
+
+
+4. How to install it
+
+
+
+4.1 Go to your Armada 2 directory.
+
+4.2 Go to the techtree folder in your armada 2 map and open fulltech.tt. (can be done with notepad)
+
+4.3 Add the following line in notepad.
+    gtransphasic.odf 0
+
+4.4 In the same directory open tech1.tt. (can also be done with notepad)
+
+4.5 Add the following line where it says "Federation special weapons".
+    gtransphasic.odf 0
+
+4.6 Now go back to your Armada 2 directory and then go to your sprite folder.
+
+4.7 Open gui_global.spr (can be done with notepad)
+
+4.8 Search inside the file for these lines
+
+# Special weapon buttons
+@reference=64
+
+@tmaterial=interface
+
+4.9 Enter the following line underneath it.
+    b_gtransphasic			gbfluxwave00	0	0	64	64		
+
+4.10 Go back to your Armada 2 directory and copy and paste the odf map inside the zipfile in your Armada 2 directory.
+
+4.11 Now go to the odf map, then ships. And choose any ship you would like to have this special weapon.
+
+4.12 Open the .odf file of that ship and search for this line
+     //ART PARAMETERS & WEAPON NAMES
+
+4.13 Now enter these lines under the last weapon.
+     weapon## = "gtransphasic"
+     weaponHardpoints## = "hp**" "hp**"
+
+4.14 Replace the ## with the weapon number. Like this.
+
+weapon9 = "fbattlephot"
+weaponHardpoints9 = "hp19" "hp21"
+
+weapon10 = "gtransphasic"
+weaponHardpoints10 = "hp**" "hp**"
+
+You see the previous weapon is weapon9. So the added weapon will be weapon10. Same goes for weaponHardpoints##.
+
+4.15 Replace the "hp**" with hardpoints of a torpedo weapon. To make it a bit more realistic. Like this
+
+weapon9 = "fbattlephot"
+weaponHardpoints9 = "hp19" "hp21"   <--- As you can see the Hardpoints for torpedoes are hp19 and hp21
+
+So the thing to do is to change the "hp**" to these numbers like this.
+
+weapon10 = "gtransphasic"
+weaponHardpoints10 = "hp19" "hp21"
+
+Now you are finally done. :P
+
+5. Credits
+
+Me (for the odf modding) :P
+And everyone else in the Armada2 modding community.
+Without them I could never be able to make this weapon myself.
+I've learned little by little. And now I know how to mod almost everything. :P Almost, everything.....
+
+For questions you can always contact me;
+E-mail ; tiger_toto@live.nl

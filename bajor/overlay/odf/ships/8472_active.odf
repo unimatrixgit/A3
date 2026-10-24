@@ -55,12 +55,12 @@ specialEnergyRate = 10
 
 //**********************************************************************
 //Construction Parameters
-buildItem0 = "8472_collector"
-buildItem1 = "8472_scout"
-buildItem2 = "8472fig"
-buildItem3 = "8472_destroy"
-buildItem4 = "8472_cruise1"
-buildItem5 = "8472_cruise2"
+
+
+
+
+
+
 
 
 //**********************************************************************
@@ -80,8 +80,8 @@ possibleCraftNames = "Active-K4E23" "Active-K2B74" "Active-K5Y10"
 //ART PARAMETERS & WEAPON NAMES
 
 // Towing Beam
-weapon1 = "gtracbm"
-weaponHardpoints1 = "hp01"
+
+
 
 // Hardpoints to hit for various systems and other locations.
 enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
@@ -123,17 +123,17 @@ crewCost = 0
 officerCost = 0
 buildTime = 13
 
-weapon2 = "biolev2"
 
-weaponHardpoints2 = "hp02"
 
-weapon3 = "xp12t"
 
-weaponHardpoints3 = "hp03"
 
-canAttack = 1
 
-combat = 1
+
+
+
+
+
+
 
 alert = 1
 
@@ -148,3 +148,35 @@ biomatterCost = 150
 tooltip = "Bio-Constructor (Active Embryo)"
 
 verboseTooltip = "Grows the biological structures listed in its construction menu. Living biotechnology shapes this organism for operations beyond fluidic space. Special systems: Tractor Beam. Availability follows the selected technology tree."
+
+weapon1 = "gtracbm"
+weaponHardpoints1 = "hp01"
+
+canAttack = 0
+
+combat = 0
+
+attackPower = 0.0
+
+
+
+
+
+
+
+
+buildItem0 = "8472_collector"
+
+buildItem1 = "8472_scout"
+
+buildItem2 = "8472fig"
+
+buildItem3 = "8472_destroy"
+
+buildItem4 = "8472_cruise1"
+
+buildItem5 = "8472_cruise2"
+
+buildItem6 = "xsbcol1"
+
+buildItem7 = "xsbcol2"

@@ -116,7 +116,7 @@ fireball = "xfirebal"
 facility = 1
 has_crew = 1
 has_hitpoints = 1
-repairFacility = 1
+
 trade_station = 1
 dilithiumTransferRate = 10
 metalTransferRate = 10
@@ -160,14 +160,14 @@ baseName = "fds9"
 
 
 
-crewCost = 1500
+
 officerCost = 9
 buildTime = 5
-buildItem0 = "fconst"
-buildItem1 = "fcargo"
-buildItem2 = "fsrepair"
-buildItem3 = "ffreight"
-buildItem4 = "xfuconst"
+
+
+
+
+
 
 // Equal visual span: vanilla Borg Nexus reference.
 ScaleSOD = 1.07999749
@@ -192,14 +192,88 @@ southBuffer = 0
 
 footprintBuffer = 72
 
-dilithiumCost = 2875
 
-metalCost = 2875
+
+
+
+
+
+
+
+tooltip = "Starbase (Deep Space 9)"
+
+verboseTooltip = "A fortified center for fleet operations and local production. Starfleet engineering supports a disciplined, versatile fleet."
+
+repairFacility = 0
+
+cargoKey13 = "GUI_SD_XFG_CLOAKING"
+cargoValue13 = 1.5
+
+cargoKey14 = "GUI_SD_XFG_QUANTUM"
+cargoValue14 = 1.5
+
+cargoKey15 = "GUI_SD_XFG_TRANSPHASIC"
+cargoValue15 = 1.9
+
+cargoKey16 = "GUI_SD_XFG_CONTRABAND"
+cargoValue16 = 1.2
+
+cargoKey17 = "GUI_SD_XFG_QUARK"
+cargoValue17 = 1.0
+
+cargoKey18 = "GUI_SD_XFG_TRIBBLE_INSURANCE"
+cargoValue18 = 0.8
+
+cargoKey19 = "GUI_SD_XFG_BLOODWINE"
+cargoValue19 = 1.1
+
+cargoKey20 = "GUI_SD_XFG_EARPLUGS"
+cargoValue20 = 1.0
+
+cargoKey21 = "GUI_SD_XFG_SELF_SEALING"
+cargoValue21 = 1.1
+
+cargoKey22 = "GUI_SD_XFG_HOLO_COUPONS"
+cargoValue22 = 0.5
+
+cargoKey23 = "GUI_SD_XFG_RULES"
+cargoValue23 = 1.0
+
+cargoKey24 = "GUI_SD_XFG_GEL"
+cargoValue24 = 1.8
+
+cargoKey25 = "GUI_SD_XFG_PERIDAXON"
+cargoValue25 = 1.6
+
+cargoKey26 = "GUI_SD_XFG_WHITE"
+cargoValue26 = 1.8
+
+cargoKey27 = "GUI_SD_XFG_DEUTERIUM"
+cargoValue27 = 1.0
+
+cargoKey28 = "GUI_SD_XFG_ANTIMATTER"
+cargoValue28 = 1.5
+
+buildItem0 = "fconst"
+
+buildItem1 = "fconst2"
+
+buildItem2 = "xfuconst"
+
+buildItem3 = "xu3fed2"
+
+buildItem4 = "fcargo"
+
+buildItem5 = "fsrepair"
+
+buildItem6 = "ffreight"
+
+dilithiumCost = 1500
+
+metalCost = 1500
 
 latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Starbase (Deep Space 9)"
-
-verboseTooltip = "A fortified center for fleet operations and local production. Starfleet engineering supports a disciplined, versatile fleet."
+crewCost = 150

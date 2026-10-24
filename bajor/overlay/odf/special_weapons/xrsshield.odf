@@ -1,0 +1,56 @@
+//Name of the ODF file for the ordinance for this weapon
+ordName = "shieldi"
+
+//Display name for this weapon
+wpnName = "Shield Inversion Beam"
+
+//tooltips
+tooltip = "ROM_POD1"
+verboseTooltip = "ROM_POD1_V"
+
+//Location of the button in the speed panel
+
+
+// location of the button in the popup palette
+
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 10
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+//Time Delay between shots
+shotDelay = 0.0
+
+// Range within which the weapon will fire.
+range = 800.0f
+
+//Sound which is played when the weapon fires
+fireSound = "swrsldif.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "toggleweapon"
+
+// Special stuff - denote special weapon
+special = 1
+
+// Need a target for this one
+needTarget = 1
+
+//Don't automatically switch to attack mode after launching a mine
+switchToAttack = 0
+
+//this special weapon can be assimilated by the borg tech assimilator
+assimilatable = "rompod1"
+
+
+buttonSlot = 3
+
+popupSlot = 2
+
+hotkeyLabel = "HOTKEY_F3"

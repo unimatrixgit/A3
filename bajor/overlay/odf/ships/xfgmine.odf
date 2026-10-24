@@ -1,0 +1,79 @@
+#include "freight.odf"
+
+enginesTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
+
+lifeSupportTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
+
+weaponsTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
+
+shieldGeneratorTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
+
+sensorsTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
+
+hullTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
+
+criticalTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
+
+baseName = "xfgmine"
+
+race = "ferengi"
+
+unitName = "Mercenary Ferengi Mining Collector"
+
+tooltip = "Mercenary Ferengi Mining Collector"
+
+verboseTooltip = "Ferengi mining collector. Contracted at the Ferengi Service Yard for latinum."
+
+maxHealth = 500
+
+shieldRate = 4
+
+crewCost = 100
+
+maximumCrew = 150
+
+officerCost = 3
+
+dilithiumCost = 0
+
+metalCost = 0
+
+latinumCost = 250
+
+biomatterCost = 0
+
+buildTime = 35
+
+ScaleSOD = 1.5
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0
+
+hotkeyLabel = "HOTKEY_F3"
+
+possibleCraftNames = "Opportunity" "New Horizons" "Useful Assets" "Paid In Full"
+
+shieldGeneratorHitPoints = 100
+
+enginesHitPoints = 100
+
+weaponsHitPoints = 100
+
+lifeSupportHitPoints = 100
+
+sensorsHitPoints = 100
+
+resourcesCanHandle = "dilithium" "latinum"
+
+maxDilithium = 300
+
+maxLatinum = 150
+
+weapon1 = "xfgminedil"
+
+weaponHardpoints1 = "hp10"
+
+weapon2 = "xfgminelat"
+
+weaponHardpoints2 = "hp09"

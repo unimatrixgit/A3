@@ -1,0 +1,117 @@
+shielddelay = 1.0f
+rangescan = 1250.0f
+maxspecialenergy = 0
+specialenergyrate = 0
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 0.25
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 1
+fireball = "xfirebsm"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 0
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "scout"
+scout = 1
+attackpower = 0.10f
+intrinsicvalue = 0.15f
+engineshitpoints = 480
+lifesupporthitpoints = 480
+weaponshitpoints = 480
+shieldgeneratorhitpoints = 480
+sensorshitpoints = 480
+eventselect = "XV_fnxent_Select"
+eventacknowledge = "XV_fnxent_Acknowledge"
+eventattack = "XV_fnxent_Attack"
+eventstop = "XV_fnxent_Stop"
+eventmove = "XV_fnxent_Move"
+eventrepair = "XV_fnxent_Repair"
+physicsfile = "ffrigatephys.odf"
+trekphysicsfile = "ffrigatephys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "S"
+unitname = "Mirror NX Class"
+race = "federation"
+maxhealth = 1500
+shieldrate = 20
+possiblecraftnames = "Mirror NX Class"
+weapon1 = "mrw031"
+weaponhardpoints1 = "hp02"
+weapon2 = "mrw031"
+weaponhardpoints2 = "hp05"
+enginestargethardpoints = "hp08" "hp09" "hp10" "hp11"
+lifesupporttargethardpoints = "hp18"
+weaponstargethardpoints = "hp02" "hp05"
+shieldgeneratortargethardpoints = "hp01"
+hulltargethardpoints = "hp03" "hp04" "hp06" "hp07" "hp12"
+criticaltargethardpoints = ""
+weaponyellow = 1.0f
+weaponred = 2.0f
+attack_path0 = "p2.pth"
+attack_path1 = "p3.pth"
+
+officercost = 9
+
+scalesod = 0.46875
+tooltip = "Mirror NX Class"
+
+
+
+
+
+crewcost = 50
+ishero = 0
+label = "Enterprise NX-01"
+eventredalert = "XV_fnxent_RedAlert"
+eventyellowalert = "XV_fnxent_YellowAlert"
+eventgreenalert = "XV_fnxent_GreenAlert"
+eventtransport = "XV_fnxent_Transport"
+eventselfdestruct = "XV_fnxent_SelfDestruct"
+eventdecommission = "XV_fnxent_Decommission"
+weapon3 = "fnxenttoent"
+weaponhardpoints3 = "hp01"
+weapon4 = "mrw031"
+weaponhardpoints4 = "hp01"
+weapon5 = "mrw005"
+weaponhardpoints5 = "hp03"
+
+
+baseName = "mrc017"
+
+dilithiumCost = 256
+
+metalCost = 0
+
+latinumCost = 0
+
+biomatterCost = 0
+
+buildTime = 28
+
+hotkeyLabel = "HOTKEY_F11"
+
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

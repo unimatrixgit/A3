@@ -1,0 +1,209 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "ferengi"
+
+//Amount of time required to build ship
+
+
+//Number of officers required to build this ship
+
+
+//Number of crew required to build ship & Starting crew
+
+
+//Dilithium Cost to build
+
+
+//Metal cost to build
+
+
+//Max Shield Strength & Begining Shield Strength <1000
+
+
+//Rate at which shield recharges (points per second... we think)
+
+
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Salvaged Barisa Prime" "Salvaged Tau Ceti Prime" "Salvaged Tessen Prime" "Salvaged Taurus Prime"
+	"Salvaged Meldrar Prime" "Salvaged Moriya Prime" "Salvaged Erabus Prime" "Salvaged Finnea Prime"
+	"Salvaged Acamar Prime" "Salvaged Aldea Prime" "Salvaged Andoria Prime" "Salvaged Calder Prime"
+	"Salvaged Iyaar Prime" "Salvaged Denocet Prime" "Salvaged Dytallix Prime" "Salvaged Galor Prime"
+	"Salvaged Minos Prime" "Salvaged Nausicaa Prime" "Salvaged Oyarsa Prime" "Salvaged Qualor Prime" 
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+
+
+
+
+
+
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+
+
+
+
+
+//Hardpoint location for building.
+
+
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "ShipyardSelect"
+eventAcknowledge = "ShipyardAcknowledge"
+eventDecommission = "ShipyardDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "shipyard"
+
+// Hotkey label
+
+
+//************************************************************
+// Brian additions for context sensitive menus
+builder_ship = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+// make it bigger
+
+unitName = "Mercenary Ferengi Contract Yard"
+
+tooltip = "Mercenary Ferengi Contract Yard"
+
+verboseTooltip = "Contracts Ferengi warships, three mercenary heroes and a 1,500-capacity trade ship. Resource costs are latinum only."
+
+baseName = "xfgmerc"
+
+maxHealth = 2400
+
+shieldRate = 10
+
+crewCost = 200
+
+maximumCrew = 400
+
+officerCost = 10
+
+dilithiumCost = 0
+
+metalCost = 0
+
+latinumCost = 650
+
+biomatterCost = 0
+
+buildTime = 90
+
+repairFacility = 1
+
+
+
+hotkeyLabel = "HOTKEY_F10"
+
+
+
+
+
+
+
+
+
+
+enginesTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
+
+lifeSupportTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
+
+weaponsTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
+
+shieldGeneratorTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
+
+sensorsTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
+
+hullTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
+
+criticalTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
+
+ScaleSOD = 0.98994094
+
+buildHardpoint = "hp36"
+
+repairHardpoint = "repair"
+
+
+
+
+
+
+
+
+
+
+
+buildItem0 = "xfgfight"
+
+buildItem1 = "xfgfrig"
+
+buildItem2 = "xfgdest"
+
+buildItem3 = "xfgcruis"
+
+buildItem4 = "xfgbatt"
+
+buildItem5 = "xfgquark"
+
+buildItem6 = "xfgrom"
+
+buildItem7 = "xfgnagus"
+
+buildItem8 = "xfgdaim"
+
+buildItem9 = "xfgconst"
+
+buildItem10 = "xu3fer2"

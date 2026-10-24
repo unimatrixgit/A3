@@ -1,0 +1,35 @@
+#include "phaser.odf"
+
+//Name of the ODF file for the ordinance for this weapon
+
+
+//Display name for this weapon
+
+
+//Time Delay between shots
+
+
+//Sound which is played when the weapon fires
+fireSound = "phfwea.wav"
+
+
+
+
+lifeSpan = 1.5
+Sprite = "cphaser"
+
+ordName = "xfgdaimbo"
+
+wpnName = "Ferengi Disruptor"
+
+damageBase = 90.00000000
+
+hitChance = 0.75
+
+shotDelay = 1.8
+
+specialEnergyCost = 0
+
+special = 0
+
+range = 550

@@ -1,186 +1,142 @@
-// Begin main properties
-
-unitName = "Weyoun's Command Battleship"
-
-
+unitname = "Weyoun's Command Battleship"
 race = "dominion"
-maxHealth = 2500
-shieldGeneratorHitPoints = 600
-enginesHitPoints = 600
-weaponsHitPoints = 600
-lifeSupportHitPoints = 600
-sensorsHitPoints = 600
-shieldRate = 15.0
-
-
-attackPower = 2.00f
-intrinsicValue = 1.50f
+maxhealth = 2500
+shieldgeneratorhitpoints = 600
+engineshitpoints = 600
+weaponshitpoints = 600
+lifesupporthitpoints = 600
+sensorshitpoints = 600
+shieldrate = 15.0
+attackpower = 2.00f
+intrinsicvalue = 1.50f
 shipclass = "battleship"
-enginesHitPercent = 5.0f
-lifeSupportHitPercent = 8.5f
-weaponsHitPercent = 5.0f
-shieldGeneratorHitPercent = 8.0f
-sensorsHitPercent = 8.0f
-crewHitPercent = 8.5f
-hullHitPercent = 57.0f
-
-// End main properties
-
-// Begin weapons
-
-weapon1 = "zjmphas"
-weaponHardpoints1 = "hp14" "hp15"
-weapon2 = "jmphot"
-weaponHardpoints2 = "hp04" "hp07"
-weapon3 = "zdpulse"
-weaponHardpoints3 = "hp01" "hp02"
-weapon4 = "dwgpolerond"
-weaponHardpoints4 = "hp05"
-
-weaponHardpoints5 = "hp06" "hp08" "hp09" "hp10"
-
-// End weapons
-
-// Begin hardpoints
-
-enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
-lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
-weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
-shieldGeneratorTargetHardpoints = "hp16" "hp15" "hp14" "hp13" "hp12"
-sensorsTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
-hullTargetHardpoints = "hp06" "hp08" "hp10" "" "hp12" "hp14"
-criticalTargetHardpoints = "hp07" "hp09" "hp11" "hp13"
-
-// End hardpoints
-
-// Begin sounds
-
-
-// End sounds
-
-// Begin ship names
-possibleCraftNames = 
- 	"1st Div 1st Weyoun" "1st Div 2nd Weyoun" "1st Div 3rd Weyoun" 
-	"1st Div 4th Weyoun" "1st Div 5th Weyoun" "1st Div 6th Weyoun" 
-	"1st Div 7th Weyoun" "1st Div 8th Weyoun" "1st Div 9th Weyoun" 
-	"2nd Div 1st Weyoun" "2nd Div 2nd Weyoun" "2nd Div 3rd Weyoun" 
-	"2nd Div 4th Weyoun" "2nd Div 5th Weyoun" "2nd Div 6th Weyoun" 
-	"2nd Div 7th Weyoun" "2nd Div 8th Weyoun" "2nd Div 9th Weyoun" 
-	"3rd Div 1st Weyoun" "3rd Div 2nd Weyoun" "3rd Div 3rd Weyoun" 
-	"3rd Div 4th Weyoun" "3rd Div 5th Weyoun" "3rd Div 6th Weyoun" 
-	"3rd Div 7th Weyoun" "3rd Div 8th Weyoun" "3rd Div 9th Weyoun"
-	"4th Div 1st Weyoun" "4th Div 2nd Weyoun" "4th Div 3rd Weyoun" 
-	"4th Div 4th Weyoun" "4th Div 5th Weyoun" "4th Div 6th Weyoun" 
-	"4th Div 7th Weyoun" "4th Div 8th Weyoun" "4th Div 9th Weyoun" 
-	"5th Div 1st Weyoun" "5th Div 2nd Weyoun" "5th Div 3rd Weyoun" 
-	"5th Div 4th Weyoun" "5th Div 5th Weyoun" "5th Div 6th Weyoun" 
-	"5th Div 7th Weyoun" "5th Div 8th Weyoun" "5th Div 9th Weyoun"
-
-// End ship names
-
-// Begin misc properties
-
-isHero = 1
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+shieldgeneratortargethardpoints = "hp16" "hp15" "hp14" "hp13" "hp12"
+sensorstargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+hulltargethardpoints = "hp06" "hp08" "hp10" "hp12" "hp14"
+criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13"
+possiblecraftnames = "1st Div 1st Weyoun" "1st Div 2nd Weyoun" "1st Div 3rd Weyoun"
+ishero = 1
 label = "Weyoun's Command Battleship"
-saneCrewLossMethod = 1
-shieldProtection = 1.0
-weaponYellow = 1.0f
-weaponRed = 2.0f
-hotkeyLabel = "HOTKEY_F4"
-ScaleSOD = 1.15
-physicsFile = "sbatt2phys.odf"
-trekPhysicsFile = "trek_sbatt2phys.odf"
-avoidanceClass = 8
-canAttackPlanets = 1
+sanecrewlossmethod = 1
+shieldprotection = 1.0
+weaponyellow = 1.0f
+weaponred = 2.0f
+hotkeylabel = "HOTKEY_F4"
+scalesod = 1.15
+physicsfile = "sbatt2phys.odf"
+trekphysicsfile = "trek_sbatt2phys.odf"
+avoidanceclass = 8
+canattackplanets = 1
 fireball = "xfireblg"
 combat = 1
 alert = 1
 can_sandd = 1
-shipType = "B"
-shieldDelay = 3.0f
-rangeScan = 800.0f
-damagedScan = 125.0
-enginesRepairTime = 3.0f
-lifeSupportRepairTime = 0.1f
-weaponsRepairTime = 3.0f
-shieldGeneratorRepairTime = 3.0f
-sensorsRepairTime = 3.0f
-enginesCrewLoss = 5.0f
-lifeSupportCrewLoss = 3.0f
-weaponsCrewLoss = 2.0f
-shieldGeneratorCrewLoss = 2.0f
-sensorsCrewLoss = 2.0f
-lifeSupportLoss = 2.0f
-weldingRadius = 1.0
-classLabel = "craft"
-aiName = "CraftProcess"
+shiptype = "B"
+shielddelay = 3.0f
+rangescan = 800.0f
+damagedscan = 125.0
+enginesrepairtime = 3.0f
+lifesupportrepairtime = 0.1f
+weaponsrepairtime = 3.0f
+shieldgeneratorrepairtime = 3.0f
+sensorsrepairtime = 3.0f
+enginescrewloss = 5.0f
+lifesupportcrewloss = 3.0f
+weaponscrewloss = 2.0f
+shieldgeneratorcrewloss = 2.0f
+sensorscrewloss = 2.0f
+lifesupportloss = 2.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
 ship = 1
 has_hitpoints = 1
 has_crew = 1
 transporter = 1
-SHOW_MOVEMENT_AUTONOMY = 1
+show_movement_autonomy = 1
 can_explore = 1
-
-// End misc properties
-
-
-
-
-// Xaramada resource costs: original filename.
-
-
-
-
-
-officerCost = 10
-buildTime = 100
-
-
-eventSelect = "XV_dweyoun_Select"
-
-eventAcknowledge = "XV_dweyoun_Acknowledge"
-
-eventAttack = "XV_dweyoun_Attack"
-
-eventStop = "XV_dweyoun_Stop"
-
-eventMove = "XV_dweyoun_Move"
-
-eventRepair = "XV_dweyoun_Repair"
-
-eventRedAlert = "XV_dweyoun_RedAlert"
-
-eventYellowAlert = "XV_dweyoun_YellowAlert"
-
-eventGreenAlert = "XV_dweyoun_GreenAlert"
-
-eventTransport = "XV_dweyoun_Transport"
-
-eventSelfDestruct = "XV_dweyoun_SelfDestruct"
-
-eventDecommission = "XV_dweyoun_Decommission"
-
-
-
-
-maxSpecialEnergy = 1400
-
-specialEnergyRate = 14.0
-
-
-
-
-
-
-
+officercost = 10
+buildtime = 100
+eventselect = "XV_dweyoun_Select"
+eventacknowledge = "XV_dweyoun_Acknowledge"
+eventattack = "XV_dweyoun_Attack"
+eventstop = "XV_dweyoun_Stop"
+eventmove = "XV_dweyoun_Move"
+eventrepair = "XV_dweyoun_Repair"
+eventredalert = "XV_dweyoun_RedAlert"
+eventyellowalert = "XV_dweyoun_YellowAlert"
+eventgreenalert = "XV_dweyoun_GreenAlert"
+eventtransport = "XV_dweyoun_Transport"
+eventselfdestruct = "XV_dweyoun_SelfDestruct"
+eventdecommission = "XV_dweyoun_Decommission"
 
 
 tooltip = "Hero Ship (Weyoun's Command Battleship)"
-
-verboseTooltip = "A named command vessel serving the Dominion fleet. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Polaron Torpedo. Availability follows the selected technology tree."
-weapon5 = "gselfdes"
+verbosetooltip = "A named command vessel serving the Dominion fleet. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Polaron Torpedo. Availability follows the selected technology tree."
 dilithiumcost = 310
 metalcost = 130
 latinumcost = 0
 biomattercost = 0
-crewCost = 625
+crewcost = 625
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "zjmphas"
+
+weaponHardpoints1 = "hp14" "hp15"
+
+weapon2 = "jmphot"
+
+weaponHardpoints2 = "hp04" "hp07"
+
+weapon3 = "zdpulse"
+
+weaponHardpoints3 = "hp01" "hp02"
+
+weapon4 = "dwgpolerond"
+
+weaponHardpoints4 = "hp05"
+
+weapon5 = "gselfdes"
+
+weaponHardpoints5 = "hp06" "hp08" "hp09" "hp10"
+
+weapon6 = "zjmphas"
+
+weaponHardpoints6 = "hp03"
+
+weapon7 = "jmphot"
+
+weaponHardpoints7 = "hp11"
+
+maxspecialenergy = 1400
+
+specialenergyrate = 14.0

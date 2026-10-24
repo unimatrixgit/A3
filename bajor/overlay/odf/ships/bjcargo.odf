@@ -39,16 +39,7 @@ shieldrate = 3.5
 //SHIP NAMES
 
 //Possible Craft Names
-possibleCraftNames = 
-	"USS Pannonia" "USS Illyria" "USS Dalmatia" "USS Ostia" "USS Carthage"
-	"USS Gibraltar" "USS Carpentum" "USS Hannibal" "USS Hamilcar" "USS Amphorae"
-	"USS Adonis" "USS Denarius" "USS Concordia" "USS Macedonia" "USS Actium"
-	"USS Cicero" "USS Salamis" "USS Byzantium" "USS Pertinax" "USS Vespasian"
-	"USS Tyre" "USS Zama" "USS Neco" "USS Simyra" "USS Zarephath"
-	"USS Byblos" "USS Jubeil" "USS Arwad" "USS Astarte"
-	"USS Sidon" "USS Utica" "USS Berytus" "USS Tarshish" "USS Baalbek"
-	"USS Canaan" "USS Carteia" "USS Baal" "USS Melqart" "USS Murex"
-	"USS Venra"
+
 
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
@@ -58,7 +49,7 @@ possibleCraftNames =
 // Hardpoints to hit for various systems and other locations.
 
 
-weaponsTargetHardpoints =
+
 
 
 
@@ -98,8 +89,6 @@ race = "bajoran"
 
 
 
-baseName = "br3_bjcargo"
-ScaleSOD = 0.88
 
 
 
@@ -107,16 +96,18 @@ ScaleSOD = 0.88
 
 
 
-enginestargethardpoints = "hp01" "hp02"
-lifesupporttargethardpoints = "hp03" "hp04" "hp05"
-shieldgeneratortargethardpoints = "hp06" "hp07" "hp08"
-sensorstargethardpoints = "hp09" "hp10" "hp11"
-hulltargethardpoints = "hp12" "hp13" "hp14" "hp15"
-criticaltargethardpoints = "hp16" "hp17" "hp18"
+
+
+
+
+
+
+
+
 
 // Preserve utility ability slots independently of combat balance.
 weapon1 = "femissaryphas"
-weaponhardpoints1 = "hp01" "hp02" "hp03"
+
 
 maxspecialenergy = 1000
 
@@ -153,3 +144,27 @@ physicsfile = "scargophys.odf"
 rangescan = 800.0f
 
 damagedscan = 125.0
+
+
+
+ScaleSOD = 0.445125
+
+weaponstargethardpoints = "hp01"
+
+enginestargethardpoints = "hp01" "hp02"
+
+lifesupporttargethardpoints = "hp03" "hp04" "hp05"
+
+shieldgeneratortargethardpoints = "hp06" "hp07" "hp08"
+
+sensorstargethardpoints = "hp09" "hp10" "hp11"
+
+hulltargethardpoints = "hp12" "hp13" "hp14"
+
+criticaltargethardpoints = "hp01"
+
+weaponhardpoints1 = "hp01" "hp02" "hp03"
+
+baseName = "bv4_bjcargo"
+
+possibleCraftNames = "BMS Kendra" "BMS Dahkur" "BMS Rakantha" "BMS Hathon" "BMS Jalanda" "BMS Dakor" "BMS Tozhat" "BMS Musilla" "BMS Hedrikspool" "BMS Dakhur" "BMS Ashalla" "BMS Dahkur Dawn" "BMS Kendra Spirit" "BMS Bajoran Dawn" "BMS Prophets Grace" "BMS First Light" "BMS Celestial Dawn" "BMS Valley Guardian" "BMS Militia Resolve" "BMS Freedom of Bajor" "BMS Dahkur Sentinel" "BMS Rakantha Shield" "BMS Kendra Vigil" "BMS Bajor Ascendant" "BMS Jalanda Star" "BMS Hathon Guard" "BMS Emissarys Hope" "BMS Liberation" "BMS Gratitude" "BMS New Dawn" "BMS Dahkur Resolve" "BMS Celestial Guardian"

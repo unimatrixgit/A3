@@ -1,64 +1,127 @@
-#include "battle.odf"
-unitName = "James T Kirk - Enterprise"
+shielddelay = 1.0f
+rangescan = 800.0f
+
+
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 10
+lifesupporthitpoints = 10
+weaponshitpoints = 10
+shieldgeneratorhitpoints = 10
+sensorshitpoints = 10
+eventselect = "XV_fent_Select"
+eventacknowledge = "XV_fent_Acknowledge"
+eventattack = "XV_fent_Attack"
+eventstop = "XV_fent_Stop"
+eventmove = "XV_fent_Move"
+eventrepair = "XV_fent_Repair"
+canattackplanets = 1
+physicsfile = "ffrigatephys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "James T Kirk - Enterprise"
 label = "James T Kirk - Enterprise"
-
-
-baseName = "fent"
+basename = "fent"
 race = "federation"
-isHero = 1
-possibleCraftNames = "Enterprise"
-hotkeyLabel = ""
-maxHealth = 3500
-shieldRate = 12.0
-maxSpecialEnergy = 1000
-specialEnergyRate = 15
+ishero = 1
+possiblecraftnames = "Enterprise"
+hotkeylabel = ""
+maxhealth = 3500
+shieldrate = 12.0
+officercost = 7
+buildtime = 83
+scalesod = 0.1
+trekphysicsfile = "ffrigatephys.odf"
+eventredalert = "XV_fent_RedAlert"
+eventyellowalert = "XV_fent_YellowAlert"
+eventgreenalert = "XV_fent_GreenAlert"
+eventtransport = "XV_fent_Transport"
+eventselfdestruct = "XV_fent_SelfDestruct"
+eventdecommission = "XV_fent_Decommission"
+tooltip = "Hero Ship (James T Kirk - Enterprise)"
+verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+dilithiumcost = 430
+metalcost = 185
+latinumcost = 0
+biomattercost = 0
+crewcost = 740
 
-officerCost = 7
-buildTime = 83
-ScaleSOD = 0.1
-physicsFile = "ffrigatephys.odf"
-trekPhysicsFile = "ffrigatephys.odf"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 weapon1 = "fentphas"
+
 weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp10" "hp12"
+
 weapon2 = "frphot"
+
 weaponHardpoints2 = "hp06"
 
+weapon3 = "gselfdes"
+
 weaponHardpoints3 = "hp01"
-eventSelect = "XV_fent_Select"
-eventAcknowledge = "XV_fent_Acknowledge"
-eventAttack = "XV_fent_Attack"
-eventStop = "XV_fent_Stop"
-eventMove = "XV_fent_Move"
-eventRepair = "XV_fent_Repair"
-eventRedAlert = "XV_fent_RedAlert"
-eventYellowAlert = "XV_fent_YellowAlert"
-eventGreenAlert = "XV_fent_GreenAlert"
-eventTransport = "XV_fent_Transport"
-eventSelfDestruct = "XV_fent_SelfDestruct"
-eventDecommission = "XV_fent_Decommission"
 
 weapon4 = "ya0072"
 
 weaponHardpoints4 = "hp01"
 
+weapon5 = "fentphas"
 
+weaponHardpoints5 = "hp05"
 
+weapon6 = "xhtphase"
 
+weaponHardpoints6 = "hp07"
 
+maxspecialenergy = 1000
 
-
-
-
-tooltip = "Hero Ship (James T Kirk - Enterprise)"
-
-verboseTooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
-weapon3 = "gselfdes"
-dilithiumcost = 430
-metalcost = 185
-latinumcost = 0
-biomattercost = 0
-crewCost = 740
+specialenergyrate = 15

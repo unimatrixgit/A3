@@ -1,0 +1,23 @@
+#include "photono.odf"
+
+//The sprite which is used for this ordinance
+Sprite = "bphoton"
+
+// Time to play through the animation for the sprite in seconds
+spriteDuration = 0.5
+
+//this modifies the color of the ordinance (not currently working)
+shotColor = 227
+
+// Do lots of damage
+
+
+// Size of photon torpedo.
+radius = 8.0f
+
+lightColor = 0.0 1.0 0.0
+lightFalloffStart = 50.0
+lightFalloffRange = 5.0
+damagebase = 80
+
+damagevariance = 4

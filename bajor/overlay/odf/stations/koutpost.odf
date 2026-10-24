@@ -171,14 +171,14 @@ SHOW_SW_AUTONOMY = 1
 
 
 
-crewCost = 150
+
 officerCost = 10
 buildTime = 97
-buildItem0 = "kconst"
-buildItem1 = "kcargo"
-buildItem2 = "kgunboat"
-buildItem3 = "kdestroy2"
-buildItem4 = "xkuconst"
+
+
+
+
+
 
 // Equal visual span: vanilla Borg Nexus reference.
 ScaleSOD = 2.16029897
@@ -203,14 +203,38 @@ southBuffer = 0
 
 footprintBuffer = 72
 
-dilithiumCost = 2075
 
-metalCost = 2075
+
+
+
+
+
+
+
+tooltip = "Starbase (Outpost)"
+
+verboseTooltip = "A fortified center for fleet operations and local production. Klingon engineering serves the Empire with direct, relentless force."
+
+repairFacility = 0
+
+buildItem0 = "kconst"
+
+buildItem1 = "kconst2"
+
+buildItem2 = "xkuconst"
+
+buildItem3 = "kcargo"
+
+buildItem4 = "kgunboat"
+
+buildItem5 = "kdestroy2"
+
+dilithiumCost = 1500
+
+metalCost = 1500
 
 latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Starbase (Outpost)"
-
-verboseTooltip = "A fortified center for fleet operations and local production. Klingon engineering serves the Empire with direct, relentless force."
+crewCost = 150

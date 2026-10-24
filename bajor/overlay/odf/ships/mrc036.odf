@@ -1,0 +1,110 @@
+shielddelay = 1.0f
+rangescan = 800.0f
+maxspecialenergy = 2500
+specialenergyrate = 25
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 10
+lifesupporthitpoints = 10
+weaponshitpoints = 10
+shieldgeneratorhitpoints = 10
+sensorshitpoints = 10
+eventselect = "XV_fent_Select"
+eventacknowledge = "XV_fent_Acknowledge"
+eventattack = "XV_fent_Attack"
+eventstop = "XV_fent_Stop"
+eventmove = "XV_fent_Move"
+eventrepair = "XV_fent_Repair"
+canattackplanets = 1
+physicsfile = "ffrigatephys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "Mirror Daedalus Command Prototype"
+label = "Daedalus Command Prototype"
+race = "federation"
+
+ishero = 0
+possiblecraftnames = "Mirror Daedalus Command Prototype"
+maxhealth = 1650
+shieldrate = 22.0
+maximumcrew = 101
+officercost = 5
+
+scalesod = 1.25
+trekphysicsfile = "ffrigatephys.odf"
+
+eventredalert = "XV_fent_RedAlert"
+eventyellowalert = "XV_fent_YellowAlert"
+eventgreenalert = "XV_fent_GreenAlert"
+eventtransport = "XV_fent_Transport"
+eventselfdestruct = "XV_fent_SelfDestruct"
+eventdecommission = "XV_fent_Decommission"
+tooltip = "Mirror Daedalus Command Prototype"
+
+
+
+
+
+crewcost = 101
+weapon1 = "mrw019"
+weaponhardpoints1 = "hp01"
+weapon2 = "mrw020"
+weaponhardpoints2 = "hp02"
+weapon3 = "gselfdes"
+weaponhardpoints3 = "hp03"
+weapon4 = "ya0076"
+weaponhardpoints4 = "hp01"
+weapon5 = "mrw019"
+weaponhardpoints5 = "hp04"
+weapon6 = "mrw005"
+weaponhardpoints6 = "hp05"
+
+baseName = "mrc036"
+
+dilithiumCost = 438
+
+metalCost = 188
+
+latinumCost = 0
+
+biomatterCost = 0
+
+buildTime = 75
+
+hotkeyLabel = "HOTKEY_F2"
+
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

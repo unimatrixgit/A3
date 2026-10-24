@@ -1,0 +1,90 @@
+#include "station.odf"
+
+// Basic Trading Station Cargos
+cargoKey1 = "GUI_SD_CARGO_SAURIAN_BRANDY"
+cargoValue1 = 1.0
+
+cargoKey2 = "GUI_SD_CARGO_TRIBBLES"
+cargoValue2 = .8
+
+cargoKey3 = "GUI_SD_CARGO_WARP_CORES"
+cargoValue3 = 1.5
+
+cargoKey4 = "GUI_SD_TRADE_GOODS"
+cargoValue4 = 1.0
+
+cargoKey5 = "GUI_SD_ROMULAN_ALE"
+cargoValue5 = 1.5
+
+cargoKey6 = "GUI_SD_REPLICATORS"
+cargoValue6 = 1.8
+
+cargoKey7 = "GUI_SD_GAGH"
+cargoValue7 = 1.1
+
+cargoKey8 = "GUI_SD_HOLOGENERATOR"
+cargoValue8 = 1.9
+
+cargoKey9 = "GUI_SD_MEDICAL_SUPPLIES"
+cargoValue9 = 2.0
+
+cargoKey10 = "GUI_SD_ANTIGRAV"
+cargoValue10 = 1.1
+
+cargoKey11 = "GUI_SD_QUADROTRITICALE"
+cargoValue11 = 0.5
+
+cargoKey12 = "GUI_SD_RAKTAJINO"
+cargoValue12 = 1.0
+
+// these stations don't build, so no special weapons or movement buttons
+SHOW_MOVEMENT_AUTONOMY = 0;
+SHOW_SW_AUTONOMY = 0;
+
+cargoKey13 = "GUI_SD_XFG_CLOAKING"
+cargoValue13 = 1.5
+
+cargoKey14 = "GUI_SD_XFG_QUANTUM"
+cargoValue14 = 1.5
+
+cargoKey15 = "GUI_SD_XFG_TRANSPHASIC"
+cargoValue15 = 1.9
+
+cargoKey16 = "GUI_SD_XFG_CONTRABAND"
+cargoValue16 = 1.2
+
+cargoKey17 = "GUI_SD_XFG_QUARK"
+cargoValue17 = 1.0
+
+cargoKey18 = "GUI_SD_XFG_TRIBBLE_INSURANCE"
+cargoValue18 = 0.8
+
+cargoKey19 = "GUI_SD_XFG_BLOODWINE"
+cargoValue19 = 1.1
+
+cargoKey20 = "GUI_SD_XFG_EARPLUGS"
+cargoValue20 = 1.0
+
+cargoKey21 = "GUI_SD_XFG_SELF_SEALING"
+cargoValue21 = 1.1
+
+cargoKey22 = "GUI_SD_XFG_HOLO_COUPONS"
+cargoValue22 = 0.5
+
+cargoKey23 = "GUI_SD_XFG_RULES"
+cargoValue23 = 1.0
+
+cargoKey24 = "GUI_SD_XFG_GEL"
+cargoValue24 = 1.8
+
+cargoKey25 = "GUI_SD_XFG_PERIDAXON"
+cargoValue25 = 1.6
+
+cargoKey26 = "GUI_SD_XFG_WHITE"
+cargoValue26 = 1.8
+
+cargoKey27 = "GUI_SD_XFG_DEUTERIUM"
+cargoValue27 = 1.0
+
+cargoKey28 = "GUI_SD_XFG_ANTIMATTER"
+cargoValue28 = 1.5

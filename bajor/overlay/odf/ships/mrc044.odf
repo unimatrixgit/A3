@@ -1,0 +1,110 @@
+shielddelay = 1.0f
+rangescan = 800.0f
+maxspecialenergy = 2500
+specialenergyrate = 25
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 10
+lifesupporthitpoints = 10
+weaponshitpoints = 10
+shieldgeneratorhitpoints = 10
+sensorshitpoints = 10
+eventselect = "XV_fentdx_Select"
+eventacknowledge = "XV_fentdx_Acknowledge"
+eventattack = "XV_fentdx_Attack"
+eventstop = "XV_fentdx_Stop"
+eventmove = "XV_fentdx_Move"
+eventrepair = "XV_fentdx_Repair"
+canattackplanets = 1
+physicsfile = "fcruiserphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "Mirror William T Riker - USS Titan"
+label = "William T Riker - USS Titan"
+race = "federation"
+
+ishero = 0
+possiblecraftnames = "Mirror William T Riker - USS Titan"
+maxhealth = 6000
+shieldrate = 80.0
+maximumcrew = 338
+officercost = 12
+
+scalesod = 0.75
+trekphysicsfile = "fcruiserphys.odf"
+
+eventredalert = "XV_fentdx_RedAlert"
+eventyellowalert = "XV_fentdx_YellowAlert"
+eventgreenalert = "XV_fentdx_GreenAlert"
+eventtransport = "XV_fentdx_Transport"
+eventselfdestruct = "XV_fentdx_SelfDestruct"
+eventdecommission = "XV_fentdx_Decommission"
+tooltip = "Mirror William T Riker - USS Titan"
+
+
+
+
+
+crewcost = 338
+weapon1 = "mrw050"
+weaponhardpoints1 = "hp01"
+weapon2 = "mrw051"
+weaponhardpoints2 = "hp02"
+weapon3 = "gselfdes"
+weaponhardpoints3 = "hp03"
+weapon4 = "gtracbm"
+weaponhardpoints4 = "hp04"
+weapon5 = "mrw050"
+weaponhardpoints5 = "hp05"
+weapon6 = "mrw005"
+weaponhardpoints6 = "hp06"
+
+baseName = "mrc044"
+
+dilithiumCost = 525
+
+metalCost = 225
+
+latinumCost = 0
+
+biomatterCost = 0
+
+buildTime = 142
+
+hotkeyLabel = "HOTKEY_F10"
+
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

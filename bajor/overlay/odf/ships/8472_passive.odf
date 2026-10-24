@@ -6,7 +6,7 @@ classLabel = "evolver"
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Passive Embryo"
+
 
 //tooltips
 
@@ -50,10 +50,10 @@ warpSpeed = 0
 shieldRate = 4.3
 
 //Maximum Value of Special Energy
-maxSpecialEnergy = 1900
+
 
 //Rate at which special energy recharges (points per second... we think)
-specialEnergyRate = 24 
+
 
 
 //**********************************************************************
@@ -82,8 +82,8 @@ possibleCraftNames = "Passive-E7E25" "Passive-E6B84" "Passive-E1Y14" "Passive-E6
 //ART PARAMETERS & WEAPON NAMES
 
 // Towing Beam
-weapon1 = "gtracbm"
-weaponHardpoints1 = "hp04"
+
+
 
 // Hardpoints to hit for various systems and other locations.
 enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
@@ -113,7 +113,7 @@ eventDecommission = "Species8472PassiveDecommission"
 transporter = 0
 can_repair = 0
 
-hotkeyLabel = "HOTKEY_F2"
+
 
 
 
@@ -124,30 +124,74 @@ hotkeyLabel = "HOTKEY_F2"
 
 
 
-crewCost = 0
+
 officerCost = 0
-buildTime = 12
-buildItem0 = "8472_transmuter"
-buildItem1 = "8472_BasicResearch"
-buildItem2 = "8472_AdvancedResearch"
-buildItem3 = "8472_ShipUpgradeResearch"
-buildItem4 = "8472_FluidicGate"
-buildItem5 = "xhs_yard3"
-buildItem6 = "8472_mothership"
 
-weapon2 = "biolev2"
 
-weaponHardpoints2 = "hp02"
 
-weapon3 = "xp12t"
 
-weaponHardpoints3 = "hp03"
 
-canAttack = 1
 
-combat = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 alert = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+combat = 0
+
+attackPower = 0.0
+
+buildItem0 = "714syard"
+
+buildItem1 = "8472_transmuter"
+
+buildItem2 = "8472_basicresearch"
+
+buildItem3 = "8472_advancedresearch"
+
+buildItem4 = "8472_shipupgraderesearch"
+
+buildItem5 = "8472_fluidicgate"
+
+buildItem6 = "8472_mine"
+
+buildItem7 = "xsbiolab"
+
+unitName = "Species8472 Constructor I"
+
+tooltip = "Species8472 Constructor I"
+
+verboseTooltip = "Tier 1: mining, regular yards, research and upgrade facilities."
+
+baseName = "8472_passive"
 
 dilithiumCost = 0
 
@@ -157,6 +201,16 @@ latinumCost = 0
 
 biomatterCost = 150
 
-tooltip = "Bio-Constructor (Passive Embryo)"
+crewCost = 0
 
-verboseTooltip = "Grows the biological structures listed in its construction menu. Living biotechnology shapes this organism for operations beyond fluidic space. Special systems: Tractor Beam. Availability follows the selected technology tree."
+maximumCrew = 0
+
+buildTime = 20
+
+hotkeyLabel = "HOTKEY_F1"
+
+canAttack = 0
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0

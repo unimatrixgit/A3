@@ -108,7 +108,7 @@ race = "bajoran"
 
 
 
-baseName = "br3_bjorbital"
+
 ScaleSOD = 0.83684
 criticaltargethardpoints = "hp01" "hp02" "hp03" "hp09" "hp11" "hp12" "hp13" "hp19"
 enginestargethardpoints = "hp01" "hp02" "hp03" "hp10" "hp11" "hp12" "hp13" "hp20"
@@ -150,13 +150,13 @@ specialenergyrate = 0
 
 
 
-dilithiumCost = 400
 
-metalCost = 0
 
-latinumCost = 0
 
-biomatterCost = 0
+
+
+
+
 
 
 
@@ -229,3 +229,15 @@ weaponHardpoints7 = "hp06"
 tooltip = "Orbital Mining Station (Bajoran Orbital Processing Facility)"
 
 verboseTooltip = "Processes planetary resources and supports orbital operations. Bajoran militia engineering protects Bajor and its neighboring systems. Special systems: Orbital Mining Beam. Availability follows the selected technology tree."
+
+
+
+dilithiumCost = 400
+
+metalCost = 0
+
+latinumCost = 0
+
+biomatterCost = 0
+
+baseName = "bv4_bjorbital"

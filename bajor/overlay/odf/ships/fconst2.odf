@@ -4,7 +4,7 @@
 race = "federation"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Merced Class"
+
 
 //tooltips
 
@@ -86,8 +86,8 @@ possibleCraftNames =
 //weaponHardpoints1 = "hp12" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
 
 // Towing Beam
-weapon1 = "gtracbm"
-weaponhardpoints1 = "hp12"
+
+
 
 // Hardpoints to hit for various systems and other locations.
 
@@ -101,7 +101,7 @@ criticalTargetHardpoints = "hp06"
 
 //**********************************************************************
 
-hotkeyLabel = "HOTKEY_F1"
+
 
 
 
@@ -114,32 +114,32 @@ hotkeyLabel = "HOTKEY_F1"
 
 
 officerCost = 3
-buildTime = 23
-buildItem0 = "foutpost"
-buildItem1 = "fbase2"
-buildItem2 = "fds9"
-buildItem3 = "fsensor"
-buildItem4 = "fturret"
-buildItem5 = "fturret2"
-buildItem6 = "fhwp"
-buildItem7 = "fremmeler"
-buildItem8 = "fargus"
-buildItem9 = "fmidas"
-buildItem10 = "fjupiter"
-buildItem11 = "fsuperbl"
-buildItem12 = "fyard3"
 
-weapon2 = "fc08phas"
 
-weaponHardpoints2 = "hp02"
 
-weapon3 = "xp8t"
 
-weaponHardpoints3 = "hp03"
 
-canAttack = 1
 
-combat = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 alert = 1
 
@@ -151,11 +151,67 @@ alert = 1
 
 
 
-tooltip = "Constructor (Merced Class)"
 
-verboseTooltip = "Builds the structures listed in its construction menu. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Tractor Beam. Availability follows the selected technology tree."
-dilithiumcost = 125
-metalcost = 25
-latinumcost = 0
-biomattercost = 0
-crewCost = 100
+
+
+
+
+
+
+
+
+
+
+
+
+combat = 0
+
+attackPower = 0.0
+
+buildItem0 = "xflegacyyard"
+
+buildItem1 = "fturret"
+
+buildItem2 = "fturret2"
+
+buildItem3 = "fhwp"
+
+buildItem4 = "fyard3"
+
+buildItem5 = "s31yard"
+
+buildItem6 = "xfomegalab"
+
+buildItem7 = "mryfeda"
+
+buildItem8 = "mryfedb"
+
+unitName = "Federation Constructor II"
+
+tooltip = "Federation Constructor II"
+
+verboseTooltip = "Tier 2: defenses and hero, Omega and Mirror Universe yards."
+
+baseName = "fconst2"
+
+dilithiumCost = 200
+
+metalCost = 100
+
+latinumCost = 0
+
+biomatterCost = 0
+
+crewCost = 150
+
+maximumCrew = 150
+
+buildTime = 30
+
+hotkeyLabel = "HOTKEY_F2"
+
+canAttack = 0
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0

@@ -1,77 +1,65 @@
-#include "fgalaxyx.odf"
-
-//Name of Ship class in Ship Display window & in edit mode & tooltip
-verboseTooltip = "Captain Riker's Enterprise"
-
-//This ship is a hero.
-isHero = 1
-
-//Ship label provided because this is a unique ship.
-label = "USS Enterprise NCC-1701-D"
-
-//Max Shield Strength & Begining Shield Strength <1000
-maxHealth = 15000
-
-//Rate at which shield recharges (points per second... we think)
-shieldRate = 150
-
-//Maximum Value of Special Energy
-maxSpecialEnergy = 15000
-
-//Rate at which special energy recharges (points per second... we think)
-specialEnergyRate = 150
-
-//**********************************************************************
-
-//**********************************************************************
-//SHIP NAMES
-
-//Possible Craft Names
-possibleCraftNames = "USS Enterprise - D"  
-
-weapon7 = "fentdxtoente"
+shielddelay = 1.0f
+rangescan = 800.0f
 
 
-
-
-
-
-
-
-
-// Xaramada resource costs: calculated from original comparable.
-
-
-
-
-
-officerCost = 10
-buildTime = 120
-
-
-eventSelect = "XV_fentdx_Select"
-
-eventAcknowledge = "XV_fentdx_Acknowledge"
-
-eventAttack = "XV_fentdx_Attack"
-
-eventStop = "XV_fentdx_Stop"
-
-eventMove = "XV_fentdx_Move"
-
-eventRepair = "XV_fentdx_Repair"
-
-eventRedAlert = "XV_fentdx_RedAlert"
-
-eventYellowAlert = "XV_fentdx_YellowAlert"
-
-eventGreenAlert = "XV_fentdx_GreenAlert"
-
-eventTransport = "XV_fentdx_Transport"
-
-eventSelfDestruct = "XV_fentdx_SelfDestruct"
-
-eventDecommission = "XV_fentdx_Decommission"
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 3900
+lifesupporthitpoints = 3900
+weaponshitpoints = 3900
+shieldgeneratorhitpoints = 3900
+sensorshitpoints = 3900
+eventselect = "XV_fentdx_Select"
+eventacknowledge = "XV_fentdx_Acknowledge"
+eventattack = "XV_fentdx_Attack"
+eventstop = "XV_fentdx_Stop"
+eventmove = "XV_fentdx_Move"
+eventrepair = "XV_fentdx_Repair"
+canattackplanets = 1
+physicsfile = "fbattlephys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+trekphysicsfile = "fbattlephys.odf"
+unitname = "Galaxy Class X-Refit"
+race = "federation"
+sanecrewlossmethod = 1
+maxhealth = 15000
+shieldrate = 150
+possiblecraftnames = "USS Enterprise - D"
 
 
 
@@ -80,10 +68,87 @@ eventDecommission = "XV_fentdx_Decommission"
 
 
 
-weapon4 = "gkcloak"
-weapon3 = "gselfdes"
+
+
+enginestargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp17" "hp18"
+lifesupporttargethardpoints = "hp40"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp14" "hp15" "hp19" "hp20" "hp22" "hp23" "hp32" "hp33" "hp34" "hp35" "hp16" "hp21" "hp39" "hp08"
+shieldgeneratortargethardpoints = "hp30" "hp31" "hp37" "hp38"
+sensorstargethardpoints = "hp40"
+hulltargethardpoints = "hp07" "hp09" "hp25" "hp26" "hp28" "hp29"
+criticaltargethardpoints = "hp21"
+weaponyellow = 1.0f
+weaponred = 2.0f
+scalesod = 1.2
+show_sw_autonomy = 0
+officercost = 10
+buildtime = 120
+
+
+tooltip = "Capital Ship (Galaxy Class X-Refit)"
+verbosetooltip = "Captain Riker's Enterprise"
+
+
 dilithiumcost = 1640
 metalcost = 705
 latinumcost = 0
 biomattercost = 0
-crewCost = 1445
+crewcost = 1445
+ishero = 1
+label = "USS Enterprise NCC-1701-D"
+eventredalert = "XV_fentdx_RedAlert"
+eventyellowalert = "XV_fentdx_YellowAlert"
+eventgreenalert = "XV_fentdx_GreenAlert"
+eventtransport = "XV_fentdx_Transport"
+eventselfdestruct = "XV_fentdx_SelfDestruct"
+eventdecommission = "XV_fentdx_Decommission"
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "fgalaxyxphas"
+
+weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp14" "hp15" "hp19" "hp20" "hp22" "hp23" "hp32" "hp33" "hp34" "hp35"
+
+weapon2 = "fgalaxyxphot"
+
+weaponHardpoints2 = "hp16" "hp21"
+
+weapon3 = "gselfdes"
+
+weaponHardpoints3 = "hp17" "hp18"
+
+weapon4 = "gkcloak"
+
+weaponHardpoints4 = "hp07"
+
+weapon5 = "fgalxcannon"
+
+weaponHardpoints5 = "hp39"
+
+weapon6 = "fgalaxyxphot"
+
+weaponHardpoints6 = "hp08"
+
+weapon7 = "fentdxtoente"
+
+weaponHardpoints7 = "hp01"
+
+weapon8 = "fgalaxyxphas"
+
+weaponHardpoints8 = "hp06"
+
+weapon9 = "xhtphase"
+
+weaponHardpoints9 = "hp09"
+
+maxspecialenergy = 15000
+
+specialenergyrate = 150

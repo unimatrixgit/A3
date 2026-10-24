@@ -1,185 +1,154 @@
-#include "special.odf"
-
-//Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Diamond"
-
-//tooltips
+shielddelay = 1.0f
+rangescan = 800.0f
 
 
-
-//This ship is a hero.
-isHero = 1
-
-//Ship label provided because this is a unique ship.
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 0.5
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfirebmd"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "special"
+attackpower = 0.60f
+intrinsicvalue = 0.50f
+engineshitpoints = 918
+lifesupporthitpoints = 952
+weaponshitpoints = 937
+shieldgeneratorhitpoints = 924
+sensorshitpoints = 901
+eventselect = "XV_bqueen_Select"
+eventacknowledge = "XV_bqueen_Acknowledge"
+eventattack = "XV_bqueen_Attack"
+eventstop = "XV_bqueen_Stop"
+eventmove = "XV_bqueen_Move"
+eventrepair = "XV_bqueen_Repair"
+physicsfile = "bbatphys.odf"
+shiptype = "X"
+combat = 1
+alert = 1
+can_sandd = 1
+unitname = "Diamond"
+ishero = 1
 label = "Borg Queen's Diamond"
-
-//Possible Craft Names
-possibleCraftNames = 
-	"Borg Queen's Diamond"
-
-//Race which can build ship & starting race of ship
+possiblecraftnames = "Borg Queen's Diamond"
 race = "borg"
-
-//Amount of time required to build ship
-
-//Number of officers required to build this ship
-
-//Number of crew required to build ship & Starting crew
-
-// don't use the horrible old % crew loss on damage
-saneCrewLossMethod = 1
-
-//Dilithium Cost to build
-
-//Max Shield Strength & Begining Shield Strength <500
-maxHealth = 2258
-
-// Hitpoints
-shieldGeneratorHitPoints = 924
-enginesHitPoints = 918
-weaponsHitPoints = 937
-lifeSupportHitPoints = 952
-sensorsHitPoints = 901
-
-//Rate at which shield recharges (points per second... we think)
-shieldRate = 21.7
-
-//Maximum Value of Special Energy
-maxSpecialEnergy = 8500
-
-//Rate at which special energy recharges (points per second... we think)
-specialEnergyRate = 37
-
-//**********************************************************************
-
-// Ship's full throttle forward speed when under impluse power.
-combatSpeed = 89
-impulseSpeed = 85
-warpSpeed = 929
-
-//**********************************************************************
-//ART PARAMETERS & WEAPON NAMES
-
-// Phaser
-weapon1 = "bt3phas"
-weaponHardpoints1 = "hp08" "hp09" "hp10" "hp11"
-
-// Photon Torpedoes
-weapon2 = "bc2phot"
-weaponHardpoints2 = "hp12" "hp13"
-
-// Ultritium Burst
-weapon3 = "gutribm"
-weaponHardpoints3 = "hp14"
-
-// Nanites
-weapon4 = "gnanites"
-weaponHardpoints4 = "hp15"
-
-// Computer Override
-weapon5 = "goverrid"
-weaponHardpoints5 = "hp16"
-
-// Shield Remodulation
-weapon6 = "gremod"
-weaponHardpoints6 = "hp17"
-
-//Transwarp Drive
-weapon7 = "gtwarpd"
-weaponHardpoints7 = "hp18" "hp19"
-
-// Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" 
-lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" 
-weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" 
-shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" 
-sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" 
-hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" 
-criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" 
-
-//**********************************************************************
-//AI system parameters
-//These parameters influence how the AI evaluates and compares craft.
-
-//An abstract number that represents how much extra strength must be
-//used to attack this craft due to its weapons. 
-// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
-attackPower = 0.60f
-
-//The normalized intrinsic value of a target.  High value craft make good
-//attack targets. (0.0=lowest value, 1.0=highest value)
-intrinsicValue = 0.50f
-
-//**********************************************************************
-//CREW STATUS MULTIPLIERS
-//The multiplier for the delay between shots for weapons while in yellow status
-weaponYellow = 1.5f
-
-//The multiplier for the delay between shots for weapons while in red status
-weaponRed = 5.0f
-//**********************************************************************
-//PHYSICS PARAMETERS
-
-//physics file for all other physics stuff
-physicsFile = "bbatphys.odf"
-//**********************************************************************
-//KEYMAP LABEL
-keymapLabel = "borg_science"
-
-//**********************************************************************
-//MESSAGE & SOUND PARAMETERS
-
-
-
-
-
-// Xaramada resource costs: original filename.
-
-
-
-
-
-officerCost = 2
-buildTime = 100
-
-
-eventSelect = "XV_bqueen_Select"
-
-eventAcknowledge = "XV_bqueen_Acknowledge"
-
-eventAttack = "XV_bqueen_Attack"
-
-eventStop = "XV_bqueen_Stop"
-
-eventMove = "XV_bqueen_Move"
-
-eventRepair = "XV_bqueen_Repair"
-
-eventRedAlert = "XV_bqueen_RedAlert"
-
-eventYellowAlert = "XV_bqueen_YellowAlert"
-
-eventGreenAlert = "XV_bqueen_GreenAlert"
-
-eventTransport = "XV_bqueen_Transport"
-
-eventSelfDestruct = "XV_bqueen_SelfDestruct"
-
-eventDecommission = "XV_bqueen_Decommission"
-
-
-
-
-
-
-
-
-
+sanecrewlossmethod = 1
+maxhealth = 2258
+shieldrate = 21.7
+combatspeed = 89
+impulsespeed = 85
+warpspeed = 929
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
+weaponyellow = 1.5f
+weaponred = 5.0f
+keymaplabel = "borg_science"
+officercost = 2
+buildtime = 100
+eventredalert = "XV_bqueen_RedAlert"
+eventyellowalert = "XV_bqueen_YellowAlert"
+eventgreenalert = "XV_bqueen_GreenAlert"
+eventtransport = "XV_bqueen_Transport"
+eventselfdestruct = "XV_bqueen_SelfDestruct"
+eventdecommission = "XV_bqueen_Decommission"
 tooltip = "Hero Ship (Diamond)"
-
-verboseTooltip = "A named command vessel serving the Borg fleet. Collective engineering integrates this asset into the unimatrix. Special systems: Ultritium Burst, Nanites, Computer Override, Shield Remodulation, Transwarp Drive. Availability follows the selected technology tree."
+verbosetooltip = "A named command vessel serving the Borg fleet. Collective engineering integrates this asset into the unimatrix. Special systems: Ultritium Burst, Nanites, Computer Override, Shield Remodulation, Transwarp Drive. Availability follows the selected technology tree."
 dilithiumcost = 445
 metalcost = 120
 latinumcost = 0
 biomattercost = 0
-crewCost = 720
+crewcost = 720
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "bt3phas"
+
+weaponHardpoints1 = "hp08" "hp09" "hp10" "hp11"
+
+weapon2 = "bc2phot"
+
+weaponHardpoints2 = "hp12" "hp13"
+
+weapon3 = "gutribm"
+
+weaponHardpoints3 = "hp14"
+
+weapon4 = "gnanites"
+
+weaponHardpoints4 = "hp15"
+
+weapon5 = "goverrid"
+
+weaponHardpoints5 = "hp16"
+
+weapon6 = "gremod"
+
+weaponHardpoints6 = "hp17"
+
+weapon7 = "gtwarpd"
+
+weaponHardpoints7 = "hp18" "hp19"
+
+weapon8 = "bt3phas"
+
+weaponHardpoints8 = "hp01"
+
+weapon9 = "bc2phot"
+
+weaponHardpoints9 = "hp02"
+
+maxspecialenergy = 8500
+
+specialenergyrate = 37

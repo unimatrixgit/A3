@@ -46,19 +46,7 @@ shieldrate = 8.75
 //SHIP NAMES
 
 //Possible Craft Names
-possibleCraftNames = 
-	"USS Pasteur" "USS Newton" "USS Hawking" "USS Curie" 
-	"USS Einstein" "USS Faraday" "USS Oppenheimer" "USS Heisenberg" 
-	"USS Nobel" "USS Bell" "USS Crick" "USS Gates"
-	"USS Edison" "USS Euclid" "USS Aristotle" "USS Schrodinger" 
-	"USS Boyle" "USS Pascal" "USS Whitney" "USS Ockham"
-	"USS Kelvin" "USS Fermi" "USS Descartes" "USS Newell"
-	"USS Pavlov" "USS Foucault" "USS Cousteau" "USS Knuth"
-	"USS Darwin" "USS Zee-Magnees" "USS Godel" "USS Tesla"
-	"USS Hegel" "USS Zimmerman" "USS Salk" "USS Schweitzer"
-	"USS Galileo" "USS Pythagoras" "USS Tomaselli" 
-	"USS Farragut" "USS Hera" "USS Proxima" "USS Hubble" 
-	"USS Jacobus" "USS Koerner"
+
 
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
@@ -163,7 +151,7 @@ race = "bajoran"
 
 
 
-baseName = "br3_bjspecial"
+
 ScaleSOD = 1.76
 
 
@@ -262,3 +250,7 @@ weaponHardpoints6 = "hp12" "hp14" "hp16" "hp18"
 weapon7 = "xbj_gselfdes"
 
 weaponHardpoints7 = "hp12" "hp14" "hp16" "hp18"
+
+baseName = "bv4_bjspecial"
+
+possibleCraftNames = "BMS Kendra" "BMS Dahkur" "BMS Rakantha" "BMS Hathon" "BMS Jalanda" "BMS Dakor" "BMS Tozhat" "BMS Musilla" "BMS Hedrikspool" "BMS Dakhur" "BMS Ashalla" "BMS Dahkur Dawn" "BMS Kendra Spirit" "BMS Bajoran Dawn" "BMS Prophets Grace" "BMS First Light" "BMS Celestial Dawn" "BMS Valley Guardian" "BMS Militia Resolve" "BMS Freedom of Bajor" "BMS Dahkur Sentinel" "BMS Rakantha Shield" "BMS Kendra Vigil" "BMS Bajor Ascendant" "BMS Jalanda Star" "BMS Hathon Guard" "BMS Emissarys Hope" "BMS Liberation" "BMS Gratitude" "BMS New Dawn" "BMS Dahkur Resolve" "BMS Celestial Guardian"

@@ -113,7 +113,7 @@ officerCost = 6
 buildTime = 137
 
 // Lab safety fix: this model has no repair docking node. Do not accept repair orders, including after capture.
-repairFacility = 0
+
 
 dilithiumCost = 450
 
@@ -126,3 +126,7 @@ biomatterCost = 0
 tooltip = "Shipyard (Section 31 Shipyard)"
 
 verboseTooltip = "Produces the vessels listed in its construction menu. Starfleet engineering supports a disciplined, versatile fleet."
+
+repairFacility = 1
+
+repairHardpoint = "build"

@@ -1,55 +1,67 @@
-#include "rbattle.odf"
-unitName = "Shinzon - Scimitar"
-label = "Shinzon - Scimitar"
+shielddelay = 1.0f
+rangescan = 800.0f
 
 
-baseName = "rscimitar"
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 1309
+lifesupporthitpoints = 1309
+weaponshitpoints = 1309
+shieldgeneratorhitpoints = 1309
+sensorshitpoints = 1309
+eventselect = "ScimitarSelect"
+eventacknowledge = "ScimitarAcknowledge"
+eventattack = "ScimitarAttack"
+eventstop = "ScimitarStop"
+eventmove = "ScimitarMove"
+eventrepair = "ScimitarRepair"
+canattackplanets = 1
+physicsfile = "sbattphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "Shinzon - Scimitar"
 race = "romulan"
-isHero = 1
-
-
-hotkeyLabel = ""
-possibleCraftNames = "IRW Scimitar"
-maxHealth = 6546
-shieldRate = 20.9
-maxSpecialEnergy = 1213
-specialEnergyRate = 0.4
-
-
-
-officerCost = 22
-buildTime = 160.0
-ScaleSOD = 1.907
-weapon1 = "rbpulse"
-weaponHardpoints1 = "hp13" "hp14" "hp15" "hp16"
-weapon2 = "rbpulse"
-weaponHardpoints2 = "hp17" "hp18" "hp19" "hp20" "hp21" "hp22"
-weapon3 = "rbpulse"
-weaponHardpoints3 = "hp23" "hp24" "hp25" "hp26" "hp27" "hp28"
-weapon4 = "rbphot"
-weaponHardpoints4 = "hp29"
-weapon5 = "rbphot"
-weaponHardpoints5 = "hp30"
-weapon6 = "grcloak"
-weaponHardpoints6 = "hp10"
-
-weaponHardpoints7 = "hp10" "hp01"
-weapon8 = "gtracbm"
-weaponHardpoints8 = "hp11" "hp12"
-eventSelect = "ScimitarSelect"
-eventAcknowledge = "ScimitarAcknowledge"
-eventAttack = "ScimitarAttack"
-eventStop = "ScimitarStop"
-eventMove = "ScimitarMove"
-eventRepair = "ScimitarRepair"
-eventRedAlert = "ScimitarRedAlert"
-eventYellowAlert = "ScimitarYellowAlert"
-eventGreenAlert = "ScimitarGreenAlert"
-eventTransport = "ScimitarTransport"
-eventSelfDestruct = "ScimitarSelfDestruct"
-eventDecommission = "XV_xhrhero_Decommission"
-eventCloakEngage = "ScimitarCloakEngage"
-eventCloakDisengage = "ScimitarCloakDisengage"
+maxhealth = 6546
+sanecrewlossmethod = 1
+shieldrate = 26.18
+combatspeed = 83
+impulsespeed = 78
+warpspeed = 924
+possiblecraftnames = "IRW Scimitar"
 
 
 
@@ -59,13 +71,119 @@ eventCloakDisengage = "ScimitarCloakDisengage"
 
 
 
+
+
+
+
+
+
+
+
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+weaponyellow = 1.5f
+weaponred = 2.0f
+hotkeylabel = ""
+officercost = 22
+buildtime = 160.0
 tooltip = "Hero Ship (Shinzon - Scimitar)"
+verbosetooltip = "Shinzon command hero. Special systems: cloak, tractor beam, Heated Plasma, Shield Inversion Beam and firing while cloaked. Special abilities require their respective Romulan research."
 
-verboseTooltip = "A named command vessel serving the Romulan fleet. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Tractor Beam. Availability follows the selected technology tree."
-weapon7 = "gselfdes"
-weapon9 = "gselfdes"
 dilithiumcost = 1110
 metalcost = 475
 latinumcost = 0
 biomattercost = 0
-crewCost = 1190
+crewcost = 1190
+label = "Shinzon - Scimitar"
+basename = "rscimitar"
+ishero = 1
+scalesod = 1.907
+eventredalert = "ScimitarRedAlert"
+eventyellowalert = "ScimitarYellowAlert"
+eventgreenalert = "ScimitarGreenAlert"
+eventtransport = "ScimitarTransport"
+eventselfdestruct = "ScimitarSelfDestruct"
+eventdecommission = "XV_xhrhero_Decommission"
+eventcloakengage = "ScimitarCloakEngage"
+eventcloakdisengage = "ScimitarCloakDisengage"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "rbpulse"
+
+weaponHardpoints1 = "hp13" "hp14" "hp15" "hp16"
+
+weapon2 = "rbpulse"
+
+weaponHardpoints2 = "hp17" "hp18" "hp19" "hp20" "hp21" "hp22"
+
+weapon3 = "rbpulse"
+
+weaponHardpoints3 = "hp23" "hp24" "hp25" "hp26" "hp27" "hp28"
+
+weapon4 = "rbphot"
+
+weaponHardpoints4 = "hp29"
+
+weapon5 = "rbphot"
+
+weaponHardpoints5 = "hp30"
+
+weapon6 = "xrstheleron"
+
+weaponHardpoints6 = "hp01"
+
+weapon7 = "xrsplasma"
+
+weaponHardpoints7 = "hp01"
+
+weapon8 = "xrsshield"
+
+weaponHardpoints8 = "hp02"
+
+weapon9 = "xrsfirecl"
+
+weaponHardpoints9 = "hp10"
+
+weapon10 = "grcloak"
+
+weaponHardpoints10 = "hp10"
+
+weapon11 = "xrsstract"
+
+weaponHardpoints11 = "hp11" "hp12"
+
+weapon12 = "gselfdes"
+
+weaponHardpoints12 = "hp10" "hp01"
+
+weapon13 = "rc06phas"
+
+weaponHardpoints13 = "hp03"
+
+weapon14 = "rbphot"
+
+weaponHardpoints14 = "hp04"
+
+maxspecialenergy = 3000
+
+specialenergyrate = 30

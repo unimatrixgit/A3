@@ -12,9 +12,9 @@ lifeSupportHitPoints = 30
 sensorsHitPoints = 30
 shieldRate = 3.5
 shipclass = "construction"
-maxSpecialEnergy = 0
-specialEnergyRate = 0
-attackPower = 0.00f
+
+
+
 intrinsicValue = 0.40f
 enginesHitPercent = 5.0f
 lifeSupportHitPercent = 8.5f
@@ -39,8 +39,8 @@ hullHitPercent = 57.0f
 
 // Begin weapons
 
-weapon1 = "gtracbm"
-weaponhardpoints1 = "hp12"
+
+
 
 // End weapons
 
@@ -136,34 +136,34 @@ can_explore = 1
 
 
 officerCost = 2
-buildTime = 17
-unitName = "Breen Universal Constructor"
+
+
 
 
 race = "breen"
-baseName = "xbruconst"
+
 ScaleSOD = 1.0
-hotkeyLabel = "HOTKEY_F2"
-buildItem0 = "bbase"
-buildItem1 = "fbase"
-buildItem2 = "kbase"
-buildItem3 = "rbase"
-buildItem4 = "cbase"
-buildItem5 = "dbase"
-buildItem6 = "brbase"
-buildItem7 = "bjbase"
 
-weapon2 = "xp13b"
 
-weaponHardpoints2 = "hp02"
 
-weapon3 = "xp13t"
 
-weaponHardpoints3 = "hp03"
 
-canAttack = 1
 
-combat = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 alert = 1
 
@@ -175,11 +175,68 @@ alert = 1
 
 
 
-tooltip = "Constructor (Breen Universal Constructor)"
 
-verboseTooltip = "Builds the structures listed in its construction menu. Breen engineering supports the Confederacy with focused, uncompromising efficiency. Special systems: Tractor Beam. Availability follows the selected technology tree."
-dilithiumcost = 125
-metalcost = 25
-latinumcost = 0
-biomattercost = 0
-crewCost = 100
+
+
+
+
+
+
+
+
+
+
+
+
+combat = 0
+
+attackPower = 0.0
+
+
+buildItem0 = "bbase"
+
+buildItem1 = "fbase"
+
+buildItem2 = "kbase"
+
+buildItem3 = "rbase"
+
+buildItem4 = "cbase"
+
+buildItem5 = "dbase"
+
+buildItem6 = "brbase"
+
+buildItem7 = "bjbase"
+
+buildItem8 = "xfgmerc"
+
+unitName = "Breen Universal Constructor III"
+
+tooltip = "Breen Universal Constructor III"
+
+verboseTooltip = "Tier 3: starbases, special installations and Ferengi facilities."
+
+baseName = "xbruconst"
+
+dilithiumCost = 300
+
+metalCost = 200
+
+latinumCost = 0
+
+biomatterCost = 0
+
+crewCost = 150
+
+maximumCrew = 150
+
+buildTime = 40
+
+hotkeyLabel = "HOTKEY_F3"
+
+canAttack = 0
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0

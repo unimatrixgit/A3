@@ -1,0 +1,123 @@
+shielddelay = 1.0f
+rangescan = 800.0f
+maxspecialenergy = 875
+specialenergyrate = 8.75
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 0.5
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfirebmd"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "special"
+attackpower = 0.60f
+intrinsicvalue = 0.50f
+engineshitpoints = 1800
+lifesupporthitpoints = 1800
+weaponshitpoints = 1800
+shieldgeneratorhitpoints = 1800
+sensorshitpoints = 1800
+eventselect = "XV_fcaddebostan_Select"
+eventacknowledge = "XV_fcaddebostan_Acknowledge"
+eventattack = "XV_fcaddebostan_Attack"
+eventstop = "XV_fcaddebostan_Stop"
+eventmove = "XV_fcaddebostan_Move"
+eventrepair = "XV_fcaddebostan_Repair"
+physicsfile = "fcruiserphys.odf"
+shiptype = "C"
+combat = 1
+alert = 1
+can_sandd = 1
+unitname = "Mirror Nebula Class"
+race = "federation"
+sanecrewlossmethod = 1
+maxhealth = 656.25
+shieldrate = 8.75
+possiblecraftnames = "Mirror Nebula Class"
+weapon1 = "mrw015"
+weaponhardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp31" "hp32"
+weapon2 = "mrw016"
+weaponhardpoints2 = "hp11" "hp23"
+weapon3 = "gshieldh"
+weaponhardpoints3 = "hp12" "hp14" "hp16" "hp18"
+weapon4 = "gmanheim"
+weaponhardpoints4 = "hp12" "hp14" "hp16" "hp18"
+weapon5 = "gpdlaser"
+weaponhardpoints5 = "hp12" "hp14" "hp16" "hp18"
+weapon7 = "gschainp"
+weaponhardpoints7 = "hp12" "hp14" "hp16" "hp18"
+weaponhardpoints6 = "hp12" "hp14" "hp16" "hp18"
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32" "hp33"
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hulltargethardpoints = "hp06" "hp08" "hp10" "hp12" "hp14" "hp16" "hp18" "hp20" "hp24" "hp25"
+criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp22" "hp23"
+weaponyellow = 1.0f
+weaponred = 2.0f
+
+scalesod = 1.375
+trekphysicsfile = "fcruiserphys.odf"
+officercost = 10
+
+tooltip = "Mirror Nebula Class"
+
+weapon6 = "gselfdes"
+
+
+
+
+crewcost = 160
+ishero = 0
+
+eventredalert = "XV_fcaddebostan_RedAlert"
+eventyellowalert = "XV_fcaddebostan_YellowAlert"
+eventgreenalert = "XV_fcaddebostan_GreenAlert"
+eventtransport = "XV_fcaddebostan_Transport"
+eventselfdestruct = "XV_fcaddebostan_SelfDestruct"
+eventdecommission = "XV_fcaddebostan_Decommission"
+weapon8 = "mrw015"
+weaponhardpoints8 = "hp08"
+weapon9 = "mrw005"
+weaponhardpoints9 = "hp09"
+
+baseName = "mrc007"
+
+dilithiumCost = 350
+
+metalCost = 119
+
+latinumCost = 0
+
+biomatterCost = 0
+
+buildTime = 44
+
+hotkeyLabel = "HOTKEY_F1"
+
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

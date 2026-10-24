@@ -35,13 +35,7 @@ shieldrate = 1.1
 //SHIP NAMES
 
 //Possible Craft Names
-possibleCraftNames = 	 
-	"USS Danube" "USS Ganges" "USS Mekong" "USS Orinoco"
-	"USS Rio Grand" "USS Rubicon" "USS Shenandoah" "USS Volga"
-	"USS Yangtzee Kiang" "USS Yukon" "USS Ottawa" "USS Paris"
-	"USS Othello" "USS Aberdeen" "USS Kingston" "USS Coltrane"
-	"USS Horatio" "USS Golgotha" "USS Sparta" "USS Perth"
-	"USS Troy" "USS Carbides" "USS Calais" "USS Jade"
+
 
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
@@ -99,7 +93,7 @@ race = "bajoran"
 
 
 
-baseName = "br3_bjtransport"
+
 
 
 
@@ -175,3 +169,7 @@ weaponHardpoints1 = "hp01" "hp02"
 weapon2 = "fmicrotype6"
 
 weaponHardpoints2 = "hp03"
+
+baseName = "bv4_bjtransport"
+
+possibleCraftNames = "BMS Kendra" "BMS Dahkur" "BMS Rakantha" "BMS Hathon" "BMS Jalanda" "BMS Dakor" "BMS Tozhat" "BMS Musilla" "BMS Hedrikspool" "BMS Dakhur" "BMS Ashalla" "BMS Dahkur Dawn" "BMS Kendra Spirit" "BMS Bajoran Dawn" "BMS Prophets Grace" "BMS First Light" "BMS Celestial Dawn" "BMS Valley Guardian" "BMS Militia Resolve" "BMS Freedom of Bajor" "BMS Dahkur Sentinel" "BMS Rakantha Shield" "BMS Kendra Vigil" "BMS Bajor Ascendant" "BMS Jalanda Star" "BMS Hathon Guard" "BMS Emissarys Hope" "BMS Liberation" "BMS Gratitude" "BMS New Dawn" "BMS Dahkur Resolve" "BMS Celestial Guardian"

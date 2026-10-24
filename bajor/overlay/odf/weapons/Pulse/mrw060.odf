@@ -1,0 +1,57 @@
+#include "pulse.odf"
+
+//Name of the ODF file for the ordinance for this weapon
+
+
+//Display name for this weapon
+wpnName = "Pulse"
+
+//Sound which is played when the weapon fires
+fireSound = "pprwea.wav"
+
+restrictFireArc = 1
+
+shotDelay = 1.2
+
+range = 447.0f
+specialEnergyCost = 22
+
+// Use this fire arc restriction
+fireArc = 1.61
+
+//save up our fire
+saveFire = 1
+
+//max number of shots we can save
+maxShots = 2
+
+//the minimum time between saved shots
+minimumShotInterval = 0.2
+
+Radius = 4.8
+
+
+// Percent chance of hitting the target.
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a percentage)
+hitChance = 0.90
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the attacker is full impulse
+impulseToHitModifier = -0.0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not attacker is stopped 
+stopToHitModifier = -0.0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is full impulse
+toHitImpulseModifier = 0.00
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is stopped 
+toHitStopModifier = 0.25
+
+
+damagebase = 140
+
+ordName = "mrw060o"

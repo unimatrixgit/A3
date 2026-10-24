@@ -1,0 +1,74 @@
+//Name of the ODF file for the ordinance for this weapon
+ordName = "dpoleron"
+
+//Display name for this weapon
+wpnName = "Polaron Torpedo"
+
+//tooltips
+tooltip = "Poleron Torpedo"
+verboseTooltip = "Passes through the shields of an enemy ship and disables a system."
+
+//Location of the button in the speed panel
+
+
+// location of the button in the popup palette
+
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 10
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+//Time Delay between shots
+shotDelay = 5.0f
+
+// Range within which the weapon will fire.
+range = 600.0f
+
+//Sound which is played when the weapon fires
+fireSound = "swkpolrf.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "launcher"
+
+// Percent chance of hitting the target.
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a percentage)
+hitChance = 1.0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the attacker is full impulse
+impulseToHitModifier = -0.0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not attacker is stopped 
+stopToHitModifier = -0.0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is in full impulse
+toHitImpulseModifier = 0.0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is stopped 
+toHitStopModifier = 0.50
+
+// mark special flag
+special = 1
+
+// mark need target
+needTarget = 1
+
+//this special weapon can be assimilated by the borg tech assimilator
+assimilatable = "klipod2"
+
+
+
+buttonSlot = 2
+
+popupSlot = 2
+
+hotkeyLabel = "HOTKEY_F2"

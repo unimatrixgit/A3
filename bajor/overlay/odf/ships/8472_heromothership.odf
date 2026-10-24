@@ -1,213 +1,177 @@
-#include "station.odf"
+shielddelay = 3.0f
 
-//Race which can build ship & starting race of ship
+
+rangescan = 1400.0f
+damagedscan = 100.0f
+footprintbuffer = 100.0f
+attackpower = 0.00f
+repairyellow = 2.0f
+repairred = 4.0f
+shieldgeneratorhitpoints = 2948
+engineshitpoints = 2238
+weaponshitpoints = 2963
+lifesupporthitpoints = 2928
+sensorshitpoints = 2408
+engineshitpercent = 0.0f
+lifesupporthitpercent = 10.5f
+weaponshitpercent = 0.0f
+shieldgeneratorhitpercent = 13.0f
+sensorshitpercent = 13.0f
+crewhitpercent = 13.5f
+hullhitpercent = 50.0f
+enginesrepairtime = 1.0f
+lifesupportrepairtime = 0.1f
+weaponsrepairtime = 2.0f
+shieldgeneratorrepairtime = 2.0f
+sensorsrepairtime = 3.0f
+enginescrewloss = 0.0f
+lifesupportcrewloss = 10.0f
+weaponscrewloss = 5.0f
+shieldgeneratorcrewloss = 15.0f
+sensorscrewloss = 5.0f
+lifesupportloss = 5.0f
+is_starbase = 0
+avoidanceclass = 1000
+weldingradius = 1.0
+ainame = "StarbaseProcess"
+fireball = "xfirebal"
+facility = 0
+has_crew = 1
+has_hitpoints = 1
+checkvalidresourceinterval = 10.0f
 race = "species8472"
-
-//Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Rift Maker"
-
-//tooltips
-
-
-
-//Can decommission itself anywhere
-recyclesInPlace = 1
-
-//Amount of time required to build ship
-
-//This ship is a hero.
-isHero = 1
-
-//Number of officers required to build this ship
-
-//Dilithium Cost to build
-
-//Max Shield Strength & Begining Shield Strength <500
-maxHealth = 11296
-
-// The riftmaker can see for miles
-rangeScan = 1400.0f
-
-// Hitpoints
-
-shieldGeneratorHitPoints = 2948
-enginesHitPoints = 2238
-weaponsHitPoints = 2963
-lifeSupportHitPoints = 2928
-sensorsHitPoints = 2408
-
-//**********************************************************************
-
-// Ship's full throttle forward speed when under impluse power.
-combatSpeed = 22
-impulseSpeed = 32
-warpSpeed = 0
-
-//Rate at which shield recharges (points per second... we think)
-shieldRate = 18.6
-
-//Shield absorbs all damage until it's gone
-shieldProtection = 1.0
-
-//Maximum Value of Special Energy
-maxSpecialEnergy = 8900
-
-//Rate at which special energy recharges (points per second... we think)
-specialEnergyRate = 24 
+unitname = "Rift Maker"
+recyclesinplace = 1
+ishero = 1
+maxhealth = 11296
+combatspeed = 22
+impulsespeed = 32
+warpspeed = 0
+shieldrate = 18.6
+shieldprotection = 1.0
 
 
-//**********************************************************************
-//Construction Parameters
-buildItem0 = "8472_active"
-buildItem1 = "8472_passive"
-
-//Hardpoint location for building.
-buildHardpoint = "hp01"
-
-//**********************************************************************
-//Worker Bee Parameters
-
-// Name of the worker bee SOD.
-//workerBeeName = "cbee"
-//weldingBeamWidth = 5.0
-
-//**********************************************************************
-//SHIP NAMES
-
-//Possible Craft Names
-possibleCraftNames = "Rift Maker"
-
-animation=2
-
-//**********************************************************************
-//ART PARAMETERS & WEAPON NAMES
-
-// Pulse Phaser
-weapon1 = "biopul4"
-weaponHardpoints1 = "hp02"
-
-// Pulse Phaser
-weapon2 = "biopul4"
-weaponHardpoints2 = "hp03"
-
-// Pulse Phaser
-weapon3 = "biopul4"
-weaponHardpoints3 = "hp04"
-
-// Pulse Phaser
-weapon4 = "biopul4"
-weaponHardpoints4 = "hp05"
-
-// Pulse Phaser
-weapon5 = "biopul4"
-weaponHardpoints5 = "hp21"
-
-// Pulse Phaser
-weapon6 = "biopul4"
-weaponHardpoints6 = "hp22"
-
-// Pulse Phaser
-weapon7 = "biopul4"
-weaponHardpoints7 = "hp23"
-
-// Pulse Phaser
-weapon8 = "biopul4"
-weaponHardpoints8 = "hp24"
-
-// Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
-lifeSupportTargetHardpoints = "hp12" "hp13" "hp14" "hp15" "hp16"
-weaponsTargetHardpoints = "hp02" "hp03" "hp04" "hp05"
-shieldGeneratorTargetHardpoints = "hp17" "hp18" "hp19" "hp20"
-sensorsTargetHardpoints =  "hp12" "hp13" "hp14" "hp15" "hp16"
-hullTargetHardpoints =  "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" 
-"hp12" "hp13" "hp14" "hp15" "hp16"
-criticalTargetHardpoints =  "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" 
-"hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
-
-physicsFile = "8472_smotPhys.odf"
-//**********************************************************************
-//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
-
-//Runtime class label for instantiation of object.
-classLabel = "starbase"
-
-//**********************************************************************
-//KEYMAP LABEL
-// Obsolete, use hotkeyLabel
-// keymapLabel = "starbase"
-hotkeyLabel = "HOTKEY_F6"
-
-//************************************************************
-
-// added to change to a shipyard from a construction ship..this is the name of the SOD
-baseName = "8472_heromother"
-
-// So it moves with the mother
-alwaysRecomputeRallyPoint = 1
-
+buildhardpoint = "hp01"
+possiblecraftnames = "Rift Maker"
+animation = 2
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp12" "hp13" "hp14" "hp15" "hp16"
+weaponstargethardpoints = "hp02" "hp03" "hp04" "hp05"
+shieldgeneratortargethardpoints = "hp17" "hp18" "hp19" "hp20"
+sensorstargethardpoints = "hp12" "hp13" "hp14" "hp15" "hp16"
+hulltargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11"
+criticaltargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11"
+physicsfile = "8472_smotPhys.odf"
+classlabel = "starbase"
+hotkeylabel = "HOTKEY_F6"
+basename = "8472_heromother"
+alwaysrecomputerallypoint = 1
 alert = 1
 combat = 1
 transporter = 0
-facility = 0
 ship = 1
-is_starbase = 0
 builder_ship = 1
-SHOW_MOVEMENT_AUTONOMY = 1
-SHOW_SW_AUTONOMY = 1
+show_movement_autonomy = 1
+show_sw_autonomy = 1
 can_repair = 0
 can_sandd = 1
 can_explore = 1
-
-
-
-// Xaramada resource costs: original filename.
-
-
-
-
-
-officerCost = 2
-buildTime = 10
-
-
-eventSelect = "XV_8472_heromothership_Select"
-
-eventAcknowledge = "XV_8472_heromothership_Acknowledge"
-
-eventAttack = "XV_8472_heromothership_Attack"
-
-eventStop = "XV_8472_heromothership_Stop"
-
-eventMove = "XV_8472_heromothership_Move"
-
-eventRepair = "XV_8472_heromothership_Repair"
-
-eventRedAlert = "XV_8472_heromothership_RedAlert"
-
-eventYellowAlert = "XV_8472_heromothership_YellowAlert"
-
-eventGreenAlert = "XV_8472_heromothership_GreenAlert"
-
-eventTransport = "XV_8472_heromothership_Transport"
-
-eventSelfDestruct = "XV_8472_heromothership_SelfDestruct"
-
-eventDecommission = "XV_8472_heromothership_Decommission"
-
-
-
-
-
-
-
-
-
+officercost = 2
+buildtime = 10
+eventselect = "XV_8472_heromothership_Select"
+eventacknowledge = "XV_8472_heromothership_Acknowledge"
+eventattack = "XV_8472_heromothership_Attack"
+eventstop = "XV_8472_heromothership_Stop"
+eventmove = "XV_8472_heromothership_Move"
+eventrepair = "XV_8472_heromothership_Repair"
+eventredalert = "XV_8472_heromothership_RedAlert"
+eventyellowalert = "XV_8472_heromothership_YellowAlert"
+eventgreenalert = "XV_8472_heromothership_GreenAlert"
+eventtransport = "XV_8472_heromothership_Transport"
+eventselfdestruct = "XV_8472_heromothership_SelfDestruct"
+eventdecommission = "XV_8472_heromothership_Decommission"
 tooltip = "Hero Ship (Rift Maker)"
-
-verboseTooltip = "A named command vessel serving the Species 8472 fleet. Living biotechnology shapes this organism for operations beyond fluidic space."
+verbosetooltip = "A named command vessel serving the Species 8472 fleet. Living biotechnology shapes this organism for operations beyond fluidic space."
 dilithiumcost = 0
 metalcost = 0
 latinumcost = 0
 biomattercost = 1905
-crewCost = 0
+crewcost = 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "biopul4"
+
+weaponHardpoints1 = "hp02"
+
+weapon2 = "biopul4"
+
+weaponHardpoints2 = "hp03"
+
+weapon3 = "biopul4"
+
+weaponHardpoints3 = "hp04"
+
+weapon4 = "biopul4"
+
+weaponHardpoints4 = "hp05"
+
+weapon5 = "biopul4"
+
+weaponHardpoints5 = "hp21"
+
+weapon6 = "biopul4"
+
+weaponHardpoints6 = "hp22"
+
+weapon7 = "biopul4"
+
+weaponHardpoints7 = "hp23"
+
+weapon8 = "biopul4"
+
+weaponHardpoints8 = "hp24"
+
+weapon9 = "biolev3"
+
+weaponHardpoints9 = "hp01"
+
+weapon10 = "xhbiph"
+
+weaponHardpoints10 = "hp06"
+
+maxspecialenergy = 8900
+
+specialenergyrate = 24
+
+buildItem0 = "8472_active"
+
+buildItem1 = "8472_passive"
+
+buildItem2 = "714const"
+
+buildItem3 = "xsuconst"

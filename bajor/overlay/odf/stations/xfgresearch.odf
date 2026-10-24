@@ -1,0 +1,56 @@
+#include "research.odf"
+
+baseName = "xfgserv"
+
+race = "ferengi"
+
+unitName = "Ferengi Commerce Institute"
+
+tooltip = "Ferengi Commerce Institute"
+
+
+
+maxHealth = 1800
+
+shieldRate = 8
+
+crewCost = 100
+
+maximumCrew = 200
+
+officerCost = 5
+
+buildTime = 75
+
+dilithiumCost = 0
+
+metalCost = 0
+
+latinumCost = 500
+
+biomatterCost = 0
+
+ScaleSOD = 1.71787360
+
+
+
+hotkeyLabel = "HOTKEY_F11"
+
+
+
+
+buildItem0 = "xfgpdil"
+
+buildItem1 = "xfgpmet"
+
+buildItem2 = "xfgplat"
+
+buildItem3 = "xfgpdil2"
+
+buildItem4 = "xfgpmet2"
+
+buildItem5 = "xfgplat2"
+
+podHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
+
+verboseTooltip = "Two tiers of resource equipment contracts: +50 percent and +100 percent extraction. Research unlocks new equipment; existing collectors are unchanged."

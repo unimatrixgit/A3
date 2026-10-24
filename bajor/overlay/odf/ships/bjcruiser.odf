@@ -44,24 +44,7 @@ shieldrate = 9
 //SHIP NAMES
 
 //Possible Craft Names
-possibleCraftNames = 
-	"USS Defender" "USS Pathfinder" "USS Renegade" "USS Spirit" 
-	"USS Templar" "USS Morningstar" "USS Timberwolf"
-	"USS Apache" "USS Resolution" "USS Gallant" "USS Nautilus"
- 	"USS Thunderbird" "USS Venerable" "USS Seattle" "USS Trojan"
-	"USS Essex" "USS Fearless" "USS Thunderchild" 
-	"USS Bonaparte" "USS Washington" "USS Lafayette" "USS Jefferson"
-	"USS Vicksburg" "USS Antietam" "USS Stalingrad" "USS Jaganath"
-	"USS Montgomery" "USS Sumter" "USS Goliath" "USS Minotaur"
-	"USS Hotspur" "USS Nostromo" "USS Crusader" "USS Avondale"
-	"USS Bishop" "USS Winchester" "USS Peerless"
-	"USS Martinez" "USS Courageous" "USS Jarl" "USS Verite"
-	"USS Mathias" "USS Androsia" "USS Darius" "USS Rigel"
-	"USS Theodore" "USS Meer" "USS Virgil" "USS Trinity"
-	"USS Lakota" "USS Rapier" "USS Centaur" "USS Inverness"
-	"USS Magellan" "USS Norris" "USS Poseidon" "USS Resilient"
-	"USS Merlin" "USS Geneva" "USS Jupiter" "USS Nordhaus" "USS Brazas"
-	"USS Maxwell" "USS Koh" "USS Rhodes"
+
 
 
 //**********************************************************************
@@ -142,7 +125,7 @@ race = "bajoran"
 
 
 
-baseName = "br3_bjcruiser"
+
 ScaleSOD = 1.6
 
 
@@ -233,3 +216,7 @@ weaponHardpoints5 = "hp13"
 weapon6 = "xbj_gchainp"
 
 weaponHardpoints6 = "hp39"
+
+baseName = "bv4_bjcruiser"
+
+possibleCraftNames = "BMS Kendra" "BMS Dahkur" "BMS Rakantha" "BMS Hathon" "BMS Jalanda" "BMS Dakor" "BMS Tozhat" "BMS Musilla" "BMS Hedrikspool" "BMS Dakhur" "BMS Ashalla" "BMS Dahkur Dawn" "BMS Kendra Spirit" "BMS Bajoran Dawn" "BMS Prophets Grace" "BMS First Light" "BMS Celestial Dawn" "BMS Valley Guardian" "BMS Militia Resolve" "BMS Freedom of Bajor" "BMS Dahkur Sentinel" "BMS Rakantha Shield" "BMS Kendra Vigil" "BMS Bajor Ascendant" "BMS Jalanda Star" "BMS Hathon Guard" "BMS Emissarys Hope" "BMS Liberation" "BMS Gratitude" "BMS New Dawn" "BMS Dahkur Resolve" "BMS Celestial Guardian"

@@ -1,0 +1,117 @@
+shielddelay = 1.0f
+rangescan = 800.0f
+maxspecialenergy = 1000
+specialenergyrate = 15
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 613
+lifesupporthitpoints = 640
+weaponshitpoints = 569
+shieldgeneratorhitpoints = 698
+sensorshitpoints = 479
+eventselect = "XV_kbekta_Select"
+eventacknowledge = "XV_kbekta_Acknowledge"
+eventattack = "XV_kbekta_Attack"
+eventstop = "XV_kbekta_Stop"
+eventmove = "XV_kbekta_Move"
+eventrepair = "XV_kbekta_Repair"
+canattackplanets = 1
+physicsfile = "sbattphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "Mirror Qeh'Ral Class"
+ishero = 0
+label = "IKS Sad'taj, Captain Bek'Ta's Qeh'Ral"
+race = "klingon"
+maxhealth = 2118
+shieldrate = 3.375
+possiblecraftnames = "Mirror Qeh'Ral Class"
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+weaponyellow = 1.0f
+weaponred = 0.75f
+
+officercost = 7
+
+eventredalert = "XV_kbekta_RedAlert"
+eventyellowalert = "XV_kbekta_YellowAlert"
+eventgreenalert = "XV_kbekta_GreenAlert"
+eventtransport = "XV_kbekta_Transport"
+eventselfdestruct = "XV_kbekta_SelfDestruct"
+eventdecommission = "XV_kbekta_Decommission"
+tooltip = "Mirror Qeh'Ral Class"
+
+
+
+
+
+crewcost = 725
+weapon1 = "mrw034"
+weaponhardpoints1 = "hp11" "hp12" "hp13" "hp14" "hp15"
+weapon2 = "mrw035"
+weaponhardpoints2 = "hp09" "hp10"
+weapon3 = "gkcloak"
+weaponhardpoints3 = "hp16"
+weapon4 = "gselfdes"
+weaponhardpoints4 = "hp20"
+weapon5 = "mrw034"
+weaponhardpoints5 = "hp01"
+weapon6 = "mrw035"
+weaponhardpoints6 = "hp02"
+
+scalesod = 1.25
+
+baseName = "mrc019"
+
+dilithiumCost = 519
+
+metalCost = 219
+
+latinumCost = 0
+
+biomatterCost = 0
+
+buildTime = 81
+
+hotkeyLabel = "HOTKEY_F1"
+
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

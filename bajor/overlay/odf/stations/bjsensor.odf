@@ -49,7 +49,7 @@ combat = 0
 //ART PARAMETERS & WEAPON NAMES
 
 // Detect Cloak
-weapon1 = "gdetectf"
+
 
 
 // Hardpoints to hit for various systems and other locations.
@@ -127,7 +127,7 @@ race = "bajoran"
 
 
 
-baseName = "br3_bjsensor"
+
 ScaleSOD = 0.36
 criticaltargethardpoints = "hp01" "hp02" "hp03" "hp09" "hp11" "hp12" "hp13"
 enginestargethardpoints = "hp01" "hp02" "hp03" "hp10" "hp11" "hp12" "hp13"
@@ -159,4 +159,10 @@ biomatterCost = 0
 
 tooltip = "Fleet Installation (Bajoran Sensor Array)"
 
-verboseTooltip = "A specialist installation supporting Bajoran operations. Bajoran militia engineering protects Bajor and its neighboring systems."
+
+
+baseName = "bv4_bjsensor"
+
+weapon1 = "xbj_gdetectf"
+
+verboseTooltip = "Bajoran sensor array. Reveals cloaked ships after Bajoran Tachyon Detection is researched at the Engineering Institute. Detection operates automatically."

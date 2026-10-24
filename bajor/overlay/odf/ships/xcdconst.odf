@@ -1,7 +1,7 @@
 // Begin main properties
 
 race = "dominion"
-unitName = "Jem'Hadar Construction Ship"
+
 
 
 maxHealth = 150
@@ -12,9 +12,9 @@ lifeSupportHitPoints = 30
 sensorsHitPoints = 30
 shieldRate = 3.5
 shipclass = "construction"
-maxSpecialEnergy = 0
-specialEnergyRate = 0
-attackPower = 0.00f
+
+
+
 intrinsicValue = 0.40f
 enginesHitPercent = 5.0f
 lifeSupportHitPercent = 8.5f
@@ -46,10 +46,10 @@ hullHitPercent = 57.0f
 
 // Begin weapons
 
-weapon1 = "dphaser"
-weaponHardpoints1 = "hp01" "hp02"
-weapon2 = "gtracbm"
-weaponhardpoints2 = "hp02"
+
+
+
+
 
 // End weapons
 
@@ -153,33 +153,31 @@ can_explore = 1
 
 
 officerCost = 2
-buildTime = 17
-buildItem0 = "dbase"
-buildItem1 = "dyard"
-buildItem2 = "dsensor"
-buildItem3 = "dturret"
-buildItem4 = "dmining"
-buildItem5 = "dresear"
-buildItem6 = "dresear2"
-buildItem7 = "dyard2"
-buildItem8 = "dturret2"
-buildItem9 = "dsuperbl"
-buildItem10 = "dorbital"
-buildItem11 = "dtrading"
 
-buildItem12 = "dturret3"
 
-weapon3 = "xp12t"
 
-weaponHardpoints3 = "hp03"
 
-canAttack = 1
 
-combat = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 alert = 1
 
-baseName = "dconst"
 
 
 
@@ -189,11 +187,64 @@ baseName = "dconst"
 
 
 
-tooltip = "Constructor (Jem'Hadar Construction Ship)"
 
-verboseTooltip = "Builds the structures listed in its construction menu. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Tractor Beam. Availability follows the selected technology tree."
+
+
+
+
+
+
+
+
+
+
+
+
+
+combat = 0
+
+attackPower = 0.0
+
+buildItem0 = "dyard"
+
+buildItem1 = "dsensor"
+
+buildItem2 = "dmining"
+
+buildItem3 = "dresear"
+
+buildItem4 = "dresear2"
+
+buildItem5 = "dyard2"
+
+buildItem6 = "dorbital"
+
+buildItem7 = "dtrading"
+
+buildItem8 = "dupgrade"
+
+unitname = "Dominion Constructor I"
+
+tooltip = "Dominion Constructor I"
+
+verbosetooltip = "Tier 1: mining, regular yards, research and upgrade facilities."
+
 dilithiumcost = 125
+
 metalcost = 25
+
 latinumcost = 0
+
 biomattercost = 0
-crewCost = 100
+
+crewcost = 150
+
+buildtime = 20
+
+canattack = 0
+
+maxspecialenergy = 0
+
+specialenergyrate = 0
+
+baseName = "xcdconst"

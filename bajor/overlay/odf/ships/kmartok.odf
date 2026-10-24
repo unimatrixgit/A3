@@ -1,209 +1,168 @@
-#include "battle.odf"
-
-//Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Negh'Var Class"
-
-//tooltips
+shielddelay = 1.0f
+rangescan = 800.0f
 
 
-
-//This ship is a hero.
-isHero = 1
-
-//Set the label as martok
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 20
+lifesupporthitpoints = 20
+weaponshitpoints = 20
+shieldgeneratorhitpoints = 20
+sensorshitpoints = 20
+eventselect = "XV_kmartok_Select"
+eventacknowledge = "XV_kmartok_Acknowledge"
+eventattack = "XV_kmartok_Attack"
+eventstop = "XV_kmartok_Stop"
+eventmove = "XV_kmartok_Move"
+eventrepair = "XV_kmartok_Repair"
+canattackplanets = 1
+physicsfile = "sbattphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "Negh'Var Class"
+ishero = 1
 label = "Martok's Negh'Var"
-
-//Race which can build ship & starting race of ship
 race = "klingon"
-
-//Amount of time required to build ship
-
-//Number of officers required to build this ship
-
-//Number of crew required to build ship & Starting crew
-
-// don't use the horrible old % crew loss on damage
-saneCrewLossMethod = 1
-
-//Dilithium Cost to build
-
-//Metal Cost to build
-
-//Max Shield Strength & Begining Shield Strength <500
-maxHealth = 3157
-
-// Hitpoints
-
-shieldGeneratorHitPoints = 712
-enginesHitPoints = 629
-weaponsHitPoints = 595
-lifeSupportHitPoints = 690
-sensorsHitPoints = 492
-
-//Rate at which shield recharges (points per second... we think)
-shieldRate = 8.9
-
-//**********************************************************************
-
-// Ship's full throttle forward speed when under impluse power.
-combatSpeed = 91
-impulseSpeed = 78
-warpSpeed = 925
-
-//Maximum Value of Special Energy
-maxSpecialEnergy = 2400
-
-//Rate at which special energy recharges (points per second... we think)
-specialEnergyRate = 24 
-
-//**********************************************************************
-//SHIP NAMES
-
-//Possible Craft Names
-possibleCraftNames = "Martok's Negh'Var"
-
-//**********************************************************************
-//AI system parameters
-//These parameters influence how the AI evaluates and compares craft.
-
-//An abstract number that represents how much extra strength must be
-//used to attack this craft due to its weapons. 
-// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
-attackPower = 1.00f
-
-//The normalized intrinsic value of a target.  High value craft make good
-//attack targets. (0.0=lowest value, 1.0=highest value)
-intrinsicValue = 0.50f
-
-//**********************************************************************
-//ART PARAMETERS & WEAPON NAMES
-
-// Phaser
-weapon1 = "kc10phas"
-weaponHardpoints1 = "hp14" "hp15" "hp16" "hp17"
-
-// Photon Torpedo
-weapon2 = "kc04phot"
-weaponHardpoints2 = "hp18"
-
-// Photon Torpedo
-weapon3 = "kc04phot"
-weaponHardpoints3 = "hp19"
-
-// Photon Torpedo
-weapon4 = "kc04phot"
-weaponHardpoints4 = "hp20"
-
-// Self Destruct
-
-weaponHardpoints5 = "hp21"
-
-// Cloaking Device
-
-weaponHardpoints6 = "hp21"
-
-// Pulse Phaser
-weapon7 = "kc05pul"
-weaponHardpoints7 = "hp11"
-
-// Pulse Phaser
-weapon8 = "kc05pul"
-weaponHardpoints8 = "hp12"
-
-// Pulse Phaser
-weapon9 = "kc05pul"
-weaponHardpoints9 = "hp13"
-
-// Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
-lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
-weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
-shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
-sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
-hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
-criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
-
-//**********************************************************************
-//CREW STATUS MULTIPLIERS
-//The multiplier for the delay between shots for weapons while in yellow status
-weaponYellow = 1.0f
-
-//The multiplier for the delay between shots for weapons while in red status
-weaponRed = 0.75f
-
-//**********************************************************************
-//SYSTEM HITPOINTS
-//These values are the hitpoint values of the systems
-//If the value is set to zero the ship does not have that system
-enginesHitPoints = 20
-lifeSupportHitPoints = 20
-weaponsHitPoints = 20
-shieldGeneratorHitPoints = 20
-sensorsHitPoints = 20
-
-//**********************************************************************
-//MESSAGE & SOUND PARAMETERS
-
-
-//**********************************************************************
-
-// Name of the geometry it is using
-baseName = "kbattle"
-
-hotkeyLabel = "HOTKEY_F4"
-
-
-
-
-// Xaramada resource costs: original filename.
-
-
-
-
-
-officerCost = 7
-buildTime = 80
-
-
-eventSelect = "XV_kmartok_Select"
-
-eventAcknowledge = "XV_kmartok_Acknowledge"
-
-eventAttack = "XV_kmartok_Attack"
-
-eventStop = "XV_kmartok_Stop"
-
-eventMove = "XV_kmartok_Move"
-
-eventRepair = "XV_kmartok_Repair"
-
-eventRedAlert = "XV_kmartok_RedAlert"
-
-eventYellowAlert = "XV_kmartok_YellowAlert"
-
-eventGreenAlert = "XV_kmartok_GreenAlert"
-
-eventTransport = "XV_kmartok_Transport"
-
-eventSelfDestruct = "XV_kmartok_SelfDestruct"
-
-eventDecommission = "XV_kmartok_Decommission"
-
-
-
-
-
-
-
-
-
+sanecrewlossmethod = 1
+maxhealth = 3157
+shieldrate = 8.9
+combatspeed = 91
+impulsespeed = 78
+warpspeed = 925
+possiblecraftnames = "Martok's Negh'Var"
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
+weaponyellow = 1.0f
+weaponred = 0.75f
+basename = "kbattle"
+hotkeylabel = "HOTKEY_F4"
+officercost = 7
+buildtime = 80
+eventredalert = "XV_kmartok_RedAlert"
+eventyellowalert = "XV_kmartok_YellowAlert"
+eventgreenalert = "XV_kmartok_GreenAlert"
+eventtransport = "XV_kmartok_Transport"
+eventselfdestruct = "XV_kmartok_SelfDestruct"
+eventdecommission = "XV_kmartok_Decommission"
 tooltip = "Hero Ship (Negh'Var Class)"
-
-verboseTooltip = "A named command vessel serving the Klingon fleet. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak. Availability follows the selected technology tree."
-weapon6 = "gkcloak"
-weapon5 = "gselfdes"
+verbosetooltip = "A named command vessel serving the Klingon fleet. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak. Availability follows the selected technology tree."
 dilithiumcost = 745
 metalcost = 320
 latinumcost = 0
 biomattercost = 0
-crewCost = 975
+crewcost = 975
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "kc10phas"
+
+weaponHardpoints1 = "hp14" "hp15" "hp16" "hp17"
+
+weapon2 = "kc04phot"
+
+weaponHardpoints2 = "hp18"
+
+weapon3 = "kc04phot"
+
+weaponHardpoints3 = "hp19"
+
+weapon4 = "kc04phot"
+
+weaponHardpoints4 = "hp20"
+
+weapon5 = "gselfdes"
+
+weaponHardpoints5 = "hp21"
+
+weapon6 = "gkcloak"
+
+weaponHardpoints6 = "hp21"
+
+weapon7 = "kc05pul"
+
+weaponHardpoints7 = "hp11"
+
+weapon8 = "kc05pul"
+
+weaponHardpoints8 = "hp12"
+
+weapon9 = "kc05pul"
+
+weaponHardpoints9 = "hp13"
+
+weapon10 = "kc10phas"
+
+weaponHardpoints10 = "hp01"
+
+weapon11 = "kc04phot"
+
+weaponHardpoints11 = "hp02"
+
+maxspecialenergy = 2400
+
+specialenergyrate = 24

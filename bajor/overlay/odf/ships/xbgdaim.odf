@@ -1,0 +1,96 @@
+#include "cruise1.odf"
+enginesTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04" "hp06"
+lifeSupportTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04" "hp06"
+weaponsTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04" "hp06"
+shieldGeneratorTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04" "hp06"
+sensorsTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04" "hp06"
+hullTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04" "hp06"
+criticalTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04" "hp06"
+
+baseName = "xfgdaim"
+
+
+
+unitName = "Mercenary Ferengi DaiMon Assault Ship"
+
+tooltip = "Mercenary Ferengi DaiMon Assault Ship"
+
+
+
+maxHealth = 3000
+
+shieldRate = 12
+
+crewCost = 600
+
+maximumCrew = 750
+
+officerCost = 12
+
+
+
+
+
+
+
+
+
+buildTime = 95
+
+ScaleSOD = 1.35
+
+maxSpecialEnergy = 1600
+
+specialEnergyRate = 16
+
+isHero = 0
+
+hotkeyLabel = "HOTKEY_F9"
+
+possibleCraftNames = "Hostile Takeover" "Acquisition Fee" "Debt Collector" "Final Offer"
+
+shieldGeneratorHitPoints = 600
+
+enginesHitPoints = 600
+
+weaponsHitPoints = 600
+
+lifeSupportHitPoints = 600
+
+sensorsHitPoints = 600
+
+weapon1 = "xfgdaimb"
+weaponHardpoints1 = "hp01"
+
+weapon2 = "xfgdaimb"
+weaponHardpoints2 = "hp03"
+
+weapon3 = "xfgdaimb"
+weaponHardpoints3 = "hp02"
+
+weapon4 = "xfgdaimb"
+weaponHardpoints4 = "hp05"
+
+weapon5 = "xfgdaimt"
+weaponHardpoints5 = "hp04"
+
+weapon6 = "xfgdaimt"
+weaponHardpoints6 = "hp06"
+
+weapon7 = "xfgdaimt"
+weaponHardpoints7 = "hp16"
+
+weapon8 = "xfgultri"
+weaponHardpoints8 = "hp15"
+
+race = "borg"
+
+dilithiumCost = 450
+
+metalCost = 300
+
+latinumCost = 0
+
+biomatterCost = 0
+
+verboseTooltip = "Borg contract paid in dilithium and metal. Heavy Ferengi assault vessel with four disruptor beams, three photon torpedo launchers and an Ultritium Burst."

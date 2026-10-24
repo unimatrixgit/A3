@@ -1,0 +1,267 @@
+#include "const.odf"
+
+//Race which can build ship & starting race of ship
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+//tooltips
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxhealth = 500
+
+// Hitpoints
+
+shieldgeneratorhitpoints = 1000
+engineshitpoints = 1000
+weaponshitpoints = 1000
+lifesupporthitpoints = 1000
+sensorshitpoints = 1000
+
+//Rate at which shield recharges (points per second... we think)
+shieldrate = 5
+
+//**********************************************************************
+//Construction Parameters
+//**********************************************************************
+
+//**********************************************************************
+//Worker Bee Parameters
+
+// Name of the worker bee SOD.
+workerBeeName = "fbee"
+weldingBeamWidth = 5.0
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Weapon Name (ex. "gphaser" -> gphaser.odf)
+//weapon1 = "gphaser"
+//weaponHardpoints1 = "hp12" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
+
+// Towing Beam
+
+
+// Hardpoints to hit for various systems and other locations.
+
+
+//**********************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+
+
+
+officercost = 2
+
+race = "bajoran"
+
+ScaleSOD = 0.8
+workerbeehardpoints = "bot1" "bot2" "bot3" "bot4" "bot5" "bot6"
+
+enginestargethardpoints = "hp06"
+lifesupporttargethardpoints = "hp06" "hp08" "hp09"
+weaponstargethardpoints = "hp06" "hp08" "hp09"
+shieldgeneratortargethardpoints = "hp06" "hp08" "hp09"
+sensorstargethardpoints = "hp06" "hp08" "hp09"
+hulltargethardpoints = "hp08" "hp09" "hp10" "hp11" "hp13"
+criticaltargethardpoints = "hp06" "hp08" "hp09"
+
+// Bajoran facilities ordered like the Cardassian core construction menu.
+
+// Federation-equivalent construction order; faction defenses follow core facilities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alert = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+shieldgeneratorhitpercent = 8.0f
+
+engineshitpercent = 5.0f
+
+weaponshitpercent = 5.0f
+
+lifesupporthitpercent = 8.5f
+
+sensorshitpercent = 8.0f
+
+crewhitpercent = 8.5f
+
+hullhitpercent = 57.0f
+
+physicsfile = "sconstphys.odf"
+
+rangescan = 800.0f
+
+damagedscan = 125.0
+
+
+
+
+
+combat = 0
+
+attackPower = 0.0
+
+
+
+possibleCraftNames = "BMS Kendra" "BMS Dahkur" "BMS Rakantha" "BMS Hathon" "BMS Jalanda" "BMS Dakor" "BMS Tozhat" "BMS Musilla" "BMS Hedrikspool" "BMS Dakhur" "BMS Ashalla" "BMS Dahkur Dawn" "BMS Kendra Spirit" "BMS Bajoran Dawn" "BMS Prophets Grace" "BMS First Light" "BMS Celestial Dawn" "BMS Valley Guardian" "BMS Militia Resolve" "BMS Freedom of Bajor" "BMS Dahkur Sentinel" "BMS Rakantha Shield" "BMS Kendra Vigil" "BMS Bajor Ascendant" "BMS Jalanda Star" "BMS Hathon Guard" "BMS Emissarys Hope" "BMS Liberation" "BMS Gratitude" "BMS New Dawn" "BMS Dahkur Resolve" "BMS Celestial Guardian"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+buildItem0 = "bjturret"
+
+buildItem1 = "bjturret2"
+
+buildItem2 = "bjhwp"
+
+buildItem3 = "bjyard3"
+
+buildItem4 = "mrybajor"
+
+unitName = "Bajoran Constructor II"
+
+tooltip = "Bajoran Constructor II"
+
+verboseTooltip = "Tier 2: defenses and hero, Omega and Mirror Universe yards."
+
+baseName = "xbjconst2"
+
+dilithiumCost = 200
+
+metalCost = 100
+
+latinumCost = 0
+
+biomatterCost = 0
+
+crewCost = 150
+
+maximumCrew = 150
+
+buildTime = 30
+
+hotkeyLabel = "HOTKEY_F2"
+
+canAttack = 0
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0

@@ -108,15 +108,23 @@ crewCost = 100
 officerCost = 1
 buildTime = 13
 
-dilithiumCost = 175
 
-metalCost = 75
 
-latinumCost = 0
 
-biomatterCost = 0
+
+
+
+
 
 tooltip = "Resource Miner (MoH'SoS Class)"
 
 verboseTooltip = "Collects resources and delivers them to compatible processing facilities. Klingon engineering serves the Empire with direct, relentless force. Special systems: Mining Beam, Cloak. Availability follows the selected technology tree."
 weapon4 = "gkcloak"
+
+dilithiumCost = 175
+
+metalCost = 0
+
+latinumCost = 0
+
+biomatterCost = 0

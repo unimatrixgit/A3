@@ -37,10 +37,9 @@ possibleCraftNames = "Nuok Tal-4"
 //**********************************************************************
 //Construction Parameters
 
-buildItem0 = "carpod6"
-buildItem1 = "carpod7"
-buildItem2 = "carpod8"
-buildItem3 = "carpod9"
+
+
+
 
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
@@ -84,23 +83,12 @@ transporter = 1
 crewCost = 200
 officerCost = 10
 buildTime = 150
-
-baseName = "xvstock_cresear2"
-
-podhardpoints = "hp51" "hp52" "hp53" "hp54"
-
 enginestargethardpoints = "hp01" "hp06" "hp07" "hp08" "hp09" "hp10"
-
 lifesupporttargethardpoints = "hp01" "hp11" "hp12" "hp13" "hp14" "hp15"
-
 weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
-
 shieldgeneratortargethardpoints = "hp01" "hp06" "hp07" "hp08" "hp09" "hp10"
-
 sensorstargethardpoints = "hp01" "hp11" "hp12" "hp13" "hp14" "hp15"
-
 hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
-
 criticaltargethardpoints = "hp01"
 
 
@@ -122,3 +110,16 @@ biomatterCost = 0
 tooltip = "Research Facility (Advanced Research Station)"
 
 verboseTooltip = "Supports the technologies and upgrades available in its research menu. Cardassian engineering sustains the Union through ordered, persistent operations."
+
+baseName = "mrst_car"
+
+podHardpoints = "hp51" "hp52" "hp53" "hp54" "mirrorpod"
+
+
+buildItem0 = "carpod6"
+
+buildItem1 = "carpod7"
+
+buildItem2 = "carpod8"
+
+buildItem3 = "carpod9"

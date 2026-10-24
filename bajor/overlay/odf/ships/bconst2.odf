@@ -83,14 +83,14 @@ criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07"
 // Disable banking (by making the maximum bank angle 1 degree)
 maxRoll = 1
 
-hotkeyLabel = "HOTKEY_F1"
+
 // Xaramada: transwarp for all Borg vessels.
 
 
 
-maxSpecialEnergy = 1000
 
-specialEnergyRate = 10
+
+
 
 
 
@@ -112,21 +112,6 @@ specialEnergyRate = 10
 
 
 
-buildItem0 = "bhwp"
-
-buildItem1 = "bassturr"
-
-buildItem2 = "bupgrade"
-
-buildItem3 = "btechass"
-
-buildItem4 = "xbharvest"
-
-buildItem5 = "xbassimst"
-
-buildItem6 = "xbomegalab"
-
-buildItem7 = "hub"
 
 
 
@@ -134,23 +119,15 @@ buildItem7 = "hub"
 
 
 
-dilithiumCost = 125
 
-metalCost = 25
-
-latinumCost = 0
-
-biomatterCost = 0
-
-crewCost = 150
 
 officerCost = 1
 
-buildTime = 17
 
-maximumCrew = 150
 
-unitName = "Omega Powered Constructor"
+
+
+
 
 
 
@@ -162,32 +139,88 @@ unitName = "Omega Powered Constructor"
 
 can_sandd = 1
 
-weapon1 = "bc1phas"
 
-weaponHardpoints1 = "hp01"
 
-weapon2 = "bc1phas"
 
-weaponHardpoints2 = "hp02"
 
-weapon3 = "bc1phas"
 
-weaponHardpoints3 = "hp03"
 
-weapon4 = "xbhwpr"
 
-weaponHardpoints4 = "hp04"
 
-weapon5 = "xabtrans5"
 
-weaponHardpoints5 = "hp01"
 
-canAttack = 1
 
-combat = 1
+
+
+
+
+
+
+
+
+
+
+
+
 
 alert = 1
 
-tooltip = "Constructor (Omega Powered Constructor)"
 
-verboseTooltip = "Builds the structures listed in its construction menu. Collective engineering integrates this asset into the unimatrix. Special systems: Transwarp Drive. Availability follows the selected technology tree."
+
+
+
+
+
+
+
+combat = 0
+
+attackPower = 0.0
+
+
+numberOfWorkerBees = 2
+workerBeeHardpoints = "bot1" "bot2"
+
+buildItem0 = "bturret"
+
+buildItem1 = "bturret2"
+
+buildItem2 = "byard3"
+
+buildItem3 = "bhwp"
+
+buildItem4 = "xbomegalab"
+
+buildItem5 = "xbtarray"
+
+buildItem6 = "mryborg"
+
+unitName = "Borg Constructor II"
+
+tooltip = "Borg Constructor II"
+
+verboseTooltip = "Tier 2: defenses and hero, Omega and Mirror Universe yards."
+
+baseName = "bconst2"
+
+dilithiumCost = 200
+
+metalCost = 100
+
+latinumCost = 0
+
+biomatterCost = 0
+
+crewCost = 150
+
+maximumCrew = 150
+
+buildTime = 30
+
+hotkeyLabel = "HOTKEY_F2"
+
+canAttack = 0
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0

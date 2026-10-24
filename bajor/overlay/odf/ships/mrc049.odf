@@ -1,0 +1,133 @@
+shielddelay = 1.0f
+rangescan = 800.0f
+maxspecialenergy = 1600
+specialenergyrate = 16
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 701
+lifesupporthitpoints = 701
+weaponshitpoints = 701
+shieldgeneratorhitpoints = 712
+sensorshitpoints = 701
+eventselect = "ValdoreSelect"
+eventacknowledge = "ValdoreAcknowledge"
+eventattack = "ValdoreAttack"
+eventstop = "ValdoreAcknowledge"
+eventmove = "ValdoreMove"
+eventrepair = "ValdoreRepair"
+canattackplanets = 1
+physicsfile = "sbattphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "Mirror Donatra - Valdore"
+race = "romulan"
+maxhealth = 2629.5
+sanecrewlossmethod = 1
+shieldrate = 15.97
+combatspeed = 83
+impulsespeed = 78
+warpspeed = 924
+possiblecraftnames = "Mirror Donatra - Valdore"
+weapon1 = "grcloak"
+weaponhardpoints1 = "hp14"
+weapon2 = "mrw054"
+weaponhardpoints2 = "hp17"
+weapon3 = "mrw054"
+weaponhardpoints3 = "hp18"
+weapon4 = "mrw054"
+weaponhardpoints4 = "hp19"
+weapon5 = "mrw054"
+weaponhardpoints5 = "hp20"
+weapon6 = "mrw055"
+weaponhardpoints6 = "hp15"
+weapon7 = "gromspy"
+weaponhardpoints7 = "hp16"
+weapon8 = "gselfdes"
+weaponhardpoints8 = "hp01" "hp02" "hp03" "hp04"
+weaponhardpoints9 = "hp19"
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+weaponyellow = 1.5f
+weaponred = 2.0f
+
+officercost = 11
+
+tooltip = "Mirror Donatra - Valdore"
+
+weapon9 = "gselfdes"
+
+
+
+
+crewcost = 1055
+label = "Donatra - Valdore"
+
+ishero = 0
+scalesod = 2.12625
+eventredalert = "ValdoreRedAlert"
+eventyellowalert = "ValdoreYellowAlert"
+eventgreenalert = "ValdoreGreenAlert"
+eventtransport = "ValdoreTransport"
+eventselfdestruct = "ValdoreSelfDestruct"
+eventdecommission = "XV_xhrhero_Decommission"
+eventcloakengage = "ValdoreCloakEngage"
+eventcloakdisengage = "ValdoreCloakDisengage"
+weapon10 = "mrw056"
+weaponhardpoints10 = "hp05"
+weapon11 = "mrw055"
+weaponhardpoints11 = "hp06"
+
+baseName = "mrc049"
+
+dilithiumCost = 1088
+
+metalCost = 469
+
+latinumCost = 0
+
+biomatterCost = 0
+
+buildTime = 120
+
+hotkeyLabel = "HOTKEY_F1"
+
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

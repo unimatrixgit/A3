@@ -1,0 +1,74 @@
+//Name of the ODF file for the ordinance for this weapon
+ordName = "plasmaw"
+
+//Display name for this weapon
+wpnName = "Heated Plasma"
+
+//tooltips
+tooltip = "Heated PLasma"
+verboseTooltip = "a huge ball of burning plasma"
+
+//Location of the button in the speed panel
+
+
+// location of the button in the popup palette
+
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 10
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+//Time Delay between shots
+shotDelay = 20.0f
+
+// Range within which the weapon will fire.
+range = 800.0f
+
+//Sound which is played when the weapon fires
+fireSound = "swkplsmx.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "launcher"
+
+// Percent chance of hitting the target.
+hitChance = 1.00
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the attacker is full impulse
+impulseToHitModifier = -0.25
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not attacker is stopped 
+stopToHitModifier = 0.15
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is full warp
+toHitImpulseModifier = 0.20
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is stopped 
+toHitStopModifier = 0.50
+
+// special weapon
+special = 1
+
+// Need target
+needTarget = 1
+
+//this special weapon can be assimilated by the borg tech assimilator
+
+
+
+assimilatable = "xrplasmapod"
+
+buttonSlot = 2
+
+popupSlot = 1
+
+hotkeyLabel = "HOTKEY_F2"

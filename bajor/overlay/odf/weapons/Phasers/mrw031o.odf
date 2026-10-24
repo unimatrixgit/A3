@@ -1,0 +1,34 @@
+#include "phasero.odf"
+
+classLabel = "phaser"
+
+specialEnergyCost = 0
+
+
+
+
+
+damageThreshold = 45
+
+shieldCrewModifier = 0.02
+
+hullCrewModifier = 0.01
+
+lifeSpan = 1.6
+
+shieldDuration = 4.0
+
+shotSpeed = 1e6
+
+Sprite = "rdphaser"
+
+shotColor = 227
+
+Radius = 1.25
+
+spriteDuration = 1.0
+
+
+damagebase = 40
+
+damagevariance = 4

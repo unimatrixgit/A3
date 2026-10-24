@@ -39,15 +39,7 @@ shieldrate = 3.8
 //SHIP NAMES
 
 //Possible Craft Names
-possibleCraftNames = 
-	"USS Acrux" "USS Adara" "USS Algol" "USS Altair" "USS Antares"
-	"USS Arcturus" "USS Arneb" "USS Ascella" "USS Bellatrix" "USS Betelgeuse"
-	"USS Canopus" "USS Capella" "USS Castor" "USS Chara" "USS Electra"
-	"USS Enif" "USS Fomalhaut" "USS Graffias" "USS Lesath" "USS Maia"
-	"USS Marfak" "USS Megrez" "USS Mizar" "USS Murzim" "USS Muscida"
-	"USS Naos" "USS Nashira" "USS Polares" "USS Pollux" "USS Procyon" 
-	"USS Propus" "USS Rana" "USS Seginus" "USS Terebellum" "USS Vega"
-	"USS Zosma" "USS Thuban" "USS Subra" "USS Sirius" "USS Shaula"
+
 
 //**********************************************************************
 //ART PARAMETERS & WEAPON NAMES
@@ -108,7 +100,7 @@ race = "bajoran"
 
 
 
-baseName = "br3_bjrepair"
+
 ScaleSOD = 1.2
 
 
@@ -166,3 +158,7 @@ hullhitpercent = 57.0f
 rangescan = 800.0f
 
 damagedscan = 125.0
+
+baseName = "bv4_bjrepair"
+
+possibleCraftNames = "BMS Kendra" "BMS Dahkur" "BMS Rakantha" "BMS Hathon" "BMS Jalanda" "BMS Dakor" "BMS Tozhat" "BMS Musilla" "BMS Hedrikspool" "BMS Dakhur" "BMS Ashalla" "BMS Dahkur Dawn" "BMS Kendra Spirit" "BMS Bajoran Dawn" "BMS Prophets Grace" "BMS First Light" "BMS Celestial Dawn" "BMS Valley Guardian" "BMS Militia Resolve" "BMS Freedom of Bajor" "BMS Dahkur Sentinel" "BMS Rakantha Shield" "BMS Kendra Vigil" "BMS Bajor Ascendant" "BMS Jalanda Star" "BMS Hathon Guard" "BMS Emissarys Hope" "BMS Liberation" "BMS Gratitude" "BMS New Dawn" "BMS Dahkur Resolve" "BMS Celestial Guardian"

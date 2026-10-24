@@ -1,66 +1,133 @@
-#include "battle.odf"
-unitName = "John Harriman - Enterprise B"
+shielddelay = 1.0f
+rangescan = 800.0f
+
+
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 10
+lifesupporthitpoints = 10
+weaponshitpoints = 10
+shieldgeneratorhitpoints = 10
+sensorshitpoints = 10
+eventselect = "XV_fentb_Select"
+eventacknowledge = "XV_fentb_Acknowledge"
+eventattack = "XV_fentb_Attack"
+eventstop = "XV_fentb_Stop"
+eventmove = "XV_fentb_Move"
+eventrepair = "XV_fentb_Repair"
+canattackplanets = 1
+physicsfile = "fcruiserphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "John Harriman - Enterprise B"
 label = "John Harriman - Enterprise B"
-
-
-baseName = "fentb"
+basename = "fentb"
 race = "federation"
-isHero = 1
-possibleCraftNames = "Enterprise B"
-hotkeyLabel = ""
-maxHealth = 8000
-shieldRate = 80
-maxSpecialEnergy = 8000
-specialEnergyRate = 80
+ishero = 1
+possiblecraftnames = "Enterprise B"
+hotkeylabel = ""
+maxhealth = 8000
+shieldrate = 80
+officercost = 9
+buildtime = 102
+scalesod = 2.0
+trekphysicsfile = "fcruiserphys.odf"
+eventredalert = "XV_fentb_RedAlert"
+eventyellowalert = "XV_fentb_YellowAlert"
+eventgreenalert = "XV_fentb_GreenAlert"
+eventtransport = "XV_fentb_Transport"
+eventselfdestruct = "XV_fentb_SelfDestruct"
+eventdecommission = "XV_fentb_Decommission"
+tooltip = "Hero Ship (John Harriman - Enterprise B)"
+verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Transwarp Drive, Corbomite Reflector. Availability follows the selected technology tree."
+dilithiumcost = 800
+metalcost = 345
+latinumcost = 0
+biomattercost = 0
+crewcost = 1010
 
-officerCost = 9
-buildTime = 102
-ScaleSOD = 2.0
-physicsFile = "fcruiserphys.odf"
-trekPhysicsFile = "fcruiserphys.odf"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 weapon1 = "fexcelsiorphas"
+
 weaponHardpoints1 = "hp01" "hp02" "hp03"
+
 weapon2 = "frphot"
+
 weaponHardpoints2 = "hp04"
+
 weapon3 = "ftwarpd"
+
 weaponHardpoints3 = "hp01"
 
+weapon4 = "gselfdes"
+
 weaponHardpoints4 = "hp01"
-eventSelect = "XV_fentb_Select"
-eventAcknowledge = "XV_fentb_Acknowledge"
-eventAttack = "XV_fentb_Attack"
-eventStop = "XV_fentb_Stop"
-eventMove = "XV_fentb_Move"
-eventRepair = "XV_fentb_Repair"
-eventRedAlert = "XV_fentb_RedAlert"
-eventYellowAlert = "XV_fentb_YellowAlert"
-eventGreenAlert = "XV_fentb_GreenAlert"
-eventTransport = "XV_fentb_Transport"
-eventSelfDestruct = "XV_fentb_SelfDestruct"
-eventDecommission = "XV_fentb_Decommission"
 
 weapon5 = "ya0074"
 
 weaponHardpoints5 = "hp01"
 
+weapon6 = "fexcelsiorphas"
 
+weaponHardpoints6 = "hp05"
 
+weapon7 = "xhtphase"
 
+weaponHardpoints7 = "hp06"
 
+maxspecialenergy = 8000
 
-
-
-
-tooltip = "Hero Ship (John Harriman - Enterprise B)"
-
-verboseTooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Transwarp Drive, Corbomite Reflector. Availability follows the selected technology tree."
-weapon4 = "gselfdes"
-dilithiumcost = 800
-metalcost = 345
-latinumcost = 0
-biomattercost = 0
-crewCost = 1010
+specialenergyrate = 80

@@ -1,168 +1,134 @@
-// Begin main properties
-
-unitName = "Sovereign Class"
-
-
+unitname = "Sovereign Class"
 race = "federation"
-maxHealth = 3000
-shieldGeneratorHitPoints = 600
-enginesHitPoints = 600
-weaponsHitPoints = 600
-lifeSupportHitPoints = 600
-sensorsHitPoints = 600
-shieldRate = 15.0
-maxSpecialEnergy = 1000
-specialEnergyRate = 21
-enginesHitPoints = 20
-lifeSupportHitPoints = 20
-weaponsHitPoints = 20
-shieldGeneratorHitPoints = 20
-sensorsHitPoints = 20
-attackPower = 1.00f
-intrinsicValue = 0.60f
+maxhealth = 3000
+shieldgeneratorhitpoints = 20
+engineshitpoints = 20
+weaponshitpoints = 20
+lifesupporthitpoints = 20
+sensorshitpoints = 20
+shieldrate = 15.0
+
+
+attackpower = 1.00f
+intrinsicvalue = 0.60f
 shipclass = "battleship"
-enginesHitPercent = 5.0f
-lifeSupportHitPercent = 8.5f
-weaponsHitPercent = 5.0f
-shieldGeneratorHitPercent = 8.0f
-sensorsHitPercent = 8.0f
-crewHitPercent = 8.5f
-hullHitPercent = 57.0f
-
-// End main properties
-
-// Begin weapons
-
-weapon1 = "fbphas"
-weaponHardpoints1 = "hp04" "hp05" "hp08" "hp09" "hp12" "hp13" 
-weapon2 = "fbattlephot"
-weaponHardpoints2 = "hp01" "hp28" 
-weapon3 = "Pgcorbom"
-weaponHardpoints3 = "hp10" "hp11" "hp26" "hp27" "hp29" "hp30" "hp34" "hp35" 
-
-weaponHardpoints4 = "hp10" "hp11" "hp26" "hp27" "hp29" "hp30" "hp34" "hp35" 
-
-// End weapons
-
-// Begin hardpoints
-
-enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
-lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
-weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32" "hp33" "hp34" "hp35" "hp36"
-shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
-sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
-hullTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
-criticalTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
-
-// End hardpoints
-
-// Begin sounds
-
-
-
-// End sounds
-
-// Begin ship names
-
-possibleCraftNames = "USS Enterprise-E" 
-
-// End ship names
-
-// Begin misc properties
-
-isHero = 1
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32" "hp33" "hp34" "hp35" "hp36"
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hulltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+criticaltargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+possiblecraftnames = "USS Enterprise-E"
+ishero = 1
 label = "Enterprise NCC 1701-E"
-weaponYellow = 1.0f
-weaponRed = 2.0f
-ScaleSOD = 1.8
-avoidanceClass = 8
-canAttackPlanets = 1
-physicsFile = "sbattphys.odf"
-trekPhysicsFile = "trek_sbattphys.odf"
+weaponyellow = 1.0f
+weaponred = 2.0f
+scalesod = 1.8
+avoidanceclass = 8
+canattackplanets = 1
+physicsfile = "sbattphys.odf"
+trekphysicsfile = "trek_sbattphys.odf"
 fireball = "xfireblg"
 combat = 1
 alert = 1
 can_sandd = 1
-shipType = "B"
-shieldDelay = 3.0f
-rangeScan = 800.0f
-damagedScan = 125.0
-enginesRepairTime = 1.0f
-lifeSupportRepairTime = 0.1f
-weaponsRepairTime = 2.0f
-shieldGeneratorRepairTime = 2.0f
-sensorsRepairTime = 3.0f
-enginesCrewLoss = 5.0f
-lifeSupportCrewLoss = 3.0f
-weaponsCrewLoss = 2.0f
-shieldGeneratorCrewLoss = 2.0f
-sensorsCrewLoss = 2.0f
-lifeSupportLoss = 2.0f
-weldingRadius = 1.0
-classLabel = "craft"
-aiName = "CraftProcess"
+shiptype = "B"
+shielddelay = 3.0f
+rangescan = 800.0f
+damagedscan = 125.0
+enginesrepairtime = 1.0f
+lifesupportrepairtime = 0.1f
+weaponsrepairtime = 2.0f
+shieldgeneratorrepairtime = 2.0f
+sensorsrepairtime = 3.0f
+enginescrewloss = 5.0f
+lifesupportcrewloss = 3.0f
+weaponscrewloss = 2.0f
+shieldgeneratorcrewloss = 2.0f
+sensorscrewloss = 2.0f
+lifesupportloss = 2.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
 ship = 1
 has_hitpoints = 1
 has_crew = 1
 transporter = 1
-SHOW_MOVEMENT_AUTONOMY = 1
+show_movement_autonomy = 1
 can_explore = 1
-
-// End misc properties
-
-
-
-baseName = "fbattle"
-
-
-// Xaramada resource costs: original filename.
-
-
-
-
-
-officerCost = 7
-buildTime = 80
-
-
-eventSelect = "XV_sovereign_Select"
-
-eventAcknowledge = "XV_sovereign_Acknowledge"
-
-eventAttack = "XV_sovereign_Attack"
-
-eventStop = "XV_sovereign_Stop"
-
-eventMove = "XV_sovereign_Move"
-
-eventRepair = "XV_sovereign_Repair"
-
-eventRedAlert = "XV_sovereign_RedAlert"
-
-eventYellowAlert = "XV_sovereign_YellowAlert"
-
-eventGreenAlert = "XV_sovereign_GreenAlert"
-
-eventTransport = "XV_sovereign_Transport"
-
-eventSelfDestruct = "XV_sovereign_SelfDestruct"
-
-eventDecommission = "XV_sovereign_Decommission"
-
-
-
-
-
-
-
-
-
+basename = "fbattle"
+officercost = 7
+buildtime = 80
+eventselect = "XV_sovereign_Select"
+eventacknowledge = "XV_sovereign_Acknowledge"
+eventattack = "XV_sovereign_Attack"
+eventstop = "XV_sovereign_Stop"
+eventmove = "XV_sovereign_Move"
+eventrepair = "XV_sovereign_Repair"
+eventredalert = "XV_sovereign_RedAlert"
+eventyellowalert = "XV_sovereign_YellowAlert"
+eventgreenalert = "XV_sovereign_GreenAlert"
+eventtransport = "XV_sovereign_Transport"
+eventselfdestruct = "XV_sovereign_SelfDestruct"
+eventdecommission = "XV_sovereign_Decommission"
 tooltip = "Hero Ship (Sovereign Class)"
-
-verboseTooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
-weapon4 = "gselfdes"
+verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
 dilithiumcost = 365
 metalcost = 160
 latinumcost = 0
 biomattercost = 0
-crewCost = 685
+crewcost = 685
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "fbphas"
+
+weaponHardpoints1 = "hp04" "hp05" "hp08" "hp09" "hp12" "hp13"
+
+weapon2 = "fbattlephot"
+
+weaponHardpoints2 = "hp01" "hp28"
+
+weapon3 = "Pgcorbom"
+
+weaponHardpoints3 = "hp10" "hp11" "hp26" "hp27" "hp29" "hp30" "hp34" "hp35"
+
+weapon4 = "gselfdes"
+
+weaponHardpoints4 = "hp10" "hp11" "hp26" "hp27" "hp29" "hp30" "hp34" "hp35"
+
+weapon5 = "fbphas"
+
+weaponHardpoints5 = "hp02"
+
+weapon6 = "xhtphase"
+
+weaponHardpoints6 = "hp03"
+
+maxspecialenergy = 1000
+
+specialenergyrate = 21

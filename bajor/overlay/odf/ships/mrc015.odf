@@ -1,0 +1,116 @@
+shielddelay = 1.0f
+rangescan = 800.0f
+maxspecialenergy = 11000
+specialenergyrate = 110
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 3000
+lifesupporthitpoints = 3000
+weaponshitpoints = 3000
+shieldgeneratorhitpoints = 3000
+sensorshitpoints = 3000
+eventselect = "XV_fente_Select"
+eventacknowledge = "XV_fente_Acknowledge"
+eventattack = "XV_fente_Attack"
+eventstop = "XV_fente_Stop"
+eventmove = "XV_fente_Move"
+eventrepair = "XV_fente_Repair"
+canattackplanets = 1
+physicsfile = "fbattlephys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "Mirror Sovereign Class"
+ishero = 0
+label = "Enterprise NCC 1701-E"
+race = "federation"
+sanecrewlossmethod = 1
+maxhealth = 8250
+shieldrate = 110
+possiblecraftnames = "Mirror Sovereign Class"
+enginestargethardpoints = "hp07" "hp08" "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+lifesupporttargethardpoints = "hp09"
+weaponstargethardpoints = "hp03" "hp04" "hp05" "hp06"
+shieldgeneratortargethardpoints = "hp19"
+sensorstargethardpoints = "hp25" "hp26"
+hulltargethardpoints = "hp17"
+criticaltargethardpoints = "hp22"
+scalesod = 2
+trekphysicsfile = "fbattlephys.odf"
+officercost = 7
+
+eventredalert = "XV_fente_RedAlert"
+eventyellowalert = "XV_fente_YellowAlert"
+eventgreenalert = "XV_fente_GreenAlert"
+eventtransport = "XV_fente_Transport"
+eventselfdestruct = "XV_fente_SelfDestruct"
+eventdecommission = "XV_fente_Decommission"
+tooltip = "Mirror Sovereign Class"
+
+
+
+
+
+crewcost = 1320
+weapon1 = "mrw003"
+weaponhardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20" "hp21" "hp22" "hp23" "hp24" "hp25" "hp26"
+weapon2 = "mrw004"
+weaponhardpoints2 = "hp27"
+weapon3 = "gselfdes"
+weaponhardpoints3 = "hp31"
+weapon4 = "gcorbom"
+weaponhardpoints4 = "hp30"
+weapon5 = "mrw003"
+weaponhardpoints5 = "hp28"
+weapon6 = "mrw005"
+weaponhardpoints6 = "hp29"
+
+
+baseName = "mrc015"
+
+dilithiumCost = 1706
+
+metalCost = 731
+
+latinumCost = 0
+
+biomatterCost = 0
+
+buildTime = 100
+
+hotkeyLabel = "HOTKEY_F9"
+
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

@@ -125,7 +125,7 @@ race = "bajoran"
 
 
 
-baseName = "br3_bjmining"
+
 ScaleSOD = 2.148438
 criticaltargethardpoints = "hp07" "hp08" "hp09"
 enginestargethardpoints = "hp03" "hp08" "hp09"
@@ -146,7 +146,23 @@ maxspecialenergy = 0
 
 specialenergyrate = 0
 
-dilithiumCost = 300
+
+
+
+
+
+
+
+
+tooltip = "Resource Processing Station (Bajoran Resource Processing Facility)"
+
+verboseTooltip = "Receives and processes resources delivered by mining vessels. Bajoran militia engineering protects Bajor and its neighboring systems."
+
+
+
+
+
+dilithiumCost = 0
 
 metalCost = 200
 
@@ -154,6 +170,4 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Resource Processing Station (Bajoran Resource Processing Facility)"
-
-verboseTooltip = "Receives and processes resources delivered by mining vessels. Bajoran militia engineering protects Bajor and its neighboring systems."
+baseName = "bv4_bjmining"

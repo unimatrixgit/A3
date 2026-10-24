@@ -37,7 +37,7 @@ sensorsHitPoints = 40
 shieldRate = 2.5
 
 // which resources can this station process?
-resourcesCanHandle = "dilithium" 
+
 
 //**********************************************************************
 //SHIP NAMES
@@ -105,16 +105,42 @@ crewCost = 100
 officerCost = 1
 buildTime = 13
 
-dilithiumCost = 175
 
-metalCost = 75
 
-latinumCost = 0
 
-biomatterCost = 0
+
+
+
+
 
 baseName = "dfreight"
 
 tooltip = "Resource Miner (Jem'Hadar Freighter)"
 
-verboseTooltip = "Collects resources and delivers them to compatible processing facilities. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Mining Beam. Availability follows the selected technology tree."
+
+
+dilithiumCost = 175
+
+metalCost = 0
+
+latinumCost = 0
+
+biomatterCost = 0
+
+resourcesCanHandle = "dilithium" "latinum"
+
+maxLatinum = 75
+
+speedFractionCarryingLatinum = .4
+
+explosionUnitsPerLatinum = 10
+
+latinum_spray_emitter = "latinum_spray"
+
+latinum_spray_hardpoint = "hp01"
+
+weapon2 = "gmineLatinum"
+
+weaponHardpoints2 = "hp01" "hp02" "hp03" "hp10"
+
+verboseTooltip = "Dominion resource miner. Harvests dilithium and latinum; delivers latinum to compatible Dominion starbases. Latinum capacity: 75."

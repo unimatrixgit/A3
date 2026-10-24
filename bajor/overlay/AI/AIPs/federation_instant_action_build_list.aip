@@ -1,18 +1,20 @@
-// Economy-first opening;original later force choices and tech phases retained.
+// Updated current-faction economy, heavy defense, production and research order.
 #include "aipdef.h"
 int checkTechnologyAvailable = 1;
 Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 {
+    "fconst", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "fyard2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "xfuconst", 1, 0, -1, 0, // A3 tier, resource and mirror integration
     "fbase", 1, 0, -1, 1,
-    "fconst", 2, 0, -1, 0,
     "forbital", 1, 0, -1, 0,
     "fmining", 1, 0, -1, 0,
     "ffreight", 2, 0, -1, 0,
     "fyard0", 1, 0, -1, 0,
     "fyard", 1, 0, -1, 0,
     "fdestroy", 2, 0, -1, 0,
-    "xfuconst", 1, 0, -1, 0,
-    "fconst2", 1, 0, -1, 0,
+    "fconst2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "fhwp", 1, 0, -1, 0,
     "fscout", 2, 0, -1, 0,
     "fdanube", 2, 0, -1, 0,
     "ffighter", 10, 0, -1, 0,
@@ -42,8 +44,9 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "ftrading", 1, 0, -1, 0,
     "fresear2", 1, 0, -1, 0,
     "fupgrade", 1, 0, -1, 0,
-    "fhwp", 1, 0, -1, 0, // Heavy defense after economy and required construction tech
+    "fhwp", 1, 0, -1, 0,
     "fmidas", 1, 0, -1, 0,
+    "xu3fed2", 1, 0, -1, 0, // A3 tier, resource and mirror integration
     "fjupiter", 1, 0, -1, 0,
     "fyard3", 1, 0, -1, 3,
     "fcruise1", 2, 0, -1, -3,
@@ -53,7 +56,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "forbital", 1, 3, 2, 0,
     "fmining", 1, 3, 2, 0,
     "fresear2", 1, 0, -1, 4,
-    "fconst", 1, 0, -1, 0,
     "ffrigate", 1, 0, -1, -4,
     "fnorway", 2, 0, -1, -4,
     "fspecial", 1, 0, -1, 0,
@@ -111,4 +113,10 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "fdefiant", 1, 0, -1, 0,
     "fvoyager", 1, 0, -1, 0,
     "xhfhero", 1, 0, -1, 0,
+    "fedpod3", 1, 0, -1, 0,
+    "fedpod4", 1, 0, -1, 0,
+    "mryfeda", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "mrc007", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "mryfedb", 1, 0, -1, 0, // A3 tier, resource and mirror integration
+    "mrc021", 1, 0, -1, 0, // A3 tier, resource and mirror integration
 };

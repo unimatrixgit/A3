@@ -1,163 +1,98 @@
-// Begin main properties
-
-
-
-
 race = "dominion"
-
-
-
-
-
-
-
-
-
-
-
 shipclass = "destroyer"
-enginesHitPercent = 5.0f
-lifeSupportHitPercent = 8.5f
-weaponsHitPercent = 5.0f
-shieldGeneratorHitPercent = 8.0f
-sensorsHitPercent = 8.0f
-crewHitPercent = 8.5f
-hullHitPercent = 57.0f
-
-// End main properties
-
-// Begin weapons
-
-
-
-
-
-
-
-
-// End weapons
-
-// Begin hardpoints
-
-enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
-lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
-weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29"
-shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
-sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
-hullTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
-criticalTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
-
-// End hardpoints
-
-// Begin sounds
-
-
-
-
-
-
-
-
-// End sounds
-
-// Begin ship names
-
-// End ship names
-
-// Begin misc properties
-
-weaponYellow = 1.0f
-weaponRed = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29"
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hulltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
+criticaltargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponyellow = 1.0f
+weaponred = 2.0f
 attack_path0 = "p2.pth"
 attack_path1 = "p3.pth"
-
-
-weldingRadius = 0.25
-physicsFile = "sdestphys.odf"
-trekPhysicsFile = "trek_sdestphys.odf"
-avoidanceClass = 3
+weldingradius = 0.25
+physicsfile = "sdestphys.odf"
+trekphysicsfile = "trek_sdestphys.odf"
+avoidanceclass = 3
 fireball = "xfirebsm"
 combat = 1
 alert = 1
 can_sandd = 1
-shipType = "D"
-shieldDelay = 3.0f
-rangeScan = 800.0f
-damagedScan = 125.0
-enginesRepairTime = 1.0f
-lifeSupportRepairTime = 0.1f
-weaponsRepairTime = 2.0f
-shieldGeneratorRepairTime = 2.0f
-sensorsRepairTime = 3.0f
-enginesCrewLoss = 5.0f
-lifeSupportCrewLoss = 3.0f
-weaponsCrewLoss = 2.0f
-shieldGeneratorCrewLoss = 2.0f
-sensorsCrewLoss = 2.0f
-lifeSupportLoss = 2.0f
-classLabel = "craft"
-aiName = "CraftProcess"
+shiptype = "D"
+shielddelay = 3.0f
+rangescan = 800.0f
+damagedscan = 125.0
+enginesrepairtime = 1.0f
+lifesupportrepairtime = 0.1f
+weaponsrepairtime = 2.0f
+shieldgeneratorrepairtime = 2.0f
+sensorsrepairtime = 3.0f
+enginescrewloss = 5.0f
+lifesupportcrewloss = 3.0f
+weaponscrewloss = 2.0f
+shieldgeneratorcrewloss = 2.0f
+sensorscrewloss = 2.0f
+lifesupportloss = 2.0f
+classlabel = "craft"
+ainame = "CraftProcess"
 ship = 1
 has_hitpoints = 1
 has_crew = 1
 transporter = 1
-SHOW_MOVEMENT_AUTONOMY = 1
+show_movement_autonomy = 1
 can_explore = 1
-
-// End misc properties
-
-
-
-
-// Xaramada resource costs: original filename.
-
-
-
-
-
-
-
-
-// Visual size: 150 percent of pre-patch scale.
-
-
-
-
-
-
-
-
-
-
-unitName = "The founders's jacht"
-
-
-
+unitname = "The founders's jacht"
 label = "The founders's jacht"
+basename = "ddestroy"
+ishero = 1
+possiblecraftnames = "The founders's jacht"
+
+
+maximumcrew = 180
+officercost = 8
+buildtime = 100
+scalesod = 4.125
+attackpower = 1.6
+intrinsicvalue = 1.5
+hotkeylabel = "HOTKEY_F8"
+eventselect = "XV_xhdhero_Select"
+eventacknowledge = "XV_xhdhero_Acknowledge"
+eventattack = "XV_xhdhero_Attack"
+eventstop = "XV_xhdhero_Stop"
+eventmove = "XV_xhdhero_Move"
+eventrepair = "XV_xhdhero_Repair"
+eventredalert = "XV_xhdhero_RedAlert"
+eventyellowalert = "XV_xhdhero_YellowAlert"
+eventgreenalert = "XV_xhdhero_GreenAlert"
+eventtransport = "XV_xhdhero_Transport"
+eventselfdestruct = "XV_xhdhero_SelfDestruct"
+eventdecommission = "XV_xhdhero_Decommission"
+maxhealth = 3000
+shieldrate = 15
+shieldprotection = 1.0
+shieldgeneratorhitpoints = 600
+engineshitpoints = 600
+weaponshitpoints = 600
+lifesupporthitpoints = 600
+sensorshitpoints = 600
+tooltip = "Hero Ship (The founders's jacht)"
+verbosetooltip = "A named command vessel serving the Dominion fleet. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Polaron Torpedo, Shield Disruptor, Jem'Hadar Warriors. Availability follows the selected technology tree."
+dilithiumcost = 515
+metalcost = 130
+latinumcost = 0
+biomattercost = 0
+crewcost = 155
 
 
 
-baseName = "ddestroy"
-
-isHero = 1
-
-possibleCraftNames = "The founders's jacht"
-
-
-
-
-
-maxSpecialEnergy = 1600
-
-specialEnergyRate = 16
-
-
-
-maximumCrew = 180
-
-officerCost = 8
-
-buildTime = 100
 
 
 
@@ -167,13 +102,10 @@ buildTime = 100
 
 
 
-ScaleSOD = 4.125
 
-attackPower = 1.6
 
-intrinsicValue = 1.5
 
-hotkeyLabel = "HOTKEY_F8"
+
 
 
 
@@ -186,74 +118,45 @@ hotkeyLabel = "HOTKEY_F8"
 
 
 weapon1 = "zjmphas"
+
 weaponHardpoints1 = "hp01" "hp06"
 
 weapon2 = "jmphot"
+
 weaponHardpoints2 = "hp01"
 
 weapon3 = "zdpulse"
+
 weaponHardpoints3 = "hp02" "hp03"
 
 weapon4 = "dgpolerond"
+
 weaponHardpoints4 = "hp01"
 
 weapon5 = "domgshieldd"
+
 weaponHardpoints5 = "hp01"
 
-eventSelect = "XV_xhdhero_Select"
-
-eventAcknowledge = "XV_xhdhero_Acknowledge"
-
-eventAttack = "XV_xhdhero_Attack"
-
-eventStop = "XV_xhdhero_Stop"
-
-eventMove = "XV_xhdhero_Move"
-
-eventRepair = "XV_xhdhero_Repair"
-
-eventRedAlert = "XV_xhdhero_RedAlert"
-
-eventYellowAlert = "XV_xhdhero_YellowAlert"
-
-eventGreenAlert = "XV_xhdhero_GreenAlert"
-
-eventTransport = "XV_xhdhero_Transport"
-
-eventSelfDestruct = "XV_xhdhero_SelfDestruct"
-
-eventDecommission = "XV_xhdhero_Decommission"
-
 weapon6 = "xdjboard"
+
 weaponHardpoints6 = "hp01"
 
-// Additional normal weapon banks; existing special slots retained.
 weapon7 = "zjmphas"
+
 weaponHardpoints7 = "hp02" "hp03"
+
 weapon8 = "zdpulse"
+
 weaponHardpoints8 = "hp01" "hp06"
 
-maxHealth = 3000
+weapon9 = "zjmphas"
 
-shieldRate = 15
+weaponHardpoints9 = "hp04"
 
-shieldProtection = 1.0
+weapon10 = "jmphot"
 
-shieldGeneratorHitPoints = 600
+weaponHardpoints10 = "hp05"
 
-enginesHitPoints = 600
+maxspecialenergy = 1600
 
-weaponsHitPoints = 600
-
-lifeSupportHitPoints = 600
-
-sensorsHitPoints = 600
-
-tooltip = "Hero Ship (The founders's jacht)"
-
-verboseTooltip = "A named command vessel serving the Dominion fleet. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Polaron Torpedo, Shield Disruptor, Jem'Hadar Warriors. Availability follows the selected technology tree."
-dilithiumcost = 515
-metalcost = 130
-latinumcost = 0
-biomattercost = 0
-crewCost = 155
+specialenergyrate = 16

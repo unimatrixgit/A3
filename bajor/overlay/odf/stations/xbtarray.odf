@@ -1,0 +1,338 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Amount of time required to build ship
+buildTime = 500.0
+
+//Number of officers required to build this ship
+officerCost = 50
+
+//Number of crew required to build ship & Starting crew
+crewCost = 5000
+
+//Number of maximum crew (only specified if different from crewCost)
+maximumCrew = 5000
+
+//The number of crew added to the capacity
+maxCrewGain = 30000
+
+//Dilithium Cost to build
+dilithiumCost = 9500
+
+//Metal cost to build
+metalCost = 16500
+
+//Number of Officers starbase gives by default
+officerGain = 0
+
+//Maximum number of officer quarters
+maximumUpgrades = 6
+
+//Max Shield Strength & Begining Shield Strength <21000
+maxHealth = 22000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 1460
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 200000
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 20000
+
+//Shield absorbs all damage until it's gone
+shieldProtection = 1.0
+
+//Possible Craft Names
+possibleCraftNames = 
+	"NX38-98647" "NX38-42443" "NX38-48689" "NX38-97945"
+	"NX38-52468" "NX38-12275" "NX38-80571" "NX38-12157"
+	"NX38-45262" "NX38-8675309" "NX38-76168" "NX38-94657"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Hardpoints to hit for various systems and other locations.
+
+
+
+
+
+
+
+
+
+// this does damage to the crew
+
+
+// this does damage to the hull
+
+
+//**********************************************************************
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+//Hardpoint location for building.
+buildHardpoint = "build"
+//**********************************************************************
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 1.0f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 2.00f
+
+
+//**********************************************************************
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.5f
+//**********************************************************************
+
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 1000
+enginesHitPoints = 1000
+weaponsHitPoints = 1000
+lifeSupportHitPoints = 1000
+sensorsHitPoints = 1000
+
+//**********************************************************************
+
+
+
+//**********************************************************************
+//SYSTEM DAMAGE DISTRIBUTION
+//The following section's values should add up to 100
+//Percent Chance out of 100 of engines being destroyed
+enginesHitPercent = 0.0f
+
+//Percent Chance out of 100 of life support being destroyed
+lifeSupportHitPercent = 10.5f
+
+//Percent Chance out of 100 of weapons being destroyed
+weaponsHitPercent = 10.0f
+
+//Percent Chance out of 100 of shields being destroyed
+shieldGeneratorHitPercent = 13.0f
+
+//Percent Chance out of 100 of sensors being destroyed
+sensorsHitPercent = 13.0f
+
+//Percent Chance out of 100 of hull being hit (crew dying)
+crewHitPercent = 13.5f
+
+//Percent Chance out of 100 of entire ship exploding
+hullHitPercent = 40.0f
+//**********************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "StarbaseSelect"
+eventAcknowledge = "StarbaseAcknowledge"
+eventAttack = "StarbaseAttack"
+eventDecommission = "StarbaseDecommission"
+
+
+//**********************************************************************
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "starbase"
+
+
+//**********************************************************************
+
+
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "starbase"
+
+
+//************************************************************
+// Brian additions for context sensitive menus
+combat = 1
+alert = 1
+transporter = 1
+builder_ship = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+rangeScan = 15000.0f
+shieldDelay = 0.01f
+
+baseName = "xbtarray"
+
+unitName = "Borg Tactical Battle Array"
+
+tooltip = "Borg Tactical Battle Array"
+
+verboseTooltip = "Heavy Borg command station with six beam banks, four torpedo banks, green holding/assimilation and transwarp. Builds Borg constructors and mining freighters."
+
+latinumCost = 0
+
+biomatterCost = 0
+
+hotkeyLabel = "HOTKEY_F12"
+
+weapon1 = "bb3phas"
+
+weaponHardpoints1 = "hp67"
+
+weapon2 = "bb3phas"
+
+weaponHardpoints2 = "hp66"
+
+weapon3 = "bb3phas"
+
+weaponHardpoints3 = "hp65"
+
+weapon4 = "bb3phas"
+
+weaponHardpoints4 = "hp64"
+
+weapon5 = "bb3phas"
+
+weaponHardpoints5 = "hp63"
+
+weapon6 = "bb3phas"
+
+weaponHardpoints6 = "hp62"
+
+weapon7 = "bb3phot"
+
+weaponHardpoints7 = "hp61"
+
+weapon8 = "bb3phot"
+
+weaponHardpoints8 = "hp60"
+
+weapon9 = "bb3phot"
+
+weaponHardpoints9 = "hp59"
+
+weapon10 = "bb3phot"
+
+weaponHardpoints10 = "hp58"
+
+weapon11 = "xbarrayhold"
+
+weaponHardpoints11 = "hp57"
+
+weapon12 = "xbarraywarp"
+
+weaponHardpoints12 = "hp56"
+
+enginesTargetHardpoints = "hp67" "hp66" "hp65" "hp64" "hp63" "hp62"
+
+lifeSupportTargetHardpoints = "hp67" "hp66" "hp65" "hp64" "hp63" "hp62"
+
+weaponsTargetHardpoints = "hp67" "hp66" "hp65" "hp64" "hp63" "hp62"
+
+shieldGeneratorTargetHardpoints = "hp67" "hp66" "hp65" "hp64" "hp63" "hp62"
+
+sensorsTargetHardpoints = "hp67" "hp66" "hp65" "hp64" "hp63" "hp62"
+
+hullTargetHardpoints = "hp67" "hp66" "hp65" "hp64" "hp63" "hp62"
+
+criticalTargetHardpoints = "hp67" "hp66" "hp65" "hp64" "hp63" "hp62"
+
+buildItem0 = "bconst"
+
+buildItem1 = "bconst2"
+
+buildItem2 = "xbuconst"
+
+buildItem3 = "xu3bor2"
+
+buildItem4 = "bfreight"

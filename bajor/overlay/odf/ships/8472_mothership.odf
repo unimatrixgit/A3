@@ -210,11 +210,11 @@ sensorstargethardpoints = "hp12" "hp13" "hp14" "hp15" "hp16"
 hulltargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" 
 
 criticaltargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp11"
-buildItem0 = "8472_active"
-buildItem1 = "8472_passive"
+
+
 
 // Break constructor/yard bootstrap cycle; Species 8472 constructor only.
-buildItem2 = "714const"
+
 
 // Equal visual span: vanilla Borg Nexus reference.
 ScaleSOD = 1.79515237
@@ -255,3 +255,11 @@ metalcost = 0
 latinumcost = 0
 biomattercost = 1810
 crewCost = 0
+
+buildItem0 = "8472_active"
+
+buildItem1 = "8472_passive"
+
+buildItem2 = "714const"
+
+buildItem3 = "xsuconst"

@@ -266,7 +266,7 @@ buildTime = 75
 
 
 
-baseName = "fds9"
+
 
 
 
@@ -396,7 +396,7 @@ northBuffer = 0
 
 southBuffer = 0
 
-classLabel = "starbase"
+
 
 latinumTransferRate = 15.0
 
@@ -406,7 +406,7 @@ maxCrewGain = 0
 
 officerGain = 0
 
-repairFacility = 0
+
 crewCost = 0
 maximumCrew = 0
 officerCost = 16
@@ -432,4 +432,22 @@ decommissionFacility = 0
 
 buildHardpoint = "hp01"
 
+
+
+
+
+classLabel = "starbase"
+
+repairFacility = 0
+
+baseName = "bv4_bjhwp"
+
 buildItem0 = "bjrepair"
+
+buildItem1 = "bjfreight"
+
+buildItem2 = "bjconst"
+
+buildItem3 = "xbjconst2"
+
+buildItem4 = "xbjuconst"

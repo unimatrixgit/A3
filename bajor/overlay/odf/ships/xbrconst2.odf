@@ -1,0 +1,256 @@
+// Begin main properties
+
+race = "breen"
+
+
+
+maxHealth = 150
+shieldGeneratorHitPoints = 30
+enginesHitPoints = 30
+weaponsHitPoints = 30
+lifeSupportHitPoints = 30
+sensorsHitPoints = 30
+shieldRate = 3.5
+shipclass = "construction"
+
+
+
+intrinsicValue = 0.40f
+enginesHitPercent = 5.0f
+lifeSupportHitPercent = 8.5f
+weaponsHitPercent = 5.0f
+shieldGeneratorHitPercent = 8.0f
+sensorsHitPercent = 8.0f
+crewHitPercent = 8.5f
+hullHitPercent = 57.0f
+
+// End main properties
+
+// Begin build menu
+
+
+
+
+
+
+
+
+// End build menu
+
+// Begin weapons
+
+
+
+
+// End weapons
+
+// Begin hardpoints
+
+enginesTargetHardpoints = "hp06"
+lifeSupportTargetHardpoints = "hp06" "hp08" "hp09" 
+weaponsTargetHardpoints = "hp06" "hp08" "hp09"
+shieldGeneratorTargetHardpoints = "hp06" "hp08" "hp09" 
+sensorsTargetHardpoints = "hp06" "hp08" "hp09" 
+hullTargetHardpoints = "hp08" "hp09" "hp10" "hp11" "hp13" 
+criticalTargetHardpoints = "hp06" "hp08" "hp09"
+
+// End hardpoints
+
+// Begin sounds
+
+eventSelect = "BreenSelect"
+eventAcknowledge = "BreenAcknowledge"
+eventAttack = "BreenAttack"
+eventStop = "BreenStop"
+eventMove = "BreenMove"
+eventRepair = "BreenRepair"
+
+// End sounds
+
+// Begin ship names
+possibleCraftNames = 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+	"unknown" "unknown" "unknown" "unknown" 
+
+// End ship names
+
+// Begin misc properties
+
+workerBeeName = "bbee"
+weldingBeamWidth = 5.0
+
+ScaleSOD = 1.5
+
+numberOfWorkerBees = 6
+weldingBeamSprite = "weldbeam"
+timeUntilTakeoff = 2.0
+timeWelding = 0.5
+timeUntilClosure = 2.0
+weldingRadius = 0.5
+classLabel = "constructionrig"
+physicsFile = "sconstphys.odf"
+keymapLabel = "construction_rig"
+builder_facility = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+shipType = "N"
+shieldDelay = 3.0f
+rangeScan = 800.0f
+damagedScan = 125.0
+enginesRepairTime = 1.0f
+lifeSupportRepairTime = 0.1f
+weaponsRepairTime = 2.0f
+shieldGeneratorRepairTime = 2.0f
+sensorsRepairTime = 3.0f
+enginesCrewLoss = 5.0f
+lifeSupportCrewLoss = 3.0f
+weaponsCrewLoss = 2.0f
+shieldGeneratorCrewLoss = 2.0f
+sensorsCrewLoss = 2.0f
+lifeSupportLoss = 2.0f
+aiName = "CraftProcess"
+avoidanceClass = 5
+fireball = "xfirebmd"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+can_explore = 1
+
+// End misc properties
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+officerCost = 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alert = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+combat = 0
+
+attackPower = 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+buildItem0 = "bryard3"
+
+buildItem1 = "mrybreen"
+
+unitName = "Breen Constructor II"
+
+tooltip = "Breen Constructor II"
+
+verboseTooltip = "Tier 2: defenses and hero, Omega and Mirror Universe yards."
+
+baseName = "xbrconst2"
+
+dilithiumCost = 200
+
+metalCost = 100
+
+latinumCost = 0
+
+biomatterCost = 0
+
+crewCost = 150
+
+maximumCrew = 150
+
+buildTime = 30
+
+hotkeyLabel = "HOTKEY_F2"
+
+canAttack = 0
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0

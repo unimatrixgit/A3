@@ -1,67 +1,134 @@
-#include "battle.odf"
-unitName = "Minefield Command Warbird"
+shielddelay = 1.0f
+rangescan = 800.0f
+
+
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 500
+lifesupporthitpoints = 500
+weaponshitpoints = 500
+shieldgeneratorhitpoints = 500
+sensorshitpoints = 500
+eventselect = "XV_xhrhero_Select"
+eventacknowledge = "XV_xhrhero_Acknowledge"
+eventattack = "XV_xhrhero_Attack"
+eventstop = "XV_xhrhero_Stop"
+eventmove = "XV_xhrhero_Move"
+eventrepair = "XV_xhrhero_Repair"
+canattackplanets = 1
+physicsfile = "scruise1phys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "Minefield Command Warbird"
 label = "Minefield Command Warbird"
-
-
 race = "romulan"
-baseName = "xhrearlybird"
-isHero = 1
-possibleCraftNames = "Minefield Command Warbird"
-maxHealth = 2000
-shieldRate = 20.0
-maxSpecialEnergy = 2500
-specialEnergyRate = 25
+basename = "xhrearlybird"
+ishero = 1
+possiblecraftnames = "Minefield Command Warbird"
+shieldrate = 20.0
+maximumcrew = 80
+officercost = 5
+buildtime = 60
+scalesod = 1
+trekphysicsfile = "scruise1phys.odf"
+hotkeylabel = ""
+eventredalert = "XV_xhrhero_RedAlert"
+eventyellowalert = "XV_xhrhero_YellowAlert"
+eventgreenalert = "XV_xhrhero_GreenAlert"
+eventtransport = "XV_xhrhero_Transport"
+eventselfdestruct = "XV_xhrhero_SelfDestruct"
+eventdecommission = "XV_xhrhero_Decommission"
+tooltip = "Hero Ship (Minefield Command Warbird)"
+verbosetooltip = "A named command vessel serving the Romulan fleet. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Heated Plasma. Availability follows the selected technology tree."
+latinumcost = 0
+biomattercost = 0
+crewcost = 80
+maxhealth = 2500
+dilithiumcost = 250
+metalcost = 100
 
 
 
 
 
-maximumCrew = 80
-officerCost = 5
-buildTime = 60
-ScaleSOD = 1
-physicsFile = "scruise1phys.odf"
-trekPhysicsFile = "scruise1phys.odf"
-hotkeyLabel = ""
-weapon1 = "rc1phas"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "xhye1"
+
 weaponHardpoints1 = "hp01"
-weapon2 = "rc1phot"
+
+weapon2 = "xhye2"
+
 weaponHardpoints2 = "hp02"
+
 weapon3 = "grcloak"
+
 weaponHardpoints3 = "hp03"
 
+weapon4 = "gselfdes"
+
 weaponHardpoints4 = "hp04"
-eventSelect = "XV_xhrhero_Select"
-eventAcknowledge = "XV_xhrhero_Acknowledge"
-eventAttack = "XV_xhrhero_Attack"
-eventStop = "XV_xhrhero_Stop"
-eventMove = "XV_xhrhero_Move"
-eventRepair = "XV_xhrhero_Repair"
-eventRedAlert = "XV_xhrhero_RedAlert"
-eventYellowAlert = "XV_xhrhero_YellowAlert"
-eventGreenAlert = "XV_xhrhero_GreenAlert"
-eventTransport = "XV_xhrhero_Transport"
-eventSelfDestruct = "XV_xhrhero_SelfDestruct"
-eventDecommission = "XV_xhrhero_Decommission"
 
 weapon5 = "ya0058"
 
 weaponHardpoints5 = "hp01"
 
+weapon6 = "xhye1"
 
+weaponHardpoints6 = "hp05"
 
+weapon7 = "xhye2"
 
+weaponHardpoints7 = "hp06"
 
+maxspecialenergy = 2500
 
-
-
-
-tooltip = "Hero Ship (Minefield Command Warbird)"
-
-verboseTooltip = "A named command vessel serving the Romulan fleet. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Heated Plasma. Availability follows the selected technology tree."
-weapon4 = "gselfdes"
-dilithiumcost = 195
-metalcost = 85
-latinumcost = 0
-biomattercost = 0
-crewCost = 80
+specialenergyrate = 25

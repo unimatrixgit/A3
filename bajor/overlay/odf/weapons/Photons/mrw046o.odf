@@ -1,0 +1,68 @@
+//This is the main photon ordinance file
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "photontorpedo"
+
+//The number of units which are subtracted from the Special Energy Reserve
+
+
+//The base amount of damage which the ordinance does with each hit
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a number)
+
+
+//The amount of variance applied to the damage (i.e. 10 + or - 2)
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a number)
+
+
+//The threshold which must be exceeded to cause crew casualties prior
+//to shield exhaustion
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a number)
+damageThreshold = 31
+
+//The multiplier by which any damage which exceeds the threshold is 
+//multiplied by to calculate the percentage of crew lost with that hit
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a multiplier)
+shieldCrewModifier = 0.2
+
+//The multiplier by which any damage which is applied to the hull is
+//multiplied by to calculate the percentage of crew lost with that hit
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a multiplier)
+hullCrewModifier = 0.1
+
+//Amount of time the ordinance will exists without hitting something
+lifeSpan = 4.0
+
+//How fast the shot moves
+shotSpeed = 300.0
+
+// This affects the turning radius/rate somewhat unknown.
+omegaTurn = 2.5
+
+//The amount of time that the missile obeys the limitations of omegaTurn
+//After that, it heads straight for the target
+seekTime = 0.25
+
+//The sprite which is used for this ordinance
+Sprite = "wphoton"
+
+// Time to play through the animation for the sprite in seconds
+spriteDuration = 0.5
+
+//this modifies the color of the ordinance (not currently working)
+shotColor = 227
+
+// Size of photon torpedo.
+radius = 8.0f
+
+lightColor = 0.0 1.0 1.0
+lightFalloffStart = 50.0
+lightFalloffRange = 5.0
+
+
+
+
+specialEnergyCost = 0
+
+damagebase = 87.03338232
+
+damagevariance = 0

@@ -161,7 +161,7 @@ SHOW_SW_AUTONOMY = 1
 
 
 
-buildItem0 = "xruconst"
+
 
 weapon1 = "xp3b"
 
@@ -416,7 +416,7 @@ northBuffer = 0
 
 southBuffer = 0
 
-classLabel = "starbase"
+
 
 latinumTransferRate = 15.0
 
@@ -426,7 +426,7 @@ maxCrewGain = 0
 
 officerGain = 0
 
-repairFacility = 0
+
 crewCost = 0
 maximumCrew = 0
 officerCost = 16
@@ -452,4 +452,21 @@ decommissionFacility = 0
 
 buildHardpoint = "hp200"
 
-buildItem1 = "rsrepair"
+
+
+
+
+
+classLabel = "starbase"
+
+repairFacility = 0
+
+buildItem0 = "rconst"
+
+buildItem1 = "rconst2"
+
+buildItem2 = "xruconst"
+
+buildItem3 = "rsrepair"
+
+buildItem4 = "rfreight"

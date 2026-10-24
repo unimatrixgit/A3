@@ -1,0 +1,31 @@
+//Programming Stuff DO NOT CHANGE
+classLabel = "minebm"
+
+//The number of units which are subtracted from the Special Energy Reserve
+specialEnergyCost = 0
+
+//Amount of dilithium removed from the moon per hit
+
+
+//Amount of time before the ordnance expires
+lifeSpan = 1.25
+
+//How fast the shot moves
+shotSpeed = 100
+
+// Weapon geometry file name
+shotGeometry = "wMineLatinum.sod"
+
+// The target range
+targetRange = 400.0f
+
+// Radius scale
+radiusScale = 2.5
+
+// Length scale
+lengthScale = 5
+
+// Ignore the shield
+ignoreShield = 1
+
+damageBase = 60

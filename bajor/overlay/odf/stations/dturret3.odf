@@ -349,7 +349,7 @@ northBuffer = 0
 
 southBuffer = 0
 
-classLabel = "starbase"
+
 
 latinumTransferRate = 15.0
 
@@ -359,7 +359,7 @@ maxCrewGain = 0
 
 officerGain = 0
 
-repairFacility = 0
+
 crewCost = 0
 maximumCrew = 0
 officerCost = 16
@@ -385,4 +385,20 @@ decommissionFacility = 0
 
 buildHardpoint = "hp01"
 
+
+
+
+
+classLabel = "starbase"
+
+repairFacility = 0
+
 buildItem0 = "dsrepair"
+
+buildItem1 = "dfreight"
+
+buildItem2 = "dconst"
+
+buildItem3 = "xdconst2"
+
+buildItem4 = "xduconst"

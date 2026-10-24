@@ -1,67 +1,156 @@
-#include "fgalaxyx.odf"
-unitName = "Cpt William T Riker"
-label = "Cpt William T Riker - USS Enterprise-D Galaxy-X"
+shielddelay = 1.0f
+rangescan = 800.0f
 
 
-baseName = "fgalaxyx"
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 3900
+lifesupporthitpoints = 3900
+weaponshitpoints = 3900
+shieldgeneratorhitpoints = 3900
+sensorshitpoints = 3900
+eventselect = "XV_fentdx_Select"
+eventacknowledge = "XV_fentdx_Acknowledge"
+eventattack = "XV_fentdx_Attack"
+eventstop = "XV_fentdx_Stop"
+eventmove = "XV_fentdx_Move"
+eventrepair = "XV_fentdx_Repair"
+canattackplanets = 1
+physicsfile = "fbattlephys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+trekphysicsfile = "fbattlephys.odf"
+unitname = "Cpt William T Riker"
 race = "federation"
-isHero = 1
-possibleCraftNames = "USS Enterprise NCC-1701-D - Riker"
-maxHealth = 15000
-shieldRate = 150
-maxSpecialEnergy = 15000
-specialEnergyRate = 150
+sanecrewlossmethod = 1
+maxhealth = 15000
+shieldrate = 150
+possiblecraftnames = "USS Enterprise NCC-1701-D - Riker"
 
 
 
 
 
-officerCost = 10
-buildTime = 120
-hotkeyLabel = ""
+
+
+
+
+
+enginestargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp17" "hp18"
+lifesupporttargethardpoints = "hp40"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp14" "hp15" "hp19" "hp20" "hp22" "hp23" "hp32" "hp33" "hp34" "hp35" "hp16" "hp21" "hp39" "hp08"
+shieldgeneratortargethardpoints = "hp30" "hp31" "hp37" "hp38"
+sensorstargethardpoints = "hp40"
+hulltargethardpoints = "hp07" "hp09" "hp25" "hp26" "hp28" "hp29"
+criticaltargethardpoints = "hp21"
+weaponyellow = 1.0f
+weaponred = 2.0f
+scalesod = 1.2
+show_sw_autonomy = 0
+officercost = 10
+buildtime = 150
+
+
+tooltip = "Hero Ship (Cpt William T Riker)"
+verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Cloak, Corbomite Reflector. Availability follows the selected technology tree."
+
+
+dilithiumcost = 1825
+metalcost = 780
+latinumcost = 0
+biomattercost = 0
+crewcost = 1525
+label = "Cpt William T Riker - USS Enterprise-D Galaxy-X"
+basename = "fgalaxyx"
+ishero = 1
+hotkeylabel = ""
+eventredalert = "XV_fentdx_RedAlert"
+eventyellowalert = "XV_fentdx_YellowAlert"
+eventgreenalert = "XV_fentdx_GreenAlert"
+eventtransport = "XV_fentdx_Transport"
+eventselfdestruct = "XV_fentdx_SelfDestruct"
+eventdecommission = "XV_fentdx_Decommission"
+
+
+
+
+
+
+
+
+
+
+
 weapon1 = "fgalaxyxphas"
+
 weaponHardpoints1 = "hp01"
+
 weapon2 = "fgalaxyxphot"
+
 weaponHardpoints2 = "hp16"
+
 weapon3 = "fgalaxyxphas"
+
 weaponHardpoints3 = "hp04"
+
 weapon4 = "fgalaxyxphot"
+
 weaponHardpoints4 = "hp08"
+
 weapon5 = "fgalxcannon"
+
 weaponHardpoints5 = "hp39"
 
+weapon6 = "gkcloak"
+
 weaponHardpoints6 = "hp07"
-eventSelect = "XV_fentdx_Select"
-eventAcknowledge = "XV_fentdx_Acknowledge"
-eventAttack = "XV_fentdx_Attack"
-eventStop = "XV_fentdx_Stop"
-eventMove = "XV_fentdx_Move"
-eventRepair = "XV_fentdx_Repair"
-eventRedAlert = "XV_fentdx_RedAlert"
-eventYellowAlert = "XV_fentdx_YellowAlert"
-eventGreenAlert = "XV_fentdx_GreenAlert"
-eventTransport = "XV_fentdx_Transport"
-eventSelfDestruct = "XV_fentdx_SelfDestruct"
-eventDecommission = "XV_fentdx_Decommission"
 
 weapon7 = "gcorbom"
 
 weaponHardpoints7 = "hp01"
 
+weapon8 = "fgalaxyxphas"
 
+weaponHardpoints8 = "hp02"
 
+weapon9 = "xhtphase"
 
+weaponHardpoints9 = "hp03"
 
+maxspecialenergy = 15000
 
-
-
-
-tooltip = "Hero Ship (Cpt William T Riker)"
-
-verboseTooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Cloak, Corbomite Reflector. Availability follows the selected technology tree."
-weapon6 = "gkcloak"
-dilithiumcost = 1825
-metalcost = 780
-latinumcost = 0
-biomattercost = 0
-crewCost = 1525
+specialenergyrate = 150

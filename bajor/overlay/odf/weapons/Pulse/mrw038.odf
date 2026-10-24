@@ -1,0 +1,36 @@
+#include "pulse.odf"
+
+//Name of the ODF file for the ordinance for this weapon
+
+
+//Display name for this weapon
+wpnName = "Disruptor"
+
+//Time Delay between shots
+shotDelay = 1.5f
+
+//Sound which is played when the weapon fires
+fireSound = "ppkdis.wav"
+
+Length = 20.0
+Sprite = "pphaser"
+
+restrictFireArc = 1
+
+//save up our fire
+saveFire = 1
+range = 592.0
+
+//max number of shots we can save
+maxShots = 1
+
+//the minimum time between saved shots
+minimumShotInterval = 0.2
+
+specialEnergyCost = 22
+
+Radius = 4.8
+
+damagebase = 232
+
+ordName = "mrw038o"

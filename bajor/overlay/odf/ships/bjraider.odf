@@ -38,17 +38,7 @@ shieldrate = 1.5
 //SHIP NAMES
 
 //Possible Craft Names
-possibleCraftNames = 	 
-	"USS Drake" "USS Guernica" "USS Redoubt" "USS Firestreak"
-	"USS Flynt" "USS Appomatox" "USS Serpentine" "USS Vanguard"
-	"USS Santa Maria" "USS Nina" "USS Pinta" "USS Paris"
-	"USS Othello" "USS Aberdeen" "USS Kingston" "USS Coltrane"
-	"USS Horatio" "USS Tokugawa" "USS Sparta" "USS Perth"
-	"USS Troy" "USS Carbides" "USS Calais" "USS Jade"
-	"USS Circe" "USS Skylark" "USS Arrowhead" "USS Ursula" 
-	"USS Vizier" "USS Dunkirk" "USS Casablanca" "USS Zurich"
-	"USS Crimea" "USS Nobunaga" "USS Fletcher" "USS Partisan" 
-	"USS Grace" "USS Vivian"
+
 	
 
 //**********************************************************************
@@ -106,7 +96,6 @@ race = "bajoran"
 
 
 
-baseName = "br3_bjraider"
 
 
 
@@ -117,18 +106,19 @@ baseName = "br3_bjraider"
 
 
 
-enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
-lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
-weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp13" "hp11"
-shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
 
 
 
-sensorstargethardpoints = "hp20" "hp20" "hp20" "hp20" "hp20"
 
-hulltargethardpoints = "hp06" "hp08" "hp10"  "hp12" "hp14" "hp16" "hp18" "hp20" "hp20" "hp20"
 
-criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp20" "hp20"
+
+
+
+
+
+
+
+
 
 
 maxspecialenergy = 0
@@ -136,7 +126,7 @@ maxspecialenergy = 0
 specialenergyrate = 0
 
 // Visual size: 150 percent of pre-patch scale.
-ScaleSOD = 1.5766845
+
 
 
 
@@ -175,8 +165,34 @@ damagedscan = 125.0
 
 weapon1 = "ffighterpulse"
 
-weaponHardpoints1 = "hp01" "hp02" "hp10" "hp11"
+
 
 weapon2 = "ffighterpulse"
 
-weaponHardpoints2 = "hp01" "hp02" "hp10" "hp11"
+
+
+
+
+ScaleSOD = 1.856015
+
+enginestargethardpoints = "hp06"
+
+lifesupporttargethardpoints = "hp01"
+
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+
+shieldgeneratortargethardpoints = "hp01"
+
+sensorstargethardpoints = "hp01"
+
+hulltargethardpoints = "hp06"
+
+criticaltargethardpoints = "hp01"
+
+weaponhardpoints1 = "hp01" "hp02"
+
+weaponhardpoints2 = "hp01" "hp02"
+
+baseName = "bv4_bjraider"
+
+possibleCraftNames = "BMS Kendra" "BMS Dahkur" "BMS Rakantha" "BMS Hathon" "BMS Jalanda" "BMS Dakor" "BMS Tozhat" "BMS Musilla" "BMS Hedrikspool" "BMS Dakhur" "BMS Ashalla" "BMS Dahkur Dawn" "BMS Kendra Spirit" "BMS Bajoran Dawn" "BMS Prophets Grace" "BMS First Light" "BMS Celestial Dawn" "BMS Valley Guardian" "BMS Militia Resolve" "BMS Freedom of Bajor" "BMS Dahkur Sentinel" "BMS Rakantha Shield" "BMS Kendra Vigil" "BMS Bajor Ascendant" "BMS Jalanda Star" "BMS Hathon Guard" "BMS Emissarys Hope" "BMS Liberation" "BMS Gratitude" "BMS New Dawn" "BMS Dahkur Resolve" "BMS Celestial Guardian"

@@ -1,0 +1,150 @@
+#include "const.odf"
+enginesTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+lifeSupportTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+shieldGeneratorTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+sensorsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+hullTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+
+
+
+
+
+
+
+
+
+
+
+maxHealth = 600
+
+shieldRate = 3.5
+
+
+
+
+
+officerCost = 3
+
+
+
+
+
+
+
+
+
+
+
+ScaleSOD = 1.5
+
+workerBeeName = "fbee"
+
+
+
+
+
+
+
+
+
+possibleCraftNames = "Compound Interest" "Capital Builder" "New Acquisition" "Expansion Clause"
+
+shieldGeneratorHitPoints = 120
+
+enginesHitPoints = 120
+
+weaponsHitPoints = 120
+
+lifeSupportHitPoints = 120
+
+sensorsHitPoints = 120
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+race = "borg"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+buildItem0 = "bbase"
+
+buildItem1 = "fbase"
+
+buildItem2 = "kbase"
+
+buildItem3 = "rbase"
+
+buildItem4 = "cbase"
+
+buildItem5 = "dbase"
+
+buildItem6 = "brbase"
+
+buildItem7 = "bjbase"
+
+buildItem8 = "xbgmerc"
+
+buildItem9 = "xbgserv"
+
+buildItem10 = "xbgresearch"
+
+buildItem11 = "xbgmetal2"
+
+buildItem12 = "xbgmetal3"
+
+unitName = "Borg Ferengi Universal Constructor III"
+
+tooltip = "Borg Ferengi Universal Constructor III"
+
+verboseTooltip = "Tier 3: starbases, special installations and Ferengi facilities."
+
+baseName = "xbgconst"
+
+dilithiumCost = 300
+
+metalCost = 200
+
+latinumCost = 0
+
+biomatterCost = 0
+
+crewCost = 150
+
+maximumCrew = 150
+
+buildTime = 40
+
+hotkeyLabel = "HOTKEY_F3"
+
+canAttack = 0
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0

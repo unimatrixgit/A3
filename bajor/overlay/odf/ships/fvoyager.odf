@@ -1,191 +1,155 @@
-#include "cruise3.odf"
-
-//Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Intrepid Class"
-
-//tooltips
+shielddelay = 1.0f
+rangescan = 800.0f
 
 
-//This ship is a hero.
-isHero = 1
-
-//Ship label provided because this is a unique ship.
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 0.25
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 3
+fireball = "xfirebsm"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "destroyer"
+attackpower = 0.25f
+intrinsicvalue = 0.25f
+engineshitpoints = 1475
+lifesupporthitpoints = 1475
+weaponshitpoints = 1475
+shieldgeneratorhitpoints = 1475
+sensorshitpoints = 1475
+eventselect = "XV_fvoyager_Select"
+eventacknowledge = "XV_fvoyager_Acknowledge"
+eventattack = "XV_fvoyager_Attack"
+eventstop = "XV_fvoyager_Stop"
+eventmove = "XV_fvoyager_Move"
+eventrepair = "XV_fvoyager_Repair"
+physicsfile = "fdestroyerphys.odf"
+trekphysicsfile = "fdestroyerphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "C"
+unitname = "Intrepid Class"
+ishero = 1
 label = "USS Voyager NCC-74656"
-
-//Race which can build ship & starting race of ship
 race = "federation"
-
-//Amount of time required to build ship
-
-//Number of officers required to build this ship
-
-//Number of crew required to build ship & Starting crew
-
-//Dilithium Cost to build
-
-//Metal Cost to build
-
-//Max Shield Strength & Begining Shield Strength <500
-maxHealth = 6000
-
-// Hitpoints
-
-shieldGeneratorHitPoints = 1475
-enginesHitPoints = 1475
-weaponsHitPoints = 1475
-lifeSupportHitPoints = 1475
-sensorsHitPoints = 1475
-
-//Rate at which shield recharges (points per second... we think)
-shieldRate = 60
-
-//**********************************************************************
-//SHIP NAMES
-
-//Possible Craft Names
-possibleCraftNames = 
-	"USS Voyager"
-
-//**********************************************************************
-//ART PARAMETERS & WEAPON NAMES
-
-// Phaser
-weapon1 = "fintrepidphas"
-weaponHardpoints1 = "hp01" "hp04" "hp06" "hp07" "hp09" "hp12" "hp14" "hp15" "hp17" "hp20" "hp21"
-
-// Phaser
-weapon2 = "fintrepidphas"
-weaponHardpoints2 = "hp02" "hp03" "hp05" "hp08" "hp10" "hp11" "hp13" "hp16" "hp18" "hp19" "hp22"
-
-// Phaser
-weapon3 = "fintrepidphas"
-weaponHardpoints3 = "hp27"
-
-// Photon Torpedo
-weapon4 = "ftype6"
-weaponHardpoints4 = "hp23" "hp25"
-
-// Photon Torpedo
-weapon5 = "ftype6"
-weaponHardpoints5 = "hp24" "hp26"
-
-//Self Destruct
-
-weaponHardpoints6 = "hp29"
-
-// Towing Beam
-weapon7 = "gtracbm"
-weaponhardpoints7 = "hp28"
-
-// Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
-lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
-weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32"
-shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
-sensorsTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
-hullTargetHardpoints = "hp06" "hp08" "hp10"  "hp12" "hp14" "hp16"
-criticalTargetHardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19"
-
-//**********************************************************************
-//AI system parameters
-//These parameters influence how the AI evaluates and compares craft.
-
-//An abstract number that represents how much extra strength must be
-//used to attack this craft due to its weapons. 
-// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
-attackPower = 0.25f
-
-//The normalized intrinsic value of a target.  High value craft make good
-//attack targets. (0.0=lowest value, 1.0=highest value)
-intrinsicValue = 0.25f
-
-//**********************************************************************
-//CREW STATUS MULTIPLIERS
-//The multiplier for the delay between shots for weapons while in yellow status
-weaponYellow = 1.0f
-
-//The multiplier for the delay between shots for weapons while in red status
-weaponRed = 2.0f
-//**********************************************************************
-
-//**********************************************************************
-//PHYSICS PARAMETERS
-
-// Scripted 3D Attack paths
+maxhealth = 6000
+shieldrate = 60
+possiblecraftnames = "USS Voyager"
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32"
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorstargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+hulltargethardpoints = "hp06" "hp08" "hp10" "hp12" "hp14" "hp16"
+criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19"
+weaponyellow = 1.0f
+weaponred = 2.0f
 attack_path0 = "p2.pth"
 attack_path1 = "p3.pth"
-
-//**********************************************************************
-//KEYMAP LABEL
-// Obsolete, use hotkeyLabel
-// keymapLabel = "fed_destroyer"
-hotkeyLabel = "HOTKEY_F6"
-
-
-// let's make this a bit bigger
-
-
-baseName = "fvoyager"
-
-
-
-//physics file for all other physics stuff
-physicsFile = "fdestroyerphys.odf"
-trekPhysicsFile = "fdestroyerphys.odf"
-
-
-
-// Xaramada resource costs: original matching class.
-
-
-
-
-
-officerCost = 8
-buildTime = 25
-
-
-eventSelect = "XV_fvoyager_Select"
-
-eventAcknowledge = "XV_fvoyager_Acknowledge"
-
-eventAttack = "XV_fvoyager_Attack"
-
-eventStop = "XV_fvoyager_Stop"
-
-eventMove = "XV_fvoyager_Move"
-
-eventRepair = "XV_fvoyager_Repair"
-
-eventRedAlert = "XV_fvoyager_RedAlert"
-
-eventYellowAlert = "XV_fvoyager_YellowAlert"
-
-eventGreenAlert = "XV_fvoyager_GreenAlert"
-
-eventTransport = "XV_fvoyager_Transport"
-
-eventSelfDestruct = "XV_fvoyager_SelfDestruct"
-
-eventDecommission = "XV_fvoyager_Decommission"
-
-// Visual size: 150 percent of pre-patch scale.
-ScaleSOD = 2.25
-
-
-
-
-
-
-
-
-
+hotkeylabel = "HOTKEY_F6"
+basename = "fvoyager"
+officercost = 8
+buildtime = 25
+eventredalert = "XV_fvoyager_RedAlert"
+eventyellowalert = "XV_fvoyager_YellowAlert"
+eventgreenalert = "XV_fvoyager_GreenAlert"
+eventtransport = "XV_fvoyager_Transport"
+eventselfdestruct = "XV_fvoyager_SelfDestruct"
+eventdecommission = "XV_fvoyager_Decommission"
+scalesod = 2.25
 tooltip = "Hero Ship (Intrepid Class)"
-
-verboseTooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Tractor Beam. Availability follows the selected technology tree."
-weapon6 = "gselfdes"
+verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Tractor Beam. Availability follows the selected technology tree."
 dilithiumcost = 1070
 metalcost = 270
 latinumcost = 0
 biomattercost = 0
-crewCost = 220
+crewcost = 220
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "fintrepidphas"
+
+weaponHardpoints1 = "hp01" "hp04" "hp06" "hp07" "hp09" "hp12" "hp14" "hp15" "hp17" "hp20" "hp21"
+
+weapon2 = "fintrepidphas"
+
+weaponHardpoints2 = "hp02" "hp03" "hp05" "hp08" "hp10" "hp11" "hp13" "hp16" "hp18" "hp19" "hp22"
+
+weapon3 = "fintrepidphas"
+
+weaponHardpoints3 = "hp27"
+
+weapon4 = "ftype6"
+
+weaponHardpoints4 = "hp23" "hp25"
+
+weapon5 = "ftype6"
+
+weaponHardpoints5 = "hp24" "hp26"
+
+weapon6 = "gselfdes"
+
+weaponHardpoints6 = "hp29"
+
+weapon7 = "gtracbm"
+
+weaponHardpoints7 = "hp28"
+
+weapon8 = "fintrepidphas"
+
+weaponHardpoints8 = "hp01"
+
+weapon9 = "xhtphase"
+
+weaponHardpoints9 = "hp02"
+
+maxspecialenergy = 1000
+
+specialenergyrate = 15

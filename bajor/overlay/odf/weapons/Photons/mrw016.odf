@@ -1,0 +1,33 @@
+#include "photon.odf"
+
+//Name of the ODF file for the ordinance for this weapon
+
+
+//Display name for this weapon
+wpnName = "Photon Torpedo"
+
+//Time Delay between shots
+shotDelay = 1.4f
+
+//Sound which is played when the weapon fires
+fireSound = "pofwea.wav"
+
+//save up our fire
+saveFire = 1
+
+//max number of shots we can save
+maxShots = 2
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "cannon"
+
+//the minimum time between saved shots
+minimumShotInterval = 0.25
+
+// Restrict the Fire Arc
+restrictFireArc = 1
+
+// Use this fire arc restriction
+fireArc = 45
+
+ordName = "mrw016o"

@@ -1,0 +1,961 @@
+{
+  "status": "applied; see constructor-mirror-patch.json for final menus and additions",
+  "generated": "2026-10-24T03:39:13.183168+02:00",
+  "commonStarbases": [
+    "bbase",
+    "fbase",
+    "kbase",
+    "rbase",
+    "cbase",
+    "dbase",
+    "brbase",
+    "bjbase"
+  ],
+  "factions": [
+    {
+      "faction": "federation",
+      "oldConstructors": [
+        "fconst",
+        "fconst2",
+        "f31const",
+        "xfuconst"
+      ],
+      "oldBuildings": [
+        "fbase",
+        "fregula",
+        "fyard0",
+        "fyard",
+        "fyard2",
+        "fmining",
+        "forbital",
+        "ftrading",
+        "fresear",
+        "fresear2",
+        "fupgrade",
+        "fds9",
+        "xflegacyyard",
+        "foutpost",
+        "fbase2",
+        "fsensor",
+        "fturret",
+        "fturret2",
+        "fhwp",
+        "fremmeler",
+        "fargus",
+        "fmidas",
+        "fjupiter",
+        "fsuperbl",
+        "fyard3",
+        "s31yard",
+        "bbase",
+        "kbase",
+        "rbase",
+        "cbase",
+        "dbase",
+        "brbase",
+        "bjbase",
+        "xfomegalab"
+      ],
+      "proposed": [
+        {
+          "tier": 1,
+          "constructor": "fconst",
+          "buildings": [
+            "fyard0",
+            "fyard",
+            "fyard2",
+            "fmining",
+            "forbital",
+            "ftrading",
+            "fresear",
+            "fresear2",
+            "fupgrade",
+            "fsensor",
+            "fremmeler",
+            "fargus"
+          ],
+          "existing": true
+        },
+        {
+          "tier": 2,
+          "constructor": "fconst2",
+          "buildings": [
+            "xflegacyyard",
+            "fturret",
+            "fturret2",
+            "fhwp",
+            "fyard3",
+            "s31yard",
+            "xfomegalab",
+            "mryfeda",
+            "mryfedb"
+          ],
+          "existing": true
+        },
+        {
+          "tier": 3,
+          "constructor": "xfuconst",
+          "buildings": [
+            "bbase",
+            "fbase",
+            "kbase",
+            "rbase",
+            "cbase",
+            "dbase",
+            "brbase",
+            "bjbase",
+            "fregula",
+            "fds9",
+            "foutpost",
+            "fbase2",
+            "fmidas"
+          ],
+          "existing": true
+        },
+        {
+          "tier": 3,
+          "constructor": "xu3fed2",
+          "buildings": [
+            "fjupiter",
+            "fsuperbl"
+          ],
+          "existing": false
+        }
+      ],
+      "omitted": []
+    },
+    {
+      "faction": "borg",
+      "oldConstructors": [
+        "bconst",
+        "bconst2",
+        "uconst",
+        "xbuconst"
+      ],
+      "oldBuildings": [
+        "bbase",
+        "byard",
+        "bsensor",
+        "bturret",
+        "bmining",
+        "bresear",
+        "bresear2",
+        "byard2",
+        "bturret2",
+        "bbase2",
+        "brecycle",
+        "bsuperbl",
+        "byard3",
+        "bhwp",
+        "bassturr",
+        "bupgrade",
+        "btechass",
+        "xbharvest",
+        "xbassimst",
+        "xbomegalab",
+        "hub",
+        "xbgmerc",
+        "fbase",
+        "kbase",
+        "rbase",
+        "cbase",
+        "dbase",
+        "brbase",
+        "bjbase",
+        "xbtarray",
+        "unicomplex"
+      ],
+      "proposed": [
+        {
+          "tier": 1,
+          "constructor": "bconst",
+          "buildings": [
+            "byard",
+            "bsensor",
+            "bmining",
+            "bresear",
+            "bresear2",
+            "byard2",
+            "bbase2",
+            "brecycle",
+            "bupgrade"
+          ],
+          "existing": true
+        },
+        {
+          "tier": 2,
+          "constructor": "bconst2",
+          "buildings": [
+            "bturret",
+            "bturret2",
+            "byard3",
+            "bhwp",
+            "xbomegalab",
+            "xbtarray",
+            "mryborg"
+          ],
+          "existing": true
+        },
+        {
+          "tier": 3,
+          "constructor": "xbuconst",
+          "buildings": [
+            "bbase",
+            "fbase",
+            "kbase",
+            "rbase",
+            "cbase",
+            "dbase",
+            "brbase",
+            "bjbase",
+            "bsuperbl",
+            "bassturr",
+            "btechass",
+            "xbharvest",
+            "xbassimst"
+          ],
+          "existing": true
+        },
+        {
+          "tier": 3,
+          "constructor": "xu3bor2",
+          "buildings": [
+            "hub",
+            "xbgmerc",
+            "unicomplex"
+          ],
+          "existing": false
+        }
+      ],
+      "omitted": []
+    },
+    {
+      "faction": "klingon",
+      "oldConstructors": [
+        "kconst",
+        "kconst2",
+        "xkuconst"
+      ],
+      "oldBuildings": [
+        "kbase",
+        "kyard",
+        "ksensor",
+        "kturret",
+        "kmining",
+        "kresear",
+        "kresear2",
+        "kyard2",
+        "kturret2",
+        "ksuperbl",
+        "kyard3",
+        "korbital",
+        "ktrading",
+        "kimpbase",
+        "kimpyard",
+        "kbase2",
+        "khwp",
+        "xfgmerc",
+        "bbase",
+        "fbase",
+        "rbase",
+        "cbase",
+        "dbase",
+        "brbase",
+        "bjbase",
+        "kupgrade",
+        "koutpost"
+      ],
+      "proposed": [
+        {
+          "tier": 1,
+          "constructor": "kconst",
+          "buildings": [
+            "kyard",
+            "ksensor",
+            "kmining",
+            "kresear",
+            "kresear2",
+            "kyard2",
+            "korbital",
+            "ktrading",
+            "kupgrade"
+          ],
+          "existing": true
+        },
+        {
+          "tier": 2,
+          "constructor": "kconst2",
+          "buildings": [
+            "kturret",
+            "kturret2",
+            "kyard3",
+            "kimpyard",
+            "khwp",
+            "mrykling"
+          ],
+          "existing": true
+        },
+        {
+          "tier": 3,
+          "constructor": "xkuconst",
+          "buildings": [
+            "bbase",
+            "fbase",
+            "kbase",
+            "rbase",
+            "cbase",
+            "dbase",
+            "brbase",
+            "bjbase",
+            "ksuperbl",
+            "kimpbase",
+            "kbase2",
+            "xfgmerc",
+            "koutpost"
+          ],
+          "existing": true
+        }
+      ],
+      "omitted": []
+    },
+    {
+      "faction": "romulan",
+      "oldConstructors": [
+        "rconst",
+        "rconst2",
+        "xruconst"
+      ],
+      "oldBuildings": [
+        "rbase",
+        "ryard",
+        "rsensor",
+        "rturret",
+        "rmining",
+        "rresear",
+        "rresear2",
+        "ryard2",
+        "rturret2",
+        "rsuperbl",
+        "ryard3",
+        "rorbital",
+        "rtrading",
+        "rbase2",
+        "rtsens",
+        "rhwp",
+        "xselaresearch",
+        "xfgmerc",
+        "bbase",
+        "fbase",
+        "kbase",
+        "cbase",
+        "dbase",
+        "brbase",
+        "bjbase",
+        "rupgrade"
+      ],
+      "proposed": [
+        {
+          "tier": 1,
+          "constructor": "rconst",
+          "buildings": [
+            "ryard",
+            "rsensor",
+            "rmining",
+            "rresear",
+            "rresear2",
+            "ryard2",
+            "rorbital",
+            "rtrading",
+            "rtsens",
+            "xselaresearch",
+            "rupgrade"
+          ],
+          "existing": true
+        },
+        {
+          "tier": 2,
+          "constructor": "rconst2",
+          "buildings": [
+            "rturret",
+            "rturret2",
+            "ryard3",
+            "rhwp",
+            "mryrom"
+          ],
+          "existing": true
+        },
+        {
+          "tier": 3,
+          "constructor": "xruconst",
+          "buildings": [
+            "bbase",
+            "fbase",
+            "kbase",
+            "rbase",
+            "cbase",
+            "dbase",
+            "brbase",
+            "bjbase",
+            "rsuperbl",
+            "rbase2",
+            "xfgmerc"
+          ],
+          "existing": true
+        }
+      ],
+      "omitted": []
+    },
+    {
+      "faction": "cardassian",
+      "oldConstructors": [
+        "cconst",
+        "domconst",
+        "xcuconst"
+      ],
+      "oldBuildings": [
+        "cbase",
+        "cyard",
+        "csensor",
+        "cturret",
+        "cmining",
+        "cresear",
+        "cresear2",
+        "cyard2",
+        "cturret2",
+        "cardassian_super_station",
+        "cyard3",
+        "corbital",
+        "ctrading",
+        "chwp",
+        "dombase",
+        "domyard",
+        "domabase",
+        "cobyard",
+        "cstation",
+        "bbase",
+        "fbase",
+        "kbase",
+        "rbase",
+        "dbase",
+        "brbase",
+        "bjbase",
+        "cupgrade",
+        "xfgmerc"
+      ],
+      "proposed": [
+        {
+          "tier": 1,
+          "constructor": "cconst",
+          "buildings": [
+            "cyard",
+            "csensor",
+            "cmining",
+            "cresear",
+            "cresear2",
+            "cyard2",
+            "cardassian_super_station",
+            "corbital",
+            "ctrading",
+            "domyard",
+            "cupgrade"
+          ],
+          "existing": true
+        },
+        {
+          "tier": 2,
+          "constructor": "xcconst2",
+          "buildings": [
+            "cturret",
+            "cturret2",
+            "cyard3",
+            "chwp",
+            "cobyard",
+            "mrycard"
+          ],
+          "existing": false
+        },
+        {
+          "tier": 3,
+          "constructor": "xcuconst",
+          "buildings": [
+            "bbase",
+            "fbase",
+            "kbase",
+            "rbase",
+            "cbase",
+            "dbase",
+            "brbase",
+            "bjbase",
+            "dombase",
+            "domabase",
+            "cstation",
+            "xfgmerc"
+          ],
+          "existing": true
+        }
+      ],
+      "omitted": []
+    },
+    {
+      "faction": "dominion",
+      "oldConstructors": [
+        "dconst",
+        "xcdconst",
+        "xcduniv",
+        "xduconst"
+      ],
+      "oldBuildings": [
+        "dbase",
+        "dyard",
+        "dsensor",
+        "dturret",
+        "dmining",
+        "dresear",
+        "dresear2",
+        "dyard2",
+        "dturret2",
+        "dsuperbl",
+        "dorbital",
+        "dtrading",
+        "dturret3",
+        "bbase",
+        "fbase",
+        "kbase",
+        "rbase",
+        "cbase",
+        "brbase",
+        "bjbase",
+        "dupgrade",
+        "zsuperbl",
+        "dyard3",
+        "xfgmerc"
+      ],
+      "proposed": [
+        {
+          "tier": 1,
+          "constructor": "dconst",
+          "buildings": [
+            "dyard",
+            "dsensor",
+            "dmining",
+            "dresear",
+            "dresear2",
+            "dyard2",
+            "dorbital",
+            "dtrading",
+            "dupgrade"
+          ],
+          "existing": true
+        },
+        {
+          "tier": 2,
+          "constructor": "xdconst2",
+          "buildings": [
+            "dturret",
+            "dturret2",
+            "dsuperbl",
+            "dturret3",
+            "dyard3",
+            "mrydom"
+          ],
+          "existing": false
+        },
+        {
+          "tier": 3,
+          "constructor": "xduconst",
+          "buildings": [
+            "bbase",
+            "fbase",
+            "kbase",
+            "rbase",
+            "cbase",
+            "dbase",
+            "brbase",
+            "bjbase",
+            "zsuperbl",
+            "xfgmerc"
+          ],
+          "existing": true
+        }
+      ],
+      "omitted": []
+    },
+    {
+      "faction": "breen",
+      "oldConstructors": [
+        "brconst",
+        "xbruconst"
+      ],
+      "oldBuildings": [
+        "brbase",
+        "bryard",
+        "brmining",
+        "brresear",
+        "brresear2",
+        "bryard3",
+        "bryard2",
+        "brorbital",
+        "bbase",
+        "fbase",
+        "kbase",
+        "rbase",
+        "cbase",
+        "dbase",
+        "bjbase",
+        "xfgmerc"
+      ],
+      "proposed": [
+        {
+          "tier": 1,
+          "constructor": "brconst",
+          "buildings": [
+            "bryard",
+            "brmining",
+            "brresear",
+            "brresear2",
+            "bryard2",
+            "brorbital"
+          ],
+          "existing": true
+        },
+        {
+          "tier": 2,
+          "constructor": "xbrconst2",
+          "buildings": [
+            "bryard3",
+            "mrybreen"
+          ],
+          "existing": false
+        },
+        {
+          "tier": 3,
+          "constructor": "xbruconst",
+          "buildings": [
+            "bbase",
+            "fbase",
+            "kbase",
+            "rbase",
+            "cbase",
+            "dbase",
+            "brbase",
+            "bjbase",
+            "xfgmerc"
+          ],
+          "existing": true
+        }
+      ],
+      "omitted": []
+    },
+    {
+      "faction": "bajoran",
+      "oldConstructors": [
+        "bjconst",
+        "xbjuconst"
+      ],
+      "oldBuildings": [
+        "bjbase",
+        "bjyard",
+        "bjyard2",
+        "bjmining",
+        "bjorbital",
+        "bjtrading",
+        "bjresear",
+        "bjresear2",
+        "bjupgrade",
+        "bjsensor",
+        "bjturret",
+        "bjturret2",
+        "bjhwp",
+        "bbase",
+        "fbase",
+        "kbase",
+        "rbase",
+        "cbase",
+        "dbase",
+        "brbase",
+        "bjsuperlab",
+        "bjyard3",
+        "xbjoutpost",
+        "xfgmerc"
+      ],
+      "proposed": [
+        {
+          "tier": 1,
+          "constructor": "bjconst",
+          "buildings": [
+            "bjyard",
+            "bjyard2",
+            "bjmining",
+            "bjorbital",
+            "bjtrading",
+            "bjresear",
+            "bjresear2",
+            "bjupgrade",
+            "bjsensor"
+          ],
+          "existing": true
+        },
+        {
+          "tier": 2,
+          "constructor": "xbjconst2",
+          "buildings": [
+            "bjturret",
+            "bjturret2",
+            "bjhwp",
+            "bjyard3",
+            "mrybajor"
+          ],
+          "existing": false
+        },
+        {
+          "tier": 3,
+          "constructor": "xbjuconst",
+          "buildings": [
+            "bbase",
+            "fbase",
+            "kbase",
+            "rbase",
+            "cbase",
+            "dbase",
+            "brbase",
+            "bjbase",
+            "bjsuperlab",
+            "xbjoutpost",
+            "xfgmerc"
+          ],
+          "existing": true
+        }
+      ],
+      "omitted": []
+    },
+    {
+      "faction": "species8472",
+      "oldConstructors": [
+        "714const",
+        "8472_passive",
+        "8472_defender"
+      ],
+      "oldBuildings": [
+        "714syard",
+        "714turr",
+        "8472_transmuter",
+        "8472_basicresearch",
+        "8472_advancedresearch",
+        "8472_shipupgraderesearch",
+        "8472_fluidicgate",
+        "xhs_yard3",
+        "8472_mothership",
+        "8472_mine",
+        "8472_sentinel"
+      ],
+      "proposed": [
+        {
+          "tier": 1,
+          "constructor": "8472_passive",
+          "buildings": [
+            "714syard",
+            "8472_transmuter",
+            "8472_basicresearch",
+            "8472_advancedresearch",
+            "8472_shipupgraderesearch",
+            "8472_fluidicgate",
+            "8472_mine"
+          ],
+          "existing": true
+        },
+        {
+          "tier": 2,
+          "constructor": "714const",
+          "buildings": [
+            "714turr",
+            "xhs_yard3",
+            "8472_sentinel",
+            "mry8472"
+          ],
+          "existing": true
+        },
+        {
+          "tier": 3,
+          "constructor": "xsuconst",
+          "buildings": [
+            "bbase",
+            "fbase",
+            "kbase",
+            "rbase",
+            "cbase",
+            "dbase",
+            "brbase",
+            "bjbase",
+            "8472_mothership"
+          ],
+          "existing": false
+        }
+      ],
+      "omitted": []
+    },
+    {
+      "faction": "ferengi",
+      "oldConstructors": [
+        "xfgconst"
+      ],
+      "oldBuildings": [
+        "bbase",
+        "fbase",
+        "kbase",
+        "rbase",
+        "cbase",
+        "dbase",
+        "brbase",
+        "bjbase",
+        "xfgmerc",
+        "xfgserv",
+        "xfgresearch",
+        "xfgmetal2"
+      ],
+      "proposed": [
+        {
+          "tier": 3,
+          "constructor": "xfgconst",
+          "buildings": [
+            "bbase",
+            "fbase",
+            "kbase",
+            "rbase",
+            "cbase",
+            "dbase",
+            "brbase",
+            "bjbase",
+            "xfgmerc",
+            "xfgserv",
+            "xfgresearch",
+            "xfgmetal2",
+            "mryfer"
+          ],
+          "existing": true
+        },
+        {
+          "tier": 3,
+          "constructor": "xu3fer2",
+          "buildings": [
+            "xfgmetal3"
+          ],
+          "existing": false
+        }
+      ],
+      "omitted": []
+    },
+    {
+      "faction": "borg_ferengi",
+      "oldConstructors": [
+        "xbgconst"
+      ],
+      "oldBuildings": [
+        "bbase",
+        "fbase",
+        "kbase",
+        "rbase",
+        "cbase",
+        "dbase",
+        "brbase",
+        "bjbase",
+        "xbgmerc",
+        "xbgserv",
+        "xbgresearch",
+        "xbgmetal2"
+      ],
+      "proposed": [
+        {
+          "tier": 3,
+          "constructor": "xbgconst",
+          "buildings": [
+            "bbase",
+            "fbase",
+            "kbase",
+            "rbase",
+            "cbase",
+            "dbase",
+            "brbase",
+            "bjbase",
+            "xbgmerc",
+            "xbgserv",
+            "xbgresearch",
+            "xbgmetal2",
+            "xbgmetal3"
+          ],
+          "existing": true
+        }
+      ],
+      "omitted": []
+    }
+  ],
+  "omittedPreviouslyBuildableBuildings": [],
+  "stationDefinitionsWithoutProductionReference": [
+    {
+      "unit": "bomega",
+      "name": "Omega Containment",
+      "faction": "borg",
+      "class": "sensor"
+    },
+    {
+      "unit": "borbital",
+      "name": "Orbital Extraction Facility",
+      "faction": "borg",
+      "class": "p_mining"
+    },
+    {
+      "unit": "bportal",
+      "name": "Transwarp Portal",
+      "faction": "borg",
+      "class": "sensor"
+    },
+    {
+      "unit": "cquantum",
+      "name": "Quantum Facility",
+      "faction": "cardassian",
+      "class": "starbase"
+    },
+    {
+      "unit": "ds9",
+      "name": "Deep Space 9",
+      "faction": "federation",
+      "class": "starbase"
+    },
+    {
+      "unit": "f6bsuper",
+      "name": "Transwarp Gate",
+      "faction": "borg",
+      "class": "sensor"
+    },
+    {
+      "unit": "fbasehq",
+      "name": "Starfleet Command",
+      "faction": "federation",
+      "class": "starbase"
+    },
+    {
+      "unit": "fbyard",
+      "name": "Bigstar-class Advanced Shipyard",
+      "faction": "federation",
+      "class": "starbase"
+    },
+    {
+      "unit": "fsensor_neutral_zone",
+      "name": "Long Range Sensor Array",
+      "faction": "federation",
+      "class": "sensor"
+    },
+    {
+      "unit": "kmarbase",
+      "name": "Starbase",
+      "faction": "klingon",
+      "class": "starbase"
+    },
+    {
+      "unit": "kprison",
+      "name": "Klingon Prison",
+      "faction": "klingon",
+      "class": "starbase"
+    }
+  ],
+  "appliedReport": "D:\\aramada\\reports\\constructor-mirror-patch.json"
+}

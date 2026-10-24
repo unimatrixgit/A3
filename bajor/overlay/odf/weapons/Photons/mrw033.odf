@@ -1,0 +1,22 @@
+#include "photon.odf"
+
+//Name of the ODF file for the ordinance for this weapon
+
+
+//Display name for this weapon
+wpnName = "Photon Torpedo"
+
+//Time Delay between shots
+shotDelay = 2.5f
+/
+//Sound which is played when the weapon fires
+fireSound = "pofwea2.wav"
+
+hitChance = 0.9
+
+// Restrict the Fire Arc
+restrictFireArc = 1
+
+// Use this fire arc restriction
+fireArc = 45
+ordName = "mrw033o"

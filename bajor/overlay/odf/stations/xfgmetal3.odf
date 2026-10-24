@@ -1,0 +1,238 @@
+#include "orbital.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+
+
+//Amount of time required to build facility
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+
+
+//Rate at which shield recharges (points per second... we think)
+
+
+// Speed multiplier for mining
+
+
+
+//Possible Craft Names
+possibleCraftNames = "Trenok-3" "Trenok-2" "Trenok-5" "Trenok-6"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Mining Beam
+
+
+
+// Hardpoints to hit for various systems and other locations.
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "OrbitalFacilitySelect"
+eventAcknowledge = "OrbitalFacilityAcknowledge"
+eventDecommission = "OrbitalFacilityDecommission"
+
+//**********************************************************************
+
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+officerCost = 2
+
+buildTime = 60
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+combat = 1
+
+alert = 1
+
+maxHealth = 10000
+
+shieldRate = 15.5
+
+shieldProtection = 1.0
+
+shieldGeneratorHitPoints = 1000
+
+enginesHitPoints = 0
+
+weaponsHitPoints = 1000
+
+lifeSupportHitPoints = 1000
+
+sensorsHitPoints = 1000
+
+crewCost = 100
+
+maximumCrew = 500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "xfgserv"
+
+race = "ferengi"
+
+
+
+
+
+
+
+ScaleSOD = 1.71787360
+
+
+
+
+
+
+
+biomatterCost = 0
+
+
+
+weapon1 = "gOrbitalBeam"
+weaponHardpoints1 = "hp26"
+
+hotkeyLabel = "HOTKEY_F12"
+enginesTargetHardpoints = "hp26" "hp27" "hp10" "hp11"
+lifeSupportTargetHardpoints = "hp26" "hp27" "hp10" "hp11"
+weaponsTargetHardpoints = "hp26" "hp27" "hp10" "hp11"
+shieldGeneratorTargetHardpoints = "hp26" "hp27" "hp10" "hp11"
+sensorsTargetHardpoints = "hp26" "hp27" "hp10" "hp11"
+hullTargetHardpoints = "hp26" "hp27" "hp10" "hp11"
+criticalTargetHardpoints = "hp26" "hp27" "hp10" "hp11"
+
+unitName = "Mercenary Ferengi Metal Orbital II"
+
+tooltip = "Ferengi Met Equipment II"
+
+verboseTooltip = "Tier-II resource equipment: twice the base Ferengi extraction rate. Research required."
+
+latinumCost = 500
+
+dilithiumCost = 0
+
+metalCost = 0
+
+miningMultiplier = 1.2

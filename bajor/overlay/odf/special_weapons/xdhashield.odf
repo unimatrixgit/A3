@@ -1,0 +1,61 @@
+//Name of the ODF file for the ordinance for this weapon
+ordName = "domshieldh"
+
+//Display name for this weapon
+wpnName = "Shield Disruptor"
+
+//tooltips
+tooltip = "Shield Disruptor"
+verboseTooltip = "Lowers enemy shields for a period of time."
+
+//Location of the button in the speed panel
+
+
+// location of the button in the popup palette
+
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 5
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+// Mark this as a special weapon.
+special = 1
+
+// 	HIT_EVERYONE = 0,
+//	HIT_ALLIES = 1,
+//	HIT_ENEMIES = 2
+hitCondition = 2
+
+// Time Delay between shots
+shotDelay = 1.0
+
+//Maxiumum number of targets
+maxTargets = 2
+
+// Range within which the weapon will fire.
+range = 800.0f
+
+//Sound which is played when the weapon fires
+fireSound = "swfshldf.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "areamissile"
+
+// need target
+needTarget = 0
+
+//this special weapon can be assimilated by the borg tech assimilator
+assimilatable = "dompod1"
+
+
+buttonSlot = 1
+
+popupSlot = 1
+
+hotkeyLabel = "HOTKEY_F1"

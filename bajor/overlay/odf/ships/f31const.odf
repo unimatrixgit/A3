@@ -4,7 +4,7 @@
 race = "federation"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Construction Ship"
+
 
 //tooltips
 
@@ -35,10 +35,10 @@ sensorsHitPoints = 258
 shieldRate = 4.2
 
 //Maximum Value of Special Energy
-maxSpecialEnergy = 1000
+
 
 //Rate at which special energy recharges (points per second... we think)
-specialEnergyRate = 10
+
 
 //**********************************************************************
 
@@ -49,13 +49,13 @@ warpSpeed = 270
 
 //**********************************************************************
 //Construction Parameters
-buildItem0 = "fbase"
-buildItem1 = "fsensor"
-buildItem2 = "fturret"
-buildItem3 = "fturret2"
-buildItem4 = "forbital"
-buildItem5 = "ftrading"
-buildItem6 = "s31yard"
+
+
+
+
+
+
+
 //**********************************************************************
 //Worker Bee Parameters
 
@@ -73,8 +73,8 @@ possibleCraftNames = "USS Rickmore" "USS Merchantman" "USS Vega"
 //ART PARAMETERS & WEAPON NAMES
 
 // Type VIII Phaser
-weapon1 = "fc08phas"
-weaponHardpoints1 = "hp20" "hp21"
+
+
 
 // Hardpoints to hit for various systems and other locations.
 
@@ -100,15 +100,15 @@ hotkeyLabel = "HOTKEY_F1"
 
 
 officerCost = 2
-buildTime = 17
 
-weapon2 = "xp8t"
 
-weaponHardpoints2 = "hp02"
 
-canAttack = 1
 
-combat = 1
+
+
+
+
+
 
 alert = 1
 
@@ -120,11 +120,61 @@ alert = 1
 
 
 
-tooltip = "Constructor (Construction Ship)"
 
-verboseTooltip = "Builds the structures listed in its construction menu. Starfleet engineering supports a disciplined, versatile fleet."
-dilithiumcost = 125
-metalcost = 25
+
+
+
+
+
+
+
+
+
+
+combat = 0
+
+attackPower = 0.0
+
+buildItem0 = "xflegacyyard"
+
+buildItem1 = "fturret"
+
+buildItem2 = "fturret2"
+
+buildItem3 = "fhwp"
+
+buildItem4 = "fyard3"
+
+buildItem5 = "s31yard"
+
+buildItem6 = "xfomegalab"
+
+buildItem7 = "mryfeda"
+
+buildItem8 = "mryfedb"
+
+unitname = "Federation Constructor II"
+
+tooltip = "Federation Constructor II"
+
+verbosetooltip = "Tier 2: defenses and hero, Omega and Mirror Universe yards."
+
+dilithiumcost = 200
+
+metalcost = 100
+
 latinumcost = 0
+
 biomattercost = 0
-crewCost = 100
+
+crewcost = 150
+
+buildtime = 30
+
+canattack = 0
+
+maxspecialenergy = 0
+
+specialenergyrate = 0
+
+baseName = "f31const"

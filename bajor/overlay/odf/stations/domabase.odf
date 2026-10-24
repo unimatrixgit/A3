@@ -152,7 +152,7 @@ SHOW_SW_AUTONOMY = 1
 
 
 
-crewCost = 276
+
 officerCost = 9
 buildTime = 86
 
@@ -182,24 +182,66 @@ southBuffer = 0
 
 footprintBuffer = 72
 
-dilithiumCost = 1650
 
-metalCost = 1650
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tooltip = "Starbase (Dominion Oupost)"
+
+verboseTooltip = "A fortified center for fleet operations and local production. Cardassian engineering sustains the Union through ordered, persistent operations."
+
+repairFacility = 0
+
+
+
+
+
+
+
+
+
+
+
+buildItem0 = "cconst"
+
+buildItem1 = "xcconst2"
+
+buildItem2 = "xcuconst"
+
+buildItem3 = "dconst"
+
+buildItem4 = "xdconst2"
+
+buildItem5 = "xduconst"
+
+buildItem6 = "xdofighter"
+
+buildItem7 = "xdofrigate"
+
+buildItem8 = "xdocargo"
+
+buildItem9 = "xdominer"
+
+buildItem10 = "xdjacht"
+
+dilithiumCost = 1500
+
+metalCost = 1500
 
 latinumCost = 0
 
 biomatterCost = 0
 
-buildItem0 = "xcuconst"
-buildItem1 = "xcdconst"
-buildItem2 = "xcduniv"
-buildItem3 = "xdofighter"
-buildItem4 = "xdofrigate"
-buildItem5 = "xdocargo"
-buildItem6 = "xdominer"
-
-buildItem7 = "xdjacht"
-
-tooltip = "Starbase (Dominion Oupost)"
-
-verboseTooltip = "A fortified center for fleet operations and local production. Cardassian engineering sustains the Union through ordered, persistent operations."
+crewCost = 150

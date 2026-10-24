@@ -1,0 +1,248 @@
+#include "const.odf"
+
+//Race which can build ship & starting race of ship
+
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 500
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 1000
+enginesHitPoints = 1000
+weaponsHitPoints = 1000
+lifeSupportHitPoints = 1000
+sensorsHitPoints = 1000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 5
+
+//**********************************************************************
+//Construction Parameters
+//**********************************************************************
+
+//**********************************************************************
+//Worker Bee Parameters
+
+// Name of the worker bee SOD.
+workerBeeName = "fbee"
+weldingBeamWidth = 5.0
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+	"USS Geary" "USS Wright" "USS Raphael" "USS Pei"
+	"USS Teich" "USS Farrar" "USS Wasserman" "USS Fleming" 
+	"USS Danan" "USS Davis" "USS Braverman"
+	"USS Muir" "USS Scarpa" "USS Gaudi" "USS Palladio"
+	"USS Hejduk" "USS Meyers" "USS Calatravo" "USS Eisenman"
+	"USS Sullivan" "USS Roddenberry" "USS Frost" "USS Elliot"
+	"USS Walden" "USS O'Toole" "USS Zechariah" "USS M.L.King, Jr."
+	"USS Walkin" "USS Lamia" "USS Campbell" "USS Calabria"                      
+	"USS Bradshaw" "USS Moore" "USS Webster" "USS Lang"
+	"USS Dutton" "USS Scott" "USS Malamed" "USS Moyes"
+	"USS Somers" "USS Graham" "USS Boehm" "USS Budington"
+	"USS Robinson" "USS Truffaut" "USS Godard" "USS Swiderek"
+	"USS Wolff" "USS McDermott" "USS Mysliwy" "USS Nadeau"
+	"USS Ryan" "USS Hastings" "USS Dunlop" "USS Knox"
+	"USS Greco" "USS Wyman" "USS Blumberg"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Weapon Name (ex. "gphaser" -> gphaser.odf)
+//weapon1 = "gphaser"
+//weaponHardpoints1 = "hp12" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
+
+// Towing Beam
+
+
+
+// Hardpoints to hit for various systems and other locations.
+
+enginesTargetHardpoints = "hp06"
+lifeSupportTargetHardpoints = "hp06" "hp08" "hp09" 
+weaponsTargetHardpoints = "hp06" "hp08" "hp09"
+shieldGeneratorTargetHardpoints = "hp06" "hp08" "hp09" 
+sensorsTargetHardpoints = "hp06" "hp08" "hp09" 
+hullTargetHardpoints = "hp08" "hp09" "hp10" "hp11" "hp13" 
+criticalTargetHardpoints = "hp06" "hp08" "hp09"
+
+//**********************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+officerCost = 2
+
+
+
+
+race = "federation"
+
+ScaleSOD = 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alert = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+combat = 0
+
+attackPower = 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+buildItem0 = "fjupiter"
+
+buildItem1 = "fsuperbl"
+
+unitName = "Federation Universal Constructor III - Specialist"
+
+tooltip = "Federation Universal Constructor III - Specialist"
+
+verboseTooltip = "Tier 3: starbases, special installations and Ferengi facilities."
+
+baseName = "xu3fed2"
+
+dilithiumCost = 300
+
+metalCost = 200
+
+latinumCost = 0
+
+biomatterCost = 0
+
+crewCost = 150
+
+maximumCrew = 150
+
+buildTime = 40
+
+hotkeyLabel = "HOTKEY_F3"
+
+canAttack = 0
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0

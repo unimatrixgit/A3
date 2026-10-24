@@ -1,71 +1,138 @@
-#include "cbattle2.odf"
-unitName = "Gul Dukat - Keldon"
+shielddelay = 1.0f
+rangescan = 800.0f
 
 
-baseName = "cbattle2"
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 797
+lifesupporthitpoints = 797
+weaponshitpoints = 797
+shieldgeneratorhitpoints = 797
+sensorshitpoints = 797
+eventselect = "XV_xhchero_Select"
+eventacknowledge = "XV_xhchero_Acknowledge"
+eventattack = "XV_xhchero_Attack"
+eventstop = "XV_xhchero_Stop"
+eventmove = "XV_xhchero_Move"
+eventrepair = "XV_xhchero_Repair"
+canattackplanets = 1
+physicsfile = "sbattphys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+unitname = "Gul Dukat - Keldon"
 race = "cardassian"
-isHero = 1
-label = "Gul Dukat - Keldon"
-maxHealth = 3985
+sanecrewlossmethod = 1
+maxhealth = 3985
+shieldrate = 15.94
+combatspeed = 87
+impulsespeed = 78
+warpspeed = 920
+possiblecraftnames = "Ludon" "Keniangires" "Briank" "Olius" "Lie" "Moniphagnis" "Alant" "Dudawinas"
 
 
 
 
 
-
-
-
-// Xaramada resource costs: calculated from original comparable.
-
-
-
-
-
-officerCost = 16
-buildTime = 33
-
-
-eventSelect = "XV_xhchero_Select"
-
-eventAcknowledge = "XV_xhchero_Acknowledge"
-
-eventAttack = "XV_xhchero_Attack"
-
-eventStop = "XV_xhchero_Stop"
-
-eventMove = "XV_xhchero_Move"
-
-eventRepair = "XV_xhchero_Repair"
-
-eventRedAlert = "XV_xhchero_RedAlert"
-
-eventYellowAlert = "XV_xhchero_YellowAlert"
-
-eventGreenAlert = "XV_xhchero_GreenAlert"
-
-eventTransport = "XV_xhchero_Transport"
-
-eventSelfDestruct = "XV_xhchero_SelfDestruct"
-
-eventDecommission = "XV_xhchero_Decommission"
-
-
-
-
-
-
-
-
-
-
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+weaponyellow = 1.0f
+weaponred = 2.0f
+hotkeylabel = "HOTKEY_F4"
+officercost = 16
+buildtime = 60
 
 
 tooltip = "Hero Ship (Gul Dukat - Keldon)"
+verbosetooltip = "A named command vessel serving the Cardassian fleet. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Plasma Bank Overload. Availability follows the selected technology tree."
 
-verboseTooltip = "A named command vessel serving the Cardassian fleet. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Plasma Bank Overload. Availability follows the selected technology tree."
-weapon3 = "gselfdes"
 dilithiumcost = 530
 metalcost = 230
 latinumcost = 0
 biomattercost = 0
-crewCost = 820
+crewcost = 820
+basename = "cbattle2"
+ishero = 1
+label = "Gul Dukat - Keldon"
+eventredalert = "XV_xhchero_RedAlert"
+eventyellowalert = "XV_xhchero_YellowAlert"
+eventgreenalert = "XV_xhchero_GreenAlert"
+eventtransport = "XV_xhchero_Transport"
+eventselfdestruct = "XV_xhchero_SelfDestruct"
+eventdecommission = "XV_xhchero_Decommission"
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "cc09phas"
+
+weaponHardpoints1 = "hp07" "hp08" "hp09" "hp10"
+
+weapon2 = "cc06plas"
+
+weaponHardpoints2 = "hp11"
+
+weapon3 = "gselfdes"
+
+weaponHardpoints3 = "hp12"
+
+weapon4 = "gplasmabank"
+
+weaponHardpoints4 = "hp01"
+
+weapon5 = "cc09phas"
+
+weaponHardpoints5 = "hp02"
+
+weapon6 = "cc06plas"
+
+weaponHardpoints6 = "hp03"
+
+maxspecialenergy = 1600
+
+specialenergyrate = 16

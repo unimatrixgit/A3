@@ -1,0 +1,125 @@
+shielddelay = 1.0f
+rangescan = 800.0f
+maxspecialenergy = 15000
+specialenergyrate = 150
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+shipclass = "battleship"
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+engineshitpoints = 3900
+lifesupporthitpoints = 3900
+weaponshitpoints = 3900
+shieldgeneratorhitpoints = 3900
+sensorshitpoints = 3900
+eventselect = "XV_fentdx_Select"
+eventacknowledge = "XV_fentdx_Acknowledge"
+eventattack = "XV_fentdx_Attack"
+eventstop = "XV_fentdx_Stop"
+eventmove = "XV_fentdx_Move"
+eventrepair = "XV_fentdx_Repair"
+canattackplanets = 1
+physicsfile = "fbattlephys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+trekphysicsfile = "fbattlephys.odf"
+unitname = "Mirror Galaxy Class X-Refit"
+race = "federation"
+sanecrewlossmethod = 1
+maxhealth = 11250
+shieldrate = 150
+possiblecraftnames = "Mirror Galaxy Class X-Refit"
+weapon1 = "mrw026"
+weaponhardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05" "hp14" "hp15" "hp19" "hp20" "hp22" "hp23" "hp32" "hp33" "hp34" "hp35"
+weapon2 = "mrw027"
+weaponhardpoints2 = "hp16" "hp21"
+weaponhardpoints3 = "hp17" "hp18"
+weaponhardpoints4 = "hp07"
+weapon5 = "mrw028"
+weaponhardpoints5 = "hp39"
+weapon6 = "mrw027"
+weaponhardpoints6 = "hp08"
+enginestargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp17" "hp18"
+lifesupporttargethardpoints = "hp40"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp14" "hp15" "hp19" "hp20" "hp22" "hp23" "hp32" "hp33" "hp34" "hp35" "hp16" "hp21" "hp39" "hp08"
+shieldgeneratortargethardpoints = "hp30" "hp31" "hp37" "hp38"
+sensorstargethardpoints = "hp40"
+hulltargethardpoints = "hp07" "hp09" "hp25" "hp26" "hp28" "hp29"
+criticaltargethardpoints = "hp21"
+weaponyellow = 1.0f
+weaponred = 2.0f
+scalesod = 1.5
+show_sw_autonomy = 0
+officercost = 10
+
+weapon7 = "fentdxtoente"
+weaponhardpoints7 = "hp01"
+tooltip = "Mirror Galaxy Class X-Refit"
+
+weapon4 = "gkcloak"
+weapon3 = "gselfdes"
+
+
+
+
+crewcost = 1445
+ishero = 0
+label = "USS Enterprise NCC-1701-D"
+eventredalert = "XV_fentdx_RedAlert"
+eventyellowalert = "XV_fentdx_YellowAlert"
+eventgreenalert = "XV_fentdx_GreenAlert"
+eventtransport = "XV_fentdx_Transport"
+eventselfdestruct = "XV_fentdx_SelfDestruct"
+eventdecommission = "XV_fentdx_Decommission"
+weapon8 = "mrw026"
+weaponhardpoints8 = "hp06"
+weapon9 = "mrw005"
+weaponhardpoints9 = "hp09"
+
+
+baseName = "mrc014"
+
+dilithiumCost = 2050
+
+metalCost = 881
+
+latinumCost = 0
+
+biomatterCost = 0
+
+buildTime = 150
+
+hotkeyLabel = "HOTKEY_F8"
+
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

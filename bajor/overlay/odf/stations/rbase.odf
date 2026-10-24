@@ -180,7 +180,7 @@ SHOW_SW_AUTONOMY = 1
 
 
 
-crewCost = 150
+
 officerCost = 10
 buildTime = 100
 
@@ -215,13 +215,13 @@ sensorstargethardpoints = "hp30" "hp34" "hp35" "hp36" "hp37" "hp39"
 hulltargethardpoints = "hp30" "hp34" "hp35" "hp36" "hp37" "hp39"
 
 criticaltargethardpoints = "hp30" "hp34" "hp35" "hp36" "hp37" "hp39"
-buildItem0 = "rconst"
-buildItem1 = "rfreight"
-buildItem2 = "rcargo"
-buildItem3 = "rsrepair"
-buildItem4 = "rconst2"
-buildItem5 = "rdestroy"
-buildItem6 = "xruconst"
+
+
+
+
+
+
+
 
 maximumCrew = 2000
 
@@ -248,14 +248,40 @@ southBuffer = 0
 
 footprintBuffer = 72
 
-dilithiumCost = 2250
 
-metalCost = 2250
+
+
+
+
+
+
+
+tooltip = "Starbase (Starbase)"
+
+verboseTooltip = "A fortified center for fleet operations and local production. Romulan engineering favors calculated strikes and control of the battlefield."
+
+repairFacility = 0
+
+buildItem0 = "rconst"
+
+buildItem1 = "rconst2"
+
+buildItem2 = "xruconst"
+
+buildItem3 = "rfreight"
+
+buildItem4 = "rcargo"
+
+buildItem5 = "rsrepair"
+
+buildItem6 = "rdestroy"
+
+dilithiumCost = 1500
+
+metalCost = 1500
 
 latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Starbase (Starbase)"
-
-verboseTooltip = "A fortified center for fleet operations and local production. Romulan engineering favors calculated strikes and control of the battlefield."
+crewCost = 150
