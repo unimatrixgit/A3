@@ -68,50 +68,6 @@ sensorsHitPoints = 120
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-buildItem0 = "xfgmetal3"
-
-unitName = "Ferengi Universal Constructor III - Specialist"
-
-tooltip = "Ferengi Universal Constructor III - Specialist"
-
-verboseTooltip = "Tier 3: starbases, special installations and Ferengi facilities."
-
 baseName = "xu3fer2"
 
 dilithiumCost = 0
@@ -135,3 +91,43 @@ canAttack = 0
 maxSpecialEnergy = 0
 
 specialEnergyRate = 0
+
+
+
+
+
+
+
+unitName = "Ferengi Temporal Constructor"
+
+tooltip = "Ferengi Temporal Constructor"
+
+verboseTooltip = "Ferengi mercenary subrace constructor. Builds all primary faction starbases, Ferengi yards, Commerce Institute, Mirror Universe yard and researched metal orbitals."
+
+buildItem0 = "bbase"
+
+buildItem1 = "fbase"
+
+buildItem2 = "kbase"
+
+buildItem3 = "rbase"
+
+buildItem4 = "cbase"
+
+buildItem5 = "dbase"
+
+buildItem6 = "brbase"
+
+buildItem7 = "bjbase"
+
+buildItem8 = "xfgmerc"
+
+buildItem9 = "xfgserv"
+
+buildItem10 = "xfgresearch"
+
+buildItem11 = "xfgmetal2"
+
+buildItem12 = "mryfer"
+
+buildItem13 = "xfgmetal3"

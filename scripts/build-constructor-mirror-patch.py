@@ -152,7 +152,7 @@ for group in plan['factions']:
   if race=='breen'and n=='xbrconst2':donor='brconst'
   if race=='bajoran'and n=='xbjconst2':donor='bjconst'
   if tier==3 and n not in props:donor=canonical[race].get(3,group['oldConstructors'][-1]);donor=donor if donor in props else group['oldConstructors'][-1]
-  d=resolve(donor);t=menu(text(donor),buildings);title=race.replace('_',' ').title()+' '+{1:'Constructor I',2:'Constructor II',3:'Universal Constructor III'}[tier]+(' - Specialist'if re.fullmatch('xu3.*',n)else'')
+  d=resolve(donor);t=menu(text(donor),buildings);title=('Species 8472'if race=='species8472'else race.replace('_',' ').title())+' '+{1:'Basic Constructor',2:'Advanced Constructor',3:'Temporal Constructor'}[tier]+(' (Specialist)'if re.fullmatch('xu3.*',n)else'')
   cost={1:(125,25,150,20),2:(200,100,150,30),3:(300,200,150,40)}[tier];dil,met,crew,time=cost
   values={'unitName':q(title),'tooltip':q(title),'verboseTooltip':q('Tier '+str(tier)+': '+{1:'mining, regular yards, research and upgrade facilities.',2:'defenses and hero, Omega and Mirror Universe yards.',3:'starbases, special installations and Ferengi facilities.'}[tier]),'baseName':q(d.get('basename',donor)),'dilithiumCost':dil,'metalCost':met,'latinumCost':0,'biomatterCost':0,'crewCost':crew,'maximumCrew':max(crew,int(num(d.get('maximumcrew',crew)))),'buildTime':time,'hotkeyLabel':q('HOTKEY_F'+str(tier)),'canAttack':0,'maxSpecialEnergy':0,'specialEnergyRate':0}
   if race in ['ferengi','borg_ferengi']:
@@ -163,7 +163,7 @@ for group in plan['factions']:
   constructors.append({'unit':n,'race':race,'tier':tier,'buildings':buildings,'costs':values});newmenus[n]=buildings;tierof[n]=tier;raceof[n]=race
  for legacy in group['oldConstructors']:
   if legacy in newmenus:continue
-  level=2 if legacy in ['f31const','domconst','8472_defender']else 1 if legacy=='xcdconst'else 3
+  level=1 if race=='breen'else 2 if legacy in ['f31const','domconst','8472_defender']else 1 if legacy=='xcdconst'else 3
   target=canonical[race][level];aliases[legacy]=target
   # Preserve the native legacy model and its animation/sound properties.
   d=resolve(legacy);oldmodel=d.get('basename',legacy);binary['SOD/'+legacy+'.sod']=binary.get('SOD/'+oldmodel+'.sod')or(root/'SOD'/(oldmodel+'.sod')).read_bytes();t=menu(stripbanks(text(legacy)),newmenus[target]);td=resolve(target)

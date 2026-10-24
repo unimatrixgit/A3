@@ -1,3 +1,5 @@
+Current naming and single-constructor exceptions: see [current menus](constructor-current-menus.md). Historical tier details below predate the Breen/Ferengi consolidation.
+
 # Applied constructor, mirror yard and resource patch
 
 Applied only to D:/armadaIII. Source files mirrored to D:/aramada/bajor/overlay. File validation passed; gameplay has not been tested.

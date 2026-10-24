@@ -584,6 +584,7 @@
       "faction": "breen",
       "oldConstructors": [
         "brconst",
+        "xbrconst2",
         "xbruconst"
       ],
       "oldBuildings": [
@@ -609,42 +610,22 @@
           "tier": 1,
           "constructor": "brconst",
           "buildings": [
+            "brbase",
             "bryard",
             "brmining",
+            "brorbital",
             "brresear",
             "brresear2",
             "bryard2",
-            "brorbital"
-          ],
-          "existing": true
-        },
-        {
-          "tier": 2,
-          "constructor": "xbrconst2",
-          "buildings": [
             "bryard3",
-            "mrybreen"
-          ],
-          "existing": false
-        },
-        {
-          "tier": 3,
-          "constructor": "xbruconst",
-          "buildings": [
-            "bbase",
-            "fbase",
-            "kbase",
-            "rbase",
-            "cbase",
-            "dbase",
-            "brbase",
-            "bjbase",
+            "mrybreen",
             "xfgmerc"
           ],
           "existing": true
         }
       ],
-      "omitted": []
+      "omitted": [],
+      "foreignStarbasesVia": "Ferengi Temporal Constructor"
     },
     {
       "faction": "bajoran",
@@ -796,7 +777,8 @@
     {
       "faction": "ferengi",
       "oldConstructors": [
-        "xfgconst"
+        "xfgconst",
+        "xu3fer2"
       ],
       "oldBuildings": [
         "bbase",
@@ -829,20 +811,14 @@
             "xfgserv",
             "xfgresearch",
             "xfgmetal2",
-            "mryfer"
-          ],
-          "existing": true
-        },
-        {
-          "tier": 3,
-          "constructor": "xu3fer2",
-          "buildings": [
+            "mryfer",
             "xfgmetal3"
           ],
-          "existing": false
+          "existing": true
         }
       ],
-      "omitted": []
+      "omitted": [],
+      "subrace": true
     },
     {
       "faction": "borg_ferengi",
@@ -885,7 +861,8 @@
           "existing": true
         }
       ],
-      "omitted": []
+      "omitted": [],
+      "subrace": true
     }
   ],
   "omittedPreviouslyBuildableBuildings": [],

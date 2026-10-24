@@ -73,6 +73,49 @@ sensorsHitPoints = 120
 
 
 
+
+
+
+
+
+
+
+baseName = "xfgconst"
+
+dilithiumCost = 0
+
+metalCost = 0
+
+latinumCost = 500
+
+biomatterCost = 0
+
+crewCost = 150
+
+maximumCrew = 150
+
+buildTime = 40
+
+hotkeyLabel = "HOTKEY_F3"
+
+canAttack = 0
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0
+
+
+
+
+
+
+
+unitName = "Ferengi Temporal Constructor"
+
+tooltip = "Ferengi Temporal Constructor"
+
+verboseTooltip = "Ferengi mercenary subrace constructor. Builds all primary faction starbases, Ferengi yards, Commerce Institute, Mirror Universe yard and researched metal orbitals."
+
 buildItem0 = "bbase"
 
 buildItem1 = "fbase"
@@ -99,32 +142,4 @@ buildItem11 = "xfgmetal2"
 
 buildItem12 = "mryfer"
 
-unitName = "Ferengi Universal Constructor III"
-
-tooltip = "Ferengi Universal Constructor III"
-
-verboseTooltip = "Tier 3: starbases, special installations and Ferengi facilities."
-
-baseName = "xfgconst"
-
-dilithiumCost = 0
-
-metalCost = 0
-
-latinumCost = 500
-
-biomatterCost = 0
-
-crewCost = 150
-
-maximumCrew = 150
-
-buildTime = 40
-
-hotkeyLabel = "HOTKEY_F3"
-
-canAttack = 0
-
-maxSpecialEnergy = 0
-
-specialEnergyRate = 0
+buildItem13 = "xfgmetal3"
