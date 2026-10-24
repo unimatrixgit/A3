@@ -37,7 +37,9 @@ for n,d in changed.items():
   check(bool(re.search(r'(?mi)^b_'+re.escape(n)+r'[ \t]+',sprite))or bool(re.search(r'(?mi)^b_'+re.escape(mn)+r'[ \t]+',sprite)),n+' missing build button')
 for c in report['constructors']:
  n=c['unit'];d=changed[n];items=[v.lower()for k,v in d.items()if re.fullmatch('builditem[0-9]+',k)]
- check(len(items)<=13,n+' constructor menu overflow');check(set(items)==set(c['buildings']),n+' menu mismatch');check(not any(re.fullmatch('weapon[0-9]+',k)for k in d),n+' constructor has weapons')
+ check(len(items)<=13,n+' constructor menu overflow');check(set(items)==set(c['buildings']),n+' menu mismatch')
+ for k,w in d.items():
+  if re.fullmatch('weapon[0-9]+',k):check(d.get('race')=='borg'and w.lower()=='xabtrans5',n+' constructor has a combat weapon')
  check(d.get('basename')==n,n+' icon/model alias not unique')
 for row in old['heroes']:
  d=changed[row['hero']];check(not any(re.fullmatch('mra[0-9]+',v,re.I)for k,v in d.items()if re.fullmatch('weapon[0-9]+',k)),row['hero']+' still summons')

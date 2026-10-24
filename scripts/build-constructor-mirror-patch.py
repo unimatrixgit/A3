@@ -262,6 +262,12 @@ for n in ['xfgdil3','xfglat3','xfgmetal3','xbgdil3','xbgmetal3','xsbcol1','xsbco
  d=resolve(n);old=d.get('basename',n);binary['SOD/'+n+'.sod']=binary.get('SOD/'+old+'.sod')or(root/'SOD'/(old+'.sod')).read_bytes();save(n,put(text(n),'baseName',q(n)))
 for n in ['8472_heromother','kbekta']:
  if not re.search(r'(?mi)^b_'+re.escape(n)+r'[ \t]+',sprite):icon(n,native_model(n));icons.append(n)
+# Transwarp is a non-combat utility and must survive constructor disarmament.
+for rel in list(pending):
+ if not rel.lower().endswith('.odf'):continue
+ n=Path(rel).stem.lower();d=resolve(n)
+ if d.get('race')=='borg'and d.get('classlabel','').lower()=='constructionrig':
+  save(n,update(text(n),{'weapon1':q('xabtrans5'),'weaponHardpoints1':q('hp10'if n=='xbgconst'else'hp01'),'maxSpecialEnergy':1000,'specialEnergyRate':10}))
 pending['Sprites/gui_global.spr']=sprite
 for rel,t in pending.items():
  out=stage/rel;out.parent.mkdir(parents=True,exist_ok=True);out.write_bytes(t.replace('\r','').replace('\n','\r\n').encode('latin1'))

@@ -4,7 +4,7 @@ Applied only to D:/armadaIII. Source files mirrored to D:/aramada/bajor/overlay.
 
 ## Constructor roles
 
-T1: mining, standard yards, research and upgrade facilities. T2: defenses, hero/Omega and Mirror Universe yards. T3: all eight main faction starbases, faction special structures and Ferengi facilities. Extra T3 variants preserve overflow. Legacy constructor files remain compatible aliases. Constructors carry no weapons.
+T1: mining, standard yards, research and upgrade facilities. T2: defenses, hero/Omega and Mirror Universe yards. T3: all eight main faction starbases, faction special structures and Ferengi facilities. Extra T3 variants preserve overflow. Legacy constructor files remain compatible aliases. Constructors carry no combat weapons. All Borg constructors retain Transwarp Drive, 1,000 special energy and10 energy recharge per second.
 
 Standard constructor prices: T1 125 dilithium/25 metal, T2 200/100, T3 300/200. Starting crew150; build times20/30/40 seconds. Ferengi constructors cost500 latinum; Borg-priced Ferengi constructors cost300 dilithium/200 metal. Species8472 constructors use biomatter. Existing hulls, model proportions and worker-bee systems are preserved.
 
