@@ -6,7 +6,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     // Economy first; every producer and research dependency precedes its unit.
     "cbase", 1, 0, -1, 0,
     "cconst", 2, 0, -1, 0,
-    "xcconst2", 1, 0, -1, 0,
     "cmining", 1, 0, -1, 0,
     "cfreight", 1, 0, -1, 0,
     "cfreight", 2, 0, -1, 0,
@@ -14,6 +13,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "cyard", 1, 0, -1, 0,
     "cdestroy", 1, 0, -1, 0,
     "cdestroy", 2, 0, -1, 0,
+    "xcconst2", 1, 0, -1, 0,
     "cresear", 1, 0, -1, 0,
     "cyard2", 1, 0, -1, 0,
     "xcuconst", 1, 0, -1, 0,

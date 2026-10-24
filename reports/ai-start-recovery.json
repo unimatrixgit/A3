@@ -4,69 +4,60 @@
     "federation": [
       "fconst",
       "fconst",
-      "fconst2",
-      "fbase"
+      "fbase",
+      "fscout"
     ],
     "borg": [
       "bconst",
       "bconst",
-      "bconst2",
-      "bbase"
+      "bbase",
+      "bscout"
     ],
     "klingon": [
       "kconst",
       "kconst",
-      "kconst2",
-      "kbase"
+      "kbase",
+      "kscout"
     ],
     "romulan": [
       "rconst",
       "rconst",
-      "rconst2",
-      "rbase"
+      "rbase",
+      "rscout"
     ],
     "cardassian": [
       "cconst",
       "cconst",
-      "xcconst2",
-      "cbase"
+      "cbase",
+      "cscout"
     ],
     "dominion": [
       "dconst",
       "dconst",
-      "xdconst2",
       "dbase",
-      "brconst"
+      "dscout"
     ],
     "breen": [
       "brconst",
       "brconst",
-      "brbase"
+      "brbase",
+      "brscout"
     ],
     "bajoran": [
       "bjconst",
       "bjconst",
-      "xbjconst2",
       "bjbase",
-      "xfgconst"
+      "bjscout"
     ],
     "species8472": [
+      "8472_mothership",
+      "8472_active",
       "8472_passive",
-      "8472_passive",
-      "714const",
-      "8472_mothership"
+      "8472_scout"
     ]
   },
+  "keepPreviousStarts": true,
   "files": [
-    "odf/other/fed.odf",
-    "odf/other/borg.odf",
-    "odf/other/kling.odf",
-    "odf/other/rom.odf",
-    "odf/other/card.odf",
-    "odf/other/dominion.odf",
-    "odf/other/breen.odf",
-    "odf/other/bajoran.odf",
-    "odf/other/species8472.odf",
     "techtree/tech1.tt",
     "techtree/earlytech.tt",
     "techtree/fulltech.tt",
@@ -140,20 +131,6 @@
           0
         ],
         [
-          "xbjconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
-          "xfgconst",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "bjmining",
           1,
           0,
@@ -203,6 +180,13 @@
           0
         ],
         [
+          "xbjconst2",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
           "bjresear",
           1,
           0,
@@ -224,14 +208,21 @@
           0
         ],
         [
-          "bjhwp",
+          "xfgmerc",
           1,
           0,
           -1,
           0
         ],
         [
-          "bjscout",
+          "xfgconst",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "bjhwp",
           1,
           0,
           -1,
@@ -244,11 +235,13 @@
         "bjorbital",
         "bjyard",
         "bjinterceptor",
+        "xbjconst2",
         "bjresear",
         "bjyard2",
         "xbjuconst",
+        "xfgmerc",
+        "xfgconst",
         "bjhwp",
-        "bjscout",
         "bjturret",
         "bjcolony",
         "bjassault",
@@ -294,7 +287,6 @@
         "bjpod4",
         "mrybajor",
         "mrc002",
-        "xfgmerc",
         "xfgserv",
         "xfgresearch",
         "xfgpdil",
@@ -336,20 +328,6 @@
           0
         ],
         [
-          "xbjconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
-          "xfgconst",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "bjmining",
           1,
           0,
@@ -399,6 +377,13 @@
           0
         ],
         [
+          "xbjconst2",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
           "bjresear",
           1,
           0,
@@ -420,7 +405,14 @@
           0
         ],
         [
-          "bjhwp",
+          "xfgmerc",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "xfgconst",
           1,
           0,
           -1,
@@ -428,7 +420,7 @@
         ],
         [
           "bjhwp",
-          2,
+          1,
           0,
           -1,
           0
@@ -440,11 +432,13 @@
         "bjorbital",
         "bjyard",
         "bjinterceptor",
+        "xbjconst2",
         "bjresear",
         "bjyard2",
         "xbjuconst",
+        "xfgmerc",
+        "xfgconst",
         "bjhwp",
-        "bjscout",
         "bjturret",
         "bjcolony",
         "bjassault",
@@ -490,7 +484,6 @@
         "bjpod4",
         "mrybajor",
         "mrc002",
-        "xfgmerc",
         "xfgserv",
         "xfgresearch",
         "xfgpdil",
@@ -532,20 +525,6 @@
           0
         ],
         [
-          "xbjconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
-          "xfgconst",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "bjmining",
           1,
           0,
@@ -595,6 +574,13 @@
           0
         ],
         [
+          "xbjconst2",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
           "bjresear",
           1,
           0,
@@ -616,16 +602,23 @@
           0
         ],
         [
-          "bjhwp",
+          "xfgmerc",
           1,
           0,
           -1,
           0
         ],
         [
-          "bjorbital",
+          "xfgconst",
           1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "bjhwp",
           1,
+          0,
           -1,
           0
         ]
@@ -636,9 +629,12 @@
         "bjorbital",
         "bjyard",
         "bjinterceptor",
+        "xbjconst2",
         "bjresear",
         "bjyard2",
         "xbjuconst",
+        "xfgmerc",
+        "xfgconst",
         "bjhwp",
         "bjpod2",
         "bjpod5",
@@ -685,7 +681,6 @@
         "bjpod4",
         "mrybajor",
         "mrc002",
-        "xfgmerc",
         "xfgserv",
         "xfgresearch",
         "xfgpdil",
@@ -727,20 +722,6 @@
           0
         ],
         [
-          "xbjconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
-          "xfgconst",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "bjmining",
           1,
           0,
@@ -790,6 +771,13 @@
           0
         ],
         [
+          "xbjconst2",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
           "bjresear",
           1,
           0,
@@ -811,14 +799,21 @@
           0
         ],
         [
-          "bjhwp",
+          "xfgmerc",
           1,
           0,
           -1,
           0
         ],
         [
-          "bjscout",
+          "xfgconst",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "bjhwp",
           1,
           0,
           -1,
@@ -831,11 +826,13 @@
         "bjorbital",
         "bjyard",
         "bjinterceptor",
+        "xbjconst2",
         "bjresear",
         "bjyard2",
         "xbjuconst",
+        "xfgmerc",
+        "xfgconst",
         "bjhwp",
-        "bjscout",
         "bjraider",
         "bjtransport",
         "bjturret",
@@ -881,7 +878,6 @@
         "bjpod4",
         "mrybajor",
         "mrc002",
-        "xfgmerc",
         "xfgserv",
         "xfgresearch",
         "xfgpdil",
@@ -923,20 +919,6 @@
           0
         ],
         [
-          "xbjconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
-          "xfgconst",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "bjmining",
           1,
           0,
@@ -986,6 +968,13 @@
           0
         ],
         [
+          "xbjconst2",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
           "bjresear",
           1,
           0,
@@ -1007,14 +996,21 @@
           0
         ],
         [
-          "bjhwp",
+          "xfgmerc",
           1,
           0,
           -1,
           0
         ],
         [
-          "bjscout",
+          "xfgconst",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "bjhwp",
           1,
           0,
           -1,
@@ -1027,11 +1023,13 @@
         "bjorbital",
         "bjyard",
         "bjinterceptor",
+        "xbjconst2",
         "bjresear",
         "bjyard2",
         "xbjuconst",
+        "xfgmerc",
+        "xfgconst",
         "bjhwp",
-        "bjscout",
         "bjturret",
         "bjcolony",
         "bjassault",
@@ -1077,7 +1075,6 @@
         "bjpod4",
         "mrybajor",
         "mrc002",
-        "xfgmerc",
         "xfgserv",
         "xfgresearch",
         "xfgpdil",
@@ -1114,13 +1111,6 @@
         [
           "bconst",
           2,
-          0,
-          -1,
-          0
-        ],
-        [
-          "bconst2",
-          1,
           0,
           -1,
           0
@@ -1175,6 +1165,13 @@
           0
         ],
         [
+          "bconst2",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
           "bresear",
           1,
           0,
@@ -1223,6 +1220,7 @@
         "bbase2",
         "byard",
         "bdestroy",
+        "bconst2",
         "bresear",
         "byard2",
         "xbuconst",
@@ -1310,13 +1308,6 @@
           0
         ],
         [
-          "bconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "bmining",
           1,
           0,
@@ -1361,6 +1352,13 @@
         [
           "bdestroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "bconst2",
+          1,
           0,
           -1,
           0
@@ -1414,6 +1412,7 @@
         "bbase2",
         "byard",
         "bdestroy",
+        "bconst2",
         "bresear",
         "byard2",
         "xbuconst",
@@ -1501,13 +1500,6 @@
           0
         ],
         [
-          "bconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "bmining",
           1,
           0,
@@ -1552,6 +1544,13 @@
         [
           "bdestroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "bconst2",
+          1,
           0,
           -1,
           0
@@ -1605,6 +1604,7 @@
         "bbase2",
         "byard",
         "bdestroy",
+        "bconst2",
         "bresear",
         "byard2",
         "xbuconst",
@@ -1692,13 +1692,6 @@
           0
         ],
         [
-          "bconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "bmining",
           1,
           0,
@@ -1743,6 +1736,13 @@
         [
           "bdestroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "bconst2",
+          1,
           0,
           -1,
           0
@@ -1796,6 +1796,7 @@
         "bbase2",
         "byard",
         "bdestroy",
+        "bconst2",
         "bresear",
         "byard2",
         "xbuconst",
@@ -1883,13 +1884,6 @@
           0
         ],
         [
-          "bconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "bmining",
           1,
           0,
@@ -1934,6 +1928,13 @@
         [
           "bdestroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "bconst2",
+          1,
           0,
           -1,
           0
@@ -1987,6 +1988,7 @@
         "bbase2",
         "byard",
         "bdestroy",
+        "bconst2",
         "bresear",
         "byard2",
         "xbuconst",
@@ -2180,7 +2182,6 @@
         "brdestroy",
         "brresear",
         "bryard2",
-        "brscout",
         "brcolony",
         "brcruise1",
         "brresear2",
@@ -2342,7 +2343,6 @@
         "brdestroy",
         "brresear",
         "bryard2",
-        "brscout",
         "brcolony",
         "brcruise1",
         "brresear2",
@@ -2504,7 +2504,6 @@
         "brdestroy",
         "brresear",
         "bryard2",
-        "brscout",
         "brcolony",
         "brcruise1",
         "brresear2",
@@ -2666,7 +2665,6 @@
         "brdestroy",
         "brresear",
         "bryard2",
-        "brscout",
         "brcolony",
         "brcruise1",
         "brresear2",
@@ -2828,7 +2826,6 @@
         "brdestroy",
         "brresear",
         "bryard2",
-        "brscout",
         "brcolony",
         "brcruise1",
         "brresear2",
@@ -2884,13 +2881,6 @@
           0
         ],
         [
-          "xcconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "cmining",
           1,
           0,
@@ -2935,6 +2925,13 @@
         [
           "cdestroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "xcconst2",
+          1,
           0,
           -1,
           0
@@ -2988,6 +2985,7 @@
         "corbital",
         "cyard",
         "cdestroy",
+        "xcconst2",
         "cresear",
         "cyard2",
         "xcuconst",
@@ -3080,13 +3078,6 @@
           0
         ],
         [
-          "xcconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "cmining",
           1,
           0,
@@ -3131,6 +3122,13 @@
         [
           "cdestroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "xcconst2",
+          1,
           0,
           -1,
           0
@@ -3184,6 +3182,7 @@
         "corbital",
         "cyard",
         "cdestroy",
+        "xcconst2",
         "cresear",
         "cyard2",
         "xcuconst",
@@ -3276,13 +3275,6 @@
           0
         ],
         [
-          "xcconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "cmining",
           1,
           0,
@@ -3327,6 +3319,13 @@
         [
           "cdestroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "xcconst2",
+          1,
           0,
           -1,
           0
@@ -3380,6 +3379,7 @@
         "corbital",
         "cyard",
         "cdestroy",
+        "xcconst2",
         "cresear",
         "cyard2",
         "xcuconst",
@@ -3472,13 +3472,6 @@
           0
         ],
         [
-          "xcconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "cmining",
           1,
           0,
@@ -3523,6 +3516,13 @@
         [
           "cdestroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "xcconst2",
+          1,
           0,
           -1,
           0
@@ -3576,6 +3576,7 @@
         "corbital",
         "cyard",
         "cdestroy",
+        "xcconst2",
         "cresear",
         "cyard2",
         "xcuconst",
@@ -3668,13 +3669,6 @@
           0
         ],
         [
-          "xcconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "cmining",
           1,
           0,
@@ -3719,6 +3713,13 @@
         [
           "cdestroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "xcconst2",
+          1,
           0,
           -1,
           0
@@ -3772,6 +3773,7 @@
         "corbital",
         "cyard",
         "cdestroy",
+        "xcconst2",
         "cresear",
         "cyard2",
         "xcuconst",
@@ -3864,20 +3866,6 @@
           0
         ],
         [
-          "xdconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
-          "brconst",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "dmining",
           1,
           0,
@@ -3927,6 +3915,20 @@
           0
         ],
         [
+          "xdconst2",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "brconst",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
           "dresear",
           1,
           0,
@@ -3968,11 +3970,12 @@
         "dorbital",
         "dyard",
         "ddestroy",
+        "xdconst2",
+        "brconst",
         "dresear",
         "dyard2",
         "xduconst",
         "dturret3",
-        "dscout",
         "dcruise1",
         "dcruise2",
         "dcolony",
@@ -4056,20 +4059,6 @@
           0
         ],
         [
-          "xdconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
-          "brconst",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "dmining",
           1,
           0,
@@ -4119,6 +4108,20 @@
           0
         ],
         [
+          "xdconst2",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "brconst",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
           "dresear",
           1,
           0,
@@ -4160,11 +4163,12 @@
         "dorbital",
         "dyard",
         "ddestroy",
+        "xdconst2",
+        "brconst",
         "dresear",
         "dyard2",
         "xduconst",
         "dturret3",
-        "dscout",
         "dcruise1",
         "dcruise2",
         "dcolony",
@@ -4248,20 +4252,6 @@
           0
         ],
         [
-          "xdconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
-          "brconst",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "dmining",
           1,
           0,
@@ -4311,6 +4301,20 @@
           0
         ],
         [
+          "xdconst2",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "brconst",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
           "dresear",
           1,
           0,
@@ -4352,11 +4356,12 @@
         "dorbital",
         "dyard",
         "ddestroy",
+        "xdconst2",
+        "brconst",
         "dresear",
         "dyard2",
         "xduconst",
         "dturret3",
-        "dscout",
         "dcruise1",
         "dcruise2",
         "dcolony",
@@ -4440,20 +4445,6 @@
           0
         ],
         [
-          "xdconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
-          "brconst",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "dmining",
           1,
           0,
@@ -4503,6 +4494,20 @@
           0
         ],
         [
+          "xdconst2",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "brconst",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
           "dresear",
           1,
           0,
@@ -4544,11 +4549,12 @@
         "dorbital",
         "dyard",
         "ddestroy",
+        "xdconst2",
+        "brconst",
         "dresear",
         "dyard2",
         "xduconst",
         "dturret3",
-        "dscout",
         "dcruise1",
         "dcruise2",
         "dcolony",
@@ -4632,20 +4638,6 @@
           0
         ],
         [
-          "xdconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
-          "brconst",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "dmining",
           1,
           0,
@@ -4695,6 +4687,20 @@
           0
         ],
         [
+          "xdconst2",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "brconst",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
           "dresear",
           1,
           0,
@@ -4736,11 +4742,12 @@
         "dorbital",
         "dyard",
         "ddestroy",
+        "xdconst2",
+        "brconst",
         "dresear",
         "dyard2",
         "xduconst",
         "dturret3",
-        "dscout",
         "dcruise1",
         "dcruise2",
         "dcolony",
@@ -4824,13 +4831,6 @@
           0
         ],
         [
-          "fconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "fmining",
           1,
           0,
@@ -4887,6 +4887,13 @@
           0
         ],
         [
+          "fconst2",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
           "fresear",
           1,
           0,
@@ -4929,11 +4936,11 @@
         "fyard0",
         "fyard",
         "fdestroy",
+        "fconst2",
         "fresear",
         "fyard2",
         "xfuconst",
         "fhwp",
-        "fscout",
         "fturret",
         "fcolony",
         "fdestroy2",
@@ -5005,13 +5012,6 @@
           0
         ],
         [
-          "fconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "fmining",
           1,
           0,
@@ -5068,6 +5068,13 @@
           0
         ],
         [
+          "fconst2",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
           "fresear",
           1,
           0,
@@ -5110,11 +5117,11 @@
         "fyard0",
         "fyard",
         "fdestroy",
+        "fconst2",
         "fresear",
         "fyard2",
         "xfuconst",
         "fhwp",
-        "fscout",
         "fturret",
         "fcolony",
         "fdestroy2",
@@ -5186,13 +5193,6 @@
           0
         ],
         [
-          "fconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "fmining",
           1,
           0,
@@ -5249,6 +5249,13 @@
           0
         ],
         [
+          "fconst2",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
           "fresear",
           1,
           0,
@@ -5291,6 +5298,7 @@
         "fyard0",
         "fyard",
         "fdestroy",
+        "fconst2",
         "fresear",
         "fyard2",
         "xfuconst",
@@ -5361,13 +5369,6 @@
           0
         ],
         [
-          "fconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "fmining",
           1,
           0,
@@ -5424,6 +5425,13 @@
           0
         ],
         [
+          "fconst2",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
           "fresear",
           1,
           0,
@@ -5466,11 +5474,11 @@
         "fyard0",
         "fyard",
         "fdestroy",
+        "fconst2",
         "fresear",
         "fyard2",
         "xfuconst",
         "fhwp",
-        "fscout",
         "fdanube",
         "ffighter",
         "fdeltaflyer",
@@ -5564,13 +5572,6 @@
           0
         ],
         [
-          "fconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "fmining",
           1,
           0,
@@ -5627,6 +5628,13 @@
           0
         ],
         [
+          "fconst2",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
           "fresear",
           1,
           0,
@@ -5669,11 +5677,11 @@
         "fyard0",
         "fyard",
         "fdestroy",
+        "fconst2",
         "fresear",
         "fyard2",
         "xfuconst",
         "fhwp",
-        "fscout",
         "fturret",
         "fcolony",
         "fdestroy2",
@@ -5745,13 +5753,6 @@
           0
         ],
         [
-          "kconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "kmining",
           1,
           0,
@@ -5796,6 +5797,13 @@
         [
           "kdestroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "kconst2",
+          1,
           0,
           -1,
           0
@@ -5849,11 +5857,11 @@
         "korbital",
         "kyard",
         "kdestroy",
+        "kconst2",
         "kresear",
         "kyard2",
         "xkuconst",
         "khwp",
-        "kscout",
         "kturret",
         "ksensor",
         "kdestroy2",
@@ -5942,13 +5950,6 @@
           0
         ],
         [
-          "kconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "kmining",
           1,
           0,
@@ -5993,6 +5994,13 @@
         [
           "kdestroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "kconst2",
+          1,
           0,
           -1,
           0
@@ -6046,11 +6054,11 @@
         "korbital",
         "kyard",
         "kdestroy",
+        "kconst2",
         "kresear",
         "kyard2",
         "xkuconst",
         "khwp",
-        "kscout",
         "kturret",
         "ksensor",
         "kdestroy2",
@@ -6139,13 +6147,6 @@
           0
         ],
         [
-          "kconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "kmining",
           1,
           0,
@@ -6190,6 +6191,13 @@
         [
           "kdestroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "kconst2",
+          1,
           0,
           -1,
           0
@@ -6243,11 +6251,11 @@
         "korbital",
         "kyard",
         "kdestroy",
+        "kconst2",
         "kresear",
         "kyard2",
         "xkuconst",
         "khwp",
-        "kscout",
         "kturret",
         "ksensor",
         "kdestroy2",
@@ -6336,13 +6344,6 @@
           0
         ],
         [
-          "kconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "kmining",
           1,
           0,
@@ -6387,6 +6388,13 @@
         [
           "kdestroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "kconst2",
+          1,
           0,
           -1,
           0
@@ -6440,11 +6448,11 @@
         "korbital",
         "kyard",
         "kdestroy",
+        "kconst2",
         "kresear",
         "kyard2",
         "xkuconst",
         "khwp",
-        "kscout",
         "kturret",
         "ksensor",
         "kdestroy2",
@@ -6533,13 +6541,6 @@
           0
         ],
         [
-          "kconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "kmining",
           1,
           0,
@@ -6584,6 +6585,13 @@
         [
           "kdestroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "kconst2",
+          1,
           0,
           -1,
           0
@@ -6637,11 +6645,11 @@
         "korbital",
         "kyard",
         "kdestroy",
+        "kconst2",
         "kresear",
         "kyard2",
         "xkuconst",
         "khwp",
-        "kscout",
         "kturret",
         "ksensor",
         "kdestroy2",
@@ -6730,13 +6738,6 @@
           0
         ],
         [
-          "rconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "rmining",
           1,
           0,
@@ -6781,6 +6782,13 @@
         [
           "rdestroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "rconst2",
+          1,
           0,
           -1,
           0
@@ -6834,11 +6842,11 @@
         "rorbital",
         "ryard",
         "rdestroy",
+        "rconst2",
         "rresear",
         "ryard2",
         "xruconst",
         "rhwp",
-        "rscout",
         "rturret",
         "rresear2",
         "rturret2",
@@ -6926,13 +6934,6 @@
           0
         ],
         [
-          "rconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "rmining",
           1,
           0,
@@ -6977,6 +6978,13 @@
         [
           "rdestroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "rconst2",
+          1,
           0,
           -1,
           0
@@ -7030,11 +7038,11 @@
         "rorbital",
         "ryard",
         "rdestroy",
+        "rconst2",
         "rresear",
         "ryard2",
         "xruconst",
         "rhwp",
-        "rscout",
         "rturret",
         "rresear2",
         "rturret2",
@@ -7122,13 +7130,6 @@
           0
         ],
         [
-          "rconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "rmining",
           1,
           0,
@@ -7173,6 +7174,13 @@
         [
           "rdestroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "rconst2",
+          1,
           0,
           -1,
           0
@@ -7226,11 +7234,11 @@
         "rorbital",
         "ryard",
         "rdestroy",
+        "rconst2",
         "rresear",
         "ryard2",
         "xruconst",
         "rhwp",
-        "rscout",
         "rturret",
         "rresear2",
         "rturret2",
@@ -7318,13 +7326,6 @@
           0
         ],
         [
-          "rconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "rmining",
           1,
           0,
@@ -7369,6 +7370,13 @@
         [
           "rdestroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "rconst2",
+          1,
           0,
           -1,
           0
@@ -7422,11 +7430,11 @@
         "rorbital",
         "ryard",
         "rdestroy",
+        "rconst2",
         "rresear",
         "ryard2",
         "xruconst",
         "rhwp",
-        "rscout",
         "rturret",
         "rresear2",
         "rturret2",
@@ -7514,13 +7522,6 @@
           0
         ],
         [
-          "rconst2",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "rmining",
           1,
           0,
@@ -7565,6 +7566,13 @@
         [
           "rdestroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "rconst2",
+          1,
           0,
           -1,
           0
@@ -7618,11 +7626,11 @@
         "rorbital",
         "ryard",
         "rdestroy",
+        "rconst2",
         "rresear",
         "ryard2",
         "xruconst",
         "rhwp",
-        "rscout",
         "rturret",
         "rresear2",
         "rturret2",
@@ -7710,21 +7718,7 @@
           0
         ],
         [
-          "714const",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "8472_transmuter",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
-          "8472_active",
           1,
           0,
           -1,
@@ -7761,6 +7755,20 @@
         [
           "8472_destroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "714const",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          1,
           0,
           -1,
           0
@@ -7810,14 +7818,13 @@
       ],
       "insertedPrerequisites": [
         "8472_transmuter",
-        "8472_active",
         "8472_collector",
         "8472_fluidicgate",
         "8472_destroy",
+        "714const",
         "8472_basicresearch",
         "8472_advancedresearch",
         "xsuconst",
-        "8472_scout",
         "8472fig",
         "8472_cruise1",
         "8472_cruise2",
@@ -7885,21 +7892,7 @@
           0
         ],
         [
-          "714const",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "8472_transmuter",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
-          "8472_active",
           1,
           0,
           -1,
@@ -7936,6 +7929,20 @@
         [
           "8472_destroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "714const",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          1,
           0,
           -1,
           0
@@ -7985,14 +7992,13 @@
       ],
       "insertedPrerequisites": [
         "8472_transmuter",
-        "8472_active",
         "8472_collector",
         "8472_fluidicgate",
         "8472_destroy",
+        "714const",
         "8472_basicresearch",
         "8472_advancedresearch",
         "xsuconst",
-        "8472_scout",
         "8472fig",
         "8472_cruise1",
         "8472_cruise2",
@@ -8060,21 +8066,7 @@
           0
         ],
         [
-          "714const",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "8472_transmuter",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
-          "8472_active",
           1,
           0,
           -1,
@@ -8111,6 +8103,20 @@
         [
           "8472_destroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "714const",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          1,
           0,
           -1,
           0
@@ -8160,14 +8166,13 @@
       ],
       "insertedPrerequisites": [
         "8472_transmuter",
-        "8472_active",
         "8472_collector",
         "8472_fluidicgate",
         "8472_destroy",
+        "714const",
         "8472_basicresearch",
         "8472_advancedresearch",
         "xsuconst",
-        "8472_scout",
         "8472fig",
         "8472_cruise1",
         "8472_cruise2",
@@ -8235,21 +8240,7 @@
           0
         ],
         [
-          "714const",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "8472_transmuter",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
-          "8472_active",
           1,
           0,
           -1,
@@ -8286,6 +8277,20 @@
         [
           "8472_destroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "714const",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          1,
           0,
           -1,
           0
@@ -8335,14 +8340,13 @@
       ],
       "insertedPrerequisites": [
         "8472_transmuter",
-        "8472_active",
         "8472_collector",
         "8472_fluidicgate",
         "8472_destroy",
+        "714const",
         "8472_basicresearch",
         "8472_advancedresearch",
         "xsuconst",
-        "8472_scout",
         "8472fig",
         "8472_cruise1",
         "8472_cruise2",
@@ -8410,21 +8414,7 @@
           0
         ],
         [
-          "714const",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
           "8472_transmuter",
-          1,
-          0,
-          -1,
-          0
-        ],
-        [
-          "8472_active",
           1,
           0,
           -1,
@@ -8461,6 +8451,20 @@
         [
           "8472_destroy",
           2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "714const",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          1,
           0,
           -1,
           0
@@ -8510,14 +8514,13 @@
       ],
       "insertedPrerequisites": [
         "8472_transmuter",
-        "8472_active",
         "8472_collector",
         "8472_fluidicgate",
         "8472_destroy",
+        "714const",
         "8472_basicresearch",
         "8472_advancedresearch",
         "xsuconst",
-        "8472_scout",
         "8472fig",
         "8472_cruise1",
         "8472_cruise2",
@@ -8567,311 +8570,11 @@
     }
   ],
   "failures": [],
-  "techChanges": [
-    {
-      "tree": "tech1",
-      "unit": "8472_mine.odf",
-      "requirements": [
-        "714const.odf"
-      ]
-    },
-    {
-      "tree": "tech1",
-      "unit": "dombase.odf",
-      "requirements": [
-        "cbase.odf",
-        "xcconst2.odf"
-      ]
-    },
-    {
-      "tree": "tech1",
-      "unit": "8472_sentinel.odf",
-      "requirements": [
-        "714const.odf"
-      ]
-    },
-    {
-      "tree": "earlytech",
-      "unit": "8472_mine.odf",
-      "requirements": [
-        "714const.odf"
-      ]
-    },
-    {
-      "tree": "earlytech",
-      "unit": "dombase.odf",
-      "requirements": [
-        "cbase.odf",
-        "xcconst2.odf"
-      ]
-    },
-    {
-      "tree": "earlytech",
-      "unit": "8472_sentinel.odf",
-      "requirements": [
-        "714const.odf"
-      ]
-    },
-    {
-      "tree": "nosci",
-      "unit": "8472_mine.odf",
-      "requirements": [
-        "714const.odf"
-      ]
-    },
-    {
-      "tree": "nosci",
-      "unit": "8472_sentinel.odf",
-      "requirements": [
-        "714const.odf"
-      ]
-    },
-    {
-      "tree": "nosci",
-      "unit": "dombase.odf",
-      "requirements": [
-        "xcconst2.odf"
-      ]
-    },
-    {
-      "tree": "nosci",
-      "unit": "domyard.odf",
-      "requirements": [
-        "xcconst2.odf"
-      ]
-    },
-    {
-      "tree": "nosci",
-      "unit": "domabase.odf",
-      "requirements": [
-        "xcconst2.odf"
-      ]
-    },
-    {
-      "tree": "nosci",
-      "unit": "cobyard.odf",
-      "requirements": [
-        "xcconst2.odf"
-      ]
-    },
-    {
-      "tree": "nosci",
-      "unit": "cstation.odf",
-      "requirements": [
-        "xcconst2.odf"
-      ]
-    },
-    {
-      "tree": "nosci",
-      "unit": "fbase.odf",
-      "requirements": [
-        "fconst2.odf"
-      ]
-    },
-    {
-      "tree": "nosci",
-      "unit": "fsensor.odf",
-      "requirements": [
-        "fconst2.odf"
-      ]
-    },
-    {
-      "tree": "nosci",
-      "unit": "fturret.odf",
-      "requirements": [
-        "fconst2.odf"
-      ]
-    },
-    {
-      "tree": "nosci",
-      "unit": "fturret2.odf",
-      "requirements": [
-        "fconst2.odf"
-      ]
-    },
-    {
-      "tree": "nosci",
-      "unit": "forbital.odf",
-      "requirements": [
-        "fconst2.odf"
-      ]
-    },
-    {
-      "tree": "nosci",
-      "unit": "ftrading.odf",
-      "requirements": [
-        "fconst2.odf"
-      ]
-    },
-    {
-      "tree": "nosci",
-      "unit": "s31yard.odf",
-      "requirements": [
-        "fconst2.odf"
-      ]
-    },
-    {
-      "tree": "nospweap",
-      "unit": "8472_mine.odf",
-      "requirements": [
-        "714const.odf"
-      ]
-    },
-    {
-      "tree": "nospweap",
-      "unit": "dombase.odf",
-      "requirements": [
-        "cbase.odf",
-        "xcconst2.odf"
-      ]
-    },
-    {
-      "tree": "nospweap",
-      "unit": "8472_sentinel.odf",
-      "requirements": [
-        "714const.odf"
-      ]
-    },
-    {
-      "tree": "nosuper",
-      "unit": "8472_mine.odf",
-      "requirements": [
-        "714const.odf"
-      ]
-    },
-    {
-      "tree": "nosuper",
-      "unit": "8472_sentinel.odf",
-      "requirements": [
-        "714const.odf"
-      ]
-    },
-    {
-      "tree": "nosuper",
-      "unit": "dombase.odf",
-      "requirements": [
-        "xcconst2.odf"
-      ]
-    },
-    {
-      "tree": "nosuper",
-      "unit": "domyard.odf",
-      "requirements": [
-        "xcconst2.odf"
-      ]
-    },
-    {
-      "tree": "nosuper",
-      "unit": "domabase.odf",
-      "requirements": [
-        "xcconst2.odf"
-      ]
-    },
-    {
-      "tree": "nosuper",
-      "unit": "cobyard.odf",
-      "requirements": [
-        "xcconst2.odf"
-      ]
-    },
-    {
-      "tree": "nosuper",
-      "unit": "cstation.odf",
-      "requirements": [
-        "xcconst2.odf"
-      ]
-    },
-    {
-      "tree": "nosuper",
-      "unit": "fbase.odf",
-      "requirements": [
-        "fconst2.odf"
-      ]
-    },
-    {
-      "tree": "nosuper",
-      "unit": "fsensor.odf",
-      "requirements": [
-        "fconst2.odf"
-      ]
-    },
-    {
-      "tree": "nosuper",
-      "unit": "fturret.odf",
-      "requirements": [
-        "fconst2.odf"
-      ]
-    },
-    {
-      "tree": "nosuper",
-      "unit": "fturret2.odf",
-      "requirements": [
-        "fconst2.odf"
-      ]
-    },
-    {
-      "tree": "nosuper",
-      "unit": "forbital.odf",
-      "requirements": [
-        "fconst2.odf"
-      ]
-    },
-    {
-      "tree": "nosuper",
-      "unit": "ftrading.odf",
-      "requirements": [
-        "fconst2.odf"
-      ]
-    },
-    {
-      "tree": "nosuper",
-      "unit": "s31yard.odf",
-      "requirements": [
-        "fconst2.odf"
-      ]
-    }
-  ],
+  "techChanges": [],
   "applied": true,
   "runtimeVerified": false,
-  "appliedAt": "2026-10-24T04:15:12.295544+02:00",
-  "backup": "D:\\Xaramada-Modwork\\backups\\ai-start-recovery-20261024-041511",
+  "backup": "D:\\Xaramada-Modwork\\backups\\ai-restored-starts-20261024-041933",
   "manifest": [
-    {
-      "file": "odf/other/fed.odf",
-      "sha256": "4b0adf32507bfab204e1b7953c5b18c59e49f334765070d637c3fcf3abafbb8d"
-    },
-    {
-      "file": "odf/other/borg.odf",
-      "sha256": "104ccb6d34baf5656dc9617643b9a1cb5c1c5aa851ef7f03ecd0d53b5a97f2ae"
-    },
-    {
-      "file": "odf/other/kling.odf",
-      "sha256": "edd2704242c28fc08c26d063435cdfedf5e3afbb4220a2d584bad5037215997f"
-    },
-    {
-      "file": "odf/other/rom.odf",
-      "sha256": "5e1f540279eb3865fe0e4b1360446eb66ab7cf75e92920158e39b70b418f2888"
-    },
-    {
-      "file": "odf/other/card.odf",
-      "sha256": "5b0e17b6e0f7ae10b3c8e6ad6087855246f19d77e6bdc28ae9544893fd83aff5"
-    },
-    {
-      "file": "odf/other/dominion.odf",
-      "sha256": "042613173392d691ed6a7c1e03d6f8141280042bcead8f5655293aa4f4c8ab75"
-    },
-    {
-      "file": "odf/other/breen.odf",
-      "sha256": "811ddc224704be1189e0696eac49aeb18fcf06b6200b829cba401d53e07c1a9b"
-    },
-    {
-      "file": "odf/other/bajoran.odf",
-      "sha256": "cd789ab929faa0041370278282a5b3839278ce0c9d7cb02c946bf113177c30d5"
-    },
-    {
-      "file": "odf/other/species8472.odf",
-      "sha256": "1054c4e6ca813a3f50fc982638fcb767ca961df0cfec2666301a0160e4aede6b"
-    },
     {
       "file": "techtree/tech1.tt",
       "sha256": "d583bcfa7a264abb7404b46afe4789ecf478b1a841215f889d91379821f0bc0e"
@@ -8898,43 +8601,43 @@
     },
     {
       "file": "AI/AIPs/bajoran_build_list.aip",
-      "sha256": "a04c70fff1a0a87cee373dc8f90febfbaaa43c5cd49a47c106c50f82aacd86d8"
+      "sha256": "9691a9de4371c3a861ed8da1f1f6bdc4274160ebe53b599d62bc3c6f01ace8bf"
     },
     {
       "file": "AI/AIPs/bajoran_defensive_list.aip",
-      "sha256": "365745680f3ab1e46d20f0f41abcaaa39ef86ed945be989dd8a816db860d7105"
+      "sha256": "933554e9e019b42fe08a94bdad0bc5157ffb185cbb6768bb03638ee20a250d0c"
     },
     {
       "file": "AI/AIPs/bajoran_endgame_list.aip",
-      "sha256": "b34e20b615a30f36d2d6864a08d94dd0ce1bac403f52541c8673424c28e702fa"
+      "sha256": "f3c3d1940429dfe580f007cfcd3fd71114b14ea95c884984ae453ad73d872712"
     },
     {
       "file": "AI/AIPs/bajoran_instant_action_build_list.aip",
-      "sha256": "412ef38d7e67c0e4397ca097d6ea172c7816d372462bae05b958ec7d30761dee"
+      "sha256": "00ad3cd23b9a4cfdf8a16fd9d801c5a1c460c1d3bbf00d92c2677ccd67cd4d9a"
     },
     {
       "file": "AI/AIPs/bajoran_offensive_list.aip",
-      "sha256": "a04c70fff1a0a87cee373dc8f90febfbaaa43c5cd49a47c106c50f82aacd86d8"
+      "sha256": "9691a9de4371c3a861ed8da1f1f6bdc4274160ebe53b599d62bc3c6f01ace8bf"
     },
     {
       "file": "AI/AIPs/borg_build_list.aip",
-      "sha256": "de58c10c1d116f1bfdd35212091f02450b10e6494a56bc1e160790ea2836104a"
+      "sha256": "5eecfd9ef6d494b3057bf43879435021273c08106080c7ff516d38721a35569f"
     },
     {
       "file": "AI/AIPs/borg_defensive_list.aip",
-      "sha256": "7ed73f80aed23b53e58a02fddc60793308510d63419c1ec6034dac05196b7b54"
+      "sha256": "d581e49557f4f450796b007626e8d3b6c7431481f10224d0aef7273cdd55c268"
     },
     {
       "file": "AI/AIPs/borg_endgame_list.aip",
-      "sha256": "de58c10c1d116f1bfdd35212091f02450b10e6494a56bc1e160790ea2836104a"
+      "sha256": "5eecfd9ef6d494b3057bf43879435021273c08106080c7ff516d38721a35569f"
     },
     {
       "file": "AI/AIPs/borg_instant_action_build_list.aip",
-      "sha256": "de58c10c1d116f1bfdd35212091f02450b10e6494a56bc1e160790ea2836104a"
+      "sha256": "5eecfd9ef6d494b3057bf43879435021273c08106080c7ff516d38721a35569f"
     },
     {
       "file": "AI/AIPs/borg_offensive_list.aip",
-      "sha256": "de58c10c1d116f1bfdd35212091f02450b10e6494a56bc1e160790ea2836104a"
+      "sha256": "5eecfd9ef6d494b3057bf43879435021273c08106080c7ff516d38721a35569f"
     },
     {
       "file": "AI/AIPs/breen_build_list.aip",
@@ -8958,124 +8661,124 @@
     },
     {
       "file": "AI/AIPs/cardassian_build_list.aip",
-      "sha256": "0e936846d79e70eeafd640b1a730140c3a6c78ca8cc5b34d268427e15d9d3897"
+      "sha256": "daf644a51ced20d52d22a35512e9140ef4d7080425666c9bd73d556e14bf4df0"
     },
     {
       "file": "AI/AIPs/cardassian_defensive_list.aip",
-      "sha256": "8c394822bfdb20769ab30694a5b416c3c6d8f7e4e6fc0434536b23266f55c041"
+      "sha256": "405e4ee75bccb88bbd6b83d24521e0fabb9ac3b7eebba76461ffa8eaf96edb78"
     },
     {
       "file": "AI/AIPs/cardassian_endgame_list.aip",
-      "sha256": "0e936846d79e70eeafd640b1a730140c3a6c78ca8cc5b34d268427e15d9d3897"
+      "sha256": "daf644a51ced20d52d22a35512e9140ef4d7080425666c9bd73d556e14bf4df0"
     },
     {
       "file": "AI/AIPs/cardassian_instant_action_build_list.aip",
-      "sha256": "0e936846d79e70eeafd640b1a730140c3a6c78ca8cc5b34d268427e15d9d3897"
+      "sha256": "daf644a51ced20d52d22a35512e9140ef4d7080425666c9bd73d556e14bf4df0"
     },
     {
       "file": "AI/AIPs/cardassian_offensive_list.aip",
-      "sha256": "0e936846d79e70eeafd640b1a730140c3a6c78ca8cc5b34d268427e15d9d3897"
+      "sha256": "daf644a51ced20d52d22a35512e9140ef4d7080425666c9bd73d556e14bf4df0"
     },
     {
       "file": "AI/AIPs/dominion_build_list.aip",
-      "sha256": "9da6401e445751a12a6ed71e430644fa78281cfd41dcfc515b53105adc51576c"
+      "sha256": "9fd62e3fb0f934dfa5d9e1f689bd3496b0a2e72a68d038d4d919c76025285fb4"
     },
     {
       "file": "AI/AIPs/dominion_defensive_list.aip",
-      "sha256": "b4c51df69dfc08246fad626c6e69084ac13de0511b1c0e3d84127c0bf4638c6b"
+      "sha256": "1e62fb505425750b98c4dccbd7c5b0b5ecf1a8f829441e3fc6b4c43f9a608780"
     },
     {
       "file": "AI/AIPs/dominion_endgame_list.aip",
-      "sha256": "9da6401e445751a12a6ed71e430644fa78281cfd41dcfc515b53105adc51576c"
+      "sha256": "9fd62e3fb0f934dfa5d9e1f689bd3496b0a2e72a68d038d4d919c76025285fb4"
     },
     {
       "file": "AI/AIPs/dominion_instant_action_build_list.aip",
-      "sha256": "9da6401e445751a12a6ed71e430644fa78281cfd41dcfc515b53105adc51576c"
+      "sha256": "9fd62e3fb0f934dfa5d9e1f689bd3496b0a2e72a68d038d4d919c76025285fb4"
     },
     {
       "file": "AI/AIPs/dominion_offensive_list.aip",
-      "sha256": "9da6401e445751a12a6ed71e430644fa78281cfd41dcfc515b53105adc51576c"
+      "sha256": "9fd62e3fb0f934dfa5d9e1f689bd3496b0a2e72a68d038d4d919c76025285fb4"
     },
     {
       "file": "AI/AIPs/federation_build_list.aip",
-      "sha256": "7d2c686824e71d1b39e1a477304348b7274d401021a2e5fc991700e26b8236fd"
+      "sha256": "d59a6fcbc13e5f8f868425942b8a42bce983e0c49a9c4f5de55a9edb8c2f1b47"
     },
     {
       "file": "AI/AIPs/federation_defensive_list.aip",
-      "sha256": "9ac03844ce02bf9d3ceb5ef98aa02e00dda7cadc846a7f51abc8379d5ef4166a"
+      "sha256": "a9b76b80d4d2f41bcf9de6fe9e0ca42db845931d9b87f77680a94263c32d63f0"
     },
     {
       "file": "AI/AIPs/federation_endgame_list.aip",
-      "sha256": "39a4639c68f4a3a1a46055279d7dedb377f9e717337493eab97ec6957edb2801"
+      "sha256": "2c7c9ffeca8dbf87995db9e440ca442873c12559e2beec6b7ea30babcb0e7ffd"
     },
     {
       "file": "AI/AIPs/federation_instant_action_build_list.aip",
-      "sha256": "ba09f1064a4111d979dba3ec6f1b3f574c0353ff7b7fd6d5b5c0608488a212e1"
+      "sha256": "8623dd4d9d89d2f13d958f21b5b203970910d8e09e2a6806bc91f5c8036739e5"
     },
     {
       "file": "AI/AIPs/federation_offensive_list.aip",
-      "sha256": "7d2c686824e71d1b39e1a477304348b7274d401021a2e5fc991700e26b8236fd"
+      "sha256": "d59a6fcbc13e5f8f868425942b8a42bce983e0c49a9c4f5de55a9edb8c2f1b47"
     },
     {
       "file": "AI/AIPs/klingon_build_list.aip",
-      "sha256": "b53a613954065592924fcc4c7116f9db3760eec837d40c570fde189e1e7904fc"
+      "sha256": "b225fd5f17ecb6cc405e57220e311cd67bf4e9f8926fcf1fcb395422b1504e69"
     },
     {
       "file": "AI/AIPs/klingon_defensive_list.aip",
-      "sha256": "77b4633f55ed9a4f361544b489f942ce084a1578bd23ec4b6c3714b5566156ea"
+      "sha256": "aa02fd4cb36960ca13139bb39ae6e85779d37fd2ad56405bd4c34f1d259a7d1e"
     },
     {
       "file": "AI/AIPs/klingon_endgame_list.aip",
-      "sha256": "b53a613954065592924fcc4c7116f9db3760eec837d40c570fde189e1e7904fc"
+      "sha256": "b225fd5f17ecb6cc405e57220e311cd67bf4e9f8926fcf1fcb395422b1504e69"
     },
     {
       "file": "AI/AIPs/klingon_instant_action_build_list.aip",
-      "sha256": "b53a613954065592924fcc4c7116f9db3760eec837d40c570fde189e1e7904fc"
+      "sha256": "b225fd5f17ecb6cc405e57220e311cd67bf4e9f8926fcf1fcb395422b1504e69"
     },
     {
       "file": "AI/AIPs/klingon_offensive_list.aip",
-      "sha256": "b53a613954065592924fcc4c7116f9db3760eec837d40c570fde189e1e7904fc"
+      "sha256": "b225fd5f17ecb6cc405e57220e311cd67bf4e9f8926fcf1fcb395422b1504e69"
     },
     {
       "file": "AI/AIPs/romulan_build_list.aip",
-      "sha256": "fa91d61d50dc5e9e893faffb30b5541c2294075474260fe32bac3aa19c3cb5b0"
+      "sha256": "274634f85d6dded17cf2950df09a60968ea17b8d6d8e6fbabbd08ddd4d6cd3bc"
     },
     {
       "file": "AI/AIPs/romulan_defensive_list.aip",
-      "sha256": "e4c2ee7187f3694cbdfc7fd34f7adc809fad7f9de0f401a9f37866f82269bd0f"
+      "sha256": "3a131f4b539cfe02d9ffc688e5b9e19096a9f273000dde03e9f977c00e85db6e"
     },
     {
       "file": "AI/AIPs/romulan_endgame_list.aip",
-      "sha256": "fa91d61d50dc5e9e893faffb30b5541c2294075474260fe32bac3aa19c3cb5b0"
+      "sha256": "274634f85d6dded17cf2950df09a60968ea17b8d6d8e6fbabbd08ddd4d6cd3bc"
     },
     {
       "file": "AI/AIPs/romulan_instant_action_build_list.aip",
-      "sha256": "fa91d61d50dc5e9e893faffb30b5541c2294075474260fe32bac3aa19c3cb5b0"
+      "sha256": "274634f85d6dded17cf2950df09a60968ea17b8d6d8e6fbabbd08ddd4d6cd3bc"
     },
     {
       "file": "AI/AIPs/romulan_offensive_list.aip",
-      "sha256": "fa91d61d50dc5e9e893faffb30b5541c2294075474260fe32bac3aa19c3cb5b0"
+      "sha256": "274634f85d6dded17cf2950df09a60968ea17b8d6d8e6fbabbd08ddd4d6cd3bc"
     },
     {
       "file": "AI/AIPs/species8472_build_list.aip",
-      "sha256": "da076c2aa2cb89e0ab225e4f02eddef99837fa615febec68081a6cb26250cef5"
+      "sha256": "a7002f63218a6d9308c668e9e03380c36c6d5cae9a6593c214ef41e5adef72eb"
     },
     {
       "file": "AI/AIPs/species8472_defensive_list.aip",
-      "sha256": "da076c2aa2cb89e0ab225e4f02eddef99837fa615febec68081a6cb26250cef5"
+      "sha256": "a7002f63218a6d9308c668e9e03380c36c6d5cae9a6593c214ef41e5adef72eb"
     },
     {
       "file": "AI/AIPs/species8472_endgame_list.aip",
-      "sha256": "da076c2aa2cb89e0ab225e4f02eddef99837fa615febec68081a6cb26250cef5"
+      "sha256": "a7002f63218a6d9308c668e9e03380c36c6d5cae9a6593c214ef41e5adef72eb"
     },
     {
       "file": "AI/AIPs/species8472_instant_action_build_list.aip",
-      "sha256": "da076c2aa2cb89e0ab225e4f02eddef99837fa615febec68081a6cb26250cef5"
+      "sha256": "a7002f63218a6d9308c668e9e03380c36c6d5cae9a6593c214ef41e5adef72eb"
     },
     {
       "file": "AI/AIPs/species8472_offensive_list.aip",
-      "sha256": "da076c2aa2cb89e0ab225e4f02eddef99837fa615febec68081a6cb26250cef5"
+      "sha256": "a7002f63218a6d9308c668e9e03380c36c6d5cae9a6593c214ef41e5adef72eb"
     }
   ],
-  "dominionBreenBranchVerified": true
+  "appliedAt": "2026-10-24T04:19:33.777539+02:00"
 }

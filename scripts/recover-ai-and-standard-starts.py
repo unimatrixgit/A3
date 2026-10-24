@@ -1,18 +1,20 @@
 from pathlib import Path
-import json,re,collections,datetime,shutil,os,hashlib
+import json,re,collections,datetime,shutil,os,hashlib,sys
 root=Path('D:/armadaIII');repo=Path('D:/aramada');p=json.loads((repo/'reports/ai-recovery-before.json').read_text());idx={n:Path(d['file'])for n,d in p.items()};pending={};profiles=[];failures=[]
 cfg={'federation':('fed','fconst','fconst2','fbase','fmining','ffreight','forbital','fyard','fdestroy'),'borg':('borg','bconst','bconst2','bbase','bmining','bfreight','bbase2','byard','bdestroy'),'klingon':('kling','kconst','kconst2','kbase','kmining','kfreight','korbital','kyard','kdestroy'),'romulan':('rom','rconst','rconst2','rbase','rmining','rfreight','rorbital','ryard','rdestroy'),'cardassian':('card','cconst','xcconst2','cbase','cmining','cfreight','corbital','cyard','cdestroy'),'dominion':('dominion','dconst','xdconst2','dbase','dmining','dfreight','dorbital','dyard','ddestroy'),'breen':('breen','brconst',None,'brbase','brmining','brfreight','brorbital','bryard','brdestroy'),'bajoran':('bajoran','bjconst','xbjconst2','bjbase','bjmining','bjfreight','bjorbital','bjyard','bjdestroy'),'species8472':('species8472','8472_passive','714const','8472_mothership','8472_transmuter','8472_collector',None,'8472_fluidicgate','8472_destroy')}
 def put(t,k,v):return re.sub(r'(?mi)^\s*'+re.escape(k)+r'\s*=[^\r\n]*','',t)+'\n'+k+' = '+str(v)+'\n'
-starts={}
+starts={};keep_starts='--keep-starts'in sys.argv
 for race,(conf,basic,adv,base,*_)in cfg.items():
  units=[basic,basic]+([adv]if adv else[])+[base]
  if race=='dominion':units+=['brconst']
  if race=='bajoran':units+=['xfgconst']
+ if keep_starts:units=[Path(v).stem.lower()for k,v in p[conf].items()if re.fullmatch('standardunits[0-9]+',k)]
  assert all(n in p for n in units)
  assert not any(p[n].get('ishero')=='1'for n in units)
  t=idx[conf].read_text(encoding='latin1');t=re.sub(r'(?mi)^\s*standardUnits\d+\s*=[^\r\n]*','',t)
  for i,n in enumerate(units,1):t=put(t,'standardUnits'+str(i),'"'+n+'.odf"')
- pending[idx[conf].relative_to(root).as_posix()]=t;starts[race]=units
+ if not keep_starts:pending[idx[conf].relative_to(root).as_posix()]=t
+ starts[race]=units
 
 # Production was consolidated, so old constructor aliases must not remain as
 # mandatory research prerequisites after their production options disappear.
@@ -90,10 +92,12 @@ for f in(root/'AI/AIPs').glob('*.aip'):
   # ensure already emitted its first construction goal; only emit growth goals.
   if count>goals.get((n,base),0):result.append((n,count,base,maxbuild,0));goals[(n,base)]=count
  conf,basic,adv,base,mine,miner,orbital,yard,combat=cfg[race]
- bootstrap=[(base,1),(basic,2)]+([(adv,1)]if adv else[])
- if race=='dominion':bootstrap.append(('brconst',1))
- if race=='bajoran':bootstrap.append(('xfgconst',1))
+ bootstrap=[(base,1),(basic,2)]+([(adv,1)]if adv and adv in initial else[])
+ if race=='dominion'and'brconst'in initial:bootstrap.append(('brconst',1))
+ if race=='bajoran'and'xfgconst'in initial:bootstrap.append(('xfgconst',1))
  bootstrap+=[(mine,1),(miner,2)]+([(orbital,1)]if orbital else[])+[(yard,1),(combat,2)]
+ if adv and adv not in initial:bootstrap.append((adv,1))
+ if race=='dominion'and'brconst'not in initial:bootstrap.append(('brconst',1))
  try:
   for n,count in bootstrap:request(n,count)
   for n,count,basenum,maxbuild,level in desired:
@@ -122,4 +126,4 @@ for f in(root/'AI/AIPs').glob('*.aip'):
  pending[f.relative_to(root).as_posix()]=new;profiles.append({'file':f.name,'race':race,'rows':len(result),'opening':result[:16],'insertedPrerequisites':insertions,'removedDisabled':removed,'sequentialAuditErrors':audit})
 stage=Path('D:/Xaramada-Modwork/ai-start-recovery-stage')
 for rel,t in pending.items():out=stage/rel;out.parent.mkdir(parents=True,exist_ok=True);out.write_bytes(t.replace('\r','').replace('\n','\r\n').encode('latin1'))
-report={'stage':str(stage),'starts':starts,'files':list(pending),'profiles':profiles,'failures':failures,'techChanges':techchanges,'applied':False,'runtimeVerified':False};(repo/'reports/ai-start-recovery.json').write_text(json.dumps(report,indent=2));print(json.dumps({'profiles':len(profiles),'failures':failures,'rows':{x['file']:x['rows']for x in profiles}},indent=2));raise SystemExit(bool(failures))
+report={'stage':str(stage),'starts':starts,'keepPreviousStarts':keep_starts,'files':list(pending),'profiles':profiles,'failures':failures,'techChanges':techchanges,'applied':False,'runtimeVerified':False};(repo/'reports/ai-start-recovery.json').write_text(json.dumps(report,indent=2));print(json.dumps({'profiles':len(profiles),'failures':failures,'rows':{x['file']:x['rows']for x in profiles}},indent=2));raise SystemExit(bool(failures))
