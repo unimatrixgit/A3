@@ -89,7 +89,7 @@ eventDecommission = "SensorDecommission"
 // Obsolete, use hotkeyLabel
 // keymapLabel = "sensor_turret"
 hotkeyLabel = "HOTKEY_F3"
-ScaleSOD = 0.25
+
 
 
 
@@ -131,3 +131,5 @@ tooltip = "Fleet Installation (Subspace Relay)"
 
 
 verboseTooltip = "Subspace Relay\nDetect Cloak\nStarfleet infrastructure supports exploration."
+ScaleSOD = 0.625
+footprintBuffer = 25

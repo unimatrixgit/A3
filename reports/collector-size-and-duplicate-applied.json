@@ -1,0 +1,532 @@
+{
+  "status": "APPLIED - GAMEPLAY TEST PENDING",
+  "collectors": [
+    {
+      "unit": "ffreight",
+      "file": "odf/ships/ffreight.odf",
+      "model": "dr26_ffreight",
+      "oldScale": 1.65,
+      "newScale": 0.825,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "8472_collector",
+      "file": "odf/ships/8472_collector.odf",
+      "model": "dr26_8472_collector",
+      "oldScale": 1.0,
+      "newScale": 0.6268821511564907,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "bfreight",
+      "file": "odf/ships/bfreight.odf",
+      "model": "dr26_bfreight",
+      "oldScale": 1.0,
+      "newScale": 0.8014107148021865,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "bjfreight",
+      "file": "odf/ships/bjfreight.odf",
+      "model": "dr26_bjfreight",
+      "oldScale": 0.57541,
+      "newScale": 0.5231001344476219,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "brfreight",
+      "file": "odf/ships/brfreight.odf",
+      "model": "dr26_brfreight",
+      "oldScale": 1.1,
+      "newScale": 1.0573572738489023,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "cfreight",
+      "file": "odf/ships/cfreight.odf",
+      "model": "dr26_cfreight",
+      "oldScale": 1.0,
+      "newScale": 0.7234537703347242,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "dfreight",
+      "file": "odf/ships/dfreight.odf",
+      "model": "dr26_dfreight",
+      "oldScale": 0.95,
+      "newScale": 0.7036386027120919,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "kfreight",
+      "file": "odf/ships/kfreight.odf",
+      "model": "dr26_kfreight",
+      "oldScale": 1.0,
+      "newScale": 0.7469972267290947,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "mybjminer1",
+      "file": "odf/ships/mybjminer1.odf",
+      "model": "dr26_bjfreight",
+      "oldScale": 0.57541,
+      "newScale": 0.5231001344476219,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "mybjminer2",
+      "file": "odf/ships/mybjminer2.odf",
+      "model": "dr26_bjfreight",
+      "oldScale": 0.57541,
+      "newScale": 0.5231001344476219,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "mybminer1",
+      "file": "odf/ships/mybminer1.odf",
+      "model": "dr26_bfreight",
+      "oldScale": 1.0,
+      "newScale": 0.8014107148021865,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "mybminer2",
+      "file": "odf/ships/mybminer2.odf",
+      "model": "dr26_bfreight",
+      "oldScale": 1.0,
+      "newScale": 0.8014107148021865,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "mybrminer1",
+      "file": "odf/ships/mybrminer1.odf",
+      "model": "dr26_brfreight",
+      "oldScale": 1.1,
+      "newScale": 1.0573572738489023,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "mybrminer2",
+      "file": "odf/ships/mybrminer2.odf",
+      "model": "dr26_brfreight",
+      "oldScale": 1.1,
+      "newScale": 1.0573572738489023,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "mycminer1",
+      "file": "odf/ships/mycminer1.odf",
+      "model": "dr26_cfreight",
+      "oldScale": 1.0,
+      "newScale": 0.7234537703347242,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "mycminer2",
+      "file": "odf/ships/mycminer2.odf",
+      "model": "dr26_cfreight",
+      "oldScale": 1.0,
+      "newScale": 0.7234537703347242,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "mydminer1",
+      "file": "odf/ships/mydminer1.odf",
+      "model": "dr26_dfreight",
+      "oldScale": 0.95,
+      "newScale": 0.7036386027120919,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "mydminer2",
+      "file": "odf/ships/mydminer2.odf",
+      "model": "dr26_dfreight",
+      "oldScale": 0.95,
+      "newScale": 0.7036386027120919,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "myfminer1",
+      "file": "odf/ships/myfminer1.odf",
+      "model": "dr26_ffreight",
+      "oldScale": 1.65,
+      "newScale": 0.825,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "myfminer2",
+      "file": "odf/ships/myfminer2.odf",
+      "model": "dr26_ffreight",
+      "oldScale": 1.65,
+      "newScale": 0.825,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "mykminer1",
+      "file": "odf/ships/mykminer1.odf",
+      "model": "dr26_kfreight",
+      "oldScale": 1.0,
+      "newScale": 0.7469972267290947,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "mykminer2",
+      "file": "odf/ships/mykminer2.odf",
+      "model": "dr26_kfreight",
+      "oldScale": 1.0,
+      "newScale": 0.7469972267290947,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "myrminer1",
+      "file": "odf/ships/myrminer1.odf",
+      "model": "dr26_rfreight",
+      "oldScale": 1.0,
+      "newScale": 0.8324061544193816,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "myrminer2",
+      "file": "odf/ships/myrminer2.odf",
+      "model": "dr26_rfreight",
+      "oldScale": 1.0,
+      "newScale": 0.8324061544193816,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "rfreight",
+      "file": "odf/ships/rfreight.odf",
+      "model": "dr26_rfreight",
+      "oldScale": 1.0,
+      "newScale": 0.8324061544193816,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "xbgdil2",
+      "file": "odf/ships/xbgdil2.odf",
+      "model": "dr26_xbgdil2",
+      "oldScale": 0.825,
+      "newScale": 0.7234537703347242,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "xbgdil3",
+      "file": "odf/ships/xbgdil3.odf",
+      "model": "dr26_xbgdil3",
+      "oldScale": 0.825,
+      "newScale": 0.7234537703347242,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "xbgmine",
+      "file": "odf/ships/xbgmine.odf",
+      "model": "dr26_xbgmine",
+      "oldScale": 0.825,
+      "newScale": 0.7234537703347242,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "xbgmnr1",
+      "file": "odf/ships/xbgmnr1.odf",
+      "model": "dr26_xbgmine",
+      "oldScale": 0.825,
+      "newScale": 0.7234537703347242,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "xbgmnr2",
+      "file": "odf/ships/xbgmnr2.odf",
+      "model": "dr26_xbgmine",
+      "oldScale": 0.825,
+      "newScale": 0.7234537703347242,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "xdominer",
+      "file": "odf/ships/xdominer.odf",
+      "model": "dr26_xdominer",
+      "oldScale": 0.95,
+      "newScale": 0.7036386027120919,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "xfgdil2",
+      "file": "odf/ships/xfgdil2.odf",
+      "model": "dr26_xfgdil2",
+      "oldScale": 0.825,
+      "newScale": 0.7234537703347242,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "xfgdil3",
+      "file": "odf/ships/xfgdil3.odf",
+      "model": "dr26_xfgdil3",
+      "oldScale": 0.825,
+      "newScale": 0.7234537703347242,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "xfgmine",
+      "file": "odf/ships/xfgmine.odf",
+      "model": "dr26_xfgmine",
+      "oldScale": 0.825,
+      "newScale": 0.7234537703347242,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "xfgmnr1",
+      "file": "odf/ships/xfgmnr1.odf",
+      "model": "dr26_xfgmine",
+      "oldScale": 0.825,
+      "newScale": 0.7234537703347242,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "xfgmnr2",
+      "file": "odf/ships/xfgmnr2.odf",
+      "model": "dr26_xfgmine",
+      "oldScale": 0.825,
+      "newScale": 0.7234537703347242,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "xsbcol1",
+      "file": "odf/ships/xsbcol1.odf",
+      "model": "dr26_xsbcol1",
+      "oldScale": 1.0,
+      "newScale": 0.6268821511564907,
+      "worldSpan": 35.67417840957641
+    },
+    {
+      "unit": "xsbcol2",
+      "file": "odf/ships/xsbcol2.odf",
+      "model": "dr26_xsbcol2",
+      "oldScale": 1.0,
+      "newScale": 0.6268821511564907,
+      "worldSpan": 35.67417840957641
+    }
+  ],
+  "targetWorldSpan": 35.67417840957641,
+  "reference": "Federation custom MK II collector at half its previous rendered size",
+  "duplicateFix": {
+    "canonical": "odf/ships/ffreight.odf",
+    "shadow": "odf/other/ffreight.odf",
+    "reason": "Shadow ODF contains original model and lacks myu000 refit ability; both paths now have identical canonical contents.",
+    "runtimeVerified": false
+  },
+  "sensor": {
+    "unit": "fsensor",
+    "sizeMultiplier": 2.5,
+    "fields": {
+      "ScaleSOD": 0.625,
+      "footprintBuffer": 25.0
+    }
+  },
+  "files": [
+    {
+      "file": "odf/ships/ffreight.odf",
+      "sourceHash": "d3f2e3881f3f1a4993150f44389e1664ba271b328bf79d07fd80b0029d8eca12",
+      "stagedHash": "25feccb5dd2e64e73412430b618402be2c7e8615693f255b554280f0c000beb1"
+    },
+    {
+      "file": "odf/ships/8472_collector.odf",
+      "sourceHash": "7cb86ae74e5e0acc80bee8123edc470b5e8d77334251304a96d04379f44ff5b6",
+      "stagedHash": "50cb0f6a3d6b64fac168d8205406e6f0b7f4fc85ca4f970429ed8a68cc88ca38"
+    },
+    {
+      "file": "odf/ships/bfreight.odf",
+      "sourceHash": "03588a9e7c49cc4035404e8b9db45807a8493ffe90d3b02302b76c37d2043f88",
+      "stagedHash": "0e0dbd00b83945044efe106e7a29de2188d1aa58c30b782090125aa9136a6695"
+    },
+    {
+      "file": "odf/ships/bjfreight.odf",
+      "sourceHash": "50b89e87acf28f803281fa34fca48b22292b6a6da311ef10dec6d1c67fddf2b3",
+      "stagedHash": "b734fed29744dcbbbb7105ab5cc5ec80eb8f77e8253748451e393e757e152607"
+    },
+    {
+      "file": "odf/ships/brfreight.odf",
+      "sourceHash": "ab4356a20dbe53d53230543d040ba6377cc4b5d1b3da1e9b3e3b0d422abf0952",
+      "stagedHash": "f75b54c6e7bba7b2846b73772f3de04a2204410b43039229f2d4bf5033f5a297"
+    },
+    {
+      "file": "odf/ships/cfreight.odf",
+      "sourceHash": "82cbbf890d1415e42a3e77a5761f24b46952a29c0c866e3cd7af2405c8aae7be",
+      "stagedHash": "f42a1924c3dbb5926e1e5ba3d6eec3a50f6f9bcb06c533dd15bab4872d1ff35d"
+    },
+    {
+      "file": "odf/ships/dfreight.odf",
+      "sourceHash": "8fe68f7ab2265880784eb9d8e22589907f4dad336f68814e31b7724dd20695bf",
+      "stagedHash": "963aad2dfba41b3efac7a09f1a522154c215f2dd02a8ceeddbb43db8937ad0d1"
+    },
+    {
+      "file": "odf/ships/kfreight.odf",
+      "sourceHash": "12510b5025fe96ddbf20c16326c1108f5bcc264b282ee9631ddd1d97fba6551d",
+      "stagedHash": "fa3acc25121f880de8a45228fed00a37864ef623a42d6b42206e62fc358c516c"
+    },
+    {
+      "file": "odf/ships/mybjminer1.odf",
+      "sourceHash": "f39b258ac2ccbfb96f4d0e0ff6699156c21fe8185cd3d1f006182a0cc3efb17d",
+      "stagedHash": "9bf6bf07adbc009fea799bca04f991eca1bd0c9da8750788ad2ac7e8461c71fa"
+    },
+    {
+      "file": "odf/ships/mybjminer2.odf",
+      "sourceHash": "414c7f0a12c6243f7e19ba9560e6ceb51ea0d2d7279323ea0fb04d294460217b",
+      "stagedHash": "dd11ff23ba1ede6a0dac650db599a75579a52c394235d3b7f0337afdae51f26f"
+    },
+    {
+      "file": "odf/ships/mybminer1.odf",
+      "sourceHash": "e39655780ce92100b82295eafb020e67f91a5cbd32b93fed0abb62476c4296e9",
+      "stagedHash": "53b7922204b6933ff402f8f62064e96b856dc2246a004b215b285feeb9cdd2cd"
+    },
+    {
+      "file": "odf/ships/mybminer2.odf",
+      "sourceHash": "4cf3ef70a84608096903823da42c2b9087c8dcb08b44e2b64ec2ea971b8cfed0",
+      "stagedHash": "311fd3279f477ece359c6ccd4b76acf3f28c57d83bca162d7df61f829eea9041"
+    },
+    {
+      "file": "odf/ships/mybrminer1.odf",
+      "sourceHash": "5b06038d9d0d70a6c7afc5a92ff47fac4a1a219ae30c0490b63fc7b236bcf3f3",
+      "stagedHash": "067b6d6bb5c27e54cd8a8e13908b6b37265d9e764dcc22046dbdc22b8ca6133b"
+    },
+    {
+      "file": "odf/ships/mybrminer2.odf",
+      "sourceHash": "55f4fd553bf7e6f934736d9b5bb253295958c4988bb0e39cdd63c1edd64566a5",
+      "stagedHash": "f893442ac48fc401c5eb92916732ec8dc707fe05ac14eece3c5ad511813376f5"
+    },
+    {
+      "file": "odf/ships/mycminer1.odf",
+      "sourceHash": "cdf3add1a01adc2b2f77eef9081fde452620520967e0335b8cfa43ccac148119",
+      "stagedHash": "1e9da36aaf7d8f6e95f479c990f4afbfd3cc45af0fb783603f67a9f6d0f2e67b"
+    },
+    {
+      "file": "odf/ships/mycminer2.odf",
+      "sourceHash": "376459ff03d6a43f25f3c652d23a6f50015cb5fae34aca5d534693eb6f8a3174",
+      "stagedHash": "2e3195c733805c99c7b65bd6fd87c351c74e8e1a1115afaf3de96ea17cd7bf7e"
+    },
+    {
+      "file": "odf/ships/mydminer1.odf",
+      "sourceHash": "d855b37ecea0059916901a8499091ff45d8a5862ee3426afff0c2cf8955a96fb",
+      "stagedHash": "ee199c5f975b29d9d479e0852f69073d4e2bca25ff1dffa1d4c8408cbfac258a"
+    },
+    {
+      "file": "odf/ships/mydminer2.odf",
+      "sourceHash": "14a9fe7f6772faf675c803c107bc71aa7dec2ad07c370d03ddadf486715771b3",
+      "stagedHash": "dd4e4692281950702e48828847d1aa98b30fe46da74dceeed3854774a9438ace"
+    },
+    {
+      "file": "odf/ships/myfminer1.odf",
+      "sourceHash": "19c69d5eea2928225b440ce1d057ec5c8fc6856975ee7f9d45d4e09c3c49c1cf",
+      "stagedHash": "9d90becaf3d0c5f931c6208b2155927c13ea8c6628e3fc45802e933c55758c2b"
+    },
+    {
+      "file": "odf/ships/myfminer2.odf",
+      "sourceHash": "cf700b3894197aff6f427cc759c43f48440846c98113ec0b6f26a6dc47ae3c1c",
+      "stagedHash": "cb5881365ba1f506dd31b7f843f380b123f3514703ab98445a8b158165e277ac"
+    },
+    {
+      "file": "odf/ships/mykminer1.odf",
+      "sourceHash": "5245ddf1487b1974d934316679cac9694f0747d40bc2c41da332251c865f541b",
+      "stagedHash": "efd8a67506fd015c4f571379012bc0086b836e966cc23031871982500e5a259c"
+    },
+    {
+      "file": "odf/ships/mykminer2.odf",
+      "sourceHash": "b767df4585b3142af84553ee19b1c9ab018b79ac203afea6a8ac41fa0c28ecac",
+      "stagedHash": "9d1e826fa195aae260a815302863cb5570f38f8abeccc6a52fc431c2d2cf1666"
+    },
+    {
+      "file": "odf/ships/myrminer1.odf",
+      "sourceHash": "b1d2a2551aace0605bbaacaa14168a7d52d97b6d6fcfb8abe32334e82bf0a36e",
+      "stagedHash": "09c20caae1b4eedc8f3fbaedf796ef2125f5a9258fb05120e96a588f3a31ccc3"
+    },
+    {
+      "file": "odf/ships/myrminer2.odf",
+      "sourceHash": "55769be33ecb901d41df8e1e0719106c55d73f0a25eeb350e801db65184ee9ff",
+      "stagedHash": "0dea770d2e9231377f5de475557ed937e7de776c6af0de0148f69da7675ea043"
+    },
+    {
+      "file": "odf/ships/rfreight.odf",
+      "sourceHash": "02b8c350800973259082f03c37b01cd694ef8ac8882baec752560afead9d4c48",
+      "stagedHash": "baa7c3b73b5c0b06f8c2878016187c766a9d1ac0213da5480f69aeadb111cbc4"
+    },
+    {
+      "file": "odf/ships/xbgdil2.odf",
+      "sourceHash": "d57ba6fc0d1db0cd784e833f33188de6527275caae3b58929bf079eab5f48b9b",
+      "stagedHash": "0bb0556849ede61c05e87de066c559444ce60b6ff9d80040bd11bcc6992b90db"
+    },
+    {
+      "file": "odf/ships/xbgdil3.odf",
+      "sourceHash": "a3c8c4c0dd68ed3b34becce0c01b80cbec045a68b100e56a4a26e0d075d13708",
+      "stagedHash": "fe868de009f008afeb374a3b8a0f12c7e1861b0807ddf14b8e4bca4743f632ab"
+    },
+    {
+      "file": "odf/ships/xbgmine.odf",
+      "sourceHash": "903713f15965c7c20a7b6c2da5422540e4851e0c4bd9e9b21292ca0c6900b321",
+      "stagedHash": "d25289072973abd0e8a6be6c2d8cdca2f0c4a41353606dd5c52489f6f3f73d1c"
+    },
+    {
+      "file": "odf/ships/xbgmnr1.odf",
+      "sourceHash": "e13fdd8c6ea9f824396b5fec3db9f435e4c6ce6ccc24ba64cc0920e73aa3ac69",
+      "stagedHash": "851c7f5efae55f99a1164579364e68a3f8df1656f91a5006e82561e25a96f688"
+    },
+    {
+      "file": "odf/ships/xbgmnr2.odf",
+      "sourceHash": "d2b5bb2aad620ae63a66bda2ad59d42b68e1dacb0a3921c03798ed20573b4437",
+      "stagedHash": "7a4502083db6eb7ddaa5e760b766d3d77de0f9c8b9aacd3242cb9cb2ad5de31f"
+    },
+    {
+      "file": "odf/ships/xdominer.odf",
+      "sourceHash": "b35049c9b3993bc6e5bdb6b8558e4de2097853ca160de08ca26a7aacdd7bb8dc",
+      "stagedHash": "959345249e1f60af22c707cc4c8f2638c37e226d55d560e27848368628eeef96"
+    },
+    {
+      "file": "odf/ships/xfgdil2.odf",
+      "sourceHash": "3cfcc6a202dd67e6257b83d1a6095f18482ad0bdb769c194ca33d3032933c062",
+      "stagedHash": "67be11ae345f8f168e46cca79105147fb3892617b88a8839cee571ae7a9f2670"
+    },
+    {
+      "file": "odf/ships/xfgdil3.odf",
+      "sourceHash": "4ea6b65f00bd7d1df345f5a2b772e2bed8a4125b3187ec23a7bd0d48cad7bae0",
+      "stagedHash": "68fd8388b122da95338e493dbe17869c533a04c02b2f66ccd79f8f4b4f97a178"
+    },
+    {
+      "file": "odf/ships/xfgmine.odf",
+      "sourceHash": "49ef0a6ab004e978a2c5157cac31f147b15a7cafe219fc58e4cf47338539f669",
+      "stagedHash": "3c45846445359c1a73e8afab96386f550b42b05845678255497aa62004950cc8"
+    },
+    {
+      "file": "odf/ships/xfgmnr1.odf",
+      "sourceHash": "1cec07c5d60c2dcac15cb2daac60fb8ec818915c87b4f96614b6760d04b4a567",
+      "stagedHash": "5e7c05f6bbc2a434702c9b91b62677f8b58e7eca8eac2fc083cf930c6b73a959"
+    },
+    {
+      "file": "odf/ships/xfgmnr2.odf",
+      "sourceHash": "3f2fab1afcfad84eb23415920352020dc868ef55d3bfa738cbce279364b3b998",
+      "stagedHash": "f5f13a8593af8bc9a2564037ecab04a20e78bf29ef03c1e495cc81b20a2a92f7"
+    },
+    {
+      "file": "odf/ships/xsbcol1.odf",
+      "sourceHash": "106e5a0f2f589467b8988cd8990b0fa0355b5be8ad57f5c5141492d88eab04b7",
+      "stagedHash": "c6a7cf709931182e320d9565d2bbfd9817ea305bf05e9848cd08ce709440fb1f"
+    },
+    {
+      "file": "odf/ships/xsbcol2.odf",
+      "sourceHash": "8b24eeca8509d22473c1179b2758fde75330543ba714bad6f4f90908eb5fc6b0",
+      "stagedHash": "482228bd710375444518b2ab65a62c137381101a4c173bd6b8809a0e17c3937a"
+    },
+    {
+      "file": "odf/other/ffreight.odf",
+      "sourceHash": "a7e976fa4a65372eeb8795f1c7058973fc8d0ac2c9f99ecf4f2c93b519e23fa1",
+      "stagedHash": "25feccb5dd2e64e73412430b618402be2c7e8615693f255b554280f0c000beb1"
+    },
+    {
+      "file": "odf/stations/fsensor.odf",
+      "sourceHash": "36abe20b8c0c7b7db6c911524287e0fa685cf336c9d53593ff960a0204ac69c4",
+      "stagedHash": "a1f3dec798f086726083d401cd53b488b0a30a66b795f6ce1004d999ab1cb587"
+    }
+  ],
+  "checks": 124,
+  "runtimeVerified": false,
+  "backup": "D:\\Xaramada-Modwork\\backups\\collector-size-and-duplicate-20261025-144807",
+  "canonicalGameplayStatsUnchanged": true,
+  "legacyShadowReplacedWithCanonical": true
+}
