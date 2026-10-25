@@ -6,7 +6,7 @@
 race = "federation"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Data Miner"
+
 
 //tooltips
 
@@ -91,9 +91,9 @@ buildTime = 40
 
 
 
-tooltip = "Resource Miner (Data Miner)"
 
-verboseTooltip = "Collects resources and delivers them to compatible processing facilities. Starfleet engineering supports a disciplined, versatile fleet."
+
+
 
 dilithiumCost = 175
 
@@ -102,3 +102,9 @@ metalCost = 0
 latinumCost = 0
 
 biomatterCost = 0
+
+unitName = "Starfleet Data Miner"
+
+tooltip = "Starfleet Data Miner"
+
+verboseTooltip = "Starfleet service. Extracts dilithium and supports the faction economy."

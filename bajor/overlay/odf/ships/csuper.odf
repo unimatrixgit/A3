@@ -1,7 +1,7 @@
 #include "special.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Dreadnought Missile"
+
 
 //tooltips
 
@@ -170,11 +170,17 @@ criticaltargethardpoints = "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
 
 
 
-tooltip = "Support Ship (Dreadnought Missile)"
 
-verboseTooltip = "Provides specialist support for fleet operations. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: , hidden, requires none., Cloak. Availability follows the selected technology tree."
+
+
 dilithiumcost = 455
 metalcost = 155
 latinumcost = 0
 biomattercost = 0
 crewCost = 0
+
+unitName = "Cardassian Dreadnought Missile"
+
+tooltip = "Cardassian Dreadnought Missile"
+
+verboseTooltip = "Cardassian service. Serves as a special. Armament: 2 standard weapon banks. Abilities: ', hidden, requires none., Cloak. Special energy: 2200."

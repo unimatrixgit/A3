@@ -4,7 +4,7 @@
 race = "borg"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Level 2 Shields Pod"
+
 
 //tooltips
 
@@ -41,6 +41,12 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Research Upgrade (Level 2 Shields Pod)"
 
-verboseTooltip = "Researches Level 2 Shields Pod. Collective engineering integrates this asset into the unimatrix."
+
+
+
+unitName = "Collective Level 2 Shields Pod"
+
+tooltip = "Collective Level 2 Shields Pod"
+
+verboseTooltip = "Collective service. Unlocks its assigned research upgrade."

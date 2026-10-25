@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitname = "Bajoran Advanced Research Institute"
+
 
 //tooltips
 
@@ -134,9 +134,9 @@ latinumCost = 625
 
 biomatterCost = 0
 
-tooltip = "Research Facility (Bajoran Advanced Research Institute)"
 
-verboseTooltip = "Supports the technologies and upgrades available in its research menu. Bajoran militia engineering protects Bajor and its neighboring systems."
+
+
 
 
 
@@ -152,3 +152,9 @@ buildItem1 = "bjpod7"
 buildItem2 = "bjpod8"
 
 buildItem3 = "bjpod9"
+
+unitName = "Bajoran Advanced Research Institute"
+
+tooltip = "Bajoran Advanced Research Institute"
+
+verboseTooltip = "Bajoran service. Develops the technologies listed in its research menu."

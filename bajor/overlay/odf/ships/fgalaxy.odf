@@ -1,7 +1,7 @@
 #include "battle2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Galaxy Class"
+
 
 //tooltips
 
@@ -144,11 +144,17 @@ buildTime = 30
 
 
 
-tooltip = "Capital Ship (Galaxy Class)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Galaxy Class Separation. Availability follows the selected technology tree."
+
+
 dilithiumcost = 250
 metalcost = 110
 latinumcost = 0
 biomattercost = 0
 crewCost = 565
+
+unitName = "Starfleet Galaxy Class"
+
+tooltip = "Starfleet Galaxy Class"
+
+verboseTooltip = "Starfleet service. Serves as a battleship. Armament: 2 standard weapon banks. Abilities: Galaxy Class Separation. Special energy: 0."

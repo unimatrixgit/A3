@@ -1,7 +1,7 @@
 #include "battle.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "IG Hu'Tegh Class"
+
 
 //tooltips
 
@@ -138,9 +138,9 @@ weaponHardpoints6 = "hp01"
 
 
 
-tooltip = "Capital Ship (IG Hu'Tegh Class)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak, Ion Cannon. Availability follows the selected technology tree."
+
+
 weapon5 = "gkcloak"
 weapon4 = "gselfdes"
 dilithiumcost = 345
@@ -148,3 +148,9 @@ metalcost = 150
 latinumcost = 0
 biomattercost = 0
 crewCost = 665
+
+unitName = "Klingon IG Hu'Tegh Class"
+
+tooltip = "Klingon IG Hu'Tegh Class"
+
+verboseTooltip = "Klingon service. Serves as a battleship. Armament: 3 standard weapon banks. Abilities: Self Destruct, Cloak, Ion Cannon. Special energy: 2400."

@@ -189,7 +189,7 @@ maximumCrew = 500
 
 
 
-baseName = "xfgserv"
+
 
 
 
@@ -235,11 +235,11 @@ biomatterCost = 0
 
 
 
-unitName = "Mercenary Ferengi Metal Orbital II"
 
-tooltip = "Ferengi Met Equipment II"
 
-verboseTooltip = "Tier-II resource equipment: twice the base Ferengi extraction rate. Research required."
+
+
+
 
 latinumCost = 0
 
@@ -248,3 +248,11 @@ dilithiumCost = 300
 metalCost = 200
 
 miningMultiplier = 1.2
+
+unitName = "Collective Mercenary Ferengi Metal Orbital II"
+
+tooltip = "Collective Mercenary Ferengi Metal Orbital II"
+
+verboseTooltip = "Collective service. Processes orbital metal resources. Abilities: Orbital Mining Beam. Special energy: 0."
+
+baseName = "xui_xbgmetal3"

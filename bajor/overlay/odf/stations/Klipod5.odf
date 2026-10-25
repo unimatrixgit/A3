@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Detection Grid Pod"
+
 
 //tooltips
 
@@ -58,6 +58,12 @@ latinumCost = 150
 
 biomatterCost = 0
 
-tooltip = "Research Upgrade (Detection Grid Pod)"
 
-verboseTooltip = "Researches Detection Grid Pod. Klingon engineering serves the Empire with direct, relentless force."
+
+
+
+unitName = "Klingon Detection Grid Pod"
+
+tooltip = "Klingon Detection Grid Pod"
+
+verboseTooltip = "Klingon service. Unlocks its assigned research upgrade."

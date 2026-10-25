@@ -14,15 +14,15 @@ hullTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04" "hp06"
 
 criticalTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04" "hp06"
 
-baseName = "xfgdaim"
+
 
 race = "ferengi"
 
-unitName = "Mercenary Ferengi DaiMon Assault Ship"
 
-tooltip = "Mercenary Ferengi DaiMon Assault Ship"
 
-verboseTooltip = "Heavy Ferengi assault vessel with four disruptor beams, three photon torpedo launchers and an Ultritium Burst."
+
+
+
 
 maxHealth = 3000
 
@@ -97,3 +97,11 @@ weaponHardpoints7 = "hp16"
 weapon8 = "xfgultri"
 
 weaponHardpoints8 = "hp15"
+
+unitName = "Ferengi Mercenary Ferengi DaiMon Assault Ship"
+
+tooltip = "Ferengi Mercenary Ferengi DaiMon Assault Ship"
+
+verboseTooltip = "Ferengi service. Serves as a cruiser. Armament: 7 standard weapon banks. Abilities: DaiMon Ultritium Burst. Special energy: 1600."
+
+baseName = "xui_xfgdaim"

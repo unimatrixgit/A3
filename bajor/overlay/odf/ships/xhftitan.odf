@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-unitname = "William T Riker - USS Titan"
+
 label = "William T Riker - USS Titan"
 race = "federation"
 basename = "xhftitan"
@@ -73,8 +73,8 @@ eventgreenalert = "XV_fentdx_GreenAlert"
 eventtransport = "XV_fentdx_Transport"
 eventselfdestruct = "XV_fentdx_SelfDestruct"
 eventdecommission = "XV_fentdx_Decommission"
-tooltip = "Hero Ship (William T Riker - USS Titan)"
-verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Tractor Beam. Availability follows the selected technology tree."
+
+
 dilithiumcost = 420
 metalcost = 180
 latinumcost = 0
@@ -126,3 +126,9 @@ weaponHardpoints6 = "hp06"
 maxspecialenergy = 2500
 
 specialenergyrate = 25
+
+unitName = "William T Riker - USS Titan"
+
+tooltip = "William T Riker - USS Titan"
+
+verboseTooltip = "Starfleet service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Self Destruct, Tractor Beam. Special energy: 2500."

@@ -1,5 +1,5 @@
 #include "fgalaxy.odf"
-unitName = "Omega Galaxy Class"
+
 
 
 baseName = "fgalaxy"
@@ -34,11 +34,17 @@ buildTime = 14
 
 
 
-tooltip = "Capital Ship (Omega Galaxy Class)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Galaxy Class Separation. Availability follows the selected technology tree."
+
+
 dilithiumcost = 320
 metalcost = 135
 latinumcost = 0
 biomattercost = 0
 crewCost = 640
+
+unitName = "Starfleet Omega Galaxy Class"
+
+tooltip = "Starfleet Omega Galaxy Class"
+
+verboseTooltip = "Starfleet service. Serves as a battleship. Armament: 2 standard weapon banks. Abilities: Galaxy Class Separation. Special energy: 1500."

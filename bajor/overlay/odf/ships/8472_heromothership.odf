@@ -40,7 +40,7 @@ has_crew = 1
 has_hitpoints = 1
 checkvalidresourceinterval = 10.0f
 race = "species8472"
-unitname = "Rift Maker"
+
 recyclesinplace = 1
 ishero = 1
 maxhealth = 11296
@@ -90,8 +90,8 @@ eventgreenalert = "XV_8472_heromothership_GreenAlert"
 eventtransport = "XV_8472_heromothership_Transport"
 eventselfdestruct = "XV_8472_heromothership_SelfDestruct"
 eventdecommission = "XV_8472_heromothership_Decommission"
-tooltip = "Hero Ship (Rift Maker)"
-verbosetooltip = "A named command vessel serving the Species 8472 fleet. Living biotechnology shapes this organism for operations beyond fluidic space."
+
+
 dilithiumcost = 0
 metalcost = 0
 latinumcost = 0
@@ -175,3 +175,9 @@ buildItem1 = "8472_passive"
 buildItem2 = "714const"
 
 buildItem3 = "xsuconst"
+
+unitName = "Rift Maker - Nucleic"
+
+tooltip = "Rift Maker - Nucleic"
+
+verboseTooltip = "Fluidic service. Hero vessel with its own command abilities. Armament: 10 standard weapon banks."

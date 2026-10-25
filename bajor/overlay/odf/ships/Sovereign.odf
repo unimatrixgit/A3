@@ -1,4 +1,4 @@
-unitname = "Sovereign Class"
+
 race = "federation"
 maxhealth = 3000
 shieldgeneratorhitpoints = 20
@@ -64,7 +64,7 @@ has_crew = 1
 transporter = 1
 show_movement_autonomy = 1
 can_explore = 1
-basename = "fbattle"
+
 officercost = 7
 buildtime = 80
 eventselect = "XV_sovereign_Select"
@@ -79,8 +79,8 @@ eventgreenalert = "XV_sovereign_GreenAlert"
 eventtransport = "XV_sovereign_Transport"
 eventselfdestruct = "XV_sovereign_SelfDestruct"
 eventdecommission = "XV_sovereign_Decommission"
-tooltip = "Hero Ship (Sovereign Class)"
-verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+
+
 dilithiumcost = 365
 metalcost = 160
 latinumcost = 0
@@ -132,3 +132,11 @@ weaponHardpoints6 = "hp03"
 maxspecialenergy = 1000
 
 specialenergyrate = 21
+
+unitName = "Sovereign Class - Venture"
+
+tooltip = "Sovereign Class - Venture"
+
+verboseTooltip = "Starfleet service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Corbomite Reflector, Self Destruct. Special energy: 1000."
+
+baseName = "xui_sovereign"

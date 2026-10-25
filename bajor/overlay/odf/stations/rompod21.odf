@@ -1,7 +1,7 @@
 #include "WeaponUpgradePod2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Level 3 Weapons Pod"
+
 
 //Race which can build ship & starting race of ship
 race = "romulan"
@@ -52,6 +52,12 @@ latinumCost = 300
 
 biomatterCost = 0
 
-tooltip = "Research Upgrade (Level 3 Weapons Pod)"
 
-verboseTooltip = "Researches Level 3 Weapons Pod. Romulan engineering favors calculated strikes and control of the battlefield."
+
+
+
+unitName = "Romulan Level 3 Weapons Pod"
+
+tooltip = "Romulan Level 3 Weapons Pod"
+
+verboseTooltip = "Romulan service. Unlocks its assigned research upgrade."

@@ -1,7 +1,7 @@
 #include "cruise1.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Centaur Class"
+
 
 
 
@@ -117,11 +117,17 @@ maxSpecialEnergy = 1200
 
 
 
-tooltip = "Cruiser (Centaur Class)"
 
-verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Chain Reaction Pulsar. Availability follows the selected technology tree."
+
+
 dilithiumcost = 170
 metalcost = 60
 latinumcost = 0
 biomattercost = 0
 crewCost = 175
+
+unitName = "Starfleet Centaur Class"
+
+tooltip = "Starfleet Centaur Class"
+
+verboseTooltip = "Starfleet service. Serves as a cruiser. Armament: 3 standard weapon banks. Abilities: Chain Reaction Pulsar. Special energy: 1200."

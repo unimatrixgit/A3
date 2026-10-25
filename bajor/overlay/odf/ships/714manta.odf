@@ -1,7 +1,7 @@
 #include "scoutbase.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Manta Class"
+
 
 //tooltips
 
@@ -140,11 +140,17 @@ weaponHardpoints4 = "hp01"
 
 
 
-tooltip = "Scout (Manta Class)"
 
-verboseTooltip = "Surveys space and locates threats ahead of the fleet. Living biotechnology shapes this organism for operations beyond fluidic space. Special systems: Clairvoyance. Availability follows the selected technology tree."
+
+
 dilithiumcost = 0
 metalcost = 0
 latinumcost = 0
 biomattercost = 190
 crewCost = 0
+
+unitName = "Fluidic Manta Class"
+
+tooltip = "Fluidic Manta Class"
+
+verboseTooltip = "Fluidic service. Serves as a scout. Armament: 3 standard weapon banks. Abilities: Clairvoyance. Special energy: 2700."

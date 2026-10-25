@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitname = "Bajoran Tachyon Detection"
+
 
 //tooltips
 
@@ -93,8 +93,14 @@ latinumCost = 150
 
 biomatterCost = 0
 
-tooltip = "Research Upgrade (Bajoran Tachyon Detection)"
 
-verboseTooltip = "Researches Bajoran Tachyon Detection. Bajoran militia engineering protects Bajor and its neighboring systems."
+
+
 
 baseName = "bv4_bjpod5"
+
+unitName = "Bajoran Tachyon Detection"
+
+tooltip = "Bajoran Tachyon Detection"
+
+verboseTooltip = "Bajoran service. Unlocks its assigned research upgrade."

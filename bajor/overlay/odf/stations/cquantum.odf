@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Quantum Facility"
+
 
 //tooltips
 
@@ -166,9 +166,9 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Starbase (Quantum Facility)"
 
-verboseTooltip = "A fortified center for fleet operations and local production. Cardassian engineering sustains the Union through ordered, persistent operations."
+
+
 
 repairFacility = 0
 
@@ -177,3 +177,9 @@ buildItem0 = "cconst"
 buildItem1 = "xcconst2"
 
 buildItem2 = "xcuconst"
+
+unitName = "Cardassian Quantum Facility"
+
+tooltip = "Cardassian Quantum Facility"
+
+verboseTooltip = "Cardassian service. Anchors the fleet and produces the units shown in its build menu. Armament: 1 standard weapon banks."

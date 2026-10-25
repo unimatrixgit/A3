@@ -62,10 +62,10 @@ buildhardpoint = "hp28"
 weaponyellow = 1.0f
 weaponred = 2.0f
 builder_ship = 1
-unitname = "La'aans Cruiser"
+
 label = "La'aans Cruiser"
-tooltip = "Hero Ship (La'aans Cruiser)"
-verbosetooltip = "Dominion command hero. Built at the Founders Command Yard; special abilities require Dominion research."
+
+
 basename = "xhdlaan"
 race = "dominion"
 ishero = 1
@@ -147,3 +147,9 @@ weaponHardpoints8 = "hp08"
 maxspecialenergy = 1600
 
 specialenergyrate = 16
+
+unitName = "La'aans Cruiser"
+
+tooltip = "La'aans Cruiser"
+
+verboseTooltip = "Dominion service. Hero vessel with its own command abilities. Armament: 6 standard weapon banks. Abilities: Polaron Torpedo, Changling Spy. Special energy: 1600."

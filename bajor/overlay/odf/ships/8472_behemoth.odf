@@ -1,7 +1,7 @@
 #include "battle.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Behemoth"
+
 
 //tooltips
 
@@ -131,11 +131,17 @@ buildTime = 45
 
 
 
-tooltip = "Capital Ship (Behemoth)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Living biotechnology shapes this organism for operations beyond fluidic space. Special systems: 8472 Nebula Generation, 8472 Nebula Flux, 8472 Transient Rift. Availability follows the selected technology tree."
+
+
 dilithiumcost = 0
 metalcost = 0
 latinumcost = 0
 biomattercost = 1080
 crewCost = 0
+
+unitName = "Fluidic Behemoth"
+
+tooltip = "Fluidic Behemoth"
+
+verboseTooltip = "Fluidic service. Serves as a battleship. Armament: 1 standard weapon banks. Abilities: 8472 Nebula Generation, 8472 Nebula Flux, 8472 Transient Rift. Special energy: 6800."

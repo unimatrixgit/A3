@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-unitname = "Sela - Warbird"
+
 race = "romulan"
 maxhealth = 3620
 sanecrewlossmethod = 1
@@ -91,8 +91,8 @@ weaponred = 2.0f
 hotkeylabel = "HOTKEY_F4"
 officercost = 16
 buildtime = 60
-tooltip = "Hero Ship (Sela - Warbird)"
-verbosetooltip = "A named command vessel serving the Romulan fleet. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Shield Inversion Beam. Availability follows the selected technology tree."
+
+
 
 dilithiumcost = 880
 metalcost = 380
@@ -169,3 +169,9 @@ weaponHardpoints11 = "hp02"
 maxspecialenergy = 1600
 
 specialenergyrate = 16
+
+unitName = "Sela - Warbird"
+
+tooltip = "Sela - Warbird"
+
+verboseTooltip = "Romulan service. Hero vessel with its own command abilities. Armament: 8 standard weapon banks. Abilities: Cloak, Shield Inversion Beam, Self Destruct. Special energy: 1600."

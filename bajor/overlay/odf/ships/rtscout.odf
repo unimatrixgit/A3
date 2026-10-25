@@ -1,7 +1,7 @@
 #include "scoutBase.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "D'Dara Class"
+
 
 //tooltips
 
@@ -148,11 +148,17 @@ ScaleSOD = 1.5
 
 
 
-tooltip = "Scout (D'Dara Class)"
 
-verboseTooltip = "Surveys space and locates threats ahead of the fleet. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Romulan Spy. Availability follows the selected technology tree."
+
+
 dilithiumcost = 615
 metalcost = 0
 latinumcost = 0
 biomattercost = 0
 crewCost = 85
+
+unitName = "Romulan D'Dara Class"
+
+tooltip = "Romulan D'Dara Class"
+
+verboseTooltip = "Romulan service. Serves as a scout. Armament: 6 standard weapon banks. Abilities: Detect Cloak, Cloak, Romulan Spy. Special energy: 2400."

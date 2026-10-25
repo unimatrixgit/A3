@@ -1,7 +1,7 @@
 #include "battle.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Deimos Class"
+
 
 //tooltips
 
@@ -133,11 +133,17 @@ weaponHardpoints4 = "hp01"
 
 
 
-tooltip = "Capital Ship (Deimos Class)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+
+
 dilithiumcost = 330
 metalcost = 145
 latinumcost = 0
 biomattercost = 0
 crewCost = 650
+
+unitName = "Starfleet Deimos Class"
+
+tooltip = "Starfleet Deimos Class"
+
+verboseTooltip = "Starfleet service. Serves as a battleship. Armament: 3 standard weapon banks. Abilities: Corbomite Reflector. Special energy: 1000."

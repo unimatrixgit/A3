@@ -1,7 +1,7 @@
 #include "battle2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Qeh'Ral Class"
+
 
 //tooltips
 
@@ -138,9 +138,9 @@ specialEnergyRate = 14.0
 
 
 
-tooltip = "Capital Ship (Qeh'Ral Class)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak, Ion Cannon. Availability follows the selected technology tree."
+
+
 weapon3 = "gkcloak"
 weapon4 = "gselfdes"
 dilithiumcost = 435
@@ -148,3 +148,9 @@ metalcost = 185
 latinumcost = 0
 biomattercost = 0
 crewCost = 745
+
+unitName = "Klingon Qeh'Ral Class"
+
+tooltip = "Klingon Qeh'Ral Class"
+
+verboseTooltip = "Klingon service. Serves as a battleship. Armament: 2 standard weapon banks. Abilities: Cloak, Self Destruct, Ion Cannon. Special energy: 1400."

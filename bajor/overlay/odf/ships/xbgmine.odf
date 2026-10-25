@@ -7,13 +7,13 @@ sensorsTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
 hullTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
 criticalTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
 
-baseName = "xfgmine"
 
 
 
-unitName = "Mercenary Ferengi Mining Collector"
 
-tooltip = "Mercenary Ferengi Mining Collector"
+
+
+
 
 
 
@@ -77,7 +77,7 @@ latinumCost = 0
 
 biomatterCost = 0
 
-verboseTooltip = "Borg contract paid in dilithium and metal. Ferengi mining collector. Contracted at the Ferengi Service Yard for dilithium and metal."
+
 
 weapon1 = "xfgminedil"
 weaponHardpoints1 = "hp01"
@@ -85,3 +85,11 @@ weaponHardpoints1 = "hp01"
 resourcesCanHandle = "dilithium"
 
 maxLatinum = 0
+
+unitName = "Collective Mercenary Ferengi Mining Collector"
+
+tooltip = "Collective Mercenary Ferengi Mining Collector"
+
+verboseTooltip = "Collective service. Extracts dilithium and supports the faction economy. Abilities: Mining Beam. Special energy: 0."
+
+baseName = "xui_xbgmine"

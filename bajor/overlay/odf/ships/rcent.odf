@@ -1,7 +1,7 @@
 #include "destroy.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Centurion Class"
+
 
 //tooltips
 
@@ -133,11 +133,17 @@ weaponHardpoints4 = "hp01"
 
 
 
-tooltip = "Attack Ship (Centurion Class)"
 
-verboseTooltip = "A light combat ship for interception and fleet support. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Romulan Spy. Availability follows the selected technology tree."
+
+
 dilithiumcost = 190
 metalcost = 45
 latinumcost = 0
 biomattercost = 0
 crewCost = 90
+
+unitName = "Romulan Centurion Class"
+
+tooltip = "Romulan Centurion Class"
+
+verboseTooltip = "Romulan service. Serves as a destroyer. Armament: 2 standard weapon banks. Abilities: Cloak, Romulan Spy. Special energy: 2400."

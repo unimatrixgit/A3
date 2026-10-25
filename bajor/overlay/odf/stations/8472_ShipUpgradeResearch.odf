@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Metogenesis Core"
+
 
 //tooltips
 
@@ -102,6 +102,12 @@ latinumCost = 0
 
 biomatterCost = 1250
 
-tooltip = "Research Facility (Metogenesis Core)"
 
-verboseTooltip = "Supports the technologies and upgrades available in its research menu. Living biotechnology shapes this organism for operations beyond fluidic space."
+
+
+
+unitName = "Fluidic Metogenesis Core"
+
+tooltip = "Fluidic Metogenesis Core"
+
+verboseTooltip = "Fluidic service. Develops the technologies listed in its research menu."

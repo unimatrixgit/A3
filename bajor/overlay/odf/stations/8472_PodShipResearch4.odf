@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Level 2 Engines Pod"
+
 
 //tooltips
 
@@ -41,6 +41,12 @@ crewCost = 0
 officerCost = 1
 buildTime = 120
 
-tooltip = "Research Upgrade (Level 2 Engines Pod)"
 
-verboseTooltip = "Researches Level 2 Engines Pod. Living biotechnology shapes this organism for operations beyond fluidic space."
+
+
+
+unitName = "Fluidic Level 2 Engines Pod"
+
+tooltip = "Fluidic Level 2 Engines Pod"
+
+verboseTooltip = "Fluidic service. Unlocks its assigned research upgrade."

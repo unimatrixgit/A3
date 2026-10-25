@@ -53,7 +53,7 @@ alert = 1
 can_sandd = 1
 shiptype = "C"
 race = "species8472"
-unitname = "Brood Sentinel"
+
 recyclesinplace = 1
 maxhealth = 3362
 combatspeed = 77
@@ -79,8 +79,8 @@ can_repair = 0
 officercost = 1
 buildtime = 60
 scalesod = 1.5
-tooltip = "Hero Ship (Brood Sentinel)"
-verbosetooltip = "A named command vessel serving the Species 8472 fleet. Living biotechnology shapes this organism for operations beyond fluidic space. Special systems: 8472 Bio-Pulse Conduit. Availability follows the selected technology tree."
+
+
 dilithiumcost = 0
 metalcost = 0
 latinumcost = 0
@@ -125,3 +125,9 @@ weaponHardpoints4 = "hp05"
 maxspecialenergy = 3100
 
 specialenergyrate = 31
+
+unitName = "Brood Sentinel"
+
+tooltip = "Brood Sentinel"
+
+verboseTooltip = "Fluidic service. Hero vessel with its own command abilities. Armament: 3 standard weapon banks. Abilities: 8472 Bio-Pulse Conduit. Special energy: 3100."

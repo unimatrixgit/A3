@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Advanced Shipyard"
+
 
 //tooltips
 
@@ -113,9 +113,9 @@ hulltargethardpoints = "hp13" "hp14" "hp15" "hp18" "hp23" "hp24" "hp25"
 
 criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp19" "hp21" "hp22"
 
-tooltip = "Shipyard (Advanced Shipyard)"
 
-verboseTooltip = "Produces the vessels listed in its construction menu. Cardassian engineering sustains the Union through ordered, persistent operations."
+
+
 
 
 
@@ -158,3 +158,9 @@ dilithiumCost = 300
 metalCost = 1000
 
 buildTime = 90
+
+unitName = "Cardassian Advanced Shipyard"
+
+tooltip = "Cardassian Advanced Shipyard"
+
+verboseTooltip = "Cardassian service. Constructs the vessels available in its production menu."

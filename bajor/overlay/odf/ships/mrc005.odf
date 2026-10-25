@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-unitname = "Mirror Keldon Class"
+
 ishero = 0
 label = "Kentar's Keldon"
 race = "cardassian"
@@ -81,7 +81,7 @@ eventgreenalert = "XV_ckentar_GreenAlert"
 eventtransport = "XV_ckentar_Transport"
 eventselfdestruct = "XV_ckentar_SelfDestruct"
 eventdecommission = "XV_ckentar_Decommission"
-tooltip = "Mirror Keldon Class"
+
 
 
 
@@ -115,4 +115,10 @@ buildTime = 106
 
 hotkeyLabel = "HOTKEY_F1"
 
-verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."
+
+
+unitName = "Cardassian Mirror Keldon Class"
+
+tooltip = "Cardassian Mirror Keldon Class"
+
+verboseTooltip = "Cardassian service. Controllable Mirror Universe counterpart, built through normal production. Armament: 4 standard weapon banks. Abilities: Self Destruct. Special energy: 2200."

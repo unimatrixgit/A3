@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Klingon HWP"
+
 
 //tooltips
 
@@ -288,7 +288,7 @@ buildTime = 75
 
 
 
-baseName = "xvstock_kbase"
+
 
 
 
@@ -402,9 +402,9 @@ weapon10 = "xhwpdis"
 
 weaponHardpoints10 = "hp04"
 
-tooltip = "Heavy Weapons Platform (Klingon HWP)"
 
-verboseTooltip = "Lantean technology infused Platform, With ZPM."
+
+
 
 ScaleSOD = 1.18089252
 
@@ -472,3 +472,11 @@ buildItem2 = "xkuconst"
 buildItem3 = "ksrepair"
 
 buildItem4 = "kfreight"
+
+unitName = "Klingon HWP"
+
+tooltip = "Klingon HWP"
+
+verboseTooltip = "Klingon service. Heavy defensive station guarding nearby approaches. Armament: 16 standard weapon banks."
+
+baseName = "xui_khwp"

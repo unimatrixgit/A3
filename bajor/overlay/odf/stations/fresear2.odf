@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Sirius Class"
+
 
 //tooltips
 
@@ -120,9 +120,9 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Research Facility (Sirius Class)"
 
-verboseTooltip = "Supports the technologies and upgrades available in its research menu. Starfleet engineering supports a disciplined, versatile fleet."
+
+
 
 baseName = "mrst_fed"
 
@@ -136,3 +136,9 @@ buildItem1 = "fedpod7"
 buildItem2 = "fedpod8"
 
 buildItem3 = "fedpod9"
+
+unitName = "Starfleet Sirius Class"
+
+tooltip = "Starfleet Sirius Class"
+
+verboseTooltip = "Starfleet service. Develops the technologies listed in its research menu."

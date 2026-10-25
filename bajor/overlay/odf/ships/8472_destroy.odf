@@ -1,7 +1,7 @@
 #include "destroy.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Destroyer"
+
 
 //tooltips
 
@@ -129,11 +129,17 @@ ScaleSOD = 1.5
 
 
 
-tooltip = "Attack Ship (Destroyer)"
 
-verboseTooltip = "A light combat ship for interception and fleet support. Living biotechnology shapes this organism for operations beyond fluidic space. Special systems: 8472 Clairvoyant Link. Availability follows the selected technology tree."
+
+
 dilithiumcost = 0
 metalcost = 0
 latinumcost = 0
 biomattercost = 330
 crewCost = 0
+
+unitName = "Fluidic Destroyer"
+
+tooltip = "Fluidic Destroyer"
+
+verboseTooltip = "Fluidic service. Serves as a destroyer. Armament: 1 standard weapon banks. Abilities: 8472 Clairvoyant Link. Special energy: 2700."

@@ -1,6 +1,6 @@
 // Begin main properties
 
-unitName = "Jem'Hadar Dreadnought"
+
 
 
 race = "dominion"
@@ -164,12 +164,18 @@ maxSpecialEnergy = 1200
 
 
 
-tooltip = "Capital Ship (Jem'Hadar Dreadnought)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Shield Disruptor. Availability follows the selected technology tree."
+
+
 weapon7 = "gselfdes"
 dilithiumcost = 370
 metalcost = 160
 latinumcost = 0
 biomattercost = 0
 crewCost = 685
+
+unitName = "Dominion Jem'Hadar Dreadnought"
+
+tooltip = "Dominion Jem'Hadar Dreadnought"
+
+verboseTooltip = "Dominion service. Serves as a battleship. Armament: 8 standard weapon banks. Abilities: Shield Disruptor, Self Destruct. Special energy: 1200."

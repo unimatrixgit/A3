@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "C"
-unitname = "Mirror Ambassador Class"
+
 race = "federation"
 maxhealth = 6112.5
 shieldrate = 81.5
@@ -75,7 +75,7 @@ criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19"
 scalesod = 2.1875
 officercost = 8
 
-tooltip = "Mirror Ambassador Class"
+
 
 
 
@@ -110,4 +110,10 @@ buildTime = 38
 
 hotkeyLabel = "HOTKEY_F6"
 
-verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."
+
+
+unitName = "Starfleet Mirror Ambassador Class"
+
+tooltip = "Starfleet Mirror Ambassador Class"
+
+verboseTooltip = "Starfleet service. Controllable Mirror Universe counterpart, built through normal production. Armament: 4 standard weapon banks. Abilities: Enterprise Upgrade. Special energy: 8150."

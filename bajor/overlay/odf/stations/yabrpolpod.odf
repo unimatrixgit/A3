@@ -58,7 +58,7 @@ latinumCost = 300
 
 biomatterCost = 0
 
-unitName = "Polaron Disruptor Research"
+
 
 
 
@@ -66,8 +66,16 @@ unitName = "Polaron Disruptor Research"
 
 race = "breen"
 
-baseName = "rompod1"
 
-tooltip = "Research Upgrade (Polaron Disruptor Research)"
 
-verboseTooltip = "Researches Polaron Disruptor Research. Breen engineering supports the Confederacy with focused, uncompromising efficiency."
+
+
+
+
+unitName = "Breen Polaron Disruptor Research"
+
+tooltip = "Breen Polaron Disruptor Research"
+
+verboseTooltip = "Breen service. Unlocks its assigned research upgrade."
+
+baseName = "xui_yabrpolpod"

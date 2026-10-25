@@ -1,7 +1,7 @@
 #include "battle2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Ater Class"
+
 
 //tooltips
 
@@ -150,12 +150,18 @@ weaponHardpoints7 = "hp01"
 
 
 
-tooltip = "Capital Ship (Ater Class)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Heated Plasma. Availability follows the selected technology tree."
+
+
 weapon4 = "gselfdes"
 dilithiumcost = 495
 metalcost = 215
 latinumcost = 0
 biomattercost = 0
 crewCost = 795
+
+unitName = "Romulan Ater Class"
+
+tooltip = "Romulan Ater Class"
+
+verboseTooltip = "Romulan service. Serves as a battleship. Armament: 4 standard weapon banks. Abilities: Cloak, Self Destruct, Heated Plasma. Special energy: 2400."

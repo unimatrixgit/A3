@@ -1,7 +1,7 @@
 // Begin main properties
 
 race = "breen"
-unitName = "Breen Frigate"
+
 
 
 maxHealth = 290
@@ -146,11 +146,17 @@ specialEnergyRate = 9.0
 
 
 
-tooltip = "Frigate (Breen Frigate)"
 
-verboseTooltip = "A combat escort for patrols and coordinated fleet engagements. Breen engineering supports the Confederacy with focused, uncompromising efficiency. Special systems: Shield Recharger. Availability follows the selected technology tree."
+
+
 dilithiumcost = 125
 metalcost = 40
 latinumcost = 0
 biomattercost = 0
 crewCost = 120
+
+unitName = "Breen Frigate"
+
+tooltip = "Breen Frigate"
+
+verboseTooltip = "Breen service. Serves as a frigate. Armament: 5 standard weapon banks. Abilities: Shield Recharger. Special energy: 900."

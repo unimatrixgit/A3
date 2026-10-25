@@ -1,6 +1,6 @@
 // Begin main properties
 
-unitName = "Jem'Hadar Strike Cruiser"
+
 
 
 race = "dominion"
@@ -140,11 +140,17 @@ buildTime = 18
 
 
 
-tooltip = "Cruiser (Jem'Hadar Strike Cruiser)"
 
-verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Changling Spy. Availability follows the selected technology tree."
+
+
 dilithiumcost = 65
 metalcost = 20
 latinumcost = 0
 biomattercost = 0
 crewCost = 110
+
+unitName = "Dominion Jem'Hadar Strike Cruiser"
+
+tooltip = "Dominion Jem'Hadar Strike Cruiser"
+
+verboseTooltip = "Dominion service. Serves as a cruiser. Armament: 2 standard weapon banks. Abilities: Changling Spy. Special energy: 1000."

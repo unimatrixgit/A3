@@ -1,7 +1,7 @@
 #include "cruise1.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Constitution Class Refit"
+
 
 
 
@@ -129,11 +129,17 @@ maxSpecialEnergy = 1200
 
 
 
-tooltip = "Cruiser (Constitution Class Refit)"
 
-verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Chain Reaction Pulsar. Availability follows the selected technology tree."
+
+
 dilithiumcost = 140
 metalcost = 45
 latinumcost = 0
 biomattercost = 0
 crewCost = 155
+
+unitName = "Starfleet Constitution Class Refit"
+
+tooltip = "Starfleet Constitution Class Refit"
+
+verboseTooltip = "Starfleet service. Serves as a cruiser. Armament: 2 standard weapon banks. Abilities: Chain Reaction Pulsar. Special energy: 1200."

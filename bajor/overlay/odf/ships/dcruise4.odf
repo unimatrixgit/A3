@@ -1,6 +1,6 @@
 // Begin main properties
 
-unitName = "Jem'hadar Bomber Ship"
+
 
 
 race = "dominion"
@@ -111,7 +111,7 @@ physicsFile = "sartilleryshipphys.odf"
 
 
 
-baseName = "dcruise3"
+
 
 
 // Xaramada resource costs: original filename.
@@ -131,11 +131,19 @@ buildTime = 15
 
 
 
-tooltip = "Fleet Ship (Jem'hadar Bomber Ship)"
 
-verboseTooltip = "A Dominion vessel for fleet operations. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Tractor Beam. Availability follows the selected technology tree."
+
+
 dilithiumcost = 130
 metalcost = 45
 latinumcost = 0
 biomattercost = 0
 crewCost = 170
+
+unitName = "Dominion Jem'hadar Bomber Ship"
+
+tooltip = "Dominion Jem'hadar Bomber Ship"
+
+verboseTooltip = "Dominion service. Serves as a fleet combatant. Armament: 2 standard weapon banks. Abilities: Tractor Beam. Special energy: 1000."
+
+baseName = "xui_dcruise4"

@@ -1,12 +1,12 @@
 #include "cruise1.odf"
 
-unitName = "Mercenary Ferengi Bronta Fighter"
 
-tooltip = "Mercenary Ferengi Bronta Fighter"
 
-verboseTooltip = "Latinum-funded Ferengi contract vessel. Available from the Mercenary Ferengi Contract Yard."
 
-baseName = "xfgfight"
+
+
+
+
 
 race = "ferengi"
 
@@ -81,3 +81,11 @@ weaponHardpoints1 = "hp10"
 weapon2 = "xfgfightb"
 
 weaponHardpoints2 = "hp11"
+
+unitName = "Ferengi Mercenary Ferengi Bronta Fighter"
+
+tooltip = "Ferengi Mercenary Ferengi Bronta Fighter"
+
+verboseTooltip = "Ferengi service. Serves as a fighter. Armament: 2 standard weapon banks."
+
+baseName = "xui_xfgfight"

@@ -1,6 +1,6 @@
 // Begin main properties
 
-unitName = "Breen Shipyard"
+
 
 race = "breen"
 maxHealth = 2000
@@ -129,9 +129,9 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Shipyard (Breen Shipyard)"
 
-verboseTooltip = "Produces the vessels listed in its construction menu. Breen engineering supports the Confederacy with focused, uncompromising efficiency."
+
+
 
 buildItem0 = "brscout"
 
@@ -158,3 +158,9 @@ dilithiumCost = 250
 metalCost = 750
 
 buildTime = 45
+
+unitName = "Breen Shipyard"
+
+tooltip = "Breen Shipyard"
+
+verboseTooltip = "Breen service. Constructs the vessels available in its production menu."

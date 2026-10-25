@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-unitname = "Cooper's Command Bioship"
+
 recyclesinplace = 1
 race = "species8472"
 maxhealth = 8934
@@ -83,8 +83,8 @@ hotkeylabel = "HOTKEY_F4"
 can_repair = 0
 officercost = 1
 buildtime = 90
-tooltip = "Hero Ship (Cooper's Command Bioship)"
-verbosetooltip = "A named command vessel serving the Species 8472 fleet. Living biotechnology shapes this organism for operations beyond fluidic space. Special systems: 8472 Psionic Insanity, 8472 Bio-Pulse Conduit. Availability follows the selected technology tree."
+
+
 dilithiumcost = 0
 metalcost = 0
 latinumcost = 0
@@ -134,3 +134,9 @@ weaponHardpoints5 = "hp07"
 maxspecialenergy = 5000
 
 specialenergyrate = 50
+
+unitName = "Cooper's Command Bioship"
+
+tooltip = "Cooper's Command Bioship"
+
+verboseTooltip = "Fluidic service. Hero vessel with its own command abilities. Armament: 3 standard weapon banks. Abilities: 8472 Psionic Insanity, 8472 Bio-Pulse Conduit. Special energy: 5000."

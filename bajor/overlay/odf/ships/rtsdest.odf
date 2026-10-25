@@ -1,7 +1,7 @@
 #include "destroy.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Lemal Class"
+
 
 //tooltips
 
@@ -137,11 +137,17 @@ ScaleSOD = 1.5
 
 
 
-tooltip = "Attack Ship (Lemal Class)"
 
-verboseTooltip = "A light combat ship for interception and fleet support. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Romulan Spy. Availability follows the selected technology tree."
+
+
 dilithiumcost = 525
 metalcost = 130
 latinumcost = 0
 biomattercost = 0
 crewCost = 155
+
+unitName = "Romulan Lemal Class"
+
+tooltip = "Romulan Lemal Class"
+
+verboseTooltip = "Romulan service. Serves as a destroyer. Armament: 4 standard weapon banks. Abilities: Cloak, Romulan Spy. Special energy: 2400."

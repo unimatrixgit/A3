@@ -1,7 +1,7 @@
 #include "battle2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "D'Verix Class"
+
 
 //tooltips
 
@@ -137,11 +137,17 @@ buildTime = 25
 
 
 
-tooltip = "Capital Ship (D'Verix Class)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak. Availability follows the selected technology tree."
+
+
 dilithiumcost = 330
 metalcost = 140
 latinumcost = 0
 biomattercost = 0
 crewCost = 650
+
+unitName = "Romulan D'Verix Class"
+
+tooltip = "Romulan D'Verix Class"
+
+verboseTooltip = "Romulan service. Serves as a battleship. Armament: 3 standard weapon banks. Abilities: Cloak. Special energy: 2400."

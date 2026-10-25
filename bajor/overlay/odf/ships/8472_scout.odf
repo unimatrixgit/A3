@@ -1,7 +1,7 @@
 #include "scoutBase.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Scout"
+
 
 // This ship is evolved from another ship
 shipIsBuiltByEvolution = 1
@@ -133,11 +133,17 @@ ScaleSOD = 1.5
 
 
 
-tooltip = "Scout (Scout)"
 
-verboseTooltip = "Surveys space and locates threats ahead of the fleet. Living biotechnology shapes this organism for operations beyond fluidic space. Special systems: Clairvoyance. Availability follows the selected technology tree."
+
+
 dilithiumcost = 0
 metalcost = 0
 latinumcost = 0
 biomattercost = 205
 crewCost = 0
+
+unitName = "Fluidic Scout"
+
+tooltip = "Fluidic Scout"
+
+verboseTooltip = "Fluidic service. Serves as a scout. Armament: 1 standard weapon banks. Abilities: Detect Cloak, Clairvoyance. Special energy: 2100."

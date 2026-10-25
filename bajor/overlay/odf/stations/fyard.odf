@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Algol Class"
+
 
 //tooltips
 
@@ -140,9 +140,9 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Shipyard (Algol Class)"
 
-verboseTooltip = "Produces the vessels listed in its construction menu. Starfleet engineering supports a disciplined, versatile fleet."
+
+
 
 repairFacility = 1
 
@@ -181,3 +181,9 @@ dilithiumCost = 250
 metalCost = 750
 
 buildTime = 45
+
+unitName = "Starfleet Algol Class"
+
+tooltip = "Starfleet Algol Class"
+
+verboseTooltip = "Starfleet service. Constructs the vessels available in its production menu."

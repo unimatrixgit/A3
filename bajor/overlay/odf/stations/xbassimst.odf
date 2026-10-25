@@ -101,7 +101,7 @@ hulltargethardpoints = "hp09"
 
 criticaltargethardpoints = "hp10"
 
-unitName = "Assimilation Station"
+
 
 
 
@@ -170,10 +170,16 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Production Facility (Assimilation Station)"
 
-verboseTooltip = "Produces the units or upgrades listed in its construction menu. Collective engineering integrates this asset into the unimatrix. Special systems: Assimilate Target. Availability follows the selected technology tree."
+
+
 
 transporter = 1
 
 recrewRate = 10
+
+unitName = "Collective Assimilation Station"
+
+tooltip = "Collective Assimilation Station"
+
+verboseTooltip = "Collective service. Constructs the vessels available in its production menu. Armament: 1 standard weapon banks. Abilities: Assimilate Target. Special energy: 2500."

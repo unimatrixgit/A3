@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Ion Storm Pod"
+
 
 //tooltips
 
@@ -59,6 +59,12 @@ latinumCost = 300
 
 biomatterCost = 0
 
-tooltip = "Research Upgrade (Ion Storm Pod)"
 
-verboseTooltip = "Researches Ion Storm Pod. Klingon engineering serves the Empire with direct, relentless force."
+
+
+
+unitName = "Klingon Ion Storm Pod"
+
+tooltip = "Klingon Ion Storm Pod"
+
+verboseTooltip = "Klingon service. Unlocks its assigned research upgrade."

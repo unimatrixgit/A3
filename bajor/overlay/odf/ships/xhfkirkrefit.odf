@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-unitname = "James T Kirk - Enterprise A"
+
 label = "James T Kirk - Enterprise A"
 basename = "fenta"
 race = "federation"
@@ -72,8 +72,8 @@ eventgreenalert = "XV_fenta_GreenAlert"
 eventtransport = "XV_fenta_Transport"
 eventselfdestruct = "XV_fenta_SelfDestruct"
 eventdecommission = "XV_fenta_Decommission"
-tooltip = "Hero Ship (James T Kirk - Enterprise A)"
-verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+
+
 dilithiumcost = 470
 metalcost = 205
 latinumcost = 0
@@ -125,3 +125,9 @@ weaponHardpoints6 = "hp06"
 maxspecialenergy = 1000
 
 specialenergyrate = 15
+
+unitName = "James T Kirk - Enterprise A"
+
+tooltip = "James T Kirk - Enterprise A"
+
+verboseTooltip = "Starfleet service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Self Destruct, Corbomite Reflector. Special energy: 1000."

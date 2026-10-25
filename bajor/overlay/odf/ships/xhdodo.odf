@@ -55,10 +55,10 @@ can_sandd = 1
 shiptype = "B"
 weaponyellow = 1.0f
 weaponred = 2.0f
-unitname = "Odo's Battleship"
+
 label = "Odo's Battleship"
-tooltip = "Hero Ship (Odo's Battleship)"
-verbosetooltip = "Dominion command hero. Built at the Founders Command Yard; special abilities require Dominion research."
+
+
 basename = "xhdodo"
 race = "dominion"
 ishero = 1
@@ -146,3 +146,9 @@ weaponHardpoints9 = "hp02"
 maxspecialenergy = 1800
 
 specialenergyrate = 18
+
+unitName = "Odo's Battleship"
+
+tooltip = "Odo's Battleship"
+
+verboseTooltip = "Dominion service. Hero vessel with its own command abilities. Armament: 7 standard weapon banks. Abilities: Jem'Hadar Warriors, Shield Disruptor. Special energy: 1800."

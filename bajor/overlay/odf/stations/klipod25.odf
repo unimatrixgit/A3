@@ -1,7 +1,7 @@
 #include "LifeSupportUpgradePod2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Level 3 Life Support Pod"
+
 
 //Race which can build ship & starting race of ship
 race = "klingon"
@@ -52,6 +52,12 @@ latinumCost = 250
 
 biomatterCost = 0
 
-tooltip = "Research Upgrade (Level 3 Life Support Pod)"
 
-verboseTooltip = "Researches Level 3 Life Support Pod. Klingon engineering serves the Empire with direct, relentless force."
+
+
+
+unitName = "Klingon Level 3 Life Support Pod"
+
+tooltip = "Klingon Level 3 Life Support Pod"
+
+verboseTooltip = "Klingon service. Unlocks its assigned research upgrade."

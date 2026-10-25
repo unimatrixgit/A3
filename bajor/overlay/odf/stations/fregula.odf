@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Regula class"
+
 
 //tooltips
 
@@ -190,9 +190,9 @@ buildTime = 80
 
 
 
-tooltip = "Starbase (Regula class)"
 
-verboseTooltip = "A fortified center for fleet operations and local production. Starfleet engineering supports a disciplined, versatile fleet."
+
+
 
 repairFacility = 0
 
@@ -233,3 +233,9 @@ buildItem6 = "fscout"
 buildItem7 = "fdanube"
 
 buildItem8 = "ffighter"
+
+unitName = "Starfleet Regula class"
+
+tooltip = "Starfleet Regula class"
+
+verboseTooltip = "Starfleet service. Anchors the fleet and produces the units shown in its build menu. Armament: 4 standard weapon banks."

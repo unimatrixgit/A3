@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-unitname = "Minefield Command Warbird"
+
 label = "Minefield Command Warbird"
 race = "romulan"
 basename = "xhrearlybird"
@@ -72,8 +72,8 @@ eventgreenalert = "XV_xhrhero_GreenAlert"
 eventtransport = "XV_xhrhero_Transport"
 eventselfdestruct = "XV_xhrhero_SelfDestruct"
 eventdecommission = "XV_xhrhero_Decommission"
-tooltip = "Hero Ship (Minefield Command Warbird)"
-verbosetooltip = "A named command vessel serving the Romulan fleet. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Heated Plasma. Availability follows the selected technology tree."
+
+
 latinumcost = 0
 biomattercost = 0
 crewcost = 80
@@ -132,3 +132,9 @@ weaponHardpoints7 = "hp06"
 maxspecialenergy = 2500
 
 specialenergyrate = 25
+
+unitName = "Minefield Command Warbird"
+
+tooltip = "Minefield Command Warbird"
+
+verboseTooltip = "Romulan service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Cloak, Self Destruct, Heated Plasma. Special energy: 2500."

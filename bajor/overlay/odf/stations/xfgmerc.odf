@@ -113,13 +113,13 @@ SHOW_SW_AUTONOMY = 1
 
 // make it bigger
 
-unitName = "Mercenary Ferengi Contract Yard"
 
-tooltip = "Mercenary Ferengi Contract Yard"
 
-verboseTooltip = "Contracts Ferengi warships, three mercenary heroes and a 1,500-capacity trade ship. Resource costs are latinum only."
 
-baseName = "xfgmerc"
+
+
+
+
 
 maxHealth = 2400
 
@@ -211,3 +211,11 @@ buildItem10 = "mrc026"
 buildItem11 = "mrc027"
 
 buildItem12 = "mrc028"
+
+unitName = "Ferengi Mercenary Ferengi Contract Yard"
+
+tooltip = "Ferengi Mercenary Ferengi Contract Yard"
+
+verboseTooltip = "Ferengi service. Constructs the vessels available in its production menu."
+
+baseName = "xui_xfgmerc"

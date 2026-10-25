@@ -143,7 +143,7 @@ ScaleSOD = 1.75
 
 baseName = "xbassimold"
 
-unitName = "Tactical Assimilator"
+
 
 
 
@@ -164,11 +164,17 @@ weaponHardpoints8 = "hp01"
 
 
 
-tooltip = "Cruiser (Tactical Assimilator)"
 
-verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Collective engineering integrates this asset into the unimatrix. Special systems: Auto-Assimilator, Transwarp Drive, Regeneration. Availability follows the selected technology tree."
+
+
 dilithiumcost = 240
 metalcost = 65
 latinumcost = 0
 biomattercost = 0
 crewCost = 525
+
+unitName = "Collective Tactical Assimilator"
+
+tooltip = "Collective Tactical Assimilator"
+
+verboseTooltip = "Collective service. Serves as a cruiser. Armament: 4 standard weapon banks. Abilities: Auto-Assimilator, Detect Cloak, Transwarp Drive, Regeneration. Special energy: 2000."

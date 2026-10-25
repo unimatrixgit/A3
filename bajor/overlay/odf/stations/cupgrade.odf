@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Research Institute"
+
 
 //tooltips
 
@@ -122,6 +122,12 @@ latinumCost = 750
 
 biomatterCost = 0
 
-tooltip = "Research Facility (Research Institute)"
 
-verboseTooltip = "Supports the technologies and upgrades available in its research menu. Cardassian engineering sustains the Union through ordered, persistent operations."
+
+
+
+unitName = "Cardassian Research Institute"
+
+tooltip = "Cardassian Research Institute"
+
+verboseTooltip = "Cardassian service. Develops the technologies listed in its research menu."

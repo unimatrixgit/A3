@@ -1,7 +1,7 @@
 #include "destroy.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Br'el Class"
+
 
 //tooltips
 
@@ -135,12 +135,18 @@ ScaleSOD = 1.5
 
 
 
-tooltip = "Attack Ship (Br'el Class)"
 
-verboseTooltip = "A light combat ship for interception and fleet support. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak, Gravity Mines. Availability follows the selected technology tree."
+
+
 weapon3 = "gkcloak"
 dilithiumcost = 155
 metalcost = 40
 latinumcost = 0
 biomattercost = 0
 crewCost = 85
+
+unitName = "Klingon Br'el Class"
+
+tooltip = "Klingon Br'el Class"
+
+verboseTooltip = "Klingon service. Serves as a destroyer. Armament: 3 standard weapon banks. Abilities: Cloak, Gravity Mines. Special energy: 2400."

@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Modification Center"
+
 
 //tooltips
 
@@ -118,8 +118,14 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Research Facility (Modification Center)"
 
-verboseTooltip = "Supports the technologies and upgrades available in its research menu. Collective engineering integrates this asset into the unimatrix."
+
+
 
 recrewRate = 10
+
+unitName = "Collective Modification Center"
+
+tooltip = "Collective Modification Center"
+
+verboseTooltip = "Collective service. Develops the technologies listed in its research menu."

@@ -1,7 +1,7 @@
 #include "destroy.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Interceptor"
+
 
 //tooltips
 
@@ -137,11 +137,17 @@ ScaleSOD = 1.5
 
 
 
-tooltip = "Attack Ship (Interceptor)"
 
-verboseTooltip = "A light combat ship for interception and fleet support. Collective engineering integrates this asset into the unimatrix. Special systems: Transwarp Drive, Auto-Assimilator, Regeneration. Availability follows the selected technology tree."
+
+
 dilithiumcost = 300
 metalcost = 85
 latinumcost = 0
 biomattercost = 0
 crewCost = 590
+
+unitName = "Collective Interceptor"
+
+tooltip = "Collective Interceptor"
+
+verboseTooltip = "Collective service. Serves as a destroyer. Armament: 2 standard weapon banks. Abilities: Transwarp Drive, Auto-Assimilator, Regeneration. Special energy: 3000."

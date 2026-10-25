@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Tal Shiar Facility"
+
 
 //tooltips
 
@@ -132,12 +132,18 @@ latinumCost = 500
 
 biomatterCost = 0
 
-tooltip = "Research Facility (Tal Shiar Facility)"
 
-verboseTooltip = "Supports the technologies and upgrades available in its research menu. Romulan engineering favors calculated strikes and control of the battlefield."
+
+
 
 
 
 
 
 podHardpoints = "pod01" "pod02" "pod03" "pod04"
+
+unitName = "Romulan Tal Shiar Facility"
+
+tooltip = "Romulan Tal Shiar Facility"
+
+verboseTooltip = "Romulan service. Develops the technologies listed in its research menu."

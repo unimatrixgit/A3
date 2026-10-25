@@ -1,7 +1,7 @@
 #include "battle.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "D'Deridex Class"
+
 
 //tooltips
 
@@ -154,12 +154,18 @@ buildTime = 32
 
 
 
-tooltip = "Capital Ship (D'Deridex Class)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Shield Inversion Beam. Availability follows the selected technology tree."
+
+
 weapon9 = "gselfdes"
 dilithiumcost = 940
 metalcost = 405
 latinumcost = 0
 biomattercost = 0
 crewCost = 1095
+
+unitName = "Romulan D'Deridex Class - ChR"
+
+tooltip = "Romulan D'Deridex Class - ChR"
+
+verboseTooltip = "Romulan service. Serves as a battleship. Armament: 6 standard weapon banks. Abilities: Cloak, Shield Inversion Beam, Self Destruct. Special energy: 2400."

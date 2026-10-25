@@ -6,7 +6,7 @@
 race = "cardassian"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Vasad Class"
+
 
 //tooltips
 
@@ -132,11 +132,17 @@ specialEnergyRate = 9.0
 
 
 
-tooltip = "Frigate (Vasad Class)"
 
-verboseTooltip = "A combat escort for patrols and coordinated fleet engagements. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Sensor Scrambler. Availability follows the selected technology tree."
+
+
 dilithiumcost = 260
 metalcost = 85
 latinumcost = 0
 biomattercost = 0
 crewCost = 175
+
+unitName = "Cardassian Vasad Class"
+
+tooltip = "Cardassian Vasad Class"
+
+verboseTooltip = "Cardassian service. Serves as a frigate. Armament: 2 standard weapon banks. Abilities: Sensor Scrambler. Special energy: 900."

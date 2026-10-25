@@ -1,7 +1,7 @@
 #include "cruise1.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Akira Class"
+
 
 //tooltips
 
@@ -142,11 +142,17 @@ specialEnergyRate = 12.0
 
 
 
-tooltip = "Cruiser (Akira Class)"
 
-verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Chain Reaction Pulsar. Availability follows the selected technology tree."
+
+
 dilithiumcost = 390
 metalcost = 130
 latinumcost = 0
 biomattercost = 0
 crewCost = 265
+
+unitName = "Starfleet Akira Class"
+
+tooltip = "Starfleet Akira Class"
+
+verboseTooltip = "Starfleet service. Serves as a cruiser. Armament: 5 standard weapon banks. Abilities: Chain Reaction Pulsar. Special energy: 1200."

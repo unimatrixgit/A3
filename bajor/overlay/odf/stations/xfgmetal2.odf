@@ -189,15 +189,15 @@ maximumCrew = 500
 
 
 
-baseName = "xfgserv"
+
 
 race = "ferengi"
 
-unitName = "Mercenary Ferengi Advanced Metal Orbital"
 
-tooltip = "Advanced Ferengi Metal Orbital"
 
-verboseTooltip = "Research-unlocked planetary metal processor. Latinum resource cost only."
+
+
+
 
 ScaleSOD = 1.71787360
 
@@ -222,3 +222,11 @@ shieldGeneratorTargetHardpoints = "hp26" "hp27" "hp10" "hp11"
 sensorsTargetHardpoints = "hp26" "hp27" "hp10" "hp11"
 hullTargetHardpoints = "hp26" "hp27" "hp10" "hp11"
 criticalTargetHardpoints = "hp26" "hp27" "hp10" "hp11"
+
+unitName = "Ferengi Mercenary Ferengi Advanced Metal Orbital"
+
+tooltip = "Ferengi Mercenary Ferengi Advanced Metal Orbital"
+
+verboseTooltip = "Ferengi service. Processes orbital metal resources. Abilities: Orbital Mining Beam. Special energy: 0."
+
+baseName = "xui_xfgmetal2"

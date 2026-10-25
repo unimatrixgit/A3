@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Spear Class"
+
 
 //tooltips
 
@@ -194,9 +194,9 @@ weaponHardpoints6 = "hp05"
 weapon7 = "bc2phas"
 weaponHardpoints7 = "hp06"
 
-tooltip = "Orbital Mining Station (Spear Class)"
 
-verboseTooltip = "Processes planetary resources and supports orbital operations. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Orbital Mining Beam. Availability follows the selected technology tree."
+
+
 
 
 
@@ -207,3 +207,9 @@ metalCost = 0
 latinumCost = 0
 
 biomatterCost = 0
+
+unitName = "Starfleet Spear Class"
+
+tooltip = "Starfleet Spear Class"
+
+verboseTooltip = "Starfleet service. Processes orbital metal resources. Armament: 6 standard weapon banks. Abilities: Orbital Mining Beam. Special energy: 0."

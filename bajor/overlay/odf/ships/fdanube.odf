@@ -1,7 +1,7 @@
 #include "scoutBase.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Danube Class"
+
 
 //tooltips
 
@@ -107,11 +107,17 @@ ScaleSOD = 1.5766845
 
 
 
-tooltip = "Scout (Danube Class)"
 
-verboseTooltip = "Surveys space and locates threats ahead of the fleet. Starfleet engineering supports a disciplined, versatile fleet."
+
+
 dilithiumcost = 75
 metalcost = 0
 latinumcost = 0
 biomattercost = 0
 crewCost = 15
+
+unitName = "Starfleet Danube Class"
+
+tooltip = "Starfleet Danube Class"
+
+verboseTooltip = "Starfleet service. Serves as a scout. Armament: 1 standard weapon banks."

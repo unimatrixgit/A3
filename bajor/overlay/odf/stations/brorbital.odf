@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Breen Orbital Processing Facility"
+
 
 //tooltips
 
@@ -178,9 +178,9 @@ weaponHardpoints6 = "hp05"
 weapon7 = "bc2phas"
 weaponHardpoints7 = "hp01"
 
-tooltip = "Orbital Mining Station (Breen Orbital Processing Facility)"
 
-verboseTooltip = "Processes planetary resources and supports orbital operations. Breen engineering supports the Confederacy with focused, uncompromising efficiency. Special systems: Orbital Mining Beam. Availability follows the selected technology tree."
+
+
 
 
 
@@ -191,3 +191,9 @@ metalCost = 0
 latinumCost = 0
 
 biomatterCost = 0
+
+unitName = "Breen Orbital Processing Facility"
+
+tooltip = "Breen Orbital Processing Facility"
+
+verboseTooltip = "Breen service. Processes orbital metal resources. Armament: 6 standard weapon banks. Abilities: Orbital Mining Beam. Special energy: 0."

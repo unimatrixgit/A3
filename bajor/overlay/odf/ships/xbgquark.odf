@@ -53,9 +53,9 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "C"
-unitname = "Mercenary Ferengi Quark's Battleship"
-tooltip = "Mercenary Ferengi Quark's Battleship"
-basename = "xfgquark"
+
+
+
 ishero = 1
 maxhealth = 4500
 shieldrate = 18
@@ -102,7 +102,7 @@ dilithiumcost = 750
 metalcost = 500
 latinumcost = 0
 biomattercost = 0
-verbosetooltip = "Borg contract paid in dilithium and metal. dilithium and metal-funded Ferengi contract vessel. Hero abilities are available without research."
+
 
 
 
@@ -161,3 +161,11 @@ weaponHardpoints12 = "hp03"
 maxspecialenergy = 2400
 
 specialenergyrate = 24
+
+unitName = "Mercenary Ferengi Quark's Battleship"
+
+tooltip = "Mercenary Ferengi Quark's Battleship"
+
+verboseTooltip = "Collective service. Hero vessel with its own command abilities. Armament: 10 standard weapon banks. Abilities: Quark's Holo-Emitter, Quark's Cloaking Device. Special energy: 2400."
+
+baseName = "xui_xbgquark"

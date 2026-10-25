@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-unitname = "Keldon Class"
+
 ishero = 1
 label = "Kentar's Keldon"
 race = "cardassian"
@@ -81,8 +81,8 @@ eventgreenalert = "XV_ckentar_GreenAlert"
 eventtransport = "XV_ckentar_Transport"
 eventselfdestruct = "XV_ckentar_SelfDestruct"
 eventdecommission = "XV_ckentar_Decommission"
-tooltip = "Hero Ship (Keldon Class)"
-verbosetooltip = "A named command vessel serving the Cardassian fleet. Cardassian engineering sustains the Union through ordered, persistent operations."
+
+
 dilithiumcost = 415
 metalcost = 175
 latinumcost = 0
@@ -128,3 +128,9 @@ weaponHardpoints5 = "hp02"
 maxspecialenergy = 2200
 
 specialenergyrate = 38
+
+unitName = "Keldon Class"
+
+tooltip = "Keldon Class"
+
+verboseTooltip = "Cardassian service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Self Destruct. Special energy: 2200."

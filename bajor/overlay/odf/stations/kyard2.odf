@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Imperial Shipyard"
+
 
 //tooltips
 
@@ -125,9 +125,9 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Shipyard (Imperial Shipyard)"
 
-verboseTooltip = "Produces the vessels listed in its construction menu. Klingon engineering serves the Empire with direct, relentless force."
+
+
 
 buildItem0 = "kfrigate"
 
@@ -158,3 +158,9 @@ dilithiumCost = 300
 metalCost = 1000
 
 buildTime = 90
+
+unitName = "Klingon Imperial Shipyard - Kahless"
+
+tooltip = "Klingon Imperial Shipyard - Kahless"
+
+verboseTooltip = "Klingon service. Constructs the vessels available in its production menu."

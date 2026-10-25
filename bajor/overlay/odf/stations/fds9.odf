@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Deep Space 9"
+
 
 
 
@@ -248,9 +248,9 @@ footprintBuffer = 72
 
 
 
-tooltip = "Starbase (Deep Space 9)"
 
-verboseTooltip = "A fortified center for fleet operations and local production. Starfleet engineering supports a disciplined, versatile fleet."
+
+
 
 repairFacility = 0
 
@@ -288,3 +288,9 @@ buildItem5 = "fsrepair"
 buildItem6 = "fdefiant"
 
 buildItem7 = "fvoyager"
+
+unitName = "Starfleet Deep Space 9 - Venture"
+
+tooltip = "Starfleet Deep Space 9 - Venture"
+
+verboseTooltip = "Starfleet service. Anchors the fleet and produces the units shown in its build menu. Armament: 16 standard weapon banks."

@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-unitname = "Rachel Garrett - Enterprise C"
+
 label = "Rachel Garrett - Enterprise C"
 basename = "fentc"
 race = "federation"
@@ -72,8 +72,8 @@ eventgreenalert = "XV_fentc_GreenAlert"
 eventtransport = "XV_fentc_Transport"
 eventselfdestruct = "XV_fentc_SelfDestruct"
 eventdecommission = "XV_fentc_Decommission"
-tooltip = "Hero Ship (Rachel Garrett - Enterprise C)"
-verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+
+
 dilithiumcost = 785
 metalcost = 340
 latinumcost = 0
@@ -125,3 +125,9 @@ weaponHardpoints6 = "hp12"
 maxspecialenergy = 8150
 
 specialenergyrate = 81.5
+
+unitName = "Rachel Garrett - Enterprise C"
+
+tooltip = "Rachel Garrett - Enterprise C"
+
+verboseTooltip = "Starfleet service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Self Destruct, Corbomite Reflector. Special energy: 8150."

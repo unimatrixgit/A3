@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Detection Grid Pod"
+
 
 //tooltips
 
@@ -58,6 +58,12 @@ latinumCost = 150
 
 biomatterCost = 0
 
-tooltip = "Research Upgrade (Detection Grid Pod)"
 
-verboseTooltip = "Researches Detection Grid Pod. Romulan engineering favors calculated strikes and control of the battlefield."
+
+
+
+unitName = "Romulan Detection Grid Pod"
+
+tooltip = "Romulan Detection Grid Pod"
+
+verboseTooltip = "Romulan service. Unlocks its assigned research upgrade."

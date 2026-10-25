@@ -1,7 +1,7 @@
 #include "battle.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Scorpian Class"
+
 
 //tooltips
 
@@ -145,12 +145,18 @@ buildTime = 82
 
 
 
-tooltip = "Capital Ship (Scorpian Class)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Cloak. Availability follows the selected technology tree."
+
+
 weapon7 = "gselfdes"
 dilithiumcost = 865
 metalcost = 370
 latinumcost = 0
 biomattercost = 0
 crewCost = 1050
+
+unitName = "Starfleet Scorpian Class"
+
+tooltip = "Starfleet Scorpian Class"
+
+verboseTooltip = "Starfleet service. Serves as a battleship. Armament: 6 standard weapon banks. Abilities: Self Destruct, Cloak. Special energy: 2600."

@@ -1,7 +1,7 @@
 #include "destroy.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Akisato Class"
+
 
 //tooltips
 
@@ -134,11 +134,17 @@ weaponHardpoints5 = "hp01"
 
 
 
-tooltip = "Attack Ship (Akisato Class)"
 
-verboseTooltip = "A light combat ship for interception and fleet support. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Antimatter Mines. Availability follows the selected technology tree."
+
+
 dilithiumcost = 780
 metalcost = 195
 latinumcost = 0
 biomattercost = 0
 crewCost = 190
+
+unitName = "Starfleet Akisato Class"
+
+tooltip = "Starfleet Akisato Class"
+
+verboseTooltip = "Starfleet service. Serves as a destroyer. Armament: 4 standard weapon banks. Abilities: Antimatter Mines. Special energy: 1000."

@@ -1,7 +1,7 @@
 #include "destroy.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Destroyer MK2"
+
 
 //tooltips
 
@@ -147,11 +147,17 @@ weaponHardpoints4 = "hp01"
 
 
 
-tooltip = "Attack Ship (Destroyer MK2)"
 
-verboseTooltip = "A light combat ship for interception and fleet support. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Micro Organisms. Availability follows the selected technology tree."
+
+
 dilithiumcost = 340
 metalcost = 85
 latinumcost = 0
 biomattercost = 0
 crewCost = 125
+
+unitName = "Cardassian Destroyer MK2"
+
+tooltip = "Cardassian Destroyer MK2"
+
+verboseTooltip = "Cardassian service. Serves as a destroyer. Armament: 3 standard weapon banks. Abilities: Micro Organisms. Special energy: 2200."

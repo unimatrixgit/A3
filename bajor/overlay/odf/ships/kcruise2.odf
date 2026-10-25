@@ -1,7 +1,7 @@
 #include "cruise2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "SuQ'jagh Class"
+
 
 //tooltips
 
@@ -130,12 +130,18 @@ buildTime = 12
 
 
 
-tooltip = "Cruiser (SuQ'jagh Class)"
 
-verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Klingon engineering serves the Empire with direct, relentless force. Special systems: Commando Team, Cloak. Availability follows the selected technology tree."
+
+
 weapon4 = "gkcloak"
 dilithiumcost = 310
 metalcost = 105
 latinumcost = 0
 biomattercost = 0
 crewCost = 235
+
+unitName = "Klingon SuQ'jagh Class"
+
+tooltip = "Klingon SuQ'jagh Class"
+
+verboseTooltip = "Klingon service. Serves as a cruiser. Armament: 2 standard weapon banks. Abilities: Commando Team, Cloak. Special energy: 2400."

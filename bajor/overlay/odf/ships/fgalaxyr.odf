@@ -1,7 +1,7 @@
 #include "battle2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Galaxy Class Refit"
+
 
 
 
@@ -148,12 +148,18 @@ buildTime = 30
 
 
 
-tooltip = "Capital Ship (Galaxy Class Refit)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector, Point Defense Phaser, Shield Disruptor, Engine Overload. Availability follows the selected technology tree."
+
+
 weapon5 = "gselfdes"
 dilithiumcost = 535
 metalcost = 230
 latinumcost = 0
 biomattercost = 0
 crewCost = 825
+
+unitName = "Starfleet Galaxy Class Refit"
+
+tooltip = "Starfleet Galaxy Class Refit"
+
+verboseTooltip = "Starfleet service. Serves as a battleship. Armament: 2 standard weapon banks. Abilities: Detect Cloak, Corbomite Reflector, Self Destruct, Point Defense Phaser, Shield Disruptor, Engine Overload. Special energy: 1600."

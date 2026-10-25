@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Torpedo Turret"
+
 
 //tooltips
 
@@ -111,6 +111,12 @@ hulltargethardpoints = "hp04" "hp05" "hp06"
 
 criticaltargethardpoints = "hp04" "hp05" "hp06" 
 
-tooltip = "Defense Station (Torpedo Turret)"
 
-verboseTooltip = "A fixed defensive installation protecting nearby fleet assets. Klingon engineering serves the Empire with direct, relentless force."
+
+
+
+unitName = "Klingon Torpedo Turret"
+
+tooltip = "Klingon Torpedo Turret"
+
+verboseTooltip = "Klingon service. Defensive platform armed with torpedo weapons. Armament: 2 standard weapon banks."

@@ -7,13 +7,13 @@ sensorsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
 hullTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
 criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
 
-baseName = "xfgcolony"
 
 
 
-unitName = "Mercenary Ferengi Colony Ship"
 
-tooltip = "Mercenary Ferengi Colony Ship"
+
+
+
 
 
 
@@ -70,4 +70,12 @@ latinumCost = 0
 
 biomatterCost = 0
 
-verboseTooltip = "Borg contract paid in dilithium and metal. Ferengi colony ship. Contracted at the Ferengi Service Yard for dilithium and metal."
+
+
+unitName = "Collective Mercenary Ferengi Colony Ship"
+
+tooltip = "Collective Mercenary Ferengi Colony Ship"
+
+verboseTooltip = "Collective service. Establishes colonies on suitable unclaimed planets. Abilities: Colony Pods. Special energy: 0."
+
+baseName = "xui_xbgcolony"

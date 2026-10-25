@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-unitname = "Mirror Minefield Command Warbird"
+
 label = "Minefield Command Warbird"
 race = "romulan"
 
@@ -72,7 +72,7 @@ eventgreenalert = "XV_xhrhero_GreenAlert"
 eventtransport = "XV_xhrhero_Transport"
 eventselfdestruct = "XV_xhrhero_SelfDestruct"
 eventdecommission = "XV_xhrhero_Decommission"
-tooltip = "Mirror Minefield Command Warbird"
+
 
 
 
@@ -109,4 +109,10 @@ buildTime = 75
 
 hotkeyLabel = "HOTKEY_F2"
 
-verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."
+
+
+unitName = "Romulan Mirror Minefield Command Warbird"
+
+tooltip = "Romulan Mirror Minefield Command Warbird"
+
+verboseTooltip = "Romulan service. Controllable Mirror Universe counterpart, built through normal production. Armament: 4 standard weapon banks. Abilities: Cloak, Self Destruct, Heated Plasma. Special energy: 2500."

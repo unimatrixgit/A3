@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-unitname = "Gul Dukat - Keldon"
+
 race = "cardassian"
 sanecrewlossmethod = 1
 maxhealth = 3985
@@ -81,15 +81,15 @@ officercost = 16
 buildtime = 60
 
 
-tooltip = "Hero Ship (Gul Dukat - Keldon)"
-verbosetooltip = "A named command vessel serving the Cardassian fleet. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Plasma Bank Overload. Availability follows the selected technology tree."
+
+
 
 dilithiumcost = 530
 metalcost = 230
 latinumcost = 0
 biomattercost = 0
 crewcost = 820
-basename = "cbattle2"
+
 ishero = 1
 label = "Gul Dukat - Keldon"
 eventredalert = "XV_xhchero_RedAlert"
@@ -136,3 +136,11 @@ weaponHardpoints6 = "hp03"
 maxspecialenergy = 1600
 
 specialenergyrate = 16
+
+unitName = "Gul Dukat - Keldon"
+
+tooltip = "Gul Dukat - Keldon"
+
+verboseTooltip = "Cardassian service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Self Destruct, Plasma Bank Overload. Special energy: 1600."
+
+baseName = "xui_xhchero"

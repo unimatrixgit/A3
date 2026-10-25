@@ -1,7 +1,7 @@
 #include "destroy.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Miranda Class"
+
 
 //tooltips
 
@@ -134,11 +134,17 @@ ScaleSOD = 1.5
 
 
 
-tooltip = "Attack Ship (Miranda Class)"
 
-verboseTooltip = "A light combat ship for interception and fleet support. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Tractor Beam. Availability follows the selected technology tree."
+
+
 dilithiumcost = 165
 metalcost = 40
 latinumcost = 0
 biomattercost = 0
 crewCost = 85
+
+unitName = "Starfleet Miranda Class"
+
+tooltip = "Starfleet Miranda Class"
+
+verboseTooltip = "Starfleet service. Serves as a destroyer. Armament: 2 standard weapon banks. Abilities: Tractor Beam. Special energy: 1000."

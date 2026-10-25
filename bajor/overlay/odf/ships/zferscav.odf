@@ -1,0 +1,143 @@
+#include "cruise1.odf"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "ferengi"
+
+//refer to the normal ferengi SOD
+baseName = "zferengi"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 325
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 80
+enginesHitPoints = 60
+weaponsHitPoints = 60
+lifeSupportHitPoints = 60
+sensorsHitPoints = 60
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 20
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 0
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 0
+
+//**********************************************************************
+
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Weapon Name (ex. "gphaser" -> gphaser.odf)
+weapon1 = "fc2phas"
+weaponHardpoints1 = "hp01" "hp02" "hp03" 
+
+// Rest of the weapons...
+weapon2 = "fc1phot"
+weaponHardpoints2 = "hp01" "hp04"
+
+weapon3 = "gtracbm"
+weaponHardpoints3 = "hp01" "hp05" "hp06"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp10" "hp11" "hp12" "hp14" "hp15" "hp16"
+lifeSupportTargetHardpoints = "hp10" "hp11" "hp12" "hp14" "hp15" "hp16"
+weaponsTargetHardpoints = "hp10" "hp11" "hp12" "hp14" "hp15" "hp16"
+shieldGeneratorTargetHardpoints = "hp10" "hp11" "hp12" "hp14" "hp15" "hp16"
+sensorsTargetHardpoints = "hp10" "hp11" "hp12" "hp14" "hp15" "hp16"
+hullTargetHardpoints = "hp10" "hp11" "hp12" "hp14" "hp15" "hp16"
+criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp14" "hp15" "hp16"
+
+//**********************************************************************
+
+//Possible Craft Names
+possibleCraftNames = 
+    "Adeel"         "Alltier"       "Andrion"       "Aroon-6845"
+    "Asin"          "Avonia"        "Chulebas"      "Cimmakral"
+    "Dalion"        "Deyer"         "Garvan"        "Hartan"
+    "Hnandil-7"     "Idjos-Mian"    "Karluk"        "Keechvar"
+    "Kekron"        "Kimel-Mirom"   "Korr"          "Krayton"
+    "Kreechta"      "Mes-Vatra"     "Perko-368"     "Ribrut"
+    "Salvu-Eten"    "Tadinia"       "Tenyt"         "Tinnarr"
+    "Usotroo"       "Varkart"       "Warale"        "Zarlax"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.75f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.30f
+
+//**********************************************************************
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 3.0f
+//**********************************************************************
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//programming thing DO NOT CHANGE
+classLabel = "scavenger"
+
+
+//**********************************************************************
+//UNKNOWN PARAMETERS
+
+//AI stuff UNKNOWN May be related to sound stuff
+aiName = "SalvageProcess"
+
+//change the scale
+ScaleSOD = 1.3
+
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+dilithiumCost = 250
+metalCost = 0
+latinumCost = 0
+biomatterCost = 0
+crewCost = 300
+officerCost = 7
+buildTime = 80
+
+unitName = "Ferengi Scavenger"
+
+tooltip = "Ferengi Scavenger"
+
+verboseTooltip = "Ferengi service. Serves as a cruiser. Armament: 2 standard weapon banks. Abilities: Tractor Beam. Special energy: 0."

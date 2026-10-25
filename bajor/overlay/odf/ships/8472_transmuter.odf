@@ -7,7 +7,7 @@ race = "species8472"
 shipIsBuiltByEvolution = 1
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Transmuter"
+
 
 //tooltips
 
@@ -135,11 +135,17 @@ buildTime = 13
 
 
 
-tooltip = "Fleet Ship (Transmuter)"
 
-verboseTooltip = "A Species 8472 vessel for fleet operations. Living biotechnology shapes this organism for operations beyond fluidic space."
+
+
 dilithiumcost = 0
 metalcost = 0
 latinumcost = 0
 biomattercost = 550
 crewCost = 0
+
+unitName = "Fluidic Transmuter"
+
+tooltip = "Fluidic Transmuter"
+
+verboseTooltip = "Fluidic service. Serves as a fleet combatant."

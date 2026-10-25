@@ -1,7 +1,7 @@
 #include "battle.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Tiamat Class"
+
 
 //tooltips
 
@@ -160,11 +160,17 @@ weaponHardpoints9 = "hp01"
 
 
 
-tooltip = "Capital Ship (Tiamat Class)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Living biotechnology shapes this organism for operations beyond fluidic space. Special systems: 8472 Psionic Insanity. Availability follows the selected technology tree."
+
+
 dilithiumcost = 0
 metalcost = 0
 latinumcost = 0
 biomattercost = 1630
 crewCost = 0
+
+unitName = "Fluidic Tiamat Class"
+
+tooltip = "Fluidic Tiamat Class"
+
+verboseTooltip = "Fluidic service. Serves as a battleship. Armament: 8 standard weapon banks. Abilities: 8472 Psionic Insanity. Special energy: 5800."

@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Mark VI"
+
 
 //tooltips
 
@@ -120,6 +120,12 @@ hulltargethardpoints = "hp02" "hp03"
 
 criticaltargethardpoints = "hp02" "hp03"
 
-tooltip = "Defense Station (Mark VI)"
 
-verboseTooltip = "A fixed defensive installation protecting nearby fleet assets. Starfleet engineering supports a disciplined, versatile fleet."
+
+
+
+unitName = "Starfleet Mark VI"
+
+tooltip = "Starfleet Mark VI"
+
+verboseTooltip = "Starfleet service. Supports the operations available through its station controls. Armament: 1 standard weapon banks."

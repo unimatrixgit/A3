@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-unitname = "John Harriman - Enterprise B"
+
 label = "John Harriman - Enterprise B"
 basename = "fentb"
 race = "federation"
@@ -72,8 +72,8 @@ eventgreenalert = "XV_fentb_GreenAlert"
 eventtransport = "XV_fentb_Transport"
 eventselfdestruct = "XV_fentb_SelfDestruct"
 eventdecommission = "XV_fentb_Decommission"
-tooltip = "Hero Ship (John Harriman - Enterprise B)"
-verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Transwarp Drive, Corbomite Reflector. Availability follows the selected technology tree."
+
+
 dilithiumcost = 800
 metalcost = 345
 latinumcost = 0
@@ -131,3 +131,9 @@ weaponHardpoints7 = "hp06"
 maxspecialenergy = 8000
 
 specialenergyrate = 80
+
+unitName = "John Harriman - Enterprise B"
+
+tooltip = "John Harriman - Enterprise B"
+
+verboseTooltip = "Starfleet service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Transwarp Drive, Self Destruct, Corbomite Reflector. Special energy: 8000."

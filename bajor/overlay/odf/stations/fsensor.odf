@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Subspace Relay"
+
 
 //tooltips
 
@@ -126,6 +126,12 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Fleet Installation (Subspace Relay)"
 
-verboseTooltip = "A specialist installation supporting Federation operations. Starfleet engineering supports a disciplined, versatile fleet."
+
+
+
+unitName = "Starfleet Subspace Relay"
+
+tooltip = "Starfleet Subspace Relay"
+
+verboseTooltip = "Starfleet service. Supports the operations available through its station controls. Abilities: Detect Cloak. Special energy: 0."

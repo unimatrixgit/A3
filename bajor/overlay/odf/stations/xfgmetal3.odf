@@ -189,7 +189,7 @@ maximumCrew = 500
 
 
 
-baseName = "xfgserv"
+
 
 race = "ferengi"
 
@@ -223,11 +223,11 @@ sensorsTargetHardpoints = "hp26" "hp27" "hp10" "hp11"
 hullTargetHardpoints = "hp26" "hp27" "hp10" "hp11"
 criticalTargetHardpoints = "hp26" "hp27" "hp10" "hp11"
 
-unitName = "Mercenary Ferengi Metal Orbital II"
 
-tooltip = "Ferengi Met Equipment II"
 
-verboseTooltip = "Tier-II resource equipment: twice the base Ferengi extraction rate. Research required."
+
+
+
 
 latinumCost = 500
 
@@ -236,3 +236,11 @@ dilithiumCost = 0
 metalCost = 0
 
 miningMultiplier = 1.2
+
+unitName = "Ferengi Mercenary Ferengi Metal Orbital II"
+
+tooltip = "Ferengi Mercenary Ferengi Metal Orbital II"
+
+verboseTooltip = "Ferengi service. Processes orbital metal resources. Abilities: Orbital Mining Beam. Special energy: 0."
+
+baseName = "xui_xfgmetal3"

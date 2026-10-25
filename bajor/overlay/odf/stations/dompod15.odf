@@ -1,7 +1,7 @@
 #include "LifeSupportUpgradePod.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Level 2 Life Support Pod"
+
 
 //Race which can build ship & starting race of ship
 race = "dominion"
@@ -41,6 +41,12 @@ latinumCost = 300
 
 biomatterCost = 0
 
-tooltip = "Research Upgrade (Level 2 Life Support Pod)"
 
-verboseTooltip = "Researches Level 2 Life Support Pod. Dominion engineering serves the Founders through disciplined JemHadar operations."
+
+
+
+unitName = "Dominion Level 2 Life Support Pod"
+
+tooltip = "Dominion Level 2 Life Support Pod"
+
+verboseTooltip = "Dominion service. Unlocks its assigned research upgrade."

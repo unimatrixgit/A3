@@ -1,7 +1,7 @@
 #include "special.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Nebula Class"
+
 
 //tooltips
 
@@ -122,7 +122,7 @@ weaponRed = 2.0f
 //**********************************************************************
 
 // this is a nebula
-baseName = "fspecial"
+
 
 //**********************************************************************
 
@@ -154,11 +154,19 @@ buildTime = 37
 
 
 
-tooltip = "Support Ship (Nebula Class)"
 
-verboseTooltip = "Provides specialist support for fleet operations. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Shield Disruptor, Gemini Effect, Point Defense Phaser, Engineering Team, Chain Reaction Pulsar. Availability follows the selected technology tree."
+
+
 dilithiumcost = 85
 metalcost = 30
 latinumcost = 0
 biomattercost = 0
 crewCost = 90
+
+unitName = "Starfleet Nebula Class - Venture"
+
+tooltip = "Starfleet Nebula Class - Venture"
+
+verboseTooltip = "Starfleet service. Serves as a special. Armament: 2 standard weapon banks. Abilities: Shield Disruptor, Gemini Effect, Point Defense Phaser, Engineering Team, Chain Reaction Pulsar. Special energy: 1000."
+
+baseName = "xui_ken_special"

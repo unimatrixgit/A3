@@ -1,6 +1,6 @@
 // Begin main properties
 
-unitName = "Ambassador Class"
+
 
 
 race = "federation"
@@ -143,7 +143,7 @@ ScaleSOD = 1.8
 
 
 
-baseName = "fambassador"
+
 
 
 // Xaramada resource costs: original filename.
@@ -163,12 +163,20 @@ buildTime = 30
 
 
 
-tooltip = "Capital Ship (Ambassador Class)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Tractor Beam, Phase Torpedo. Availability follows the selected technology tree."
+
+
 weapon3 = "gselfdes"
 dilithiumcost = 265
 metalcost = 115
 latinumcost = 0
 biomattercost = 0
 crewCost = 580
+
+unitName = "Starfleet Ambassador Class"
+
+tooltip = "Starfleet Ambassador Class"
+
+verboseTooltip = "Starfleet service. Serves as a battleship. Armament: 2 standard weapon banks. Abilities: Self Destruct, Tractor Beam, Phase Torpedo. Special energy: 1000."
+
+baseName = "xui_fambass"

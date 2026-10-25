@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "San Fransisco Class"
+
 
 //tooltips
 
@@ -130,10 +130,16 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Shipyard (San Fransisco Class)"
 
-verboseTooltip = "Produces the vessels listed in its construction menu. Starfleet engineering supports a disciplined, versatile fleet."
+
+
 
 repairFacility = 1
 
 repairHardpoint = "hp01"
+
+unitName = "Starfleet San Fransisco Class"
+
+tooltip = "Starfleet San Fransisco Class"
+
+verboseTooltip = "Starfleet service. Constructs the vessels available in its production menu."

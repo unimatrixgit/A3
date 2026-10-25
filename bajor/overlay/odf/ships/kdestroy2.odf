@@ -1,7 +1,7 @@
 #include "destroy.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Korinar Class"
+
 
 //tooltips
 
@@ -131,12 +131,18 @@ ScaleSOD = 1.5
 
 
 
-tooltip = "Attack Ship (Korinar Class)"
 
-verboseTooltip = "A light combat ship for interception and fleet support. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak, Death Chant. Availability follows the selected technology tree."
+
+
 weapon2 = "gkcloak"
 dilithiumcost = 200
 metalcost = 50
 latinumcost = 0
 biomattercost = 0
 crewCost = 95
+
+unitName = "Klingon Korinar Class"
+
+tooltip = "Klingon Korinar Class"
+
+verboseTooltip = "Klingon service. Serves as a destroyer. Armament: 2 standard weapon banks. Abilities: Cloak, Death Chant. Special energy: 2400."

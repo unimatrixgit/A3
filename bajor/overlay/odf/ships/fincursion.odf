@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "D"
-unitname = "Incursion Class"
+
 race = "federation"
 maxhealth = 1940
 shieldrate = 6.8
@@ -89,8 +89,8 @@ hotkeylabel = "HOTKEY_F3"
 officercost = 7
 buildtime = 12
 scalesod = 0.6075
-tooltip = "Hero Ship (Incursion Class)"
-verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Holo-Generator, Cloak. Availability follows the selected technology tree."
+
+
 dilithiumcost = 500
 metalcost = 125
 latinumcost = 0
@@ -161,3 +161,9 @@ weaponHardpoints10 = "hp08"
 maxspecialenergy = 1000
 
 specialenergyrate = 3.5
+
+unitName = "Incursion Class"
+
+tooltip = "Incursion Class"
+
+verboseTooltip = "Starfleet service. Hero vessel with its own command abilities. Armament: 8 standard weapon banks. Abilities: Holo-Generator, Cloak. Special energy: 1000."

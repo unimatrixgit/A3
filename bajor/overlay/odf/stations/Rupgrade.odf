@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Star Empire Research Institute"
+
 
 //tooltips
 
@@ -128,6 +128,12 @@ latinumCost = 750
 
 biomatterCost = 0
 
-tooltip = "Research Facility (Star Empire Research Institute)"
 
-verboseTooltip = "Supports the technologies and upgrades available in its research menu. Romulan engineering favors calculated strikes and control of the battlefield."
+
+
+
+unitName = "Romulan Star Empire Research Institute"
+
+tooltip = "Romulan Star Empire Research Institute"
+
+verboseTooltip = "Romulan service. Develops the technologies listed in its research menu."

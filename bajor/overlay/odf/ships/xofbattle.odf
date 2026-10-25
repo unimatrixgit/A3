@@ -1,8 +1,8 @@
 #include "fbattle.odf"
-unitName = "Omega Sovereign Class"
 
 
-baseName = "fbattle"
+
+
 maxHealth = 1375
 shieldRate = 16.500
 maxSpecialEnergy = 1650
@@ -34,12 +34,20 @@ buildTime = 34
 
 
 
-tooltip = "Capital Ship (Omega Sovereign Class)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+
+
 weapon3 = "gselfdes"
 dilithiumcost = 485
 metalcost = 210
 latinumcost = 0
 biomattercost = 0
 crewCost = 790
+
+unitName = "Starfleet Omega Sovereign Class"
+
+tooltip = "Starfleet Omega Sovereign Class"
+
+verboseTooltip = "Starfleet service. Serves as a battleship. Armament: 2 standard weapon banks. Abilities: Self Destruct, Corbomite Reflector. Special energy: 1650."
+
+baseName = "xui_xofbattle"

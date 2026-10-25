@@ -99,7 +99,7 @@ baseName = "kyard2"
 crewCost = 632
 officerCost = 5
 
-unitName = "Kahless' Forge"
+
 
 
 
@@ -111,9 +111,9 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Shipyard (Kahless' Forge)"
 
-verboseTooltip = "Produces the vessels listed in its construction menu. Klingon engineering serves the Empire with direct, relentless force."
+
+
 
 buildItem0 = "xhkhero"
 
@@ -146,3 +146,9 @@ dilithiumCost = 450
 metalCost = 1350
 
 buildTime = 120
+
+unitName = "Klingon Kahless' Forge"
+
+tooltip = "Klingon Kahless' Forge"
+
+verboseTooltip = "Klingon service. Constructs the vessels available in its production menu."

@@ -1,6 +1,6 @@
 // Begin main properties
 
-unitName = "Jem'Hadar Battle Cruiser"
+
 
 
 race = "dominion"
@@ -148,12 +148,18 @@ specialEnergyRate = 14.0
 
 
 
-tooltip = "Capital Ship (Jem'Hadar Battle Cruiser)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Polaron Torpedo. Availability follows the selected technology tree."
+
+
 weapon3 = "gselfdes"
 dilithiumcost = 175
 metalcost = 75
 latinumcost = 0
 biomattercost = 0
 crewCost = 470
+
+unitName = "Dominion Jem'Hadar Battle Cruiser"
+
+tooltip = "Dominion Jem'Hadar Battle Cruiser"
+
+verboseTooltip = "Dominion service. Serves as a battleship. Armament: 2 standard weapon banks. Abilities: Self Destruct, Polaron Torpedo. Special energy: 1400."

@@ -1,7 +1,7 @@
 #include "battle2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "IG Bak'Tag Class"
+
 
 //tooltips
 
@@ -134,9 +134,9 @@ weaponHardpoints5 = "hp01"
 
 
 
-tooltip = "Capital Ship (IG Bak'Tag Class)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak, Ion Cannon. Availability follows the selected technology tree."
+
+
 weapon4 = "gkcloak"
 weapon3 = "gselfdes"
 dilithiumcost = 290
@@ -144,3 +144,9 @@ metalcost = 125
 latinumcost = 0
 biomattercost = 0
 crewCost = 605
+
+unitName = "Klingon IG Bak'Tag Class"
+
+tooltip = "Klingon IG Bak'Tag Class"
+
+verboseTooltip = "Klingon service. Serves as a battleship. Armament: 2 standard weapon banks. Abilities: Self Destruct, Cloak, Ion Cannon. Special energy: 2400."

@@ -4,7 +4,7 @@
 race = "romulan"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Neriax Class"
+
 
 //tooltips
 
@@ -106,9 +106,9 @@ buildTime = 13
 
 
 
-tooltip = "Resource Miner (Neriax Class)"
 
-verboseTooltip = "Collects resources and delivers them to compatible processing facilities. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Mining Beam, Cloak. Availability follows the selected technology tree."
+
+
 
 dilithiumCost = 175
 
@@ -117,3 +117,9 @@ metalCost = 0
 latinumCost = 0
 
 biomatterCost = 0
+
+unitName = "Romulan Neriax Class"
+
+tooltip = "Romulan Neriax Class"
+
+verboseTooltip = "Romulan service. Extracts dilithium and supports the faction economy. Abilities: Mining Beam, Cloak. Special energy: 2400."

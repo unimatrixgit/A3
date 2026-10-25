@@ -1,6 +1,6 @@
 // Begin main properties
 
-unitName = "Wormhole Jem'Hadar Battle Cruiser"
+
 
 
 race = "dominion"
@@ -140,12 +140,18 @@ buildTime = 5
 
 
 
-tooltip = "Capital Ship (Wormhole Jem'Hadar Battle Cruiser)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Dominion engineering serves the Founders through disciplined JemHadar operations."
+
+
 weapon3 = "gselfdes"
 dilithiumcost = 170
 metalcost = 70
 latinumcost = 0
 biomattercost = 0
 crewCost = 465
+
+unitName = "Dominion Wormhole Jem'Hadar Battle Cruiser"
+
+tooltip = "Dominion Wormhole Jem'Hadar Battle Cruiser"
+
+verboseTooltip = "Dominion service. Serves as a battleship. Armament: 2 standard weapon banks. Abilities: Self Destruct."

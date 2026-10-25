@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Detection Grid Pod"
+
 
 //tooltips
 
@@ -65,6 +65,12 @@ latinumCost = 150
 
 biomatterCost = 0
 
-tooltip = "Research Upgrade (Detection Grid Pod)"
 
-verboseTooltip = "Researches Detection Grid Pod. Dominion engineering serves the Founders through disciplined JemHadar operations."
+
+
+
+unitName = "Dominion Detection Grid Pod"
+
+tooltip = "Dominion Detection Grid Pod"
+
+verboseTooltip = "Dominion service. Unlocks its assigned research upgrade."

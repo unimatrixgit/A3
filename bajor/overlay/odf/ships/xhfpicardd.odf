@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-unitname = "Jean-Luc Picard - Enterprise D"
+
 label = "Jean-Luc Picard - Enterprise D"
 basename = "fentd"
 race = "federation"
@@ -72,8 +72,8 @@ eventgreenalert = "XV_fentd_GreenAlert"
 eventtransport = "XV_fentd_Transport"
 eventselfdestruct = "XV_fentd_SelfDestruct"
 eventdecommission = "XV_fentd_Decommission"
-tooltip = "Hero Ship (Jean-Luc Picard - Enterprise D)"
-verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Tractor Beam. Availability follows the selected technology tree."
+
+
 dilithiumcost = 895
 metalcost = 385
 latinumcost = 0
@@ -125,3 +125,9 @@ weaponHardpoints6 = "hp01"
 maxspecialenergy = 1000
 
 specialenergyrate = 15
+
+unitName = "Jean-Luc Picard - Enterprise D"
+
+tooltip = "Jean-Luc Picard - Enterprise D"
+
+verboseTooltip = "Starfleet service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Self Destruct, Tractor Beam. Special energy: 1000."

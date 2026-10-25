@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-unitname = "Negh'Var Class"
+
 ishero = 1
 label = "Martok's Negh'Var"
 race = "klingon"
@@ -73,7 +73,7 @@ hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "
 criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
 weaponyellow = 1.0f
 weaponred = 0.75f
-basename = "kbattle"
+
 hotkeylabel = "HOTKEY_F4"
 officercost = 7
 buildtime = 80
@@ -83,8 +83,8 @@ eventgreenalert = "XV_kmartok_GreenAlert"
 eventtransport = "XV_kmartok_Transport"
 eventselfdestruct = "XV_kmartok_SelfDestruct"
 eventdecommission = "XV_kmartok_Decommission"
-tooltip = "Hero Ship (Negh'Var Class)"
-verbosetooltip = "A named command vessel serving the Klingon fleet. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak. Availability follows the selected technology tree."
+
+
 dilithiumcost = 745
 metalcost = 320
 latinumcost = 0
@@ -166,3 +166,11 @@ weaponHardpoints11 = "hp02"
 maxspecialenergy = 2400
 
 specialenergyrate = 24
+
+unitName = "Negh'Var Class"
+
+tooltip = "Negh'Var Class"
+
+verboseTooltip = "Klingon service. Hero vessel with its own command abilities. Armament: 9 standard weapon banks. Abilities: Self Destruct, Cloak. Special energy: 2400."
+
+baseName = "xui_kmartok"

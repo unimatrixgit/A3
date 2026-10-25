@@ -1,6 +1,6 @@
 // Begin main properties
 
-unitName = "Breen Destroyer"
+
 
 race = "breen"
 maxHealth = 80
@@ -142,11 +142,17 @@ maxSpecialEnergy = 1200
 
 
 
-tooltip = "Attack Ship (Breen Destroyer)"
 
-verboseTooltip = "A light combat ship for interception and fleet support. Breen engineering supports the Confederacy with focused, uncompromising efficiency. Special systems: Polaron Torpedo. Availability follows the selected technology tree."
+
+
 dilithiumcost = 60
 metalcost = 15
 latinumcost = 0
 biomattercost = 0
 crewCost = 40
+
+unitName = "Breen Destroyer"
+
+tooltip = "Breen Destroyer"
+
+verboseTooltip = "Breen service. Serves as a destroyer. Armament: 2 standard weapon banks. Abilities: Polaron Torpedo. Special energy: 1200."

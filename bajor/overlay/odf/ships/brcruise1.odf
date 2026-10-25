@@ -1,6 +1,6 @@
 // Begin main properties
 
-unitName = "Breen Cruiser"
+
 
 race = "breen"
 maxHealth = 200
@@ -139,11 +139,17 @@ buildTime = 20
 
 
 
-tooltip = "Cruiser (Breen Cruiser)"
 
-verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Breen engineering supports the Confederacy with focused, uncompromising efficiency. Special systems: Polaron Torpedo. Availability follows the selected technology tree."
+
+
 dilithiumcost = 105
 metalcost = 35
 latinumcost = 0
 biomattercost = 0
 crewCost = 135
+
+unitName = "Breen Cruiser"
+
+tooltip = "Breen Cruiser"
+
+verboseTooltip = "Breen service. Serves as a cruiser. Armament: 5 standard weapon banks. Abilities: Polaron Torpedo. Special energy: 1000."

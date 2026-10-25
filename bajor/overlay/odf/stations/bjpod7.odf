@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitname = "Bajoran Advanced Deflector"
+
 
 //tooltips
 
@@ -92,8 +92,14 @@ latinumCost = 300
 
 biomatterCost = 0
 
-tooltip = "Research Upgrade (Bajoran Advanced Deflector)"
 
-verboseTooltip = "Researches Bajoran Advanced Deflector. Bajoran militia engineering protects Bajor and its neighboring systems."
+
+
 
 baseName = "bv4_bjpod7"
+
+unitName = "Bajoran Advanced Deflector"
+
+tooltip = "Bajoran Advanced Deflector"
+
+verboseTooltip = "Bajoran service. Unlocks its assigned research upgrade."

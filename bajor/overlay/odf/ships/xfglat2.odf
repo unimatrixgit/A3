@@ -7,7 +7,7 @@ sensorsTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
 hullTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
 criticalTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
 
-baseName = "xfgmine"
+
 
 race = "ferengi"
 
@@ -67,11 +67,11 @@ maxLatinum = 150
 
 
 
-unitName = "Mercenary Ferengi Enhanced Latinum Collector"
 
-tooltip = "Enhanced Latinum Collector"
 
-verboseTooltip = "Research-unlocked collector with45 units extracted every1.5 seconds. Latinum resource cost only."
+
+
+
 
 resourcesCanHandle = "latinum"
 
@@ -81,3 +81,11 @@ weaponHardpoints1 = "hp01"
 latinumCost = 350
 
 hotkeyLabel = "HOTKEY_F7"
+
+unitName = "Ferengi Mercenary Ferengi Enhanced Latinum Collector"
+
+tooltip = "Ferengi Mercenary Ferengi Enhanced Latinum Collector"
+
+verboseTooltip = "Ferengi service. Harvests latinum for purchases and trade. Abilities: Mining Beam. Special energy: 0."
+
+baseName = "xui_xfglat2"

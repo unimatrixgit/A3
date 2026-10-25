@@ -4,7 +4,7 @@
 race = "federation"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Saucer Section"
+
 
 //tooltips
 
@@ -111,7 +111,7 @@ classLabel = "starbase"
 hotkeyLabel = "HOTKEY_F6"
 
 // added to change to a Shipyard from a construction ship..this is the name of the SOD
-baseName = "fsaucer"
+
 
 // So it recomputes the rally point.
 alwaysRecomputeRallyPoint = 1
@@ -175,11 +175,19 @@ buildTime = 27
 
 
 
-tooltip = "Fleet Ship (Saucer Section)"
 
-verboseTooltip = "A Federation vessel for fleet operations. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Prometheus Intergrator. Availability follows the selected technology tree."
+
+
 dilithiumcost = 200
 metalcost = 70
 latinumcost = 0
 biomattercost = 0
 crewCost = 210
+
+unitName = "Starfleet Saucer Section"
+
+tooltip = "Starfleet Saucer Section"
+
+verboseTooltip = "Starfleet service. Serves as a fleet combatant. Armament: 2 standard weapon banks. Abilities: Prometheus Intergrator. Special energy: 2000."
+
+baseName = "xui_fpsaucer"

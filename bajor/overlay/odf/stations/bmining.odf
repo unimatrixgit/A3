@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Resource Processing Node"
+
 
 
 
@@ -125,9 +125,9 @@ criticaltargethardpoints = "hp01"
 
 
 
-tooltip = "Resource Processing Station (Resource Processing Node)"
 
-verboseTooltip = "Receives and processes resources delivered by mining vessels. Collective engineering integrates this asset into the unimatrix."
+
+
 
 recrewRate = 10
 
@@ -142,3 +142,9 @@ metalCost = 200
 latinumCost = 0
 
 biomatterCost = 0
+
+unitName = "Collective Resource Processing Node"
+
+tooltip = "Collective Resource Processing Node"
+
+verboseTooltip = "Collective service. Extracts dilithium and supports the faction economy."

@@ -4,11 +4,11 @@ baseName = "xsbpod1"
 
 race = "species8472"
 
-unitName = "Biomatter Extraction I (+50%)"
 
-tooltip = "Biomatter Extraction I (+50%)"
 
-verboseTooltip = "Unlocks an enhanced Collector with 150 percent of the base biomatter extraction rate. Existing collectors are unchanged."
+
+
+
 
 biomatterCost = 900
 
@@ -27,3 +27,9 @@ buildTime = 90
 ScaleSOD = 0.6
 
 hotkeyLabel = "HOTKEY_F1"
+
+unitName = "Fluidic Biomatter Extraction I (+50%)"
+
+tooltip = "Fluidic Biomatter Extraction I (+50%)"
+
+verboseTooltip = "Fluidic service. Unlocks its assigned research upgrade."

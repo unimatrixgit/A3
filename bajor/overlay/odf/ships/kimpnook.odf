@@ -1,7 +1,7 @@
 #include "destroy.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Nook'Nena Class"
+
 
 //tooltips
 
@@ -139,12 +139,18 @@ weaponHardpoints5 = "hp01"
 
 
 
-tooltip = "Attack Ship (Nook'Nena Class)"
 
-verboseTooltip = "A light combat ship for interception and fleet support. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak, Polaron Torpedo. Availability follows the selected technology tree."
+
+
 weapon3 = "gkcloak"
 dilithiumcost = 350
 metalcost = 85
 latinumcost = 0
 biomattercost = 0
 crewCost = 125
+
+unitName = "Klingon Nook'Nena Class"
+
+tooltip = "Klingon Nook'Nena Class"
+
+verboseTooltip = "Klingon service. Serves as a destroyer. Armament: 3 standard weapon banks. Abilities: Cloak, Polaron Torpedo. Special energy: 2400."

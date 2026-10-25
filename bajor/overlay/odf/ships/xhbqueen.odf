@@ -56,10 +56,10 @@ sanecrewlossmethod = 1
 weaponyellow = 1.5f
 weaponred = 5.0f
 keymaplabel = "borg_science"
-unitname = "Borg Queen's Personal Diamond"
+
 label = "Borg Queen's Personal Diamond"
-tooltip = "Borg Queen's Personal Diamond"
-verbosetooltip = "Borg command hero. Eight normal weapon banks: five beams and three photon torpedoes. Ultritium Burst, Nanites, Computer Override, green assimilation and transwarp. Uses native Borg Queen commands."
+
+
 basename = "xhbqueen"
 race = "borg"
 ishero = 1
@@ -177,3 +177,9 @@ weaponHardpoints13 = "hp26"
 maxspecialenergy = 3000
 
 specialenergyrate = 30
+
+unitName = "Borg Queen's Personal Diamond"
+
+tooltip = "Borg Queen's Personal Diamond"
+
+verboseTooltip = "Collective service. Hero vessel with its own command abilities. Armament: 8 standard weapon banks. Abilities: Nanites, Computer Override, Green Holding / Assimilation Beam, Transwarp Drive, Ultritium Burst. Special energy: 3000."

@@ -4,7 +4,7 @@
 race = "borg"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Resource Collector"
+
 
 
 
@@ -118,9 +118,9 @@ buildTime = 15
 
 
 
-tooltip = "Resource Miner (Resource Collector)"
 
-verboseTooltip = "Collects resources and delivers them to compatible processing facilities. Collective engineering integrates this asset into the unimatrix. Special systems: Mining Beam, Planet Mining Beam, Transwarp Drive. Availability follows the selected technology tree."
+
+
 
 dilithiumCost = 175
 
@@ -129,3 +129,9 @@ metalCost = 0
 latinumCost = 0
 
 biomatterCost = 0
+
+unitName = "Collective Resource Collector"
+
+tooltip = "Collective Resource Collector"
+
+verboseTooltip = "Collective service. Extracts dilithium and supports the faction economy. Abilities: Mining Beam, Planet Mining Beam, Transwarp Drive. Special energy: 1000."

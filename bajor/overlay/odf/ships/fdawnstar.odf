@@ -1,7 +1,7 @@
 #include "battle.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Dawnstar Class"
+
 
 //tooltips
 
@@ -151,11 +151,17 @@ buildTime = 28
 
 
 
-tooltip = "Capital Ship (Dawnstar Class)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Tractor Beam, Corbomite Reflector, Slipstream Drive. Availability follows the selected technology tree."
+
+
 dilithiumcost = 540
 metalcost = 230
 latinumcost = 0
 biomattercost = 0
 crewCost = 830
+
+unitName = "Starfleet Dawnstar Class"
+
+tooltip = "Starfleet Dawnstar Class"
+
+verboseTooltip = "Starfleet service. Serves as a battleship. Armament: 3 standard weapon banks. Abilities: Tractor Beam, Detect Cloak, Corbomite Reflector, Slipstream Drive. Special energy: 1300."

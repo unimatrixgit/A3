@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Gre'thor Armory"
+
 
 //tooltips
 
@@ -109,9 +109,9 @@ latinumCost = 500
 
 biomatterCost = 0
 
-tooltip = "Research Facility (Gre'thor Armory)"
 
-verboseTooltip = "Supports the technologies and upgrades available in its research menu. Klingon engineering serves the Empire with direct, relentless force."
+
+
 
 baseName = "mrst_kli"
 
@@ -125,3 +125,9 @@ buildItem1 = "klipod7"
 buildItem2 = "klipod8"
 
 buildItem3 = "klipod9"
+
+unitName = "Klingon Gre'thor Armory"
+
+tooltip = "Klingon Gre'thor Armory"
+
+verboseTooltip = "Klingon service. Develops the technologies listed in its research menu."

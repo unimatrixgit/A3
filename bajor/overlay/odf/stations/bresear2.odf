@@ -3,7 +3,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Technology Node"
+
 
 
 
@@ -96,9 +96,9 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Research Facility (Technology Node)"
 
-verboseTooltip = "Supports the technologies and upgrades available in its research menu. Collective engineering integrates this asset into the unimatrix."
+
+
 
 recrewRate = 10
 
@@ -114,3 +114,9 @@ buildItem1 = "borpod7"
 buildItem2 = "borpod8"
 
 buildItem3 = "borpod9"
+
+unitName = "Collective Technology Node"
+
+tooltip = "Collective Technology Node"
+
+verboseTooltip = "Collective service. Develops the technologies listed in its research menu."

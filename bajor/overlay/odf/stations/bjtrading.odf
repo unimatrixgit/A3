@@ -110,7 +110,7 @@ trade_station = 1
 
 
 
-unitName = "Bajoran Trade Center"
+
 
 
 
@@ -169,8 +169,14 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Trading Station (Bajoran Trade Center)"
 
-verboseTooltip = "Supports cargo exchange and trade operations. Bajoran militia engineering protects Bajor and its neighboring systems."
+
+
 
 baseName = "bv4_bjtrading"
+
+unitName = "Bajoran Trade Center"
+
+tooltip = "Bajoran Trade Center"
+
+verboseTooltip = "Bajoran service. Supports the operations available through its station controls."

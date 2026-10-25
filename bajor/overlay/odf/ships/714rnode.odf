@@ -1,7 +1,7 @@
 #include "destroy.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Raynode Class"
+
 
 //tooltips
 
@@ -135,11 +135,17 @@ weaponHardpoints3 = "hp01"
 
 
 
-tooltip = "Attack Ship (Raynode Class)"
 
-verboseTooltip = "A light combat ship for interception and fleet support. Living biotechnology shapes this organism for operations beyond fluidic space. Special systems: 8472 Clairvoyant Link. Availability follows the selected technology tree."
+
+
 dilithiumcost = 0
 metalcost = 0
 latinumcost = 0
 biomattercost = 260
 crewCost = 0
+
+unitName = "Fluidic Raynode Class"
+
+tooltip = "Fluidic Raynode Class"
+
+verboseTooltip = "Fluidic service. Serves as a destroyer. Armament: 2 standard weapon banks. Abilities: 8472 Clairvoyant Link. Special energy: 3000."

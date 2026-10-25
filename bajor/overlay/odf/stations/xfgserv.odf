@@ -150,13 +150,13 @@ sensorsTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
 hullTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
 criticalTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
 
-baseName = "xfgserv"
 
-unitName = "Mercenary Ferengi Service Yard"
 
-tooltip = "Mercenary Ferengi Service Yard"
 
-verboseTooltip = "Ferengi construction, trade, mining, colony and repair contracts. Resource costs are latinum only."
+
+
+
+
 
 maxHealth = 2400
 
@@ -196,3 +196,11 @@ buildItem5 = "xfglat2"
 buildItem6 = "xfgdil3"
 
 buildItem7 = "xfglat3"
+
+unitName = "Ferengi Mercenary Ferengi Service Yard"
+
+tooltip = "Ferengi Mercenary Ferengi Service Yard"
+
+verboseTooltip = "Ferengi service. Constructs the vessels available in its production menu."
+
+baseName = "xui_xfgserv"

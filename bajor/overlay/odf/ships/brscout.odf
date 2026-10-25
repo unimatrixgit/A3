@@ -1,6 +1,6 @@
 // Begin main properties
 
-unitName = "Breen Scout"
+
 
 race = "breen"
 maxHealth = 30
@@ -135,11 +135,17 @@ ScaleSOD = 0.375
 
 
 
-tooltip = "Scout (Breen Scout)"
 
-verboseTooltip = "Surveys space and locates threats ahead of the fleet. Breen engineering supports the Confederacy with focused, uncompromising efficiency."
+
+
 dilithiumcost = 75
 metalcost = 0
 latinumcost = 0
 biomattercost = 0
 crewCost = 15
+
+unitName = "Breen Scout"
+
+tooltip = "Breen Scout"
+
+verboseTooltip = "Breen service. Serves as a scout. Armament: 1 standard weapon banks. Abilities: Detect Cloak. Special energy: 0."

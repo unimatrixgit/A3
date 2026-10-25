@@ -1,12 +1,12 @@
 #include "research.odf"
 
-baseName = "xfgserv"
+
 
 race = "ferengi"
 
-unitName = "Ferengi Commerce Institute"
 
-tooltip = "Ferengi Commerce Institute"
+
+
 
 
 
@@ -53,4 +53,12 @@ buildItem5 = "xfgplat2"
 
 podHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
 
-verboseTooltip = "Two tiers of resource equipment contracts: +50 percent and +100 percent extraction. Research unlocks new equipment; existing collectors are unchanged."
+
+
+unitName = "Ferengi Commerce Institute"
+
+tooltip = "Ferengi Commerce Institute"
+
+verboseTooltip = "Ferengi service. Develops the technologies listed in its research menu."
+
+baseName = "xui_xfgresearch"

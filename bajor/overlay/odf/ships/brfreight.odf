@@ -6,7 +6,7 @@
 race = "breen"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Breen Mining Freighter"
+
 
 //tooltips
 
@@ -113,9 +113,9 @@ buildTime = 13
 
 
 
-tooltip = "Resource Miner (Breen Mining Freighter)"
 
-verboseTooltip = "Collects resources and delivers them to compatible processing facilities. Breen engineering supports the Confederacy with focused, uncompromising efficiency. Special systems: Mining Beam. Availability follows the selected technology tree."
+
+
 
 dilithiumCost = 175
 
@@ -124,3 +124,9 @@ metalCost = 0
 latinumCost = 0
 
 biomatterCost = 0
+
+unitName = "Breen Mining Freighter"
+
+tooltip = "Breen Mining Freighter"
+
+verboseTooltip = "Breen service. Extracts dilithium and supports the faction economy. Abilities: Mining Beam. Special energy: 0."

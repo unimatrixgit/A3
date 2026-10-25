@@ -1,7 +1,7 @@
 #include "saucer.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Saucer Section"
+
 
 //tooltips
 
@@ -120,11 +120,19 @@ buildTime = 27
 
 
 
-tooltip = "Capital Ship (Saucer Section)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Galaxy Class Integration. Availability follows the selected technology tree."
+
+
 dilithiumcost = 85
 metalcost = 35
 latinumcost = 0
 biomattercost = 0
 crewCost = 325
+
+unitName = "Starfleet Saucer Section - Venture"
+
+tooltip = "Starfleet Saucer Section - Venture"
+
+verboseTooltip = "Starfleet service. Serves as a battleship. Armament: 1 standard weapon banks. Abilities: Galaxy Class Integration. Special energy: 0."
+
+baseName = "xui_fsaucer"

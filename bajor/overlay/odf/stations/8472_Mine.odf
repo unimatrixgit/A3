@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Mine"
+
 
 // Do not change!  If you want it to seek and destroy and all that.
 aiName = "MineProcess"
@@ -126,6 +126,12 @@ crewCost = 0
 officerCost = 0
 buildTime = 25
 
-tooltip = "Fleet Installation (Mine)"
 
-verboseTooltip = "A specialist installation supporting Species 8472 operations. Living biotechnology shapes this organism for operations beyond fluidic space."
+
+
+
+unitName = "Fluidic Mine"
+
+tooltip = "Fluidic Mine"
+
+verboseTooltip = "Fluidic service. Supports the operations available through its station controls."

@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Sensor Scrambler Pod"
+
 
 //tooltips
 
@@ -67,6 +67,12 @@ latinumCost = 300
 
 biomatterCost = 0
 
-tooltip = "Research Upgrade (Sensor Scrambler Pod)"
 
-verboseTooltip = "Researches Sensor Scrambler Pod. Cardassian engineering sustains the Union through ordered, persistent operations."
+
+
+
+unitName = "Cardassian Sensor Scrambler Pod"
+
+tooltip = "Cardassian Sensor Scrambler Pod"
+
+verboseTooltip = "Cardassian service. Unlocks its assigned research upgrade."

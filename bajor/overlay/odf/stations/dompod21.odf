@@ -1,7 +1,7 @@
 #include "WeaponUpgradePod2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Level 3 Weapons Pod"
+
 
 //Race which can build ship & starting race of ship
 race = "dominion"
@@ -52,6 +52,12 @@ latinumCost = 600
 
 biomatterCost = 0
 
-tooltip = "Research Upgrade (Level 3 Weapons Pod)"
 
-verboseTooltip = "Researches Level 3 Weapons Pod. Dominion engineering serves the Founders through disciplined JemHadar operations."
+
+
+
+unitName = "Dominion Level 3 Weapons Pod"
+
+tooltip = "Dominion Level 3 Weapons Pod"
+
+verboseTooltip = "Dominion service. Unlocks its assigned research upgrade."

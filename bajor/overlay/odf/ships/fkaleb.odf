@@ -1,7 +1,7 @@
 #include "battle.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Kaleb Class"
+
 
 //tooltips
 
@@ -141,12 +141,18 @@ weaponHardpoints7 = "hp01"
 
 
 
-tooltip = "Capital Ship (Kaleb Class)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+
+
 weapon6 = "gselfdes"
 dilithiumcost = 990
 metalcost = 425
 latinumcost = 0
 biomattercost = 0
 crewCost = 1125
+
+unitName = "Starfleet Kaleb Class"
+
+tooltip = "Starfleet Kaleb Class"
+
+verboseTooltip = "Starfleet service. Serves as a battleship. Armament: 5 standard weapon banks. Abilities: Self Destruct, Corbomite Reflector. Special energy: 1000."

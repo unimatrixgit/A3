@@ -6,7 +6,7 @@
 race = "federation"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Excelsior Class"
+
 
 //tooltips
 
@@ -146,11 +146,17 @@ specialEnergyRate = 9.0
 
 
 
-tooltip = "Frigate (Excelsior Class)"
 
-verboseTooltip = "A combat escort for patrols and coordinated fleet engagements. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Shield Recharger. Availability follows the selected technology tree."
+
+
 dilithiumcost = 280
 metalcost = 95
 latinumcost = 0
 biomattercost = 0
 crewCost = 185
+
+unitName = "Starfleet Excelsior Class - Venture"
+
+tooltip = "Starfleet Excelsior Class - Venture"
+
+verboseTooltip = "Starfleet service. Serves as a frigate. Armament: 3 standard weapon banks. Abilities: Detect Cloak, Shield Recharger. Special energy: 900."

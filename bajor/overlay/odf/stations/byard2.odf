@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Adv. Assembly Matrix"
+
 
 //tooltips
 
@@ -132,9 +132,9 @@ criticaltargethardpoints = "hp01" "hp06" "hp11" "hp16"
 
 
 
-tooltip = "Shipyard (Adv. Assembly Matrix)"
 
-verboseTooltip = "Produces the vessels listed in its construction menu. Collective engineering integrates this asset into the unimatrix."
+
+
 
 recrewRate = 10
 
@@ -171,3 +171,9 @@ dilithiumCost = 300
 metalCost = 1000
 
 buildTime = 90
+
+unitName = "Collective Adv. Assembly Matrix"
+
+tooltip = "Collective Adv. Assembly Matrix"
+
+verboseTooltip = "Collective service. Constructs the vessels available in its production menu."

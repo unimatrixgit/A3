@@ -1,7 +1,7 @@
 #include "destroy.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Eagle Class"
+
 
 //tooltips
 
@@ -129,11 +129,17 @@ ScaleSOD = 1.5
 
 
 
-tooltip = "Attack Ship (Eagle Class)"
 
-verboseTooltip = "A light combat ship for interception and fleet support. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak. Availability follows the selected technology tree."
+
+
 dilithiumcost = 335
 metalcost = 85
 latinumcost = 0
 biomattercost = 0
 crewCost = 125
+
+unitName = "Romulan Eagle Class"
+
+tooltip = "Romulan Eagle Class"
+
+verboseTooltip = "Romulan service. Serves as a destroyer. Armament: 3 standard weapon banks. Abilities: Cloak. Special energy: 2400."

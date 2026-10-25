@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Cyclone Defense Station"
+
 
 //tooltips
 
@@ -369,9 +369,9 @@ weapon10 = "xhwpdis"
 
 weaponHardpoints10 = "hp04"
 
-tooltip = "Heavy Weapons Platform (Cyclone Defense Station)"
 
-verboseTooltip = "Lantean technology infused Platform, With ZPM."
+
+
 
 ScaleSOD = 2.10010112325
 
@@ -446,3 +446,9 @@ buildItem2 = "fconst"
 buildItem3 = "fconst2"
 
 buildItem4 = "xfuconst"
+
+unitName = "Starfleet Cyclone Defense Station"
+
+tooltip = "Starfleet Cyclone Defense Station"
+
+verboseTooltip = "Starfleet service. Heavy defensive station guarding nearby approaches. Armament: 16 standard weapon banks."

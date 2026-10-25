@@ -1,7 +1,7 @@
 #include "cruise1.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Brinok Class"
+
 
 //tooltips
 
@@ -123,11 +123,17 @@ buildTime = 20
 
 
 
-tooltip = "Cruiser (Brinok Class)"
 
-verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Drones. Availability follows the selected technology tree."
+
+
 dilithiumcost = 245
 metalcost = 80
 latinumcost = 0
 biomattercost = 0
 crewCost = 210
+
+unitName = "Cardassian Brinok Class"
+
+tooltip = "Cardassian Brinok Class"
+
+verboseTooltip = "Cardassian service. Serves as a cruiser. Armament: 2 standard weapon banks. Abilities: Drones. Special energy: 2200."

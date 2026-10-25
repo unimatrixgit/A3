@@ -1,7 +1,7 @@
 #include "super.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Phoenix Class"
+
 
 //tooltips
 
@@ -177,11 +177,17 @@ criticaltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp18"
 
 
 
-tooltip = "Support Ship (Phoenix Class)"
 
-verboseTooltip = "Provides specialist support for fleet operations. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Spacial Rift. Availability follows the selected technology tree."
+
+
 dilithiumcost = 670
 metalcost = 225
 latinumcost = 0
 biomattercost = 0
 crewCost = 245
+
+unitName = "Romulan Phoenix Class"
+
+tooltip = "Romulan Phoenix Class"
+
+verboseTooltip = "Romulan service. Serves as a special. Armament: 3 standard weapon banks. Abilities: Cloak, Spacial Rift. Special energy: 2400."

@@ -1,7 +1,7 @@
 #include "WeaponUpgradePod.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Level 2 Weapons Pod"
+
 
 //Race which can build ship & starting race of ship
 race = "federation"
@@ -33,6 +33,12 @@ crewCost = 0
 officerCost = 1
 buildTime = 120
 
-tooltip = "Research Upgrade (Level 2 Weapons Pod)"
 
-verboseTooltip = "Researches Level 2 Weapons Pod. Starfleet engineering supports a disciplined, versatile fleet."
+
+
+
+unitName = "Starfleet Level 2 Weapons Pod"
+
+tooltip = "Starfleet Level 2 Weapons Pod"
+
+verboseTooltip = "Starfleet service. Unlocks its assigned research upgrade."

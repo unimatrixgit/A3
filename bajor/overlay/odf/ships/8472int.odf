@@ -1,7 +1,7 @@
 #include "cruise1.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Tactical Cruiser"
+
 
 //tooltips
 
@@ -127,11 +127,17 @@ buildTime = 43
 
 
 
-tooltip = "Cruiser (Tactical Cruiser)"
 
-verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Living biotechnology shapes this organism for operations beyond fluidic space. Special systems: 8472 Psionic Insanity. Availability follows the selected technology tree."
+
+
 dilithiumcost = 0
 metalcost = 0
 latinumcost = 0
 biomattercost = 575
 crewCost = 0
+
+unitName = "Fluidic Tactical Cruiser"
+
+tooltip = "Fluidic Tactical Cruiser"
+
+verboseTooltip = "Fluidic service. Serves as a cruiser. Armament: 1 standard weapon banks. Abilities: 8472 Psionic Insanity. Special energy: 3200."

@@ -1,7 +1,7 @@
 #include "destroy.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Banshee Class"
+
 
 //tooltips
 
@@ -140,11 +140,17 @@ weaponHardpoints4 = "hp01"
 
 
 
-tooltip = "Attack Ship (Banshee Class)"
 
-verboseTooltip = "A light combat ship for interception and fleet support. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Antimatter Mines. Availability follows the selected technology tree."
+
+
 dilithiumcost = 440
 metalcost = 110
 latinumcost = 0
 biomattercost = 0
 crewCost = 140
+
+unitName = "Starfleet Banshee Class"
+
+tooltip = "Starfleet Banshee Class"
+
+verboseTooltip = "Starfleet service. Serves as a destroyer. Armament: 3 standard weapon banks. Abilities: Antimatter Mines. Special energy: 1000."

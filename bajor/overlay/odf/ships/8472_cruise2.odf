@@ -1,7 +1,7 @@
 #include "cruise2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Launcher"
+
 
 //tooltips
 
@@ -127,11 +127,17 @@ buildTime = 80
 
 
 
-tooltip = "Cruiser (Launcher)"
 
-verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Living biotechnology shapes this organism for operations beyond fluidic space."
+
+
 dilithiumcost = 0
 metalcost = 0
 latinumcost = 0
 biomattercost = 480
 crewCost = 0
+
+unitName = "Fluidic Launcher"
+
+tooltip = "Fluidic Launcher"
+
+verboseTooltip = "Fluidic service. Serves as a cruiser. Armament: 1 standard weapon banks."

@@ -14,15 +14,15 @@ hullTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
 
 criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
 
-baseName = "xfgcolony"
+
 
 race = "ferengi"
 
-unitName = "Mercenary Ferengi Colony Ship"
 
-tooltip = "Mercenary Ferengi Colony Ship"
 
-verboseTooltip = "Ferengi colony ship. Contracted at the Ferengi Service Yard for latinum."
+
+
+
 
 maxHealth = 700
 
@@ -67,3 +67,11 @@ sensorsHitPoints = 140
 weapon1 = "fcolonypod"
 
 weaponHardpoints1 = "hp10"
+
+unitName = "Ferengi Mercenary Ferengi Colony Ship"
+
+tooltip = "Ferengi Mercenary Ferengi Colony Ship"
+
+verboseTooltip = "Ferengi service. Establishes colonies on suitable unclaimed planets. Abilities: Colony Pods. Special energy: 0."
+
+baseName = "xui_xfgcolony"

@@ -1,5 +1,5 @@
 #include "bbattle2.odf"
-unitName = "Omega Tactical Cube"
+
 
 
 baseName = "bbattle2"
@@ -73,14 +73,21 @@ weaponHardpoints7 = "hp07"
 
 
 
-tooltip = "Capital Ship (Omega Tactical Cube)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Collective engineering integrates this asset into the unimatrix. Special systems: Transwarp Drive, Green Holding / Assimilation Beam, Technology Assimilation Beam, Regeneration. Availability follows the selected technology tree."
+
+
 dilithiumcost = 1045
 metalcost = 285
 latinumcost = 0
-biomattercost = 0
+biomattercost = 0
+
 
 crewCost = 1485
 
 maximumCrew = 1485
+
+unitName = "Collective Omega Tactical Cube"
+
+tooltip = "Collective Omega Tactical Cube"
+
+verboseTooltip = "Collective service. Serves as a battleship. Armament: 2 standard weapon banks. Abilities: Transwarp Drive, Green Holding / Assimilation Beam, Detect Cloak, Technology Assimilation Beam, Regeneration. Special energy: 5000."

@@ -131,7 +131,7 @@ buildItem11 = "xofprom"
 crewCost = 400
 officerCost = 5
 
-unitName = "Laforge's Shipyard"
+
 
 
 
@@ -145,9 +145,9 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Shipyard (Laforge's Shipyard)"
 
-verboseTooltip = "Produces the vessels listed in its construction menu. Starfleet engineering supports a disciplined, versatile fleet."
+
+
 
 repairFacility = 1
 
@@ -158,3 +158,9 @@ dilithiumCost = 450
 metalCost = 1350
 
 buildTime = 120
+
+unitName = "Starfleet Laforge's Shipyard"
+
+tooltip = "Starfleet Laforge's Shipyard"
+
+verboseTooltip = "Starfleet service. Constructs the vessels available in its production menu."

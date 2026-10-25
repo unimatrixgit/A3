@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-unitname = "Mirror Martok - Negh'Var"
+
 ishero = 0
 label = "Martok - Negh'Var"
 race = "klingon"
@@ -83,7 +83,7 @@ eventgreenalert = "XV_xhkhero_GreenAlert"
 eventtransport = "XV_xhkhero_Transport"
 eventselfdestruct = "XV_xhkhero_SelfDestruct"
 eventdecommission = "XV_xhkhero_Decommission"
-tooltip = "Mirror Martok - Negh'Var"
+
 
 
 
@@ -130,4 +130,10 @@ buildTime = 89
 
 hotkeyLabel = "HOTKEY_F3"
 
-verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."
+
+
+unitName = "Klingon Mirror Martok - Negh'Var"
+
+tooltip = "Klingon Mirror Martok - Negh'Var"
+
+verboseTooltip = "Klingon service. Controllable Mirror Universe counterpart, built through normal production. Armament: 9 standard weapon banks. Abilities: Ion Cannon, Self Destruct, Cloak. Special energy: 2400."

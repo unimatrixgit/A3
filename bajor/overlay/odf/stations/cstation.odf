@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Nor Class Station"
+
 
 //tooltips
 
@@ -237,9 +237,9 @@ footprintBuffer = 72
 
 
 
-tooltip = "Starbase (Nor Class Station)"
 
-verboseTooltip = "A fortified center for fleet operations and local production. Cardassian engineering sustains the Union through ordered, persistent operations."
+
+
 
 repairFacility = 0
 
@@ -276,3 +276,9 @@ latinumCost = 0
 biomatterCost = 0
 
 crewCost = 150
+
+unitName = "Cardassian Nor Class Station"
+
+tooltip = "Cardassian Nor Class Station"
+
+verboseTooltip = "Cardassian service. Anchors the fleet and produces the units shown in its build menu. Armament: 4 standard weapon banks."

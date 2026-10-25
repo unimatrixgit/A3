@@ -54,7 +54,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "S"
-unitname = "NX Class"
+
 race = "federation"
 maxhealth = 2000
 shieldrate = 20
@@ -77,8 +77,8 @@ hotkeylabel = "HOTKEY_F9"
 officercost = 9
 buildtime = 22
 scalesod = 0.375
-tooltip = "Hero Ship (NX Class)"
-verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Enterprise Upgrade. Availability follows the selected technology tree."
+
+
 dilithiumcost = 205
 metalcost = 0
 latinumcost = 0
@@ -128,3 +128,9 @@ weaponHardpoints5 = "hp03"
 maxspecialenergy = 0
 
 specialenergyrate = 0
+
+unitName = "NX Class"
+
+tooltip = "NX Class"
+
+verboseTooltip = "Starfleet service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Enterprise Upgrade. Special energy: 0."

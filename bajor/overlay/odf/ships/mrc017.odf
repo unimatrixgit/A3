@@ -54,7 +54,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "S"
-unitname = "Mirror NX Class"
+
 race = "federation"
 maxhealth = 1500
 shieldrate = 20
@@ -77,7 +77,7 @@ attack_path1 = "p3.pth"
 officercost = 9
 
 scalesod = 0.46875
-tooltip = "Mirror NX Class"
+
 
 
 
@@ -114,4 +114,10 @@ buildTime = 28
 
 hotkeyLabel = "HOTKEY_F11"
 
-verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."
+
+
+unitName = "Starfleet Mirror NX Class"
+
+tooltip = "Starfleet Mirror NX Class"
+
+verboseTooltip = "Starfleet service. Controllable Mirror Universe counterpart, built through normal production. Armament: 4 standard weapon banks. Abilities: Enterprise Upgrade. Special energy: 0."

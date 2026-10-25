@@ -1,7 +1,7 @@
 #include "ShieldUpgradePod2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Level 3 Shields Pod"
+
 
 //Race which can build ship & starting race of ship
 race = "cardassian"
@@ -52,6 +52,12 @@ latinumCost = 250
 
 biomatterCost = 0
 
-tooltip = "Research Upgrade (Level 3 Shields Pod)"
 
-verboseTooltip = "Researches Level 3 Shields Pod. Cardassian engineering sustains the Union through ordered, persistent operations."
+
+
+
+unitName = "Cardassian Level 3 Shields Pod"
+
+tooltip = "Cardassian Level 3 Shields Pod"
+
+verboseTooltip = "Cardassian service. Unlocks its assigned research upgrade."

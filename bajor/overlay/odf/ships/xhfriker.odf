@@ -54,7 +54,7 @@ alert = 1
 can_sandd = 1
 shiptype = "B"
 trekphysicsfile = "fbattlephys.odf"
-unitname = "Cpt William T Riker"
+
 race = "federation"
 sanecrewlossmethod = 1
 maxhealth = 15000
@@ -85,8 +85,8 @@ officercost = 10
 buildtime = 150
 
 
-tooltip = "Hero Ship (Cpt William T Riker)"
-verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Cloak, Corbomite Reflector. Availability follows the selected technology tree."
+
+
 
 
 dilithiumcost = 1825
@@ -95,7 +95,7 @@ latinumcost = 0
 biomattercost = 0
 crewcost = 1525
 label = "Cpt William T Riker - USS Enterprise-D Galaxy-X"
-basename = "fgalaxyx"
+
 ishero = 1
 hotkeylabel = ""
 eventredalert = "XV_fentdx_RedAlert"
@@ -154,3 +154,11 @@ weaponHardpoints9 = "hp03"
 maxspecialenergy = 15000
 
 specialenergyrate = 150
+
+unitName = "Cpt William T Riker"
+
+tooltip = "Cpt William T Riker"
+
+verboseTooltip = "Starfleet service. Hero vessel with its own command abilities. Armament: 7 standard weapon banks. Abilities: Cloak, Corbomite Reflector. Special energy: 15000."
+
+baseName = "xui_xhfriker"

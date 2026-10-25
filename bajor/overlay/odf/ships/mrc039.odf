@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-unitname = "Mirror Jean-Luc Picard - Enterprise E"
+
 ishero = 0
 label = "Jean-Luc Picard - Enterprise E"
 race = "federation"
@@ -78,7 +78,7 @@ eventgreenalert = "XV_xhfhero_GreenAlert"
 eventtransport = "XV_xhfhero_Transport"
 eventselfdestruct = "XV_xhfhero_SelfDestruct"
 eventdecommission = "XV_xhfhero_Decommission"
-tooltip = "Mirror Jean-Luc Picard - Enterprise E"
+
 
 
 
@@ -113,4 +113,10 @@ buildTime = 165
 
 hotkeyLabel = "HOTKEY_F5"
 
-verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."
+
+
+unitName = "Starfleet Mirror Jean-Luc Picard - Enterprise E"
+
+tooltip = "Starfleet Mirror Jean-Luc Picard - Enterprise E"
+
+verboseTooltip = "Starfleet service. Controllable Mirror Universe counterpart, built through normal production. Armament: 4 standard weapon banks. Abilities: Self Destruct, Corbomite Reflector. Special energy: 11000."

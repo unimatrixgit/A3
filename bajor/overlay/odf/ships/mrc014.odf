@@ -54,7 +54,7 @@ alert = 1
 can_sandd = 1
 shiptype = "B"
 trekphysicsfile = "fbattlephys.odf"
-unitname = "Mirror Galaxy Class X-Refit"
+
 race = "federation"
 sanecrewlossmethod = 1
 maxhealth = 11250
@@ -85,7 +85,7 @@ officercost = 10
 
 weapon7 = "fentdxtoente"
 weaponhardpoints7 = "hp01"
-tooltip = "Mirror Galaxy Class X-Refit"
+
 
 weapon4 = "gkcloak"
 weapon3 = "gselfdes"
@@ -122,4 +122,10 @@ buildTime = 150
 
 hotkeyLabel = "HOTKEY_F8"
 
-verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."
+
+
+unitName = "Starfleet Mirror Galaxy Class X-Refit"
+
+tooltip = "Starfleet Mirror Galaxy Class X-Refit"
+
+verboseTooltip = "Starfleet service. Controllable Mirror Universe counterpart, built through normal production. Armament: 6 standard weapon banks. Abilities: Self Destruct, Cloak, Enterprise Upgrade. Special energy: 15000."

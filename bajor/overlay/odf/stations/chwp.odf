@@ -206,7 +206,7 @@ SHOW_SW_AUTONOMY = 1
 
 
 
-unitName = "Vekor-class Defense Station"
+
 
 
 
@@ -370,7 +370,7 @@ buildTime = 75
 
 
 
-baseName = "xvstock_cbase"
+
 
 
 
@@ -484,9 +484,9 @@ weapon10 = "xhwpdis"
 
 weaponHardpoints10 = "hp04"
 
-tooltip = "Heavy Weapons Platform (Vekor-class Defense Station)"
 
-verboseTooltip = "Lantean technology infused Platform, With ZPM."
+
+
 
 ScaleSOD = 0.943396362
 
@@ -552,3 +552,11 @@ buildItem2 = "cconst"
 buildItem3 = "xcconst2"
 
 buildItem4 = "xcuconst"
+
+unitName = "Cardassian Vekor-class Defense Station"
+
+tooltip = "Cardassian Vekor-class Defense Station"
+
+verboseTooltip = "Cardassian service. Heavy defensive station guarding nearby approaches. Armament: 16 standard weapon banks."
+
+baseName = "xui_chwp"

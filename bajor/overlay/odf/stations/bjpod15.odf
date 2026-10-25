@@ -1,7 +1,7 @@
 #include "LifeSupportUpgradePod.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitname = "Bajoran Life Support II"
+
 
 //Race which can build ship & starting race of ship
 race = "bajoran"
@@ -77,8 +77,14 @@ latinumCost = 300
 
 biomatterCost = 0
 
-tooltip = "Research Upgrade (Bajoran Life Support II)"
 
-verboseTooltip = "Researches Bajoran Life Support II. Bajoran militia engineering protects Bajor and its neighboring systems."
+
+
 
 baseName = "bv4_bjpod15"
+
+unitName = "Bajoran Life Support II"
+
+tooltip = "Bajoran Life Support II"
+
+verboseTooltip = "Bajoran service. Unlocks its assigned research upgrade."

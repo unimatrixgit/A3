@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-unitname = "Romulan Commander - TOS Warbird"
+
 label = "Romulan Commander - TOS Warbird"
 race = "romulan"
 basename = "xhrtosbird"
@@ -73,8 +73,8 @@ eventgreenalert = "XV_xhrhero_GreenAlert"
 eventtransport = "XV_xhrhero_Transport"
 eventselfdestruct = "XV_xhrhero_SelfDestruct"
 eventdecommission = "XV_xhrhero_Decommission"
-tooltip = "Hero Ship (Romulan Commander - TOS Warbird)"
-verbosetooltip = "A named command vessel serving the Romulan fleet. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Heated Plasma. Availability follows the selected technology tree."
+
+
 latinumcost = 0
 biomattercost = 0
 crewcost = 80
@@ -132,3 +132,9 @@ weaponHardpoints7 = "hp06"
 maxspecialenergy = 2500
 
 specialenergyrate = 25
+
+unitName = "Romulan Commander - TOS Warbird"
+
+tooltip = "Romulan Commander - TOS Warbird"
+
+verboseTooltip = "Romulan service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Cloak, Self Destruct, Heated Plasma. Special energy: 2500."

@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Inversion Beam Pod"
+
 
 //tooltips
 
@@ -59,6 +59,14 @@ latinumCost = 300
 
 biomatterCost = 0
 
-tooltip = "Research Upgrade (Inversion Beam Pod)"
 
-verboseTooltip = "Researches Inversion Beam Pod. Romulan engineering favors calculated strikes and control of the battlefield."
+
+
+
+unitName = "Romulan Inversion Beam Pod"
+
+tooltip = "Romulan Inversion Beam Pod"
+
+verboseTooltip = "Romulan service. Unlocks its assigned research upgrade."
+
+baseName = "xui_rompod1"

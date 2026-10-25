@@ -1,7 +1,7 @@
 #include "battle.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Galor Class"
+
 
 //tooltips
 
@@ -127,12 +127,18 @@ weaponHardpoints5 = "hp01"
 
 
 
-tooltip = "Capital Ship (Galor Class)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Cloak, Plasma Bank Overload. Availability follows the selected technology tree."
+
+
 weapon3 = "gselfdes"
 dilithiumcost = 485
 metalcost = 205
 latinumcost = 0
 biomattercost = 0
 crewCost = 785
+
+unitName = "Cardassian Galor Class - Obsidian"
+
+tooltip = "Cardassian Galor Class - Obsidian"
+
+verboseTooltip = "Cardassian service. Serves as a battleship. Armament: 2 standard weapon banks. Abilities: Self Destruct, Cloak, Plasma Bank Overload. Special energy: 2200."
