@@ -178,7 +178,7 @@ race = "breen"
 classLabel = "shipyard"
 maxHealth = 1400
 shieldRate = 8
-repairFacility = 1
+
 buildTime = 45
 officerCost = 5
 hotkeyLabel = "HOTKEY_F13"
@@ -192,3 +192,6 @@ repairHardpoint = "hp03"
 ScaleSOD = 4.516233142
 
 footprintBuffer = 70
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0

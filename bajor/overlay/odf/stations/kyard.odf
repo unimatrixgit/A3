@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Shipyard"
+
 
 //tooltips
 
@@ -41,18 +41,18 @@ possibleCraftNames = "Duj Qach-2138" "Duj Qach-6351" "Duj Qach-984" "Duj Qach-24
 
 //**********************************************************************
 //Construction Parameters
-buildItem0 = "kscout"
-buildItem1 = "kdestroy"
-buildItem2 = "kcolony"
-buildItem3 = "kcruise1"
-buildItem4 = "kcruise2"
-buildItem5 = "kassault"
-buildItem6 = "kcruise3"
-buildItem7 = "kquon"
-buildItem8 = "kcruise4"
+
+
+
+
+
+
+
+
+
 
 //Hardpoint location for building.
-buildHardpoint = "build"
+
 
 //**********************************************************************
 //AI system parameters
@@ -73,7 +73,7 @@ eventDecommission = "ShipyardDecommission"
 //PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
 
 //Runtime class label for instantiation of object.
-classLabel = "shipyard"
+
 
 //**********************************************************************
 //KEYMAP LABEL
@@ -83,13 +83,13 @@ hotkeyLabel = "HOTKEY_F2"
 
 //************************************************************
 // Brian additions for context sensitive menus
-builder_ship = 1
+
 transporter = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
 // make it bigger
-ScaleSOD = 1.7
+
 
 
 
@@ -127,7 +127,7 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Shipyard (Shipyard)"
+
 
 
 
@@ -137,6 +137,73 @@ metalCost = 750
 
 buildTime = 45
 
-verboseTooltip = "Shipyard\nShip construction\nA bastion defending the Klingon Empire."
 
-baseName = "vr26_kyard"
+
+
+buildItem0 = "kscout"
+buildItem1 = "kdestroy"
+buildItem2 = "kcruise1"
+buildItem3 = "kcruise2"
+buildItem4 = "kassault"
+buildItem5 = "kcruise3"
+buildItem6 = "kquon"
+buildItem7 = "kcruise4"
+buildItem8 = "kdestroy2"
+buildItem9 = "kimpkoto"
+buildItem10 = "kgunboat"
+buildItem11 = "ksuper"
+buildItem12 = "kcolony"
+classLabel = "shipyard"
+builder_ship = 1
+research = 0
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0
+unitName = "B'rel Patrol Forge"
+tooltip = "B'rel Patrol Forge"
+verboseTooltip = "B'rel Patrol Forge\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
+weapon1 = "kc12phas"
+weaponHardpoints1 = "tygun1"
+weapon2 = "kc12phas"
+weaponHardpoints2 = "tygun2"
+weapon3 = "kc05phot"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ty26_kyard"
+ScaleSOD = 1.7
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 20

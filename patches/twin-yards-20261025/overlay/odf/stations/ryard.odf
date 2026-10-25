@@ -1,0 +1,223 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 2000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 1.66
+
+//Possible Craft Names
+possibleCraftNames = 
+	"T'sau Prime" "Gaius Prime" "Hasdrabar Prime" "Cassius Prime"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Cloaking Device
+//weapon1 = "gcloak"
+//weaponHardpoints1 = "hp100"
+
+// Hardpoints to hit for various systems and other locations.
+
+"hp17" "hp19" "hp20" "hp21"
+
+"hp17" "hp19" "hp20" "hp21"
+
+"hp17" "hp19" "hp20" "hp21"
+
+"hp17" "hp19" "hp20" "hp21"
+
+"hp17" "hp19" "hp20" "hp21"
+
+"hp17" "hp19" "hp20" "hp21"
+
+"hp17" "hp19" "hp20" "hp21"
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+
+
+
+
+//Hardpoint location for building.
+
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "ShipyardSelect"
+eventAcknowledge = "ShipyardAcknowledge"
+eventDecommission = "ShipyardDecommission"
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "shipyard"
+hotkeyLabel = "HOTKEY_F2"
+
+//************************************************************
+// Brian additions for context sensitive menus
+
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+// make it bigger
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewCost = 500
+officerCost = 5
+
+
+
+
+enginestargethardpoints = "hp10" "hp11" "hp13" "hp14" "hp15" "hp16" 
+
+lifesupporttargethardpoints = "hp10" "hp11" "hp13" "hp14" "hp15" "hp16" 
+
+weaponstargethardpoints = "hp10" "hp11" "hp13" "hp14" "hp15" "hp16" 
+
+shieldgeneratortargethardpoints = "hp10" "hp11" "hp13" "hp14" "hp15" "hp16" 
+
+sensorstargethardpoints = "hp10" "hp11" "hp13" "hp14" "hp15" "hp16" 
+
+hulltargethardpoints = "hp10" "hp11" "hp13" "hp14" "hp15" "hp16" 
+
+criticaltargethardpoints = "hp10" "hp11" "hp13" "hp14" "hp15" "hp16" 
+
+
+
+
+
+latinumCost = 0
+
+biomatterCost = 0
+
+
+
+
+
+dilithiumCost = 250
+
+metalCost = 750
+
+buildTime = 45
+
+
+
+
+buildItem0 = "rscout"
+buildItem1 = "rdestroy"
+buildItem2 = "rcruise1"
+buildItem3 = "rcruise3"
+buildItem4 = "rassault"
+buildItem5 = "rcruise2"
+buildItem6 = "rcent"
+buildItem7 = "rsuper"
+buildItem8 = "rcolony"
+classLabel = "shipyard"
+builder_ship = 1
+research = 0
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0
+unitName = "Valdore Patrol Yard"
+tooltip = "Valdore Patrol Yard"
+verboseTooltip = "Valdore Patrol Yard\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
+weapon1 = "rc07phas"
+weaponHardpoints1 = "tygun1"
+weapon2 = "rc07phas"
+weaponHardpoints2 = "tygun2"
+weapon3 = "rc08phot"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ty26_ryard"
+ScaleSOD = 1.4
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 20

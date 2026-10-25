@@ -1,0 +1,298 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+
+
+//Amount of time required to build ship
+
+
+//Number of officers required to build this ship
+
+
+//Number of crew required to build ship & Starting crew
+
+
+//Dilithium Cost to build
+
+
+//Metal cost to build
+
+
+//Max Shield Strength & Begining Shield Strength <1000
+
+
+//Rate at which shield recharges (points per second... we think)
+
+
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Salvaged Barisa Prime" "Salvaged Tau Ceti Prime" "Salvaged Tessen Prime" "Salvaged Taurus Prime"
+	"Salvaged Meldrar Prime" "Salvaged Moriya Prime" "Salvaged Erabus Prime" "Salvaged Finnea Prime"
+	"Salvaged Acamar Prime" "Salvaged Aldea Prime" "Salvaged Andoria Prime" "Salvaged Calder Prime"
+	"Salvaged Iyaar Prime" "Salvaged Denocet Prime" "Salvaged Dytallix Prime" "Salvaged Galor Prime"
+	"Salvaged Minos Prime" "Salvaged Nausicaa Prime" "Salvaged Oyarsa Prime" "Salvaged Qualor Prime" 
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+
+
+
+
+
+
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+
+
+
+
+
+//Hardpoint location for building.
+
+
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "ShipyardSelect"
+eventAcknowledge = "ShipyardAcknowledge"
+eventDecommission = "ShipyardDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+
+
+// Hotkey label
+
+
+//************************************************************
+// Brian additions for context sensitive menus
+
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+// make it bigger
+
+
+
+
+
+
+
+
+
+maxHealth = 2400
+
+shieldRate = 10
+
+
+
+
+
+officerCost = 10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hotkeyLabel = "HOTKEY_F10"
+enginesTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
+lifeSupportTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
+weaponsTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
+shieldGeneratorTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
+sensorsTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
+hullTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
+criticalTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+race = "borg"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+classLabel = "shipyard"
+
+research = 0
+
+
+
+
+
+
+weapon1 = "xfgcruisb"
+weaponHardpoints1 = "tygun1"
+weapon2 = "xfgcruisb"
+weaponHardpoints2 = "tygun2"
+weapon3 = "xfgcruist"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
+unitName = "Nog's Service Exchange"
+tooltip = "Nog's Service Exchange"
+verboseTooltip = "Nog's Service Exchange\nRepair, recrew and decommission\nDamaged vessels return to service here."
+builder_ship = 0
+repairFacility = 1
+decommissionFacility = 1
+recrewRate = 20
+crewCost = 100
+maximumCrew = 200
+buildTime = 60
+dilithiumCost = 312
+metalCost = 208
+latinumCost = 0
+biomatterCost = 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ty26_xyr_bg"
+ScaleSOD = 0.98994094
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 20

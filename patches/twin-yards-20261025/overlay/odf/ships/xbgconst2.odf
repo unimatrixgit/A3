@@ -1,0 +1,223 @@
+#include "const.odf"
+enginesTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+lifeSupportTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+shieldGeneratorTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+sensorsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+hullTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+
+
+
+
+
+
+
+
+
+
+
+maxHealth = 600
+
+shieldRate = 3.5
+
+
+
+
+
+officerCost = 3
+
+
+
+
+
+
+
+
+
+
+
+ScaleSOD = 1.5
+
+workerBeeName = "fbee"
+
+
+
+
+
+
+
+
+
+possibleCraftNames = "Compound Interest" "Capital Builder" "New Acquisition" "Expansion Clause"
+
+shieldGeneratorHitPoints = 120
+
+enginesHitPoints = 120
+
+weaponsHitPoints = 120
+
+lifeSupportHitPoints = 120
+
+sensorsHitPoints = 120
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+race = "borg"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+biomatterCost = 0
+
+crewCost = 150
+
+maximumCrew = 150
+
+
+
+hotkeyLabel = "HOTKEY_F3"
+
+canAttack = 0
+
+
+
+
+
+weapon1 = "xabtrans5"
+
+weaponHardpoints1 = "hp10"
+
+maxSpecialEnergy = 1000
+
+specialEnergyRate = 10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+buildTime = 55
+
+latinumCost = 0
+
+dilithiumCost = 420
+
+metalCost = 280
+
+
+
+baseName = "vr26_xbgconst2"
+unitName = "Assemblers MK II"
+tooltip = "Assemblers MK II"
+verboseTooltip = "Assemblers MK II\nStarbases and Iconian Battle Array\nA profitable foothold in every quadrant."
+buildItem0 = "bbase"
+buildItem1 = "fbase"
+buildItem2 = "kbase"
+buildItem3 = "rbase"
+buildItem4 = "cbase"
+buildItem5 = "dbase"
+buildItem6 = "brbase"
+buildItem7 = "bjbase"
+buildItem8 = "bgiaarray"

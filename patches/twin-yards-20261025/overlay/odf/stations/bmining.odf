@@ -1,0 +1,154 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Resource Processing Node"
+
+
+
+
+//Name of the ODF file of the matching freighter to build with the station
+freighterName = "bfreight"
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Dilithium transfer rate from freighter to station
+dilithiumTransferRate = 30.0
+metalTransferRate = 30.0
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 3400
+
+//SYSTEM HITPOINTS
+shieldGeneratorHitPoints = 950
+enginesHitPoints = 0
+weaponsHitPoints = 0
+lifeSupportHitPoints = 950
+sensorsHitPoints = 950
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 9.0
+
+//Possible Craft Names
+possibleCraftNames = "PN72-8657" "PN72-8946" "PN72-7291" "PN72-0848"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.50f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "MiningStationSelect"
+eventAcknowledge = "MiningStationAcknowledge"
+eventDecommission = "MiningStationDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "mining"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "mining_station"
+hotkeyLabel = "HOTKEY_F5"
+
+//************************************************************
+// Brian additions for context sensitive menus
+transporter = 1
+alert = 0
+
+//************************************************************
+//for building near map resources
+resourcesCanHandle = "metal" "dilithium"
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewCost = 250
+officerCost = 4
+buildTime = 50
+
+
+
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+
+sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+
+hulltargethardpoints = "hp06"
+
+criticaltargethardpoints = "hp01"
+
+
+
+
+
+
+
+
+
+tooltip = "Resource Processing Station (Resource Processing Node)"
+
+
+
+recrewRate = 10
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 200
+
+latinumCost = 0
+
+biomatterCost = 0
+
+verboseTooltip = "Resource Processing Node\nDilithium collection or processing\nResources sustain the Collective's expansion."
+
+baseName = "dr26_bmining"
+
+
+
+
+ScaleSOD = 0.8625
+footprintBuffer = 86.25

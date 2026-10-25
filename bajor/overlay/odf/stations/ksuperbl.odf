@@ -30,8 +30,8 @@ maxHealth = 2100
 shieldRate = 2.6
 
 //Even though we are a shipyard, we don't have a repair facility
-repairFacility = 0
-decommissionFacility = 0
+
+
 
 //Possible Craft Names
 possibleCraftNames = "Qab'a'Qach"
@@ -50,7 +50,7 @@ criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp08" "hp09"
 
 //**********************************************************************
 //Construction Parameters
-buildItem0 = "ksuper"
+
 
 //Hardpoint location for building.
 buildHardpoint = "build"
@@ -115,3 +115,6 @@ tooltip = "Production Facility (Shockwave Station)"
 verboseTooltip = "Shockwave Station\nShip construction\nA bastion defending the Klingon Empire."
 
 baseName = "vr26_ksuperbl"
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0

@@ -1,0 +1,269 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 1000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 10
+
+//Even though we are a shipyard we don't have a repair facility
+
+
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Barisa Prime" "Tau Ceti Prime" "Tessen Prime" "Taurus Prime"
+	"Meldrar Prime" "Moriya Prime" "Erabus Prime" "Finnea Prime"
+	"Acamar Prime" "Aldea Prime" "Andoria Prime" "Calder Prime"
+	"Iyaar Prime" "Denocet Prime" "Dytallix Prime" "Galor Prime"
+	"Minos Prime" "Nausicaa Prime" "Oyarsa Prime" "Qualor Prime" 
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//Construction Parameters
+
+//Hardpoint location for building.
+
+
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "ShipyardSelect"
+eventAcknowledge = "ShipyardAcknowledge"
+eventDecommission = "ShipyardDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+
+
+// Hotkey label
+hotkeyLabel = "HOTKEY_F2"
+
+//************************************************************
+// Brian additions for context sensitive menus
+
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+// make it bigger
+
+
+
+
+
+
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+officerCost = 5
+
+
+
+
+enginestargethardpoints = "hp01" "hp02" "hp08" 
+
+lifesupporttargethardpoints = "hp01" "hp02" "hp08"
+
+weaponstargethardpoints = "hp01" "hp02" "hp08"
+
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp08"
+
+sensorstargethardpoints = "hp01" "hp02" "hp08"
+
+hulltargethardpoints = "hp03" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14"
+
+criticaltargethardpoints = "hp08" "hp09"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+classLabel = "shipyard"
+
+research = 0
+
+
+
+
+
+
+weapon1 = "fbasephas"
+weaponHardpoints1 = "tygun1"
+weapon2 = "fbasephas"
+weaponHardpoints2 = "tygun2"
+weapon3 = "fbaserphot"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
+unitName = "Starbase 74 Service Dock"
+tooltip = "Starbase 74 Service Dock"
+verboseTooltip = "Starbase 74 Service Dock\nRepair, recrew and decommission\nDamaged vessels return to service here."
+builder_ship = 0
+repairFacility = 1
+decommissionFacility = 1
+recrewRate = 20
+crewCost = 100
+maximumCrew = 200
+buildTime = 60
+dilithiumCost = 200
+metalCost = 600
+latinumCost = 0
+biomatterCost = 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ty26_xyr_f"
+ScaleSOD = 1.5
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 20

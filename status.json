@@ -1,0 +1,1796 @@
+{
+  "current": "Standalone twin-yard patch installed: 76 faction models/icons, 29 production definitions, 10 repair/recrew/decommission docks, matching research stations and HWP fortresses, 23 mining stations +15% size/footprint. 40 AI profiles updated. Static validation passed; gameplay testing pending. Next patch ON HOLD.",
+  "steps": [
+    {
+      "label": "Current configuration and artwork: Apply approved fixes",
+      "done": true
+    },
+    {
+      "label": "Current configuration and artwork: Backups and installation checks",
+      "done": true
+    },
+    {
+      "label": "Current configuration and artwork: User reports working functions",
+      "done": true
+    },
+    {
+      "label": "Final diagnostics: ODF references",
+      "done": true
+    },
+    {
+      "label": "Final diagnostics: Production icons and models",
+      "done": true
+    },
+    {
+      "label": "Final diagnostics: Research reachability and AI",
+      "done": true
+    },
+    {
+      "label": "Final diagnostics: Hero command audio references",
+      "done": true
+    },
+    {
+      "label": "Eight-player map catalogue: Check72 source archives",
+      "done": true
+    },
+    {
+      "label": "Eight-player map catalogue: Install13 additional maps",
+      "done": true
+    },
+    {
+      "label": "Eight-player map catalogue: Classify8 incompatible/non-eight maps",
+      "done": true
+    },
+    {
+      "label": "Eight-player map catalogue: Gameplay test every added map",
+      "done": false
+    },
+    {
+      "label": "Broader ship catalogue: Refresh installed inventory",
+      "done": true
+    },
+    {
+      "label": "Broader ship catalogue: Verify exhaustive TV/film ship coverage",
+      "done": false
+    },
+    {
+      "label": "Nemesis Romulan heroes: Download/extract source pack",
+      "done": true
+    },
+    {
+      "label": "Nemesis Romulan heroes: Validate models and convert42 clips",
+      "done": true
+    },
+    {
+      "label": "Nemesis Romulan heroes: Integrate tech, icons, command yard",
+      "done": true
+    },
+    {
+      "label": "Nemesis Romulan heroes: Install after game closes",
+      "done": true
+    },
+    {
+      "label": "Nemesis Romulan heroes: Gameplay test",
+      "done": false
+    },
+    {
+      "label": "Enterprise Legacy Yard: Check installed models and hero gaps",
+      "done": true
+    },
+    {
+      "label": "Enterprise Legacy Yard: Stage5 heroes and archive yard",
+      "done": true
+    },
+    {
+      "label": "Enterprise Legacy Yard: Validate native references",
+      "done": true
+    },
+    {
+      "label": "Enterprise Legacy Yard: Install after game closes",
+      "done": true
+    },
+    {
+      "label": "Enterprise Legacy Yard: Gameplay test",
+      "done": false
+    },
+    {
+      "label": "Combined beta patch: Six command ships and icons",
+      "done": true
+    },
+    {
+      "label": "Combined beta patch: Borg AI producer and prerequisite audit",
+      "done": true
+    },
+    {
+      "label": "Combined beta patch: Small-ship scales and Borg adjustments installed",
+      "done": true
+    },
+    {
+      "label": "Combined beta patch: In-game beta testing",
+      "done": false
+    },
+    {
+      "label": "All faction AI cleanup: Audit45 profiles across9 factions",
+      "done": true
+    },
+    {
+      "label": "All faction AI cleanup: Back up and install20 corrected profiles",
+      "done": true
+    },
+    {
+      "label": "All faction AI cleanup: Recheck producers,tech paths and30 research facilities",
+      "done": true
+    }
+  ],
+  "features": [
+    {
+      "id": "current-installation",
+      "title": "Current configuration and artwork",
+      "steps": [
+        {
+          "label": "Apply approved fixes",
+          "done": true
+        },
+        {
+          "label": "Backups and installation checks",
+          "done": true
+        },
+        {
+          "label": "User reports working functions",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": "final-diagnostics",
+      "title": "Final diagnostics",
+      "steps": [
+        {
+          "label": "ODF references",
+          "done": true
+        },
+        {
+          "label": "Production icons and models",
+          "done": true
+        },
+        {
+          "label": "Research reachability and AI",
+          "done": true
+        },
+        {
+          "label": "Hero command audio references",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": "map-catalogue-closeout",
+      "title": "Eight-player map catalogue",
+      "steps": [
+        {
+          "label": "Check72 source archives",
+          "done": true
+        },
+        {
+          "label": "Install13 additional maps",
+          "done": true
+        },
+        {
+          "label": "Classify8 incompatible/non-eight maps",
+          "done": true
+        },
+        {
+          "label": "Gameplay test every added map",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "broader-canon-expansion",
+      "title": "Broader ship catalogue",
+      "steps": [
+        {
+          "label": "Refresh installed inventory",
+          "done": true
+        },
+        {
+          "label": "Verify exhaustive TV/film ship coverage",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "romulan-nemesis-heroes",
+      "title": "Nemesis Romulan heroes",
+      "steps": [
+        {
+          "label": "Download/extract source pack",
+          "done": true
+        },
+        {
+          "label": "Validate models and convert42 clips",
+          "done": true
+        },
+        {
+          "label": "Integrate tech, icons, command yard",
+          "done": true
+        },
+        {
+          "label": "Install after game closes",
+          "done": true
+        },
+        {
+          "label": "Gameplay test",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "enterprise-legacy-heroes",
+      "title": "Enterprise Legacy Yard",
+      "steps": [
+        {
+          "label": "Check installed models and hero gaps",
+          "done": true
+        },
+        {
+          "label": "Stage5 heroes and archive yard",
+          "done": true
+        },
+        {
+          "label": "Validate native references",
+          "done": true
+        },
+        {
+          "label": "Install after game closes",
+          "done": true
+        },
+        {
+          "label": "Gameplay test",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "combined-beta",
+      "title": "Combined beta patch",
+      "steps": [
+        {
+          "label": "Six command ships and icons",
+          "done": true
+        },
+        {
+          "label": "Borg AI producer and prerequisite audit",
+          "done": true
+        },
+        {
+          "label": "Small-ship scales and Borg adjustments installed",
+          "done": true
+        },
+        {
+          "label": "In-game beta testing",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "final-ai-cleanup",
+      "title": "All faction AI cleanup",
+      "steps": [
+        {
+          "label": "Audit45 profiles across9 factions",
+          "done": true
+        },
+        {
+          "label": "Back up and install20 corrected profiles",
+          "done": true
+        },
+        {
+          "label": "Recheck producers,tech paths and30 research facilities",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": "mercenary-ferengi",
+      "title": "Mercenary Ferengi and trade cargo",
+      "steps": [
+        {
+          "label": "Download and prepare selective assets",
+          "done": true
+        },
+        {
+          "label": "Validate models, GUI, weapons and six technology trees",
+          "done": true
+        },
+        {
+          "label": "Back up and apply 118 files",
+          "done": true
+        },
+        {
+          "label": "In-game production, trading and ability test",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "ferengi-native-yards",
+      "title": "Distinct Ferengi yards and utility ships",
+      "steps": [
+        {
+          "label": "Find dedicated Ferengi station and constructor assets",
+          "done": true
+        },
+        {
+          "label": "Validate seven models, native controllers and six tech trees",
+          "done": true
+        },
+        {
+          "label": "Back up and apply 56 files",
+          "done": true
+        },
+        {
+          "label": "In-game build/repair/mining test",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "mirror-ferengi-borg-research",
+      "title": "Mirror reinforcements, Borg contracts and Queen hero",
+      "steps": [
+        {
+          "label": "Create59 mirror counterparts and faction research nodes",
+          "done": true
+        },
+        {
+          "label": "Integrate Cardassian pod/ability artwork, Hugh cube and Queen sphere",
+          "done": true
+        },
+        {
+          "label": "Validate425 ODFs and72 model references",
+          "done": true
+        },
+        {
+          "label": "Back up and install463 files",
+          "done": true
+        },
+        {
+          "label": "In-game summon ownership, selection and movement test",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "constructor-tiers-mirror-yards",
+      "title": "Constructor tiers, mirror yards and resource research",
+      "steps": [
+        {
+          "label": "Audit construction options and preserve existing buildings",
+          "done": true
+        },
+        {
+          "label": "Create tier icons, mirror yards and two-tier resource research",
+          "done": true
+        },
+        {
+          "label": "Validate models, technology and45 AI plans",
+          "done": true
+        },
+        {
+          "label": "Back up and install patch to armadaIII",
+          "done": true
+        },
+        {
+          "label": "Test production, research and AI in a new match",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "ai-start-recovery",
+      "title": "AI build-order recovery and standard starts",
+      "steps": [
+        {
+          "label": "Find early advanced-yard and retired-constructor dependency blocks",
+          "done": true
+        },
+        {
+          "label": "Rebuild45 faction AI plans with valid producer/research ordering",
+          "done": true
+        },
+        {
+          "label": "Apply standard starts and Dominion/Bajor bonus constructors",
+          "done": true
+        },
+        {
+          "label": "Verify live AI economy and progression in a new match",
+          "done": false
+        }
+      ]
+    },
+    {
+      "title": "Ship and station identity refresh",
+      "note": "Applied839 unit updates; file checks passed; gameplay test pending.",
+      "steps": [
+        {
+          "label": "1",
+          "done": true
+        },
+        {
+          "label": "2",
+          "done": true
+        },
+        {
+          "label": "3",
+          "done": true
+        },
+        {
+          "label": "4",
+          "done": true
+        },
+        {
+          "label": "5",
+          "done": true
+        },
+        {
+          "label": "6",
+          "done": true
+        },
+        {
+          "label": "7",
+          "done": true
+        },
+        {
+          "label": "8",
+          "done": true
+        },
+        {
+          "label": "9",
+          "done": true
+        },
+        {
+          "label": "10",
+          "done": true
+        }
+      ]
+    }
+  ],
+  "legacySteps": [
+    {
+      "label": "Copy original game",
+      "done": true
+    },
+    {
+      "label": "Download graphics upgrade",
+      "done": true
+    },
+    {
+      "label": "Download and unpack six-race expansion",
+      "done": true
+    },
+    {
+      "label": "Download Federation ships and DS9",
+      "done": true
+    },
+    {
+      "label": "Apply pack files",
+      "done": true
+    },
+    {
+      "label": "Preserve universal constructor and Borg artwork",
+      "done": true
+    },
+    {
+      "label": "Add starting heroes and hero shipyards",
+      "done": true
+    },
+    {
+      "label": "Add cloaking",
+      "done": true
+    },
+    {
+      "label": "Add Omega research, refits and simulated stats",
+      "done": true
+    },
+    {
+      "label": "Rebalance ship and station costs",
+      "done": true
+    },
+    {
+      "label": "Merge technology trees and interface",
+      "done": true
+    },
+    {
+      "label": "Install available eight-player maps",
+      "done": false
+    },
+    {
+      "label": "Validate game files",
+      "done": false
+    },
+    {
+      "label": "Push to unimatrixgit/armada2 \u00c3\u0192\u00c2\u00a2\u00c3\u201a\u00c2\u20ac\u00c3\u201a\u00c2\u201d blocked by automatic approval review",
+      "done": false
+    },
+    {
+      "label": "Launch Armada II \u00c3\u0192\u00c2\u00a2\u00c3\u201a\u00c2\u20ac\u00c3\u201a\u00c2\u201d manual launch confirmed",
+      "done": true
+    },
+    {
+      "label": "Add named TV-series heroes to yard3 after launch",
+      "done": false
+    },
+    {
+      "done": true,
+      "label": "Bajor: separate D:\\armadaIII game copy"
+    },
+    {
+      "done": true,
+      "label": "Bajor: 14 units, economy, three yards and Kira Nerys"
+    },
+    {
+      "done": true,
+      "label": "Bajor: AI profiles and technology entries"
+    },
+    {
+      "done": true,
+      "label": "Bajor: Kira faction illustration"
+    },
+    {
+      "done": false,
+      "label": "Bajor: custom models, icons and interface artwork"
+    },
+    {
+      "done": false,
+      "label": "Bajor: validate and test a skirmish"
+    },
+    {
+      "label": "Bajoran rebuild: TV references and roster design",
+      "done": true
+    },
+    {
+      "label": "Bajoran rebuild: full ship/building roster and Universal Assembler",
+      "done": true
+    },
+    {
+      "label": "Bajoran rebuild: corrected model hierarchy and distinct ship roles",
+      "done": true
+    },
+    {
+      "label": "Bajoran rebuild: normal and Borg assimilation textures",
+      "done": true
+    },
+    {
+      "label": "Bajoran rebuild: build buttons and production portraits",
+      "done": false
+    },
+    {
+      "label": "Bajoran rebuild: technology and AI production validation",
+      "done": false
+    },
+    {
+      "label": "Bajoran rebuild: apply to armadaIII and publish source",
+      "done": false
+    },
+    {
+      "label": "Bajoran rebuild: in-game visibility and gameplay confirmation",
+      "done": false
+    }
+  ],
+  "updatedAt": "2026-10-18T11:34:45.514024",
+  "userVerification": {
+    "matchLoadsWithBajor": true,
+    "reportedAt": "2026-10-16T21:35:31.685Z",
+    "hotfix": "bcbdc71",
+    "scope": "User confirms no crash when Bajor is loaded. Long-match gameplay and individual abilities remain under test.",
+    "bajoranStartupIsolation": {
+      "matchStarts": true,
+      "reportedAt": "2026-10-16T21:53:39.0412952Z",
+      "longerMatchVerified": false,
+      "report": "reports/bajor-startup-isolation.json",
+      "crashedAfterSeconds": 5
+    },
+    "bajoranEventFallback": {
+      "userReportedWorking": true,
+      "time": "2026-10-16T22:03:22.1468763Z",
+      "checkpoint": "D:\\Xaramada-Modwork\\backups\\bajor-user-tested-20261017-000322",
+      "exhaustiveStabilityVerified": false
+    },
+    "bajoranAiDiagnostic": {
+      "noCrashReported": true,
+      "time": "2026-10-16T22:11:03.7063434Z",
+      "checkpoint": "D:\\Xaramada-Modwork\\backups\\bajor-ai-user-tested-20261017-001103",
+      "exhaustiveStabilityVerified": false
+    },
+    "bajoranModelVisibility": {
+      "userReportedWorking": true,
+      "time": "2026-10-16T22:23:48.85365Z",
+      "allUnitsAndAssimilationVerified": false
+    },
+    "bajoranHarvester": {
+      "noCrashReported": true,
+      "time": "2026-10-16T22:45:20.9682493Z",
+      "checkpoint": "D:\\Xaramada-Modwork\\backups\\bajor-harvester-user-tested-20261017-004521",
+      "exhaustiveStabilityVerified": false
+    },
+    "latestNonBajoranTest": {
+      "noCrashReported": true,
+      "time": "2026-10-16T23:09:06.944502Z",
+      "bajorIncluded": false
+    },
+    "federationDerivedBajoranAi": {
+      "userReportsNoCrashSoFar": true,
+      "continuingTest": true,
+      "time": "2026-10-16T23:18:07.9929906Z",
+      "exhaustiveStabilityVerified": false
+    },
+    "cardassianStyleRollback": {
+      "loadsSoFar": true,
+      "time": "2026-10-16T23:21:49.2648874Z",
+      "exactVisualCauseIsolated": false,
+      "longerMatchVerified": false
+    },
+    "ds9Construction": {
+      "userReportedBuilds": true,
+      "time": "2026-10-16T23:37:58.2363546Z",
+      "scope": "DS9 construction after removing unsupported animation flags"
+    }
+  },
+  "lastCompleted": {
+    "task": "Apply Federation-derived Bajoran AI",
+    "time": "2026-10-17T05:31:44.1963622Z",
+    "applied": true,
+    "runtimeVerified": false
+  },
+  "removedByUser": [
+    "Hero reinforcement calling: removed at user request; do not reinstall."
+  ],
+  "historicalFeatures": [
+    {
+      "id": "bajor_roster",
+      "title": "Bajoran full roster",
+      "note": "Installed; full roster confirmed complete by user. Overall gameplay stability is a separate pending test.",
+      "steps": [
+        {
+          "label": "Design",
+          "done": true
+        },
+        {
+          "label": "Stage 53 definitions",
+          "done": true
+        },
+        {
+          "label": "Validate production",
+          "done": true
+        },
+        {
+          "label": "Apply",
+          "done": true
+        },
+        {
+          "label": "Gameplay test",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": "bajor_models",
+      "title": "Bajoran models and assimilation",
+      "note": "53 models; final appearance still requires an in-game test.",
+      "steps": [
+        {
+          "label": "Generate geometry",
+          "done": true
+        },
+        {
+          "label": "Correct hierarchy",
+          "done": true
+        },
+        {
+          "label": "Validate textures/hardpoints",
+          "done": true
+        },
+        {
+          "label": "Apply",
+          "done": false
+        },
+        {
+          "label": "In-game visibility/assimilation",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "icons",
+      "title": "Matching build and queue icons",
+      "note": "Buttons rendered from the new model silhouettes.",
+      "steps": [
+        {
+          "label": "Render 53 buttons",
+          "done": true
+        },
+        {
+          "label": "Wire sprite entries",
+          "done": true
+        },
+        {
+          "label": "Validate references",
+          "done": true
+        },
+        {
+          "label": "Apply",
+          "done": true
+        },
+        {
+          "label": "Visual test",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "bajor_ai",
+      "title": "Bajoran AI build orders",
+      "note": "Economy first; final special-station changes pending.",
+      "steps": [
+        {
+          "label": "Generate five profiles",
+          "done": true
+        },
+        {
+          "label": "Validate producer chains",
+          "done": true
+        },
+        {
+          "label": "Apply final changes",
+          "done": true
+        },
+        {
+          "label": "Observe AI in match",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Technology trees",
+      "note": "Latest shipyard/special-building requirements being incorporated.",
+      "steps": [
+        {
+          "label": "Generate roster entries",
+          "done": true
+        },
+        {
+          "label": "Match hero yards to special buildings",
+          "done": true
+        },
+        {
+          "label": "Validate final dependencies",
+          "done": false
+        },
+        {
+          "label": "Apply",
+          "done": false
+        },
+        {
+          "label": "In-game test",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "yard_order",
+      "title": "Constructor menu ordering",
+      "note": "Universal Assembler remains starbases only.",
+      "steps": [
+        {
+          "label": "Map faction special buildings",
+          "done": true
+        },
+        {
+          "label": "Place hero yard directly after",
+          "done": true
+        },
+        {
+          "label": "Validate slots",
+          "done": true
+        },
+        {
+          "label": "Apply",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": "yard_names",
+      "title": "Faction shipyard names",
+      "note": "Laforge\u00e2\u20ac\u2122s Shipyard, Advanced Assimilated Matrix and Advanced Hatchery requested.",
+      "steps": [
+        {
+          "label": "Choose faction names",
+          "done": true
+        },
+        {
+          "label": "Update names and tooltips",
+          "done": true
+        },
+        {
+          "label": "Apply",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": "takeover",
+      "title": "Bajoran station-takeover weapon",
+      "note": "One targeted station takeover per charge; experimental engine behavior.",
+      "steps": [
+        {
+          "label": "Design targeting/charge",
+          "done": true
+        },
+        {
+          "label": "Stage ability and research",
+          "done": true
+        },
+        {
+          "label": "Validate effects/tech/AI",
+          "done": true
+        },
+        {
+          "label": "Apply",
+          "done": true
+        },
+        {
+          "label": "In-game target test",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "8472",
+      "title": "Species 8472 hero bioships",
+      "note": "Additional organic hero variants requested.",
+      "steps": [
+        {
+          "label": "Design variants",
+          "done": true
+        },
+        {
+          "label": "Stage units/models",
+          "done": true
+        },
+        {
+          "label": "Validate tech/icons",
+          "done": true
+        },
+        {
+          "label": "Exclude uconst",
+          "done": true
+        },
+        {
+          "label": "Apply",
+          "done": true
+        },
+        {
+          "label": "Gameplay test",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "voices",
+      "title": "Hero voice responses",
+      "note": "Kira/Sela use Windows synthetic voices, not actor clones.",
+      "steps": [
+        {
+          "label": "Preserve original recordings",
+          "done": true
+        },
+        {
+          "label": "Write original placeholder lines",
+          "done": true
+        },
+        {
+          "label": "Generate/check 42 WAV clips",
+          "done": true
+        },
+        {
+          "label": "Wire command events",
+          "done": true
+        },
+        {
+          "label": "Apply",
+          "done": true
+        },
+        {
+          "label": "Playback test",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "webpage",
+      "title": "Live progress website",
+      "note": "Server running; checking new feature cards.",
+      "steps": [
+        {
+          "label": "Fix page JavaScript",
+          "done": true
+        },
+        {
+          "label": "Live log/crash feed",
+          "done": true
+        },
+        {
+          "label": "Per-feature bars",
+          "done": true
+        },
+        {
+          "label": "Browser verification",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "faction_builders",
+      "title": "Faction-specific Universal Assemblers",
+      "steps": [
+        {
+          "label": "Define eight faction builders",
+          "done": true
+        },
+        {
+          "label": "Wire production and overflow menus",
+          "done": true
+        },
+        {
+          "label": "Validate game definitions",
+          "done": true
+        },
+        {
+          "label": "Apply to Armada III",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": "assembler_art",
+      "title": "Faction builder designs and buttons",
+      "steps": [
+        {
+          "label": "Build eight faction model variants",
+          "done": true
+        },
+        {
+          "label": "Render matching buttons and portraits",
+          "done": true
+        },
+        {
+          "label": "Validate assets",
+          "done": true
+        },
+        {
+          "label": "Apply artwork",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": "assembler_tech",
+      "title": "Builder technology and AI",
+      "steps": [
+        {
+          "label": "Add technology entries",
+          "done": true
+        },
+        {
+          "label": "Check AI constructor references",
+          "done": true
+        },
+        {
+          "label": "Validate dependencies",
+          "done": true
+        },
+        {
+          "label": "Apply",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": "no_8472_assembler",
+      "title": "Species 8472 exclusions",
+      "steps": [
+        {
+          "label": "Remove 8472 starbases from Universal lists",
+          "done": true
+        },
+        {
+          "label": "Remove Universal builders from 8472 production",
+          "done": true
+        },
+        {
+          "label": "Validate exclusions",
+          "done": true
+        },
+        {
+          "label": "Apply",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": "borg_menu_deduplication",
+      "title": "Borg builder duplicate removal",
+      "steps": [
+        {
+          "label": "Compare both menus",
+          "done": true
+        },
+        {
+          "label": "Remove duplicate and preserve facility access",
+          "done": true
+        },
+        {
+          "label": "Apply and validate files",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": "cooper_bioship",
+      "title": "Cooper command bioship",
+      "steps": [
+        {
+          "label": "Verify STO character and command-ship role",
+          "done": true
+        },
+        {
+          "label": "Assign one new bioship and label adaptation",
+          "done": true
+        },
+        {
+          "label": "Stage matching model/icon and 8472 voice fallback",
+          "done": true
+        },
+        {
+          "label": "Applied; gameplay and fallback voice test pending",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "locutus_original_voice",
+      "title": "Original Locutus game recordings",
+      "steps": [
+        {
+          "label": "Identify original gvoloc recordings",
+          "done": true
+        },
+        {
+          "label": "Download and convert original game recordings",
+          "done": true
+        },
+        {
+          "label": "Wire starting and Omega Locutus command events",
+          "done": true
+        },
+        {
+          "label": "Validate and apply",
+          "done": true
+        },
+        {
+          "label": "In-game playback test",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "bajor_crash_diagnostic",
+      "title": "Bajoran five-second crash",
+      "steps": [
+        {
+          "label": "Inspect crash and starting definitions",
+          "done": true
+        },
+        {
+          "label": "Validate native assets and dependencies",
+          "done": true
+        },
+        {
+          "label": "Stage single-file audio fallback",
+          "done": true
+        },
+        {
+          "label": "Install fallback",
+          "done": true
+        },
+        {
+          "label": "User confirms Bajoran test works",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": "bajor_completion_v2",
+      "title": "Finish Bajoran faction",
+      "steps": [
+        {
+          "label": "Build and size faction models",
+          "done": true
+        },
+        {
+          "label": "Render matching icons and validate assimilated textures",
+          "done": true
+        },
+        {
+          "label": "Validate roster, tech and complete AI",
+          "done": true
+        },
+        {
+          "label": "Install and test visuals",
+          "done": false
+        },
+        {
+          "label": "Install and test full AI",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "bajoran_federation_ai",
+      "title": "Federation-based Bajoran AI",
+      "steps": [
+        {
+          "label": "Map five Federation profiles to Bajoran roles",
+          "done": true
+        },
+        {
+          "label": "Validate producers, prerequisites and limits",
+          "done": true
+        },
+        {
+          "label": "Install",
+          "done": true
+        },
+        {
+          "label": "User reports no crash so far; test continuing",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "bajoran_cardassian_style",
+      "title": "Cardassian-style Bajoran facilities",
+      "steps": [
+        {
+          "label": "Review screen-design references",
+          "done": true
+        },
+        {
+          "label": "Map native models, matching icons and valid attachments",
+          "done": true
+        },
+        {
+          "label": "Match construction-menu order and validate",
+          "done": true
+        },
+        {
+          "label": "Install",
+          "done": false
+        },
+        {
+          "label": "Loading crash reported; visuals rolled back",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "bajor-redesign-v3",
+      "title": "Combined Bajoran redesign v3",
+      "steps": [
+        {
+          "label": "Generate models and textures",
+          "done": true
+        },
+        {
+          "label": "Match production icons",
+          "done": true
+        },
+        {
+          "label": "Restore costs, time and technology",
+          "done": true
+        },
+        {
+          "label": "Validate and install 151 files",
+          "done": true
+        },
+        {
+          "label": "Gameplay test",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "bajoran-icon-hotfix",
+      "title": "Bajoran construction icons",
+      "steps": [
+        {
+          "done": true,
+          "label": "Prepare individual icons"
+        },
+        {
+          "done": true,
+          "label": "Install and verify files"
+        },
+        {
+          "done": true,
+          "label": "Confirm icons in game"
+        }
+      ]
+    },
+    {
+      "id": "armadafiles_bajor_textures",
+      "title": "Bajoran texture-only adaptation",
+      "steps": [
+        {
+          "label": "Scan 1481 ship/station entries",
+          "done": true
+        },
+        {
+          "label": "Map source ships/stations",
+          "done": true
+        },
+        {
+          "label": "Adapt normal and assimilated atlases",
+          "done": true
+        },
+        {
+          "label": "Install two textures and verify protected files",
+          "done": true
+        },
+        {
+          "label": "Gameplay appearance test",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "eight_player_catalogue",
+      "title": "Eight-player map catalogue",
+      "steps": [
+        {
+          "done": true,
+          "label": "Download/extract all 72 category archives"
+        },
+        {
+          "done": true,
+          "label": "Identify duplicates and requirements"
+        },
+        {
+          "done": true,
+          "label": "Install 9 additional checked maps"
+        },
+        {
+          "done": false,
+          "label": "Gameplay loading tests"
+        },
+        {
+          "done": false,
+          "label": "Resolve 12 held candidates"
+        }
+      ]
+    },
+    {
+      "id": "omega_loading",
+      "title": "Omega weapon loading",
+      "steps": [
+        {
+          "done": true,
+          "label": "Find 14 misplaced definitions"
+        },
+        {
+          "done": true,
+          "label": "Preserve effective weapon properties"
+        },
+        {
+          "done": true,
+          "label": "Back up, relocate and verify"
+        },
+        {
+          "done": false,
+          "label": "Omega gameplay test"
+        }
+      ]
+    },
+    {
+      "id": "all_start_heroes",
+      "title": "Heroes buildable only",
+      "steps": [
+        {
+          "label": "Remove heroes from all starting modes",
+          "done": true
+        },
+        {
+          "label": "Retain hero production and voices",
+          "done": true
+        },
+        {
+          "label": "Regenerate Bajor AI without starting Kira",
+          "done": true
+        },
+        {
+          "label": "Fresh-game start and production test",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "non_bajor_assets",
+      "title": "Other-faction assets and icons",
+      "steps": [
+        {
+          "done": true,
+          "label": "Inventory 346 ship definitions"
+        },
+        {
+          "done": true,
+          "label": "Check 278 production ship models"
+        },
+        {
+          "done": true,
+          "label": "Resolve 590 build icon targets"
+        },
+        {
+          "done": true,
+          "label": "Fix Dreadnought icon rectangle"
+        },
+        {
+          "done": true,
+          "label": "Validate 206 PCM hero clips"
+        },
+        {
+          "done": false,
+          "label": "Gameplay appearance and playback"
+        }
+      ]
+    },
+    {
+      "id": "borg-assimilation-support",
+      "title": "Borg assimilation support",
+      "steps": [
+        {
+          "label": "Artwork and definitions",
+          "done": true
+        },
+        {
+          "label": "Icons and validation",
+          "done": true
+        },
+        {
+          "label": "Install after game closes",
+          "done": true
+        },
+        {
+          "label": "Gameplay test",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "8472-ai-recovery",
+      "title": "Species 8472 AI recovery",
+      "steps": [
+        {
+          "label": "Find production blockers",
+          "done": true
+        },
+        {
+          "label": "Validate five build plans",
+          "done": true
+        },
+        {
+          "label": "Install",
+          "done": true
+        },
+        {
+          "label": "Gameplay test",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "borg-nexus-weapons",
+      "title": "Borg Nexus defenses",
+      "steps": [
+        {
+          "label": "Compare starbase weapons",
+          "done": true
+        },
+        {
+          "label": "Validate eight banks",
+          "done": true
+        },
+        {
+          "label": "Install",
+          "done": true
+        },
+        {
+          "label": "Gameplay test",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "borg-station-autofire",
+      "title": "Borg station autofire and icons",
+      "steps": [
+        {
+          "label": "Configure enemy-only beams",
+          "done": true
+        },
+        {
+          "label": "Generate beam badges",
+          "done": true
+        },
+        {
+          "label": "Install and verify files",
+          "done": true
+        },
+        {
+          "label": "Gameplay test",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "riker-galaxyx",
+      "title": "Riker Galaxy-X hero",
+      "steps": [
+        {
+          "label": "Check source and model",
+          "done": true
+        },
+        {
+          "label": "Weapons, cloak, icons and tech",
+          "done": true
+        },
+        {
+          "label": "Install and validate",
+          "done": true
+        },
+        {
+          "label": "Gameplay test",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "dominion-ai-recovery",
+      "title": "Dominion AI recovery",
+      "steps": [
+        {
+          "label": "Check economy and prerequisites",
+          "done": true
+        },
+        {
+          "label": "Install five build plans",
+          "done": true
+        },
+        {
+          "label": "Gameplay test",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "cube-cloak-detection",
+      "title": "Borg cube cloak detection",
+      "steps": [
+        {
+          "label": "Restore native detector",
+          "done": true
+        },
+        {
+          "label": "Install 16 variants",
+          "done": true
+        },
+        {
+          "label": "Gameplay test",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "cube-tech-assimilation",
+      "title": "Cube technology assimilation and energy",
+      "steps": [
+        {
+          "label": "Calculate capacities",
+          "done": true
+        },
+        {
+          "label": "Install cube/station/tech changes",
+          "done": true
+        },
+        {
+          "label": "Gameplay test",
+          "done": false
+        }
+      ]
+    }
+  ],
+  "updated": "2026-10-25T05:51:24.476876+01:00",
+  "nexusPatch": {
+    "status": "CANCELLED AND ROLLED BACK"
+  },
+  "twinYards": {
+    "status": "APPLIED - GAMEPLAY TEST PENDING",
+    "target": "D:\\armadaIII",
+    "backup": "D:\\Xaramada-Modwork\\backups\\twin-yards-20261025-184944",
+    "files": 483,
+    "models": 76,
+    "staticChecks": 54464,
+    "newFiles": [
+      "SOD/ty26_bhwp.sod",
+      "SOD/ty26_bjhwp.sod",
+      "SOD/ty26_bjresear.sod",
+      "SOD/ty26_bjresear2.sod",
+      "SOD/ty26_bjupgrade.sod",
+      "SOD/ty26_bjyard.sod",
+      "SOD/ty26_bjyard2.sod",
+      "SOD/ty26_bresear.sod",
+      "SOD/ty26_bresear2.sod",
+      "SOD/ty26_brresear.sod",
+      "SOD/ty26_bryard.sod",
+      "SOD/ty26_bupgrade.sod",
+      "SOD/ty26_byard.sod",
+      "SOD/ty26_byard2.sod",
+      "SOD/ty26_byard3.sod",
+      "SOD/ty26_chwp.sod",
+      "SOD/ty26_cresear.sod",
+      "SOD/ty26_cresear2.sod",
+      "SOD/ty26_cupgrade.sod",
+      "SOD/ty26_cyard.sod",
+      "SOD/ty26_cyard2.sod",
+      "SOD/ty26_cyard3.sod",
+      "SOD/ty26_dresear.sod",
+      "SOD/ty26_dresear2.sod",
+      "SOD/ty26_dturret3.sod",
+      "SOD/ty26_dupgrade.sod",
+      "SOD/ty26_dyard.sod",
+      "SOD/ty26_dyard2.sod",
+      "SOD/ty26_dyard3.sod",
+      "SOD/ty26_fhwp.sod",
+      "SOD/ty26_fresear.sod",
+      "SOD/ty26_fresear2.sod",
+      "SOD/ty26_fupgrade.sod",
+      "SOD/ty26_fyard.sod",
+      "SOD/ty26_fyard2.sod",
+      "SOD/ty26_fyard3.sod",
+      "SOD/ty26_khwp.sod",
+      "SOD/ty26_kresear.sod",
+      "SOD/ty26_kresear2.sod",
+      "SOD/ty26_kupgrade.sod",
+      "SOD/ty26_kyard.sod",
+      "SOD/ty26_kyard2.sod",
+      "SOD/ty26_kyard3.sod",
+      "SOD/ty26_mryfeda.sod",
+      "SOD/ty26_mryfedb.sod",
+      "SOD/ty26_rhwp.sod",
+      "SOD/ty26_rresear.sod",
+      "SOD/ty26_rresear2.sod",
+      "SOD/ty26_rupgrade.sod",
+      "SOD/ty26_ryard.sod",
+      "SOD/ty26_ryard2.sod",
+      "SOD/ty26_ryard3.sod",
+      "SOD/ty26_s31yard.sod",
+      "SOD/ty26_tybghwp.sod",
+      "SOD/ty26_tybrhwp.sod",
+      "SOD/ty26_tyfghwp.sod",
+      "SOD/ty26_xbgmerc.sod",
+      "SOD/ty26_xbgresearch.sod",
+      "SOD/ty26_xbgserv.sod",
+      "SOD/ty26_xbomegalab.sod",
+      "SOD/ty26_xfgmerc.sod",
+      "SOD/ty26_xfgresearch.sod",
+      "SOD/ty26_xfgserv.sod",
+      "SOD/ty26_xflegacyyard.sod",
+      "SOD/ty26_xfomegalab.sod",
+      "SOD/ty26_xselaresearch.sod",
+      "SOD/ty26_xyr_b.sod",
+      "SOD/ty26_xyr_bg.sod",
+      "SOD/ty26_xyr_bj.sod",
+      "SOD/ty26_xyr_br.sod",
+      "SOD/ty26_xyr_c.sod",
+      "SOD/ty26_xyr_d.sod",
+      "SOD/ty26_xyr_f.sod",
+      "SOD/ty26_xyr_fg.sod",
+      "SOD/ty26_xyr_k.sod",
+      "SOD/ty26_xyr_r.sod",
+      "odf/special_weapons/tybgbeam.odf",
+      "odf/special_weapons/tybgrapid.odf",
+      "odf/special_weapons/tybgtorp.odf",
+      "odf/special_weapons/tybrbeam.odf",
+      "odf/special_weapons/tybrrapid.odf",
+      "odf/special_weapons/tybrtorp.odf",
+      "odf/special_weapons/tyfgbeam.odf",
+      "odf/special_weapons/tyfgrapid.odf",
+      "odf/special_weapons/tyfgtorp.odf",
+      "odf/stations/tybghwp.odf",
+      "odf/stations/tybrhwp.odf",
+      "odf/stations/tyfghwp.odf",
+      "odf/stations/xyr_b.odf",
+      "odf/stations/xyr_bg.odf",
+      "odf/stations/xyr_bj.odf",
+      "odf/stations/xyr_br.odf",
+      "odf/stations/xyr_c.odf",
+      "odf/stations/xyr_d.odf",
+      "odf/stations/xyr_f.odf",
+      "odf/stations/xyr_fg.odf",
+      "odf/stations/xyr_k.odf",
+      "odf/stations/xyr_r.odf",
+      "Textures/RGB/gbty26_bhwp.tga",
+      "Textures/RGB/gbty26_bjhwp.tga",
+      "Textures/RGB/gbty26_bjresear.tga",
+      "Textures/RGB/gbty26_bjresear2.tga",
+      "Textures/RGB/gbty26_bjupgrade.tga",
+      "Textures/RGB/gbty26_bjyard.tga",
+      "Textures/RGB/gbty26_bjyard2.tga",
+      "Textures/RGB/gbty26_bresear.tga",
+      "Textures/RGB/gbty26_bresear2.tga",
+      "Textures/RGB/gbty26_brresear.tga",
+      "Textures/RGB/gbty26_bryard.tga",
+      "Textures/RGB/gbty26_bupgrade.tga",
+      "Textures/RGB/gbty26_byard.tga",
+      "Textures/RGB/gbty26_byard2.tga",
+      "Textures/RGB/gbty26_byard3.tga",
+      "Textures/RGB/gbty26_chwp.tga",
+      "Textures/RGB/gbty26_cresear.tga",
+      "Textures/RGB/gbty26_cresear2.tga",
+      "Textures/RGB/gbty26_cupgrade.tga",
+      "Textures/RGB/gbty26_cyard.tga",
+      "Textures/RGB/gbty26_cyard2.tga",
+      "Textures/RGB/gbty26_cyard3.tga",
+      "Textures/RGB/gbty26_dresear.tga",
+      "Textures/RGB/gbty26_dresear2.tga",
+      "Textures/RGB/gbty26_dturret3.tga",
+      "Textures/RGB/gbty26_dupgrade.tga",
+      "Textures/RGB/gbty26_dyard.tga",
+      "Textures/RGB/gbty26_dyard2.tga",
+      "Textures/RGB/gbty26_dyard3.tga",
+      "Textures/RGB/gbty26_fhwp.tga",
+      "Textures/RGB/gbty26_fresear.tga",
+      "Textures/RGB/gbty26_fresear2.tga",
+      "Textures/RGB/gbty26_fupgrade.tga",
+      "Textures/RGB/gbty26_fyard.tga",
+      "Textures/RGB/gbty26_fyard2.tga",
+      "Textures/RGB/gbty26_fyard3.tga",
+      "Textures/RGB/gbty26_khwp.tga",
+      "Textures/RGB/gbty26_kresear.tga",
+      "Textures/RGB/gbty26_kresear2.tga",
+      "Textures/RGB/gbty26_kupgrade.tga",
+      "Textures/RGB/gbty26_kyard.tga",
+      "Textures/RGB/gbty26_kyard2.tga",
+      "Textures/RGB/gbty26_kyard3.tga",
+      "Textures/RGB/gbty26_mryfeda.tga",
+      "Textures/RGB/gbty26_mryfedb.tga",
+      "Textures/RGB/gbty26_rhwp.tga",
+      "Textures/RGB/gbty26_rresear.tga",
+      "Textures/RGB/gbty26_rresear2.tga",
+      "Textures/RGB/gbty26_rupgrade.tga",
+      "Textures/RGB/gbty26_ryard.tga",
+      "Textures/RGB/gbty26_ryard2.tga",
+      "Textures/RGB/gbty26_ryard3.tga",
+      "Textures/RGB/gbty26_s31yard.tga",
+      "Textures/RGB/gbty26_tybghwp.tga",
+      "Textures/RGB/gbty26_tybrhwp.tga",
+      "Textures/RGB/gbty26_tyfghwp.tga",
+      "Textures/RGB/gbty26_xbgmerc.tga",
+      "Textures/RGB/gbty26_xbgresearch.tga",
+      "Textures/RGB/gbty26_xbgserv.tga",
+      "Textures/RGB/gbty26_xbomegalab.tga",
+      "Textures/RGB/gbty26_xfgmerc.tga",
+      "Textures/RGB/gbty26_xfgresearch.tga",
+      "Textures/RGB/gbty26_xfgserv.tga",
+      "Textures/RGB/gbty26_xflegacyyard.tga",
+      "Textures/RGB/gbty26_xfomegalab.tga",
+      "Textures/RGB/gbty26_xselaresearch.tga",
+      "Textures/RGB/gbty26_xyr_b.tga",
+      "Textures/RGB/gbty26_xyr_bg.tga",
+      "Textures/RGB/gbty26_xyr_bj.tga",
+      "Textures/RGB/gbty26_xyr_br.tga",
+      "Textures/RGB/gbty26_xyr_c.tga",
+      "Textures/RGB/gbty26_xyr_d.tga",
+      "Textures/RGB/gbty26_xyr_f.tga",
+      "Textures/RGB/gbty26_xyr_fg.tga",
+      "Textures/RGB/gbty26_xyr_k.tga",
+      "Textures/RGB/gbty26_xyr_r.tga",
+      "Textures/RGB/ty26_cloud.tga",
+      "Textures/RGB/ty26_land.tga",
+      "Textures/RGB/ty26_water.tga",
+      "Textures/RGB/wfty26_bhwp.tga",
+      "Textures/RGB/wfty26_bjhwp.tga",
+      "Textures/RGB/wfty26_bjresear.tga",
+      "Textures/RGB/wfty26_bjresear2.tga",
+      "Textures/RGB/wfty26_bjupgrade.tga",
+      "Textures/RGB/wfty26_bjyard.tga",
+      "Textures/RGB/wfty26_bjyard2.tga",
+      "Textures/RGB/wfty26_bresear.tga",
+      "Textures/RGB/wfty26_bresear2.tga",
+      "Textures/RGB/wfty26_brresear.tga",
+      "Textures/RGB/wfty26_bryard.tga",
+      "Textures/RGB/wfty26_bupgrade.tga",
+      "Textures/RGB/wfty26_byard.tga",
+      "Textures/RGB/wfty26_byard2.tga",
+      "Textures/RGB/wfty26_byard3.tga",
+      "Textures/RGB/wfty26_chwp.tga",
+      "Textures/RGB/wfty26_cresear.tga",
+      "Textures/RGB/wfty26_cresear2.tga",
+      "Textures/RGB/wfty26_cupgrade.tga",
+      "Textures/RGB/wfty26_cyard.tga",
+      "Textures/RGB/wfty26_cyard2.tga",
+      "Textures/RGB/wfty26_cyard3.tga",
+      "Textures/RGB/wfty26_dresear.tga",
+      "Textures/RGB/wfty26_dresear2.tga",
+      "Textures/RGB/wfty26_dturret3.tga",
+      "Textures/RGB/wfty26_dupgrade.tga",
+      "Textures/RGB/wfty26_dyard.tga",
+      "Textures/RGB/wfty26_dyard2.tga",
+      "Textures/RGB/wfty26_dyard3.tga",
+      "Textures/RGB/wfty26_fhwp.tga",
+      "Textures/RGB/wfty26_fresear.tga",
+      "Textures/RGB/wfty26_fresear2.tga",
+      "Textures/RGB/wfty26_fupgrade.tga",
+      "Textures/RGB/wfty26_fyard.tga",
+      "Textures/RGB/wfty26_fyard2.tga",
+      "Textures/RGB/wfty26_fyard3.tga",
+      "Textures/RGB/wfty26_khwp.tga",
+      "Textures/RGB/wfty26_kresear.tga",
+      "Textures/RGB/wfty26_kresear2.tga",
+      "Textures/RGB/wfty26_kupgrade.tga",
+      "Textures/RGB/wfty26_kyard.tga",
+      "Textures/RGB/wfty26_kyard2.tga",
+      "Textures/RGB/wfty26_kyard3.tga",
+      "Textures/RGB/wfty26_mryfeda.tga",
+      "Textures/RGB/wfty26_mryfedb.tga",
+      "Textures/RGB/wfty26_rhwp.tga",
+      "Textures/RGB/wfty26_rresear.tga",
+      "Textures/RGB/wfty26_rresear2.tga",
+      "Textures/RGB/wfty26_rupgrade.tga",
+      "Textures/RGB/wfty26_ryard.tga",
+      "Textures/RGB/wfty26_ryard2.tga",
+      "Textures/RGB/wfty26_ryard3.tga",
+      "Textures/RGB/wfty26_s31yard.tga",
+      "Textures/RGB/wfty26_tybghwp.tga",
+      "Textures/RGB/wfty26_tybrhwp.tga",
+      "Textures/RGB/wfty26_tyfghwp.tga",
+      "Textures/RGB/wfty26_xbgmerc.tga",
+      "Textures/RGB/wfty26_xbgresearch.tga",
+      "Textures/RGB/wfty26_xbgserv.tga",
+      "Textures/RGB/wfty26_xbomegalab.tga",
+      "Textures/RGB/wfty26_xfgmerc.tga",
+      "Textures/RGB/wfty26_xfgresearch.tga",
+      "Textures/RGB/wfty26_xfgserv.tga",
+      "Textures/RGB/wfty26_xflegacyyard.tga",
+      "Textures/RGB/wfty26_xfomegalab.tga",
+      "Textures/RGB/wfty26_xselaresearch.tga",
+      "Textures/RGB/wfty26_xyr_b.tga",
+      "Textures/RGB/wfty26_xyr_bg.tga",
+      "Textures/RGB/wfty26_xyr_bj.tga",
+      "Textures/RGB/wfty26_xyr_br.tga",
+      "Textures/RGB/wfty26_xyr_c.tga",
+      "Textures/RGB/wfty26_xyr_d.tga",
+      "Textures/RGB/wfty26_xyr_f.tga",
+      "Textures/RGB/wfty26_xyr_fg.tga",
+      "Textures/RGB/wfty26_xyr_k.tga",
+      "Textures/RGB/wfty26_xyr_r.tga"
+    ],
+    "runtimeVerified": false,
+    "nextPatch": "ON HOLD as requested",
+    "mapsUntouched": true,
+    "borgRecyclerUntouched": true,
+    "appliedAt": "2026-10-25T18:49:49.219768+01:00"
+  }
+}

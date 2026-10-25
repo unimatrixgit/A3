@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Sacramento Class"
+
 
 //tooltips
 
@@ -32,7 +32,7 @@ shieldRate = 15
 
 //Even though we are a shipyard we don't have a repair facility
 
-decommissionFacility = 0
+
 
 //Possible Craft Names
 possibleCraftNames = 
@@ -63,7 +63,7 @@ possibleCraftNames =
 
 
 //Hardpoint location for building.
-buildHardpoint = "root"
+
 //**********************************************************************
 //**********************************************************************
 //AI system parameters
@@ -89,7 +89,7 @@ eventDecommission = "AdvShipyardDecommission"
 //PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
 
 //Runtime class label for instantiation of object.
-classLabel = "shipyard"
+
 
 //**********************************************************************
 //KEYMAP LABEL
@@ -99,13 +99,13 @@ hotkeyLabel = "HOTKEY_F8"
 
 //************************************************************
 // Brian additions for context sensitive menus
-builder_ship = 1
+
 transporter = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
 // make it bigger
-ScaleSOD = 2.0
+
 
 
 
@@ -135,29 +135,29 @@ hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "
 
 criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
 
-tooltip = "Shipyard (Sacramento Class)"
 
 
 
-repairFacility = 1
 
-repairHardpoint = "repair"
 
-buildItem0 = "fcruise1"
 
-buildItem1 = "ffrigate"
 
-buildItem2 = "fexcelr"
 
-buildItem3 = "fbattle"
 
-buildItem4 = "fsovx"
 
-buildItem5 = "fprometheus"
 
-buildItem6 = "fexcalibur"
 
-buildItem7 = "fdauntless"
+
+
+
+
+
+
+
+
+
+
+
 
 dilithiumCost = 300
 
@@ -165,6 +165,74 @@ metalCost = 1000
 
 buildTime = 90
 
-verboseTooltip = "Sacramento Class\nShip construction\nStarfleet infrastructure supports exploration."
 
-baseName = "vr26_fyard2"
+
+
+buildItem0 = "fcruise1"
+buildItem1 = "ffrigate"
+buildItem2 = "fexcelr"
+buildItem3 = "fbattle"
+buildItem4 = "fsovx"
+buildItem5 = "fprometheus"
+buildItem6 = "fexcalibur"
+buildItem7 = "fdauntless"
+buildItem8 = "fscout"
+buildItem9 = "fdanube"
+buildItem10 = "ffighter"
+buildItem11 = "fdeltaflyer"
+buildItem12 = "fantares"
+buildItem13 = "fdefiant"
+classLabel = "shipyard"
+builder_ship = 1
+research = 0
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0
+unitName = "Copernicus Fleet Yard"
+tooltip = "Copernicus Fleet Yard"
+verboseTooltip = "Copernicus Fleet Yard\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
+weapon1 = "fbasephas"
+weaponHardpoints1 = "tygun1"
+weapon2 = "fbasephas"
+weaponHardpoints2 = "tygun2"
+weapon3 = "fbaserphot"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ty26_fyard2"
+ScaleSOD = 2
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 20

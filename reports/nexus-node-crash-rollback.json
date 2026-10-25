@@ -1,0 +1,10 @@
+{
+  "status": "ROLLED BACK TO PRE-NEXUS PATCH",
+  "restoredFiles": 213,
+  "removedNewFiles": 492,
+  "backup": "D:\\Xaramada-Modwork\\backups\\fleet-nexuses-20261025-175236",
+  "reason": "Native ResearchStation dynamically casts attached class to ResearchPodClass; a ShipyardClass produces null and crashes at 0x4ba13c.",
+  "faultDump": "C:/Users/thoma/AppData/Local/CrashDumps/Armada2.exe.11284.dmp",
+  "runtimeVerified": false,
+  "mapsUntouched": true
+}

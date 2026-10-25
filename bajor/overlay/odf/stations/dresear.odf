@@ -1,6 +1,6 @@
 // Begin main properties
 
-unitName = "Dominion Research Station"
+
 
 
 race = "dominion"
@@ -68,7 +68,7 @@ possibleCraftNames =
 
 hotkeyLabel = "HOTKEY_F6"
 transporter = 1
-ScaleSOD = 5.0
+
 footprintBuffer = 40.0f
 classLabel = "research"
 research = 1
@@ -130,10 +130,13 @@ latinumCost = 500
 
 biomatterCost = 0
 
-tooltip = "Research Facility (Dominion Research Station)"
 
 
 
-verboseTooltip = "Dominion Research Station\nResearch and upgrades\nThe Founders impose order across the stars."
 
-baseName = "dr26_dresear"
+
+baseName = "ty26_dresear"
+ScaleSOD = 5
+unitName = "Founder's Engineering Enclave"
+tooltip = "Founder's Engineering Enclave"
+verboseTooltip = "Founder's Engineering Enclave\nResearch and faction upgrades\nKnowledge shapes the next generation."

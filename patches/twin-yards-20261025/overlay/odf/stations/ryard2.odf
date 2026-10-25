@@ -1,0 +1,223 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 2500
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.08
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Velesh Prime" "Plupus Prime" "Folcus Prime" "Capulvian Prime" 
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Hardpoints to hit for various systems and other locations.
+
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+
+
+
+//Hardpoint location for building.
+
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "AdvShipyardSelect"
+eventAcknowledge = "AdvShipyardAcknowledge"
+eventDecommission = "AdvShipyardDecommission"
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "adv_shipyard"
+hotkeyLabel = "HOTKEY_F8"
+
+//************************************************************
+// Brian additions for context sensitive menus
+
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+latinumCost = 0
+biomatterCost = 0
+crewCost = 500
+officerCost = 5
+
+
+
+
+enginestargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+
+lifesupporttargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+
+weaponstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+
+shieldgeneratortargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+
+sensorstargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+
+hulltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+
+criticaltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dilithiumCost = 300
+
+metalCost = 1000
+
+buildTime = 90
+
+
+
+
+buildItem0 = "rfrigate"
+buildItem1 = "rktinga"
+buildItem2 = "rscruise"
+buildItem3 = "rbattle2"
+buildItem4 = "rspecial"
+buildItem5 = "rbattle"
+buildItem6 = "rdread"
+buildItem7 = "rtscout"
+buildItem8 = "rtsdest"
+buildItem9 = "rtscruis"
+buildItem10 = "rtspec"
+buildItem11 = "rtsbcru"
+classLabel = "shipyard"
+builder_ship = 1
+research = 0
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0
+unitName = "D'deridex Fleet Yard"
+tooltip = "D'deridex Fleet Yard"
+verboseTooltip = "D'deridex Fleet Yard\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
+weapon1 = "rc07phas"
+weaponHardpoints1 = "tygun1"
+weapon2 = "rc07phas"
+weaponHardpoints2 = "tygun2"
+weapon3 = "rc08phot"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ty26_ryard2"
+ScaleSOD = 1.95
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 20

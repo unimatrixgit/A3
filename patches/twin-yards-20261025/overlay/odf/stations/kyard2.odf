@@ -1,0 +1,230 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "klingon"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 3026
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 3.7
+
+//Possible Craft Names
+possibleCraftNames = "Duj'a'Qach-782" "Duj'a'Qach-564" "Duj'a'Qach-808" "Duj'a'Qach-848"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Hardpoints to hit for various systems and other locations.
+
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+
+
+
+
+//Hardpoint location for building.
+
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "AdvShipyardSelect"
+eventAcknowledge = "AdvShipyardAcknowledge"
+eventDecommission = "AdvShipyardDecommission"
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "adv_shipyard"
+hotkeyLabel = "HOTKEY_F8"
+
+//************************************************************
+// Brian additions for context sensitive menus
+
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+// make it bigger
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewCost = 500
+officerCost = 5
+
+
+
+
+enginestargethardpoints = "hp01" "hp02" "hp05"
+
+lifesupporttargethardpoints = "hp01" "hp02" "hp05"
+
+weaponstargethardpoints = "hp01" "hp02" "hp05"
+
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp05"
+
+sensorstargethardpoints = "hp01" "hp02" "hp05"
+
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04"
+
+criticaltargethardpoints = "hp01" "hp02" "hp05"
+
+
+
+
+
+latinumCost = 0
+
+biomatterCost = 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dilithiumCost = 300
+
+metalCost = 1000
+
+buildTime = 90
+
+
+
+
+buildItem0 = "kfrigate"
+buildItem1 = "kbattle2"
+buildItem2 = "kspecial"
+buildItem3 = "kbattle"
+buildItem4 = "kvodleh"
+buildItem5 = "kbwing"
+buildItem6 = "kvood"
+buildItem7 = "kbatleth"
+buildItem8 = "kavorcha"
+buildItem9 = "kimpvorc"
+buildItem10 = "kimpnegh"
+buildItem11 = "kdestroy4"
+classLabel = "shipyard"
+builder_ship = 1
+research = 0
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0
+unitName = "Vor'cha Assault Forge"
+tooltip = "Vor'cha Assault Forge"
+verboseTooltip = "Vor'cha Assault Forge\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
+weapon1 = "kc12phas"
+weaponHardpoints1 = "tygun1"
+weapon2 = "kc12phas"
+weaponHardpoints2 = "tygun2"
+weapon3 = "kc05phot"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ty26_kyard2"
+ScaleSOD = 1.9
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 20

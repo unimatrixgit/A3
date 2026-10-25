@@ -1,0 +1,205 @@
+#include "const.odf"
+
+//Race which can build ship & starting race of ship
+race = "cardassian"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 837
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 347
+enginesHitPoints = 297
+weaponsHitPoints = 96
+lifeSupportHitPoints = 339
+sensorsHitPoints = 258
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 4.4
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 59
+impulseSpeed = 78
+warpSpeed = 698
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+
+
+
+
+
+//**********************************************************************
+//Worker Bee Parameters
+
+// Name of the worker bee SOD.
+workerBeeName = "cbee"
+weldingBeamWidth = 5.0
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "Eris" "Vishanti" "Faris"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Towing Beam
+
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+lifeSupportTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+weaponsTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+shieldGeneratorTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+sensorsTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+hullTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+criticalTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+//**********************************************************************
+
+hotkeyLabel = "HOTKEY_F1"
+
+
+
+// Xaramada resource costs: original matching class.
+
+
+
+
+
+officerCost = 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alert = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+combat = 0
+
+attackPower = 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+dilithiumcost = 200
+
+metalcost = 100
+
+latinumcost = 0
+
+biomattercost = 0
+
+crewcost = 150
+
+buildtime = 30
+
+canattack = 0
+
+maxspecialenergy = 0
+
+specialenergyrate = 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "vr26_domconst"
+unitName = "Assemblers MK II"
+tooltip = "Assemblers MK II"
+verboseTooltip = "Assemblers MK II\nAdvanced construction\nUnion engineers fortify Cardassian space."
+buildItem0 = "cturret"
+buildItem1 = "cturret2"
+buildItem2 = "cyard3"
+buildItem3 = "chwp"
+buildItem4 = "ciaarray"

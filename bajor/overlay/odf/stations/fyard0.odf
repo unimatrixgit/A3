@@ -32,7 +32,7 @@ shieldRate = 10
 //Even though we are a shipyard we don't have a repair facility
 
 
-decommissionFacility = 0
+
 
 //Possible Craft Names
 possibleCraftNames = 
@@ -105,12 +105,12 @@ SHOW_SW_AUTONOMY = 1
 ScaleSOD = 1.25
 
 
-buildItem0 = "foberth"
-buildItem1 = "fnx"
-buildItem2 = "fcentaur"
-buildItem3 = "fmiranda"
-buildItem4 = "fconstellation"
-buildItem5 = "fconstitution"
+
+
+
+
+
+
 
 
 // Xaramada resource costs: calculated from original comparable.
@@ -134,8 +134,11 @@ tooltip = "Shipyard (San Fransisco Class)"
 
 
 
-repairFacility = 1
+
 
 repairHardpoint = "hp01"
 
 verboseTooltip = "San Fransisco Class\nShip construction\nStarfleet infrastructure supports exploration."
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0

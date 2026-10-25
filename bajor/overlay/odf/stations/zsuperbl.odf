@@ -46,10 +46,10 @@ criticalTargetHardpoints = "hp01"
 //**********************************************************************
 //Construction Parameters
 
-buildItem0 = "dwormddestroy2"
-buildItem1 = "dwormdbattle"
-builditem2 = "dwormdbattle2"
-buildItem3 = "dwormdsuper"
+
+
+
+
 
 //Hardpoint location for building.
 buildHardpoint = "hp01"
@@ -75,8 +75,8 @@ ScaleSOD = 2.0
 alert = 1
 transporter = 1
 builder_ship = 1
-repairFacility = 0
-decommissionFacility = 0
+
+
 
 //**********************************************************************
 
@@ -106,3 +106,6 @@ tooltip = "Production Facility (Dominion Artificial Wormhole Creator)"
 verboseTooltip = "Dominion Artificial Wormhole Creator\nShip construction\nThe Founders impose order across the stars."
 
 baseName = "vr26_zsuperbl"
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0

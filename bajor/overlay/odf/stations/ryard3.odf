@@ -50,7 +50,7 @@ criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp1
 //Construction Parameters
 
 //Hardpoint location for building.
-buildHardpoint = "build"
+
 
 //**********************************************************************
 //AI system parameters
@@ -72,7 +72,7 @@ eventDecommission = "AdvShipyardDecommission"
 //PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
 
 //Runtime class label for instantiation of object.
-classLabel = "shipyard"
+
 
 //**********************************************************************
 //KEYMAP LABEL
@@ -82,12 +82,12 @@ hotkeyLabel = "HOTKEY_F8"
 
 //************************************************************
 // Brian additions for context sensitive menus
-builder_ship = 1
+
 transporter = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
-ScaleSOD = 1.95
+
 
 
 
@@ -107,14 +107,14 @@ ScaleSOD = 1.95
 crewCost = 500
 officerCost = 5
 
-unitName = "Raptor's Talon Shipyard"
+
 
 
 
 
 
 // Lab safety fix: this model has no repair docking node. Do not accept repair orders, including after capture.
-repairFacility = 0
+
 
 
 
@@ -124,33 +124,33 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Shipyard (Raptor's Talon Shipyard)"
 
 
 
-buildItem0 = "rtswarb"
 
-buildItem1 = "rtsdread"
 
-buildItem2 = "xhrhero"
 
-buildItem3 = "xhrshinzon"
 
-buildItem4 = "xhrdonatra"
 
-buildItem5 = "xhrtosbird"
 
-buildItem6 = "xhrearlybird"
 
-buildItem7 = "mrc049"
 
-buildItem8 = "mrc050"
 
-buildItem9 = "mrc051"
 
-buildItem10 = "mrc052"
 
-buildItem11 = "mrc053"
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 dilithiumCost = 450
 
@@ -158,6 +158,72 @@ metalCost = 1350
 
 buildTime = 120
 
-verboseTooltip = "Raptor's Talon Shipyard\nShip construction\nAn outpost guarding the Romulan Star Empire."
 
-baseName = "vr26_ryard3"
+
+
+buildItem0 = "rtswarb"
+buildItem1 = "rtsdread"
+buildItem2 = "xhrhero"
+buildItem3 = "xhrshinzon"
+buildItem4 = "xhrdonatra"
+buildItem5 = "xhrtosbird"
+buildItem6 = "xhrearlybird"
+buildItem7 = "mrc049"
+buildItem8 = "mrc050"
+buildItem9 = "mrc051"
+buildItem10 = "mrc052"
+buildItem11 = "mrc053"
+classLabel = "shipyard"
+builder_ship = 1
+research = 0
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0
+unitName = "Tal Shiar Command Yard"
+tooltip = "Tal Shiar Command Yard"
+verboseTooltip = "Tal Shiar Command Yard\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
+weapon1 = "rc07phas"
+weaponHardpoints1 = "tygun1"
+weapon2 = "rc07phas"
+weaponHardpoints2 = "tygun2"
+weapon3 = "rc08phot"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ty26_ryard3"
+ScaleSOD = 1.95
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 20

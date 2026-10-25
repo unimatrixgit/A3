@@ -1,0 +1,338 @@
+#include "const.odf"
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 150
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 30
+enginesHitPoints = 30
+weaponsHitPoints = 30
+lifeSupportHitPoints = 30
+sensorsHitPoints = 30
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 3.5
+
+
+//**********************************************************************
+//Construction Parameters
+
+//**********************************************************************
+
+//**********************************************************************
+//Worker Bee Parameters
+
+// Name of the worker bee SOD.
+workerBeeName = "bbee"
+weldingBeamWidth = 5.0
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+	"G204-18984" "G204-11861" "G204-94814" "G204-68165"
+	"G204-98108" "G204-90484" "G204-74860" "G204-68468"
+	"G204-86405" "G204-85615" "G204-54580" "G204-45105"
+	"G204-50055" "G204-45044" "G204-50155" "G204-84746"
+	"G204-18600" "G204-45605" "G204-48912" "G204-45444"
+	"G204-48684" "G204-94474" "G204-10848" "G204-84068"
+
+//**********************************************************************
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Weapon Name (ex. "gphaser" -> gphaser.odf)
+//weapon1 = "gphaser"
+//weaponHardpoints1 = "hp01" "hp02" "hp03" "hp04" "hp05"
+
+// Towing Beam
+
+
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+lifeSupportTargetHardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+sensorsTargetHardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+hullTargetHardpoints = "hp06"
+criticalTargetHardpoints = "hp01"
+
+//**********************************************************************
+
+
+//PHYSICS Parameter
+
+// Disable banking (by making the maximum bank angle 1 degree)
+maxRoll = 1
+
+hotkeyLabel = "HOTKEY_F1"
+
+
+// Use the Borg assembler model and its Borg textures.
+
+
+// Xaramada: transwarp for all Borg vessels.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Borg core facilities remain on the standard Assembler; no overlapping build buttons.
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Technology Assimilator restored to second Borg constructor.
+
+
+// Advanced transwarp facility; avoids an unavailable third builder.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+officerCost = 1
+
+
+
+maximumCrew = 150
+
+
+
+
+
+
+
+
+
+
+
+
+
+alert = 1
+
+
+
+
+
+
+
+
+
+
+
+combat = 0
+
+attackPower = 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dilithiumcost = 300
+
+metalcost = 200
+
+latinumcost = 0
+
+biomattercost = 0
+
+crewcost = 150
+
+buildtime = 40
+
+canattack = 0
+
+
+
+
+
+
+
+weapon1 = "xabtrans5"
+
+weaponHardpoints1 = "hp01"
+
+maxSpecialEnergy = 1000
+
+specialEnergyRate = 10
+
+
+
+
+
+
+
+
+
+baseName = "vr26_uconst"
+unitName = "Assemblers MK III"
+tooltip = "Assemblers MK III"
+verboseTooltip = "Assemblers MK III\nTranswarp Drive\nBorg drones assemble the Collective's domain."
+buildItem0 = "bbase"
+buildItem1 = "fbase"
+buildItem2 = "kbase"
+buildItem3 = "rbase"
+buildItem4 = "cbase"
+buildItem5 = "dbase"
+buildItem6 = "brbase"
+buildItem7 = "bjbase"
+buildItem8 = "bsuperbl"
+buildItem9 = "bassturr"
+buildItem10 = "btechass"
+buildItem11 = "xbharvest"
+buildItem12 = "xbassimst"

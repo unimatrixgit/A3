@@ -1,0 +1,173 @@
+#include "research.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Latinum Cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 3817
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 4.1
+
+//Possible Craft Names
+possibleCraftNames = "Classified"
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+
+"hp20" "hp21" "hp23" "hp25" "hp26"
+
+"hp20" "hp21" "hp23" "hp25" "hp26"
+
+"hp20" "hp21" "hp23" "hp25" " hp26"
+
+"hp20" "hp21" "hp23" "hp25" "hp26"
+
+"hp20" "hp21" "hp23" "hp25" "hp26"
+
+"hp20" "hp21" "hp23" "hp25" "hp26"
+
+"hp20" "hp21" "hp23" "hp25" "hp26"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "AdvResearchStationSelect"
+eventAcknowledge = "AdvResearchStationAcknowledge"
+eventDecommission = "AdvResearchStationDecommission"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "science_station"
+
+
+//************************************************************
+// Brian additions for context sensitive menus
+transporter = 1
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewCost = 200
+officerCost = 15
+buildTime = 140
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 750
+
+latinumCost = 500
+
+biomatterCost = 0
+
+
+
+
+
+
+
+
+
+unitName = "Sela's Research"
+
+tooltip = "Research Facility (Sela's Research)"
+
+
+
+
+
+
+
+
+
+hotkeyLabel = "HOTKEY_F7"
+enginestargethardpoints = "hp16" "hp17" "hp18" "hp19"
+lifesupporttargethardpoints = "hp16" "hp17" "hp18" "hp19"
+weaponstargethardpoints = "hp16" "hp17" "hp18" "hp19"
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19"
+sensorstargethardpoints = "hp16" "hp17" "hp18" "hp19"
+hulltargethardpoints = "hp16" "hp17" "hp18" "hp19"
+criticaltargethardpoints = "hp16" "hp17" "hp18" "hp19"
+
+podHardpoints = "hp61" "hp62" "hp63" "hp64"
+
+
+buildItem0 = "xrplasmapod"
+
+buildItem1 = "xrthelpod"
+
+verboseTooltip = "Sela's Research\nResearch and upgrades\nAn outpost guarding the Romulan Star Empire."
+baseName = "ty26_xselaresearch"
+ScaleSOD = 0.1475658195

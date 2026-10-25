@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Dominion Shipyard"
+
 
 //tooltips
 
@@ -65,7 +65,7 @@ criticalTargetHardpoints = "hp08" "hp09"
 
 
 //Hardpoint location for building.
-buildHardpoint = "build"
+
 
 //**********************************************************************
 //**********************************************************************
@@ -93,20 +93,20 @@ eventDecommission = "ShipyardDecommission"
 //PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
 
 //Runtime class label for instantiation of object.
-classLabel = "shipyard"
+
 
 // Hotkey label
 hotkeyLabel = "HOTKEY_F2"
 
 //************************************************************
 // Brian additions for context sensitive menus
-builder_ship = 1
+
 transporter = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
 // make it bigger
-scaleSOD = 2.15 
+
 
 avoidanceClass = 0
 
@@ -129,35 +129,35 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Shipyard (Dominion Shipyard)"
 
 
 
-buildItem0 = "dscout"
 
-buildItem1 = "ddestroy"
 
-buildItem2 = "dcolony"
 
-buildItem3 = "dcruise1"
 
-buildItem4 = "dcruise2"
 
-buildItem5 = "dassault"
 
-buildItem6 = "dcruise3"
 
-buildItem7 = "dcruise4"
 
-buildItem8 = "dfrigate"
 
-buildItem9 = "dbattle"
 
-buildItem10 = "dspecial"
 
-buildItem11 = "dbattle2"
 
-buildItem12 = "xdcarrier"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 dilithiumCost = 250
 
@@ -165,6 +165,74 @@ metalCost = 750
 
 buildTime = 45
 
-verboseTooltip = "Dominion Shipyard\nShip construction\nThe Founders impose order across the stars."
 
-baseName = "vr26_dyard"
+
+
+buildItem0 = "dscout"
+buildItem1 = "ddestroy"
+buildItem2 = "dcruise1"
+buildItem3 = "dcruise2"
+buildItem4 = "dassault"
+buildItem5 = "dcruise3"
+buildItem6 = "dfrigate"
+buildItem7 = "dbattle"
+buildItem8 = "dspecial"
+buildItem9 = "dbattle2"
+buildItem10 = "xdcarrier"
+buildItem11 = "xdofighter"
+buildItem12 = "dcolony"
+buildItem13 = "dcruise4"
+classLabel = "shipyard"
+builder_ship = 1
+research = 0
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0
+unitName = "Jem'Hadar Attack Yard"
+tooltip = "Jem'Hadar Attack Yard"
+verboseTooltip = "Jem'Hadar Attack Yard\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
+weapon1 = "zjmphas"
+weaponHardpoints1 = "tygun1"
+weapon2 = "zjmphas"
+weaponHardpoints2 = "tygun2"
+weapon3 = "jmphot"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ty26_dyard"
+ScaleSOD = 2.15
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 20

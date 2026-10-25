@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Mars Class"
+
 
 //tooltips
 
@@ -137,10 +137,13 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Production Facility (Mars Class)"
 
 
 
-verboseTooltip = "Mars Class\nResearch and upgrades\nStarfleet infrastructure supports exploration."
 
-baseName = "dr26_fupgrade"
+
+baseName = "ty26_fupgrade"
+ScaleSOD = 1
+unitName = "Cochrane Systems Institute"
+tooltip = "Cochrane Systems Institute"
+verboseTooltip = "Cochrane Systems Institute\nResearch and faction upgrades\nKnowledge shapes the next generation."

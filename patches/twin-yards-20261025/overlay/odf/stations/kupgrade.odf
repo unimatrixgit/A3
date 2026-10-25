@@ -1,0 +1,143 @@
+#include "research.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "klingon"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 4117
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.2
+
+//Possible Craft Names
+possibleCraftNames = "Kang Center"
+
+//**********************************************************************
+//Construction Parameters
+
+buildItem0 = "klipod11"
+buildItem1 = "klipod12"
+buildItem2 = "klipod13"
+buildItem3 = "klipod14"
+buildItem4 = "klipod15"
+
+secondaryBuildItem0 = "klipod21"
+secondaryBuildItem1 = "klipod22"
+secondaryBuildItem2 = "klipod23"
+secondaryBuildItem3 = "klipod24"
+secondaryBuildItem4 = "klipod25"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+
+"hp17" "hp18" "hp19"
+
+"hp17" "hp18" "hp19"
+
+"hp17" "hp18" "hp19"
+
+"hp21"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "ShipUpgradeStationSelect"
+eventAcknowledge = "ShipUpgradeStationAcknowledge"
+eventDecommission = "ShipUpgradeStationDecommission"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "research_station"
+hotkeyLabel = "HOTKEY_U"
+
+//************************************************************
+// Brian additions for context sensitive menus
+transporter = 1
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewCost = 400
+officerCost = 10
+buildTime = 180
+
+
+
+podhardpoints = "hp30" "hp31" "hp32" "hp33" "hp34" "hp40" "hp41" "hp42" "hp43" "hp44"
+
+enginestargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp16" 
+
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp16" 
+
+weaponstargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp16" 
+
+shieldgeneratortargethardpoints = "hp01" "hp05" "hp09" "hp18" "hp12" "hp17"
+
+sensorstargethardpoints = "hp02" "hp06" "hp10" "hp19" 
+
+hulltargethardpoints = "hp03" "hp07" "hp11" "hp13" "hp17" "hp01"
+
+criticaltargethardpoints = "hp04" "hp08" "hp14" "hp15" "hp20" "hp01"
+
+
+
+
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 750
+
+latinumCost = 750
+
+biomatterCost = 0
+
+
+
+
+
+
+baseName = "ty26_kupgrade"
+ScaleSOD = 1
+unitName = "Imperial Systems Institute"
+tooltip = "Imperial Systems Institute"
+verboseTooltip = "Imperial Systems Institute\nResearch and faction upgrades\nKnowledge shapes the next generation."

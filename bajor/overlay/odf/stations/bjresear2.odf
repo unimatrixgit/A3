@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitname = "Bajoran Advanced Research Institute"
+
 
 //tooltips
 
@@ -112,7 +112,7 @@ sensorstargethardpoints = "hp01" "hp11" "hp12" "hp13" "hp14" "hp15"
 hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
 criticaltargethardpoints = "hp01"
 
-scalesod = 1.402322
+
 
 maxspecialenergy = 0
 
@@ -134,7 +134,7 @@ latinumCost = 625
 
 biomatterCost = 0
 
-tooltip = "Research Facility (Bajoran Advanced Research Institute)"
+
 
 
 
@@ -153,6 +153,9 @@ buildItem2 = "bjpod8"
 
 buildItem3 = "bjpod9"
 
-verboseTooltip = "Bajoran Advanced Research Institute\nResearch and upgrades\nBajor rebuilds after Cardassian occupation."
 
-baseName = "dr26_bjresear2"
+baseName = "ty26_bjresear2"
+ScaleSOD = 1.402322
+unitName = "Celestial Temple Observatory"
+tooltip = "Celestial Temple Observatory"
+verboseTooltip = "Celestial Temple Observatory\nResearch and faction upgrades\nKnowledge shapes the next generation."

@@ -1,0 +1,131 @@
+#include "research.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Research Institute"
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "cardassian"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Latinum Cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 3989
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.9
+
+//Possible Craft Names
+possibleCraftNames = "Vratphk-3"
+
+//**********************************************************************
+//Construction Parameters
+
+buildItem0 = "carpod11"
+buildItem1 = "carpod12"
+buildItem2 = "carpod13"
+buildItem3 = "carpod14"
+buildItem4 = "carpod15"
+
+secondaryBuildItem0 = "carpod21"
+secondaryBuildItem1 = "carpod22"
+secondaryBuildItem2 = "carpod23"
+secondaryBuildItem3 = "carpod24"
+secondaryBuildItem4 = "carpod25"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+
+
+animation = 2
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "ShipUpgradeStationSelect"
+eventAcknowledge = "ShipUpgradeStationAcknowledge"
+eventDecommission = "ShipUpgradeStationDecommission"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "research_station"
+hotkeyLabel = "HOTKEY_U"
+
+//************************************************************
+// Brian additions for context sensitive menus
+transporter = 1
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewCost = 400
+officerCost = 10
+buildTime = 180
+
+
+
+podhardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+
+lifesupporttargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+
+shieldgeneratortargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+
+sensorstargethardpoints = "hp16"
+
+hulltargethardpoints = "hp17" "hp18" "hp19" "hp20" "hp21"
+
+criticaltargethardpoints = "hp22"
+
+
+
+
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 750
+
+latinumCost = 750
+
+biomatterCost = 0
+
+tooltip = "Research Facility (Research Institute)"
+
+
+
+verboseTooltip = "Research Institute\nResearch and upgrades\nA stronghold of the Cardassian Union."
+baseName = "ty26_cupgrade"
+ScaleSOD = 1

@@ -1,0 +1,153 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Mining Station"
+
+
+
+
+//Name of the ODF file of the matching freighter to build with the station
+freighterName = "dfreight"
+
+//Race which can build ship & starting race of ship
+race = "dominion"
+
+//Dilithium transfer rate from freighter to station
+dilithiumTransferRate = 15.0
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 2400
+
+//SYSTEM HITPOINTS
+shieldGeneratorHitPoints = 600
+enginesHitPoints = 0
+weaponsHitPoints = 0
+lifeSupportHitPoints = 600
+sensorsHitPoints = 600
+
+//**********************************************************************
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.0
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Station Azpha" "Station Buta" "Station Gammia" "Station Delmya" 
+	"Station Omicroy" "Station Thietan" "Station E'Xpsilo"     
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp03" "hp08" "hp09"
+lifeSupportTargetHardpoints = "hp03" "hp08" "hp09"
+weaponsTargetHardpoints = "hp03" "hp08" "hp09"
+shieldGeneratorTargetHardpoints = "hp03" "hp08" "hp09"
+sensorsTargetHardpoints = "hp03" "hp08" "hp09"
+hullTargetHardpoints = "hp01" "hp02" "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+criticalTargetHardpoints = "hp03" "hp08" "hp09"
+
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.50f
+
+
+//**********************************************************************
+
+
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "MiningStationSelect"
+eventAcknowledge = "MiningStationAcknowledge"
+eventDecommission = "MiningStationDecommission"
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "mining"
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "mining_station"
+hotkeyLabel = "HOTKEY_F5"
+
+//************************************************************
+// Brian additions for context sensitive menus
+transporter = 1
+alert = 0
+
+//*************************************************************
+// Make sure we can build this base near dilithium moons and planets
+resourcesCanHandle = "dilithium"
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewCost = 200
+officerCost = 4
+buildTime = 50
+
+
+
+
+
+
+
+
+
+tooltip = "Resource Processing Station (Mining Station)"
+
+
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 200
+
+latinumCost = 0
+
+biomatterCost = 0
+
+verboseTooltip = "Mining Station\nDilithium collection or processing\nDominion logistics sustain the Jem'Hadar."
+
+baseName = "dr26_dmining"
+
+
+
+
+ScaleSOD = 4.39875
+footprintBuffer = 86.25

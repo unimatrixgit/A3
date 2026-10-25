@@ -1,0 +1,211 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "cardassian"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 2060
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.1
+
+//Possible Craft Names
+possibleCraftNames = "Jhark Tehm-837" "Jhark Tehm-058" "Jhark Tehm-648" "Jhark Tehm-864"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+
+
+
+
+
+
+//Hardpoint location for building.
+
+
+//Hardpoint location for repair.
+
+
+//repair hardpoint is where the top boundary of the ship lines up
+repairSide = 4
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "ShipyardSelect"
+eventAcknowledge = "ShipyardAcknowledge"
+eventDecommission = "ShipyardDecommission"
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "shipyard"
+hotkeyLabel = "HOTKEY_F2"
+
+//************************************************************
+// Brian additions for context sensitive menus
+
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewCost = 500
+officerCost = 5
+
+
+
+
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32"
+
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+
+sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+
+hulltargethardpoints = "hp06"
+
+criticaltargethardpoints = "hp01"
+
+
+
+
+
+latinumCost = 0
+
+biomatterCost = 0
+
+
+
+
+
+dilithiumCost = 250
+
+metalCost = 750
+
+buildTime = 45
+
+
+
+
+buildItem0 = "cscout"
+buildItem1 = "ctelkor"
+buildItem2 = "cdestroy2"
+buildItem3 = "ckimal"
+buildItem4 = "cdestroy"
+buildItem5 = "ccruise1"
+buildItem6 = "ccruise2"
+buildItem7 = "cassault"
+buildItem8 = "ccruise3"
+buildItem9 = "csuper"
+buildItem10 = "xdofrigate"
+buildItem11 = "xdjacht"
+buildItem12 = "ccolony"
+classLabel = "shipyard"
+builder_ship = 1
+research = 0
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0
+unitName = "Hideki Patrol Foundry"
+tooltip = "Hideki Patrol Foundry"
+verboseTooltip = "Hideki Patrol Foundry\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
+weapon1 = "cc10phas"
+weaponHardpoints1 = "tygun1"
+weapon2 = "cc10phas"
+weaponHardpoints2 = "tygun2"
+weapon3 = "cc08plas"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ty26_cyard"
+ScaleSOD = 1
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 20

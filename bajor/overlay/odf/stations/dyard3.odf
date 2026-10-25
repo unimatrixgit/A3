@@ -57,7 +57,7 @@ criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp0
 
 
 //Hardpoint location for building.
-buildHardpoint = "build"
+
 
 //**********************************************************************
 //**********************************************************************
@@ -84,7 +84,7 @@ eventDecommission = "AdvShipyardDecommission"
 //PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
 
 //Runtime class label for instantiation of object.
-classLabel = "shipyard"
+
 
 //**********************************************************************
 //KEYMAP LABEL
@@ -94,13 +94,13 @@ hotkeyLabel = "HOTKEY_F8"
 
 //************************************************************
 // Brian additions for context sensitive menus
-builder_ship = 1
+
 transporter = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
 // make it bigger
-scaleSOD = 2.15 
+
 
 
 
@@ -116,7 +116,7 @@ scaleSOD = 2.15
 crewCost = 500
 officerCost = 5
 
-unitName = "Founders' Command Yard"
+
 
 
 
@@ -128,7 +128,6 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Shipyard (Founders' Command Yard)"
 
 
 
@@ -142,31 +141,32 @@ tooltip = "Shipyard (Founders' Command Yard)"
 
 
 
-buildItem0 = "xhdhero"
 
-buildItem1 = "xhdodo"
 
-buildItem2 = "xhdjacht"
 
-buildItem3 = "xhdlaan"
 
-buildItem4 = "mrc006"
 
-buildItem5 = "mrc025"
 
-buildItem6 = "mrc032"
 
-buildItem7 = "mrc033"
 
-buildItem8 = "mrc034"
 
-buildItem9 = "mrc035"
 
-buildItem10 = "dweyoun"
 
-buildItem11 = "xdhattack"
 
-buildItem12 = "dsuper"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 dilithiumCost = 450
 
@@ -174,6 +174,63 @@ metalCost = 1350
 
 buildTime = 120
 
-verboseTooltip = "Founders' Command Yard\nShip construction\nThe Founders impose order across the stars."
 
-baseName = "vr26_dyard3"
+
+
+buildItem0 = "xhdhero"
+buildItem1 = "xhdodo"
+buildItem2 = "xhdjacht"
+buildItem3 = "xhdlaan"
+buildItem4 = "mrc006"
+buildItem5 = "mrc025"
+buildItem6 = "mrc032"
+buildItem7 = "mrc033"
+buildItem8 = "mrc034"
+buildItem9 = "mrc035"
+buildItem10 = "dweyoun"
+buildItem11 = "xdhattack"
+buildItem12 = "dsuper"
+classLabel = "shipyard"
+builder_ship = 1
+research = 0
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0
+unitName = "Great Link Command Yard"
+tooltip = "Great Link Command Yard"
+verboseTooltip = "Great Link Command Yard\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
+weapon1 = "zjmphas"
+weaponHardpoints1 = "tygun1"
+weapon2 = "zjmphas"
+weaponHardpoints2 = "tygun2"
+weapon3 = "jmphot"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ty26_dyard3"
+ScaleSOD = 2.15
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 20

@@ -1,6 +1,6 @@
 // Begin main properties
 
-unitName = "Dominion Advanced Science Station"
+
 
 
 race = "dominion"
@@ -67,7 +67,7 @@ possibleCraftNames =
 animation = 2
 hotkeyLabel = "HOTKEY_F7"
 transporter = 1
-scaleSOD = 5.0
+
 footprintBuffer = 40.0f
 classLabel = "research"
 research = 1
@@ -129,7 +129,7 @@ latinumCost = 625
 
 biomatterCost = 0
 
-tooltip = "Research Facility (Dominion Advanced Science Station)"
+
 
 
 
@@ -146,6 +146,9 @@ buildItem2 = "dompod8"
 
 buildItem3 = "dompod16"
 
-verboseTooltip = "Dominion Advanced Science Station\nResearch and upgrades\nThe Founders impose order across the stars."
 
-baseName = "dr26_dresear2"
+baseName = "ty26_dresear2"
+ScaleSOD = 5
+unitName = "Vorta Science Laboratory"
+tooltip = "Vorta Science Laboratory"
+verboseTooltip = "Vorta Science Laboratory\nResearch and faction upgrades\nKnowledge shapes the next generation."

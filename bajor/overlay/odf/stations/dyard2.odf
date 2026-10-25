@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Dominion Advanced Shipyard"
+
 
 //tooltips
 
@@ -63,7 +63,7 @@ criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp0
 
 
 //Hardpoint location for building.
-buildHardpoint = "build"
+
 
 //**********************************************************************
 //**********************************************************************
@@ -90,7 +90,7 @@ eventDecommission = "AdvShipyardDecommission"
 //PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
 
 //Runtime class label for instantiation of object.
-classLabel = "shipyard"
+
 
 //**********************************************************************
 //KEYMAP LABEL
@@ -100,13 +100,13 @@ hotkeyLabel = "HOTKEY_F8"
 
 //************************************************************
 // Brian additions for context sensitive menus
-builder_ship = 1
+
 transporter = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
 // make it bigger
-scaleSOD = 2.15 
+
 
 
 
@@ -119,7 +119,6 @@ crewCost = 500
 officerCost = 5
 buildTime = 120
 
-tooltip = "Shipyard (Dominion Advanced Shipyard)"
 
 
 
@@ -127,10 +126,59 @@ tooltip = "Shipyard (Dominion Advanced Shipyard)"
 
 
 
-buildItem0 = "dfrigate"
-buildItem1 = "dbattle"
-buildItem2 = "dspecial"
-buildItem3 = "dweyoun"
-buildItem4 = "xdhattack"
 
-verboseTooltip = "Dominion Advanced Shipyard\nShip construction\nThe Founders impose order across the stars."
+
+
+
+
+
+
+
+buildItem0 = "dwormddestroy2"
+buildItem1 = "dwormdbattle"
+buildItem2 = "dwormdbattle2"
+buildItem3 = "dwormdsuper"
+classLabel = "shipyard"
+builder_ship = 1
+research = 0
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0
+unitName = "Founder Heavy Yard"
+tooltip = "Founder Heavy Yard"
+verboseTooltip = "Founder Heavy Yard\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
+weapon1 = "zjmphas"
+weaponHardpoints1 = "tygun1"
+weapon2 = "zjmphas"
+weaponHardpoints2 = "tygun2"
+weapon3 = "jmphot"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ty26_dyard2"
+ScaleSOD = 2.15
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 20

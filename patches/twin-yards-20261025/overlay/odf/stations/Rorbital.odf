@@ -1,0 +1,232 @@
+#include "orbital.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//Amount of time required to build facility
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+
+
+//Rate at which shield recharges (points per second... we think)
+
+
+//Scaling factor for how fast they mine (compared to fed)
+miningMultiplier = 0.6
+
+//Possible Craft Names
+possibleCraftNames = "Satus-873" "Satus-981" "Satus-117" "Satus-468"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Mining Beam
+
+
+
+// Mining Beam
+
+
+
+// Unassigned hardpoint
+//weapon3 = "unused"
+//weaponHardpoints3 = "hp12"
+
+// Unassigned hardpoint
+//weapon4 = "unused"
+//weaponHardpoints4 = "hp13"
+
+// Hardpoints to hit for various systems and other locations.
+
+
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "OrbitalFacilitySelect"
+eventAcknowledge = "OrbitalFacilityAcknowledge"
+eventDecommission = "OrbitalFacilityDecommission"
+
+//**********************************************************************
+
+hotkeyLabel = "HOTKEY_F11"
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+
+
+
+
+
+
+
+enginestargethardpoints = "hp01" "hp06" "hp07" "hp08" "hp09" "hp10"
+
+lifesupporttargethardpoints = "hp01" "hp11" "hp12" "hp13" "hp14" "hp15"
+
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp20" "hp21" "hp22" "hp23" "hp24" "hp25"
+
+shieldgeneratortargethardpoints = "hp01" "hp06" "hp07" "hp08" "hp09" "hp10"
+
+sensorstargethardpoints = "hp01" "hp16" "hp17" "hp18" "hp19" "hp20"
+
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+
+criticaltargethardpoints = "hp13"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+officerCost = 2
+
+buildTime = 60
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+combat = 1
+
+alert = 1
+
+maxHealth = 10000
+
+shieldRate = 15.5
+
+shieldProtection = 1.0
+
+shieldGeneratorHitPoints = 1000
+
+enginesHitPoints = 0
+
+weaponsHitPoints = 1000
+
+lifeSupportHitPoints = 1000
+
+sensorsHitPoints = 1000
+
+crewCost = 100
+
+maximumCrew = 500
+
+weapon1 = "gOrbitalBeam"
+weaponHardpoints1 = "hp13"
+
+weapon2 = "gOrbitalBeam"
+weaponHardpoints2 = "hp11"
+
+weapon3 = "bb3phas"
+weaponHardpoints3 = "hp01"
+
+weapon4 = "bfphot"
+weaponHardpoints4 = "hp02"
+
+weapon5 = "bfphot"
+weaponHardpoints5 = "hp03"
+
+weapon6 = "bb3phas"
+weaponHardpoints6 = "hp04"
+
+weapon7 = "bc2phas"
+weaponHardpoints7 = "hp05"
+
+weapon8 = "bc2phas"
+weaponHardpoints8 = "hp06"
+
+
+
+
+
+
+
+dilithiumCost = 400
+
+metalCost = 0
+
+latinumCost = 0
+
+biomatterCost = 0
+
+
+
+baseName = "vr26_rorbital"
+
+
+
+
+unitName = "Orbital Mining Station MK I"
+tooltip = "Orbital Mining Station MK I"
+verboseTooltip = "Orbital Mining Station MK I\nOrbital Mining Beam\nRomulan industry sustains the imperial fleet."
+ScaleSOD = 1.725
+footprintBuffer = 138

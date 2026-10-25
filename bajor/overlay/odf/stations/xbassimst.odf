@@ -140,8 +140,8 @@ buildHardpoint = "build"
 
 repairHardpoint = "repair"
 
-repairFacility = 0
-decommissionFacility = 0
+
+
 animation = 0
 
 repairAnimation = 0
@@ -176,10 +176,13 @@ tooltip = "Production Facility (Assimilation Station)"
 
 transporter = 1
 
-recrewRate = 10
+
 
 verboseTooltip = "Assimilation Station\nAssimilate Target\nA node in the vast machinery of the Collective."
 
 
 
 baseName = "dr26_xbassimst"
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0

@@ -1,0 +1,279 @@
+#include "orbital.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+
+
+//Amount of time required to build facility
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+
+
+//Rate at which shield recharges (points per second... we think)
+
+
+// Speed multiplier for mining
+
+
+
+//Possible Craft Names
+possibleCraftNames = "Trenok-3" "Trenok-2" "Trenok-5" "Trenok-6"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Mining Beam
+
+
+
+// Hardpoints to hit for various systems and other locations.
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "OrbitalFacilitySelect"
+eventAcknowledge = "OrbitalFacilityAcknowledge"
+eventDecommission = "OrbitalFacilityDecommission"
+
+//**********************************************************************
+
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+officerCost = 2
+
+buildTime = 60
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+combat = 1
+
+alert = 1
+
+maxHealth = 10000
+
+shieldRate = 15.5
+
+shieldProtection = 1.0
+
+shieldGeneratorHitPoints = 1000
+
+enginesHitPoints = 0
+
+weaponsHitPoints = 1000
+
+lifeSupportHitPoints = 1000
+
+sensorsHitPoints = 1000
+
+crewCost = 100
+
+maximumCrew = 500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+weapon1 = "gOrbitalBeam"
+weaponHardpoints1 = "hp26"
+
+hotkeyLabel = "HOTKEY_F12"
+enginesTargetHardpoints = "hp26" "hp27" "hp10" "hp11"
+lifeSupportTargetHardpoints = "hp26" "hp27" "hp10" "hp11"
+weaponsTargetHardpoints = "hp26" "hp27" "hp10" "hp11"
+shieldGeneratorTargetHardpoints = "hp26" "hp27" "hp10" "hp11"
+sensorsTargetHardpoints = "hp26" "hp27" "hp10" "hp11"
+hullTargetHardpoints = "hp26" "hp27" "hp10" "hp11"
+criticalTargetHardpoints = "hp26" "hp27" "hp10" "hp11"
+
+race = "borg"
+
+
+
+
+
+
+
+biomatterCost = 0
+
+
+
+
+
+
+
+
+
+latinumCost = 0
+
+dilithiumCost = 300
+
+metalCost = 200
+
+miningMultiplier = 1.2
+
+
+
+weapon2 = "xfgcruisb"
+
+weaponHardpoints2 = "vrgun2"
+
+weapon3 = "xfgcruisb"
+
+weaponHardpoints3 = "vrgun3"
+
+weapon4 = "xfgcruist"
+
+weaponHardpoints4 = "vrgun4"
+
+baseName = "vr26_xbgmetal3"
+
+
+
+
+
+
+
+
+unitName = "Orbital Mining Station MK III"
+tooltip = "Orbital Mining Station MK III"
+verboseTooltip = "Orbital Mining Station MK III\nOrbital Mining Beam\nResources sustain the Collective's expansion."
+ScaleSOD = 1.05010978944
+footprintBuffer = 61.1284665789

@@ -99,23 +99,23 @@ eventDecommission = "ShipyardDecommission"
 //PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
 
 //Runtime class label for instantiation of object.
-classLabel = "shipyard"
+
 
 // Hotkey label
 
 
 //************************************************************
 // Brian additions for context sensitive menus
-builder_ship = 1
+
 transporter = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
 // make it bigger
 
-unitName = "Mercenary Ferengi Contract Yard"
 
-tooltip = "Mercenary Ferengi Contract Yard"
+
+
 
 
 
@@ -141,7 +141,7 @@ biomatterCost = 0
 
 buildTime = 90
 
-repairFacility = 1
+
 
 
 
@@ -170,11 +170,40 @@ hullTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
 
 criticalTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
 
-ScaleSOD = 0.98994094
 
-buildHardpoint = "hp36"
 
-repairHardpoint = "repair"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -187,31 +216,59 @@ repairHardpoint = "repair"
 
 
 buildItem0 = "xfgfight"
-
 buildItem1 = "xfgfrig"
-
 buildItem2 = "xfgdest"
-
 buildItem3 = "xfgcruis"
-
 buildItem4 = "xfgbatt"
-
 buildItem5 = "xfgquark"
-
 buildItem6 = "xfgrom"
-
 buildItem7 = "xfgnagus"
-
 buildItem8 = "xfgdaim"
+buildItem9 = "mrc026"
+buildItem10 = "mrc027"
+buildItem11 = "mrc028"
+buildItem12 = "xfgconst"
+classLabel = "shipyard"
+builder_ship = 1
+research = 0
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0
+unitName = "D'Kora Contract Yard"
+tooltip = "D'Kora Contract Yard"
+verboseTooltip = "D'Kora Contract Yard\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
+weapon1 = "xfgcruisb"
+weaponHardpoints1 = "tygun1"
+weapon2 = "xfgcruisb"
+weaponHardpoints2 = "tygun2"
+weapon3 = "xfgcruist"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
 
-buildItem9 = "xfgconst"
 
-buildItem10 = "mrc026"
 
-buildItem11 = "mrc027"
 
-buildItem12 = "mrc028"
 
-verboseTooltip = "Mercenary Ferengi Contract Yard\nShip construction\nWhere commerce thrives, opportunity follows."
 
-baseName = "vr26_xfgmerc"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ty26_xfgmerc"
+ScaleSOD = 0.98994094
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 20

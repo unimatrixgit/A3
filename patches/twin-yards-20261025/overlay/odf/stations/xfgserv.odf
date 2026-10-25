@@ -1,0 +1,283 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "ferengi"
+
+//Amount of time required to build ship
+
+
+//Number of officers required to build this ship
+
+
+//Number of crew required to build ship & Starting crew
+
+
+//Dilithium Cost to build
+
+
+//Metal cost to build
+
+
+//Max Shield Strength & Begining Shield Strength <1000
+
+
+//Rate at which shield recharges (points per second... we think)
+
+
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Salvaged Barisa Prime" "Salvaged Tau Ceti Prime" "Salvaged Tessen Prime" "Salvaged Taurus Prime"
+	"Salvaged Meldrar Prime" "Salvaged Moriya Prime" "Salvaged Erabus Prime" "Salvaged Finnea Prime"
+	"Salvaged Acamar Prime" "Salvaged Aldea Prime" "Salvaged Andoria Prime" "Salvaged Calder Prime"
+	"Salvaged Iyaar Prime" "Salvaged Denocet Prime" "Salvaged Dytallix Prime" "Salvaged Galor Prime"
+	"Salvaged Minos Prime" "Salvaged Nausicaa Prime" "Salvaged Oyarsa Prime" "Salvaged Qualor Prime" 
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+
+
+
+
+
+
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+
+
+
+
+
+//Hardpoint location for building.
+
+
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "ShipyardSelect"
+eventAcknowledge = "ShipyardAcknowledge"
+eventDecommission = "ShipyardDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+
+
+// Hotkey label
+
+
+//************************************************************
+// Brian additions for context sensitive menus
+
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+// make it bigger
+
+
+
+
+
+
+
+
+
+
+
+
+
+crewCost = 200
+
+maximumCrew = 400
+
+officerCost = 10
+
+dilithiumCost = 0
+
+metalCost = 0
+
+
+
+biomatterCost = 0
+
+buildTime = 90
+
+
+enginesTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
+lifeSupportTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
+weaponsTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
+shieldGeneratorTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
+sensorsTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
+hullTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
+criticalTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
+
+
+
+
+
+
+
+
+
+maxHealth = 2400
+
+shieldRate = 10
+
+latinumCost = 650
+
+
+
+
+
+
+
+hotkeyLabel = "HOTKEY_F11"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+buildItem0 = "xfgtrade"
+buildItem1 = "xfgmine"
+buildItem2 = "xfgrepair"
+buildItem3 = "xfgcolony"
+buildItem4 = "xfgdil2"
+buildItem5 = "xfglat2"
+buildItem6 = "xfgdil3"
+buildItem7 = "xfglat3"
+buildItem8 = "xfgconst"
+buildItem9 = "xfgconst2"
+buildItem10 = "xfgmnr1"
+buildItem11 = "xfgmnr2"
+classLabel = "shipyard"
+builder_ship = 1
+research = 0
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0
+unitName = "Nog Industrial Exchange"
+tooltip = "Nog Industrial Exchange"
+verboseTooltip = "Nog Industrial Exchange\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
+weapon1 = "xfgcruisb"
+weaponHardpoints1 = "tygun1"
+weapon2 = "xfgcruisb"
+weaponHardpoints2 = "tygun2"
+weapon3 = "xfgcruist"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ty26_xfgserv"
+ScaleSOD = 1.7178736
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 20

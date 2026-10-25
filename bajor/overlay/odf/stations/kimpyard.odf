@@ -46,15 +46,15 @@ criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp0
 
 //**********************************************************************
 //Construction Parameters
-buildItem0 = "kavorcha"
-buildItem1 = "kimpvorc"
-buildItem2 = "kimpnegh"
-buildItem3 = "kdestroy4"
-buildItem4 = "kimpnook"
-buildItem5 = "kimpben"
-buildItem6 = "kimpbakt"
-buildItem7 = "kimphut"
-buildItem8 = "kimpmakd"
+
+
+
+
+
+
+
+
+
 
 //Hardpoint location for building.
 buildHardpoint = "build"
@@ -107,7 +107,7 @@ officerCost = 5
 buildTime = 120
 
 // Lab safety fix: this model has no repair docking node. Do not accept repair orders, including after capture.
-repairFacility = 0
+
 
 dilithiumCost = 450
 
@@ -122,3 +122,6 @@ tooltip = "Shipyard (Imperial Shipyard)"
 
 
 verboseTooltip = "Imperial Shipyard\nShip construction\nA bastion defending the Klingon Empire."
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0

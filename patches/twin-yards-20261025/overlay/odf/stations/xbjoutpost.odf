@@ -1,0 +1,261 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+
+
+//Amount of time required to build ship
+
+
+//Number of officers required to build this ship
+officerCost = 5
+
+//Number of crew required to build ship & Starting crew
+
+
+//Number of maximum crew (only specified if different from crewCost)
+
+
+//Dilithium Cost to build
+
+
+//Metal cost to build
+
+
+//Max Shield Strength & Begining Shield Strength <1000
+
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 3.0
+
+//Shield absorbs all damage until it's gone
+shieldProtection = 1.0
+
+//Possible Craft Names
+possibleCraftNames = "Bantaca" "Boryhas" "Duranja" "Ha'Dara" "Kejal" "Koss'Moran" "Dara" "Mandala"
+
+
+//Construction Parameters
+
+
+
+//Hardpoint location for building.
+buildHardpoint = "build"
+
+//ART PARAMETERS & WEAPON NAMES
+
+//Phaser
+
+
+
+//Phaser
+
+
+
+//Phaser
+
+
+
+//Phaser
+
+
+
+//Phaser
+
+
+
+// Hardpoints to hit for various systems and other locations.
+
+
+
+
+
+
+
+
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.30f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.5f
+
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.5f
+
+//SYSTEM HITPOINTS
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 600
+enginesHitPoints = 0
+weaponsHitPoints = 600
+lifeSupportHitPoints = 600
+sensorsHitPoints = 600
+
+//SYSTEM DAMAGE DISTRIBUTION
+//The following section's values should add up to 100
+//Percent Chance out of 100 of engines being destroyed
+enginesHitPercent = 0.0f
+
+//Percent Chance out of 100 of life support being destroyed
+lifeSupportHitPercent = 10.5f
+
+//Percent Chance out of 100 of weapons being destroyed
+weaponsHitPercent = 10.0f
+
+//Percent Chance out of 100 of shields being destroyed
+shieldGeneratorHitPercent = 13.0f
+
+//Percent Chance out of 100 of sensors being destroyed
+sensorsHitPercent = 13.0f
+
+//Percent Chance out of 100 of hull being hit (crew dying)
+crewHitPercent = 13.5f
+
+//Percent Chance out of 100 of entire ship exploding
+hullHitPercent = 40.0f
+
+eventSelect = "StarbaseSelect"
+eventAcknowledge = "StarbaseAcknowledge"
+eventAttack = "StarbaseAttack"
+eventDecommission = "StarbaseDecommission"
+
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "starbase"
+
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "starbase"
+
+
+// Brian additions for context sensitive menus
+alert = 1
+combat = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+builder_ship = 1
+
+
+
+
+unitName = "Bajoran Asteroid Outpost"
+
+label = "Bajoran Asteroid Outpost"
+
+tooltip = "Bajoran Asteroid Outpost"
+
+
+
+race = "bajoran"
+
+maxHealth = 2000
+
+
+
+maximumCrew = 600
+
+
+
+
+
+
+
+
+
+buildTime = 90
+
+repairFacility = 0
+
+recrewRate = 10
+
+ScaleSOD = 2.729669
+
+footprintBuffer = 25
+
+hotkeyLabel = "HOTKEY_F11"
+
+
+
+
+weaponHardpoints1 = "hp01"
+
+weaponHardpoints2 = "hp02"
+
+weaponHardpoints3 = "hp03"
+
+weaponHardpoints4 = "hp04"
+
+weaponHardpoints5 = "hp05"
+
+enginesTargetHardpoints = "hp01"
+
+lifeSupportTargetHardpoints = "hp06" "hp07" "hp08"
+
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp13" "hp14" "hp15"
+
+shieldGeneratorTargetHardpoints = "hp16" "hp17" "hp18"
+
+sensorsTargetHardpoints = "hp09" "hp10" "hp11" "hp12"
+
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
+
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17" "hp18" "hp19" "hp20"
+
+weapon1 = "xafbjphas"
+
+weapon2 = "xafbjphas"
+
+weapon3 = "xafbjphas"
+
+weapon4 = "xafbjphas"
+
+weapon5 = "xafbjphas"
+
+baseName = "bv4_xbjoutpost"
+
+
+
+
+
+
+
+
+
+
+
+dilithiumCost = 1500
+
+metalCost = 1500
+
+latinumCost = 0
+
+biomatterCost = 0
+
+crewCost = 150
+
+verboseTooltip = "Bajoran Asteroid Outpost\nFleet command and unit production\nBajor rebuilds after Cardassian occupation."
+buildItem0 = "bjconst"
+buildItem1 = "xbjconst2"
+buildItem2 = "xbjuconst"

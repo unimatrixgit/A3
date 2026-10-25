@@ -1,0 +1,209 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "klingon"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 2172
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.1
+
+//Possible Craft Names
+possibleCraftNames = "Duj Qach-2138" "Duj Qach-6351" "Duj Qach-984" "Duj Qach-2462"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Hardpoints to hit for various systems and other locations.
+
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+
+
+
+
+
+//Hardpoint location for building.
+
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "ShipyardSelect"
+eventAcknowledge = "ShipyardAcknowledge"
+eventDecommission = "ShipyardDecommission"
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "shipyard"
+hotkeyLabel = "HOTKEY_F2"
+
+//************************************************************
+// Brian additions for context sensitive menus
+
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+// make it bigger
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewCost = 500
+officerCost = 5
+
+
+
+
+enginestargethardpoints = "hp01" "hp02" "hp08" "hp09" "hp11"
+
+lifesupporttargethardpoints = "hp01" "hp02" "hp08" "hp09" "hp11"
+
+weaponstargethardpoints = "hp01" "hp02" "hp08" "hp09" "hp11"
+
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp08" "hp09" "hp11"
+
+sensorstargethardpoints = "hp01" "hp02" "hp08" "hp09" "hp11"
+
+hulltargethardpoints = "hp01" "hp02" "hp08" "hp09" "hp11"
+
+criticaltargethardpoints = "hp01" "hp02" "hp08" "hp09" "hp11"
+
+
+
+
+
+latinumCost = 0
+
+biomatterCost = 0
+
+
+
+
+
+dilithiumCost = 250
+
+metalCost = 750
+
+buildTime = 45
+
+
+
+
+buildItem0 = "kscout"
+buildItem1 = "kdestroy"
+buildItem2 = "kcruise1"
+buildItem3 = "kcruise2"
+buildItem4 = "kassault"
+buildItem5 = "kcruise3"
+buildItem6 = "kquon"
+buildItem7 = "kcruise4"
+buildItem8 = "kdestroy2"
+buildItem9 = "kimpkoto"
+buildItem10 = "kgunboat"
+buildItem11 = "ksuper"
+buildItem12 = "kcolony"
+classLabel = "shipyard"
+builder_ship = 1
+research = 0
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0
+unitName = "B'rel Patrol Forge"
+tooltip = "B'rel Patrol Forge"
+verboseTooltip = "B'rel Patrol Forge\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
+weapon1 = "kc12phas"
+weaponHardpoints1 = "tygun1"
+weapon2 = "kc12phas"
+weaponHardpoints2 = "tygun2"
+weapon3 = "kc05phot"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ty26_kyard"
+ScaleSOD = 1.7
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 20

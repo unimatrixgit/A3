@@ -47,10 +47,10 @@ criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp0
 
 //**********************************************************************
 //Construction Parameters
-buildItem0 = "cohideki"
-buildItem1 = "cogalor"
-buildItem2 = "cokaldor"
-buildItem3 = "cokeldon"
+
+
+
+
 
 //Hardpoint location for building.
 buildHardpoint = "build"
@@ -121,3 +121,6 @@ tooltip = "Shipyard (Obsidian Order Shipyard)"
 
 
 verboseTooltip = "Obsidian Order Shipyard\nShip construction\nA stronghold of the Cardassian Union."
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0

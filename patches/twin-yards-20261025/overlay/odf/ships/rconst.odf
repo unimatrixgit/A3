@@ -1,0 +1,260 @@
+#include "const.odf"
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 804
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 239
+enginesHitPoints = 190
+weaponsHitPoints = 92
+lifeSupportHitPoints = 215
+sensorsHitPoints = 112
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.6
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 29
+impulseSpeed = 78
+warpSpeed = 0
+
+//Maximum Value of Special Energy
+
+
+//Rate at which special energy recharges (points per second... we think)
+
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//**********************************************************************
+//Worker Bee Parameters
+
+// Name of the worker bee SOD.
+workerBeeName = "rbee"
+weldingBeamWidth = 5.0
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "Mamiusias" "Mictius" "Miullo" "Natenis" "Nirutius" "Nostan"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Phaser
+//weapon1 = "gphaser"
+//weaponHardpoints1 = "hp01" "hp02" 
+
+// Towing Beam
+
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+lifeSupportTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+weaponsTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+shieldGeneratorTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+sensorsTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+hullTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+criticalTargetHardpoints = "hp10" "hp12" "hp16" "hp17" "hp18"
+
+//**********************************************************************
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+officerCost = 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alert = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+combat = 0
+
+attackPower = 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dilithiumCost = 125
+
+metalCost = 25
+
+latinumCost = 0
+
+biomatterCost = 0
+
+crewCost = 150
+
+maximumCrew = 150
+
+buildTime = 20
+
+hotkeyLabel = "HOTKEY_F1"
+
+canAttack = 0
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "vr26_rconst"
+
+
+
+
+
+
+
+
+
+
+
+
+
+unitName = "Assemblers MK I"
+tooltip = "Assemblers MK I"
+verboseTooltip = "Assemblers MK I\nBasic construction\nRomulan engineers extend the Empire's reach."
+buildItem0 = "ryard"
+buildItem1 = "rsensor"
+buildItem2 = "rmining"
+buildItem3 = "rresear"
+buildItem4 = "rresear2"
+buildItem5 = "ryard2"
+buildItem6 = "rorbital"
+buildItem7 = "rtrading"
+buildItem8 = "rtsens"
+buildItem9 = "xselaresearch"
+buildItem10 = "rupgrade"
+buildItem11 = "rbase"
+buildItem12 = "xyr_r"

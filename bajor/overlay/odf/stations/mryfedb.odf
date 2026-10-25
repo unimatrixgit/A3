@@ -32,7 +32,7 @@ shieldRate = 15
 
 //Even though we are a shipyard we don't have a repair facility
 
-decommissionFacility = 0
+
 
 //Possible Craft Names
 possibleCraftNames = 
@@ -62,7 +62,7 @@ criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp0
 
 
 //Hardpoint location for building.
-buildHardpoint = "root"
+
 //**********************************************************************
 //**********************************************************************
 //AI system parameters
@@ -88,7 +88,7 @@ eventDecommission = "AdvShipyardDecommission"
 //PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
 
 //Runtime class label for instantiation of object.
-classLabel = "shipyard"
+
 
 //**********************************************************************
 //KEYMAP LABEL
@@ -98,13 +98,13 @@ classLabel = "shipyard"
 
 //************************************************************
 // Brian additions for context sensitive menus
-builder_ship = 1
+
 transporter = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
 // make it bigger
-ScaleSOD = 2.0
+
 
 
 
@@ -143,29 +143,29 @@ officerCost = 5
 
 
 
-repairFacility = 1
 
-repairHardpoint = "HP01"
 
-buildItem0 = "mrc021"
 
-buildItem1 = "mrc036"
 
-buildItem2 = "mrc037"
 
-buildItem3 = "mrc038"
 
-buildItem4 = "mrc039"
 
-buildItem5 = "mrc040"
 
-buildItem6 = "mrc041"
 
-buildItem7 = "mrc042"
 
-buildItem8 = "mrc043"
 
-buildItem9 = "mrc044"
+
+
+
+
+
+
+
+
+
+
+
+
 
 dilithiumCost = 600
 
@@ -177,9 +177,9 @@ biomatterCost = 0
 
 
 
-unitName = "Federation Mirror Universe Yard 2"
 
-tooltip = "Federation Mirror Universe Yard 2"
+
+
 
 
 
@@ -191,6 +191,70 @@ maximumCrew = 150
 
 hotkeyLabel = "HOTKEY_F8"
 
-verboseTooltip = "Federation Mirror Universe Yard 2\nShip construction\nStarfleet infrastructure supports exploration."
 
-baseName = "vr26_mryfedb"
+
+
+buildItem0 = "mrc021"
+buildItem1 = "mrc036"
+buildItem2 = "mrc037"
+buildItem3 = "mrc038"
+buildItem4 = "mrc039"
+buildItem5 = "mrc040"
+buildItem6 = "mrc041"
+buildItem7 = "mrc042"
+buildItem8 = "mrc043"
+buildItem9 = "mrc044"
+classLabel = "shipyard"
+builder_ship = 1
+research = 0
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0
+unitName = "Mars Utopia Planetia Yard II"
+tooltip = "Mars Utopia Planetia Yard II"
+verboseTooltip = "Mars Utopia Planetia Yard II\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
+weapon1 = "fbasephas"
+weaponHardpoints1 = "tygun1"
+weapon2 = "fbasephas"
+weaponHardpoints2 = "tygun2"
+weapon3 = "fbaserphot"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ty26_mryfedb"
+ScaleSOD = 2
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 20

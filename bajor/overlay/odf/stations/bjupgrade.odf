@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitname = "Bajoran Systems Upgrade Center"
+
 
 //tooltips
 
@@ -129,7 +129,7 @@ hulltargethardpoints = "hp17" "hp18" "hp19" "hp20" "hp21"
 
 criticaltargethardpoints = "hp22"
 
-scalesod = 0.320735
+
 
 shieldgeneratorhitpoints = 300
 
@@ -161,12 +161,15 @@ latinumCost = 625
 
 biomatterCost = 0
 
-tooltip = "Production Facility (Bajoran Systems Upgrade Center)"
 
 
 
 
 
-verboseTooltip = "Bajoran Systems Upgrade Center\nResearch and upgrades\nBajor rebuilds after Cardassian occupation."
 
-baseName = "dr26_bjupgrade"
+
+baseName = "ty26_bjupgrade"
+ScaleSOD = 0.320735
+unitName = "Bajoran Systems Institute"
+tooltip = "Bajoran Systems Institute"
+verboseTooltip = "Bajoran Systems Institute\nResearch and faction upgrades\nKnowledge shapes the next generation."

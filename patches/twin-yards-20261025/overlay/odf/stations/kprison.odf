@@ -1,0 +1,81 @@
+#include "kbase.odf"
+baseName = "kbase"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Klingon Prison"
+
+
+
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Prison Colony" 
+
+
+
+
+
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+officerCost = 10
+buildTime = 100
+
+
+
+
+
+
+
+
+
+
+tooltip = "Starbase (Klingon Prison)"
+
+
+
+repairFacility = 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dilithiumCost = 1500
+
+metalCost = 1500
+
+latinumCost = 0
+
+biomatterCost = 0
+
+crewCost = 150
+
+verboseTooltip = "Klingon Prison\nFleet command and unit production\nA bastion defending the Klingon Empire."
+buildItem0 = "kconst"
+buildItem1 = "kconst2"
+buildItem2 = "xkuconst"
+buildItem3 = "kfreight"
+buildItem4 = "kcargo"
+buildItem5 = "ksrepair"

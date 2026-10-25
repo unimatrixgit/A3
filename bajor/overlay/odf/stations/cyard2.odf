@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Advanced Shipyard"
+
 
 //tooltips
 
@@ -48,7 +48,7 @@ possibleCraftNames = "Jhark Torkak-91" "Jhark Torkak-50" "Jhark Torkak-56" "Jhar
 
 
 //Hardpoint location for building.
-buildHardpoint = "build"
+
 
 //**********************************************************************
 //AI system parameters
@@ -69,7 +69,7 @@ eventDecommission = "AdvShipyardDecommission"
 //PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
 
 //Runtime class label for instantiation of object.
-classLabel = "shipyard"
+
 
 //**********************************************************************
 //KEYMAP LABEL
@@ -79,12 +79,12 @@ hotkeyLabel = "HOTKEY_F8"
 
 //************************************************************
 // Brian additions for context sensitive menus
-builder_ship = 1
+
 transporter = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
-ScaleSOD = 2.0
+
 
 
 
@@ -113,7 +113,6 @@ hulltargethardpoints = "hp13" "hp14" "hp15" "hp18" "hp23" "hp24" "hp25"
 
 criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp19" "hp21" "hp22"
 
-tooltip = "Shipyard (Advanced Shipyard)"
 
 
 
@@ -125,33 +124,34 @@ tooltip = "Shipyard (Advanced Shipyard)"
 
 
 
-buildItem0 = "cfrigate"
 
-buildItem1 = "cbattle"
 
-buildItem2 = "cspecial"
 
-buildItem3 = "cbattle2"
 
-buildItem4 = "chutet"
 
-buildItem5 = "xcgarak"
 
-buildItem6 = "cohideki"
 
-buildItem7 = "cogalor"
 
-buildItem8 = "cconst"
 
-buildItem9 = "xcconst2"
 
-buildItem10 = "xcuconst"
 
-buildItem11 = "domscout"
 
-buildItem12 = "jemdest"
 
-buildItem13 = "jemdest2"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 dilithiumCost = 300
 
@@ -159,6 +159,74 @@ metalCost = 1000
 
 buildTime = 90
 
-verboseTooltip = "Advanced Shipyard\nShip construction\nA stronghold of the Cardassian Union."
 
-baseName = "vr26_cyard2"
+
+
+buildItem0 = "cfrigate"
+buildItem1 = "cbattle"
+buildItem2 = "cspecial"
+buildItem3 = "cbattle2"
+buildItem4 = "chutet"
+buildItem5 = "xcgarak"
+buildItem6 = "cohideki"
+buildItem7 = "cogalor"
+buildItem8 = "domscout"
+buildItem9 = "jemdest"
+buildItem10 = "jemdest2"
+buildItem11 = "cconst"
+buildItem12 = "xcconst2"
+buildItem13 = "xcuconst"
+classLabel = "shipyard"
+builder_ship = 1
+research = 0
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0
+unitName = "Galor Fleet Foundry"
+tooltip = "Galor Fleet Foundry"
+verboseTooltip = "Galor Fleet Foundry\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
+weapon1 = "cc10phas"
+weaponHardpoints1 = "tygun1"
+weapon2 = "cc10phas"
+weaponHardpoints2 = "tygun2"
+weapon3 = "cc08plas"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ty26_cyard2"
+ScaleSOD = 2
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 20

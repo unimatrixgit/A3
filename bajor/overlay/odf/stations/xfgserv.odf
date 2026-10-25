@@ -99,14 +99,14 @@ eventDecommission = "ShipyardDecommission"
 //PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
 
 //Runtime class label for instantiation of object.
-classLabel = "shipyard"
+
 
 // Hotkey label
 
 
 //************************************************************
 // Brian additions for context sensitive menus
-builder_ship = 1
+
 transporter = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
@@ -141,7 +141,7 @@ biomatterCost = 0
 
 buildTime = 90
 
-repairFacility = 1
+
 enginesTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
 lifeSupportTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
 weaponsTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
@@ -152,9 +152,9 @@ criticalTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
 
 
 
-unitName = "Mercenary Ferengi Service Yard"
 
-tooltip = "Mercenary Ferengi Service Yard"
+
+
 
 
 
@@ -164,11 +164,11 @@ shieldRate = 10
 
 latinumCost = 650
 
-ScaleSOD = 1.71787360
 
-buildHardpoint = "build"
 
-repairHardpoint = "repair"
+
+
+
 
 hotkeyLabel = "HOTKEY_F11"
 
@@ -197,7 +197,21 @@ hotkeyLabel = "HOTKEY_F11"
 
 
 
-verboseTooltip = "Mercenary Ferengi Service Yard\nShip construction\nWhere commerce thrives, opportunity follows."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -223,5 +237,47 @@ buildItem8 = "xfgconst"
 buildItem9 = "xfgconst2"
 buildItem10 = "xfgmnr1"
 buildItem11 = "xfgmnr2"
+classLabel = "shipyard"
+builder_ship = 1
+research = 0
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0
+unitName = "Nog Industrial Exchange"
+tooltip = "Nog Industrial Exchange"
+verboseTooltip = "Nog Industrial Exchange\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
+weapon1 = "xfgcruisb"
+weaponHardpoints1 = "tygun1"
+weapon2 = "xfgcruisb"
+weaponHardpoints2 = "tygun2"
+weapon3 = "xfgcruist"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
 
-baseName = "my26_xfgserv"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ty26_xfgserv"
+ScaleSOD = 1.7178736
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 20

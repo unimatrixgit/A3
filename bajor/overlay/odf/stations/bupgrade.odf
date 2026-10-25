@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Ship Upgrade Facility"
+
 
 //tooltips
 
@@ -118,12 +118,15 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Production Facility (Ship Upgrade Facility)"
+
 
 
 
 recrewRate = 10
 
-verboseTooltip = "Ship Upgrade Facility\nResearch and upgrades\nA node in the vast machinery of the Collective."
 
-baseName = "dr26_bupgrade"
+baseName = "ty26_bupgrade"
+ScaleSOD = 1
+unitName = "Unimatrix Optimisation Centre"
+tooltip = "Unimatrix Optimisation Centre"
+verboseTooltip = "Unimatrix Optimisation Centre\nResearch and faction upgrades\nKnowledge shapes the next generation."

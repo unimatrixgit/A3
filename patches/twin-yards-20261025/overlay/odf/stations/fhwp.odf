@@ -1,0 +1,458 @@
+#include "turret.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Cyclone Defense Station"
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "federation"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 750
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 7.5
+
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+//These values are the hitpoint values of the systems
+//If the value is set to zero the ship does not have that system
+
+//**********************************************************************
+
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Photon torpedos
+
+
+
+// Photon torpedos
+
+
+
+// Photon torpedos
+
+
+
+// Photon torpedos
+
+
+
+// Photon torpedos
+
+
+
+// Photon torpedos
+
+
+
+// Photon torpedos
+
+
+
+// Photon torpedos
+
+
+
+// Photon torpedos
+
+
+
+// Photon torpedos
+
+
+
+// Photon torpedos
+//weapon11 = "fbpulse"
+//weaponHardpoints11 = "hp26" "hp29"
+
+// Photon torpedos
+//weapon12 = "fbpulse"
+//weaponHardpoints12 = "hp27" "hp28"
+
+// Hardpoints to hit for various systems and other locations.
+
+
+
+
+
+
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "PhotonTurretSelect"
+eventAcknowledge = "PhotonTurretAcknowledge"
+eventAttack = "PhotonTurretAttack"
+eventDecommission = "PhotonTurretDecommission"
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "photon_turret"
+hotkeyLabel = "HOTKEY_F9"
+
+//************************************************************
+// Brian additions for context sensitive menus
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+
+
+
+
+
+
+
+
+weapon1 = "xp1b"
+
+
+
+weapon2 = "xp1b"
+
+
+
+weapon3 = "xp1b"
+
+
+
+weapon4 = "xp1t"
+
+
+
+weapon5 = "xp1t"
+
+
+
+weapon6 = "xp1r"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Equal visual span: Federation Cyclone reference.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Heavy platform artwork restored from before starbase-model change.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+weaponHardpoints1 = "hp01"
+
+weaponHardpoints2 = "hp02"
+
+weaponHardpoints3 = "hp03"
+
+weaponHardpoints4 = "hp04"
+
+weaponHardpoints5 = "hp05"
+
+weaponHardpoints6 = "hp06"
+
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+
+weaponstargethardpoints = "hp01" "hp05" "hp03" "hp07" "hp10" "hp16" "hp12" "hp18" "hp14" "hp20"
+
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+
+hulltargethardpoints = "hp04" "hp08"
+
+criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
+
+
+
+
+
+
+
+
+
+
+
+facility = 1
+
+
+
+has_hitpoints = 1
+
+
+
+transporter = 1
+
+combat = 1
+
+alert = 1
+
+recrewRate = 10
+
+
+
+
+
+lifeSupportHitPoints = 200
+
+weaponsHitPoints = 750.0
+
+enginesHitPercent = 0
+
+lifeSupportHitPercent = 10.5
+
+weaponsHitPercent = 10
+
+shieldGeneratorHitPercent = 13
+
+sensorsHitPercent = 13
+
+crewHitPercent = 13.5
+
+hullHitPercent = 40
+
+dilithiumCost = 150
+
+metalCost = 300
+
+latinumCost = 0
+
+biomatterCost = 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+weapon7 = "xhwpdis"
+
+weaponHardpoints7 = "hp01"
+
+weapon8 = "xhwpdis"
+
+weaponHardpoints8 = "hp02"
+
+weapon9 = "xhwpdis"
+
+weaponHardpoints9 = "hp03"
+
+weapon10 = "xhwpdis"
+
+weaponHardpoints10 = "hp04"
+
+tooltip = "Heavy Weapons Platform (Cyclone Defense Station)"
+
+
+
+
+
+
+
+eastBuffer = 0
+
+westBuffer = 0
+
+northBuffer = 0
+
+southBuffer = 0
+
+
+
+latinumTransferRate = 15.0
+
+is_starbase = 1
+
+maxCrewGain = 0
+
+officerGain = 0
+
+
+crewCost = 0
+maximumCrew = 0
+officerCost = 16
+has_crew = 0
+
+// Six additional vanilla Federation starbase pulse banks.
+weapon11 = "fbpulse"
+weaponHardpoints11 = "hp01"
+weapon12 = "fbpulse"
+weaponHardpoints12 = "hp02"
+weapon13 = "fbpulse"
+weaponHardpoints13 = "hp03"
+weapon14 = "fbpulse"
+weaponHardpoints14 = "hp04"
+weapon15 = "fbpulse"
+weaponHardpoints15 = "hp05"
+weapon16 = "fbpulse"
+weaponHardpoints16 = "hp06"
+
+builder_ship = 1
+
+decommissionFacility = 0
+
+buildHardpoint = "hp01"
+
+
+
+
+
+
+
+classLabel = "starbase"
+
+repairFacility = 0
+
+
+
+
+
+
+
+buildItem0 = "fsrepair"
+
+buildItem1 = "ffreight"
+
+buildItem2 = "fconst"
+
+buildItem3 = "fconst2"
+
+buildItem4 = "xfuconst"
+
+verboseTooltip = "Cyclone Defense Station\nHeavy defensive fire support\nStarfleet infrastructure supports exploration."
+
+
+
+footprintBuffer = 16.875
+
+buildTime = 56.25
+baseName = "ty26_fhwp"
+ScaleSOD = 1.89009101092

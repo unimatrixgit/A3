@@ -1,0 +1,182 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+
+
+//Rate at which shield recharges (points per second... we think)
+
+
+//Possible Craft Names
+possibleCraftNames = "AM41-1070" "AM41-7646" "AM41-8465"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Hardpoints to hit for various systems and other locations.
+
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+
+
+
+
+//Hardpoint location for building.
+
+
+//Hardpoint location for repair.
+
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "ShipyardSelect"
+eventAcknowledge = "ShipyardAcknowledge"
+eventDecommission = "ShipyardDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "shipyard"
+
+
+//************************************************************
+// Brian additions for context sensitive menus
+builder_ship = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+// animate on build only
+animation = 1
+repairAnimation = 1
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+
+
+
+
+
+enginestargethardpoints = "hp01" "hp06" "hp11" "hp16" "hp21"
+
+lifesupporttargethardpoints = "hp02" "hp07" "hp12" "hp17" "hp22"
+
+weaponstargethardpoints = "hp03" "hp08" "hp13" "hp18" "hp23"
+
+shieldgeneratortargethardpoints = "hp04" "hp09" "hp14" "hp19" "hp24"
+
+sensorstargethardpoints = "hp05" "hp10" "hp15" "hp19" "hp25"
+
+hulltargethardpoints = "hp01" "hp06" "hp11" "hp16" "hp21"
+
+criticaltargethardpoints = "hp01" "hp06" "hp11" "hp16" "hp21"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+buildItem0 = "bfreight"
+buildItem1 = "mybminer1"
+buildItem2 = "mybminer2"
+dilithiumCost = 200
+metalCost = 400
+latinumCost = 0
+biomatterCost = 0
+crewCost = 100
+maximumCrew = 250
+unitName = "Borg Mining Yard"
+tooltip = "Mining Yard"
+verboseTooltip = "Mining Yard\nCollectors MK I, II and III; repairs\nIndustrial docks keep the fleet supplied."
+race = "borg"
+classLabel = "shipyard"
+maxHealth = 1400
+shieldRate = 8
+
+buildTime = 45
+officerCost = 5
+hotkeyLabel = "HOTKEY_F13"
+
+baseName = "my26_mybyard"
+
+buildHardpoint = "build"
+
+repairHardpoint = "repair"
+
+ScaleSOD = 0.3137253758
+
+footprintBuffer = 70
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0

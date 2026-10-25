@@ -103,7 +103,6 @@ officerCost = 5
 
 
 // Lab safety fix: this model has no repair docking node. Do not accept repair orders, including after capture.
-repairFacility = 0
 
 
 
@@ -118,11 +117,12 @@ repairFacility = 0
 
 
 
-buildItem0 = "mrc005"
 
-buildItem1 = "mrc031"
 
-buildItem2 = "mrc045"
+
+
+
+
 
 dilithiumCost = 600
 
@@ -149,3 +149,6 @@ maximumCrew = 150
 hotkeyLabel = "HOTKEY_F7"
 
 verboseTooltip = "Cardassian Mirror Universe Yard\nShip construction\nA stronghold of the Cardassian Union."
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0

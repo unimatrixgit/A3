@@ -1,0 +1,213 @@
+#include "const.odf"
+enginesTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+lifeSupportTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+shieldGeneratorTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+sensorsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+hullTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15"
+
+
+
+race = "ferengi"
+
+
+
+
+
+
+
+maxHealth = 600
+
+shieldRate = 3.5
+
+
+
+
+
+officerCost = 3
+
+
+
+
+
+
+
+
+
+
+
+ScaleSOD = 1.5
+
+workerBeeName = "fbee"
+
+
+
+
+
+
+
+
+
+possibleCraftNames = "Compound Interest" "Capital Builder" "New Acquisition" "Expansion Clause"
+
+shieldGeneratorHitPoints = 120
+
+enginesHitPoints = 120
+
+weaponsHitPoints = 120
+
+lifeSupportHitPoints = 120
+
+sensorsHitPoints = 120
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 0
+
+latinumCost = 500
+
+biomatterCost = 0
+
+crewCost = 150
+
+maximumCrew = 150
+
+buildTime = 40
+
+hotkeyLabel = "HOTKEY_F3"
+
+canAttack = 0
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "vr26_xfgconst"
+unitName = "Assemblers MK I"
+tooltip = "Assemblers MK I"
+verboseTooltip = "Assemblers MK I\nMining, research and contract yards\nEvery venture begins with a sound investment."
+buildItem0 = "xfgmerc"
+buildItem1 = "xfgserv"
+buildItem2 = "xfgresearch"
+buildItem3 = "xfgmetal2"
+buildItem4 = "xfgmetal3"
+buildItem5 = "xfgdref"
+buildItem6 = "xyr_fg"
+buildItem7 = "tyfghwp"

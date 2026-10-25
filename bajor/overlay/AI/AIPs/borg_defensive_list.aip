@@ -1,9 +1,8 @@
-// Updated current-faction economy, heavy defense, production and research order.
+// Native dependency-ordered standalone production and service docks.
 #include "aipdef.h"
 int checkTechnologyAvailable = 1;
 Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 {
-    // Consolidated yards; prerequisites and producers precede every unit.
     "bbase", 1, 0, -1, 0,
     "bconst", 2, 0, -1, 0,
     "bmining", 1, 0, -1, 0,
@@ -78,7 +77,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "xbgconst", 1, 0, -1, 0,
     "xbgserv", 1, 0, -1, 0,
     "xbgconst2", 1, 0, -1, 0,
-    "xbgdref", 1, 0, -1, 0, // Ferengi dilithium exchange
+    "xbgdref", 1, 0, -1, 0,
     "xbgresearch", 1, 0, -1, 0,
     "xbgpdil", 1, 0, -1, 0,
     "xbgpmet", 1, 0, -1, 0,
@@ -89,4 +88,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "xbgfight", 1, 0, -1, 0,
     "xbgcruis", 1, 0, -1, 0,
     "xbgquark", 1, 0, -1, 0,
+    "xyr_b", 1, 0, -1, 0,
+    "xyr_bg", 1, 0, -1, 0,
+    "tybghwp", 1, 0, -1, 0,
 };

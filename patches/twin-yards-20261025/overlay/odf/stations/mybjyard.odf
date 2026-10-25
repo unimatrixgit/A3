@@ -1,0 +1,236 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+//tooltips
+
+//Race which can build ship & starting race of ship
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+
+
+//Rate at which shield recharges (points per second... we think)
+
+
+// Accept friendly ships at the native repair docking point.
+
+
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Barisa Prime" "Tau Ceti Prime" "Tessen Prime" "Taurus Prime"
+	"Meldrar Prime" "Moriya Prime" "Erabus Prime" "Finnea Prime"
+	"Acamar Prime" "Aldea Prime" "Andoria Prime" "Calder Prime"
+	"Iyaar Prime" "Denocet Prime" "Dytallix Prime" "Galor Prime"
+	"Minos Prime" "Nausicaa Prime" "Oyarsa Prime" "Qualor Prime" 
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+
+
+
+
+
+
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//Construction Parameters
+
+//Hardpoint location for building.
+
+
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "ShipyardSelect"
+eventAcknowledge = "ShipyardAcknowledge"
+eventDecommission = "ShipyardDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+
+
+// Hotkey label
+
+
+//************************************************************
+// Brian additions for context sensitive menus
+builder_ship = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+// make it bigger
+
+
+
+
+
+
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+criticaltargethardpoints = "hp01"
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+hulltargethardpoints = "hp06"
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+
+sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp26" "hp27" "hp28" "hp29" "hp30" "hp31" "hp32"
+
+
+
+
+
+
+
+
+shieldgeneratorhitpoints = 300
+
+lifesupporthitpoints = 300
+
+sensorshitpoints = 300
+
+maxspecialenergy = 0
+
+specialenergyrate = 0
+
+engineshitpoints = 0
+
+weaponshitpoints = 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+buildItem0 = "bjfreight"
+buildItem1 = "mybjminer1"
+buildItem2 = "mybjminer2"
+dilithiumCost = 200
+metalCost = 400
+latinumCost = 0
+biomatterCost = 0
+crewCost = 100
+maximumCrew = 250
+unitName = "Bajoran Mining Yard"
+tooltip = "Mining Yard"
+verboseTooltip = "Mining Yard\nCollectors MK I, II and III; repairs\nIndustrial docks keep the fleet supplied."
+race = "bajoran"
+classLabel = "shipyard"
+maxHealth = 1400
+shieldRate = 8
+
+buildTime = 45
+officerCost = 5
+hotkeyLabel = "HOTKEY_F13"
+
+baseName = "my26_mybjyard"
+
+buildHardpoint = "build"
+
+repairHardpoint = "repair"
+
+ScaleSOD = 0.7556523372
+
+footprintBuffer = 70
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0

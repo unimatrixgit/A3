@@ -108,7 +108,7 @@ officerCost = 6
 buildTime = 133
 
 // Lab safety fix: this model has no repair docking node. Do not accept repair orders, including after capture.
-repairFacility = 0
+
 
 dilithiumCost = 250
 
@@ -122,24 +122,30 @@ tooltip = "Shipyard (Dominion Shipyard)"
 
 
 
-buildItem0 = "cconst"
 
-buildItem1 = "xcconst2"
 
-buildItem2 = "xcuconst"
 
-buildItem3 = "domscout"
 
-buildItem4 = "jemdest"
 
-buildItem5 = "jemdest2"
 
-buildItem6 = "sonadest"
 
-buildItem7 = "sonabat"
 
-buildItem8 = "dombat"
 
-buildItem9 = "domdred"
+
+
+
+
+
+
+
+
+
+
 
 verboseTooltip = "Dominion Shipyard\nShip construction\nA stronghold of the Cardassian Union."
+buildItem0 = "cconst"
+buildItem1 = "xcconst2"
+buildItem2 = "xcuconst"
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0

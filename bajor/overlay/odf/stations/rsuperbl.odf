@@ -30,8 +30,8 @@ maxHealth = 6680
 shieldRate = 4.8
 
 //Even though we are a shipyard, we don't have a repair facility
-repairFacility = 0
-decommissionFacility = 0
+
+
 
 //play animation forward (open up the facility) when construction is finished
 animation = 1
@@ -60,7 +60,7 @@ criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp0
 
 //**********************************************************************
 //Construction Parameters
-buildItem0 = "rsuper"
+
 
 //Hardpoint location for building.
 buildHardpoint = "build"
@@ -129,3 +129,6 @@ tooltip = "Production Facility (Phoenix Facility)"
 verboseTooltip = "Phoenix Facility\nShip construction\nAn outpost guarding the Romulan Star Empire."
 
 baseName = "vr26_rsuperbl"
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0

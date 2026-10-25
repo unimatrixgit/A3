@@ -1,0 +1,579 @@
+{
+  "modules": [
+    {
+      "unit": "fyard",
+      "parent": "nxffleet",
+      "role": "yard",
+      "ships": [
+        "foberth",
+        "fnx",
+        "fcentaur",
+        "fmiranda",
+        "fconstellation",
+        "fconstitution",
+        "fnova",
+        "fdestroy2",
+        "fdestroy",
+        "fcruise3",
+        "fcruise2",
+        "fassault",
+        "fnorway",
+        "fintx"
+      ],
+      "support": []
+    },
+    {
+      "unit": "fyard2",
+      "parent": "nxffleet",
+      "role": "yard",
+      "ships": [
+        "fcruise1",
+        "ffrigate",
+        "fexcelr",
+        "fbattle",
+        "fsovx",
+        "fprometheus",
+        "fexcalibur",
+        "fdauntless",
+        "fscout",
+        "fdanube",
+        "ffighter",
+        "fdeltaflyer",
+        "fantares",
+        "fdefiant"
+      ],
+      "support": []
+    },
+    {
+      "unit": "fyard3",
+      "parent": "nxffleet",
+      "role": "yard",
+      "ships": [
+        "fambassador",
+        "fneworleans",
+        "fspecial",
+        "fgalaxy",
+        "fgalaxyr",
+        "fgalaxyx",
+        "fdawnstar",
+        "xhfhero",
+        "xofdestroy",
+        "xofgalaxy",
+        "xofbattle",
+        "xofprom",
+        "xhfriker",
+        "fvoyager"
+      ],
+      "support": []
+    },
+    {
+      "unit": "byard",
+      "parent": "nxbfleet",
+      "role": "yard",
+      "ships": [
+        "bscout",
+        "bdestroy",
+        "bdestroy2",
+        "bcruise1",
+        "bcruise2",
+        "bassault",
+        "bcruise3",
+        "xbassimold"
+      ],
+      "support": [
+        "bcolony"
+      ]
+    },
+    {
+      "unit": "byard2",
+      "parent": "nxbfleet",
+      "role": "yard",
+      "ships": [
+        "bfrigate",
+        "btacpyr",
+        "bbattle1",
+        "bspecial",
+        "bbattle2",
+        "brenborg",
+        "blocutus",
+        "bsphere",
+        "tcube",
+        "bbattle3",
+        "bbattle4",
+        "bpentra",
+        "bhentra",
+        "bomega1"
+      ],
+      "support": []
+    },
+    {
+      "unit": "byard3",
+      "parent": "nxbfleet",
+      "role": "yard",
+      "ships": [
+        "bhentrag",
+        "bmama",
+        "xobcruise1",
+        "xobbattle1",
+        "xobbattle2",
+        "xoblocutus",
+        "xhbqueen",
+        "mrc003",
+        "mrc004",
+        "mrc029",
+        "mrc058"
+      ],
+      "support": []
+    },
+    {
+      "unit": "kyard",
+      "parent": "nxkfleet",
+      "role": "yard",
+      "ships": [
+        "kscout",
+        "kdestroy",
+        "kcruise1",
+        "kcruise2",
+        "kassault",
+        "kcruise3",
+        "kquon",
+        "kcruise4",
+        "kdestroy2",
+        "kimpkoto",
+        "kgunboat",
+        "ksuper"
+      ],
+      "support": [
+        "kcolony"
+      ]
+    },
+    {
+      "unit": "kyard2",
+      "parent": "nxkfleet",
+      "role": "yard",
+      "ships": [
+        "kfrigate",
+        "kbattle2",
+        "kspecial",
+        "kbattle",
+        "kvodleh",
+        "kbwing",
+        "kvood",
+        "kbatleth",
+        "kavorcha",
+        "kimpvorc",
+        "kimpnegh",
+        "kdestroy4"
+      ],
+      "support": []
+    },
+    {
+      "unit": "kyard3",
+      "parent": "nxkfleet",
+      "role": "yard",
+      "ships": [
+        "xhkhero",
+        "xhkraptor",
+        "xhkold7",
+        "kimpnook",
+        "kimpben",
+        "kimpbakt",
+        "kimphut",
+        "kimpmakd",
+        "mrc019",
+        "mrc020",
+        "mrc046",
+        "mrc047",
+        "mrc048"
+      ],
+      "support": []
+    },
+    {
+      "unit": "ryard",
+      "parent": "nxrfleet",
+      "role": "yard",
+      "ships": [
+        "rscout",
+        "rdestroy",
+        "rcruise1",
+        "rcruise3",
+        "rassault",
+        "rcruise2",
+        "rcent",
+        "rsuper"
+      ],
+      "support": [
+        "rcolony"
+      ]
+    },
+    {
+      "unit": "ryard2",
+      "parent": "nxrfleet",
+      "role": "yard",
+      "ships": [
+        "rfrigate",
+        "rktinga",
+        "rscruise",
+        "rbattle2",
+        "rspecial",
+        "rbattle",
+        "rdread",
+        "rtscout",
+        "rtsdest",
+        "rtscruis",
+        "rtspec",
+        "rtsbcru"
+      ],
+      "support": []
+    },
+    {
+      "unit": "ryard3",
+      "parent": "nxrfleet",
+      "role": "yard",
+      "ships": [
+        "rtswarb",
+        "rtsdread",
+        "xhrhero",
+        "xhrshinzon",
+        "xhrdonatra",
+        "xhrtosbird",
+        "xhrearlybird",
+        "mrc049",
+        "mrc050",
+        "mrc051",
+        "mrc052",
+        "mrc053"
+      ],
+      "support": []
+    },
+    {
+      "unit": "cyard",
+      "parent": "nxcfleet",
+      "role": "yard",
+      "ships": [
+        "cscout",
+        "ctelkor",
+        "cdestroy2",
+        "ckimal",
+        "cdestroy",
+        "ccruise1",
+        "ccruise2",
+        "cassault",
+        "ccruise3",
+        "csuper",
+        "xdofrigate",
+        "xdjacht"
+      ],
+      "support": [
+        "ccolony"
+      ]
+    },
+    {
+      "unit": "cyard2",
+      "parent": "nxcfleet",
+      "role": "yard",
+      "ships": [
+        "cfrigate",
+        "cbattle",
+        "cspecial",
+        "cbattle2",
+        "chutet",
+        "xcgarak",
+        "cohideki",
+        "cogalor",
+        "domscout",
+        "jemdest",
+        "jemdest2"
+      ],
+      "support": [
+        "cconst",
+        "xcconst2",
+        "xcuconst"
+      ]
+    },
+    {
+      "unit": "cyard3",
+      "parent": "nxcfleet",
+      "role": "yard",
+      "ships": [
+        "xhchero",
+        "xhgarak",
+        "cokaldor",
+        "cokeldon",
+        "mrc005",
+        "mrc031",
+        "mrc045",
+        "sonadest",
+        "sonabat",
+        "dombat",
+        "domdred"
+      ],
+      "support": []
+    },
+    {
+      "unit": "dyard",
+      "parent": "nxdfleet",
+      "role": "yard",
+      "ships": [
+        "dscout",
+        "ddestroy",
+        "dcruise1",
+        "dcruise2",
+        "dassault",
+        "dcruise3",
+        "dfrigate",
+        "dbattle",
+        "dspecial",
+        "dbattle2",
+        "xdcarrier",
+        "xdofighter"
+      ],
+      "support": [
+        "dcolony",
+        "dcruise4"
+      ]
+    },
+    {
+      "unit": "nxdheavy",
+      "parent": "nxdfleet",
+      "role": "yard",
+      "ships": [
+        "dwormddestroy2",
+        "dwormdbattle",
+        "dwormdbattle2",
+        "dwormdsuper"
+      ],
+      "support": []
+    },
+    {
+      "unit": "dyard3",
+      "parent": "nxdfleet",
+      "role": "yard",
+      "ships": [
+        "xhdhero",
+        "xhdodo",
+        "xhdjacht",
+        "xhdlaan",
+        "mrc006",
+        "mrc025",
+        "mrc032",
+        "mrc033",
+        "mrc034",
+        "mrc035",
+        "dweyoun",
+        "xdhattack",
+        "dsuper"
+      ],
+      "support": []
+    },
+    {
+      "unit": "bjyard",
+      "parent": "nxbjfleet",
+      "role": "yard",
+      "ships": [
+        "bjscout",
+        "bjinterceptor",
+        "bjraider",
+        "bjtransport",
+        "bjlightship",
+        "bjassault"
+      ],
+      "support": [
+        "bjcolony"
+      ]
+    },
+    {
+      "unit": "bjyard2",
+      "parent": "nxbjfleet",
+      "role": "yard",
+      "ships": [
+        "bjcruiser",
+        "bjtorpedo",
+        "bjfrigate",
+        "bjartillery",
+        "bjbattle",
+        "bjspecial",
+        "bjnerys",
+        "bjsuper",
+        "mrc002"
+      ],
+      "support": []
+    },
+    {
+      "unit": "bryard",
+      "parent": "nxbrfleet",
+      "role": "yard",
+      "ships": [
+        "brscout",
+        "brdestroy",
+        "brcruise1",
+        "brcruise2",
+        "brfrigate",
+        "brbattle",
+        "brbattle2",
+        "xhbrhero",
+        "mrc030"
+      ],
+      "support": [
+        "brcolony"
+      ]
+    },
+    {
+      "unit": "xfgmerc",
+      "parent": "nxfgfleet",
+      "role": "yard",
+      "ships": [
+        "xfgfight",
+        "xfgfrig",
+        "xfgdest",
+        "xfgcruis",
+        "xfgbatt",
+        "xfgquark",
+        "xfgrom",
+        "xfgnagus",
+        "xfgdaim",
+        "mrc026",
+        "mrc027",
+        "mrc028"
+      ],
+      "support": [
+        "xfgconst"
+      ]
+    },
+    {
+      "unit": "xfgserv",
+      "parent": "nxfgfleet",
+      "role": "yard",
+      "ships": [],
+      "support": [
+        "xfgtrade",
+        "xfgmine",
+        "xfgrepair",
+        "xfgcolony",
+        "xfgdil2",
+        "xfglat2",
+        "xfgdil3",
+        "xfglat3",
+        "xfgconst",
+        "xfgconst2",
+        "xfgmnr1",
+        "xfgmnr2"
+      ]
+    },
+    {
+      "unit": "xbgmerc",
+      "parent": "nxbgfleet",
+      "role": "yard",
+      "ships": [
+        "xbgfight",
+        "xbgfrig",
+        "xbgdest",
+        "xbgcruis",
+        "xbgbatt",
+        "xbgquark",
+        "xbgrom",
+        "xbgnagus",
+        "xbgdaim",
+        "mrc022",
+        "mrc023",
+        "mrc024"
+      ],
+      "support": [
+        "xbgconst"
+      ]
+    },
+    {
+      "unit": "xbgserv",
+      "parent": "nxbgfleet",
+      "role": "yard",
+      "ships": [],
+      "support": [
+        "xbgconst",
+        "xfgtrade",
+        "xbgmine",
+        "xbgrepair",
+        "xbgcolony",
+        "xbgdil2",
+        "xbgdil3",
+        "xbgconst2",
+        "xbgmnr1",
+        "xbgmnr2"
+      ]
+    },
+    {
+      "unit": "xflegacyyard",
+      "parent": "nxfmars",
+      "role": "yard",
+      "ships": [
+        "fnxent",
+        "xhfkirktos",
+        "xhfkirkrefit",
+        "xhfharriman",
+        "xhfgarrett",
+        "xhfpicardd",
+        "xhftitan",
+        "xhfdaedalus"
+      ],
+      "support": []
+    },
+    {
+      "unit": "s31yard",
+      "parent": "nxfmars",
+      "role": "yard",
+      "ships": [
+        "fvalour",
+        "ftengen",
+        "arumaan",
+        "fspectre",
+        "fsent",
+        "fshadow",
+        "fdallas",
+        "fdeimos",
+        "banshee",
+        "fdiablo",
+        "fakisato",
+        "fshak",
+        "fkaleb"
+      ],
+      "support": []
+    },
+    {
+      "unit": "mryfeda",
+      "parent": "nxfmars",
+      "role": "yard",
+      "ships": [
+        "mrc007",
+        "mrc008",
+        "mrc009",
+        "mrc010",
+        "mrc011",
+        "mrc012",
+        "mrc013",
+        "mrc014",
+        "mrc015",
+        "mrc016",
+        "mrc017",
+        "mrc018"
+      ],
+      "support": []
+    },
+    {
+      "unit": "mryfedb",
+      "parent": "nxfmars",
+      "role": "yard",
+      "ships": [
+        "mrc021",
+        "mrc036",
+        "mrc037",
+        "mrc038",
+        "mrc039",
+        "mrc040",
+        "mrc041",
+        "mrc042",
+        "mrc043",
+        "mrc044"
+      ],
+      "support": []
+    }
+  ]
+}

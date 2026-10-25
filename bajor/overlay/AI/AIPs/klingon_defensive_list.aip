@@ -1,9 +1,8 @@
-// Updated current-faction economy, heavy defense, production and research order.
+// Native dependency-ordered standalone production and service docks.
 #include "aipdef.h"
 int checkTechnologyAvailable = 1;
 Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 {
-    // Consolidated yards; prerequisites and producers precede every unit.
     "kbase", 1, 0, -1, 0,
     "kconst", 2, 0, -1, 0,
     "kmining", 1, 0, -1, 0,
@@ -61,8 +60,8 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "kcruise3", 2, 0, -1, 0,
     "kspecial", 1, 0, -1, 0,
     "kdestroy4", 1, 0, -1, 0,
-    "ksuperbl", 1, 0, -1, 0,
-    "ksuperbl", 1, 1, -1, 0,
+    "kyard", 1, 0, -1, 0,
+    "kyard", 1, 1, -1, 0,
     "koutpost", 1, 2, -1, 0,
     "ksrepair", 1, 0, -1, 0,
     "kfrigate", 1, 0, -1, 0,
@@ -88,7 +87,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "xfgconst", 1, 0, -1, 0,
     "xfgserv", 1, 0, -1, 0,
     "xfgconst2", 1, 0, -1, 0,
-    "xfgdref", 1, 0, -1, 0, // Ferengi dilithium exchange
+    "xfgdref", 1, 0, -1, 0,
     "xfgresearch", 1, 0, -1, 0,
     "xfgpdil", 1, 0, -1, 0,
     "xfgpmet", 1, 0, -1, 0,
@@ -104,4 +103,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "xfglat3", 1, 0, -1, 0,
     "xfgtrade", 1, 0, -1, 0,
     "mrc026", 1, 0, -1, 0,
+    "xyr_fg", 1, 0, -1, 0,
+    "xyr_k", 1, 0, -1, 0,
+    "tyfghwp", 1, 0, -1, 0,
 };

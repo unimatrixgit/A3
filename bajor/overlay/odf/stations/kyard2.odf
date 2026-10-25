@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Imperial Shipyard"
+
 
 //tooltips
 
@@ -51,7 +51,7 @@ possibleCraftNames = "Duj'a'Qach-782" "Duj'a'Qach-564" "Duj'a'Qach-808" "Duj'a'Q
 
 
 //Hardpoint location for building.
-buildHardpoint = "build"
+
 
 //**********************************************************************
 //AI system parameters
@@ -72,7 +72,7 @@ eventDecommission = "AdvShipyardDecommission"
 //PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
 
 //Runtime class label for instantiation of object.
-classLabel = "shipyard"
+
 
 //**********************************************************************
 //KEYMAP LABEL
@@ -82,13 +82,13 @@ hotkeyLabel = "HOTKEY_F8"
 
 //************************************************************
 // Brian additions for context sensitive menus
-builder_ship = 1
+
 transporter = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
 // make it bigger
-ScaleSOD = 1.9
+
 
 
 
@@ -125,33 +125,33 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Shipyard (Imperial Shipyard)"
 
 
 
-buildItem0 = "kfrigate"
 
-buildItem1 = "kbattle2"
 
-buildItem2 = "kspecial"
 
-buildItem3 = "kbattle"
 
-buildItem4 = "kvodleh"
 
-buildItem5 = "kbwing"
 
-buildItem6 = "kvood"
 
-buildItem7 = "kbatleth"
 
-buildItem8 = "kavorcha"
 
-buildItem9 = "kimpvorc"
 
-buildItem10 = "kimpnegh"
 
-buildItem11 = "kdestroy4"
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 dilithiumCost = 300
 
@@ -159,6 +159,72 @@ metalCost = 1000
 
 buildTime = 90
 
-verboseTooltip = "Imperial Shipyard\nShip construction\nA bastion defending the Klingon Empire."
 
-baseName = "vr26_kyard2"
+
+
+buildItem0 = "kfrigate"
+buildItem1 = "kbattle2"
+buildItem2 = "kspecial"
+buildItem3 = "kbattle"
+buildItem4 = "kvodleh"
+buildItem5 = "kbwing"
+buildItem6 = "kvood"
+buildItem7 = "kbatleth"
+buildItem8 = "kavorcha"
+buildItem9 = "kimpvorc"
+buildItem10 = "kimpnegh"
+buildItem11 = "kdestroy4"
+classLabel = "shipyard"
+builder_ship = 1
+research = 0
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0
+unitName = "Vor'cha Assault Forge"
+tooltip = "Vor'cha Assault Forge"
+verboseTooltip = "Vor'cha Assault Forge\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
+weapon1 = "kc12phas"
+weaponHardpoints1 = "tygun1"
+weapon2 = "kc12phas"
+weaponHardpoints2 = "tygun2"
+weapon3 = "kc05phot"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ty26_kyard2"
+ScaleSOD = 1.9
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 20

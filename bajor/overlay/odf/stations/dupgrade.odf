@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Dominion Ship Upgrade Center"
+
 
 //tooltips
 
@@ -109,7 +109,7 @@ hotkeyLabel = "HOTKEY_U"
 transporter = 1
 
 //Re-Scale the SOD
-scaleSOD = 3.2f
+
 
 
 
@@ -138,10 +138,13 @@ latinumCost = 625
 
 biomatterCost = 0
 
-tooltip = "Production Facility (Dominion Ship Upgrade Center)"
 
 
 
-verboseTooltip = "Dominion Ship Upgrade Center\nResearch and upgrades\nThe Founders impose order across the stars."
 
-baseName = "dr26_dupgrade"
+
+baseName = "ty26_dupgrade"
+ScaleSOD = 3.2
+unitName = "Jem'Hadar Systems Centre"
+tooltip = "Jem'Hadar Systems Centre"
+verboseTooltip = "Jem'Hadar Systems Centre\nResearch and faction upgrades\nKnowledge shapes the next generation."

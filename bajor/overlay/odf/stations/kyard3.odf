@@ -49,7 +49,7 @@ criticalTargetHardpoints = "hp01" "hp02" "hp05"
 //Construction Parameters
 
 //Hardpoint location for building.
-buildHardpoint = "build"
+
 
 //**********************************************************************
 //AI system parameters
@@ -70,7 +70,7 @@ eventDecommission = "AdvShipyardDecommission"
 //PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
 
 //Runtime class label for instantiation of object.
-classLabel = "shipyard"
+
 
 //**********************************************************************
 //KEYMAP LABEL
@@ -80,13 +80,13 @@ hotkeyLabel = "HOTKEY_F8"
 
 //************************************************************
 // Brian additions for context sensitive menus
-builder_ship = 1
+
 transporter = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
 // make it bigger
-ScaleSOD = 1.9
+
 
 
 
@@ -99,7 +99,7 @@ ScaleSOD = 1.9
 crewCost = 632
 officerCost = 5
 
-unitName = "Kahless' Forge"
+
 
 
 
@@ -111,35 +111,35 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Shipyard (Kahless' Forge)"
 
 
 
-buildItem0 = "xhkhero"
 
-buildItem1 = "xhkraptor"
 
-buildItem2 = "xhkold7"
 
-buildItem3 = "kimpnook"
 
-buildItem4 = "kimpben"
 
-buildItem5 = "kimpbakt"
 
-buildItem6 = "kimphut"
 
-buildItem7 = "kimpmakd"
 
-buildItem8 = "mrc019"
 
-buildItem9 = "mrc020"
 
-buildItem10 = "mrc046"
 
-buildItem11 = "mrc047"
 
-buildItem12 = "mrc048"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 dilithiumCost = 450
 
@@ -147,6 +147,73 @@ metalCost = 1350
 
 buildTime = 120
 
-verboseTooltip = "Kahless' Forge\nShip construction\nA bastion defending the Klingon Empire."
 
-baseName = "vr26_kyard3"
+
+
+buildItem0 = "xhkhero"
+buildItem1 = "xhkraptor"
+buildItem2 = "xhkold7"
+buildItem3 = "kimpnook"
+buildItem4 = "kimpben"
+buildItem5 = "kimpbakt"
+buildItem6 = "kimphut"
+buildItem7 = "kimpmakd"
+buildItem8 = "mrc019"
+buildItem9 = "mrc020"
+buildItem10 = "mrc046"
+buildItem11 = "mrc047"
+buildItem12 = "mrc048"
+classLabel = "shipyard"
+builder_ship = 1
+research = 0
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0
+unitName = "Kahless Command Forge"
+tooltip = "Kahless Command Forge"
+verboseTooltip = "Kahless Command Forge\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
+weapon1 = "kc12phas"
+weaponHardpoints1 = "tygun1"
+weapon2 = "kc12phas"
+weaponHardpoints2 = "tygun2"
+weapon3 = "kc05phot"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ty26_kyard3"
+ScaleSOD = 1.9
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 20

@@ -30,8 +30,8 @@ maxHealth = 4961
 shieldRate = 4.6
 
 //Even though we are a shipyard, we don't have a repair facility
-repairFacility = 0
-decommissionFacility = 0
+
+
 
 //play animation forward (open up the facility) when construction is finished
 animation = 1
@@ -56,7 +56,7 @@ criticalTargetHardpoints = "hp01"
 
 //**********************************************************************
 //Construction Parameters
-buildItem0 = "csuper"
+
 
 //Hardpoint location for building.
 buildHardpoint = "build"
@@ -141,3 +141,6 @@ tooltip = "Production Facility (Advanced Robotics Institute)"
 verboseTooltip = "Advanced Robotics Institute\nShip construction\nA stronghold of the Cardassian Union."
 
 baseName = "vr26_cardassian_super_station"
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0

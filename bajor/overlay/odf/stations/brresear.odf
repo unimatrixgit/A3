@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Breen Research Facility"
+
 
 //tooltips
 
@@ -91,7 +91,7 @@ hotkeyLabel = "HOTKEY_F6"
 //************************************************************
 // Brian additions for context sensitive menus
 transporter = 1
-scaleSOD = 4.7
+
 
 
 
@@ -124,10 +124,13 @@ biomatterCost = 0
 buildItem0 = "yabrpolpod"
 podHardpoints = "pod01"
 
-tooltip = "Research Facility (Breen Research Facility)"
 
 
 
-verboseTooltip = "Breen Research Facility\nResearch and upgrades\nA stronghold of the mysterious Breen."
 
-baseName = "dr26_brresear"
+
+baseName = "ty26_brresear"
+ScaleSOD = 4.7
+unitName = "Confederacy Science Laboratory"
+tooltip = "Confederacy Science Laboratory"
+verboseTooltip = "Confederacy Science Laboratory\nResearch and faction upgrades\nKnowledge shapes the next generation."

@@ -3,50 +3,50 @@
 
 // Xaramada validated technology entries
 fsuperbl.odf -1
-gtempor.odf 0 // User-selected ability without research
+gtempor.odf 0
 ksuper.odf -1
-ksuperbl.odf -1
-grwave.odf 0 // User-selected ability without research
+ksuperbl.odf -1 // Consolidated production
+grwave.odf 0
 rsuper.odf -1
-rsuperbl.odf -1
-gbholeg.odf 0 // User-selected ability without research
+rsuperbl.odf -1 // Consolidated production
+gbholeg.odf 0
 bsuperbl.odf -1
 gmastran.odf -1
 csuper.odf -1
-cardassian_super_station.odf -1
+cardassian_super_station.odf -1 // Consolidated production
 xacassim.odf 0
-xactwarp.odf 1 borpod4.odf // Existing ability research; same requirement as y2a002
-xacremod.odf 1 borpod6.odf // Existing ability research; same requirement as gremod
-xabtrans5.odf 1 borpod4.odf // Existing ability research; same requirement as y2a002
+xactwarp.odf 1 borpod4.odf
+xacremod.odf 1 borpod6.odf
+xabtrans5.odf 1 borpod4.odf
 
-xhfhero.odf 1 fyard3.odf
+xhfhero.odf -1 // Unavailable in this technology mode
 
 blocutus.odf 1 byard2.odf
 
-xhkhero.odf 1 kyard3.odf
+xhkhero.odf -1 // Unavailable in this technology mode
 
-xhrhero.odf 1 ryard3.odf
+xhrhero.odf -1 // Unavailable in this technology mode
 
-xhchero.odf 1 cyard3.odf
+xhchero.odf -1 // Unavailable in this technology mode
 
 xhdhero.odf 1 dyard3.odf
 
-xhbrhero.odf 2 brconst.odf bryard.odf
+xhbrhero.odf 2 bryard.odf brconst.odf
 
 xhshero.odf 1 xhs_yard3.odf
 fds9.odf 2 fbase.odf fyard2.odf
 xfomegalab.odf 2 fyard2.odf fupgrade.odf
 xfomegapod.odf 1 xfomegalab.odf
-xofdestroy.odf 2 fyard3.odf xfomegapod.odf
-xofgalaxy.odf 2 fyard3.odf xfomegapod.odf
-xofbattle.odf 2 fyard3.odf xfomegapod.odf
-xofprom.odf 2 fyard3.odf xfomegapod.odf
+xofdestroy.odf -1 // Unavailable in this technology mode
+xofgalaxy.odf -1 // Unavailable in this technology mode
+xofbattle.odf -1 // Unavailable in this technology mode
+xofprom.odf -1 // Unavailable in this technology mode
 xbomegalab.odf 2 byard2.odf bupgrade.odf
 xbomegapod.odf 1 xbomegalab.odf
-xobcruise1.odf 2 byard3.odf xbomegapod.odf
-xobbattle1.odf 2 byard3.odf xbomegapod.odf
-xobbattle2.odf 2 byard3.odf xbomegapod.odf
-xoblocutus.odf 2 byard3.odf xbomegapod.odf
+xobcruise1.odf -1 // Unavailable in this technology mode
+xobbattle1.odf -1 // Unavailable in this technology mode
+xobbattle2.odf -1 // Unavailable in this technology mode
+xoblocutus.odf -1 // Unavailable in this technology mode
 714turr.odf 1 714const.odf
 8472_collector.odf 1 8472_active.odf
 8472_scout.odf 1 8472_active.odf
@@ -64,12 +64,12 @@ xoblocutus.odf 2 byard3.odf xbomegapod.odf
 8472_shipupgraderesearch.odf 1 8472_passive.odf
 8472_fluidicgate.odf 1 8472_passive.odf
 8472_mothership.odf 1 8472_passive.odf
-bscout.odf 1 bbattle5.odf
+bscout.odf 1 byard.odf
 
-bcruise1.odf 1 bbattle5.odf
-bbattle2.odf 2 bbattle5.odf byard2.odf
-bassault.odf 1 bbattle5.odf
-bfreight.odf 1 bbattle5.odf
+bcruise1.odf 1 byard.odf
+bbattle2.odf 1 byard2.odf
+bassault.odf 1 byard.odf
+bfreight.odf 1 byard.odf
 bbase.odf 1 bconst.odf
 byard.odf 1 bconst.odf
 bsensor.odf 1 bconst.odf
@@ -114,7 +114,7 @@ dturret2.odf 1 dconst.odf
 dorbital.odf 1 dconst.odf
 dtrading.odf 1 dconst.odf
 dupgrade.odf 1 dconst.odf
-zsuperbl.odf 1 dconst.odf
+zsuperbl.odf -1 // Consolidated production
 dombase.odf 1 xcconst2.odf
 domabase.odf 1 xcconst2.odf
 cstation.odf 1 xcconst2.odf
@@ -134,8 +134,8 @@ fresear2.odf 1 fconst.odf
 fupgrade.odf 1 fconst.odf
 foutpost.odf 1 fconst2.odf
 fbase2.odf 1 fconst2.odf
-fhwp.odf 1 fyard.odf // Heavy platform unlocked by first faction shipyard
-fremmeler.odf 1 fconst2.odf
+fhwp.odf 1 fyard.odf
+fremmeler.odf -1 // Consolidated production
 fargus.odf 1 fconst2.odf
 fmidas.odf 1 fconst2.odf
 fjupiter.odf 1 fconst2.odf
@@ -154,7 +154,7 @@ kupgrade.odf 1 kconst.odf
 koutpost.odf 1 kconst.odf
 kimpbase.odf 1 kconst2.odf
 kbase2.odf 1 kconst2.odf
-khwp.odf 1 kyard.odf // Heavy platform unlocked by first faction shipyard
+khwp.odf 1 kyard.odf
 rbase.odf 1 rconst.odf
 ryard.odf 1 rconst.odf
 rsensor.odf 1 rconst.odf
@@ -169,7 +169,7 @@ rtrading.odf 1 rconst.odf
 rupgrade.odf 1 rconst.odf
 rbase2.odf 1 rconst2.odf
 rtsens.odf 1 rconst2.odf
-rhwp.odf 1 ryard.odf // Heavy platform unlocked by first faction shipyard
+rhwp.odf 1 ryard.odf
 
 714manta.odf 2 714const.odf 8472_fluidicgate.odf
 714rnode.odf 2 714const.odf 8472_fluidicgate.odf
@@ -216,9 +216,9 @@ brscout.odf 1 bryard.odf
 brdestroy.odf 1 bryard.odf
 brcruise1.odf 1 bryard.odf
 brcruise2.odf 1 bryard.odf
-brfrigate.odf 2 brconst.odf bryard.odf
-brbattle.odf 2 brconst.odf bryard.odf
-brbattle2.odf 2 brconst.odf bryard.odf
+brfrigate.odf 2 bryard.odf brconst.odf
+brbattle.odf 2 bryard.odf brconst.odf
+brbattle2.odf 2 bryard.odf brconst.odf
 bhub.odf 1 btechass.odf
 borpod11.odf 1 bupgrade.odf
 borpod12.odf 1 bupgrade.odf
@@ -239,20 +239,20 @@ btacpyr.odf 1 byard2.odf
 bbattle1.odf 1 byard2.odf
 bspecial.odf 1 byard2.odf
 brenborg.odf 1 byard2.odf
-bpentra.odf 2 byard3.odf byard2.odf
-bhentra.odf 2 byard3.odf byard2.odf
-bomega1.odf 2 byard3.odf byard2.odf
-bhentrag.odf 1 byard3.odf
-bmama.odf 1 byard3.odf
+bpentra.odf 1 byard2.odf
+bhentra.odf 1 byard2.odf
+bomega1.odf 1 byard2.odf
+bhentrag.odf -1 // Unavailable in this technology mode
+bmama.odf -1 // Unavailable in this technology mode
 
 cfreight.odf 1 cbase.odf
 ccargo.odf 1 cbase.odf
 csrepair.odf 1 cbase.odf
 
-cohideki.odf 2 xcconst2.odf cyard2.odf
-cogalor.odf 2 xcconst2.odf cyard2.odf
-cokaldor.odf 2 xcconst2.odf cyard3.odf
-cokeldon.odf 2 xcconst2.odf cyard3.odf
+cohideki.odf 2 cyard2.odf xcconst2.odf
+cogalor.odf 2 cyard2.odf xcconst2.odf
+cokaldor.odf -1 // Unavailable in this technology mode
+cokeldon.odf -1 // Unavailable in this technology mode
 carpod5.odf 1 cresear.odf
 carpod2.odf 1 cresear.odf
 carpod3.odf 1 cresear.odf
@@ -263,10 +263,10 @@ carpod6.odf 1 cresear2.odf
 carpod7.odf 1 cresear2.odf
 carpod8.odf 1 cresear2.odf
 carpod9.odf 1 cresear2.odf
-cscout.odf 1 cstation.odf
-cassault.odf 1 cstation.odf
-cbattle.odf 2 cstation.odf cyard2.odf
-jemdest.odf 2 cstation.odf cyard2.odf
+cscout.odf 2 cyard.odf cstation.odf
+cassault.odf 2 cyard.odf cstation.odf
+cbattle.odf 2 cyard2.odf cstation.odf
+jemdest.odf 2 cyard2.odf cstation.odf
 carpod11.odf 1 cupgrade.odf
 carpod12.odf 1 cupgrade.odf
 carpod13.odf 1 cupgrade.odf
@@ -292,12 +292,12 @@ chutet.odf 1 cyard2.odf
 dfreight.odf 1 dbase.odf
 dcargo.odf 1 dbase.odf
 dsrepair.odf 1 dbase.odf
-domscout.odf 2 xcconst2.odf cyard2.odf
-jemdest2.odf 2 xcconst2.odf cyard2.odf
-sonadest.odf 2 xcconst2.odf cyard3.odf
-sonabat.odf 2 xcconst2.odf cyard3.odf
-dombat.odf 2 xcconst2.odf cyard3.odf
-domdred.odf 2 xcconst2.odf cyard3.odf
+domscout.odf 2 cyard2.odf xcconst2.odf
+jemdest2.odf 2 cyard2.odf xcconst2.odf
+sonadest.odf -1 // Unavailable in this technology mode
+sonabat.odf -1 // Unavailable in this technology mode
+dombat.odf -1 // Unavailable in this technology mode
+domdred.odf -1 // Unavailable in this technology mode
 dompod5.odf 1 dresear.odf
 dompod4.odf 1 dresear.odf
 dompod2.odf 1 dresear.odf
@@ -311,7 +311,7 @@ dompod16.odf 1 dresear2.odf
 fcargo.odf 1 ds9.odf
 fsrepair.odf 1 ds9.odf
 ffreight.odf 1 ds9.odf
-dsuper.odf 2 dconst.odf dyard3.odf
+dsuper.odf 2 dyard3.odf dconst.odf
 dompod11.odf 1 dupgrade.odf
 dompod12.odf 1 dupgrade.odf
 dompod13.odf 1 dupgrade.odf
@@ -329,25 +329,25 @@ dcruise2.odf 1 dyard.odf
 dassault.odf 1 dyard.odf
 dcruise3.odf 1 dyard.odf
 dcruise4.odf 1 dyard.odf
-dfrigate.odf 2 dconst.odf dyard.odf
-dbattle.odf 2 dconst.odf dyard.odf
-dspecial.odf 2 dconst.odf dyard.odf
-dbattle2.odf 2 dyard3.odf dyard.odf
-dweyoun.odf 2 dconst.odf dyard3.odf
+dfrigate.odf 2 dyard.odf dconst.odf
+dbattle.odf 2 dyard.odf dconst.odf
+dspecial.odf 2 dyard.odf dconst.odf
+dbattle2.odf 1 dyard.odf
+dweyoun.odf 2 dyard3.odf dconst.odf
 
 
-fscout.odf 1 fbase.odf
-fdanube.odf 1 fbase.odf
-ffighter.odf 1 fbase.odf
-fdeltaflyer.odf 1 fbase.odf
-fantares.odf 1 fbase.odf
-fnxent.odf 1 fbase2.odf
-ffrigate.odf 2 fbyard.odf fyard2.odf
-fgalaxy.odf 1 fbyard.odf
-fspecial.odf 1 fbyard.odf
-fbattle.odf 2 fbyard.odf fyard2.odf
-fdefiant.odf 1 fds9.odf
-fvoyager.odf 1 fds9.odf
+fscout.odf 2 fyard2.odf fbase.odf
+fdanube.odf 2 fyard2.odf fbase.odf
+ffighter.odf 2 fyard2.odf fbase.odf
+fdeltaflyer.odf 2 fyard2.odf fbase.odf
+fantares.odf 2 fyard2.odf fbase.odf
+fnxent.odf -1 // Unavailable in this technology mode
+ffrigate.odf 1 fyard2.odf
+fgalaxy.odf -1 // Unavailable in this technology mode
+fspecial.odf -1 // Unavailable in this technology mode
+fbattle.odf 1 fyard2.odf
+fdefiant.odf 2 fyard2.odf fds9.odf
+fvoyager.odf -1 // Unavailable in this technology mode
 fedpod5.odf 1 fresear.odf
 fedpod4.odf 1 fresear.odf
 fedpod2.odf 1 fresear.odf
@@ -376,23 +376,23 @@ fcruise2.odf 1 fyard.odf
 fassault.odf 1 fyard.odf
 fnorway.odf 1 fyard.odf
 fintx.odf 1 fyard.odf
-fdauntless.odf 2 fyard.odf fyard2.odf
-foberth.odf 2 fconst.odf fyard.odf
-fnx.odf 2 fconst.odf fyard.odf
-fcentaur.odf 2 fconst.odf fyard.odf
-fmiranda.odf 2 fconst.odf fyard.odf
-fconstellation.odf 2 fconst.odf fyard.odf
-fconstitution.odf 2 fconst.odf fyard.odf
+fdauntless.odf 1 fyard2.odf
+foberth.odf 2 fyard.odf fconst.odf
+fnx.odf 2 fyard.odf fconst.odf
+fcentaur.odf 2 fyard.odf fconst.odf
+fmiranda.odf 2 fyard.odf fconst.odf
+fconstellation.odf 2 fyard.odf fconst.odf
+fconstitution.odf 2 fyard.odf fconst.odf
 fcruise1.odf 1 fyard2.odf
 fexcelr.odf 1 fyard2.odf
 fsovx.odf 1 fyard2.odf
 fprometheus.odf 1 fyard2.odf
 fexcalibur.odf 1 fyard2.odf
-fambassador.odf 1 fyard3.odf
-fneworleans.odf 1 fyard3.odf
-fgalaxyr.odf 1 fyard3.odf
-fgalaxyx.odf 1 fyard3.odf
-fdawnstar.odf 1 fyard3.odf
+fambassador.odf -1 // Unavailable in this technology mode
+fneworleans.odf -1 // Unavailable in this technology mode
+fgalaxyr.odf -1 // Unavailable in this technology mode
+fgalaxyx.odf -1 // Unavailable in this technology mode
+fdawnstar.odf -1 // Unavailable in this technology mode
 twgate1.odf 1 hub.odf
 twgate2.odf 1 hub.odf
 twgate3.odf 1 hub.odf
@@ -406,19 +406,19 @@ kfreight.odf 1 kbase.odf
 kcargo.odf 1 kbase.odf
 ksrepair.odf 1 kbase.odf
 
-kdestroy2.odf 1 kbase.odf
-kdestroy.odf 1 kbase2.odf
-kimpkoto.odf 1 kimpbase.odf
-kgunboat.odf 1 kimpbase.odf
-kavorcha.odf 2 kconst2.odf kyard2.odf
-kimpvorc.odf 2 kconst2.odf kyard2.odf
-kimpnegh.odf 2 kconst2.odf kyard2.odf
-kdestroy4.odf 2 kconst2.odf kyard2.odf
-kimpnook.odf 2 kconst2.odf kyard3.odf
-kimpben.odf 2 kconst2.odf kyard3.odf
-kimpbakt.odf 2 kconst2.odf kyard3.odf
-kimphut.odf 2 kconst2.odf kyard3.odf
-kimpmakd.odf 2 kconst2.odf kyard3.odf
+kdestroy2.odf 2 kyard.odf kbase.odf
+kdestroy.odf 2 kyard.odf kbase2.odf
+kimpkoto.odf 2 kyard.odf kimpbase.odf
+kgunboat.odf 2 kyard.odf kimpbase.odf
+kavorcha.odf 2 kyard2.odf kconst2.odf
+kimpvorc.odf 2 kyard2.odf kconst2.odf
+kimpnegh.odf 2 kyard2.odf kconst2.odf
+kdestroy4.odf 2 kyard2.odf kconst2.odf
+kimpnook.odf -1 // Unavailable in this technology mode
+kimpben.odf -1 // Unavailable in this technology mode
+kimpbakt.odf -1 // Unavailable in this technology mode
+kimphut.odf -1 // Unavailable in this technology mode
+kimpmakd.odf -1 // Unavailable in this technology mode
 klipod5.odf 1 kresear.odf
 klipod4.odf 1 kresear.odf
 klipod2.odf 1 kresear.odf
@@ -460,8 +460,8 @@ rfreight.odf 1 rbase.odf
 rcargo.odf 1 rbase.odf
 rsrepair.odf 1 rbase.odf
 
-rdestroy.odf 1 rbase.odf
-rtscout.odf 2 rbase2.odf ryard2.odf
+rdestroy.odf 2 ryard.odf rbase.odf
+rtscout.odf 2 ryard2.odf rbase2.odf
 rompod5.odf 1 rresear.odf
 rompod2.odf 1 rresear.odf
 rompod3.odf 1 rresear.odf
@@ -495,12 +495,12 @@ rbattle2.odf 1 ryard2.odf
 rspecial.odf 1 ryard2.odf
 rbattle.odf 1 ryard2.odf
 rdread.odf 1 ryard2.odf
-rtsdest.odf 2 ryard3.odf ryard2.odf
-rtscruis.odf 2 ryard3.odf ryard2.odf
-rtspec.odf 2 ryard3.odf ryard2.odf
-rtsbcru.odf 2 ryard3.odf ryard2.odf
-rtswarb.odf 1 ryard3.odf
-rtsdread.odf 1 ryard3.odf
+rtsdest.odf 1 ryard2.odf
+rtscruis.odf 1 ryard2.odf
+rtspec.odf 1 ryard2.odf
+rtsbcru.odf 1 ryard2.odf
+rtswarb.odf -1 // Unavailable in this technology mode
+rtsdread.odf -1 // Unavailable in this technology mode
 fvalour.odf 1 s31yard.odf
 ftengen.odf 1 s31yard.odf
 arumaan.odf 1 s31yard.odf
@@ -514,12 +514,12 @@ fdiablo.odf 1 s31yard.odf
 fakisato.odf 1 s31yard.odf
 fshak.odf 1 s31yard.odf
 fkaleb.odf 1 s31yard.odf
-dwormddestroy2.odf 1 zsuperbl.odf
-dwormdbattle.odf 1 zsuperbl.odf
-dwormdbattle2.odf 1 zsuperbl.odf
-dwormdsuper.odf 1 zsuperbl.odf
+dwormddestroy2.odf 1 dyard2.odf
+dwormdbattle.odf 1 dyard2.odf
+dwormdbattle2.odf 1 dyard2.odf
+dwormdsuper.odf 1 dyard2.odf
 
-xacgreen.odf 0 // additional green holding/assimilation beam
+xacgreen.odf 0
 
 
 bbase2.odf 0
@@ -544,7 +544,7 @@ bjcargo.odf 1 bjtrading.odf
 bjrepair.odf 1 bjyard.odf
 
 
-bjscout.odf 1 bjbase.odf
+bjscout.odf 2 bjyard.odf bjbase.odf
 
 bjinterceptor.odf 1 bjyard.odf
 
@@ -568,9 +568,9 @@ bjbattle.odf 2 bjyard2.odf bjupgrade.odf
 
 bjspecial.odf 2 bjyard2.odf bjresear2.odf
 
-bjsuper.odf 3 bjresear2.odf bjyard2.odf bjsuperlab.odf
+bjsuper.odf 3 bjyard2.odf bjresear2.odf bjsuperlab.odf
 
-bjnerys.odf 2 bjresear2.odf bjyard2.odf
+bjnerys.odf 2 bjyard2.odf bjresear2.odf
 
 
 
@@ -714,326 +714,326 @@ xbharvmanual.odf 0
 xbassimmanual.odf 0
 
 // Riker Galaxy-X hero; same availability as Federation command hero.
-xhfriker.odf 1 fyard3.odf
+xhfriker.odf -1 // Unavailable in this technology mode
 
 // Native cube technology assimilation control.
-gTechAssimBeam.odf 0
+gtechassimbeam.odf 0
 
-xhrshinzon.odf 1 ryard3.odf
-xhrdonatra.odf 1 ryard3.odf
+xhrshinzon.odf -1 // Unavailable in this technology mode
+xhrdonatra.odf -1 // Unavailable in this technology mode
 
-xflegacyyard.odf 1 fyard3.odf
-xhfkirktos.odf 1 xflegacyyard.odf
-xhfkirkrefit.odf 1 xflegacyyard.odf
-xhfharriman.odf 1 xflegacyyard.odf
-xhfgarrett.odf 1 xflegacyyard.odf
-xhfpicardd.odf 1 xflegacyyard.odf
+xflegacyyard.odf -1 // Unavailable in this technology mode
+xhfkirktos.odf -1 // Unavailable in this technology mode
+xhfkirkrefit.odf -1 // Unavailable in this technology mode
+xhfharriman.odf -1 // Unavailable in this technology mode
+xhfgarrett.odf -1 // Unavailable in this technology mode
+xhfpicardd.odf -1 // Unavailable in this technology mode
 
 // Screen-era command additions.
-xhftitan.odf 1 xflegacyyard.odf
-xhfdaedalus.odf 1 xflegacyyard.odf
-xhkraptor.odf 1 kyard3.odf
-xhkold7.odf 1 kyard3.odf
-xhrtosbird.odf 1 ryard3.odf
-xhrearlybird.odf 1 ryard3.odf
+xhftitan.odf -1 // Unavailable in this technology mode
+xhfdaedalus.odf -1 // Unavailable in this technology mode
+xhkraptor.odf -1 // Unavailable in this technology mode
+xhkold7.odf -1 // Unavailable in this technology mode
+xhrtosbird.odf -1 // Unavailable in this technology mode
+xhrearlybird.odf -1 // Unavailable in this technology mode
 
 // Federation colony ships unlock with the standard shipyard.
 
-chwp.odf 1 cyard.odf // Heavy platform unlocked by first faction shipyard
+chwp.odf 1 cyard.odf
 
-bjhwp.odf 1 bjyard.odf // Heavy platform unlocked by first faction shipyard
+bjhwp.odf 1 bjyard.odf
 
-bhwp.odf 1 byard.odf // Heavy platform unlocked by first faction shipyard
+bhwp.odf 1 byard.odf
 
-dturret3.odf 1 dyard.odf // Heavy platform unlocked by first faction shipyard
+dturret3.odf 1 dyard.odf
 
 
-y2a001.odf 1 bjpod2.odf // Existing ability research; same requirement as xbj_gchainp
+y2a001.odf 1 bjpod2.odf
 
-y2a002.odf 1 borpod4.odf // Existing ability research; same requirement as y2a002
+y2a002.odf 1 borpod4.odf
 
-y2a003.odf 1 borpod7.odf // Existing ability research; same requirement as goverrid
+y2a003.odf 1 borpod7.odf
 
-y2a004.odf 0 // GUI alias of gkcloak
+y2a004.odf 0
 
-y2a005.odf 1 klipod9.odf // Existing ability research; same requirement as y2a005
+y2a005.odf 1 klipod9.odf
 
-ya0001.odf 1 8472_podbasic0.odf // Added ability research lock
+ya0001.odf 1 8472_podbasic0.odf
 
-ya0002.odf 1 8472_podbasic1.odf // Added ability research lock
+ya0002.odf 1 8472_podbasic1.odf
 
-ya0003.odf 1 8472_podbasic2.odf // Added ability research lock
+ya0003.odf 1 8472_podbasic2.odf
 
-ya0004.odf 1 8472_podbasic3.odf // Added ability research lock
+ya0004.odf 1 8472_podbasic3.odf
 
-ya0005.odf 1 8472_podbasic3.odf // Added ability research lock
+ya0005.odf 1 8472_podbasic3.odf
 
-ya0006.odf 1 8472_podbasic3.odf // Added ability research lock
+ya0006.odf 1 8472_podbasic3.odf
 
-ya0007.odf 1 yabrpolpod.odf // Added ability research lock
+ya0007.odf 1 yabrpolpod.odf
 
-ya0008.odf 1 carpod16.odf // Added ability research lock
+ya0008.odf 1 carpod16.odf
 
-ya0009.odf 1 carpod1.odf // Added ability research lock
+ya0009.odf 1 carpod1.odf
 
-ya0010.odf 1 carpod1.odf // Added ability research lock
+ya0010.odf 1 carpod1.odf
 
-ya0011.odf 1 carpod1.odf // Added ability research lock
+ya0011.odf 1 carpod1.odf
 
-ya0012.odf 1 carpod16.odf // Added ability research lock
+ya0012.odf 1 carpod16.odf
 
-ya0013.odf 1 carpod3.odf // Added ability research lock
+ya0013.odf 1 carpod3.odf
 
-ya0014.odf 1 carpod2.odf // Added ability research lock
+ya0014.odf 1 carpod2.odf
 
-ya0015.odf 1 carpod2.odf // Added ability research lock
+ya0015.odf 1 carpod2.odf
 
-ya0016.odf 1 carpod3.odf // Added ability research lock
+ya0016.odf 1 carpod3.odf
 
-ya0017.odf 1 carpod16.odf // Added ability research lock
+ya0017.odf 1 carpod16.odf
 
-ya0018.odf 1 carpod2.odf // Added ability research lock
+ya0018.odf 1 carpod2.odf
 
-ya0019.odf 1 carpod2.odf // Added ability research lock
+ya0019.odf 1 carpod2.odf
 
-ya0020.odf 1 carpod2.odf // Added ability research lock
+ya0020.odf 1 carpod2.odf
 
-ya0021.odf 1 carpod1.odf // Added ability research lock
+ya0021.odf 1 carpod1.odf
 
-ya0022.odf 1 carpod1.odf // Added ability research lock
+ya0022.odf 1 carpod1.odf
 
-ya0023.odf 1 carpod1.odf // Added ability research lock
+ya0023.odf 1 carpod1.odf
 
-ya0024.odf 1 dompod1.odf // Added ability research lock
+ya0024.odf 1 dompod1.odf
 
-ya0025.odf 1 fedpod4.odf // Added ability research lock
+ya0025.odf 1 fedpod4.odf
 
-ya0026.odf 1 fedpod4.odf // Added ability research lock
+ya0026.odf 1 fedpod4.odf
 
-ya0027.odf 1 fedpod2.odf // Added ability research lock
+ya0027.odf 1 fedpod2.odf
 
-ya0028.odf 1 fedpod2.odf // Added ability research lock
+ya0028.odf 1 fedpod2.odf
 
-ya0029.odf 1 fedpod4.odf // Added ability research lock
+ya0029.odf 1 fedpod4.odf
 
-ya0030.odf 1 fedpod2.odf // Added ability research lock
+ya0030.odf 1 fedpod2.odf
 
-ya0031.odf 1 fedpod2.odf // Added ability research lock
+ya0031.odf 1 fedpod2.odf
 
-ya0032.odf 1 fedpod2.odf // Added ability research lock
+ya0032.odf 1 fedpod2.odf
 
-ya0033.odf 1 fedpod2.odf // Added ability research lock
+ya0033.odf 1 fedpod2.odf
 
-ya0034.odf 1 fedpod1.odf // Added ability research lock
+ya0034.odf 1 fedpod1.odf
 
-ya0035.odf 1 fedpod1.odf // Added ability research lock
+ya0035.odf 1 fedpod1.odf
 
-ya0036.odf 1 fedpod1.odf // Added ability research lock
+ya0036.odf 1 fedpod1.odf
 
-ya0037.odf 1 klipod2.odf // Added ability research lock
+ya0037.odf 1 klipod2.odf
 
-ya0038.odf 1 klipod2.odf // Added ability research lock
+ya0038.odf 1 klipod2.odf
 
-ya0039.odf 1 klipod1.odf // Added ability research lock
+ya0039.odf 1 klipod1.odf
 
-ya0040.odf 1 klipod2.odf // Added ability research lock
+ya0040.odf 1 klipod2.odf
 
-ya0041.odf 1 klipod2.odf // Added ability research lock
+ya0041.odf 1 klipod2.odf
 
-ya0042.odf 1 klipod2.odf // Added ability research lock
+ya0042.odf 1 klipod2.odf
 
-ya0043.odf 1 klipod1.odf // Added ability research lock
+ya0043.odf 1 klipod1.odf
 
-ya0044.odf 1 klipod1.odf // Added ability research lock
+ya0044.odf 1 klipod1.odf
 
-ya0045.odf 1 klipod1.odf // Added ability research lock
+ya0045.odf 1 klipod1.odf
 
-ya0046.odf 1 klipod2.odf // Added ability research lock
+ya0046.odf 1 klipod2.odf
 
-ya0047.odf 1 klipod2.odf // Added ability research lock
+ya0047.odf 1 klipod2.odf
 
-ya0048.odf 1 klipod1.odf // Added ability research lock
+ya0048.odf 1 klipod1.odf
 
-ya0049.odf 1 klipod1.odf // Added ability research lock
+ya0049.odf 1 klipod1.odf
 
-ya0050.odf 1 klipod1.odf // Added ability research lock
+ya0050.odf 1 klipod1.odf
 
-ya0051.odf 1 rompod2.odf // Added ability research lock
+ya0051.odf 1 rompod2.odf
 
-ya0052.odf 1 rompod2.odf // Added ability research lock
+ya0052.odf 1 rompod2.odf
 
-ya0053.odf 1 rompod2.odf // Added ability research lock
+ya0053.odf 1 rompod2.odf
 
-ya0054.odf 1 xrplasmapod.odf // Heated Plasma research
+ya0054.odf 1 xrplasmapod.odf
 
-ya0055.odf 1 xrplasmapod.odf // Heated Plasma research
+ya0055.odf 1 xrplasmapod.odf
 
-ya0056.odf 1 xrplasmapod.odf // Heated Plasma research
+ya0056.odf 1 xrplasmapod.odf
 
-ya0057.odf 1 xrplasmapod.odf // Heated Plasma research
+ya0057.odf 1 xrplasmapod.odf
 
-ya0058.odf 1 xrplasmapod.odf // Heated Plasma research
+ya0058.odf 1 xrplasmapod.odf
 
-ya0059.odf 1 fedpod4.odf // Added ability research lock
+ya0059.odf 1 fedpod4.odf
 
-ya0060.odf 1 fedpod4.odf // Added ability research lock
+ya0060.odf 1 fedpod4.odf
 
-ya0061.odf 1 fedpod2.odf // Added ability research lock
+ya0061.odf 1 fedpod2.odf
 
-ya0062.odf 1 fedpod4.odf // Added ability research lock
+ya0062.odf 1 fedpod4.odf
 
-ya0063.odf 1 fedpod1.odf // Added ability research lock
+ya0063.odf 1 fedpod1.odf
 
-ya0064.odf 1 fedpod2.odf // Added ability research lock
+ya0064.odf 1 fedpod2.odf
 
-ya0065.odf 1 fedpod2.odf // Added ability research lock
+ya0065.odf 1 fedpod2.odf
 
-ya0066.odf 1 fedpod1.odf // Added ability research lock
+ya0066.odf 1 fedpod1.odf
 
-ya0067.odf 1 fedpod4.odf // Added ability research lock
+ya0067.odf 1 fedpod4.odf
 
-ya0068.odf 1 fedpod1.odf // Added ability research lock
+ya0068.odf 1 fedpod1.odf
 
-ya0069.odf 1 fedpod4.odf // Added ability research lock
+ya0069.odf 1 fedpod4.odf
 
-ya0070.odf 1 fedpod1.odf // Added ability research lock
+ya0070.odf 1 fedpod1.odf
 
-ya0071.odf 1 fedpod1.odf // Added ability research lock
+ya0071.odf 1 fedpod1.odf
 
-ya0072.odf 1 fedpod1.odf // Added ability research lock
+ya0072.odf 1 fedpod1.odf
 
-ya0073.odf 1 fedpod1.odf // Added ability research lock
+ya0073.odf 1 fedpod1.odf
 
-ya0074.odf 1 fedpod1.odf // Added ability research lock
+ya0074.odf 1 fedpod1.odf
 
-ya0075.odf 1 fedpod1.odf // Added ability research lock
+ya0075.odf 1 fedpod1.odf
 
-ya0076.odf 1 fedpod1.odf // Added ability research lock
+ya0076.odf 1 fedpod1.odf
 
-ya0077.odf 1 dompod1.odf // Added ability research lock
+ya0077.odf 1 dompod1.odf
 
-ya0078.odf 1 dompod1.odf // Added ability research lock
+ya0078.odf 1 dompod1.odf
 
 
 
-yabrpolpod.odf 1 brresear.odf // Breen Polaron research
+yabrpolpod.odf 1 brresear.odf
 
-xdofighter.odf 1 domabase.odf // Dominion Outpost production
+xdofighter.odf 2 dyard.odf domabase.odf
 
-xdofrigate.odf 1 domabase.odf // Dominion Outpost production
+xdofrigate.odf 2 cyard.odf domabase.odf
 
-xdocargo.odf 1 domabase.odf // Dominion Outpost production
+xdocargo.odf 1 domabase.odf
 
-xdominer.odf 1 domabase.odf // Dominion Outpost production
+xdominer.odf 1 domabase.odf
 
-xdjacht.odf 1 domabase.odf // Founders hero fighter
+xdjacht.odf 2 cyard.odf domabase.odf
 
-xdjboard.odf 1 dompod2.odf // Founders jacht JemHadar boarding research
+xdjboard.odf 1 dompod2.odf
 
-xbaautoman.odf 0 // Manual control of existing Auto Assimilator defense beam
-gdetect3.odf 1 borpod5.odf // Existing ability research; same requirement as gdetectb
-gplasmaw.odf 1 xrplasmapod.odf // Heated Plasma research
-gschainp.odf 1 fedpod2.odf // Existing ability research; same requirement as gchainp
-gshieldd.odf 1 dompod1.odf // Existing ability research; same requirement as ya0024
-hshieldh.odf 1 fedpod7.odf // Existing ability research; same requirement as gshieldh
-kgplasmac.odf 1 klipod1.odf // Existing ability research; same requirement as gplasmac
-pgcorbom.odf 1 fedpod1.odf // Existing ability research; same requirement as gcorbom
-xbtpblue.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
-xbtpregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
-xbtpwarp.odf 1 borpod4.odf // Existing ability research; same requirement as y2a002
-xy_bassault_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
-xy_bassault_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
-xy_bbattle1_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
-xy_bbattle2_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
-xy_bbattle3_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
-xy_bbattle4_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
-xy_bcolony_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
-xy_bcruise1_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
-xy_bcruise2_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
-xy_bcruise3_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
-xy_bcruise3_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
-xy_bdestroy2_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
-xy_bdestroy2_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
-xy_bdestroy_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
-xy_bdestroy_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
-xy_bfrigate_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
-xy_bhentra_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
-xy_bhentra_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
-xy_bhentrag_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
-xy_bhentrag_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
-xy_bmama_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
-xy_bomega1_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
-xy_bpentra_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
-xy_bpentra_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
-xy_bspecial_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
-xy_btacpyr_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
-xy_btacpyr_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
-xy_tcube_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
-xy_xbassimold_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
-xy_xbassimold_gtwarpd.odf 1 borpod4.odf // Existing ability research; same requirement as y2a002
-xy_xobbattle1_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
-xy_xobbattle2_gregen.odf 1 borpod3.odf // Existing ability research; same requirement as gregen
-xy_xobcruise1_gborgbor.odf 1 borpod1.odf // Existing ability research; same requirement as gborgbor
+xbaautoman.odf 0
+gdetect3.odf 1 borpod5.odf
+gplasmaw.odf 1 xrplasmapod.odf
+gschainp.odf 1 fedpod2.odf
+gshieldd.odf 1 dompod1.odf
+hshieldh.odf 1 fedpod7.odf
+kgplasmac.odf 1 klipod1.odf
+pgcorbom.odf 1 fedpod1.odf
+xbtpblue.odf 1 borpod1.odf
+xbtpregen.odf 1 borpod3.odf
+xbtpwarp.odf 1 borpod4.odf
+xy_bassault_gborgbor.odf 1 borpod1.odf
+xy_bassault_gregen.odf 1 borpod3.odf
+xy_bbattle1_gregen.odf 1 borpod3.odf
+xy_bbattle2_gregen.odf 1 borpod3.odf
+xy_bbattle3_gregen.odf 1 borpod3.odf
+xy_bbattle4_gregen.odf 1 borpod3.odf
+xy_bcolony_gborgbor.odf 1 borpod1.odf
+xy_bcruise1_gborgbor.odf 1 borpod1.odf
+xy_bcruise2_gregen.odf 1 borpod3.odf
+xy_bcruise3_gborgbor.odf 1 borpod1.odf
+xy_bcruise3_gregen.odf 1 borpod3.odf
+xy_bdestroy2_gborgbor.odf 1 borpod1.odf
+xy_bdestroy2_gregen.odf 1 borpod3.odf
+xy_bdestroy_gborgbor.odf 1 borpod1.odf
+xy_bdestroy_gregen.odf 1 borpod3.odf
+xy_bfrigate_gborgbor.odf 1 borpod1.odf
+xy_bhentra_gborgbor.odf 1 borpod1.odf
+xy_bhentra_gregen.odf 1 borpod3.odf
+xy_bhentrag_gborgbor.odf 1 borpod1.odf
+xy_bhentrag_gregen.odf 1 borpod3.odf
+xy_bmama_gregen.odf 1 borpod3.odf
+xy_bomega1_gregen.odf 1 borpod3.odf
+xy_bpentra_gborgbor.odf 1 borpod1.odf
+xy_bpentra_gregen.odf 1 borpod3.odf
+xy_bspecial_gborgbor.odf 1 borpod1.odf
+xy_btacpyr_gborgbor.odf 1 borpod1.odf
+xy_btacpyr_gregen.odf 1 borpod3.odf
+xy_tcube_gregen.odf 1 borpod3.odf
+xy_xbassimold_gregen.odf 1 borpod3.odf
+xy_xbassimold_gtwarpd.odf 1 borpod4.odf
+xy_xobbattle1_gregen.odf 1 borpod3.odf
+xy_xobbattle2_gregen.odf 1 borpod3.odf
+xy_xobcruise1_gborgbor.odf 1 borpod1.odf
 
-xrplasmapod.odf 1 xselaresearch.odf // Sela advanced weapons research
+xrplasmapod.odf 1 xselaresearch.odf
 
-xrsplasma.odf 1 xrplasmapod.odf // Scimitar special research
+xrsplasma.odf 1 xrplasmapod.odf
 
-xrsshield.odf 1 rompod1.odf // Scimitar special research
+xrsshield.odf 1 rompod1.odf
 
-xrsfirecl.odf 1 rompod16.odf // Scimitar special research
+xrsfirecl.odf 1 rompod16.odf
 
-xselaresearch.odf 1 rconst.odf // Sela advanced weapons research
+xselaresearch.odf 1 rconst.odf
 
-xrthelpod.odf 1 xselaresearch.odf // Sela advanced weapons research
+xrthelpod.odf 1 xselaresearch.odf
 
-xrstheleron.odf 1 xrthelpod.odf // Sela advanced weapons research
+xrstheleron.odf 1 xrthelpod.odf
 
-brgpolerond.odf 0 // User-selected ability without research
+brgpolerond.odf 0
 
-brgshieldd.odf 0 // User-selected ability without research
+brgshieldd.odf 0
 
-brgshldemt.odf 0 // User-selected ability without research
+brgshldemt.odf 0
 
-cgwposipulse.odf 0 // User-selected ability without research
+cgwposipulse.odf 0
 
-dwgpolerond.odf 0 // User-selected ability without research
+dwgpolerond.odf 0
 
-gborgionbeam.odf 0 // User-selected ability without research
+gborgionbeam.odf 0
 
-ghologen.odf 0 // User-selected ability without research
+ghologen.odf 0
 
-gphastorp.odf 0 // User-selected ability without research
+gphastorp.odf 0
 
-gram.odf 0 // User-selected ability without research
+gram.odf 0
 
 
 
 
 
-xrsstract.odf 0 // Scimitar tractor GUI alias
+xrsstract.odf 0
 
 unicomplex.odf -1 // Central Unicomplex, original technology prerequisites
 
-xdhattack.odf 2 dconst.odf dyard3.odf
+xdhattack.odf 2 dyard3.odf dconst.odf
 
-xdcarrier.odf 2 dyard3.odf dyard.odf
+xdcarrier.odf 1 dyard.odf
 
-xhdodo.odf 1 dyard3.odf // Dominion command hero
+xhdodo.odf 1 dyard3.odf
 
-xhdjacht.odf 1 dyard3.odf // Dominion command hero
+xhdjacht.odf 1 dyard3.odf
 
-xhdlaan.odf 1 dyard3.odf // Dominion command hero
+xhdlaan.odf 1 dyard3.odf
 
-xhodobr.odf 1 dompod2.odf // Native Dominion hero ability research
+xhodobr.odf 1 dompod2.odf
 
-xhodosh.odf 1 dompod1.odf // Native Dominion hero ability research
+xhodosh.odf 1 dompod1.odf
 
-xhlpol.odf 1 dompod4.odf // Native Dominion hero ability research
+xhlpol.odf 1 dompod4.odf
 
-xhlspy.odf 1 dompod3.odf // Native Dominion hero ability research
+xhlspy.odf 1 dompod3.odf
 
-xhgarak.odf 1 cyard3.odf
+xhgarak.odf -1 // Unavailable in this technology mode
 
 xhgarakpl.odf 1 carpod1.odf
 
@@ -1047,11 +1047,11 @@ xbjoutpost.odf 1 bjyard.odf
 
 xbj_gdetectf.odf 1 bjpod5.odf
 
-xcgarak.odf 1 cyard2.odf // Garak-class battleship; matches Keldon yard technology
+xcgarak.odf 1 cyard2.odf
 
-xhtphase.odf 0 // Normal hero weapon, available without research
+xhtphase.odf 0
 
-xhbiph.odf 0 // Normal hero weapon, available without research
+xhbiph.odf 0
 
 xfgmerc.odf 0
 
@@ -1112,7 +1112,7 @@ xfgminedil.odf 0
 
 xfgminelat.odf 0
 
-xhbqueen.odf 1 byard3.odf
+xhbqueen.odf -1 // Unavailable in this technology mode
 xqgreen.odf 0
 xqwarp.odf 0
 
@@ -1122,11 +1122,11 @@ xfgresearch.odf 0
 
 xfgdil2.odf 2 xfgserv.odf xfgpdil.odf
 
-xfgmineD2.odf 0
+xfgmined2.odf 0
 
 xfglat2.odf 2 xfgserv.odf xfgplat.odf
 
-xfgmineL2.odf 0
+xfgminel2.odf 0
 
 xfgmetal2.odf 1 xfgpmet.odf
 
@@ -1479,64 +1479,64 @@ mrc043.odf 1 mryfedb.odf
 mrc044.odf 1 mryfedb.odf
 
 
-mrc003.odf 2 byard2.odf byard3.odf
+mrc003.odf -1 // Unavailable in this technology mode
 
-mrc004.odf 2 byard2.odf byard3.odf
+mrc004.odf -1 // Unavailable in this technology mode
 
-mrc022.odf 1 xbgmerc.odf // Mirror Ferengi: Ferengi Contract Yard
+mrc022.odf 1 xbgmerc.odf
 
-mrc023.odf 1 xbgmerc.odf // Mirror Ferengi: Ferengi Contract Yard
+mrc023.odf 1 xbgmerc.odf
 
-mrc024.odf 1 xbgmerc.odf // Mirror Ferengi: Ferengi Contract Yard
+mrc024.odf 1 xbgmerc.odf
 
-mrc029.odf 2 byard2.odf byard3.odf
+mrc029.odf -1 // Unavailable in this technology mode
 
-mrc058.odf 2 byard2.odf byard3.odf
-
-
-mrc019.odf 2 kyard2.odf kyard3.odf
-
-mrc020.odf 2 kyard2.odf kyard3.odf
-
-mrc046.odf 2 kyard2.odf kyard3.odf
-
-mrc047.odf 2 kyard2.odf kyard3.odf
-
-mrc048.odf 2 kyard2.odf kyard3.odf
+mrc058.odf -1 // Unavailable in this technology mode
 
 
-mrc049.odf 2 ryard2.odf ryard3.odf
+mrc019.odf -1 // Unavailable in this technology mode
 
-mrc050.odf 2 ryard2.odf ryard3.odf
+mrc020.odf -1 // Unavailable in this technology mode
 
-mrc051.odf 2 ryard2.odf ryard3.odf
+mrc046.odf -1 // Unavailable in this technology mode
 
-mrc052.odf 2 ryard2.odf ryard3.odf
+mrc047.odf -1 // Unavailable in this technology mode
 
-mrc053.odf 2 ryard2.odf ryard3.odf
-
-
-mrc005.odf 2 cyard2.odf cyard3.odf
-
-mrc031.odf 2 cyard2.odf cyard3.odf
-
-mrc045.odf 2 cyard2.odf cyard3.odf
+mrc048.odf -1 // Unavailable in this technology mode
 
 
-mrc006.odf 2 dconst.odf dyard3.odf
+mrc049.odf -1 // Unavailable in this technology mode
 
-mrc025.odf 2 dconst.odf dyard3.odf
+mrc050.odf -1 // Unavailable in this technology mode
 
-mrc032.odf 2 dconst.odf dyard3.odf
+mrc051.odf -1 // Unavailable in this technology mode
 
-mrc033.odf 2 dconst.odf dyard3.odf
+mrc052.odf -1 // Unavailable in this technology mode
 
-mrc034.odf 2 dconst.odf dyard3.odf
-
-mrc035.odf 2 dconst.odf dyard3.odf
+mrc053.odf -1 // Unavailable in this technology mode
 
 
-mrc030.odf 2 brconst.odf bryard.odf
+mrc005.odf -1 // Unavailable in this technology mode
+
+mrc031.odf -1 // Unavailable in this technology mode
+
+mrc045.odf -1 // Unavailable in this technology mode
+
+
+mrc006.odf 2 dyard3.odf dconst.odf
+
+mrc025.odf 2 dyard3.odf dconst.odf
+
+mrc032.odf 2 dyard3.odf dconst.odf
+
+mrc033.odf 2 dyard3.odf dconst.odf
+
+mrc034.odf 2 dyard3.odf dconst.odf
+
+mrc035.odf 2 dyard3.odf dconst.odf
+
+
+mrc030.odf 2 bryard.odf brconst.odf
 
 
 mrc002.odf 1 bjyard2.odf
@@ -1713,25 +1713,25 @@ xu3bor2.odf -1
 xu3fed2.odf -1
 
 // Retired redundant yards; ships reassigned to retained facilities.
-fyard0.odf -1
-bryard2.odf -1
-bryard3.odf -1
-mrybreen.odf -1
-bjyard3.odf -1
-mrybajor.odf -1
-mryborg.odf -1
-cobyard.odf -1
-mrycard.odf -1
+fyard0.odf -1 // Consolidated production
+bryard2.odf -1 // Consolidated production
+bryard3.odf -1 // Consolidated production
+mrybreen.odf -1 // Consolidated production
+bjyard3.odf -1 // Consolidated production
+mrybajor.odf -1 // Consolidated production
+mryborg.odf -1 // Consolidated production
+cobyard.odf -1 // Consolidated production
+mrycard.odf -1 // Consolidated production
 domyard.odf -1
-mrydom.odf -1
-dsuperbl.odf -1
-dyard2.odf -1
-kimpyard.odf -1
-mrykling.odf -1
-mryrom.odf -1
+mrydom.odf -1 // Consolidated production
+dsuperbl.odf -1 // Consolidated production
+dyard2.odf 2 dyard.odf dresear.odf
+kimpyard.odf -1 // Consolidated production
+mrykling.odf -1 // Consolidated production
+mryrom.odf -1 // Consolidated production
 mry8472.odf -1
 714syard.odf -1
-mryfer.odf -1
+mryfer.odf -1 // Consolidated production
 // Constructor fusion withdrawn after runtime null-object crash.
 xcv_714const_u.odf -1
 xcv_8472_defender_u.odf -1
@@ -1766,47 +1766,47 @@ rcolony.odf 0
 xbgcolony.odf 0
 xfgcolony.odf 0
 
-fiaarray.odf 1 fconst2.odf // Iconian Battle Array
+fiaarray.odf 1 fconst2.odf
 
-kiaarray.odf 1 kconst2.odf // Iconian Battle Array
+kiaarray.odf 1 kconst2.odf
 
-riaarray.odf 1 rconst2.odf // Iconian Battle Array
+riaarray.odf 1 rconst2.odf
 
-ciaarray.odf 1 xcconst2.odf // Iconian Battle Array
+ciaarray.odf 1 xcconst2.odf
 
-diaarray.odf 1 xdconst2.odf // Iconian Battle Array
+diaarray.odf 1 xdconst2.odf
 
-bjiaarray.odf 1 xbjconst2.odf // Iconian Battle Array
+bjiaarray.odf 1 xbjconst2.odf
 
-siaarray.odf 1 714const.odf // Iconian Battle Array
+siaarray.odf 1 714const.odf
 
-briaarray.odf 1 brconst.odf // Iconian Battle Array
+briaarray.odf 1 brconst.odf
 
-fgiaarray.odf 1 xfgconst2.odf // Ferengi advanced construction
+fgiaarray.odf 1 xfgconst2.odf
 
-fiaarrays4.odf 1 fedpod1.odf // Iconian faction ability
+fiaarrays4.odf 1 fedpod1.odf
 
-kiaarrays4.odf 1 klipod1.odf // Iconian faction ability
+kiaarrays4.odf 1 klipod1.odf
 
-riaarrays5.odf 0 // Iconian faction ability
+riaarrays5.odf 0
 
-ciaarrays4.odf 1 carpod1.odf // Iconian faction ability
+ciaarrays4.odf 1 carpod1.odf
 
-ciaarrays5.odf 0 // Iconian faction ability
+ciaarrays5.odf 0
 
-diaarrays4.odf 1 dompod2.odf // Iconian faction ability
+diaarrays4.odf 1 dompod2.odf
 
-xfgconst2.odf 1 xfgserv.odf // Ferengi industry and expansion
+xfgconst2.odf 1 xfgserv.odf
 
-xbgconst2.odf 1 xbgserv.odf // Ferengi industry and expansion
+xbgconst2.odf 1 xbgserv.odf
 
-xfgdref.odf 1 xfgconst.odf // Ferengi industry and expansion
+xfgdref.odf 1 xfgconst.odf
 
-xbgdref.odf 1 xbgconst.odf // Ferengi industry and expansion
+xbgdref.odf 1 xbgconst.odf
 
-bgiaarray.odf 1 xbgconst2.odf // Ferengi industry and expansion
+bgiaarray.odf 1 xbgconst2.odf
 
-iaacloak.odf 0 // Built-in Battle Array cloak detection
+iaacloak.odf 0
 myfpod1.odf -1 // Native mining upgrade / yard withdrawn
 myfpod2.odf -1 // Native mining upgrade / yard withdrawn
 myw000.odf 0
@@ -1872,3 +1872,25 @@ xbgmnr2.odf 2 xbgserv.odf xbgpdil2.odf
 myu023.odf 1 xbgpdil.odf
 myu024.odf 1 xbgpdil2.odf
 myu025.odf 1 xbgpdil2.odf
+xyr_f.odf 1 fyard.odf
+xyr_b.odf 1 byard.odf
+xyr_k.odf 1 kyard.odf
+xyr_r.odf 1 ryard.odf
+xyr_c.odf 1 cyard.odf
+xyr_d.odf 1 dyard.odf
+xyr_bj.odf 1 bjyard.odf
+xyr_br.odf 1 bryard.odf
+xyr_fg.odf 1 xfgmerc.odf
+xyr_bg.odf 1 xbgmerc.odf
+tyfgbeam.odf 0
+tyfgtorp.odf 0
+tyfgrapid.odf 0
+tyfghwp.odf 1 xfgmerc.odf
+tybgbeam.odf 0
+tybgtorp.odf 0
+tybgrapid.odf 0
+tybghwp.odf 1 xbgmerc.odf
+tybrbeam.odf 0
+tybrtorp.odf 0
+tybrrapid.odf 0
+tybrhwp.odf 1 bryard.odf

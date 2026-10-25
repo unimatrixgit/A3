@@ -99,23 +99,23 @@ eventDecommission = "ShipyardDecommission"
 //PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
 
 //Runtime class label for instantiation of object.
-classLabel = "shipyard"
+
 
 // Hotkey label
 
 
 //************************************************************
 // Brian additions for context sensitive menus
-builder_ship = 1
+
 transporter = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
 // make it bigger
 
-unitName = "Mercenary Ferengi Contract Yard"
 
-tooltip = "Mercenary Ferengi Contract Yard"
+
+
 
 
 
@@ -141,7 +141,7 @@ officerCost = 10
 
 buildTime = 90
 
-repairFacility = 1
+
 
 
 
@@ -154,11 +154,11 @@ sensorsTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
 hullTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
 criticalTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
 
-ScaleSOD = 0.98994094
 
-buildHardpoint = "hp36"
 
-repairHardpoint = "repair"
+
+
+
 
 
 
@@ -222,32 +222,63 @@ biomatterCost = 0
 
 
 
-verboseTooltip = "Mercenary Ferengi Contract Yard\nShip construction\nA node in the vast machinery of the Collective."
 
-baseName = "vr26_xbgmerc"
+
 
 buildItem0 = "xbgfight"
-
 buildItem1 = "xbgfrig"
-
 buildItem2 = "xbgdest"
-
 buildItem3 = "xbgcruis"
-
 buildItem4 = "xbgbatt"
-
 buildItem5 = "xbgquark"
-
 buildItem6 = "xbgrom"
-
 buildItem7 = "xbgnagus"
-
 buildItem8 = "xbgdaim"
+buildItem9 = "mrc022"
+buildItem10 = "mrc023"
+buildItem11 = "mrc024"
+buildItem12 = "xbgconst"
+classLabel = "shipyard"
+builder_ship = 1
+research = 0
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0
+unitName = "D'Kora Contract Yard"
+tooltip = "D'Kora Contract Yard"
+verboseTooltip = "D'Kora Contract Yard\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
+weapon1 = "xfgcruisb"
+weaponHardpoints1 = "tygun1"
+weapon2 = "xfgcruisb"
+weaponHardpoints2 = "tygun2"
+weapon3 = "xfgcruist"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
 
-buildItem9 = "xbgconst"
 
-buildItem10 = "mrc022"
 
-buildItem11 = "mrc023"
 
-buildItem12 = "mrc024"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ty26_xbgmerc"
+ScaleSOD = 0.98994094
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 20

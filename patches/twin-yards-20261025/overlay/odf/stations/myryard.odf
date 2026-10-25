@@ -1,0 +1,193 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+
+
+//Rate at which shield recharges (points per second... we think)
+
+
+//Possible Craft Names
+possibleCraftNames = 
+	"T'sau Prime" "Gaius Prime" "Hasdrabar Prime" "Cassius Prime"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Cloaking Device
+//weapon1 = "gcloak"
+//weaponHardpoints1 = "hp100"
+
+// Hardpoints to hit for various systems and other locations.
+
+"hp17" "hp19" "hp20" "hp21"
+
+"hp17" "hp19" "hp20" "hp21"
+
+"hp17" "hp19" "hp20" "hp21"
+
+"hp17" "hp19" "hp20" "hp21"
+
+"hp17" "hp19" "hp20" "hp21"
+
+"hp17" "hp19" "hp20" "hp21"
+
+"hp17" "hp19" "hp20" "hp21"
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+
+
+
+
+//Hardpoint location for building.
+
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "ShipyardSelect"
+eventAcknowledge = "ShipyardAcknowledge"
+eventDecommission = "ShipyardDecommission"
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "shipyard"
+
+
+//************************************************************
+// Brian additions for context sensitive menus
+builder_ship = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+// make it bigger
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+
+
+
+
+
+enginestargethardpoints = "hp10" "hp11" "hp13" "hp14" "hp15" "hp16" 
+
+lifesupporttargethardpoints = "hp10" "hp11" "hp13" "hp14" "hp15" "hp16" 
+
+weaponstargethardpoints = "hp10" "hp11" "hp13" "hp14" "hp15" "hp16" 
+
+shieldgeneratortargethardpoints = "hp10" "hp11" "hp13" "hp14" "hp15" "hp16" 
+
+sensorstargethardpoints = "hp10" "hp11" "hp13" "hp14" "hp15" "hp16" 
+
+hulltargethardpoints = "hp10" "hp11" "hp13" "hp14" "hp15" "hp16" 
+
+criticaltargethardpoints = "hp10" "hp11" "hp13" "hp14" "hp15" "hp16" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+buildItem0 = "rfreight"
+buildItem1 = "myrminer1"
+buildItem2 = "myrminer2"
+dilithiumCost = 200
+metalCost = 400
+latinumCost = 0
+biomatterCost = 0
+crewCost = 100
+maximumCrew = 250
+unitName = "Romulan Mining Yard"
+tooltip = "Mining Yard"
+verboseTooltip = "Mining Yard\nCollectors MK I, II and III; repairs\nIndustrial docks keep the fleet supplied."
+race = "romulan"
+classLabel = "shipyard"
+maxHealth = 1400
+shieldRate = 8
+
+buildTime = 45
+officerCost = 5
+hotkeyLabel = "HOTKEY_F13"
+
+baseName = "my26_myryard"
+
+buildHardpoint = "build"
+
+repairHardpoint = "repair"
+
+ScaleSOD = 0.9770215126
+
+footprintBuffer = 70
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0

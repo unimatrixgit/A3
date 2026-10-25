@@ -1,0 +1,262 @@
+#include "const.odf"
+
+//Race which can build ship & starting race of ship
+
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 815
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 239
+enginesHitPoints = 190
+weaponsHitPoints = 117
+lifeSupportHitPoints = 217
+sensorsHitPoints = 159
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.4
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 38
+impulseSpeed = 79
+warpSpeed = 0
+
+//Maximum Value of Special Energy
+
+
+//Rate at which special energy recharges (points per second... we think)
+
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//**********************************************************************
+//Worker Bee Parameters
+
+// Name of the worker bee SOD.
+workerBeeName = "kbee"
+weldingBeamWidth = 5.0
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = "IKS Maj'targh" "IKS TujyopwaH " "IKS Vatlh'pI" "IKS MoDtIq" "IKS DeghwI'" 
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Towing Beam
+
+
+
+// Phaser
+
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp12" "hp17" "hp22" "hp24" "hp26"
+lifeSupportTargetHardpoints = "hp12" "hp17" "hp22" "hp24" "hp26"
+weaponsTargetHardpoints = "hp12" "hp17" "hp22" "hp24" "hp26"
+shieldGeneratorTargetHardpoints = "hp12" "hp17" "hp22" "hp24" "hp26"
+sensorsTargetHardpoints = "hp12" "hp17" "hp22" "hp24" "hp26"
+hullTargetHardpoints = "hp12" "hp17" "hp22" "hp24" "hp26"
+criticalTargetHardpoints = "hp12" "hp17" "hp22" "hp24" "hp26"
+
+//**********************************************************************
+
+// Tara additions for context sensitive menus
+
+
+can_sandd = 1
+
+
+
+// Xaramada: cloaking device.
+
+
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+officerCost = 2
+
+
+
+
+race = "klingon"
+
+ScaleSOD = 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alert = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+combat = 0
+
+attackPower = 0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dilithiumCost = 300
+
+metalCost = 200
+
+latinumCost = 0
+
+biomatterCost = 0
+
+crewCost = 150
+
+maximumCrew = 150
+
+buildTime = 40
+
+hotkeyLabel = "HOTKEY_F3"
+
+canAttack = 0
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0
+
+
+
+
+
+
+
+
+
+baseName = "vr26_xkuconst"
+unitName = "Assemblers MK III"
+tooltip = "Assemblers MK III"
+verboseTooltip = "Assemblers MK III\nStrategic construction\nKlingon engineers forge an empire among stars."
+buildItem0 = "bbase"
+buildItem1 = "fbase"
+buildItem2 = "kbase"
+buildItem3 = "rbase"
+buildItem4 = "cbase"
+buildItem5 = "dbase"
+buildItem6 = "brbase"
+buildItem7 = "bjbase"
+buildItem8 = "kyard"
+buildItem9 = "kimpbase"
+buildItem10 = "kbase2"
+buildItem11 = "xfgmerc"
+buildItem12 = "koutpost"

@@ -1,0 +1,129 @@
+#include "research.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Advanced Research Station"
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "cardassian"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Latinum Cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 3728
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 3.9
+
+//Possible Craft Names
+possibleCraftNames = "Nuok Tal-4"
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Hardpoints to hit for various systems and other locations.
+
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+//eventSelect = "AdvResearchStationSelect"
+//eventAcknowledge = "AdvResearchStationAcknowledge"
+//eventDecommission = "AdvResearchStationDecommission"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "science_station"
+hotkeyLabel = "HOTKEY_F7"
+
+//************************************************************
+// Brian additions for context sensitive menus
+transporter = 1
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewCost = 200
+officerCost = 10
+buildTime = 150
+enginestargethardpoints = "hp01" "hp06" "hp07" "hp08" "hp09" "hp10"
+lifesupporttargethardpoints = "hp01" "hp11" "hp12" "hp13" "hp14" "hp15"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+shieldgeneratortargethardpoints = "hp01" "hp06" "hp07" "hp08" "hp09" "hp10"
+sensorstargethardpoints = "hp01" "hp11" "hp12" "hp13" "hp14" "hp15"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+criticaltargethardpoints = "hp01"
+
+
+
+
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 750
+
+latinumCost = 500
+
+biomatterCost = 0
+
+tooltip = "Research Facility (Advanced Research Station)"
+
+
+
+
+
+podHardpoints = "hp51" "hp52" "hp53" "hp54" "mirrorpod"
+
+
+buildItem0 = "carpod6"
+
+buildItem1 = "carpod7"
+
+buildItem2 = "carpod8"
+
+buildItem3 = "carpod9"
+
+verboseTooltip = "Advanced Research Station\nResearch and upgrades\nA stronghold of the Cardassian Union."
+baseName = "ty26_cresear2"
+ScaleSOD = 1

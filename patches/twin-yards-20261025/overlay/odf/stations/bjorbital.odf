@@ -1,0 +1,256 @@
+#include "orbital.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+//Race which can build ship & starting race of ship
+
+
+//Amount of time required to build facility
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+
+
+//Rate at which shield recharges (points per second... we think)
+
+
+// Speed multiplier for mining
+miningMultiplier = 1.0
+
+//Possible Craft Names
+possibleCraftNames = 
+	"POS-295" "POS-406" "POS-645" "POS-156"
+	"POS-684" "POS-057" "POS-409" "POS-786"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Mining Beam
+
+
+
+// Hardpoints to hit for various systems and other locations.
+
+
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+
+
+
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "OrbitalFacilitySelect"
+eventAcknowledge = "OrbitalFacilityAcknowledge"
+eventDecommission = "OrbitalFacilityDecommission"
+
+//**********************************************************************
+
+hotkeyLabel = "HOTKEY_F11"
+
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+race = "bajoran"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+criticaltargethardpoints = "hp01" "hp02" "hp03" "hp09" "hp11" "hp12" "hp13" "hp19"
+enginestargethardpoints = "hp01" "hp02" "hp03" "hp10" "hp11" "hp12" "hp13" "hp20"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp08" "hp11" "hp12" "hp13" "hp18"
+lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp11" "hp12" "hp13" "hp14"
+sensorstargethardpoints = "hp01" "hp02" "hp03" "hp07" "hp11" "hp12" "hp13" "hp17"
+shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp06" "hp11" "hp12" "hp13" "hp16"
+
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp05" "hp11" "hp12" "hp13" "hp15"
+
+
+
+
+
+
+
+
+maxspecialenergy = 0
+
+specialenergyrate = 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+officerCost = 2
+
+buildTime = 60
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+combat = 1
+
+alert = 1
+
+maxHealth = 10000
+
+shieldRate = 15.5
+
+shieldProtection = 1.0
+
+shieldGeneratorHitPoints = 1000
+
+enginesHitPoints = 0
+
+weaponsHitPoints = 1000
+
+lifeSupportHitPoints = 1000
+
+sensorsHitPoints = 1000
+
+crewCost = 100
+
+maximumCrew = 500
+
+weapon1 = "gOrbitalBeam"
+weaponHardpoints1 = "hp01"
+
+weapon2 = "bb3phas"
+weaponHardpoints2 = "hp01"
+
+weapon3 = "bfphot"
+weaponHardpoints3 = "hp02"
+
+weapon4 = "bfphot"
+weaponHardpoints4 = "hp03"
+
+weapon5 = "bb3phas"
+weaponHardpoints5 = "hp04"
+
+weapon6 = "bc2phas"
+weaponHardpoints6 = "hp05"
+
+weapon7 = "bc2phas"
+weaponHardpoints7 = "hp06"
+
+
+
+
+
+
+
+dilithiumCost = 400
+
+metalCost = 0
+
+latinumCost = 0
+
+biomatterCost = 0
+
+
+
+
+
+baseName = "vr26_bjorbital"
+
+
+
+
+unitName = "Orbital Mining Station MK I"
+tooltip = "Orbital Mining Station MK I"
+verboseTooltip = "Orbital Mining Station MK I\nOrbital Mining Beam\nBajoran industry supports a recovering world."
+ScaleSOD = 1.1548392
+footprintBuffer = 138

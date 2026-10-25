@@ -136,7 +136,7 @@ criticaltargethardpoints = "hp01" "hp06" "hp11" "hp16" "hp21"
 
 
 
-recrewRate = 10
+
 
 
 
@@ -163,7 +163,7 @@ race = "borg"
 classLabel = "shipyard"
 maxHealth = 1400
 shieldRate = 8
-repairFacility = 1
+
 buildTime = 45
 officerCost = 5
 hotkeyLabel = "HOTKEY_F13"
@@ -177,3 +177,6 @@ repairHardpoint = "repair"
 ScaleSOD = 0.3137253758
 
 footprintBuffer = 70
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0

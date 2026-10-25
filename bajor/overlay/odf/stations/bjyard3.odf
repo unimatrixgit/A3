@@ -27,8 +27,8 @@ shieldrate = 15
 
 
 // Accept friendly ships at the native repair docking point.
-repairFacility = 1
-decommissionFacility = 1
+
+
 
 //Possible Craft Names
 possibleCraftNames = 
@@ -127,13 +127,13 @@ race = "bajoran"
 
 
 
-buildItem0 = "bjnerys"
 
-buildItem1 = "bjsuper"
 
-buildItem2 = "bjbattle"
 
-buildItem3 = "bjspecial"
+
+
+
+
 
 
 
@@ -196,3 +196,6 @@ tooltip = "Shipyard (Dahkur Command Shipyard)"
 baseName = "bv4_bjyard3"
 
 verboseTooltip = "Dahkur Command Shipyard\nShip construction\nBajor rebuilds after Cardassian occupation."
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0

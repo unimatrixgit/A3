@@ -1,0 +1,126 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Obsidian Order Shipyard"
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "cardassian"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 3979
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 6.2
+
+//Possible Craft Names
+possibleCraftNames = "Henta Prime-94" "Marok Torkak-34" "Vedar Torkak-79"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08"
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+//Hardpoint location for building.
+buildHardpoint = "build"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "AdvShipyardSelect"
+eventAcknowledge = "AdvShipyardAcknowledge"
+eventDecommission = "AdvShipyardDecommission"
+
+//SYSTEM HITPOINTS
+shieldGeneratorHitPoints = 680
+enginesHitPoints = 0
+weaponsHitPoints = 0
+lifeSupportHitPoints = 525
+sensorsHitPoints = 650
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "shipyard"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "adv_shipyard"
+hotkeyLabel = "HOTKEY_F8"
+
+//************************************************************
+// Brian additions for context sensitive menus
+builder_ship = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+ScaleSOD = 1.3
+
+
+// Xaramada resource costs: calculated from original comparable.
+
+
+
+
+crewCost = 287
+officerCost = 6
+buildTime = 135
+
+dilithiumCost = 250
+
+metalCost = 750
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Shipyard (Obsidian Order Shipyard)"
+
+
+
+verboseTooltip = "Obsidian Order Shipyard\nShip construction\nA stronghold of the Cardassian Union."
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0

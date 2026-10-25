@@ -1,0 +1,115 @@
+#include "craft.odf"
+
+//This is for stat accumulation
+shipclass = "construction"
+
+//This is the main file for the construction ship
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 0
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 0
+
+//construction ships won't attack
+canAttack = 0
+
+//**********************************************************************
+
+
+//**********************************************************************
+//Worker Bee Parameters
+
+// Number of worker bees.
+numberOfWorkerBees = 6
+
+// Home hardpoints for the worker bees, a.k.a. the points they are
+// created on and go back to.
+workerBeeHardpoints = "bot1" "bot2" "bot3" "bot4" "bot5" "bot6"
+
+// Name of the sprite used for the welding beam from the worker bee.
+weldingBeamSprite = "weldbeam"
+
+// Width of the welding beam.
+weldingBeamWidth = 1.0
+
+// Delay before worker bee take off.
+timeUntilTakeoff = 2.0
+
+// Length of time spent welding at each point.
+timeWelding = 0.5
+
+// Delay before disappearing once bay doors BEGIN to close.
+timeUntilClosure = 2.0
+//**********************************************************************
+
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.00f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.40f
+
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+//These values are the hitpoint values of the systems
+//If the value is set to zero the ship does not have that system
+enginesHitPoints = 10
+lifeSupportHitPoints = 10
+weaponsHitPoints = 10
+shieldGeneratorHitPoints = 10
+sensorsHitPoints = 10
+//**********************************************************************
+ 
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "ConstructSelect"
+eventAcknowledge = "ConstructAcknowledge"
+eventAttack = "ConstructAttack"
+eventStop = "ConstructStop"
+eventMove = "ConstructMove"
+eventRepair = "ConstructRepair"
+
+//**********************************************************************
+
+//**********************************************************************
+
+// This is the size of the build animation sparks.
+weldingRadius = 0.5
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//programming thing DO NOT CHANGE
+classLabel = "constructionrig"
+
+//**********************************************************************
+//PHYSICS PARAMETERS
+
+physicsFile = "sconstphys.odf"
+
+//**********************************************************************
+//KEYMAP LABEL
+keymapLabel = "construction_rig"
+
+//************************************************************
+// Tara additions for context sensitive menus
+builder_facility = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+// ship type for formations
+shipType = "N"
+unitName = "Assemblers MK I"
+tooltip = "Assemblers MK I"
+verboseTooltip = "Assemblers MK I"

@@ -1,6 +1,6 @@
 // Begin main properties
 
-unitName = "Breen Shipyard"
+
 
 race = "breen"
 maxHealth = 2000
@@ -11,7 +11,7 @@ specialEnergyRate = 0
 attackPower = 0.00f
 shieldGeneratorHitPoints = 300
 enginesHitPoints = 0
-weaponsHitPoints = 0
+
 lifeSupportHitPoints = 300
 sensorsHitPoints = 300
 enginesHitPercent = 0.0f
@@ -37,8 +37,8 @@ hullHitPercent = 50.0f
 // Begin hardpoints
 
 dockingHardpoint = "hp04"
-repairHardpoint = "hp03"
-buildHardpoint = "build"
+
+
 sensorsTargetHardpoints = "hp01" "hp02" "hp08"
 criticalTargetHardpoints = "hp08" "hp09"
 hullTargetHardpoints = "hp03" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14"
@@ -73,17 +73,17 @@ possibleCraftNames =
 // Begin misc properties
 
 /verboseTooltip = "WRITEME"
-classLabel = "shipyard"
+
 hotkeyLabel = "HOTKEY_F2"
-builder_ship = 1
+
 transporter = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
-scaleSOD = 6.2
+
 shieldDelay = 3.0f
 rangeScan = 800.0f
 damagedScan = 100.0f
-footprintBuffer = 100.0f
+
 repairYellow = 2.0f
 repairRed = 4.0f
 enginesRepairTime = 1.0f
@@ -129,29 +129,29 @@ latinumCost = 0
 
 biomatterCost = 0
 
-tooltip = "Shipyard (Breen Shipyard)"
 
 
 
-buildItem0 = "brscout"
 
-buildItem1 = "brdestroy"
 
-buildItem2 = "brcolony"
 
-buildItem3 = "brcruise1"
 
-buildItem4 = "brcruise2"
 
-buildItem5 = "brfrigate"
 
-buildItem6 = "brbattle"
 
-buildItem7 = "brbattle2"
 
-buildItem8 = "xhbrhero"
 
-buildItem9 = "mrc030"
+
+
+
+
+
+
+
+
+
+
+
 
 dilithiumCost = 250
 
@@ -159,6 +159,60 @@ metalCost = 750
 
 buildTime = 45
 
-verboseTooltip = "Breen Shipyard\nShip construction\nA stronghold of the mysterious Breen."
 
-baseName = "vr26_bryard"
+
+
+buildItem0 = "brscout"
+buildItem1 = "brdestroy"
+buildItem2 = "brcruise1"
+buildItem3 = "brcruise2"
+buildItem4 = "brfrigate"
+buildItem5 = "brbattle"
+buildItem6 = "brbattle2"
+buildItem7 = "xhbrhero"
+buildItem8 = "mrc030"
+buildItem9 = "brcolony"
+classLabel = "shipyard"
+builder_ship = 1
+research = 0
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0
+unitName = "Thot Gor Fleet Yard"
+tooltip = "Thot Gor Fleet Yard"
+verboseTooltip = "Thot Gor Fleet Yard\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
+weapon1 = "zjmphas"
+weaponHardpoints1 = "tygun1"
+weapon2 = "zjmphas"
+weaponHardpoints2 = "tygun2"
+weapon3 = "jmphot"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ty26_bryard"
+ScaleSOD = 6.2
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 20

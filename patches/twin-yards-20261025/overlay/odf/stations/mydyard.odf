@@ -1,0 +1,203 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+
+
+//Rate at which shield recharges (points per second... we think)
+
+
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Barisa Prime" "Tau Ceti Prime" "Tessen Prime" "Taurus Prime"
+	"Meldrar Prime" "Moriya Prime" "Erabus Prime" "Finnea Prime"
+	"Acamar Prime" "Aldea Prime" "Andoria Prime" "Calder Prime"
+	"Iyaar Prime" "Denocet Prime" "Dytallix Prime" "Galor Prime"
+	"Minos Prime" "Nausicaa Prime" "Oyarsa Prime" "Qualor Prime" 
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp08" 
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp08"
+weaponsTargetHardpoints = "hp01" "hp02" "hp08"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp08"
+sensorsTargetHardpoints = "hp01" "hp02" "hp08"
+hullTargetHardpoints = "hp03" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14"
+criticalTargetHardpoints = "hp08" "hp09"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+
+
+
+
+//Hardpoint location for building.
+
+
+//**********************************************************************
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "ShipyardSelect"
+eventAcknowledge = "ShipyardAcknowledge"
+eventDecommission = "ShipyardDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+
+
+// Hotkey label
+
+
+//************************************************************
+// Brian additions for context sensitive menus
+builder_ship = 1
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+// make it bigger
+
+
+avoidanceClass = 0
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+buildItem0 = "dfreight"
+buildItem1 = "mydminer1"
+buildItem2 = "mydminer2"
+dilithiumCost = 200
+metalCost = 400
+latinumCost = 0
+biomatterCost = 0
+crewCost = 100
+maximumCrew = 250
+unitName = "Dominion Mining Yard"
+tooltip = "Mining Yard"
+verboseTooltip = "Mining Yard\nCollectors MK I, II and III; repairs\nIndustrial docks keep the fleet supplied."
+race = "dominion"
+classLabel = "shipyard"
+maxHealth = 1400
+shieldRate = 8
+
+buildTime = 45
+officerCost = 5
+hotkeyLabel = "HOTKEY_F13"
+
+baseName = "my26_mydyard"
+
+buildHardpoint = "build"
+
+repairHardpoint = "repair"
+
+ScaleSOD = 1.588225682
+
+footprintBuffer = 70
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0

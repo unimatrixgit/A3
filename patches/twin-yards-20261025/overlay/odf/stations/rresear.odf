@@ -1,0 +1,133 @@
+#include "research.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Covert-Ops Facility"
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Latinum Cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 3249
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 3.6
+
+//Possible Craft Names
+possibleCraftNames = "D'lerex I"
+
+//**********************************************************************
+//Construction Parameters
+
+buildItem0 = "rompod5"
+buildItem1 = "rompod2"
+buildItem2 = "rompod3"
+buildItem3 = "rompod4"
+buildItem4 = "rompod1"
+buildItem5 = "rompod16"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Cloaking Device
+//weapon3 = "gcloak"
+//weaponHardpoints3 = "hp01"
+
+// Hardpoints to hit for various systems and other locations.
+
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "ResearchStationSelect"
+eventAcknowledge = "ResearchStationAcknowledge"
+eventDecommission = "ResearchStationDecommission"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "research_station"
+hotkeyLabel = "HOTKEY_F6"
+
+//************************************************************
+// Brian additions for context sensitive menus
+transporter = 1
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewCost = 300
+officerCost = 10
+buildTime = 110
+
+
+
+podhardpoints = "pod01" "pod02" "pod03" "pod04" "pod05" "pod06"
+
+enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10"
+
+lifesupporttargethardpoints = "hp11" "hp12" "hp13" "hp14" "hp15"
+
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+
+shieldgeneratortargethardpoints = "hp16" "hp17" "hp18" "hp19" "hp20"
+
+sensorstargethardpoints = "hp21" "hp22" "hp23" "hp24" "hp25"
+
+hulltargethardpoints = "hp06"
+
+criticaltargethardpoints = "hp01"
+
+
+
+
+
+
+
+
+
+dilithiumCost = 0
+
+metalCost = 500
+
+latinumCost = 500
+
+biomatterCost = 0
+
+tooltip = "Research Facility (Covert-Ops Facility)"
+
+
+
+verboseTooltip = "Covert-Ops Facility\nResearch and upgrades\nAn outpost guarding the Romulan Star Empire."
+baseName = "ty26_rresear"
+ScaleSOD = 1
