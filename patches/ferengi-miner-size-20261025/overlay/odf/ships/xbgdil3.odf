@@ -1,0 +1,119 @@
+#include "freight.odf"
+enginesTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
+lifeSupportTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
+weaponsTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
+shieldGeneratorTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
+sensorsTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
+hullTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
+criticalTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
+
+
+
+
+
+
+
+
+
+
+
+maxHealth = 500
+
+shieldRate = 4
+
+crewCost = 100
+
+maximumCrew = 150
+
+officerCost = 3
+
+
+
+
+
+
+
+
+
+buildTime = 35
+
+
+
+maxSpecialEnergy = 0
+
+specialEnergyRate = 0
+
+
+
+possibleCraftNames = "Opportunity" "New Horizons" "Useful Assets" "Paid In Full"
+
+shieldGeneratorHitPoints = 100
+
+enginesHitPoints = 100
+
+weaponsHitPoints = 100
+
+lifeSupportHitPoints = 100
+
+sensorsHitPoints = 100
+
+
+
+maxDilithium = 300
+
+
+
+
+
+
+
+
+
+
+
+
+
+resourcesCanHandle = "dilithium"
+
+
+weaponHardpoints1 = "hp01"
+
+
+
+hotkeyLabel = "HOTKEY_F6"
+
+race = "borg"
+
+
+
+
+
+
+
+biomatterCost = 0
+
+
+
+maxLatinum = 0
+
+unitName = "Mercenary Ferengi Dilithium Collector II"
+
+tooltip = "Ferengi Dil Equipment II"
+
+
+
+latinumCost = 0
+
+dilithiumCost = 300
+
+metalCost = 200
+
+weapon1 = "xfgmindil3"
+
+
+
+verboseTooltip = "Mercenary Ferengi Dilithium Collector II\nMining Beam\nResources sustain the Collective's expansion."
+
+baseName = "dr26_xbgdil3"
+
+ScaleSOD = 0.825
