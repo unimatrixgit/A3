@@ -1,0 +1,392 @@
+{
+  "status": "STAGED",
+  "factions": [
+    {
+      "race": "federation",
+      "nativeBuilder": "fconst2",
+      "menuPosition": 12,
+      "yard": "xfgmerc",
+      "FerengiAssembler": "xfgconst",
+      "ServiceYard": "xfgserv"
+    },
+    {
+      "race": "borg",
+      "nativeBuilder": "bconst2",
+      "menuPosition": 8,
+      "yard": "xbgmerc",
+      "FerengiAssembler": "xbgconst",
+      "ServiceYard": "xbgserv"
+    },
+    {
+      "race": "klingon",
+      "nativeBuilder": "xkuconst",
+      "menuPosition": 12,
+      "yard": "xfgmerc",
+      "FerengiAssembler": "xfgconst",
+      "ServiceYard": "xfgserv"
+    },
+    {
+      "race": "romulan",
+      "nativeBuilder": "xruconst",
+      "menuPosition": 11,
+      "yard": "xfgmerc",
+      "FerengiAssembler": "xfgconst",
+      "ServiceYard": "xfgserv"
+    },
+    {
+      "race": "cardassian",
+      "nativeBuilder": "xcuconst",
+      "menuPosition": 12,
+      "yard": "xfgmerc",
+      "FerengiAssembler": "xfgconst",
+      "ServiceYard": "xfgserv"
+    },
+    {
+      "race": "dominion",
+      "nativeBuilder": "xduconst",
+      "menuPosition": 10,
+      "yard": "xfgmerc",
+      "FerengiAssembler": "xfgconst",
+      "ServiceYard": "xfgserv"
+    },
+    {
+      "race": "bajoran",
+      "nativeBuilder": "xbjuconst",
+      "menuPosition": 11,
+      "yard": "xfgmerc",
+      "FerengiAssembler": "xfgconst",
+      "ServiceYard": "xfgserv"
+    },
+    {
+      "race": "breen",
+      "nativeBuilder": "brconst",
+      "menuPosition": 7,
+      "yard": "xfgmerc",
+      "FerengiAssembler": "xfgconst",
+      "ServiceYard": "xfgserv"
+    }
+  ],
+  "ai": [
+    {
+      "file": "federation_build_list.aip",
+      "added": [
+        "xfgmerc",
+        "xfgconst",
+        "xfgserv",
+        "xfgconst2",
+        "xfgresearch",
+        "xfgpdil",
+        "xfgpmet",
+        "xfgplat",
+        "xfgpdil2",
+        "xfgpmet2",
+        "xfgplat2",
+        "xfgmnr1",
+        "xfgmnr2",
+        "xfgmetal2",
+        "xfgmetal3",
+        "xfgdref"
+      ],
+      "pathVerified": true
+    },
+    {
+      "file": "federation_defensive_list.aip",
+      "added": [
+        "xfgmerc",
+        "xfgconst",
+        "xfgserv",
+        "xfgconst2",
+        "xfgresearch",
+        "xfgpdil",
+        "xfgpmet",
+        "xfgplat",
+        "xfgpdil2",
+        "xfgpmet2",
+        "xfgplat2",
+        "xfgmnr1",
+        "xfgmnr2",
+        "xfgmetal2",
+        "xfgmetal3",
+        "xfgdref"
+      ],
+      "pathVerified": true
+    },
+    {
+      "file": "federation_endgame_list.aip",
+      "added": [
+        "xfgmerc",
+        "xfgconst",
+        "xfgserv",
+        "xfgconst2",
+        "xfgresearch",
+        "xfgpdil",
+        "xfgpmet",
+        "xfgplat",
+        "xfgpdil2",
+        "xfgpmet2",
+        "xfgplat2",
+        "xfgmnr1",
+        "xfgmnr2",
+        "xfgmetal2",
+        "xfgmetal3",
+        "xfgdref"
+      ],
+      "pathVerified": true
+    },
+    {
+      "file": "federation_instant_action_build_list.aip",
+      "added": [
+        "xfgmerc",
+        "xfgconst",
+        "xfgserv",
+        "xfgconst2",
+        "xfgresearch",
+        "xfgpdil",
+        "xfgpmet",
+        "xfgplat",
+        "xfgpdil2",
+        "xfgpmet2",
+        "xfgplat2",
+        "xfgmnr1",
+        "xfgmnr2",
+        "xfgmetal2",
+        "xfgmetal3",
+        "xfgdref"
+      ],
+      "pathVerified": true
+    },
+    {
+      "file": "federation_offensive_list.aip",
+      "added": [
+        "xfgmerc",
+        "xfgconst",
+        "xfgserv",
+        "xfgconst2",
+        "xfgresearch",
+        "xfgpdil",
+        "xfgpmet",
+        "xfgplat",
+        "xfgpdil2",
+        "xfgpmet2",
+        "xfgplat2",
+        "xfgmnr1",
+        "xfgmnr2",
+        "xfgmetal2",
+        "xfgmetal3",
+        "xfgdref"
+      ],
+      "pathVerified": true
+    },
+    {
+      "file": "borg_build_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "borg_defensive_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "borg_endgame_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "borg_instant_action_build_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "borg_offensive_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "klingon_build_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "klingon_defensive_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "klingon_endgame_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "klingon_instant_action_build_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "klingon_offensive_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "romulan_build_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "romulan_defensive_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "romulan_endgame_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "romulan_instant_action_build_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "romulan_offensive_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "cardassian_build_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "cardassian_defensive_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "cardassian_endgame_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "cardassian_instant_action_build_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "cardassian_offensive_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "dominion_build_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "dominion_defensive_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "dominion_endgame_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "dominion_instant_action_build_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "dominion_offensive_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "bajoran_build_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "bajoran_defensive_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "bajoran_endgame_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "bajoran_instant_action_build_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "bajoran_offensive_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "breen_build_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "breen_defensive_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "breen_endgame_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "breen_instant_action_build_list.aip",
+      "added": [],
+      "pathVerified": true
+    },
+    {
+      "file": "breen_offensive_list.aip",
+      "added": [],
+      "pathVerified": true
+    }
+  ],
+  "checks": 593,
+  "files": [
+    {
+      "file": "odf/ships/fconst2.odf",
+      "sourceHash": "eedd101666304858d97b30a5f272f4710f98862fd72b6e678fe633fa70a19b00",
+      "stagedHash": "9b04a4b06427192678f8ee857d81c1f635dc9257acf2f8c6615001f8dd97240b"
+    },
+    {
+      "file": "AI/AIPs/federation_build_list.aip",
+      "sourceHash": "00d651762be547458b5e626794adeee2d086892ebdf76c4aedbaa1326dc9646f",
+      "stagedHash": "0fa62f516314945eaf71d615705a3ff64e99e37fd122f1784c5b7fe79163f084"
+    },
+    {
+      "file": "AI/AIPs/federation_defensive_list.aip",
+      "sourceHash": "244c760ee304bee1b285333c5c6cc634ae687c3b354cad45e47617c73c891d6c",
+      "stagedHash": "26c2ee7b86d84fd6e155efaf8dbe301f2c6784904b9cdd391e9fc96e270960b4"
+    },
+    {
+      "file": "AI/AIPs/federation_endgame_list.aip",
+      "sourceHash": "41315e346aed097a003a52ba42981de8806b1a22656b898bcfe161ef26f8a73c",
+      "stagedHash": "d44fa4299d958fc69625a85d6466ede06c069c6046fc8e0d10c8308cb403aa2f"
+    },
+    {
+      "file": "AI/AIPs/federation_instant_action_build_list.aip",
+      "sourceHash": "b495f146bf6e97ffb650ae195c8c631a24a172608592b8bb0a2bc0251bfa5ecf",
+      "stagedHash": "3174cdbffd65d735ad30984754b02604733a51f5703c426dfe14ec8eb877dab3"
+    },
+    {
+      "file": "AI/AIPs/federation_offensive_list.aip",
+      "sourceHash": "00d651762be547458b5e626794adeee2d086892ebdf76c4aedbaa1326dc9646f",
+      "stagedHash": "0fa62f516314945eaf71d615705a3ff64e99e37fd122f1784c5b7fe79163f084"
+    }
+  ],
+  "runtimeVerified": false,
+  "species8472": "Excluded as previously requested",
+  "newSpritesNeeded": false
+}
