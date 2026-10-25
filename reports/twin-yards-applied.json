@@ -4,7 +4,7 @@
   "backup": "D:\\Xaramada-Modwork\\backups\\twin-yards-20261025-184944",
   "files": 483,
   "models": 76,
-  "staticChecks": 55474,
+  "staticChecks": 55874,
   "newFiles": [
     "SOD/ty26_bhwp.sod",
     "SOD/ty26_bjhwp.sod",
@@ -261,13 +261,18 @@
     "Textures/RGB/wfty26_xyr_r.tga"
   ],
   "runtimeVerified": false,
-  "nextPatch": "Unused asset audit started; moves deferred until game closed",
+  "nextPatch": "Conservative unused asset audit; balance changes remain on hold",
   "mapsUntouched": true,
   "borgRecyclerUntouched": true,
   "appliedAt": "2026-10-25T18:49:49.219768+01:00",
   "structuralBridgeUpdate": {
     "backup": "D:\\Xaramada-Modwork\\backups\\yard-bridges-20261025-185856",
     "files": 194,
+    "runtimeVerified": false
+  },
+  "borgAndScaleUpdate": {
+    "backup": "D:\\Xaramada-Modwork\\backups\\yard-bridges-20261025-191555",
+    "files": 177,
     "runtimeVerified": false
   }
 }

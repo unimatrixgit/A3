@@ -367,13 +367,13 @@ tooltip = "Heavy Weapons Platform (Oblivion Defense Nexus)"
 
 
 
-eastBuffer = 0
 
-westBuffer = 0
 
-northBuffer = 0
 
-southBuffer = 0
+
+
+
+
 crewCost = 0
 maximumCrew = 0
 officerCost = 16
@@ -432,10 +432,17 @@ verboseTooltip = "Oblivion Defense Nexus\nHeavy defensive fire support\nA node i
 
 
 
-footprintBuffer = 16.875
+
 
 buildTime = 56.25
 
 
+
+
 baseName = "ty26_bhwp"
-ScaleSOD = 0.582908718668
+ScaleSOD = 0.510045128835
+footprintBuffer = 14.765625
+northBuffer = 0
+southBuffer = 0
+eastBuffer = 0
+westBuffer = 0

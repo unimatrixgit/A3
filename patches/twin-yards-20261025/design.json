@@ -132277,5 +132277,12 @@
   ],
   "centralReference": "Each faction native starbase",
   "yardReference": "Native original shipyard meshes, two production/repair wings",
-  "biodome": false
+  "biodome": false,
+  "borgModelCorrection": {
+    "nexus": "xvstock_bbase",
+    "yardWings": "xvstock_byard",
+    "source": "Preserved Armada II original models",
+    "hwpReduction": 0.125
+  },
+  "yardSizeIncrease": 0.25
 }

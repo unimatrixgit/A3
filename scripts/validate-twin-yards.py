@@ -77,7 +77,7 @@ for row in art:
  except Exception:
   with contextlib.redirect_stdout(io.StringIO()):model=SodIO().read_file(str(O/'SOD'/(row['model']+'.sod')))
  nodes={node['id'].lower()for node in model.nodes}
- if row['theme']=='b':check(row['centralModel']=='bbase','vanilla Borg Nexus central reference '+n)
+ if row['theme']=='b':check(row['centralModel']=='xvstock_bbase','original Armada II Borg Nexus central reference '+n)
  for node in model.nodes:
   if node['type']!='MESH':continue
   dat=node['data'];v=dat['vertices'];uv=dat['texture_coordinates'];check(np.isfinite(v).all()and np.isfinite(uv).all(),'finite geometry '+n);check(len(v)<=450,'native conservative mesh chunks '+n);check(dat['texture'].lower()in texidx,'native diffuse texture '+n+' '+dat['texture'])

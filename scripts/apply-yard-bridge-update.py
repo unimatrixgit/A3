@@ -1,4 +1,4 @@
-"""Apply the validated structural bridge refinement without changing gameplay."""
+"""Apply the validated Borg Armada II model and station scale correction."""
 from pathlib import Path
 import json,hashlib,subprocess,shutil,datetime
 repo=Path('D:/aramada');root=Path('D:/armadaIII');stage=repo/'patches/twin-yards-20261025';O=stage/'overlay';m=json.loads((stage/'manifest.json').read_text());v=json.loads((stage/'validation.json').read_text());assert v['status']=='PASS'
@@ -15,7 +15,7 @@ except Exception:
  raise
 for rel,h in m['files'].items():
  assert hashlib.sha256((root/rel).read_bytes()).hexdigest()==h;dest=repo/'bajor/overlay'/rel;shutil.copyfile(root/rel,dest)
-a=json.loads((stage/'applied.json').read_text());a['structuralBridgeUpdate']={'backup':str(backup),'files':len(changes),'runtimeVerified':False};a['staticChecks']=v['checks'];a['nextPatch']='Unused asset audit started; moves deferred until game closed';(stage/'applied.json').write_text(json.dumps(a,indent=2));(repo/'reports/twin-yards-applied.json').write_text(json.dumps(a,indent=2))
-s=json.loads((repo/'status.json').read_text(encoding='utf-8-sig'));s['current']='Standalone faction station patch installed and verified; twin yard wings structurally connected. 76 native models/icons; 23 mining stations +15% size. Gameplay testing pending. Beginning unused-asset audit; maps protected, asset moves deferred while testing.';s['twinYards']=a;(repo/'status.json').write_text(json.dumps(s,indent=2),encoding='utf-8')
-with(repo/'build.log').open('a',encoding='utf-8')as f:f.write('\n[Yard structural bridges] '+json.dumps(a['structuralBridgeUpdate'])+'\n')
-print(json.dumps(a['structuralBridgeUpdate']))
+a=json.loads((stage/'applied.json').read_text());a['borgAndScaleUpdate']={'backup':str(backup),'files':len(changes),'runtimeVerified':False};a['staticChecks']=v['checks'];a['nextPatch']='Conservative unused asset audit; balance changes remain on hold';(stage/'applied.json').write_text(json.dumps(a,indent=2));(repo/'reports/twin-yards-applied.json').write_text(json.dumps(a,indent=2))
+s=json.loads((repo/'status.json').read_text(encoding='utf-8-sig'));s['current']='Applied Armada II original Borg Nexus and Assembly Matrix model correction. Production and repair yards 25% larger with footprints; Borg HWP 12.5% smaller with footprint. Static validation passed; gameplay testing pending. Cleanup audit next; maps protected.';s['twinYards']=a;(repo/'status.json').write_text(json.dumps(s,indent=2),encoding='utf-8')
+with(repo/'build.log').open('a',encoding='utf-8')as f:f.write('\n[Borg Armada II and yard scale correction] '+json.dumps(a['borgAndScaleUpdate'])+'\n')
+print(json.dumps(a['borgAndScaleUpdate']))
