@@ -4,7 +4,7 @@
   "backup": "D:\\Xaramada-Modwork\\backups\\twin-yards-20261025-184944",
   "files": 483,
   "models": 76,
-  "staticChecks": 60154,
+  "staticChecks": 60554,
   "newFiles": [
     "SOD/ty26_bhwp.sod",
     "SOD/ty26_bjhwp.sod",
@@ -286,5 +286,14 @@
       11
     ],
     "singleBorgBay": true
+  },
+  "bajoranYardRevision": {
+    "backup": "D:\\Xaramada-Modwork\\backups\\yard-bridges-20261025-194358",
+    "files": 13,
+    "runtimeVerified": false,
+    "centreSource": "cbase",
+    "basicBaySource": "cyard",
+    "commandBaySource": "xvstock_cyard2",
+    "decorativeShips": false
   }
 }

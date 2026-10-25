@@ -23,6 +23,13 @@ in-game ship emergence, clearance and repair behaviour still need testing.
 Ship stats, Species 8472, HWP models and the Recycler are unchanged by this
 revision. Actual staged model renders are in `../compact-yard-preview/`.
 
+The Bajoran revision uses Cardassian central station architecture and copper
+plating. Dahkur has Cardassian open drydocks; Shakaar uses the distinct original
+advanced Cardassian yard model with staggered bays and a taller command centre.
+The Kendra service dock follows the same refitted architecture. No fighter or
+ship meshes are attached as decoration. Rosters, costs and combat stats stay
+unchanged; icons, size estimates, footprints and exits follow the new geometry.
+
 ## Production yards and service docks
 
 | Faction | Production yards | Repair/recrew/decommission dock |

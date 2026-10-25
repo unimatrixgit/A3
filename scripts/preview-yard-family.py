@@ -24,13 +24,17 @@ names={'b':'Borg','f':'Federation','k':'Klingon','r':'Romulan','c':'Cardassian',
 images=[]
 for code,title in names.items():
  for tier in ([0,1,2]if code in ['b','f']else[0,2]):
-  parts=[];frame=truss.Geometry();ysource=yards[code]
+  parts=[];frame=truss.Geometry();ysource='cyard'if code=='bj'else yards[code]
   def add(source,size,pos=(0,0,0),stretch=(1,1,1),yaw=0):
    rot=np.array([[math.cos(yaw),0,math.sin(yaw)],[0,1,0],[-math.sin(yaw),0,math.cos(yaw)]])
    for p in pieces(source):p['data']['vertices']=(p['data']['vertices']*np.array(stretch)*size)@rot.T+np.array(pos);parts.append(p)
-  central=bases[code];core=1.35+tier*.18
+  central='cbase'if code=='bj'else bases[code];core=1.35+tier*.18
   # Centres retain faction silhouettes, with distinct command superstructures.
   add(central,core,(0,.12,0))
+  if code=='bj':
+   # Bajoran militia reuse Cardassian orbital hulls, with native Bajoran
+   # command architecture and refitted equipment instead of the DS9 centre.
+   for side in [-1,1]:add('cbase',.18 if tier==0 else .24,(side*.38,.16,-.12),yaw=side*math.pi/3)
   if tier==2:
    if code=='f':add(central,.82,(0,.9,0),stretch=(1,.55,1))
    elif code=='b':
@@ -39,6 +43,9 @@ for code,title in names.items():
   cube=code=='b'
   # Cube yards use one oversized open frame rather than two small bays.
   bays=[(1.3,-.08,0)]if cube else[(-.8,-.08,.06),(.8,-.08,.06)]
+  if code=='bj'and tier>0:
+   ysource='xvstock_cyard2'
+   bays=[(-.78,-.08,-.16),(.78,-.08,.16)]
   if not cube and tier>0 and ysource+'2'in sods:ysource+='2'
   for pos in bays:add(ysource,1.8+tier*.14 if cube else 1.0+tier*.08,pos,stretch=(1,1,1+tier*.08),yaw=0 if cube else(-.08 if pos[0]<0 else .08)*tier)
   reference=pieces(ysource)[0]

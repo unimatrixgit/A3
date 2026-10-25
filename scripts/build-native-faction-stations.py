@@ -31,6 +31,7 @@ sprite=(root/'Sprites/gui_global.spr').read_text(encoding='latin1');ns={};exec((
 hero={'fyard3','xflegacyyard','s31yard','mryfeda','mryfedb','byard3','kyard3','ryard3','cyard3','dyard3','bjyard2'}
 for index,(n,a)in enumerate(d['assets'].items(),1):
  if '--yards-only'in sys.argv and a['kind']not in ['yard','service']:continue
+ if '--faction=bj'in sys.argv and a['theme']!='bj':continue
  print('Native faction station '+str(index)+'/'+str(len(d['assets']))+' '+n,flush=True);code=a['theme'];kind=a['kind'];donor=a['donor'];bp=baseline[donor]['properties'];old=native(bp.get('basename',donor));model=copy.deepcopy(old);scale=float(bp.get('scalesod','1').rstrip('fF;'));allparts=[]
  def add(source,size,pos=(0,0,0),yaw=0,stretch=(1,1,1),cap=False):
   rot=np.array([[math.cos(yaw),0,math.sin(yaw)],[0,1,0],[-math.sin(yaw),0,math.cos(yaw)]])
@@ -63,8 +64,9 @@ for index,(n,a)in enumerate(d['assets'].items(),1):
    dat=copy.deepcopy(reference['data']);vv=g['v'];dat.update(vertices=vv,texture_coordinates=[[.5,.5]for v in vv],vertex_lighting_groups=[{'lighting_material':reference['data']['vertex_lighting_groups'][0]['lighting_material'],'faces':[[[int(i),int(i)]for i in face]for face in g['f']]}]);allparts.append({'data':dat,'materials':reference['materials']})
   # The reviewed compact family geometry supersedes the earlier floating-wing
   # composition. Preview and installable model use exactly the same parts.
-  layoutTier=min(tier,2)if kind=='yard'else 0
+  layoutTier=(2 if n in hero else min(tier,2))if kind=='yard'else 0
   allparts,bayPositions,singleBay=compact_yard_parts(code,layoutTier,globals())
+  if code=='bj':central='cbase'
  elif kind=='research':
   add(central,.62,(0,-.05,0));ref=n if n in sods else bp.get('basename',donor);add(ref,.68,(-.58,.1,0));add(ref,.68,(.58,.1,0),yaw=math.pi)
  else:

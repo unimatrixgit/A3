@@ -1,5 +1,5 @@
 {
-  "current": "Applied compact connected yards: larger varied centres, textured structural bridges and conduits; single-bay Borg yards. Borg production reorganised into minimum 3 yards (14/9/11 entries); 40 AI profiles updated. Ship-size estimates used to enlarge bays/footprints and position exits. Static checks passed; in-game clearance and gameplay testing pending. Species 8472 and Recycler unchanged.",
+  "current": "Applied Cardassian-derived Bajoran production yards and service dock: swept station pylons, copper hulls, connected bays. Second yard uses a different original Cardassian advanced-yard model; no decorative fighter models. Icons, footprints and launch points refreshed. Static checks passed; gameplay testing pending.",
   "steps": [
     {
       "label": "Current configuration and artwork: Apply approved fixes",
@@ -1531,7 +1531,7 @@
     "backup": "D:\\Xaramada-Modwork\\backups\\twin-yards-20261025-184944",
     "files": 483,
     "models": 76,
-    "staticChecks": 60154,
+    "staticChecks": 60554,
     "newFiles": [
       "SOD/ty26_bhwp.sod",
       "SOD/ty26_bjhwp.sod",
@@ -1813,6 +1813,15 @@
         11
       ],
       "singleBorgBay": true
+    },
+    "bajoranYardRevision": {
+      "backup": "D:\\Xaramada-Modwork\\backups\\yard-bridges-20261025-194358",
+      "files": 13,
+      "runtimeVerified": false,
+      "centreSource": "cbase",
+      "basicBaySource": "cyard",
+      "commandBaySource": "xvstock_cyard2",
+      "decorativeShips": false
     }
   }
 }
