@@ -8,7 +8,7 @@ for rel,h in m['files'].items():
  paths+=['bajor/overlay/'+rel,'patches/twin-yards-20261025/overlay/'+rel]
 result={'status':'PASS','installedFiles':len(m['files']),'gameAndSourceHashesMatch':True,'runtimeVerified':False};(stage/'installed-verification.json').write_text(json.dumps(result,indent=2))
 for name in ['design.json','artwork.json','ai.json','manifest.json','validation.json','applied.json','installed-verification.json','README.md']:paths.append('patches/twin-yards-20261025/'+name)
-for name in ['nexus-common.py','prepare-twin-yards.py','extend-twin-yard-scope.py','build-native-faction-stations.py','twin-yard-render.py','finish-twin-yard-tech.py','finish-twin-yard-ai.py','name-and-document-twin-yards.py','validate-twin-yards.py','apply-twin-yards.py','publish-twin-yards.py']:paths.append('scripts/'+name)
+for name in ['nexus-common.py','prepare-twin-yards.py','extend-twin-yard-scope.py','build-native-faction-stations.py','twin-yard-render.py','finish-twin-yard-tech.py','finish-twin-yard-ai.py','name-and-document-twin-yards.py','validate-twin-yards.py','apply-twin-yards.py','apply-yard-bridge-update.py','publish-twin-yards.py']:paths.append('scripts/'+name)
 for name in ['twin-yard-building-list.md','twin-yards-applied.json','twin-yard-production-input.json','nexus-node-crash-rollback.json']:paths.append('reports/'+name)
 paths+=['status.json','build.log'];head=subprocess.check_output(['git','-C',str(repo),'ls-files'],text=True).splitlines();canonical={x.lower():x for x in head};paths=list(dict.fromkeys(canonical.get(x.lower(),x)for x in paths))
 existing=subprocess.check_output(['git','-C',str(repo),'diff','--cached','--name-only'],text=True).splitlines();assert not existing,existing

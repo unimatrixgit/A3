@@ -5496,3 +5496,5 @@ Hero-extra-bank validation passed. Runtime testing pending.
 [Nexus rollback] {"status": "ROLLED BACK TO PRE-NEXUS PATCH", "restoredFiles": 213, "removedNewFiles": 492, "backup": "D:\\Xaramada-Modwork\\backups\\fleet-nexuses-20261025-175236", "reason": "Native ResearchStation dynamically casts attached class to ResearchPodClass; a ShipyardClass produces null and crashes at 0x4ba13c.", "faultDump": "C:/Users/thoma/AppData/Local/CrashDumps/Armada2.exe.11284.dmp", "runtimeVerified": false, "mapsUntouched": true}
 
 [Twin yards] {"status": "APPLIED - GAMEPLAY TEST PENDING", "target": "D:\\armadaIII", "backup": "D:\\Xaramada-Modwork\\backups\\twin-yards-20261025-184944", "files": 483, "models": 76, "staticChecks": 54464, "runtimeVerified": false, "nextPatch": "ON HOLD as requested", "mapsUntouched": true, "borgRecyclerUntouched": true, "appliedAt": "2026-10-25T18:49:49.219768+01:00"}
+
+[Yard structural bridges] {"backup": "D:\\Xaramada-Modwork\\backups\\yard-bridges-20261025-185856", "files": 194, "runtimeVerified": false}

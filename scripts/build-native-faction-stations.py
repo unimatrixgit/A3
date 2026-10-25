@@ -2,7 +2,8 @@
 from pathlib import Path
 exec(Path('D:/aramada/scripts/build-bajor-redesign-v4.py').read_text().split('for name,d in before.items():')[0])
 exec(Path('D:/aramada/scripts/twin-yard-render.py').read_text())
-import ast
+import ast,importlib.util
+sp=importlib.util.spec_from_file_location('stationtruss',repo/'scripts/approved-station-geometry.py');truss=importlib.util.module_from_spec(sp);sp.loader.exec_module(truss)
 for node in ast.parse((repo/'scripts/stage-approved-visual-refresh.py').read_text()).body:
  if isinstance(node,ast.FunctionDef)and node.name in ['load_model','visible_points']:exec(compile(ast.Module(body=[node],type_ignores=[]),'model-helpers','exec'))
 stage=repo/'patches/twin-yards-20261025';O=stage/'overlay';d=json.loads((stage/'design.json').read_text());sods={p.stem.lower():p for p in(root/'SOD').iterdir()if p.suffix.lower()=='.sod'};models={};partsCache={};baseline=d['baseline'];records=[]
@@ -49,6 +50,15 @@ for index,(n,a)in enumerate(d['assets'].items(),1):
   for s in [-1,1]:add(ysource,.95,(s*1.05,-.08,.05),yaw=s*(.06 if tier==1 else .12 if tier>=2 else 0),stretch=(1,1,length))
   if code=='f'and n in hero:add(central,1.1,(0,-.72,0),cap=True)
   if tier>=2:add(central,.24,(0,.7,-.16))
+  # Solid structural bridges make the twin wings physically join the central hull.
+  frame=truss.Geometry()
+  for s in [-1,1]:
+   for z in [-.13,.13]:frame.beam((0,-.08,z),(s*.98,-.08,z),.045,'hull')
+   frame.beam((s*.12,-.21,0),(s*.9,-.21,0),.06,'hull')
+  if code=='f'and n in hero:frame.beam((0,-.7,0),(0,.3,0),.07,'hull')
+  reference=pieces(ysource)[0]
+  for g in frame.parts:
+   dat=copy.deepcopy(reference['data']);vv=g['v'];dat.update(vertices=vv,texture_coordinates=[[.5,.5]for v in vv],vertex_lighting_groups=[{'lighting_material':reference['data']['vertex_lighting_groups'][0]['lighting_material'],'faces':[[[int(i),int(i)]for i in face]for face in g['f']]}]);allparts.append({'data':dat,'materials':reference['materials']})
  elif kind=='research':
   add(central,.62,(0,-.05,0));ref=n if n in sods else bp.get('basename',donor);add(ref,.68,(-.58,.1,0));add(ref,.68,(.58,.1,0),yaw=math.pi)
  else:

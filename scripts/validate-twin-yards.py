@@ -15,7 +15,8 @@ def props(n,stack=()):
  cache[n]=out;return out
 def items(p,prefix='builditem'):return[(int(k[len(prefix):]),v.lower())for k,v in p.items()if re.fullmatch(prefix+r'\d+',k)]
 P={n:props(n)for n in idx};files={p.relative_to(O).as_posix():hashlib.sha256(p.read_bytes()).hexdigest()for p in O.rglob('*')if p.is_file()};baseline=d['baseline']
-for n,row in baseline.items():check(hashlib.sha256((root/row['file']).read_bytes()).hexdigest()==row['hash'],'unchanged live baseline '+n)
+installed=json.loads((stage/'manifest.json').read_text())['files']if '--installed'in sys.argv else{}
+for n,row in baseline.items():check(hashlib.sha256((root/row['file']).read_bytes()).hexdigest()in [row['hash'],installed.get(row['file'])],'expected live baseline '+n)
 check(not any(r.lower().startswith(('bzn/','maps/','missions/','events/'))for r in files),'maps, missions and events untouched')
 check(not any('start'in Path(r).stem.lower()and r.endswith('.odf')for r in files),'no starter fleet edits')
 check(not any(Path(r).stem.lower()=='brecycle'for r in files),'Borg Recycler untouched')
