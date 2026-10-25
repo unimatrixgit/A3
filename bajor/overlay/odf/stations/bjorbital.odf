@@ -109,7 +109,7 @@ race = "bajoran"
 
 
 
-ScaleSOD = 0.83684
+
 criticaltargethardpoints = "hp01" "hp02" "hp03" "hp09" "hp11" "hp12" "hp13" "hp19"
 enginestargethardpoints = "hp01" "hp02" "hp03" "hp10" "hp11" "hp12" "hp13" "hp20"
 hulltargethardpoints = "hp01" "hp02" "hp03" "hp08" "hp11" "hp12" "hp13" "hp18"
@@ -245,3 +245,7 @@ biomatterCost = 0
 verboseTooltip = "Bajoran Orbital Processing Facility\nOrbital Mining Beam\nBajoran industry supports a recovering world."
 
 baseName = "vr26_bjorbital"
+
+ScaleSOD = 1.004208
+
+footprintBuffer = 120

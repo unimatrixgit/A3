@@ -55,7 +55,7 @@ possibleCraftNames = "Satus-873" "Satus-981" "Satus-117" "Satus-468"
 // Hardpoints to hit for various systems and other locations.
 
 
-ScaleSOD = 1.25
+
 
 //**********************************************************************
 //MESSAGE & SOUND PARAMETERS
@@ -221,3 +221,7 @@ biomatterCost = 0
 verboseTooltip = "Orbital Processing Facility\nOrbital Mining Beam\nRomulan industry sustains the imperial fleet."
 
 baseName = "vr26_rorbital"
+
+ScaleSOD = 1.5
+
+footprintBuffer = 120

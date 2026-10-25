@@ -1221,11 +1221,11 @@ bportalw4			borgwireframe06	144	0	48	48
 bportalw5			borgwireframe06	192	0	48	48
 
 
-btechassw1			borgwireframe07	0	0	48	48		
-btechassw2			borgwireframe07	48	0	48	48		
-btechassw3			borgwireframe07	96	0	48	48		
-btechassw4			borgwireframe07	144	0	48	48		
-btechassw5			borgwireframe07	192	0	48	48
+
+
+
+
+
 
 
 # Federation wireframes
@@ -1989,18 +1989,18 @@ cquantumw5			cardwireframe06	192	144	48	48
 
 
 
-8472_basicresearchw1		8472wireframe04	0	96	48	48		
-8472_basicresearchw2		8472wireframe04	48	96	48	48		
-8472_basicresearchw3		8472wireframe04	96	96	48	48		
-8472_basicresearchw4		8472wireframe04	144	96	48	48		
-8472_basicresearchw5		8472wireframe04	192	96	48	48
 
 
-8472_shipupgraderesearchw1	8472wireframe04	0	192	48	48		
-8472_shipupgraderesearchw2	8472wireframe04	48	192	48	48		
-8472_shipupgraderesearchw3	8472wireframe04	96	192	48	48		
-8472_shipupgraderesearchw4	8472wireframe04	144	192	48	48		
-8472_shipupgraderesearchw5	8472wireframe04	192	192	48	48
+
+
+
+
+
+
+
+
+
+
 
 #Sona Wireframes
 @reference=256
@@ -2075,11 +2075,6 @@ brbasew5			brewireframe01		192	0	48	48
 
 
 
-brminingw1			brewireframe02		0	192	48	48
-brminingw2			brewireframe02		48	192	48	48
-brminingw3			brewireframe02		96	192	48	48
-brminingw4			brewireframe02		144	192	48	48
-brminingw5			brewireframe02		192	192	48	48
 
 
 
@@ -2087,17 +2082,22 @@ brminingw5			brewireframe02		192	192	48	48
 
 
 
-brresearw1			brewireframe03		0	48	48	48
-brresearw2			brewireframe03		48	48	48	48
-brresearw3			brewireframe03		96	48	48	48
-brresearw4			brewireframe03		144	48	48	48
-brresearw5			brewireframe03		192	48	48	48
 
-brresear2w1			brewireframe03		0	48	48	48
-brresear2w2			brewireframe03		48	48	48	48
-brresear2w3			brewireframe03		96	48	48	48
-brresear2w4			brewireframe03		144	48	48	48
-brresear2w5			brewireframe03		192	48	48	48
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2210,11 +2210,6 @@ dbasew5			domwireframe01		192	48	48	48
 
 
 
-dminingw1			domwireframe03		0	144	48	48
-dminingw2			domwireframe03		48	144	48	48
-dminingw3			domwireframe03		96	144	48	48
-dminingw4			domwireframe03		144	144	48	48
-dminingw5			domwireframe03		192	144	48	48
 
 
 
@@ -2222,17 +2217,22 @@ dminingw5			domwireframe03		192	144	48	48
 
 
 
-dresearw1			domwireframe04		0	0	48	48
-dresearw2			domwireframe04		48	0	48	48
-dresearw3			domwireframe04		96	0	48	48
-dresearw4			domwireframe04		144	0	48	48
-dresearw5			domwireframe04		192	0	48	48
 
-dresear2w1			domwireframe04		0	48	48	48
-dresear2w2			domwireframe04		48	48	48	48
-dresear2w3			domwireframe04		96	48	48	48
-dresear2w4			domwireframe04		144	48	48	48
-dresear2w5			domwireframe04		192	48	48	48
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2282,11 +2282,11 @@ dturret2w3			domwireframe06		96	0	48	48
 dturret2w4			domwireframe06		144	0	48	48
 dturret2w5			domwireframe06		192	0	48	48
 
-dupgradew1			domwireframe06		0	48	48	48
-dupgradew2			domwireframe06		48	48	48	48
-dupgradew3			domwireframe06		96	48	48	48
-dupgradew4			domwireframe06		144	48	48	48
-dupgradew5			domwireframe06		192	48	48	48
+
+
+
+
+
 
 
 
@@ -3948,7 +3948,7 @@ fbaseHQw1			fedwf06		128	128	128	128
 @skip=off
 @tmaterial=interface
 @reference=256
-bassturrw1			borgwf05		0	128	128	128
+
 @skip=off
 @tmaterial=interface
 @reference=256
@@ -3956,7 +3956,7 @@ bassturrw1			borgwf05		0	128	128	128
 @skip=off
 @tmaterial=interface
 @reference=256
-hubw1				borgwf07		0	128	128	128
+
 @skip=off
 @tmaterial=interface
 @reference=256
@@ -7365,7 +7365,7 @@ b_xvstock_8472_advancedresearch gb8472_AdvancedResearch 0	0	64	64
 
 @reference=256
 @tmaterial=interface
-8472_AdvancedResearchw1 8472wireframe04 0	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7373,7 +7373,7 @@ xvstock_8472_advancedresearchw1 8472wireframe04 0	144	48	48
 
 @reference=256
 @tmaterial=interface
-8472_AdvancedResearchw2 8472wireframe04 48	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7381,7 +7381,7 @@ xvstock_8472_advancedresearchw2 8472wireframe04 48	144	48	48
 
 @reference=256
 @tmaterial=interface
-8472_AdvancedResearchw3 8472wireframe04 96	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7389,7 +7389,7 @@ xvstock_8472_advancedresearchw3 8472wireframe04 96	144	48	48
 
 @reference=256
 @tmaterial=interface
-8472_AdvancedResearchw4 8472wireframe04 144	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7397,7 +7397,7 @@ xvstock_8472_advancedresearchw4 8472wireframe04 144	144	48	48
 
 @reference=256
 @tmaterial=interface
-8472_AdvancedResearchw5 8472wireframe04 192	144	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -7461,7 +7461,7 @@ xvstock_bbasew5 borgwireframe04 192	48	48	48
 
 @reference=256
 @tmaterial=interface
-bminingw1 borgwireframe04 0	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7469,7 +7469,7 @@ xvstock_bminingw1 borgwireframe04 0	96	48	48
 
 @reference=256
 @tmaterial=interface
-bminingw2 borgwireframe04 48	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7477,7 +7477,7 @@ xvstock_bminingw2 borgwireframe04 48	96	48	48
 
 @reference=256
 @tmaterial=interface
-bminingw3 borgwireframe04 96	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7485,7 +7485,7 @@ xvstock_bminingw3 borgwireframe04 96	96	48	48
 
 @reference=256
 @tmaterial=interface
-bminingw4 borgwireframe04 144	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7493,7 +7493,7 @@ xvstock_bminingw4 borgwireframe04 144	96	48	48
 
 @reference=256
 @tmaterial=interface
-bminingw5 borgwireframe04 192	96	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -7533,7 +7533,7 @@ xvstock_bminingw5 borgwireframe04 192	96	48	48
 
 @reference=256
 @tmaterial=interface
-bresearw1 borgwireframe06 0	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7541,7 +7541,7 @@ xvstock_bresearw1 borgwireframe06 0	96	48	48
 
 @reference=256
 @tmaterial=interface
-bresearw2 borgwireframe06 48	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7549,7 +7549,7 @@ xvstock_bresearw2 borgwireframe06 48	96	48	48
 
 @reference=256
 @tmaterial=interface
-bresearw3 borgwireframe06 96	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7557,7 +7557,7 @@ xvstock_bresearw3 borgwireframe06 96	96	48	48
 
 @reference=256
 @tmaterial=interface
-bresearw4 borgwireframe06 144	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7565,7 +7565,7 @@ xvstock_bresearw4 borgwireframe06 144	96	48	48
 
 @reference=256
 @tmaterial=interface
-bresearw5 borgwireframe06 192	96	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -7581,7 +7581,7 @@ b_xvstock_bresear2 gbbresear2 0	0	64	64
 
 @reference=256
 @tmaterial=interface
-bresear2w1 borgwireframe06 0	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7589,7 +7589,7 @@ xvstock_bresear2w1 borgwireframe06 0	144	48	48
 
 @reference=256
 @tmaterial=interface
-bresear2w2 borgwireframe06 48	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7597,7 +7597,7 @@ xvstock_bresear2w2 borgwireframe06 48	144	48	48
 
 @reference=256
 @tmaterial=interface
-bresear2w3 borgwireframe06 96	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7605,7 +7605,7 @@ xvstock_bresear2w3 borgwireframe06 96	144	48	48
 
 @reference=256
 @tmaterial=interface
-bresear2w4 borgwireframe06 144	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7613,7 +7613,7 @@ xvstock_bresear2w4 borgwireframe06 144	144	48	48
 
 @reference=256
 @tmaterial=interface
-bresear2w5 borgwireframe06 192	144	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -7779,7 +7779,7 @@ xvstock_bturret2w5 borgwireframe05 192	96	48	48
 
 @reference=256
 @tmaterial=interface
-bupgradew1 borgwireframe06 0	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7787,7 +7787,7 @@ xvstock_bupgradew1 borgwireframe06 0	192	48	48
 
 @reference=256
 @tmaterial=interface
-bupgradew2 borgwireframe06 48	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7795,7 +7795,7 @@ xvstock_bupgradew2 borgwireframe06 48	192	48	48
 
 @reference=256
 @tmaterial=interface
-bupgradew3 borgwireframe06 96	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7803,7 +7803,7 @@ xvstock_bupgradew3 borgwireframe06 96	192	48	48
 
 @reference=256
 @tmaterial=interface
-bupgradew4 borgwireframe06 144	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7811,7 +7811,7 @@ xvstock_bupgradew4 borgwireframe06 144	192	48	48
 
 @reference=256
 @tmaterial=interface
-bupgradew5 borgwireframe06 192	192	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -7971,7 +7971,7 @@ xvstock_cbasew5 cardwireframe04 192	144	48	48
 
 @reference=256
 @tmaterial=interface
-cminingw1 cardwireframe04 0	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7979,7 +7979,7 @@ xvstock_cminingw1 cardwireframe04 0	192	48	48
 
 @reference=256
 @tmaterial=interface
-cminingw2 cardwireframe04 48	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7987,7 +7987,7 @@ xvstock_cminingw2 cardwireframe04 48	192	48	48
 
 @reference=256
 @tmaterial=interface
-cminingw3 cardwireframe04 96	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -7995,7 +7995,7 @@ xvstock_cminingw3 cardwireframe04 96	192	48	48
 
 @reference=256
 @tmaterial=interface
-cminingw4 cardwireframe04 144	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8003,7 +8003,7 @@ xvstock_cminingw4 cardwireframe04 144	192	48	48
 
 @reference=256
 @tmaterial=interface
-cminingw5 cardwireframe04 192	192	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -8067,7 +8067,7 @@ xvstock_corbitalw5 cardwireframe06 192	0	48	48
 
 @reference=256
 @tmaterial=interface
-cresearw1 cardwireframe06 0	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8075,7 +8075,7 @@ xvstock_cresearw1 cardwireframe06 0	192	48	48
 
 @reference=256
 @tmaterial=interface
-cresearw2 cardwireframe06 48	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8083,7 +8083,7 @@ xvstock_cresearw2 cardwireframe06 48	192	48	48
 
 @reference=256
 @tmaterial=interface
-cresearw3 cardwireframe06 96	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8091,7 +8091,7 @@ xvstock_cresearw3 cardwireframe06 96	192	48	48
 
 @reference=256
 @tmaterial=interface
-cresearw4 cardwireframe06 144	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8099,7 +8099,7 @@ xvstock_cresearw4 cardwireframe06 144	192	48	48
 
 @reference=256
 @tmaterial=interface
-cresearw5 cardwireframe06 192	192	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -8115,7 +8115,7 @@ b_xvstock_cresear2 gbcresear2 0	0	64	64
 
 @reference=256
 @tmaterial=interface
-cresear2w1 cardwireframe07 0	0	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8123,7 +8123,7 @@ xvstock_cresear2w1 cardwireframe07 0	0	48	48
 
 @reference=256
 @tmaterial=interface
-cresear2w2 cardwireframe07 48	0	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8131,7 +8131,7 @@ xvstock_cresear2w2 cardwireframe07 48	0	48	48
 
 @reference=256
 @tmaterial=interface
-cresear2w3 cardwireframe07 96	0	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8139,7 +8139,7 @@ xvstock_cresear2w3 cardwireframe07 96	0	48	48
 
 @reference=256
 @tmaterial=interface
-cresear2w4 cardwireframe07 144	0	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8147,7 +8147,7 @@ xvstock_cresear2w4 cardwireframe07 144	0	48	48
 
 @reference=256
 @tmaterial=interface
-cresear2w5 cardwireframe07 192	0	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -8355,7 +8355,7 @@ xvstock_cturret2w5 cardwireframe05 192	192	48	48
 
 @reference=256
 @tmaterial=interface
-cupgradew1 cardwireframe07 0	48	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8363,7 +8363,7 @@ xvstock_cupgradew1 cardwireframe07 0	48	48	48
 
 @reference=256
 @tmaterial=interface
-cupgradew2 cardwireframe07 48	48	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8371,7 +8371,7 @@ xvstock_cupgradew2 cardwireframe07 48	48	48	48
 
 @reference=256
 @tmaterial=interface
-cupgradew3 cardwireframe07 96	48	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8379,7 +8379,7 @@ xvstock_cupgradew3 cardwireframe07 96	48	48	48
 
 @reference=256
 @tmaterial=interface
-cupgradew4 cardwireframe07 144	48	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8387,7 +8387,7 @@ xvstock_cupgradew4 cardwireframe07 144	48	48	48
 
 @reference=256
 @tmaterial=interface
-cupgradew5 cardwireframe07 192	48	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -8547,7 +8547,7 @@ xvstock_fbasew5 fedwireframe05 192	48	48	48
 
 @reference=256
 @tmaterial=interface
-fminingw1 fedwireframe05 0	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8555,7 +8555,7 @@ xvstock_fminingw1 fedwireframe05 0	96	48	48
 
 @reference=256
 @tmaterial=interface
-fminingw2 fedwireframe05 48	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8563,7 +8563,7 @@ xvstock_fminingw2 fedwireframe05 48	96	48	48
 
 @reference=256
 @tmaterial=interface
-fminingw3 fedwireframe05 96	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8571,7 +8571,7 @@ xvstock_fminingw3 fedwireframe05 96	96	48	48
 
 @reference=256
 @tmaterial=interface
-fminingw4 fedwireframe05 144	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8579,7 +8579,7 @@ xvstock_fminingw4 fedwireframe05 144	96	48	48
 
 @reference=256
 @tmaterial=interface
-fminingw5 fedwireframe05 192	96	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -8643,7 +8643,7 @@ xvstock_forbitalw5 fedwireframe07 192	0	48	48
 
 @reference=256
 @tmaterial=interface
-fresearw1 fedwireframe07 0	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8651,7 +8651,7 @@ xvstock_fresearw1 fedwireframe07 0	96	48	48
 
 @reference=256
 @tmaterial=interface
-fresearw2 fedwireframe07 48	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8659,7 +8659,7 @@ xvstock_fresearw2 fedwireframe07 48	96	48	48
 
 @reference=256
 @tmaterial=interface
-fresearw3 fedwireframe07 96	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8667,7 +8667,7 @@ xvstock_fresearw3 fedwireframe07 96	96	48	48
 
 @reference=256
 @tmaterial=interface
-fresearw4 fedwireframe07 144	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8675,7 +8675,7 @@ xvstock_fresearw4 fedwireframe07 144	96	48	48
 
 @reference=256
 @tmaterial=interface
-fresearw5 fedwireframe07 192	96	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -8691,7 +8691,7 @@ b_xvstock_fresear2 gbfrsrch200 0	0	64	64
 
 @reference=256
 @tmaterial=interface
-fresear2w1 fedwireframe07 0	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8699,7 +8699,7 @@ xvstock_fresear2w1 fedwireframe07 0	144	48	48
 
 @reference=256
 @tmaterial=interface
-fresear2w2 fedwireframe07 48	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8707,7 +8707,7 @@ xvstock_fresear2w2 fedwireframe07 48	144	48	48
 
 @reference=256
 @tmaterial=interface
-fresear2w3 fedwireframe07 96	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8715,7 +8715,7 @@ xvstock_fresear2w3 fedwireframe07 96	144	48	48
 
 @reference=256
 @tmaterial=interface
-fresear2w4 fedwireframe07 144	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8723,7 +8723,7 @@ xvstock_fresear2w4 fedwireframe07 144	144	48	48
 
 @reference=256
 @tmaterial=interface
-fresear2w5 fedwireframe07 192	144	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -8931,7 +8931,7 @@ xvstock_fturret2w5 fedwireframe06 192	96	48	48
 
 @reference=256
 @tmaterial=interface
-fupgradew1 fedwireframe07 0	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8939,7 +8939,7 @@ xvstock_fupgradew1 fedwireframe07 0	192	48	48
 
 @reference=256
 @tmaterial=interface
-fupgradew2 fedwireframe07 48	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8947,7 +8947,7 @@ xvstock_fupgradew2 fedwireframe07 48	192	48	48
 
 @reference=256
 @tmaterial=interface
-fupgradew3 fedwireframe07 96	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8955,7 +8955,7 @@ xvstock_fupgradew3 fedwireframe07 96	192	48	48
 
 @reference=256
 @tmaterial=interface
-fupgradew4 fedwireframe07 144	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -8963,7 +8963,7 @@ xvstock_fupgradew4 fedwireframe07 144	192	48	48
 
 @reference=256
 @tmaterial=interface
-fupgradew5 fedwireframe07 192	192	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -9123,7 +9123,7 @@ xvstock_kbasew5 klingwireframe04 192	144	48	48
 
 @reference=256
 @tmaterial=interface
-kminingw1 klingwireframe04 0	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9131,7 +9131,7 @@ xvstock_kminingw1 klingwireframe04 0	192	48	48
 
 @reference=256
 @tmaterial=interface
-kminingw2 klingwireframe04 48	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9139,7 +9139,7 @@ xvstock_kminingw2 klingwireframe04 48	192	48	48
 
 @reference=256
 @tmaterial=interface
-kminingw3 klingwireframe04 96	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9147,7 +9147,7 @@ xvstock_kminingw3 klingwireframe04 96	192	48	48
 
 @reference=256
 @tmaterial=interface
-kminingw4 klingwireframe04 144	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9155,7 +9155,7 @@ xvstock_kminingw4 klingwireframe04 144	192	48	48
 
 @reference=256
 @tmaterial=interface
-kminingw5 klingwireframe04 192	192	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -9219,7 +9219,7 @@ xvstock_korbitalw5 klingwireframe06 192	48	48	48
 
 @reference=256
 @tmaterial=interface
-kresearw1 klingwireframe06 0	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9227,7 +9227,7 @@ xvstock_kresearw1 klingwireframe06 0	144	48	48
 
 @reference=256
 @tmaterial=interface
-kresearw2 klingwireframe06 48	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9235,7 +9235,7 @@ xvstock_kresearw2 klingwireframe06 48	144	48	48
 
 @reference=256
 @tmaterial=interface
-kresearw3 klingwireframe06 96	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9243,7 +9243,7 @@ xvstock_kresearw3 klingwireframe06 96	144	48	48
 
 @reference=256
 @tmaterial=interface
-kresearw4 klingwireframe06 144	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9251,7 +9251,7 @@ xvstock_kresearw4 klingwireframe06 144	144	48	48
 
 @reference=256
 @tmaterial=interface
-kresearw5 klingwireframe06 192	144	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -9267,7 +9267,7 @@ b_xvstock_kresear2 gbkresear2 0	0	64	64
 
 @reference=256
 @tmaterial=interface
-kresear2w1 klingwireframe06 0	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9275,7 +9275,7 @@ xvstock_kresear2w1 klingwireframe06 0	192	48	48
 
 @reference=256
 @tmaterial=interface
-kresear2w2 klingwireframe06 48	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9283,7 +9283,7 @@ xvstock_kresear2w2 klingwireframe06 48	192	48	48
 
 @reference=256
 @tmaterial=interface
-kresear2w3 klingwireframe06 96	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9291,7 +9291,7 @@ xvstock_kresear2w3 klingwireframe06 96	192	48	48
 
 @reference=256
 @tmaterial=interface
-kresear2w4 klingwireframe06 144	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9299,7 +9299,7 @@ xvstock_kresear2w4 klingwireframe06 144	192	48	48
 
 @reference=256
 @tmaterial=interface
-kresear2w5 klingwireframe06 192	192	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -9507,7 +9507,7 @@ xvstock_kturret2w5 klingwireframe05 192	192	48	48
 
 @reference=256
 @tmaterial=interface
-kupgradew1 klingwireframe07 0	0	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9515,7 +9515,7 @@ xvstock_kupgradew1 klingwireframe07 0	0	48	48
 
 @reference=256
 @tmaterial=interface
-kupgradew2 klingwireframe07 48	0	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9523,7 +9523,7 @@ xvstock_kupgradew2 klingwireframe07 48	0	48	48
 
 @reference=256
 @tmaterial=interface
-kupgradew3 klingwireframe07 96	0	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9531,7 +9531,7 @@ xvstock_kupgradew3 klingwireframe07 96	0	48	48
 
 @reference=256
 @tmaterial=interface
-kupgradew4 klingwireframe07 144	0	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9539,7 +9539,7 @@ xvstock_kupgradew4 klingwireframe07 144	0	48	48
 
 @reference=256
 @tmaterial=interface
-kupgradew5 klingwireframe07 192	0	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -9699,7 +9699,7 @@ xvstock_rbasew5 romwireframe04 192	96	48	48
 
 @reference=256
 @tmaterial=interface
-rminingw1 romwireframe04 0	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9707,7 +9707,7 @@ xvstock_rminingw1 romwireframe04 0	144	48	48
 
 @reference=256
 @tmaterial=interface
-rminingw2 romwireframe04 48	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9715,7 +9715,7 @@ xvstock_rminingw2 romwireframe04 48	144	48	48
 
 @reference=256
 @tmaterial=interface
-rminingw3 romwireframe04 96	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9723,7 +9723,7 @@ xvstock_rminingw3 romwireframe04 96	144	48	48
 
 @reference=256
 @tmaterial=interface
-rminingw4 romwireframe04 144	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9731,7 +9731,7 @@ xvstock_rminingw4 romwireframe04 144	144	48	48
 
 @reference=256
 @tmaterial=interface
-rminingw5 romwireframe04 192	144	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -9795,7 +9795,7 @@ xvstock_rorbitalw5 romwireframe06 192	0	48	48
 
 @reference=256
 @tmaterial=interface
-rresearw1 romwireframe06 0	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9803,7 +9803,7 @@ xvstock_rresearw1 romwireframe06 0	96	48	48
 
 @reference=256
 @tmaterial=interface
-rresearw2 romwireframe06 48	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9811,7 +9811,7 @@ xvstock_rresearw2 romwireframe06 48	96	48	48
 
 @reference=256
 @tmaterial=interface
-rresearw3 romwireframe06 96	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9819,7 +9819,7 @@ xvstock_rresearw3 romwireframe06 96	96	48	48
 
 @reference=256
 @tmaterial=interface
-rresearw4 romwireframe06 144	96	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9827,7 +9827,7 @@ xvstock_rresearw4 romwireframe06 144	96	48	48
 
 @reference=256
 @tmaterial=interface
-rresearw5 romwireframe06 192	96	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -9843,7 +9843,7 @@ xvstock_rresearw5 romwireframe06 192	96	48	48
 
 @reference=256
 @tmaterial=interface
-rresear2w1 romwireframe06 0	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9851,7 +9851,7 @@ xvstock_rresear2w1 romwireframe06 0	144	48	48
 
 @reference=256
 @tmaterial=interface
-rresear2w2 romwireframe06 48	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9859,7 +9859,7 @@ xvstock_rresear2w2 romwireframe06 48	144	48	48
 
 @reference=256
 @tmaterial=interface
-rresear2w3 romwireframe06 96	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9867,7 +9867,7 @@ xvstock_rresear2w3 romwireframe06 96	144	48	48
 
 @reference=256
 @tmaterial=interface
-rresear2w4 romwireframe06 144	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -9875,7 +9875,7 @@ xvstock_rresear2w4 romwireframe06 144	144	48	48
 
 @reference=256
 @tmaterial=interface
-rresear2w5 romwireframe06 192	144	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -10083,7 +10083,7 @@ xvstock_rturret2w5 romwireframe05 192	144	48	48
 
 @reference=256
 @tmaterial=interface
-Rupgradew1 romwireframe06 0	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -10091,7 +10091,7 @@ xvstock_rupgradew1 romwireframe06 0	192	48	48
 
 @reference=256
 @tmaterial=interface
-Rupgradew2 romwireframe06 48	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -10099,7 +10099,7 @@ xvstock_rupgradew2 romwireframe06 48	192	48	48
 
 @reference=256
 @tmaterial=interface
-Rupgradew3 romwireframe06 96	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -10107,7 +10107,7 @@ xvstock_rupgradew3 romwireframe06 96	192	48	48
 
 @reference=256
 @tmaterial=interface
-Rupgradew4 romwireframe06 144	192	48	48		
+
 
 @reference=256
 @tmaterial=interface
@@ -10115,7 +10115,7 @@ xvstock_rupgradew4 romwireframe06 144	192	48	48
 
 @reference=256
 @tmaterial=interface
-Rupgradew5 romwireframe06 192	192	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -10615,43 +10615,43 @@ kprisonw5 klingwireframe04 192	144	48	48
 
 @reference=256
 @tmaterial=interface
-xbomegalabw1 borgwireframe06 0	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
-xbomegalabw2 borgwireframe06 48	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
-xbomegalabw3 borgwireframe06 96	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
-xbomegalabw4 borgwireframe06 144	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
-xbomegalabw5 borgwireframe06 192	144	48	48
+
 
 @reference=256
 @tmaterial=interface
-xfomegalabw1 fedwireframe07 0	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
-xfomegalabw2 fedwireframe07 48	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
-xfomegalabw3 fedwireframe07 96	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
-xfomegalabw4 fedwireframe07 144	144	48	48		
+
 
 @reference=256
 @tmaterial=interface
-xfomegalabw5 fedwireframe07 192	144	48	48
+
 
 @reference=256
 @tmaterial=interface
@@ -10903,35 +10903,35 @@ xfomegalabw5 fedwireframe07 192	144	48	48
 
 @reference=64
 @tmaterial=default
-bassturrw2 gbbassturr 0	0	64	64
+
 
 @reference=64
 @tmaterial=default
-bassturrw3 gbbassturr 0	0	64	64
+
 
 @reference=64
 @tmaterial=default
-bassturrw4 gbbassturr 0	0	64	64
+
 
 @reference=64
 @tmaterial=default
-bassturrw5 gbbassturr 0	0	64	64
+
 
 @reference=64
 @tmaterial=default
-hubw2 gbhub 0	0	64	64
+
 
 @reference=64
 @tmaterial=default
-hubw3 gbhub 0	0	64	64
+
 
 @reference=64
 @tmaterial=default
-hubw4 gbhub 0	0	64	64
+
 
 @reference=64
 @tmaterial=default
-hubw5 gbhub 0	0	64	64
+
 
 @reference=64
 @tmaterial=default
@@ -21230,11 +21230,11 @@ b_xrstheleron			gbbpod900	0	0	64	64
 @tmaterial=default
 
 @reference=256
-xselaresearchw1 zhRombaseWF 0 0 128 128
-xselaresearchw2 zhRombaseWF 0 0 128 128
-xselaresearchw3 zhRombaseWF 0 0 128 128
-xselaresearchw4 zhRombaseWF 0 0 128 128
-xselaresearchw5 zhRombaseWF 0 0 128 128
+
+
+
+
+
 
 @reference=64
 @tmaterial=default
@@ -21511,11 +21511,11 @@ bjcruiserw5 wfbv4_bjcruiser 0 0 256 256
 @tmaterial=default
 
 @reference=256
-bjfreightw1 wfbv4_bjfreight 0 0 256 256
-bjfreightw2 wfbv4_bjfreight 0 0 256 256
-bjfreightw3 wfbv4_bjfreight 0 0 256 256
-bjfreightw4 wfbv4_bjfreight 0 0 256 256
-bjfreightw5 wfbv4_bjfreight 0 0 256 256
+
+
+
+
+
 
 @reference=64
 @tmaterial=default
@@ -21661,11 +21661,11 @@ bjbasew5 wfbv4_bjbase 0 0 256 256
 @tmaterial=default
 
 @reference=256
-bjminingw1 wfbv4_bjmining 0 0 256 256
-bjminingw2 wfbv4_bjmining 0 0 256 256
-bjminingw3 wfbv4_bjmining 0 0 256 256
-bjminingw4 wfbv4_bjmining 0 0 256 256
-bjminingw5 wfbv4_bjmining 0 0 256 256
+
+
+
+
+
 
 @reference=64
 @tmaterial=default
@@ -21881,21 +21881,21 @@ bjpod9w5 wfbv4_bjpod9 0 0 256 256
 @tmaterial=default
 
 @reference=256
-bjresearw1 wfbv4_bjresear 0 0 256 256
-bjresearw2 wfbv4_bjresear 0 0 256 256
-bjresearw3 wfbv4_bjresear 0 0 256 256
-bjresearw4 wfbv4_bjresear 0 0 256 256
-bjresearw5 wfbv4_bjresear 0 0 256 256
+
+
+
+
+
 
 @reference=64
 @tmaterial=default
 
 @reference=256
-bjresear2w1 wfbv4_bjresear2 0 0 256 256
-bjresear2w2 wfbv4_bjresear2 0 0 256 256
-bjresear2w3 wfbv4_bjresear2 0 0 256 256
-bjresear2w4 wfbv4_bjresear2 0 0 256 256
-bjresear2w5 wfbv4_bjresear2 0 0 256 256
+
+
+
+
+
 
 @reference=64
 @tmaterial=default
@@ -21951,11 +21951,11 @@ bjturret2w5 wfbv4_bjturret2 0 0 256 256
 @tmaterial=default
 
 @reference=256
-bjupgradew1 wfbv4_bjupgrade 0 0 256 256
-bjupgradew2 wfbv4_bjupgrade 0 0 256 256
-bjupgradew3 wfbv4_bjupgrade 0 0 256 256
-bjupgradew4 wfbv4_bjupgrade 0 0 256 256
-bjupgradew5 wfbv4_bjupgrade 0 0 256 256
+
+
+
+
+
 
 @reference=64
 @tmaterial=default
@@ -28913,11 +28913,11 @@ mryferw5 wfxfgmerc 0 0 256 256
 @tmaterial=default
 
 @reference=256
-xsbiolabw1 wfxsbiolab 0 0 256 256
-xsbiolabw2 wfxsbiolab 0 0 256 256
-xsbiolabw3 wfxsbiolab 0 0 256 256
-xsbiolabw4 wfxsbiolab 0 0 256 256
-xsbiolabw5 wfxsbiolab 0 0 256 256
+
+
+
+
+
 
 @reference=64
 @tmaterial=default
@@ -28925,23 +28925,23 @@ xsbiolabw5 wfxsbiolab 0 0 256 256
 
 @reference=256
 @tmaterial=default
-xsbiolabw1 wfxsbiolab 0 0 256 256
+
 
 @reference=256
 @tmaterial=default
-xsbiolabw2 wfxsbiolab 0 0 256 256
+
 
 @reference=256
 @tmaterial=default
-xsbiolabw3 wfxsbiolab 0 0 256 256
+
 
 @reference=256
 @tmaterial=default
-xsbiolabw4 wfxsbiolab 0 0 256 256
+
 
 @reference=256
 @tmaterial=default
-xsbiolabw5 wfxsbiolab 0 0 256 256
+
 
 @reference=64
 @tmaterial=default
@@ -30277,11 +30277,11 @@ b_8472_active xuiatlas00 64 64 64 64
 
 @reference=512
 @tmaterial=default
-b_8472_advancedresearch xuiatlas00 128 64 64 64
+
 
 @reference=512
 @tmaterial=default
-b_8472_basicresearch xuiatlas00 192 64 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -30293,7 +30293,7 @@ b_8472_behemoth xuiatlas00 320 64 64 64
 
 @reference=512
 @tmaterial=default
-b_8472_collector xuiatlas00 384 64 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -30421,11 +30421,11 @@ b_8472_sentinel xuiatlas00 320 320 64 64
 
 @reference=512
 @tmaterial=default
-b_8472_shipupgraderesearch xuiatlas00 384 320 64 64
+
 
 @reference=512
 @tmaterial=default
-b_8472_transmuter xuiatlas00 448 320 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -30453,7 +30453,7 @@ b_bassault xuiatlas00 320 384 64 64
 
 @reference=512
 @tmaterial=default
-b_bassturr xuiatlas00 384 384 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -30529,7 +30529,7 @@ b_bdestroy2 xuiatlas01 0 64 64 64
 
 @reference=512
 @tmaterial=default
-b_bfreight xuiatlas01 64 64 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -30585,7 +30585,7 @@ b_bjcruiser xuiatlas01 384 128 64 64
 
 @reference=512
 @tmaterial=default
-b_bjfreight xuiatlas01 448 128 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -30605,7 +30605,7 @@ b_bjlightship xuiatlas01 192 192 64 64
 
 @reference=512
 @tmaterial=default
-b_bjmining xuiatlas01 256 192 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -30705,11 +30705,11 @@ b_bjrepair xuiatlas01 256 384 64 64
 
 @reference=512
 @tmaterial=default
-b_bjresear xuiatlas01 320 384 64 64
+
 
 @reference=512
 @tmaterial=default
-b_bjresear2 xuiatlas01 384 384 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -30753,7 +30753,7 @@ b_bjturret2 xuiatlas02 0 0 64 64
 
 @reference=512
 @tmaterial=default
-b_bjupgrade xuiatlas02 64 0 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -30777,7 +30777,7 @@ b_bmama xuiatlas02 384 0 64 64
 
 @reference=512
 @tmaterial=default
-b_bmining xuiatlas02 448 0 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -30925,15 +30925,15 @@ b_brenborg xuiatlas02 192 320 64 64
 
 @reference=512
 @tmaterial=default
-b_bresear xuiatlas02 256 320 64 64
-
-@reference=512
-@tmaterial=default
 
 
 @reference=512
 @tmaterial=default
-b_brfreight xuiatlas02 384 320 64 64
+
+
+@reference=512
+@tmaterial=default
+
 
 @reference=512
 @tmaterial=default
@@ -30941,7 +30941,11 @@ b_brfrigate xuiatlas02 448 320 64 64
 
 @reference=512
 @tmaterial=default
-b_brmining xuiatlas02 0 384 64 64
+
+
+@reference=512
+@tmaterial=default
+
 
 @reference=512
 @tmaterial=default
@@ -30949,11 +30953,7 @@ b_brmining xuiatlas02 0 384 64 64
 
 @reference=512
 @tmaterial=default
-b_brresear xuiatlas02 128 384 64 64
 
-@reference=512
-@tmaterial=default
-b_brresear2 xuiatlas02 192 384 64 64
 
 @reference=512
 @tmaterial=default
@@ -30997,7 +30997,7 @@ b_btacpyr xuiatlas02 320 448 64 64
 
 @reference=512
 @tmaterial=default
-b_btechass xuiatlas02 384 448 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -31009,7 +31009,7 @@ b_bturret2 xuiatlas03 0 0 64 64
 
 @reference=512
 @tmaterial=default
-b_bupgrade xuiatlas03 64 0 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -31161,7 +31161,7 @@ b_cdestroy2 xuiatlas03 384 256 64 64
 
 @reference=512
 @tmaterial=default
-b_cfreight xuiatlas03 448 256 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -31189,7 +31189,7 @@ b_ckimal xuiatlas03 320 320 64 64
 
 @reference=512
 @tmaterial=default
-b_cmining xuiatlas03 384 320 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -31221,11 +31221,11 @@ b_cquantum xuiatlas03 320 384 64 64
 
 @reference=512
 @tmaterial=default
-b_cresear xuiatlas03 384 384 64 64
+
 
 @reference=512
 @tmaterial=default
-b_cresear2 xuiatlas03 448 384 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -31273,7 +31273,7 @@ b_cturret2 xuiatlas04 128 0 64 64
 
 @reference=512
 @tmaterial=default
-b_cupgrade xuiatlas04 192 0 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -31345,7 +31345,7 @@ b_ddestroy xuiatlas04 128 128 64 64
 
 @reference=512
 @tmaterial=default
-b_dmining xuiatlas04 320 128 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -31461,11 +31461,11 @@ b_domyard xuiatlas04 0 384 64 64
 
 @reference=512
 @tmaterial=default
-b_dresear xuiatlas04 128 384 64 64
+
 
 @reference=512
 @tmaterial=default
-b_dresear2 xuiatlas04 192 384 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -31513,7 +31513,7 @@ b_dturret2 xuiatlas04 320 448 64 64
 
 @reference=512
 @tmaterial=default
-b_dupgrade xuiatlas04 448 448 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -31825,7 +31825,7 @@ b_ffighter xuiatlas06 256 64 64 64
 
 @reference=512
 @tmaterial=default
-b_ffreight xuiatlas06 320 64 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -31869,7 +31869,7 @@ b_fmidas xuiatlas06 448 128 64 64
 
 @reference=512
 @tmaterial=default
-b_fmining xuiatlas06 0 192 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -31945,7 +31945,7 @@ b_fregula xuiatlas06 64 320 64 64
 
 @reference=512
 @tmaterial=default
-b_fresear xuiatlas06 192 320 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -32021,7 +32021,7 @@ b_fturret2 xuiatlas06 320 448 64 64
 
 @reference=512
 @tmaterial=default
-b_fupgrade xuiatlas06 384 448 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -32053,7 +32053,7 @@ b_gcutter xuiatlas07 320 0 64 64
 
 @reference=512
 @tmaterial=default
-b_hub xuiatlas07 384 0 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -32149,7 +32149,7 @@ b_ken_special xuiatlas07 320 192 64 64
 
 @reference=512
 @tmaterial=default
-b_kfreight xuiatlas07 384 192 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -32297,7 +32297,7 @@ b_kmartok xuiatlas08 128 0 64 64
 
 @reference=512
 @tmaterial=default
-b_kmining xuiatlas08 192 0 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -32317,11 +32317,11 @@ b_kquon xuiatlas08 448 0 64 64
 
 @reference=512
 @tmaterial=default
-b_kresear xuiatlas08 0 64 64 64
+
 
 @reference=512
 @tmaterial=default
-b_kresear2 xuiatlas08 64 64 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -32361,7 +32361,7 @@ b_kturret2 xuiatlas08 128 128 64 64
 
 @reference=512
 @tmaterial=default
-b_kupgrade xuiatlas08 192 128 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -32785,7 +32785,7 @@ b_rdverix xuiatlas09 256 448 64 64
 
 @reference=512
 @tmaterial=default
-b_rfreight xuiatlas09 320 448 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -32801,7 +32801,7 @@ b_rktinga xuiatlas10 0 0 64 64
 
 @reference=512
 @tmaterial=default
-b_rmining xuiatlas10 64 0 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -32889,11 +32889,11 @@ b_rompod9 xuiatlas10 320 128 64 64
 
 @reference=512
 @tmaterial=default
-b_rresear xuiatlas10 448 128 64 64
+
 
 @reference=512
 @tmaterial=default
-b_rresear2 xuiatlas10 0 192 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -32973,7 +32973,7 @@ b_rturret2 xuiatlas10 192 320 64 64
 
 @reference=512
 @tmaterial=default
-b_rupgrade xuiatlas10 256 320 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -33081,11 +33081,11 @@ b_xbgdest xuiatlas11 384 0 64 64
 
 @reference=512
 @tmaterial=default
-b_xbgdil2 xuiatlas11 448 0 64 64
+
 
 @reference=512
 @tmaterial=default
-b_xbgdil3 xuiatlas11 0 64 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -33109,7 +33109,7 @@ b_xbgfrig xuiatlas11 128 64 64 64
 
 @reference=512
 @tmaterial=default
-b_xbgmine xuiatlas11 384 64 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -33169,7 +33169,7 @@ b_xbjoutpost xuiatlas11 192 192 64 64
 
 @reference=512
 @tmaterial=default
-b_xbomegalab xuiatlas11 320 192 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -33181,7 +33181,7 @@ b_xbomegapod xuiatlas11 384 192 64 64
 
 @reference=512
 @tmaterial=default
-b_xbrepair xuiatlas11 0 256 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -33245,7 +33245,7 @@ b_xdofrigate xuiatlas11 448 320 64 64
 
 @reference=512
 @tmaterial=default
-b_xdominer xuiatlas11 0 384 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -33277,11 +33277,11 @@ b_xfgdest xuiatlas11 448 384 64 64
 
 @reference=512
 @tmaterial=default
-b_xfgdil2 xuiatlas11 0 448 64 64
+
 
 @reference=512
 @tmaterial=default
-b_xfgdil3 xuiatlas11 64 448 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -33313,7 +33313,7 @@ b_xfglat3 xuiatlas11 320 448 64 64
 
 @reference=512
 @tmaterial=default
-b_xfgmine xuiatlas12 64 0 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -33373,7 +33373,7 @@ b_xfgtrade xuiatlas12 384 64 64 64
 
 @reference=512
 @tmaterial=default
-b_xfomegalab xuiatlas12 0 128 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -33553,11 +33553,11 @@ b_xrthelpod xuiatlas12 192 448 64 64
 
 @reference=512
 @tmaterial=default
-b_xsbcol1 xuiatlas12 320 448 64 64
+
 
 @reference=512
 @tmaterial=default
-b_xsbcol2 xuiatlas12 384 448 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -33569,11 +33569,11 @@ b_xsbio2 xuiatlas13 0 0 64 64
 
 @reference=512
 @tmaterial=default
-b_xsbiolab xuiatlas13 64 0 64 64
+
 
 @reference=512
 @tmaterial=default
-b_xselaresearch xuiatlas13 128 0 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -35795,7 +35795,7 @@ b_bv4_xbjoutpost xuiatlas11 192 192 64 64
 
 @reference=512
 @tmaterial=default
-b_bresear2 xuiatlas11 320 192 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -35859,7 +35859,7 @@ b_dfrigate xuiatlas11 448 320 64 64
 
 @reference=512
 @tmaterial=default
-b_dfreight xuiatlas11 0 384 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -36395,7 +36395,7 @@ xui_xfgservw5 wfxfgserv 0 0 256 256
 
 @reference=512
 @tmaterial=default
-b_fresear2 xuiatlas12 0 128 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -36987,23 +36987,23 @@ xui_8472_battlew5 xqw_8472_battle 0 0 64 64
 
 @reference=64
 @tmaterial=default
-8472_collectorw1 xqw_8472_collector 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-8472_collectorw2 xqw_8472_collector 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-8472_collectorw3 xqw_8472_collector 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-8472_collectorw4 xqw_8472_collector 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-8472_collectorw5 xqw_8472_collector 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
@@ -37247,23 +37247,23 @@ xvstock_8472_mothershipw5 xqw_8472_mother 0 0 64 64
 
 @reference=64
 @tmaterial=default
-8472_transmuterw1 xqw_8472_transmuter 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-8472_transmuterw2 xqw_8472_transmuter 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-8472_transmuterw3 xqw_8472_transmuter 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-8472_transmuterw4 xqw_8472_transmuter 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-8472_transmuterw5 xqw_8472_transmuter 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
@@ -37767,23 +37767,23 @@ bdestroy2w5 xqw_bdestroy2 0 0 64 64
 
 @reference=64
 @tmaterial=default
-bfreightw1 xqw_bfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-bfreightw2 xqw_bfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-bfreightw3 xqw_bfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-bfreightw4 xqw_bfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-bfreightw5 xqw_bfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
@@ -38147,23 +38147,23 @@ brenborgw5 xqw_brenborg 0 0 64 64
 
 @reference=64
 @tmaterial=default
-brfreightw1 xqw_brfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-brfreightw2 xqw_brfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-brfreightw3 xqw_brfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-brfreightw4 xqw_brfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-brfreightw5 xqw_brfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
@@ -38567,23 +38567,23 @@ cdestroy2w5 xqw_cdestroy2 0 0 64 64
 
 @reference=64
 @tmaterial=default
-cfreightw1 xqw_cfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-cfreightw2 xqw_cfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-cfreightw3 xqw_cfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-cfreightw4 xqw_cfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-cfreightw5 xqw_cfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
@@ -39207,23 +39207,23 @@ xui_ddestroyw5 xqw_ddestroy 0 0 64 64
 
 @reference=64
 @tmaterial=default
-dfreightw1 xqw_dfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-dfreightw2 xqw_dfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-dfreightw3 xqw_dfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-dfreightw4 xqw_dfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-dfreightw5 xqw_dfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
@@ -40407,23 +40407,23 @@ ffighterw5 xqw_ffighter 0 0 64 64
 
 @reference=64
 @tmaterial=default
-ffreightw1 xqw_ffreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-ffreightw2 xqw_ffreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-ffreightw3 xqw_ffreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-ffreightw4 xqw_ffreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-ffreightw5 xqw_ffreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
@@ -41667,23 +41667,23 @@ xui_ken_specialw5 xqw_ken_special 0 0 64 64
 
 @reference=64
 @tmaterial=default
-kfreightw1 xqw_kfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-kfreightw2 xqw_kfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-kfreightw3 xqw_kfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-kfreightw4 xqw_kfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-kfreightw5 xqw_kfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
@@ -43627,23 +43627,23 @@ rdverixw5 xqw_rdverix 0 0 64 64
 
 @reference=64
 @tmaterial=default
-rfreightw1 xqw_rfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-rfreightw2 xqw_rfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-rfreightw3 xqw_rfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-rfreightw4 xqw_rfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-rfreightw5 xqw_rfreight 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
@@ -44327,23 +44327,23 @@ xui_xbgdestw5 xqw_xbgdest 0 0 64 64
 
 @reference=64
 @tmaterial=default
-xbgdil2w1 xqw_xbgdil2 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xbgdil2w2 xqw_xbgdil2 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xbgdil2w3 xqw_xbgdil2 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xbgdil2w4 xqw_xbgdil2 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xbgdil2w5 xqw_xbgdil2 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
@@ -44367,23 +44367,23 @@ xui_xbgdil2w5 xqw_xbgdil2 0 0 64 64
 
 @reference=64
 @tmaterial=default
-xbgdil3w1 xqw_xbgdil3 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xbgdil3w2 xqw_xbgdil3 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xbgdil3w3 xqw_xbgdil3 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xbgdil3w4 xqw_xbgdil3 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xbgdil3w5 xqw_xbgdil3 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
@@ -44467,23 +44467,23 @@ xui_xbgfrigw5 xqw_xbgfrig 0 0 64 64
 
 @reference=64
 @tmaterial=default
-xbgminew1 xqw_xbgmine 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xbgminew2 xqw_xbgmine 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xbgminew3 xqw_xbgmine 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xbgminew4 xqw_xbgmine 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xbgminew5 xqw_xbgmine 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
@@ -44687,23 +44687,23 @@ xui_xbgromw5 xqw_xbgrom 0 0 64 64
 
 @reference=64
 @tmaterial=default
-xbrepairw1 xqw_xbrepair 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xbrepairw2 xqw_xbrepair 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xbrepairw3 xqw_xbrepair 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xbrepairw4 xqw_xbrepair 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xbrepairw5 xqw_xbrepair 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
@@ -45027,23 +45027,23 @@ xdofrigatew5 xqw_xdofrigate 0 0 64 64
 
 @reference=64
 @tmaterial=default
-xdominerw1 xqw_xdominer 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xdominerw2 xqw_xdominer 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xdominerw3 xqw_xdominer 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xdominerw4 xqw_xdominer 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xdominerw5 xqw_xdominer 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
@@ -45287,23 +45287,23 @@ xui_xfgdestw5 xqw_xfgdest 0 0 64 64
 
 @reference=64
 @tmaterial=default
-xfgdil2w1 xqw_xfgdil2 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xfgdil2w2 xqw_xfgdil2 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xfgdil2w3 xqw_xfgdil2 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xfgdil2w4 xqw_xfgdil2 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xfgdil2w5 xqw_xfgdil2 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
@@ -45327,23 +45327,23 @@ xui_xfgdil2w5 xqw_xfgdil2 0 0 64 64
 
 @reference=64
 @tmaterial=default
-xfgdil3w1 xqw_xfgdil3 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xfgdil3w2 xqw_xfgdil3 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xfgdil3w3 xqw_xfgdil3 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xfgdil3w4 xqw_xfgdil3 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xfgdil3w5 xqw_xfgdil3 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
@@ -45487,23 +45487,23 @@ xfglat3w5 xqw_xfglat3 0 0 64 64
 
 @reference=64
 @tmaterial=default
-xfgminew1 xqw_xfgmine 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xfgminew2 xqw_xfgmine 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xfgminew3 xqw_xfgmine 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xfgminew4 xqw_xfgmine 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xfgminew5 xqw_xfgmine 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
@@ -46747,43 +46747,43 @@ xofpromw5 xqw_xofprom 0 0 64 64
 
 @reference=64
 @tmaterial=default
-xsbcol1w1 xqw_xsbcol1 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xsbcol1w2 xqw_xsbcol1 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xsbcol1w3 xqw_xsbcol1 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xsbcol1w4 xqw_xsbcol1 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xsbcol1w5 xqw_xsbcol1 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xsbcol2w1 xqw_xsbcol2 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xsbcol2w2 xqw_xsbcol2 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xsbcol2w3 xqw_xsbcol2 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xsbcol2w4 xqw_xsbcol2 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
-xsbcol2w5 xqw_xsbcol2 0 0 64 64
+
 
 @reference=64
 @tmaterial=default
@@ -47346,13 +47346,13 @@ vr26_brconstw5 wfvr26_brconst 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_brecycle gbvr26_brecycle 0 0 64 64
+
 b_vr26_brecycle gbvr26_brecycle 0 0 64 64
-brecyclew1 wfvr26_brecycle 0 0 64 64
-brecyclew2 wfvr26_brecycle 0 0 64 64
-brecyclew3 wfvr26_brecycle 0 0 64 64
-brecyclew4 wfvr26_brecycle 0 0 64 64
-brecyclew5 wfvr26_brecycle 0 0 64 64
+
+
+
+
+
 vr26_brecyclew1 wfvr26_brecycle 0 0 64 64
 vr26_brecyclew2 wfvr26_brecycle 0 0 64 64
 vr26_brecyclew3 wfvr26_brecycle 0 0 64 64
@@ -48081,13 +48081,13 @@ vr26_uconstw5 wfvr26_uconst 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_xbassimst gbvr26_xbassimst 0 0 64 64
+
 b_vr26_xbassimst gbvr26_xbassimst 0 0 64 64
-xbassimstw1 wfvr26_xbassimst 0 0 64 64
-xbassimstw2 wfvr26_xbassimst 0 0 64 64
-xbassimstw3 wfvr26_xbassimst 0 0 64 64
-xbassimstw4 wfvr26_xbassimst 0 0 64 64
-xbassimstw5 wfvr26_xbassimst 0 0 64 64
+
+
+
+
+
 vr26_xbassimstw1 wfvr26_xbassimst 0 0 64 64
 vr26_xbassimstw2 wfvr26_xbassimst 0 0 64 64
 vr26_xbassimstw3 wfvr26_xbassimst 0 0 64 64
@@ -48126,13 +48126,13 @@ vr26_xbgconst2w5 wfvr26_xbgconst2 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_xbgdref gbvr26_xbgdref 0 0 64 64
+
 b_vr26_xbgdref gbvr26_xbgdref 0 0 64 64
-xbgdrefw1 wfvr26_xbgdref 0 0 64 64
-xbgdrefw2 wfvr26_xbgdref 0 0 64 64
-xbgdrefw3 wfvr26_xbgdref 0 0 64 64
-xbgdrefw4 wfvr26_xbgdref 0 0 64 64
-xbgdrefw5 wfvr26_xbgdref 0 0 64 64
+
+
+
+
+
 vr26_xbgdrefw1 wfvr26_xbgdref 0 0 64 64
 vr26_xbgdrefw2 wfvr26_xbgdref 0 0 64 64
 vr26_xbgdrefw3 wfvr26_xbgdref 0 0 64 64
@@ -48246,13 +48246,13 @@ vr26_xbgpmet2w5 wfvr26_xbgpmet2 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_xbgresearch gbvr26_xbgresearch 0 0 64 64
+
 b_vr26_xbgresearch gbvr26_xbgresearch 0 0 64 64
-xbgresearchw1 wfvr26_xbgresearch 0 0 64 64
-xbgresearchw2 wfvr26_xbgresearch 0 0 64 64
-xbgresearchw3 wfvr26_xbgresearch 0 0 64 64
-xbgresearchw4 wfvr26_xbgresearch 0 0 64 64
-xbgresearchw5 wfvr26_xbgresearch 0 0 64 64
+
+
+
+
+
 vr26_xbgresearchw1 wfvr26_xbgresearch 0 0 64 64
 vr26_xbgresearchw2 wfvr26_xbgresearch 0 0 64 64
 vr26_xbgresearchw3 wfvr26_xbgresearch 0 0 64 64
@@ -48471,13 +48471,13 @@ vr26_xfgconst2w5 wfvr26_xfgconst2 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_xfgdref gbvr26_xfgdref 0 0 64 64
+
 b_vr26_xfgdref gbvr26_xfgdref 0 0 64 64
-xfgdrefw1 wfvr26_xfgdref 0 0 64 64
-xfgdrefw2 wfvr26_xfgdref 0 0 64 64
-xfgdrefw3 wfvr26_xfgdref 0 0 64 64
-xfgdrefw4 wfvr26_xfgdref 0 0 64 64
-xfgdrefw5 wfvr26_xfgdref 0 0 64 64
+
+
+
+
+
 vr26_xfgdrefw1 wfvr26_xfgdref 0 0 64 64
 vr26_xfgdrefw2 wfvr26_xfgdref 0 0 64 64
 vr26_xfgdrefw3 wfvr26_xfgdref 0 0 64 64
@@ -48621,13 +48621,13 @@ vr26_xfgpmet2w5 wfvr26_xfgpmet2 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_xfgresearch gbvr26_xfgresearch 0 0 64 64
+
 b_vr26_xfgresearch gbvr26_xfgresearch 0 0 64 64
-xfgresearchw1 wfvr26_xfgresearch 0 0 64 64
-xfgresearchw2 wfvr26_xfgresearch 0 0 64 64
-xfgresearchw3 wfvr26_xfgresearch 0 0 64 64
-xfgresearchw4 wfvr26_xfgresearch 0 0 64 64
-xfgresearchw5 wfvr26_xfgresearch 0 0 64 64
+
+
+
+
+
 vr26_xfgresearchw1 wfvr26_xfgresearch 0 0 64 64
 vr26_xfgresearchw2 wfvr26_xfgresearch 0 0 64 64
 vr26_xfgresearchw3 wfvr26_xfgresearch 0 0 64 64
@@ -48822,3 +48822,1008 @@ bgiaarrayw4 wfia26_fgiaarray 0 0 64 64
 @reference=64
 @tmaterial=default
 bgiaarrayw5 wfia26_fgiaarray 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_8472_advancedresearch gbdr26_8472_advancedresearch 0 0 64 64
+b_dr26_8472_advancedresearch gbdr26_8472_advancedresearch 0 0 64 64
+8472_advancedresearchw1 wfdr26_8472_advancedresearch 0 0 64 64
+8472_advancedresearchw2 wfdr26_8472_advancedresearch 0 0 64 64
+8472_advancedresearchw3 wfdr26_8472_advancedresearch 0 0 64 64
+8472_advancedresearchw4 wfdr26_8472_advancedresearch 0 0 64 64
+8472_advancedresearchw5 wfdr26_8472_advancedresearch 0 0 64 64
+dr26_8472_advancedresearchw1 wfdr26_8472_advancedresearch 0 0 64 64
+dr26_8472_advancedresearchw2 wfdr26_8472_advancedresearch 0 0 64 64
+dr26_8472_advancedresearchw3 wfdr26_8472_advancedresearch 0 0 64 64
+dr26_8472_advancedresearchw4 wfdr26_8472_advancedresearch 0 0 64 64
+dr26_8472_advancedresearchw5 wfdr26_8472_advancedresearch 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_8472_basicresearch gbdr26_8472_basicresearch 0 0 64 64
+b_dr26_8472_basicresearch gbdr26_8472_basicresearch 0 0 64 64
+8472_basicresearchw1 wfdr26_8472_basicresearch 0 0 64 64
+8472_basicresearchw2 wfdr26_8472_basicresearch 0 0 64 64
+8472_basicresearchw3 wfdr26_8472_basicresearch 0 0 64 64
+8472_basicresearchw4 wfdr26_8472_basicresearch 0 0 64 64
+8472_basicresearchw5 wfdr26_8472_basicresearch 0 0 64 64
+dr26_8472_basicresearchw1 wfdr26_8472_basicresearch 0 0 64 64
+dr26_8472_basicresearchw2 wfdr26_8472_basicresearch 0 0 64 64
+dr26_8472_basicresearchw3 wfdr26_8472_basicresearch 0 0 64 64
+dr26_8472_basicresearchw4 wfdr26_8472_basicresearch 0 0 64 64
+dr26_8472_basicresearchw5 wfdr26_8472_basicresearch 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_8472_collector gbdr26_8472_collector 0 0 64 64
+b_dr26_8472_collector gbdr26_8472_collector 0 0 64 64
+8472_collectorw1 wfdr26_8472_collector 0 0 64 64
+8472_collectorw2 wfdr26_8472_collector 0 0 64 64
+8472_collectorw3 wfdr26_8472_collector 0 0 64 64
+8472_collectorw4 wfdr26_8472_collector 0 0 64 64
+8472_collectorw5 wfdr26_8472_collector 0 0 64 64
+dr26_8472_collectorw1 wfdr26_8472_collector 0 0 64 64
+dr26_8472_collectorw2 wfdr26_8472_collector 0 0 64 64
+dr26_8472_collectorw3 wfdr26_8472_collector 0 0 64 64
+dr26_8472_collectorw4 wfdr26_8472_collector 0 0 64 64
+dr26_8472_collectorw5 wfdr26_8472_collector 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_8472_shipupgraderesearch gbdr26_8472_shipupgraderesearch 0 0 64 64
+b_dr26_8472_shipupgraderesearch gbdr26_8472_shipupgraderesearch 0 0 64 64
+8472_shipupgraderesearchw1 wfdr26_8472_shipupgraderesearch 0 0 64 64
+8472_shipupgraderesearchw2 wfdr26_8472_shipupgraderesearch 0 0 64 64
+8472_shipupgraderesearchw3 wfdr26_8472_shipupgraderesearch 0 0 64 64
+8472_shipupgraderesearchw4 wfdr26_8472_shipupgraderesearch 0 0 64 64
+8472_shipupgraderesearchw5 wfdr26_8472_shipupgraderesearch 0 0 64 64
+dr26_8472_shipupgraderesearchw1 wfdr26_8472_shipupgraderesearch 0 0 64 64
+dr26_8472_shipupgraderesearchw2 wfdr26_8472_shipupgraderesearch 0 0 64 64
+dr26_8472_shipupgraderesearchw3 wfdr26_8472_shipupgraderesearch 0 0 64 64
+dr26_8472_shipupgraderesearchw4 wfdr26_8472_shipupgraderesearch 0 0 64 64
+dr26_8472_shipupgraderesearchw5 wfdr26_8472_shipupgraderesearch 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_8472_transmuter gbdr26_8472_transmuter 0 0 64 64
+b_dr26_8472_transmuter gbdr26_8472_transmuter 0 0 64 64
+8472_transmuterw1 wfdr26_8472_transmuter 0 0 64 64
+8472_transmuterw2 wfdr26_8472_transmuter 0 0 64 64
+8472_transmuterw3 wfdr26_8472_transmuter 0 0 64 64
+8472_transmuterw4 wfdr26_8472_transmuter 0 0 64 64
+8472_transmuterw5 wfdr26_8472_transmuter 0 0 64 64
+dr26_8472_transmuterw1 wfdr26_8472_transmuter 0 0 64 64
+dr26_8472_transmuterw2 wfdr26_8472_transmuter 0 0 64 64
+dr26_8472_transmuterw3 wfdr26_8472_transmuter 0 0 64 64
+dr26_8472_transmuterw4 wfdr26_8472_transmuter 0 0 64 64
+dr26_8472_transmuterw5 wfdr26_8472_transmuter 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_bassturr gbdr26_bassturr 0 0 64 64
+b_dr26_bassturr gbdr26_bassturr 0 0 64 64
+bassturrw1 wfdr26_bassturr 0 0 64 64
+bassturrw2 wfdr26_bassturr 0 0 64 64
+bassturrw3 wfdr26_bassturr 0 0 64 64
+bassturrw4 wfdr26_bassturr 0 0 64 64
+bassturrw5 wfdr26_bassturr 0 0 64 64
+dr26_bassturrw1 wfdr26_bassturr 0 0 64 64
+dr26_bassturrw2 wfdr26_bassturr 0 0 64 64
+dr26_bassturrw3 wfdr26_bassturr 0 0 64 64
+dr26_bassturrw4 wfdr26_bassturr 0 0 64 64
+dr26_bassturrw5 wfdr26_bassturr 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_bfreight gbdr26_bfreight 0 0 64 64
+b_dr26_bfreight gbdr26_bfreight 0 0 64 64
+bfreightw1 wfdr26_bfreight 0 0 64 64
+bfreightw2 wfdr26_bfreight 0 0 64 64
+bfreightw3 wfdr26_bfreight 0 0 64 64
+bfreightw4 wfdr26_bfreight 0 0 64 64
+bfreightw5 wfdr26_bfreight 0 0 64 64
+dr26_bfreightw1 wfdr26_bfreight 0 0 64 64
+dr26_bfreightw2 wfdr26_bfreight 0 0 64 64
+dr26_bfreightw3 wfdr26_bfreight 0 0 64 64
+dr26_bfreightw4 wfdr26_bfreight 0 0 64 64
+dr26_bfreightw5 wfdr26_bfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_bjfreight gbdr26_bjfreight 0 0 64 64
+b_dr26_bjfreight gbdr26_bjfreight 0 0 64 64
+bjfreightw1 wfdr26_bjfreight 0 0 64 64
+bjfreightw2 wfdr26_bjfreight 0 0 64 64
+bjfreightw3 wfdr26_bjfreight 0 0 64 64
+bjfreightw4 wfdr26_bjfreight 0 0 64 64
+bjfreightw5 wfdr26_bjfreight 0 0 64 64
+dr26_bjfreightw1 wfdr26_bjfreight 0 0 64 64
+dr26_bjfreightw2 wfdr26_bjfreight 0 0 64 64
+dr26_bjfreightw3 wfdr26_bjfreight 0 0 64 64
+dr26_bjfreightw4 wfdr26_bjfreight 0 0 64 64
+dr26_bjfreightw5 wfdr26_bjfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_bjmining gbdr26_bjmining 0 0 64 64
+b_dr26_bjmining gbdr26_bjmining 0 0 64 64
+bjminingw1 wfdr26_bjmining 0 0 64 64
+bjminingw2 wfdr26_bjmining 0 0 64 64
+bjminingw3 wfdr26_bjmining 0 0 64 64
+bjminingw4 wfdr26_bjmining 0 0 64 64
+bjminingw5 wfdr26_bjmining 0 0 64 64
+dr26_bjminingw1 wfdr26_bjmining 0 0 64 64
+dr26_bjminingw2 wfdr26_bjmining 0 0 64 64
+dr26_bjminingw3 wfdr26_bjmining 0 0 64 64
+dr26_bjminingw4 wfdr26_bjmining 0 0 64 64
+dr26_bjminingw5 wfdr26_bjmining 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_bjresear gbdr26_bjresear 0 0 64 64
+b_dr26_bjresear gbdr26_bjresear 0 0 64 64
+bjresearw1 wfdr26_bjresear 0 0 64 64
+bjresearw2 wfdr26_bjresear 0 0 64 64
+bjresearw3 wfdr26_bjresear 0 0 64 64
+bjresearw4 wfdr26_bjresear 0 0 64 64
+bjresearw5 wfdr26_bjresear 0 0 64 64
+dr26_bjresearw1 wfdr26_bjresear 0 0 64 64
+dr26_bjresearw2 wfdr26_bjresear 0 0 64 64
+dr26_bjresearw3 wfdr26_bjresear 0 0 64 64
+dr26_bjresearw4 wfdr26_bjresear 0 0 64 64
+dr26_bjresearw5 wfdr26_bjresear 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_bjresear2 gbdr26_bjresear2 0 0 64 64
+b_dr26_bjresear2 gbdr26_bjresear2 0 0 64 64
+bjresear2w1 wfdr26_bjresear2 0 0 64 64
+bjresear2w2 wfdr26_bjresear2 0 0 64 64
+bjresear2w3 wfdr26_bjresear2 0 0 64 64
+bjresear2w4 wfdr26_bjresear2 0 0 64 64
+bjresear2w5 wfdr26_bjresear2 0 0 64 64
+dr26_bjresear2w1 wfdr26_bjresear2 0 0 64 64
+dr26_bjresear2w2 wfdr26_bjresear2 0 0 64 64
+dr26_bjresear2w3 wfdr26_bjresear2 0 0 64 64
+dr26_bjresear2w4 wfdr26_bjresear2 0 0 64 64
+dr26_bjresear2w5 wfdr26_bjresear2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_bjupgrade gbdr26_bjupgrade 0 0 64 64
+b_dr26_bjupgrade gbdr26_bjupgrade 0 0 64 64
+bjupgradew1 wfdr26_bjupgrade 0 0 64 64
+bjupgradew2 wfdr26_bjupgrade 0 0 64 64
+bjupgradew3 wfdr26_bjupgrade 0 0 64 64
+bjupgradew4 wfdr26_bjupgrade 0 0 64 64
+bjupgradew5 wfdr26_bjupgrade 0 0 64 64
+dr26_bjupgradew1 wfdr26_bjupgrade 0 0 64 64
+dr26_bjupgradew2 wfdr26_bjupgrade 0 0 64 64
+dr26_bjupgradew3 wfdr26_bjupgrade 0 0 64 64
+dr26_bjupgradew4 wfdr26_bjupgrade 0 0 64 64
+dr26_bjupgradew5 wfdr26_bjupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_bmining gbdr26_bmining 0 0 64 64
+b_dr26_bmining gbdr26_bmining 0 0 64 64
+bminingw1 wfdr26_bmining 0 0 64 64
+bminingw2 wfdr26_bmining 0 0 64 64
+bminingw3 wfdr26_bmining 0 0 64 64
+bminingw4 wfdr26_bmining 0 0 64 64
+bminingw5 wfdr26_bmining 0 0 64 64
+dr26_bminingw1 wfdr26_bmining 0 0 64 64
+dr26_bminingw2 wfdr26_bmining 0 0 64 64
+dr26_bminingw3 wfdr26_bmining 0 0 64 64
+dr26_bminingw4 wfdr26_bmining 0 0 64 64
+dr26_bminingw5 wfdr26_bmining 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_brecycle gbdr26_brecycle 0 0 64 64
+b_dr26_brecycle gbdr26_brecycle 0 0 64 64
+brecyclew1 wfdr26_brecycle 0 0 64 64
+brecyclew2 wfdr26_brecycle 0 0 64 64
+brecyclew3 wfdr26_brecycle 0 0 64 64
+brecyclew4 wfdr26_brecycle 0 0 64 64
+brecyclew5 wfdr26_brecycle 0 0 64 64
+dr26_brecyclew1 wfdr26_brecycle 0 0 64 64
+dr26_brecyclew2 wfdr26_brecycle 0 0 64 64
+dr26_brecyclew3 wfdr26_brecycle 0 0 64 64
+dr26_brecyclew4 wfdr26_brecycle 0 0 64 64
+dr26_brecyclew5 wfdr26_brecycle 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_bresear gbdr26_bresear 0 0 64 64
+b_dr26_bresear gbdr26_bresear 0 0 64 64
+bresearw1 wfdr26_bresear 0 0 64 64
+bresearw2 wfdr26_bresear 0 0 64 64
+bresearw3 wfdr26_bresear 0 0 64 64
+bresearw4 wfdr26_bresear 0 0 64 64
+bresearw5 wfdr26_bresear 0 0 64 64
+dr26_bresearw1 wfdr26_bresear 0 0 64 64
+dr26_bresearw2 wfdr26_bresear 0 0 64 64
+dr26_bresearw3 wfdr26_bresear 0 0 64 64
+dr26_bresearw4 wfdr26_bresear 0 0 64 64
+dr26_bresearw5 wfdr26_bresear 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_bresear2 gbdr26_bresear2 0 0 64 64
+b_dr26_bresear2 gbdr26_bresear2 0 0 64 64
+bresear2w1 wfdr26_bresear2 0 0 64 64
+bresear2w2 wfdr26_bresear2 0 0 64 64
+bresear2w3 wfdr26_bresear2 0 0 64 64
+bresear2w4 wfdr26_bresear2 0 0 64 64
+bresear2w5 wfdr26_bresear2 0 0 64 64
+dr26_bresear2w1 wfdr26_bresear2 0 0 64 64
+dr26_bresear2w2 wfdr26_bresear2 0 0 64 64
+dr26_bresear2w3 wfdr26_bresear2 0 0 64 64
+dr26_bresear2w4 wfdr26_bresear2 0 0 64 64
+dr26_bresear2w5 wfdr26_bresear2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_brfreight gbdr26_brfreight 0 0 64 64
+b_dr26_brfreight gbdr26_brfreight 0 0 64 64
+brfreightw1 wfdr26_brfreight 0 0 64 64
+brfreightw2 wfdr26_brfreight 0 0 64 64
+brfreightw3 wfdr26_brfreight 0 0 64 64
+brfreightw4 wfdr26_brfreight 0 0 64 64
+brfreightw5 wfdr26_brfreight 0 0 64 64
+dr26_brfreightw1 wfdr26_brfreight 0 0 64 64
+dr26_brfreightw2 wfdr26_brfreight 0 0 64 64
+dr26_brfreightw3 wfdr26_brfreight 0 0 64 64
+dr26_brfreightw4 wfdr26_brfreight 0 0 64 64
+dr26_brfreightw5 wfdr26_brfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_brmining gbdr26_brmining 0 0 64 64
+b_dr26_brmining gbdr26_brmining 0 0 64 64
+brminingw1 wfdr26_brmining 0 0 64 64
+brminingw2 wfdr26_brmining 0 0 64 64
+brminingw3 wfdr26_brmining 0 0 64 64
+brminingw4 wfdr26_brmining 0 0 64 64
+brminingw5 wfdr26_brmining 0 0 64 64
+dr26_brminingw1 wfdr26_brmining 0 0 64 64
+dr26_brminingw2 wfdr26_brmining 0 0 64 64
+dr26_brminingw3 wfdr26_brmining 0 0 64 64
+dr26_brminingw4 wfdr26_brmining 0 0 64 64
+dr26_brminingw5 wfdr26_brmining 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_brresear gbdr26_brresear 0 0 64 64
+b_dr26_brresear gbdr26_brresear 0 0 64 64
+brresearw1 wfdr26_brresear 0 0 64 64
+brresearw2 wfdr26_brresear 0 0 64 64
+brresearw3 wfdr26_brresear 0 0 64 64
+brresearw4 wfdr26_brresear 0 0 64 64
+brresearw5 wfdr26_brresear 0 0 64 64
+dr26_brresearw1 wfdr26_brresear 0 0 64 64
+dr26_brresearw2 wfdr26_brresear 0 0 64 64
+dr26_brresearw3 wfdr26_brresear 0 0 64 64
+dr26_brresearw4 wfdr26_brresear 0 0 64 64
+dr26_brresearw5 wfdr26_brresear 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_brresear2 gbdr26_brresear2 0 0 64 64
+b_dr26_brresear2 gbdr26_brresear2 0 0 64 64
+brresear2w1 wfdr26_brresear2 0 0 64 64
+brresear2w2 wfdr26_brresear2 0 0 64 64
+brresear2w3 wfdr26_brresear2 0 0 64 64
+brresear2w4 wfdr26_brresear2 0 0 64 64
+brresear2w5 wfdr26_brresear2 0 0 64 64
+dr26_brresear2w1 wfdr26_brresear2 0 0 64 64
+dr26_brresear2w2 wfdr26_brresear2 0 0 64 64
+dr26_brresear2w3 wfdr26_brresear2 0 0 64 64
+dr26_brresear2w4 wfdr26_brresear2 0 0 64 64
+dr26_brresear2w5 wfdr26_brresear2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_btechass gbdr26_btechass 0 0 64 64
+b_dr26_btechass gbdr26_btechass 0 0 64 64
+btechassw1 wfdr26_btechass 0 0 64 64
+btechassw2 wfdr26_btechass 0 0 64 64
+btechassw3 wfdr26_btechass 0 0 64 64
+btechassw4 wfdr26_btechass 0 0 64 64
+btechassw5 wfdr26_btechass 0 0 64 64
+dr26_btechassw1 wfdr26_btechass 0 0 64 64
+dr26_btechassw2 wfdr26_btechass 0 0 64 64
+dr26_btechassw3 wfdr26_btechass 0 0 64 64
+dr26_btechassw4 wfdr26_btechass 0 0 64 64
+dr26_btechassw5 wfdr26_btechass 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_bupgrade gbdr26_bupgrade 0 0 64 64
+b_dr26_bupgrade gbdr26_bupgrade 0 0 64 64
+bupgradew1 wfdr26_bupgrade 0 0 64 64
+bupgradew2 wfdr26_bupgrade 0 0 64 64
+bupgradew3 wfdr26_bupgrade 0 0 64 64
+bupgradew4 wfdr26_bupgrade 0 0 64 64
+bupgradew5 wfdr26_bupgrade 0 0 64 64
+dr26_bupgradew1 wfdr26_bupgrade 0 0 64 64
+dr26_bupgradew2 wfdr26_bupgrade 0 0 64 64
+dr26_bupgradew3 wfdr26_bupgrade 0 0 64 64
+dr26_bupgradew4 wfdr26_bupgrade 0 0 64 64
+dr26_bupgradew5 wfdr26_bupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_cfreight gbdr26_cfreight 0 0 64 64
+b_dr26_cfreight gbdr26_cfreight 0 0 64 64
+cfreightw1 wfdr26_cfreight 0 0 64 64
+cfreightw2 wfdr26_cfreight 0 0 64 64
+cfreightw3 wfdr26_cfreight 0 0 64 64
+cfreightw4 wfdr26_cfreight 0 0 64 64
+cfreightw5 wfdr26_cfreight 0 0 64 64
+dr26_cfreightw1 wfdr26_cfreight 0 0 64 64
+dr26_cfreightw2 wfdr26_cfreight 0 0 64 64
+dr26_cfreightw3 wfdr26_cfreight 0 0 64 64
+dr26_cfreightw4 wfdr26_cfreight 0 0 64 64
+dr26_cfreightw5 wfdr26_cfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_cmining gbdr26_cmining 0 0 64 64
+b_dr26_cmining gbdr26_cmining 0 0 64 64
+cminingw1 wfdr26_cmining 0 0 64 64
+cminingw2 wfdr26_cmining 0 0 64 64
+cminingw3 wfdr26_cmining 0 0 64 64
+cminingw4 wfdr26_cmining 0 0 64 64
+cminingw5 wfdr26_cmining 0 0 64 64
+dr26_cminingw1 wfdr26_cmining 0 0 64 64
+dr26_cminingw2 wfdr26_cmining 0 0 64 64
+dr26_cminingw3 wfdr26_cmining 0 0 64 64
+dr26_cminingw4 wfdr26_cmining 0 0 64 64
+dr26_cminingw5 wfdr26_cmining 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_cresear gbdr26_cresear 0 0 64 64
+b_dr26_cresear gbdr26_cresear 0 0 64 64
+cresearw1 wfdr26_cresear 0 0 64 64
+cresearw2 wfdr26_cresear 0 0 64 64
+cresearw3 wfdr26_cresear 0 0 64 64
+cresearw4 wfdr26_cresear 0 0 64 64
+cresearw5 wfdr26_cresear 0 0 64 64
+dr26_cresearw1 wfdr26_cresear 0 0 64 64
+dr26_cresearw2 wfdr26_cresear 0 0 64 64
+dr26_cresearw3 wfdr26_cresear 0 0 64 64
+dr26_cresearw4 wfdr26_cresear 0 0 64 64
+dr26_cresearw5 wfdr26_cresear 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_cresear2 gbdr26_cresear2 0 0 64 64
+b_dr26_cresear2 gbdr26_cresear2 0 0 64 64
+cresear2w1 wfdr26_cresear2 0 0 64 64
+cresear2w2 wfdr26_cresear2 0 0 64 64
+cresear2w3 wfdr26_cresear2 0 0 64 64
+cresear2w4 wfdr26_cresear2 0 0 64 64
+cresear2w5 wfdr26_cresear2 0 0 64 64
+dr26_cresear2w1 wfdr26_cresear2 0 0 64 64
+dr26_cresear2w2 wfdr26_cresear2 0 0 64 64
+dr26_cresear2w3 wfdr26_cresear2 0 0 64 64
+dr26_cresear2w4 wfdr26_cresear2 0 0 64 64
+dr26_cresear2w5 wfdr26_cresear2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_cupgrade gbdr26_cupgrade 0 0 64 64
+b_dr26_cupgrade gbdr26_cupgrade 0 0 64 64
+cupgradew1 wfdr26_cupgrade 0 0 64 64
+cupgradew2 wfdr26_cupgrade 0 0 64 64
+cupgradew3 wfdr26_cupgrade 0 0 64 64
+cupgradew4 wfdr26_cupgrade 0 0 64 64
+cupgradew5 wfdr26_cupgrade 0 0 64 64
+dr26_cupgradew1 wfdr26_cupgrade 0 0 64 64
+dr26_cupgradew2 wfdr26_cupgrade 0 0 64 64
+dr26_cupgradew3 wfdr26_cupgrade 0 0 64 64
+dr26_cupgradew4 wfdr26_cupgrade 0 0 64 64
+dr26_cupgradew5 wfdr26_cupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_dfreight gbdr26_dfreight 0 0 64 64
+b_dr26_dfreight gbdr26_dfreight 0 0 64 64
+dfreightw1 wfdr26_dfreight 0 0 64 64
+dfreightw2 wfdr26_dfreight 0 0 64 64
+dfreightw3 wfdr26_dfreight 0 0 64 64
+dfreightw4 wfdr26_dfreight 0 0 64 64
+dfreightw5 wfdr26_dfreight 0 0 64 64
+dr26_dfreightw1 wfdr26_dfreight 0 0 64 64
+dr26_dfreightw2 wfdr26_dfreight 0 0 64 64
+dr26_dfreightw3 wfdr26_dfreight 0 0 64 64
+dr26_dfreightw4 wfdr26_dfreight 0 0 64 64
+dr26_dfreightw5 wfdr26_dfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_dmining gbdr26_dmining 0 0 64 64
+b_dr26_dmining gbdr26_dmining 0 0 64 64
+dminingw1 wfdr26_dmining 0 0 64 64
+dminingw2 wfdr26_dmining 0 0 64 64
+dminingw3 wfdr26_dmining 0 0 64 64
+dminingw4 wfdr26_dmining 0 0 64 64
+dminingw5 wfdr26_dmining 0 0 64 64
+dr26_dminingw1 wfdr26_dmining 0 0 64 64
+dr26_dminingw2 wfdr26_dmining 0 0 64 64
+dr26_dminingw3 wfdr26_dmining 0 0 64 64
+dr26_dminingw4 wfdr26_dmining 0 0 64 64
+dr26_dminingw5 wfdr26_dmining 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_dresear gbdr26_dresear 0 0 64 64
+b_dr26_dresear gbdr26_dresear 0 0 64 64
+dresearw1 wfdr26_dresear 0 0 64 64
+dresearw2 wfdr26_dresear 0 0 64 64
+dresearw3 wfdr26_dresear 0 0 64 64
+dresearw4 wfdr26_dresear 0 0 64 64
+dresearw5 wfdr26_dresear 0 0 64 64
+dr26_dresearw1 wfdr26_dresear 0 0 64 64
+dr26_dresearw2 wfdr26_dresear 0 0 64 64
+dr26_dresearw3 wfdr26_dresear 0 0 64 64
+dr26_dresearw4 wfdr26_dresear 0 0 64 64
+dr26_dresearw5 wfdr26_dresear 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_dresear2 gbdr26_dresear2 0 0 64 64
+b_dr26_dresear2 gbdr26_dresear2 0 0 64 64
+dresear2w1 wfdr26_dresear2 0 0 64 64
+dresear2w2 wfdr26_dresear2 0 0 64 64
+dresear2w3 wfdr26_dresear2 0 0 64 64
+dresear2w4 wfdr26_dresear2 0 0 64 64
+dresear2w5 wfdr26_dresear2 0 0 64 64
+dr26_dresear2w1 wfdr26_dresear2 0 0 64 64
+dr26_dresear2w2 wfdr26_dresear2 0 0 64 64
+dr26_dresear2w3 wfdr26_dresear2 0 0 64 64
+dr26_dresear2w4 wfdr26_dresear2 0 0 64 64
+dr26_dresear2w5 wfdr26_dresear2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_dupgrade gbdr26_dupgrade 0 0 64 64
+b_dr26_dupgrade gbdr26_dupgrade 0 0 64 64
+dupgradew1 wfdr26_dupgrade 0 0 64 64
+dupgradew2 wfdr26_dupgrade 0 0 64 64
+dupgradew3 wfdr26_dupgrade 0 0 64 64
+dupgradew4 wfdr26_dupgrade 0 0 64 64
+dupgradew5 wfdr26_dupgrade 0 0 64 64
+dr26_dupgradew1 wfdr26_dupgrade 0 0 64 64
+dr26_dupgradew2 wfdr26_dupgrade 0 0 64 64
+dr26_dupgradew3 wfdr26_dupgrade 0 0 64 64
+dr26_dupgradew4 wfdr26_dupgrade 0 0 64 64
+dr26_dupgradew5 wfdr26_dupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_ffreight gbdr26_ffreight 0 0 64 64
+b_dr26_ffreight gbdr26_ffreight 0 0 64 64
+ffreightw1 wfdr26_ffreight 0 0 64 64
+ffreightw2 wfdr26_ffreight 0 0 64 64
+ffreightw3 wfdr26_ffreight 0 0 64 64
+ffreightw4 wfdr26_ffreight 0 0 64 64
+ffreightw5 wfdr26_ffreight 0 0 64 64
+dr26_ffreightw1 wfdr26_ffreight 0 0 64 64
+dr26_ffreightw2 wfdr26_ffreight 0 0 64 64
+dr26_ffreightw3 wfdr26_ffreight 0 0 64 64
+dr26_ffreightw4 wfdr26_ffreight 0 0 64 64
+dr26_ffreightw5 wfdr26_ffreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_fmining gbdr26_fmining 0 0 64 64
+b_dr26_fmining gbdr26_fmining 0 0 64 64
+fminingw1 wfdr26_fmining 0 0 64 64
+fminingw2 wfdr26_fmining 0 0 64 64
+fminingw3 wfdr26_fmining 0 0 64 64
+fminingw4 wfdr26_fmining 0 0 64 64
+fminingw5 wfdr26_fmining 0 0 64 64
+dr26_fminingw1 wfdr26_fmining 0 0 64 64
+dr26_fminingw2 wfdr26_fmining 0 0 64 64
+dr26_fminingw3 wfdr26_fmining 0 0 64 64
+dr26_fminingw4 wfdr26_fmining 0 0 64 64
+dr26_fminingw5 wfdr26_fmining 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_fresear gbdr26_fresear 0 0 64 64
+b_dr26_fresear gbdr26_fresear 0 0 64 64
+fresearw1 wfdr26_fresear 0 0 64 64
+fresearw2 wfdr26_fresear 0 0 64 64
+fresearw3 wfdr26_fresear 0 0 64 64
+fresearw4 wfdr26_fresear 0 0 64 64
+fresearw5 wfdr26_fresear 0 0 64 64
+dr26_fresearw1 wfdr26_fresear 0 0 64 64
+dr26_fresearw2 wfdr26_fresear 0 0 64 64
+dr26_fresearw3 wfdr26_fresear 0 0 64 64
+dr26_fresearw4 wfdr26_fresear 0 0 64 64
+dr26_fresearw5 wfdr26_fresear 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_fresear2 gbdr26_fresear2 0 0 64 64
+b_dr26_fresear2 gbdr26_fresear2 0 0 64 64
+fresear2w1 wfdr26_fresear2 0 0 64 64
+fresear2w2 wfdr26_fresear2 0 0 64 64
+fresear2w3 wfdr26_fresear2 0 0 64 64
+fresear2w4 wfdr26_fresear2 0 0 64 64
+fresear2w5 wfdr26_fresear2 0 0 64 64
+dr26_fresear2w1 wfdr26_fresear2 0 0 64 64
+dr26_fresear2w2 wfdr26_fresear2 0 0 64 64
+dr26_fresear2w3 wfdr26_fresear2 0 0 64 64
+dr26_fresear2w4 wfdr26_fresear2 0 0 64 64
+dr26_fresear2w5 wfdr26_fresear2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_fupgrade gbdr26_fupgrade 0 0 64 64
+b_dr26_fupgrade gbdr26_fupgrade 0 0 64 64
+fupgradew1 wfdr26_fupgrade 0 0 64 64
+fupgradew2 wfdr26_fupgrade 0 0 64 64
+fupgradew3 wfdr26_fupgrade 0 0 64 64
+fupgradew4 wfdr26_fupgrade 0 0 64 64
+fupgradew5 wfdr26_fupgrade 0 0 64 64
+dr26_fupgradew1 wfdr26_fupgrade 0 0 64 64
+dr26_fupgradew2 wfdr26_fupgrade 0 0 64 64
+dr26_fupgradew3 wfdr26_fupgrade 0 0 64 64
+dr26_fupgradew4 wfdr26_fupgrade 0 0 64 64
+dr26_fupgradew5 wfdr26_fupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_hub gbdr26_hub 0 0 64 64
+b_dr26_hub gbdr26_hub 0 0 64 64
+hubw1 wfdr26_hub 0 0 64 64
+hubw2 wfdr26_hub 0 0 64 64
+hubw3 wfdr26_hub 0 0 64 64
+hubw4 wfdr26_hub 0 0 64 64
+hubw5 wfdr26_hub 0 0 64 64
+dr26_hubw1 wfdr26_hub 0 0 64 64
+dr26_hubw2 wfdr26_hub 0 0 64 64
+dr26_hubw3 wfdr26_hub 0 0 64 64
+dr26_hubw4 wfdr26_hub 0 0 64 64
+dr26_hubw5 wfdr26_hub 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_kfreight gbdr26_kfreight 0 0 64 64
+b_dr26_kfreight gbdr26_kfreight 0 0 64 64
+kfreightw1 wfdr26_kfreight 0 0 64 64
+kfreightw2 wfdr26_kfreight 0 0 64 64
+kfreightw3 wfdr26_kfreight 0 0 64 64
+kfreightw4 wfdr26_kfreight 0 0 64 64
+kfreightw5 wfdr26_kfreight 0 0 64 64
+dr26_kfreightw1 wfdr26_kfreight 0 0 64 64
+dr26_kfreightw2 wfdr26_kfreight 0 0 64 64
+dr26_kfreightw3 wfdr26_kfreight 0 0 64 64
+dr26_kfreightw4 wfdr26_kfreight 0 0 64 64
+dr26_kfreightw5 wfdr26_kfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_kmining gbdr26_kmining 0 0 64 64
+b_dr26_kmining gbdr26_kmining 0 0 64 64
+kminingw1 wfdr26_kmining 0 0 64 64
+kminingw2 wfdr26_kmining 0 0 64 64
+kminingw3 wfdr26_kmining 0 0 64 64
+kminingw4 wfdr26_kmining 0 0 64 64
+kminingw5 wfdr26_kmining 0 0 64 64
+dr26_kminingw1 wfdr26_kmining 0 0 64 64
+dr26_kminingw2 wfdr26_kmining 0 0 64 64
+dr26_kminingw3 wfdr26_kmining 0 0 64 64
+dr26_kminingw4 wfdr26_kmining 0 0 64 64
+dr26_kminingw5 wfdr26_kmining 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_kresear gbdr26_kresear 0 0 64 64
+b_dr26_kresear gbdr26_kresear 0 0 64 64
+kresearw1 wfdr26_kresear 0 0 64 64
+kresearw2 wfdr26_kresear 0 0 64 64
+kresearw3 wfdr26_kresear 0 0 64 64
+kresearw4 wfdr26_kresear 0 0 64 64
+kresearw5 wfdr26_kresear 0 0 64 64
+dr26_kresearw1 wfdr26_kresear 0 0 64 64
+dr26_kresearw2 wfdr26_kresear 0 0 64 64
+dr26_kresearw3 wfdr26_kresear 0 0 64 64
+dr26_kresearw4 wfdr26_kresear 0 0 64 64
+dr26_kresearw5 wfdr26_kresear 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_kresear2 gbdr26_kresear2 0 0 64 64
+b_dr26_kresear2 gbdr26_kresear2 0 0 64 64
+kresear2w1 wfdr26_kresear2 0 0 64 64
+kresear2w2 wfdr26_kresear2 0 0 64 64
+kresear2w3 wfdr26_kresear2 0 0 64 64
+kresear2w4 wfdr26_kresear2 0 0 64 64
+kresear2w5 wfdr26_kresear2 0 0 64 64
+dr26_kresear2w1 wfdr26_kresear2 0 0 64 64
+dr26_kresear2w2 wfdr26_kresear2 0 0 64 64
+dr26_kresear2w3 wfdr26_kresear2 0 0 64 64
+dr26_kresear2w4 wfdr26_kresear2 0 0 64 64
+dr26_kresear2w5 wfdr26_kresear2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_kupgrade gbdr26_kupgrade 0 0 64 64
+b_dr26_kupgrade gbdr26_kupgrade 0 0 64 64
+kupgradew1 wfdr26_kupgrade 0 0 64 64
+kupgradew2 wfdr26_kupgrade 0 0 64 64
+kupgradew3 wfdr26_kupgrade 0 0 64 64
+kupgradew4 wfdr26_kupgrade 0 0 64 64
+kupgradew5 wfdr26_kupgrade 0 0 64 64
+dr26_kupgradew1 wfdr26_kupgrade 0 0 64 64
+dr26_kupgradew2 wfdr26_kupgrade 0 0 64 64
+dr26_kupgradew3 wfdr26_kupgrade 0 0 64 64
+dr26_kupgradew4 wfdr26_kupgrade 0 0 64 64
+dr26_kupgradew5 wfdr26_kupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_rfreight gbdr26_rfreight 0 0 64 64
+b_dr26_rfreight gbdr26_rfreight 0 0 64 64
+rfreightw1 wfdr26_rfreight 0 0 64 64
+rfreightw2 wfdr26_rfreight 0 0 64 64
+rfreightw3 wfdr26_rfreight 0 0 64 64
+rfreightw4 wfdr26_rfreight 0 0 64 64
+rfreightw5 wfdr26_rfreight 0 0 64 64
+dr26_rfreightw1 wfdr26_rfreight 0 0 64 64
+dr26_rfreightw2 wfdr26_rfreight 0 0 64 64
+dr26_rfreightw3 wfdr26_rfreight 0 0 64 64
+dr26_rfreightw4 wfdr26_rfreight 0 0 64 64
+dr26_rfreightw5 wfdr26_rfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_rmining gbdr26_rmining 0 0 64 64
+b_dr26_rmining gbdr26_rmining 0 0 64 64
+rminingw1 wfdr26_rmining 0 0 64 64
+rminingw2 wfdr26_rmining 0 0 64 64
+rminingw3 wfdr26_rmining 0 0 64 64
+rminingw4 wfdr26_rmining 0 0 64 64
+rminingw5 wfdr26_rmining 0 0 64 64
+dr26_rminingw1 wfdr26_rmining 0 0 64 64
+dr26_rminingw2 wfdr26_rmining 0 0 64 64
+dr26_rminingw3 wfdr26_rmining 0 0 64 64
+dr26_rminingw4 wfdr26_rmining 0 0 64 64
+dr26_rminingw5 wfdr26_rmining 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_rresear gbdr26_rresear 0 0 64 64
+b_dr26_rresear gbdr26_rresear 0 0 64 64
+rresearw1 wfdr26_rresear 0 0 64 64
+rresearw2 wfdr26_rresear 0 0 64 64
+rresearw3 wfdr26_rresear 0 0 64 64
+rresearw4 wfdr26_rresear 0 0 64 64
+rresearw5 wfdr26_rresear 0 0 64 64
+dr26_rresearw1 wfdr26_rresear 0 0 64 64
+dr26_rresearw2 wfdr26_rresear 0 0 64 64
+dr26_rresearw3 wfdr26_rresear 0 0 64 64
+dr26_rresearw4 wfdr26_rresear 0 0 64 64
+dr26_rresearw5 wfdr26_rresear 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_rresear2 gbdr26_rresear2 0 0 64 64
+b_dr26_rresear2 gbdr26_rresear2 0 0 64 64
+rresear2w1 wfdr26_rresear2 0 0 64 64
+rresear2w2 wfdr26_rresear2 0 0 64 64
+rresear2w3 wfdr26_rresear2 0 0 64 64
+rresear2w4 wfdr26_rresear2 0 0 64 64
+rresear2w5 wfdr26_rresear2 0 0 64 64
+dr26_rresear2w1 wfdr26_rresear2 0 0 64 64
+dr26_rresear2w2 wfdr26_rresear2 0 0 64 64
+dr26_rresear2w3 wfdr26_rresear2 0 0 64 64
+dr26_rresear2w4 wfdr26_rresear2 0 0 64 64
+dr26_rresear2w5 wfdr26_rresear2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_rupgrade gbdr26_rupgrade 0 0 64 64
+b_dr26_rupgrade gbdr26_rupgrade 0 0 64 64
+rupgradew1 wfdr26_rupgrade 0 0 64 64
+rupgradew2 wfdr26_rupgrade 0 0 64 64
+rupgradew3 wfdr26_rupgrade 0 0 64 64
+rupgradew4 wfdr26_rupgrade 0 0 64 64
+rupgradew5 wfdr26_rupgrade 0 0 64 64
+dr26_rupgradew1 wfdr26_rupgrade 0 0 64 64
+dr26_rupgradew2 wfdr26_rupgrade 0 0 64 64
+dr26_rupgradew3 wfdr26_rupgrade 0 0 64 64
+dr26_rupgradew4 wfdr26_rupgrade 0 0 64 64
+dr26_rupgradew5 wfdr26_rupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xbassimst gbdr26_xbassimst 0 0 64 64
+b_dr26_xbassimst gbdr26_xbassimst 0 0 64 64
+xbassimstw1 wfdr26_xbassimst 0 0 64 64
+xbassimstw2 wfdr26_xbassimst 0 0 64 64
+xbassimstw3 wfdr26_xbassimst 0 0 64 64
+xbassimstw4 wfdr26_xbassimst 0 0 64 64
+xbassimstw5 wfdr26_xbassimst 0 0 64 64
+dr26_xbassimstw1 wfdr26_xbassimst 0 0 64 64
+dr26_xbassimstw2 wfdr26_xbassimst 0 0 64 64
+dr26_xbassimstw3 wfdr26_xbassimst 0 0 64 64
+dr26_xbassimstw4 wfdr26_xbassimst 0 0 64 64
+dr26_xbassimstw5 wfdr26_xbassimst 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xbgdil2 gbdr26_xbgdil2 0 0 64 64
+b_dr26_xbgdil2 gbdr26_xbgdil2 0 0 64 64
+xbgdil2w1 wfdr26_xbgdil2 0 0 64 64
+xbgdil2w2 wfdr26_xbgdil2 0 0 64 64
+xbgdil2w3 wfdr26_xbgdil2 0 0 64 64
+xbgdil2w4 wfdr26_xbgdil2 0 0 64 64
+xbgdil2w5 wfdr26_xbgdil2 0 0 64 64
+dr26_xbgdil2w1 wfdr26_xbgdil2 0 0 64 64
+dr26_xbgdil2w2 wfdr26_xbgdil2 0 0 64 64
+dr26_xbgdil2w3 wfdr26_xbgdil2 0 0 64 64
+dr26_xbgdil2w4 wfdr26_xbgdil2 0 0 64 64
+dr26_xbgdil2w5 wfdr26_xbgdil2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xbgdil3 gbdr26_xbgdil3 0 0 64 64
+b_dr26_xbgdil3 gbdr26_xbgdil3 0 0 64 64
+xbgdil3w1 wfdr26_xbgdil3 0 0 64 64
+xbgdil3w2 wfdr26_xbgdil3 0 0 64 64
+xbgdil3w3 wfdr26_xbgdil3 0 0 64 64
+xbgdil3w4 wfdr26_xbgdil3 0 0 64 64
+xbgdil3w5 wfdr26_xbgdil3 0 0 64 64
+dr26_xbgdil3w1 wfdr26_xbgdil3 0 0 64 64
+dr26_xbgdil3w2 wfdr26_xbgdil3 0 0 64 64
+dr26_xbgdil3w3 wfdr26_xbgdil3 0 0 64 64
+dr26_xbgdil3w4 wfdr26_xbgdil3 0 0 64 64
+dr26_xbgdil3w5 wfdr26_xbgdil3 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xbgdref gbdr26_xbgdref 0 0 64 64
+b_dr26_xbgdref gbdr26_xbgdref 0 0 64 64
+xbgdrefw1 wfdr26_xbgdref 0 0 64 64
+xbgdrefw2 wfdr26_xbgdref 0 0 64 64
+xbgdrefw3 wfdr26_xbgdref 0 0 64 64
+xbgdrefw4 wfdr26_xbgdref 0 0 64 64
+xbgdrefw5 wfdr26_xbgdref 0 0 64 64
+dr26_xbgdrefw1 wfdr26_xbgdref 0 0 64 64
+dr26_xbgdrefw2 wfdr26_xbgdref 0 0 64 64
+dr26_xbgdrefw3 wfdr26_xbgdref 0 0 64 64
+dr26_xbgdrefw4 wfdr26_xbgdref 0 0 64 64
+dr26_xbgdrefw5 wfdr26_xbgdref 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xbgmine gbdr26_xbgmine 0 0 64 64
+b_dr26_xbgmine gbdr26_xbgmine 0 0 64 64
+xbgminew1 wfdr26_xbgmine 0 0 64 64
+xbgminew2 wfdr26_xbgmine 0 0 64 64
+xbgminew3 wfdr26_xbgmine 0 0 64 64
+xbgminew4 wfdr26_xbgmine 0 0 64 64
+xbgminew5 wfdr26_xbgmine 0 0 64 64
+dr26_xbgminew1 wfdr26_xbgmine 0 0 64 64
+dr26_xbgminew2 wfdr26_xbgmine 0 0 64 64
+dr26_xbgminew3 wfdr26_xbgmine 0 0 64 64
+dr26_xbgminew4 wfdr26_xbgmine 0 0 64 64
+dr26_xbgminew5 wfdr26_xbgmine 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xbgresearch gbdr26_xbgresearch 0 0 64 64
+b_dr26_xbgresearch gbdr26_xbgresearch 0 0 64 64
+xbgresearchw1 wfdr26_xbgresearch 0 0 64 64
+xbgresearchw2 wfdr26_xbgresearch 0 0 64 64
+xbgresearchw3 wfdr26_xbgresearch 0 0 64 64
+xbgresearchw4 wfdr26_xbgresearch 0 0 64 64
+xbgresearchw5 wfdr26_xbgresearch 0 0 64 64
+dr26_xbgresearchw1 wfdr26_xbgresearch 0 0 64 64
+dr26_xbgresearchw2 wfdr26_xbgresearch 0 0 64 64
+dr26_xbgresearchw3 wfdr26_xbgresearch 0 0 64 64
+dr26_xbgresearchw4 wfdr26_xbgresearch 0 0 64 64
+dr26_xbgresearchw5 wfdr26_xbgresearch 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xbomegalab gbdr26_xbomegalab 0 0 64 64
+b_dr26_xbomegalab gbdr26_xbomegalab 0 0 64 64
+xbomegalabw1 wfdr26_xbomegalab 0 0 64 64
+xbomegalabw2 wfdr26_xbomegalab 0 0 64 64
+xbomegalabw3 wfdr26_xbomegalab 0 0 64 64
+xbomegalabw4 wfdr26_xbomegalab 0 0 64 64
+xbomegalabw5 wfdr26_xbomegalab 0 0 64 64
+dr26_xbomegalabw1 wfdr26_xbomegalab 0 0 64 64
+dr26_xbomegalabw2 wfdr26_xbomegalab 0 0 64 64
+dr26_xbomegalabw3 wfdr26_xbomegalab 0 0 64 64
+dr26_xbomegalabw4 wfdr26_xbomegalab 0 0 64 64
+dr26_xbomegalabw5 wfdr26_xbomegalab 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xbrepair gbdr26_xbrepair 0 0 64 64
+b_dr26_xbrepair gbdr26_xbrepair 0 0 64 64
+xbrepairw1 wfdr26_xbrepair 0 0 64 64
+xbrepairw2 wfdr26_xbrepair 0 0 64 64
+xbrepairw3 wfdr26_xbrepair 0 0 64 64
+xbrepairw4 wfdr26_xbrepair 0 0 64 64
+xbrepairw5 wfdr26_xbrepair 0 0 64 64
+dr26_xbrepairw1 wfdr26_xbrepair 0 0 64 64
+dr26_xbrepairw2 wfdr26_xbrepair 0 0 64 64
+dr26_xbrepairw3 wfdr26_xbrepair 0 0 64 64
+dr26_xbrepairw4 wfdr26_xbrepair 0 0 64 64
+dr26_xbrepairw5 wfdr26_xbrepair 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xdominer gbdr26_xdominer 0 0 64 64
+b_dr26_xdominer gbdr26_xdominer 0 0 64 64
+xdominerw1 wfdr26_xdominer 0 0 64 64
+xdominerw2 wfdr26_xdominer 0 0 64 64
+xdominerw3 wfdr26_xdominer 0 0 64 64
+xdominerw4 wfdr26_xdominer 0 0 64 64
+xdominerw5 wfdr26_xdominer 0 0 64 64
+dr26_xdominerw1 wfdr26_xdominer 0 0 64 64
+dr26_xdominerw2 wfdr26_xdominer 0 0 64 64
+dr26_xdominerw3 wfdr26_xdominer 0 0 64 64
+dr26_xdominerw4 wfdr26_xdominer 0 0 64 64
+dr26_xdominerw5 wfdr26_xdominer 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xfgdil2 gbdr26_xfgdil2 0 0 64 64
+b_dr26_xfgdil2 gbdr26_xfgdil2 0 0 64 64
+xfgdil2w1 wfdr26_xfgdil2 0 0 64 64
+xfgdil2w2 wfdr26_xfgdil2 0 0 64 64
+xfgdil2w3 wfdr26_xfgdil2 0 0 64 64
+xfgdil2w4 wfdr26_xfgdil2 0 0 64 64
+xfgdil2w5 wfdr26_xfgdil2 0 0 64 64
+dr26_xfgdil2w1 wfdr26_xfgdil2 0 0 64 64
+dr26_xfgdil2w2 wfdr26_xfgdil2 0 0 64 64
+dr26_xfgdil2w3 wfdr26_xfgdil2 0 0 64 64
+dr26_xfgdil2w4 wfdr26_xfgdil2 0 0 64 64
+dr26_xfgdil2w5 wfdr26_xfgdil2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xfgdil3 gbdr26_xfgdil3 0 0 64 64
+b_dr26_xfgdil3 gbdr26_xfgdil3 0 0 64 64
+xfgdil3w1 wfdr26_xfgdil3 0 0 64 64
+xfgdil3w2 wfdr26_xfgdil3 0 0 64 64
+xfgdil3w3 wfdr26_xfgdil3 0 0 64 64
+xfgdil3w4 wfdr26_xfgdil3 0 0 64 64
+xfgdil3w5 wfdr26_xfgdil3 0 0 64 64
+dr26_xfgdil3w1 wfdr26_xfgdil3 0 0 64 64
+dr26_xfgdil3w2 wfdr26_xfgdil3 0 0 64 64
+dr26_xfgdil3w3 wfdr26_xfgdil3 0 0 64 64
+dr26_xfgdil3w4 wfdr26_xfgdil3 0 0 64 64
+dr26_xfgdil3w5 wfdr26_xfgdil3 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xfgdref gbdr26_xfgdref 0 0 64 64
+b_dr26_xfgdref gbdr26_xfgdref 0 0 64 64
+xfgdrefw1 wfdr26_xfgdref 0 0 64 64
+xfgdrefw2 wfdr26_xfgdref 0 0 64 64
+xfgdrefw3 wfdr26_xfgdref 0 0 64 64
+xfgdrefw4 wfdr26_xfgdref 0 0 64 64
+xfgdrefw5 wfdr26_xfgdref 0 0 64 64
+dr26_xfgdrefw1 wfdr26_xfgdref 0 0 64 64
+dr26_xfgdrefw2 wfdr26_xfgdref 0 0 64 64
+dr26_xfgdrefw3 wfdr26_xfgdref 0 0 64 64
+dr26_xfgdrefw4 wfdr26_xfgdref 0 0 64 64
+dr26_xfgdrefw5 wfdr26_xfgdref 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xfgmine gbdr26_xfgmine 0 0 64 64
+b_dr26_xfgmine gbdr26_xfgmine 0 0 64 64
+xfgminew1 wfdr26_xfgmine 0 0 64 64
+xfgminew2 wfdr26_xfgmine 0 0 64 64
+xfgminew3 wfdr26_xfgmine 0 0 64 64
+xfgminew4 wfdr26_xfgmine 0 0 64 64
+xfgminew5 wfdr26_xfgmine 0 0 64 64
+dr26_xfgminew1 wfdr26_xfgmine 0 0 64 64
+dr26_xfgminew2 wfdr26_xfgmine 0 0 64 64
+dr26_xfgminew3 wfdr26_xfgmine 0 0 64 64
+dr26_xfgminew4 wfdr26_xfgmine 0 0 64 64
+dr26_xfgminew5 wfdr26_xfgmine 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xfgresearch gbdr26_xfgresearch 0 0 64 64
+b_dr26_xfgresearch gbdr26_xfgresearch 0 0 64 64
+xfgresearchw1 wfdr26_xfgresearch 0 0 64 64
+xfgresearchw2 wfdr26_xfgresearch 0 0 64 64
+xfgresearchw3 wfdr26_xfgresearch 0 0 64 64
+xfgresearchw4 wfdr26_xfgresearch 0 0 64 64
+xfgresearchw5 wfdr26_xfgresearch 0 0 64 64
+dr26_xfgresearchw1 wfdr26_xfgresearch 0 0 64 64
+dr26_xfgresearchw2 wfdr26_xfgresearch 0 0 64 64
+dr26_xfgresearchw3 wfdr26_xfgresearch 0 0 64 64
+dr26_xfgresearchw4 wfdr26_xfgresearch 0 0 64 64
+dr26_xfgresearchw5 wfdr26_xfgresearch 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xfomegalab gbdr26_xfomegalab 0 0 64 64
+b_dr26_xfomegalab gbdr26_xfomegalab 0 0 64 64
+xfomegalabw1 wfdr26_xfomegalab 0 0 64 64
+xfomegalabw2 wfdr26_xfomegalab 0 0 64 64
+xfomegalabw3 wfdr26_xfomegalab 0 0 64 64
+xfomegalabw4 wfdr26_xfomegalab 0 0 64 64
+xfomegalabw5 wfdr26_xfomegalab 0 0 64 64
+dr26_xfomegalabw1 wfdr26_xfomegalab 0 0 64 64
+dr26_xfomegalabw2 wfdr26_xfomegalab 0 0 64 64
+dr26_xfomegalabw3 wfdr26_xfomegalab 0 0 64 64
+dr26_xfomegalabw4 wfdr26_xfomegalab 0 0 64 64
+dr26_xfomegalabw5 wfdr26_xfomegalab 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xsbcol1 gbdr26_xsbcol1 0 0 64 64
+b_dr26_xsbcol1 gbdr26_xsbcol1 0 0 64 64
+xsbcol1w1 wfdr26_xsbcol1 0 0 64 64
+xsbcol1w2 wfdr26_xsbcol1 0 0 64 64
+xsbcol1w3 wfdr26_xsbcol1 0 0 64 64
+xsbcol1w4 wfdr26_xsbcol1 0 0 64 64
+xsbcol1w5 wfdr26_xsbcol1 0 0 64 64
+dr26_xsbcol1w1 wfdr26_xsbcol1 0 0 64 64
+dr26_xsbcol1w2 wfdr26_xsbcol1 0 0 64 64
+dr26_xsbcol1w3 wfdr26_xsbcol1 0 0 64 64
+dr26_xsbcol1w4 wfdr26_xsbcol1 0 0 64 64
+dr26_xsbcol1w5 wfdr26_xsbcol1 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xsbcol2 gbdr26_xsbcol2 0 0 64 64
+b_dr26_xsbcol2 gbdr26_xsbcol2 0 0 64 64
+xsbcol2w1 wfdr26_xsbcol2 0 0 64 64
+xsbcol2w2 wfdr26_xsbcol2 0 0 64 64
+xsbcol2w3 wfdr26_xsbcol2 0 0 64 64
+xsbcol2w4 wfdr26_xsbcol2 0 0 64 64
+xsbcol2w5 wfdr26_xsbcol2 0 0 64 64
+dr26_xsbcol2w1 wfdr26_xsbcol2 0 0 64 64
+dr26_xsbcol2w2 wfdr26_xsbcol2 0 0 64 64
+dr26_xsbcol2w3 wfdr26_xsbcol2 0 0 64 64
+dr26_xsbcol2w4 wfdr26_xsbcol2 0 0 64 64
+dr26_xsbcol2w5 wfdr26_xsbcol2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xsbiolab gbdr26_xsbiolab 0 0 64 64
+b_dr26_xsbiolab gbdr26_xsbiolab 0 0 64 64
+xsbiolabw1 wfdr26_xsbiolab 0 0 64 64
+xsbiolabw2 wfdr26_xsbiolab 0 0 64 64
+xsbiolabw3 wfdr26_xsbiolab 0 0 64 64
+xsbiolabw4 wfdr26_xsbiolab 0 0 64 64
+xsbiolabw5 wfdr26_xsbiolab 0 0 64 64
+dr26_xsbiolabw1 wfdr26_xsbiolab 0 0 64 64
+dr26_xsbiolabw2 wfdr26_xsbiolab 0 0 64 64
+dr26_xsbiolabw3 wfdr26_xsbiolab 0 0 64 64
+dr26_xsbiolabw4 wfdr26_xsbiolab 0 0 64 64
+dr26_xsbiolabw5 wfdr26_xsbiolab 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xselaresearch gbdr26_xselaresearch 0 0 64 64
+b_dr26_xselaresearch gbdr26_xselaresearch 0 0 64 64
+xselaresearchw1 wfdr26_xselaresearch 0 0 64 64
+xselaresearchw2 wfdr26_xselaresearch 0 0 64 64
+xselaresearchw3 wfdr26_xselaresearch 0 0 64 64
+xselaresearchw4 wfdr26_xselaresearch 0 0 64 64
+xselaresearchw5 wfdr26_xselaresearch 0 0 64 64
+dr26_xselaresearchw1 wfdr26_xselaresearch 0 0 64 64
+dr26_xselaresearchw2 wfdr26_xselaresearch 0 0 64 64
+dr26_xselaresearchw3 wfdr26_xselaresearch 0 0 64 64
+dr26_xselaresearchw4 wfdr26_xselaresearch 0 0 64 64
+dr26_xselaresearchw5 wfdr26_xselaresearch 0 0 64 64
