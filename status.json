@@ -1,5 +1,5 @@
 {
-  "current": "Applied Cardassian-derived Bajoran production yards and service dock: swept station pylons, copper hulls, connected bays. Second yard uses a different original Cardassian advanced-yard model; no decorative fighter models. Icons, footprints and launch points refreshed. Static checks passed; gameplay testing pending.",
+  "current": "Applied 27 cohesive faction research-station designs with original materials, textures and lighting. Pod attachment positions and research capacity verified; original functions/costs preserved. Includes upgrade centres and Federation/Borg Omega labs. Bajor/Cardassia share architecture. Yards, 8472 and Borg tech assimilator unchanged. Static validation passed; gameplay testing pending.",
   "steps": [
     {
       "label": "Current configuration and artwork: Apply approved fixes",
@@ -1531,7 +1531,7 @@
     "backup": "D:\\Xaramada-Modwork\\backups\\twin-yards-20261025-184944",
     "files": 483,
     "models": 76,
-    "staticChecks": 60554,
+    "staticChecks": 61952,
     "newFiles": [
       "SOD/ty26_bhwp.sod",
       "SOD/ty26_bjhwp.sod",
@@ -1822,6 +1822,15 @@
       "basicBaySource": "cyard",
       "commandBaySource": "xvstock_cyard2",
       "decorativeShips": false
+    },
+    "researchArtworkRevision": {
+      "backup": "D:\\Xaramada-Modwork\\backups\\research-materials-20261025-201609",
+      "files": 109,
+      "stations": 27,
+      "originalMaterialsVerified": true,
+      "podPositionsPreserved": true,
+      "yardsUnchanged": true,
+      "runtimeVerified": false
     }
   }
 }

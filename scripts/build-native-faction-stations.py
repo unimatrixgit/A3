@@ -4,6 +4,7 @@ exec(Path('D:/aramada/scripts/build-bajor-redesign-v4.py').read_text().split('fo
 exec(Path('D:/aramada/scripts/twin-yard-render.py').read_text())
 import ast,importlib.util
 exec(Path('D:/aramada/scripts/compact-yard-layout.py').read_text())
+exec(Path('D:/aramada/scripts/faction-research-layout.py').read_text())
 sp=importlib.util.spec_from_file_location('stationtruss',repo/'scripts/approved-station-geometry.py');truss=importlib.util.module_from_spec(sp);sp.loader.exec_module(truss)
 for node in ast.parse((repo/'scripts/stage-approved-visual-refresh.py').read_text()).body:
  if isinstance(node,ast.FunctionDef)and node.name in ['load_model','visible_points']:exec(compile(ast.Module(body=[node],type_ignores=[]),'model-helpers','exec'))
@@ -31,7 +32,10 @@ sprite=(root/'Sprites/gui_global.spr').read_text(encoding='latin1');ns={};exec((
 hero={'fyard3','xflegacyyard','s31yard','mryfeda','mryfedb','byard3','kyard3','ryard3','cyard3','dyard3','bjyard2'}
 for index,(n,a)in enumerate(d['assets'].items(),1):
  if '--yards-only'in sys.argv and a['kind']not in ['yard','service']:continue
+ if '--research-only'in sys.argv and a['kind']!='research':continue
  if '--faction=bj'in sys.argv and a['theme']!='bj':continue
+ selectedUnit=next((x.split('=',1)[1]for x in sys.argv if x.startswith('--unit=')),None)
+ if selectedUnit and n!=selectedUnit:continue
  print('Native faction station '+str(index)+'/'+str(len(d['assets']))+' '+n,flush=True);code=a['theme'];kind=a['kind'];donor=a['donor'];bp=baseline[donor]['properties'];old=native(bp.get('basename',donor));model=copy.deepcopy(old);scale=float(bp.get('scalesod','1').rstrip('fF;'));allparts=[]
  def add(source,size,pos=(0,0,0),yaw=0,stretch=(1,1,1),cap=False):
   rot=np.array([[math.cos(yaw),0,math.sin(yaw)],[0,1,0],[-math.sin(yaw),0,math.cos(yaw)]])
@@ -68,7 +72,10 @@ for index,(n,a)in enumerate(d['assets'].items(),1):
   allparts,bayPositions,singleBay=compact_yard_parts(code,layoutTier,globals())
   if code=='bj':central='cbase'
  elif kind=='research':
-  add(central,.62,(0,-.05,0));ref=n if n in sods else bp.get('basename',donor);add(ref,.68,(-.58,.1,0));add(ref,.68,(.58,.1,0),yaw=math.pi)
+  allparts,central=research_station_parts(n,code,globals())
+  # Preserve original illumination flags when a newer vanilla material is
+  # used with a legacy donor skeleton (the old format cannot store them).
+  model.set_version(max(model.version,native(central).version))
  else:
   # Central starbase stronghold with four thick bastions and raised firing towers.
   add(central,1.0);bastion=bp.get('basename',donor)
@@ -76,6 +83,10 @@ for index,(n,a)in enumerate(d['assets'].items(),1):
   add(central,.3,(0,.64,0))
  pts=np.concatenate([p['data']['vertices']for p in allparts]);center=(pts.max(0)+pts.min(0))/2;span=np.ptp(pts,axis=0).max();oldspan=np.ptp(visible_points(old),axis=0).max()*scale;size=400 if kind in ['yard','service']else oldspan
  fit={}
+ podFittings={}
+ if kind=='research':
+  fittings,podFittings=research_pod_fittings(old,bp,central,globals(),oldspan/scale)
+  allparts+=fittings
  if kind=='yard':
   bayScale=1.8+layoutTier*.14 if singleBay else 1.0+layoutTier*.08
   size,fit=fit_yard(n,globals(),span,bayScale)
@@ -94,9 +105,14 @@ for index,(n,a)in enumerate(d['assets'].items(),1):
     for face in group['faces'][start:start+150]:
      base=len(vv)
      for vi,ui in face:
-      world=(dat['vertices'][vi]-center)/span*size/scale;vv.append((inv@np.r_[world,1])[:3].tolist());uv.append(dat['texture_coordinates'][ui])
+      world=dat['vertices'][vi]if part.get('worldSpace')else(dat['vertices'][vi]-center)/span*size/scale;vv.append((inv@np.r_[world,1])[:3].tolist());uv.append(dat['texture_coordinates'][ui])
      ff.append([[base+j,base+j]for j in range(3)])
-    out=copy.deepcopy(dat);out.update(vertices=vv,texture_coordinates=uv,vertex_lighting_groups=[{'lighting_material':mapping.get(group['lighting_material'],model.materials[0]['name']),'faces':ff}],texture_material='default',bump_map=1,borgification={'texture':dat['texture']});model.nodes.append({'id':'tymesh_'+str(chunk),'parent':parent['id'],'type':'MESH','local_transform':[[1.,0.,0.],[0.,1.,0.],[0.,0.,1.],[0.,0.,0.]],'data':out});chunk+=1
+    out=copy.deepcopy(dat);out.update(vertices=vv,texture_coordinates=uv,vertex_lighting_groups=[{'lighting_material':mapping.get(group['lighting_material'],model.materials[0]['name']),'faces':ff}])
+    if kind!='research':out.update(texture_material='default',bump_map=1,borgification={'texture':dat['texture']})
+    else:
+     out.setdefault('texture_material','default');out.setdefault('borgification',{'texture':dat['texture']})
+     if model.version>1.9101:out['bump_map']=1
+    model.nodes.append({'id':'tymesh_'+str(chunk),'parent':parent['id'],'type':'MESH','local_transform':[[1.,0.,0.],[0.,1.,0.],[0.,0.,1.],[0.,0.,0.]],'data':out});chunk+=1
  def anchor(hp,pos):
   existing=next((x for x in model.nodes if x['id'].lower()==hp.lower()),None)
   if existing is None:existing={'id':hp,'type':'NULL_OR_HARDPOINT','data':None};model.nodes.append(existing)
@@ -125,8 +141,8 @@ for index,(n,a)in enumerate(d['assets'].items(),1):
  sprite+='\n@reference=64\n@tmaterial=default\nb_'+n+' '+tex+' 0 0 64 64\nb_'+alias+' '+tex+' 0 0 64 64\n'
  for u in [n,alias]:
   for j in range(1,6):sprite+=u+'w'+str(j)+' '+wf+' 0 0 64 64\n'
- records.append({**a,'model':alias,'size':size*(.875 if kind=='hwp'and code=='b'else 1),'scale':displayScale,'centralModel':central,'bays':(1 if code=='b'else 2)if kind in ['yard','service']else 0,'queueCount':1,'fit':fit,'nativePodHardpointsPreserved':kind=='research'})
-if '--yards-only'in sys.argv:
+ records.append({**a,'model':alias,'size':size*(.875 if kind=='hwp'and code=='b'else 1),'scale':displayScale,'centralModel':central,'bays':(1 if code=='b'else 2)if kind in ['yard','service']else 0,'queueCount':1,'fit':fit,'nativePodHardpointsPreserved':kind=='research','podFittings':podFittings})
+if '--yards-only'in sys.argv or '--research-only'in sys.argv:
  changed={r['unit']if'unit'in r else r.get('name','')for r in records}
  oldRecords=json.loads((stage/'artwork.json').read_text())
  # Asset records carry their ODF identifier in the same key as design assets.

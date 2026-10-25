@@ -14,6 +14,8 @@ paths+=['status.json','build.log'];head=subprocess.check_output(['git','-C',str(
 paths+=['scripts/'+n for n in ['compact-yard-layout.py','preview-yard-family.py','preview-compact-yards.py','render-compact-yard-sheet.py','stage-compact-borg-roster.py']]
 paths+=['patches/compact-yard-preview/'+n for n in ['borg-roster-review.json','borg-proposed-production.json','staging-report.json','all-staged-yards.png','byard2-staged.png','fyard3-staged.png']]
 paths+=['scripts/render-bajoran-cardassian-yards.py','patches/compact-yard-preview/bajor-cardassian-yard-sheet.png']
+paths+=['scripts/'+n for n in ['faction-research-layout.py','render-faction-research-sheet.py','verify-research-native-materials.py']]
+paths+=['patches/faction-research-preview/'+n for n in ['preview-report.json','material-verification.json','all-research-stations.png','borg-cardassian-bajoran.png','research-variety-preview.png']]
 existing=subprocess.check_output(['git','-C',str(repo),'diff','--cached','--name-only'],text=True).splitlines();assert not existing,existing
 for i in range(0,len(paths),35):subprocess.run(['git','-C',str(repo),'add','-f','--']+paths[i:i+35],check=True,capture_output=True)
 staged=subprocess.check_output(['git','-C',str(repo),'diff','--cached','--name-only'],text=True).splitlines();assert not any(x.startswith('lab/')for x in staged)

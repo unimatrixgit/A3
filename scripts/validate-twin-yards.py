@@ -82,7 +82,16 @@ for row in art:
  except Exception:
   with contextlib.redirect_stdout(io.StringIO()):model=SodIO().read_file(str(O/'SOD'/(row['model']+'.sod')))
  nodes={node['id'].lower()for node in model.nodes}
- if row['theme']=='b':check(row['centralModel']=='xvstock_bbase','original Armada II Borg Nexus central reference '+n)
+ if row['kind']=='research'and row.get('podFittings'):
+  declared=re.findall('[A-Za-z0-9_]+',p.get('podhardpoints',''))
+  check(set(declared)==set(row['podFittings']),'physical fitting for every research pod '+n)
+  check(max(len(items(p)),len(items(p,'secondarybuilditem')))<=len(declared),'pod capacity covers each research tier '+n)
+  podWorld=[];podLast={};actualPods={}
+  for node in model.nodes:
+   tr=np.asarray(node['local_transform']);local=np.eye(4);local[:3,:3]=tr[:3].T;local[:3,3]=tr[3];parentIndex=podLast.get(node['parent'].lower());world=(podWorld[parentIndex]if parentIndex is not None else np.eye(4))@local;podWorld.append(world);podLast[node['id'].lower()]=len(podWorld)-1
+   if node['id'].lower()in row['podFittings']:actualPods[node['id'].lower()]=world[:3,3]
+  for hp,pos in row['podFittings'].items():check(hp in actualPods and np.allclose(actualPods[hp],pos,atol=.0001),'pod attachment position preserved '+n+' '+hp)
+ if row['theme']=='b':check(row['centralModel'].startswith('xvstock_b')if row['kind']=='research'else row['centralModel']=='xvstock_bbase','original Armada II Borg architecture reference '+n)
  for node in model.nodes:
   if node['type']!='MESH':continue
   dat=node['data'];v=dat['vertices'];uv=dat['texture_coordinates'];check(np.isfinite(v).all()and np.isfinite(uv).all(),'finite geometry '+n);check(len(v)<=450,'native conservative mesh chunks '+n);check(dat['texture'].lower()in texidx,'native diffuse texture '+n+' '+dat['texture'])

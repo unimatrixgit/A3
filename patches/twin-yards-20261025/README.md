@@ -30,6 +30,21 @@ The Kendra service dock follows the same refitted architecture. No fighter or
 ship meshes are attached as decoration. Rosters, costs and combat stats stay
 unchanged; icons, size estimates, footprints and exits follow the new geometry.
 
+## Faction research artwork revision
+
+The 27 conventional research stations, upgrade centres and Federation/Borg
+Omega laboratories now have cohesive single-station designs inspired by the
+original research architecture. These do not duplicate laboratories or add
+functional research nodes. Science, weapons and upgrade roles have distinct
+silhouettes; Bajor and Cardassia share their architectural family.
+
+Original source material values, texture faces and illumination settings are
+preserved and checked in the exported SODs. Physical pod collars remain at the
+original attachment positions. Research menus, technology, costs, pod positions
+and numerical scale stay unchanged. Existing alternate upgrade tiers reuse
+their original sockets. Yards, Species 8472, Borg Recycler and tech assimilator
+are unaffected. Static checks passed; gameplay verification is pending.
+
 ## Production yards and service docks
 
 | Faction | Production yards | Repair/recrew/decommission dock |
