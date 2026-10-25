@@ -23,7 +23,7 @@ officerCost = 250
 
 
 //Number of maximum crew (only specified if different from crewCost)
-maximumCrew = 50000
+
 
 //The number of crew added to the capacity
 maxCrewGain = 200000
@@ -252,7 +252,12 @@ recrewRate = 10
 
 baseName = "unicomplex"
 
-hotkeyLabel = "HOTKEY_F9"
+hotkeyLabel = "HOTKEY_F9"
+
+
+
+
+
 
 dilithiumCost = 1500
 
@@ -271,3 +276,5 @@ buildItem1 = "bconst2"
 buildItem2 = "xbuconst"
 
 buildItem3 = "bspecial"
+
+maximumCrew = 10000

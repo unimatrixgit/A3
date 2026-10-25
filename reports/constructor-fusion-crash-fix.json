@@ -1,0 +1,318 @@
+{
+  "applied": true,
+  "appliedAt": "2026-10-25T02:25:43.542231+01:00",
+  "backup": "D:\\Xaramada-Modwork\\backups\\constructor-fusion-crash-20261025-022543",
+  "dump": "C:/Users/thoma/AppData/Local/CrashDumps/Armada2.exe.8420.dmp",
+  "fault": "0x437b30, called from0x66abda; target+0x128 was null; ecx=0x8",
+  "resolution": "Withdraw NX-derived constructor fusingweapon buttons from all affected constructors; retain normal production of tiers",
+  "constructors": [
+    {
+      "constructor": "714const",
+      "removed": [
+        "xcv_714const_u"
+      ],
+      "remainingWeapons": []
+    },
+    {
+      "constructor": "8472_defender",
+      "removed": [
+        "xcv_8472_defender_u"
+      ],
+      "remainingWeapons": []
+    },
+    {
+      "constructor": "8472_passive",
+      "removed": [
+        "xcv_8472_passive_u"
+      ],
+      "remainingWeapons": []
+    },
+    {
+      "constructor": "bconst",
+      "removed": [
+        "xcv_bconst_u"
+      ],
+      "remainingWeapons": [
+        "xabtrans5"
+      ]
+    },
+    {
+      "constructor": "bconst2",
+      "removed": [
+        "xcv_bconst2_u"
+      ],
+      "remainingWeapons": [
+        "xabtrans5"
+      ]
+    },
+    {
+      "constructor": "bjconst",
+      "removed": [
+        "xcv_bjconst_u"
+      ],
+      "remainingWeapons": []
+    },
+    {
+      "constructor": "cconst",
+      "removed": [
+        "xcv_cconst_u"
+      ],
+      "remainingWeapons": []
+    },
+    {
+      "constructor": "dconst",
+      "removed": [
+        "xcv_dconst_u"
+      ],
+      "remainingWeapons": []
+    },
+    {
+      "constructor": "domconst",
+      "removed": [
+        "xcv_domconst_u"
+      ],
+      "remainingWeapons": []
+    },
+    {
+      "constructor": "f31const",
+      "removed": [
+        "xcv_f31const_u"
+      ],
+      "remainingWeapons": []
+    },
+    {
+      "constructor": "fconst",
+      "removed": [
+        "xcv_fconst_u"
+      ],
+      "remainingWeapons": []
+    },
+    {
+      "constructor": "fconst2",
+      "removed": [
+        "xcv_fconst2_u"
+      ],
+      "remainingWeapons": []
+    },
+    {
+      "constructor": "kconst",
+      "removed": [
+        "xcv_kconst_u"
+      ],
+      "remainingWeapons": []
+    },
+    {
+      "constructor": "kconst2",
+      "removed": [
+        "xcv_kconst2_u"
+      ],
+      "remainingWeapons": []
+    },
+    {
+      "constructor": "rconst",
+      "removed": [
+        "xcv_rconst_u"
+      ],
+      "remainingWeapons": []
+    },
+    {
+      "constructor": "rconst2",
+      "removed": [
+        "xcv_rconst2_u"
+      ],
+      "remainingWeapons": []
+    },
+    {
+      "constructor": "xbjconst2",
+      "removed": [
+        "xcv_xbjconst2_u"
+      ],
+      "remainingWeapons": []
+    },
+    {
+      "constructor": "xcconst2",
+      "removed": [
+        "xcv_xcconst2_u"
+      ],
+      "remainingWeapons": []
+    },
+    {
+      "constructor": "xcdconst",
+      "removed": [
+        "xcv_xcdconst_u"
+      ],
+      "remainingWeapons": []
+    },
+    {
+      "constructor": "xdconst2",
+      "removed": [
+        "xcv_xdconst2_u"
+      ],
+      "remainingWeapons": []
+    }
+  ],
+  "disabledAbilities": [
+    "xcv_714const_u",
+    "xcv_8472_defender_u",
+    "xcv_8472_passive_u",
+    "xcv_bconst2_u",
+    "xcv_bconst_u",
+    "xcv_bjconst_u",
+    "xcv_cconst_u",
+    "xcv_dconst_u",
+    "xcv_domconst_u",
+    "xcv_f31const_u",
+    "xcv_fconst2_u",
+    "xcv_fconst_u",
+    "xcv_kconst2_u",
+    "xcv_kconst_u",
+    "xcv_rconst2_u",
+    "xcv_rconst_u",
+    "xcv_xbjconst2_u",
+    "xcv_xcconst2_u",
+    "xcv_xcdconst_u",
+    "xcv_xdconst2_u"
+  ],
+  "unicomplexMaximumCrew": 10000,
+  "unicomplexStartingCrew": "150",
+  "files": [
+    "odf/ships/714const.odf",
+    "odf/ships/8472_defender.odf",
+    "odf/ships/8472_passive.odf",
+    "odf/ships/bconst.odf",
+    "odf/ships/bconst2.odf",
+    "odf/ships/bjconst.odf",
+    "odf/ships/cconst.odf",
+    "odf/ships/dconst.odf",
+    "odf/ships/domconst.odf",
+    "odf/ships/f31const.odf",
+    "odf/ships/fconst.odf",
+    "odf/ships/fconst2.odf",
+    "odf/ships/kconst.odf",
+    "odf/ships/kconst2.odf",
+    "odf/ships/rconst.odf",
+    "odf/ships/rconst2.odf",
+    "odf/ships/xbjconst2.odf",
+    "odf/ships/xcconst2.odf",
+    "odf/ships/xcdconst.odf",
+    "odf/ships/xdconst2.odf",
+    "techtree/tech1.tt",
+    "techtree/earlytech.tt",
+    "techtree/fulltech.tt",
+    "techtree/nosci.tt",
+    "techtree/nospweap.tt",
+    "techtree/nosuper.tt",
+    "odf/stations/unicomplex.odf"
+  ],
+  "manifest": [
+    {
+      "file": "odf/ships/714const.odf",
+      "sha256": "8dd368929bbcbf416ae37c38dad0a19244863ccaa747150a7011d305190a0c20"
+    },
+    {
+      "file": "odf/ships/8472_defender.odf",
+      "sha256": "1ba992e7450232c1741d3c93e17483ac4bc21bf48c72341b94123579d5171351"
+    },
+    {
+      "file": "odf/ships/8472_passive.odf",
+      "sha256": "3adca4fb02067da4f77ffb5bbc3ffd805d3989d8591f2aa3ed284901562d5a5a"
+    },
+    {
+      "file": "odf/ships/bconst.odf",
+      "sha256": "db2ddbfbe9ea2cc577ac6aac30f3d417dd1aa9ab13e9b5a900c99d0d8a084e3a"
+    },
+    {
+      "file": "odf/ships/bconst2.odf",
+      "sha256": "f6a42aa34915ebfae26b6005c13527edfeff40ece6801bf73382e5021197f970"
+    },
+    {
+      "file": "odf/ships/bjconst.odf",
+      "sha256": "363eaf0291c7ede95cbb1a69b65fe4021bc6c68fa7555239f998e8be9d16b610"
+    },
+    {
+      "file": "odf/ships/cconst.odf",
+      "sha256": "a63a3db9914375fd845aefc5c33bc0e81e53c8c5d449aa02415c91feb7f43cbb"
+    },
+    {
+      "file": "odf/ships/dconst.odf",
+      "sha256": "74bed7e77acd2385dde7ef79f49004a80f03cdf6cf4f65a9e3632e6f5d0072a5"
+    },
+    {
+      "file": "odf/ships/domconst.odf",
+      "sha256": "09258854ee9b0de31664b891200564f6b1857f2b789cc8d4c3921d2f6aa4c8bb"
+    },
+    {
+      "file": "odf/ships/f31const.odf",
+      "sha256": "6932d33849bb7f425e2dd49753da4d44499aac75aed0f677109d859d6e7c4bd6"
+    },
+    {
+      "file": "odf/ships/fconst.odf",
+      "sha256": "611109ff0fba8ae03c97a4c2c37ebb13e582394a113de566e71517cdd9cffa8b"
+    },
+    {
+      "file": "odf/ships/fconst2.odf",
+      "sha256": "326ba41486c9852738756e6cf521eedced40d017bbddcffa4d2ed51a50e55501"
+    },
+    {
+      "file": "odf/ships/kconst.odf",
+      "sha256": "53c894a05f301962576a059a950f3ec6fa30e74a6c3af854f8f9b687d8951666"
+    },
+    {
+      "file": "odf/ships/kconst2.odf",
+      "sha256": "cbaf91cd11996dcf92715c676fd3c236c70d665381d5ed125eaa1fba561a9ad5"
+    },
+    {
+      "file": "odf/ships/rconst.odf",
+      "sha256": "c4a69de4c41d3fcf8b3b802c3bc038db1beb9ed8984c5ad46ec8391a56cba0dc"
+    },
+    {
+      "file": "odf/ships/rconst2.odf",
+      "sha256": "780774d286b6ad4ddfa3c2686ddb08931ecc13dc9dfa5fd6f4b539002b774eaa"
+    },
+    {
+      "file": "odf/ships/xbjconst2.odf",
+      "sha256": "b17c0ed63b4d919724a22a206e9222f9a7fb52abf2552b5a4c044f02c278ca39"
+    },
+    {
+      "file": "odf/ships/xcconst2.odf",
+      "sha256": "c90430fd86d2c41f4ab2c95c028bf3ed439e659720e0a44c0c82b942a4356f12"
+    },
+    {
+      "file": "odf/ships/xcdconst.odf",
+      "sha256": "594aa378d2637e2bfdcc78846ccd1744d7a6f03e979010073ba58a9da2e8cd85"
+    },
+    {
+      "file": "odf/ships/xdconst2.odf",
+      "sha256": "d8f90bc08798ed1cb2138b21b7492f106e0f6bf595ec765d832cc96ba222369a"
+    },
+    {
+      "file": "techtree/tech1.tt",
+      "sha256": "f6c8a60245d83b07172bda103e44d875830b533711b413b747b912a2e9483389"
+    },
+    {
+      "file": "techtree/earlytech.tt",
+      "sha256": "f45837c4c0c0f9837114495d66b9e369e5ca7077b6d3f765ed1c403f4e06d43e"
+    },
+    {
+      "file": "techtree/fulltech.tt",
+      "sha256": "c365dfb0a44b50ce7c93cea487d6b9ab6b80a9f60a9da907727c43a39333bccd"
+    },
+    {
+      "file": "techtree/nosci.tt",
+      "sha256": "803524718803a8756f454f49f4dfff6eee102a24b1682456d99da893e9da4135"
+    },
+    {
+      "file": "techtree/nospweap.tt",
+      "sha256": "416cf057d4e2120098c8cd3c7655d8f2d5bf95681122241bd34ef4ca45faf042"
+    },
+    {
+      "file": "techtree/nosuper.tt",
+      "sha256": "11191086a67a59190c709c3a6130b8695f4a38a4e81a92f770a6e8df8a56bdb9"
+    },
+    {
+      "file": "odf/stations/unicomplex.odf",
+      "sha256": "5bc570be15856fd7fdfb88d93309e041bc7355f716b52653b561c9e854a2f243"
+    }
+  ],
+  "runtimeVerified": false
+}

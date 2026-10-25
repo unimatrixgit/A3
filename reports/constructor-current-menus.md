@@ -1,6 +1,6 @@
 # Applied constructor menus
 
-Live installation: D:/armadaIII. Native icons and upgrade-only chains preserved.
+Live installation: D:/armadaIII. Native icons preserved. Constructor fusion upgrade buttons withdrawn after runtime crash; tiers remain buildable normally.
 
 ## Federation Basic Constructor (`fconst`)
 
