@@ -111,7 +111,7 @@ def make_model(race,alias,tile):
     for v,q in zip(tri,mapped):vv.append(location(v));uv.append([(cell%4)*.25+q[0],(cell//4)*.25+q[1]])
     ff.append([[start+j,start+j]for j in range(3)])
   material=copy.deepcopy(old.materials[0]);material['name']='ia_'+mat;material['ambient_color']=[.6,.6,.6];material['diffuse_color']=[1.,1.,1.];material['self_illumination_enabled']=mat=='glow';m.materials.append(material)
-  data={'texture_material':'default','bump_map':0,'texture':'ia26mat','borgification':{'texture':'ia26mat'},'vertices':vv,'texture_coordinates':uv,'vertex_lighting_groups':[{'lighting_material':'ia_'+mat,'faces':ff}],'cull_type':0}
+  data={'texture_material':'default','bump_map':1,'texture':'ia26mat','borgification':{'texture':'ia26mat'},'vertices':vv,'texture_coordinates':uv,'vertex_lighting_groups':[{'lighting_material':'ia_'+mat,'faces':ff}],'cull_type':0}
   m.nodes.append({'id':'ia_mesh_'+mat,'parent':parent['id'],'type':'MESH','local_transform':[[1.,0.,0.],[0.,1.,0.],[0.,0.,1.],[0.,0.,0.]],'data':data})
  anchors={'iabuild':(0,-.12,.65),'iadock':(1.14,.15,-.3)}
  for i in range(1,13):a=(i-1)*math.tau/12;anchors['iagun'+str(i).zfill(2)]=(.92*math.cos(a),.13,.82*math.sin(a))
