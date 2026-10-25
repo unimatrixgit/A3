@@ -1,0 +1,3578 @@
+{
+  "status": "applied; awaiting in-game AI production test",
+  "stage": "D:\\Xaramada-Modwork\\8472-production-recovery-stage",
+  "generated": "2026-10-25T04:49:42.579592+01:00",
+  "flagsCorrected": [
+    {
+      "unit": "xhs_yard3",
+      "values": {
+        "shipIsBuiltByEvolution": 0,
+        "shipIsBuiltByShips": 1
+      }
+    },
+    {
+      "unit": "8472_mine",
+      "values": {
+        "shipIsBuiltByEvolution": 1,
+        "shipIsBuiltByShips": 0
+      }
+    },
+    {
+      "unit": "714turr",
+      "values": {
+        "shipIsBuiltByEvolution": 0,
+        "shipIsBuiltByShips": 1
+      }
+    },
+    {
+      "unit": "8472_sentinel",
+      "values": {
+        "shipIsBuiltByEvolution": 0,
+        "shipIsBuiltByShips": 1
+      }
+    }
+  ],
+  "aiProfiles": [
+    {
+      "file": "species8472_build_list.aip",
+      "rows": 79,
+      "opening": [
+        [
+          "8472_passive",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_transmuter",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_collector",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_collector",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_passive",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_fluidicgate",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "714const",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_passive",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_destroy",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_destroy",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_basicresearch",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_passive",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_advancedresearch",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "xsuconst",
+          1,
+          0,
+          -1,
+          0
+        ]
+      ],
+      "evolutionEvents": 19,
+      "independentConsumptiveAuditPassed": true,
+      "finalEmbryos": {
+        "8472_active": 1,
+        "8472_passive": 1
+      },
+      "events": [
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_transmuter",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_collector",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_collector",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_fluidicgate",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "714const",
+          "target": 1,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_destroy",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_destroy",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_basicresearch",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_advancedresearch",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "xsuconst",
+          "target": 1,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_active",
+          "target": 3,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_scout",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 3
+        },
+        {
+          "unit": "8472fig",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472fig",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_cruise1",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_cruise1",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_cruise2",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_cruise2",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_shipupgraderesearch",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "714turr",
+          "target": 1,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714turr",
+          "target": 2,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_sentinel",
+          "target": 1,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_sentinel",
+          "target": 2,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_frigate",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_frigate",
+          "target": 2,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_battle",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_battle",
+          "target": 2,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_behemoth",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714rnode",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714skate",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714skate",
+          "target": 2,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714orca",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714hydra",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714tmat",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_mine",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "xhs_yard3",
+          "target": 1,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xhs_vanguard",
+          "target": 1,
+          "producer": "xhs_yard3",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xhs_sentinel",
+          "target": 1,
+          "producer": "xhs_yard3",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xhs_leviathan",
+          "target": 1,
+          "producer": "xhs_yard3",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch1",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch2",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch3",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch4",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch21",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch22",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch23",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch24",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podadvanced0",
+          "target": 1,
+          "producer": "8472_advancedresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podadvanced1",
+          "target": 1,
+          "producer": "8472_advancedresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podadvanced2",
+          "target": 1,
+          "producer": "8472_advancedresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podadvanced3",
+          "target": 1,
+          "producer": "8472_advancedresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic0",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic1",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic2",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic3",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic4",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "mrc000",
+          "target": 1,
+          "producer": "xhs_yard3",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xsbiolab",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "xsbio1",
+          "target": 1,
+          "producer": "xsbiolab",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xsbio2",
+          "target": 1,
+          "producer": "xsbiolab",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xsbcol2",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        }
+      ]
+    },
+    {
+      "file": "species8472_defensive_list.aip",
+      "rows": 79,
+      "opening": [
+        [
+          "8472_passive",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_transmuter",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_collector",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_collector",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_passive",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_fluidicgate",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "714const",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_passive",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_destroy",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_destroy",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_basicresearch",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_passive",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_advancedresearch",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "xsuconst",
+          1,
+          0,
+          -1,
+          0
+        ]
+      ],
+      "evolutionEvents": 19,
+      "independentConsumptiveAuditPassed": true,
+      "finalEmbryos": {
+        "8472_active": 1,
+        "8472_passive": 1
+      },
+      "events": [
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_transmuter",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_collector",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_collector",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_fluidicgate",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "714const",
+          "target": 1,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_destroy",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_destroy",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_basicresearch",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_advancedresearch",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "xsuconst",
+          "target": 1,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_active",
+          "target": 3,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_scout",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 3
+        },
+        {
+          "unit": "8472fig",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472fig",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_cruise1",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_cruise1",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_cruise2",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_cruise2",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_shipupgraderesearch",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "714turr",
+          "target": 1,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714turr",
+          "target": 2,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_sentinel",
+          "target": 1,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_sentinel",
+          "target": 2,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_frigate",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_frigate",
+          "target": 2,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_battle",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_battle",
+          "target": 2,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_behemoth",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714rnode",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714skate",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714skate",
+          "target": 2,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714orca",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714hydra",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714tmat",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_mine",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "xhs_yard3",
+          "target": 1,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xhs_vanguard",
+          "target": 1,
+          "producer": "xhs_yard3",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xhs_sentinel",
+          "target": 1,
+          "producer": "xhs_yard3",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xhs_leviathan",
+          "target": 1,
+          "producer": "xhs_yard3",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch1",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch2",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch3",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch4",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch21",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch22",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch23",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch24",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podadvanced0",
+          "target": 1,
+          "producer": "8472_advancedresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podadvanced1",
+          "target": 1,
+          "producer": "8472_advancedresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podadvanced2",
+          "target": 1,
+          "producer": "8472_advancedresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podadvanced3",
+          "target": 1,
+          "producer": "8472_advancedresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic0",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic1",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic2",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic3",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic4",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "mrc000",
+          "target": 1,
+          "producer": "xhs_yard3",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xsbiolab",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "xsbio1",
+          "target": 1,
+          "producer": "xsbiolab",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xsbio2",
+          "target": 1,
+          "producer": "xsbiolab",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xsbcol2",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        }
+      ]
+    },
+    {
+      "file": "species8472_endgame_list.aip",
+      "rows": 79,
+      "opening": [
+        [
+          "8472_passive",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_transmuter",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_collector",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_collector",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_passive",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_fluidicgate",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "714const",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_passive",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_destroy",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_destroy",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_basicresearch",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_passive",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_advancedresearch",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "xsuconst",
+          1,
+          0,
+          -1,
+          0
+        ]
+      ],
+      "evolutionEvents": 19,
+      "independentConsumptiveAuditPassed": true,
+      "finalEmbryos": {
+        "8472_active": 1,
+        "8472_passive": 1
+      },
+      "events": [
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_transmuter",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_collector",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_collector",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_fluidicgate",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "714const",
+          "target": 1,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_destroy",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_destroy",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_basicresearch",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_advancedresearch",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "xsuconst",
+          "target": 1,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_active",
+          "target": 3,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_scout",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 3
+        },
+        {
+          "unit": "8472fig",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472fig",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_cruise1",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_cruise1",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_cruise2",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_cruise2",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_shipupgraderesearch",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "714turr",
+          "target": 1,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714turr",
+          "target": 2,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_sentinel",
+          "target": 1,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_sentinel",
+          "target": 2,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_frigate",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_frigate",
+          "target": 2,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_battle",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_battle",
+          "target": 2,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_behemoth",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714rnode",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714skate",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714skate",
+          "target": 2,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714orca",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714hydra",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714tmat",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_mine",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "xhs_yard3",
+          "target": 1,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xhs_vanguard",
+          "target": 1,
+          "producer": "xhs_yard3",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xhs_sentinel",
+          "target": 1,
+          "producer": "xhs_yard3",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xhs_leviathan",
+          "target": 1,
+          "producer": "xhs_yard3",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch1",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch2",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch3",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch4",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch21",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch22",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch23",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch24",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podadvanced0",
+          "target": 1,
+          "producer": "8472_advancedresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podadvanced1",
+          "target": 1,
+          "producer": "8472_advancedresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podadvanced2",
+          "target": 1,
+          "producer": "8472_advancedresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podadvanced3",
+          "target": 1,
+          "producer": "8472_advancedresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic0",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic1",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic2",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic3",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic4",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "mrc000",
+          "target": 1,
+          "producer": "xhs_yard3",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xsbiolab",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "xsbio1",
+          "target": 1,
+          "producer": "xsbiolab",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xsbio2",
+          "target": 1,
+          "producer": "xsbiolab",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xsbcol2",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        }
+      ]
+    },
+    {
+      "file": "species8472_instant_action_build_list.aip",
+      "rows": 79,
+      "opening": [
+        [
+          "8472_passive",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_transmuter",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_collector",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_collector",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_passive",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_fluidicgate",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "714const",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_passive",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_destroy",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_destroy",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_basicresearch",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_passive",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_advancedresearch",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "xsuconst",
+          1,
+          0,
+          -1,
+          0
+        ]
+      ],
+      "evolutionEvents": 19,
+      "independentConsumptiveAuditPassed": true,
+      "finalEmbryos": {
+        "8472_active": 1,
+        "8472_passive": 1
+      },
+      "events": [
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_transmuter",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_collector",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_collector",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_fluidicgate",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "714const",
+          "target": 1,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_destroy",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_destroy",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_basicresearch",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_advancedresearch",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "xsuconst",
+          "target": 1,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_active",
+          "target": 3,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_scout",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 3
+        },
+        {
+          "unit": "8472fig",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472fig",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_cruise1",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_cruise1",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_cruise2",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_cruise2",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_shipupgraderesearch",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "714turr",
+          "target": 1,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714turr",
+          "target": 2,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_sentinel",
+          "target": 1,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_sentinel",
+          "target": 2,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_frigate",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_frigate",
+          "target": 2,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_battle",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_battle",
+          "target": 2,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_behemoth",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714rnode",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714skate",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714skate",
+          "target": 2,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714orca",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714hydra",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714tmat",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_mine",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "xhs_yard3",
+          "target": 1,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xhs_vanguard",
+          "target": 1,
+          "producer": "xhs_yard3",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xhs_sentinel",
+          "target": 1,
+          "producer": "xhs_yard3",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xhs_leviathan",
+          "target": 1,
+          "producer": "xhs_yard3",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch1",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch2",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch3",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch4",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch21",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch22",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch23",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch24",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podadvanced0",
+          "target": 1,
+          "producer": "8472_advancedresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podadvanced1",
+          "target": 1,
+          "producer": "8472_advancedresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podadvanced2",
+          "target": 1,
+          "producer": "8472_advancedresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podadvanced3",
+          "target": 1,
+          "producer": "8472_advancedresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic0",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic1",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic2",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic3",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic4",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "mrc000",
+          "target": 1,
+          "producer": "xhs_yard3",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xsbiolab",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "xsbio1",
+          "target": 1,
+          "producer": "xsbiolab",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xsbio2",
+          "target": 1,
+          "producer": "xsbiolab",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xsbcol2",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        }
+      ]
+    },
+    {
+      "file": "species8472_offensive_list.aip",
+      "rows": 79,
+      "opening": [
+        [
+          "8472_passive",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_transmuter",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_collector",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_collector",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_passive",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_fluidicgate",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "714const",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_passive",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_destroy",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_active",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_destroy",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_basicresearch",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_passive",
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          "8472_advancedresearch",
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          "xsuconst",
+          1,
+          0,
+          -1,
+          0
+        ]
+      ],
+      "evolutionEvents": 19,
+      "independentConsumptiveAuditPassed": true,
+      "finalEmbryos": {
+        "8472_active": 1,
+        "8472_passive": 1
+      },
+      "events": [
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_transmuter",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_collector",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_collector",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_fluidicgate",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "714const",
+          "target": 1,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_destroy",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_destroy",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_basicresearch",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_advancedresearch",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "xsuconst",
+          "target": 1,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_active",
+          "target": 3,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_scout",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 3
+        },
+        {
+          "unit": "8472fig",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472fig",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_cruise1",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_cruise1",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_cruise2",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_cruise2",
+          "target": 2,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_shipupgraderesearch",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "714turr",
+          "target": 1,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714turr",
+          "target": 2,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_sentinel",
+          "target": 1,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_sentinel",
+          "target": 2,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_frigate",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_frigate",
+          "target": 2,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_battle",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_battle",
+          "target": 2,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_behemoth",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714rnode",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714skate",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714skate",
+          "target": 2,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714orca",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714hydra",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "714tmat",
+          "target": 1,
+          "producer": "8472_fluidicgate",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_mine",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "xhs_yard3",
+          "target": 1,
+          "producer": "714const",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xhs_vanguard",
+          "target": 1,
+          "producer": "xhs_yard3",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xhs_sentinel",
+          "target": 1,
+          "producer": "xhs_yard3",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xhs_leviathan",
+          "target": 1,
+          "producer": "xhs_yard3",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch1",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch2",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch3",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch4",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch21",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch22",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch23",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podshipresearch24",
+          "target": 1,
+          "producer": "8472_shipupgraderesearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podadvanced0",
+          "target": 1,
+          "producer": "8472_advancedresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podadvanced1",
+          "target": 1,
+          "producer": "8472_advancedresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podadvanced2",
+          "target": 1,
+          "producer": "8472_advancedresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podadvanced3",
+          "target": 1,
+          "producer": "8472_advancedresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic0",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic1",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic2",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic3",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_podbasic4",
+          "target": 1,
+          "producer": "8472_basicresearch",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "mrc000",
+          "target": 1,
+          "producer": "xhs_yard3",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_passive",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xsbiolab",
+          "target": 1,
+          "producer": "8472_passive",
+          "consumesProducer": true,
+          "producerBefore": 2
+        },
+        {
+          "unit": "xsbio1",
+          "target": 1,
+          "producer": "xsbiolab",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xsbio2",
+          "target": 1,
+          "producer": "xsbiolab",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "8472_active",
+          "target": 2,
+          "producer": "8472_mothership",
+          "consumesProducer": false,
+          "producerBefore": 1
+        },
+        {
+          "unit": "xsbcol2",
+          "target": 1,
+          "producer": "8472_active",
+          "consumesProducer": true,
+          "producerBefore": 2
+        }
+      ]
+    }
+  ],
+  "startsPreserved": [
+    "8472_mothership",
+    "8472_active",
+    "8472_passive",
+    "8472_scout"
+  ],
+  "files": [
+    "odf/stations/xhs_yard3.odf",
+    "odf/stations/8472_Mine.odf",
+    "odf/stations/714turr.odf",
+    "odf/stations/8472_Sentinel.odf",
+    "AI/AIPs/species8472_build_list.aip",
+    "AI/AIPs/species8472_defensive_list.aip",
+    "AI/AIPs/species8472_endgame_list.aip",
+    "AI/AIPs/species8472_instant_action_build_list.aip",
+    "AI/AIPs/species8472_offensive_list.aip"
+  ],
+  "manifest": [
+    {
+      "file": "odf/stations/xhs_yard3.odf",
+      "sourceSHA256": "0cf13415ef63cea237a77dc5e573d3492213d048afc22595e5b87bccbe17555d",
+      "stagedSHA256": "8d1765a08cf372b2346926dcc22531f691f38b9176d8a0eebcfa3f4a91e12b23"
+    },
+    {
+      "file": "odf/stations/8472_Mine.odf",
+      "sourceSHA256": "47098cbb71a2f7f29cc25d8c14c67cec26d9b828d2a1379bbc9066726c5cc005",
+      "stagedSHA256": "2ea81b98ea04ff8bd4c2ff4a9d4d1c647c5c8cd655c92e3feed5288685897a7b"
+    },
+    {
+      "file": "odf/stations/714turr.odf",
+      "sourceSHA256": "e2e70933f102d61b3936207c43a32f854d75994712200a3b08dd7848694273b7",
+      "stagedSHA256": "85b6f09e55cd80db82661fb0550bdb1511c955d30f749537ad81eda9dbc69c1a"
+    },
+    {
+      "file": "odf/stations/8472_Sentinel.odf",
+      "sourceSHA256": "eeed172272f393bb1b4a00b74091e0d8b73717eb16240f12e80e81698154dee2",
+      "stagedSHA256": "88b35a2e784c0cbdf4e4037abc024ced1e007a5805b19e0c9106cd8694f4687c"
+    },
+    {
+      "file": "AI/AIPs/species8472_build_list.aip",
+      "sourceSHA256": "b36707d63d003e679a6d39a7d7eb38f04040dacc54ca7d29ed3950cf61e846c1",
+      "stagedSHA256": "527d3e4b4bb1f4c8474430e51ed93fb6bcba13fd97132b02293eb577c3bb8139"
+    },
+    {
+      "file": "AI/AIPs/species8472_defensive_list.aip",
+      "sourceSHA256": "b36707d63d003e679a6d39a7d7eb38f04040dacc54ca7d29ed3950cf61e846c1",
+      "stagedSHA256": "527d3e4b4bb1f4c8474430e51ed93fb6bcba13fd97132b02293eb577c3bb8139"
+    },
+    {
+      "file": "AI/AIPs/species8472_endgame_list.aip",
+      "sourceSHA256": "b36707d63d003e679a6d39a7d7eb38f04040dacc54ca7d29ed3950cf61e846c1",
+      "stagedSHA256": "527d3e4b4bb1f4c8474430e51ed93fb6bcba13fd97132b02293eb577c3bb8139"
+    },
+    {
+      "file": "AI/AIPs/species8472_instant_action_build_list.aip",
+      "sourceSHA256": "b36707d63d003e679a6d39a7d7eb38f04040dacc54ca7d29ed3950cf61e846c1",
+      "stagedSHA256": "527d3e4b4bb1f4c8474430e51ed93fb6bcba13fd97132b02293eb577c3bb8139"
+    },
+    {
+      "file": "AI/AIPs/species8472_offensive_list.aip",
+      "sourceSHA256": "b36707d63d003e679a6d39a7d7eb38f04040dacc54ca7d29ed3950cf61e846c1",
+      "stagedSHA256": "527d3e4b4bb1f4c8474430e51ed93fb6bcba13fd97132b02293eb577c3bb8139"
+    }
+  ],
+  "runtimeVerified": false,
+  "findings": [
+    "Active embryos are consumed by evolution; original AI requested a second collector before producing another active embryo.",
+    "The original graph audit retained consumed producers, so it missed evolution deadlocks.",
+    "Hatchery uses conventional714const but retained shipIsBuiltByEvolution=1.",
+    "Mine on the Passive Embryo lacked evolution routing; conventional Advanced Constructor defenses now have explicit conventional routing."
+  ],
+  "biomatterOnlyCostsPreserved": true,
+  "otherFactionsChanged": false,
+  "applied": true,
+  "appliedAt": "2026-10-25T04:50:28.493210+01:00",
+  "backup": "D:\\Xaramada-Modwork\\backups\\8472-production-recovery-20261025-045028"
+}

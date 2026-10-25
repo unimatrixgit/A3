@@ -7,7 +7,7 @@ race = "species8472"
 //THIS NEVER SHOULD HAVE BEEN TRUEshipIsBuiltByShips = 1
 
 // No, not built by a constructionrig, but built by evolution!
-shipIsBuiltByEvolution = 1
+
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
 
@@ -222,3 +222,7 @@ buildItem8 = "mrc056"
 buildItem9 = "mrc057"
 
 verboseTooltip = "Advanced Hatchery\nFleet support\nLiving architecture grown in fluidic space."
+
+shipIsBuiltByEvolution = 0
+
+shipIsBuiltByShips = 1
