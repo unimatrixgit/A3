@@ -93,31 +93,6 @@ race = "borg"
 
 
 
-buildItem0 = "bbase"
-
-buildItem1 = "fbase"
-
-buildItem2 = "kbase"
-
-buildItem3 = "rbase"
-
-buildItem4 = "cbase"
-
-buildItem5 = "dbase"
-
-buildItem6 = "brbase"
-
-buildItem7 = "bjbase"
-
-buildItem8 = "xbgmerc"
-
-buildItem9 = "xbgserv"
-
-buildItem10 = "xbgresearch"
-
-buildItem11 = "xbgmetal2"
-
-buildItem12 = "xbgmetal3"
 
 
 
@@ -125,7 +100,32 @@ buildItem12 = "xbgmetal3"
 
 
 
-baseName = "xbgconst"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 dilithiumCost = 300
 
@@ -163,10 +163,25 @@ specialEnergyRate = 10
 
 
 
-unitName = "Ferengi Temporal Constructor"
-
-tooltip = "Ferengi Temporal Constructor"
 
 
 
-verboseTooltip = "Ferengi Temporal Constructor\nTranswarp Drive\nBorg drones assemble the Collective's domain."
+
+
+
+
+
+buildItem0 = "xbgmerc"
+buildItem1 = "xbgserv"
+buildItem2 = "xbgresearch"
+buildItem3 = "xbgmetal2"
+buildItem4 = "xbgmetal3"
+buildItem5 = "xbgdref"
+
+unitName = "Ferengi Basic Constructor"
+
+tooltip = "Ferengi Basic Constructor"
+
+verboseTooltip = "Ferengi Basic Constructor\nMining, research and contract yards\nEvery venture begins with a sound investment."
+
+baseName = "vr26_xbgconst"

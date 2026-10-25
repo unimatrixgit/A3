@@ -150,7 +150,7 @@ sensorsTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
 hullTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
 criticalTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
 
-baseName = "xui_xbgserv"
+
 
 unitName = "Mercenary Ferengi Service Yard"
 
@@ -193,18 +193,29 @@ biomatterCost = 0
 
 
 
-buildItem0 = "xbgconst"
 
-buildItem1 = "xfgtrade"
 
-buildItem2 = "xbgmine"
 
-buildItem3 = "xbgrepair"
 
-buildItem4 = "xbgcolony"
 
-buildItem5 = "xbgdil2"
 
-buildItem6 = "xbgdil3"
+
+
+
+
+
+
+
 
 verboseTooltip = "Mercenary Ferengi Service Yard\nShip construction\nA node in the vast machinery of the Collective."
+
+buildItem0 = "xbgconst"
+buildItem1 = "xfgtrade"
+buildItem2 = "xbgmine"
+buildItem3 = "xbgrepair"
+buildItem4 = "xbgcolony"
+buildItem5 = "xbgdil2"
+buildItem6 = "xbgdil3"
+buildItem7 = "xbgconst2"
+
+baseName = "vr26_xbgserv"
