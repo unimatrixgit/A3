@@ -3,14 +3,13 @@
 int checkTechnologyAvailable = 1;
 Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 {
-    // Economy first; every producer and research dependency precedes its unit.
+    // Consolidated yards; prerequisites and producers precede every unit.
     "fbase", 1, 0, -1, 0,
     "fconst", 2, 0, -1, 0,
     "fmining", 1, 0, -1, 0,
     "ffreight", 1, 0, -1, 0,
     "ffreight", 2, 0, -1, 0,
     "forbital", 1, 0, -1, 0,
-    "fyard0", 1, 0, -1, 0,
     "fyard", 1, 0, -1, 0,
     "fdestroy", 1, 0, -1, 0,
     "fdestroy", 2, 0, -1, 0,

@@ -3,7 +3,7 @@
 int checkTechnologyAvailable = 1;
 Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 {
-    // Economy first; every producer and research dependency precedes its unit.
+    // Consolidated yards; prerequisites and producers precede every unit.
     "cbase", 1, 0, -1, 0,
     "cconst", 2, 0, -1, 0,
     "cmining", 1, 0, -1, 0,
@@ -29,10 +29,9 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "csensor", 1, 1, -1, 0,
     "cbattle", 1, 0, -1, 0,
     "dombase", 1, 0, -1, 0,
-    "domyard", 1, 0, -1, 0,
     "cturret2", 1, 1, -1, 0,
     "ckimal", 1, 0, -1, 0,
-    "cobyard", 1, 0, -1, 0,
+    "cyard3", 1, 0, -1, 0,
     "cturret", 2, 2, -1, 0,
     "cogalor", 1, 0, -1, 0,
     "cassault", 1, 0, -1, 0,
@@ -47,7 +46,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "dombase", 1, 2, -1, 0,
     "ccruise2", 1, 0, -1, 0,
     "ccruise3", 1, 0, -1, 0,
-    "domyard", 1, 1, -1, 0,
     "sonabat", 1, 0, -1, 0,
     "cokeldon", 1, 0, -1, 0,
     "cdestroy2", 1, 0, -1, 0,
@@ -71,7 +69,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "carpod7", 1, 0, -1, 0,
     "carpod8", 1, 0, -1, 0,
     "carpod9", 1, 0, -1, 0,
-    "mrycard", 1, 0, -1, 0,
     "mrc005", 1, 0, -1, 0,
     "xfgmerc", 1, 0, -1, 0,
     "xfgconst", 1, 0, -1, 0,
@@ -90,6 +87,5 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "xfgplat2", 1, 0, -1, 0,
     "xfglat3", 1, 0, -1, 0,
     "xfgtrade", 1, 0, -1, 0,
-    "mryfer", 1, 0, -1, 0,
     "mrc026", 1, 0, -1, 0,
 };

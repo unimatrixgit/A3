@@ -127,17 +127,7 @@ race = "bajoran"
 
 
 
-buildItem0 = "bjcruiser"
 
-buildItem1 = "bjtorpedo"
-
-buildItem2 = "bjfrigate"
-
-buildItem3 = "bjartillery"
-
-buildItem4 = "bjbattle"
-
-buildItem5 = "bjspecial"
 
 
 
@@ -156,13 +146,13 @@ lifesupporttargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp17" "hp21" "
 sensorstargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp23" "hp24" "hp25"
 shieldgeneratortargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp19" "hp21" "hp22"
 weaponstargethardpoints = "hp13" "hp14" "hp15" "hp18" "hp23" "hp24" "hp25"
-dilithiumcost = 300
-metalcost = 1000
+
+
 latinumcost = 0
 biomattercost = 0
 crewcost = 500
 officercost = 5
-buildtime = 120
+
 
 repairHardpoint = "repair"
 
@@ -185,3 +175,27 @@ tooltip = "Shipyard (Militia Shipyard II)"
 verboseTooltip = "Produces the vessels listed in its construction menu. Bajoran militia engineering protects Bajor and its neighboring systems."
 
 baseName = "bv4_bjyard2"
+
+buildItem0 = "bjcruiser"
+
+buildItem1 = "bjtorpedo"
+
+buildItem2 = "bjfrigate"
+
+buildItem3 = "bjartillery"
+
+buildItem4 = "bjbattle"
+
+buildItem5 = "bjspecial"
+
+buildItem6 = "bjnerys"
+
+buildItem7 = "bjsuper"
+
+buildItem8 = "mrc002"
+
+dilithiumCost = 300
+
+metalCost = 1000
+
+buildTime = 90

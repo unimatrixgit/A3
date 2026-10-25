@@ -95,16 +95,13 @@ baseName = "byard3"
 
 
 
-buildItem0 = "bpentra"
-buildItem1 = "bhentra"
-buildItem2 = "bomega1"
-buildItem3 = "bhentrag"
-buildItem4 = "bmama"
-buildItem5 = "blocutus"
-buildItem6 = "xobcruise1"
-buildItem7 = "xobbattle1"
-buildItem8 = "xobbattle2"
-buildItem9 = "xoblocutus"
+
+
+
+
+
+
+
 
 
 // Xaramada resource costs: calculated from original comparable.
@@ -114,14 +111,14 @@ buildItem9 = "xoblocutus"
 
 crewCost = 1700
 officerCost = 6
-buildTime = 113
+
 unitName = "Advanced Assimilated Matrix"
 
 
 
-dilithiumCost = 450
 
-metalCost = 1350
+
+
 
 latinumCost = 0
 
@@ -133,4 +130,37 @@ verboseTooltip = "Produces the vessels listed in its construction menu. Collecti
 
 recrewRate = 10
 
-buildItem10 = "xhbqueen"
+
+buildItem0 = "bhentrag"
+
+buildItem1 = "bmama"
+
+buildItem2 = "xobcruise1"
+
+buildItem3 = "xobbattle1"
+
+buildItem4 = "xobbattle2"
+
+buildItem5 = "xoblocutus"
+
+buildItem6 = "xhbqueen"
+
+buildItem7 = "mrc003"
+
+buildItem8 = "mrc004"
+
+buildItem9 = "mrc022"
+
+buildItem10 = "mrc023"
+
+buildItem11 = "mrc024"
+
+buildItem12 = "mrc029"
+
+buildItem13 = "mrc058"
+
+dilithiumCost = 450
+
+metalCost = 1350
+
+buildTime = 120

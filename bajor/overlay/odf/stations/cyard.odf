@@ -103,7 +103,7 @@ SHOW_SW_AUTONOMY = 1
 
 crewCost = 500
 officerCost = 5
-buildTime = 25
+
 
 baseName = "xvstock_cyard"
 
@@ -121,9 +121,9 @@ hulltargethardpoints = "hp06"
 
 criticaltargethardpoints = "hp01"
 
-dilithiumCost = 250
 
-metalCost = 750
+
+
 
 latinumCost = 0
 
@@ -132,3 +132,9 @@ biomatterCost = 0
 tooltip = "Shipyard (Shipyard)"
 
 verboseTooltip = "Produces the vessels listed in its construction menu. Cardassian engineering sustains the Union through ordered, persistent operations."
+
+dilithiumCost = 250
+
+metalCost = 750
+
+buildTime = 45

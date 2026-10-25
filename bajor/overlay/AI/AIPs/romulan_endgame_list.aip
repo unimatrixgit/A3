@@ -3,7 +3,7 @@
 int checkTechnologyAvailable = 1;
 Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 {
-    // Economy first; every producer and research dependency precedes its unit.
+    // Consolidated yards; prerequisites and producers precede every unit.
     "rbase", 1, 0, -1, 0,
     "rconst", 2, 0, -1, 0,
     "rmining", 1, 0, -1, 0,
@@ -78,7 +78,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "rompod7", 1, 0, -1, 0,
     "rompod8", 1, 0, -1, 0,
     "rompod9", 1, 0, -1, 0,
-    "mryrom", 1, 0, -1, 0,
     "mrc049", 1, 0, -1, 0,
     "xfgmerc", 1, 0, -1, 0,
     "xfgconst", 1, 0, -1, 0,
@@ -97,6 +96,5 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "xfgplat2", 1, 0, -1, 0,
     "xfglat3", 1, 0, -1, 0,
     "xfgtrade", 1, 0, -1, 0,
-    "mryfer", 1, 0, -1, 0,
     "mrc026", 1, 0, -1, 0,
 };

@@ -110,14 +110,14 @@ SHOW_SW_AUTONOMY = 1
 
 crewCost = 750
 officerCost = 6
-buildTime = 137
+
 
 // Lab safety fix: this model has no repair docking node. Do not accept repair orders, including after capture.
 
 
-dilithiumCost = 450
 
-metalCost = 1350
+
+
 
 latinumCost = 0
 
@@ -130,3 +130,9 @@ verboseTooltip = "Produces the vessels listed in its construction menu. Starflee
 repairFacility = 1
 
 repairHardpoint = "build"
+
+dilithiumCost = 450
+
+metalCost = 1350
+
+buildTime = 120

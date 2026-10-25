@@ -23,7 +23,7 @@ forbital.odf 0
 fsensor.odf 1 fbase.odf
 fturret.odf 1 fbase.odf
 fturret2.odf 1 fresear.odf
-fyard.odf 1 fyard0.odf
+fyard.odf 0
 fyard2.odf 1 fresear.odf
 ftrading.odf 1 fbase.odf
 fresear.odf 2 fbase.odf fyard.odf
@@ -371,16 +371,16 @@ dcruise2.odf 2 dyard.odf dresear.odf
 dcruise3.odf 2 dyard.odf dresear2.odf
 dcolony.odf 2 dyard.odf dresear.odf
 dassault.odf 2 dyard.odf dresear2.odf
-dbattle.odf 1 dyard2.odf
-dbattle2.odf 1 dyard3.odf // Founders Command Yard production
-dfrigate.odf 1 dyard2.odf
-dspecial.odf 2 dyard2.odf dresear2.odf
+dbattle.odf 2 dyard.odf dresear.odf
+dbattle2.odf 2 dyard3.odf dyard.odf
+dfrigate.odf 2 dyard.odf dresear.odf
+dspecial.odf 3 dyard.odf dresear.odf dresear2.odf
 dsuper.odf 0
 dwormdbattle.odf 0
 dwormdbattle2.odf 0
 dwormddestroy2.odf 0
 dwormdsuper.odf 0
-dweyoun.odf 2 dyard2.odf dupgrade.odf
+dweyoun.odf 4 dyard.odf dresear.odf dupgrade.odf dyard3.odf
 dbase.odf 0
 dmining.odf 0
 dorbital.odf 0
@@ -388,13 +388,11 @@ dsensor.odf 1 dbase.odf
 dturret.odf 1 dbase.odf
 dturret2.odf 1 dresear2.odf
 dyard.odf 1 dbase.odf
-dyard2.odf 2 dyard.odf dresear.odf
 dtrading.odf 1 dbase.odf
 dresear.odf 1 dbase.odf
 dresear2.odf 2 dyard.odf dresear.odf
 dupgrade.odf 2 dresear.odf dresear2.odf
-dsuperbl.odf 3 dbase.odf dyard2.odf dresear2.odf
-zsuperbl.odf 4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf
+zsuperbl.odf 5 dtrading.odf dyard.odf dresear.odf dresear2.odf dupgrade.odf
 dompod1.odf 2 dresear.odf dyard.odf
 dompod2.odf 1 dresear.odf
 dompod3.odf 1 dresear.odf
@@ -431,15 +429,14 @@ brscout.odf 1 bryard.odf
 brdestroy.odf 1 bryard.odf
 brcruise1.odf 2 bryard.odf brresear.odf
 brcolony.odf 2 bryard.odf brresear.odf
-brbattle.odf 1 bryard2.odf
-brbattle2.odf 2 bryard2.odf brresear2.odf
-brfrigate.odf 1 bryard2.odf
+brbattle.odf 2 bryard.odf brresear.odf
+brbattle2.odf 3 bryard.odf brresear.odf brresear2.odf
+brfrigate.odf 2 bryard.odf brresear.odf
 brcruise2.odf 2 bryard.odf brresear2.odf
 brbase.odf 0
 brmining.odf 0
 brorbital.odf 0
 bryard.odf 1 brbase.odf
-bryard2.odf 2 bryard.odf brresear.odf
 brresear.odf 1 bryard.odf
 brresear2.odf 2 bryard.odf brresear.odf
 brgshldemt.odf 0 // User-selected ability without research
@@ -497,7 +494,6 @@ fprom.odf 1 fyard2.odf
 fexcel.odf 1 fyard2.odf
 koutpost.odf 1 kbase.odf
 kimpbase.odf 2 kbase.odf kyard2.odf
-kimpyard.odf 1 kimpbase.odf
 khwp.odf 1 kyard.odf // Heavy platform unlocked by first faction shipyard
 kbase2.odf 2 kbase.odf kimpbase.odf
 
@@ -509,22 +505,22 @@ kvood.odf 1 kyard2.odf
 kbatleth.odf 1 kyard2.odf
 kbwing.odf 1 kyard2.odf
 kquon.odf 1 kyard.odf
-kimpnegh.odf 1 kimpyard.odf
-kimpvorc.odf 1 kimpyard.odf
-kimpnook.odf 1 kimpyard.odf
-kimpben.odf 1 kimpyard.odf
-kimpbakt.odf 1 kimpyard.odf
-kimphut.odf 1 kimpyard.odf
-kimpkoto.odf 1 kimpyard.odf
-kimpmakd.odf 1 kimpyard.odf
-kavorcha.odf 1 kimpyard.odf
+kimpnegh.odf 2 kimpbase.odf kyard2.odf
+kimpvorc.odf 2 kimpbase.odf kyard2.odf
+kimpnook.odf 2 kimpbase.odf kyard3.odf
+kimpben.odf 2 kimpbase.odf kyard3.odf
+kimpbakt.odf 2 kimpbase.odf kyard3.odf
+kimphut.odf 2 kimpbase.odf kyard3.odf
+kimpkoto.odf 1 kimpbase.odf
+kimpmakd.odf 2 kimpbase.odf kyard3.odf
+kavorcha.odf 2 kimpbase.odf kyard2.odf
 kgunboat.odf 1 koutpost.odf
 bdestroy2.odf 1 byard.odf
 btacpyr.odf 1 byard2.odf
 brenborg.odf 1 byard2.odf
-bpentra.odf 1 byard3.odf
-bhentra.odf 1 byard3.odf
-bomega1.odf 1 byard3.odf
+bpentra.odf 2 byard3.odf byard2.odf
+bhentra.odf 2 byard3.odf byard2.odf
+bomega1.odf 2 byard3.odf byard2.odf
 bmama.odf 1 byard3.odf
 bhentrag.odf 1 byard3.odf
 
@@ -549,56 +545,53 @@ rbase2.odf 2 rbase.odf ryard2.odf
 rtsens.odf 1 rbase2.odf
 rhwp.odf 1 ryard.odf // Heavy platform unlocked by first faction shipyard
 rtswarb.odf 1 ryard3.odf
-rtsdest.odf 1 ryard3.odf
-rtscruis.odf 1 ryard3.odf
-rtscout.odf 1 rbase2.odf
+rtsdest.odf 2 ryard3.odf ryard2.odf
+rtscruis.odf 2 ryard3.odf ryard2.odf
+rtscout.odf 2 rbase2.odf ryard2.odf
 rtsdread.odf 1 ryard3.odf
-rtsbcru.odf 1 ryard3.odf
-rtspec.odf 1 ryard3.odf
-cobyard.odf 3 cbase.odf cyard2.odf cresear2.odf
-cstation.odf 2 cbase.odf cobyard.odf
+rtsbcru.odf 2 ryard3.odf ryard2.odf
+rtspec.odf 2 ryard3.odf ryard2.odf
+cstation.odf 3 cbase.odf cyard2.odf cresear2.odf
 
 ctelkor.odf 1 cyard.odf
 ckimal.odf 1 cyard.odf
 chutet.odf 1 cyard2.odf
 dombase.odf 2 cbase.odf xcconst2.odf
-domyard.odf 1 dombase.odf
 domabase.odf 1 dombase.odf
-domscout.odf 1 domyard.odf
-jemdest.odf 1 domyard.odf
-jemdest2.odf 1 domyard.odf
-sonadest.odf 1 domyard.odf
-sonabat.odf 1 domyard.odf
-dombat.odf 2 cresear.odf domyard.odf
-domdred.odf 2 cresear2.odf domyard.odf
-cogalor.odf 1 cobyard.odf
-cohideki.odf 1 cobyard.odf
-cokaldor.odf 1 cobyard.odf
-cokeldon.odf 1 cobyard.odf
+domscout.odf 2 dombase.odf cyard2.odf
+jemdest.odf 2 dombase.odf cyard2.odf
+jemdest2.odf 2 dombase.odf cyard2.odf
+sonadest.odf 2 dombase.odf cyard3.odf
+sonabat.odf 2 dombase.odf cyard3.odf
+dombat.odf 3 cresear.odf dombase.odf cyard3.odf
+domdred.odf 3 cresear2.odf dombase.odf cyard3.odf
+cogalor.odf 3 cbase.odf cyard2.odf cresear2.odf
+cohideki.odf 3 cbase.odf cyard2.odf cresear2.odf
+cokaldor.odf 4 cbase.odf cyard2.odf cresear2.odf cyard3.odf
+cokeldon.odf 4 cbase.odf cyard2.odf cresear2.odf cyard3.odf
 8472fig.odf 1 8472_active.odf
 8472int.odf 1 8472_fluidicgate.odf
 8472be2.odf 1 8472_fluidicgate.odf
 
-714syard.odf 2 8472_mothership.odf 8472_fluidicgate.odf
 714turr.odf 0
-714hydra.odf 1 714syard.odf
-714manta.odf 1 714syard.odf
-714orca.odf 1 714syard.odf
-714rnode.odf 1 714syard.odf
-714skate.odf 1 714syard.odf
-714tmat.odf 1 714syard.odf
+714hydra.odf 2 8472_mothership.odf 8472_fluidicgate.odf
+714manta.odf 2 8472_mothership.odf 8472_fluidicgate.odf
+714orca.odf 2 8472_mothership.odf 8472_fluidicgate.odf
+714rnode.odf 2 8472_mothership.odf 8472_fluidicgate.odf
+714skate.odf 2 8472_mothership.odf 8472_fluidicgate.odf
+714tmat.odf 2 8472_mothership.odf 8472_fluidicgate.odf
 
 fdanube.odf 0
 ffighter.odf 0
 fdeltaflyer.odf 0
 fantares.odf 0
-foberth.odf 1 fyard0.odf
-fnx.odf 1 fyard0.odf
-fcentaur.odf 1 fyard0.odf
-fmiranda.odf 1 fyard0.odf
-fconstellation.odf 1 fyard0.odf
-fconstitution.odf 1 fyard0.odf
-fdauntless.odf 2 fyard.odf fjupiter.odf
+foberth.odf 1 fyard.odf
+fnx.odf 1 fyard.odf
+fcentaur.odf 1 fyard.odf
+fmiranda.odf 1 fyard.odf
+fconstellation.odf 1 fyard.odf
+fconstitution.odf 1 fyard.odf
+fdauntless.odf 3 fyard.odf fjupiter.odf fyard2.odf
 fintx.odf 2 fyard.odf fmidas.odf
 fambassador.odf 1 fyard3.odf
 fneworleans.odf 1 fyard3.odf
@@ -610,7 +603,7 @@ fsovx.odf 2 fyard2.odf fmidas.odf
 fprometheus.odf 2 fyard2.odf fmidas.odf
 fexcalibur.odf 2 fyard2.odf fjupiter.odf
 fnxent.odf 0
-fent.odf 1 fyard0.odf
+fent.odf 0
 fenta.odf 1 fresear.odf
 fentb.odf 1 fyard2.odf
 fentc.odf 1 fyard3.odf
@@ -621,16 +614,15 @@ fvoyager.odf 1 fmidas.odf
 fdefiant.odf 1 fds9.odf
 foutpost.odf 0
 fregula.odf 0
-fyard0.odf 0
 fbase2.odf 1 fupgrade.odf
 fhwp.odf 1 fyard.odf // Heavy platform unlocked by first faction shipyard
-fremmeler.odf 1 fyard0.odf
+fremmeler.odf 0
 fmidas.odf 1 fupgrade.odf
 fjupiter.odf 1 fmidas.odf
 fargus.odf 2 fmidas.odf fjupiter.odf
 ftwarpd.odf 1 fjupiter.odf
 slipstream.odf 1 fjupiter.odf
-fnxenttoent.odf 1 fyard0.odf
+fnxenttoent.odf 0
 fenttoenta.odf 1 fresear.odf
 fentatoentb.odf 1 fyard2.odf
 fentbtoentc.odf 1 fresear2.odf
@@ -651,7 +643,7 @@ xhchero.odf 1 cyard3.odf
 
 xhdhero.odf 1 dyard3.odf
 
-xhbrhero.odf 1 bryard3.odf
+xhbrhero.odf 2 bryard.odf brresear.odf
 
 xhshero.odf 1 xhs_yard3.odf
 fds9.odf 2 fbase.odf fyard2.odf
@@ -670,7 +662,7 @@ xoblocutus.odf 2 byard3.odf xbomegapod.odf
 8472_sentinel.odf 1 714const.odf
 
 dcruise4.odf 1 dyard.odf
-kdestroy4.odf 1 kimpyard.odf
+kdestroy4.odf 2 kimpbase.odf kyard2.odf
 
 xacgreen.odf 0 // additional green holding/assimilation beam
 
@@ -722,9 +714,9 @@ bjbattle.odf 2 bjyard2.odf bjupgrade.odf
 
 bjspecial.odf 2 bjyard2.odf bjresear2.odf
 
-bjsuper.odf 2 bjyard3.odf bjsuperlab.odf
+bjsuper.odf 4 bjbase.odf bjresear2.odf bjyard2.odf bjsuperlab.odf
 
-bjnerys.odf 1 bjyard3.odf
+bjnerys.odf 3 bjbase.odf bjresear2.odf bjyard2.odf
 
 
 
@@ -833,9 +825,8 @@ ryard3.odf 4 rbase.odf ryard2.odf rresear2.odf rupgrade.odf
 
 cyard3.odf 4 cbase.odf cyard2.odf cresear2.odf cupgrade.odf
 
-dyard3.odf 4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf
+dyard3.odf 5 dtrading.odf dyard.odf dresear.odf dresear2.odf dupgrade.odf
 
-bryard3.odf 2 bryard.odf brresear.odf
 
 
 xhs_yard3.odf 1 8472_passive.odf
@@ -853,7 +844,6 @@ bjorbital.odf 0
 bjtrading.odf 1 bjbase.odf
 bjyard.odf 1 bjbase.odf
 bjyard2.odf 1 bjresear.odf
-bjyard3.odf 3 bjbase.odf bjresear2.odf bjyard2.odf
 bjresear.odf 1 bjbase.odf
 bjresear2.odf 1 bjresear.odf
 bjupgrade.odf 2 bjresear.odf bjresear2.odf
@@ -1154,9 +1144,9 @@ xrsstract.odf 0 // Scimitar tractor GUI alias
 
 unicomplex.odf 2 bupgrade.odf bsuperbl.odf // Central Unicomplex, original technology prerequisites
 
-xdhattack.odf 1 dyard2.odf // Matches producing Dominion Advanced Shipyard technology
+xdhattack.odf 3 dyard.odf dresear.odf dyard3.odf
 
-xdcarrier.odf 1 dyard3.odf // Founders Command Yard production
+xdcarrier.odf 2 dyard3.odf dyard.odf
 
 xhdodo.odf 1 dyard3.odf // Dominion command hero
 
@@ -1619,97 +1609,88 @@ mrc043.odf 1 mryfedb.odf
 
 mrc044.odf 1 mryfedb.odf
 
-mryborg.odf 1 byard2.odf
 
-mrc003.odf 1 mryborg.odf
+mrc003.odf 2 byard2.odf byard3.odf
 
-mrc004.odf 1 mryborg.odf
+mrc004.odf 2 byard2.odf byard3.odf
 
-mrc022.odf 1 mryborg.odf
+mrc022.odf 2 byard2.odf byard3.odf
 
-mrc023.odf 1 mryborg.odf
+mrc023.odf 2 byard2.odf byard3.odf
 
-mrc024.odf 1 mryborg.odf
+mrc024.odf 2 byard2.odf byard3.odf
 
-mrc029.odf 1 mryborg.odf
+mrc029.odf 2 byard2.odf byard3.odf
 
-mrc058.odf 1 mryborg.odf
+mrc058.odf 2 byard2.odf byard3.odf
 
-mrykling.odf 1 kyard2.odf
 
-mrc019.odf 1 mrykling.odf
+mrc019.odf 2 kyard2.odf kyard3.odf
 
-mrc020.odf 1 mrykling.odf
+mrc020.odf 2 kyard2.odf kyard3.odf
 
-mrc046.odf 1 mrykling.odf
+mrc046.odf 2 kyard2.odf kyard3.odf
 
-mrc047.odf 1 mrykling.odf
+mrc047.odf 2 kyard2.odf kyard3.odf
 
-mrc048.odf 1 mrykling.odf
+mrc048.odf 2 kyard2.odf kyard3.odf
 
-mryrom.odf 1 ryard2.odf
 
-mrc049.odf 1 mryrom.odf
+mrc049.odf 2 ryard2.odf ryard3.odf
 
-mrc050.odf 1 mryrom.odf
+mrc050.odf 2 ryard2.odf ryard3.odf
 
-mrc051.odf 1 mryrom.odf
+mrc051.odf 2 ryard2.odf ryard3.odf
 
-mrc052.odf 1 mryrom.odf
+mrc052.odf 2 ryard2.odf ryard3.odf
 
-mrc053.odf 1 mryrom.odf
+mrc053.odf 2 ryard2.odf ryard3.odf
 
-mrycard.odf 1 cyard2.odf
 
-mrc005.odf 1 mrycard.odf
+mrc005.odf 2 cyard2.odf cyard3.odf
 
-mrc031.odf 1 mrycard.odf
+mrc031.odf 2 cyard2.odf cyard3.odf
 
-mrc045.odf 1 mrycard.odf
+mrc045.odf 2 cyard2.odf cyard3.odf
 
-mrydom.odf 1 dyard2.odf
 
-mrc006.odf 1 mrydom.odf
+mrc006.odf 3 dyard.odf dresear.odf dyard3.odf
 
-mrc025.odf 1 mrydom.odf
+mrc025.odf 3 dyard.odf dresear.odf dyard3.odf
 
-mrc032.odf 1 mrydom.odf
+mrc032.odf 3 dyard.odf dresear.odf dyard3.odf
 
-mrc033.odf 1 mrydom.odf
+mrc033.odf 3 dyard.odf dresear.odf dyard3.odf
 
-mrc034.odf 1 mrydom.odf
+mrc034.odf 3 dyard.odf dresear.odf dyard3.odf
 
-mrc035.odf 1 mrydom.odf
+mrc035.odf 3 dyard.odf dresear.odf dyard3.odf
 
-mrybreen.odf 1 bryard2.odf
 
-mrc030.odf 1 mrybreen.odf
+mrc030.odf 2 bryard.odf brresear.odf
 
-mrybajor.odf 1 bjyard2.odf
 
-mrc002.odf 1 mrybajor.odf
+mrc002.odf 1 bjyard2.odf
 
-mry8472.odf 1 8472_advancedresearch.odf
 
-mrc000.odf 1 mry8472.odf
+mrc000.odf 2 8472_advancedresearch.odf xhs_yard3.odf
 
-mrc001.odf 1 mry8472.odf
+mrc001.odf 2 8472_advancedresearch.odf xhs_yard3.odf
 
-mrc054.odf 1 mry8472.odf
+mrc054.odf 2 8472_advancedresearch.odf xhs_yard3.odf
 
-mrc055.odf 1 mry8472.odf
+mrc055.odf 2 8472_advancedresearch.odf xhs_yard3.odf
 
-mrc056.odf 1 mry8472.odf
+mrc056.odf 2 8472_advancedresearch.odf xhs_yard3.odf
 
-mrc057.odf 1 mry8472.odf
+mrc057.odf 2 8472_advancedresearch.odf xhs_yard3.odf
 
-mryfer.odf 1 xfgmerc.odf
 
-mrc026.odf 1 mryfer.odf
+mrc026.odf 1 xfgmerc.odf
 
-mrc027.odf 1 mryfer.odf
+mrc027.odf 1 xfgmerc.odf
 
-mrc028.odf 1 mryfer.odf
+mrc028.odf 1 xfgmerc.odf
 
 xfgpdil.odf 1 xfgresearch.odf
 
@@ -1721,7 +1702,7 @@ xfgpdil2.odf 2 xfgresearch.odf xfgpdil.odf
 
 xfgmindil3.odf 0
 
-xfgdil3.odf 1 xfgpdil2.odf
+xfgdil3.odf 2 xfgpdil2.odf xfgserv.odf
 
 xfgpmet2.odf 2 xfgresearch.odf xfgpmet.odf
 
@@ -1731,7 +1712,7 @@ xfgplat2.odf 2 xfgresearch.odf xfgplat.odf
 
 xfgminlat3.odf 0
 
-xfglat3.odf 1 xfgplat2.odf
+xfglat3.odf 2 xfgplat2.odf xfgserv.odf
 
 xbgpdil.odf 1 xbgresearch.odf
 
@@ -1806,11 +1787,11 @@ dconst.odf 0
 
 xdconst2.odf 1 dyard.odf
 
-xduconst.odf 1 dyard2.odf
+xduconst.odf 2 dyard.odf dresear.odf
 
 xcdconst.odf 0
 
-xcduniv.odf 1 dyard2.odf
+xcduniv.odf 2 dyard.odf dresear.odf
 
 
 
@@ -1881,3 +1862,24 @@ xcv_xcdconst_u.odf 0
 
 xcv_xdconst2_u.odf 0
 xu3fed2.odf -1
+
+// Retired redundant yards; ships reassigned to retained facilities.
+fyard0.odf -1
+bryard2.odf -1
+bryard3.odf -1
+mrybreen.odf -1
+bjyard3.odf -1
+mrybajor.odf -1
+mryborg.odf -1
+cobyard.odf -1
+mrycard.odf -1
+domyard.odf -1
+mrydom.odf -1
+dsuperbl.odf -1
+dyard2.odf -1
+kimpyard.odf -1
+mrykling.odf -1
+mryrom.odf -1
+mry8472.odf -1
+714syard.odf -1
+mryfer.odf -1

@@ -29,12 +29,10 @@ dsensor.odf 0
 dturret.odf 0
 dturret2.odf 0
 dyard.odf 0
-dyard2.odf 0
 dtrading.odf 0
 dresear.odf 0
 dresear2.odf 0
 dupgrade.odf 0
-dsuperbl.odf 0
 zsuperbl.odf 0
 dompod1.odf 0
 dompod2.odf 0
@@ -79,7 +77,6 @@ brbase.odf 0
 brmining.odf 0
 brorbital.odf 0
 bryard.odf 0
-bryard2.odf 0
 brresear.odf 0
 brresear2.odf 0
 brcruise2.odf 0
@@ -491,7 +488,6 @@ fprom.odf 0
 fexcel.odf 0
 koutpost.odf 0
 kimpbase.odf 0
-kimpyard.odf 0
 khwp.odf 0 // Heavy platform unlocked by first faction shipyard
 kbase2.odf 0
 
@@ -513,13 +509,11 @@ kimpkoto.odf 0
 kimpmakd.odf 0
 kavorcha.odf 0
 kgunboat.odf 0
-cobyard.odf 0
 cstation.odf 0
 
 ctelkor.odf 0
 ckimal.odf 0
 chutet.odf 0
-domyard.odf 0
 dombase.odf 0
 domabase.odf 0
 domscout.odf 0
@@ -572,7 +566,6 @@ twgate8.odf 0
 8472int.odf 0
 8472be2.odf 0
 
-714syard.odf 0
 714turr.odf 0
 714hydra.odf 0
 714manta.odf 0
@@ -614,7 +607,6 @@ fvoyager.odf 0
 fdefiant.odf 0
 foutpost.odf 0
 fregula.odf 0
-fyard0.odf 0
 fbase2.odf 0
 fhwp.odf 0 // Heavy platform unlocked by first faction shipyard
 fremmeler.odf 0
@@ -831,7 +823,6 @@ cyard3.odf 0
 
 dyard3.odf 0
 
-bryard3.odf 0
 
 
 xhs_yard3.odf 0
@@ -849,7 +840,6 @@ bjorbital.odf 0
 bjtrading.odf 0
 bjyard.odf 0
 bjyard2.odf 0
-bjyard3.odf 0
 bjresear.odf 0
 bjresear2.odf 0
 bjupgrade.odf 0
@@ -1584,7 +1574,6 @@ mrc043.odf 0
 
 mrc044.odf 0
 
-mryborg.odf 0
 
 mrc003.odf 0
 
@@ -1600,7 +1589,6 @@ mrc029.odf 0
 
 mrc058.odf 0
 
-mrykling.odf 0
 
 mrc019.odf 0
 
@@ -1612,7 +1600,6 @@ mrc047.odf 0
 
 mrc048.odf 0
 
-mryrom.odf 0
 
 mrc049.odf 0
 
@@ -1624,7 +1611,6 @@ mrc052.odf 0
 
 mrc053.odf 0
 
-mrycard.odf 0
 
 mrc005.odf 0
 
@@ -1632,7 +1618,6 @@ mrc031.odf 0
 
 mrc045.odf 0
 
-mrydom.odf 0
 
 mrc006.odf 0
 
@@ -1646,15 +1631,12 @@ mrc034.odf 0
 
 mrc035.odf 0
 
-mrybreen.odf 0
 
 mrc030.odf 0
 
-mrybajor.odf 0
 
 mrc002.odf 0
 
-mry8472.odf 0
 
 mrc000.odf 0
 
@@ -1668,7 +1650,6 @@ mrc056.odf 0
 
 mrc057.odf 0
 
-mryfer.odf 0
 
 mrc026.odf 0
 
@@ -1846,3 +1827,24 @@ xcv_xcdconst_u.odf 0
 
 xcv_xdconst2_u.odf 0
 xu3fed2.odf -1
+
+// Retired redundant yards; ships reassigned to retained facilities.
+fyard0.odf -1
+bryard2.odf -1
+bryard3.odf -1
+mrybreen.odf -1
+bjyard3.odf -1
+mrybajor.odf -1
+mryborg.odf -1
+cobyard.odf -1
+mrycard.odf -1
+domyard.odf -1
+mrydom.odf -1
+dsuperbl.odf -1
+dyard2.odf -1
+kimpyard.odf -1
+mrykling.odf -1
+mryrom.odf -1
+mry8472.odf -1
+714syard.odf -1
+mryfer.odf -1

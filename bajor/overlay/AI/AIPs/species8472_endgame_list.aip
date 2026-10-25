@@ -3,7 +3,7 @@
 int checkTechnologyAvailable = 1;
 Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 {
-    // Economy first; every producer and research dependency precedes its unit.
+    // Consolidated yards; prerequisites and producers precede every unit.
     "8472_mothership", 1, 0, -1, 0,
     "8472_passive", 2, 0, -1, 0,
     "8472_transmuter", 1, 0, -1, 0,
@@ -27,7 +27,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "8472_cruise2", 1, 0, -1, 0,
     "8472_cruise2", 2, 0, -1, 0,
     "8472_shipupgraderesearch", 1, 0, -1, 0,
-    "714syard", 1, 0, -1, 0,
     "714turr", 1, 0, -1, 0,
     "714turr", 2, 0, -1, 0,
     "8472_sentinel", 1, 0, -1, 0,
@@ -65,7 +64,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "8472_podbasic2", 1, 0, -1, 0,
     "8472_podbasic3", 1, 0, -1, 0,
     "8472_podbasic4", 1, 0, -1, 0,
-    "mry8472", 1, 0, -1, 0,
     "mrc000", 1, 0, -1, 0,
     "xsbiolab", 1, 0, -1, 0,
     "xsbio1", 1, 0, -1, 0,

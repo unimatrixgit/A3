@@ -1,5 +1,5 @@
 {
-  "status": "applied; constructor/cube upgrade patch includes free T1-to-T2-to-T3 conversion",
+  "status": "Applied; yard consolidation removes19 redundant facilities; native constructor menus refreshed",
   "generated": "2026-10-24T03:39:13.183168+02:00",
   "commonStarbases": [
     "bbase",
@@ -61,7 +61,6 @@
           "tier": 1,
           "constructor": "fconst",
           "buildings": [
-            "fyard0",
             "fyard",
             "fyard2",
             "fmining",
@@ -89,7 +88,8 @@
             "s31yard",
             "xfomegalab",
             "mryfeda",
-            "mryfedb"
+            "mryfedb",
+            "fjupiter"
           ],
           "existing": true
         },
@@ -109,18 +109,10 @@
             "fds9",
             "foutpost",
             "fbase2",
-            "fmidas"
-          ],
-          "existing": true
-        },
-        {
-          "tier": 3,
-          "constructor": "xu3fed2",
-          "buildings": [
-            "fjupiter",
+            "fmidas",
             "fsuperbl"
           ],
-          "existing": false
+          "existing": true
         }
       ],
       "omitted": []
@@ -194,7 +186,6 @@
             "bhwp",
             "xbomegalab",
             "xbtarray",
-            "mryborg",
             "hub",
             "xbgmerc",
             "unicomplex"
@@ -285,9 +276,7 @@
             "kturret",
             "kturret2",
             "kyard3",
-            "kimpyard",
-            "khwp",
-            "mrykling"
+            "khwp"
           ],
           "existing": true
         },
@@ -376,8 +365,7 @@
             "rturret",
             "rturret2",
             "ryard3",
-            "rhwp",
-            "mryrom"
+            "rhwp"
           ],
           "existing": true
         },
@@ -453,7 +441,6 @@
             "cardassian_super_station",
             "corbital",
             "ctrading",
-            "domyard",
             "cupgrade",
             "cbase"
           ],
@@ -466,9 +453,7 @@
             "cturret",
             "cturret2",
             "cyard3",
-            "chwp",
-            "cobyard",
-            "mrycard"
+            "chwp"
           ],
           "existing": false
         },
@@ -538,7 +523,6 @@
             "dmining",
             "dresear",
             "dresear2",
-            "dyard2",
             "dorbital",
             "dtrading",
             "dupgrade",
@@ -552,10 +536,8 @@
           "buildings": [
             "dturret",
             "dturret2",
-            "dsuperbl",
             "dturret3",
-            "dyard3",
-            "mrydom"
+            "dyard3"
           ],
           "existing": false
         },
@@ -615,9 +597,6 @@
             "brorbital",
             "brresear",
             "brresear2",
-            "bryard2",
-            "bryard3",
-            "mrybreen",
             "xfgmerc"
           ],
           "existing": true
@@ -682,9 +661,7 @@
           "buildings": [
             "bjturret",
             "bjturret2",
-            "bjhwp",
-            "bjyard3",
-            "mrybajor"
+            "bjhwp"
           ],
           "existing": false
         },
@@ -734,13 +711,13 @@
           "tier": 1,
           "constructor": "8472_passive",
           "buildings": [
-            "714syard",
             "8472_transmuter",
             "8472_basicresearch",
             "8472_advancedresearch",
             "8472_shipupgraderesearch",
             "8472_fluidicgate",
             "8472_mine",
+            "xsbiolab",
             "8472_mothership"
           ],
           "existing": true
@@ -751,8 +728,7 @@
           "buildings": [
             "714turr",
             "xhs_yard3",
-            "8472_sentinel",
-            "mry8472"
+            "8472_sentinel"
           ],
           "existing": true
         },
@@ -812,7 +788,6 @@
             "xfgserv",
             "xfgresearch",
             "xfgmetal2",
-            "mryfer",
             "xfgmetal3"
           ],
           "existing": true
@@ -935,5 +910,6 @@
       "class": "starbase"
     }
   ],
-  "appliedReport": "D:\\aramada\\reports\\constructor-mirror-patch.json"
+  "appliedReport": "D:\\aramada\\reports\\constructor-mirror-patch.json",
+  "updated": "2026-10-25T02:09:39.154440+02:00"
 }
