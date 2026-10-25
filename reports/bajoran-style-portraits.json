@@ -1,0 +1,7775 @@
+{
+  "applied": true,
+  "appliedAt": "2026-10-25T04:23:26.628188+01:00",
+  "backup": "D:\\Xaramada-Modwork\\backups\\bajoran-style-portraits-20261025-042320",
+  "stage": "D:\\Xaramada-Modwork\\bajoran-style-ship-portraits",
+  "method": "Working Bajoran standalone RGB image with full0,0,64,64 coordinates in all five ship portrait slots",
+  "shipsUpdated": 434,
+  "workingBajoranPortraitsPreserved": true,
+  "rows": [
+    {
+      "unit": "714const",
+      "model": "714const",
+      "texture": "xqw_714const",
+      "aliases": [
+        "714constw1",
+        "714constw2",
+        "714constw3",
+        "714constw4",
+        "714constw5"
+      ]
+    },
+    {
+      "unit": "714hydra",
+      "model": "714hydra",
+      "texture": "xqw_714hydra",
+      "aliases": [
+        "714hydraw1",
+        "714hydraw2",
+        "714hydraw3",
+        "714hydraw4",
+        "714hydraw5"
+      ]
+    },
+    {
+      "unit": "714manta",
+      "model": "714manta",
+      "texture": "xqw_714manta",
+      "aliases": [
+        "714mantaw1",
+        "714mantaw2",
+        "714mantaw3",
+        "714mantaw4",
+        "714mantaw5"
+      ]
+    },
+    {
+      "unit": "714orca",
+      "model": "714orca",
+      "texture": "xqw_714orca",
+      "aliases": [
+        "714orcaw1",
+        "714orcaw2",
+        "714orcaw3",
+        "714orcaw4",
+        "714orcaw5"
+      ]
+    },
+    {
+      "unit": "714rnode",
+      "model": "714rnode",
+      "texture": "xqw_714rnode",
+      "aliases": [
+        "714rnodew1",
+        "714rnodew2",
+        "714rnodew3",
+        "714rnodew4",
+        "714rnodew5"
+      ]
+    },
+    {
+      "unit": "714skate",
+      "model": "714skate",
+      "texture": "xqw_714skate",
+      "aliases": [
+        "714skatew1",
+        "714skatew2",
+        "714skatew3",
+        "714skatew4",
+        "714skatew5"
+      ]
+    },
+    {
+      "unit": "714tmat",
+      "model": "714tmat",
+      "texture": "xqw_714tmat",
+      "aliases": [
+        "714tmatw1",
+        "714tmatw2",
+        "714tmatw3",
+        "714tmatw4",
+        "714tmatw5"
+      ]
+    },
+    {
+      "unit": "8472_active",
+      "model": "8472_active",
+      "texture": "xqw_8472_active",
+      "aliases": [
+        "8472_activew1",
+        "8472_activew2",
+        "8472_activew3",
+        "8472_activew4",
+        "8472_activew5"
+      ]
+    },
+    {
+      "unit": "8472_battle",
+      "model": "xui_8472_battle",
+      "texture": "xqw_8472_battle",
+      "aliases": [
+        "8472_battlew1",
+        "8472_battlew2",
+        "8472_battlew3",
+        "8472_battlew4",
+        "8472_battlew5",
+        "xui_8472_battlew1",
+        "xui_8472_battlew2",
+        "xui_8472_battlew3",
+        "xui_8472_battlew4",
+        "xui_8472_battlew5"
+      ]
+    },
+    {
+      "unit": "8472_behemoth",
+      "model": "8472_behemoth",
+      "texture": "xqw_8472_behemoth",
+      "aliases": [
+        "8472_behemothw1",
+        "8472_behemothw2",
+        "8472_behemothw3",
+        "8472_behemothw4",
+        "8472_behemothw5"
+      ]
+    },
+    {
+      "unit": "8472_collector",
+      "model": "8472_collector",
+      "texture": "xqw_8472_collector",
+      "aliases": [
+        "8472_collectorw1",
+        "8472_collectorw2",
+        "8472_collectorw3",
+        "8472_collectorw4",
+        "8472_collectorw5"
+      ]
+    },
+    {
+      "unit": "8472_cruise1",
+      "model": "8472_cruise1",
+      "texture": "xqw_8472_cruise1",
+      "aliases": [
+        "8472_cruise1w1",
+        "8472_cruise1w2",
+        "8472_cruise1w3",
+        "8472_cruise1w4",
+        "8472_cruise1w5"
+      ]
+    },
+    {
+      "unit": "8472_cruise2",
+      "model": "8472_cruise2",
+      "texture": "xqw_8472_cruise2",
+      "aliases": [
+        "8472_cruise2w1",
+        "8472_cruise2w2",
+        "8472_cruise2w3",
+        "8472_cruise2w4",
+        "8472_cruise2w5"
+      ]
+    },
+    {
+      "unit": "8472_defender",
+      "model": "8472_defender",
+      "texture": "xqw_8472_defender",
+      "aliases": [
+        "8472_defenderw1",
+        "8472_defenderw2",
+        "8472_defenderw3",
+        "8472_defenderw4",
+        "8472_defenderw5"
+      ]
+    },
+    {
+      "unit": "8472_destroy",
+      "model": "8472_destroy",
+      "texture": "xqw_8472_destroy",
+      "aliases": [
+        "8472_destroyw1",
+        "8472_destroyw2",
+        "8472_destroyw3",
+        "8472_destroyw4",
+        "8472_destroyw5"
+      ]
+    },
+    {
+      "unit": "8472_frigate",
+      "model": "8472_frigate",
+      "texture": "xqw_8472_frigate",
+      "aliases": [
+        "8472_frigatew1",
+        "8472_frigatew2",
+        "8472_frigatew3",
+        "8472_frigatew4",
+        "8472_frigatew5"
+      ]
+    },
+    {
+      "unit": "8472_heromother",
+      "model": "8472_heromother",
+      "texture": "xqw_8472_heromother",
+      "aliases": [
+        "8472_heromotherw1",
+        "8472_heromotherw2",
+        "8472_heromotherw3",
+        "8472_heromotherw4",
+        "8472_heromotherw5"
+      ]
+    },
+    {
+      "unit": "8472_heromothership",
+      "model": "8472_heromother",
+      "texture": "xqw_8472_heromothership",
+      "aliases": [
+        "8472_heromothershipw1",
+        "8472_heromothershipw2",
+        "8472_heromothershipw3",
+        "8472_heromothershipw4",
+        "8472_heromothershipw5"
+      ]
+    },
+    {
+      "unit": "8472_mother",
+      "model": "xvstock_8472_mothership",
+      "texture": "xqw_8472_mother",
+      "aliases": [
+        "8472_motherw1",
+        "8472_motherw2",
+        "8472_motherw3",
+        "8472_motherw4",
+        "8472_motherw5",
+        "xvstock_8472_mothershipw1",
+        "xvstock_8472_mothershipw2",
+        "xvstock_8472_mothershipw3",
+        "xvstock_8472_mothershipw4",
+        "xvstock_8472_mothershipw5"
+      ]
+    },
+    {
+      "unit": "8472_mothership",
+      "model": "xvstock_8472_mothership",
+      "texture": "xqw_8472_mothership",
+      "aliases": [
+        "8472_mothershipw1",
+        "8472_mothershipw2",
+        "8472_mothershipw3",
+        "8472_mothershipw4",
+        "8472_mothershipw5"
+      ]
+    },
+    {
+      "unit": "8472_passive",
+      "model": "8472_passive",
+      "texture": "xqw_8472_passive",
+      "aliases": [
+        "8472_passivew1",
+        "8472_passivew2",
+        "8472_passivew3",
+        "8472_passivew4",
+        "8472_passivew5"
+      ]
+    },
+    {
+      "unit": "8472_scout",
+      "model": "8472_scout",
+      "texture": "xqw_8472_scout",
+      "aliases": [
+        "8472_scoutw1",
+        "8472_scoutw2",
+        "8472_scoutw3",
+        "8472_scoutw4",
+        "8472_scoutw5"
+      ]
+    },
+    {
+      "unit": "8472_transmuter",
+      "model": "8472_transmuter",
+      "texture": "xqw_8472_transmuter",
+      "aliases": [
+        "8472_transmuterw1",
+        "8472_transmuterw2",
+        "8472_transmuterw3",
+        "8472_transmuterw4",
+        "8472_transmuterw5"
+      ]
+    },
+    {
+      "unit": "8472be2",
+      "model": "8472be2",
+      "texture": "xqw_8472be2",
+      "aliases": [
+        "8472be2w1",
+        "8472be2w2",
+        "8472be2w3",
+        "8472be2w4",
+        "8472be2w5"
+      ]
+    },
+    {
+      "unit": "8472fig",
+      "model": "8472fig",
+      "texture": "xqw_8472fig",
+      "aliases": [
+        "8472figw1",
+        "8472figw2",
+        "8472figw3",
+        "8472figw4",
+        "8472figw5"
+      ]
+    },
+    {
+      "unit": "8472int",
+      "model": "8472int",
+      "texture": "xqw_8472int",
+      "aliases": [
+        "8472intw1",
+        "8472intw2",
+        "8472intw3",
+        "8472intw4",
+        "8472intw5"
+      ]
+    },
+    {
+      "unit": "arumaan",
+      "model": "arumaan",
+      "texture": "xqw_arumaan",
+      "aliases": [
+        "arumaanw1",
+        "arumaanw2",
+        "arumaanw3",
+        "arumaanw4",
+        "arumaanw5"
+      ]
+    },
+    {
+      "unit": "banshee",
+      "model": "banshee",
+      "texture": "xqw_banshee",
+      "aliases": [
+        "bansheew1",
+        "bansheew2",
+        "bansheew3",
+        "bansheew4",
+        "bansheew5"
+      ]
+    },
+    {
+      "unit": "bassault",
+      "model": "bassault",
+      "texture": "xqw_bassault",
+      "aliases": [
+        "bassaultw1",
+        "bassaultw2",
+        "bassaultw3",
+        "bassaultw4",
+        "bassaultw5"
+      ]
+    },
+    {
+      "unit": "bbattle",
+      "model": "xui_bbattle",
+      "texture": "xqw_bbattle",
+      "aliases": [
+        "bbattlew1",
+        "bbattlew2",
+        "bbattlew3",
+        "bbattlew4",
+        "bbattlew5",
+        "xui_bbattlew1",
+        "xui_bbattlew2",
+        "xui_bbattlew3",
+        "xui_bbattlew4",
+        "xui_bbattlew5"
+      ]
+    },
+    {
+      "unit": "bbattle1",
+      "model": "xui_bbattle1",
+      "texture": "xqw_bbattle1",
+      "aliases": [
+        "bbattle1w1",
+        "bbattle1w2",
+        "bbattle1w3",
+        "bbattle1w4",
+        "bbattle1w5",
+        "xui_bbattle1w1",
+        "xui_bbattle1w2",
+        "xui_bbattle1w3",
+        "xui_bbattle1w4",
+        "xui_bbattle1w5"
+      ]
+    },
+    {
+      "unit": "bbattle2",
+      "model": "bbattle2",
+      "texture": "xqw_bbattle2",
+      "aliases": [
+        "bbattle2w1",
+        "bbattle2w2",
+        "bbattle2w3",
+        "bbattle2w4",
+        "bbattle2w5"
+      ]
+    },
+    {
+      "unit": "bbattle3",
+      "model": "bbattle3",
+      "texture": "xqw_bbattle3",
+      "aliases": [
+        "bbattle3w1",
+        "bbattle3w2",
+        "bbattle3w3",
+        "bbattle3w4",
+        "bbattle3w5"
+      ]
+    },
+    {
+      "unit": "bbattle4",
+      "model": "bbattle4",
+      "texture": "xqw_bbattle4",
+      "aliases": [
+        "bbattle4w1",
+        "bbattle4w2",
+        "bbattle4w3",
+        "bbattle4w4",
+        "bbattle4w5"
+      ]
+    },
+    {
+      "unit": "bbattle5",
+      "model": "bbattle3",
+      "texture": "xqw_bbattle5",
+      "aliases": [
+        "bbattle5w1",
+        "bbattle5w2",
+        "bbattle5w3",
+        "bbattle5w4",
+        "bbattle5w5"
+      ]
+    },
+    {
+      "unit": "bbattle6",
+      "model": "bbattle4",
+      "texture": "xqw_bbattle6",
+      "aliases": [
+        "bbattle6w1",
+        "bbattle6w2",
+        "bbattle6w3",
+        "bbattle6w4",
+        "bbattle6w5"
+      ]
+    },
+    {
+      "unit": "bbattle8",
+      "model": "xui_bbattle8",
+      "texture": "xqw_bbattle8",
+      "aliases": [
+        "bbattle8w1",
+        "bbattle8w2",
+        "bbattle8w3",
+        "bbattle8w4",
+        "bbattle8w5",
+        "xui_bbattle8w1",
+        "xui_bbattle8w2",
+        "xui_bbattle8w3",
+        "xui_bbattle8w4",
+        "xui_bbattle8w5"
+      ]
+    },
+    {
+      "unit": "bcolony",
+      "model": "bcolony",
+      "texture": "xqw_bcolony",
+      "aliases": [
+        "bcolonyw1",
+        "bcolonyw2",
+        "bcolonyw3",
+        "bcolonyw4",
+        "bcolonyw5"
+      ]
+    },
+    {
+      "unit": "bconst",
+      "model": "bconst",
+      "texture": "xqw_bconst",
+      "aliases": [
+        "bconstw1",
+        "bconstw2",
+        "bconstw3",
+        "bconstw4",
+        "bconstw5"
+      ]
+    },
+    {
+      "unit": "bconst2",
+      "model": "bconst2",
+      "texture": "xqw_bconst2",
+      "aliases": [
+        "bconst2w1",
+        "bconst2w2",
+        "bconst2w3",
+        "bconst2w4",
+        "bconst2w5"
+      ]
+    },
+    {
+      "unit": "bcruise1",
+      "model": "bcruise1",
+      "texture": "xqw_bcruise1",
+      "aliases": [
+        "bcruise1w1",
+        "bcruise1w2",
+        "bcruise1w3",
+        "bcruise1w4",
+        "bcruise1w5"
+      ]
+    },
+    {
+      "unit": "bcruise2",
+      "model": "bcruise2",
+      "texture": "xqw_bcruise2",
+      "aliases": [
+        "bcruise2w1",
+        "bcruise2w2",
+        "bcruise2w3",
+        "bcruise2w4",
+        "bcruise2w5"
+      ]
+    },
+    {
+      "unit": "bcruise3",
+      "model": "bcruise3",
+      "texture": "xqw_bcruise3",
+      "aliases": [
+        "bcruise3w1",
+        "bcruise3w2",
+        "bcruise3w3",
+        "bcruise3w4",
+        "bcruise3w5"
+      ]
+    },
+    {
+      "unit": "bdestroy",
+      "model": "bdestroy",
+      "texture": "xqw_bdestroy",
+      "aliases": [
+        "bdestroyw1",
+        "bdestroyw2",
+        "bdestroyw3",
+        "bdestroyw4",
+        "bdestroyw5"
+      ]
+    },
+    {
+      "unit": "bdestroy2",
+      "model": "bdestroy2",
+      "texture": "xqw_bdestroy2",
+      "aliases": [
+        "bdestroy2w1",
+        "bdestroy2w2",
+        "bdestroy2w3",
+        "bdestroy2w4",
+        "bdestroy2w5"
+      ]
+    },
+    {
+      "unit": "bfreight",
+      "model": "bfreight",
+      "texture": "xqw_bfreight",
+      "aliases": [
+        "bfreightw1",
+        "bfreightw2",
+        "bfreightw3",
+        "bfreightw4",
+        "bfreightw5"
+      ]
+    },
+    {
+      "unit": "bfrigate",
+      "model": "bfrigate",
+      "texture": "xqw_bfrigate",
+      "aliases": [
+        "bfrigatew1",
+        "bfrigatew2",
+        "bfrigatew3",
+        "bfrigatew4",
+        "bfrigatew5"
+      ]
+    },
+    {
+      "unit": "bhentra",
+      "model": "bhentra",
+      "texture": "xqw_bhentra",
+      "aliases": [
+        "bhentraw1",
+        "bhentraw2",
+        "bhentraw3",
+        "bhentraw4",
+        "bhentraw5"
+      ]
+    },
+    {
+      "unit": "bhentrag",
+      "model": "bhentrag",
+      "texture": "xqw_bhentrag",
+      "aliases": [
+        "bhentragw1",
+        "bhentragw2",
+        "bhentragw3",
+        "bhentragw4",
+        "bhentragw5"
+      ]
+    },
+    {
+      "unit": "blocutus",
+      "model": "xui_blocutus",
+      "texture": "xqw_blocutus",
+      "aliases": [
+        "blocutusw1",
+        "blocutusw2",
+        "blocutusw3",
+        "blocutusw4",
+        "blocutusw5",
+        "xui_blocutusw1",
+        "xui_blocutusw2",
+        "xui_blocutusw3",
+        "xui_blocutusw4",
+        "xui_blocutusw5"
+      ]
+    },
+    {
+      "unit": "bmama",
+      "model": "bmama",
+      "texture": "xqw_bmama",
+      "aliases": [
+        "bmamaw1",
+        "bmamaw2",
+        "bmamaw3",
+        "bmamaw4",
+        "bmamaw5"
+      ]
+    },
+    {
+      "unit": "bomega1",
+      "model": "bomega1",
+      "texture": "xqw_bomega1",
+      "aliases": [
+        "bomega1w1",
+        "bomega1w2",
+        "bomega1w3",
+        "bomega1w4",
+        "bomega1w5"
+      ]
+    },
+    {
+      "unit": "bpentra",
+      "model": "bpentra",
+      "texture": "xqw_bpentra",
+      "aliases": [
+        "bpentraw1",
+        "bpentraw2",
+        "bpentraw3",
+        "bpentraw4",
+        "bpentraw5"
+      ]
+    },
+    {
+      "unit": "bqueen",
+      "model": "bqueen",
+      "texture": "xqw_bqueen",
+      "aliases": [
+        "bqueenw1",
+        "bqueenw2",
+        "bqueenw3",
+        "bqueenw4",
+        "bqueenw5"
+      ]
+    },
+    {
+      "unit": "brbattle",
+      "model": "xui_brbattle",
+      "texture": "xqw_brbattle",
+      "aliases": [
+        "brbattlew1",
+        "brbattlew2",
+        "brbattlew3",
+        "brbattlew4",
+        "brbattlew5",
+        "xui_brbattlew1",
+        "xui_brbattlew2",
+        "xui_brbattlew3",
+        "xui_brbattlew4",
+        "xui_brbattlew5"
+      ]
+    },
+    {
+      "unit": "brbattle2",
+      "model": "brbattle2",
+      "texture": "xqw_brbattle2",
+      "aliases": [
+        "brbattle2w1",
+        "brbattle2w2",
+        "brbattle2w3",
+        "brbattle2w4",
+        "brbattle2w5"
+      ]
+    },
+    {
+      "unit": "brcolony",
+      "model": "brcolony",
+      "texture": "xqw_brcolony",
+      "aliases": [
+        "brcolonyw1",
+        "brcolonyw2",
+        "brcolonyw3",
+        "brcolonyw4",
+        "brcolonyw5"
+      ]
+    },
+    {
+      "unit": "brconst",
+      "model": "brconst",
+      "texture": "xqw_brconst",
+      "aliases": [
+        "brconstw1",
+        "brconstw2",
+        "brconstw3",
+        "brconstw4",
+        "brconstw5"
+      ]
+    },
+    {
+      "unit": "brcruise1",
+      "model": "brcruise1",
+      "texture": "xqw_brcruise1",
+      "aliases": [
+        "brcruise1w1",
+        "brcruise1w2",
+        "brcruise1w3",
+        "brcruise1w4",
+        "brcruise1w5"
+      ]
+    },
+    {
+      "unit": "brcruise2",
+      "model": "brcruise2",
+      "texture": "xqw_brcruise2",
+      "aliases": [
+        "brcruise2w1",
+        "brcruise2w2",
+        "brcruise2w3",
+        "brcruise2w4",
+        "brcruise2w5"
+      ]
+    },
+    {
+      "unit": "brdestroy",
+      "model": "brdestroy",
+      "texture": "xqw_brdestroy",
+      "aliases": [
+        "brdestroyw1",
+        "brdestroyw2",
+        "brdestroyw3",
+        "brdestroyw4",
+        "brdestroyw5"
+      ]
+    },
+    {
+      "unit": "brenborg",
+      "model": "brenborg",
+      "texture": "xqw_brenborg",
+      "aliases": [
+        "brenborgw1",
+        "brenborgw2",
+        "brenborgw3",
+        "brenborgw4",
+        "brenborgw5"
+      ]
+    },
+    {
+      "unit": "brfreight",
+      "model": "brfreight",
+      "texture": "xqw_brfreight",
+      "aliases": [
+        "brfreightw1",
+        "brfreightw2",
+        "brfreightw3",
+        "brfreightw4",
+        "brfreightw5"
+      ]
+    },
+    {
+      "unit": "brfrigate",
+      "model": "brfrigate",
+      "texture": "xqw_brfrigate",
+      "aliases": [
+        "brfrigatew1",
+        "brfrigatew2",
+        "brfrigatew3",
+        "brfrigatew4",
+        "brfrigatew5"
+      ]
+    },
+    {
+      "unit": "brscout",
+      "model": "brscout",
+      "texture": "xqw_brscout",
+      "aliases": [
+        "brscoutw1",
+        "brscoutw2",
+        "brscoutw3",
+        "brscoutw4",
+        "brscoutw5"
+      ]
+    },
+    {
+      "unit": "bscout",
+      "model": "bscout",
+      "texture": "xqw_bscout",
+      "aliases": [
+        "bscoutw1",
+        "bscoutw2",
+        "bscoutw3",
+        "bscoutw4",
+        "bscoutw5"
+      ]
+    },
+    {
+      "unit": "bspecial",
+      "model": "bspecial",
+      "texture": "xqw_bspecial",
+      "aliases": [
+        "bspecialw1",
+        "bspecialw2",
+        "bspecialw3",
+        "bspecialw4",
+        "bspecialw5"
+      ]
+    },
+    {
+      "unit": "bsphere",
+      "model": "bsphere",
+      "texture": "xqw_bsphere",
+      "aliases": [
+        "bspherew1",
+        "bspherew2",
+        "bspherew3",
+        "bspherew4",
+        "bspherew5"
+      ]
+    },
+    {
+      "unit": "btacpyr",
+      "model": "btacpyr",
+      "texture": "xqw_btacpyr",
+      "aliases": [
+        "btacpyrw1",
+        "btacpyrw2",
+        "btacpyrw3",
+        "btacpyrw4",
+        "btacpyrw5"
+      ]
+    },
+    {
+      "unit": "cassault",
+      "model": "cassault",
+      "texture": "xqw_cassault",
+      "aliases": [
+        "cassaultw1",
+        "cassaultw2",
+        "cassaultw3",
+        "cassaultw4",
+        "cassaultw5"
+      ]
+    },
+    {
+      "unit": "cbakrus",
+      "model": "xui_cbakrus",
+      "texture": "xqw_cbakrus",
+      "aliases": [
+        "cbakrusw1",
+        "cbakrusw2",
+        "cbakrusw3",
+        "cbakrusw4",
+        "cbakrusw5",
+        "xui_cbakrusw1",
+        "xui_cbakrusw2",
+        "xui_cbakrusw3",
+        "xui_cbakrusw4",
+        "xui_cbakrusw5"
+      ]
+    },
+    {
+      "unit": "cbattle",
+      "model": "cbattle",
+      "texture": "xqw_cbattle",
+      "aliases": [
+        "cbattlew1",
+        "cbattlew2",
+        "cbattlew3",
+        "cbattlew4",
+        "cbattlew5"
+      ]
+    },
+    {
+      "unit": "cbattle2",
+      "model": "xui_cbattle2",
+      "texture": "xqw_cbattle2",
+      "aliases": [
+        "cbattle2w1",
+        "cbattle2w2",
+        "cbattle2w3",
+        "cbattle2w4",
+        "cbattle2w5",
+        "xui_cbattle2w1",
+        "xui_cbattle2w2",
+        "xui_cbattle2w3",
+        "xui_cbattle2w4",
+        "xui_cbattle2w5"
+      ]
+    },
+    {
+      "unit": "ccargo",
+      "model": "ccargo",
+      "texture": "xqw_ccargo",
+      "aliases": [
+        "ccargow1",
+        "ccargow2",
+        "ccargow3",
+        "ccargow4",
+        "ccargow5"
+      ]
+    },
+    {
+      "unit": "ccolony",
+      "model": "ccolony",
+      "texture": "xqw_ccolony",
+      "aliases": [
+        "ccolonyw1",
+        "ccolonyw2",
+        "ccolonyw3",
+        "ccolonyw4",
+        "ccolonyw5"
+      ]
+    },
+    {
+      "unit": "cconst",
+      "model": "cconst",
+      "texture": "xqw_cconst",
+      "aliases": [
+        "cconstw1",
+        "cconstw2",
+        "cconstw3",
+        "cconstw4",
+        "cconstw5"
+      ]
+    },
+    {
+      "unit": "ccruise1",
+      "model": "ccruise1",
+      "texture": "xqw_ccruise1",
+      "aliases": [
+        "ccruise1w1",
+        "ccruise1w2",
+        "ccruise1w3",
+        "ccruise1w4",
+        "ccruise1w5"
+      ]
+    },
+    {
+      "unit": "ccruise2",
+      "model": "ccruise2",
+      "texture": "xqw_ccruise2",
+      "aliases": [
+        "ccruise2w1",
+        "ccruise2w2",
+        "ccruise2w3",
+        "ccruise2w4",
+        "ccruise2w5"
+      ]
+    },
+    {
+      "unit": "ccruise3",
+      "model": "ccruise3",
+      "texture": "xqw_ccruise3",
+      "aliases": [
+        "ccruise3w1",
+        "ccruise3w2",
+        "ccruise3w3",
+        "ccruise3w4",
+        "ccruise3w5"
+      ]
+    },
+    {
+      "unit": "cdestroy",
+      "model": "cdestroy",
+      "texture": "xqw_cdestroy",
+      "aliases": [
+        "cdestroyw1",
+        "cdestroyw2",
+        "cdestroyw3",
+        "cdestroyw4",
+        "cdestroyw5"
+      ]
+    },
+    {
+      "unit": "cdestroy2",
+      "model": "cdestroy2",
+      "texture": "xqw_cdestroy2",
+      "aliases": [
+        "cdestroy2w1",
+        "cdestroy2w2",
+        "cdestroy2w3",
+        "cdestroy2w4",
+        "cdestroy2w5"
+      ]
+    },
+    {
+      "unit": "cfreight",
+      "model": "cfreight",
+      "texture": "xqw_cfreight",
+      "aliases": [
+        "cfreightw1",
+        "cfreightw2",
+        "cfreightw3",
+        "cfreightw4",
+        "cfreightw5"
+      ]
+    },
+    {
+      "unit": "cfrigate",
+      "model": "cfrigate",
+      "texture": "xqw_cfrigate",
+      "aliases": [
+        "cfrigatew1",
+        "cfrigatew2",
+        "cfrigatew3",
+        "cfrigatew4",
+        "cfrigatew5"
+      ]
+    },
+    {
+      "unit": "chutet",
+      "model": "chutet",
+      "texture": "xqw_chutet",
+      "aliases": [
+        "chutetw1",
+        "chutetw2",
+        "chutetw3",
+        "chutetw4",
+        "chutetw5"
+      ]
+    },
+    {
+      "unit": "ckentar",
+      "model": "ckentar",
+      "texture": "xqw_ckentar",
+      "aliases": [
+        "ckentarw1",
+        "ckentarw2",
+        "ckentarw3",
+        "ckentarw4",
+        "ckentarw5"
+      ]
+    },
+    {
+      "unit": "ckimal",
+      "model": "ckimal",
+      "texture": "xqw_ckimal",
+      "aliases": [
+        "ckimalw1",
+        "ckimalw2",
+        "ckimalw3",
+        "ckimalw4",
+        "ckimalw5"
+      ]
+    },
+    {
+      "unit": "cogalor",
+      "model": "cogalor",
+      "texture": "xqw_cogalor",
+      "aliases": [
+        "cogalorw1",
+        "cogalorw2",
+        "cogalorw3",
+        "cogalorw4",
+        "cogalorw5"
+      ]
+    },
+    {
+      "unit": "cohideki",
+      "model": "cohideki",
+      "texture": "xqw_cohideki",
+      "aliases": [
+        "cohidekiw1",
+        "cohidekiw2",
+        "cohidekiw3",
+        "cohidekiw4",
+        "cohidekiw5"
+      ]
+    },
+    {
+      "unit": "cokaldor",
+      "model": "cokaldor",
+      "texture": "xqw_cokaldor",
+      "aliases": [
+        "cokaldorw1",
+        "cokaldorw2",
+        "cokaldorw3",
+        "cokaldorw4",
+        "cokaldorw5"
+      ]
+    },
+    {
+      "unit": "cokeldon",
+      "model": "cokeldon",
+      "texture": "xqw_cokeldon",
+      "aliases": [
+        "cokeldonw1",
+        "cokeldonw2",
+        "cokeldonw3",
+        "cokeldonw4",
+        "cokeldonw5"
+      ]
+    },
+    {
+      "unit": "cscout",
+      "model": "cscout",
+      "texture": "xqw_cscout",
+      "aliases": [
+        "cscoutw1",
+        "cscoutw2",
+        "cscoutw3",
+        "cscoutw4",
+        "cscoutw5"
+      ]
+    },
+    {
+      "unit": "cspecial",
+      "model": "cspecial",
+      "texture": "xqw_cspecial",
+      "aliases": [
+        "cspecialw1",
+        "cspecialw2",
+        "cspecialw3",
+        "cspecialw4",
+        "cspecialw5"
+      ]
+    },
+    {
+      "unit": "csrepair",
+      "model": "csrepair",
+      "texture": "xqw_csrepair",
+      "aliases": [
+        "csrepairw1",
+        "csrepairw2",
+        "csrepairw3",
+        "csrepairw4",
+        "csrepairw5"
+      ]
+    },
+    {
+      "unit": "csuper",
+      "model": "xvstock_csuper",
+      "texture": "xqw_csuper",
+      "aliases": [
+        "csuperw1",
+        "csuperw2",
+        "csuperw3",
+        "csuperw4",
+        "csuperw5",
+        "xvstock_csuperw1",
+        "xvstock_csuperw2",
+        "xvstock_csuperw3",
+        "xvstock_csuperw4",
+        "xvstock_csuperw5"
+      ]
+    },
+    {
+      "unit": "ctelkor",
+      "model": "xui_ctelkor",
+      "texture": "xqw_ctelkor",
+      "aliases": [
+        "ctelkorw1",
+        "ctelkorw2",
+        "ctelkorw3",
+        "ctelkorw4",
+        "ctelkorw5",
+        "xui_ctelkorw1",
+        "xui_ctelkorw2",
+        "xui_ctelkorw3",
+        "xui_ctelkorw4",
+        "xui_ctelkorw5"
+      ]
+    },
+    {
+      "unit": "ctelok",
+      "model": "xui_ctelok",
+      "texture": "xqw_ctelok",
+      "aliases": [
+        "ctelokw1",
+        "ctelokw2",
+        "ctelokw3",
+        "ctelokw4",
+        "ctelokw5",
+        "xui_ctelokw1",
+        "xui_ctelokw2",
+        "xui_ctelokw3",
+        "xui_ctelokw4",
+        "xui_ctelokw5"
+      ]
+    },
+    {
+      "unit": "dassault",
+      "model": "dassault",
+      "texture": "xqw_dassault",
+      "aliases": [
+        "dassaultw1",
+        "dassaultw2",
+        "dassaultw3",
+        "dassaultw4",
+        "dassaultw5"
+      ]
+    },
+    {
+      "unit": "dbattle",
+      "model": "dbattle",
+      "texture": "xqw_dbattle",
+      "aliases": [
+        "dbattlew1",
+        "dbattlew2",
+        "dbattlew3",
+        "dbattlew4",
+        "dbattlew5"
+      ]
+    },
+    {
+      "unit": "dbattle2",
+      "model": "dbattle2",
+      "texture": "xqw_dbattle2",
+      "aliases": [
+        "dbattle2w1",
+        "dbattle2w2",
+        "dbattle2w3",
+        "dbattle2w4",
+        "dbattle2w5"
+      ]
+    },
+    {
+      "unit": "dcargo",
+      "model": "dcargo",
+      "texture": "xqw_dcargo",
+      "aliases": [
+        "dcargow1",
+        "dcargow2",
+        "dcargow3",
+        "dcargow4",
+        "dcargow5"
+      ]
+    },
+    {
+      "unit": "dcolony",
+      "model": "dcolony",
+      "texture": "xqw_dcolony",
+      "aliases": [
+        "dcolonyw1",
+        "dcolonyw2",
+        "dcolonyw3",
+        "dcolonyw4",
+        "dcolonyw5"
+      ]
+    },
+    {
+      "unit": "dconst",
+      "model": "dconst",
+      "texture": "xqw_dconst",
+      "aliases": [
+        "dconstw1",
+        "dconstw2",
+        "dconstw3",
+        "dconstw4",
+        "dconstw5"
+      ]
+    },
+    {
+      "unit": "dcruise1",
+      "model": "dcruise1",
+      "texture": "xqw_dcruise1",
+      "aliases": [
+        "dcruise1w1",
+        "dcruise1w2",
+        "dcruise1w3",
+        "dcruise1w4",
+        "dcruise1w5"
+      ]
+    },
+    {
+      "unit": "dcruise2",
+      "model": "dcruise2",
+      "texture": "xqw_dcruise2",
+      "aliases": [
+        "dcruise2w1",
+        "dcruise2w2",
+        "dcruise2w3",
+        "dcruise2w4",
+        "dcruise2w5"
+      ]
+    },
+    {
+      "unit": "dcruise3",
+      "model": "xui_dcruise3",
+      "texture": "xqw_dcruise3",
+      "aliases": [
+        "dcruise3w1",
+        "dcruise3w2",
+        "dcruise3w3",
+        "dcruise3w4",
+        "dcruise3w5",
+        "xui_dcruise3w1",
+        "xui_dcruise3w2",
+        "xui_dcruise3w3",
+        "xui_dcruise3w4",
+        "xui_dcruise3w5"
+      ]
+    },
+    {
+      "unit": "dcruise4",
+      "model": "xui_dcruise4",
+      "texture": "xqw_dcruise4",
+      "aliases": [
+        "dcruise4w1",
+        "dcruise4w2",
+        "dcruise4w3",
+        "dcruise4w4",
+        "dcruise4w5",
+        "xui_dcruise4w1",
+        "xui_dcruise4w2",
+        "xui_dcruise4w3",
+        "xui_dcruise4w4",
+        "xui_dcruise4w5"
+      ]
+    },
+    {
+      "unit": "ddestroy",
+      "model": "xui_ddestroy",
+      "texture": "xqw_ddestroy",
+      "aliases": [
+        "ddestroyw1",
+        "ddestroyw2",
+        "ddestroyw3",
+        "ddestroyw4",
+        "ddestroyw5",
+        "xui_ddestroyw1",
+        "xui_ddestroyw2",
+        "xui_ddestroyw3",
+        "xui_ddestroyw4",
+        "xui_ddestroyw5"
+      ]
+    },
+    {
+      "unit": "dfreight",
+      "model": "dfreight",
+      "texture": "xqw_dfreight",
+      "aliases": [
+        "dfreightw1",
+        "dfreightw2",
+        "dfreightw3",
+        "dfreightw4",
+        "dfreightw5"
+      ]
+    },
+    {
+      "unit": "dfrigate",
+      "model": "dfrigate",
+      "texture": "xqw_dfrigate",
+      "aliases": [
+        "dfrigatew1",
+        "dfrigatew2",
+        "dfrigatew3",
+        "dfrigatew4",
+        "dfrigatew5"
+      ]
+    },
+    {
+      "unit": "dombat",
+      "model": "dombat",
+      "texture": "xqw_dombat",
+      "aliases": [
+        "dombatw1",
+        "dombatw2",
+        "dombatw3",
+        "dombatw4",
+        "dombatw5"
+      ]
+    },
+    {
+      "unit": "domconst",
+      "model": "domconst",
+      "texture": "xqw_domconst",
+      "aliases": [
+        "domconstw1",
+        "domconstw2",
+        "domconstw3",
+        "domconstw4",
+        "domconstw5"
+      ]
+    },
+    {
+      "unit": "domdred",
+      "model": "domdred",
+      "texture": "xqw_domdred",
+      "aliases": [
+        "domdredw1",
+        "domdredw2",
+        "domdredw3",
+        "domdredw4",
+        "domdredw5"
+      ]
+    },
+    {
+      "unit": "domscout",
+      "model": "domscout",
+      "texture": "xqw_domscout",
+      "aliases": [
+        "domscoutw1",
+        "domscoutw2",
+        "domscoutw3",
+        "domscoutw4",
+        "domscoutw5"
+      ]
+    },
+    {
+      "unit": "dscout",
+      "model": "dscout",
+      "texture": "xqw_dscout",
+      "aliases": [
+        "dscoutw1",
+        "dscoutw2",
+        "dscoutw3",
+        "dscoutw4",
+        "dscoutw5"
+      ]
+    },
+    {
+      "unit": "dspecial",
+      "model": "dspecial",
+      "texture": "xqw_dspecial",
+      "aliases": [
+        "dspecialw1",
+        "dspecialw2",
+        "dspecialw3",
+        "dspecialw4",
+        "dspecialw5"
+      ]
+    },
+    {
+      "unit": "dsrepair",
+      "model": "dsrepair",
+      "texture": "xqw_dsrepair",
+      "aliases": [
+        "dsrepairw1",
+        "dsrepairw2",
+        "dsrepairw3",
+        "dsrepairw4",
+        "dsrepairw5"
+      ]
+    },
+    {
+      "unit": "dsuper",
+      "model": "dsuper",
+      "texture": "xqw_dsuper",
+      "aliases": [
+        "dsuperw1",
+        "dsuperw2",
+        "dsuperw3",
+        "dsuperw4",
+        "dsuperw5"
+      ]
+    },
+    {
+      "unit": "dweyoun",
+      "model": "dweyoun",
+      "texture": "xqw_dweyoun",
+      "aliases": [
+        "dweyounw1",
+        "dweyounw2",
+        "dweyounw3",
+        "dweyounw4",
+        "dweyounw5"
+      ]
+    },
+    {
+      "unit": "dwormdbattle",
+      "model": "dwormdbattle",
+      "texture": "xqw_dwormdbattle",
+      "aliases": [
+        "dwormdbattlew1",
+        "dwormdbattlew2",
+        "dwormdbattlew3",
+        "dwormdbattlew4",
+        "dwormdbattlew5"
+      ]
+    },
+    {
+      "unit": "dwormdbattle2",
+      "model": "dwormdbattle2",
+      "texture": "xqw_dwormdbattle2",
+      "aliases": [
+        "dwormdbattle2w1",
+        "dwormdbattle2w2",
+        "dwormdbattle2w3",
+        "dwormdbattle2w4",
+        "dwormdbattle2w5"
+      ]
+    },
+    {
+      "unit": "dwormddestroy2",
+      "model": "dwormddestroy2",
+      "texture": "xqw_dwormddestroy2",
+      "aliases": [
+        "dwormddestroy2w1",
+        "dwormddestroy2w2",
+        "dwormddestroy2w3",
+        "dwormddestroy2w4",
+        "dwormddestroy2w5"
+      ]
+    },
+    {
+      "unit": "dwormdsuper",
+      "model": "dwormdsuper",
+      "texture": "xqw_dwormdsuper",
+      "aliases": [
+        "dwormdsuperw1",
+        "dwormdsuperw2",
+        "dwormdsuperw3",
+        "dwormdsuperw4",
+        "dwormdsuperw5"
+      ]
+    },
+    {
+      "unit": "f31const",
+      "model": "f31const",
+      "texture": "xqw_f31const",
+      "aliases": [
+        "f31constw1",
+        "f31constw2",
+        "f31constw3",
+        "f31constw4",
+        "f31constw5"
+      ]
+    },
+    {
+      "unit": "fakisato",
+      "model": "fakisato",
+      "texture": "xqw_fakisato",
+      "aliases": [
+        "fakisatow1",
+        "fakisatow2",
+        "fakisatow3",
+        "fakisatow4",
+        "fakisatow5"
+      ]
+    },
+    {
+      "unit": "fambass",
+      "model": "xui_fambass",
+      "texture": "xqw_fambass",
+      "aliases": [
+        "fambassw1",
+        "fambassw2",
+        "fambassw3",
+        "fambassw4",
+        "fambassw5",
+        "xui_fambassw1",
+        "xui_fambassw2",
+        "xui_fambassw3",
+        "xui_fambassw4",
+        "xui_fambassw5"
+      ]
+    },
+    {
+      "unit": "fambassador",
+      "model": "xui_fambassador",
+      "texture": "xqw_fambassador",
+      "aliases": [
+        "fambassadorw1",
+        "fambassadorw2",
+        "fambassadorw3",
+        "fambassadorw4",
+        "fambassadorw5",
+        "xui_fambassadorw1",
+        "xui_fambassadorw2",
+        "xui_fambassadorw3",
+        "xui_fambassadorw4",
+        "xui_fambassadorw5"
+      ]
+    },
+    {
+      "unit": "fantares",
+      "model": "fantares",
+      "texture": "xqw_fantares",
+      "aliases": [
+        "fantaresw1",
+        "fantaresw2",
+        "fantaresw3",
+        "fantaresw4",
+        "fantaresw5"
+      ]
+    },
+    {
+      "unit": "fassault",
+      "model": "fassault",
+      "texture": "xqw_fassault",
+      "aliases": [
+        "fassaultw1",
+        "fassaultw2",
+        "fassaultw3",
+        "fassaultw4",
+        "fassaultw5"
+      ]
+    },
+    {
+      "unit": "fbattle",
+      "model": "xui_fbattle",
+      "texture": "xqw_fbattle",
+      "aliases": [
+        "fbattlew1",
+        "fbattlew2",
+        "fbattlew3",
+        "fbattlew4",
+        "fbattlew5",
+        "xui_fbattlew1",
+        "xui_fbattlew2",
+        "xui_fbattlew3",
+        "xui_fbattlew4",
+        "xui_fbattlew5"
+      ]
+    },
+    {
+      "unit": "fbbridge",
+      "model": "fbbridge",
+      "texture": "xqw_fbbridge",
+      "aliases": [
+        "fbbridgew1",
+        "fbbridgew2",
+        "fbbridgew3",
+        "fbbridgew4",
+        "fbbridgew5"
+      ]
+    },
+    {
+      "unit": "fcaddebostan",
+      "model": "xui_fcaddebostan",
+      "texture": "xqw_fcaddebostan",
+      "aliases": [
+        "fcaddebostanw1",
+        "fcaddebostanw2",
+        "fcaddebostanw3",
+        "fcaddebostanw4",
+        "fcaddebostanw5",
+        "xui_fcaddebostanw1",
+        "xui_fcaddebostanw2",
+        "xui_fcaddebostanw3",
+        "xui_fcaddebostanw4",
+        "xui_fcaddebostanw5"
+      ]
+    },
+    {
+      "unit": "fcargo",
+      "model": "fcargo",
+      "texture": "xqw_fcargo",
+      "aliases": [
+        "fcargow1",
+        "fcargow2",
+        "fcargow3",
+        "fcargow4",
+        "fcargow5"
+      ]
+    },
+    {
+      "unit": "fcentaur",
+      "model": "fcentaur",
+      "texture": "xqw_fcentaur",
+      "aliases": [
+        "fcentaurw1",
+        "fcentaurw2",
+        "fcentaurw3",
+        "fcentaurw4",
+        "fcentaurw5"
+      ]
+    },
+    {
+      "unit": "fcolony",
+      "model": "fcolony",
+      "texture": "xqw_fcolony",
+      "aliases": [
+        "fcolonyw1",
+        "fcolonyw2",
+        "fcolonyw3",
+        "fcolonyw4",
+        "fcolonyw5"
+      ]
+    },
+    {
+      "unit": "fconst",
+      "model": "fconst",
+      "texture": "xqw_fconst",
+      "aliases": [
+        "fconstw1",
+        "fconstw2",
+        "fconstw3",
+        "fconstw4",
+        "fconstw5"
+      ]
+    },
+    {
+      "unit": "fconst2",
+      "model": "fconst2",
+      "texture": "xqw_fconst2",
+      "aliases": [
+        "fconst2w1",
+        "fconst2w2",
+        "fconst2w3",
+        "fconst2w4",
+        "fconst2w5"
+      ]
+    },
+    {
+      "unit": "fconstellation",
+      "model": "fconstellation",
+      "texture": "xqw_fconstellation",
+      "aliases": [
+        "fconstellationw1",
+        "fconstellationw2",
+        "fconstellationw3",
+        "fconstellationw4",
+        "fconstellationw5"
+      ]
+    },
+    {
+      "unit": "fconstitution",
+      "model": "fconstitution",
+      "texture": "xqw_fconstitution",
+      "aliases": [
+        "fconstitutionw1",
+        "fconstitutionw2",
+        "fconstitutionw3",
+        "fconstitutionw4",
+        "fconstitutionw5"
+      ]
+    },
+    {
+      "unit": "fcruise1",
+      "model": "fcruise1",
+      "texture": "xqw_fcruise1",
+      "aliases": [
+        "fcruise1w1",
+        "fcruise1w2",
+        "fcruise1w3",
+        "fcruise1w4",
+        "fcruise1w5"
+      ]
+    },
+    {
+      "unit": "fcruise2",
+      "model": "fcruise2",
+      "texture": "xqw_fcruise2",
+      "aliases": [
+        "fcruise2w1",
+        "fcruise2w2",
+        "fcruise2w3",
+        "fcruise2w4",
+        "fcruise2w5"
+      ]
+    },
+    {
+      "unit": "fcruise3",
+      "model": "fcruise3",
+      "texture": "xqw_fcruise3",
+      "aliases": [
+        "fcruise3w1",
+        "fcruise3w2",
+        "fcruise3w3",
+        "fcruise3w4",
+        "fcruise3w5"
+      ]
+    },
+    {
+      "unit": "fdallas",
+      "model": "fdallas",
+      "texture": "xqw_fdallas",
+      "aliases": [
+        "fdallasw1",
+        "fdallasw2",
+        "fdallasw3",
+        "fdallasw4",
+        "fdallasw5"
+      ]
+    },
+    {
+      "unit": "fdanube",
+      "model": "fdanube",
+      "texture": "xqw_fdanube",
+      "aliases": [
+        "fdanubew1",
+        "fdanubew2",
+        "fdanubew3",
+        "fdanubew4",
+        "fdanubew5"
+      ]
+    },
+    {
+      "unit": "fdata",
+      "model": "fdata",
+      "texture": "xqw_fdata",
+      "aliases": [
+        "fdataw1",
+        "fdataw2",
+        "fdataw3",
+        "fdataw4",
+        "fdataw5"
+      ]
+    },
+    {
+      "unit": "fdauntless",
+      "model": "fdauntless",
+      "texture": "xqw_fdauntless",
+      "aliases": [
+        "fdauntlessw1",
+        "fdauntlessw2",
+        "fdauntlessw3",
+        "fdauntlessw4",
+        "fdauntlessw5"
+      ]
+    },
+    {
+      "unit": "fdawnstar",
+      "model": "fdawnstar",
+      "texture": "xqw_fdawnstar",
+      "aliases": [
+        "fdawnstarw1",
+        "fdawnstarw2",
+        "fdawnstarw3",
+        "fdawnstarw4",
+        "fdawnstarw5"
+      ]
+    },
+    {
+      "unit": "fdefiant",
+      "model": "fdefiant",
+      "texture": "xqw_fdefiant",
+      "aliases": [
+        "fdefiantw1",
+        "fdefiantw2",
+        "fdefiantw3",
+        "fdefiantw4",
+        "fdefiantw5"
+      ]
+    },
+    {
+      "unit": "fdeimos",
+      "model": "fdeimos",
+      "texture": "xqw_fdeimos",
+      "aliases": [
+        "fdeimosw1",
+        "fdeimosw2",
+        "fdeimosw3",
+        "fdeimosw4",
+        "fdeimosw5"
+      ]
+    },
+    {
+      "unit": "fdeltaflyer",
+      "model": "fdeltaflyer",
+      "texture": "xqw_fdeltaflyer",
+      "aliases": [
+        "fdeltaflyerw1",
+        "fdeltaflyerw2",
+        "fdeltaflyerw3",
+        "fdeltaflyerw4",
+        "fdeltaflyerw5"
+      ]
+    },
+    {
+      "unit": "fdestroy",
+      "model": "fdestroy",
+      "texture": "xqw_fdestroy",
+      "aliases": [
+        "fdestroyw1",
+        "fdestroyw2",
+        "fdestroyw3",
+        "fdestroyw4",
+        "fdestroyw5"
+      ]
+    },
+    {
+      "unit": "fdestroy2",
+      "model": "fdestroy2",
+      "texture": "xqw_fdestroy2",
+      "aliases": [
+        "fdestroy2w1",
+        "fdestroy2w2",
+        "fdestroy2w3",
+        "fdestroy2w4",
+        "fdestroy2w5"
+      ]
+    },
+    {
+      "unit": "fdiablo",
+      "model": "fdiablo",
+      "texture": "xqw_fdiablo",
+      "aliases": [
+        "fdiablow1",
+        "fdiablow2",
+        "fdiablow3",
+        "fdiablow4",
+        "fdiablow5"
+      ]
+    },
+    {
+      "unit": "fent",
+      "model": "fent",
+      "texture": "xqw_fent",
+      "aliases": [
+        "fentw1",
+        "fentw2",
+        "fentw3",
+        "fentw4",
+        "fentw5"
+      ]
+    },
+    {
+      "unit": "fenta",
+      "model": "fenta",
+      "texture": "xqw_fenta",
+      "aliases": [
+        "fentaw1",
+        "fentaw2",
+        "fentaw3",
+        "fentaw4",
+        "fentaw5"
+      ]
+    },
+    {
+      "unit": "fentb",
+      "model": "fentb",
+      "texture": "xqw_fentb",
+      "aliases": [
+        "fentbw1",
+        "fentbw2",
+        "fentbw3",
+        "fentbw4",
+        "fentbw5"
+      ]
+    },
+    {
+      "unit": "fentc",
+      "model": "fentc",
+      "texture": "xqw_fentc",
+      "aliases": [
+        "fentcw1",
+        "fentcw2",
+        "fentcw3",
+        "fentcw4",
+        "fentcw5"
+      ]
+    },
+    {
+      "unit": "fentd",
+      "model": "fentd",
+      "texture": "xqw_fentd",
+      "aliases": [
+        "fentdw1",
+        "fentdw2",
+        "fentdw3",
+        "fentdw4",
+        "fentdw5"
+      ]
+    },
+    {
+      "unit": "fentdx",
+      "model": "fentdx",
+      "texture": "xqw_fentdx",
+      "aliases": [
+        "fentdxw1",
+        "fentdxw2",
+        "fentdxw3",
+        "fentdxw4",
+        "fentdxw5"
+      ]
+    },
+    {
+      "unit": "fente",
+      "model": "fente",
+      "texture": "xqw_fente",
+      "aliases": [
+        "fentew1",
+        "fentew2",
+        "fentew3",
+        "fentew4",
+        "fentew5"
+      ]
+    },
+    {
+      "unit": "fexcalibur",
+      "model": "fexcalibur",
+      "texture": "xqw_fexcalibur",
+      "aliases": [
+        "fexcaliburw1",
+        "fexcaliburw2",
+        "fexcaliburw3",
+        "fexcaliburw4",
+        "fexcaliburw5"
+      ]
+    },
+    {
+      "unit": "fexcel",
+      "model": "fexcel",
+      "texture": "xqw_fexcel",
+      "aliases": [
+        "fexcelw1",
+        "fexcelw2",
+        "fexcelw3",
+        "fexcelw4",
+        "fexcelw5"
+      ]
+    },
+    {
+      "unit": "fexcelr",
+      "model": "fexcelr",
+      "texture": "xqw_fexcelr",
+      "aliases": [
+        "fexcelrw1",
+        "fexcelrw2",
+        "fexcelrw3",
+        "fexcelrw4",
+        "fexcelrw5"
+      ]
+    },
+    {
+      "unit": "ffighter",
+      "model": "ffighter",
+      "texture": "xqw_ffighter",
+      "aliases": [
+        "ffighterw1",
+        "ffighterw2",
+        "ffighterw3",
+        "ffighterw4",
+        "ffighterw5"
+      ]
+    },
+    {
+      "unit": "ffreight",
+      "model": "ffreight",
+      "texture": "xqw_ffreight",
+      "aliases": [
+        "ffreightw1",
+        "ffreightw2",
+        "ffreightw3",
+        "ffreightw4",
+        "ffreightw5"
+      ]
+    },
+    {
+      "unit": "ffrigate",
+      "model": "ffrigate",
+      "texture": "xqw_ffrigate",
+      "aliases": [
+        "ffrigatew1",
+        "ffrigatew2",
+        "ffrigatew3",
+        "ffrigatew4",
+        "ffrigatew5"
+      ]
+    },
+    {
+      "unit": "fgalaxy",
+      "model": "fgalaxy",
+      "texture": "xqw_fgalaxy",
+      "aliases": [
+        "fgalaxyw1",
+        "fgalaxyw2",
+        "fgalaxyw3",
+        "fgalaxyw4",
+        "fgalaxyw5"
+      ]
+    },
+    {
+      "unit": "fgalaxyr",
+      "model": "fgalaxyr",
+      "texture": "xqw_fgalaxyr",
+      "aliases": [
+        "fgalaxyrw1",
+        "fgalaxyrw2",
+        "fgalaxyrw3",
+        "fgalaxyrw4",
+        "fgalaxyrw5"
+      ]
+    },
+    {
+      "unit": "fgalaxyx",
+      "model": "xui_fgalaxyx",
+      "texture": "xqw_fgalaxyx",
+      "aliases": [
+        "fgalaxyxw1",
+        "fgalaxyxw2",
+        "fgalaxyxw3",
+        "fgalaxyxw4",
+        "fgalaxyxw5",
+        "xui_fgalaxyxw1",
+        "xui_fgalaxyxw2",
+        "xui_fgalaxyxw3",
+        "xui_fgalaxyxw4",
+        "xui_fgalaxyxw5"
+      ]
+    },
+    {
+      "unit": "fincursion",
+      "model": "fincursion",
+      "texture": "xqw_fincursion",
+      "aliases": [
+        "fincursionw1",
+        "fincursionw2",
+        "fincursionw3",
+        "fincursionw4",
+        "fincursionw5"
+      ]
+    },
+    {
+      "unit": "fintx",
+      "model": "fintx",
+      "texture": "xqw_fintx",
+      "aliases": [
+        "fintxw1",
+        "fintxw2",
+        "fintxw3",
+        "fintxw4",
+        "fintxw5"
+      ]
+    },
+    {
+      "unit": "fkaleb",
+      "model": "fkaleb",
+      "texture": "xqw_fkaleb",
+      "aliases": [
+        "fkalebw1",
+        "fkalebw2",
+        "fkalebw3",
+        "fkalebw4",
+        "fkalebw5"
+      ]
+    },
+    {
+      "unit": "fmiran",
+      "model": "fmiran",
+      "texture": "xqw_fmiran",
+      "aliases": [
+        "fmiranw1",
+        "fmiranw2",
+        "fmiranw3",
+        "fmiranw4",
+        "fmiranw5"
+      ]
+    },
+    {
+      "unit": "fmiranda",
+      "model": "fmiranda",
+      "texture": "xqw_fmiranda",
+      "aliases": [
+        "fmirandaw1",
+        "fmirandaw2",
+        "fmirandaw3",
+        "fmirandaw4",
+        "fmirandaw5"
+      ]
+    },
+    {
+      "unit": "fneworleans",
+      "model": "fneworleans",
+      "texture": "xqw_fneworleans",
+      "aliases": [
+        "fneworleansw1",
+        "fneworleansw2",
+        "fneworleansw3",
+        "fneworleansw4",
+        "fneworleansw5"
+      ]
+    },
+    {
+      "unit": "fnorway",
+      "model": "fnorway",
+      "texture": "xqw_fnorway",
+      "aliases": [
+        "fnorwayw1",
+        "fnorwayw2",
+        "fnorwayw3",
+        "fnorwayw4",
+        "fnorwayw5"
+      ]
+    },
+    {
+      "unit": "fnova",
+      "model": "fnova",
+      "texture": "xqw_fnova",
+      "aliases": [
+        "fnovaw1",
+        "fnovaw2",
+        "fnovaw3",
+        "fnovaw4",
+        "fnovaw5"
+      ]
+    },
+    {
+      "unit": "fnx",
+      "model": "fnx",
+      "texture": "xqw_fnx",
+      "aliases": [
+        "fnxw1",
+        "fnxw2",
+        "fnxw3",
+        "fnxw4",
+        "fnxw5"
+      ]
+    },
+    {
+      "unit": "fnxent",
+      "model": "fnxent",
+      "texture": "xqw_fnxent",
+      "aliases": [
+        "fnxentw1",
+        "fnxentw2",
+        "fnxentw3",
+        "fnxentw4",
+        "fnxentw5"
+      ]
+    },
+    {
+      "unit": "fober",
+      "model": "xui_fober",
+      "texture": "xqw_fober",
+      "aliases": [
+        "foberw1",
+        "foberw2",
+        "foberw3",
+        "foberw4",
+        "foberw5",
+        "xui_foberw1",
+        "xui_foberw2",
+        "xui_foberw3",
+        "xui_foberw4",
+        "xui_foberw5"
+      ]
+    },
+    {
+      "unit": "foberth",
+      "model": "xui_foberth",
+      "texture": "xqw_foberth",
+      "aliases": [
+        "foberthw1",
+        "foberthw2",
+        "foberthw3",
+        "foberthw4",
+        "foberthw5",
+        "xui_foberthw1",
+        "xui_foberthw2",
+        "xui_foberthw3",
+        "xui_foberthw4",
+        "xui_foberthw5"
+      ]
+    },
+    {
+      "unit": "fprom",
+      "model": "fprom",
+      "texture": "xqw_fprom",
+      "aliases": [
+        "fpromw1",
+        "fpromw2",
+        "fpromw3",
+        "fpromw4",
+        "fpromw5"
+      ]
+    },
+    {
+      "unit": "fprometheus",
+      "model": "fprometheus",
+      "texture": "xqw_fprometheus",
+      "aliases": [
+        "fprometheusw1",
+        "fprometheusw2",
+        "fprometheusw3",
+        "fprometheusw4",
+        "fprometheusw5"
+      ]
+    },
+    {
+      "unit": "fpsaucer",
+      "model": "xui_fpsaucer",
+      "texture": "xqw_fpsaucer",
+      "aliases": [
+        "fpsaucerw1",
+        "fpsaucerw2",
+        "fpsaucerw3",
+        "fpsaucerw4",
+        "fpsaucerw5",
+        "xui_fpsaucerw1",
+        "xui_fpsaucerw2",
+        "xui_fpsaucerw3",
+        "xui_fpsaucerw4",
+        "xui_fpsaucerw5"
+      ]
+    },
+    {
+      "unit": "fsaucer",
+      "model": "xui_fsaucer",
+      "texture": "xqw_fsaucer",
+      "aliases": [
+        "fsaucerw1",
+        "fsaucerw2",
+        "fsaucerw3",
+        "fsaucerw4",
+        "fsaucerw5",
+        "xui_fsaucerw1",
+        "xui_fsaucerw2",
+        "xui_fsaucerw3",
+        "xui_fsaucerw4",
+        "xui_fsaucerw5"
+      ]
+    },
+    {
+      "unit": "fscorp",
+      "model": "fscorp",
+      "texture": "xqw_fscorp",
+      "aliases": [
+        "fscorpw1",
+        "fscorpw2",
+        "fscorpw3",
+        "fscorpw4",
+        "fscorpw5"
+      ]
+    },
+    {
+      "unit": "fscout",
+      "model": "fscout",
+      "texture": "xqw_fscout",
+      "aliases": [
+        "fscoutw1",
+        "fscoutw2",
+        "fscoutw3",
+        "fscoutw4",
+        "fscoutw5"
+      ]
+    },
+    {
+      "unit": "fsent",
+      "model": "fsent",
+      "texture": "xqw_fsent",
+      "aliases": [
+        "fsentw1",
+        "fsentw2",
+        "fsentw3",
+        "fsentw4",
+        "fsentw5"
+      ]
+    },
+    {
+      "unit": "fshadow",
+      "model": "fshadow",
+      "texture": "xqw_fshadow",
+      "aliases": [
+        "fshadoww1",
+        "fshadoww2",
+        "fshadoww3",
+        "fshadoww4",
+        "fshadoww5"
+      ]
+    },
+    {
+      "unit": "fshak",
+      "model": "fshak",
+      "texture": "xqw_fshak",
+      "aliases": [
+        "fshakw1",
+        "fshakw2",
+        "fshakw3",
+        "fshakw4",
+        "fshakw5"
+      ]
+    },
+    {
+      "unit": "fsovx",
+      "model": "fsovx",
+      "texture": "xqw_fsovx",
+      "aliases": [
+        "fsovxw1",
+        "fsovxw2",
+        "fsovxw3",
+        "fsovxw4",
+        "fsovxw5"
+      ]
+    },
+    {
+      "unit": "fspecial",
+      "model": "xui_fspecial",
+      "texture": "xqw_fspecial",
+      "aliases": [
+        "fspecialw1",
+        "fspecialw2",
+        "fspecialw3",
+        "fspecialw4",
+        "fspecialw5",
+        "xui_fspecialw1",
+        "xui_fspecialw2",
+        "xui_fspecialw3",
+        "xui_fspecialw4",
+        "xui_fspecialw5"
+      ]
+    },
+    {
+      "unit": "fspectre",
+      "model": "fspectre",
+      "texture": "xqw_fspectre",
+      "aliases": [
+        "fspectrew1",
+        "fspectrew2",
+        "fspectrew3",
+        "fspectrew4",
+        "fspectrew5"
+      ]
+    },
+    {
+      "unit": "fsrepair",
+      "model": "fsrepair",
+      "texture": "xqw_fsrepair",
+      "aliases": [
+        "fsrepairw1",
+        "fsrepairw2",
+        "fsrepairw3",
+        "fsrepairw4",
+        "fsrepairw5"
+      ]
+    },
+    {
+      "unit": "ftengen",
+      "model": "ftengen",
+      "texture": "xqw_ftengen",
+      "aliases": [
+        "ftengenw1",
+        "ftengenw2",
+        "ftengenw3",
+        "ftengenw4",
+        "ftengenw5"
+      ]
+    },
+    {
+      "unit": "fvalour",
+      "model": "fvalour",
+      "texture": "xqw_fvalour",
+      "aliases": [
+        "fvalourw1",
+        "fvalourw2",
+        "fvalourw3",
+        "fvalourw4",
+        "fvalourw5"
+      ]
+    },
+    {
+      "unit": "fvoyager",
+      "model": "fvoyager",
+      "texture": "xqw_fvoyager",
+      "aliases": [
+        "fvoyagerw1",
+        "fvoyagerw2",
+        "fvoyagerw3",
+        "fvoyagerw4",
+        "fvoyagerw5"
+      ]
+    },
+    {
+      "unit": "gcutter",
+      "model": "gcutter",
+      "texture": "xqw_gcutter",
+      "aliases": [
+        "gcutterw1",
+        "gcutterw2",
+        "gcutterw3",
+        "gcutterw4",
+        "gcutterw5"
+      ]
+    },
+    {
+      "unit": "jemdest",
+      "model": "jemdest",
+      "texture": "xqw_jemdest",
+      "aliases": [
+        "jemdestw1",
+        "jemdestw2",
+        "jemdestw3",
+        "jemdestw4",
+        "jemdestw5"
+      ]
+    },
+    {
+      "unit": "jemdest2",
+      "model": "jemdest2",
+      "texture": "xqw_jemdest2",
+      "aliases": [
+        "jemdest2w1",
+        "jemdest2w2",
+        "jemdest2w3",
+        "jemdest2w4",
+        "jemdest2w5"
+      ]
+    },
+    {
+      "unit": "kassault",
+      "model": "kassault",
+      "texture": "xqw_kassault",
+      "aliases": [
+        "kassaultw1",
+        "kassaultw2",
+        "kassaultw3",
+        "kassaultw4",
+        "kassaultw5"
+      ]
+    },
+    {
+      "unit": "kavorcha",
+      "model": "kavorcha",
+      "texture": "xqw_kavorcha",
+      "aliases": [
+        "kavorchaw1",
+        "kavorchaw2",
+        "kavorchaw3",
+        "kavorchaw4",
+        "kavorchaw5"
+      ]
+    },
+    {
+      "unit": "kbatleth",
+      "model": "kbatleth",
+      "texture": "xqw_kbatleth",
+      "aliases": [
+        "kbatlethw1",
+        "kbatlethw2",
+        "kbatlethw3",
+        "kbatlethw4",
+        "kbatlethw5"
+      ]
+    },
+    {
+      "unit": "kbattle",
+      "model": "xui_kbattle",
+      "texture": "xqw_kbattle",
+      "aliases": [
+        "kbattlew1",
+        "kbattlew2",
+        "kbattlew3",
+        "kbattlew4",
+        "kbattlew5",
+        "xui_kbattlew1",
+        "xui_kbattlew2",
+        "xui_kbattlew3",
+        "xui_kbattlew4",
+        "xui_kbattlew5"
+      ]
+    },
+    {
+      "unit": "kbattle2",
+      "model": "kbattle2",
+      "texture": "xqw_kbattle2",
+      "aliases": [
+        "kbattle2w1",
+        "kbattle2w2",
+        "kbattle2w3",
+        "kbattle2w4",
+        "kbattle2w5"
+      ]
+    },
+    {
+      "unit": "kbekta",
+      "model": "kbekta",
+      "texture": "xqw_kbekta",
+      "aliases": [
+        "kbektaw1",
+        "kbektaw2",
+        "kbektaw3",
+        "kbektaw4",
+        "kbektaw5"
+      ]
+    },
+    {
+      "unit": "kbwing",
+      "model": "kbwing",
+      "texture": "xqw_kbwing",
+      "aliases": [
+        "kbwingw1",
+        "kbwingw2",
+        "kbwingw3",
+        "kbwingw4",
+        "kbwingw5"
+      ]
+    },
+    {
+      "unit": "kcargo",
+      "model": "kcargo",
+      "texture": "xqw_kcargo",
+      "aliases": [
+        "kcargow1",
+        "kcargow2",
+        "kcargow3",
+        "kcargow4",
+        "kcargow5"
+      ]
+    },
+    {
+      "unit": "kcolony",
+      "model": "kcolony",
+      "texture": "xqw_kcolony",
+      "aliases": [
+        "kcolonyw1",
+        "kcolonyw2",
+        "kcolonyw3",
+        "kcolonyw4",
+        "kcolonyw5"
+      ]
+    },
+    {
+      "unit": "kconst",
+      "model": "kconst",
+      "texture": "xqw_kconst",
+      "aliases": [
+        "kconstw1",
+        "kconstw2",
+        "kconstw3",
+        "kconstw4",
+        "kconstw5"
+      ]
+    },
+    {
+      "unit": "kconst2",
+      "model": "kconst2",
+      "texture": "xqw_kconst2",
+      "aliases": [
+        "kconst2w1",
+        "kconst2w2",
+        "kconst2w3",
+        "kconst2w4",
+        "kconst2w5"
+      ]
+    },
+    {
+      "unit": "kcruise1",
+      "model": "kcruise1",
+      "texture": "xqw_kcruise1",
+      "aliases": [
+        "kcruise1w1",
+        "kcruise1w2",
+        "kcruise1w3",
+        "kcruise1w4",
+        "kcruise1w5"
+      ]
+    },
+    {
+      "unit": "kcruise2",
+      "model": "kcruise2",
+      "texture": "xqw_kcruise2",
+      "aliases": [
+        "kcruise2w1",
+        "kcruise2w2",
+        "kcruise2w3",
+        "kcruise2w4",
+        "kcruise2w5"
+      ]
+    },
+    {
+      "unit": "kcruise3",
+      "model": "kcruise3",
+      "texture": "xqw_kcruise3",
+      "aliases": [
+        "kcruise3w1",
+        "kcruise3w2",
+        "kcruise3w3",
+        "kcruise3w4",
+        "kcruise3w5"
+      ]
+    },
+    {
+      "unit": "kcruise4",
+      "model": "kcruise4",
+      "texture": "xqw_kcruise4",
+      "aliases": [
+        "kcruise4w1",
+        "kcruise4w2",
+        "kcruise4w3",
+        "kcruise4w4",
+        "kcruise4w5"
+      ]
+    },
+    {
+      "unit": "kdestroy",
+      "model": "kdestroy",
+      "texture": "xqw_kdestroy",
+      "aliases": [
+        "kdestroyw1",
+        "kdestroyw2",
+        "kdestroyw3",
+        "kdestroyw4",
+        "kdestroyw5"
+      ]
+    },
+    {
+      "unit": "kdestroy2",
+      "model": "kdestroy2",
+      "texture": "xqw_kdestroy2",
+      "aliases": [
+        "kdestroy2w1",
+        "kdestroy2w2",
+        "kdestroy2w3",
+        "kdestroy2w4",
+        "kdestroy2w5"
+      ]
+    },
+    {
+      "unit": "kdestroy4",
+      "model": "kdestroy4",
+      "texture": "xqw_kdestroy4",
+      "aliases": [
+        "kdestroy4w1",
+        "kdestroy4w2",
+        "kdestroy4w3",
+        "kdestroy4w4",
+        "kdestroy4w5"
+      ]
+    },
+    {
+      "unit": "ken_special",
+      "model": "xui_ken_special",
+      "texture": "xqw_ken_special",
+      "aliases": [
+        "ken_specialw1",
+        "ken_specialw2",
+        "ken_specialw3",
+        "ken_specialw4",
+        "ken_specialw5",
+        "xui_ken_specialw1",
+        "xui_ken_specialw2",
+        "xui_ken_specialw3",
+        "xui_ken_specialw4",
+        "xui_ken_specialw5"
+      ]
+    },
+    {
+      "unit": "kfreight",
+      "model": "kfreight",
+      "texture": "xqw_kfreight",
+      "aliases": [
+        "kfreightw1",
+        "kfreightw2",
+        "kfreightw3",
+        "kfreightw4",
+        "kfreightw5"
+      ]
+    },
+    {
+      "unit": "kfrigate",
+      "model": "kfrigate",
+      "texture": "xqw_kfrigate",
+      "aliases": [
+        "kfrigatew1",
+        "kfrigatew2",
+        "kfrigatew3",
+        "kfrigatew4",
+        "kfrigatew5"
+      ]
+    },
+    {
+      "unit": "kgunboat",
+      "model": "kgunboat",
+      "texture": "xqw_kgunboat",
+      "aliases": [
+        "kgunboatw1",
+        "kgunboatw2",
+        "kgunboatw3",
+        "kgunboatw4",
+        "kgunboatw5"
+      ]
+    },
+    {
+      "unit": "kimpbakt",
+      "model": "kimpbakt",
+      "texture": "xqw_kimpbakt",
+      "aliases": [
+        "kimpbaktw1",
+        "kimpbaktw2",
+        "kimpbaktw3",
+        "kimpbaktw4",
+        "kimpbaktw5"
+      ]
+    },
+    {
+      "unit": "kimpben",
+      "model": "kimpben",
+      "texture": "xqw_kimpben",
+      "aliases": [
+        "kimpbenw1",
+        "kimpbenw2",
+        "kimpbenw3",
+        "kimpbenw4",
+        "kimpbenw5"
+      ]
+    },
+    {
+      "unit": "kimphut",
+      "model": "kimphut",
+      "texture": "xqw_kimphut",
+      "aliases": [
+        "kimphutw1",
+        "kimphutw2",
+        "kimphutw3",
+        "kimphutw4",
+        "kimphutw5"
+      ]
+    },
+    {
+      "unit": "kimpkoto",
+      "model": "kimpkoto",
+      "texture": "xqw_kimpkoto",
+      "aliases": [
+        "kimpkotow1",
+        "kimpkotow2",
+        "kimpkotow3",
+        "kimpkotow4",
+        "kimpkotow5"
+      ]
+    },
+    {
+      "unit": "kimpmakd",
+      "model": "kimpmakd",
+      "texture": "xqw_kimpmakd",
+      "aliases": [
+        "kimpmakdw1",
+        "kimpmakdw2",
+        "kimpmakdw3",
+        "kimpmakdw4",
+        "kimpmakdw5"
+      ]
+    },
+    {
+      "unit": "kimpnegh",
+      "model": "kimpnegh",
+      "texture": "xqw_kimpnegh",
+      "aliases": [
+        "kimpneghw1",
+        "kimpneghw2",
+        "kimpneghw3",
+        "kimpneghw4",
+        "kimpneghw5"
+      ]
+    },
+    {
+      "unit": "kimpnook",
+      "model": "kimpnook",
+      "texture": "xqw_kimpnook",
+      "aliases": [
+        "kimpnookw1",
+        "kimpnookw2",
+        "kimpnookw3",
+        "kimpnookw4",
+        "kimpnookw5"
+      ]
+    },
+    {
+      "unit": "kimpvorc",
+      "model": "kimpvorc",
+      "texture": "xqw_kimpvorc",
+      "aliases": [
+        "kimpvorcw1",
+        "kimpvorcw2",
+        "kimpvorcw3",
+        "kimpvorcw4",
+        "kimpvorcw5"
+      ]
+    },
+    {
+      "unit": "kmartok",
+      "model": "xui_kmartok",
+      "texture": "xqw_kmartok",
+      "aliases": [
+        "kmartokw1",
+        "kmartokw2",
+        "kmartokw3",
+        "kmartokw4",
+        "kmartokw5",
+        "xui_kmartokw1",
+        "xui_kmartokw2",
+        "xui_kmartokw3",
+        "xui_kmartokw4",
+        "xui_kmartokw5"
+      ]
+    },
+    {
+      "unit": "kquon",
+      "model": "kquon",
+      "texture": "xqw_kquon",
+      "aliases": [
+        "kquonw1",
+        "kquonw2",
+        "kquonw3",
+        "kquonw4",
+        "kquonw5"
+      ]
+    },
+    {
+      "unit": "kscout",
+      "model": "kscout",
+      "texture": "xqw_kscout",
+      "aliases": [
+        "kscoutw1",
+        "kscoutw2",
+        "kscoutw3",
+        "kscoutw4",
+        "kscoutw5"
+      ]
+    },
+    {
+      "unit": "kspecial",
+      "model": "kspecial",
+      "texture": "xqw_kspecial",
+      "aliases": [
+        "kspecialw1",
+        "kspecialw2",
+        "kspecialw3",
+        "kspecialw4",
+        "kspecialw5"
+      ]
+    },
+    {
+      "unit": "ksrepair",
+      "model": "ksrepair",
+      "texture": "xqw_ksrepair",
+      "aliases": [
+        "ksrepairw1",
+        "ksrepairw2",
+        "ksrepairw3",
+        "ksrepairw4",
+        "ksrepairw5"
+      ]
+    },
+    {
+      "unit": "ksuper",
+      "model": "xvstock_ksuper",
+      "texture": "xqw_ksuper",
+      "aliases": [
+        "ksuperw1",
+        "ksuperw2",
+        "ksuperw3",
+        "ksuperw4",
+        "ksuperw5",
+        "xvstock_ksuperw1",
+        "xvstock_ksuperw2",
+        "xvstock_ksuperw3",
+        "xvstock_ksuperw4",
+        "xvstock_ksuperw5"
+      ]
+    },
+    {
+      "unit": "kvodleh",
+      "model": "kvodleh",
+      "texture": "xqw_kvodleh",
+      "aliases": [
+        "kvodlehw1",
+        "kvodlehw2",
+        "kvodlehw3",
+        "kvodlehw4",
+        "kvodlehw5"
+      ]
+    },
+    {
+      "unit": "kvood",
+      "model": "kvood",
+      "texture": "xqw_kvood",
+      "aliases": [
+        "kvoodw1",
+        "kvoodw2",
+        "kvoodw3",
+        "kvoodw4",
+        "kvoodw5"
+      ]
+    },
+    {
+      "unit": "mrc000",
+      "model": "mrc000",
+      "texture": "xqw_mrc000",
+      "aliases": [
+        "mrc000w1",
+        "mrc000w2",
+        "mrc000w3",
+        "mrc000w4",
+        "mrc000w5"
+      ]
+    },
+    {
+      "unit": "mrc001",
+      "model": "mrc001",
+      "texture": "xqw_mrc001",
+      "aliases": [
+        "mrc001w1",
+        "mrc001w2",
+        "mrc001w3",
+        "mrc001w4",
+        "mrc001w5"
+      ]
+    },
+    {
+      "unit": "mrc003",
+      "model": "mrc003",
+      "texture": "xqw_mrc003",
+      "aliases": [
+        "mrc003w1",
+        "mrc003w2",
+        "mrc003w3",
+        "mrc003w4",
+        "mrc003w5"
+      ]
+    },
+    {
+      "unit": "mrc004",
+      "model": "mrc004",
+      "texture": "xqw_mrc004",
+      "aliases": [
+        "mrc004w1",
+        "mrc004w2",
+        "mrc004w3",
+        "mrc004w4",
+        "mrc004w5"
+      ]
+    },
+    {
+      "unit": "mrc005",
+      "model": "mrc005",
+      "texture": "xqw_mrc005",
+      "aliases": [
+        "mrc005w1",
+        "mrc005w2",
+        "mrc005w3",
+        "mrc005w4",
+        "mrc005w5"
+      ]
+    },
+    {
+      "unit": "mrc006",
+      "model": "mrc006",
+      "texture": "xqw_mrc006",
+      "aliases": [
+        "mrc006w1",
+        "mrc006w2",
+        "mrc006w3",
+        "mrc006w4",
+        "mrc006w5"
+      ]
+    },
+    {
+      "unit": "mrc007",
+      "model": "mrc007",
+      "texture": "xqw_mrc007",
+      "aliases": [
+        "mrc007w1",
+        "mrc007w2",
+        "mrc007w3",
+        "mrc007w4",
+        "mrc007w5"
+      ]
+    },
+    {
+      "unit": "mrc008",
+      "model": "mrc008",
+      "texture": "xqw_mrc008",
+      "aliases": [
+        "mrc008w1",
+        "mrc008w2",
+        "mrc008w3",
+        "mrc008w4",
+        "mrc008w5"
+      ]
+    },
+    {
+      "unit": "mrc009",
+      "model": "mrc009",
+      "texture": "xqw_mrc009",
+      "aliases": [
+        "mrc009w1",
+        "mrc009w2",
+        "mrc009w3",
+        "mrc009w4",
+        "mrc009w5"
+      ]
+    },
+    {
+      "unit": "mrc010",
+      "model": "mrc010",
+      "texture": "xqw_mrc010",
+      "aliases": [
+        "mrc010w1",
+        "mrc010w2",
+        "mrc010w3",
+        "mrc010w4",
+        "mrc010w5"
+      ]
+    },
+    {
+      "unit": "mrc011",
+      "model": "mrc011",
+      "texture": "xqw_mrc011",
+      "aliases": [
+        "mrc011w1",
+        "mrc011w2",
+        "mrc011w3",
+        "mrc011w4",
+        "mrc011w5"
+      ]
+    },
+    {
+      "unit": "mrc012",
+      "model": "mrc012",
+      "texture": "xqw_mrc012",
+      "aliases": [
+        "mrc012w1",
+        "mrc012w2",
+        "mrc012w3",
+        "mrc012w4",
+        "mrc012w5"
+      ]
+    },
+    {
+      "unit": "mrc013",
+      "model": "mrc013",
+      "texture": "xqw_mrc013",
+      "aliases": [
+        "mrc013w1",
+        "mrc013w2",
+        "mrc013w3",
+        "mrc013w4",
+        "mrc013w5"
+      ]
+    },
+    {
+      "unit": "mrc014",
+      "model": "mrc014",
+      "texture": "xqw_mrc014",
+      "aliases": [
+        "mrc014w1",
+        "mrc014w2",
+        "mrc014w3",
+        "mrc014w4",
+        "mrc014w5"
+      ]
+    },
+    {
+      "unit": "mrc015",
+      "model": "mrc015",
+      "texture": "xqw_mrc015",
+      "aliases": [
+        "mrc015w1",
+        "mrc015w2",
+        "mrc015w3",
+        "mrc015w4",
+        "mrc015w5"
+      ]
+    },
+    {
+      "unit": "mrc016",
+      "model": "mrc016",
+      "texture": "xqw_mrc016",
+      "aliases": [
+        "mrc016w1",
+        "mrc016w2",
+        "mrc016w3",
+        "mrc016w4",
+        "mrc016w5"
+      ]
+    },
+    {
+      "unit": "mrc017",
+      "model": "mrc017",
+      "texture": "xqw_mrc017",
+      "aliases": [
+        "mrc017w1",
+        "mrc017w2",
+        "mrc017w3",
+        "mrc017w4",
+        "mrc017w5"
+      ]
+    },
+    {
+      "unit": "mrc018",
+      "model": "mrc018",
+      "texture": "xqw_mrc018",
+      "aliases": [
+        "mrc018w1",
+        "mrc018w2",
+        "mrc018w3",
+        "mrc018w4",
+        "mrc018w5"
+      ]
+    },
+    {
+      "unit": "mrc019",
+      "model": "mrc019",
+      "texture": "xqw_mrc019",
+      "aliases": [
+        "mrc019w1",
+        "mrc019w2",
+        "mrc019w3",
+        "mrc019w4",
+        "mrc019w5"
+      ]
+    },
+    {
+      "unit": "mrc020",
+      "model": "mrc020",
+      "texture": "xqw_mrc020",
+      "aliases": [
+        "mrc020w1",
+        "mrc020w2",
+        "mrc020w3",
+        "mrc020w4",
+        "mrc020w5"
+      ]
+    },
+    {
+      "unit": "mrc021",
+      "model": "mrc021",
+      "texture": "xqw_mrc021",
+      "aliases": [
+        "mrc021w1",
+        "mrc021w2",
+        "mrc021w3",
+        "mrc021w4",
+        "mrc021w5"
+      ]
+    },
+    {
+      "unit": "mrc022",
+      "model": "mrc022",
+      "texture": "xqw_mrc022",
+      "aliases": [
+        "mrc022w1",
+        "mrc022w2",
+        "mrc022w3",
+        "mrc022w4",
+        "mrc022w5"
+      ]
+    },
+    {
+      "unit": "mrc023",
+      "model": "mrc023",
+      "texture": "xqw_mrc023",
+      "aliases": [
+        "mrc023w1",
+        "mrc023w2",
+        "mrc023w3",
+        "mrc023w4",
+        "mrc023w5"
+      ]
+    },
+    {
+      "unit": "mrc024",
+      "model": "mrc024",
+      "texture": "xqw_mrc024",
+      "aliases": [
+        "mrc024w1",
+        "mrc024w2",
+        "mrc024w3",
+        "mrc024w4",
+        "mrc024w5"
+      ]
+    },
+    {
+      "unit": "mrc025",
+      "model": "mrc025",
+      "texture": "xqw_mrc025",
+      "aliases": [
+        "mrc025w1",
+        "mrc025w2",
+        "mrc025w3",
+        "mrc025w4",
+        "mrc025w5"
+      ]
+    },
+    {
+      "unit": "mrc026",
+      "model": "mrc026",
+      "texture": "xqw_mrc026",
+      "aliases": [
+        "mrc026w1",
+        "mrc026w2",
+        "mrc026w3",
+        "mrc026w4",
+        "mrc026w5"
+      ]
+    },
+    {
+      "unit": "mrc027",
+      "model": "mrc027",
+      "texture": "xqw_mrc027",
+      "aliases": [
+        "mrc027w1",
+        "mrc027w2",
+        "mrc027w3",
+        "mrc027w4",
+        "mrc027w5"
+      ]
+    },
+    {
+      "unit": "mrc028",
+      "model": "mrc028",
+      "texture": "xqw_mrc028",
+      "aliases": [
+        "mrc028w1",
+        "mrc028w2",
+        "mrc028w3",
+        "mrc028w4",
+        "mrc028w5"
+      ]
+    },
+    {
+      "unit": "mrc029",
+      "model": "mrc029",
+      "texture": "xqw_mrc029",
+      "aliases": [
+        "mrc029w1",
+        "mrc029w2",
+        "mrc029w3",
+        "mrc029w4",
+        "mrc029w5"
+      ]
+    },
+    {
+      "unit": "mrc030",
+      "model": "mrc030",
+      "texture": "xqw_mrc030",
+      "aliases": [
+        "mrc030w1",
+        "mrc030w2",
+        "mrc030w3",
+        "mrc030w4",
+        "mrc030w5"
+      ]
+    },
+    {
+      "unit": "mrc031",
+      "model": "mrc031",
+      "texture": "xqw_mrc031",
+      "aliases": [
+        "mrc031w1",
+        "mrc031w2",
+        "mrc031w3",
+        "mrc031w4",
+        "mrc031w5"
+      ]
+    },
+    {
+      "unit": "mrc032",
+      "model": "mrc032",
+      "texture": "xqw_mrc032",
+      "aliases": [
+        "mrc032w1",
+        "mrc032w2",
+        "mrc032w3",
+        "mrc032w4",
+        "mrc032w5"
+      ]
+    },
+    {
+      "unit": "mrc033",
+      "model": "mrc033",
+      "texture": "xqw_mrc033",
+      "aliases": [
+        "mrc033w1",
+        "mrc033w2",
+        "mrc033w3",
+        "mrc033w4",
+        "mrc033w5"
+      ]
+    },
+    {
+      "unit": "mrc034",
+      "model": "mrc034",
+      "texture": "xqw_mrc034",
+      "aliases": [
+        "mrc034w1",
+        "mrc034w2",
+        "mrc034w3",
+        "mrc034w4",
+        "mrc034w5"
+      ]
+    },
+    {
+      "unit": "mrc035",
+      "model": "mrc035",
+      "texture": "xqw_mrc035",
+      "aliases": [
+        "mrc035w1",
+        "mrc035w2",
+        "mrc035w3",
+        "mrc035w4",
+        "mrc035w5"
+      ]
+    },
+    {
+      "unit": "mrc036",
+      "model": "mrc036",
+      "texture": "xqw_mrc036",
+      "aliases": [
+        "mrc036w1",
+        "mrc036w2",
+        "mrc036w3",
+        "mrc036w4",
+        "mrc036w5"
+      ]
+    },
+    {
+      "unit": "mrc037",
+      "model": "mrc037",
+      "texture": "xqw_mrc037",
+      "aliases": [
+        "mrc037w1",
+        "mrc037w2",
+        "mrc037w3",
+        "mrc037w4",
+        "mrc037w5"
+      ]
+    },
+    {
+      "unit": "mrc038",
+      "model": "mrc038",
+      "texture": "xqw_mrc038",
+      "aliases": [
+        "mrc038w1",
+        "mrc038w2",
+        "mrc038w3",
+        "mrc038w4",
+        "mrc038w5"
+      ]
+    },
+    {
+      "unit": "mrc039",
+      "model": "mrc039",
+      "texture": "xqw_mrc039",
+      "aliases": [
+        "mrc039w1",
+        "mrc039w2",
+        "mrc039w3",
+        "mrc039w4",
+        "mrc039w5"
+      ]
+    },
+    {
+      "unit": "mrc040",
+      "model": "mrc040",
+      "texture": "xqw_mrc040",
+      "aliases": [
+        "mrc040w1",
+        "mrc040w2",
+        "mrc040w3",
+        "mrc040w4",
+        "mrc040w5"
+      ]
+    },
+    {
+      "unit": "mrc041",
+      "model": "mrc041",
+      "texture": "xqw_mrc041",
+      "aliases": [
+        "mrc041w1",
+        "mrc041w2",
+        "mrc041w3",
+        "mrc041w4",
+        "mrc041w5"
+      ]
+    },
+    {
+      "unit": "mrc042",
+      "model": "mrc042",
+      "texture": "xqw_mrc042",
+      "aliases": [
+        "mrc042w1",
+        "mrc042w2",
+        "mrc042w3",
+        "mrc042w4",
+        "mrc042w5"
+      ]
+    },
+    {
+      "unit": "mrc043",
+      "model": "mrc043",
+      "texture": "xqw_mrc043",
+      "aliases": [
+        "mrc043w1",
+        "mrc043w2",
+        "mrc043w3",
+        "mrc043w4",
+        "mrc043w5"
+      ]
+    },
+    {
+      "unit": "mrc044",
+      "model": "mrc044",
+      "texture": "xqw_mrc044",
+      "aliases": [
+        "mrc044w1",
+        "mrc044w2",
+        "mrc044w3",
+        "mrc044w4",
+        "mrc044w5"
+      ]
+    },
+    {
+      "unit": "mrc045",
+      "model": "mrc045",
+      "texture": "xqw_mrc045",
+      "aliases": [
+        "mrc045w1",
+        "mrc045w2",
+        "mrc045w3",
+        "mrc045w4",
+        "mrc045w5"
+      ]
+    },
+    {
+      "unit": "mrc046",
+      "model": "mrc046",
+      "texture": "xqw_mrc046",
+      "aliases": [
+        "mrc046w1",
+        "mrc046w2",
+        "mrc046w3",
+        "mrc046w4",
+        "mrc046w5"
+      ]
+    },
+    {
+      "unit": "mrc047",
+      "model": "mrc047",
+      "texture": "xqw_mrc047",
+      "aliases": [
+        "mrc047w1",
+        "mrc047w2",
+        "mrc047w3",
+        "mrc047w4",
+        "mrc047w5"
+      ]
+    },
+    {
+      "unit": "mrc048",
+      "model": "mrc048",
+      "texture": "xqw_mrc048",
+      "aliases": [
+        "mrc048w1",
+        "mrc048w2",
+        "mrc048w3",
+        "mrc048w4",
+        "mrc048w5"
+      ]
+    },
+    {
+      "unit": "mrc049",
+      "model": "mrc049",
+      "texture": "xqw_mrc049",
+      "aliases": [
+        "mrc049w1",
+        "mrc049w2",
+        "mrc049w3",
+        "mrc049w4",
+        "mrc049w5"
+      ]
+    },
+    {
+      "unit": "mrc050",
+      "model": "mrc050",
+      "texture": "xqw_mrc050",
+      "aliases": [
+        "mrc050w1",
+        "mrc050w2",
+        "mrc050w3",
+        "mrc050w4",
+        "mrc050w5"
+      ]
+    },
+    {
+      "unit": "mrc051",
+      "model": "mrc051",
+      "texture": "xqw_mrc051",
+      "aliases": [
+        "mrc051w1",
+        "mrc051w2",
+        "mrc051w3",
+        "mrc051w4",
+        "mrc051w5"
+      ]
+    },
+    {
+      "unit": "mrc052",
+      "model": "mrc052",
+      "texture": "xqw_mrc052",
+      "aliases": [
+        "mrc052w1",
+        "mrc052w2",
+        "mrc052w3",
+        "mrc052w4",
+        "mrc052w5"
+      ]
+    },
+    {
+      "unit": "mrc053",
+      "model": "mrc053",
+      "texture": "xqw_mrc053",
+      "aliases": [
+        "mrc053w1",
+        "mrc053w2",
+        "mrc053w3",
+        "mrc053w4",
+        "mrc053w5"
+      ]
+    },
+    {
+      "unit": "mrc054",
+      "model": "mrc054",
+      "texture": "xqw_mrc054",
+      "aliases": [
+        "mrc054w1",
+        "mrc054w2",
+        "mrc054w3",
+        "mrc054w4",
+        "mrc054w5"
+      ]
+    },
+    {
+      "unit": "mrc055",
+      "model": "mrc055",
+      "texture": "xqw_mrc055",
+      "aliases": [
+        "mrc055w1",
+        "mrc055w2",
+        "mrc055w3",
+        "mrc055w4",
+        "mrc055w5"
+      ]
+    },
+    {
+      "unit": "mrc056",
+      "model": "mrc056",
+      "texture": "xqw_mrc056",
+      "aliases": [
+        "mrc056w1",
+        "mrc056w2",
+        "mrc056w3",
+        "mrc056w4",
+        "mrc056w5"
+      ]
+    },
+    {
+      "unit": "mrc057",
+      "model": "mrc057",
+      "texture": "xqw_mrc057",
+      "aliases": [
+        "mrc057w1",
+        "mrc057w2",
+        "mrc057w3",
+        "mrc057w4",
+        "mrc057w5"
+      ]
+    },
+    {
+      "unit": "mrc058",
+      "model": "mrc058",
+      "texture": "xqw_mrc058",
+      "aliases": [
+        "mrc058w1",
+        "mrc058w2",
+        "mrc058w3",
+        "mrc058w4",
+        "mrc058w5"
+      ]
+    },
+    {
+      "unit": "rassault",
+      "model": "rassault",
+      "texture": "xqw_rassault",
+      "aliases": [
+        "rassaultw1",
+        "rassaultw2",
+        "rassaultw3",
+        "rassaultw4",
+        "rassaultw5"
+      ]
+    },
+    {
+      "unit": "rbattle",
+      "model": "rbattle",
+      "texture": "xqw_rbattle",
+      "aliases": [
+        "rbattlew1",
+        "rbattlew2",
+        "rbattlew3",
+        "rbattlew4",
+        "rbattlew5"
+      ]
+    },
+    {
+      "unit": "rbattle2",
+      "model": "rbattle2",
+      "texture": "xqw_rbattle2",
+      "aliases": [
+        "rbattle2w1",
+        "rbattle2w2",
+        "rbattle2w3",
+        "rbattle2w4",
+        "rbattle2w5"
+      ]
+    },
+    {
+      "unit": "rcargo",
+      "model": "rcargo",
+      "texture": "xqw_rcargo",
+      "aliases": [
+        "rcargow1",
+        "rcargow2",
+        "rcargow3",
+        "rcargow4",
+        "rcargow5"
+      ]
+    },
+    {
+      "unit": "rcent",
+      "model": "rcent",
+      "texture": "xqw_rcent",
+      "aliases": [
+        "rcentw1",
+        "rcentw2",
+        "rcentw3",
+        "rcentw4",
+        "rcentw5"
+      ]
+    },
+    {
+      "unit": "rcolony",
+      "model": "rcolony",
+      "texture": "xqw_rcolony",
+      "aliases": [
+        "rcolonyw1",
+        "rcolonyw2",
+        "rcolonyw3",
+        "rcolonyw4",
+        "rcolonyw5"
+      ]
+    },
+    {
+      "unit": "rconst",
+      "model": "rconst",
+      "texture": "xqw_rconst",
+      "aliases": [
+        "rconstw1",
+        "rconstw2",
+        "rconstw3",
+        "rconstw4",
+        "rconstw5"
+      ]
+    },
+    {
+      "unit": "rconst2",
+      "model": "rconst2",
+      "texture": "xqw_rconst2",
+      "aliases": [
+        "rconst2w1",
+        "rconst2w2",
+        "rconst2w3",
+        "rconst2w4",
+        "rconst2w5"
+      ]
+    },
+    {
+      "unit": "rcruise1",
+      "model": "rcruise1",
+      "texture": "xqw_rcruise1",
+      "aliases": [
+        "rcruise1w1",
+        "rcruise1w2",
+        "rcruise1w3",
+        "rcruise1w4",
+        "rcruise1w5"
+      ]
+    },
+    {
+      "unit": "rcruise2",
+      "model": "rcruise2",
+      "texture": "xqw_rcruise2",
+      "aliases": [
+        "rcruise2w1",
+        "rcruise2w2",
+        "rcruise2w3",
+        "rcruise2w4",
+        "rcruise2w5"
+      ]
+    },
+    {
+      "unit": "rcruise3",
+      "model": "xui_rcruise3",
+      "texture": "xqw_rcruise3",
+      "aliases": [
+        "rcruise3w1",
+        "rcruise3w2",
+        "rcruise3w3",
+        "rcruise3w4",
+        "rcruise3w5",
+        "xui_rcruise3w1",
+        "xui_rcruise3w2",
+        "xui_rcruise3w3",
+        "xui_rcruise3w4",
+        "xui_rcruise3w5"
+      ]
+    },
+    {
+      "unit": "rcruise4",
+      "model": "xui_rcruise4",
+      "texture": "xqw_rcruise4",
+      "aliases": [
+        "rcruise4w1",
+        "rcruise4w2",
+        "rcruise4w3",
+        "rcruise4w4",
+        "rcruise4w5",
+        "xui_rcruise4w1",
+        "xui_rcruise4w2",
+        "xui_rcruise4w3",
+        "xui_rcruise4w4",
+        "xui_rcruise4w5"
+      ]
+    },
+    {
+      "unit": "rdestr1",
+      "model": "rdestr1",
+      "texture": "xqw_rdestr1",
+      "aliases": [
+        "rdestr1w1",
+        "rdestr1w2",
+        "rdestr1w3",
+        "rdestr1w4",
+        "rdestr1w5"
+      ]
+    },
+    {
+      "unit": "rdestroy",
+      "model": "rdestroy",
+      "texture": "xqw_rdestroy",
+      "aliases": [
+        "rdestroyw1",
+        "rdestroyw2",
+        "rdestroyw3",
+        "rdestroyw4",
+        "rdestroyw5"
+      ]
+    },
+    {
+      "unit": "rdread",
+      "model": "rdread",
+      "texture": "xqw_rdread",
+      "aliases": [
+        "rdreadw1",
+        "rdreadw2",
+        "rdreadw3",
+        "rdreadw4",
+        "rdreadw5"
+      ]
+    },
+    {
+      "unit": "rdtaris",
+      "model": "rdtaris",
+      "texture": "xqw_rdtaris",
+      "aliases": [
+        "rdtarisw1",
+        "rdtarisw2",
+        "rdtarisw3",
+        "rdtarisw4",
+        "rdtarisw5"
+      ]
+    },
+    {
+      "unit": "rdverix",
+      "model": "rdverix",
+      "texture": "xqw_rdverix",
+      "aliases": [
+        "rdverixw1",
+        "rdverixw2",
+        "rdverixw3",
+        "rdverixw4",
+        "rdverixw5"
+      ]
+    },
+    {
+      "unit": "rfreight",
+      "model": "rfreight",
+      "texture": "xqw_rfreight",
+      "aliases": [
+        "rfreightw1",
+        "rfreightw2",
+        "rfreightw3",
+        "rfreightw4",
+        "rfreightw5"
+      ]
+    },
+    {
+      "unit": "rfrigate",
+      "model": "rfrigate",
+      "texture": "xqw_rfrigate",
+      "aliases": [
+        "rfrigatew1",
+        "rfrigatew2",
+        "rfrigatew3",
+        "rfrigatew4",
+        "rfrigatew5"
+      ]
+    },
+    {
+      "unit": "rktinga",
+      "model": "rktinga",
+      "texture": "xqw_rktinga",
+      "aliases": [
+        "rktingaw1",
+        "rktingaw2",
+        "rktingaw3",
+        "rktingaw4",
+        "rktingaw5"
+      ]
+    },
+    {
+      "unit": "rscout",
+      "model": "rscout",
+      "texture": "xqw_rscout",
+      "aliases": [
+        "rscoutw1",
+        "rscoutw2",
+        "rscoutw3",
+        "rscoutw4",
+        "rscoutw5"
+      ]
+    },
+    {
+      "unit": "rscruise",
+      "model": "rscruise",
+      "texture": "xqw_rscruise",
+      "aliases": [
+        "rscruisew1",
+        "rscruisew2",
+        "rscruisew3",
+        "rscruisew4",
+        "rscruisew5"
+      ]
+    },
+    {
+      "unit": "rspecial",
+      "model": "rspecial",
+      "texture": "xqw_rspecial",
+      "aliases": [
+        "rspecialw1",
+        "rspecialw2",
+        "rspecialw3",
+        "rspecialw4",
+        "rspecialw5"
+      ]
+    },
+    {
+      "unit": "rsrepair",
+      "model": "rsrepair",
+      "texture": "xqw_rsrepair",
+      "aliases": [
+        "rsrepairw1",
+        "rsrepairw2",
+        "rsrepairw3",
+        "rsrepairw4",
+        "rsrepairw5"
+      ]
+    },
+    {
+      "unit": "rsuper",
+      "model": "xvstock_rsuper",
+      "texture": "xqw_rsuper",
+      "aliases": [
+        "rsuperw1",
+        "rsuperw2",
+        "rsuperw3",
+        "rsuperw4",
+        "rsuperw5",
+        "xvstock_rsuperw1",
+        "xvstock_rsuperw2",
+        "xvstock_rsuperw3",
+        "xvstock_rsuperw4",
+        "xvstock_rsuperw5"
+      ]
+    },
+    {
+      "unit": "rtsbcru",
+      "model": "rtsbcru",
+      "texture": "xqw_rtsbcru",
+      "aliases": [
+        "rtsbcruw1",
+        "rtsbcruw2",
+        "rtsbcruw3",
+        "rtsbcruw4",
+        "rtsbcruw5"
+      ]
+    },
+    {
+      "unit": "rtscout",
+      "model": "rtscout",
+      "texture": "xqw_rtscout",
+      "aliases": [
+        "rtscoutw1",
+        "rtscoutw2",
+        "rtscoutw3",
+        "rtscoutw4",
+        "rtscoutw5"
+      ]
+    },
+    {
+      "unit": "rtscru2",
+      "model": "rtscru2",
+      "texture": "xqw_rtscru2",
+      "aliases": [
+        "rtscru2w1",
+        "rtscru2w2",
+        "rtscru2w3",
+        "rtscru2w4",
+        "rtscru2w5"
+      ]
+    },
+    {
+      "unit": "rtscruis",
+      "model": "rtscruis",
+      "texture": "xqw_rtscruis",
+      "aliases": [
+        "rtscruisw1",
+        "rtscruisw2",
+        "rtscruisw3",
+        "rtscruisw4",
+        "rtscruisw5"
+      ]
+    },
+    {
+      "unit": "rtsdest",
+      "model": "rtsdest",
+      "texture": "xqw_rtsdest",
+      "aliases": [
+        "rtsdestw1",
+        "rtsdestw2",
+        "rtsdestw3",
+        "rtsdestw4",
+        "rtsdestw5"
+      ]
+    },
+    {
+      "unit": "rtsdread",
+      "model": "rtsdread",
+      "texture": "xqw_rtsdread",
+      "aliases": [
+        "rtsdreadw1",
+        "rtsdreadw2",
+        "rtsdreadw3",
+        "rtsdreadw4",
+        "rtsdreadw5"
+      ]
+    },
+    {
+      "unit": "rtspec",
+      "model": "rtspec",
+      "texture": "xqw_rtspec",
+      "aliases": [
+        "rtspecw1",
+        "rtspecw2",
+        "rtspecw3",
+        "rtspecw4",
+        "rtspecw5"
+      ]
+    },
+    {
+      "unit": "rtswarb",
+      "model": "rtswarb",
+      "texture": "xqw_rtswarb",
+      "aliases": [
+        "rtswarbw1",
+        "rtswarbw2",
+        "rtswarbw3",
+        "rtswarbw4",
+        "rtswarbw5"
+      ]
+    },
+    {
+      "unit": "sonabat",
+      "model": "sonabat",
+      "texture": "xqw_sonabat",
+      "aliases": [
+        "sonabatw1",
+        "sonabatw2",
+        "sonabatw3",
+        "sonabatw4",
+        "sonabatw5"
+      ]
+    },
+    {
+      "unit": "sonadest",
+      "model": "sonadest",
+      "texture": "xqw_sonadest",
+      "aliases": [
+        "sonadestw1",
+        "sonadestw2",
+        "sonadestw3",
+        "sonadestw4",
+        "sonadestw5"
+      ]
+    },
+    {
+      "unit": "sovereign",
+      "model": "xui_sovereign",
+      "texture": "xqw_sovereign",
+      "aliases": [
+        "sovereignw1",
+        "sovereignw2",
+        "sovereignw3",
+        "sovereignw4",
+        "sovereignw5",
+        "xui_sovereignw1",
+        "xui_sovereignw2",
+        "xui_sovereignw3",
+        "xui_sovereignw4",
+        "xui_sovereignw5"
+      ]
+    },
+    {
+      "unit": "tcube",
+      "model": "tcube",
+      "texture": "xqw_tcube",
+      "aliases": [
+        "tcubew1",
+        "tcubew2",
+        "tcubew3",
+        "tcubew4",
+        "tcubew5"
+      ]
+    },
+    {
+      "unit": "uconst",
+      "model": "uconst",
+      "texture": "xqw_uconst",
+      "aliases": [
+        "uconstw1",
+        "uconstw2",
+        "uconstw3",
+        "uconstw4",
+        "uconstw5"
+      ]
+    },
+    {
+      "unit": "xbassimold",
+      "model": "xbassimold",
+      "texture": "xqw_xbassimold",
+      "aliases": [
+        "xbassimoldw1",
+        "xbassimoldw2",
+        "xbassimoldw3",
+        "xbassimoldw4",
+        "xbassimoldw5"
+      ]
+    },
+    {
+      "unit": "xbgbatt",
+      "model": "xui_xbgbatt",
+      "texture": "xqw_xbgbatt",
+      "aliases": [
+        "xbgbattw1",
+        "xbgbattw2",
+        "xbgbattw3",
+        "xbgbattw4",
+        "xbgbattw5",
+        "xui_xbgbattw1",
+        "xui_xbgbattw2",
+        "xui_xbgbattw3",
+        "xui_xbgbattw4",
+        "xui_xbgbattw5"
+      ]
+    },
+    {
+      "unit": "xbgcolony",
+      "model": "xui_xbgcolony",
+      "texture": "xqw_xbgcolony",
+      "aliases": [
+        "xbgcolonyw1",
+        "xbgcolonyw2",
+        "xbgcolonyw3",
+        "xbgcolonyw4",
+        "xbgcolonyw5",
+        "xui_xbgcolonyw1",
+        "xui_xbgcolonyw2",
+        "xui_xbgcolonyw3",
+        "xui_xbgcolonyw4",
+        "xui_xbgcolonyw5"
+      ]
+    },
+    {
+      "unit": "xbgconst",
+      "model": "xbgconst",
+      "texture": "xqw_xbgconst",
+      "aliases": [
+        "xbgconstw1",
+        "xbgconstw2",
+        "xbgconstw3",
+        "xbgconstw4",
+        "xbgconstw5"
+      ]
+    },
+    {
+      "unit": "xbgcruis",
+      "model": "xui_xbgcruis",
+      "texture": "xqw_xbgcruis",
+      "aliases": [
+        "xbgcruisw1",
+        "xbgcruisw2",
+        "xbgcruisw3",
+        "xbgcruisw4",
+        "xbgcruisw5",
+        "xui_xbgcruisw1",
+        "xui_xbgcruisw2",
+        "xui_xbgcruisw3",
+        "xui_xbgcruisw4",
+        "xui_xbgcruisw5"
+      ]
+    },
+    {
+      "unit": "xbgdaim",
+      "model": "xui_xbgdaim",
+      "texture": "xqw_xbgdaim",
+      "aliases": [
+        "xbgdaimw1",
+        "xbgdaimw2",
+        "xbgdaimw3",
+        "xbgdaimw4",
+        "xbgdaimw5",
+        "xui_xbgdaimw1",
+        "xui_xbgdaimw2",
+        "xui_xbgdaimw3",
+        "xui_xbgdaimw4",
+        "xui_xbgdaimw5"
+      ]
+    },
+    {
+      "unit": "xbgdest",
+      "model": "xui_xbgdest",
+      "texture": "xqw_xbgdest",
+      "aliases": [
+        "xbgdestw1",
+        "xbgdestw2",
+        "xbgdestw3",
+        "xbgdestw4",
+        "xbgdestw5",
+        "xui_xbgdestw1",
+        "xui_xbgdestw2",
+        "xui_xbgdestw3",
+        "xui_xbgdestw4",
+        "xui_xbgdestw5"
+      ]
+    },
+    {
+      "unit": "xbgdil2",
+      "model": "xui_xbgdil2",
+      "texture": "xqw_xbgdil2",
+      "aliases": [
+        "xbgdil2w1",
+        "xbgdil2w2",
+        "xbgdil2w3",
+        "xbgdil2w4",
+        "xbgdil2w5",
+        "xui_xbgdil2w1",
+        "xui_xbgdil2w2",
+        "xui_xbgdil2w3",
+        "xui_xbgdil2w4",
+        "xui_xbgdil2w5"
+      ]
+    },
+    {
+      "unit": "xbgdil3",
+      "model": "xbgdil3",
+      "texture": "xqw_xbgdil3",
+      "aliases": [
+        "xbgdil3w1",
+        "xbgdil3w2",
+        "xbgdil3w3",
+        "xbgdil3w4",
+        "xbgdil3w5"
+      ]
+    },
+    {
+      "unit": "xbgfight",
+      "model": "xui_xbgfight",
+      "texture": "xqw_xbgfight",
+      "aliases": [
+        "xbgfightw1",
+        "xbgfightw2",
+        "xbgfightw3",
+        "xbgfightw4",
+        "xbgfightw5",
+        "xui_xbgfightw1",
+        "xui_xbgfightw2",
+        "xui_xbgfightw3",
+        "xui_xbgfightw4",
+        "xui_xbgfightw5"
+      ]
+    },
+    {
+      "unit": "xbgfrig",
+      "model": "xui_xbgfrig",
+      "texture": "xqw_xbgfrig",
+      "aliases": [
+        "xbgfrigw1",
+        "xbgfrigw2",
+        "xbgfrigw3",
+        "xbgfrigw4",
+        "xbgfrigw5",
+        "xui_xbgfrigw1",
+        "xui_xbgfrigw2",
+        "xui_xbgfrigw3",
+        "xui_xbgfrigw4",
+        "xui_xbgfrigw5"
+      ]
+    },
+    {
+      "unit": "xbgmine",
+      "model": "xui_xbgmine",
+      "texture": "xqw_xbgmine",
+      "aliases": [
+        "xbgminew1",
+        "xbgminew2",
+        "xbgminew3",
+        "xbgminew4",
+        "xbgminew5",
+        "xui_xbgminew1",
+        "xui_xbgminew2",
+        "xui_xbgminew3",
+        "xui_xbgminew4",
+        "xui_xbgminew5"
+      ]
+    },
+    {
+      "unit": "xbgnagus",
+      "model": "xui_xbgnagus",
+      "texture": "xqw_xbgnagus",
+      "aliases": [
+        "xbgnagusw1",
+        "xbgnagusw2",
+        "xbgnagusw3",
+        "xbgnagusw4",
+        "xbgnagusw5",
+        "xui_xbgnagusw1",
+        "xui_xbgnagusw2",
+        "xui_xbgnagusw3",
+        "xui_xbgnagusw4",
+        "xui_xbgnagusw5"
+      ]
+    },
+    {
+      "unit": "xbgquark",
+      "model": "xui_xbgquark",
+      "texture": "xqw_xbgquark",
+      "aliases": [
+        "xbgquarkw1",
+        "xbgquarkw2",
+        "xbgquarkw3",
+        "xbgquarkw4",
+        "xbgquarkw5",
+        "xui_xbgquarkw1",
+        "xui_xbgquarkw2",
+        "xui_xbgquarkw3",
+        "xui_xbgquarkw4",
+        "xui_xbgquarkw5"
+      ]
+    },
+    {
+      "unit": "xbgrepair",
+      "model": "xui_xbgrepair",
+      "texture": "xqw_xbgrepair",
+      "aliases": [
+        "xbgrepairw1",
+        "xbgrepairw2",
+        "xbgrepairw3",
+        "xbgrepairw4",
+        "xbgrepairw5",
+        "xui_xbgrepairw1",
+        "xui_xbgrepairw2",
+        "xui_xbgrepairw3",
+        "xui_xbgrepairw4",
+        "xui_xbgrepairw5"
+      ]
+    },
+    {
+      "unit": "xbgrom",
+      "model": "xui_xbgrom",
+      "texture": "xqw_xbgrom",
+      "aliases": [
+        "xbgromw1",
+        "xbgromw2",
+        "xbgromw3",
+        "xbgromw4",
+        "xbgromw5",
+        "xui_xbgromw1",
+        "xui_xbgromw2",
+        "xui_xbgromw3",
+        "xui_xbgromw4",
+        "xui_xbgromw5"
+      ]
+    },
+    {
+      "unit": "xbrconst2",
+      "model": "xbrconst2",
+      "texture": "xqw_xbrconst2",
+      "aliases": [
+        "xbrconst2w1",
+        "xbrconst2w2",
+        "xbrconst2w3",
+        "xbrconst2w4",
+        "xbrconst2w5"
+      ]
+    },
+    {
+      "unit": "xbrepair",
+      "model": "xbrepair",
+      "texture": "xqw_xbrepair",
+      "aliases": [
+        "xbrepairw1",
+        "xbrepairw2",
+        "xbrepairw3",
+        "xbrepairw4",
+        "xbrepairw5"
+      ]
+    },
+    {
+      "unit": "xbruconst",
+      "model": "xbruconst",
+      "texture": "xqw_xbruconst",
+      "aliases": [
+        "xbruconstw1",
+        "xbruconstw2",
+        "xbruconstw3",
+        "xbruconstw4",
+        "xbruconstw5"
+      ]
+    },
+    {
+      "unit": "xbuconst",
+      "model": "xbuconst",
+      "texture": "xqw_xbuconst",
+      "aliases": [
+        "xbuconstw1",
+        "xbuconstw2",
+        "xbuconstw3",
+        "xbuconstw4",
+        "xbuconstw5"
+      ]
+    },
+    {
+      "unit": "xcconst2",
+      "model": "xcconst2",
+      "texture": "xqw_xcconst2",
+      "aliases": [
+        "xcconst2w1",
+        "xcconst2w2",
+        "xcconst2w3",
+        "xcconst2w4",
+        "xcconst2w5"
+      ]
+    },
+    {
+      "unit": "xcdconst",
+      "model": "xcdconst",
+      "texture": "xqw_xcdconst",
+      "aliases": [
+        "xcdconstw1",
+        "xcdconstw2",
+        "xcdconstw3",
+        "xcdconstw4",
+        "xcdconstw5"
+      ]
+    },
+    {
+      "unit": "xcduniv",
+      "model": "xcduniv",
+      "texture": "xqw_xcduniv",
+      "aliases": [
+        "xcdunivw1",
+        "xcdunivw2",
+        "xcdunivw3",
+        "xcdunivw4",
+        "xcdunivw5"
+      ]
+    },
+    {
+      "unit": "xcgarak",
+      "model": "xcgarak",
+      "texture": "xqw_xcgarak",
+      "aliases": [
+        "xcgarakw1",
+        "xcgarakw2",
+        "xcgarakw3",
+        "xcgarakw4",
+        "xcgarakw5"
+      ]
+    },
+    {
+      "unit": "xcuconst",
+      "model": "xcuconst",
+      "texture": "xqw_xcuconst",
+      "aliases": [
+        "xcuconstw1",
+        "xcuconstw2",
+        "xcuconstw3",
+        "xcuconstw4",
+        "xcuconstw5"
+      ]
+    },
+    {
+      "unit": "xdcarrier",
+      "model": "xdcarrier",
+      "texture": "xqw_xdcarrier",
+      "aliases": [
+        "xdcarrierw1",
+        "xdcarrierw2",
+        "xdcarrierw3",
+        "xdcarrierw4",
+        "xdcarrierw5"
+      ]
+    },
+    {
+      "unit": "xdconst2",
+      "model": "xdconst2",
+      "texture": "xqw_xdconst2",
+      "aliases": [
+        "xdconst2w1",
+        "xdconst2w2",
+        "xdconst2w3",
+        "xdconst2w4",
+        "xdconst2w5"
+      ]
+    },
+    {
+      "unit": "xdhattack",
+      "model": "xdhattack",
+      "texture": "xqw_xdhattack",
+      "aliases": [
+        "xdhattackw1",
+        "xdhattackw2",
+        "xdhattackw3",
+        "xdhattackw4",
+        "xdhattackw5"
+      ]
+    },
+    {
+      "unit": "xdjacht",
+      "model": "xui_xdjacht",
+      "texture": "xqw_xdjacht",
+      "aliases": [
+        "xdjachtw1",
+        "xdjachtw2",
+        "xdjachtw3",
+        "xdjachtw4",
+        "xdjachtw5",
+        "xui_xdjachtw1",
+        "xui_xdjachtw2",
+        "xui_xdjachtw3",
+        "xui_xdjachtw4",
+        "xui_xdjachtw5"
+      ]
+    },
+    {
+      "unit": "xdocargo",
+      "model": "dcargo",
+      "texture": "xqw_xdocargo",
+      "aliases": [
+        "xdocargow1",
+        "xdocargow2",
+        "xdocargow3",
+        "xdocargow4",
+        "xdocargow5"
+      ]
+    },
+    {
+      "unit": "xdofighter",
+      "model": "xui_xdofighter",
+      "texture": "xqw_xdofighter",
+      "aliases": [
+        "xdofighterw1",
+        "xdofighterw2",
+        "xdofighterw3",
+        "xdofighterw4",
+        "xdofighterw5",
+        "xui_xdofighterw1",
+        "xui_xdofighterw2",
+        "xui_xdofighterw3",
+        "xui_xdofighterw4",
+        "xui_xdofighterw5"
+      ]
+    },
+    {
+      "unit": "xdofrigate",
+      "model": "dfrigate",
+      "texture": "xqw_xdofrigate",
+      "aliases": [
+        "xdofrigatew1",
+        "xdofrigatew2",
+        "xdofrigatew3",
+        "xdofrigatew4",
+        "xdofrigatew5"
+      ]
+    },
+    {
+      "unit": "xdominer",
+      "model": "dfreight",
+      "texture": "xqw_xdominer",
+      "aliases": [
+        "xdominerw1",
+        "xdominerw2",
+        "xdominerw3",
+        "xdominerw4",
+        "xdominerw5"
+      ]
+    },
+    {
+      "unit": "xduconst",
+      "model": "xduconst",
+      "texture": "xqw_xduconst",
+      "aliases": [
+        "xduconstw1",
+        "xduconstw2",
+        "xduconstw3",
+        "xduconstw4",
+        "xduconstw5"
+      ]
+    },
+    {
+      "unit": "xfgbatt",
+      "model": "xui_xfgbatt",
+      "texture": "xqw_xfgbatt",
+      "aliases": [
+        "xfgbattw1",
+        "xfgbattw2",
+        "xfgbattw3",
+        "xfgbattw4",
+        "xfgbattw5",
+        "xui_xfgbattw1",
+        "xui_xfgbattw2",
+        "xui_xfgbattw3",
+        "xui_xfgbattw4",
+        "xui_xfgbattw5"
+      ]
+    },
+    {
+      "unit": "xfgcolony",
+      "model": "xui_xfgcolony",
+      "texture": "xqw_xfgcolony",
+      "aliases": [
+        "xfgcolonyw1",
+        "xfgcolonyw2",
+        "xfgcolonyw3",
+        "xfgcolonyw4",
+        "xfgcolonyw5",
+        "xui_xfgcolonyw1",
+        "xui_xfgcolonyw2",
+        "xui_xfgcolonyw3",
+        "xui_xfgcolonyw4",
+        "xui_xfgcolonyw5"
+      ]
+    },
+    {
+      "unit": "xfgconst",
+      "model": "xfgconst",
+      "texture": "xqw_xfgconst",
+      "aliases": [
+        "xfgconstw1",
+        "xfgconstw2",
+        "xfgconstw3",
+        "xfgconstw4",
+        "xfgconstw5"
+      ]
+    },
+    {
+      "unit": "xfgcruis",
+      "model": "xui_xfgcruis",
+      "texture": "xqw_xfgcruis",
+      "aliases": [
+        "xfgcruisw1",
+        "xfgcruisw2",
+        "xfgcruisw3",
+        "xfgcruisw4",
+        "xfgcruisw5",
+        "xui_xfgcruisw1",
+        "xui_xfgcruisw2",
+        "xui_xfgcruisw3",
+        "xui_xfgcruisw4",
+        "xui_xfgcruisw5"
+      ]
+    },
+    {
+      "unit": "xfgdaim",
+      "model": "xui_xfgdaim",
+      "texture": "xqw_xfgdaim",
+      "aliases": [
+        "xfgdaimw1",
+        "xfgdaimw2",
+        "xfgdaimw3",
+        "xfgdaimw4",
+        "xfgdaimw5",
+        "xui_xfgdaimw1",
+        "xui_xfgdaimw2",
+        "xui_xfgdaimw3",
+        "xui_xfgdaimw4",
+        "xui_xfgdaimw5"
+      ]
+    },
+    {
+      "unit": "xfgdest",
+      "model": "xui_xfgdest",
+      "texture": "xqw_xfgdest",
+      "aliases": [
+        "xfgdestw1",
+        "xfgdestw2",
+        "xfgdestw3",
+        "xfgdestw4",
+        "xfgdestw5",
+        "xui_xfgdestw1",
+        "xui_xfgdestw2",
+        "xui_xfgdestw3",
+        "xui_xfgdestw4",
+        "xui_xfgdestw5"
+      ]
+    },
+    {
+      "unit": "xfgdil2",
+      "model": "xui_xfgdil2",
+      "texture": "xqw_xfgdil2",
+      "aliases": [
+        "xfgdil2w1",
+        "xfgdil2w2",
+        "xfgdil2w3",
+        "xfgdil2w4",
+        "xfgdil2w5",
+        "xui_xfgdil2w1",
+        "xui_xfgdil2w2",
+        "xui_xfgdil2w3",
+        "xui_xfgdil2w4",
+        "xui_xfgdil2w5"
+      ]
+    },
+    {
+      "unit": "xfgdil3",
+      "model": "xfgdil3",
+      "texture": "xqw_xfgdil3",
+      "aliases": [
+        "xfgdil3w1",
+        "xfgdil3w2",
+        "xfgdil3w3",
+        "xfgdil3w4",
+        "xfgdil3w5"
+      ]
+    },
+    {
+      "unit": "xfgfight",
+      "model": "xui_xfgfight",
+      "texture": "xqw_xfgfight",
+      "aliases": [
+        "xfgfightw1",
+        "xfgfightw2",
+        "xfgfightw3",
+        "xfgfightw4",
+        "xfgfightw5",
+        "xui_xfgfightw1",
+        "xui_xfgfightw2",
+        "xui_xfgfightw3",
+        "xui_xfgfightw4",
+        "xui_xfgfightw5"
+      ]
+    },
+    {
+      "unit": "xfgfrig",
+      "model": "xui_xfgfrig",
+      "texture": "xqw_xfgfrig",
+      "aliases": [
+        "xfgfrigw1",
+        "xfgfrigw2",
+        "xfgfrigw3",
+        "xfgfrigw4",
+        "xfgfrigw5",
+        "xui_xfgfrigw1",
+        "xui_xfgfrigw2",
+        "xui_xfgfrigw3",
+        "xui_xfgfrigw4",
+        "xui_xfgfrigw5"
+      ]
+    },
+    {
+      "unit": "xfglat2",
+      "model": "xui_xfglat2",
+      "texture": "xqw_xfglat2",
+      "aliases": [
+        "xfglat2w1",
+        "xfglat2w2",
+        "xfglat2w3",
+        "xfglat2w4",
+        "xfglat2w5",
+        "xui_xfglat2w1",
+        "xui_xfglat2w2",
+        "xui_xfglat2w3",
+        "xui_xfglat2w4",
+        "xui_xfglat2w5"
+      ]
+    },
+    {
+      "unit": "xfglat3",
+      "model": "xfglat3",
+      "texture": "xqw_xfglat3",
+      "aliases": [
+        "xfglat3w1",
+        "xfglat3w2",
+        "xfglat3w3",
+        "xfglat3w4",
+        "xfglat3w5"
+      ]
+    },
+    {
+      "unit": "xfgmine",
+      "model": "xui_xfgmine",
+      "texture": "xqw_xfgmine",
+      "aliases": [
+        "xfgminew1",
+        "xfgminew2",
+        "xfgminew3",
+        "xfgminew4",
+        "xfgminew5",
+        "xui_xfgminew1",
+        "xui_xfgminew2",
+        "xui_xfgminew3",
+        "xui_xfgminew4",
+        "xui_xfgminew5"
+      ]
+    },
+    {
+      "unit": "xfgnagus",
+      "model": "xui_xfgnagus",
+      "texture": "xqw_xfgnagus",
+      "aliases": [
+        "xfgnagusw1",
+        "xfgnagusw2",
+        "xfgnagusw3",
+        "xfgnagusw4",
+        "xfgnagusw5",
+        "xui_xfgnagusw1",
+        "xui_xfgnagusw2",
+        "xui_xfgnagusw3",
+        "xui_xfgnagusw4",
+        "xui_xfgnagusw5"
+      ]
+    },
+    {
+      "unit": "xfgquark",
+      "model": "xui_xfgquark",
+      "texture": "xqw_xfgquark",
+      "aliases": [
+        "xfgquarkw1",
+        "xfgquarkw2",
+        "xfgquarkw3",
+        "xfgquarkw4",
+        "xfgquarkw5",
+        "xui_xfgquarkw1",
+        "xui_xfgquarkw2",
+        "xui_xfgquarkw3",
+        "xui_xfgquarkw4",
+        "xui_xfgquarkw5"
+      ]
+    },
+    {
+      "unit": "xfgrepair",
+      "model": "xui_xfgrepair",
+      "texture": "xqw_xfgrepair",
+      "aliases": [
+        "xfgrepairw1",
+        "xfgrepairw2",
+        "xfgrepairw3",
+        "xfgrepairw4",
+        "xfgrepairw5",
+        "xui_xfgrepairw1",
+        "xui_xfgrepairw2",
+        "xui_xfgrepairw3",
+        "xui_xfgrepairw4",
+        "xui_xfgrepairw5"
+      ]
+    },
+    {
+      "unit": "xfgrom",
+      "model": "xui_xfgrom",
+      "texture": "xqw_xfgrom",
+      "aliases": [
+        "xfgromw1",
+        "xfgromw2",
+        "xfgromw3",
+        "xfgromw4",
+        "xfgromw5",
+        "xui_xfgromw1",
+        "xui_xfgromw2",
+        "xui_xfgromw3",
+        "xui_xfgromw4",
+        "xui_xfgromw5"
+      ]
+    },
+    {
+      "unit": "xfgtrade",
+      "model": "xfgtrade",
+      "texture": "xqw_xfgtrade",
+      "aliases": [
+        "xfgtradew1",
+        "xfgtradew2",
+        "xfgtradew3",
+        "xfgtradew4",
+        "xfgtradew5"
+      ]
+    },
+    {
+      "unit": "xfuconst",
+      "model": "xfuconst",
+      "texture": "xqw_xfuconst",
+      "aliases": [
+        "xfuconstw1",
+        "xfuconstw2",
+        "xfuconstw3",
+        "xfuconstw4",
+        "xfuconstw5"
+      ]
+    },
+    {
+      "unit": "xhbqueen",
+      "model": "xhbqueen",
+      "texture": "xqw_xhbqueen",
+      "aliases": [
+        "xhbqueenw1",
+        "xhbqueenw2",
+        "xhbqueenw3",
+        "xhbqueenw4",
+        "xhbqueenw5"
+      ]
+    },
+    {
+      "unit": "xhbrhero",
+      "model": "xui_xhbrhero",
+      "texture": "xqw_xhbrhero",
+      "aliases": [
+        "xhbrherow1",
+        "xhbrherow2",
+        "xhbrherow3",
+        "xhbrherow4",
+        "xhbrherow5",
+        "xui_xhbrherow1",
+        "xui_xhbrherow2",
+        "xui_xhbrherow3",
+        "xui_xhbrherow4",
+        "xui_xhbrherow5"
+      ]
+    },
+    {
+      "unit": "xhchero",
+      "model": "xui_xhchero",
+      "texture": "xqw_xhchero",
+      "aliases": [
+        "xhcherow1",
+        "xhcherow2",
+        "xhcherow3",
+        "xhcherow4",
+        "xhcherow5",
+        "xui_xhcherow1",
+        "xui_xhcherow2",
+        "xui_xhcherow3",
+        "xui_xhcherow4",
+        "xui_xhcherow5"
+      ]
+    },
+    {
+      "unit": "xhdhero",
+      "model": "dweyoun",
+      "texture": "xqw_xhdhero",
+      "aliases": [
+        "xhdherow1",
+        "xhdherow2",
+        "xhdherow3",
+        "xhdherow4",
+        "xhdherow5"
+      ]
+    },
+    {
+      "unit": "xhdjacht",
+      "model": "xui_xhdjacht",
+      "texture": "xqw_xhdjacht",
+      "aliases": [
+        "xhdjachtw1",
+        "xhdjachtw2",
+        "xhdjachtw3",
+        "xhdjachtw4",
+        "xhdjachtw5",
+        "xui_xhdjachtw1",
+        "xui_xhdjachtw2",
+        "xui_xhdjachtw3",
+        "xui_xhdjachtw4",
+        "xui_xhdjachtw5"
+      ]
+    },
+    {
+      "unit": "xhdlaan",
+      "model": "xhdlaan",
+      "texture": "xqw_xhdlaan",
+      "aliases": [
+        "xhdlaanw1",
+        "xhdlaanw2",
+        "xhdlaanw3",
+        "xhdlaanw4",
+        "xhdlaanw5"
+      ]
+    },
+    {
+      "unit": "xhdodo",
+      "model": "xhdodo",
+      "texture": "xqw_xhdodo",
+      "aliases": [
+        "xhdodow1",
+        "xhdodow2",
+        "xhdodow3",
+        "xhdodow4",
+        "xhdodow5"
+      ]
+    },
+    {
+      "unit": "xhfdaedalus",
+      "model": "xhfdaedalus",
+      "texture": "xqw_xhfdaedalus",
+      "aliases": [
+        "xhfdaedalusw1",
+        "xhfdaedalusw2",
+        "xhfdaedalusw3",
+        "xhfdaedalusw4",
+        "xhfdaedalusw5"
+      ]
+    },
+    {
+      "unit": "xhfgarrett",
+      "model": "fentc",
+      "texture": "xqw_xhfgarrett",
+      "aliases": [
+        "xhfgarrettw1",
+        "xhfgarrettw2",
+        "xhfgarrettw3",
+        "xhfgarrettw4",
+        "xhfgarrettw5"
+      ]
+    },
+    {
+      "unit": "xhfharriman",
+      "model": "fentb",
+      "texture": "xqw_xhfharriman",
+      "aliases": [
+        "xhfharrimanw1",
+        "xhfharrimanw2",
+        "xhfharrimanw3",
+        "xhfharrimanw4",
+        "xhfharrimanw5"
+      ]
+    },
+    {
+      "unit": "xhfhero",
+      "model": "fente",
+      "texture": "xqw_xhfhero",
+      "aliases": [
+        "xhfherow1",
+        "xhfherow2",
+        "xhfherow3",
+        "xhfherow4",
+        "xhfherow5"
+      ]
+    },
+    {
+      "unit": "xhfkirkrefit",
+      "model": "fenta",
+      "texture": "xqw_xhfkirkrefit",
+      "aliases": [
+        "xhfkirkrefitw1",
+        "xhfkirkrefitw2",
+        "xhfkirkrefitw3",
+        "xhfkirkrefitw4",
+        "xhfkirkrefitw5"
+      ]
+    },
+    {
+      "unit": "xhfkirktos",
+      "model": "fent",
+      "texture": "xqw_xhfkirktos",
+      "aliases": [
+        "xhfkirktosw1",
+        "xhfkirktosw2",
+        "xhfkirktosw3",
+        "xhfkirktosw4",
+        "xhfkirktosw5"
+      ]
+    },
+    {
+      "unit": "xhfpicardd",
+      "model": "fentd",
+      "texture": "xqw_xhfpicardd",
+      "aliases": [
+        "xhfpicarddw1",
+        "xhfpicarddw2",
+        "xhfpicarddw3",
+        "xhfpicarddw4",
+        "xhfpicarddw5"
+      ]
+    },
+    {
+      "unit": "xhfriker",
+      "model": "xui_xhfriker",
+      "texture": "xqw_xhfriker",
+      "aliases": [
+        "xhfrikerw1",
+        "xhfrikerw2",
+        "xhfrikerw3",
+        "xhfrikerw4",
+        "xhfrikerw5",
+        "xui_xhfrikerw1",
+        "xui_xhfrikerw2",
+        "xui_xhfrikerw3",
+        "xui_xhfrikerw4",
+        "xui_xhfrikerw5"
+      ]
+    },
+    {
+      "unit": "xhftitan",
+      "model": "xhftitan",
+      "texture": "xqw_xhftitan",
+      "aliases": [
+        "xhftitanw1",
+        "xhftitanw2",
+        "xhftitanw3",
+        "xhftitanw4",
+        "xhftitanw5"
+      ]
+    },
+    {
+      "unit": "xhgarak",
+      "model": "xhgarak",
+      "texture": "xqw_xhgarak",
+      "aliases": [
+        "xhgarakw1",
+        "xhgarakw2",
+        "xhgarakw3",
+        "xhgarakw4",
+        "xhgarakw5"
+      ]
+    },
+    {
+      "unit": "xhkhero",
+      "model": "xui_xhkhero",
+      "texture": "xqw_xhkhero",
+      "aliases": [
+        "xhkherow1",
+        "xhkherow2",
+        "xhkherow3",
+        "xhkherow4",
+        "xhkherow5",
+        "xui_xhkherow1",
+        "xui_xhkherow2",
+        "xui_xhkherow3",
+        "xui_xhkherow4",
+        "xui_xhkherow5"
+      ]
+    },
+    {
+      "unit": "xhkold7",
+      "model": "xhkold7",
+      "texture": "xqw_xhkold7",
+      "aliases": [
+        "xhkold7w1",
+        "xhkold7w2",
+        "xhkold7w3",
+        "xhkold7w4",
+        "xhkold7w5"
+      ]
+    },
+    {
+      "unit": "xhkraptor",
+      "model": "xhkraptor",
+      "texture": "xqw_xhkraptor",
+      "aliases": [
+        "xhkraptorw1",
+        "xhkraptorw2",
+        "xhkraptorw3",
+        "xhkraptorw4",
+        "xhkraptorw5"
+      ]
+    },
+    {
+      "unit": "xhrdonatra",
+      "model": "rvaldore",
+      "texture": "xqw_xhrdonatra",
+      "aliases": [
+        "rvaldorew1",
+        "rvaldorew2",
+        "rvaldorew3",
+        "rvaldorew4",
+        "rvaldorew5",
+        "xhrdonatraw1",
+        "xhrdonatraw2",
+        "xhrdonatraw3",
+        "xhrdonatraw4",
+        "xhrdonatraw5"
+      ]
+    },
+    {
+      "unit": "xhrearlybird",
+      "model": "xhrearlybird",
+      "texture": "xqw_xhrearlybird",
+      "aliases": [
+        "xhrearlybirdw1",
+        "xhrearlybirdw2",
+        "xhrearlybirdw3",
+        "xhrearlybirdw4",
+        "xhrearlybirdw5"
+      ]
+    },
+    {
+      "unit": "xhrhero",
+      "model": "xselahero",
+      "texture": "xqw_xhrhero",
+      "aliases": [
+        "xhrherow1",
+        "xhrherow2",
+        "xhrherow3",
+        "xhrherow4",
+        "xhrherow5",
+        "xselaherow1",
+        "xselaherow2",
+        "xselaherow3",
+        "xselaherow4",
+        "xselaherow5"
+      ]
+    },
+    {
+      "unit": "xhrshinzon",
+      "model": "rscimitar",
+      "texture": "xqw_xhrshinzon",
+      "aliases": [
+        "rscimitarw1",
+        "rscimitarw2",
+        "rscimitarw3",
+        "rscimitarw4",
+        "rscimitarw5",
+        "xhrshinzonw1",
+        "xhrshinzonw2",
+        "xhrshinzonw3",
+        "xhrshinzonw4",
+        "xhrshinzonw5"
+      ]
+    },
+    {
+      "unit": "xhrtosbird",
+      "model": "xhrtosbird",
+      "texture": "xqw_xhrtosbird",
+      "aliases": [
+        "xhrtosbirdw1",
+        "xhrtosbirdw2",
+        "xhrtosbirdw3",
+        "xhrtosbirdw4",
+        "xhrtosbirdw5"
+      ]
+    },
+    {
+      "unit": "xhs_leviathan",
+      "model": "xhs_leviathan",
+      "texture": "xqw_xhs_leviathan",
+      "aliases": [
+        "xhs_leviathanw1",
+        "xhs_leviathanw2",
+        "xhs_leviathanw3",
+        "xhs_leviathanw4",
+        "xhs_leviathanw5"
+      ]
+    },
+    {
+      "unit": "xhs_sentinel",
+      "model": "xhs_sentinel",
+      "texture": "xqw_xhs_sentinel",
+      "aliases": [
+        "xhs_sentinelw1",
+        "xhs_sentinelw2",
+        "xhs_sentinelw3",
+        "xhs_sentinelw4",
+        "xhs_sentinelw5"
+      ]
+    },
+    {
+      "unit": "xhs_vanguard",
+      "model": "xhs_vanguard",
+      "texture": "xqw_xhs_vanguard",
+      "aliases": [
+        "xhs_vanguardw1",
+        "xhs_vanguardw2",
+        "xhs_vanguardw3",
+        "xhs_vanguardw4",
+        "xhs_vanguardw5"
+      ]
+    },
+    {
+      "unit": "xhshero",
+      "model": "xui_xhshero",
+      "texture": "xqw_xhshero",
+      "aliases": [
+        "xhsherow1",
+        "xhsherow2",
+        "xhsherow3",
+        "xhsherow4",
+        "xhsherow5",
+        "xui_xhsherow1",
+        "xui_xhsherow2",
+        "xui_xhsherow3",
+        "xui_xhsherow4",
+        "xui_xhsherow5"
+      ]
+    },
+    {
+      "unit": "xkuconst",
+      "model": "xkuconst",
+      "texture": "xqw_xkuconst",
+      "aliases": [
+        "xkuconstw1",
+        "xkuconstw2",
+        "xkuconstw3",
+        "xkuconstw4",
+        "xkuconstw5"
+      ]
+    },
+    {
+      "unit": "xobbattle1",
+      "model": "xui_xobbattle1",
+      "texture": "xqw_xobbattle1",
+      "aliases": [
+        "xobbattle1w1",
+        "xobbattle1w2",
+        "xobbattle1w3",
+        "xobbattle1w4",
+        "xobbattle1w5",
+        "xui_xobbattle1w1",
+        "xui_xobbattle1w2",
+        "xui_xobbattle1w3",
+        "xui_xobbattle1w4",
+        "xui_xobbattle1w5"
+      ]
+    },
+    {
+      "unit": "xobbattle2",
+      "model": "bbattle2",
+      "texture": "xqw_xobbattle2",
+      "aliases": [
+        "xobbattle2w1",
+        "xobbattle2w2",
+        "xobbattle2w3",
+        "xobbattle2w4",
+        "xobbattle2w5"
+      ]
+    },
+    {
+      "unit": "xobcruise1",
+      "model": "bcruise1",
+      "texture": "xqw_xobcruise1",
+      "aliases": [
+        "xobcruise1w1",
+        "xobcruise1w2",
+        "xobcruise1w3",
+        "xobcruise1w4",
+        "xobcruise1w5"
+      ]
+    },
+    {
+      "unit": "xoblocutus",
+      "model": "xui_xoblocutus",
+      "texture": "xqw_xoblocutus",
+      "aliases": [
+        "xoblocutusw1",
+        "xoblocutusw2",
+        "xoblocutusw3",
+        "xoblocutusw4",
+        "xoblocutusw5",
+        "xui_xoblocutusw1",
+        "xui_xoblocutusw2",
+        "xui_xoblocutusw3",
+        "xui_xoblocutusw4",
+        "xui_xoblocutusw5"
+      ]
+    },
+    {
+      "unit": "xofbattle",
+      "model": "xui_xofbattle",
+      "texture": "xqw_xofbattle",
+      "aliases": [
+        "xofbattlew1",
+        "xofbattlew2",
+        "xofbattlew3",
+        "xofbattlew4",
+        "xofbattlew5",
+        "xui_xofbattlew1",
+        "xui_xofbattlew2",
+        "xui_xofbattlew3",
+        "xui_xofbattlew4",
+        "xui_xofbattlew5"
+      ]
+    },
+    {
+      "unit": "xofdestroy",
+      "model": "fdestroy",
+      "texture": "xqw_xofdestroy",
+      "aliases": [
+        "xofdestroyw1",
+        "xofdestroyw2",
+        "xofdestroyw3",
+        "xofdestroyw4",
+        "xofdestroyw5"
+      ]
+    },
+    {
+      "unit": "xofgalaxy",
+      "model": "fgalaxy",
+      "texture": "xqw_xofgalaxy",
+      "aliases": [
+        "xofgalaxyw1",
+        "xofgalaxyw2",
+        "xofgalaxyw3",
+        "xofgalaxyw4",
+        "xofgalaxyw5"
+      ]
+    },
+    {
+      "unit": "xofprom",
+      "model": "fprom",
+      "texture": "xqw_xofprom",
+      "aliases": [
+        "xofpromw1",
+        "xofpromw2",
+        "xofpromw3",
+        "xofpromw4",
+        "xofpromw5"
+      ]
+    },
+    {
+      "unit": "xruconst",
+      "model": "xruconst",
+      "texture": "xqw_xruconst",
+      "aliases": [
+        "xruconstw1",
+        "xruconstw2",
+        "xruconstw3",
+        "xruconstw4",
+        "xruconstw5"
+      ]
+    },
+    {
+      "unit": "xsbcol1",
+      "model": "xsbcol1",
+      "texture": "xqw_xsbcol1",
+      "aliases": [
+        "xsbcol1w1",
+        "xsbcol1w2",
+        "xsbcol1w3",
+        "xsbcol1w4",
+        "xsbcol1w5"
+      ]
+    },
+    {
+      "unit": "xsbcol2",
+      "model": "xsbcol2",
+      "texture": "xqw_xsbcol2",
+      "aliases": [
+        "xsbcol2w1",
+        "xsbcol2w2",
+        "xsbcol2w3",
+        "xsbcol2w4",
+        "xsbcol2w5"
+      ]
+    },
+    {
+      "unit": "xsuconst",
+      "model": "xsuconst",
+      "texture": "xqw_xsuconst",
+      "aliases": [
+        "xsuconstw1",
+        "xsuconstw2",
+        "xsuconstw3",
+        "xsuconstw4",
+        "xsuconstw5"
+      ]
+    },
+    {
+      "unit": "xu3bor2",
+      "model": "xu3bor2",
+      "texture": "xqw_xu3bor2",
+      "aliases": [
+        "xu3bor2w1",
+        "xu3bor2w2",
+        "xu3bor2w3",
+        "xu3bor2w4",
+        "xu3bor2w5"
+      ]
+    },
+    {
+      "unit": "xu3fed2",
+      "model": "xu3fed2",
+      "texture": "xqw_xu3fed2",
+      "aliases": [
+        "xu3fed2w1",
+        "xu3fed2w2",
+        "xu3fed2w3",
+        "xu3fed2w4",
+        "xu3fed2w5"
+      ]
+    },
+    {
+      "unit": "xu3fer2",
+      "model": "xu3fer2",
+      "texture": "xqw_xu3fer2",
+      "aliases": [
+        "xu3fer2w1",
+        "xu3fer2w2",
+        "xu3fer2w3",
+        "xu3fer2w4",
+        "xu3fer2w5"
+      ]
+    },
+    {
+      "unit": "zfercarg",
+      "model": "zfercarg",
+      "texture": "xqw_zfercarg",
+      "aliases": [
+        "zfercargw1",
+        "zfercargw2",
+        "zfercargw3",
+        "zfercargw4",
+        "zfercargw5"
+      ]
+    },
+    {
+      "unit": "zferscav",
+      "model": "zferengi",
+      "texture": "xqw_zferscav",
+      "aliases": [
+        "zferengiw1",
+        "zferengiw2",
+        "zferengiw3",
+        "zferengiw4",
+        "zferengiw5",
+        "zferscavw1",
+        "zferscavw2",
+        "zferscavw3",
+        "zferscavw4",
+        "zferscavw5"
+      ]
+    },
+    {
+      "unit": "zflag",
+      "model": "zflag",
+      "texture": "xqw_zflag",
+      "aliases": [
+        "zflagw1",
+        "zflagw2",
+        "zflagw3",
+        "zflagw4",
+        "zflagw5"
+      ]
+    }
+  ],
+  "files": [
+    "Textures/RGB/xqw_714const.tga",
+    "Textures/RGB/xqw_714hydra.tga",
+    "Textures/RGB/xqw_714manta.tga",
+    "Textures/RGB/xqw_714orca.tga",
+    "Textures/RGB/xqw_714rnode.tga",
+    "Textures/RGB/xqw_714skate.tga",
+    "Textures/RGB/xqw_714tmat.tga",
+    "Textures/RGB/xqw_8472_active.tga",
+    "Textures/RGB/xqw_8472_battle.tga",
+    "Textures/RGB/xqw_8472_behemoth.tga",
+    "Textures/RGB/xqw_8472_collector.tga",
+    "Textures/RGB/xqw_8472_cruise1.tga",
+    "Textures/RGB/xqw_8472_cruise2.tga",
+    "Textures/RGB/xqw_8472_defender.tga",
+    "Textures/RGB/xqw_8472_destroy.tga",
+    "Textures/RGB/xqw_8472_frigate.tga",
+    "Textures/RGB/xqw_8472_heromother.tga",
+    "Textures/RGB/xqw_8472_heromothership.tga",
+    "Textures/RGB/xqw_8472_mother.tga",
+    "Textures/RGB/xqw_8472_mothership.tga",
+    "Textures/RGB/xqw_8472_passive.tga",
+    "Textures/RGB/xqw_8472_scout.tga",
+    "Textures/RGB/xqw_8472_transmuter.tga",
+    "Textures/RGB/xqw_8472be2.tga",
+    "Textures/RGB/xqw_8472fig.tga",
+    "Textures/RGB/xqw_8472int.tga",
+    "Textures/RGB/xqw_arumaan.tga",
+    "Textures/RGB/xqw_banshee.tga",
+    "Textures/RGB/xqw_bassault.tga",
+    "Textures/RGB/xqw_bbattle.tga",
+    "Textures/RGB/xqw_bbattle1.tga",
+    "Textures/RGB/xqw_bbattle2.tga",
+    "Textures/RGB/xqw_bbattle3.tga",
+    "Textures/RGB/xqw_bbattle4.tga",
+    "Textures/RGB/xqw_bbattle5.tga",
+    "Textures/RGB/xqw_bbattle6.tga",
+    "Textures/RGB/xqw_bbattle8.tga",
+    "Textures/RGB/xqw_bcolony.tga",
+    "Textures/RGB/xqw_bconst.tga",
+    "Textures/RGB/xqw_bconst2.tga",
+    "Textures/RGB/xqw_bcruise1.tga",
+    "Textures/RGB/xqw_bcruise2.tga",
+    "Textures/RGB/xqw_bcruise3.tga",
+    "Textures/RGB/xqw_bdestroy.tga",
+    "Textures/RGB/xqw_bdestroy2.tga",
+    "Textures/RGB/xqw_bfreight.tga",
+    "Textures/RGB/xqw_bfrigate.tga",
+    "Textures/RGB/xqw_bhentra.tga",
+    "Textures/RGB/xqw_bhentrag.tga",
+    "Textures/RGB/xqw_blocutus.tga",
+    "Textures/RGB/xqw_bmama.tga",
+    "Textures/RGB/xqw_bomega1.tga",
+    "Textures/RGB/xqw_bpentra.tga",
+    "Textures/RGB/xqw_bqueen.tga",
+    "Textures/RGB/xqw_brbattle.tga",
+    "Textures/RGB/xqw_brbattle2.tga",
+    "Textures/RGB/xqw_brcolony.tga",
+    "Textures/RGB/xqw_brconst.tga",
+    "Textures/RGB/xqw_brcruise1.tga",
+    "Textures/RGB/xqw_brcruise2.tga",
+    "Textures/RGB/xqw_brdestroy.tga",
+    "Textures/RGB/xqw_brenborg.tga",
+    "Textures/RGB/xqw_brfreight.tga",
+    "Textures/RGB/xqw_brfrigate.tga",
+    "Textures/RGB/xqw_brscout.tga",
+    "Textures/RGB/xqw_bscout.tga",
+    "Textures/RGB/xqw_bspecial.tga",
+    "Textures/RGB/xqw_bsphere.tga",
+    "Textures/RGB/xqw_btacpyr.tga",
+    "Textures/RGB/xqw_cassault.tga",
+    "Textures/RGB/xqw_cbakrus.tga",
+    "Textures/RGB/xqw_cbattle.tga",
+    "Textures/RGB/xqw_cbattle2.tga",
+    "Textures/RGB/xqw_ccargo.tga",
+    "Textures/RGB/xqw_ccolony.tga",
+    "Textures/RGB/xqw_cconst.tga",
+    "Textures/RGB/xqw_ccruise1.tga",
+    "Textures/RGB/xqw_ccruise2.tga",
+    "Textures/RGB/xqw_ccruise3.tga",
+    "Textures/RGB/xqw_cdestroy.tga",
+    "Textures/RGB/xqw_cdestroy2.tga",
+    "Textures/RGB/xqw_cfreight.tga",
+    "Textures/RGB/xqw_cfrigate.tga",
+    "Textures/RGB/xqw_chutet.tga",
+    "Textures/RGB/xqw_ckentar.tga",
+    "Textures/RGB/xqw_ckimal.tga",
+    "Textures/RGB/xqw_cogalor.tga",
+    "Textures/RGB/xqw_cohideki.tga",
+    "Textures/RGB/xqw_cokaldor.tga",
+    "Textures/RGB/xqw_cokeldon.tga",
+    "Textures/RGB/xqw_cscout.tga",
+    "Textures/RGB/xqw_cspecial.tga",
+    "Textures/RGB/xqw_csrepair.tga",
+    "Textures/RGB/xqw_csuper.tga",
+    "Textures/RGB/xqw_ctelkor.tga",
+    "Textures/RGB/xqw_ctelok.tga",
+    "Textures/RGB/xqw_dassault.tga",
+    "Textures/RGB/xqw_dbattle.tga",
+    "Textures/RGB/xqw_dbattle2.tga",
+    "Textures/RGB/xqw_dcargo.tga",
+    "Textures/RGB/xqw_dcolony.tga",
+    "Textures/RGB/xqw_dconst.tga",
+    "Textures/RGB/xqw_dcruise1.tga",
+    "Textures/RGB/xqw_dcruise2.tga",
+    "Textures/RGB/xqw_dcruise3.tga",
+    "Textures/RGB/xqw_dcruise4.tga",
+    "Textures/RGB/xqw_ddestroy.tga",
+    "Textures/RGB/xqw_dfreight.tga",
+    "Textures/RGB/xqw_dfrigate.tga",
+    "Textures/RGB/xqw_dombat.tga",
+    "Textures/RGB/xqw_domconst.tga",
+    "Textures/RGB/xqw_domdred.tga",
+    "Textures/RGB/xqw_domscout.tga",
+    "Textures/RGB/xqw_dscout.tga",
+    "Textures/RGB/xqw_dspecial.tga",
+    "Textures/RGB/xqw_dsrepair.tga",
+    "Textures/RGB/xqw_dsuper.tga",
+    "Textures/RGB/xqw_dweyoun.tga",
+    "Textures/RGB/xqw_dwormdbattle.tga",
+    "Textures/RGB/xqw_dwormdbattle2.tga",
+    "Textures/RGB/xqw_dwormddestroy2.tga",
+    "Textures/RGB/xqw_dwormdsuper.tga",
+    "Textures/RGB/xqw_f31const.tga",
+    "Textures/RGB/xqw_fakisato.tga",
+    "Textures/RGB/xqw_fambass.tga",
+    "Textures/RGB/xqw_fambassador.tga",
+    "Textures/RGB/xqw_fantares.tga",
+    "Textures/RGB/xqw_fassault.tga",
+    "Textures/RGB/xqw_fbattle.tga",
+    "Textures/RGB/xqw_fbbridge.tga",
+    "Textures/RGB/xqw_fcaddebostan.tga",
+    "Textures/RGB/xqw_fcargo.tga",
+    "Textures/RGB/xqw_fcentaur.tga",
+    "Textures/RGB/xqw_fcolony.tga",
+    "Textures/RGB/xqw_fconst.tga",
+    "Textures/RGB/xqw_fconst2.tga",
+    "Textures/RGB/xqw_fconstellation.tga",
+    "Textures/RGB/xqw_fconstitution.tga",
+    "Textures/RGB/xqw_fcruise1.tga",
+    "Textures/RGB/xqw_fcruise2.tga",
+    "Textures/RGB/xqw_fcruise3.tga",
+    "Textures/RGB/xqw_fdallas.tga",
+    "Textures/RGB/xqw_fdanube.tga",
+    "Textures/RGB/xqw_fdata.tga",
+    "Textures/RGB/xqw_fdauntless.tga",
+    "Textures/RGB/xqw_fdawnstar.tga",
+    "Textures/RGB/xqw_fdefiant.tga",
+    "Textures/RGB/xqw_fdeimos.tga",
+    "Textures/RGB/xqw_fdeltaflyer.tga",
+    "Textures/RGB/xqw_fdestroy.tga",
+    "Textures/RGB/xqw_fdestroy2.tga",
+    "Textures/RGB/xqw_fdiablo.tga",
+    "Textures/RGB/xqw_fent.tga",
+    "Textures/RGB/xqw_fenta.tga",
+    "Textures/RGB/xqw_fentb.tga",
+    "Textures/RGB/xqw_fentc.tga",
+    "Textures/RGB/xqw_fentd.tga",
+    "Textures/RGB/xqw_fentdx.tga",
+    "Textures/RGB/xqw_fente.tga",
+    "Textures/RGB/xqw_fexcalibur.tga",
+    "Textures/RGB/xqw_fexcel.tga",
+    "Textures/RGB/xqw_fexcelr.tga",
+    "Textures/RGB/xqw_ffighter.tga",
+    "Textures/RGB/xqw_ffreight.tga",
+    "Textures/RGB/xqw_ffrigate.tga",
+    "Textures/RGB/xqw_fgalaxy.tga",
+    "Textures/RGB/xqw_fgalaxyr.tga",
+    "Textures/RGB/xqw_fgalaxyx.tga",
+    "Textures/RGB/xqw_fincursion.tga",
+    "Textures/RGB/xqw_fintx.tga",
+    "Textures/RGB/xqw_fkaleb.tga",
+    "Textures/RGB/xqw_fmiran.tga",
+    "Textures/RGB/xqw_fmiranda.tga",
+    "Textures/RGB/xqw_fneworleans.tga",
+    "Textures/RGB/xqw_fnorway.tga",
+    "Textures/RGB/xqw_fnova.tga",
+    "Textures/RGB/xqw_fnx.tga",
+    "Textures/RGB/xqw_fnxent.tga",
+    "Textures/RGB/xqw_fober.tga",
+    "Textures/RGB/xqw_foberth.tga",
+    "Textures/RGB/xqw_fprom.tga",
+    "Textures/RGB/xqw_fprometheus.tga",
+    "Textures/RGB/xqw_fpsaucer.tga",
+    "Textures/RGB/xqw_fsaucer.tga",
+    "Textures/RGB/xqw_fscorp.tga",
+    "Textures/RGB/xqw_fscout.tga",
+    "Textures/RGB/xqw_fsent.tga",
+    "Textures/RGB/xqw_fshadow.tga",
+    "Textures/RGB/xqw_fshak.tga",
+    "Textures/RGB/xqw_fsovx.tga",
+    "Textures/RGB/xqw_fspecial.tga",
+    "Textures/RGB/xqw_fspectre.tga",
+    "Textures/RGB/xqw_fsrepair.tga",
+    "Textures/RGB/xqw_ftengen.tga",
+    "Textures/RGB/xqw_fvalour.tga",
+    "Textures/RGB/xqw_fvoyager.tga",
+    "Textures/RGB/xqw_gcutter.tga",
+    "Textures/RGB/xqw_jemdest.tga",
+    "Textures/RGB/xqw_jemdest2.tga",
+    "Textures/RGB/xqw_kassault.tga",
+    "Textures/RGB/xqw_kavorcha.tga",
+    "Textures/RGB/xqw_kbatleth.tga",
+    "Textures/RGB/xqw_kbattle.tga",
+    "Textures/RGB/xqw_kbattle2.tga",
+    "Textures/RGB/xqw_kbekta.tga",
+    "Textures/RGB/xqw_kbwing.tga",
+    "Textures/RGB/xqw_kcargo.tga",
+    "Textures/RGB/xqw_kcolony.tga",
+    "Textures/RGB/xqw_kconst.tga",
+    "Textures/RGB/xqw_kconst2.tga",
+    "Textures/RGB/xqw_kcruise1.tga",
+    "Textures/RGB/xqw_kcruise2.tga",
+    "Textures/RGB/xqw_kcruise3.tga",
+    "Textures/RGB/xqw_kcruise4.tga",
+    "Textures/RGB/xqw_kdestroy.tga",
+    "Textures/RGB/xqw_kdestroy2.tga",
+    "Textures/RGB/xqw_kdestroy4.tga",
+    "Textures/RGB/xqw_ken_special.tga",
+    "Textures/RGB/xqw_kfreight.tga",
+    "Textures/RGB/xqw_kfrigate.tga",
+    "Textures/RGB/xqw_kgunboat.tga",
+    "Textures/RGB/xqw_kimpbakt.tga",
+    "Textures/RGB/xqw_kimpben.tga",
+    "Textures/RGB/xqw_kimphut.tga",
+    "Textures/RGB/xqw_kimpkoto.tga",
+    "Textures/RGB/xqw_kimpmakd.tga",
+    "Textures/RGB/xqw_kimpnegh.tga",
+    "Textures/RGB/xqw_kimpnook.tga",
+    "Textures/RGB/xqw_kimpvorc.tga",
+    "Textures/RGB/xqw_kmartok.tga",
+    "Textures/RGB/xqw_kquon.tga",
+    "Textures/RGB/xqw_kscout.tga",
+    "Textures/RGB/xqw_kspecial.tga",
+    "Textures/RGB/xqw_ksrepair.tga",
+    "Textures/RGB/xqw_ksuper.tga",
+    "Textures/RGB/xqw_kvodleh.tga",
+    "Textures/RGB/xqw_kvood.tga",
+    "Textures/RGB/xqw_mrc000.tga",
+    "Textures/RGB/xqw_mrc001.tga",
+    "Textures/RGB/xqw_mrc003.tga",
+    "Textures/RGB/xqw_mrc004.tga",
+    "Textures/RGB/xqw_mrc005.tga",
+    "Textures/RGB/xqw_mrc006.tga",
+    "Textures/RGB/xqw_mrc007.tga",
+    "Textures/RGB/xqw_mrc008.tga",
+    "Textures/RGB/xqw_mrc009.tga",
+    "Textures/RGB/xqw_mrc010.tga",
+    "Textures/RGB/xqw_mrc011.tga",
+    "Textures/RGB/xqw_mrc012.tga",
+    "Textures/RGB/xqw_mrc013.tga",
+    "Textures/RGB/xqw_mrc014.tga",
+    "Textures/RGB/xqw_mrc015.tga",
+    "Textures/RGB/xqw_mrc016.tga",
+    "Textures/RGB/xqw_mrc017.tga",
+    "Textures/RGB/xqw_mrc018.tga",
+    "Textures/RGB/xqw_mrc019.tga",
+    "Textures/RGB/xqw_mrc020.tga",
+    "Textures/RGB/xqw_mrc021.tga",
+    "Textures/RGB/xqw_mrc022.tga",
+    "Textures/RGB/xqw_mrc023.tga",
+    "Textures/RGB/xqw_mrc024.tga",
+    "Textures/RGB/xqw_mrc025.tga",
+    "Textures/RGB/xqw_mrc026.tga",
+    "Textures/RGB/xqw_mrc027.tga",
+    "Textures/RGB/xqw_mrc028.tga",
+    "Textures/RGB/xqw_mrc029.tga",
+    "Textures/RGB/xqw_mrc030.tga",
+    "Textures/RGB/xqw_mrc031.tga",
+    "Textures/RGB/xqw_mrc032.tga",
+    "Textures/RGB/xqw_mrc033.tga",
+    "Textures/RGB/xqw_mrc034.tga",
+    "Textures/RGB/xqw_mrc035.tga",
+    "Textures/RGB/xqw_mrc036.tga",
+    "Textures/RGB/xqw_mrc037.tga",
+    "Textures/RGB/xqw_mrc038.tga",
+    "Textures/RGB/xqw_mrc039.tga",
+    "Textures/RGB/xqw_mrc040.tga",
+    "Textures/RGB/xqw_mrc041.tga",
+    "Textures/RGB/xqw_mrc042.tga",
+    "Textures/RGB/xqw_mrc043.tga",
+    "Textures/RGB/xqw_mrc044.tga",
+    "Textures/RGB/xqw_mrc045.tga",
+    "Textures/RGB/xqw_mrc046.tga",
+    "Textures/RGB/xqw_mrc047.tga",
+    "Textures/RGB/xqw_mrc048.tga",
+    "Textures/RGB/xqw_mrc049.tga",
+    "Textures/RGB/xqw_mrc050.tga",
+    "Textures/RGB/xqw_mrc051.tga",
+    "Textures/RGB/xqw_mrc052.tga",
+    "Textures/RGB/xqw_mrc053.tga",
+    "Textures/RGB/xqw_mrc054.tga",
+    "Textures/RGB/xqw_mrc055.tga",
+    "Textures/RGB/xqw_mrc056.tga",
+    "Textures/RGB/xqw_mrc057.tga",
+    "Textures/RGB/xqw_mrc058.tga",
+    "Textures/RGB/xqw_rassault.tga",
+    "Textures/RGB/xqw_rbattle.tga",
+    "Textures/RGB/xqw_rbattle2.tga",
+    "Textures/RGB/xqw_rcargo.tga",
+    "Textures/RGB/xqw_rcent.tga",
+    "Textures/RGB/xqw_rcolony.tga",
+    "Textures/RGB/xqw_rconst.tga",
+    "Textures/RGB/xqw_rconst2.tga",
+    "Textures/RGB/xqw_rcruise1.tga",
+    "Textures/RGB/xqw_rcruise2.tga",
+    "Textures/RGB/xqw_rcruise3.tga",
+    "Textures/RGB/xqw_rcruise4.tga",
+    "Textures/RGB/xqw_rdestr1.tga",
+    "Textures/RGB/xqw_rdestroy.tga",
+    "Textures/RGB/xqw_rdread.tga",
+    "Textures/RGB/xqw_rdtaris.tga",
+    "Textures/RGB/xqw_rdverix.tga",
+    "Textures/RGB/xqw_rfreight.tga",
+    "Textures/RGB/xqw_rfrigate.tga",
+    "Textures/RGB/xqw_rktinga.tga",
+    "Textures/RGB/xqw_rscout.tga",
+    "Textures/RGB/xqw_rscruise.tga",
+    "Textures/RGB/xqw_rspecial.tga",
+    "Textures/RGB/xqw_rsrepair.tga",
+    "Textures/RGB/xqw_rsuper.tga",
+    "Textures/RGB/xqw_rtsbcru.tga",
+    "Textures/RGB/xqw_rtscout.tga",
+    "Textures/RGB/xqw_rtscru2.tga",
+    "Textures/RGB/xqw_rtscruis.tga",
+    "Textures/RGB/xqw_rtsdest.tga",
+    "Textures/RGB/xqw_rtsdread.tga",
+    "Textures/RGB/xqw_rtspec.tga",
+    "Textures/RGB/xqw_rtswarb.tga",
+    "Textures/RGB/xqw_sonabat.tga",
+    "Textures/RGB/xqw_sonadest.tga",
+    "Textures/RGB/xqw_sovereign.tga",
+    "Textures/RGB/xqw_tcube.tga",
+    "Textures/RGB/xqw_uconst.tga",
+    "Textures/RGB/xqw_xbassimold.tga",
+    "Textures/RGB/xqw_xbgbatt.tga",
+    "Textures/RGB/xqw_xbgcolony.tga",
+    "Textures/RGB/xqw_xbgconst.tga",
+    "Textures/RGB/xqw_xbgcruis.tga",
+    "Textures/RGB/xqw_xbgdaim.tga",
+    "Textures/RGB/xqw_xbgdest.tga",
+    "Textures/RGB/xqw_xbgdil2.tga",
+    "Textures/RGB/xqw_xbgdil3.tga",
+    "Textures/RGB/xqw_xbgfight.tga",
+    "Textures/RGB/xqw_xbgfrig.tga",
+    "Textures/RGB/xqw_xbgmine.tga",
+    "Textures/RGB/xqw_xbgnagus.tga",
+    "Textures/RGB/xqw_xbgquark.tga",
+    "Textures/RGB/xqw_xbgrepair.tga",
+    "Textures/RGB/xqw_xbgrom.tga",
+    "Textures/RGB/xqw_xbrconst2.tga",
+    "Textures/RGB/xqw_xbrepair.tga",
+    "Textures/RGB/xqw_xbruconst.tga",
+    "Textures/RGB/xqw_xbuconst.tga",
+    "Textures/RGB/xqw_xcconst2.tga",
+    "Textures/RGB/xqw_xcdconst.tga",
+    "Textures/RGB/xqw_xcduniv.tga",
+    "Textures/RGB/xqw_xcgarak.tga",
+    "Textures/RGB/xqw_xcuconst.tga",
+    "Textures/RGB/xqw_xdcarrier.tga",
+    "Textures/RGB/xqw_xdconst2.tga",
+    "Textures/RGB/xqw_xdhattack.tga",
+    "Textures/RGB/xqw_xdjacht.tga",
+    "Textures/RGB/xqw_xdocargo.tga",
+    "Textures/RGB/xqw_xdofighter.tga",
+    "Textures/RGB/xqw_xdofrigate.tga",
+    "Textures/RGB/xqw_xdominer.tga",
+    "Textures/RGB/xqw_xduconst.tga",
+    "Textures/RGB/xqw_xfgbatt.tga",
+    "Textures/RGB/xqw_xfgcolony.tga",
+    "Textures/RGB/xqw_xfgconst.tga",
+    "Textures/RGB/xqw_xfgcruis.tga",
+    "Textures/RGB/xqw_xfgdaim.tga",
+    "Textures/RGB/xqw_xfgdest.tga",
+    "Textures/RGB/xqw_xfgdil2.tga",
+    "Textures/RGB/xqw_xfgdil3.tga",
+    "Textures/RGB/xqw_xfgfight.tga",
+    "Textures/RGB/xqw_xfgfrig.tga",
+    "Textures/RGB/xqw_xfglat2.tga",
+    "Textures/RGB/xqw_xfglat3.tga",
+    "Textures/RGB/xqw_xfgmine.tga",
+    "Textures/RGB/xqw_xfgnagus.tga",
+    "Textures/RGB/xqw_xfgquark.tga",
+    "Textures/RGB/xqw_xfgrepair.tga",
+    "Textures/RGB/xqw_xfgrom.tga",
+    "Textures/RGB/xqw_xfgtrade.tga",
+    "Textures/RGB/xqw_xfuconst.tga",
+    "Textures/RGB/xqw_xhbqueen.tga",
+    "Textures/RGB/xqw_xhbrhero.tga",
+    "Textures/RGB/xqw_xhchero.tga",
+    "Textures/RGB/xqw_xhdhero.tga",
+    "Textures/RGB/xqw_xhdjacht.tga",
+    "Textures/RGB/xqw_xhdlaan.tga",
+    "Textures/RGB/xqw_xhdodo.tga",
+    "Textures/RGB/xqw_xhfdaedalus.tga",
+    "Textures/RGB/xqw_xhfgarrett.tga",
+    "Textures/RGB/xqw_xhfharriman.tga",
+    "Textures/RGB/xqw_xhfhero.tga",
+    "Textures/RGB/xqw_xhfkirkrefit.tga",
+    "Textures/RGB/xqw_xhfkirktos.tga",
+    "Textures/RGB/xqw_xhfpicardd.tga",
+    "Textures/RGB/xqw_xhfriker.tga",
+    "Textures/RGB/xqw_xhftitan.tga",
+    "Textures/RGB/xqw_xhgarak.tga",
+    "Textures/RGB/xqw_xhkhero.tga",
+    "Textures/RGB/xqw_xhkold7.tga",
+    "Textures/RGB/xqw_xhkraptor.tga",
+    "Textures/RGB/xqw_xhrdonatra.tga",
+    "Textures/RGB/xqw_xhrearlybird.tga",
+    "Textures/RGB/xqw_xhrhero.tga",
+    "Textures/RGB/xqw_xhrshinzon.tga",
+    "Textures/RGB/xqw_xhrtosbird.tga",
+    "Textures/RGB/xqw_xhs_leviathan.tga",
+    "Textures/RGB/xqw_xhs_sentinel.tga",
+    "Textures/RGB/xqw_xhs_vanguard.tga",
+    "Textures/RGB/xqw_xhshero.tga",
+    "Textures/RGB/xqw_xkuconst.tga",
+    "Textures/RGB/xqw_xobbattle1.tga",
+    "Textures/RGB/xqw_xobbattle2.tga",
+    "Textures/RGB/xqw_xobcruise1.tga",
+    "Textures/RGB/xqw_xoblocutus.tga",
+    "Textures/RGB/xqw_xofbattle.tga",
+    "Textures/RGB/xqw_xofdestroy.tga",
+    "Textures/RGB/xqw_xofgalaxy.tga",
+    "Textures/RGB/xqw_xofprom.tga",
+    "Textures/RGB/xqw_xruconst.tga",
+    "Textures/RGB/xqw_xsbcol1.tga",
+    "Textures/RGB/xqw_xsbcol2.tga",
+    "Textures/RGB/xqw_xsuconst.tga",
+    "Textures/RGB/xqw_xu3bor2.tga",
+    "Textures/RGB/xqw_xu3fed2.tga",
+    "Textures/RGB/xqw_xu3fer2.tga",
+    "Textures/RGB/xqw_zfercarg.tga",
+    "Textures/RGB/xqw_zferscav.tga",
+    "Textures/RGB/xqw_zflag.tga",
+    "Sprites/gui_global.spr"
+  ],
+  "manifest": [
+    {
+      "file": "Textures/RGB/xqw_714const.tga",
+      "sha256": "d0d3f9ce9a6306d0126a8fab35e9df4348ccb02ebb9576a54911937ee93c15a6"
+    },
+    {
+      "file": "Textures/RGB/xqw_714hydra.tga",
+      "sha256": "ffea471ea4f308035467ca1c0b051afbe7009b63dbfa21d6b594842eecbd4d1c"
+    },
+    {
+      "file": "Textures/RGB/xqw_714manta.tga",
+      "sha256": "16fc8765d6ca26dcac65ab6382d970d3807c1ab6161e977e232f8bbb8246f22c"
+    },
+    {
+      "file": "Textures/RGB/xqw_714orca.tga",
+      "sha256": "236af211669ec85d94d99331bb11f17b838aa9171f3f59b2de7361a96e35822f"
+    },
+    {
+      "file": "Textures/RGB/xqw_714rnode.tga",
+      "sha256": "4af1c9414ec011962872310f9f4b1153bb3fed4b8449a37154df4fb2b9a7c4a4"
+    },
+    {
+      "file": "Textures/RGB/xqw_714skate.tga",
+      "sha256": "41d0570e23dcb57ac26302f25dc225e4771f3654fb3de551125e3c6b27fb9c95"
+    },
+    {
+      "file": "Textures/RGB/xqw_714tmat.tga",
+      "sha256": "cbfb6f8abbeb70969506c248cbfb4f9231d4d8dea90ef5aecf869c8f72989d87"
+    },
+    {
+      "file": "Textures/RGB/xqw_8472_active.tga",
+      "sha256": "7096e81b91f4fcfa49c06a8e94a9e41ce1cfdd4f6074e8c5291ccfbd893032a6"
+    },
+    {
+      "file": "Textures/RGB/xqw_8472_battle.tga",
+      "sha256": "51c1413c415b549fde96c77a5a736fd447276d05a1d1713956b5ff5e4af41d87"
+    },
+    {
+      "file": "Textures/RGB/xqw_8472_behemoth.tga",
+      "sha256": "1598b545db48f54a042ba8b3f6265c5b3faee1ae9f8117ba96cc0fb7b987b2f5"
+    },
+    {
+      "file": "Textures/RGB/xqw_8472_collector.tga",
+      "sha256": "2536c7f7a088ca8e6b0a81cfd0ff6ff2601a2b8330e75b3b20e8ab9b855d2a51"
+    },
+    {
+      "file": "Textures/RGB/xqw_8472_cruise1.tga",
+      "sha256": "c6e603b5234ffba7ae5877b56527f315429a211bd7f9877b8b40b3d9ae9a96f3"
+    },
+    {
+      "file": "Textures/RGB/xqw_8472_cruise2.tga",
+      "sha256": "019ba9df643918d02b1c6ae44ad8b707a8ab309b17ad51d954fb38d417b9b75b"
+    },
+    {
+      "file": "Textures/RGB/xqw_8472_defender.tga",
+      "sha256": "4b7452ca7800a7242d17eaeaf601962e0f7acfc0239cbb4659aa0c8a3df88779"
+    },
+    {
+      "file": "Textures/RGB/xqw_8472_destroy.tga",
+      "sha256": "677170449e43507051edbad269ca31d34e3c3d46053b55f9c7ca301cec4d74a6"
+    },
+    {
+      "file": "Textures/RGB/xqw_8472_frigate.tga",
+      "sha256": "a8bac823a6df5b70fd3f406058491dbd0b2e00ac7b83fd0f745afc731de2cbb0"
+    },
+    {
+      "file": "Textures/RGB/xqw_8472_heromother.tga",
+      "sha256": "fe235adc845c8e99b2870b85fc1d9db1aa0007a86a2a2e3cc3e5329e6090ce48"
+    },
+    {
+      "file": "Textures/RGB/xqw_8472_heromothership.tga",
+      "sha256": "fe235adc845c8e99b2870b85fc1d9db1aa0007a86a2a2e3cc3e5329e6090ce48"
+    },
+    {
+      "file": "Textures/RGB/xqw_8472_mother.tga",
+      "sha256": "acbb6d154d215bd27a01fbc042e17ecf966758b24e01904d594290e54fba316b"
+    },
+    {
+      "file": "Textures/RGB/xqw_8472_mothership.tga",
+      "sha256": "acbb6d154d215bd27a01fbc042e17ecf966758b24e01904d594290e54fba316b"
+    },
+    {
+      "file": "Textures/RGB/xqw_8472_passive.tga",
+      "sha256": "bd9645072fa923f9746c0b737a964027da3ef8f676095a5259a92ffa65a9fea1"
+    },
+    {
+      "file": "Textures/RGB/xqw_8472_scout.tga",
+      "sha256": "8ad0e809ca59e69a6b2273447435fff08bd2626f5a274980575ed93710efdb5f"
+    },
+    {
+      "file": "Textures/RGB/xqw_8472_transmuter.tga",
+      "sha256": "bf422ca1958627b8ed4e09a6c99e996a825a9315ecaaab674b784eb12dcd3df6"
+    },
+    {
+      "file": "Textures/RGB/xqw_8472be2.tga",
+      "sha256": "b7cdc7183c44249fedd62c88255e2712bf1a72308949c1e6f785a2001fa4b9ed"
+    },
+    {
+      "file": "Textures/RGB/xqw_8472fig.tga",
+      "sha256": "d84eb19e04c415ff9ec10e2cb2b6c1a7c8d2dcc7fd09065c5ef631694c9e9ee5"
+    },
+    {
+      "file": "Textures/RGB/xqw_8472int.tga",
+      "sha256": "f10be36911fb989136df411bc8319216180aada76d8e93331b8723451d444f4d"
+    },
+    {
+      "file": "Textures/RGB/xqw_arumaan.tga",
+      "sha256": "ce19103177e93c616a1b988072df126a379e57f18583fba1c246dc397fdb2342"
+    },
+    {
+      "file": "Textures/RGB/xqw_banshee.tga",
+      "sha256": "3038ee083c58bd93124db57fa3961d47c92683480cd0a6bcb64795b8cfe0d730"
+    },
+    {
+      "file": "Textures/RGB/xqw_bassault.tga",
+      "sha256": "94a1137a1aec0d96d456cbf49238d0aee553bd29fb6542d14c0c8207ad8fe846"
+    },
+    {
+      "file": "Textures/RGB/xqw_bbattle.tga",
+      "sha256": "aafd4e474e3dfa5ed1811b7712da10e01af484f25a1dfad43cc402b403c42037"
+    },
+    {
+      "file": "Textures/RGB/xqw_bbattle1.tga",
+      "sha256": "aafd4e474e3dfa5ed1811b7712da10e01af484f25a1dfad43cc402b403c42037"
+    },
+    {
+      "file": "Textures/RGB/xqw_bbattle2.tga",
+      "sha256": "f840354ed91f68da371d0f0b1be700c79a060f936b7ca549bd485dfe790b815d"
+    },
+    {
+      "file": "Textures/RGB/xqw_bbattle3.tga",
+      "sha256": "d5b976411e8f6935f6ca1862457415ec60147c3aac7cf1767308b6565e1c3ab3"
+    },
+    {
+      "file": "Textures/RGB/xqw_bbattle4.tga",
+      "sha256": "383ff301741dbf0dc90e3800469d14125c0efcf867691d0288d432b695e8dab1"
+    },
+    {
+      "file": "Textures/RGB/xqw_bbattle5.tga",
+      "sha256": "d5b976411e8f6935f6ca1862457415ec60147c3aac7cf1767308b6565e1c3ab3"
+    },
+    {
+      "file": "Textures/RGB/xqw_bbattle6.tga",
+      "sha256": "383ff301741dbf0dc90e3800469d14125c0efcf867691d0288d432b695e8dab1"
+    },
+    {
+      "file": "Textures/RGB/xqw_bbattle8.tga",
+      "sha256": "aafd4e474e3dfa5ed1811b7712da10e01af484f25a1dfad43cc402b403c42037"
+    },
+    {
+      "file": "Textures/RGB/xqw_bcolony.tga",
+      "sha256": "dd65f5893012ac87938b47e6f5942837d7204fc5e0db399e9e24a6f31bd53240"
+    },
+    {
+      "file": "Textures/RGB/xqw_bconst.tga",
+      "sha256": "1f02a189f7e20d5ea1d641e8472e64d101b1058afb8dac49b5f6962e0b2f2daa"
+    },
+    {
+      "file": "Textures/RGB/xqw_bconst2.tga",
+      "sha256": "432b42dbaaac2d72905f85c125b66eab96caa33bbeef8eabd5616383a865daf0"
+    },
+    {
+      "file": "Textures/RGB/xqw_bcruise1.tga",
+      "sha256": "890a2fc152485cb1a458e56b0dfb2652f5c860fda992a76d4267c8a7e8a12c59"
+    },
+    {
+      "file": "Textures/RGB/xqw_bcruise2.tga",
+      "sha256": "411d3cb14a5ee9100c29533ac9022e0f64ee381391969f85595f7fa6276c4d77"
+    },
+    {
+      "file": "Textures/RGB/xqw_bcruise3.tga",
+      "sha256": "3b1ae309bd539b484277f2acebdd85aaaeb70ce6dfe8ff733aac573af6493f07"
+    },
+    {
+      "file": "Textures/RGB/xqw_bdestroy.tga",
+      "sha256": "b9aac363ef4354a24283a68c475f4c61c1fe0b0450e36fb02b1e028f17a9e725"
+    },
+    {
+      "file": "Textures/RGB/xqw_bdestroy2.tga",
+      "sha256": "be2db3f8db658ff79f3af1dcb190a86df6f80a0f267e4c9a19d9cf5548fa0da7"
+    },
+    {
+      "file": "Textures/RGB/xqw_bfreight.tga",
+      "sha256": "8f4b6dbe3baa0568c88ff303b5b30e9d924eecce449dc5e2e1163c89e0367a70"
+    },
+    {
+      "file": "Textures/RGB/xqw_bfrigate.tga",
+      "sha256": "9af1e2ab7d92a2a9d9875e3c48586cc77828b6e939eac4867004407970d94ab8"
+    },
+    {
+      "file": "Textures/RGB/xqw_bhentra.tga",
+      "sha256": "8c127c4ee69efb822ac0e691f298aa56327ab16c013b146d07b927833366c61b"
+    },
+    {
+      "file": "Textures/RGB/xqw_bhentrag.tga",
+      "sha256": "5b8394a51d39b97c46d75e412002c230008a6db932da67a71c058125864867e0"
+    },
+    {
+      "file": "Textures/RGB/xqw_blocutus.tga",
+      "sha256": "ea2134d9973803ad1a95182f9a43227441c4b43ac60625fb166eee97ffd86a6a"
+    },
+    {
+      "file": "Textures/RGB/xqw_bmama.tga",
+      "sha256": "77925b5083bd8d7738c2e722fa026712179108326799ee4b6dc4de510dbfe6ae"
+    },
+    {
+      "file": "Textures/RGB/xqw_bomega1.tga",
+      "sha256": "9ca323a08366e1e43464d496f9ffef7540137562e6baf17983bb06adfd30380f"
+    },
+    {
+      "file": "Textures/RGB/xqw_bpentra.tga",
+      "sha256": "dfaee7cda339b98fdc71426f2d00fd298e7c8813a0fd10b5785ec29221afa686"
+    },
+    {
+      "file": "Textures/RGB/xqw_bqueen.tga",
+      "sha256": "2ac821978f533513e2c13d0505d3e6b6e3a85b2e070c856db090504ed1a3e8c4"
+    },
+    {
+      "file": "Textures/RGB/xqw_brbattle.tga",
+      "sha256": "3a3be7e5b6ebf594fbd962fb7c646840df1443acb635c08636a73bf4820aee70"
+    },
+    {
+      "file": "Textures/RGB/xqw_brbattle2.tga",
+      "sha256": "2a4932a4749364e749043b5593e241ef201de6399511ffb1b8c0e25a61dabaae"
+    },
+    {
+      "file": "Textures/RGB/xqw_brcolony.tga",
+      "sha256": "6b1cdb9254a3064f7de6e2a21be86c468951f82631af2caf12b8d322e2edcfdb"
+    },
+    {
+      "file": "Textures/RGB/xqw_brconst.tga",
+      "sha256": "cd06099671c416315bfdfcb71a341b3a6bb42ed1b3eeb2e7f14f45b9355a9b6b"
+    },
+    {
+      "file": "Textures/RGB/xqw_brcruise1.tga",
+      "sha256": "84ce3a46619d7d880b71beed43afba18d09d3444bd46038664648d9a0ee24dd5"
+    },
+    {
+      "file": "Textures/RGB/xqw_brcruise2.tga",
+      "sha256": "6e9c66aacf7ebc79b63287eaa3c768899a5e76b040c21cdd9e1b45705156db44"
+    },
+    {
+      "file": "Textures/RGB/xqw_brdestroy.tga",
+      "sha256": "5c36426a7b03e8c5efda9a4e7cb099d51beed8020c730f2e8f0c737470c4501c"
+    },
+    {
+      "file": "Textures/RGB/xqw_brenborg.tga",
+      "sha256": "c6163a99170fbd9786dfa486f1fe54c265dc153255a5a254ab2b1bee311cc498"
+    },
+    {
+      "file": "Textures/RGB/xqw_brfreight.tga",
+      "sha256": "0ab1fb5aef352d3179dc750de90bdc1192eba4bf812655555cb75efbfdc250b8"
+    },
+    {
+      "file": "Textures/RGB/xqw_brfrigate.tga",
+      "sha256": "7e35f2ac67f2a3fe8e21993413396933d1359ba2238aeab01c3a40b550e838fb"
+    },
+    {
+      "file": "Textures/RGB/xqw_brscout.tga",
+      "sha256": "d0745eef5b0487d905076b3b95392a9f56cf0731e32ec4af9330baf8f1539c20"
+    },
+    {
+      "file": "Textures/RGB/xqw_bscout.tga",
+      "sha256": "9ffe676981a19a109ad70975e0cafe1855ac13972a902f8ca0cf6f2aa9648743"
+    },
+    {
+      "file": "Textures/RGB/xqw_bspecial.tga",
+      "sha256": "c2276e9b8236b1c010277f723d12689302a02d69a3314e0ef0470fd2c907c54d"
+    },
+    {
+      "file": "Textures/RGB/xqw_bsphere.tga",
+      "sha256": "fbd30b8188c8c2f7a13bc1ef3d6a7c4905cf64d4a9ab4c59eee4cd4c086e4c60"
+    },
+    {
+      "file": "Textures/RGB/xqw_btacpyr.tga",
+      "sha256": "849c566f1dbc24406580319dabd7a09801648687865a02c16fbc235cc5187246"
+    },
+    {
+      "file": "Textures/RGB/xqw_cassault.tga",
+      "sha256": "0a94ebb072c92a1aa4c669180a77d0d4604bc290f4d2acec066548a4d65e6582"
+    },
+    {
+      "file": "Textures/RGB/xqw_cbakrus.tga",
+      "sha256": "f9032de1d7ebfe037258c10d6b76b9221788e65da033c15cd29b971ee4269915"
+    },
+    {
+      "file": "Textures/RGB/xqw_cbattle.tga",
+      "sha256": "1a2808a2573eb94fffa2cd0341f4406a629d4e0f19955748016c07081f0b7a02"
+    },
+    {
+      "file": "Textures/RGB/xqw_cbattle2.tga",
+      "sha256": "f9032de1d7ebfe037258c10d6b76b9221788e65da033c15cd29b971ee4269915"
+    },
+    {
+      "file": "Textures/RGB/xqw_ccargo.tga",
+      "sha256": "027834e1e882102cf79ac6ec51bbecb61424930dd1d29a9819e0153692a09b63"
+    },
+    {
+      "file": "Textures/RGB/xqw_ccolony.tga",
+      "sha256": "c906c12803c8f90262bac3a9b3c3464c473101b0d26af67d5ee8f8f7e16c7e28"
+    },
+    {
+      "file": "Textures/RGB/xqw_cconst.tga",
+      "sha256": "d2a997e4effdcd1658ae36b46da763b445cd1b7c1a00b23183b4f6861aad7af8"
+    },
+    {
+      "file": "Textures/RGB/xqw_ccruise1.tga",
+      "sha256": "db7e8c3a6542d1de5c51928d449ad20f2ef7178b448ba108e4ac8130bd9fee59"
+    },
+    {
+      "file": "Textures/RGB/xqw_ccruise2.tga",
+      "sha256": "20bd936f8106d4105bfdd5eeb07a54ff2b6374250fef1b873cecda39c614678c"
+    },
+    {
+      "file": "Textures/RGB/xqw_ccruise3.tga",
+      "sha256": "f7622ada07d2719288b1955c02de47e46e5921eb56edcce8e75f274fd3046af1"
+    },
+    {
+      "file": "Textures/RGB/xqw_cdestroy.tga",
+      "sha256": "1259ac38be40f68dfe8abb9d854396e7bc041697713bdada6fd8877f9a2a9cfa"
+    },
+    {
+      "file": "Textures/RGB/xqw_cdestroy2.tga",
+      "sha256": "7ac7684f43bc961c0e409123414d680a6677d512dd8bd4dd67c557515ec35a6a"
+    },
+    {
+      "file": "Textures/RGB/xqw_cfreight.tga",
+      "sha256": "01747083020fd1dfa66b12bdb3599e8a876e09dc4305baeda849fa9182f15b2a"
+    },
+    {
+      "file": "Textures/RGB/xqw_cfrigate.tga",
+      "sha256": "7c445ced772af3a79c469d52ad27640ea33670ed63d0bba7c15e6f4acca1a304"
+    },
+    {
+      "file": "Textures/RGB/xqw_chutet.tga",
+      "sha256": "64dcbbe2244f8317f09c4c4b1d7b09cf2e7679f0c11ec6d64830ac4bb918d264"
+    },
+    {
+      "file": "Textures/RGB/xqw_ckentar.tga",
+      "sha256": "76e2f59464186a3a7378a6ca10a246ae54ff6ad3ed194f2fb8a32dcdbd0a21e5"
+    },
+    {
+      "file": "Textures/RGB/xqw_ckimal.tga",
+      "sha256": "91bd9eea5c5f07e35270d29ad462686844e96c5ced8416bb1df20b8155063976"
+    },
+    {
+      "file": "Textures/RGB/xqw_cogalor.tga",
+      "sha256": "f602e0d6636ab134789519f7ec2f5d3c0ce6bcdc2569c7ba4c378d15cd52f56a"
+    },
+    {
+      "file": "Textures/RGB/xqw_cohideki.tga",
+      "sha256": "5d646c883f163ae9cf010de7e6bd20ad01bbc196003d02c77adc1c01bffa6e51"
+    },
+    {
+      "file": "Textures/RGB/xqw_cokaldor.tga",
+      "sha256": "6d3cd5e668e967c4f04882e572b360e0877a7de35956b0cd104e8e7ff18877ed"
+    },
+    {
+      "file": "Textures/RGB/xqw_cokeldon.tga",
+      "sha256": "e803018da18dd520e5398d2320bd8ca34bc95c9935e9187ec922071b9cc8b2ad"
+    },
+    {
+      "file": "Textures/RGB/xqw_cscout.tga",
+      "sha256": "4a82ee445ac36a7d8afc479186a15c60f8a1156f8d3cca10a127fbdaa26b7e92"
+    },
+    {
+      "file": "Textures/RGB/xqw_cspecial.tga",
+      "sha256": "a719dcedd83cdde1d8d06007c1cc79f0dd8e2a97d246eb9ec8039f62a9016399"
+    },
+    {
+      "file": "Textures/RGB/xqw_csrepair.tga",
+      "sha256": "731214bfa3d184d15af0ed8cc19b699b47bc4d43107d959fb8e2fbb590c2dd02"
+    },
+    {
+      "file": "Textures/RGB/xqw_csuper.tga",
+      "sha256": "0d5d295ceef9eeabbb3c39aded1c4cb59958d1e1143c8e27d325a2a9aab63bda"
+    },
+    {
+      "file": "Textures/RGB/xqw_ctelkor.tga",
+      "sha256": "36d3f85f11f8baa77274850a4d446726be50d1213b5b4f88f2a2ed074b483a36"
+    },
+    {
+      "file": "Textures/RGB/xqw_ctelok.tga",
+      "sha256": "b73df57e1761086c9966e47217914a82ac540446912b106e2ddd06aa1db809aa"
+    },
+    {
+      "file": "Textures/RGB/xqw_dassault.tga",
+      "sha256": "ebd3325134c777cf2868e8d59abbe634d139656bea18f021dcf8e49e5557c86e"
+    },
+    {
+      "file": "Textures/RGB/xqw_dbattle.tga",
+      "sha256": "d4463210c88abc51f655cd713d35ce580fa2f54d94eac649514356d8512b9458"
+    },
+    {
+      "file": "Textures/RGB/xqw_dbattle2.tga",
+      "sha256": "6fb20707e6372b489aae6383061ea2347af0e3c143dc0558b168d57203ff155f"
+    },
+    {
+      "file": "Textures/RGB/xqw_dcargo.tga",
+      "sha256": "842be24fb153dc72a93321420d372af4f0bf426e9a628d9ed0d34d8434aa172a"
+    },
+    {
+      "file": "Textures/RGB/xqw_dcolony.tga",
+      "sha256": "1e0910a28f8f667fcdeabc08afa9c08743f93dd03c672ce2925ad895d02f7b4a"
+    },
+    {
+      "file": "Textures/RGB/xqw_dconst.tga",
+      "sha256": "37371b68d92e00ca2baad207af8796b4f38ef2e8c526b176573fbc02a98c330f"
+    },
+    {
+      "file": "Textures/RGB/xqw_dcruise1.tga",
+      "sha256": "46c41a1e356b5107815fb58bdbc448bff428eb92a917f3a474718423e272eaad"
+    },
+    {
+      "file": "Textures/RGB/xqw_dcruise2.tga",
+      "sha256": "0ca5ceeabda8a1cb45f430457cb3d0d933c200a988e5fe83e03892f16353f4ba"
+    },
+    {
+      "file": "Textures/RGB/xqw_dcruise3.tga",
+      "sha256": "ae0ab3bc1cc82783858238a016481b64a64fad280c6891203dc82dee95b1783d"
+    },
+    {
+      "file": "Textures/RGB/xqw_dcruise4.tga",
+      "sha256": "1d5dff4064d6dba1d8278927fad8a945dacf3d00623fadee114d7fb867d175ae"
+    },
+    {
+      "file": "Textures/RGB/xqw_ddestroy.tga",
+      "sha256": "8876a609a707dada512a7ac90241ebb3d231cd487ad0d45b3ef9499d5f0fe9fb"
+    },
+    {
+      "file": "Textures/RGB/xqw_dfreight.tga",
+      "sha256": "9fcb7d64e9b78b7c2480cb26d31cf4b2eac96d10dc3447ed554301db6fa6fc21"
+    },
+    {
+      "file": "Textures/RGB/xqw_dfrigate.tga",
+      "sha256": "dff09874de6b767fae467f3abb099b627263e1d38d7a7761f4f218dc0c6bf3da"
+    },
+    {
+      "file": "Textures/RGB/xqw_dombat.tga",
+      "sha256": "00ea178814a82ebbdf64142c8b2c8e0bfd8a207ca71fe21d6ea66e6887a1059b"
+    },
+    {
+      "file": "Textures/RGB/xqw_domconst.tga",
+      "sha256": "d4ec8b364124418db76f09d010135a978a336e21eaa00d0c6c326338607b6ad1"
+    },
+    {
+      "file": "Textures/RGB/xqw_domdred.tga",
+      "sha256": "d034ba2ced0622376b2878520bdb2af39a900519fe460361b837093655eba786"
+    },
+    {
+      "file": "Textures/RGB/xqw_domscout.tga",
+      "sha256": "307965e341062595bb631cbd6c43a1d94c9de6ee4c044e5ae7fed4ae31e37c0c"
+    },
+    {
+      "file": "Textures/RGB/xqw_dscout.tga",
+      "sha256": "7914737ed0ebd5d1805a3a430301871199df9c7f7c07d2d1f227955ab99cef77"
+    },
+    {
+      "file": "Textures/RGB/xqw_dspecial.tga",
+      "sha256": "0cd8311aa66f8f90a1bc9a8ef5c78e70c225330e3d31a36f62f46508c3344134"
+    },
+    {
+      "file": "Textures/RGB/xqw_dsrepair.tga",
+      "sha256": "f3827de64c483f7006226a08588d7a217ac0610da64d5190c0b1ef717e8dd641"
+    },
+    {
+      "file": "Textures/RGB/xqw_dsuper.tga",
+      "sha256": "f413c07e2269488d03210595bb7175601ac793b7012251d3d14302ed86c3c916"
+    },
+    {
+      "file": "Textures/RGB/xqw_dweyoun.tga",
+      "sha256": "1d8a33d0c67df9fdc2f4e51284a9b0dfef719c4bbfca8dab1626e6a3a467c047"
+    },
+    {
+      "file": "Textures/RGB/xqw_dwormdbattle.tga",
+      "sha256": "d4463210c88abc51f655cd713d35ce580fa2f54d94eac649514356d8512b9458"
+    },
+    {
+      "file": "Textures/RGB/xqw_dwormdbattle2.tga",
+      "sha256": "6fb20707e6372b489aae6383061ea2347af0e3c143dc0558b168d57203ff155f"
+    },
+    {
+      "file": "Textures/RGB/xqw_dwormddestroy2.tga",
+      "sha256": "3941c3c6ae0cd62e6dc69967714a4f6b2d10b23e01dc11585aae240441996343"
+    },
+    {
+      "file": "Textures/RGB/xqw_dwormdsuper.tga",
+      "sha256": "f413c07e2269488d03210595bb7175601ac793b7012251d3d14302ed86c3c916"
+    },
+    {
+      "file": "Textures/RGB/xqw_f31const.tga",
+      "sha256": "4e4f07e0c065958ea75a819f297c02d48c967d5b85686bae13e082917e4eedc7"
+    },
+    {
+      "file": "Textures/RGB/xqw_fakisato.tga",
+      "sha256": "f23d04683456b23d3a37e6e0d6030696eb9720e636d40ff090147615e73b13b7"
+    },
+    {
+      "file": "Textures/RGB/xqw_fambass.tga",
+      "sha256": "5987e50f473135f1142d677ce3b70b2c93314069c9f40f47bad595c457d218d6"
+    },
+    {
+      "file": "Textures/RGB/xqw_fambassador.tga",
+      "sha256": "4c5a4636792cf9fa95d625c48f387311c17d11fbe9387eccd57821f09a2bf71b"
+    },
+    {
+      "file": "Textures/RGB/xqw_fantares.tga",
+      "sha256": "6ea66ca1c3030eb78d77cc9bcbe11413b55e282d1c79cba494dbfdddcb47b767"
+    },
+    {
+      "file": "Textures/RGB/xqw_fassault.tga",
+      "sha256": "c9fa053c1d1bd4cc9392bed19a0a0b1be5ee16839eb6a3b1014202f63657cdf7"
+    },
+    {
+      "file": "Textures/RGB/xqw_fbattle.tga",
+      "sha256": "c0cff676dd66d28f4b5fe100fa7b7ae2b65e1be9cea14dd75de9567d3c9b4c94"
+    },
+    {
+      "file": "Textures/RGB/xqw_fbbridge.tga",
+      "sha256": "b6d73d765089494bc1cd29be6f06acf1cf22965a50ed8f0d3f8982a31b09d836"
+    },
+    {
+      "file": "Textures/RGB/xqw_fcaddebostan.tga",
+      "sha256": "5ba5de2e0aab8036f7592f6b1849f60c2260f3c764969c6a817b2d9f187e5c68"
+    },
+    {
+      "file": "Textures/RGB/xqw_fcargo.tga",
+      "sha256": "97fed97bf05cf8494819d00659841cad9fdbe8ed53e1fdc901cac120abe78d06"
+    },
+    {
+      "file": "Textures/RGB/xqw_fcentaur.tga",
+      "sha256": "ef7d701e0a2b804d83c278866107e1bc3edfe6c42939471edaf37175724475e5"
+    },
+    {
+      "file": "Textures/RGB/xqw_fcolony.tga",
+      "sha256": "b12393e2df2b4553f7b2c784a0f30fa582b09169008c82d95b2972fe1895579d"
+    },
+    {
+      "file": "Textures/RGB/xqw_fconst.tga",
+      "sha256": "b911383a5117a6c7b7aff0cd5d956b26dbc295769666f4e2c274cb9ba3bae1f1"
+    },
+    {
+      "file": "Textures/RGB/xqw_fconst2.tga",
+      "sha256": "a2a02605ba20d0d1459f1b4a0513abf7a0c143d6282f3f9bee9375809f7c756f"
+    },
+    {
+      "file": "Textures/RGB/xqw_fconstellation.tga",
+      "sha256": "bd7eb0c3fa4f941cd9b6c52b082d9bcd1fccd3101b4bebd0c360031faaf08b23"
+    },
+    {
+      "file": "Textures/RGB/xqw_fconstitution.tga",
+      "sha256": "1a3395ba36e95aa225af265c314260f6a76a143811772dc352d6cfe44eaf22c1"
+    },
+    {
+      "file": "Textures/RGB/xqw_fcruise1.tga",
+      "sha256": "8f5d5d5f7c3890bf715e16054cba4895b4dba2801af869b80aa344167397cf20"
+    },
+    {
+      "file": "Textures/RGB/xqw_fcruise2.tga",
+      "sha256": "985c3846aead2011dae8a8764cda3856144999616d560c108aae734d5531cbd5"
+    },
+    {
+      "file": "Textures/RGB/xqw_fcruise3.tga",
+      "sha256": "82590374ca8bb3f6a0916e3b4b10daf8a1b4499f64549673b76767a11c5a285a"
+    },
+    {
+      "file": "Textures/RGB/xqw_fdallas.tga",
+      "sha256": "46c41bc95719a781bfbceeea45509bb64f72eb4e5bd4792203e6649794fcefa7"
+    },
+    {
+      "file": "Textures/RGB/xqw_fdanube.tga",
+      "sha256": "446f195258166aa952c936ed2eedb836f8b1bcf1993b7542ddd1c1eb1059a606"
+    },
+    {
+      "file": "Textures/RGB/xqw_fdata.tga",
+      "sha256": "c2c7dca9529fa2a3d48bd1cf57a1e5de29952bcbbad89fd294af5be79afa54dd"
+    },
+    {
+      "file": "Textures/RGB/xqw_fdauntless.tga",
+      "sha256": "053291a999a093cf8e61f5c3eab70a8531b01af53aff9041d771b70ee44dcae7"
+    },
+    {
+      "file": "Textures/RGB/xqw_fdawnstar.tga",
+      "sha256": "429f985a1654a02a00ab66770e91c0daab389a83ce96ba82405c22bac408423f"
+    },
+    {
+      "file": "Textures/RGB/xqw_fdefiant.tga",
+      "sha256": "2a151610560983c62bf65f4af4449868294fb7293b2c5e5ce20eb914659fa48c"
+    },
+    {
+      "file": "Textures/RGB/xqw_fdeimos.tga",
+      "sha256": "ac4df9d0c549311abedf5ca8e96564d92ba491630de23ab64c45717483ef0776"
+    },
+    {
+      "file": "Textures/RGB/xqw_fdeltaflyer.tga",
+      "sha256": "2ae172aed509e5243f2e4345885160e531e22ef8f95e044687785b85102fb889"
+    },
+    {
+      "file": "Textures/RGB/xqw_fdestroy.tga",
+      "sha256": "d1d87ecddf511b625bc9d16d3891cefa21de404303f274bd761cce1dee32d352"
+    },
+    {
+      "file": "Textures/RGB/xqw_fdestroy2.tga",
+      "sha256": "3a3344369a70c3479aa7a22ddd19b43ad4669ac894ce5039cb97234dd9546188"
+    },
+    {
+      "file": "Textures/RGB/xqw_fdiablo.tga",
+      "sha256": "e605c85f651a7d0e88512d9fdcd7ae5b18b7fbc1701bb4dee8c3eaf4d0f9bbf2"
+    },
+    {
+      "file": "Textures/RGB/xqw_fent.tga",
+      "sha256": "045975244ff5a96b3b1c0b8ea916f5255c733e72a6b8b16d322738d2e898aa10"
+    },
+    {
+      "file": "Textures/RGB/xqw_fenta.tga",
+      "sha256": "93384cc18b845694b1c1e82c6dcb7b40c57ad7f8c91c0c274434c3d8766381e7"
+    },
+    {
+      "file": "Textures/RGB/xqw_fentb.tga",
+      "sha256": "a4f23278334b3c73bda1c6e1823ccd15cd3bdaa99c5535b281fdf55c3aaf28e1"
+    },
+    {
+      "file": "Textures/RGB/xqw_fentc.tga",
+      "sha256": "8bf707bda6bb1240e2920c013aead26d30bd97f1616ad48d583a5330a06e648b"
+    },
+    {
+      "file": "Textures/RGB/xqw_fentd.tga",
+      "sha256": "7badeef6ecd38367acc7dc9e3d7f5b43d42a6fab25559045dbb94554ea79be95"
+    },
+    {
+      "file": "Textures/RGB/xqw_fentdx.tga",
+      "sha256": "094628a0cffb8b70046016b901c9e6d3657aeafbd63b3545a9dbbdee672a4b91"
+    },
+    {
+      "file": "Textures/RGB/xqw_fente.tga",
+      "sha256": "49c91a2d21621e3cca6b80145c5674f1e4f96873994d7ecc0b52478361728a88"
+    },
+    {
+      "file": "Textures/RGB/xqw_fexcalibur.tga",
+      "sha256": "c5e556d92147e8e9176ebde993ba137d4b38bfacba460ffd114697cf584b73a8"
+    },
+    {
+      "file": "Textures/RGB/xqw_fexcel.tga",
+      "sha256": "511febf8bd1632a99caec2ce7076a3718242c16e2c542bc31cbba443538a45e3"
+    },
+    {
+      "file": "Textures/RGB/xqw_fexcelr.tga",
+      "sha256": "d8afa4604326feb5582e9b47ba2f9122d1ea16a58d1b56dc5cc3d45a6baa35b0"
+    },
+    {
+      "file": "Textures/RGB/xqw_ffighter.tga",
+      "sha256": "bac1a44721a4c47d24ea67e0322bbb2f84cc506e09a5f85a260e8f2e9daabed7"
+    },
+    {
+      "file": "Textures/RGB/xqw_ffreight.tga",
+      "sha256": "62b83ffefa91b007597137f4f95b9ab1be4798f941dac83c4fecdf87ab3a3142"
+    },
+    {
+      "file": "Textures/RGB/xqw_ffrigate.tga",
+      "sha256": "8eadb54026223ca0b4beefd782429957b6112e62b5833ecbc5d035cb0222644e"
+    },
+    {
+      "file": "Textures/RGB/xqw_fgalaxy.tga",
+      "sha256": "62f60bc92baf2c8f525e1184e13b2fde8d63d12b41ca2c5125aa79c8f2812168"
+    },
+    {
+      "file": "Textures/RGB/xqw_fgalaxyr.tga",
+      "sha256": "0a1237f497c6f1feb6d5aabd6859d190bccc01972b16a4131587985b4ce521b7"
+    },
+    {
+      "file": "Textures/RGB/xqw_fgalaxyx.tga",
+      "sha256": "1cfa49cf0170769996212930b5b0b8be110fb6d6cb6583b16013cfe8b3efe610"
+    },
+    {
+      "file": "Textures/RGB/xqw_fincursion.tga",
+      "sha256": "9cac025a75e9fb9cc6e1b311d3e6d93fcb5f1e01ceead44b0deeba63308eced0"
+    },
+    {
+      "file": "Textures/RGB/xqw_fintx.tga",
+      "sha256": "661ab7d242a50ac474ea0f51bddf5f20b646a0373d8c41eab013e1f3aa707fd7"
+    },
+    {
+      "file": "Textures/RGB/xqw_fkaleb.tga",
+      "sha256": "2b6505b0469c0c362e905573d65ec4ba73bd9d2bd0989a34d2ad43fa5da41ddb"
+    },
+    {
+      "file": "Textures/RGB/xqw_fmiran.tga",
+      "sha256": "ebea73b4c826d62d28aabed91f990911b78a74e8699ef9c357d89a598b532049"
+    },
+    {
+      "file": "Textures/RGB/xqw_fmiranda.tga",
+      "sha256": "97a24874d7b6a54aeb1d6dc88d1ddf78d79872291b57722fc13f59eb179b0478"
+    },
+    {
+      "file": "Textures/RGB/xqw_fneworleans.tga",
+      "sha256": "9f9e3473936690d9b94936f28a151bb7b56a8935fb4296fc26a7bfbd6f041b7f"
+    },
+    {
+      "file": "Textures/RGB/xqw_fnorway.tga",
+      "sha256": "8e05cbed80caa5780ad9e5818c97a5510020c29f0dae6aec439f9166657a9bed"
+    },
+    {
+      "file": "Textures/RGB/xqw_fnova.tga",
+      "sha256": "b9caec4f98a5f309eba78530efe5ccd131fe05b707e0a38846ad54b26f71346f"
+    },
+    {
+      "file": "Textures/RGB/xqw_fnx.tga",
+      "sha256": "80a63203a959602531b7803132c1dad055f1aec5de73ae3d5ffb92f8fac8d36d"
+    },
+    {
+      "file": "Textures/RGB/xqw_fnxent.tga",
+      "sha256": "6e87bb9b77a66d0c079ec51efa444c330e683c01f78c0894ed95f1941f9288b1"
+    },
+    {
+      "file": "Textures/RGB/xqw_fober.tga",
+      "sha256": "444857af712c7084a7cf5960061f0b71143d9210a10d7d9c98bd49ff8049a6e3"
+    },
+    {
+      "file": "Textures/RGB/xqw_foberth.tga",
+      "sha256": "3c64a5902aa00d1d24e4a7c9e5bc07cc08c32a821144bdd73de5ad675678f2e4"
+    },
+    {
+      "file": "Textures/RGB/xqw_fprom.tga",
+      "sha256": "195e010e107220c8ff10708029ef2fef02d81d611d4676b4c1be5df1f00e482b"
+    },
+    {
+      "file": "Textures/RGB/xqw_fprometheus.tga",
+      "sha256": "4ee3019b44112a50b0852afb5b3f7ba77668ee2f4733cf106a48a096b9b2d57d"
+    },
+    {
+      "file": "Textures/RGB/xqw_fpsaucer.tga",
+      "sha256": "a7b915c766dfaa7821b6cf3af5482079b22296cb00973ed3f7b820b6e205595d"
+    },
+    {
+      "file": "Textures/RGB/xqw_fsaucer.tga",
+      "sha256": "c967d28dc933da6ea13174e2f6a8657355fa89a5434c43313cd1d596bbae45b5"
+    },
+    {
+      "file": "Textures/RGB/xqw_fscorp.tga",
+      "sha256": "2814da2a2cf074d63124d07e6ccec1d229f122190023db35a5ebd72a15d40377"
+    },
+    {
+      "file": "Textures/RGB/xqw_fscout.tga",
+      "sha256": "4b5b5eba7119d8e962e43ac85a4a488e4d620f7306a5acf2b2c3b295f2b3f6b4"
+    },
+    {
+      "file": "Textures/RGB/xqw_fsent.tga",
+      "sha256": "51b9456911e21edfda47e24e14f79af01d1f04473b29963a60155de3908b4eca"
+    },
+    {
+      "file": "Textures/RGB/xqw_fshadow.tga",
+      "sha256": "12cd0cac39f9af3fe4a269b42b76b66336455b422a0d90cac1c7233455df693e"
+    },
+    {
+      "file": "Textures/RGB/xqw_fshak.tga",
+      "sha256": "3490cc51c6f1202e42b478df6502d36faa9f7b37a4e42f8822f2728056c24967"
+    },
+    {
+      "file": "Textures/RGB/xqw_fsovx.tga",
+      "sha256": "6af60ba049dc68ffc70535785c84da9f653544de4ec2a2ea39eb3a46da496a82"
+    },
+    {
+      "file": "Textures/RGB/xqw_fspecial.tga",
+      "sha256": "ce1ff502b2241ed0c48782aaaccd1a00d01aee6ee0ff4268ed8f1dcb0d8f7f94"
+    },
+    {
+      "file": "Textures/RGB/xqw_fspectre.tga",
+      "sha256": "74ae85a8fec219ed87afea711db8a97338e331e7ad5daf3b9cb01756db3085da"
+    },
+    {
+      "file": "Textures/RGB/xqw_fsrepair.tga",
+      "sha256": "429030252209bd12b50c270a6558e7f27df0834fafd278cadfd190f86711431a"
+    },
+    {
+      "file": "Textures/RGB/xqw_ftengen.tga",
+      "sha256": "a4182991545ce87a6fa810b12a26cffaf7d44d9a577fd76a10d687c0abc90773"
+    },
+    {
+      "file": "Textures/RGB/xqw_fvalour.tga",
+      "sha256": "f06e7cb02d7513d56335b259dc601644c2327fe984bddd5bf351ba20d988960b"
+    },
+    {
+      "file": "Textures/RGB/xqw_fvoyager.tga",
+      "sha256": "4fc5d45177039bd63c6bab45fb01181e20c1badb290ee1eff660d96f041a31cf"
+    },
+    {
+      "file": "Textures/RGB/xqw_gcutter.tga",
+      "sha256": "b1f80aace9c4406d11a45023ae6029e1c0ddc10098a0c76f9b2b1770ecd4419d"
+    },
+    {
+      "file": "Textures/RGB/xqw_jemdest.tga",
+      "sha256": "d33d01077da35039a2906d9f087562f70a2f40a9555f56c295f5494602c32c45"
+    },
+    {
+      "file": "Textures/RGB/xqw_jemdest2.tga",
+      "sha256": "094f0430f862268e97f5429f438dba240989d2ddf19b6cb803d76d4582930ee9"
+    },
+    {
+      "file": "Textures/RGB/xqw_kassault.tga",
+      "sha256": "75b55e391ce246a2b9dc1e019cdd12b4b802cadabfd2c0e1d09a90dfab0e35ef"
+    },
+    {
+      "file": "Textures/RGB/xqw_kavorcha.tga",
+      "sha256": "74f4f80fc8c1bdf0352032472deed3df8c40eb588f41c71c2eaedd498f0d0f35"
+    },
+    {
+      "file": "Textures/RGB/xqw_kbatleth.tga",
+      "sha256": "51ced0eaf171be0368b63320d9700ed0b0c0b9b50fe482e51d95775c03de919e"
+    },
+    {
+      "file": "Textures/RGB/xqw_kbattle.tga",
+      "sha256": "2c10c780a066ce4c88d862d2de9e21c192abe406e3e096bfe7bd7cbc63a64957"
+    },
+    {
+      "file": "Textures/RGB/xqw_kbattle2.tga",
+      "sha256": "89846025d6ab48223a8a8183821b4b770a87e2fc398a636bf38282882512c281"
+    },
+    {
+      "file": "Textures/RGB/xqw_kbekta.tga",
+      "sha256": "8efee57ac7266edba3623b6c4e43760985b22b851a0f7a057a92956e7d3c281e"
+    },
+    {
+      "file": "Textures/RGB/xqw_kbwing.tga",
+      "sha256": "abd5867e9f05c222a124c34b5489f9554ea837d82665ad971cf4b0eb8b0e6142"
+    },
+    {
+      "file": "Textures/RGB/xqw_kcargo.tga",
+      "sha256": "e6eb2cb4c512825dec3038616c56b2f777f9b2850e7a76dd3d58b4eeae7b8ea9"
+    },
+    {
+      "file": "Textures/RGB/xqw_kcolony.tga",
+      "sha256": "22c6256287ea1273cb95aa5992d40af0e64b0e522fc8dff070a5f42bad5d6af7"
+    },
+    {
+      "file": "Textures/RGB/xqw_kconst.tga",
+      "sha256": "a3ebb27b47b142e303c4f1027594bd0a36b6b3c262f0ba00d34dd4195cf67eae"
+    },
+    {
+      "file": "Textures/RGB/xqw_kconst2.tga",
+      "sha256": "96bfe0e825384271f0be11f2296be7a800ff392adee9c93c4b9af29dc7be9720"
+    },
+    {
+      "file": "Textures/RGB/xqw_kcruise1.tga",
+      "sha256": "5ce2b8c4818964a65a8652444f416433879544d087f3e43c98834c72916e9251"
+    },
+    {
+      "file": "Textures/RGB/xqw_kcruise2.tga",
+      "sha256": "6ae73b1561c5c78eafc4fe98f73d84b4707cf1ef11122e14900b10c175b8c1ac"
+    },
+    {
+      "file": "Textures/RGB/xqw_kcruise3.tga",
+      "sha256": "6629a915f8a03416caf984a94f1a1b34e4c0da6d022e825b9d4093a2d76e4b64"
+    },
+    {
+      "file": "Textures/RGB/xqw_kcruise4.tga",
+      "sha256": "0a916baa218aaae45abf6e710cbecfcc4ad0b156c4b773252a0cb301b347c12f"
+    },
+    {
+      "file": "Textures/RGB/xqw_kdestroy.tga",
+      "sha256": "2da687f7fe49feb9f777cf5929d4c03a2e7ff1a29dcb1d6bcc3aff8fb8024ef5"
+    },
+    {
+      "file": "Textures/RGB/xqw_kdestroy2.tga",
+      "sha256": "ff32f9633b7de891e3dcf1e1026d63ef9a31a6529db5042c7c616f67fa090230"
+    },
+    {
+      "file": "Textures/RGB/xqw_kdestroy4.tga",
+      "sha256": "401208f4c3cad5693595902194a375984f7f56e73f13967c03596b98dba9d071"
+    },
+    {
+      "file": "Textures/RGB/xqw_ken_special.tga",
+      "sha256": "ce1ff502b2241ed0c48782aaaccd1a00d01aee6ee0ff4268ed8f1dcb0d8f7f94"
+    },
+    {
+      "file": "Textures/RGB/xqw_kfreight.tga",
+      "sha256": "0c76775a6c9cecb19a6b3800eabce088aee5b1fca919891aee68ab0829ed98ce"
+    },
+    {
+      "file": "Textures/RGB/xqw_kfrigate.tga",
+      "sha256": "c09f86636f5103add1fa8226330467446d899db8ac0b5a32edb342a01fa18ee2"
+    },
+    {
+      "file": "Textures/RGB/xqw_kgunboat.tga",
+      "sha256": "272ce8df622d4d2b2ee1412afa2caa4fa24aa5b73f3e74e3b39df3ce36ab08ba"
+    },
+    {
+      "file": "Textures/RGB/xqw_kimpbakt.tga",
+      "sha256": "07d9d597a526243802459e2ab8019e95dd4e3514098c56f029d4c4913459c2c7"
+    },
+    {
+      "file": "Textures/RGB/xqw_kimpben.tga",
+      "sha256": "452d00ff9bfb57c848ce2342827ea4cbe42113fb5419cfea101cf9e8c9de8ceb"
+    },
+    {
+      "file": "Textures/RGB/xqw_kimphut.tga",
+      "sha256": "a2b645d3be1f5e6d7d12a0f47645c45a903338796ba36a45b7e4f233a63b1f20"
+    },
+    {
+      "file": "Textures/RGB/xqw_kimpkoto.tga",
+      "sha256": "6ec9bb85b9cc82473bdedede0c529cb9dd545a70b071a20aaebd28a57f0d73ba"
+    },
+    {
+      "file": "Textures/RGB/xqw_kimpmakd.tga",
+      "sha256": "2967037e3a568d7f7e070da860f2e67f4635cf047eb3bc76a64d4e9058a0e046"
+    },
+    {
+      "file": "Textures/RGB/xqw_kimpnegh.tga",
+      "sha256": "64d187ae233711ac002781176dd8d51039d57e6309949b317bb3784946f9dfef"
+    },
+    {
+      "file": "Textures/RGB/xqw_kimpnook.tga",
+      "sha256": "da88f4a38763fb7f32af29140c1f19ddf18157348528482d1e944e44238e14fe"
+    },
+    {
+      "file": "Textures/RGB/xqw_kimpvorc.tga",
+      "sha256": "fdc8a3f8e460c7239ed1bee6c791c9ca80025e158c10926bd6c1f430d49caf26"
+    },
+    {
+      "file": "Textures/RGB/xqw_kmartok.tga",
+      "sha256": "6eb4bd6c0ac73665578a4a26fc398a26973e89df5ba9c3a2bffb63fc305e713e"
+    },
+    {
+      "file": "Textures/RGB/xqw_kquon.tga",
+      "sha256": "fc4c5f865a3234fb65d4b94e1a5ab1687cf98d9b63f263283960a12c4d4d99e3"
+    },
+    {
+      "file": "Textures/RGB/xqw_kscout.tga",
+      "sha256": "b30ffd61c7aabb61be471a3040770b8e192d03ff4570af15b7f10d2ce9e952d2"
+    },
+    {
+      "file": "Textures/RGB/xqw_kspecial.tga",
+      "sha256": "958cd824f6056f45d15777a5ac958303d4c5e222b571d72da3db9e9075218e26"
+    },
+    {
+      "file": "Textures/RGB/xqw_ksrepair.tga",
+      "sha256": "7e82f3b3b5ea7c58c6f5ede95021b0f1f5b790ec1916ba42d7a96cd016463cdc"
+    },
+    {
+      "file": "Textures/RGB/xqw_ksuper.tga",
+      "sha256": "04b60787b43a32099cc8d262ac9894ee2957b6657f00de640e29db7be977ec29"
+    },
+    {
+      "file": "Textures/RGB/xqw_kvodleh.tga",
+      "sha256": "e86195d5ccc2fce0b1252e856d5d85db4e7e555bf8eb784b2c46b758add520a7"
+    },
+    {
+      "file": "Textures/RGB/xqw_kvood.tga",
+      "sha256": "13acee19edae59dc801245745803b69bc21e8f879c572fdcc6f2d3ba13c0fd47"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc000.tga",
+      "sha256": "56074d28eee9590e0c5f9c82f8e4b296387dd8989e7a11055e87bcc5ec1ca527"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc001.tga",
+      "sha256": "56074d28eee9590e0c5f9c82f8e4b296387dd8989e7a11055e87bcc5ec1ca527"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc003.tga",
+      "sha256": "209293f3d7e00940729d09717924d62a439f58708f3b8d0353b50dcd01880777"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc004.tga",
+      "sha256": "bcc1d87679b333859e66e49eefa150aa8d999d2f813f6aa89790f7151924413e"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc005.tga",
+      "sha256": "db84ea39b28b43198f5e033e0129fc659796342a0f599c8ff8c2bdf801d321e8"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc006.tga",
+      "sha256": "df80063be5c762156c38ca334fc79c73559946acf08494d88c0e3a0686eaf1b1"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc007.tga",
+      "sha256": "6510b14d60e1fc3b233f1b7ef4cc9ba31bd1821015ce1130f320dd24b30b57e2"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc008.tga",
+      "sha256": "c93cd428b6ad54e6f3fd190308869ade21d7fe2b0f7c1f20bbc9477226ac339d"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc009.tga",
+      "sha256": "c42063bb9f0e16c1b0b3128a4c772b0b77baeb9c9194700b3fe2d85a56572b28"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc010.tga",
+      "sha256": "4b8f1659b89c0ab4d6ae4f78d2e1b3bfb837aee0f6ae18cda88f6e177d1b11a9"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc011.tga",
+      "sha256": "aa7e5a65760767a4b671c530f8c5091f8315035e2d54e91740d04bb78c28b4f4"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc012.tga",
+      "sha256": "490cd4d16b730beb86d871253a2cbb13826863f0f52f46c1b18400a2083ee27b"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc013.tga",
+      "sha256": "59b377dfec928f95d99b8a73c43f304f873aeca54a4d55025934da309d1ca8ad"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc014.tga",
+      "sha256": "6f2556e66a0da81e853113db06adf9f143468d0787c1b5b2b4fa779de37dd83e"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc015.tga",
+      "sha256": "5fbac4d94918443b61f2c200fc168f1e5b38aa7b6c3b3a87c28575cd4a5b44ff"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc016.tga",
+      "sha256": "84335d2da5e3059f0afff71b55284beb51adbbdfb5cd2ace2cee8633b3e13fd0"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc017.tga",
+      "sha256": "0f52c2108683cd0435057c7ec0adee69e201d9714f4ba9cf5197994cd2e5cccd"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc018.tga",
+      "sha256": "5e17979fd878aa6da8987fce83468a5290f469677b61ce206e40e9d146fda384"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc019.tga",
+      "sha256": "4607e7156fca5966964057ca0e9d6c07bdd7256951c60d799e774ffe32b472be"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc020.tga",
+      "sha256": "dbc292040b2f5ae428a9cdfea66642c4bcd23aca7f1c4ba3a36d70fd87585627"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc021.tga",
+      "sha256": "f36f73a53cf360d36b2864576d140a17e30cdf3ce7e611ee84c52c644731d756"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc022.tga",
+      "sha256": "ccb068139cd36bbe92947d463d921a6812be8756249892e5fcd2a39070b74fd6"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc023.tga",
+      "sha256": "09c906f3cc4c25f6e60f15dc2e1d7518e4e3032185b72680934830ffbb2432d4"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc024.tga",
+      "sha256": "b4c0063fcc302787df15232313d932ecb2ea63d8d63d2f2cd5d74429e711a944"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc025.tga",
+      "sha256": "72be8a05963211c72a042d6c8f852824e293cc86b6aa0ac43e8e3b69bf0e291d"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc026.tga",
+      "sha256": "3d400060eb997e5106b95399ff70c3f12ba47e73c55149c9b20fcf7e626e7dad"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc027.tga",
+      "sha256": "3911ad37112c6634e58d890119808907c3ad9e7d1b941faa570729aa305271df"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc028.tga",
+      "sha256": "0e58102863cf140fac1b2fdc8f20db6721c053888808ef49b1b5bd8109c37efd"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc029.tga",
+      "sha256": "52e5425e22a79e6e7c7d950691808f63c88498d620b834e9c97e775b1713484a"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc030.tga",
+      "sha256": "c2c79871619b5c50e822c4b9e35cac47bb50f286c013823a3392afa786e0999c"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc031.tga",
+      "sha256": "381459e399b247b9620f035ac5dd7c1107ff00580bea521b369482dc7ecd3dfc"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc032.tga",
+      "sha256": "df80063be5c762156c38ca334fc79c73559946acf08494d88c0e3a0686eaf1b1"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc033.tga",
+      "sha256": "72be8a05963211c72a042d6c8f852824e293cc86b6aa0ac43e8e3b69bf0e291d"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc034.tga",
+      "sha256": "80c2571b184b2c5e1aa92a96388929a990328289ae15c4b94f699cecdc6a2e0b"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc035.tga",
+      "sha256": "e64013a96996a15febb541f47f1473ad1ff3ed0f6fc9cae5296b2660f381def1"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc036.tga",
+      "sha256": "8327af112eb97139560c104350cee12fe0cef30eedd4c417ee8df42e33c9c503"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc037.tga",
+      "sha256": "490cd4d16b730beb86d871253a2cbb13826863f0f52f46c1b18400a2083ee27b"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc038.tga",
+      "sha256": "aa7e5a65760767a4b671c530f8c5091f8315035e2d54e91740d04bb78c28b4f4"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc039.tga",
+      "sha256": "5fbac4d94918443b61f2c200fc168f1e5b38aa7b6c3b3a87c28575cd4a5b44ff"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc040.tga",
+      "sha256": "4b8f1659b89c0ab4d6ae4f78d2e1b3bfb837aee0f6ae18cda88f6e177d1b11a9"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc041.tga",
+      "sha256": "c42063bb9f0e16c1b0b3128a4c772b0b77baeb9c9194700b3fe2d85a56572b28"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc042.tga",
+      "sha256": "59b377dfec928f95d99b8a73c43f304f873aeca54a4d55025934da309d1ca8ad"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc043.tga",
+      "sha256": "6f2556e66a0da81e853113db06adf9f143468d0787c1b5b2b4fa779de37dd83e"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc044.tga",
+      "sha256": "8e2b348fc8be2ee99d3c2f5f0ccffce14f558c7f98ebb84c3e8b90417d53b42d"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc045.tga",
+      "sha256": "1fcdfa0b92ed2d14eec826aea23a44aa66d08edf26518a240479da88b3c7548d"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc046.tga",
+      "sha256": "dbc292040b2f5ae428a9cdfea66642c4bcd23aca7f1c4ba3a36d70fd87585627"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc047.tga",
+      "sha256": "bdbeaf822f4efffd9fcee7f2e1d69f4a1c85b298a46fd8e888554032e7d462e8"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc048.tga",
+      "sha256": "a7edee9fe88bc41b1a8c202d092cb5e04df9a58af421adc624b2c681b6b03a4c"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc049.tga",
+      "sha256": "fbe5be374fcf2bda7b3f8f73ca2ff9a7d5ee308a2674f256a0b522b526268116"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc050.tga",
+      "sha256": "41865e2ea7f57815734c4e65751ea39855697aaa1f3c5a3783c25f41f16315ee"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc051.tga",
+      "sha256": "2693107aec1e11c27890d5fd8f8ed3a78032d9462cebbffe2caaded056712f45"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc052.tga",
+      "sha256": "31dd1bab565797ef97ddbb3d9100c60268c692195f205883e97bb98287854cf1"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc053.tga",
+      "sha256": "1ad88f876173f78e462b99db261cb56c020d8e3cf85c71b6f4def25a0212ee89"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc054.tga",
+      "sha256": "d79bd2a7c1505e474332587f7f1a27aa769a76a8472c252df9a3a8ed06a5c1ea"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc055.tga",
+      "sha256": "f2a9f05183701d9845ba24354d338e8c886add95a706a1e6fc2ac870e3e6cc67"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc056.tga",
+      "sha256": "2c45845df036447333ff2b8db97e6d81f00043e66859383b0091e78641b5eb11"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc057.tga",
+      "sha256": "688252c41205165dbef1b4fea270ea4d8f5e04f68bcd2c0b34e08cc6900e4394"
+    },
+    {
+      "file": "Textures/RGB/xqw_mrc058.tga",
+      "sha256": "209293f3d7e00940729d09717924d62a439f58708f3b8d0353b50dcd01880777"
+    },
+    {
+      "file": "Textures/RGB/xqw_rassault.tga",
+      "sha256": "849b6e31740bb0b275481f7f045eea67f90a583a7a179bf5fea75491b07235b6"
+    },
+    {
+      "file": "Textures/RGB/xqw_rbattle.tga",
+      "sha256": "a73f1088185d00edadc4728aacd5d0a66511ec6f99dea3bd9fff892c72c91d38"
+    },
+    {
+      "file": "Textures/RGB/xqw_rbattle2.tga",
+      "sha256": "f453ace8f40da01cb618c7a5e0c15fd5d31655763e9f0d67eb92eb1177993140"
+    },
+    {
+      "file": "Textures/RGB/xqw_rcargo.tga",
+      "sha256": "fad2c7c8ab87659d53df0b462e30fcf3a37faa4b334be1234128b26175af9712"
+    },
+    {
+      "file": "Textures/RGB/xqw_rcent.tga",
+      "sha256": "713a78fcd2809218aacb79cd7c89a6889ae74b5cf223608f818e0f759fe1302d"
+    },
+    {
+      "file": "Textures/RGB/xqw_rcolony.tga",
+      "sha256": "6189cdc693c24d8922b817fc816d7ccd873baf046f84e58a0e87d7ba0cc80493"
+    },
+    {
+      "file": "Textures/RGB/xqw_rconst.tga",
+      "sha256": "2c1710471f5a03a13596eda26bc35421af187e6f575624c2e19391edd533566d"
+    },
+    {
+      "file": "Textures/RGB/xqw_rconst2.tga",
+      "sha256": "c25ecc7a4eb399b991b46d926c15c56d940f7d33844fa61bcd8719440d74f1c8"
+    },
+    {
+      "file": "Textures/RGB/xqw_rcruise1.tga",
+      "sha256": "c30cf83f86f1be692501fe767debe1cba008bb22612231754f05c4731a690031"
+    },
+    {
+      "file": "Textures/RGB/xqw_rcruise2.tga",
+      "sha256": "e0b02fb20e138d9b4a6ef034fe87b8ad6039d0ff388dc322e2bbe04cbfe1c8c4"
+    },
+    {
+      "file": "Textures/RGB/xqw_rcruise3.tga",
+      "sha256": "a7643a081dcb3f38476ef929a8c084bf66ae951aad87c9fe84dcd73d3ec266c1"
+    },
+    {
+      "file": "Textures/RGB/xqw_rcruise4.tga",
+      "sha256": "a172302a3d82b67bace7be8630001aeaea1e7f3593c0b9d6601107f7f402dc33"
+    },
+    {
+      "file": "Textures/RGB/xqw_rdestr1.tga",
+      "sha256": "8cad07eeb613e2c1ddb7e8be84e537296c5b143ef861855eb6b4663037166130"
+    },
+    {
+      "file": "Textures/RGB/xqw_rdestroy.tga",
+      "sha256": "ac1f0c619f84c945ff905affbd6bc8d5091e0bd14f5275616d8627f7c9833b87"
+    },
+    {
+      "file": "Textures/RGB/xqw_rdread.tga",
+      "sha256": "bdb13795e4a842db6c8c9eaee742c28b09d158ae583b3edd000bb478cca33665"
+    },
+    {
+      "file": "Textures/RGB/xqw_rdtaris.tga",
+      "sha256": "60ae54ab9dd1e825fba8088891304305dbf7ab213588152371eb688c183f68dc"
+    },
+    {
+      "file": "Textures/RGB/xqw_rdverix.tga",
+      "sha256": "b48bcac609b1cea5fda14b357a05911743de48783664a408759df9ff63974ae5"
+    },
+    {
+      "file": "Textures/RGB/xqw_rfreight.tga",
+      "sha256": "e3950c57794c4df6586f1beaf7a6878eb20bf001f07cd062a1844dd0869b39ca"
+    },
+    {
+      "file": "Textures/RGB/xqw_rfrigate.tga",
+      "sha256": "eb814c43b95878fe642dde0bcb79bd341e1527855aa76f2a11207e8a297f3266"
+    },
+    {
+      "file": "Textures/RGB/xqw_rktinga.tga",
+      "sha256": "88420547a11f511ad49461642de9adde27fa0348ad04c68a640fcfdfbc67b408"
+    },
+    {
+      "file": "Textures/RGB/xqw_rscout.tga",
+      "sha256": "7fc08468e66cf1d52d57bc362db3e43f109d2689862b0d7c3f079cd0cad16cce"
+    },
+    {
+      "file": "Textures/RGB/xqw_rscruise.tga",
+      "sha256": "6d204456efe458d565349fe8d86cda61ac5d1f9a2eaa0290c80219a4cc684605"
+    },
+    {
+      "file": "Textures/RGB/xqw_rspecial.tga",
+      "sha256": "09429448a4a0c60082fe4240dd5bc11b9c4473dbc8f6b4f512ce2926ccb884d2"
+    },
+    {
+      "file": "Textures/RGB/xqw_rsrepair.tga",
+      "sha256": "66fe4f45c6b1e12b4ef4bf25e10d1460cc25998308092a5ed88091beae28a2fa"
+    },
+    {
+      "file": "Textures/RGB/xqw_rsuper.tga",
+      "sha256": "441ce5c83ba07d57bfcd9a2c4b98d00dd196ae01aa6fce5ed74902a00eae7745"
+    },
+    {
+      "file": "Textures/RGB/xqw_rtsbcru.tga",
+      "sha256": "e515a16dce47730171f73c65dfe24bf38b1a822e55e6060ee40ba64714ead971"
+    },
+    {
+      "file": "Textures/RGB/xqw_rtscout.tga",
+      "sha256": "5fec32d5803e435562a3d0596ef6a7de3ffe4e99c21b0741308f8da5cfcd01a9"
+    },
+    {
+      "file": "Textures/RGB/xqw_rtscru2.tga",
+      "sha256": "37c612113d00d2b3abf2bf235000825ee4f484b17a5f0b3b3c645e1397e1bff1"
+    },
+    {
+      "file": "Textures/RGB/xqw_rtscruis.tga",
+      "sha256": "b058e1a716bbbea07ab2cb2f7b0e0d30a51d92e9ec67868a0f3b3be17e022c13"
+    },
+    {
+      "file": "Textures/RGB/xqw_rtsdest.tga",
+      "sha256": "2befcdd24f8195b81f15252eac89742ac9ac354ff62c9032070004c42f681f67"
+    },
+    {
+      "file": "Textures/RGB/xqw_rtsdread.tga",
+      "sha256": "b2c3148d64d0ab0c3e537d4439f5a1be363662901d7d650a472e6bc0e5a419dc"
+    },
+    {
+      "file": "Textures/RGB/xqw_rtspec.tga",
+      "sha256": "71bbffaf6eed4678ef1782bb383735d53c32c74ca88097acad376c0da8a7a5b7"
+    },
+    {
+      "file": "Textures/RGB/xqw_rtswarb.tga",
+      "sha256": "52fe8201a99bf57bd178f995c6cad4a3fe4fee0652e2b51df43234acc3afd1c1"
+    },
+    {
+      "file": "Textures/RGB/xqw_sonabat.tga",
+      "sha256": "8ee614cd7bd5d01460c2c5c3db1b52470db4ac36282f18c277502b4ce73a6432"
+    },
+    {
+      "file": "Textures/RGB/xqw_sonadest.tga",
+      "sha256": "d5b29dca935cebb0b78023d8d4045530899f5063e6d6474b77dcafc2a78353a0"
+    },
+    {
+      "file": "Textures/RGB/xqw_sovereign.tga",
+      "sha256": "5ca9bd1540d0b91cc567920d50d452349ce62c10b8fd758bde38e350295f939b"
+    },
+    {
+      "file": "Textures/RGB/xqw_tcube.tga",
+      "sha256": "371b0875184035e8bef34ec2a9fbc11618538dc065b035b6fa23f553fa97a737"
+    },
+    {
+      "file": "Textures/RGB/xqw_uconst.tga",
+      "sha256": "c5140cbc2800e4b46a4241b9abd12b52ab070358853f689d6f746c1ca9d1c765"
+    },
+    {
+      "file": "Textures/RGB/xqw_xbassimold.tga",
+      "sha256": "411d3cb14a5ee9100c29533ac9022e0f64ee381391969f85595f7fa6276c4d77"
+    },
+    {
+      "file": "Textures/RGB/xqw_xbgbatt.tga",
+      "sha256": "48390907fa6b7090c509d5e11950840ba1640bd2159dc982a74eba0c861e6753"
+    },
+    {
+      "file": "Textures/RGB/xqw_xbgcolony.tga",
+      "sha256": "ca23cba4505aa51b36bcd9f967a062b2c67f02ade4b0219b61a2d26ec3030f58"
+    },
+    {
+      "file": "Textures/RGB/xqw_xbgconst.tga",
+      "sha256": "8222805e28d38196df245eab8bbb19a2196f89593595c394e894b26b228f9d49"
+    },
+    {
+      "file": "Textures/RGB/xqw_xbgcruis.tga",
+      "sha256": "05e0246869c3abcb4d1bb098d3627c4d11c34a7852cdb5d79ab817c2457fd842"
+    },
+    {
+      "file": "Textures/RGB/xqw_xbgdaim.tga",
+      "sha256": "a5d8ed3bf93fb061bb8bc2fbac358071c70da5ab9e20fb2c28648fd15f3307cb"
+    },
+    {
+      "file": "Textures/RGB/xqw_xbgdest.tga",
+      "sha256": "f8c5c6ae34a5d974fb350f1c79cac29b0703cbc1be5d012adbfa3bf1b45458db"
+    },
+    {
+      "file": "Textures/RGB/xqw_xbgdil2.tga",
+      "sha256": "77a7883494aae907691e29797d06c47066c5f39413f097edb2ea90f8161190bb"
+    },
+    {
+      "file": "Textures/RGB/xqw_xbgdil3.tga",
+      "sha256": "77a7883494aae907691e29797d06c47066c5f39413f097edb2ea90f8161190bb"
+    },
+    {
+      "file": "Textures/RGB/xqw_xbgfight.tga",
+      "sha256": "a0bdeb23cd1f9f7d0cbd05a6ac3ec06aa6d9db1eaae18a773a849c714336cd7e"
+    },
+    {
+      "file": "Textures/RGB/xqw_xbgfrig.tga",
+      "sha256": "93fb7ebfce8ab8ed9f5d876718c987a5e22a9c48b8d7c6157181ffa586fb91c0"
+    },
+    {
+      "file": "Textures/RGB/xqw_xbgmine.tga",
+      "sha256": "77a7883494aae907691e29797d06c47066c5f39413f097edb2ea90f8161190bb"
+    },
+    {
+      "file": "Textures/RGB/xqw_xbgnagus.tga",
+      "sha256": "3e29a1461fc8197ca76182cf106acd11a82ce831e13941943b91b67b08cd3b68"
+    },
+    {
+      "file": "Textures/RGB/xqw_xbgquark.tga",
+      "sha256": "d708845fdde919e274090a57f89559a8a2a71f6c7033f7bbab0fe14b4a8de735"
+    },
+    {
+      "file": "Textures/RGB/xqw_xbgrepair.tga",
+      "sha256": "16c346335b1a21eeaf8e38e1dacfacf884bfb0b8928053eb0d30a9998846f2de"
+    },
+    {
+      "file": "Textures/RGB/xqw_xbgrom.tga",
+      "sha256": "63c2c62cf8574edbf55415ab03eeeb7d03273907275ee231a8eed94b5377effe"
+    },
+    {
+      "file": "Textures/RGB/xqw_xbrconst2.tga",
+      "sha256": "cd06099671c416315bfdfcb71a341b3a6bb42ed1b3eeb2e7f14f45b9355a9b6b"
+    },
+    {
+      "file": "Textures/RGB/xqw_xbrepair.tga",
+      "sha256": "56879d5922dfc6b85622aacfeb2b80c0e6498fd34303b95ecc74ec68753c8386"
+    },
+    {
+      "file": "Textures/RGB/xqw_xbruconst.tga",
+      "sha256": "04caeeb483e80b4820d5fff11d7ca60fca1ad98a64d45a2f7bc7aedd46bf094f"
+    },
+    {
+      "file": "Textures/RGB/xqw_xbuconst.tga",
+      "sha256": "c5140cbc2800e4b46a4241b9abd12b52ab070358853f689d6f746c1ca9d1c765"
+    },
+    {
+      "file": "Textures/RGB/xqw_xcconst2.tga",
+      "sha256": "2400420277d1d374ef866f8f7f9fd10e5ec7393af1d4aff9309b4e565c6c62f2"
+    },
+    {
+      "file": "Textures/RGB/xqw_xcdconst.tga",
+      "sha256": "37371b68d92e00ca2baad207af8796b4f38ef2e8c526b176573fbc02a98c330f"
+    },
+    {
+      "file": "Textures/RGB/xqw_xcduniv.tga",
+      "sha256": "6eb24247d4b8558f6ed44787f6f9fd6f12aab3a55ddf1d790733a548d59e6a89"
+    },
+    {
+      "file": "Textures/RGB/xqw_xcgarak.tga",
+      "sha256": "cb6e5bfeea171ebe2601dc0bed7fb1f4d76e67db4685d90c3edbbd4b4737d087"
+    },
+    {
+      "file": "Textures/RGB/xqw_xcuconst.tga",
+      "sha256": "c477fd2c854e54ee2ea3f5d55ab192e532bf90662e542a5257b0a8902e0c5ed9"
+    },
+    {
+      "file": "Textures/RGB/xqw_xdcarrier.tga",
+      "sha256": "46f7bed21fb1fb6ac9628ed79bf4376d8b8fef292af3676c0d95880d01ab3085"
+    },
+    {
+      "file": "Textures/RGB/xqw_xdconst2.tga",
+      "sha256": "85e89fc837c8453912cb131bf8b4219c5c9d01d73aee0da7c4cf86cc07bb061d"
+    },
+    {
+      "file": "Textures/RGB/xqw_xdhattack.tga",
+      "sha256": "ebda35838f80a93ee433396455466c7d396a2138c0d39d96d3e7415886f9554b"
+    },
+    {
+      "file": "Textures/RGB/xqw_xdjacht.tga",
+      "sha256": "d7cb8bf84530862f4d53a348b8871adfcd3d0d14137b2f7aece3d4e28dac0cb4"
+    },
+    {
+      "file": "Textures/RGB/xqw_xdocargo.tga",
+      "sha256": "842be24fb153dc72a93321420d372af4f0bf426e9a628d9ed0d34d8434aa172a"
+    },
+    {
+      "file": "Textures/RGB/xqw_xdofighter.tga",
+      "sha256": "8876a609a707dada512a7ac90241ebb3d231cd487ad0d45b3ef9499d5f0fe9fb"
+    },
+    {
+      "file": "Textures/RGB/xqw_xdofrigate.tga",
+      "sha256": "dff09874de6b767fae467f3abb099b627263e1d38d7a7761f4f218dc0c6bf3da"
+    },
+    {
+      "file": "Textures/RGB/xqw_xdominer.tga",
+      "sha256": "9fcb7d64e9b78b7c2480cb26d31cf4b2eac96d10dc3447ed554301db6fa6fc21"
+    },
+    {
+      "file": "Textures/RGB/xqw_xduconst.tga",
+      "sha256": "6eb24247d4b8558f6ed44787f6f9fd6f12aab3a55ddf1d790733a548d59e6a89"
+    },
+    {
+      "file": "Textures/RGB/xqw_xfgbatt.tga",
+      "sha256": "7cde0aa3ba814d3fd71f87ef52a67c41a1a086d175aec39de3e2981a0eaca56b"
+    },
+    {
+      "file": "Textures/RGB/xqw_xfgcolony.tga",
+      "sha256": "626e1c270eb3635f78b48abe9f442d15ed22f01647246e983c242dbd4852c1ff"
+    },
+    {
+      "file": "Textures/RGB/xqw_xfgconst.tga",
+      "sha256": "263aa615c7cc2342505a8927e0b182513f285f17db595bd9aff1130291df1970"
+    },
+    {
+      "file": "Textures/RGB/xqw_xfgcruis.tga",
+      "sha256": "2dcbe5a8712b37a9f08351ce34bc760a3bdb2774b98c83ef1b1d381242f79cfc"
+    },
+    {
+      "file": "Textures/RGB/xqw_xfgdaim.tga",
+      "sha256": "32af8eb7f4ad4df58bc9ada713b31548dc9da226902151cba1654b5bf8469cef"
+    },
+    {
+      "file": "Textures/RGB/xqw_xfgdest.tga",
+      "sha256": "8e8633974bda97615bead7ef1149dba63d7af376a50962d11f3e1c8c6bf4fa61"
+    },
+    {
+      "file": "Textures/RGB/xqw_xfgdil2.tga",
+      "sha256": "65bdb35267c850be32e4e25e8eb69db6cacde97a18d187755b5cd02f3a215fd9"
+    },
+    {
+      "file": "Textures/RGB/xqw_xfgdil3.tga",
+      "sha256": "65bdb35267c850be32e4e25e8eb69db6cacde97a18d187755b5cd02f3a215fd9"
+    },
+    {
+      "file": "Textures/RGB/xqw_xfgfight.tga",
+      "sha256": "efab1a44187838bf9381581cbffbf159d5a86bcf8033671a8ab7c7d59beb97f0"
+    },
+    {
+      "file": "Textures/RGB/xqw_xfgfrig.tga",
+      "sha256": "f6a9f8c1aa2d64eda6a3d1bcf7fc194d85a83aa02801ee0380cb6dd4f55f56ce"
+    },
+    {
+      "file": "Textures/RGB/xqw_xfglat2.tga",
+      "sha256": "48a741be14e0d0bdf0b13ae20675a23d874fc3559a13e42409d11640fd2b1f35"
+    },
+    {
+      "file": "Textures/RGB/xqw_xfglat3.tga",
+      "sha256": "48a741be14e0d0bdf0b13ae20675a23d874fc3559a13e42409d11640fd2b1f35"
+    },
+    {
+      "file": "Textures/RGB/xqw_xfgmine.tga",
+      "sha256": "65bdb35267c850be32e4e25e8eb69db6cacde97a18d187755b5cd02f3a215fd9"
+    },
+    {
+      "file": "Textures/RGB/xqw_xfgnagus.tga",
+      "sha256": "cefdbbebd8022552921a566e7a1cb8aa57728eb6f7db5865ce774a7e844a6db2"
+    },
+    {
+      "file": "Textures/RGB/xqw_xfgquark.tga",
+      "sha256": "34b0a62c593cb52521cbb22b3dd3e527e8f6e6b2d5d9bc79bf77ecef6651dff8"
+    },
+    {
+      "file": "Textures/RGB/xqw_xfgrepair.tga",
+      "sha256": "55f20e2a1f6911e5778a049958b6ce4934ebfa39ac8aca908b79ef7af269d6c3"
+    },
+    {
+      "file": "Textures/RGB/xqw_xfgrom.tga",
+      "sha256": "a4f072179e155e95340d981367dc9727730a133debbee49f4379bcf288883ebb"
+    },
+    {
+      "file": "Textures/RGB/xqw_xfgtrade.tga",
+      "sha256": "16845d154ed71211d6f9e4670ed1387c488d2b77af3e3ec24e74d5704b0db2be"
+    },
+    {
+      "file": "Textures/RGB/xqw_xfuconst.tga",
+      "sha256": "3d8760826e1b1404fe52f39f78eb5f8f4922bd71a158931f684dd2969a7f9cc5"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhbqueen.tga",
+      "sha256": "018ba14b48ea97dd3ac3ddcab9b565c72ef2b4c614fca1694e761003a88e8298"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhbrhero.tga",
+      "sha256": "76ca9b6db20a1baf8b8657613cd7426b41181965f72d6a2dfa58e74ac0883c63"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhchero.tga",
+      "sha256": "fc7676cdd34382160436f37c0e4b05a179f72a921a20b8726dd520b4608a96e0"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhdhero.tga",
+      "sha256": "1d8a33d0c67df9fdc2f4e51284a9b0dfef719c4bbfca8dab1626e6a3a467c047"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhdjacht.tga",
+      "sha256": "d7cb8bf84530862f4d53a348b8871adfcd3d0d14137b2f7aece3d4e28dac0cb4"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhdlaan.tga",
+      "sha256": "9c584e9c307e4ee915e039777a81fa069ab455e18054d28ebf61ca60cb86499a"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhdodo.tga",
+      "sha256": "a384da29617b2e5f19d805eb9285ab8119ac209e14c83aeace893d4c96404b45"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhfdaedalus.tga",
+      "sha256": "97603ca5c11be11558b42b1279fe72479f1e0fbcc04b6c00d5a332a16f28c597"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhfgarrett.tga",
+      "sha256": "8bf707bda6bb1240e2920c013aead26d30bd97f1616ad48d583a5330a06e648b"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhfharriman.tga",
+      "sha256": "a4f23278334b3c73bda1c6e1823ccd15cd3bdaa99c5535b281fdf55c3aaf28e1"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhfhero.tga",
+      "sha256": "49c91a2d21621e3cca6b80145c5674f1e4f96873994d7ecc0b52478361728a88"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhfkirkrefit.tga",
+      "sha256": "93384cc18b845694b1c1e82c6dcb7b40c57ad7f8c91c0c274434c3d8766381e7"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhfkirktos.tga",
+      "sha256": "045975244ff5a96b3b1c0b8ea916f5255c733e72a6b8b16d322738d2e898aa10"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhfpicardd.tga",
+      "sha256": "7badeef6ecd38367acc7dc9e3d7f5b43d42a6fab25559045dbb94554ea79be95"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhfriker.tga",
+      "sha256": "094628a0cffb8b70046016b901c9e6d3657aeafbd63b3545a9dbbdee672a4b91"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhftitan.tga",
+      "sha256": "605e12401e39ad7ca457de28c267f72b9f5cdff0a54ac028ced32fcda53e2873"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhgarak.tga",
+      "sha256": "dc18314d4160ea756550feda8058abb197d870c0e6f7d816d8016b019382e051"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhkhero.tga",
+      "sha256": "6eb4bd6c0ac73665578a4a26fc398a26973e89df5ba9c3a2bffb63fc305e713e"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhkold7.tga",
+      "sha256": "93779e1fde9fee48f0cd1b3db185cd674a9b5464c3c80e8221d1f361379ffb33"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhkraptor.tga",
+      "sha256": "d2fd03cbef11b99e4df4167ad9040c9d24f3b6547dd154904166e1540f2f9d4f"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhrdonatra.tga",
+      "sha256": "e270b25490dbd0baa527926b3dada344c51747962277a479515a1ab7e4187884"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhrearlybird.tga",
+      "sha256": "785461d47bad8a9226e9abe7d661f07ded186ecd7a85b84a695e76518c968353"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhrhero.tga",
+      "sha256": "dc4f52a649f9feae12a9f288f88a3a10fa56c2430248654fd4d8b4529521571a"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhrshinzon.tga",
+      "sha256": "76afd6ea8645a48bf9b4bddaa4a24e6863b8076fac2c8eae3bb774e506020325"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhrtosbird.tga",
+      "sha256": "b6f4198d0be8ec1b1f11c542958dae34800be438cd7398b08d87da74b04d58ea"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhs_leviathan.tga",
+      "sha256": "15b6cab71ba54cb2259702b552622f21b1ad378f3598fb65675cb6e1a0a5658e"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhs_sentinel.tga",
+      "sha256": "67794954b5dbdfbb3c857ca96f0468ab6303df678ada238f61455516c953c0c6"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhs_vanguard.tga",
+      "sha256": "cceed160584b41b689bfbd1e3111595892c8312774b85eba2586f527ae7f9161"
+    },
+    {
+      "file": "Textures/RGB/xqw_xhshero.tga",
+      "sha256": "1a23d238fb4baecc4ccbe80eb8477788a5a72eac3ddbdc9f10bb5048f2c60842"
+    },
+    {
+      "file": "Textures/RGB/xqw_xkuconst.tga",
+      "sha256": "2c0053eb704897ad8d5fd8987ff4ba90f2b460cf3580f8e3b1b5b33c8aa95163"
+    },
+    {
+      "file": "Textures/RGB/xqw_xobbattle1.tga",
+      "sha256": "aafd4e474e3dfa5ed1811b7712da10e01af484f25a1dfad43cc402b403c42037"
+    },
+    {
+      "file": "Textures/RGB/xqw_xobbattle2.tga",
+      "sha256": "f840354ed91f68da371d0f0b1be700c79a060f936b7ca549bd485dfe790b815d"
+    },
+    {
+      "file": "Textures/RGB/xqw_xobcruise1.tga",
+      "sha256": "890a2fc152485cb1a458e56b0dfb2652f5c860fda992a76d4267c8a7e8a12c59"
+    },
+    {
+      "file": "Textures/RGB/xqw_xoblocutus.tga",
+      "sha256": "ea2134d9973803ad1a95182f9a43227441c4b43ac60625fb166eee97ffd86a6a"
+    },
+    {
+      "file": "Textures/RGB/xqw_xofbattle.tga",
+      "sha256": "c0cff676dd66d28f4b5fe100fa7b7ae2b65e1be9cea14dd75de9567d3c9b4c94"
+    },
+    {
+      "file": "Textures/RGB/xqw_xofdestroy.tga",
+      "sha256": "d1d87ecddf511b625bc9d16d3891cefa21de404303f274bd761cce1dee32d352"
+    },
+    {
+      "file": "Textures/RGB/xqw_xofgalaxy.tga",
+      "sha256": "62f60bc92baf2c8f525e1184e13b2fde8d63d12b41ca2c5125aa79c8f2812168"
+    },
+    {
+      "file": "Textures/RGB/xqw_xofprom.tga",
+      "sha256": "195e010e107220c8ff10708029ef2fef02d81d611d4676b4c1be5df1f00e482b"
+    },
+    {
+      "file": "Textures/RGB/xqw_xruconst.tga",
+      "sha256": "d79eb01b70275b0a2fc6a09de3f2f957877fc74c955d8ab55846d047099bf407"
+    },
+    {
+      "file": "Textures/RGB/xqw_xsbcol1.tga",
+      "sha256": "2536c7f7a088ca8e6b0a81cfd0ff6ff2601a2b8330e75b3b20e8ab9b855d2a51"
+    },
+    {
+      "file": "Textures/RGB/xqw_xsbcol2.tga",
+      "sha256": "2536c7f7a088ca8e6b0a81cfd0ff6ff2601a2b8330e75b3b20e8ab9b855d2a51"
+    },
+    {
+      "file": "Textures/RGB/xqw_xsuconst.tga",
+      "sha256": "73f0daad0df05a1a3b8b12a5f174b8534bb7325e29f44a85b78aaf453adaabe6"
+    },
+    {
+      "file": "Textures/RGB/xqw_xu3bor2.tga",
+      "sha256": "c5140cbc2800e4b46a4241b9abd12b52ab070358853f689d6f746c1ca9d1c765"
+    },
+    {
+      "file": "Textures/RGB/xqw_xu3fed2.tga",
+      "sha256": "3d8760826e1b1404fe52f39f78eb5f8f4922bd71a158931f684dd2969a7f9cc5"
+    },
+    {
+      "file": "Textures/RGB/xqw_xu3fer2.tga",
+      "sha256": "263aa615c7cc2342505a8927e0b182513f285f17db595bd9aff1130291df1970"
+    },
+    {
+      "file": "Textures/RGB/xqw_zfercarg.tga",
+      "sha256": "0d2ba59582ceaa2beb8fc0b89c2d0788c4016c336dfe9ed9c57e2e596b2392bc"
+    },
+    {
+      "file": "Textures/RGB/xqw_zferscav.tga",
+      "sha256": "7a1a494f691dbbe4842d6737f2b00b17553eb477e1238d0bd3ab26407351dd5c"
+    },
+    {
+      "file": "Textures/RGB/xqw_zflag.tga",
+      "sha256": "b81974158fda2ed0b1e66fb1bdb012c58517a1499754dfb29e72e765b0bde80c"
+    },
+    {
+      "file": "Sprites/gui_global.spr",
+      "sha256": "4b5fddacec03d9f4b4f572de1f6d6cb47db3a8b0da82f8c910e866c665db79d6"
+    }
+  ],
+  "ODFsAndGameplayChanged": false,
+  "runtimeVerified": false
+}
