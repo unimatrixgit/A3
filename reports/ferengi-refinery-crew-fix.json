@@ -1,0 +1,25 @@
+{
+  "applied": true,
+  "backup": "D:/Xaramada-Modwork/backups/ferengi-refinery-crew-2026-10-25T06-41-11-880Z",
+  "refineries": [
+    {
+      "unit": "xfgdref",
+      "oldCrewCost": 100,
+      "newCrewCost": 200,
+      "automaticMiner": "xfgdil2",
+      "minerCrew": 100,
+      "expectedRemainingCrew": 100,
+      "maximumCrew": 200
+    },
+    {
+      "unit": "xbgdref",
+      "oldCrewCost": 100,
+      "newCrewCost": 200,
+      "automaticMiner": "xbgdil2",
+      "minerCrew": 100,
+      "expectedRemainingCrew": 100,
+      "maximumCrew": 200
+    }
+  ],
+  "runtimeVerified": false
+}

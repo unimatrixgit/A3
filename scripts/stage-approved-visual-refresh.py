@@ -58,7 +58,7 @@ for prefix,race in [('xfg','ferengi'),('xbg','borg')]:
  items.append(second);settext(Path(P[serv]['file']).relative_to(root).as_posix(),menu(source_text(serv),items))
  # New refinery inherits a working native MiningStation and uses the existing tiered miners.
  f=source_text('fmining');P[ref]={**P['fmining'],'file':str(root/'odf/stations'/(ref+'.odf')),'race':race,'unitname':'Ferengi Dilithium Exchange'}
- vals={'unitName':q('Ferengi Dilithium Exchange'),'tooltip':q('Ferengi Dilithium Exchange'),'race':q(race),'freighterName':q(prefix+'dil2'),'resourcesCanHandle':q('dilithium'),'latinumCost':400 if prefix=='xfg'else 0,'dilithiumCost':240 if prefix=='xbg'else 0,'metalCost':160 if prefix=='xbg'else 0,'biomatterCost':0,'crewCost':100,'maximumCrew':200,'buildTime':60,'verboseTooltip':q('Ferengi Dilithium Exchange\\nDilithium unloading and processing\\nRefined crystals turn opportunity into profit.')}
+ vals={'unitName':q('Ferengi Dilithium Exchange'),'tooltip':q('Ferengi Dilithium Exchange'),'race':q(race),'freighterName':q(prefix+'dil2'),'resourcesCanHandle':q('dilithium'),'latinumCost':400 if prefix=='xfg'else 0,'dilithiumCost':240 if prefix=='xbg'else 0,'metalCost':160 if prefix=='xbg'else 0,'biomatterCost':0,'crewCost':200,'maximumCrew':200,'buildTime':60,'verboseTooltip':q('Ferengi Dilithium Exchange\\nDilithium unloading and processing\\nRefined crystals turn opportunity into profit.')}
  for k,v in vals.items():f=put(f,k,v)
  settext('odf/stations/'+ref+'.odf',f);add(ref,'dilref','ferengi',1,'fmining')
  gameplay.append({'type':'Ferengi constructor split','primary':first,'primaryMenu':economy,'secondary':second,'secondaryCost':{'latinum':700}if race=='ferengi'else{'dilithium':420,'metal':280},'newRefinery':ref})
