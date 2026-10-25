@@ -1,0 +1,210 @@
+{
+  "status": "DESIGN ONLY - NOT DEPLOYED",
+  "source": "D:\\armadaIII\\odf\\stations\\xbtarray.odf",
+  "name": "Iconian Battle Array",
+  "baselineStats": {
+    "shielddelay": "0.01f",
+    "maxspecialenergy": "200000",
+    "specialenergyrate": "20000",
+    "rangescan": "15000.0f",
+    "damagedscan": "100.0f",
+    "footprintbuffer": "100.0f",
+    "attackpower": "1.0f",
+    "repairyellow": "2.0f",
+    "repairred": "4.0f",
+    "shieldgeneratorhitpoints": "1000",
+    "engineshitpoints": "1000",
+    "weaponshitpoints": "1000",
+    "lifesupporthitpoints": "1000",
+    "sensorshitpoints": "1000",
+    "engineshitpercent": "0.0f",
+    "lifesupporthitpercent": "10.5f",
+    "weaponshitpercent": "10.0f",
+    "shieldgeneratorhitpercent": "13.0f",
+    "sensorshitpercent": "13.0f",
+    "crewhitpercent": "13.5f",
+    "hullhitpercent": "40.0f",
+    "enginesrepairtime": "1.0f",
+    "lifesupportrepairtime": "0.1f",
+    "weaponsrepairtime": "2.0f",
+    "shieldgeneratorrepairtime": "2.0f",
+    "sensorsrepairtime": "3.0f",
+    "enginescrewloss": "0.0f",
+    "lifesupportcrewloss": "10.0f",
+    "weaponscrewloss": "5.0f",
+    "shieldgeneratorcrewloss": "15.0f",
+    "sensorscrewloss": "5.0f",
+    "lifesupportloss": "5.0f",
+    "is_starbase": "1",
+    "avoidanceclass": "1000",
+    "weldingradius": "1.0",
+    "ainame": "StarbaseProcess",
+    "fireball": "xfirebal",
+    "facility": "1",
+    "has_crew": "1",
+    "has_hitpoints": "1",
+    "checkvalidresourceinterval": "10.0f",
+    "buildtime": "500.0",
+    "officercost": "50",
+    "crewcost": "5000",
+    "maximumcrew": "5000",
+    "maxcrewgain": "30000",
+    "dilithiumcost": "9500",
+    "metalcost": "16500",
+    "officergain": "0",
+    "maximumupgrades": "6",
+    "maxhealth": "22000",
+    "shieldrate": "1460",
+    "shieldprotection": "1.0",
+    "buildhardpoint": "build",
+    "intrinsicvalue": "2.00f",
+    "weaponyellow": "1.5f",
+    "weaponred": "2.5f",
+    "classlabel": "starbase",
+    "combat": "1",
+    "alert": "1",
+    "transporter": "1",
+    "builder_ship": "1",
+    "show_movement_autonomy": "1",
+    "show_sw_autonomy": "1",
+    "latinumcost": "0",
+    "biomattercost": "0",
+    "hotkeylabel": "HOTKEY_F12",
+    "enginestargethardpoints": "hp67\" \"hp66\" \"hp65\" \"hp64\" \"hp63\" \"hp62",
+    "lifesupporttargethardpoints": "hp67\" \"hp66\" \"hp65\" \"hp64\" \"hp63\" \"hp62",
+    "weaponstargethardpoints": "hp67\" \"hp66\" \"hp65\" \"hp64\" \"hp63\" \"hp62",
+    "shieldgeneratortargethardpoints": "hp67\" \"hp66\" \"hp65\" \"hp64\" \"hp63\" \"hp62",
+    "sensorstargethardpoints": "hp67\" \"hp66\" \"hp65\" \"hp64\" \"hp63\" \"hp62",
+    "hulltargethardpoints": "hp67\" \"hp66\" \"hp65\" \"hp64\" \"hp63\" \"hp62",
+    "criticaltargethardpoints": "hp67\" \"hp66\" \"hp65\" \"hp64\" \"hp63\" \"hp62"
+  },
+  "conventionalCost": {
+    "dilithium": 9500,
+    "metal": 16500,
+    "crew": 5000
+  },
+  "baselineWeapons": {
+    "beams": 6,
+    "torpedoes": 4
+  },
+  "excludedBorgAbilities": [
+    "xbarraywarp",
+    "xbarrayhold"
+  ],
+  "note": "Original Borg Tactical Battle Array remains separate with its original abilities. Clone combat statistics from the Borg baseline; use faction-matched weapons only after verifying equivalent damage and timing. Species 8472 economy and production require a compatible biomatter implementation. No deployment, tech unlocking or extra abilities are implied by this concept.",
+  "variants": [
+    {
+      "race": "federation",
+      "displayName": "Iconian Battle Array",
+      "specialAbilities": [
+        {
+          "odf": "gcorbom",
+          "name": "Corbomite Reflector"
+        }
+      ],
+      "transwarp": false,
+      "visualTheme": "Shared ancient Iconian geometric core, faction-specific hull and integrated yard and dilithium intake",
+      "status": "Ability sources verified; awaiting model implementation"
+    },
+    {
+      "race": "klingon",
+      "displayName": "Iconian Battle Array",
+      "specialAbilities": [
+        {
+          "odf": "gplasmac",
+          "name": "Ion Cannon"
+        }
+      ],
+      "transwarp": false,
+      "visualTheme": "Shared ancient Iconian geometric core, faction-specific hull and integrated yard and dilithium intake",
+      "status": "Ability sources verified; awaiting model implementation"
+    },
+    {
+      "race": "romulan",
+      "displayName": "Iconian Battle Array",
+      "specialAbilities": [
+        {
+          "odf": "grcloak",
+          "name": "Cloak"
+        }
+      ],
+      "transwarp": false,
+      "visualTheme": "Shared ancient Iconian geometric core, faction-specific hull and integrated yard and dilithium intake",
+      "status": "Ability sources verified; awaiting model implementation"
+    },
+    {
+      "race": "cardassian",
+      "displayName": "Iconian Battle Array",
+      "specialAbilities": [
+        {
+          "odf": "gcloak",
+          "name": "Cloak"
+        },
+        {
+          "odf": "gplasmabank",
+          "name": "Plasma Bank Overload"
+        }
+      ],
+      "transwarp": false,
+      "visualTheme": "Shared ancient Iconian geometric core, faction-specific hull and integrated yard and dilithium intake",
+      "status": "Ability sources verified; awaiting model implementation"
+    },
+    {
+      "race": "dominion",
+      "displayName": "Iconian Battle Array",
+      "specialAbilities": [
+        {
+          "odf": "gdcteam",
+          "name": "Jem'Hadar Warriors"
+        }
+      ],
+      "transwarp": false,
+      "visualTheme": "Shared ancient Iconian geometric core, faction-specific hull and integrated yard and dilithium intake",
+      "status": "Ability sources verified; awaiting model implementation"
+    },
+    {
+      "race": "bajoran",
+      "displayName": "Iconian Battle Array",
+      "specialAbilities": [],
+      "transwarp": false,
+      "visualTheme": "Shared ancient Iconian geometric core, faction-specific hull and integrated yard and dilithium intake",
+      "status": "Visual concept; no extra faction ability requested"
+    },
+    {
+      "race": "species8472",
+      "displayName": "Iconian Battle Array",
+      "specialAbilities": [],
+      "transwarp": false,
+      "visualTheme": "Shared ancient Iconian geometric core, faction-specific hull and integrated yard and dilithium intake",
+      "status": "Visual concept; no extra faction ability requested"
+    },
+    {
+      "race": "breen",
+      "displayName": "Iconian Battle Array",
+      "specialAbilities": [],
+      "transwarp": false,
+      "visualTheme": "Shared ancient Iconian geometric core, faction-specific hull and integrated yard and dilithium intake",
+      "status": "Visual concept; no extra faction ability requested"
+    },
+    {
+      "race": "ferengi",
+      "displayName": "Iconian Battle Array",
+      "specialAbilities": [],
+      "transwarp": false,
+      "visualTheme": "Shared ancient Iconian geometric core, faction-specific hull and integrated yard and dilithium intake",
+      "status": "Visual concept; no extra faction ability requested"
+    }
+  ],
+  "integrationChecklist": [
+    "Faction constructor production slot",
+    "Faction builders and DIL freighter in array production menu",
+    "Tech tree availability",
+    "Build and queue icons",
+    "Full-image status portrait",
+    "Ability energy and buttons",
+    "Valid model hardpoints",
+    "DIL docking and deposit support",
+    "No starter changes",
+    "Static validation followed by gameplay test"
+  ]
+}

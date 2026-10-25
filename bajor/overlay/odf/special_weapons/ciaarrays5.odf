@@ -1,0 +1,72 @@
+//Display name for this weapon
+wpnName = "Cloak"
+tooltip = "ROM_CLOAK"
+verboseTooltip = "ROM_CLOAK_V"
+
+//Location of the button in the speed panel
+
+
+// location of the button in the popup palette
+
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 2
+
+//Time Delay between shots - not used
+shotDelay = 0.0
+
+// Special stuff - denote special weapon
+special = 1
+
+// Range within which the weapon will fire - not used.
+range = 0.0f
+
+// Sound which is played when the weapon fires - a.k.a. the ship cloaks.
+fireSound = "clkengag.wav"
+
+// Sound which is played when the weapon turns off - a.k.a. the ship decloaks.
+offSound = "clkdisen.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "cloakingdevice"
+
+// Chance of hitting the target. - not used
+hitChance = 1.00
+
+// Special energy cost for the cloaking device
+specialEnergyCost = 100
+
+// Set the time for effect
+effectTimer = 3.0f
+
+// Set the step size of radians
+stepSize = 0.0004f
+
+// Set unsafeCloakDistance
+unsafeCloakDistance = 400.0f
+
+//This weapon can trigger while cloaked
+cloakEnable = 1
+
+// This weapon can be triggered while warping without dropping from warp
+warpEnable = 1
+
+//Don't switch to attack mode upon cloaking
+switchToAttack = 0
+
+//Amount of transparency when fully cloaked (this is in addition to additive blending)
+transparency = 0.0
+
+// Do not say "attack" when turned on.
+attackSpeech = 0;
+
+// All races and craft that can cloak use a derivative of this .odf
+
+buttonSlot = 5
+
+popupSlot = 6
+
+hotkeyLabel = "HOTKEY_F5"

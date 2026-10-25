@@ -26523,11 +26523,11 @@ b_xbarraywarp			gbtwarpd00		0	0	64	64
 @tmaterial=default
 
 @reference=256
-xbtarrayw1 wfxbtarray 0 0 256 256
-xbtarrayw2 wfxbtarray 0 0 256 256
-xbtarrayw3 wfxbtarray 0 0 256 256
-xbtarrayw4 wfxbtarray 0 0 256 256
-xbtarrayw5 wfxbtarray 0 0 256 256
+
+
+
+
+
 
 @reference=64
 @tmaterial=default
@@ -33189,7 +33189,7 @@ b_xbruconst xuiatlas11 64 256 64 64
 
 @reference=512
 @tmaterial=default
-b_xbtarray xuiatlas11 128 256 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -46944,3 +46944,177 @@ zflagw4 xqw_zflag 0 0 64 64
 @reference=64
 @tmaterial=default
 zflagw5 xqw_zflag 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_fiaarrays4			gbcorbom00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_fiaarray gbia26_fiaarray 0 0 64 64
+b_ia26_fiaarray gbia26_fiaarray 0 0 64 64
+fiaarrayw1 wfia26_fiaarray 0 0 64 64
+fiaarrayw2 wfia26_fiaarray 0 0 64 64
+fiaarrayw3 wfia26_fiaarray 0 0 64 64
+fiaarrayw4 wfia26_fiaarray 0 0 64 64
+fiaarrayw5 wfia26_fiaarray 0 0 64 64
+ia26_fiaarrayw1 wfia26_fiaarray 0 0 64 64
+ia26_fiaarrayw2 wfia26_fiaarray 0 0 64 64
+ia26_fiaarrayw3 wfia26_fiaarray 0 0 64 64
+ia26_fiaarrayw4 wfia26_fiaarray 0 0 64 64
+ia26_fiaarrayw5 wfia26_fiaarray 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_kiaarrays4			gbplasmac00		0	0	64	64			
+
+@reference=64
+@tmaterial=default
+b_kiaarray gbia26_kiaarray 0 0 64 64
+b_ia26_kiaarray gbia26_kiaarray 0 0 64 64
+kiaarrayw1 wfia26_kiaarray 0 0 64 64
+kiaarrayw2 wfia26_kiaarray 0 0 64 64
+kiaarrayw3 wfia26_kiaarray 0 0 64 64
+kiaarrayw4 wfia26_kiaarray 0 0 64 64
+kiaarrayw5 wfia26_kiaarray 0 0 64 64
+ia26_kiaarrayw1 wfia26_kiaarray 0 0 64 64
+ia26_kiaarrayw2 wfia26_kiaarray 0 0 64 64
+ia26_kiaarrayw3 wfia26_kiaarray 0 0 64 64
+ia26_kiaarrayw4 wfia26_kiaarray 0 0 64 64
+ia26_kiaarrayw5 wfia26_kiaarray 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_riaarrays5			gbcloak00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_riaarray gbia26_riaarray 0 0 64 64
+b_ia26_riaarray gbia26_riaarray 0 0 64 64
+riaarrayw1 wfia26_riaarray 0 0 64 64
+riaarrayw2 wfia26_riaarray 0 0 64 64
+riaarrayw3 wfia26_riaarray 0 0 64 64
+riaarrayw4 wfia26_riaarray 0 0 64 64
+riaarrayw5 wfia26_riaarray 0 0 64 64
+ia26_riaarrayw1 wfia26_riaarray 0 0 64 64
+ia26_riaarrayw2 wfia26_riaarray 0 0 64 64
+ia26_riaarrayw3 wfia26_riaarray 0 0 64 64
+ia26_riaarrayw4 wfia26_riaarray 0 0 64 64
+ia26_riaarrayw5 wfia26_riaarray 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_ciaarrays4		gbplasmabank00	0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ciaarrays5			gbcloak00		0	0	64	64		
+
+@reference=64
+@tmaterial=default
+b_ciaarray gbia26_ciaarray 0 0 64 64
+b_ia26_ciaarray gbia26_ciaarray 0 0 64 64
+ciaarrayw1 wfia26_ciaarray 0 0 64 64
+ciaarrayw2 wfia26_ciaarray 0 0 64 64
+ciaarrayw3 wfia26_ciaarray 0 0 64 64
+ciaarrayw4 wfia26_ciaarray 0 0 64 64
+ciaarrayw5 wfia26_ciaarray 0 0 64 64
+ia26_ciaarrayw1 wfia26_ciaarray 0 0 64 64
+ia26_ciaarrayw2 wfia26_ciaarray 0 0 64 64
+ia26_ciaarrayw3 wfia26_ciaarray 0 0 64 64
+ia26_ciaarrayw4 wfia26_ciaarray 0 0 64 64
+ia26_ciaarrayw5 wfia26_ciaarray 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_diaarrays4			gbjemwarriors	0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_diaarray gbia26_diaarray 0 0 64 64
+b_ia26_diaarray gbia26_diaarray 0 0 64 64
+diaarrayw1 wfia26_diaarray 0 0 64 64
+diaarrayw2 wfia26_diaarray 0 0 64 64
+diaarrayw3 wfia26_diaarray 0 0 64 64
+diaarrayw4 wfia26_diaarray 0 0 64 64
+diaarrayw5 wfia26_diaarray 0 0 64 64
+ia26_diaarrayw1 wfia26_diaarray 0 0 64 64
+ia26_diaarrayw2 wfia26_diaarray 0 0 64 64
+ia26_diaarrayw3 wfia26_diaarray 0 0 64 64
+ia26_diaarrayw4 wfia26_diaarray 0 0 64 64
+ia26_diaarrayw5 wfia26_diaarray 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_bjiaarray gbia26_bjiaarray 0 0 64 64
+b_ia26_bjiaarray gbia26_bjiaarray 0 0 64 64
+bjiaarrayw1 wfia26_bjiaarray 0 0 64 64
+bjiaarrayw2 wfia26_bjiaarray 0 0 64 64
+bjiaarrayw3 wfia26_bjiaarray 0 0 64 64
+bjiaarrayw4 wfia26_bjiaarray 0 0 64 64
+bjiaarrayw5 wfia26_bjiaarray 0 0 64 64
+ia26_bjiaarrayw1 wfia26_bjiaarray 0 0 64 64
+ia26_bjiaarrayw2 wfia26_bjiaarray 0 0 64 64
+ia26_bjiaarrayw3 wfia26_bjiaarray 0 0 64 64
+ia26_bjiaarrayw4 wfia26_bjiaarray 0 0 64 64
+ia26_bjiaarrayw5 wfia26_bjiaarray 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_siaarray gbia26_siaarray 0 0 64 64
+b_ia26_siaarray gbia26_siaarray 0 0 64 64
+siaarrayw1 wfia26_siaarray 0 0 64 64
+siaarrayw2 wfia26_siaarray 0 0 64 64
+siaarrayw3 wfia26_siaarray 0 0 64 64
+siaarrayw4 wfia26_siaarray 0 0 64 64
+siaarrayw5 wfia26_siaarray 0 0 64 64
+ia26_siaarrayw1 wfia26_siaarray 0 0 64 64
+ia26_siaarrayw2 wfia26_siaarray 0 0 64 64
+ia26_siaarrayw3 wfia26_siaarray 0 0 64 64
+ia26_siaarrayw4 wfia26_siaarray 0 0 64 64
+ia26_siaarrayw5 wfia26_siaarray 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_briaarray gbia26_briaarray 0 0 64 64
+b_ia26_briaarray gbia26_briaarray 0 0 64 64
+briaarrayw1 wfia26_briaarray 0 0 64 64
+briaarrayw2 wfia26_briaarray 0 0 64 64
+briaarrayw3 wfia26_briaarray 0 0 64 64
+briaarrayw4 wfia26_briaarray 0 0 64 64
+briaarrayw5 wfia26_briaarray 0 0 64 64
+ia26_briaarrayw1 wfia26_briaarray 0 0 64 64
+ia26_briaarrayw2 wfia26_briaarray 0 0 64 64
+ia26_briaarrayw3 wfia26_briaarray 0 0 64 64
+ia26_briaarrayw4 wfia26_briaarray 0 0 64 64
+ia26_briaarrayw5 wfia26_briaarray 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_fgiaarray gbia26_fgiaarray 0 0 64 64
+b_ia26_fgiaarray gbia26_fgiaarray 0 0 64 64
+fgiaarrayw1 wfia26_fgiaarray 0 0 64 64
+fgiaarrayw2 wfia26_fgiaarray 0 0 64 64
+fgiaarrayw3 wfia26_fgiaarray 0 0 64 64
+fgiaarrayw4 wfia26_fgiaarray 0 0 64 64
+fgiaarrayw5 wfia26_fgiaarray 0 0 64 64
+ia26_fgiaarrayw1 wfia26_fgiaarray 0 0 64 64
+ia26_fgiaarrayw2 wfia26_fgiaarray 0 0 64 64
+ia26_fgiaarrayw3 wfia26_fgiaarray 0 0 64 64
+ia26_fgiaarrayw4 wfia26_fgiaarray 0 0 64 64
+ia26_fgiaarrayw5 wfia26_fgiaarray 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xbtarray gbia26_xbtarray 0 0 64 64
+b_ia26_xbtarray gbia26_xbtarray 0 0 64 64
+xbtarrayw1 wfia26_xbtarray 0 0 64 64
+xbtarrayw2 wfia26_xbtarray 0 0 64 64
+xbtarrayw3 wfia26_xbtarray 0 0 64 64
+xbtarrayw4 wfia26_xbtarray 0 0 64 64
+xbtarrayw5 wfia26_xbtarray 0 0 64 64
+ia26_xbtarrayw1 wfia26_xbtarray 0 0 64 64
+ia26_xbtarrayw2 wfia26_xbtarray 0 0 64 64
+ia26_xbtarrayw3 wfia26_xbtarray 0 0 64 64
+ia26_xbtarrayw4 wfia26_xbtarray 0 0 64 64
+ia26_xbtarrayw5 wfia26_xbtarray 0 0 64 64

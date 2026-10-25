@@ -11,7 +11,7 @@
 
 
 //Race which can build ship & starting race of ship
-race = "borg"
+
 
 //Amount of time required to build ship
 buildTime = 500.0
@@ -56,7 +56,7 @@ specialEnergyRate = 20000
 shieldProtection = 1.0
 
 //Possible Craft Names
-possibleCraftNames = 
+
 	"NX38-98647" "NX38-42443" "NX38-48689" "NX38-97945"
 	"NX38-52468" "NX38-12275" "NX38-80571" "NX38-12157"
 	"NX38-45262" "NX38-8675309" "NX38-76168" "NX38-94657"
@@ -138,7 +138,7 @@ possibleCraftNames =
 
 
 //Hardpoint location for building.
-buildHardpoint = "build"
+
 //**********************************************************************
 
 //**********************************************************************
@@ -251,11 +251,11 @@ SHOW_SW_AUTONOMY = 1
 rangeScan = 15000.0f
 shieldDelay = 0.01f
 
-baseName = "xbtarray"
 
-unitName = "Borg Tactical Battle Array"
 
-tooltip = "Borg Tactical Battle Array"
+
+
+
 
 
 
@@ -263,74 +263,160 @@ latinumCost = 0
 
 biomatterCost = 0
 
-hotkeyLabel = "HOTKEY_F12"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ia26_xbtarray"
+
+race = "borg"
+
+unitName = "Borg Tactical Battle Array"
+
+tooltip = "Borg Tactical Battle Array"
+
+possibleCraftNames = "Collective Battle Array"
+
+buildHardpoint = "iabuild"
+
+dockingHardpoint = "iadock"
+
+repairfacility = 0
+
+freighterName = "bfreight"
+
+resourcesCanHandle = "dilithium"
+
+dilithiumTransferRate = 30
+
+biomatterTransferRate = 0
+
+hotkeyLabel = "HOTKEY_F6"
+
+enginesTargetHardpoints = "iagun01" "iagun02" "iagun03" "iagun04" "iagun05" "iagun06"
+
+lifeSupportTargetHardpoints = "iagun01" "iagun02" "iagun03" "iagun04" "iagun05" "iagun06"
+
+weaponsTargetHardpoints = "iagun01" "iagun02" "iagun03" "iagun04" "iagun05" "iagun06"
+
+shieldGeneratorTargetHardpoints = "iagun01" "iagun02" "iagun03" "iagun04" "iagun05" "iagun06"
+
+sensorsTargetHardpoints = "iagun01" "iagun02" "iagun03" "iagun04" "iagun05" "iagun06"
+
+hullTargetHardpoints = "iagun01" "iagun02" "iagun03" "iagun04" "iagun05" "iagun06"
+
+criticalTargetHardpoints = "iagun01" "iagun02" "iagun03" "iagun04" "iagun05" "iagun06"
 
 weapon1 = "bb3phas"
-
-weaponHardpoints1 = "hp67"
+weaponHardpoints1 = "iagun01"
 
 weapon2 = "bb3phas"
-
-weaponHardpoints2 = "hp66"
+weaponHardpoints2 = "iagun02"
 
 weapon3 = "bb3phas"
-
-weaponHardpoints3 = "hp65"
+weaponHardpoints3 = "iagun03"
 
 weapon4 = "bb3phas"
-
-weaponHardpoints4 = "hp64"
+weaponHardpoints4 = "iagun04"
 
 weapon5 = "bb3phas"
-
-weaponHardpoints5 = "hp63"
+weaponHardpoints5 = "iagun05"
 
 weapon6 = "bb3phas"
-
-weaponHardpoints6 = "hp62"
+weaponHardpoints6 = "iagun06"
 
 weapon7 = "bb3phot"
-
-weaponHardpoints7 = "hp61"
+weaponHardpoints7 = "iagun07"
 
 weapon8 = "bb3phot"
-
-weaponHardpoints8 = "hp60"
+weaponHardpoints8 = "iagun08"
 
 weapon9 = "bb3phot"
-
-weaponHardpoints9 = "hp59"
+weaponHardpoints9 = "iagun09"
 
 weapon10 = "bb3phot"
-
-weaponHardpoints10 = "hp58"
+weaponHardpoints10 = "iagun10"
 
 weapon11 = "xbarrayhold"
-
-weaponHardpoints11 = "hp57"
+weaponHardpoints11 = "iagun11"
 
 weapon12 = "xbarraywarp"
-
-weaponHardpoints12 = "hp56"
-
-enginesTargetHardpoints = "hp67" "hp66" "hp65" "hp64" "hp63" "hp62"
-
-lifeSupportTargetHardpoints = "hp67" "hp66" "hp65" "hp64" "hp63" "hp62"
-
-weaponsTargetHardpoints = "hp67" "hp66" "hp65" "hp64" "hp63" "hp62"
-
-shieldGeneratorTargetHardpoints = "hp67" "hp66" "hp65" "hp64" "hp63" "hp62"
-
-sensorsTargetHardpoints = "hp67" "hp66" "hp65" "hp64" "hp63" "hp62"
-
-hullTargetHardpoints = "hp67" "hp66" "hp65" "hp64" "hp63" "hp62"
-
-criticalTargetHardpoints = "hp67" "hp66" "hp65" "hp64" "hp63" "hp62"
-
-
-
-
-
+weaponHardpoints12 = "iagun12"
 
 buildItem0 = "bconst"
 
@@ -340,4 +426,4 @@ buildItem2 = "xbuconst"
 
 buildItem3 = "bfreight"
 
-verboseTooltip = "Borg Tactical Battle Array\nGreen Holding / Assimilation Beam, Transwarp Drive\nA node in the vast machinery of the Collective."
+verboseTooltip = "Borg Tactical Battle Array\nGreen Holding / Assimilation Beam, Transwarp Drive\nAncient architecture reforged for a new empire."

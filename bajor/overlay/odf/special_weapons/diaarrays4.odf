@@ -1,0 +1,71 @@
+//Name of the ODF file for the ordinance for this weapon
+ordName = "kcteam"
+
+//Display name for this weapon
+wpnName = "Jem'Hadar Warriors"
+
+//tooltips
+tooltip = "Jem'Hadar Warriors"
+verboseTooltip = "A team of Jem'Hadar warriors used for boarding operations."
+
+//Location of the button in the speed panel
+
+
+// location of the button in the popup palette
+
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 10
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+// Special
+special = 1
+
+//Time Delay between shots
+shotDelay = 5.0f
+
+// Range within which the weapon will fire.
+range = 400.0f
+
+//Sound which is played when the weapon fires
+fireSound = "swkcommf.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "launcher"
+
+// Chance to hit.
+hitChance = 1.0f
+
+// need a target?
+needTarget = 1
+
+//this special weapon can be assimilated by the borg tech assimilator
+
+
+// to allow multiple commando teams to be fired at once
+// don't check to see if is valid as target
+ignoreValidAsTarget = 1
+
+
+// don't let others attack this either
+forceInvalidateTarget = 1
+
+// don't start attacking when you use this weapon
+// its a take-over attempt
+switchToAttack = 0
+
+
+
+buttonSlot = 4
+
+popupSlot = 5
+
+hotkeyLabel = "HOTKEY_F4"
+
+assimilatable = "dompod2"

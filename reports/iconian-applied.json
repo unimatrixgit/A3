@@ -1,0 +1,520 @@
+{
+  "status": "APPLIED - AWAITING GAMEPLAY TEST",
+  "stage": "D:\\Xaramada-Modwork\\iconian-battle-array-stage",
+  "overlay": "D:\\Xaramada-Modwork\\iconian-battle-array-stage\\overlay",
+  "units": [
+    {
+      "unit": "fiaarray",
+      "race": "federation",
+      "model": "ia26_fiaarray",
+      "triangles": 1392,
+      "production": [
+        "fconst",
+        "fconst2",
+        "xfuconst",
+        "ffreight"
+      ],
+      "abilities": [
+        "Corbomite Reflector"
+      ],
+      "constructor": "fconst2",
+      "transwarp": false,
+      "energy": 200000,
+      "energyRecharge": 20000,
+      "health": 22000,
+      "crew": 5000,
+      "maxCrew": 5000,
+      "biomatterException": false
+    },
+    {
+      "unit": "kiaarray",
+      "race": "klingon",
+      "model": "ia26_kiaarray",
+      "triangles": 1392,
+      "production": [
+        "kconst",
+        "kconst2",
+        "xkuconst",
+        "kfreight"
+      ],
+      "abilities": [
+        "Ion Cannon"
+      ],
+      "constructor": "kconst2",
+      "transwarp": false,
+      "energy": 200000,
+      "energyRecharge": 20000,
+      "health": 22000,
+      "crew": 5000,
+      "maxCrew": 5000,
+      "biomatterException": false
+    },
+    {
+      "unit": "riaarray",
+      "race": "romulan",
+      "model": "ia26_riaarray",
+      "triangles": 1392,
+      "production": [
+        "rconst",
+        "rconst2",
+        "xruconst",
+        "rfreight"
+      ],
+      "abilities": [
+        "Cloak"
+      ],
+      "constructor": "rconst2",
+      "transwarp": false,
+      "energy": 200000,
+      "energyRecharge": 20000,
+      "health": 22000,
+      "crew": 5000,
+      "maxCrew": 5000,
+      "biomatterException": false
+    },
+    {
+      "unit": "ciaarray",
+      "race": "cardassian",
+      "model": "ia26_ciaarray",
+      "triangles": 1472,
+      "production": [
+        "cconst",
+        "xcconst2",
+        "xcuconst",
+        "cfreight"
+      ],
+      "abilities": [
+        "Plasma Bank Overload",
+        "Cloak"
+      ],
+      "constructor": "xcconst2",
+      "transwarp": false,
+      "energy": 200000,
+      "energyRecharge": 20000,
+      "health": 22000,
+      "crew": 5000,
+      "maxCrew": 5000,
+      "biomatterException": false
+    },
+    {
+      "unit": "diaarray",
+      "race": "dominion",
+      "model": "ia26_diaarray",
+      "triangles": 1968,
+      "production": [
+        "dconst",
+        "xdconst2",
+        "xduconst",
+        "dfreight"
+      ],
+      "abilities": [
+        "Jem'Hadar Warriors"
+      ],
+      "constructor": "xdconst2",
+      "transwarp": false,
+      "energy": 200000,
+      "energyRecharge": 20000,
+      "health": 22000,
+      "crew": 5000,
+      "maxCrew": 5000,
+      "biomatterException": false
+    },
+    {
+      "unit": "bjiaarray",
+      "race": "bajoran",
+      "model": "ia26_bjiaarray",
+      "triangles": 1472,
+      "production": [
+        "bjconst",
+        "xbjconst2",
+        "xbjuconst",
+        "bjfreight"
+      ],
+      "abilities": [],
+      "constructor": "xbjconst2",
+      "transwarp": false,
+      "energy": 200000,
+      "energyRecharge": 20000,
+      "health": 22000,
+      "crew": 5000,
+      "maxCrew": 5000,
+      "biomatterException": false
+    },
+    {
+      "unit": "siaarray",
+      "race": "species8472",
+      "model": "ia26_siaarray",
+      "triangles": 2952,
+      "production": [
+        "8472_active",
+        "8472_passive",
+        "714const",
+        "xsuconst"
+      ],
+      "abilities": [],
+      "constructor": "714const",
+      "transwarp": false,
+      "energy": 200000,
+      "energyRecharge": 20000,
+      "health": 22000,
+      "crew": 0,
+      "maxCrew": 5000,
+      "biomatterException": true
+    },
+    {
+      "unit": "briaarray",
+      "race": "breen",
+      "model": "ia26_briaarray",
+      "triangles": 1392,
+      "production": [
+        "brconst",
+        "brfreight"
+      ],
+      "abilities": [],
+      "constructor": "brconst",
+      "transwarp": false,
+      "energy": 200000,
+      "energyRecharge": 20000,
+      "health": 22000,
+      "crew": 5000,
+      "maxCrew": 5000,
+      "biomatterException": false
+    },
+    {
+      "unit": "fgiaarray",
+      "race": "ferengi",
+      "model": "ia26_fgiaarray",
+      "triangles": 2160,
+      "production": [
+        "xfgconst",
+        "xfgdil2",
+        "xfgdil3"
+      ],
+      "abilities": [],
+      "constructor": "xfgconst",
+      "transwarp": false,
+      "energy": 200000,
+      "energyRecharge": 20000,
+      "health": 22000,
+      "crew": 5000,
+      "maxCrew": 5000,
+      "biomatterException": false
+    },
+    {
+      "unit": "xbtarray",
+      "race": "borg",
+      "model": "ia26_xbtarray",
+      "triangles": 1728,
+      "production": [
+        "bconst",
+        "bconst2",
+        "xbuconst",
+        "bfreight"
+      ],
+      "abilities": [
+        "Green Holding / Assimilation Beam",
+        "Transwarp Drive"
+      ],
+      "constructor": null,
+      "transwarp": true,
+      "energy": 200000,
+      "energyRecharge": 20000,
+      "health": 22000,
+      "crew": 5000,
+      "maxCrew": 5000,
+      "biomatterException": false
+    }
+  ],
+  "menus": [
+    {
+      "constructor": "fconst2",
+      "items": [
+        "xflegacyyard",
+        "fturret",
+        "fturret2",
+        "fhwp",
+        "fyard3",
+        "s31yard",
+        "xfomegalab",
+        "mryfeda",
+        "mryfedb",
+        "fjupiter",
+        "fiaarray"
+      ]
+    },
+    {
+      "constructor": "f31const",
+      "items": [
+        "xflegacyyard",
+        "fturret",
+        "fturret2",
+        "fhwp",
+        "fyard3",
+        "s31yard",
+        "xfomegalab",
+        "mryfeda",
+        "mryfedb",
+        "fiaarray"
+      ]
+    },
+    {
+      "constructor": "kconst2",
+      "items": [
+        "kturret",
+        "kturret2",
+        "kyard3",
+        "khwp",
+        "kiaarray"
+      ]
+    },
+    {
+      "constructor": "rconst2",
+      "items": [
+        "rturret",
+        "rturret2",
+        "ryard3",
+        "rhwp",
+        "riaarray"
+      ]
+    },
+    {
+      "constructor": "xcconst2",
+      "items": [
+        "cturret",
+        "cturret2",
+        "cyard3",
+        "chwp",
+        "ciaarray"
+      ]
+    },
+    {
+      "constructor": "domconst",
+      "items": [
+        "cturret",
+        "cturret2",
+        "cyard3",
+        "chwp",
+        "ciaarray"
+      ]
+    },
+    {
+      "constructor": "xdconst2",
+      "items": [
+        "dturret",
+        "dturret2",
+        "dturret3",
+        "dyard3",
+        "diaarray"
+      ]
+    },
+    {
+      "constructor": "xbjconst2",
+      "items": [
+        "bjturret",
+        "bjturret2",
+        "bjhwp",
+        "bjiaarray"
+      ]
+    },
+    {
+      "constructor": "714const",
+      "items": [
+        "714turr",
+        "xhs_yard3",
+        "8472_sentinel",
+        "siaarray"
+      ]
+    },
+    {
+      "constructor": "8472_defender",
+      "items": [
+        "714turr",
+        "xhs_yard3",
+        "8472_sentinel",
+        "siaarray"
+      ]
+    },
+    {
+      "constructor": "brconst",
+      "items": [
+        "brbase",
+        "bryard",
+        "brmining",
+        "brorbital",
+        "brresear",
+        "brresear2",
+        "xfgmerc",
+        "briaarray"
+      ]
+    },
+    {
+      "constructor": "xfgconst",
+      "items": [
+        "bbase",
+        "fbase",
+        "kbase",
+        "rbase",
+        "cbase",
+        "dbase",
+        "brbase",
+        "bjbase",
+        "xfgmerc",
+        "xfgserv",
+        "xfgresearch",
+        "xfgmetal2",
+        "xfgmetal3",
+        "fgiaarray"
+      ]
+    }
+  ],
+  "abilityResearch": {
+    "fiaarrays4": "fedpod1",
+    "kiaarrays4": "klipod1",
+    "riaarrays5": null,
+    "ciaarrays4": "carpod1",
+    "ciaarrays5": null,
+    "diaarrays4": "dompod2"
+  },
+  "sourceHashes": {
+    "odf/ships/fconst2.odf": "9db13fa6571e45e1bef58887e052cb7791c25ad82bd4429e2f5d60ac216c1d41",
+    "odf/ships/f31const.odf": "1a2c0699bd09b3cfc02c569740d8390441920d24eb76fc63e4cd9dc39688c701",
+    "odf/ships/kconst2.odf": "a08715254c66fc4c043a654eb0660b5c790e5aba6e2c239eeee3991ac7297fdc",
+    "odf/ships/rconst2.odf": "b9a270bfe039a81e8085310770022974ffff0c1e51ce6c3e12dd1f85bb8188e7",
+    "odf/ships/xcconst2.odf": "952edf16c0b45cee7341fd743b56eee3b8d87b9f282b8ebc33a6f41b6f681d25",
+    "odf/ships/domconst.odf": "7a4336c7e619217cb38136771eec82c0a12933355a5cfc9aa109e34d7ee26714",
+    "odf/ships/xdconst2.odf": "92dbc8a32fa77234c980d0b3879cd8dd4a72a9ec8895c6f3a38bbfb04186b5e6",
+    "odf/ships/xbjconst2.odf": "c430f88ce759d6efa8d6575509538a1d444a25a81f57b1f8e43c9f9a24372bad",
+    "odf/ships/714const.odf": "36fad4d7935d9ba5c5320a726a062d6cd0c9aa4015b1eeb827b6d9dc1d1a8461",
+    "odf/ships/8472_defender.odf": "75844f24c4e2645654a6f260d3462a52dc769a16ad23ececc2fcb8403dbb5659",
+    "odf/ships/brconst.odf": "c74756f024610f19cd3bce6de0807e886a5518df229208c8892ad220dfe1d35b",
+    "odf/ships/xfgconst.odf": "66f2586e091d8ab4bf0a9a0fdc6c71da0176fa5abc71600f862ed8daee7754ca",
+    "odf/stations/xbtarray.odf": "9b13add87372ba89c9e76182dcef0fe59c21ddaf3490c46c3529f894601b4fdd",
+    "Sprites/gui_global.spr": "4b5fddacec03d9f4b4f572de1f6d6cb47db3a8b0da82f8c910e866c665db79d6",
+    "techtree/tech1.tt": "d6b88cdc3641a71e90edcfef43feb62f91a9876f94fe6aa63d766482928e1ee5",
+    "techtree/earlytech.tt": "8c5c26b29659f7779dfafc1a142101153814ade934a502b71d18b9fc3184f697",
+    "techtree/fulltech.tt": "0d98d1cd57295aabe69048b2a1e7a50fa8d941dd1284fa9331d355b7c8bd1d12",
+    "techtree/nosci.tt": "54d2b159cd7846add1e6a7e82de38e14d3f6100bca8914a9818499fe39d41d61",
+    "techtree/nosuper.tt": "5620b2f6dcadf982d5e2e70679098caf74e903415127b4d922496a62012c7821",
+    "techtree/nospweap.tt": "c80800a46d40bebfb6f4e662a71188508006af93260f557c718aa65c1f6a2545"
+  },
+  "files": {
+    "SOD/ia26_bjiaarray.sod": "e5d430bbf561f7259e9465683cc6931e59bdd452a73175ab8f33b2573f69b5de",
+    "SOD/ia26_briaarray.sod": "dcb3bc4df5dedc4d1ea9254a11d071ae2254381b16538b2b7eb5d15edb2782e3",
+    "SOD/ia26_ciaarray.sod": "cf73e89aa9fb7e1b7d2cf3c5ffc17b22b4d5112f79c9b83d6016f847939c744b",
+    "SOD/ia26_diaarray.sod": "f60f9da32cdbe567fd945b2e5d11dc4d338200b07d6b2519460d78f0664c9386",
+    "SOD/ia26_fgiaarray.sod": "45b86b385940f680840bdb12efa8b00413fef1d909ecea866ec652b047b4777e",
+    "SOD/ia26_fiaarray.sod": "a671cd41bae8b121f4f4349ce1c8fe3eae14d071f5b62394c25bc02fd0eea5e9",
+    "SOD/ia26_kiaarray.sod": "2a7d3e5972083f36d1bca3734f0ba3ef45954070085b6a91f96b226970ba6889",
+    "SOD/ia26_riaarray.sod": "1a028e8577093393ce8cab4e643cbf8d5f64368604ccf2e3fb0309d8733dfe27",
+    "SOD/ia26_siaarray.sod": "07b57bfc166f2a01b880198227bf6f96b0c161f4d64f3c52b3aedcdf47184b0b",
+    "SOD/ia26_xbtarray.sod": "183c57d9a3d7753ab1a2b828620dc7717947cf7a3f46cf036e65e60b03d8a196",
+    "Sprites/gui_global.spr": "cb08004785e3e131ee89b7f80be0d22491f676fb25d4ae84438963214864bc70",
+    "techtree/earlytech.tt": "0fda4dd8f4a433555cf0c8f1027a3909baf0e342a41c55cc05ad8eff73193172",
+    "techtree/fulltech.tt": "b1d5038cec8fdc9090fb7e503aa0cb7fd801a4a219909cdf8bebae4137119deb",
+    "techtree/nosci.tt": "1e5c20f227b754f5e8576b22e02fd90718d75c491711c94ab962db868d7decbd",
+    "techtree/nospweap.tt": "e069b4e7118b5e8225b95f9adef59a74aa6345134f172783b2a107b0f7af35c1",
+    "techtree/nosuper.tt": "73219a42a0e03a47c162897ae531d98e4dba3efde14fe715915f287b8abd20f0",
+    "techtree/tech1.tt": "167c17a3f8fcc15b4843df935639f354dcce9fe1b8217690dd306d51dde7f79f",
+    "odf/ships/714const.odf": "9ff244369aa77bfca0e66c4575fea7f743ff5a443a0c82138cb88cb0f831eb31",
+    "odf/ships/8472_defender.odf": "f3255178a4ca779ad4dcae31cb5c8b04d4c993ebc4171040a16967f505e0b619",
+    "odf/ships/brconst.odf": "b04825bc0e148f2c95c88f8ebdcf68c978aad1ceb8623a30ef3e822b40a9c2fb",
+    "odf/ships/domconst.odf": "a96daf518b7f2db536a608a6c2d061361430d3cc26643835a188f4ac1046c7d1",
+    "odf/ships/f31const.odf": "70d2c50d536987793d654c16c6e120b136999090a40e7a92d011f1b8cf71497f",
+    "odf/ships/fconst2.odf": "fc76ee24ecfa5c09e85a5567ddd4b1f089b6880188eae13e8b6cf6e34ccb7867",
+    "odf/ships/kconst2.odf": "1b5ee531a594e0d1779abe69fe9f137f61a7d50de362da7643191931a181494b",
+    "odf/ships/rconst2.odf": "61114dd281c5fd83d199a2754f5909c794c2e01a00e775aa0e50333f3b8d5b71",
+    "odf/ships/xbjconst2.odf": "7308682e5f5724b55f5fcbb2b07cbe9be83401c27d52547cbd6b61304142d816",
+    "odf/ships/xcconst2.odf": "9a9ec91ec604d079e3bc9cb339e48c509c73411c1c70e022daac2e8b82ae77cf",
+    "odf/ships/xdconst2.odf": "5351214ca1b35af33f37187e6a9e5fda9610650e4a0f8a4b9254e95e806fbd6a",
+    "odf/ships/xfgconst.odf": "8ff245bf8f5fd1a83f6377bf135f017b339b16a09ca5f09b10c91e9f13b81a17",
+    "odf/special_weapons/ciaarrays4.odf": "e8bc1744160da3b5186d804bee1499e5f8a0837ca56204e30cffe4d19822f309",
+    "odf/special_weapons/ciaarrays5.odf": "34a21f89d6b559366c358bb9a5c01130e79908b4ed766798562334bb6ace6a50",
+    "odf/special_weapons/diaarrays4.odf": "1fc7f9f105c0eacdcc7ed761893f68d7f24792001b27cac31dd4a1eaa9fb9faf",
+    "odf/special_weapons/fiaarrays4.odf": "4d269c0311b3af6f402cabdf97dce8d47acf5cda1adbc26ea4f91203e214d28d",
+    "odf/special_weapons/kiaarrays4.odf": "6d2400c42043f7e6e6fdfba0407a938c72e96fdd0a8c31fa7deac0bc619b7e01",
+    "odf/special_weapons/riaarrays5.odf": "c0ca9a60f23ac589927918b273499678ed05f27831e9ecca272679b5f0ce3d61",
+    "odf/stations/bjiaarray.odf": "8c1855d1bdb50c14a22008be6668cbc98148dae8c5c83e97fffaa9ac126a3ad0",
+    "odf/stations/briaarray.odf": "cdc42d5b7529631028efacb86249fd381743218d80a5d1df830a463d1603ef94",
+    "odf/stations/ciaarray.odf": "e6df4143e6985b111d68c22a98c6efe96c83aa5d2532319ce46afbab3752d1e5",
+    "odf/stations/diaarray.odf": "161968ab9a7533ebbb434a2bc635eb3a973b8fc68ae9789ed4a8864d1409e15d",
+    "odf/stations/fgiaarray.odf": "ebe12ebb4e4478be7f9fe22a145807b772f23ea684b2d3c3275365f46a4f3a73",
+    "odf/stations/fiaarray.odf": "9afa12bc98dc38e2d88d06c55cd129411b3afa05e562b8e0383222689e95149c",
+    "odf/stations/kiaarray.odf": "89533cdd369897f00401eead73fe408716f61c343418b12ae9ca824b85186c72",
+    "odf/stations/riaarray.odf": "7d731cf0e6aa70c5b64c500db8cecfaceb27d04125c1ad9a95c5b7f083a4443a",
+    "odf/stations/siaarray.odf": "558f95eebbec3662360d3d82609c2a683e021f11235518cdc2eb388fe698368b",
+    "odf/stations/xbtarray.odf": "3a9a595eb514ecc2c1b1706d7d2cf0ecef7eb6d2c792730c442b9108024d909b",
+    "Textures/RGB/gbia26_bjiaarray.tga": "cd340837cf87591401bf96e5a3a99576a6d018c89df66331056145c57f97c7cb",
+    "Textures/RGB/gbia26_briaarray.tga": "507bf6ce729b04a14f99e726af3a05eb3a963c49e283f0411ffaf4965ad8c077",
+    "Textures/RGB/gbia26_ciaarray.tga": "207736af7605217cd0118c7b91d36b4cbbad6cd76c4dc20e672225f683e489d8",
+    "Textures/RGB/gbia26_diaarray.tga": "aca2b8fb4393f53b83c3247b1ff3516983efa7bc73575b394634109866af6f3a",
+    "Textures/RGB/gbia26_fgiaarray.tga": "f52d7c9841267883998daeef816c27c812e6b10e5857f2709f142c36b69857ad",
+    "Textures/RGB/gbia26_fiaarray.tga": "bf608b0bf43a96e3c3b24021c7cce51c550d986d697d18269e188dcdec1ec5cd",
+    "Textures/RGB/gbia26_kiaarray.tga": "eefce4dce171ccedd3eec9f54870f8c4203ffdc71ca07609c56724516db1ec2e",
+    "Textures/RGB/gbia26_riaarray.tga": "36e3348aa22addfaa512971c5b00b4ac8eb74f4df03307f846461c391b498672",
+    "Textures/RGB/gbia26_siaarray.tga": "f6480b12b4bbba8afdcc42953fdf466fed98ba0893a0685ca17e5e9c11b149d1",
+    "Textures/RGB/gbia26_xbtarray.tga": "200086331e3a1ba83df961e1d7708470231f62e6e8e9055519fdb95522a9fb17",
+    "Textures/RGB/ia26mat.tga": "e72642af2610a7608c884a016c8f786b451db3608f598446b7f83dd9cbbc66d6",
+    "Textures/RGB/wfia26_bjiaarray.tga": "b3d0a7d64c204afb57ef061b80b9696c6e7c9047b8ccbd2e7bf3c52361ecceb9",
+    "Textures/RGB/wfia26_briaarray.tga": "98224ff0d030ae32c0df99dac7d361accf642f5fec02b4fb863d248d8cf8ab5a",
+    "Textures/RGB/wfia26_ciaarray.tga": "cf39eddfd2bc4839da572aea236f8730667a7c47d79d69e101cc4883d2053e94",
+    "Textures/RGB/wfia26_diaarray.tga": "e8a566006aed3f87f80d2da7528918fc8a04504bb6e1e5f7e90574e86dbbd853",
+    "Textures/RGB/wfia26_fgiaarray.tga": "8704f13b1696b12158bb082cfeb2d1fcc737c822f73038c0eac499a4049c6906",
+    "Textures/RGB/wfia26_fiaarray.tga": "3b39e56a3d43f67b1901b49876d5bbdd067c839df513b0bbe506f70039cbe3a8",
+    "Textures/RGB/wfia26_kiaarray.tga": "8b7f0a6561b08f862f62afe6e29afbd313f83f55ea1d0696754dcd6af73e1b2e",
+    "Textures/RGB/wfia26_riaarray.tga": "92e629ace84777deaf038d4d3e1bb0627bd1b79a4637461c82f102e91accee03",
+    "Textures/RGB/wfia26_siaarray.tga": "c216e621ab9db84775b212b7c5248df1fac0f1e6bafa24eeeeafb5388368067e",
+    "Textures/RGB/wfia26_xbtarray.tga": "8055fef494be011b0404f9807e3322b8c5bdf62af73f2bb47bc2553491be7c78"
+  },
+  "startingFleetsChanged": false,
+  "runtimeVerified": false,
+  "note": "All arrays retain Borg baseline normal weapon stats and appearance. Faction-specific special abilities use native research. 8472 uses combined resource value as biomatter. Borg original retains transwarp and assimilation.",
+  "backup": "D:\\Xaramada-Modwork\\backups\\iconian-arrays-20261025-062308",
+  "newFiles": [
+    "SOD/ia26_bjiaarray.sod",
+    "SOD/ia26_briaarray.sod",
+    "SOD/ia26_ciaarray.sod",
+    "SOD/ia26_diaarray.sod",
+    "SOD/ia26_fgiaarray.sod",
+    "SOD/ia26_fiaarray.sod",
+    "SOD/ia26_kiaarray.sod",
+    "SOD/ia26_riaarray.sod",
+    "SOD/ia26_siaarray.sod",
+    "SOD/ia26_xbtarray.sod",
+    "odf/special_weapons/ciaarrays4.odf",
+    "odf/special_weapons/ciaarrays5.odf",
+    "odf/special_weapons/diaarrays4.odf",
+    "odf/special_weapons/fiaarrays4.odf",
+    "odf/special_weapons/kiaarrays4.odf",
+    "odf/special_weapons/riaarrays5.odf",
+    "odf/stations/bjiaarray.odf",
+    "odf/stations/briaarray.odf",
+    "odf/stations/ciaarray.odf",
+    "odf/stations/diaarray.odf",
+    "odf/stations/fgiaarray.odf",
+    "odf/stations/fiaarray.odf",
+    "odf/stations/kiaarray.odf",
+    "odf/stations/riaarray.odf",
+    "odf/stations/siaarray.odf",
+    "Textures/RGB/gbia26_bjiaarray.tga",
+    "Textures/RGB/gbia26_briaarray.tga",
+    "Textures/RGB/gbia26_ciaarray.tga",
+    "Textures/RGB/gbia26_diaarray.tga",
+    "Textures/RGB/gbia26_fgiaarray.tga",
+    "Textures/RGB/gbia26_fiaarray.tga",
+    "Textures/RGB/gbia26_kiaarray.tga",
+    "Textures/RGB/gbia26_riaarray.tga",
+    "Textures/RGB/gbia26_siaarray.tga",
+    "Textures/RGB/gbia26_xbtarray.tga",
+    "Textures/RGB/ia26mat.tga",
+    "Textures/RGB/wfia26_bjiaarray.tga",
+    "Textures/RGB/wfia26_briaarray.tga",
+    "Textures/RGB/wfia26_ciaarray.tga",
+    "Textures/RGB/wfia26_diaarray.tga",
+    "Textures/RGB/wfia26_fgiaarray.tga",
+    "Textures/RGB/wfia26_fiaarray.tga",
+    "Textures/RGB/wfia26_kiaarray.tga",
+    "Textures/RGB/wfia26_riaarray.tga",
+    "Textures/RGB/wfia26_siaarray.tga",
+    "Textures/RGB/wfia26_xbtarray.tga"
+  ]
+}
