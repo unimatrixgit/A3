@@ -2,6 +2,27 @@
 
 Native standalone producers replace the cancelled attached-Nexus experiment. One queue per complete station. Species 8472 and Borg Recycler stay unchanged.
 
+## Compact connected yard revision
+
+All 29 production yards and 10 service-dock definitions now use larger faction
+centres with closer bays, textured structural bridges and cylindrical conduits.
+Higher-tier centres have additional command hulls; special Federation yards
+have distinct auxiliary structures. Every Borg yard uses one assembly bay.
+
+The 34 Borg roster entries are allocated once across the minimum three
+14-slot yards: Assembly Matrix 14; Tactical Assembly Matrix 9; Omega
+Assimilation Yard 11. Locutus now uses the command yard. The command yard
+remains available in No Superweapons mode for Locutus; forbidden Omega ships
+remain disabled. Technology prerequisites and 40 AI profiles were checked.
+
+Production-bay sizes use conservative ship-model bounding spans with 25%
+clearance allowance. Undecodable legacy SODs use documented estimates in
+`../compact-yard-preview/staging-report.json`. Footprints scale with the
+model and launch points sit beyond the new bay. These are static estimates;
+in-game ship emergence, clearance and repair behaviour still need testing.
+Ship stats, Species 8472, HWP models and the Recycler are unchanged by this
+revision. Actual staged model renders are in `../compact-yard-preview/`.
+
 ## Production yards and service docks
 
 | Faction | Production yards | Repair/recrew/decommission dock |

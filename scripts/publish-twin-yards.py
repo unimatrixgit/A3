@@ -11,6 +11,8 @@ for name in ['design.json','artwork.json','ai.json','manifest.json','validation.
 for name in ['nexus-common.py','prepare-twin-yards.py','extend-twin-yard-scope.py','build-native-faction-stations.py','twin-yard-render.py','finish-twin-yard-tech.py','finish-twin-yard-ai.py','name-and-document-twin-yards.py','validate-twin-yards.py','apply-twin-yards.py','apply-yard-bridge-update.py','publish-twin-yards.py','finish-borg-yard-size.py']:paths.append('scripts/'+name)
 for name in ['twin-yard-building-list.md','twin-yards-applied.json','twin-yard-production-input.json','nexus-node-crash-rollback.json']:paths.append('reports/'+name)
 paths+=['status.json','build.log'];head=subprocess.check_output(['git','-C',str(repo),'ls-files'],text=True).splitlines();canonical={x.lower():x for x in head};paths=list(dict.fromkeys(canonical.get(x.lower(),x)for x in paths))
+paths+=['scripts/'+n for n in ['compact-yard-layout.py','preview-yard-family.py','preview-compact-yards.py','render-compact-yard-sheet.py','stage-compact-borg-roster.py']]
+paths+=['patches/compact-yard-preview/'+n for n in ['borg-roster-review.json','borg-proposed-production.json','staging-report.json','all-staged-yards.png','byard2-staged.png','fyard3-staged.png']]
 existing=subprocess.check_output(['git','-C',str(repo),'diff','--cached','--name-only'],text=True).splitlines();assert not existing,existing
 for i in range(0,len(paths),35):subprocess.run(['git','-C',str(repo),'add','-f','--']+paths[i:i+35],check=True,capture_output=True)
 staged=subprocess.check_output(['git','-C',str(repo),'diff','--cached','--name-only'],text=True).splitlines();assert not any(x.startswith('lab/')for x in staged)

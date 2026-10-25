@@ -1113,21 +1113,21 @@
     "bassault": "byard",
     "bcruise3": "byard",
     "xbassimold": "byard",
-    "bfrigate": "byard2",
-    "btacpyr": "byard2",
+    "bfrigate": "byard",
+    "btacpyr": "byard",
     "bbattle1": "byard2",
-    "bspecial": "byard2",
+    "bspecial": "byard",
     "bbattle2": "byard2",
     "brenborg": "byard2",
-    "blocutus": "byard2",
-    "bsphere": "byard2",
+    "blocutus": "byard3",
+    "bsphere": "byard",
     "tcube": "byard2",
     "bbattle3": "byard2",
     "bbattle4": "byard2",
-    "bpentra": "byard2",
+    "bpentra": "byard",
     "bhentra": "byard2",
     "bomega1": "byard2",
-    "bhentrag": "byard3",
+    "bhentrag": "byard2",
     "bmama": "byard3",
     "xobcruise1": "byard3",
     "xobbattle1": "byard3",
@@ -132284,5 +132284,63 @@
     "source": "Preserved Armada II original models",
     "hwpReduction": 0.125
   },
-  "yardSizeIncrease": 0.25
+  "yardSizeIncrease": 0.25,
+  "compactYardRedesign": {
+    "borgMinimumYards": 3,
+    "borgRosterCount": 34,
+    "borgMenus": {
+      "byard": [
+        "bscout",
+        "bdestroy",
+        "bdestroy2",
+        "bcruise1",
+        "bcruise2",
+        "bassault",
+        "bcruise3",
+        "xbassimold",
+        "bcolony",
+        "bfrigate",
+        "btacpyr",
+        "bspecial",
+        "bsphere",
+        "bpentra"
+      ],
+      "byard2": [
+        "bbattle1",
+        "bbattle2",
+        "brenborg",
+        "tcube",
+        "bbattle3",
+        "bbattle4",
+        "bhentra",
+        "bomega1",
+        "bhentrag"
+      ],
+      "byard3": [
+        "bmama",
+        "xobcruise1",
+        "xobbattle1",
+        "xobbattle2",
+        "xoblocutus",
+        "xhbqueen",
+        "mrc003",
+        "mrc004",
+        "mrc029",
+        "mrc058",
+        "blocutus"
+      ]
+    },
+    "movedShips": {
+      "bfrigate": "byard",
+      "btacpyr": "byard",
+      "bspecial": "byard",
+      "bsphere": "byard",
+      "bpentra": "byard",
+      "bhentrag": "byard2",
+      "blocutus": "byard3"
+    },
+    "allFactionsExcept8472": true,
+    "singleBorgBay": true,
+    "status": "STAGED"
+  }
 }

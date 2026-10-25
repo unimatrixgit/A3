@@ -1,0 +1,376 @@
+{
+  "status": "STAGED",
+  "yards": 29,
+  "borgMinimumYards": 3,
+  "roster": {
+    "byard": [
+      "bscout",
+      "bdestroy",
+      "bdestroy2",
+      "bcruise1",
+      "bcruise2",
+      "bassault",
+      "bcruise3",
+      "xbassimold",
+      "bcolony",
+      "bfrigate",
+      "btacpyr",
+      "bspecial",
+      "bsphere",
+      "bpentra"
+    ],
+    "byard2": [
+      "bbattle1",
+      "bbattle2",
+      "brenborg",
+      "tcube",
+      "bbattle3",
+      "bbattle4",
+      "bhentra",
+      "bomega1",
+      "bhentrag"
+    ],
+    "byard3": [
+      "bmama",
+      "xobcruise1",
+      "xobbattle1",
+      "xobbattle2",
+      "xoblocutus",
+      "xhbqueen",
+      "mrc003",
+      "mrc004",
+      "mrc029",
+      "mrc058",
+      "blocutus"
+    ]
+  },
+  "yardFits": {
+    "ty26_fyard": {
+      "largestShip": {
+        "ship": "fintx",
+        "span": 64.1037722826004
+      },
+      "bayDesignWidth": 111.25323877923903,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 14,
+      "estimatedLegacyModels": []
+    },
+    "ty26_fyard2": {
+      "largestShip": {
+        "ship": "fexcalibur",
+        "span": 141.13305187225342
+      },
+      "bayDesignWidth": 176.41631484031677,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 14,
+      "estimatedLegacyModels": []
+    },
+    "ty26_fyard3": {
+      "largestShip": {
+        "ship": "xofbattle",
+        "span": 94.57024633108507
+      },
+      "bayDesignWidth": 118.21280791385634,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 14,
+      "estimatedLegacyModels": []
+    },
+    "ty26_xflegacyyard": {
+      "largestShip": {
+        "ship": "xhfpicardd",
+        "span": 76.98910825996752
+      },
+      "bayDesignWidth": 102.73523649227042,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 8,
+      "estimatedLegacyModels": []
+    },
+    "ty26_s31yard": {
+      "largestShip": {
+        "ship": "fdiablo",
+        "span": 85.05589703020154
+      },
+      "bayDesignWidth": 106.31987128775192,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 13,
+      "estimatedLegacyModels": []
+    },
+    "ty26_mryfeda": {
+      "largestShip": {
+        "ship": "mrc015",
+        "span": 113.97586928259172
+      },
+      "bayDesignWidth": 142.46983660323966,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 12,
+      "estimatedLegacyModels": []
+    },
+    "ty26_mryfedb": {
+      "largestShip": {
+        "ship": "mrc039",
+        "span": 113.97586928259172
+      },
+      "bayDesignWidth": 142.46983660323966,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 10,
+      "estimatedLegacyModels": []
+    },
+    "ty26_byard": {
+      "largestShip": {
+        "ship": "bsphere",
+        "span": 165.67172202550842
+      },
+      "bayDesignWidth": 207.08965253188552,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 14,
+      "estimatedLegacyModels": []
+    },
+    "ty26_byard2": {
+      "largestShip": {
+        "ship": "bbattle4",
+        "span": 282.2502826652552
+      },
+      "bayDesignWidth": 352.81285333156904,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 9,
+      "estimatedLegacyModels": []
+    },
+    "ty26_byard3": {
+      "largestShip": {
+        "ship": "bmama",
+        "span": 188.4746108911777
+      },
+      "bayDesignWidth": 235.5932636139721,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 11,
+      "estimatedLegacyModels": []
+    },
+    "ty26_kyard": {
+      "largestShip": {
+        "ship": "kdestroy2",
+        "span": 69.87707533870758
+      },
+      "bayDesignWidth": 92.3076923076923,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 13,
+      "estimatedLegacyModels": []
+    },
+    "ty26_kyard2": {
+      "largestShip": {
+        "ship": "kvood",
+        "span": 115.3503495739401
+      },
+      "bayDesignWidth": 144.18793696742512,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 12,
+      "estimatedLegacyModels": []
+    },
+    "ty26_kyard3": {
+      "largestShip": {
+        "ship": "mrc020",
+        "span": 119.16057090126881
+      },
+      "bayDesignWidth": 148.95071362658604,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 13,
+      "estimatedLegacyModels": []
+    },
+    "ty26_ryard": {
+      "largestShip": {
+        "ship": "rcolony",
+        "span": 200.0
+      },
+      "bayDesignWidth": 250.00000000000003,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 8,
+      "estimatedLegacyModels": [
+        {
+          "ship": "rcolony",
+          "model": "rcolony",
+          "estimatedSpan": 200.0,
+          "reason": "UnicodeDecodeError"
+        }
+      ]
+    },
+    "ty26_ryard2": {
+      "largestShip": {
+        "ship": "rtsbcru",
+        "span": 117.05664378671398
+      },
+      "bayDesignWidth": 146.32080473339246,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 12,
+      "estimatedLegacyModels": []
+    },
+    "ty26_ryard3": {
+      "largestShip": {
+        "ship": "mrc052",
+        "span": 236.74031841277412
+      },
+      "bayDesignWidth": 295.9253980159676,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 12,
+      "estimatedLegacyModels": []
+    },
+    "ty26_cyard": {
+      "largestShip": {
+        "ship": "xdofrigate",
+        "span": 82.24092989316853
+      },
+      "bayDesignWidth": 102.80116236646066,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 13,
+      "estimatedLegacyModels": []
+    },
+    "ty26_cyard2": {
+      "largestShip": {
+        "ship": "xcgarak",
+        "span": 130.30247077941894
+      },
+      "bayDesignWidth": 162.8780884742737,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 14,
+      "estimatedLegacyModels": []
+    },
+    "ty26_cyard3": {
+      "largestShip": {
+        "ship": "mrc045",
+        "span": 162.87808847427368
+      },
+      "bayDesignWidth": 203.5976105928421,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 11,
+      "estimatedLegacyModels": []
+    },
+    "ty26_dyard": {
+      "largestShip": {
+        "ship": "xdcarrier",
+        "span": 218.12172660827636
+      },
+      "bayDesignWidth": 272.6521582603455,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 14,
+      "estimatedLegacyModels": []
+    },
+    "ty26_dyard2": {
+      "largestShip": {
+        "ship": "dwormdsuper",
+        "span": 155.90918655395507
+      },
+      "bayDesignWidth": 194.88648319244388,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 4,
+      "estimatedLegacyModels": []
+    },
+    "ty26_dyard3": {
+      "largestShip": {
+        "ship": "mrc034",
+        "span": 256.54368591308594
+      },
+      "bayDesignWidth": 320.67960739135737,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 13,
+      "estimatedLegacyModels": []
+    },
+    "ty26_bjyard": {
+      "largestShip": {
+        "ship": "bjassault",
+        "span": 68.77558187994767
+      },
+      "bayDesignWidth": 97.297299603743,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 7,
+      "estimatedLegacyModels": []
+    },
+    "ty26_bjyard2": {
+      "largestShip": {
+        "ship": "mrc002",
+        "span": 189.14049373626708
+      },
+      "bayDesignWidth": 236.42561717033388,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 9,
+      "estimatedLegacyModels": []
+    },
+    "ty26_bryard": {
+      "largestShip": {
+        "ship": "brfrigate",
+        "span": 160.02232754342091
+      },
+      "bayDesignWidth": 200.02790942927618,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 10,
+      "estimatedLegacyModels": []
+    },
+    "ty26_xfgmerc": {
+      "largestShip": {
+        "ship": "mrc026",
+        "span": 71.32252907752991
+      },
+      "bayDesignWidth": 109.11482398563086,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 13,
+      "estimatedLegacyModels": []
+    },
+    "ty26_xfgserv": {
+      "largestShip": {
+        "ship": "xfgrepair",
+        "span": 47.24809455871582
+      },
+      "bayDesignWidth": 115.05666873497388,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 12,
+      "estimatedLegacyModels": []
+    },
+    "ty26_xbgmerc": {
+      "largestShip": {
+        "ship": "mrc022",
+        "span": 71.32252907752991
+      },
+      "bayDesignWidth": 109.11482398563086,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 13,
+      "estimatedLegacyModels": []
+    },
+    "ty26_xbgserv": {
+      "largestShip": {
+        "ship": "xbgrepair",
+        "span": 47.24809455871582
+      },
+      "bayDesignWidth": 115.05666873497388,
+      "clearanceFactor": 1.25,
+      "method": "Conservative model bounding-span estimate",
+      "shipsMeasured": 10,
+      "estimatedLegacyModels": []
+    }
+  },
+  "gameplayVerified": false
+}

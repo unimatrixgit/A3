@@ -1,4 +1,4 @@
-"""Apply the validated Borg Armada II model and station scale correction."""
+"""Apply the validated compact yard designs and reorganised Borg production."""
 from pathlib import Path
 import json,hashlib,subprocess,shutil,datetime
 repo=Path('D:/aramada');root=Path('D:/armadaIII');stage=repo/'patches/twin-yards-20261025';O=stage/'overlay';m=json.loads((stage/'manifest.json').read_text());v=json.loads((stage/'validation.json').read_text());assert v['status']=='PASS'
@@ -15,7 +15,7 @@ except Exception:
  raise
 for rel,h in m['files'].items():
  assert hashlib.sha256((root/rel).read_bytes()).hexdigest()==h;dest=repo/'bajor/overlay'/rel;shutil.copyfile(root/rel,dest)
-a=json.loads((stage/'applied.json').read_text());a['borgAndScaleUpdate']={'backup':str(backup),'files':len(changes),'runtimeVerified':False};a['staticChecks']=v['checks'];a['nextPatch']='Conservative unused asset audit; balance changes remain on hold';(stage/'applied.json').write_text(json.dumps(a,indent=2));(repo/'reports/twin-yards-applied.json').write_text(json.dumps(a,indent=2))
-s=json.loads((repo/'status.json').read_text(encoding='utf-8-sig'));s['current']='Applied Armada II original Borg Nexus and Assembly Matrix model correction. Production and repair yards 25% larger with footprints; Borg HWP 12.5% smaller with footprint. Static validation passed; gameplay testing pending. Cleanup audit next; maps protected.';s['twinYards']=a;(repo/'status.json').write_text(json.dumps(s,indent=2),encoding='utf-8')
-with(repo/'build.log').open('a',encoding='utf-8')as f:f.write('\n[Borg Armada II and yard scale correction] '+json.dumps(a['borgAndScaleUpdate'])+'\n')
-print(json.dumps(a['borgAndScaleUpdate']))
+a=json.loads((stage/'applied.json').read_text());a['compactYardUpdate']={'backup':str(backup),'files':len(changes),'runtimeVerified':False,'borgYards':3,'borgMenus':[14,9,11],'singleBorgBay':True};a['staticChecks']=v['checks'];a['nextPatch']='Conservative unused asset audit; balance changes remain on hold';(stage/'applied.json').write_text(json.dumps(a,indent=2));(repo/'reports/twin-yards-applied.json').write_text(json.dumps(a,indent=2))
+s=json.loads((repo/'status.json').read_text(encoding='utf-8-sig'));s['current']='Applied compact connected yards: larger varied centres, textured structural bridges and conduits; single-bay Borg yards. Borg production reorganised into minimum 3 yards (14/9/11 entries); 40 AI profiles updated. Ship-size estimates used to enlarge bays/footprints and position exits. Static checks passed; in-game clearance and gameplay testing pending. Species 8472 and Recycler unchanged.';s['twinYards']=a;(repo/'status.json').write_text(json.dumps(s,indent=2),encoding='utf-8')
+with(repo/'build.log').open('a',encoding='utf-8')as f:f.write('\n[Compact connected yards and Borg roster] '+json.dumps(a['compactYardUpdate'])+'\n')
+print(json.dumps(a['compactYardUpdate']))

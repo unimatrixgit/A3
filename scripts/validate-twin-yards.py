@@ -16,7 +16,8 @@ def props(n,stack=()):
 def items(p,prefix='builditem'):return[(int(k[len(prefix):]),v.lower())for k,v in p.items()if re.fullmatch(prefix+r'\d+',k)]
 P={n:props(n)for n in idx};files={p.relative_to(O).as_posix():hashlib.sha256(p.read_bytes()).hexdigest()for p in O.rglob('*')if p.is_file()};baseline=d['baseline']
 installed=json.loads((stage/'manifest.json').read_text())['files']if '--installed'in sys.argv else{}
-for n,row in baseline.items():check(hashlib.sha256((root/row['file']).read_bytes()).hexdigest()in [row['hash'],installed.get(row['file'])],'expected live baseline '+n)
+installedSources=json.loads((stage/'manifest.json').read_text()).get('sourceHashes',{})if '--installed'in sys.argv else{}
+for n,row in baseline.items():check(hashlib.sha256((root/row['file']).read_bytes()).hexdigest()in [row['hash'],installed.get(row['file']),installedSources.get(row['file'])],'expected live baseline '+n)
 check(not any(r.lower().startswith(('bzn/','maps/','missions/','events/'))for r in files),'maps, missions and events untouched')
 check(not any('start'in Path(r).stem.lower()and r.endswith('.odf')for r in files),'no starter fleet edits')
 check(not any(Path(r).stem.lower()=='brecycle'for r in files),'Borg Recycler untouched')
@@ -73,6 +74,10 @@ exec(Path('D:/aramada/scripts/build-bajor-redesign-v4.py').read_text().split('fo
 stage=repo/'patches/twin-yards-20261025';O=stage/'overlay';d=json.loads((stage/'design.json').read_text());sprite=(O/'Sprites/gui_global.spr').read_text(encoding='latin1');keys={m[1].lower():m[2].split()for m in re.finditer(r'(?mi)^(\S+)[ \t]+([^\r\n]+)',sprite)if not m[1].startswith(('@','#','//'))}
 for row in art:
  n=row['unit'];p=P[n]
+ if d.get('compactYardRedesign')and row['kind']=='yard':
+  fit=row.get('fit',{});check(bool(fit),'yard ship-size fit recorded '+n)
+  if fit:check(fit['bayDesignWidth']+1e-6>=fit['largestShip']['span']*1.25,'conservative bay clearance '+n)
+  check(row['bays']==(1 if row['theme']=='b'else 2),'single Borg bay / twin conventional bays '+n)
  try:model=load(O/'SOD'/(row['model']+'.sod'))
  except Exception:
   with contextlib.redirect_stdout(io.StringIO()):model=SodIO().read_file(str(O/'SOD'/(row['model']+'.sod')))

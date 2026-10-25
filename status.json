@@ -1,5 +1,5 @@
 {
-  "current": "Applied Armada II original Borg Nexus and Assembly Matrix model correction. Production and repair yards 25% larger with footprints; Borg HWP 12.5% smaller with footprint. Static validation passed; gameplay testing pending. Cleanup audit next; maps protected.",
+  "current": "Applied compact connected yards: larger varied centres, textured structural bridges and conduits; single-bay Borg yards. Borg production reorganised into minimum 3 yards (14/9/11 entries); 40 AI profiles updated. Ship-size estimates used to enlarge bays/footprints and position exits. Static checks passed; in-game clearance and gameplay testing pending. Species 8472 and Recycler unchanged.",
   "steps": [
     {
       "label": "Current configuration and artwork: Apply approved fixes",
@@ -1531,7 +1531,7 @@
     "backup": "D:\\Xaramada-Modwork\\backups\\twin-yards-20261025-184944",
     "files": 483,
     "models": 76,
-    "staticChecks": 55874,
+    "staticChecks": 60154,
     "newFiles": [
       "SOD/ty26_bhwp.sod",
       "SOD/ty26_bjhwp.sod",
@@ -1801,6 +1801,18 @@
       "backup": "D:\\Xaramada-Modwork\\backups\\yard-bridges-20261025-191555",
       "files": 177,
       "runtimeVerified": false
+    },
+    "compactYardUpdate": {
+      "backup": "D:\\Xaramada-Modwork\\backups\\yard-bridges-20261025-193618",
+      "files": 162,
+      "runtimeVerified": false,
+      "borgYards": 3,
+      "borgMenus": [
+        14,
+        9,
+        11
+      ],
+      "singleBorgBay": true
     }
   }
 }
