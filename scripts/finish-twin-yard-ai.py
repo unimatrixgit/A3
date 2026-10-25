@@ -44,6 +44,7 @@ for race,code in codes.items():
    except Unreachable as e:available.clear();available.update(saved);del plan[length:];skipped.append({'unit':n,'reason':str(e)})
   owned={code,'bg'if code=='b'else'fg'};wanted=[n for c in owned for n in d['yards'][c]]+['xyr_'+c for c in owned]
   wanted += [n for n,a in d['assets'].items()if a['kind']=='hwp'and a['theme']in owned]
+  wanted += d.get('extraAiTargets',{}).get(race,[])
   for n in wanted:
    try:ensure(n)
    except Unreachable as e:errors.append({'file':file.name,'unit':n,'reason':str(e)})

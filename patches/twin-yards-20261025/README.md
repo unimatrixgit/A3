@@ -18,7 +18,7 @@ remain disabled. Technology prerequisites and 40 AI profiles were checked.
 Production-bay sizes use conservative ship-model bounding spans with 25%
 clearance allowance. Undecodable legacy SODs use documented estimates in
 `../compact-yard-preview/staging-report.json`. Footprints scale with the
-model and launch points sit beyond the new bay. These are static estimates;
+model and production points sit inside the assembly bay. These are static estimates;
 in-game ship emergence, clearance and repair behaviour still need testing.
 Ship stats, Species 8472, HWP models and the Recycler are unchanged by this
 revision. Actual staged model renders are in `../compact-yard-preview/`.
@@ -60,7 +60,7 @@ are unaffected. Static checks passed; gameplay verification is pending.
 | Ferengi (Latinum) | D'Kora Contract Yard; Nog Industrial Exchange | Nog's Service Exchange |
 | Ferengi (Borg prices) | D'Kora Contract Yard; Nog Industrial Exchange | Nog's Service Exchange |
 
-Each production/service model has two visible yard wings and one shared native queue. Production yards have two faction beams and one torpedo, with no repair/recrewing/decommissioning. Service docks have repair, recrewing and decommissioning but no production menus.
+Each conventional production/service model has two visible yard wings and one shared native queue; Borg models use one large bay. Production yards have two faction beams and one torpedo, with no repair/recrewing/decommissioning. Service docks have repair, recrewing and decommissioning but no production menus.
 
 Federation centres use Earth Spacedock, with spaced double saucers for hero yards and no biodome. Borg centres use the original vanilla Nexus. Other centres use their faction starbase design; yard wings use the original faction yards. Hero centres are larger, and tier silhouettes vary.
 

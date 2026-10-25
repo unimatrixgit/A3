@@ -81,23 +81,24 @@
     "donor": "xflegacyyard",
     "name": "Archer Legacy Yard",
     "model": "ty26_xflegacyyard",
-    "size": 400,
+    "size": 447.75289930306377,
     "scale": 2.0,
     "centralModel": "fbase",
     "bays": 2,
     "queueCount": 1,
     "fit": {
       "largestShip": {
-        "ship": "xhfpicardd",
-        "span": 76.98910825996752
+        "ship": "xhftvarek",
+        "span": 92.0
       },
-      "bayDesignWidth": 102.73523649227042,
+      "bayDesignWidth": 114.99999999999999,
       "clearanceFactor": 1.25,
       "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 8,
+      "shipsMeasured": 9,
       "estimatedLegacyModels": []
     },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {}
   },
   {
     "unit": "s31yard",

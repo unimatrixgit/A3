@@ -1,5 +1,5 @@
 {
-  "current": "Applied 27 cohesive faction research-station designs with original materials, textures and lighting. Pod attachment positions and research capacity verified; original functions/costs preserved. Includes upgrade centres and Federation/Borg Omega labs. Bajor/Cardassia share architecture. Yards, 8472 and Borg tech assimilator unchanged. Static validation passed; gameplay testing pending.",
+  "current": "Applied interior production points and all four Federation Spacedock door-pair animation tracks. Dominion carrier has native player-owned fighter production. U.S.S. T'Varek Federation hero added at Archer Legacy Yard; yard enlarged to fit. Technology, icons, AI and results portraits updated. Static validation and installed file hashes passed; fresh-match gameplay testing pending.",
   "steps": [
     {
       "label": "Current configuration and artwork: Apply approved fixes",
@@ -510,11 +510,11 @@
       "done": false
     },
     {
-      "label": "Push to unimatrixgit/armada2 \u00c3\u0192\u00c2\u00a2\u00c3\u201a\u00c2\u20ac\u00c3\u201a\u00c2\u201d blocked by automatic approval review",
+      "label": "Push to unimatrixgit/armada2 ÃƒÂ¢Ã‚Â€Ã‚Â” blocked by automatic approval review",
       "done": false
     },
     {
-      "label": "Launch Armada II \u00c3\u0192\u00c2\u00a2\u00c3\u201a\u00c2\u20ac\u00c3\u201a\u00c2\u201d manual launch confirmed",
+      "label": "Launch Armada II ÃƒÂ¢Ã‚Â€Ã‚Â” manual launch confirmed",
       "done": true
     },
     {
@@ -804,7 +804,7 @@
     {
       "id": "yard_names",
       "title": "Faction shipyard names",
-      "note": "Laforge\u00e2\u20ac\u2122s Shipyard, Advanced Assimilated Matrix and Advanced Hatchery requested.",
+      "note": "Laforgeâ€™s Shipyard, Advanced Assimilated Matrix and Advanced Hatchery requested.",
       "steps": [
         {
           "label": "Choose faction names",
@@ -1831,6 +1831,43 @@
       "podPositionsPreserved": true,
       "yardsUnchanged": true,
       "runtimeVerified": false
+    }
+  },
+  "patches": {
+    "production-interiors-20261025": {
+      "status": "APPLIED",
+      "backup": "D:\\Xaramada-Modwork\\backups\\production-interiors-20261025-20261025-211920",
+      "files": 46,
+      "runtimeVerified": false,
+      "description": "production-interiors-20261025"
+    },
+    "dominion-carrier-launch-20261025": {
+      "status": "APPLIED",
+      "backup": "D:\\Xaramada-Modwork\\backups\\dominion-carrier-launch-20261025-20261025-212348",
+      "files": 9,
+      "runtimeVerified": false,
+      "description": "Dominion carrier equipped with native onboard fighter production: player-owned Jem'Hadar fighters, 6-second launch queue. Carrier movement and combat require in-game verification."
+    },
+    "tvarek-hero-20261025": {
+      "status": "APPLIED",
+      "backup": "D:\\Xaramada-Modwork\\backups\\tvarek-hero-20261025-20261025-212736",
+      "files": 18,
+      "runtimeVerified": false,
+      "description": "U.S.S. T'Varek Federation hero installed at Archer Legacy Yard with custom reference-inspired annular-warp model and matched heavy-cruiser hero statistics."
+    },
+    "carrier-tvarek-links-20261025": {
+      "status": "APPLIED",
+      "backup": "D:\\Xaramada-Modwork\\backups\\carrier-tvarek-links-20261025-20261025-213102",
+      "files": 3,
+      "runtimeVerified": false,
+      "description": "Finalised Federation hero display labels and technology-mode gates; carrier and fighter source snapshots aligned with native ODF parsing."
+    },
+    "production-hero-ai-finish-20261025": {
+      "status": "APPLIED",
+      "backup": "D:\\Xaramada-Modwork\\backups\\production-hero-ai-finish-20261025-20261025-213350",
+      "files": 16,
+      "runtimeVerified": false,
+      "description": "Applied final dependency-ordered AI plans, enlarged Archer Legacy Yard for T'Varek, and results-screen portraits for the new hero and carrier fighters."
     }
   }
 }

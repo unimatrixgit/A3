@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "description": "Finalised Federation hero display labels and technology-mode gates; carrier and fighter source snapshots aligned with native ODF parsing.",
+  "files": {
+    "techtree/nosci.tt": "8b60f141c105fbd4566eaf7a2c0d3cb558e4aeb120e054965627a3d3e8f76cd8",
+    "techtree/nosuper.tt": "ba2471fc6ee0a4a36dace022df1cdccd5cc55cbd5ed3d2840998fa5b44ecaea0",
+    "odf/ships/xhftvarek.odf": "7080937738b29cb5a7d09feb1bb7beb4c6e4e6984deff1a078759e26730a45a8"
+  },
+  "sourceHashes": {
+    "odf/ships/xhftvarek.odf": "3463eb3318b203567d1bdab50647f62c99670d7e0df64da9452fc00db58d82e4",
+    "techtree/nosci.tt": "77c8d335a9a41fe3de3e20ae8098e3f2a7fed706a0b7f12a5b53954eeb9459d7",
+    "techtree/nosuper.tt": "be2b401017e83f3a8b5cdceb46b7e66c207466839dc320d14e08ae5e9714444c"
+  },
+  "baselineUpdates": [
+    "xdcarrier",
+    "xdcfighter",
+    "xhftvarek"
+  ],
+  "runtimeVerified": false
+}

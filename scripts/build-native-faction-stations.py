@@ -119,9 +119,9 @@ for index,(n,a)in enumerate(d['assets'].items(),1):
   local=(inv@np.r_[np.asarray(pos)/scale,1])[:3];existing.update(parent=parent['id'],local_transform=inv[:3,:3].T.tolist()+[local.tolist()])
  if kind in ['yard','service']:
   for hp,pos in [('tylaunch',(125,0,156.25)),('tyrepair',(-125,0,25)),('tygun1',(-50,25,0)),('tygun2',(50,25,0)),('tygun3',(0,18.75,47.5))]:anchor(hp,pos)
-  # Place exits beyond the actual new bay, away from the central structure.
-  bay=np.array(bayPositions[-1]);exitPos=bay+np.array([0,0,bayScale*.7 if kind=='yard'else .8])
-  anchor('tylaunch',(exitPos-center)/span*size)
+  # Assemble inside the bay. Ship movement handles the subsequent departure.
+  bay=np.array(bayPositions[-1])
+  anchor('tylaunch',(bay-center)/span*size)
   anchor('tyrepair',(bay-center)/span*size)
  alias='ty26_'+n;path=O/'SOD'/(alias+'.sod');path.parent.mkdir(parents=True,exist_ok=True);writer=IO();writer.curr_sod_version=model.version
  with contextlib.redirect_stdout(io.StringIO()):writer.write_file(model,str(path))

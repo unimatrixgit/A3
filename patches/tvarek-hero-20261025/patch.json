@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "description": "U.S.S. T'Varek Federation hero installed at Archer Legacy Yard with custom reference-inspired annular-warp model and matched heavy-cruiser hero statistics.",
+  "files": {
+    "SOD/xhftvarek.sod": "68bd0298db8b057c3a5260668725a5250702e150a56ef38d1245a9fae9410769",
+    "Sprites/gui_global.spr": "af7af9894e711516179994fa7e533f2c5d8d24ea666d1bede85a42f00d82869f",
+    "techtree/earlytech.tt": "abb84dc21698b693ccbb74bd7398c91d3538f73ddd28f217aeff19c5365a32f0",
+    "techtree/fulltech.tt": "4f96de9b464e15b977722e5ff6649ffd6e56524f9eba5fe9e38bd1f0282878be",
+    "techtree/nosci.tt": "77c8d335a9a41fe3de3e20ae8098e3f2a7fed706a0b7f12a5b53954eeb9459d7",
+    "techtree/nospweap.tt": "485d2806938af3bbc3da7568d3d69b5f496ad6858a5481ed306d4092076e8650",
+    "techtree/nosuper.tt": "be2b401017e83f3a8b5cdceb46b7e66c207466839dc320d14e08ae5e9714444c",
+    "techtree/tech1.tt": "9a7fa0a2725b5624e8f5dfdc3bbd27d05c46af9b412ce9225cd53495501c3347",
+    "odf/ships/xhftvarek.odf": "3463eb3318b203567d1bdab50647f62c99670d7e0df64da9452fc00db58d82e4",
+    "odf/stations/xflegacyyard.odf": "3ae4019713bb9a97556fb33dd23e585e0a31d1bd278a999bb37e72ad0179f1db",
+    "odf/weapons/tvarbeam.odf": "63540b22d66c2c46ec3049b8f38cf24f362eafcfe72d09a46b09fde792c4676f",
+    "odf/weapons/tvarbeamo.odf": "3fc913e55ec10b8ee36d35a101837a4a8f81b79f575c2e95b0f7c289eba97f1e",
+    "odf/weapons/tvarpulse.odf": "0b818716e17b1c2a967d366eebda0b8e85e94f2a5d44c802931506b69d243c14",
+    "odf/weapons/tvarpulseo.odf": "90d7da8131be4d8750f7b67768b8b6ef3018b33acd0f2b7689cdf3dbc532142c",
+    "odf/weapons/tvartorp.odf": "841885ac2f019e87e4e02e12df4bf3efc1810016f11ec79836e298f8eaee86d0",
+    "odf/weapons/tvartorpo.odf": "05baec563e6add4cbf385771d0e4835a971dc580107e1dc1eaea9d9bba5d2cc4",
+    "Textures/RGB/gbxhftvarek.tga": "ce02461e4e79adc01202a6e5d879f4f0387335aaf9ae3ddd5327707c109f43ed",
+    "Textures/RGB/wfxhftvarek.tga": "d6ac85b30f21f81d764d1e1107961bcd575b790f47956f8e66113ece9ac964cf"
+  },
+  "sourceHashes": {
+    "odf/stations/xflegacyyard.odf": "ea8b6cd41aedda2a33fbd037bddb660294ad74ab4c1477558b896b6bde272802",
+    "Sprites/gui_global.spr": "409d6e0c9e1290cb25218f1d1f0010ff6127b0407cd1dfc70dd760a0d8026f68",
+    "techtree/tech1.tt": "d485494ef09dcf0dd082fa79d182db3515dc0048aa2bef2508e26dfa473c6b65",
+    "techtree/earlytech.tt": "269e1721d94497f5c7a8012ef7938328dd982ccf6fcbb16e133aaa99e4b0a073",
+    "techtree/fulltech.tt": "5163232ffe5c8478181d6a4c4486007e0c3f605c7bcc71b0f42c45e919a55447",
+    "techtree/nosci.tt": "390db231735bd2d0d75918ed56fdaccfe3e8906f0e6be916d19eba250728aeee",
+    "techtree/nosuper.tt": "9cf9d514f7309f19bc9af488e116c074cb8dfda5ae0e39138de49648e249d1cc",
+    "techtree/nospweap.tt": "51ca431c116ee8aafca5ea3fed3010da13138620346fee9f81695cb2e5324386"
+  },
+  "baselineUpdates": [
+    "xhftvarek"
+  ],
+  "attackAssignments": {
+    "xhftvarek": "xflegacyyard"
+  },
+  "extraAiTargets": {
+    "federation": [
+      "xhftvarek"
+    ]
+  },
+  "unit": "xhftvarek",
+  "yard": "xflegacyyard",
+  "sourceReference": "User-supplied T'Varek orthographic sheet",
+  "stats": {
+    "health": 8000,
+    "shieldRegen": 80,
+    "crew": 240,
+    "energy": 2500,
+    "energyRegen": 25,
+    "dilithium": 1000,
+    "metal": 450,
+    "buildTime": 90
+  },
+  "weaponLayout": {
+    "heavyParticleCannons": 2,
+    "beamEmitters": 8,
+    "torpedoTubes": 4,
+    "specials": [
+      "Corbomite Reflector",
+      "Transphasic Torpedo",
+      "Self Destruct"
+    ]
+  },
+  "estimatedNormalBankDPS": 188.33333333333334,
+  "comparisonPicardNormalBankDPS": 189.28571428571428,
+  "runtimeVerified": false
+}

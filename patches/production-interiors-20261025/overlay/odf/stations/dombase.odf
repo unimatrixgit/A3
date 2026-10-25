@@ -1,0 +1,226 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Dominion Starbase"
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "cardassian"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Number of Officers starbase gives by default
+officerGain = 18
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 6041
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 6.3
+
+//Shield absorbs all damage until it's gone
+shieldProtection = 1.0
+
+//Possible Craft Names
+possibleCraftNames = "Takar'Latan Starbase"
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Pulse Phaser
+weapon1 = "cd05phas"
+weaponHardpoints1 = "hp09" "hp10" "hp11" "hp12" "hp13" "hp14"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "hp07" "hp08"
+lifeSupportTargetHardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "hp07" "hp08" 
+weaponsTargetHardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "hp07" "hp08"
+shieldGeneratorTargetHardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "hp07" "hp08"
+sensorsTargetHardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "hp07" "hp08"
+hullTargetHardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "hp07" "hp08"
+criticalTargetHardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "hp07" "hp08"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.50f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 2.00f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.5f
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 2500
+enginesHitPoints = 0
+weaponsHitPoints = 2500
+lifeSupportHitPoints = 2500
+sensorsHitPoints = 2500
+
+//**********************************************************************
+//SYSTEM DAMAGE DISTRIBUTION
+//The following section's values should add up to 100
+//Percent Chance out of 100 of engines being destroyed
+enginesHitPercent = 0.0f
+
+//Percent Chance out of 100 of life support being destroyed
+lifeSupportHitPercent = 10.5f
+
+//Percent Chance out of 100 of weapons being destroyed
+weaponsHitPercent = 10.0f
+
+//Percent Chance out of 100 of shields being destroyed
+shieldGeneratorHitPercent = 13.0f
+
+//Percent Chance out of 100 of sensors being destroyed
+sensorsHitPercent = 13.0f
+
+//Percent Chance out of 100 of hull being hit (crew dying)
+crewHitPercent = 13.5f
+
+//Percent Chance out of 100 of entire ship exploding
+hullHitPercent = 40.0f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+eventSelect = "StarbaseSelect"
+eventAcknowledge = "StarbaseAcknowledge"
+eventAttack = "StarbaseAttack"
+eventDecommission = "StarbaseDecommission"
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "starbase"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "starbase"
+hotkeyLabel = "HOTKEY_F1"
+
+//************************************************************
+// Brian additions for context sensitive menus
+builder_ship = 1
+transporter = 1
+alert = 1
+combat = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+
+
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+
+
+
+
+
+officerCost = 10
+buildTime = 100
+
+
+maximumCrew = 2000
+
+// Equal visual span: vanilla Borg Nexus reference.
+ScaleSOD = 3.67406816
+
+
+
+
+
+
+
+
+
+
+
+eastBuffer = 0
+
+westBuffer = 0
+
+northBuffer = 0
+
+southBuffer = 0
+
+footprintBuffer = 72
+
+
+
+
+
+
+
+
+
+
+
+
+tooltip = "Starbase (Dominion Starbase)"
+
+
+
+repairFacility = 0
+
+
+
+
+
+
+buildItem0 = "cconst"
+
+buildItem1 = "xcconst2"
+
+buildItem2 = "xcuconst"
+
+buildItem3 = "dconst"
+
+buildItem4 = "xdconst2"
+
+buildItem5 = "xduconst"
+
+dilithiumCost = 1500
+
+metalCost = 1500
+
+latinumCost = 0
+
+biomatterCost = 0
+
+crewCost = 150
+
+verboseTooltip = "Dominion Starbase\nFleet command and unit production\nA stronghold of the Cardassian Union."
+buildHardpoint = "piinside_dombase"

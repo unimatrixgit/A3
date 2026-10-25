@@ -1,0 +1,154 @@
+shielddelay = 1.0f
+rangescan = 800.0f
+
+
+damagedscan = 125.0
+shieldprotection = 1.0
+enginesrepairtime = 0.2f
+lifesupportrepairtime = 0.04f
+weaponsrepairtime = 0.2f
+shieldgeneratorrepairtime = 0.2f
+sensorsrepairtime = 0.2f
+enginescrewloss = 2.0f
+lifesupportcrewloss = 2.5f
+weaponscrewloss = 1.0f
+shieldgeneratorcrewloss = 1.0f
+sensorscrewloss = 1.0f
+lifesupportloss = 2.0f
+engineshitpercent = 5.0f
+lifesupporthitpercent = 8.5f
+weaponshitpercent = 5.0f
+shieldgeneratorhitpercent = 8.0f
+sensorshitpercent = 8.0f
+crewhitpercent = 8.5f
+hullhitpercent = 57.0f
+weldingradius = 1.0
+classlabel = "craft"
+ainame = "CraftProcess"
+avoidanceclass = 8
+fireball = "xfireblg"
+ship = 1
+has_hitpoints = 1
+has_crew = 1
+transporter = 1
+show_movement_autonomy = 1
+can_explore = 1
+
+attackpower = 1.00f
+intrinsicvalue = 0.50f
+
+
+
+
+
+eventselect = "XV_fentd_Select"
+eventacknowledge = "XV_fentd_Acknowledge"
+eventattack = "XV_fentd_Attack"
+eventstop = "XV_fentd_Stop"
+eventmove = "XV_fentd_Move"
+eventrepair = "XV_fentd_Repair"
+canattackplanets = 1
+physicsfile = "fbattlephys.odf"
+combat = 1
+alert = 1
+can_sandd = 1
+shiptype = "B"
+
+label = "Jean-Luc Picard - Enterprise D"
+
+
+ishero = 1
+
+
+
+
+
+
+
+trekphysicsfile = "fbattlephys.odf"
+eventredalert = "XV_fentd_RedAlert"
+eventyellowalert = "XV_fentd_YellowAlert"
+eventgreenalert = "XV_fentd_GreenAlert"
+eventtransport = "XV_fentd_Transport"
+eventselfdestruct = "XV_fentd_SelfDestruct"
+eventdecommission = "XV_fentd_Decommission"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+unitName = "U.S.S. T'Varek"
+tooltip = "U.S.S. T'Varek - Heavy Cruiser Hero"
+verboseTooltip = "U.S.S. T'Varek\nParticle cannons, beams and torpedoes\nVulcan ingenuity in early Federation service."
+possibleCraftNames = "U.S.S. T'Varek"
+baseName = "xhftvarek"
+race = "federation"
+shipclass = "cruiser"
+ScaleSOD = 1
+maxHealth = 8000
+shieldRate = 80
+crewCost = 240
+maximumCrew = 240
+officerCost = 12
+dilithiumCost = 1000
+metalCost = 450
+latinumCost = 0
+biomatterCost = 0
+buildTime = 90
+maxSpecialEnergy = 2500
+specialEnergyRate = 25
+hotkeyLabel = "HOTKEY_F9"
+shieldGeneratorHitPoints = 1200
+enginesHitPoints = 1200
+weaponsHitPoints = 1200
+lifeSupportHitPoints = 1200
+sensorsHitPoints = 1200
+enginesTargetHardpoints = "tvsystem"
+lifeSupportTargetHardpoints = "tvsystem"
+weaponsTargetHardpoints = "tvsystem"
+shieldGeneratorTargetHardpoints = "tvsystem"
+sensorsTargetHardpoints = "tvsystem"
+hullTargetHardpoints = "tvsystem"
+criticalTargetHardpoints = "tvsystem"
+weapon1 = "tvarpulse"
+weaponHardpoints1 = "tvc1"
+weapon2 = "tvarpulse"
+weaponHardpoints2 = "tvc2"
+weapon3 = "tvarbeam"
+weaponHardpoints3 = "tvb1" "tvb2"
+weapon4 = "tvarbeam"
+weaponHardpoints4 = "tvb3" "tvb4"
+weapon5 = "tvarbeam"
+weaponHardpoints5 = "tvb5" "tvb6"
+weapon6 = "tvarbeam"
+weaponHardpoints6 = "tvb7" "tvb8"
+weapon7 = "tvartorp"
+weaponHardpoints7 = "tvt1" "tvt2"
+weapon8 = "tvartorp"
+weaponHardpoints8 = "tvt3" "tvt4"
+weapon9 = "gcorbom"
+weaponHardpoints9 = "tvsystem"
+weapon10 = "xhtphase"
+weaponHardpoints10 = "tvt1"
+weapon11 = "gselfdes"
+weaponHardpoints11 = "tvsystem"

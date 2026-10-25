@@ -17,7 +17,7 @@ Native standalone producers replace the cancelled attached-Nexus experiment. One
 | Ferengi (Latinum) | D'Kora Contract Yard; Nog Industrial Exchange | Nog's Service Exchange |
 | Ferengi (Borg prices) | D'Kora Contract Yard; Nog Industrial Exchange | Nog's Service Exchange |
 
-Each production/service model has two visible yard wings and one shared native queue. Production yards have two faction beams and one torpedo, with no repair/recrewing/decommissioning. Service docks have repair, recrewing and decommissioning but no production menus.
+Each conventional production/service model has two visible yard wings and one shared native queue; Borg models use one large bay. Production yards have two faction beams and one torpedo, with no repair/recrewing/decommissioning. Service docks have repair, recrewing and decommissioning but no production menus.
 
 Federation centres use Earth Spacedock, with spaced double saucers for hero yards and no biodome. Borg centres use the original vanilla Nexus. Other centres use their faction starbase design; yard wings use the original faction yards. Hero centres are larger, and tier silhouettes vary.
 

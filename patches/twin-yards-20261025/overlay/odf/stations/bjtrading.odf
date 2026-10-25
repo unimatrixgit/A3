@@ -1,0 +1,179 @@
+#include "tradingStation.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+
+//tooltips
+
+
+//Name of the ODF file of the matching freighter to build with the station
+//freighterName = "fcargo"
+
+//Race which can build ship & starting race of ship
+
+
+// transfer rate from cargo ship to station
+//dilithiumTransferRate = 15.0
+cargoTransferRate = 50.0
+
+// what percent of trade profit this station gets
+percentTradeProfit = 15.0
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxhealth = 1200
+
+//Rate at which shield recharges (points per second... we think)
+shieldrate = 12.0
+
+//Possible Craft Names
+possibleCraftNames = 
+	"FTC-9835" "FTC-1059" "FTC-549" "FTC-1080"
+	"FTC-8243" "FTC-9400" "FTC-680" "FTC-9874" 
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Hardpoints to hit for various systems and other locations.
+
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.50f
+
+
+//**********************************************************************
+
+//change the scale
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "TradingStationSelect"
+eventAcknowledge = "TradingStationAcknowledge"
+eventDecommission = "TradingStationDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "trading_station"
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "trading_station"
+hotkeyLabel = "HOTKEY_F12"
+
+//************************************************************
+// Brian additions for context sensitive menus
+transporter = 1
+trade_station = 1
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+unitName = "Bajoran Trade Center"
+
+
+
+
+
+race = "bajoran"
+
+
+
+
+
+buildItem0 = "bjcargo"
+
+
+
+
+
+
+
+
+ScaleSOD = 2.54632
+criticaltargethardpoints = "hp01"
+enginestargethardpoints = "hp01" "hp06" "hp07" "hp08" "hp09" "hp10"
+hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+lifesupporttargethardpoints = "hp01" "hp11" "hp12" "hp13" "hp14" "hp15"
+sensorstargethardpoints = "hp01" "hp11" "hp12" "hp13" "hp14" "hp15"
+shieldgeneratortargethardpoints = "hp01" "hp06" "hp07" "hp08" "hp09" "hp10"
+weaponstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+
+
+
+
+crewcost = 300
+officercost = 6
+buildtime = 50
+
+shieldgeneratorhitpoints = 300
+
+lifesupporthitpoints = 300
+
+sensorshitpoints = 300
+
+maxspecialenergy = 0
+
+specialenergyrate = 0
+
+engineshitpoints = 0
+
+weaponshitpoints = 0
+
+dilithiumCost = 400
+
+metalCost = 300
+
+latinumCost = 0
+
+biomatterCost = 0
+
+tooltip = "Trading Station (Bajoran Trade Center)"
+
+
+
+baseName = "bv4_bjtrading"
+
+verboseTooltip = "Bajoran Trade Center\nFleet support\nBajor rebuilds after Cardassian occupation."
+buildHardpoint = "piinside_bjtrading"

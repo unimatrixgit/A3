@@ -102,7 +102,7 @@ weaponRed = 1.5f
 ScaleSOD = 1.4
 avoidanceClass = 2
 canAttackPlanets = 1
-physicsFile = "sbattphys.odf"
+
 trekPhysicsFile = "trek_sbattphys.odf"
 fireball = "xfireblg"
 combat = 1
@@ -124,9 +124,9 @@ shieldGeneratorCrewLoss = 2.0f
 sensorsCrewLoss = 2.0f
 lifeSupportLoss = 2.0f
 weldingRadius = 1.0
-classLabel = "craft"
-aiName = "CraftProcess"
-ship = 1
+
+
+
 has_hitpoints = 1
 has_crew = 1
 transporter = 1
@@ -154,4 +154,20 @@ biomatterCost = 0
 
 hotkeyLabel = "HOTKEY_F3"
 
-verboseTooltip = "Dominion Carrier\nSelf Destruct\nThe Founders command; the Jem'Hadar obey."
+
+classLabel = "starbase"
+physicsFile = "trek_sbattphys.odf"
+ship = 1
+facility = 0
+is_starbase = 0
+builder_ship = 1
+alwaysRecomputeRallyPoint = 1
+buildItem0 = "xdcfighter"
+buildHardpoint = "hp18"
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0
+maxCrewGain = 0
+officerGain = 0
+maximumUpgrades = 0
+verboseTooltip = "Dominion Carrier\nLaunch Jem'Hadar carrier fighters\nThe Founders project power across the quadrant."

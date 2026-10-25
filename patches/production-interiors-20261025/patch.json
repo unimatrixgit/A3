@@ -1,0 +1,2140 @@
+{
+  "status": "PASS",
+  "files": {
+    "SOD/bv4_bjtrading.sod": "cdd40c898abc30f20e6752a725244aa351bce66fa3300d50bb35a835e37222cd",
+    "SOD/cstation.SOD": "9d9a5b6ba2fbaceba3933d592956538a5a4f43fb3c67549b10420bf0d9fa9362",
+    "SOD/domabase.SOD": "b39b4ab18d108301d85da8c293edf890b0532cc5e1a4e44d3a68df8e5b7c0908",
+    "SOD/dombase.SOD": "17cbf1866ff7c0bbe61251d355d1474a1b249b4d4530d2d2de148d4a71601cfd",
+    "SOD/Fbase.sod": "9a8846c088b043bdbeb065f2f41d6bff160627a6b21d993919a68e86d4e04822",
+    "SOD/fjupiter.SOD": "3c434a55fb726e9312712d61ef047fe961494f725ee8b7943476c4226ad22bd8",
+    "SOD/fmidas.SOD": "0556a15221050a16b79914dcffbadca783f7751cbe4cfa723a8c1019fffc87a1",
+    "SOD/ty26_bjyard.sod": "9c4ac3ed5c501c219b634c14cfbec76fa18d8baa8ba614f1ab58a732209c7735",
+    "SOD/ty26_bjyard2.sod": "4510c0f22e92bfeaaa8fc9f59430d3078021fc3f5bd110617943b60feda8e01f",
+    "SOD/ty26_bryard.sod": "37417e4c472d8cb976d7019c9ac78985907af9569f44aac7c55706ad546c9998",
+    "SOD/ty26_byard.sod": "21d3a491171058e85ead84eb80ecd0e9a0da2208f9f6a80724b81a52a12ee08b",
+    "SOD/ty26_byard2.sod": "ab58237bcb3a04b847b56457a0501a0bfb9555f4b216eb3b320e987ba2e24dd9",
+    "SOD/ty26_byard3.sod": "2104e22e0640575c2babea08ed8ac14d2618fc8a0cca3dacbf95f7d8a1e68b9b",
+    "SOD/ty26_cyard.sod": "1dcb2e7c4e978f6a6ba2473587096591a40a7528adef58a8c5e9bebabaa2a23e",
+    "SOD/ty26_cyard2.sod": "a21061e1db31ecf4920044f113d1aed9fe5de5c097a46e705a970e11e55587d3",
+    "SOD/ty26_cyard3.sod": "b1ba7909113ca804909aab847ba624ac258dc20206928cf77d63157c5af30fff",
+    "SOD/ty26_dyard.sod": "fef65b9b51086ad42195da291c643817540846dfc39eefa898cc6c34bf19744c",
+    "SOD/ty26_dyard2.sod": "68d14a9bf5424251a4a563b14666274bb87282ad570ed47ff4b29492938a1a5b",
+    "SOD/ty26_dyard3.sod": "a0987e6b423028b042143bc478e27dace87e4f1e588092522d34231e0051a438",
+    "SOD/ty26_fyard.sod": "7510da17f2c71728fe4ab814ca7d0d245eec3f08ece8da8cc4c9426eee59102e",
+    "SOD/ty26_fyard2.sod": "49679f150846fe80285edadf9e13c542647278efbe1b1a051d25e625b51acf97",
+    "SOD/ty26_fyard3.sod": "e02edbf0012501e2dfc2669c9c9c8ae1c5c285aa12cc32d4e189e0541bcea89d",
+    "SOD/ty26_kyard.sod": "30ba1c56a6bb4014c2d2863bab92385e5059b1a5b27527f9f187bd659d814965",
+    "SOD/ty26_kyard2.sod": "70796b3d30e19793e02f0a31cff10233a2b12e31a38bbc93e8f9c00e26868bf7",
+    "SOD/ty26_kyard3.sod": "593e55168f3eea760fe1319294c30a450a37a99230f649c38a2775ee7172e2e1",
+    "SOD/ty26_mryfeda.sod": "07c8186c77beb15372ccd21619f379f3b0477fd7bf1a25e88229bbe6184d8f9d",
+    "SOD/ty26_mryfedb.sod": "8beb2687341dd942043a8f07d6f821c5b75fe35524ceb291483da3c4033234f9",
+    "SOD/ty26_ryard.sod": "046e6f871fd482ee36a434444e650b39caf8e8ac24f21a4cb3e7bacd32b55d82",
+    "SOD/ty26_ryard2.sod": "262d28692e5582cb5a78543ad5237129b3055044f0f7566c49d1a86b24cb0c01",
+    "SOD/ty26_ryard3.sod": "8d1cda1d469a726b1ed791c5a4212354dcef38eb0a0ea7cca7535bac82427596",
+    "SOD/ty26_s31yard.sod": "0a578ffab172d6a7dcfbe215743fd04b8772f5c63215946bc169a1f6cfde9f68",
+    "SOD/ty26_xbgmerc.sod": "db86d423bf880645e867526fafc82af849aac68655ff68b149e4bcb043f87ec6",
+    "SOD/ty26_xbgserv.sod": "6a90adf50eebe1ab140674f66f4ca997571dade10287b31faf3d676d126a88c1",
+    "SOD/ty26_xfgmerc.sod": "db86d423bf880645e867526fafc82af849aac68655ff68b149e4bcb043f87ec6",
+    "SOD/ty26_xfgserv.sod": "6a90adf50eebe1ab140674f66f4ca997571dade10287b31faf3d676d126a88c1",
+    "SOD/ty26_xflegacyyard.sod": "4d80021756b91bf88fa1236abe79b5e04d23d3da0a1a0396077699979ba69670",
+    "SOD/xui_cbase.sod": "7d4c078fd152c87f85af4a9773eeafc189ad025bd682a1341d0c450374437a16",
+    "SOD/xui_kbase.sod": "839307839c458f611e15dcb2648d84d046690e31b26600a4e667b6925979b15b",
+    "odf/stations/bjtrading.odf": "b72c436a2ee3f2d122251b18587e12ec3a2b714c0d9075c8944579bb90a9b1b1",
+    "odf/stations/cbase.odf": "84d8d216173ec06acfdb691adcdc1123d077b2e4462d877534a96bbdc64fe74b",
+    "odf/stations/cstation.odf": "e7e5c313f59a48faf62a7a2f7e78984b7dc2612fc1dafb9b8cf32e542a0be6c1",
+    "odf/stations/domabase.odf": "66ee9426b081c07e23438487dbc5fe5f7554cee3f84a20d7f1a71102aa9148d3",
+    "odf/stations/dombase.odf": "661081fc41a3abb90b03e54efe25f586111f83b3616bb06058ab1afe81c12f1f",
+    "odf/stations/fjupiter.odf": "0fd65b656b29f50dce8411473fc7a68f435a74e5f8945d91870e7141c9d5fc97",
+    "odf/stations/fmidas.odf": "4739f6e27d4d75cfc0a47a73a68e9507c6fa78ba8c314e290a374ff3b4ba0d64",
+    "odf/stations/kbase.odf": "d7e0f6f162c8f2dad7f86237c592e1a46688f9f026f17690c8c474a96b486eb8"
+  },
+  "sourceHashes": {
+    "SOD/bv4_bjtrading.sod": "a6140dde2009b2cda908132e849d64de70ba87b5e109ec65a161b10743662ca9",
+    "SOD/ty26_bjyard.sod": "8b282a0e4503e4520bad81c9ea223ceb0e6e00e0627eb0b64748ec6ddc35642f",
+    "SOD/ty26_bjyard2.sod": "8cb1c9020b2fcc5bd6a10c24fe9c59b65e002e346bbb5a41ed84e0a602666ca7",
+    "SOD/ty26_bryard.sod": "e3e9e2e2fef4ed8a539939edda964a59f1875e25380f215595f8ffa4f0086977",
+    "SOD/ty26_byard.sod": "d4e530986ec7ebdf8c0254985e2a6647b62be69f71f29bc746db44d5c267c4dc",
+    "SOD/ty26_byard2.sod": "9bfc9deb1248d116a1341bf1d212c5902870aeeffdc997a2d02038f5d5c24834",
+    "SOD/ty26_byard3.sod": "b7e0e4a852a953bb26ea542a4c96ad16a6638d5619b1a34da90db280ebdfe0c3",
+    "SOD/xui_cbase.sod": "45323b18d9e9718d90a9ca40c9ff689d490c4d71162c0ae8b2c79ac73cc649f2",
+    "SOD/cstation.SOD": "3117ac9b82be7638578f6c8c628f569f558b51458ee27a769bc78bab3a93e109",
+    "SOD/ty26_cyard.sod": "154f48ed02d20d8d2b9fd7e410771d30bacdd854fd65685602766f43f2dbe3fe",
+    "SOD/ty26_cyard2.sod": "c82940b9df646a670dcaef289c1a9c25441f9cc200737be0d3651ea2691bce02",
+    "SOD/ty26_cyard3.sod": "0af7b799503b571afa7d34730336ae982c047b486d33cacb0e0e05da31755a25",
+    "SOD/domabase.SOD": "4e9dd98f36eac571feb108facd4f8a3d40847493d5552996bcd856ca633fb659",
+    "SOD/dombase.SOD": "72cbe111b2c97d24090092684575f60a2f247022c9fa431afc475a5134c85b45",
+    "SOD/ty26_dyard.sod": "5f2905357232e72ec56e8f72b7d8b7ced4d7fe0e484a10faf6056975a9c39c02",
+    "SOD/ty26_dyard2.sod": "1dbc561d5c3f04da4695015eca723879b6e92f897e96062ec0d779ca0aebed36",
+    "SOD/ty26_dyard3.sod": "931e6bb76b9d118c407f90471c2af4ca0968b0eae0f24b442c136b305f8c2902",
+    "SOD/Fbase.sod": "cd6ac4c34ba368ab96b445878533d44e5894b4d8cf344daa12d7442c88579e80",
+    "SOD/fjupiter.SOD": "99deb131125cbb612a0123a8229884f569448d480d891c1ab126e6055587def9",
+    "SOD/fmidas.SOD": "d50eb4d15b83a363e779bec5a6181a94ea12c78f2a9c7f4758dee40439467bd4",
+    "SOD/ty26_fyard.sod": "20962f7264fbb283212cc98e4d5de6df618766bc5de26b70a13bc75b5af87654",
+    "SOD/ty26_fyard2.sod": "8dae046b30fac0663dd4d7b868e04f013e5148e23ec2ed6280d4327d557fac08",
+    "SOD/ty26_fyard3.sod": "df4f33e970f0e4ae9101929d7616a1b039c9173ca6d4dbcb200e11f5c6b3ec53",
+    "SOD/xui_kbase.sod": "bdbd90da7262c15a5b381205e7d2d81534e90c8e456c30e7c728d87dced47c3a",
+    "SOD/ty26_kyard.sod": "f603372bdc6a4b6b6a41463a463ffd5ca5f1e0bc9fab6b0603450d4836e5d5a1",
+    "SOD/ty26_kyard2.sod": "fc7ad6d36b513e31b761fa3c9692f6128b90cafb77e524873b291fa8dbb3c39b",
+    "SOD/ty26_kyard3.sod": "65f0fad87f6038c1150e3a73be3031cf3a55f2cebf45764345fb6e8839df6c5e",
+    "SOD/ty26_mryfeda.sod": "dda9fec5b2f8620df4f9d7d2fc104fc18bf8192c5f2144067f2135db13888493",
+    "SOD/ty26_mryfedb.sod": "4e1b8e31e55884d0b74766b8d1c74e12e73ac0bc4f2ccce5ba0e9394af0ecbd9",
+    "SOD/ty26_ryard.sod": "aac92c00c9bb62609bc2dfa94fcd93593ffb87c7f0a811eeedff056959601a50",
+    "SOD/ty26_ryard2.sod": "613568374f3f117ff81fcb039852aa672b5590a13eace19c5a46189f2c281303",
+    "SOD/ty26_ryard3.sod": "042d3b552de0630dcd0cd96822b0f224ea353a6faa16a9f60b575d40485f3405",
+    "SOD/ty26_s31yard.sod": "67f0307f3f31466003d52d15a931515a8021b62c01e8d377e4da2744e84a49fb",
+    "SOD/ty26_xbgmerc.sod": "082394773b9c8c6436dcad911cac1d25434a0c03d2538938531ac6d3c2051af4",
+    "SOD/ty26_xbgserv.sod": "339216814b16b05175144e05ff21f78daef7f0667a3607adbd17bf77549ca5eb",
+    "SOD/ty26_xfgmerc.sod": "082394773b9c8c6436dcad911cac1d25434a0c03d2538938531ac6d3c2051af4",
+    "SOD/ty26_xfgserv.sod": "339216814b16b05175144e05ff21f78daef7f0667a3607adbd17bf77549ca5eb",
+    "SOD/ty26_xflegacyyard.sod": "519c9e369e2ba7cc2ead5dccf40fb41944a27f5016b46a12a36a51ab015e8da6",
+    "odf/stations/bjtrading.odf": "95a38f586bdca27e1b95bca83e251aff2a79ac06d94e0e2d8c79bd885dbe017f",
+    "odf/stations/cbase.odf": "10571b3e40e12b8daed17307718a14cd19e90b3b26277a591d74c783a9070d5d",
+    "odf/stations/cstation.odf": "392fa98be40c21902605c17069d8ba93e88abc74c37fad7f97c26575286112fb",
+    "odf/stations/domabase.odf": "d40d892585649ae556b43da88178d4ddcc8ba24e4337e9b8d75dbb02eb1c3caa",
+    "odf/stations/dombase.odf": "0c23a0878fd7e3d8cabc617498819055e085dec7b6fb516cb160a72ae2c918cb",
+    "odf/stations/fjupiter.odf": "b97bbd3bb3ada8115eb446cdd454bd0da57646177722ed69d30a324ff72e8c3c",
+    "odf/stations/fmidas.odf": "0eebb980c8cf9b3fbf0edc90f2442f025708cf29d6e4986be01504f1ac591261",
+    "odf/stations/kbase.odf": "00964e8ec08dd65c63bfa38d1fcf4e7e73405b4d022437979f6aa09c725dd553"
+  },
+  "producers": [
+    {
+      "unit": "bbase",
+      "model": "bbase",
+      "method": "original point already within model bounds",
+      "before": [
+        -83.60865020751953,
+        0.0,
+        -16.851974487304688
+      ],
+      "after": [
+        -83.60865020751953,
+        0.0,
+        -16.851974487304688
+      ],
+      "buildHardpoint": "build",
+      "bounds": [
+        [
+          -102.47106170654297,
+          -69.64110565185547,
+          -51.326927185058594
+        ],
+        [
+          150.96035766601562,
+          68.70365142822266,
+          111.22761535644531
+        ]
+      ]
+    },
+    {
+      "unit": "bgiaarray",
+      "model": "ia26_fgiaarray",
+      "method": "original point already within model bounds",
+      "before": [
+        -17.71348762512207,
+        -55.132728576660156,
+        92.6049575805664
+      ],
+      "after": [
+        -17.71348762512207,
+        -55.132728576660156,
+        92.6049575805664
+      ],
+      "buildHardpoint": "iabuild",
+      "bounds": [
+        [
+          -188.10667419433594,
+          -111.96894836425781,
+          -157.77114868164062
+        ],
+        [
+          188.4125518798828,
+          92.64144897460938,
+          157.77716064453125
+        ]
+      ]
+    },
+    {
+      "unit": "bhwp",
+      "model": "ty26_bhwp",
+      "method": "original point already within model bounds",
+      "before": [
+        40.30796432495117,
+        105.24100494384766,
+        -66.7601318359375
+      ],
+      "after": [
+        40.30796432495117,
+        105.24100494384766,
+        -66.7601318359375
+      ],
+      "buildHardpoint": "hp01",
+      "bounds": [
+        [
+          -214.58978271484375,
+          -184.06983947753906,
+          -214.58978271484375
+        ],
+        [
+          214.58978271484375,
+          184.06983947753906,
+          214.58978271484375
+        ]
+      ]
+    },
+    {
+      "unit": "bjbase",
+      "model": "bv4_bjbase",
+      "method": "original point already within model bounds",
+      "before": [
+        -20.117359161376953,
+        -172.4410858154297,
+        -38.73957824707031
+      ],
+      "after": [
+        -20.117359161376953,
+        -172.4410858154297,
+        -38.73957824707031
+      ],
+      "buildHardpoint": "hp06",
+      "bounds": [
+        [
+          -140.54330444335938,
+          -173.96771240234375,
+          -143.05433654785156
+        ],
+        [
+          145.04808044433594,
+          23.463951110839844,
+          143.0660400390625
+        ]
+      ]
+    },
+    {
+      "unit": "bjhwp",
+      "model": "ty26_bjhwp",
+      "method": "original point already within model bounds",
+      "before": [
+        46.99180603027344,
+        21.71502113342285,
+        0.005820435006171465
+      ],
+      "after": [
+        46.99180603027344,
+        21.71502113342285,
+        0.005820435006171465
+      ],
+      "buildHardpoint": "hp01",
+      "bounds": [
+        [
+          -143.0601806640625,
+          -72.26766967773438,
+          -143.0601806640625
+        ],
+        [
+          143.0601806640625,
+          72.26766967773438,
+          143.0601806640625
+        ]
+      ]
+    },
+    {
+      "unit": "bjiaarray",
+      "model": "ia26_bjiaarray",
+      "method": "original point already within model bounds",
+      "before": [
+        -17.71348762512207,
+        -55.132728576660156,
+        92.6049575805664
+      ],
+      "after": [
+        -17.71348762512207,
+        -55.132728576660156,
+        92.6049575805664
+      ],
+      "buildHardpoint": "iabuild",
+      "bounds": [
+        [
+          -188.10667419433594,
+          -111.96894836425781,
+          -157.77114868164062
+        ],
+        [
+          188.4125518798828,
+          92.64144897460938,
+          157.77716064453125
+        ]
+      ]
+    },
+    {
+      "unit": "bjtrading",
+      "model": "bv4_bjtrading",
+      "method": "new internal production hardpoint",
+      "before": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "after": [
+        -9.5367431640625e-07,
+        -7.5000001192092896,
+        0.0
+      ],
+      "buildHardpoint": "piinside_bjtrading",
+      "bounds": [
+        [
+          -24.74871253967285,
+          -17.000001907348633,
+          -28.0
+        ],
+        [
+          24.74871063232422,
+          2.0000016689300537,
+          28.0
+        ]
+      ]
+    },
+    {
+      "unit": "bjyard",
+      "model": "ty26_bjyard",
+      "method": "assembly-bay centre",
+      "before": [
+        121.27152252197266,
+        -28.179624557495117,
+        106.11257934570312
+      ],
+      "after": [
+        121.27152252197266,
+        -28.179624557495117,
+        -4.207451088786762e-15
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -193.62771606445312,
+          -71.05782318115234,
+          -75.7947006225586
+        ],
+        [
+          193.62771606445312,
+          71.05782318115234,
+          75.7947006225586
+        ]
+      ]
+    },
+    {
+      "unit": "bjyard2",
+      "model": "ty26_bjyard2",
+      "method": "assembly-bay centre",
+      "before": [
+        191.64678955078125,
+        -29.741458892822266,
+        239.25888061523438
+      ],
+      "after": [
+        191.64678955078125,
+        -29.741458892822266,
+        39.384178161621094
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -307.3631286621094,
+          -172.5091094970703,
+          -116.6899185180664
+        ],
+        [
+          307.3631286621094,
+          172.5091094970703,
+          116.6899185180664
+        ]
+      ]
+    },
+    {
+      "unit": "brbase",
+      "model": "brbase",
+      "method": "original point already within model bounds",
+      "before": [
+        0.7528865933418274,
+        -13.26704216003418,
+        1.4771664142608643
+      ],
+      "after": [
+        0.7528865933418274,
+        -13.26704216003418,
+        1.4771664142608643
+      ],
+      "buildHardpoint": "build",
+      "bounds": [
+        [
+          -21.207473547745515,
+          -13.394374402679183,
+          -23.766508672551826
+        ],
+        [
+          28.223605145166392,
+          12.798403662421375,
+          30.514284615987016
+        ]
+      ]
+    },
+    {
+      "unit": "briaarray",
+      "model": "ia26_briaarray",
+      "method": "original point already within model bounds",
+      "before": [
+        -17.71348762512207,
+        -55.132728576660156,
+        92.6049575805664
+      ],
+      "after": [
+        -17.71348762512207,
+        -55.132728576660156,
+        92.6049575805664
+      ],
+      "buildHardpoint": "iabuild",
+      "bounds": [
+        [
+          -188.10667419433594,
+          -111.96894836425781,
+          -157.77114868164062
+        ],
+        [
+          188.4125518798828,
+          92.64144897460938,
+          157.77716064453125
+        ]
+      ]
+    },
+    {
+      "unit": "bryard",
+      "model": "ty26_bryard",
+      "method": "assembly-bay centre",
+      "before": [
+        43.016754150390625,
+        -10.644229888916016,
+        40.86591720581055
+      ],
+      "after": [
+        43.016754150390625,
+        -10.644229888916016,
+        3.2262566089630127
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -69.90222930908203,
+          -17.6240177154541,
+          -36.295387268066406
+        ],
+        [
+          69.90222930908203,
+          17.6240177154541,
+          36.295387268066406
+        ]
+      ]
+    },
+    {
+      "unit": "byard",
+      "model": "ty26_byard",
+      "method": "assembly-bay centre",
+      "before": [
+        103.03742980957031,
+        -35.008705139160156,
+        241.60459899902344
+      ],
+      "after": [
+        103.03742980957031,
+        -35.008705139160156,
+        0.0
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -201.21571350097656,
+          -132.7722625732422,
+          -172.57470703125
+        ],
+        [
+          201.21571350097656,
+          132.7722625732422,
+          172.57470703125
+        ]
+      ]
+    },
+    {
+      "unit": "byard2",
+      "model": "ty26_byard2",
+      "method": "assembly-bay centre",
+      "before": [
+        162.63246154785156,
+        -60.620765686035156,
+        411.614990234375
+      ],
+      "after": [
+        162.63246154785156,
+        -60.620765686035156,
+        0.0
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -329.89605712890625,
+          -231.87442016601562,
+          -317.53155517578125
+        ],
+        [
+          329.89605712890625,
+          231.87442016601562,
+          317.53155517578125
+        ]
+      ]
+    },
+    {
+      "unit": "byard3",
+      "model": "ty26_byard3",
+      "method": "assembly-bay centre",
+      "before": [
+        102.39579772949219,
+        -37.75532913208008,
+        274.8587951660156
+      ],
+      "after": [
+        102.39579772949219,
+        -37.75532913208008,
+        0.0
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -214.0872344970703,
+          -161.40403747558594,
+          -227.7401580810547
+        ],
+        [
+          214.0872344970703,
+          161.40403747558594,
+          227.7401580810547
+        ]
+      ]
+    },
+    {
+      "unit": "cbase",
+      "model": "xui_cbase",
+      "method": "new internal production hardpoint",
+      "before": [
+        7.319304131669924e-07,
+        -64.0,
+        3.0716209948877804e-06
+      ],
+      "after": [
+        -3.814697265625e-06,
+        -18.000000000000018,
+        -6.075492858886584
+      ],
+      "buildHardpoint": "piinside_cbase",
+      "bounds": [
+        [
+          -79.49999237060547,
+          -48.000000000000036,
+          -81.0000076293944
+        ],
+        [
+          79.49998474121094,
+          12.0,
+          68.84902191162124
+        ]
+      ]
+    },
+    {
+      "unit": "chwp",
+      "model": "ty26_chwp",
+      "method": "original point already within model bounds",
+      "before": [
+        -4.6016242549740127e-07,
+        10.999999046325684,
+        -16.0
+      ],
+      "after": [
+        -4.6016242549740127e-07,
+        10.999999046325684,
+        -16.0
+      ],
+      "buildHardpoint": "hp01",
+      "bounds": [
+        [
+          -79.49998474121094,
+          -48.13802719116211,
+          -79.49998474121094
+        ],
+        [
+          79.49998474121094,
+          48.13802719116211,
+          79.49998474121094
+        ]
+      ]
+    },
+    {
+      "unit": "ciaarray",
+      "model": "ia26_ciaarray",
+      "method": "original point already within model bounds",
+      "before": [
+        -17.71348762512207,
+        -55.132728576660156,
+        92.6049575805664
+      ],
+      "after": [
+        -17.71348762512207,
+        -55.132728576660156,
+        92.6049575805664
+      ],
+      "buildHardpoint": "iabuild",
+      "bounds": [
+        [
+          -188.10667419433594,
+          -111.96894836425781,
+          -157.77114868164062
+        ],
+        [
+          188.4125518798828,
+          92.64144897460938,
+          157.77716064453125
+        ]
+      ]
+    },
+    {
+      "unit": "cstation",
+      "model": "cstation",
+      "method": "new internal production hardpoint",
+      "before": [
+        -47.98196029663086,
+        -104.15127563476562,
+        2.8207061290740967
+      ],
+      "after": [
+        3.766404181783429,
+        -0.3149515509153389,
+        0.9770041135096363
+      ],
+      "buildHardpoint": "piinside_cstation",
+      "bounds": [
+        [
+          -136.3963609751758,
+          -104.06496870831961,
+          -139.76012512384725
+        ],
+        [
+          143.92916933874267,
+          103.43506560648893,
+          141.71413335086652
+        ]
+      ]
+    },
+    {
+      "unit": "cyard",
+      "model": "ty26_cyard",
+      "method": "assembly-bay centre",
+      "before": [
+        137.06822204589844,
+        -31.850271224975586,
+        119.9346923828125
+      ],
+      "after": [
+        137.06822204589844,
+        -31.850271224975586,
+        -4.75550893423108e-15
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -218.8494415283203,
+          -80.31373596191406,
+          -85.66763305664062
+        ],
+        [
+          218.8494415283203,
+          80.31373596191406,
+          85.66763305664062
+        ]
+      ]
+    },
+    {
+      "unit": "cyard2",
+      "model": "ty26_cyard2",
+      "method": "assembly-bay centre",
+      "before": [
+        101.94937896728516,
+        -25.135507583618164,
+        94.86621856689453
+      ],
+      "after": [
+        101.94937896728516,
+        -25.135507583618164,
+        -0.14599943161010742
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -168.35130310058594,
+          -64.7573471069336,
+          -74.14078521728516
+        ],
+        [
+          168.35130310058594,
+          64.7573471069336,
+          74.14078521728516
+        ]
+      ]
+    },
+    {
+      "unit": "cyard3",
+      "model": "ty26_cyard3",
+      "method": "assembly-bay centre",
+      "before": [
+        120.77703094482422,
+        -32.59950637817383,
+        118.40144348144531
+      ],
+      "after": [
+        120.77703094482422,
+        -32.59950637817383,
+        -0.36383122205734253
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -201.1884002685547,
+          -87.57749938964844,
+          -100.20915985107422
+        ],
+        [
+          201.1884002685547,
+          87.57749938964844,
+          100.20915985107422
+        ]
+      ]
+    },
+    {
+      "unit": "dbase",
+      "model": "xui_dbase",
+      "method": "original point already within model bounds",
+      "before": [
+        7.886274337768555,
+        3.8211922645568848,
+        14.915631294250488
+      ],
+      "after": [
+        7.886274337768555,
+        3.8211922645568848,
+        14.915631294250488
+      ],
+      "buildHardpoint": "hp02",
+      "bounds": [
+        [
+          -17.71779517657321,
+          -9.183445350645783,
+          -15.010693188758506
+        ],
+        [
+          17.08111108639501,
+          8.88111099157213,
+          15.207019381480594
+        ]
+      ]
+    },
+    {
+      "unit": "diaarray",
+      "model": "ia26_diaarray",
+      "method": "original point already within model bounds",
+      "before": [
+        -17.71348762512207,
+        -55.132728576660156,
+        92.6049575805664
+      ],
+      "after": [
+        -17.71348762512207,
+        -55.132728576660156,
+        92.6049575805664
+      ],
+      "buildHardpoint": "iabuild",
+      "bounds": [
+        [
+          -188.10667419433594,
+          -111.96894836425781,
+          -157.77114868164062
+        ],
+        [
+          188.4125518798828,
+          92.64144897460938,
+          157.77716064453125
+        ]
+      ]
+    },
+    {
+      "unit": "domabase",
+      "model": "domabase",
+      "method": "new internal production hardpoint",
+      "before": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "after": [
+        -4.912313461303711,
+        -2.7447322261430713,
+        1.6467233346446903
+      ],
+      "buildHardpoint": "piinside_domabase",
+      "bounds": [
+        [
+          -37.89149856567383,
+          -24.42520159319156,
+          -30.71312835795817
+        ],
+        [
+          28.066871643066406,
+          18.935737140905417,
+          34.00657502724755
+        ]
+      ]
+    },
+    {
+      "unit": "dombase",
+      "model": "dombase",
+      "method": "new internal production hardpoint",
+      "before": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "after": [
+        0.0,
+        -12.205528023056658,
+        -1.813343573076054e-07
+      ],
+      "buildHardpoint": "piinside_dombase",
+      "bounds": [
+        [
+          -42.05274200439453,
+          -43.70610739072697,
+          -36.99897563715645
+        ],
+        [
+          42.05274200439453,
+          19.295051344613654,
+          36.998975274487734
+        ]
+      ]
+    },
+    {
+      "unit": "dturret3",
+      "model": "ty26_dturret3",
+      "method": "original point already within model bounds",
+      "before": [
+        -8.372238159179688,
+        3.807796001434326,
+        14.594467163085938
+      ],
+      "after": [
+        -8.372238159179688,
+        3.807796001434326,
+        14.594467163085938
+      ],
+      "buildHardpoint": "hp01",
+      "bounds": [
+        [
+          -17.399452209472656,
+          -9.55428695678711,
+          -17.399452209472656
+        ],
+        [
+          17.399452209472656,
+          9.55428695678711,
+          17.399452209472656
+        ]
+      ]
+    },
+    {
+      "unit": "dyard",
+      "model": "ty26_dyard",
+      "method": "assembly-bay centre",
+      "before": [
+        169.08660888671875,
+        -31.33058738708496,
+        160.6322784423828
+      ],
+      "after": [
+        169.08660888671875,
+        -31.33058738708496,
+        12.681495666503906
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -274.7657470703125,
+          -85.00123596191406,
+          -123.88507843017578
+        ],
+        [
+          274.7657470703125,
+          85.00123596191406,
+          123.88507843017578
+        ]
+      ]
+    },
+    {
+      "unit": "dyard2",
+      "model": "ty26_dyard2",
+      "method": "assembly-bay centre",
+      "before": [
+        111.90757751464844,
+        -23.596221923828125,
+        114.14540100097656
+      ],
+      "after": [
+        111.90757751464844,
+        -23.596221923828125,
+        8.393044471740723
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -189.75033569335938,
+          -59.9315299987793,
+          -92.92352294921875
+        ],
+        [
+          189.75033569335938,
+          59.9315299987793,
+          92.92352294921875
+        ]
+      ]
+    },
+    {
+      "unit": "dyard3",
+      "model": "ty26_dyard3",
+      "method": "assembly-bay centre",
+      "before": [
+        171.44171142578125,
+        -54.17448425292969,
+        186.8702392578125
+      ],
+      "after": [
+        171.44171142578125,
+        -54.17448425292969,
+        12.858043670654297
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -303.12249755859375,
+          -113.96309661865234,
+          -159.10569763183594
+        ],
+        [
+          303.12249755859375,
+          113.96309661865234,
+          159.10569763183594
+        ]
+      ]
+    },
+    {
+      "unit": "fbase",
+      "model": "fbase",
+      "method": "original point already within model bounds",
+      "before": [
+        36.16957092285156,
+        41.671104431152344,
+        -2.3588266372680664
+      ],
+      "after": [
+        36.16957092285156,
+        41.671104431152344,
+        -2.3588266372680664
+      ],
+      "buildHardpoint": "hp0001",
+      "bounds": [
+        [
+          -203.0987548828125,
+          -461.340340071945,
+          -203.21050982027452
+        ],
+        [
+          200.81724548339844,
+          190.34736118178841,
+          198.49289616911886
+        ]
+      ]
+    },
+    {
+      "unit": "fbase2",
+      "model": "fbase2",
+      "method": "original point already within model bounds",
+      "before": [
+        65.9267349243164,
+        -3.1180238723754883,
+        1.3893018960952759
+      ],
+      "after": [
+        65.9267349243164,
+        -3.1180238723754883,
+        1.3893018960952759
+      ],
+      "buildHardpoint": "build",
+      "bounds": [
+        [
+          -165.04360961914062,
+          -115.53917694091797,
+          -99.49169921875
+        ],
+        [
+          166.1503143310547,
+          75.68435668945312,
+          99.4835433959961
+        ]
+      ]
+    },
+    {
+      "unit": "fds9",
+      "model": "fds9",
+      "method": "original point already within model bounds",
+      "before": [
+        -20.117359161376953,
+        -172.4410858154297,
+        -38.73957824707031
+      ],
+      "after": [
+        -20.117359161376953,
+        -172.4410858154297,
+        -38.73957824707031
+      ],
+      "buildHardpoint": "hp06",
+      "bounds": [
+        [
+          -140.54330465326427,
+          -173.96772003173828,
+          -143.05433686265587
+        ],
+        [
+          145.0480797421357,
+          23.463951110839844,
+          143.06603397366334
+        ]
+      ]
+    },
+    {
+      "unit": "fgiaarray",
+      "model": "ia26_fgiaarray",
+      "method": "original point already within model bounds",
+      "before": [
+        -17.71348762512207,
+        -55.132728576660156,
+        92.6049575805664
+      ],
+      "after": [
+        -17.71348762512207,
+        -55.132728576660156,
+        92.6049575805664
+      ],
+      "buildHardpoint": "iabuild",
+      "bounds": [
+        [
+          -188.10667419433594,
+          -111.96894836425781,
+          -157.77114868164062
+        ],
+        [
+          188.4125518798828,
+          92.64144897460938,
+          157.77716064453125
+        ]
+      ]
+    },
+    {
+      "unit": "fhwp",
+      "model": "ty26_fhwp",
+      "method": "original point already within model bounds",
+      "before": [
+        -2.649672508239746,
+        26.59911346435547,
+        32.91040802001953
+      ],
+      "after": [
+        -2.649672508239746,
+        26.59911346435547,
+        32.91040802001953
+      ],
+      "buildHardpoint": "hp01",
+      "bounds": [
+        [
+          -48.03825759887695,
+          -37.40210723876953,
+          -48.03825759887695
+        ],
+        [
+          48.03825759887695,
+          37.40210723876953,
+          48.03825759887695
+        ]
+      ]
+    },
+    {
+      "unit": "fiaarray",
+      "model": "ia26_fiaarray",
+      "method": "original point already within model bounds",
+      "before": [
+        -17.71348762512207,
+        -55.132728576660156,
+        92.6049575805664
+      ],
+      "after": [
+        -17.71348762512207,
+        -55.132728576660156,
+        92.6049575805664
+      ],
+      "buildHardpoint": "iabuild",
+      "bounds": [
+        [
+          -188.10667419433594,
+          -111.96894836425781,
+          -157.77114868164062
+        ],
+        [
+          188.4125518798828,
+          92.64144897460938,
+          157.77716064453125
+        ]
+      ]
+    },
+    {
+      "unit": "fjupiter",
+      "model": "fjupiter",
+      "method": "new internal production hardpoint",
+      "before": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "after": [
+        0.49926783879451264,
+        -3.582328080892742,
+        -0.4071894832805185
+      ],
+      "buildHardpoint": "piinside_fjupiter",
+      "bounds": [
+        [
+          -21.420007476148005,
+          -25.001737117767348,
+          -21.02308998394603
+        ],
+        [
+          22.41854315373703,
+          17.837080955981865,
+          20.208711017384992
+        ]
+      ]
+    },
+    {
+      "unit": "fmidas",
+      "model": "fmidas",
+      "method": "new internal production hardpoint",
+      "before": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "after": [
+        -0.28396761391581293,
+        1.002903072644791,
+        -4.305698143259352
+      ],
+      "buildHardpoint": "piinside_fmidas",
+      "bounds": [
+        [
+          -53.920865538080946,
+          -2.4260362317068482,
+          -52.97992444246316
+        ],
+        [
+          53.35293031024932,
+          4.43184237699643,
+          44.36852815594445
+        ]
+      ]
+    },
+    {
+      "unit": "foutpost",
+      "model": "foutpost",
+      "method": "original point already within model bounds",
+      "before": [
+        8.186089530681784e-07,
+        16.682538986206055,
+        -1.0367245977249695e-06
+      ],
+      "after": [
+        8.186089530681784e-07,
+        16.682538986206055,
+        -1.0367245977249695e-06
+      ],
+      "buildHardpoint": "hp30",
+      "bounds": [
+        [
+          -36.581484678639235,
+          -35.277294671023,
+          -34.42916567074437
+        ],
+        [
+          34.84364735014243,
+          60.79922064284421,
+          34.4277976540252
+        ]
+      ]
+    },
+    {
+      "unit": "fregula",
+      "model": "fregula",
+      "method": "original point already within model bounds",
+      "before": [
+        -0.14148183166980743,
+        29.174842834472656,
+        0.44237449765205383
+      ],
+      "after": [
+        -0.14148183166980743,
+        29.174842834472656,
+        0.44237449765205383
+      ],
+      "buildHardpoint": "hp01",
+      "bounds": [
+        [
+          -56.516321405059884,
+          -78.53623195723263,
+          -53.32437248893167
+        ],
+        [
+          55.336960915546356,
+          85.28374484406746,
+          52.11294676705482
+        ]
+      ]
+    },
+    {
+      "unit": "fyard",
+      "model": "ty26_fyard",
+      "method": "assembly-bay centre",
+      "before": [
+        98.89176940917969,
+        -24.722942352294922,
+        86.5302963256836
+      ],
+      "after": [
+        98.89176940917969,
+        -24.722942352294922,
+        -3.430997373620663e-15
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -133.3333282470703,
+          -83.43992614746094,
+          -61.80735397338867
+        ],
+        [
+          133.3333282470703,
+          83.43992614746094,
+          61.80735397338867
+        ]
+      ]
+    },
+    {
+      "unit": "fyard2",
+      "model": "ty26_fyard2",
+      "method": "assembly-bay centre",
+      "before": [
+        108.89256286621094,
+        -27.22473907470703,
+        102.90951538085938
+      ],
+      "after": [
+        108.89256286621094,
+        -27.22473907470703,
+        7.556383463554455e-15
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -172.9690399169922,
+          -104.13462829589844,
+          -80.1894302368164
+        ],
+        [
+          172.9690399169922,
+          104.13462829589844,
+          80.1894302368164
+        ]
+      ]
+    },
+    {
+      "unit": "fyard3",
+      "model": "ty26_fyard3",
+      "method": "assembly-bay centre",
+      "before": [
+        67.93415069580078,
+        -23.37505340576172,
+        69.06785583496094
+      ],
+      "after": [
+        67.93415069580078,
+        -23.37505340576172,
+        0.11038818210363388
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -115.06549072265625,
+          -78.99961853027344,
+          -59.45279312133789
+        ],
+        [
+          115.06549072265625,
+          78.99961853027344,
+          59.45279312133789
+        ]
+      ]
+    },
+    {
+      "unit": "kbase",
+      "model": "xui_kbase",
+      "method": "new internal production hardpoint",
+      "before": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "after": [
+        -0.5114773009557965,
+        -15.204965704427984,
+        -16.82028549338135
+      ],
+      "buildHardpoint": "piinside_kbase",
+      "bounds": [
+        [
+          -64.0227611172739,
+          -68.19086507931723,
+          -72.66110167813558
+        ],
+        [
+          62.99980651536231,
+          37.780933670461266,
+          39.02053069137288
+        ]
+      ]
+    },
+    {
+      "unit": "kbase2",
+      "model": "kbase2",
+      "method": "original point already within model bounds",
+      "before": [
+        -1.649671196937561,
+        -3.473756790161133,
+        7.437572479248047
+      ],
+      "after": [
+        -1.649671196937561,
+        -3.473756790161133,
+        7.437572479248047
+      ],
+      "buildHardpoint": "build",
+      "bounds": [
+        [
+          -38.12189787625779,
+          -63.13308645588751,
+          -46.97879931284749
+        ],
+        [
+          59.61105381283579,
+          49.06540989288058,
+          48.60582968013261
+        ]
+      ]
+    },
+    {
+      "unit": "khwp",
+      "model": "ty26_khwp",
+      "method": "original point already within model bounds",
+      "before": [
+        -0.8948012590408325,
+        30.50069236755371,
+        13.628925323486328
+      ],
+      "after": [
+        -0.8948012590408325,
+        30.50069236755371,
+        13.628925323486328
+      ],
+      "buildHardpoint": "hp01",
+      "bounds": [
+        [
+          -63.51128387451172,
+          -42.184303283691406,
+          -63.51128387451172
+        ],
+        [
+          63.51128387451172,
+          42.184303283691406,
+          63.51128387451172
+        ]
+      ]
+    },
+    {
+      "unit": "kiaarray",
+      "model": "ia26_kiaarray",
+      "method": "original point already within model bounds",
+      "before": [
+        -9.006766319274902,
+        -53.212127685546875,
+        88.69347381591797
+      ],
+      "after": [
+        -9.006766319274902,
+        -53.212127685546875,
+        88.69347381591797
+      ],
+      "buildHardpoint": "iabuild",
+      "bounds": [
+        [
+          -188.10667419433594,
+          -107.64759826660156,
+          -151.1068115234375
+        ],
+        [
+          188.4125518798828,
+          88.32009887695312,
+          151.11280822753906
+        ]
+      ]
+    },
+    {
+      "unit": "kimpbase",
+      "model": "kimpbase",
+      "method": "original point already within model bounds",
+      "before": [
+        52.05712890625,
+        3.3503313064575195,
+        -5.944540977478027
+      ],
+      "after": [
+        52.05712890625,
+        3.3503313064575195,
+        -5.944540977478027
+      ],
+      "buildHardpoint": "build",
+      "bounds": [
+        [
+          -61.48825434376457,
+          -27.498159800761016,
+          -52.215852432519426
+        ],
+        [
+          62.08211537669442,
+          25.570078307411222,
+          58.349135984361396
+        ]
+      ]
+    },
+    {
+      "unit": "koutpost",
+      "model": "koutpost",
+      "method": "original point already within model bounds",
+      "before": [
+        -0.443238765001297,
+        -45.0152587890625,
+        -0.2631683349609375
+      ],
+      "after": [
+        -0.443238765001297,
+        -45.0152587890625,
+        -0.2631683349609375
+      ],
+      "buildHardpoint": "build",
+      "bounds": [
+        [
+          -71.52002462347791,
+          -54.30630758941223,
+          -71.99417304968544
+        ],
+        [
+          71.52002881684031,
+          33.686821337828626,
+          55.86983972739956
+        ]
+      ]
+    },
+    {
+      "unit": "kyard",
+      "model": "ty26_kyard",
+      "method": "assembly-bay centre",
+      "before": [
+        72.398193359375,
+        -18.09954833984375,
+        68.77828216552734
+      ],
+      "after": [
+        72.398193359375,
+        -18.09954833984375,
+        5.429864406585693
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -117.64705657958984,
+          -50.962528228759766,
+          -53.70842742919922
+        ],
+        [
+          117.64705657958984,
+          50.962528228759766,
+          53.70842742919922
+        ]
+      ]
+    },
+    {
+      "unit": "kyard2",
+      "model": "ty26_kyard2",
+      "method": "assembly-bay centre",
+      "before": [
+        92.7017822265625,
+        -23.42234230041504,
+        95.56315612792969
+      ],
+      "after": [
+        92.7017822265625,
+        -23.42234230041504,
+        7.026702404022217
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -155.98304748535156,
+          -74.74311828613281,
+          -78.77033233642578
+        ],
+        [
+          155.98304748535156,
+          74.74311828613281,
+          78.77033233642578
+        ]
+      ]
+    },
+    {
+      "unit": "kyard3",
+      "model": "ty26_kyard3",
+      "method": "assembly-bay centre",
+      "before": [
+        87.55667877197266,
+        -22.52733039855957,
+        98.21916198730469
+      ],
+      "after": [
+        87.55667877197266,
+        -22.52733039855957,
+        6.758199214935303
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -153.32568359375,
+          -80.34434509277344,
+          -84.6733627319336
+        ],
+        [
+          153.32568359375,
+          80.34434509277344,
+          84.6733627319336
+        ]
+      ]
+    },
+    {
+      "unit": "mryfeda",
+      "model": "ty26_mryfeda",
+      "method": "assembly-bay centre",
+      "before": [
+        81.87409973144531,
+        -28.171567916870117,
+        83.24044799804688
+      ],
+      "after": [
+        81.87409973144531,
+        -28.171567916870117,
+        0.13303960859775543
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -138.67669677734375,
+          -95.21017456054688,
+          -71.65238189697266
+        ],
+        [
+          138.67669677734375,
+          95.21017456054688,
+          71.65238189697266
+        ]
+      ]
+    },
+    {
+      "unit": "mryfedb",
+      "model": "ty26_mryfedb",
+      "method": "assembly-bay centre",
+      "before": [
+        81.87409973144531,
+        -28.171567916870117,
+        83.24044799804688
+      ],
+      "after": [
+        81.87409973144531,
+        -28.171567916870117,
+        0.13303960859775543
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -138.67669677734375,
+          -95.21017456054688,
+          -71.65238189697266
+        ],
+        [
+          138.67669677734375,
+          95.21017456054688,
+          71.65238189697266
+        ]
+      ]
+    },
+    {
+      "unit": "rbase",
+      "model": "xui_rbase",
+      "method": "original point already within model bounds",
+      "before": [
+        0.03940681095882681,
+        -5.289117157459259,
+        0.042855757942952266
+      ],
+      "after": [
+        0.03940681095882681,
+        -5.289117157459259,
+        0.042855757942952266
+      ],
+      "buildHardpoint": "build",
+      "bounds": [
+        [
+          -87.11623089955395,
+          -28.03845179080963,
+          -86.38637243345079
+        ],
+        [
+          70.70018483776312,
+          23.6768895983696,
+          75.94757756644225
+        ]
+      ]
+    },
+    {
+      "unit": "rbase2",
+      "model": "rbase2",
+      "method": "original point already within model bounds",
+      "before": [
+        3.5540592670440674,
+        0.0,
+        6.033754825592041
+      ],
+      "after": [
+        3.5540592670440674,
+        0.0,
+        6.033754825592041
+      ],
+      "buildHardpoint": "build",
+      "bounds": [
+        [
+          -30.325478537322283,
+          -33.199515844964324,
+          -28.79600126955451
+        ],
+        [
+          30.063110397268588,
+          16.507187341013566,
+          28.35170482856172
+        ]
+      ]
+    },
+    {
+      "unit": "rhwp",
+      "model": "ty26_rhwp",
+      "method": "original point already within model bounds",
+      "before": [
+        -12.159219355129267,
+        7.002551257610321,
+        37.00632611189633
+      ],
+      "after": [
+        -12.159219355129267,
+        7.002551257610321,
+        37.00632611189633
+      ],
+      "buildHardpoint": "hp200",
+      "bounds": [
+        [
+          -81.16697692871094,
+          -40.42937469482422,
+          -81.16697692871094
+        ],
+        [
+          81.16697692871094,
+          40.42937469482422,
+          81.16697692871094
+        ]
+      ]
+    },
+    {
+      "unit": "riaarray",
+      "model": "ia26_riaarray",
+      "method": "original point already within model bounds",
+      "before": [
+        -9.006766319274902,
+        -53.212127685546875,
+        88.69347381591797
+      ],
+      "after": [
+        -9.006766319274902,
+        -53.212127685546875,
+        88.69347381591797
+      ],
+      "buildHardpoint": "iabuild",
+      "bounds": [
+        [
+          -188.10667419433594,
+          -107.64759826660156,
+          -151.1068115234375
+        ],
+        [
+          188.4125518798828,
+          88.32009887695312,
+          151.11280822753906
+        ]
+      ]
+    },
+    {
+      "unit": "ryard",
+      "model": "ty26_ryard",
+      "method": "assembly-bay centre",
+      "before": [
+        238.09524536132812,
+        -23.574750900268555,
+        226.1904754638672
+      ],
+      "after": [
+        238.09524536132812,
+        -23.574750900268555,
+        17.85714340209961
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -386.9047546386719,
+          -94.40864562988281,
+          -178.66871643066406
+        ],
+        [
+          386.9047546386719,
+          94.40864562988281,
+          178.66871643066406
+        ]
+      ]
+    },
+    {
+      "unit": "ryard2",
+      "model": "ty26_ryard2",
+      "method": "assembly-bay centre",
+      "before": [
+        95.26493835449219,
+        -4.894792556762695,
+        94.49016571044922
+      ],
+      "after": [
+        95.26493835449219,
+        -4.894792556762695,
+        6.947806358337402
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -155.2762451171875,
+          -44.04256057739258,
+          -78.78470611572266
+        ],
+        [
+          155.2762451171875,
+          44.04256057739258,
+          78.78470611572266
+        ]
+      ]
+    },
+    {
+      "unit": "ryard3",
+      "model": "ty26_ryard3",
+      "method": "assembly-bay centre",
+      "before": [
+        185.80792236328125,
+        -39.9804801940918,
+        190.13185119628906
+      ],
+      "after": [
+        185.80792236328125,
+        -39.9804801940918,
+        13.082467079162598
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -300.6214294433594,
+          -119.15458679199219,
+          -165.80152893066406
+        ],
+        [
+          300.6214294433594,
+          119.15458679199219,
+          165.80152893066406
+        ]
+      ]
+    },
+    {
+      "unit": "s31yard",
+      "model": "ty26_s31yard",
+      "method": "assembly-bay centre",
+      "before": [
+        122.1991195678711,
+        -42.04676055908203,
+        124.23841094970703
+      ],
+      "after": [
+        122.1991195678711,
+        -42.04676055908203,
+        0.19856490194797516
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -206.9783935546875,
+          -142.10353088378906,
+          -106.94294738769531
+        ],
+        [
+          206.9783935546875,
+          142.10353088378906,
+          106.94294738769531
+        ]
+      ]
+    },
+    {
+      "unit": "unicomplex",
+      "model": "unicomplex",
+      "method": "original point already within model bounds",
+      "before": [
+        -0.4933815002441406,
+        5.695854187011719,
+        -20.742189407348633
+      ],
+      "after": [
+        -0.4933815002441406,
+        5.695854187011719,
+        -20.742189407348633
+      ],
+      "buildHardpoint": "build",
+      "bounds": [
+        [
+          -140.49391174316406,
+          -19.52737045288086,
+          -219.60051345825195
+        ],
+        [
+          281.0665740966797,
+          146.5107078552246,
+          55.669677734375
+        ]
+      ]
+    },
+    {
+      "unit": "xbassimst",
+      "model": "dr26_xbassimst",
+      "method": "original point already within model bounds",
+      "before": [
+        12.991789817810059,
+        -18.12729263305664,
+        15.791001319885254
+      ],
+      "after": [
+        12.991789817810059,
+        -18.12729263305664,
+        15.791001319885254
+      ],
+      "buildHardpoint": "build",
+      "bounds": [
+        [
+          -4.801382064819336,
+          -22.65847396850586,
+          -20.568958282470703
+        ],
+        [
+          30.784961700439453,
+          3.368184804916382,
+          22.643030166625977
+        ]
+      ]
+    },
+    {
+      "unit": "xbgmerc",
+      "model": "ty26_xbgmerc",
+      "method": "assembly-bay centre",
+      "before": [
+        146.96475219726562,
+        -2.5494321636562256e-15,
+        139.61651611328125
+      ],
+      "after": [
+        146.96475219726562,
+        -2.5494321636562256e-15,
+        11.022356986999512
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -202.03225708007812,
+          -91.85297393798828,
+          -108.58299255371094
+        ],
+        [
+          202.03225708007812,
+          91.85297393798828,
+          108.58299255371094
+        ]
+      ]
+    },
+    {
+      "unit": "xbgserv",
+      "model": "ty26_xbgserv",
+      "method": "assembly-bay centre",
+      "before": [
+        83.81961059570312,
+        -1.4343852863964559e-15,
+        84.34041595458984
+      ],
+      "after": [
+        83.81961059570312,
+        -1.4343852863964559e-15,
+        6.201501369476318
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -116.42300415039062,
+          -55.81351089477539,
+          -69.2375717163086
+        ],
+        [
+          116.42300415039062,
+          55.81351089477539,
+          69.2375717163086
+        ]
+      ]
+    },
+    {
+      "unit": "xbjoutpost",
+      "model": "bv4_xbjoutpost",
+      "method": "original point already within model bounds",
+      "before": [
+        15.690173149108887,
+        17.941865175962448,
+        1.2395483776926994
+      ],
+      "after": [
+        15.690173149108887,
+        17.941865175962448,
+        1.2395483776926994
+      ],
+      "buildHardpoint": "build",
+      "bounds": [
+        [
+          -32.01677703857422,
+          -37.91179485619068,
+          -28.02366442233324
+        ],
+        [
+          25.277984619140625,
+          53.67438678443432,
+          41.83390813320875
+        ]
+      ]
+    },
+    {
+      "unit": "xbtarray",
+      "model": "ia26_xbtarray",
+      "method": "original point already within model bounds",
+      "before": [
+        -17.71348762512207,
+        -55.132728576660156,
+        92.6049575805664
+      ],
+      "after": [
+        -17.71348762512207,
+        -55.132728576660156,
+        92.6049575805664
+      ],
+      "buildHardpoint": "iabuild",
+      "bounds": [
+        [
+          -188.10667419433594,
+          -111.96894836425781,
+          -157.77114868164062
+        ],
+        [
+          188.4125518798828,
+          92.64144897460938,
+          157.77716064453125
+        ]
+      ]
+    },
+    {
+      "unit": "xfgmerc",
+      "model": "ty26_xfgmerc",
+      "method": "assembly-bay centre",
+      "before": [
+        146.96475219726562,
+        -2.5494321636562256e-15,
+        139.61651611328125
+      ],
+      "after": [
+        146.96475219726562,
+        -2.5494321636562256e-15,
+        11.022356986999512
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -202.03225708007812,
+          -91.85297393798828,
+          -108.58299255371094
+        ],
+        [
+          202.03225708007812,
+          91.85297393798828,
+          108.58299255371094
+        ]
+      ]
+    },
+    {
+      "unit": "xfgserv",
+      "model": "ty26_xfgserv",
+      "method": "assembly-bay centre",
+      "before": [
+        83.81961059570312,
+        -1.4343852863964559e-15,
+        84.34041595458984
+      ],
+      "after": [
+        83.81961059570312,
+        -1.4343852863964559e-15,
+        6.201501369476318
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -116.42300415039062,
+          -55.81351089477539,
+          -69.2375717163086
+        ],
+        [
+          116.42300415039062,
+          55.81351089477539,
+          69.2375717163086
+        ]
+      ]
+    },
+    {
+      "unit": "xflegacyyard",
+      "model": "ty26_xflegacyyard",
+      "method": "assembly-bay centre",
+      "before": [
+        59.03955078125,
+        -20.314563751220703,
+        60.02482223510742
+      ],
+      "after": [
+        59.03955078125,
+        -20.314563751220703,
+        0.09593508392572403
+      ],
+      "buildHardpoint": "tylaunch",
+      "bounds": [
+        [
+          -100.0,
+          -68.65621948242188,
+          -51.66865539550781
+        ],
+        [
+          100.0,
+          68.65621948242188,
+          51.66865539550781
+        ]
+      ]
+    }
+  ],
+  "doorTracks": [
+    {
+      "node": "Box01",
+      "slideAxis": 2,
+      "slideDistance": -25.431716918945312,
+      "frames": 100
+    },
+    {
+      "node": "Box02",
+      "slideAxis": 2,
+      "slideDistance": 25.431716918945312,
+      "frames": 100
+    },
+    {
+      "node": "Box03",
+      "slideAxis": 0,
+      "slideDistance": -63.69637489318848,
+      "frames": 100
+    },
+    {
+      "node": "Box04",
+      "slideAxis": 0,
+      "slideDistance": 63.69637489318848,
+      "frames": 100
+    },
+    {
+      "node": "Box05",
+      "slideAxis": 2,
+      "slideDistance": -25.431716918945312,
+      "frames": 100
+    },
+    {
+      "node": "Box06",
+      "slideAxis": 2,
+      "slideDistance": 25.431716918945312,
+      "frames": 100
+    },
+    {
+      "node": "Box07",
+      "slideAxis": 0,
+      "slideDistance": 63.69637489318848,
+      "frames": 100
+    },
+    {
+      "node": "Box08",
+      "slideAxis": 0,
+      "slideDistance": -63.69637489318848,
+      "frames": 100
+    }
+  ],
+  "runtimeVerified": false
+}
