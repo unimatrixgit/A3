@@ -59,7 +59,7 @@ sensorsHitPoints = 100
 
 
 
-maxDilithium = 300
+
 
 
 
@@ -96,9 +96,9 @@ biomatterCost = 0
 
 maxLatinum = 0
 
-unitName = "Mercenary Ferengi Dilithium Collector II"
 
-tooltip = "Ferengi Dil Equipment II"
+
+
 
 
 
@@ -112,8 +112,12 @@ weapon1 = "xfgmindil3"
 
 
 
-verboseTooltip = "Mercenary Ferengi Dilithium Collector II\nMining Beam\nResources sustain the Collective's expansion."
+
 
 baseName = "dr26_xbgdil3"
 
 ScaleSOD = 0.825
+unitName = "Dilithium Collector MK III"
+tooltip = "Dilithium Collector MK III"
+verboseTooltip = "Dilithium Collector MK III\nMining Beam\nResources sustain the Collective's expansion."
+maxDilithium = 600

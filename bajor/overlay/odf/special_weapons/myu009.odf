@@ -1,0 +1,73 @@
+// Mark this as a special weapon.
+special = 1
+
+//Display name for this weapon
+
+
+//tooltips
+
+
+
+//Location of the button in the speed panel
+//buttonSlot = 1
+
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 5
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 2
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "fusingweapon"
+
+// Looping sound that gets played as the move together
+firesound = "gcubeint.wav"
+// One shot that gets played on the new ship when it converts.
+offsound = "gcubeintoff.wav"
+
+
+// 	HIT_EVERYONE = 0,
+//	HIT_ALLIES = 1,
+//	HIT_ENEMIES = 2
+hitCondition = 0
+
+//Don't automatically switch to attack mode 
+switchToAttack = 0
+
+// Converts it into bbattle3
+
+
+// How much metal must we spend to fuse this?
+
+
+// Multiweapon, requires 8 Borg cubes
+
+
+
+// These are the initial and final
+// formation distances
+initialDistance = 105
+finalDistance = 100
+
+// Don't speak when attacking.
+speakOnAttack = 0
+// Here's what you do say
+eventFire = "CubeFusion"
+eventCancel = "CubeFusionCancel"
+
+
+wpnName = "Upgrade Mining Equipment"
+tooltip = "Upgrade Mining Equipment"
+verboseTooltip = "Upgrade to Dilithium Collector MK III. Research required. Unload cargo before refitting."
+fusedClass = "mycminer2"
+multiReqClass0 = "mycminer1"
+multiReqMin0 = 1
+buttonSlot = 1
+hotkeyLabel = "HOTKEY_F1"
+specialEnergyCost = 0
+fusingMetalCost = 0

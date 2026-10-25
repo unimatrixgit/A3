@@ -1,0 +1,1586 @@
+{
+  "status": "VALIDATED - NOT APPLIED",
+  "files": [
+    {
+      "file": "AI/AIPs/bajoran_build_list.aip",
+      "sourceHash": "b4dab11a888b55939e08fdf0bc77a2c2c0aaf9081372a8b71a6fcf7ea775a80e",
+      "stagedHash": "d8346bb1caf08be8445dbadb053a40a06c7f141eb59d01ebce0b86c9951afa1d"
+    },
+    {
+      "file": "AI/AIPs/bajoran_defensive_list.aip",
+      "sourceHash": "4d73d05b24be2414e790a7730bf0d23cd6167d5e85eb13951411ddfbe51edb56",
+      "stagedHash": "ea24dd8f783d1d21c7838f0e42101196c192f115e0ca7c007325219d59529adc"
+    },
+    {
+      "file": "AI/AIPs/bajoran_endgame_list.aip",
+      "sourceHash": "e0939624bad2c7f1ff6df5859a2da5daeb077c47f106e6fb4725a0302c8ff76a",
+      "stagedHash": "66f9135a8b7777df11f363be98054cbf8a5944d78e22dad9ffc3665ae75ec6b2"
+    },
+    {
+      "file": "AI/AIPs/bajoran_instant_action_build_list.aip",
+      "sourceHash": "e52a18ee38a250d9891a018420864fc07bb9a1370bb3a72a0539cbae4a3ee48d",
+      "stagedHash": "652546f6e76c12149213f8ba44a7cd5746076d0c3c885a87f1936e020395dfd4"
+    },
+    {
+      "file": "AI/AIPs/bajoran_offensive_list.aip",
+      "sourceHash": "b4dab11a888b55939e08fdf0bc77a2c2c0aaf9081372a8b71a6fcf7ea775a80e",
+      "stagedHash": "d8346bb1caf08be8445dbadb053a40a06c7f141eb59d01ebce0b86c9951afa1d"
+    },
+    {
+      "file": "AI/AIPs/borg_build_list.aip",
+      "sourceHash": "99f6caf46c97939dff69535a769d631d898fa7924dfe2aa8a9efd2738c51120c",
+      "stagedHash": "48a7095f6e7acd602ab5c17477e6861118903ad20e776ca14fb8464a777d77ae"
+    },
+    {
+      "file": "AI/AIPs/borg_defensive_list.aip",
+      "sourceHash": "889afa843bea15bfb39332d8ba8bc851306f0971fd092ed97bfb8b0e7b3f42e1",
+      "stagedHash": "cb02d25d656b66b3b1dabfb41c1dae52a9205e74524170428467b1ad7fb4cbca"
+    },
+    {
+      "file": "AI/AIPs/borg_endgame_list.aip",
+      "sourceHash": "99f6caf46c97939dff69535a769d631d898fa7924dfe2aa8a9efd2738c51120c",
+      "stagedHash": "48a7095f6e7acd602ab5c17477e6861118903ad20e776ca14fb8464a777d77ae"
+    },
+    {
+      "file": "AI/AIPs/borg_instant_action_build_list.aip",
+      "sourceHash": "99f6caf46c97939dff69535a769d631d898fa7924dfe2aa8a9efd2738c51120c",
+      "stagedHash": "48a7095f6e7acd602ab5c17477e6861118903ad20e776ca14fb8464a777d77ae"
+    },
+    {
+      "file": "AI/AIPs/borg_offensive_list.aip",
+      "sourceHash": "99f6caf46c97939dff69535a769d631d898fa7924dfe2aa8a9efd2738c51120c",
+      "stagedHash": "48a7095f6e7acd602ab5c17477e6861118903ad20e776ca14fb8464a777d77ae"
+    },
+    {
+      "file": "AI/AIPs/breen_build_list.aip",
+      "sourceHash": "56f7051c1abfe0bfac51e0df806d6396e2c91a86408ced9999430a4f33e23e85",
+      "stagedHash": "3f1053dc3ed5fe10a9e86650415ce7225e5879ef85d59b7c06a2943b6e37b780"
+    },
+    {
+      "file": "AI/AIPs/breen_defensive_list.aip",
+      "sourceHash": "56f7051c1abfe0bfac51e0df806d6396e2c91a86408ced9999430a4f33e23e85",
+      "stagedHash": "3f1053dc3ed5fe10a9e86650415ce7225e5879ef85d59b7c06a2943b6e37b780"
+    },
+    {
+      "file": "AI/AIPs/breen_endgame_list.aip",
+      "sourceHash": "56f7051c1abfe0bfac51e0df806d6396e2c91a86408ced9999430a4f33e23e85",
+      "stagedHash": "3f1053dc3ed5fe10a9e86650415ce7225e5879ef85d59b7c06a2943b6e37b780"
+    },
+    {
+      "file": "AI/AIPs/breen_instant_action_build_list.aip",
+      "sourceHash": "56f7051c1abfe0bfac51e0df806d6396e2c91a86408ced9999430a4f33e23e85",
+      "stagedHash": "3f1053dc3ed5fe10a9e86650415ce7225e5879ef85d59b7c06a2943b6e37b780"
+    },
+    {
+      "file": "AI/AIPs/breen_offensive_list.aip",
+      "sourceHash": "56f7051c1abfe0bfac51e0df806d6396e2c91a86408ced9999430a4f33e23e85",
+      "stagedHash": "3f1053dc3ed5fe10a9e86650415ce7225e5879ef85d59b7c06a2943b6e37b780"
+    },
+    {
+      "file": "AI/AIPs/cardassian_build_list.aip",
+      "sourceHash": "715c08457d523e8deb1091ea7f095b1a0ffe91e67bc7c96ddaa6c70e42de2772",
+      "stagedHash": "b6634829b2b3e8d9f614fabb9175a88d5c1703dc3835c659527f08da4965f020"
+    },
+    {
+      "file": "AI/AIPs/cardassian_defensive_list.aip",
+      "sourceHash": "bbe132d7ba406d08dd92081a906bf63bb2c237a76cf360db395ee62fbcc8ae8a",
+      "stagedHash": "d637940d9a9fc2a213bf9c7fb51ab20dfd688ceec2490a488df91acf3af0f3c9"
+    },
+    {
+      "file": "AI/AIPs/cardassian_endgame_list.aip",
+      "sourceHash": "715c08457d523e8deb1091ea7f095b1a0ffe91e67bc7c96ddaa6c70e42de2772",
+      "stagedHash": "b6634829b2b3e8d9f614fabb9175a88d5c1703dc3835c659527f08da4965f020"
+    },
+    {
+      "file": "AI/AIPs/cardassian_instant_action_build_list.aip",
+      "sourceHash": "715c08457d523e8deb1091ea7f095b1a0ffe91e67bc7c96ddaa6c70e42de2772",
+      "stagedHash": "b6634829b2b3e8d9f614fabb9175a88d5c1703dc3835c659527f08da4965f020"
+    },
+    {
+      "file": "AI/AIPs/cardassian_offensive_list.aip",
+      "sourceHash": "715c08457d523e8deb1091ea7f095b1a0ffe91e67bc7c96ddaa6c70e42de2772",
+      "stagedHash": "b6634829b2b3e8d9f614fabb9175a88d5c1703dc3835c659527f08da4965f020"
+    },
+    {
+      "file": "AI/AIPs/dominion_build_list.aip",
+      "sourceHash": "a57687f61b779e699dbd61bcd49503b4ac0b22e0e7b803018a1daa1ba9930219",
+      "stagedHash": "84844d7d5cfaad077e6614920062f03b407f2e7bf0a56c4013fdc42b75820d45"
+    },
+    {
+      "file": "AI/AIPs/dominion_defensive_list.aip",
+      "sourceHash": "ce1ae1219f4be93f56b52b48962f7b8bf1fe7d8830242f7814053cc9f3248352",
+      "stagedHash": "797602ea8be9209089b125b9ec733e320f9cf1c506b2a918be04f796bcba9ed6"
+    },
+    {
+      "file": "AI/AIPs/dominion_endgame_list.aip",
+      "sourceHash": "a57687f61b779e699dbd61bcd49503b4ac0b22e0e7b803018a1daa1ba9930219",
+      "stagedHash": "84844d7d5cfaad077e6614920062f03b407f2e7bf0a56c4013fdc42b75820d45"
+    },
+    {
+      "file": "AI/AIPs/dominion_instant_action_build_list.aip",
+      "sourceHash": "a57687f61b779e699dbd61bcd49503b4ac0b22e0e7b803018a1daa1ba9930219",
+      "stagedHash": "84844d7d5cfaad077e6614920062f03b407f2e7bf0a56c4013fdc42b75820d45"
+    },
+    {
+      "file": "AI/AIPs/dominion_offensive_list.aip",
+      "sourceHash": "a57687f61b779e699dbd61bcd49503b4ac0b22e0e7b803018a1daa1ba9930219",
+      "stagedHash": "84844d7d5cfaad077e6614920062f03b407f2e7bf0a56c4013fdc42b75820d45"
+    },
+    {
+      "file": "AI/AIPs/federation_build_list.aip",
+      "sourceHash": "3322940dd2e0bba32ef32d116e98c9d75c887ec600f7d07ae72c35b5ff165b25",
+      "stagedHash": "00d651762be547458b5e626794adeee2d086892ebdf76c4aedbaa1326dc9646f"
+    },
+    {
+      "file": "AI/AIPs/federation_defensive_list.aip",
+      "sourceHash": "9c47c5dc08cd27879c91ae3ef758e902e5d269593c34c518edecd9c2a67c52fa",
+      "stagedHash": "244c760ee304bee1b285333c5c6cc634ae687c3b354cad45e47617c73c891d6c"
+    },
+    {
+      "file": "AI/AIPs/federation_endgame_list.aip",
+      "sourceHash": "0bacebf450e668f8bcaca9c89e8464e03b32fc35ec35a0b92d452c4105883b40",
+      "stagedHash": "41315e346aed097a003a52ba42981de8806b1a22656b898bcfe161ef26f8a73c"
+    },
+    {
+      "file": "AI/AIPs/federation_instant_action_build_list.aip",
+      "sourceHash": "541c38b3f998e9717b0cea615e539d4ac5e91dd784c7dbbb207d4ea625e977bb",
+      "stagedHash": "b495f146bf6e97ffb650ae195c8c631a24a172608592b8bb0a2bc0251bfa5ecf"
+    },
+    {
+      "file": "AI/AIPs/federation_offensive_list.aip",
+      "sourceHash": "3322940dd2e0bba32ef32d116e98c9d75c887ec600f7d07ae72c35b5ff165b25",
+      "stagedHash": "00d651762be547458b5e626794adeee2d086892ebdf76c4aedbaa1326dc9646f"
+    },
+    {
+      "file": "AI/AIPs/klingon_build_list.aip",
+      "sourceHash": "1a84bf150e456d06d9a5f0069b3c8a20abb414bfa2a8ca533ffbc076ad825c7d",
+      "stagedHash": "098ed8127e66d08a44451d95ad71e59efee5f47775aba75a72c5e8584f7f54be"
+    },
+    {
+      "file": "AI/AIPs/klingon_defensive_list.aip",
+      "sourceHash": "37f37b71c37851e7ee85ea22d104e540a2a46f1b0236752e84ae3d66e20dd6a1",
+      "stagedHash": "95e98e4ebbd5f8fb694e6ec7548d339bcc42c4170707b4b1e4688ceae895cc5c"
+    },
+    {
+      "file": "AI/AIPs/klingon_endgame_list.aip",
+      "sourceHash": "1a84bf150e456d06d9a5f0069b3c8a20abb414bfa2a8ca533ffbc076ad825c7d",
+      "stagedHash": "098ed8127e66d08a44451d95ad71e59efee5f47775aba75a72c5e8584f7f54be"
+    },
+    {
+      "file": "AI/AIPs/klingon_instant_action_build_list.aip",
+      "sourceHash": "1a84bf150e456d06d9a5f0069b3c8a20abb414bfa2a8ca533ffbc076ad825c7d",
+      "stagedHash": "098ed8127e66d08a44451d95ad71e59efee5f47775aba75a72c5e8584f7f54be"
+    },
+    {
+      "file": "AI/AIPs/klingon_offensive_list.aip",
+      "sourceHash": "1a84bf150e456d06d9a5f0069b3c8a20abb414bfa2a8ca533ffbc076ad825c7d",
+      "stagedHash": "098ed8127e66d08a44451d95ad71e59efee5f47775aba75a72c5e8584f7f54be"
+    },
+    {
+      "file": "AI/AIPs/romulan_build_list.aip",
+      "sourceHash": "30981a4ff887f4bb256c96fe9b05b709bd051afa7cc1f09ce6a487e1edbcab1f",
+      "stagedHash": "6d57cf114b87c053ddd9736da362692b79f9125aae75ab172eccb97b1130a7c2"
+    },
+    {
+      "file": "AI/AIPs/romulan_defensive_list.aip",
+      "sourceHash": "433bbf9d82eb587ca3e82c3b5f373c7a01f1a2b6fde7604c0b01b91d1ab37273",
+      "stagedHash": "57521aa71621dd44d9210411d123779bed98b4a7f566aded68f5b6ca562fa4e5"
+    },
+    {
+      "file": "AI/AIPs/romulan_endgame_list.aip",
+      "sourceHash": "30981a4ff887f4bb256c96fe9b05b709bd051afa7cc1f09ce6a487e1edbcab1f",
+      "stagedHash": "6d57cf114b87c053ddd9736da362692b79f9125aae75ab172eccb97b1130a7c2"
+    },
+    {
+      "file": "AI/AIPs/romulan_instant_action_build_list.aip",
+      "sourceHash": "30981a4ff887f4bb256c96fe9b05b709bd051afa7cc1f09ce6a487e1edbcab1f",
+      "stagedHash": "6d57cf114b87c053ddd9736da362692b79f9125aae75ab172eccb97b1130a7c2"
+    },
+    {
+      "file": "AI/AIPs/romulan_offensive_list.aip",
+      "sourceHash": "30981a4ff887f4bb256c96fe9b05b709bd051afa7cc1f09ce6a487e1edbcab1f",
+      "stagedHash": "6d57cf114b87c053ddd9736da362692b79f9125aae75ab172eccb97b1130a7c2"
+    },
+    {
+      "file": "AI/AIPs/species8472_build_list.aip",
+      "sourceHash": "527d3e4b4bb1f4c8474430e51ed93fb6bcba13fd97132b02293eb577c3bb8139",
+      "stagedHash": "0b000bfd6a120f4e8390a301ea4f64f6825e9323d32a75258e228a90e4fc46a0"
+    },
+    {
+      "file": "AI/AIPs/species8472_defensive_list.aip",
+      "sourceHash": "527d3e4b4bb1f4c8474430e51ed93fb6bcba13fd97132b02293eb577c3bb8139",
+      "stagedHash": "0b000bfd6a120f4e8390a301ea4f64f6825e9323d32a75258e228a90e4fc46a0"
+    },
+    {
+      "file": "AI/AIPs/species8472_endgame_list.aip",
+      "sourceHash": "527d3e4b4bb1f4c8474430e51ed93fb6bcba13fd97132b02293eb577c3bb8139",
+      "stagedHash": "0b000bfd6a120f4e8390a301ea4f64f6825e9323d32a75258e228a90e4fc46a0"
+    },
+    {
+      "file": "AI/AIPs/species8472_instant_action_build_list.aip",
+      "sourceHash": "527d3e4b4bb1f4c8474430e51ed93fb6bcba13fd97132b02293eb577c3bb8139",
+      "stagedHash": "0b000bfd6a120f4e8390a301ea4f64f6825e9323d32a75258e228a90e4fc46a0"
+    },
+    {
+      "file": "AI/AIPs/species8472_offensive_list.aip",
+      "sourceHash": "527d3e4b4bb1f4c8474430e51ed93fb6bcba13fd97132b02293eb577c3bb8139",
+      "stagedHash": "0b000bfd6a120f4e8390a301ea4f64f6825e9323d32a75258e228a90e4fc46a0"
+    },
+    {
+      "file": "odf/ships/714const.odf",
+      "sourceHash": "0f2e07fd8782a215ce8239f699fd1c0976834a78cf249c13e9f23e42bb578f73",
+      "stagedHash": "7b9ae78052f3df2a9843d21e52d8659499302d3369b5fb37ed341469970dbd9c"
+    },
+    {
+      "file": "odf/ships/8472_collector.odf",
+      "sourceHash": "0d8a0eb7858d9c95a7e6613f659d3d95fb4fa025a115d0ceb61ed7cca3adfc05",
+      "stagedHash": "7cb86ae74e5e0acc80bee8123edc470b5e8d77334251304a96d04379f44ff5b6"
+    },
+    {
+      "file": "odf/ships/8472_defender.odf",
+      "sourceHash": "f574d84024f4c27229e596c87ea93f650a02f217ba2a6bd011d9ad4a8b4ce5d5",
+      "stagedHash": "5e6fc8c2ab6e47c8698a2e8a5855e01e8c8246cb263f5c6fbb912ce3331fc9e0"
+    },
+    {
+      "file": "odf/ships/8472_passive.odf",
+      "sourceHash": "f3a7b0d22f4682a4b8d27cd864cc24517757fe31c3138315a02d37fd0d9bec1a",
+      "stagedHash": "255ef9fcb420a5bb5f33e565572b5788b426c94aa3c2c79ec02a3dc41314af0a"
+    },
+    {
+      "file": "odf/ships/bconst.odf",
+      "sourceHash": "3f06be18101e265fba534846eb06417227787e5a3d4b908d41f2d8ce7a1811f9",
+      "stagedHash": "b691ab4d50b922ca67e16fb681e1200c11721468959bbcf7e0752733d99f9bec"
+    },
+    {
+      "file": "odf/ships/bconst2.odf",
+      "sourceHash": "8151b3b6edbc5a4ab31200b131f7dbbaceeb294fd1fe0770a5a3556efa827a2b",
+      "stagedHash": "ed8f5ceb2429db04b6a2e6053663e9d9673c3c2895520ae3c36cd35962a2bb25"
+    },
+    {
+      "file": "odf/ships/bfreight.odf",
+      "sourceHash": "c24329c0118cf1f11ce02951d1c1ed26bc8cb936937c36da0750c0839dfc129b",
+      "stagedHash": "03588a9e7c49cc4035404e8b9db45807a8493ffe90d3b02302b76c37d2043f88"
+    },
+    {
+      "file": "odf/ships/bjconst.odf",
+      "sourceHash": "1d96fc82850578ab805635ef3294864c217a494fc4db37e0fc865f324ad6609f",
+      "stagedHash": "10b30b9f4a5aeb9ffa5a2bae519f90e0a6c0f45252d3e6458901e0576a26d2e9"
+    },
+    {
+      "file": "odf/ships/bjfreight.odf",
+      "sourceHash": "b64c121b52aaed7c08242f1b708bdc25a9afbb2af9f5b2c2c36b1e7e949e4062",
+      "stagedHash": "50b89e87acf28f803281fa34fca48b22292b6a6da311ef10dec6d1c67fddf2b3"
+    },
+    {
+      "file": "odf/ships/brconst.odf",
+      "sourceHash": "633681ee6dd2ba4b7a52e9a4f77b4437c1976a7cdd07e051e70a72cb84cd28da",
+      "stagedHash": "ad838d7d9211ef23bc1b94be4d132498ccb14d079b3e97109860a3ad7db5ed68"
+    },
+    {
+      "file": "odf/ships/brfreight.odf",
+      "sourceHash": "418a1c991226752d815eb5d7bda72e23d9d03e4b453e8adc1ccd63ba7d3fedb9",
+      "stagedHash": "ab4356a20dbe53d53230543d040ba6377cc4b5d1b3da1e9b3e3b0d422abf0952"
+    },
+    {
+      "file": "odf/ships/cconst.odf",
+      "sourceHash": "4414664cd429b3e8cfdfa471a69065f674170b632141c3bd22c7988be2e51f7f",
+      "stagedHash": "329c20c1f690abccde39fbc0f9ad169af1805c9dd4af07a2c8f25c85596a012d"
+    },
+    {
+      "file": "odf/ships/cfreight.odf",
+      "sourceHash": "76794fe195b2a9086af94167e365db28f0dc9373e2561962e1586e04004388c5",
+      "stagedHash": "82cbbf890d1415e42a3e77a5761f24b46952a29c0c866e3cd7af2405c8aae7be"
+    },
+    {
+      "file": "odf/ships/const.odf",
+      "sourceHash": "91f3dfa97aeb6ce75608419d7161485300428a75447d7fc840501856b983d5b6",
+      "stagedHash": "22cf967992791a8c80dfc25c3724748e123a3ecb12d0761493181d8e34bf294c"
+    },
+    {
+      "file": "odf/ships/dconst.odf",
+      "sourceHash": "ae68c032532356bf7cc1b2030124140adc547150ebc7a34e242a508ad8868951",
+      "stagedHash": "bc9f502a998ab5ac07a29cce4bfb475c8d840a239e582d0b17a5172bd0db70a6"
+    },
+    {
+      "file": "odf/ships/dfreight.odf",
+      "sourceHash": "74d0ca8d63b2005091f4a79b6eb0bbe4cfb4b89c3d8393c8fdbff5d5b78b5c54",
+      "stagedHash": "8fe68f7ab2265880784eb9d8e22589907f4dad336f68814e31b7724dd20695bf"
+    },
+    {
+      "file": "odf/ships/domconst.odf",
+      "sourceHash": "57b1d904805633723a1763e16005e73e84309ef36ef5b1a0260a1e305481ffff",
+      "stagedHash": "1ff23f3554bfcfc3c2c34d0d48e3c9af0661bc9c5543e64cd0ef034efd98310c"
+    },
+    {
+      "file": "odf/ships/f31const.odf",
+      "sourceHash": "4e364ce732a88b3ac891d8b2acb3faebc83bc9cb40d73bc2a1f9964fed98cd88",
+      "stagedHash": "61d9fa3507b7a1430ba50201a7356c7695861e37807c07f89dd25fccfe0f8f96"
+    },
+    {
+      "file": "odf/ships/fconst.odf",
+      "sourceHash": "a0c6ffacd23708eb90c11c77c24c199ee0ac778b7a7c47986bb81a57712b4d6e",
+      "stagedHash": "fd3b1f40204244417b64e0818a51d5bc40342a701c37a8cb0c7c8c5bd26db8d3"
+    },
+    {
+      "file": "odf/ships/fconst2.odf",
+      "sourceHash": "74052f776212db9cf1fcbc1ed65357f5c1755685e2904e6ec871cffad297ef98",
+      "stagedHash": "eedd101666304858d97b30a5f272f4710f98862fd72b6e678fe633fa70a19b00"
+    },
+    {
+      "file": "odf/ships/ffreight.odf",
+      "sourceHash": "98de810af10b1706b8ffd459d861b79e6cbcb208f4a8f2a5ca4d2ea6152481fc",
+      "stagedHash": "d3f2e3881f3f1a4993150f44389e1664ba271b328bf79d07fd80b0029d8eca12"
+    },
+    {
+      "file": "odf/ships/kconst.odf",
+      "sourceHash": "f623e086536cff01779382084b7cc9beed2e8428172e5e4d60e18fb02f8572eb",
+      "stagedHash": "79e563e6b77981821eac29ba1970d9e5c22dc9a049c2c80784aeccdc96656a66"
+    },
+    {
+      "file": "odf/ships/kconst2.odf",
+      "sourceHash": "c20136dd3efe46dbbe759e2405e798132f7d7c23dcc301c04e24efea1cc3c15d",
+      "stagedHash": "663b8de9ccb3439ef4e5ab0d49a0bcd345aee50039b0bff61fad395bbf559ca2"
+    },
+    {
+      "file": "odf/ships/kfreight.odf",
+      "sourceHash": "1d5819665edf87d99d22b947a0ca130132356e1b15a6f1444664de6c1f873759",
+      "stagedHash": "12510b5025fe96ddbf20c16326c1108f5bcc264b282ee9631ddd1d97fba6551d"
+    },
+    {
+      "file": "odf/ships/mybjminer1.odf",
+      "sourceHash": null,
+      "stagedHash": "f39b258ac2ccbfb96f4d0e0ff6699156c21fe8185cd3d1f006182a0cc3efb17d"
+    },
+    {
+      "file": "odf/ships/mybjminer2.odf",
+      "sourceHash": null,
+      "stagedHash": "414c7f0a12c6243f7e19ba9560e6ceb51ea0d2d7279323ea0fb04d294460217b"
+    },
+    {
+      "file": "odf/ships/mybminer1.odf",
+      "sourceHash": null,
+      "stagedHash": "e39655780ce92100b82295eafb020e67f91a5cbd32b93fed0abb62476c4296e9"
+    },
+    {
+      "file": "odf/ships/mybminer2.odf",
+      "sourceHash": null,
+      "stagedHash": "4cf3ef70a84608096903823da42c2b9087c8dcb08b44e2b64ec2ea971b8cfed0"
+    },
+    {
+      "file": "odf/ships/mybrminer1.odf",
+      "sourceHash": null,
+      "stagedHash": "5b06038d9d0d70a6c7afc5a92ff47fac4a1a219ae30c0490b63fc7b236bcf3f3"
+    },
+    {
+      "file": "odf/ships/mybrminer2.odf",
+      "sourceHash": null,
+      "stagedHash": "55f4fd553bf7e6f934736d9b5bb253295958c4988bb0e39cdd63c1edd64566a5"
+    },
+    {
+      "file": "odf/ships/mycminer1.odf",
+      "sourceHash": null,
+      "stagedHash": "cdf3add1a01adc2b2f77eef9081fde452620520967e0335b8cfa43ccac148119"
+    },
+    {
+      "file": "odf/ships/mycminer2.odf",
+      "sourceHash": null,
+      "stagedHash": "376459ff03d6a43f25f3c652d23a6f50015cb5fae34aca5d534693eb6f8a3174"
+    },
+    {
+      "file": "odf/ships/mydminer1.odf",
+      "sourceHash": null,
+      "stagedHash": "d855b37ecea0059916901a8499091ff45d8a5862ee3426afff0c2cf8955a96fb"
+    },
+    {
+      "file": "odf/ships/mydminer2.odf",
+      "sourceHash": null,
+      "stagedHash": "14a9fe7f6772faf675c803c107bc71aa7dec2ad07c370d03ddadf486715771b3"
+    },
+    {
+      "file": "odf/ships/myfminer1.odf",
+      "sourceHash": null,
+      "stagedHash": "19c69d5eea2928225b440ce1d057ec5c8fc6856975ee7f9d45d4e09c3c49c1cf"
+    },
+    {
+      "file": "odf/ships/myfminer2.odf",
+      "sourceHash": null,
+      "stagedHash": "cf700b3894197aff6f427cc759c43f48440846c98113ec0b6f26a6dc47ae3c1c"
+    },
+    {
+      "file": "odf/ships/mykminer1.odf",
+      "sourceHash": null,
+      "stagedHash": "5245ddf1487b1974d934316679cac9694f0747d40bc2c41da332251c865f541b"
+    },
+    {
+      "file": "odf/ships/mykminer2.odf",
+      "sourceHash": null,
+      "stagedHash": "b767df4585b3142af84553ee19b1c9ab018b79ac203afea6a8ac41fa0c28ecac"
+    },
+    {
+      "file": "odf/ships/myrminer1.odf",
+      "sourceHash": null,
+      "stagedHash": "b1d2a2551aace0605bbaacaa14168a7d52d97b6d6fcfb8abe32334e82bf0a36e"
+    },
+    {
+      "file": "odf/ships/myrminer2.odf",
+      "sourceHash": null,
+      "stagedHash": "55769be33ecb901d41df8e1e0719106c55d73f0a25eeb350e801db65184ee9ff"
+    },
+    {
+      "file": "odf/ships/rconst.odf",
+      "sourceHash": "6d1ce7231e452cafe216b6116e1060e3f9f9cc439cb1e4e42c20c9d94e5f215c",
+      "stagedHash": "a7794a63909aca01276c4f0793925b8c1e1949b0ff0b13a879f725948257a4e4"
+    },
+    {
+      "file": "odf/ships/rconst2.odf",
+      "sourceHash": "61d8d11af42ec9be955d25e389150605a544618f37b08fc08c9cb1e3d6b0ee99",
+      "stagedHash": "0ac152aa8e9543c92dedbc9df2b9a0516f31e2ed1cfcddf096f3d16700cd4adb"
+    },
+    {
+      "file": "odf/ships/rfreight.odf",
+      "sourceHash": "b5681bde223cdcb2204cea0002ba4af96b67e65e43e5c4629ad2c6b2d81b18f7",
+      "stagedHash": "02b8c350800973259082f03c37b01cd694ef8ac8882baec752560afead9d4c48"
+    },
+    {
+      "file": "odf/ships/uconst.odf",
+      "sourceHash": "c06dfc0019af4c32935096e6dc2465e5383789733023de18f56a89f3b0c5611b",
+      "stagedHash": "cd729a6ae600b5392c66beeef56532d102e086994598fda813de1953378cddc0"
+    },
+    {
+      "file": "odf/ships/xbgconst.odf",
+      "sourceHash": "a1710bc667806231ca623299d7f68255c86f74aa06a06fb2a2cbf6716ff4cc5e",
+      "stagedHash": "7526e399f24980b02ac75f97449a4755004c3116229d0634df83578f16ebd82d"
+    },
+    {
+      "file": "odf/ships/xbgconst2.odf",
+      "sourceHash": "067fb2e9a69472e4fd038a508baf09d0f711110cc645f6cb1053c2696cd61d32",
+      "stagedHash": "80d95c7a4e36d2dab4a0017d6c9211732111f67dad77f2071f499f5a66227c74"
+    },
+    {
+      "file": "odf/ships/xbgdil2.odf",
+      "sourceHash": "eb2f741e543b36a229afc2438058a2f84be41f85cd7b7378d99f36a0de2b1c8f",
+      "stagedHash": "d57ba6fc0d1db0cd784e833f33188de6527275caae3b58929bf079eab5f48b9b"
+    },
+    {
+      "file": "odf/ships/xbgdil3.odf",
+      "sourceHash": "91fe8c1c89734f62bbc39fd0b228f8f7fc017d55bbf78dcd4690f49ea78c1d42",
+      "stagedHash": "a3c8c4c0dd68ed3b34becce0c01b80cbec045a68b100e56a4a26e0d075d13708"
+    },
+    {
+      "file": "odf/ships/xbgmine.odf",
+      "sourceHash": "619a6534f2b8cde863ee1494f38cc5d838373212d424b34a2023019484f2d31e",
+      "stagedHash": "903713f15965c7c20a7b6c2da5422540e4851e0c4bd9e9b21292ca0c6900b321"
+    },
+    {
+      "file": "odf/ships/xbgmnr1.odf",
+      "sourceHash": null,
+      "stagedHash": "e13fdd8c6ea9f824396b5fec3db9f435e4c6ce6ccc24ba64cc0920e73aa3ac69"
+    },
+    {
+      "file": "odf/ships/xbgmnr2.odf",
+      "sourceHash": null,
+      "stagedHash": "d2b5bb2aad620ae63a66bda2ad59d42b68e1dacb0a3921c03798ed20573b4437"
+    },
+    {
+      "file": "odf/ships/xbjconst2.odf",
+      "sourceHash": "5b813b325b20c4cfe50dd9864a1e6c8a95685db90aabcfc6dc2b5c4ece04c93f",
+      "stagedHash": "ac94dc0c383e192a70dfede312fd1c438c92a33631b502bd3cdc20d4158c75ac"
+    },
+    {
+      "file": "odf/ships/xbjuconst.odf",
+      "sourceHash": "82d6a87ae41b7c9113be41463ac541fc9c3c119e634c509d24043fc8f3b32d32",
+      "stagedHash": "774f57471012c5e67f48eb7af703e4750450be47a5dac4c7d85060f96de6f10b"
+    },
+    {
+      "file": "odf/ships/xbrconst2.odf",
+      "sourceHash": "7de59d8c1fb3752907ef66fd4bda2972eb910b5f74d4de32e2e1da2140b0f106",
+      "stagedHash": "e06752e081868567531b9182341b84f2d65c0a4b5b12ecaaa167f32318a6af47"
+    },
+    {
+      "file": "odf/ships/xbruconst.odf",
+      "sourceHash": "8d6af2e980a5ddcd635c547a376aed545f467c7475f0d1c1bbdc26a0efbaec10",
+      "stagedHash": "cb3c27b4758821cf2637e5c1094754ddbb31e25e6fa48b7da36567b37b3683ff"
+    },
+    {
+      "file": "odf/ships/xbuconst.odf",
+      "sourceHash": "4fcbd5bc94791bc17d931ff53d3f431018ff6046f077a8106d81d1c965627303",
+      "stagedHash": "4df59b46eb3d9d5147d3c18a0fee5c706d19fa7df6dfb5bd70ce21b22f4c7a77"
+    },
+    {
+      "file": "odf/ships/xcconst2.odf",
+      "sourceHash": "04497dd36ebbc042a3ba1f72445f3ca7bc81c706e7809bfa5b37e11fdde01fdd",
+      "stagedHash": "1ebbbf99c75af4680eabdd20eb0db9adba984023851139c6e29aeb195c52b841"
+    },
+    {
+      "file": "odf/ships/xcdconst.odf",
+      "sourceHash": "e76ec9c8ee3e1cb51762a2dd4996911b049ccdf27bb49c52b9867110db5b5793",
+      "stagedHash": "598e671bf584db568a351a059420cabfece637a3e201e20912fedec75927e597"
+    },
+    {
+      "file": "odf/ships/xcduniv.odf",
+      "sourceHash": "2b4e321f3417b806957aff780a21c07810da04ab578fb626fd5cfad12cb629ee",
+      "stagedHash": "c670f4cc647b870af4e8b4143953546680bae22ecb9ab70ee42a622f0c0469a1"
+    },
+    {
+      "file": "odf/ships/xcuconst.odf",
+      "sourceHash": "b0f86527b1858d0fadc1ee8c92455444bc0692e8ae579cf4d5fd08e424dfd786",
+      "stagedHash": "d83e25e2cde1eb1374ef7b730ea05e23631bcd08f53f46cb86789650967cd098"
+    },
+    {
+      "file": "odf/ships/xdconst2.odf",
+      "sourceHash": "ed87cef3ec310fcebc58b60296b3b18557e7bba18af9bab3230103777975adc9",
+      "stagedHash": "9ea138d09a0979cba11c994f6baa58102d611010755d8d4468e820994e246261"
+    },
+    {
+      "file": "odf/ships/xdominer.odf",
+      "sourceHash": "94294a87620019fb77416672d18b0736bc2ca3553e89c4bd836b5b1f569b2cff",
+      "stagedHash": "b35049c9b3993bc6e5bdb6b8558e4de2097853ca160de08ca26a7aacdd7bb8dc"
+    },
+    {
+      "file": "odf/ships/xduconst.odf",
+      "sourceHash": "dea0f9134c2ec1b2fee35a4f742101b8299510a1a3b1e61c6031fa6e594be8b3",
+      "stagedHash": "31c3cb4caf2221d3239ec91e7d3371ad33f5718e78715b284bdc17de2c22df6b"
+    },
+    {
+      "file": "odf/ships/xfgconst.odf",
+      "sourceHash": "88cd308c4030786195a05b1e9c4579036c1838ac9c5e23ade26bdaaa44089028",
+      "stagedHash": "144d6ae726e45504989283c2e7a612565ca30c0ba761983f05a9ea980433d2d8"
+    },
+    {
+      "file": "odf/ships/xfgconst2.odf",
+      "sourceHash": "481a8c9ea858f8b690e665ecd6308d8191eea67fecba9ccde353cf9ba27035bc",
+      "stagedHash": "9c1ca2e6a8f0732b134580d81e5ab4a4252c43afee9af5984a8b8e4a5738fd36"
+    },
+    {
+      "file": "odf/ships/xfgdil2.odf",
+      "sourceHash": "ef87e369cb3b7678d27ff4c9f3c27ab2947b9f523da6a2e57c988d6a987f9f7b",
+      "stagedHash": "3cfcc6a202dd67e6257b83d1a6095f18482ad0bdb769c194ca33d3032933c062"
+    },
+    {
+      "file": "odf/ships/xfgdil3.odf",
+      "sourceHash": "c313b8405914e1d2c5422ce4ba3541286d4eae8cd289a747d7a9cadd4794f959",
+      "stagedHash": "4ea6b65f00bd7d1df345f5a2b772e2bed8a4125b3187ec23a7bd0d48cad7bae0"
+    },
+    {
+      "file": "odf/ships/xfglat2.odf",
+      "sourceHash": "b72282747aedf6a5a2d3693b5c64db4391677db0073f58af62a491d4ad88d460",
+      "stagedHash": "4691cecbaf0f3b18caeea6ea7e50da3d42d91a422fa01c6d453ef0ad9a8974bd"
+    },
+    {
+      "file": "odf/ships/xfglat3.odf",
+      "sourceHash": "89cc6baf51a0c6792c8a0a810081b6551d0e10f41dc8880da8e7848dedd58d0b",
+      "stagedHash": "b139f1204d69acb08faacb753f7730d5b2948c6b21937c1673ac1015b3719ccf"
+    },
+    {
+      "file": "odf/ships/xfgmine.odf",
+      "sourceHash": "256374ebf74da67a3394811ebb5507d9baa29a4e420543e1ead2869decbd0b24",
+      "stagedHash": "49ef0a6ab004e978a2c5157cac31f147b15a7cafe219fc58e4cf47338539f669"
+    },
+    {
+      "file": "odf/ships/xfgmnr1.odf",
+      "sourceHash": null,
+      "stagedHash": "1cec07c5d60c2dcac15cb2daac60fb8ec818915c87b4f96614b6760d04b4a567"
+    },
+    {
+      "file": "odf/ships/xfgmnr2.odf",
+      "sourceHash": null,
+      "stagedHash": "3f2fab1afcfad84eb23415920352020dc868ef55d3bfa738cbce279364b3b998"
+    },
+    {
+      "file": "odf/ships/xfuconst.odf",
+      "sourceHash": "9379e20f1ed11026b8b50114ab6e8d4a7cb2824dd8bd1ebe036a2c0f5e9e76bf",
+      "stagedHash": "c7df673ce563cddbf66343667fa4522b46e6f8a17f0240ddc2201c35dbc31aaa"
+    },
+    {
+      "file": "odf/ships/xkuconst.odf",
+      "sourceHash": "1a7705875734d3d2c93d46efaad8a8e80d99f01612482ed5db9f7c371baa349b",
+      "stagedHash": "4210b46f2296e7b1cf3e4562f30c45ce92c1c6162f3465f8ef052511c6682bc9"
+    },
+    {
+      "file": "odf/ships/xruconst.odf",
+      "sourceHash": "5480c7d24d3037ec04031416a8f4a62c210b5597d16ca5b33954cad3af9d812f",
+      "stagedHash": "b8d57b25d0512791d2e60df762987f9c98f3bd15178406fd9eadddd10b551f2b"
+    },
+    {
+      "file": "odf/ships/xsbcol1.odf",
+      "sourceHash": "1a02d87c70e73a66ea8c7e74eacfa8cb40ee864de8400d6fb215483adbef42ec",
+      "stagedHash": "106e5a0f2f589467b8988cd8990b0fa0355b5be8ad57f5c5141492d88eab04b7"
+    },
+    {
+      "file": "odf/ships/xsbcol2.odf",
+      "sourceHash": "7888199cd1709bb525fa83256f1f06a0f62577d836f828f5dae8f725b57d721a",
+      "stagedHash": "8b24eeca8509d22473c1179b2758fde75330543ba714bad6f4f90908eb5fc6b0"
+    },
+    {
+      "file": "odf/ships/xsuconst.odf",
+      "sourceHash": "03f06c11e522a59155b28b5190e4b61176f47d51bc8c2a70f1baf8b333c4cd3b",
+      "stagedHash": "c0998ccfff5db16cf63ca5904d4577ab74b1d7492b1a5120d3d880f7d334e7e3"
+    },
+    {
+      "file": "odf/ships/xu3bor2.odf",
+      "sourceHash": "1512a9264f1e03e230c6558fdfd867b1ac4947ffca1d1443027ba69ad3ab8fbe",
+      "stagedHash": "4fa505627f926035e56c585b243746ff27be261690edb8834132bfa7eb05ff78"
+    },
+    {
+      "file": "odf/ships/xu3fed2.odf",
+      "sourceHash": "fe69bcec319ce3f7ae551ad170d405f336134c0193dccb7e74afe4be2e1488e4",
+      "stagedHash": "18e472bd94b13781255dae49a3cd800c8a974b547a5007a510ac731a5093cae0"
+    },
+    {
+      "file": "odf/ships/xu3fer2.odf",
+      "sourceHash": "ea47b3b94740fbc4409552a0526fe7539b8c75fb98c2333d3657894331823eea",
+      "stagedHash": "07d5e79c4539c4ee7090011e9d8f1ccf7f113b470c6ccf095e28c75e5f193530"
+    },
+    {
+      "file": "odf/special_weapons/myu000.odf",
+      "sourceHash": null,
+      "stagedHash": "d660bf643364a6ce058923b076b046c2704c0b54a5d5b827f7289e5ecec15f0b"
+    },
+    {
+      "file": "odf/special_weapons/myu001.odf",
+      "sourceHash": null,
+      "stagedHash": "3ac947c568f6fd743f4b9298f312885751501489e315877153af40ef61c35c46"
+    },
+    {
+      "file": "odf/special_weapons/myu002.odf",
+      "sourceHash": null,
+      "stagedHash": "cd60ce91193ab382f89c79f71eeadf900da0833200f6a5cfa889e70324765f60"
+    },
+    {
+      "file": "odf/special_weapons/myu003.odf",
+      "sourceHash": null,
+      "stagedHash": "ea28a1d50f33f6603f739e9ff5b0688b69d33e15f7b05262747ef421197c6e8d"
+    },
+    {
+      "file": "odf/special_weapons/myu004.odf",
+      "sourceHash": null,
+      "stagedHash": "17e7eab2358a9414922f801ee86f9a9ad48ef1eafe721f39393fa2a89e7f7873"
+    },
+    {
+      "file": "odf/special_weapons/myu005.odf",
+      "sourceHash": null,
+      "stagedHash": "c6d1d9149afd0a25bbcb522d318692f30fa658700da3b21ba7cf01a475bd75de"
+    },
+    {
+      "file": "odf/special_weapons/myu006.odf",
+      "sourceHash": null,
+      "stagedHash": "73d9d0c2addb9518b5218b15c20040acab1ae109f446d92c64e3e8c811e5735d"
+    },
+    {
+      "file": "odf/special_weapons/myu007.odf",
+      "sourceHash": null,
+      "stagedHash": "285cd7ae5e132720cd1b5019558188de5ca8698187d15a5b7757190c6e2666a1"
+    },
+    {
+      "file": "odf/special_weapons/myu008.odf",
+      "sourceHash": null,
+      "stagedHash": "16bb550060ca23d03a6809cd8a8b146d908dd3be3cb03503c3da253cc249091f"
+    },
+    {
+      "file": "odf/special_weapons/myu009.odf",
+      "sourceHash": null,
+      "stagedHash": "14dca6ecd3a54d94d4cf32d84471ca974ce029c291bd26bd69693eeb1a7e734c"
+    },
+    {
+      "file": "odf/special_weapons/myu010.odf",
+      "sourceHash": null,
+      "stagedHash": "6012e0f6df67e53ae770a9c78fa236da1a33621de60128ffb062fbfbaf194f76"
+    },
+    {
+      "file": "odf/special_weapons/myu011.odf",
+      "sourceHash": null,
+      "stagedHash": "d36af1f2222067529a7837ef1a8b874e073210c386f080c65584b5247b22ab6d"
+    },
+    {
+      "file": "odf/special_weapons/myu012.odf",
+      "sourceHash": null,
+      "stagedHash": "fcf5ba94abb6a298210a51252c453f156e9f2ed899b3ceca2b0e664a5b89ac5a"
+    },
+    {
+      "file": "odf/special_weapons/myu013.odf",
+      "sourceHash": null,
+      "stagedHash": "cb56033bb2d2f2aba02d1a6f61ac2c35c42c3f2ca38aae9939c7093917dcdf4c"
+    },
+    {
+      "file": "odf/special_weapons/myu014.odf",
+      "sourceHash": null,
+      "stagedHash": "e554fe542c2ea882082743e13e82faa91f35343b32ab78971701124c83084a61"
+    },
+    {
+      "file": "odf/special_weapons/myu015.odf",
+      "sourceHash": null,
+      "stagedHash": "0bc3c6d4f290f8e85111e585411c24b9a586892013c69f5913916bdc5a43213e"
+    },
+    {
+      "file": "odf/special_weapons/myu016.odf",
+      "sourceHash": null,
+      "stagedHash": "eca47a0bab74a30dbdf58b0bf05f9285496f0007b825cb4499c8680c9d262da3"
+    },
+    {
+      "file": "odf/special_weapons/myu017.odf",
+      "sourceHash": null,
+      "stagedHash": "9109c8fd3d11c577193bc5a0684da25b6f8376da9ae8e23af94aaacd84707f1d"
+    },
+    {
+      "file": "odf/special_weapons/myu018.odf",
+      "sourceHash": null,
+      "stagedHash": "029dace1eb5eb99c56ccfe132360cfaa62cd973a830e9faf72864734e8cf30f0"
+    },
+    {
+      "file": "odf/special_weapons/myu019.odf",
+      "sourceHash": null,
+      "stagedHash": "6b7524796ea8a428509b450dd3bad105a3d04c287c1574b416be4a0ca606fa74"
+    },
+    {
+      "file": "odf/special_weapons/myu020.odf",
+      "sourceHash": null,
+      "stagedHash": "99801a8f6cbd923b73fb716765b6673833490ce820ff7a2f8c1f77d90a115da6"
+    },
+    {
+      "file": "odf/special_weapons/myu021.odf",
+      "sourceHash": null,
+      "stagedHash": "fdb1ddb92e10f5ff79d23f5156ec878a3a1af18bc41910d510d9e8290df8de7a"
+    },
+    {
+      "file": "odf/special_weapons/myu022.odf",
+      "sourceHash": null,
+      "stagedHash": "ff45e22ba4bb09a3a07f52f81478c5a3ae76a1c3179f35d11c606f9177707714"
+    },
+    {
+      "file": "odf/special_weapons/myu023.odf",
+      "sourceHash": null,
+      "stagedHash": "4d20114ead98a320243d2f471d08cd25d64dca0e65f2cd76504cb99f40b836b7"
+    },
+    {
+      "file": "odf/special_weapons/myu024.odf",
+      "sourceHash": null,
+      "stagedHash": "d2fd29483154721f7aac5677fd523799f839490065c3f48bffcd639ca721e881"
+    },
+    {
+      "file": "odf/special_weapons/myu025.odf",
+      "sourceHash": null,
+      "stagedHash": "850124e3d4c0d8f62e38d739cea8fbf93855c8b872f8b3e728851773f8d90cdc"
+    },
+    {
+      "file": "odf/special_weapons/myw000.odf",
+      "sourceHash": null,
+      "stagedHash": "254c17ecf5cba126f3394af6b5fb4bc8e2ca0c7a43f27f506e7e4477b13c4a26"
+    },
+    {
+      "file": "odf/special_weapons/myw000o.odf",
+      "sourceHash": null,
+      "stagedHash": "742f60821ee75de8443b4242bd7c0c59e096f6c3081ef9f75312b87ae0c730f0"
+    },
+    {
+      "file": "odf/special_weapons/myw001.odf",
+      "sourceHash": null,
+      "stagedHash": "9b1725cf05e978ba240be168d03259620d35f033cdab15eaf4a07b6127b2a8ce"
+    },
+    {
+      "file": "odf/special_weapons/myw001o.odf",
+      "sourceHash": null,
+      "stagedHash": "182a8f00c882c891c91e3c9b9e30bf5d6a116b71f1c852c5796441b3887a1e91"
+    },
+    {
+      "file": "odf/special_weapons/myw002.odf",
+      "sourceHash": null,
+      "stagedHash": "714d6236d614c2c310971b41ca562bd364baf1256872c1f487546710dba05221"
+    },
+    {
+      "file": "odf/special_weapons/myw002o.odf",
+      "sourceHash": null,
+      "stagedHash": "14e02e52b7fe8c9eaefb049e31c08f1c4691ddaaf9bc30f309f518fcd2e312e7"
+    },
+    {
+      "file": "odf/special_weapons/myw003.odf",
+      "sourceHash": null,
+      "stagedHash": "2c8577b64f1ecea880432e1f2c34e0b4405373b9d50ad72e4a6beb80557845da"
+    },
+    {
+      "file": "odf/special_weapons/myw003o.odf",
+      "sourceHash": null,
+      "stagedHash": "7d18ed54404346f7a2dd7ced7ee44edfbe1f6e4cadcc03c7c429be78ee2dca14"
+    },
+    {
+      "file": "odf/special_weapons/myw004.odf",
+      "sourceHash": null,
+      "stagedHash": "b3bb1fb8aaf79bc879e31d91c20bd6b9fb1b920ffe4d50e1a86b28596de86b69"
+    },
+    {
+      "file": "odf/special_weapons/myw004o.odf",
+      "sourceHash": null,
+      "stagedHash": "ef6cbfec3985e0b125ba50dcba0fa854f18b452aadc2aa11baa06254f4293025"
+    },
+    {
+      "file": "odf/special_weapons/myw005.odf",
+      "sourceHash": null,
+      "stagedHash": "40c7327227d424c5e5085c4fdb23d0a1122e495bd2367dfc13bb60935aa5a599"
+    },
+    {
+      "file": "odf/special_weapons/myw005o.odf",
+      "sourceHash": null,
+      "stagedHash": "27793bb9cca08908c92c385d08e3c42109d90753aea27bb519f46eeada53a51d"
+    },
+    {
+      "file": "odf/special_weapons/myw006.odf",
+      "sourceHash": null,
+      "stagedHash": "12b6f92a9cb28d19e9dc37083cc37360fee85ea4f14d4735975974c4d9e61965"
+    },
+    {
+      "file": "odf/special_weapons/myw006o.odf",
+      "sourceHash": null,
+      "stagedHash": "bcf4b683afffd2cc50b2bcf4940de171e690cb22b38084b7966549d73227b2d0"
+    },
+    {
+      "file": "odf/special_weapons/myw007.odf",
+      "sourceHash": null,
+      "stagedHash": "2f1730d9489fb4f62905fbf4bce04d01a645e007c458e64afa862ca6021d1cd9"
+    },
+    {
+      "file": "odf/special_weapons/myw007o.odf",
+      "sourceHash": null,
+      "stagedHash": "36044b734d9ec8c3ac10a14650099111ace7d94d03503fdcc22a947ba95d79b3"
+    },
+    {
+      "file": "odf/stations/bbase2.odf",
+      "sourceHash": "4852d6a52f13b4b708df39fff5c675d4900ed66f87359b28c740f5f5572007f0",
+      "stagedHash": "a54ce174d3885ea65bb27107685645e95e421f3e0b0bb87bfabac40222f8abd7"
+    },
+    {
+      "file": "odf/stations/bjorbital.odf",
+      "sourceHash": "e64baf4977a638d27c22f61d9c7f3dc5ad8e8789ec6b35f194995bf7bf5c8397",
+      "stagedHash": "74e735af5106bb81365e8805ec76270292a2b3515f0dfa6980aa387ca83db12b"
+    },
+    {
+      "file": "odf/stations/borbital.odf",
+      "sourceHash": "92f1ce79eb535a40d0ecb7d8f6f2dad80be98e7fca13904872b8be2f0ad7df55",
+      "stagedHash": "e69bfecf29d78a800244a415eb7b524e65052aab78a6fa0880116159880b5bb2"
+    },
+    {
+      "file": "odf/stations/brorbital.odf",
+      "sourceHash": "d1bde28e0cbbf8aedd228dce459b0158f17a04896dd3a8ef776b168b20074e9b",
+      "stagedHash": "5b5dc86fcdb2bb4469182c29f64ac6ece882d97ecbec32f5aa2d86b1483878ee"
+    },
+    {
+      "file": "odf/stations/corbital.odf",
+      "sourceHash": "9101bbe800c6ad0077e544396ebebbb6dac1976f3dd74bfd2ce2a3bbc56428a8",
+      "stagedHash": "228c9031279c5ab97a1783dfead2fdabadab8be2ca75d0dcf4b21d5c4bd4d56e"
+    },
+    {
+      "file": "odf/stations/dorbital.odf",
+      "sourceHash": "0aa52b0f40151f83c6a4c9bebdfaa4d03dc335ba620fba7659d21460e1cb4267",
+      "stagedHash": "fda5af05f7d6f0b58bdf49dbf0c933ac4064d676f2de70dbd67b68637420cf0a"
+    },
+    {
+      "file": "odf/stations/forbital.odf",
+      "sourceHash": "c53ed3de0b76ac3ebe03585522be836f7b15d1e015231a3fc5127cf8b6a94326",
+      "stagedHash": "56e562dbad1a941445295d25ac23aeea9a722862083ffe2fdbc7b6863646170e"
+    },
+    {
+      "file": "odf/stations/fresear2.odf",
+      "sourceHash": "cc27069a067c81afdbc44384ac59d5eb685463ec9fdcd25637407f8f4e3e4768",
+      "stagedHash": "051e4175741589305946ab17a734155346aaf6da1165ddc5cc7f2eae2608524f"
+    },
+    {
+      "file": "odf/stations/korbital.odf",
+      "sourceHash": "d27580b46556219fe1b7b286b8756a9bdaac6cb5635047c7efe85039d7b1b434",
+      "stagedHash": "1162dccb1347cb1bcaab06273768d64847c3ecb8b2bbd7553e697e45d19b4f5e"
+    },
+    {
+      "file": "odf/stations/mybjyard.odf",
+      "sourceHash": null,
+      "stagedHash": "0b7e5be537c6e32eb3ae33ae537a43d1dffb5b3e2064426566c695d021d216a2"
+    },
+    {
+      "file": "odf/stations/mybryard.odf",
+      "sourceHash": null,
+      "stagedHash": "f01a55ae5c1b93e6f6c2a97e4dd5c5c974b34805245301bb2be3abfff11dc03f"
+    },
+    {
+      "file": "odf/stations/mybyard.odf",
+      "sourceHash": null,
+      "stagedHash": "248991c1722553feaf5ad39355edb7a4b507e38a4b4677aa9008be98c982f085"
+    },
+    {
+      "file": "odf/stations/mycyard.odf",
+      "sourceHash": null,
+      "stagedHash": "4e69827ecec38fc72434c691542d25dea5d9006ca5628ee111d37ba745c0edac"
+    },
+    {
+      "file": "odf/stations/mydyard.odf",
+      "sourceHash": null,
+      "stagedHash": "62b82aa151b20f9554c4c6876dd13a268c08821ef16b637af50c59bdd6cd3411"
+    },
+    {
+      "file": "odf/stations/myfpod1.odf",
+      "sourceHash": null,
+      "stagedHash": "1a46bd652005dcc1007250fd9ec5a42843ff593cf058b12a5ef17c5ec8f48461"
+    },
+    {
+      "file": "odf/stations/myfpod2.odf",
+      "sourceHash": null,
+      "stagedHash": "30ddd64192a2cfa3e574e94238b8a1e45012ef83450b42e047090bfe356585c2"
+    },
+    {
+      "file": "odf/stations/myfyard.odf",
+      "sourceHash": null,
+      "stagedHash": "6ccd4ea30314f5b65425c4d71f3d4f51f13808ccdc2863c48c6f67b1a713cf0a"
+    },
+    {
+      "file": "odf/stations/mykyard.odf",
+      "sourceHash": null,
+      "stagedHash": "b6f0eb34c7f0ffc333274bc64e4d76d8d1d887f5c40dc184b51443354d44f941"
+    },
+    {
+      "file": "odf/stations/myryard.odf",
+      "sourceHash": null,
+      "stagedHash": "abb7fc20826790a5b3b7b329b2c42f8b4bf878366a2708929d5991c2efa5b889"
+    },
+    {
+      "file": "odf/stations/mysyard.odf",
+      "sourceHash": null,
+      "stagedHash": "274956c46c3bfbcb78bd7d337059ea0d464b8d3f931b8ddaf116fd5c3e040fd9"
+    },
+    {
+      "file": "odf/stations/Rorbital.odf",
+      "sourceHash": "acb5f0e589cf20dbeae4bb89b3f64dfafa62af764b8dc23d4b550ed3e96fbfb6",
+      "stagedHash": "be01e21cbd9124870413b64caf0aa2625efce2747b4959e6fcc9912dd21751eb"
+    },
+    {
+      "file": "odf/stations/xbgmetal2.odf",
+      "sourceHash": "eaf02814d917b1ba17bb4b1b147bb46eaef27bb60b4f2fe36badbf660c8b5e9b",
+      "stagedHash": "920267691423c77b6966765a8a4d3c2361ada2c6b566041c6ba7fc6a42a24aea"
+    },
+    {
+      "file": "odf/stations/xbgmetal3.odf",
+      "sourceHash": "e4aaced9106a34e80d943c3400ac4b0a9bae44447aca0d5d0b4f798fa7a25053",
+      "stagedHash": "2ae7894eeaa5751b6c98627b48505577de7f9ee224196bf73bf0e3ba23ca31f5"
+    },
+    {
+      "file": "odf/stations/xbgpdil.odf",
+      "sourceHash": "3898a90f71dbd264156ab7f88635c0d7235c24f758f27304abe2f1fe0c8ff250",
+      "stagedHash": "88e932a92670847d405ed7d7ca3a3cd96077f6df7262dc92beb2194e4d00790a"
+    },
+    {
+      "file": "odf/stations/xbgpdil2.odf",
+      "sourceHash": "0cf05d950131a06cc04e3e45df85fea14e24fe68ec5a0f2d0f9544c7f672756b",
+      "stagedHash": "9046bf0fa08e803de9008bbc30311960386188fbe828203399dab78f008cf810"
+    },
+    {
+      "file": "odf/stations/xbgserv.odf",
+      "sourceHash": "8a45a900b164d9c021099c17f2152fae85c8c662b95e62b29a054a638b3c7304",
+      "stagedHash": "952aa5384f436026ef7cc3b2dd4f9e0148570597b0a739ad65799915a76041e7"
+    },
+    {
+      "file": "odf/stations/xfgmetal2.odf",
+      "sourceHash": "7252dc4fc8c857340cc06f64391a08158d56b1ce8b995808593b76bc5c7b940f",
+      "stagedHash": "247951994c5fba4d4460e0de15bddf2d57e57a84b0b108b6605f939eff4d5ede"
+    },
+    {
+      "file": "odf/stations/xfgmetal3.odf",
+      "sourceHash": "87956d38088f7f1a41c8d49f2a1b2527ca72672b7139b504d78ebd6619b4c0f7",
+      "stagedHash": "47d14fe5c451b0f3a9da0b4fdbaa075aa216a5e8b8cccbf3827990665e4aef9c"
+    },
+    {
+      "file": "odf/stations/xfgpdil.odf",
+      "sourceHash": "5a5126ec0acd891f73e57430478913f450d74db75c980cb9517807bc961eaf85",
+      "stagedHash": "1d753a7e422b46e1ec4e3cb52825dc54506c096a1cc5ab859aba37077b508522"
+    },
+    {
+      "file": "odf/stations/xfgpdil2.odf",
+      "sourceHash": "1bec1270ef162094ea552f1150eeb13cfe5f77b6f2086e6ecacc4a559aad3a07",
+      "stagedHash": "368e38f34c99da10031293d2d201495561698c165f4e20a31a9f900942270366"
+    },
+    {
+      "file": "odf/stations/xfgplat.odf",
+      "sourceHash": "0fa3142022bf65b4c74672e9071fe747fad4746884c9f6dbf1c35a88f9057667",
+      "stagedHash": "440f8222f67a71ad03809ec424c65558a2fdf8b245fda03969ca477cd5c5ce87"
+    },
+    {
+      "file": "odf/stations/xfgplat2.odf",
+      "sourceHash": "0c32e4ad27a2d266b872e481f0d59b73ca7b20169276f2d04fb55df9e2871f0b",
+      "stagedHash": "3a3c58f7866b559422d1468a5167e6f7cf5d6f36a3daab420c4da5e4c3d39e88"
+    },
+    {
+      "file": "odf/stations/xfgserv.odf",
+      "sourceHash": "85bec41e01671b0e25238bc643aafd09e7902d180683ff3208778dd75d1cba64",
+      "stagedHash": "a83cb6916ea3c09a0717a69f238eb5d8e3633d3e1455831b2f5075913fecedcb"
+    },
+    {
+      "file": "SOD/my26_fresear2.sod",
+      "sourceHash": null,
+      "stagedHash": "81a4dec395b4640f22a4c7eae9fb4a4b6ba190eee0efd8e56c4e68d251911d1a"
+    },
+    {
+      "file": "SOD/my26_mybjyard.sod",
+      "sourceHash": null,
+      "stagedHash": "f94448179120ff13d8898d65321521c6c08148cbe7baee14bd01899764d07f4a"
+    },
+    {
+      "file": "SOD/my26_mybryard.sod",
+      "sourceHash": null,
+      "stagedHash": "12e370d9b9519c7c456dd7f7d368f54a508d0bca4802320621020c876be2f22f"
+    },
+    {
+      "file": "SOD/my26_mybyard.sod",
+      "sourceHash": null,
+      "stagedHash": "ef0fb32271a83fc3161f25a7ed05ca9b9dfe440c9bec5923c1a9fdfbbc2f3502"
+    },
+    {
+      "file": "SOD/my26_mycyard.sod",
+      "sourceHash": null,
+      "stagedHash": "c27a26f5fb20872e04b9013de65acd1dc5765f8cf4c88e331aa8dd6d2f40da3a"
+    },
+    {
+      "file": "SOD/my26_mydyard.sod",
+      "sourceHash": null,
+      "stagedHash": "a8d5fcdc61d8d2a048b0bf9c4cc7b09520316b9da82d1413c9e87b3ef1cb41df"
+    },
+    {
+      "file": "SOD/my26_myfyard.sod",
+      "sourceHash": null,
+      "stagedHash": "7810f2b7bc8f8e0c32072a9f6fe477ad3e555204de057338c8480b4ec9c806a5"
+    },
+    {
+      "file": "SOD/my26_mykyard.sod",
+      "sourceHash": null,
+      "stagedHash": "97b84a890a14c728e02dd2f232154bc1468ea768b8c5c149582383208971c5e1"
+    },
+    {
+      "file": "SOD/my26_myryard.sod",
+      "sourceHash": null,
+      "stagedHash": "bfd4b853bc57d6cb5963bf6297d40fd2442e583f96fcbfc69fcfc5616f9f446d"
+    },
+    {
+      "file": "SOD/my26_mysyard.sod",
+      "sourceHash": null,
+      "stagedHash": "f3ee85ce9ccc2cbc83e3d9b3909aea00c6d82cffddde2880a278b858ef667d28"
+    },
+    {
+      "file": "SOD/my26_xbgserv.sod",
+      "sourceHash": null,
+      "stagedHash": "22a88cfe06ec2c8c3afb22054705d5e8ed01549b1e744db4b22b96041c9071d1"
+    },
+    {
+      "file": "SOD/my26_xfgserv.sod",
+      "sourceHash": null,
+      "stagedHash": "22a88cfe06ec2c8c3afb22054705d5e8ed01549b1e744db4b22b96041c9071d1"
+    },
+    {
+      "file": "Sprites/gui_global.spr",
+      "sourceHash": "3330edbb01099f5ea673802da21afb7fdc243fe43361ac58b458adede3875e4b",
+      "stagedHash": "126bd8aae4596a1bd51d3cb5a9ede8e57668fe9960ee46b10ee9baeca91be0ee"
+    },
+    {
+      "file": "techtree/a2_borg01.tt",
+      "sourceHash": "da8b6bacd9fb682765f7c63881df0e4472efdd53078ad0c0c8513e8552a9a0f1",
+      "stagedHash": "6fd4b2c9c51d35367d92fcd89121b8b0ba532ce41f68d054fe301415f8f68ecc"
+    },
+    {
+      "file": "techtree/a2_borg02.tt",
+      "sourceHash": "852e34550c85bd9432492959a6b93415f35e61dbaac6fcd1f857b88d82420177",
+      "stagedHash": "fafd66c572b80c3002b3a772eae8ae6db098ab5bb21e9a6008d4340af2b25b9d"
+    },
+    {
+      "file": "techtree/a2_borg03.tt",
+      "sourceHash": "6021d953a52129f4f6886d0975ad5692db1892c4835dfb19ba021137c236075e",
+      "stagedHash": "a3c17c631a5103af45b5a3746f8a4397d2d5b4fb784768959c22e39889e16b73"
+    },
+    {
+      "file": "techtree/a2_borg04.tt",
+      "sourceHash": "276ee2021d912b2c0aa5350d12985cf5e49650169dedca73579933c83269ec2e",
+      "stagedHash": "ab64aed8431be0b72313ab62e67900fdb5d52d49c84255749568fc08d253757d"
+    },
+    {
+      "file": "techtree/a2_borg05.tt",
+      "sourceHash": "5318441d4bceea4ec9afdad030a4ce3d2a247359e45b0d0dd2ba7e564113a46e",
+      "stagedHash": "1026e4f3fbe43ab59be67ab85389a44605bdf4ef51752c609d8b0e7a52b82a7a"
+    },
+    {
+      "file": "techtree/a2_borg06.tt",
+      "sourceHash": "dd24b6611c424dfb62d7049326b6029793e94db14fd8e153e50a31a442fd929b",
+      "stagedHash": "e64dd10ef6fb9051dd8629825b76e85c7820f0eb19afa24ca8e5ccdcc4ead114"
+    },
+    {
+      "file": "techtree/a2_borg07.tt",
+      "sourceHash": "40d15da4eaa3991fa1c579d13ed2889c999551535b0282029dab812de0ff2228",
+      "stagedHash": "1f2c783a4705bd9ff42c79ae606131da15457a0b079eab84b8c4df0a0d8de739"
+    },
+    {
+      "file": "techtree/a2_borg08.tt",
+      "sourceHash": "1863e4194a99fa6a4ec7d64585ba7d1211ce931ac4be8a6c0155bb26cb12bfc2",
+      "stagedHash": "14543a8bc991bcc2977ebb1066c429c2dae2d040641933433ca6fb588e12cd5b"
+    },
+    {
+      "file": "techtree/a2_borg09.tt",
+      "sourceHash": "07969e814033eec17d9ecbb4aff1e7c6e61666d9527f88183e9861b40d24f4d3",
+      "stagedHash": "335c23417178a402bec0979b6804ec1a783d9cc76183bf76d365a9203198426a"
+    },
+    {
+      "file": "techtree/a2_borg10.tt",
+      "sourceHash": "95ccd1721e8ad04f83ac774cce0117d4190a769245c040caf396191704bb0ce7",
+      "stagedHash": "da9d5278b239127ea1726cde6cfd1be67dad10bf83ce619b987e5704a45ab411"
+    },
+    {
+      "file": "techtree/a2_fed01.tt",
+      "sourceHash": "bb9ac9d272316fd773d4d0d5c4c152afa689ca062b855c3122ddd646490fe24e",
+      "stagedHash": "b01bf06b108f1bb6a5db355249e3daaf8d5b6531e3a9f053600fccbe89b91350"
+    },
+    {
+      "file": "techtree/a2_fed02.tt",
+      "sourceHash": "c2e224cc967c51daef17f55960c88a9736b4af4d6ac516ed3656ecb880b09a09",
+      "stagedHash": "97f2385476aaa2609aef39b430a0da06b6f277167d3671f6fc5b9dbe237f9dce"
+    },
+    {
+      "file": "techtree/a2_fed03.tt",
+      "sourceHash": "238e084da53f7e13ad57ba141921dc0c5d57df6ff63d6e2bfa6c015d31c71992",
+      "stagedHash": "71fdc2599ec90fee25d991b5d5b9de601e9cf164fac9d7ee8e849a0f0a6a7e32"
+    },
+    {
+      "file": "techtree/a2_fed04.tt",
+      "sourceHash": "63264b76530e39ae9d3e4ae31120227122150fa81f9f8949be82a02ba4af0027",
+      "stagedHash": "4ecc9b21557e9e1bad9347378bbd12f47d255f9ac9d8005837b7e4710956f2d6"
+    },
+    {
+      "file": "techtree/a2_fed05.tt",
+      "sourceHash": "0d59d48e70403683599790cb3c632eead2bc961ff362057cf03ad60dddd73e10",
+      "stagedHash": "d7a5603df9929b8f62240b81cfd541de0a662267a34933a5e1ee83169c9080b2"
+    },
+    {
+      "file": "techtree/a2_fed06.tt",
+      "sourceHash": "35a741b8e5a0a4728b4d54a1c9abdd27b169fe282b715279f61f8411ee6337af",
+      "stagedHash": "3eb90451a70d16491b485338d0c8e4501275472ef5c011ece282ac21a210c739"
+    },
+    {
+      "file": "techtree/a2_fed07.tt",
+      "sourceHash": "b91790930663b4095767776158d350c399ea16efd3add531989b66a39ad370ca",
+      "stagedHash": "79ca5ca315fb7dbf0c6c6577ceae40eda9c3a1791bf2e00f611e59066335caf1"
+    },
+    {
+      "file": "techtree/a2_fed08.tt",
+      "sourceHash": "4fd820d9f0be22ec0706a5febaa301a116982aacc0b81969a9ff506381f09b49",
+      "stagedHash": "335035ed25c0cc52240e3438cf3382649d0e444c8b12c94e7b8aa6742329f7e0"
+    },
+    {
+      "file": "techtree/a2_fed09.tt",
+      "sourceHash": "041c145fdaf1ca230bef9c3be12b20e846e9ff279ce40866e2356a8a597918fb",
+      "stagedHash": "4dce64ebbf6cdb6bdce22ec692f3fca964e79bf18d16c4e405017bb1750425ee"
+    },
+    {
+      "file": "techtree/a2_fed10.tt",
+      "sourceHash": "6b3af2646f8cb06ba4f13a7f85fe76c08d1664d567490f44a54f4282a1ec1494",
+      "stagedHash": "2287c5e70f6c0bce3b85d43652b36031bf1533e740c2864ab1c96ff32c4a094e"
+    },
+    {
+      "file": "techtree/a2_kling01.tt",
+      "sourceHash": "4ab7c54718ef22629ff9af9950f9ad32e2ec8d46ebb8afce02de428d44ea5b83",
+      "stagedHash": "e55a4fc52836d5c9198f787e481585bd01d0dd232e0570876784dff47c4f58a0"
+    },
+    {
+      "file": "techtree/a2_kling02.tt",
+      "sourceHash": "c90f0228e98a4a0514f3b6959219632b1fa0587e00063ba42f14808bb9f0087b",
+      "stagedHash": "abd631ddaeafa6fbc46cca0d37b628544eca9aeb7ee7d1f4d611df9dd5698c02"
+    },
+    {
+      "file": "techtree/a2_kling03.tt",
+      "sourceHash": "882b3e631fbd3e5dd1265593818f3bc42aff04f805c05f6813e72b7b27ed1335",
+      "stagedHash": "42059962fc980dc8984137dface383171048ec352af9f8a9c1ffc7ace04eca7e"
+    },
+    {
+      "file": "techtree/a2_kling04.tt",
+      "sourceHash": "3ce5ef30d003d318f13602d96756e9fc7dc71aa8db5d8421b5c98bbfa40e91c0",
+      "stagedHash": "13475bb4b74d701f0f35278a1f57850bf1a1474b47b98e2d83b446652bbcf235"
+    },
+    {
+      "file": "techtree/a2_kling05.tt",
+      "sourceHash": "51bc4a33279e1399163ee8f38584b280f29134ce93470a4c47b47c2596cb4629",
+      "stagedHash": "f59a406189f4841320e3a01624c08510662eb0facb5f304a465a9b27171a957d"
+    },
+    {
+      "file": "techtree/a2_kling06.tt",
+      "sourceHash": "5f41b33010b1be77058c6ec919fb87e0d0f5e06399fc09c0c3fe6395ecd2dc13",
+      "stagedHash": "61bbd40f5f1bdb789a729078be6dbca34a73394b3afc31d7e4113d933c7d15ab"
+    },
+    {
+      "file": "techtree/a2_kling07.tt",
+      "sourceHash": "b11da72c413863930f822eb71cc75e746024857e0bd881b1962ecc6512c3df95",
+      "stagedHash": "90d0ac8e41f36c92a9c638f04a31ab18258628d8621d3093be5907d3228804f2"
+    },
+    {
+      "file": "techtree/a2_kling08.tt",
+      "sourceHash": "a84634264f0da7f57c9d7fc931035f86d1be8f097a1a8ce51b6c838fa6bed475",
+      "stagedHash": "f50ce83c38564dd0c0b39ba49e8ddc6e7ceeafea31d8ad17e5711794bbe6efec"
+    },
+    {
+      "file": "techtree/a2_kling09.tt",
+      "sourceHash": "78725e238e57fa10f571dbea5f80642af2617ab959733c71a9ecdb9ebf3c90a6",
+      "stagedHash": "bec36241c863aa16a78f6f62cf4ef0195ab316e448f6acb10cb36aa0eb9fa861"
+    },
+    {
+      "file": "techtree/a2_kling10.tt",
+      "sourceHash": "e557ca0e00418f093882a4ac787cf0b49316fb90f70c4ded7c4b78db1a9743dc",
+      "stagedHash": "d7fbebfbe97e4211811d8f0929b548f255cb9238e0694e98806dcee92ea5c73f"
+    },
+    {
+      "file": "techtree/demotech.tt",
+      "sourceHash": "9431d6c49d696e0dc2d62803b2f5d54186366d731e45b1724365ce5eae61a009",
+      "stagedHash": "f546673443ea327fc22cc80f9cfef18991eafdbb9830a497e3f257cfbbe33325"
+    },
+    {
+      "file": "techtree/earlytech.tt",
+      "sourceHash": "41735564c513a5240ab1c1918b05e4610c086854ad56248458acf6ab101e1f50",
+      "stagedHash": "f7fb530916997e4b72a8418284219d51e89fd3e5f149fda170214757bff87a19"
+    },
+    {
+      "file": "techtree/freetech.tt",
+      "sourceHash": "ad999d904f052a9d922f0532c8e5d3549d6d50a20d202d5f05e6c1f2b0c7688b",
+      "stagedHash": "3b521212c8995d1fd85863f791c2a9c265abf3ef638d51e7158d97e52a4df18a"
+    },
+    {
+      "file": "techtree/fulltech.tt",
+      "sourceHash": "dc84c851eac0dbe53b4265db3d5c192560a4f581cbd9d1edc4eb8f0f931c0703",
+      "stagedHash": "dcc3a3163f3fe2677302dd6974e52341f6343c674bf18dc04b64066244dff3bf"
+    },
+    {
+      "file": "techtree/nosci.tt",
+      "sourceHash": "809ad80917789b4baddf661bd2809f73644dc44e6e796b96e5c76c8d9b3b1770",
+      "stagedHash": "8ba98f8843667c00b4cb9c5c192daad75ea957a026641da38963c19131ca84d1"
+    },
+    {
+      "file": "techtree/nospweap.tt",
+      "sourceHash": "dc1224bcd1e5e71218b4e932f47eb83767e88a257dc863986789dd567f145418",
+      "stagedHash": "9052d24d906ad6e64e8a10670bc9de6ecd5bb5ef0cfb203ac3eb9b046096dfa6"
+    },
+    {
+      "file": "techtree/nosuper.tt",
+      "sourceHash": "8d2d5da613c022108811a349303687739118fd37515daa5a95c51ce860027481",
+      "stagedHash": "a9a3d3dd8f526e1b81fe5c42e567733ea3dbaaa906f5cfbec34cbef63dc0a384"
+    },
+    {
+      "file": "techtree/tech1.tt",
+      "sourceHash": "ca976a3a30d05037be40227e1cbe1c7d9cbdc911cab6ea75f021515b741e250d",
+      "stagedHash": "c81c087f172a8a79e00862b06287177e26e86d5ce81315161757f42bfe74b03a"
+    },
+    {
+      "file": "Textures/RGB/gbmy26_mybjyard.tga",
+      "sourceHash": null,
+      "stagedHash": "8b1daba46593ba5eef477335b35f5fb6fe3d97fb95c9575c39326aa8f068fb63"
+    },
+    {
+      "file": "Textures/RGB/gbmy26_mybryard.tga",
+      "sourceHash": null,
+      "stagedHash": "4c2b383d385bb7f644ff0d3d4517a4671de78862de26f95a758b5bade930291b"
+    },
+    {
+      "file": "Textures/RGB/gbmy26_mybyard.tga",
+      "sourceHash": null,
+      "stagedHash": "5186e04e161dc380eb11a2351a5176076afed478f59fa8c552962eb85c7fd751"
+    },
+    {
+      "file": "Textures/RGB/gbmy26_mycyard.tga",
+      "sourceHash": null,
+      "stagedHash": "7f52d2f398cf2ac6f072e97ed622beba8497e24df9e243f01037873168bc2365"
+    },
+    {
+      "file": "Textures/RGB/gbmy26_mydyard.tga",
+      "sourceHash": null,
+      "stagedHash": "707c4542026bfca5e38f679b42b3af75e86b67a46eb5e97a0988cf6700e732e6"
+    },
+    {
+      "file": "Textures/RGB/gbmy26_myfyard.tga",
+      "sourceHash": null,
+      "stagedHash": "70134f58d5717ccefd1528fe3f9afdc95451c349ec28ad42c9e3695a30c0cb83"
+    },
+    {
+      "file": "Textures/RGB/gbmy26_mykyard.tga",
+      "sourceHash": null,
+      "stagedHash": "2988eb08cb5d530724769eb383da574482a9120de0bc55fc8ba9e0a27c610868"
+    },
+    {
+      "file": "Textures/RGB/gbmy26_myryard.tga",
+      "sourceHash": null,
+      "stagedHash": "c4faa3089227469a2d340ef76627b06bec2a6396ab0d332c5515d65aef2f6a45"
+    },
+    {
+      "file": "Textures/RGB/gbmy26_mysyard.tga",
+      "sourceHash": null,
+      "stagedHash": "e3527006c1050e1512ff8e111546e430c8ed579f20e3e5998d9ea7c6ec58615d"
+    },
+    {
+      "file": "Textures/RGB/gbmy26_xbgserv.tga",
+      "sourceHash": null,
+      "stagedHash": "9506ebece93a578f4a302a8cca52363eff1b48a63be21920183aa5f16de1e494"
+    },
+    {
+      "file": "Textures/RGB/gbmy26_xfgserv.tga",
+      "sourceHash": null,
+      "stagedHash": "9506ebece93a578f4a302a8cca52363eff1b48a63be21920183aa5f16de1e494"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer00.tga",
+      "sourceHash": null,
+      "stagedHash": "cbb125b888fcb5ada5fcb3c46441ef16456230dc4efb475f9d8dc1ec3d907f5d"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer01.tga",
+      "sourceHash": null,
+      "stagedHash": "9737026a42a628140e952dd5e501201ef994cb2b58f23fc95673c35257deffe2"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer02.tga",
+      "sourceHash": null,
+      "stagedHash": "13eb50b47afbb2b6038682db674ab6f5c3d3998ea03317fc14c5c4a0c3f636cd"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer03.tga",
+      "sourceHash": null,
+      "stagedHash": "9f6075aa7ac814a824fc9d7b36f0715766858ed31a92d7e2d548f6aca1fbf265"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer04.tga",
+      "sourceHash": null,
+      "stagedHash": "2cad53474a6b3c318c34c4cbdbf747fd8522beb00930258404df6449ef0d23c5"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer05.tga",
+      "sourceHash": null,
+      "stagedHash": "96a0fd22e5a485c7f0c367c48fdab0d489f875037fd410a8398b76fd01c090da"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer06.tga",
+      "sourceHash": null,
+      "stagedHash": "e5e0e7815f0a285edfa0fcbd4394f420804bfb5e0b9a62f56d593c7c4761ff18"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer07.tga",
+      "sourceHash": null,
+      "stagedHash": "0503f9bab498f7d48a81158e37f9dbbdd377c759b35851521e7c77522329ab70"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer08.tga",
+      "sourceHash": null,
+      "stagedHash": "e284bbf6d237b32313c84519bca76f232486106c83362c993eb96fa52e347523"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer09.tga",
+      "sourceHash": null,
+      "stagedHash": "7c09c78cdeab12125fcc14b389c105e58a384bc717bc8eae9277590ff115e47f"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer10.tga",
+      "sourceHash": null,
+      "stagedHash": "022f77ab34c10c12637a989220434c66eed9cbde71caac973723cb751ad0047f"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer11.tga",
+      "sourceHash": null,
+      "stagedHash": "8da1703ff745611ec55fb23a5795be319b9f49d1b2dd9f97ebab4543ddd08b19"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer12.tga",
+      "sourceHash": null,
+      "stagedHash": "804637702d90cee970041cb533b2c40061c73911f7c09ff3d9dc36f02d9cc787"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer13.tga",
+      "sourceHash": null,
+      "stagedHash": "4243b01bf005ada15d806d73a49f8d4e4856898a323329efcc2fc2a49df87dd4"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer14.tga",
+      "sourceHash": null,
+      "stagedHash": "90e08efe1cc11b86f438b97eb5209259fd8da99d4bbc201e816e3d64778003d0"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer15.tga",
+      "sourceHash": null,
+      "stagedHash": "13cda77bc8ecbf2bd98eb822393110fa0f172863acc4db4a66da43ad7a167c3a"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer16.tga",
+      "sourceHash": null,
+      "stagedHash": "340d72a7840ef6737384eca75d283128fa768a634daad30a6bf445bb7a36a4f0"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer17.tga",
+      "sourceHash": null,
+      "stagedHash": "47b0b2c4fed29a72873caf0fb5a2f7577d93c10ab208315f7b566e46957c4829"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer18.tga",
+      "sourceHash": null,
+      "stagedHash": "f5f5d3a1d035fae4176dbde945fe071f31eb2536324861e21a104cb8aa744c6c"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer19.tga",
+      "sourceHash": null,
+      "stagedHash": "f3c417eeedf803ac1fb4c1de0cfaa798b2d215ce308c5c6c14c9b64c6f68a247"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer20.tga",
+      "sourceHash": null,
+      "stagedHash": "6ccdbf1931727209612051a23948aaba60e1104e3580f7f7fd59d7c1f68c0f8e"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer21.tga",
+      "sourceHash": null,
+      "stagedHash": "1601a30a0ae4fd61a6ecfd3bac9febe3a3cf94ffcef1787921405811a21f3778"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer22.tga",
+      "sourceHash": null,
+      "stagedHash": "267903abd6bc3e941a0b572c221d532383226cc0c9d9ad56f27cae70d1ebe9ea"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer23.tga",
+      "sourceHash": null,
+      "stagedHash": "b031700d49e90b13faa9cb95bc9974879976e4386291227a481eeae610b93b6d"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer24.tga",
+      "sourceHash": null,
+      "stagedHash": "8a0892fbfdc13869847fb36ba6da0d55558d8b34916bd59f906d5d6d6a28449b"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer25.tga",
+      "sourceHash": null,
+      "stagedHash": "0c4c27d22f8dfe0d385ea72ae8f9e06963aa100052424128f83eae994df14969"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer26.tga",
+      "sourceHash": null,
+      "stagedHash": "2402c993a8f9de5c6593d9bfc3cb720f1ba056041316de5dd2f65f43f870d6b0"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer27.tga",
+      "sourceHash": null,
+      "stagedHash": "89bfd312c4b548156a753801a1a855f23f98bb18fceecbeb06f48dac19e9fe3b"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer28.tga",
+      "sourceHash": null,
+      "stagedHash": "89bfd312c4b548156a753801a1a855f23f98bb18fceecbeb06f48dac19e9fe3b"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer29.tga",
+      "sourceHash": null,
+      "stagedHash": "536ea47aea87d6b3cada19a77023aec31e79f913b0cba77adae5ce8864a772fa"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer30.tga",
+      "sourceHash": null,
+      "stagedHash": "c992321a338e56e4ac3c17ac442a685d4c8e64a3dd094b8eb4256c9e3749c059"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer31.tga",
+      "sourceHash": null,
+      "stagedHash": "536ea47aea87d6b3cada19a77023aec31e79f913b0cba77adae5ce8864a772fa"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer32.tga",
+      "sourceHash": null,
+      "stagedHash": "c992321a338e56e4ac3c17ac442a685d4c8e64a3dd094b8eb4256c9e3749c059"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer33.tga",
+      "sourceHash": null,
+      "stagedHash": "e6ee1f0d01f8a15b27f7f27701c399ca61b45f7b28ed442f03e2aed9d804a509"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer34.tga",
+      "sourceHash": null,
+      "stagedHash": "e298504b1c2a36eeb05d2f0a04d5ad47432cc0f1333e170382c7fbd257ed8617"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer35.tga",
+      "sourceHash": null,
+      "stagedHash": "536ea47aea87d6b3cada19a77023aec31e79f913b0cba77adae5ce8864a772fa"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer36.tga",
+      "sourceHash": null,
+      "stagedHash": "0b954a70f16d0467e8991e98200aa4db2f64b1f6ca61663c61f7ff40b235db82"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer37.tga",
+      "sourceHash": null,
+      "stagedHash": "536ea47aea87d6b3cada19a77023aec31e79f913b0cba77adae5ce8864a772fa"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer38.tga",
+      "sourceHash": null,
+      "stagedHash": "0b954a70f16d0467e8991e98200aa4db2f64b1f6ca61663c61f7ff40b235db82"
+    },
+    {
+      "file": "Textures/RGB/gbmyminer39.tga",
+      "sourceHash": null,
+      "stagedHash": "13cda77bc8ecbf2bd98eb822393110fa0f172863acc4db4a66da43ad7a167c3a"
+    },
+    {
+      "file": "Textures/RGB/gbmyupgrade.tga",
+      "sourceHash": null,
+      "stagedHash": "78aac9c0248da7e693df5c7b25fc2c2deec2039c53917a754267f57c25a32997"
+    },
+    {
+      "file": "Textures/RGB/wfmy26_mybjyard.tga",
+      "sourceHash": null,
+      "stagedHash": "0160c135b7645b7812ddbf9bc3fd53408a93d6262fe1ae724cdf319657c54fb9"
+    },
+    {
+      "file": "Textures/RGB/wfmy26_mybryard.tga",
+      "sourceHash": null,
+      "stagedHash": "dfc8f733daef4c00b35f52aed115b895af47c35dc059e4defa8cb436231202fa"
+    },
+    {
+      "file": "Textures/RGB/wfmy26_mybyard.tga",
+      "sourceHash": null,
+      "stagedHash": "cb8ad5fb492d200a92a60497998f037fac7056d885b3df926042e6676efbfc0c"
+    },
+    {
+      "file": "Textures/RGB/wfmy26_mycyard.tga",
+      "sourceHash": null,
+      "stagedHash": "403956b72b8ce05e0abefab51a50d3b3074d7cdf9d81ccea1cc55da0d9f80b3a"
+    },
+    {
+      "file": "Textures/RGB/wfmy26_mydyard.tga",
+      "sourceHash": null,
+      "stagedHash": "74d042a246cea21e6e0edf72ec4916e3b66050f25384eeee7088ae63e520505b"
+    },
+    {
+      "file": "Textures/RGB/wfmy26_myfyard.tga",
+      "sourceHash": null,
+      "stagedHash": "20431ba5a4b37a41eaf97012b5c3a13b8b92fcd6c52bf64b44262d126f2a28d7"
+    },
+    {
+      "file": "Textures/RGB/wfmy26_mykyard.tga",
+      "sourceHash": null,
+      "stagedHash": "554ceb84ddd8b89583f97b88ef66282a4c9ab18899ea25abef4456f9ee75d6c5"
+    },
+    {
+      "file": "Textures/RGB/wfmy26_myryard.tga",
+      "sourceHash": null,
+      "stagedHash": "6268d7a5efcd5ffcef3d96f4157b8cc8e87ce2f2645dc842307ed658dd357562"
+    },
+    {
+      "file": "Textures/RGB/wfmy26_mysyard.tga",
+      "sourceHash": null,
+      "stagedHash": "0dfff52584a74c2fdfab3d7b47ea09dae60da327dbcf95613818ba5321b3de02"
+    },
+    {
+      "file": "Textures/RGB/wfmy26_xbgserv.tga",
+      "sourceHash": null,
+      "stagedHash": "ec8f2fcb5ae3e1a3d4c4b040d05171b6a04b3983196334651b6e8c90d23dc960"
+    },
+    {
+      "file": "Textures/RGB/wfmy26_xfgserv.tga",
+      "sourceHash": null,
+      "stagedHash": "ec8f2fcb5ae3e1a3d4c4b040d05171b6a04b3983196334651b6e8c90d23dc960"
+    }
+  ],
+  "checks": 12285,
+  "runtimeVerified": false,
+  "yards": 9,
+  "models": 11,
+  "refitButtons": 26,
+  "AIplans": 45
+}

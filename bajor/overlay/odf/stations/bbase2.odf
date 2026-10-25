@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Orbital Base"
+
 
 
 
@@ -310,7 +310,7 @@ weaponHardpoints6 = "hp14"
 weapon7 = "bc2phas"
 weaponHardpoints7 = "hp15"
 
-tooltip = "Orbital Mining Station (Orbital Base)"
+
 
 
 
@@ -326,10 +326,13 @@ latinumCost = 0
 
 biomatterCost = 0
 
-verboseTooltip = "Orbital Base\nOrbital Mining Beam\nResources sustain the Collective's expansion."
+
 
 baseName = "vr26_bbase2"
 
 ScaleSOD = 0.853501150294
 
 footprintBuffer = 56.9000766863
+unitName = "Orbital Mining Station MK I"
+tooltip = "Orbital Mining Station MK I"
+verboseTooltip = "Orbital Mining Station MK I\nOrbital Mining Beam\nResources sustain the Collective's expansion."

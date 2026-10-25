@@ -33293,11 +33293,11 @@ b_xfgfrig xuiatlas11 192 448 64 64
 
 @reference=512
 @tmaterial=default
-b_xfglat2 xuiatlas11 256 448 64 64
+
 
 @reference=512
 @tmaterial=default
-b_xfglat3 xuiatlas11 320 448 64 64
+
 
 @reference=512
 @tmaterial=default
@@ -48261,13 +48261,13 @@ vr26_xbgresearchw5 wfvr26_xbgresearch 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_xbgserv gbvr26_xbgserv 0 0 64 64
+
 b_vr26_xbgserv gbvr26_xbgserv 0 0 64 64
-xbgservw1 wfvr26_xbgserv 0 0 64 64
-xbgservw2 wfvr26_xbgserv 0 0 64 64
-xbgservw3 wfvr26_xbgserv 0 0 64 64
-xbgservw4 wfvr26_xbgserv 0 0 64 64
-xbgservw5 wfvr26_xbgserv 0 0 64 64
+
+
+
+
+
 vr26_xbgservw1 wfvr26_xbgserv 0 0 64 64
 vr26_xbgservw2 wfvr26_xbgserv 0 0 64 64
 vr26_xbgservw3 wfvr26_xbgserv 0 0 64 64
@@ -48636,13 +48636,13 @@ vr26_xfgresearchw5 wfvr26_xfgresearch 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_xfgserv gbvr26_xfgserv 0 0 64 64
+
 b_vr26_xfgserv gbvr26_xfgserv 0 0 64 64
-xfgservw1 wfvr26_xfgserv 0 0 64 64
-xfgservw2 wfvr26_xfgserv 0 0 64 64
-xfgservw3 wfvr26_xfgserv 0 0 64 64
-xfgservw4 wfvr26_xfgserv 0 0 64 64
-xfgservw5 wfvr26_xfgserv 0 0 64 64
+
+
+
+
+
 vr26_xfgservw1 wfvr26_xfgserv 0 0 64 64
 vr26_xfgservw2 wfvr26_xfgserv 0 0 64 64
 vr26_xfgservw3 wfvr26_xfgserv 0 0 64 64
@@ -48855,7 +48855,7 @@ dr26_8472_basicresearchw5 wfdr26_8472_basicresearch 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_8472_collector gbdr26_8472_collector 0 0 64 64
+
 b_dr26_8472_collector gbdr26_8472_collector 0 0 64 64
 8472_collectorw1 wfdr26_8472_collector 0 0 64 64
 8472_collectorw2 wfdr26_8472_collector 0 0 64 64
@@ -48915,7 +48915,7 @@ dr26_bassturrw5 wfdr26_bassturr 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_bfreight gbdr26_bfreight 0 0 64 64
+
 b_dr26_bfreight gbdr26_bfreight 0 0 64 64
 bfreightw1 wfdr26_bfreight 0 0 64 64
 bfreightw2 wfdr26_bfreight 0 0 64 64
@@ -48930,7 +48930,7 @@ dr26_bfreightw5 wfdr26_bfreight 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_bjfreight gbdr26_bjfreight 0 0 64 64
+
 b_dr26_bjfreight gbdr26_bjfreight 0 0 64 64
 bjfreightw1 wfdr26_bjfreight 0 0 64 64
 bjfreightw2 wfdr26_bjfreight 0 0 64 64
@@ -49065,7 +49065,7 @@ dr26_bresear2w5 wfdr26_bresear2 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_brfreight gbdr26_brfreight 0 0 64 64
+
 b_dr26_brfreight gbdr26_brfreight 0 0 64 64
 brfreightw1 wfdr26_brfreight 0 0 64 64
 brfreightw2 wfdr26_brfreight 0 0 64 64
@@ -49155,7 +49155,7 @@ dr26_bupgradew5 wfdr26_bupgrade 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_cfreight gbdr26_cfreight 0 0 64 64
+
 b_dr26_cfreight gbdr26_cfreight 0 0 64 64
 cfreightw1 wfdr26_cfreight 0 0 64 64
 cfreightw2 wfdr26_cfreight 0 0 64 64
@@ -49230,7 +49230,7 @@ dr26_cupgradew5 wfdr26_cupgrade 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_dfreight gbdr26_dfreight 0 0 64 64
+
 b_dr26_dfreight gbdr26_dfreight 0 0 64 64
 dfreightw1 wfdr26_dfreight 0 0 64 64
 dfreightw2 wfdr26_dfreight 0 0 64 64
@@ -49305,7 +49305,7 @@ dr26_dupgradew5 wfdr26_dupgrade 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_ffreight gbdr26_ffreight 0 0 64 64
+
 b_dr26_ffreight gbdr26_ffreight 0 0 64 64
 ffreightw1 wfdr26_ffreight 0 0 64 64
 ffreightw2 wfdr26_ffreight 0 0 64 64
@@ -49395,7 +49395,7 @@ dr26_hubw5 wfdr26_hub 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_kfreight gbdr26_kfreight 0 0 64 64
+
 b_dr26_kfreight gbdr26_kfreight 0 0 64 64
 kfreightw1 wfdr26_kfreight 0 0 64 64
 kfreightw2 wfdr26_kfreight 0 0 64 64
@@ -49470,7 +49470,7 @@ dr26_kupgradew5 wfdr26_kupgrade 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_rfreight gbdr26_rfreight 0 0 64 64
+
 b_dr26_rfreight gbdr26_rfreight 0 0 64 64
 rfreightw1 wfdr26_rfreight 0 0 64 64
 rfreightw2 wfdr26_rfreight 0 0 64 64
@@ -49560,7 +49560,7 @@ dr26_xbassimstw5 wfdr26_xbassimst 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_xbgdil2 gbdr26_xbgdil2 0 0 64 64
+
 b_dr26_xbgdil2 gbdr26_xbgdil2 0 0 64 64
 xbgdil2w1 wfdr26_xbgdil2 0 0 64 64
 xbgdil2w2 wfdr26_xbgdil2 0 0 64 64
@@ -49575,7 +49575,7 @@ dr26_xbgdil2w5 wfdr26_xbgdil2 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_xbgdil3 gbdr26_xbgdil3 0 0 64 64
+
 b_dr26_xbgdil3 gbdr26_xbgdil3 0 0 64 64
 xbgdil3w1 wfdr26_xbgdil3 0 0 64 64
 xbgdil3w2 wfdr26_xbgdil3 0 0 64 64
@@ -49605,7 +49605,7 @@ dr26_xbgdrefw5 wfdr26_xbgdref 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_xbgmine gbdr26_xbgmine 0 0 64 64
+
 b_dr26_xbgmine gbdr26_xbgmine 0 0 64 64
 xbgminew1 wfdr26_xbgmine 0 0 64 64
 xbgminew2 wfdr26_xbgmine 0 0 64 64
@@ -49665,7 +49665,7 @@ dr26_xbrepairw5 wfdr26_xbrepair 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_xdominer gbdr26_xdominer 0 0 64 64
+
 b_dr26_xdominer gbdr26_xdominer 0 0 64 64
 xdominerw1 wfdr26_xdominer 0 0 64 64
 xdominerw2 wfdr26_xdominer 0 0 64 64
@@ -49680,7 +49680,7 @@ dr26_xdominerw5 wfdr26_xdominer 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_xfgdil2 gbdr26_xfgdil2 0 0 64 64
+
 b_dr26_xfgdil2 gbdr26_xfgdil2 0 0 64 64
 xfgdil2w1 wfdr26_xfgdil2 0 0 64 64
 xfgdil2w2 wfdr26_xfgdil2 0 0 64 64
@@ -49695,7 +49695,7 @@ dr26_xfgdil2w5 wfdr26_xfgdil2 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_xfgdil3 gbdr26_xfgdil3 0 0 64 64
+
 b_dr26_xfgdil3 gbdr26_xfgdil3 0 0 64 64
 xfgdil3w1 wfdr26_xfgdil3 0 0 64 64
 xfgdil3w2 wfdr26_xfgdil3 0 0 64 64
@@ -49725,7 +49725,7 @@ dr26_xfgdrefw5 wfdr26_xfgdref 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_xfgmine gbdr26_xfgmine 0 0 64 64
+
 b_dr26_xfgmine gbdr26_xfgmine 0 0 64 64
 xfgminew1 wfdr26_xfgmine 0 0 64 64
 xfgminew2 wfdr26_xfgmine 0 0 64 64
@@ -49770,7 +49770,7 @@ dr26_xfomegalabw5 wfdr26_xfomegalab 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_xsbcol1 gbdr26_xsbcol1 0 0 64 64
+
 b_dr26_xsbcol1 gbdr26_xsbcol1 0 0 64 64
 xsbcol1w1 wfdr26_xsbcol1 0 0 64 64
 xsbcol1w2 wfdr26_xsbcol1 0 0 64 64
@@ -49785,7 +49785,7 @@ dr26_xsbcol1w5 wfdr26_xsbcol1 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_xsbcol2 gbdr26_xsbcol2 0 0 64 64
+
 b_dr26_xsbcol2 gbdr26_xsbcol2 0 0 64 64
 xsbcol2w1 wfdr26_xsbcol2 0 0 64 64
 xsbcol2w2 wfdr26_xsbcol2 0 0 64 64
@@ -49851,3 +49851,984 @@ hubw4 gbhub 0	0	64	64
 @reference=64
 @tmaterial=default
 hubw5 gbhub 0	0	64	64
+
+@reference=64
+@tmaterial=default
+b_myfpod1 gbvr26_xbgpdil 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myfpod1w1 wfvr26_xbgpdil 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myfpod1w2 wfvr26_xbgpdil 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myfpod1w3 wfvr26_xbgpdil 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myfpod1w4 wfvr26_xbgpdil 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myfpod1w5 wfvr26_xbgpdil 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myfpod2 gbvr26_xbgpdil2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myfpod2w1 wfvr26_xbgpdil2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myfpod2w2 wfvr26_xbgpdil2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myfpod2w3 wfvr26_xbgpdil2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myfpod2w4 wfvr26_xbgpdil2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myfpod2w5 wfvr26_xbgpdil2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+myfminer1w1 wfdr26_ffreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myfminer1w2 wfdr26_ffreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myfminer1w3 wfdr26_ffreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myfminer1w4 wfdr26_ffreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myfminer1w5 wfdr26_ffreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+myfminer2w1 wfdr26_ffreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myfminer2w2 wfdr26_ffreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myfminer2w3 wfdr26_ffreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myfminer2w4 wfdr26_ffreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myfminer2w5 wfdr26_ffreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu000 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu001 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+mybminer1w1 wfdr26_bfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybminer1w2 wfdr26_bfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybminer1w3 wfdr26_bfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybminer1w4 wfdr26_bfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybminer1w5 wfdr26_bfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+mybminer2w1 wfdr26_bfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybminer2w2 wfdr26_bfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybminer2w3 wfdr26_bfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybminer2w4 wfdr26_bfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybminer2w5 wfdr26_bfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu002 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu003 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+mykminer1w1 wfdr26_kfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mykminer1w2 wfdr26_kfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mykminer1w3 wfdr26_kfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mykminer1w4 wfdr26_kfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mykminer1w5 wfdr26_kfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+mykminer2w1 wfdr26_kfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mykminer2w2 wfdr26_kfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mykminer2w3 wfdr26_kfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mykminer2w4 wfdr26_kfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mykminer2w5 wfdr26_kfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu004 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu005 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+myrminer1w1 wfdr26_rfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myrminer1w2 wfdr26_rfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myrminer1w3 wfdr26_rfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myrminer1w4 wfdr26_rfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myrminer1w5 wfdr26_rfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+myrminer2w1 wfdr26_rfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myrminer2w2 wfdr26_rfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myrminer2w3 wfdr26_rfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myrminer2w4 wfdr26_rfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+myrminer2w5 wfdr26_rfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu006 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu007 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+mycminer1w1 wfdr26_cfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mycminer1w2 wfdr26_cfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mycminer1w3 wfdr26_cfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mycminer1w4 wfdr26_cfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mycminer1w5 wfdr26_cfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+mycminer2w1 wfdr26_cfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mycminer2w2 wfdr26_cfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mycminer2w3 wfdr26_cfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mycminer2w4 wfdr26_cfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mycminer2w5 wfdr26_cfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu008 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu009 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+mydminer1w1 wfdr26_dfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mydminer1w2 wfdr26_dfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mydminer1w3 wfdr26_dfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mydminer1w4 wfdr26_dfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mydminer1w5 wfdr26_dfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+mydminer2w1 wfdr26_dfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mydminer2w2 wfdr26_dfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mydminer2w3 wfdr26_dfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mydminer2w4 wfdr26_dfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mydminer2w5 wfdr26_dfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu010 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu011 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu012 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+mybjminer1w1 wfdr26_bjfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybjminer1w2 wfdr26_bjfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybjminer1w3 wfdr26_bjfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybjminer1w4 wfdr26_bjfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybjminer1w5 wfdr26_bjfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+mybjminer2w1 wfdr26_bjfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybjminer2w2 wfdr26_bjfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybjminer2w3 wfdr26_bjfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybjminer2w4 wfdr26_bjfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybjminer2w5 wfdr26_bjfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu013 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu014 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+mybrminer1w1 wfdr26_brfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybrminer1w2 wfdr26_brfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybrminer1w3 wfdr26_brfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybrminer1w4 wfdr26_brfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybrminer1w5 wfdr26_brfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+mybrminer2w1 wfdr26_brfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybrminer2w2 wfdr26_brfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybrminer2w3 wfdr26_brfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybrminer2w4 wfdr26_brfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+mybrminer2w5 wfdr26_brfreight 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu015 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu016 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu017 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu018 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+xfgmnr1w1 wfdr26_xfgmine 0 0 64 64
+
+@reference=64
+@tmaterial=default
+xfgmnr1w2 wfdr26_xfgmine 0 0 64 64
+
+@reference=64
+@tmaterial=default
+xfgmnr1w3 wfdr26_xfgmine 0 0 64 64
+
+@reference=64
+@tmaterial=default
+xfgmnr1w4 wfdr26_xfgmine 0 0 64 64
+
+@reference=64
+@tmaterial=default
+xfgmnr1w5 wfdr26_xfgmine 0 0 64 64
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+xfgmnr2w1 wfdr26_xfgmine 0 0 64 64
+
+@reference=64
+@tmaterial=default
+xfgmnr2w2 wfdr26_xfgmine 0 0 64 64
+
+@reference=64
+@tmaterial=default
+xfgmnr2w3 wfdr26_xfgmine 0 0 64 64
+
+@reference=64
+@tmaterial=default
+xfgmnr2w4 wfdr26_xfgmine 0 0 64 64
+
+@reference=64
+@tmaterial=default
+xfgmnr2w5 wfdr26_xfgmine 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu019 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu020 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu021 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu022 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+xbgmnr1w1 wfdr26_xbgmine 0 0 64 64
+
+@reference=64
+@tmaterial=default
+xbgmnr1w2 wfdr26_xbgmine 0 0 64 64
+
+@reference=64
+@tmaterial=default
+xbgmnr1w3 wfdr26_xbgmine 0 0 64 64
+
+@reference=64
+@tmaterial=default
+xbgmnr1w4 wfdr26_xbgmine 0 0 64 64
+
+@reference=64
+@tmaterial=default
+xbgmnr1w5 wfdr26_xbgmine 0 0 64 64
+
+@reference=64
+@tmaterial=default
+
+
+@reference=64
+@tmaterial=default
+xbgmnr2w1 wfdr26_xbgmine 0 0 64 64
+
+@reference=64
+@tmaterial=default
+xbgmnr2w2 wfdr26_xbgmine 0 0 64 64
+
+@reference=64
+@tmaterial=default
+xbgmnr2w3 wfdr26_xbgmine 0 0 64 64
+
+@reference=64
+@tmaterial=default
+xbgmnr2w4 wfdr26_xbgmine 0 0 64 64
+
+@reference=64
+@tmaterial=default
+xbgmnr2w5 wfdr26_xbgmine 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu023 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu024 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myu025 gbmyupgrade 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myfyard gbmy26_myfyard 0 0 64 64
+b_my26_myfyard gbmy26_myfyard 0 0 64 64
+myfyardw1 wfmy26_myfyard 0 0 64 64
+myfyardw2 wfmy26_myfyard 0 0 64 64
+myfyardw3 wfmy26_myfyard 0 0 64 64
+myfyardw4 wfmy26_myfyard 0 0 64 64
+myfyardw5 wfmy26_myfyard 0 0 64 64
+my26_myfyardw1 wfmy26_myfyard 0 0 64 64
+my26_myfyardw2 wfmy26_myfyard 0 0 64 64
+my26_myfyardw3 wfmy26_myfyard 0 0 64 64
+my26_myfyardw4 wfmy26_myfyard 0 0 64 64
+my26_myfyardw5 wfmy26_myfyard 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_mybyard gbmy26_mybyard 0 0 64 64
+b_my26_mybyard gbmy26_mybyard 0 0 64 64
+mybyardw1 wfmy26_mybyard 0 0 64 64
+mybyardw2 wfmy26_mybyard 0 0 64 64
+mybyardw3 wfmy26_mybyard 0 0 64 64
+mybyardw4 wfmy26_mybyard 0 0 64 64
+mybyardw5 wfmy26_mybyard 0 0 64 64
+my26_mybyardw1 wfmy26_mybyard 0 0 64 64
+my26_mybyardw2 wfmy26_mybyard 0 0 64 64
+my26_mybyardw3 wfmy26_mybyard 0 0 64 64
+my26_mybyardw4 wfmy26_mybyard 0 0 64 64
+my26_mybyardw5 wfmy26_mybyard 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_mykyard gbmy26_mykyard 0 0 64 64
+b_my26_mykyard gbmy26_mykyard 0 0 64 64
+mykyardw1 wfmy26_mykyard 0 0 64 64
+mykyardw2 wfmy26_mykyard 0 0 64 64
+mykyardw3 wfmy26_mykyard 0 0 64 64
+mykyardw4 wfmy26_mykyard 0 0 64 64
+mykyardw5 wfmy26_mykyard 0 0 64 64
+my26_mykyardw1 wfmy26_mykyard 0 0 64 64
+my26_mykyardw2 wfmy26_mykyard 0 0 64 64
+my26_mykyardw3 wfmy26_mykyard 0 0 64 64
+my26_mykyardw4 wfmy26_mykyard 0 0 64 64
+my26_mykyardw5 wfmy26_mykyard 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myryard gbmy26_myryard 0 0 64 64
+b_my26_myryard gbmy26_myryard 0 0 64 64
+myryardw1 wfmy26_myryard 0 0 64 64
+myryardw2 wfmy26_myryard 0 0 64 64
+myryardw3 wfmy26_myryard 0 0 64 64
+myryardw4 wfmy26_myryard 0 0 64 64
+myryardw5 wfmy26_myryard 0 0 64 64
+my26_myryardw1 wfmy26_myryard 0 0 64 64
+my26_myryardw2 wfmy26_myryard 0 0 64 64
+my26_myryardw3 wfmy26_myryard 0 0 64 64
+my26_myryardw4 wfmy26_myryard 0 0 64 64
+my26_myryardw5 wfmy26_myryard 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_mycyard gbmy26_mycyard 0 0 64 64
+b_my26_mycyard gbmy26_mycyard 0 0 64 64
+mycyardw1 wfmy26_mycyard 0 0 64 64
+mycyardw2 wfmy26_mycyard 0 0 64 64
+mycyardw3 wfmy26_mycyard 0 0 64 64
+mycyardw4 wfmy26_mycyard 0 0 64 64
+mycyardw5 wfmy26_mycyard 0 0 64 64
+my26_mycyardw1 wfmy26_mycyard 0 0 64 64
+my26_mycyardw2 wfmy26_mycyard 0 0 64 64
+my26_mycyardw3 wfmy26_mycyard 0 0 64 64
+my26_mycyardw4 wfmy26_mycyard 0 0 64 64
+my26_mycyardw5 wfmy26_mycyard 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_mydyard gbmy26_mydyard 0 0 64 64
+b_my26_mydyard gbmy26_mydyard 0 0 64 64
+mydyardw1 wfmy26_mydyard 0 0 64 64
+mydyardw2 wfmy26_mydyard 0 0 64 64
+mydyardw3 wfmy26_mydyard 0 0 64 64
+mydyardw4 wfmy26_mydyard 0 0 64 64
+mydyardw5 wfmy26_mydyard 0 0 64 64
+my26_mydyardw1 wfmy26_mydyard 0 0 64 64
+my26_mydyardw2 wfmy26_mydyard 0 0 64 64
+my26_mydyardw3 wfmy26_mydyard 0 0 64 64
+my26_mydyardw4 wfmy26_mydyard 0 0 64 64
+my26_mydyardw5 wfmy26_mydyard 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_mybjyard gbmy26_mybjyard 0 0 64 64
+b_my26_mybjyard gbmy26_mybjyard 0 0 64 64
+mybjyardw1 wfmy26_mybjyard 0 0 64 64
+mybjyardw2 wfmy26_mybjyard 0 0 64 64
+mybjyardw3 wfmy26_mybjyard 0 0 64 64
+mybjyardw4 wfmy26_mybjyard 0 0 64 64
+mybjyardw5 wfmy26_mybjyard 0 0 64 64
+my26_mybjyardw1 wfmy26_mybjyard 0 0 64 64
+my26_mybjyardw2 wfmy26_mybjyard 0 0 64 64
+my26_mybjyardw3 wfmy26_mybjyard 0 0 64 64
+my26_mybjyardw4 wfmy26_mybjyard 0 0 64 64
+my26_mybjyardw5 wfmy26_mybjyard 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_mybryard gbmy26_mybryard 0 0 64 64
+b_my26_mybryard gbmy26_mybryard 0 0 64 64
+mybryardw1 wfmy26_mybryard 0 0 64 64
+mybryardw2 wfmy26_mybryard 0 0 64 64
+mybryardw3 wfmy26_mybryard 0 0 64 64
+mybryardw4 wfmy26_mybryard 0 0 64 64
+mybryardw5 wfmy26_mybryard 0 0 64 64
+my26_mybryardw1 wfmy26_mybryard 0 0 64 64
+my26_mybryardw2 wfmy26_mybryard 0 0 64 64
+my26_mybryardw3 wfmy26_mybryard 0 0 64 64
+my26_mybryardw4 wfmy26_mybryard 0 0 64 64
+my26_mybryardw5 wfmy26_mybryard 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_mysyard gbmy26_mysyard 0 0 64 64
+b_my26_mysyard gbmy26_mysyard 0 0 64 64
+mysyardw1 wfmy26_mysyard 0 0 64 64
+mysyardw2 wfmy26_mysyard 0 0 64 64
+mysyardw3 wfmy26_mysyard 0 0 64 64
+mysyardw4 wfmy26_mysyard 0 0 64 64
+mysyardw5 wfmy26_mysyard 0 0 64 64
+my26_mysyardw1 wfmy26_mysyard 0 0 64 64
+my26_mysyardw2 wfmy26_mysyard 0 0 64 64
+my26_mysyardw3 wfmy26_mysyard 0 0 64 64
+my26_mysyardw4 wfmy26_mysyard 0 0 64 64
+my26_mysyardw5 wfmy26_mysyard 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xfgserv gbmy26_xfgserv 0 0 64 64
+b_my26_xfgserv gbmy26_xfgserv 0 0 64 64
+xfgservw1 wfmy26_xfgserv 0 0 64 64
+xfgservw2 wfmy26_xfgserv 0 0 64 64
+xfgservw3 wfmy26_xfgserv 0 0 64 64
+xfgservw4 wfmy26_xfgserv 0 0 64 64
+xfgservw5 wfmy26_xfgserv 0 0 64 64
+my26_xfgservw1 wfmy26_xfgserv 0 0 64 64
+my26_xfgservw2 wfmy26_xfgserv 0 0 64 64
+my26_xfgservw3 wfmy26_xfgserv 0 0 64 64
+my26_xfgservw4 wfmy26_xfgserv 0 0 64 64
+my26_xfgservw5 wfmy26_xfgserv 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xbgserv gbmy26_xbgserv 0 0 64 64
+b_my26_xbgserv gbmy26_xbgserv 0 0 64 64
+xbgservw1 wfmy26_xbgserv 0 0 64 64
+xbgservw2 wfmy26_xbgserv 0 0 64 64
+xbgservw3 wfmy26_xbgserv 0 0 64 64
+xbgservw4 wfmy26_xbgserv 0 0 64 64
+xbgservw5 wfmy26_xbgserv 0 0 64 64
+my26_xbgservw1 wfmy26_xbgserv 0 0 64 64
+my26_xbgservw2 wfmy26_xbgserv 0 0 64 64
+my26_xbgservw3 wfmy26_xbgserv 0 0 64 64
+my26_xbgservw4 wfmy26_xbgserv 0 0 64 64
+my26_xbgservw5 wfmy26_xbgserv 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_my26_fresear2 gbdr26_fresear2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+my26_fresear2w1 wfdr26_fresear2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+my26_fresear2w2 wfdr26_fresear2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+my26_fresear2w3 wfdr26_fresear2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+my26_fresear2w4 wfdr26_fresear2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+my26_fresear2w5 wfdr26_fresear2 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_ffreight gbmyminer00 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myfminer1 gbmyminer01 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myfminer2 gbmyminer02 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_bfreight gbmyminer03 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_mybminer1 gbmyminer04 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_mybminer2 gbmyminer05 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_kfreight gbmyminer06 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_mykminer1 gbmyminer07 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_mykminer2 gbmyminer08 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_rfreight gbmyminer09 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myrminer1 gbmyminer10 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_myrminer2 gbmyminer11 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_cfreight gbmyminer12 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_mycminer1 gbmyminer13 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_mycminer2 gbmyminer14 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_dfreight gbmyminer15 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_mydminer1 gbmyminer16 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_mydminer2 gbmyminer17 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_bjfreight gbmyminer18 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_mybjminer1 gbmyminer19 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_mybjminer2 gbmyminer20 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_brfreight gbmyminer21 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_mybrminer1 gbmyminer22 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_mybrminer2 gbmyminer23 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_8472_collector gbmyminer24 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xsbcol1 gbmyminer25 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xsbcol2 gbmyminer26 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xfgmine gbmyminer27 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xbgmine gbmyminer28 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xfgdil2 gbmyminer29 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xfgdil3 gbmyminer30 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xbgdil2 gbmyminer31 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xbgdil3 gbmyminer32 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xfglat2 gbmyminer33 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xfglat3 gbmyminer34 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xfgmnr1 gbmyminer35 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xfgmnr2 gbmyminer36 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xbgmnr1 gbmyminer37 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xbgmnr2 gbmyminer38 0 0 64 64
+
+@reference=64
+@tmaterial=default
+b_xdominer gbmyminer39 0 0 64 64

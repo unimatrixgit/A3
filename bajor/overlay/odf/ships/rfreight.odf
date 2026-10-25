@@ -4,7 +4,7 @@
 race = "romulan"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Neriax Class"
+
 
 //tooltips
 
@@ -106,7 +106,7 @@ buildTime = 13
 
 
 
-tooltip = "Resource Miner (Neriax Class)"
+
 
 
 
@@ -118,6 +118,11 @@ latinumCost = 0
 
 biomatterCost = 0
 
-verboseTooltip = "Neriax Class\nMining Beam, Cloak\nRomulan industry sustains the imperial fleet."
+
 
 baseName = "dr26_rfreight"
+unitName = "Dilithium Collector MK I"
+tooltip = "Dilithium Collector MK I"
+verboseTooltip = "Dilithium Collector MK I\nDilithium extraction\nResources sustain the fleet."
+weapon4 = "myu006"
+weaponHardpoints4 = "hp11" "hp12"

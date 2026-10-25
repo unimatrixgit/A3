@@ -195,36 +195,51 @@ maxSpecialEnergy = 0
 
 specialEnergyRate = 0
 
-unitName = "Cardassian Basic Constructor"
-
-tooltip = "Cardassian Basic Constructor"
 
 
 
 
 
-buildItem0 = "cyard"
 
-buildItem1 = "csensor"
 
-buildItem2 = "cmining"
 
-buildItem3 = "cresear"
 
-buildItem4 = "cresear2"
 
-buildItem5 = "cyard2"
 
-buildItem6 = "cardassian_super_station"
 
-buildItem7 = "corbital"
 
-buildItem8 = "ctrading"
 
-buildItem9 = "cupgrade"
 
-buildItem10 = "cbase"
 
-verboseTooltip = "Cardassian Basic Constructor\nBasic construction\nUnion engineers fortify Cardassian space."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 baseName = "vr26_cconst"
+buildItem0 = "cyard"
+buildItem1 = "csensor"
+buildItem2 = "cmining"
+buildItem3 = "cresear"
+buildItem4 = "cresear2"
+buildItem5 = "cyard2"
+buildItem6 = "cardassian_super_station"
+buildItem7 = "corbital"
+buildItem8 = "ctrading"
+buildItem9 = "cupgrade"
+buildItem10 = "cbase"
+buildItem11 = "mycyard"
+unitName = "Assemblers MK I"
+tooltip = "Assemblers MK I"
+verboseTooltip = "Assemblers MK I\nBasic construction\nUnion engineers fortify Cardassian space."

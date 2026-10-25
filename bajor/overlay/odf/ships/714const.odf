@@ -182,9 +182,6 @@ maxSpecialEnergy = 0
 
 specialEnergyRate = 0
 
-unitName = "Species 8472 Advanced Constructor"
-
-tooltip = "Species 8472 Advanced Constructor"
 
 
 
@@ -196,14 +193,25 @@ tooltip = "Species 8472 Advanced Constructor"
 
 
 
-verboseTooltip = "Species 8472 Advanced Constructor\nAdvanced construction\nLiving organisms shape fluidic defenses."
 
-buildItem0 = "714turr"
 
-buildItem1 = "xhs_yard3"
 
-buildItem2 = "8472_sentinel"
 
-buildItem3 = "siaarray"
+
+
+
+
+
+
+
+
 
 baseName = "vr26_714const"
+buildItem0 = "714turr"
+buildItem1 = "xhs_yard3"
+buildItem2 = "8472_sentinel"
+buildItem3 = "siaarray"
+buildItem4 = "mysyard"
+unitName = "Assemblers MK II"
+tooltip = "Assemblers MK II"
+verboseTooltip = "Assemblers MK II\nAdvanced construction\nLiving organisms shape fluidic defenses."

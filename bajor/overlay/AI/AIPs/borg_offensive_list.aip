@@ -7,6 +7,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "bbase", 1, 0, -1, 0,
     "bconst", 2, 0, -1, 0,
     "bmining", 1, 0, -1, 0,
+    "mybyard", 1, 0, -1, 0, // native mining production
     "bfreight", 1, 0, -1, 0,
     "bfreight", 2, 0, -1, 0,
     "bbase2", 1, 0, -1, 0,
@@ -80,8 +81,10 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "xbgdref", 1, 0, -1, 0, // Ferengi dilithium exchange
     "xbgresearch", 1, 0, -1, 0,
     "xbgpdil", 1, 0, -1, 0,
+    "mybminer1", 2, 0, -1, 0, // researched native collector
     "xbgpmet", 1, 0, -1, 0,
     "xbgpdil2", 1, 0, -1, 0,
+    "mybminer2", 2, 0, -1, 0, // researched native collector
     "xbgpmet2", 1, 0, -1, 0,
     "xbgdil3", 1, 0, -1, 0,
     "xbgmetal3", 1, 0, -1, 0,

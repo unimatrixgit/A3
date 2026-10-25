@@ -187,23 +187,23 @@ attackPower = 0.0
 
 possibleCraftNames = "BMS Kendra" "BMS Dahkur" "BMS Rakantha" "BMS Hathon" "BMS Jalanda" "BMS Dakor" "BMS Tozhat" "BMS Musilla" "BMS Hedrikspool" "BMS Dakhur" "BMS Ashalla" "BMS Dahkur Dawn" "BMS Kendra Spirit" "BMS Bajoran Dawn" "BMS Prophets Grace" "BMS First Light" "BMS Celestial Dawn" "BMS Valley Guardian" "BMS Militia Resolve" "BMS Freedom of Bajor" "BMS Dahkur Sentinel" "BMS Rakantha Shield" "BMS Kendra Vigil" "BMS Bajor Ascendant" "BMS Jalanda Star" "BMS Hathon Guard" "BMS Emissarys Hope" "BMS Liberation" "BMS Gratitude" "BMS New Dawn" "BMS Dahkur Resolve" "BMS Celestial Guardian"
 
-buildItem0 = "bjyard"
 
-buildItem1 = "bjyard2"
 
-buildItem2 = "bjmining"
 
-buildItem3 = "bjorbital"
 
-buildItem4 = "bjtrading"
 
-buildItem5 = "bjresear"
 
-buildItem6 = "bjresear2"
 
-buildItem7 = "bjupgrade"
 
-buildItem8 = "bjsensor"
+
+
+
+
+
+
+
+
+
 
 
 
@@ -235,16 +235,30 @@ maxSpecialEnergy = 0
 
 specialEnergyRate = 0
 
-unitName = "Bajoran Basic Constructor"
-
-tooltip = "Bajoran Basic Constructor"
 
 
 
-buildItem9 = "bjbase"
 
 
 
-verboseTooltip = "Bajoran Basic Constructor\nBasic construction\nMilitia engineers rebuild Bajor's defenses."
+
+
+
+
+
 
 baseName = "vr26_bjconst"
+buildItem0 = "bjyard"
+buildItem1 = "bjyard2"
+buildItem2 = "bjmining"
+buildItem3 = "bjorbital"
+buildItem4 = "bjtrading"
+buildItem5 = "bjresear"
+buildItem6 = "bjresear2"
+buildItem7 = "bjupgrade"
+buildItem8 = "bjsensor"
+buildItem9 = "bjbase"
+buildItem10 = "mybjyard"
+unitName = "Assemblers MK I"
+tooltip = "Assemblers MK I"
+verboseTooltip = "Assemblers MK I\nBasic construction\nMilitia engineers rebuild Bajor's defenses."

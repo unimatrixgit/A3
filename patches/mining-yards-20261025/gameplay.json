@@ -1,0 +1,1412 @@
+{
+  "status": "STAGED",
+  "yards": [
+    {
+      "race": "federation",
+      "yard": "myfyard",
+      "donor": "fyard",
+      "builders": [
+        "fconst"
+      ],
+      "miners": [
+        "ffreight",
+        "myfminer1",
+        "myfminer2"
+      ],
+      "pods": [
+        "myfpod1",
+        "myfpod2"
+      ],
+      "cost": {
+        "dilithiumCost": 200,
+        "metalCost": 400,
+        "latinumCost": 0,
+        "biomatterCost": 0,
+        "crewCost": 100,
+        "maximumCrew": 250
+      },
+      "researchBonus": "1.0 / 1.5 / 2.0 cargo and extraction; native latinum and metal equipment unchanged"
+    },
+    {
+      "race": "borg",
+      "yard": "mybyard",
+      "donor": "byard",
+      "builders": [
+        "bconst"
+      ],
+      "miners": [
+        "bfreight",
+        "mybminer1",
+        "mybminer2"
+      ],
+      "pods": [
+        "xbgpdil",
+        "xbgpdil2"
+      ],
+      "cost": {
+        "dilithiumCost": 200,
+        "metalCost": 400,
+        "latinumCost": 0,
+        "biomatterCost": 0,
+        "crewCost": 100,
+        "maximumCrew": 250
+      },
+      "researchBonus": "1.0 / 1.5 / 2.0 cargo and extraction; native latinum and metal equipment unchanged"
+    },
+    {
+      "race": "klingon",
+      "yard": "mykyard",
+      "donor": "kyard",
+      "builders": [
+        "kconst"
+      ],
+      "miners": [
+        "kfreight",
+        "mykminer1",
+        "mykminer2"
+      ],
+      "pods": [
+        "xfgpdil",
+        "xfgpdil2"
+      ],
+      "cost": {
+        "dilithiumCost": 200,
+        "metalCost": 400,
+        "latinumCost": 0,
+        "biomatterCost": 0,
+        "crewCost": 100,
+        "maximumCrew": 250
+      },
+      "researchBonus": "1.0 / 1.5 / 2.0 cargo and extraction; native latinum and metal equipment unchanged"
+    },
+    {
+      "race": "romulan",
+      "yard": "myryard",
+      "donor": "ryard",
+      "builders": [
+        "rconst"
+      ],
+      "miners": [
+        "rfreight",
+        "myrminer1",
+        "myrminer2"
+      ],
+      "pods": [
+        "xfgpdil",
+        "xfgpdil2"
+      ],
+      "cost": {
+        "dilithiumCost": 200,
+        "metalCost": 400,
+        "latinumCost": 0,
+        "biomatterCost": 0,
+        "crewCost": 100,
+        "maximumCrew": 250
+      },
+      "researchBonus": "1.0 / 1.5 / 2.0 cargo and extraction; native latinum and metal equipment unchanged"
+    },
+    {
+      "race": "cardassian",
+      "yard": "mycyard",
+      "donor": "cyard",
+      "builders": [
+        "cconst"
+      ],
+      "miners": [
+        "cfreight",
+        "mycminer1",
+        "mycminer2"
+      ],
+      "pods": [
+        "xfgpdil",
+        "xfgpdil2"
+      ],
+      "cost": {
+        "dilithiumCost": 200,
+        "metalCost": 400,
+        "latinumCost": 0,
+        "biomatterCost": 0,
+        "crewCost": 100,
+        "maximumCrew": 250
+      },
+      "researchBonus": "1.0 / 1.5 / 2.0 cargo and extraction; native latinum and metal equipment unchanged"
+    },
+    {
+      "race": "dominion",
+      "yard": "mydyard",
+      "donor": "dyard",
+      "builders": [
+        "dconst"
+      ],
+      "miners": [
+        "dfreight",
+        "mydminer1",
+        "mydminer2"
+      ],
+      "pods": [
+        "xfgpdil",
+        "xfgpdil2"
+      ],
+      "cost": {
+        "dilithiumCost": 200,
+        "metalCost": 400,
+        "latinumCost": 0,
+        "biomatterCost": 0,
+        "crewCost": 100,
+        "maximumCrew": 250
+      },
+      "researchBonus": "1.0 / 1.5 / 2.0 cargo and extraction; native latinum and metal equipment unchanged"
+    },
+    {
+      "race": "bajoran",
+      "yard": "mybjyard",
+      "donor": "bjyard",
+      "builders": [
+        "bjconst"
+      ],
+      "miners": [
+        "bjfreight",
+        "mybjminer1",
+        "mybjminer2"
+      ],
+      "pods": [
+        "xfgpdil",
+        "xfgpdil2"
+      ],
+      "cost": {
+        "dilithiumCost": 200,
+        "metalCost": 400,
+        "latinumCost": 0,
+        "biomatterCost": 0,
+        "crewCost": 100,
+        "maximumCrew": 250
+      },
+      "researchBonus": "1.0 / 1.5 / 2.0 cargo and extraction; native latinum and metal equipment unchanged"
+    },
+    {
+      "race": "breen",
+      "yard": "mybryard",
+      "donor": "bryard",
+      "builders": [
+        "brconst"
+      ],
+      "miners": [
+        "brfreight",
+        "mybrminer1",
+        "mybrminer2"
+      ],
+      "pods": [
+        "xfgpdil",
+        "xfgpdil2"
+      ],
+      "cost": {
+        "dilithiumCost": 200,
+        "metalCost": 400,
+        "latinumCost": 0,
+        "biomatterCost": 0,
+        "crewCost": 100,
+        "maximumCrew": 250
+      },
+      "researchBonus": "1.0 / 1.5 / 2.0 cargo and extraction; native latinum and metal equipment unchanged"
+    },
+    {
+      "race": "species8472",
+      "yard": "mysyard",
+      "donor": "714syard",
+      "builders": [
+        "8472_passive",
+        "714const",
+        "8472_defender"
+      ],
+      "miners": [
+        "8472_collector",
+        "xsbcol1",
+        "xsbcol2"
+      ],
+      "pods": [
+        "xsbio1",
+        "xsbio2"
+      ],
+      "cost": {
+        "dilithiumCost": 0,
+        "metalCost": 0,
+        "latinumCost": 0,
+        "biomatterCost": 600,
+        "crewCost": 0,
+        "maximumCrew": 0
+      },
+      "researchBonus": "1.0 / 1.5 / 2.0 cargo and extraction; native latinum and metal equipment unchanged"
+    }
+  ],
+  "refits": [
+    {
+      "source": "ffreight",
+      "target": "myfminer1",
+      "weapon": "myu000",
+      "research": [
+        "myfpod1"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "myfminer1",
+      "target": "myfminer2",
+      "weapon": "myu001",
+      "research": [
+        "myfpod2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "bfreight",
+      "target": "mybminer1",
+      "weapon": "myu002",
+      "research": [
+        "xbgpdil"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "mybminer1",
+      "target": "mybminer2",
+      "weapon": "myu003",
+      "research": [
+        "xbgpdil2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "kfreight",
+      "target": "mykminer1",
+      "weapon": "myu004",
+      "research": [
+        "xfgpdil"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "mykminer1",
+      "target": "mykminer2",
+      "weapon": "myu005",
+      "research": [
+        "xfgpdil2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "rfreight",
+      "target": "myrminer1",
+      "weapon": "myu006",
+      "research": [
+        "xfgpdil"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "myrminer1",
+      "target": "myrminer2",
+      "weapon": "myu007",
+      "research": [
+        "xfgpdil2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "cfreight",
+      "target": "mycminer1",
+      "weapon": "myu008",
+      "research": [
+        "xfgpdil"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "mycminer1",
+      "target": "mycminer2",
+      "weapon": "myu009",
+      "research": [
+        "xfgpdil2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "dfreight",
+      "target": "mydminer1",
+      "weapon": "myu010",
+      "research": [
+        "xfgpdil"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "mydminer1",
+      "target": "mydminer2",
+      "weapon": "myu011",
+      "research": [
+        "xfgpdil2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "xdominer",
+      "target": "mydminer1",
+      "weapon": "myu012",
+      "research": [
+        "xfgpdil"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "bjfreight",
+      "target": "mybjminer1",
+      "weapon": "myu013",
+      "research": [
+        "xfgpdil"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "mybjminer1",
+      "target": "mybjminer2",
+      "weapon": "myu014",
+      "research": [
+        "xfgpdil2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "brfreight",
+      "target": "mybrminer1",
+      "weapon": "myu015",
+      "research": [
+        "xfgpdil"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "mybrminer1",
+      "target": "mybrminer2",
+      "weapon": "myu016",
+      "research": [
+        "xfgpdil2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "8472_collector",
+      "target": "xsbcol1",
+      "weapon": "myu017",
+      "research": [
+        "xsbio1"
+      ],
+      "buttonSlot": 2,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "xsbcol1",
+      "target": "xsbcol2",
+      "weapon": "myu018",
+      "research": [
+        "xsbio2"
+      ],
+      "buttonSlot": 2,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "xfgmine",
+      "target": "xfgmnr1",
+      "weapon": "myu019",
+      "research": [
+        "xfgpdil",
+        "xfgplat"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "xfgmnr1",
+      "target": "xfgmnr2",
+      "weapon": "myu020",
+      "research": [
+        "xfgpdil2",
+        "xfgplat2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "xfgdil2",
+      "target": "xfgdil3",
+      "weapon": "myu021",
+      "research": [
+        "xfgpdil2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "xfglat2",
+      "target": "xfglat3",
+      "weapon": "myu022",
+      "research": [
+        "xfgplat2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "xbgmine",
+      "target": "xbgmnr1",
+      "weapon": "myu023",
+      "research": [
+        "xbgpdil"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "xbgmnr1",
+      "target": "xbgmnr2",
+      "weapon": "myu024",
+      "research": [
+        "xbgpdil2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "xbgdil2",
+      "target": "xbgdil3",
+      "weapon": "myu025",
+      "research": [
+        "xbgpdil2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    }
+  ],
+  "renames": [
+    {
+      "unit": "714const",
+      "name": "Assemblers MK II"
+    },
+    {
+      "unit": "8472_defender",
+      "name": "Assemblers MK II"
+    },
+    {
+      "unit": "8472_passive",
+      "name": "Assemblers MK I"
+    },
+    {
+      "unit": "bconst",
+      "name": "Assemblers MK I"
+    },
+    {
+      "unit": "bconst2",
+      "name": "Assemblers MK II"
+    },
+    {
+      "unit": "bjconst",
+      "name": "Assemblers MK I"
+    },
+    {
+      "unit": "brconst",
+      "name": "Assemblers MK I"
+    },
+    {
+      "unit": "cconst",
+      "name": "Assemblers MK I"
+    },
+    {
+      "unit": "const",
+      "name": "Assemblers MK I"
+    },
+    {
+      "unit": "dconst",
+      "name": "Assemblers MK I"
+    },
+    {
+      "unit": "domconst",
+      "name": "Assemblers MK II"
+    },
+    {
+      "unit": "f31const",
+      "name": "Assemblers MK II"
+    },
+    {
+      "unit": "fconst",
+      "name": "Assemblers MK I"
+    },
+    {
+      "unit": "fconst2",
+      "name": "Assemblers MK II"
+    },
+    {
+      "unit": "kconst",
+      "name": "Assemblers MK I"
+    },
+    {
+      "unit": "kconst2",
+      "name": "Assemblers MK II"
+    },
+    {
+      "unit": "rconst",
+      "name": "Assemblers MK I"
+    },
+    {
+      "unit": "rconst2",
+      "name": "Assemblers MK II"
+    },
+    {
+      "unit": "uconst",
+      "name": "Assemblers MK III"
+    },
+    {
+      "unit": "xbgconst",
+      "name": "Assemblers MK I"
+    },
+    {
+      "unit": "xbgconst2",
+      "name": "Assemblers MK II"
+    },
+    {
+      "unit": "xbgdil2",
+      "name": "Dilithium Collector MK II"
+    },
+    {
+      "unit": "xbgdil3",
+      "name": "Dilithium Collector MK III"
+    },
+    {
+      "unit": "xbgmetal3",
+      "name": "Orbital Mining Station MK III"
+    },
+    {
+      "unit": "xbgmine",
+      "name": "Dilithium Collector MK I"
+    },
+    {
+      "unit": "xbjconst2",
+      "name": "Assemblers MK II"
+    },
+    {
+      "unit": "xbjuconst",
+      "name": "Assemblers MK III"
+    },
+    {
+      "unit": "xbrconst2",
+      "name": "Assemblers MK I"
+    },
+    {
+      "unit": "xbruconst",
+      "name": "Assemblers MK I"
+    },
+    {
+      "unit": "xbuconst",
+      "name": "Assemblers MK III"
+    },
+    {
+      "unit": "xcconst2",
+      "name": "Assemblers MK II"
+    },
+    {
+      "unit": "xcdconst",
+      "name": "Assemblers MK I"
+    },
+    {
+      "unit": "xcduniv",
+      "name": "Assemblers MK III"
+    },
+    {
+      "unit": "xcuconst",
+      "name": "Assemblers MK III"
+    },
+    {
+      "unit": "xdconst2",
+      "name": "Assemblers MK II"
+    },
+    {
+      "unit": "xduconst",
+      "name": "Assemblers MK III"
+    },
+    {
+      "unit": "xfgconst",
+      "name": "Assemblers MK I"
+    },
+    {
+      "unit": "xfgconst2",
+      "name": "Assemblers MK II"
+    },
+    {
+      "unit": "xfgdil2",
+      "name": "Dilithium Collector MK II"
+    },
+    {
+      "unit": "xfgdil3",
+      "name": "Dilithium Collector MK III"
+    },
+    {
+      "unit": "xfglat2",
+      "name": "Latinum Collector MK II"
+    },
+    {
+      "unit": "xfglat3",
+      "name": "Latinum Collector MK III"
+    },
+    {
+      "unit": "xfgmetal3",
+      "name": "Orbital Mining Station MK III"
+    },
+    {
+      "unit": "xfgmine",
+      "name": "Dilithium Collector MK I"
+    },
+    {
+      "unit": "xfuconst",
+      "name": "Assemblers MK III"
+    },
+    {
+      "unit": "xkuconst",
+      "name": "Assemblers MK III"
+    },
+    {
+      "unit": "xruconst",
+      "name": "Assemblers MK III"
+    },
+    {
+      "unit": "xsuconst",
+      "name": "Assemblers MK III"
+    },
+    {
+      "unit": "xu3bor2",
+      "name": "Assemblers MK III"
+    },
+    {
+      "unit": "xu3fed2",
+      "name": "Assemblers MK III"
+    },
+    {
+      "unit": "xu3fer2",
+      "name": "Assemblers MK III"
+    },
+    {
+      "unit": "bbase2",
+      "name": "Orbital Mining Station MK I"
+    },
+    {
+      "unit": "bjorbital",
+      "name": "Orbital Mining Station MK I"
+    },
+    {
+      "unit": "borbital",
+      "name": "Orbital Mining Station MK I"
+    },
+    {
+      "unit": "brorbital",
+      "name": "Orbital Mining Station MK I"
+    },
+    {
+      "unit": "corbital",
+      "name": "Orbital Mining Station MK I"
+    },
+    {
+      "unit": "dorbital",
+      "name": "Orbital Mining Station MK I"
+    },
+    {
+      "unit": "forbital",
+      "name": "Orbital Mining Station MK I"
+    },
+    {
+      "unit": "korbital",
+      "name": "Orbital Mining Station MK I"
+    },
+    {
+      "unit": "rorbital",
+      "name": "Orbital Mining Station MK I"
+    },
+    {
+      "unit": "xbgmetal2",
+      "name": "Orbital Mining Station MK II"
+    },
+    {
+      "unit": "xfgmetal2",
+      "name": "Orbital Mining Station MK II"
+    }
+  ],
+  "ai": [
+    {
+      "file": "federation_build_list.aip",
+      "yard": "myfyard",
+      "tieredMiners": [
+        "myfminer1",
+        "myfminer2"
+      ],
+      "addedSupport": [
+        "myfpod1",
+        "myfminer1",
+        "myfpod2",
+        "myfminer2"
+      ]
+    },
+    {
+      "file": "federation_defensive_list.aip",
+      "yard": "myfyard",
+      "tieredMiners": [
+        "myfminer1",
+        "myfminer2"
+      ],
+      "addedSupport": [
+        "myfpod1",
+        "myfminer1",
+        "myfpod2",
+        "myfminer2"
+      ]
+    },
+    {
+      "file": "federation_endgame_list.aip",
+      "yard": "myfyard",
+      "tieredMiners": [
+        "myfminer1",
+        "myfminer2"
+      ],
+      "addedSupport": [
+        "myfpod1",
+        "myfminer1",
+        "myfpod2",
+        "myfminer2"
+      ]
+    },
+    {
+      "file": "federation_instant_action_build_list.aip",
+      "yard": "myfyard",
+      "tieredMiners": [
+        "myfminer1",
+        "myfminer2"
+      ],
+      "addedSupport": [
+        "myfpod1",
+        "myfminer1",
+        "myfpod2",
+        "myfminer2"
+      ]
+    },
+    {
+      "file": "federation_offensive_list.aip",
+      "yard": "myfyard",
+      "tieredMiners": [
+        "myfminer1",
+        "myfminer2"
+      ],
+      "addedSupport": [
+        "myfpod1",
+        "myfminer1",
+        "myfpod2",
+        "myfminer2"
+      ]
+    },
+    {
+      "file": "borg_build_list.aip",
+      "yard": "mybyard",
+      "tieredMiners": [
+        "mybminer1",
+        "mybminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "borg_defensive_list.aip",
+      "yard": "mybyard",
+      "tieredMiners": [
+        "mybminer1",
+        "mybminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "borg_endgame_list.aip",
+      "yard": "mybyard",
+      "tieredMiners": [
+        "mybminer1",
+        "mybminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "borg_instant_action_build_list.aip",
+      "yard": "mybyard",
+      "tieredMiners": [
+        "mybminer1",
+        "mybminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "borg_offensive_list.aip",
+      "yard": "mybyard",
+      "tieredMiners": [
+        "mybminer1",
+        "mybminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "klingon_build_list.aip",
+      "yard": "mykyard",
+      "tieredMiners": [
+        "mykminer1",
+        "mykminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "klingon_defensive_list.aip",
+      "yard": "mykyard",
+      "tieredMiners": [
+        "mykminer1",
+        "mykminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "klingon_endgame_list.aip",
+      "yard": "mykyard",
+      "tieredMiners": [
+        "mykminer1",
+        "mykminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "klingon_instant_action_build_list.aip",
+      "yard": "mykyard",
+      "tieredMiners": [
+        "mykminer1",
+        "mykminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "klingon_offensive_list.aip",
+      "yard": "mykyard",
+      "tieredMiners": [
+        "mykminer1",
+        "mykminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "romulan_build_list.aip",
+      "yard": "myryard",
+      "tieredMiners": [
+        "myrminer1",
+        "myrminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "romulan_defensive_list.aip",
+      "yard": "myryard",
+      "tieredMiners": [
+        "myrminer1",
+        "myrminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "romulan_endgame_list.aip",
+      "yard": "myryard",
+      "tieredMiners": [
+        "myrminer1",
+        "myrminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "romulan_instant_action_build_list.aip",
+      "yard": "myryard",
+      "tieredMiners": [
+        "myrminer1",
+        "myrminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "romulan_offensive_list.aip",
+      "yard": "myryard",
+      "tieredMiners": [
+        "myrminer1",
+        "myrminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "cardassian_build_list.aip",
+      "yard": "mycyard",
+      "tieredMiners": [
+        "mycminer1",
+        "mycminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "cardassian_defensive_list.aip",
+      "yard": "mycyard",
+      "tieredMiners": [
+        "mycminer1",
+        "mycminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "cardassian_endgame_list.aip",
+      "yard": "mycyard",
+      "tieredMiners": [
+        "mycminer1",
+        "mycminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "cardassian_instant_action_build_list.aip",
+      "yard": "mycyard",
+      "tieredMiners": [
+        "mycminer1",
+        "mycminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "cardassian_offensive_list.aip",
+      "yard": "mycyard",
+      "tieredMiners": [
+        "mycminer1",
+        "mycminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "dominion_build_list.aip",
+      "yard": "mydyard",
+      "tieredMiners": [
+        "mydminer1",
+        "mydminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "dominion_defensive_list.aip",
+      "yard": "mydyard",
+      "tieredMiners": [
+        "mydminer1",
+        "mydminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "dominion_endgame_list.aip",
+      "yard": "mydyard",
+      "tieredMiners": [
+        "mydminer1",
+        "mydminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "dominion_instant_action_build_list.aip",
+      "yard": "mydyard",
+      "tieredMiners": [
+        "mydminer1",
+        "mydminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "dominion_offensive_list.aip",
+      "yard": "mydyard",
+      "tieredMiners": [
+        "mydminer1",
+        "mydminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "bajoran_build_list.aip",
+      "yard": "mybjyard",
+      "tieredMiners": [
+        "mybjminer1",
+        "mybjminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "bajoran_defensive_list.aip",
+      "yard": "mybjyard",
+      "tieredMiners": [
+        "mybjminer1",
+        "mybjminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "bajoran_endgame_list.aip",
+      "yard": "mybjyard",
+      "tieredMiners": [
+        "mybjminer1",
+        "mybjminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "bajoran_instant_action_build_list.aip",
+      "yard": "mybjyard",
+      "tieredMiners": [
+        "mybjminer1",
+        "mybjminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "bajoran_offensive_list.aip",
+      "yard": "mybjyard",
+      "tieredMiners": [
+        "mybjminer1",
+        "mybjminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "breen_build_list.aip",
+      "yard": "mybryard",
+      "tieredMiners": [
+        "mybrminer1",
+        "mybrminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "breen_defensive_list.aip",
+      "yard": "mybryard",
+      "tieredMiners": [
+        "mybrminer1",
+        "mybrminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "breen_endgame_list.aip",
+      "yard": "mybryard",
+      "tieredMiners": [
+        "mybrminer1",
+        "mybrminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "breen_instant_action_build_list.aip",
+      "yard": "mybryard",
+      "tieredMiners": [
+        "mybrminer1",
+        "mybrminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "breen_offensive_list.aip",
+      "yard": "mybryard",
+      "tieredMiners": [
+        "mybrminer1",
+        "mybrminer2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "species8472_build_list.aip",
+      "yard": "mysyard",
+      "tieredMiners": [
+        "xsbcol1",
+        "xsbcol2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "species8472_defensive_list.aip",
+      "yard": "mysyard",
+      "tieredMiners": [
+        "xsbcol1",
+        "xsbcol2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "species8472_endgame_list.aip",
+      "yard": "mysyard",
+      "tieredMiners": [
+        "xsbcol1",
+        "xsbcol2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "species8472_instant_action_build_list.aip",
+      "yard": "mysyard",
+      "tieredMiners": [
+        "xsbcol1",
+        "xsbcol2"
+      ],
+      "addedSupport": []
+    },
+    {
+      "file": "species8472_offensive_list.aip",
+      "yard": "mysyard",
+      "tieredMiners": [
+        "xsbcol1",
+        "xsbcol2"
+      ],
+      "addedSupport": []
+    }
+  ],
+  "gates": {
+    "myfpod1": [
+      "fresear2"
+    ],
+    "myfpod2": [
+      "fresear2",
+      "myfpod1"
+    ],
+    "myw000": [],
+    "myfminer1": [
+      "myfyard",
+      "myfpod1"
+    ],
+    "myw001": [],
+    "myfminer2": [
+      "myfyard",
+      "myfpod2"
+    ],
+    "myu000": [
+      "myfpod1"
+    ],
+    "myu001": [
+      "myfpod2"
+    ],
+    "myfyard": [],
+    "myw002": [],
+    "mybminer1": [
+      "mybyard",
+      "xbgpdil"
+    ],
+    "myw003": [],
+    "mybminer2": [
+      "mybyard",
+      "xbgpdil2"
+    ],
+    "myu002": [
+      "xbgpdil"
+    ],
+    "myu003": [
+      "xbgpdil2"
+    ],
+    "mybyard": [],
+    "mykminer1": [
+      "mykyard",
+      "xfgpdil"
+    ],
+    "mykminer2": [
+      "mykyard",
+      "xfgpdil2"
+    ],
+    "myu004": [
+      "xfgpdil"
+    ],
+    "myu005": [
+      "xfgpdil2"
+    ],
+    "mykyard": [],
+    "myrminer1": [
+      "myryard",
+      "xfgpdil"
+    ],
+    "myrminer2": [
+      "myryard",
+      "xfgpdil2"
+    ],
+    "myu006": [
+      "xfgpdil"
+    ],
+    "myu007": [
+      "xfgpdil2"
+    ],
+    "myryard": [],
+    "mycminer1": [
+      "mycyard",
+      "xfgpdil"
+    ],
+    "mycminer2": [
+      "mycyard",
+      "xfgpdil2"
+    ],
+    "myu008": [
+      "xfgpdil"
+    ],
+    "myu009": [
+      "xfgpdil2"
+    ],
+    "mycyard": [],
+    "mydminer1": [
+      "mydyard",
+      "xfgpdil"
+    ],
+    "mydminer2": [
+      "mydyard",
+      "xfgpdil2"
+    ],
+    "myu010": [
+      "xfgpdil"
+    ],
+    "myu011": [
+      "xfgpdil2"
+    ],
+    "myu012": [
+      "xfgpdil"
+    ],
+    "mydyard": [],
+    "mybjminer1": [
+      "mybjyard",
+      "xfgpdil"
+    ],
+    "mybjminer2": [
+      "mybjyard",
+      "xfgpdil2"
+    ],
+    "myu013": [
+      "xfgpdil"
+    ],
+    "myu014": [
+      "xfgpdil2"
+    ],
+    "mybjyard": [],
+    "mybrminer1": [
+      "mybryard",
+      "xfgpdil"
+    ],
+    "mybrminer2": [
+      "mybryard",
+      "xfgpdil2"
+    ],
+    "myu015": [
+      "xfgpdil"
+    ],
+    "myu016": [
+      "xfgpdil2"
+    ],
+    "mybryard": [],
+    "xsbcol1": [
+      "mysyard",
+      "xsbio1"
+    ],
+    "xsbcol2": [
+      "mysyard",
+      "xsbio2"
+    ],
+    "myu017": [
+      "xsbio1"
+    ],
+    "myu018": [
+      "xsbio2"
+    ],
+    "mysyard": [],
+    "myw004": [],
+    "myw005": [],
+    "xfgmnr1": [
+      "xfgserv",
+      "xfgpdil",
+      "xfgplat"
+    ],
+    "myw006": [],
+    "myw007": [],
+    "xfgmnr2": [
+      "xfgserv",
+      "xfgpdil2",
+      "xfgplat2"
+    ],
+    "myu019": [
+      "xfgpdil",
+      "xfgplat"
+    ],
+    "myu020": [
+      "xfgpdil2",
+      "xfgplat2"
+    ],
+    "myu021": [
+      "xfgpdil2"
+    ],
+    "myu022": [
+      "xfgplat2"
+    ],
+    "xbgmnr1": [
+      "xbgserv",
+      "xbgpdil"
+    ],
+    "xbgmnr2": [
+      "xbgserv",
+      "xbgpdil2"
+    ],
+    "myu023": [
+      "xbgpdil"
+    ],
+    "myu024": [
+      "xbgpdil2"
+    ],
+    "myu025": [
+      "xbgpdil2"
+    ]
+  },
+  "runtimeVerified": false,
+  "orbitalRefitsImplemented": false,
+  "note": "Refits use the existing one-unit NX fusion pattern. Cargo/planet attachment behavior must be tested; no orbital fusion added. New construction offers three explicit MK options; it does not automatically select the highest tier."
+}

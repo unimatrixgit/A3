@@ -1736,7 +1736,7 @@ xsborb1.odf 0
 
 xsbext1.odf 0
 
-xsbcol1.odf 1 xsbio1.odf
+xsbcol1.odf 2 mysyard.odf xsbio1.odf
 
 xsbio2.odf 2 xsbiolab.odf xsbio1.odf
 
@@ -1744,7 +1744,7 @@ xsborb2.odf 0
 
 xsbext2.odf 0
 
-xsbcol2.odf 1 xsbio2.odf
+xsbcol2.odf 2 mysyard.odf xsbio2.odf
 
 fconst.odf 0
 
@@ -1940,3 +1940,68 @@ xbgdref.odf 1 xbgconst.odf // Ferengi industry and expansion
 bgiaarray.odf 1 xbgconst2.odf // Ferengi industry and expansion
 
 iaacloak.odf 0 // Built-in Battle Array cloak detection
+myfpod1.odf 1 fresear2.odf
+myfpod2.odf 2 fresear2.odf myfpod1.odf
+myw000.odf 0
+myfminer1.odf 2 myfyard.odf myfpod1.odf
+myw001.odf 0
+myfminer2.odf 2 myfyard.odf myfpod2.odf
+myu000.odf 1 myfpod1.odf
+myu001.odf 1 myfpod2.odf
+myfyard.odf 0
+myw002.odf 0
+mybminer1.odf 2 mybyard.odf xbgpdil.odf
+myw003.odf 0
+mybminer2.odf 2 mybyard.odf xbgpdil2.odf
+myu002.odf 1 xbgpdil.odf
+myu003.odf 1 xbgpdil2.odf
+mybyard.odf 0
+mykminer1.odf 2 mykyard.odf xfgpdil.odf
+mykminer2.odf 2 mykyard.odf xfgpdil2.odf
+myu004.odf 1 xfgpdil.odf
+myu005.odf 1 xfgpdil2.odf
+mykyard.odf 0
+myrminer1.odf 2 myryard.odf xfgpdil.odf
+myrminer2.odf 2 myryard.odf xfgpdil2.odf
+myu006.odf 1 xfgpdil.odf
+myu007.odf 1 xfgpdil2.odf
+myryard.odf 0
+mycminer1.odf 2 mycyard.odf xfgpdil.odf
+mycminer2.odf 2 mycyard.odf xfgpdil2.odf
+myu008.odf 1 xfgpdil.odf
+myu009.odf 1 xfgpdil2.odf
+mycyard.odf 0
+mydminer1.odf 2 mydyard.odf xfgpdil.odf
+mydminer2.odf 2 mydyard.odf xfgpdil2.odf
+myu010.odf 1 xfgpdil.odf
+myu011.odf 1 xfgpdil2.odf
+myu012.odf 1 xfgpdil.odf
+mydyard.odf 0
+mybjminer1.odf 2 mybjyard.odf xfgpdil.odf
+mybjminer2.odf 2 mybjyard.odf xfgpdil2.odf
+myu013.odf 1 xfgpdil.odf
+myu014.odf 1 xfgpdil2.odf
+mybjyard.odf 0
+mybrminer1.odf 2 mybryard.odf xfgpdil.odf
+mybrminer2.odf 2 mybryard.odf xfgpdil2.odf
+myu015.odf 1 xfgpdil.odf
+myu016.odf 1 xfgpdil2.odf
+mybryard.odf 0
+myu017.odf 1 xsbio1.odf
+myu018.odf 1 xsbio2.odf
+mysyard.odf 0
+myw004.odf 0
+myw005.odf 0
+xfgmnr1.odf 3 xfgserv.odf xfgpdil.odf xfgplat.odf
+myw006.odf 0
+myw007.odf 0
+xfgmnr2.odf 3 xfgserv.odf xfgpdil2.odf xfgplat2.odf
+myu019.odf 2 xfgpdil.odf xfgplat.odf
+myu020.odf 2 xfgpdil2.odf xfgplat2.odf
+myu021.odf 1 xfgpdil2.odf
+myu022.odf 1 xfgplat2.odf
+xbgmnr1.odf 2 xbgserv.odf xbgpdil.odf
+xbgmnr2.odf 2 xbgserv.odf xbgpdil2.odf
+myu023.odf 1 xbgpdil.odf
+myu024.odf 1 xbgpdil2.odf
+myu025.odf 1 xbgpdil2.odf

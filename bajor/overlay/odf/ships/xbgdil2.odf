@@ -59,7 +59,6 @@ sensorsHitPoints = 100
 
 
 
-maxDilithium = 300
 
 
 
@@ -67,9 +66,10 @@ maxDilithium = 300
 
 
 
-unitName = "Mercenary Ferengi Enhanced Dilithium Collector"
 
-tooltip = "Enhanced Dilithium Collector"
+
+
+
 
 
 
@@ -96,8 +96,14 @@ biomatterCost = 0
 
 maxLatinum = 0
 
-verboseTooltip = "Mercenary Ferengi Enhanced Dilithium Collector\nMining Beam\nResources sustain the Collective's expansion."
+
 
 baseName = "dr26_xbgdil2"
 
 ScaleSOD = 0.825
+weapon2 = "myu025"
+weaponHardpoints2 = "hp01"
+unitName = "Dilithium Collector MK II"
+tooltip = "Dilithium Collector MK II"
+verboseTooltip = "Dilithium Collector MK II\nMining Beam\nResources sustain the Collective's expansion."
+maxDilithium = 450

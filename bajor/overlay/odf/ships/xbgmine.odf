@@ -11,9 +11,9 @@ criticalTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
 
 
 
-unitName = "Mercenary Ferengi Mining Collector"
 
-tooltip = "Mercenary Ferengi Mining Collector"
+
+
 
 
 
@@ -86,8 +86,13 @@ resourcesCanHandle = "dilithium"
 
 maxLatinum = 0
 
-verboseTooltip = "Mercenary Ferengi Mining Collector\nMining Beam\nResources sustain the Collective's expansion."
+
 
 baseName = "dr26_xbgmine"
 
 ScaleSOD = 0.825
+weapon2 = "myu023"
+weaponHardpoints2 = "hp01"
+unitName = "Dilithium Collector MK I"
+tooltip = "Dilithium Collector MK I"
+verboseTooltip = "Dilithium Collector MK I\nMining Beam\nResources sustain the Collective's expansion."

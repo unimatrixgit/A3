@@ -90,7 +90,7 @@ officercost = 1
 buildtime = 13
 
 
-unitName = "Bajoran Resource Freighter"
+
 
 
 
@@ -150,7 +150,7 @@ weaponred = 1.0
 
 
 
-tooltip = "Resource Miner (Bajoran Resource Freighter)"
+
 
 
 
@@ -208,6 +208,11 @@ weaponhardpoints2 = "hp06"
 
 possibleCraftNames = "BMS Kendra" "BMS Dahkur" "BMS Rakantha" "BMS Hathon" "BMS Jalanda" "BMS Dakor" "BMS Tozhat" "BMS Musilla" "BMS Hedrikspool" "BMS Dakhur" "BMS Ashalla" "BMS Dahkur Dawn" "BMS Kendra Spirit" "BMS Bajoran Dawn" "BMS Prophets Grace" "BMS First Light" "BMS Celestial Dawn" "BMS Valley Guardian" "BMS Militia Resolve" "BMS Freedom of Bajor" "BMS Dahkur Sentinel" "BMS Rakantha Shield" "BMS Kendra Vigil" "BMS Bajor Ascendant" "BMS Jalanda Star" "BMS Hathon Guard" "BMS Emissarys Hope" "BMS Liberation" "BMS Gratitude" "BMS New Dawn" "BMS Dahkur Resolve" "BMS Celestial Guardian"
 
-verboseTooltip = "Bajoran Resource Freighter\nMining Beam\nBajoran industry supports a recovering world."
+
 
 baseName = "dr26_bjfreight"
+unitName = "Dilithium Collector MK I"
+tooltip = "Dilithium Collector MK I"
+verboseTooltip = "Dilithium Collector MK I\nDilithium extraction\nResources sustain the fleet."
+weapon3 = "myu013"
+weaponHardpoints3 = "hp06"

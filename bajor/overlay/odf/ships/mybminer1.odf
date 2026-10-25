@@ -1,0 +1,146 @@
+#include "freight.odf"
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 658
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 481
+enginesHitPoints = 279
+weaponsHitPoints = 114
+lifeSupportHitPoints = 518
+sensorsHitPoints = 92
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 8.7
+
+
+//This is the cargo capacity of the freighter
+// only the borg freighter can carry metal, so only it get's a max metal value
+maxMetal = 800
+
+// which resources can this station process?
+resourcesCanHandle = "dilithium" "metal"
+
+//**********************************************************************
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 87
+impulseSpeed = 82
+warpSpeed = 0
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+	"M148-89416" "M148-48084" "M148-78466" "M148-15145"
+	"M148-16458" "M148-08450" "M148-84015" "M148-68405"
+	"M148-47850" "M148-48469" "M148-99456" "M148-98259"
+	"M148-69696" "M148-94535" "M148-84055" "M148-48486"
+	"M148-98741" "M148-78456" "M148-08054" "M148-10564"
+	"M148-96569" "M148-84264" "M148-16054" "M148-80584"
+
+//**********************************************************************
+
+//ART PARAMETERS & WEAPON NAMES
+
+// Mining Beam
+
+weaponHardpoints1 = "hp06" "hp07" "hp08" "hp09" "hp10"
+
+// Planet mining beam for mining metal
+weapon2 = "gmineMetalBorg"
+weaponHardpoints2 = "hp06" "hp07" "hp08" "hp09" "hp10"
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
+
+//**********************************************************************
+//PHYSICS PARAMETERS
+
+physicsFile = "borgconstphys.odf"
+
+// Disable banking (by making the maximum bank angle 1 degree)
+maxRoll = 1
+
+hotkeyLabel = "HOTKEY_F2"
+// Xaramada: transwarp for all Borg vessels.
+weapon3 = "xabtrans5"
+weaponHardpoints3 = "hp01"
+
+maxSpecialEnergy = 1000
+
+specialEnergyRate = 10
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewCost = 100
+officerCost = 1
+buildTime = 15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+metalCost = 0
+
+latinumCost = 0
+
+biomatterCost = 0
+
+
+
+baseName = "dr26_bfreight"
+
+
+
+unitName = "Dilithium Collector MK II"
+tooltip = "Dilithium Collector MK II"
+verboseTooltip = "Dilithium Collector MK II\nDilithium extraction +50% capacity and rate\nResources sustain the fleet."
+maxDilithium = 225
+weapon1 = "myw002"
+dilithiumCost = 219
+weapon4 = "myu003"
+weaponHardpoints4 = "hp06" "hp07" "hp08" "hp09" "hp10"

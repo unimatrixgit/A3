@@ -170,23 +170,23 @@ combat = 0
 
 attackPower = 0.0
 
-buildItem0 = "byard"
 
-buildItem1 = "bsensor"
 
-buildItem2 = "bmining"
 
-buildItem3 = "bresear"
 
-buildItem4 = "bresear2"
 
-buildItem5 = "byard2"
 
-buildItem6 = "bbase2"
 
-buildItem7 = "brecycle"
 
-buildItem8 = "bupgrade"
+
+
+
+
+
+
+
+
+
 
 
 
@@ -220,13 +220,13 @@ maxSpecialEnergy = 1000
 
 specialEnergyRate = 10
 
-unitName = "Borg Basic Constructor"
-
-tooltip = "Borg Basic Constructor"
 
 
 
-buildItem9 = "bbase"
+
+
+
+
 
 
 
@@ -234,6 +234,20 @@ weapon1 = "xabtrans5"
 
 weaponHardpoints1 = "hp01"
 
-verboseTooltip = "Borg Basic Constructor\nTranswarp Drive\nBorg drones assemble the Collective's domain."
+
 
 baseName = "vr26_bconst"
+buildItem0 = "byard"
+buildItem1 = "bsensor"
+buildItem2 = "bmining"
+buildItem3 = "bresear"
+buildItem4 = "bresear2"
+buildItem5 = "byard2"
+buildItem6 = "bbase2"
+buildItem7 = "brecycle"
+buildItem8 = "bupgrade"
+buildItem9 = "bbase"
+buildItem10 = "mybyard"
+unitName = "Assemblers MK I"
+tooltip = "Assemblers MK I"
+verboseTooltip = "Assemblers MK I\nTranswarp Drive\nBorg drones assemble the Collective's domain."

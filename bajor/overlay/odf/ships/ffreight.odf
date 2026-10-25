@@ -6,7 +6,7 @@
 race = "federation"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Kaiser Class"
+
 
 //tooltips
 
@@ -107,7 +107,7 @@ buildTime = 13
 
 
 
-tooltip = "Resource Miner (Kaiser Class)"
+
 
 
 
@@ -119,6 +119,11 @@ latinumCost = 0
 
 biomatterCost = 0
 
-verboseTooltip = "Kaiser Class\nMining Beam\nFederation industry sustains deep-space fleets."
+
 
 baseName = "dr26_ffreight"
+unitName = "Dilithium Collector MK I"
+tooltip = "Dilithium Collector MK I"
+verboseTooltip = "Dilithium Collector MK I\nDilithium extraction\nResources sustain the fleet."
+weapon4 = "myu000"
+weaponHardpoints4 = "hp06"

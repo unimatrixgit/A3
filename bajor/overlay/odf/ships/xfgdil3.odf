@@ -59,7 +59,7 @@ sensorsHitPoints = 100
 
 
 
-maxDilithium = 300
+
 
 maxLatinum = 150
 
@@ -82,9 +82,9 @@ weaponHardpoints1 = "hp01"
 
 hotkeyLabel = "HOTKEY_F6"
 
-unitName = "Mercenary Ferengi Dilithium Collector II"
 
-tooltip = "Ferengi Dil Equipment II"
+
+
 
 
 
@@ -98,8 +98,12 @@ weapon1 = "xfgmindil3"
 
 
 
-verboseTooltip = "Mercenary Ferengi Dilithium Collector II\nMining Beam\nEvery shipment offers a chance for profit."
+
 
 baseName = "dr26_xfgdil3"
 
 ScaleSOD = 0.825
+unitName = "Dilithium Collector MK III"
+tooltip = "Dilithium Collector MK III"
+verboseTooltip = "Dilithium Collector MK III\nMining Beam\nEvery shipment offers a chance for profit."
+maxDilithium = 600

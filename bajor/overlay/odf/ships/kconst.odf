@@ -174,23 +174,23 @@ combat = 0
 
 attackPower = 0.0
 
-buildItem0 = "kyard"
 
-buildItem1 = "ksensor"
 
-buildItem2 = "kmining"
 
-buildItem3 = "kresear"
 
-buildItem4 = "kresear2"
 
-buildItem5 = "kyard2"
 
-buildItem6 = "korbital"
 
-buildItem7 = "ktrading"
 
-buildItem8 = "kupgrade"
+
+
+
+
+
+
+
+
+
 
 
 
@@ -222,16 +222,30 @@ maxSpecialEnergy = 0
 
 specialEnergyRate = 0
 
-unitName = "Klingon Basic Constructor"
-
-tooltip = "Klingon Basic Constructor"
 
 
 
-buildItem9 = "kbase"
 
 
 
-verboseTooltip = "Klingon Basic Constructor\nBasic construction\nKlingon engineers forge an empire among stars."
+
+
+
+
+
 
 baseName = "vr26_kconst"
+buildItem0 = "kyard"
+buildItem1 = "ksensor"
+buildItem2 = "kmining"
+buildItem3 = "kresear"
+buildItem4 = "kresear2"
+buildItem5 = "kyard2"
+buildItem6 = "korbital"
+buildItem7 = "ktrading"
+buildItem8 = "kupgrade"
+buildItem9 = "kbase"
+buildItem10 = "mykyard"
+unitName = "Assemblers MK I"
+tooltip = "Assemblers MK I"
+verboseTooltip = "Assemblers MK I\nBasic construction\nKlingon engineers forge an empire among stars."

@@ -126,7 +126,7 @@ tooltip = "Research Facility (Sirius Class)"
 
 
 
-podHardpoints = "pod01" "pod02" "pod03" "pod04" "mirrorpod"
+
 
 
 buildItem0 = "fedpod6"
@@ -139,4 +139,9 @@ buildItem3 = "fedpod9"
 
 verboseTooltip = "Sirius Class\nResearch and upgrades\nStarfleet infrastructure supports exploration."
 
-baseName = "dr26_fresear2"
+
+buildItem4 = "myfpod1"
+buildItem5 = "myfpod2"
+podHardpoints = "pod01" "pod02" "pod03" "pod04" "mirrorpod" "myminingpod"
+
+baseName = "my26_fresear2"

@@ -4,7 +4,7 @@
 race = "klingon"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "MoH'SoS Class"
+
 
 //tooltips
 
@@ -116,7 +116,7 @@ buildTime = 13
 
 
 
-tooltip = "Resource Miner (MoH'SoS Class)"
+
 
 
 weapon4 = "gkcloak"
@@ -129,6 +129,11 @@ latinumCost = 0
 
 biomatterCost = 0
 
-verboseTooltip = "MoH'SoS Class\nMining Beam, Cloak\nImperial industry feeds the Klingon war machine."
+
 
 baseName = "dr26_kfreight"
+unitName = "Dilithium Collector MK I"
+tooltip = "Dilithium Collector MK I"
+verboseTooltip = "Dilithium Collector MK I\nDilithium extraction\nResources sustain the fleet."
+weapon5 = "myu004"
+weaponHardpoints5 = "hp01" "hp02" "hp05"

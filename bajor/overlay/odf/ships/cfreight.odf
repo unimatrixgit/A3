@@ -4,7 +4,7 @@
 race = "cardassian"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-unitName = "Varis Class"
+
 
 //tooltips
 
@@ -103,7 +103,7 @@ buildTime = 13
 
 
 
-tooltip = "Resource Miner (Varis Class)"
+
 
 
 
@@ -115,6 +115,11 @@ latinumCost = 0
 
 biomatterCost = 0
 
-verboseTooltip = "Varis Class\nMining Beam\nCardassian industry supplies Central Command."
+
 
 baseName = "dr26_cfreight"
+unitName = "Dilithium Collector MK I"
+tooltip = "Dilithium Collector MK I"
+verboseTooltip = "Dilithium Collector MK I\nDilithium extraction\nResources sustain the fleet."
+weapon3 = "myu008"
+weaponHardpoints3 = "hp08"

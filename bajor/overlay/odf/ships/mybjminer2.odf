@@ -1,0 +1,222 @@
+#include "freight.odf"
+
+//MAIN DESIGN PARAMETERS
+
+//Race which can build ship & starting race of ship
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+//tooltips
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal Cost to build
+
+//Max Shield Strength & Begining Shield Strength <500
+maxhealth = 420
+
+// Hitpoints
+
+shieldgeneratorhitpoints = 500
+engineshitpoints = 500
+weaponshitpoints = 500
+lifesupporthitpoints = 500
+sensorshitpoints = 500
+
+//Rate at which shield recharges (points per second... we think)
+shieldrate = 4.2
+
+// which resources can this station process?
+resourcesCanHandle = "dilithium" "latinum"
+
+
+maxLatinum = 350
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+
+
+
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Mining Beam for dilithium
+
+
+
+// Mining Beam Latinum
+
+
+
+
+
+
+
+// Hardpoints to hit for various systems and other locations.
+
+
+
+
+
+
+
+
+
+
+
+//**********************************************************************
+
+hotkeyLabel = "HOTKEY_F2"
+combat = 1
+
+
+
+
+// Xaramada resource costs: original filename.
+
+
+
+
+crewcost = 100
+officercost = 1
+buildtime = 13
+
+
+
+
+
+
+
+
+race = "bajoran"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+physicsfile = "sconstphys.odf"
+
+// Preserve utility ability slots independently of combat balance.
+
+
+weapon2 = "gmineLatinum"
+
+
+
+maxspecialenergy = 0
+
+specialenergyrate = 0
+
+weaponyellow = 1.0
+
+weaponred = 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+shieldgeneratorhitpercent = 8.0f
+
+engineshitpercent = 5.0f
+
+weaponshitpercent = 5.0f
+
+lifesupporthitpercent = 8.5f
+
+sensorshitpercent = 8.0f
+
+crewhitpercent = 8.5f
+
+hullhitpercent = 57.0f
+
+rangescan = 800.0f
+
+damagedscan = 125.0
+
+
+
+metalCost = 0
+
+latinumCost = 0
+
+biomatterCost = 0
+
+
+
+ScaleSOD = 0.57541
+
+enginestargethardpoints = "hp02" "hp03" "hp04"
+
+lifesupporttargethardpoints = "hp01"
+
+weaponstargethardpoints = "hp01"
+
+shieldgeneratortargethardpoints = "hp06"
+
+sensorstargethardpoints = "hp01"
+
+hulltargethardpoints = "hp05"
+
+criticaltargethardpoints = "hp05"
+
+latinum_spray_hardpoint = "hp05"
+
+weaponhardpoints1 = "hp06"
+
+weaponhardpoints2 = "hp06"
+
+
+
+possibleCraftNames = "BMS Kendra" "BMS Dahkur" "BMS Rakantha" "BMS Hathon" "BMS Jalanda" "BMS Dakor" "BMS Tozhat" "BMS Musilla" "BMS Hedrikspool" "BMS Dakhur" "BMS Ashalla" "BMS Dahkur Dawn" "BMS Kendra Spirit" "BMS Bajoran Dawn" "BMS Prophets Grace" "BMS First Light" "BMS Celestial Dawn" "BMS Valley Guardian" "BMS Militia Resolve" "BMS Freedom of Bajor" "BMS Dahkur Sentinel" "BMS Rakantha Shield" "BMS Kendra Vigil" "BMS Bajor Ascendant" "BMS Jalanda Star" "BMS Hathon Guard" "BMS Emissarys Hope" "BMS Liberation" "BMS Gratitude" "BMS New Dawn" "BMS Dahkur Resolve" "BMS Celestial Guardian"
+
+
+
+baseName = "dr26_bjfreight"
+
+
+
+unitName = "Dilithium Collector MK III"
+tooltip = "Dilithium Collector MK III"
+verboseTooltip = "Dilithium Collector MK III\nDilithium extraction +100% capacity and rate\nResources sustain the fleet."
+maxDilithium = 1000
+weapon1 = "myw001"
+dilithiumCost = 262

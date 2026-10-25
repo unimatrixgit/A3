@@ -53,7 +53,7 @@ specialEnergyRate = 24
 
 // can hold metal
 maxMetal = 75
-maxBiomatter = 150
+
 
 // which resources can this station process?
 resourcesCanHandle = "dilithium" "biomatter" "latinum"
@@ -128,9 +128,9 @@ weapon2 = "xsborb1"
 
 weapon3 = "xsbext1"
 
-unitName = "Biomatter Collector I"
 
-tooltip = "Biomatter Collector 1"
+
+
 
 
 
@@ -142,6 +142,12 @@ hotkeyLabel = "HOTKEY_F7"
 
 
 
-verboseTooltip = "Biomatter Collector I\nMining Beam, Planet Mining Beam, 8472 Resource Extraction Beam\nBiomatter nourishes the fleet of Species 8472."
+
 
 baseName = "dr26_xsbcol1"
+unitName = "Biomatter Collector MK II"
+tooltip = "Biomatter Collector MK II"
+verboseTooltip = "Biomatter Collector MK II\nBiomatter extraction +50% capacity and rate\nResources sustain the fleet."
+maxBiomatter = 225
+weapon4 = "myu018"
+weaponHardpoints4 = "hp01" "hp02" "hp03"

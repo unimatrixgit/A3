@@ -61,7 +61,7 @@ sensorsHitPoints = 100
 
 maxDilithium = 300
 
-maxLatinum = 150
+
 
 
 
@@ -82,9 +82,9 @@ weaponHardpoints1 = "hp01"
 
 hotkeyLabel = "HOTKEY_F7"
 
-unitName = "Mercenary Ferengi Latinum Collector II"
 
-tooltip = "Ferengi Lat Equipment II"
+
+
 
 
 
@@ -98,6 +98,10 @@ weapon1 = "xfgminlat3"
 
 baseName = "xfglat3"
 
-verboseTooltip = "Mercenary Ferengi Latinum Collector II\nMining Beam\nEvery shipment offers a chance for profit."
+
 
 ScaleSOD = 0.825
+unitName = "Latinum Collector MK III"
+tooltip = "Latinum Collector MK III"
+verboseTooltip = "Latinum Collector MK III\nMining Beam\nEvery shipment offers a chance for profit."
+maxLatinum = 300

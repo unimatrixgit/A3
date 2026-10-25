@@ -221,9 +221,6 @@ maxSpecialEnergy = 0
 
 specialEnergyRate = 0
 
-unitName = "Breen Basic Constructor"
-
-tooltip = "Breen Basic Constructor"
 
 
 
@@ -251,22 +248,37 @@ tooltip = "Breen Basic Constructor"
 
 
 
-verboseTooltip = "Breen Basic Constructor\nBasic construction\nBreen engineers expand the Confederacy's domain."
 
-buildItem0 = "brbase"
 
-buildItem1 = "bryard"
 
-buildItem2 = "brmining"
 
-buildItem3 = "brorbital"
 
-buildItem4 = "brresear"
 
-buildItem5 = "brresear2"
 
-buildItem6 = "xfgmerc"
 
-buildItem7 = "briaarray"
+
+
+
+
+
+
+
+
+
+
+
+
 
 baseName = "vr26_brconst"
+buildItem0 = "brbase"
+buildItem1 = "bryard"
+buildItem2 = "brmining"
+buildItem3 = "brorbital"
+buildItem4 = "brresear"
+buildItem5 = "brresear2"
+buildItem6 = "xfgmerc"
+buildItem7 = "briaarray"
+buildItem8 = "mybryard"
+unitName = "Assemblers MK I"
+tooltip = "Assemblers MK I"
+verboseTooltip = "Assemblers MK I\nBasic construction\nBreen engineers expand the Confederacy's domain."
