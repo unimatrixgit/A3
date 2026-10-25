@@ -1,0 +1,9083 @@
+{
+  "applied": true,
+  "appliedAt": "2026-10-25T05:46:54.385991+01:00",
+  "backup": "D:\\Xaramada-Modwork\\backups\\function-badges-scale-20261025-054654",
+  "stage": "D:\\Xaramada-Modwork\\function-badges-and-scale-stage",
+  "badges": [
+    {
+      "unit": "714const",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        0,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "714hydra",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        64,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "714orca",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        192,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "714rnode",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        256,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "714skate",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        320,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "714syard",
+      "badges": [
+        "yard"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        384,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "714tmat",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        448,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "714turr",
+      "badges": [
+        "defence"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        0,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_active",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        64,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_advancedresearch",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        128,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_basicresearch",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        192,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_battle",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        256,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_behemoth",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        320,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_collector",
+      "badges": [
+        "bio",
+        "dil"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        384,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_cruise1",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        448,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_cruise2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        0,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_defender",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        64,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_destroy",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        128,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_fluidicgate",
+      "badges": [
+        "yard"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        192,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_frigate",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        256,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_mother",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        0,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_mothership",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        64,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_passive",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        128,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_podadvanced0",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        192,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_podadvanced1",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        256,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_podadvanced2",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        320,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_podadvanced3",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        384,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_podbasic0",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        448,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_podbasic1",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        0,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_podbasic2",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        64,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_podbasic3",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        128,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_podbasic4",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        192,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_podshipresearch1",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        256,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_podshipresearch2",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        320,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_podshipresearch21",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        384,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_podshipresearch22",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        448,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_podshipresearch23",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        0,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_podshipresearch24",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        64,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_podshipresearch3",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        128,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_podshipresearch4",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        192,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_shipupgraderesearch",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        384,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472_transmuter",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        448,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472be2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        0,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "8472int",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        128,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "arumaan",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        192,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "banshee",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        256,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bassault",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        320,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bbase",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        448,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bbase2",
+      "badges": [
+        "metal",
+        "defence"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        0,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bbattle",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        64,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bbattle1",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        128,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bbattle2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        192,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bbattle3",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        256,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bbattle4",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        320,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bbattle5",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        384,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bbattle6",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas00",
+      "cell": [
+        448,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bbattle8",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        0,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bcolony",
+      "badges": [
+        "colony"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        64,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bconst",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        128,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bconst2",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        192,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bcruise1",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        256,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bcruise2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        320,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bcruise3",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        384,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bdestroy",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        448,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bdestroy2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        0,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bfreight",
+      "badges": [
+        "dil",
+        "metal"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        64,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bfrigate",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        128,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bhentra",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        192,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bhentrag",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        256,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bhub",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        320,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bhwp",
+      "badges": [
+        "defence",
+        "yard"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        384,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjartillery",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        448,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjassault",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        0,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjbase",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        64,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjbattle",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        128,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjcargo",
+      "badges": [
+        "lat"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        192,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjcolony",
+      "badges": [
+        "colony"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        256,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjconst",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        320,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjcruiser",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        384,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjfreight",
+      "badges": [
+        "dil",
+        "lat"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        448,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjfrigate",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        0,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjhwp",
+      "badges": [
+        "defence",
+        "yard"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        64,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjinterceptor",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        128,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjmining",
+      "badges": [
+        "dil"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        256,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjorbital",
+      "badges": [
+        "metal",
+        "defence"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        384,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjpod1",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        448,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjpod11",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        0,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjpod12",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        64,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjpod13",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        128,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjpod14",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        192,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjpod15",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        256,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjpod16",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        320,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjpod2",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        384,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjpod21",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        448,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjpod22",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        0,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjpod23",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        64,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjpod24",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        128,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjpod25",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        192,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjpod3",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        256,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjpod4",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        320,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjpod5",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        384,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjpod6",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        448,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjpod7",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        0,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjpod8",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        64,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjpod9",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        128,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjrepair",
+      "badges": [
+        "repair"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        256,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjresear",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        320,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjresear2",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        384,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjsensor",
+      "badges": [
+        "science",
+        "scan"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        0,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjspecial",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        64,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjsuper",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        128,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjtorpedo",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas01",
+      "cell": [
+        256,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjturret2",
+      "badges": [
+        "defence"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        0,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjupgrade",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        64,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjyard",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        128,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjyard2",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        192,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bjyard3",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        256,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bmama",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        384,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bmining",
+      "badges": [
+        "dil"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        448,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bomega1",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        64,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "borbital",
+      "badges": [
+        "metal",
+        "defence"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        128,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "borpod1",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        192,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "borpod11",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        256,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "borpod12",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        320,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "borpod13",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        384,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "borpod14",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        448,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "borpod15",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        0,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "borpod16",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        64,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "borpod2",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        128,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "borpod21",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        192,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "borpod22",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        256,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "borpod23",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        320,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "borpod24",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        384,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "borpod25",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        448,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "borpod3",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        0,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "borpod4",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        64,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "borpod5",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        128,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "borpod6",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        192,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "borpod7",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        256,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "borpod8",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        320,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "borpod9",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        384,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bpentra",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        448,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "brbase",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        128,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "brbattle",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        192,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "brbattle2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        256,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "brcolony",
+      "badges": [
+        "colony"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        320,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "brconst",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        384,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "brcruise1",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        448,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "brcruise2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        0,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "brdestroy",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        64,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "brecycle",
+      "badges": [
+        "repair"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        128,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "brenborg",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        192,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bresear",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        256,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bresear2",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        320,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "brfreight",
+      "badges": [
+        "dil",
+        "lat"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        384,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "brfrigate",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        448,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "brmining",
+      "badges": [
+        "dil"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        0,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "brorbital",
+      "badges": [
+        "metal",
+        "defence"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        64,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "brresear",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        128,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "brresear2",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        192,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bryard",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        320,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bryard2",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        384,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bryard3",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        448,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bspecial",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        128,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bsphere",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        192,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "btacpyr",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        320,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "btechass",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas02",
+      "cell": [
+        384,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bturret2",
+      "badges": [
+        "defence"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        0,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "bupgrade",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        64,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "byard",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        128,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "byard2",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        192,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "byard3",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        256,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cardassian_super_station",
+      "badges": [
+        "yard"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        320,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "carpod1",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        384,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "carpod11",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        448,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "carpod12",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        0,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "carpod13",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        64,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "carpod14",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        128,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "carpod15",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        192,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "carpod16",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        256,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "carpod2",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        320,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "carpod21",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        384,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "carpod22",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        448,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "carpod23",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        0,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "carpod24",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        64,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "carpod25",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        128,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "carpod3",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        192,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "carpod4",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        256,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "carpod5",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        320,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "carpod6",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        384,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "carpod7",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        448,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "carpod8",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        0,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "carpod9",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        64,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cassault",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        128,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cbakrus",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        192,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cbase",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        256,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cbattle",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        320,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cbattle2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        384,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ccargo",
+      "badges": [
+        "lat"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        448,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ccolony",
+      "badges": [
+        "colony"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        0,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cconst",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        64,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ccruise1",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        128,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ccruise2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        192,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ccruise3",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        256,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cdestroy",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        320,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cdestroy2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        384,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cfreight",
+      "badges": [
+        "dil",
+        "lat"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        448,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cfrigate",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        0,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "chutet",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        64,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "chwp",
+      "badges": [
+        "defence",
+        "yard"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        128,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ckimal",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        320,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cmining",
+      "badges": [
+        "dil"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        384,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cobyard",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        448,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cogalor",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        0,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cokaldor",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        128,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cokeldon",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        192,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "corbital",
+      "badges": [
+        "metal",
+        "defence"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        256,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cquantum",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        320,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cresear",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        384,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cresear2",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        448,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "csensor",
+      "badges": [
+        "science",
+        "scan"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        64,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cspecial",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        128,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "csrepair",
+      "badges": [
+        "repair"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        192,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cstation",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        256,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "csuper",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        320,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ctelkor",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        384,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ctelok",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas03",
+      "cell": [
+        448,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ctrading",
+      "badges": [
+        "trade"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        0,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cturret",
+      "badges": [
+        "defence"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        64,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cturret2",
+      "badges": [
+        "defence"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        128,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cupgrade",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        192,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cyard",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        256,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cyard2",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        320,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "cyard3",
+      "badges": [
+        "yard"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        384,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dassault",
+      "badges": [
+        "cargo"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        448,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dbase",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        0,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dbattle",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        64,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dbattle2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        128,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dcargo",
+      "badges": [
+        "lat"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        192,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dcolony",
+      "badges": [
+        "colony"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        256,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dconst",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        320,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dcruise1",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        384,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dcruise2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        448,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dcruise3",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        0,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dcruise4",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        64,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ddestroy",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        128,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dfreight",
+      "badges": [
+        "dil",
+        "lat"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        192,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dfrigate",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        256,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dmining",
+      "badges": [
+        "dil"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        320,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "domabase",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        384,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dombase",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        448,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dombat",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        0,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "domconst",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        64,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "domdred",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        128,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dompod1",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        192,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dompod11",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        256,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dompod12",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        320,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dompod13",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        384,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dompod14",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        448,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dompod15",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        0,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dompod16",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        64,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dompod2",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        128,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dompod21",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        192,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dompod22",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        256,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dompod23",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        320,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dompod24",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        384,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dompod25",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        448,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dompod3",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        0,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dompod4",
+      "badges": [
+        "defence"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        64,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dompod5",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        128,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dompod6",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        192,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dompod7",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        256,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dompod8",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        320,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dompod9",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        384,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "domyard",
+      "badges": [
+        "yard"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        0,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dorbital",
+      "badges": [
+        "metal",
+        "defence"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        64,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dresear",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        128,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dresear2",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        192,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ds9",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        256,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dsensor",
+      "badges": [
+        "science",
+        "scan"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        384,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dspecial",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        448,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dsrepair",
+      "badges": [
+        "repair"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        0,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dsuper",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        64,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dsuperbl",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        128,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dtrading",
+      "badges": [
+        "trade"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        192,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dturret",
+      "badges": [
+        "defence"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        256,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dturret2",
+      "badges": [
+        "defence"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        320,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dturret3",
+      "badges": [
+        "defence",
+        "yard"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        384,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dupgrade",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas04",
+      "cell": [
+        448,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dwormdbattle",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        64,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dwormdbattle2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        128,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dwormddestroy2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        192,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dwormdsuper",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        256,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dyard",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        320,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dyard2",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        384,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "dyard3",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        448,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "f31const",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        0,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fakisato",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        128,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fambass",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        192,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fambassador",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        256,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fassault",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        448,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fbase",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        0,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fbase2",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        64,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fbasehq",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        128,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fbattle",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        192,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fbbridge",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        256,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fbyard",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        320,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fcargo",
+      "badges": [
+        "lat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        448,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fcentaur",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        0,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fcolony",
+      "badges": [
+        "colony"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        64,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fconst",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        128,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fconst2",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        192,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fconstellation",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        256,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fconstitution",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        320,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fcruise1",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        384,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fcruise2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        448,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fcruise3",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        0,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fdallas",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        64,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fdata",
+      "badges": [
+        "dil"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        192,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fdauntless",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        256,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fdawnstar",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        320,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fdeimos",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        448,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fdestroy",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        64,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fdestroy2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        128,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fdiablo",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        192,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fds9",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        256,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fedpod1",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        320,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fedpod11",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        384,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fedpod12",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        448,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fedpod13",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        0,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fedpod14",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        64,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fedpod15",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        128,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fedpod16",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        192,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fedpod2",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        256,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fedpod21",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        320,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fedpod22",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        384,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fedpod23",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        448,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fedpod24",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        0,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fedpod25",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        64,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fedpod2s",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        128,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fedpod3",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        192,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fedpod4",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        256,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fedpod5",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        320,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fedpod6",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        384,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fedpod7",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas05",
+      "cell": [
+        448,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fedpod8",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        0,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fedpod9",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        64,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fexcalibur",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        64,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fexcel",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        128,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fexcelr",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        192,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ffreight",
+      "badges": [
+        "dil",
+        "lat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        320,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ffrigate",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        384,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fgalaxy",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        448,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fgalaxyr",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        0,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fgalaxyx",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        64,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fhwp",
+      "badges": [
+        "defence",
+        "yard"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        128,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fintx",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        256,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fjupiter",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        320,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fkaleb",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        384,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fmidas",
+      "badges": [
+        "base"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        448,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fmining",
+      "badges": [
+        "dil"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        0,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fmiran",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        64,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fmiranda",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        128,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fneworleans",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        192,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fnorway",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        256,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fober",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        0,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "forbital",
+      "badges": [
+        "metal",
+        "defence"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        128,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "foutpost",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        192,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fprom",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        384,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fprometheus",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        448,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fpsaucer",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        0,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fregula",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        64,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fremmeler",
+      "badges": [
+        "repair"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        128,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fresear",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        192,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fresear2",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        256,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fsaucer",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        320,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fscorp",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        384,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fsensor_neutral_zone",
+      "badges": [
+        "science",
+        "scan"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        64,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fsent",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        128,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fshadow",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        192,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fshak",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        256,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fsovx",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        320,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fspecial",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        384,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fspectre",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        448,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fsrepair",
+      "badges": [
+        "repair"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        0,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ftengen",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        128,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fupgrade",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        384,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fvalour",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas06",
+      "cell": [
+        448,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fyard",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        64,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fyard0",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        128,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fyard2",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        192,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "fyard3",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        256,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "gcutter",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        320,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "hub",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        384,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "jemdest",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        448,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "jemdest2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        0,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kassault",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        64,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kavorcha",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        128,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kbase",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        192,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kbase2",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        256,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kbatleth",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        320,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kbattle",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        384,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kbattle2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        448,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kbwing",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        64,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kcargo",
+      "badges": [
+        "lat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        128,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kcolony",
+      "badges": [
+        "colony"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        192,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kconst",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        256,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kconst2",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        320,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kcruise1",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        384,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kcruise2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        448,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kcruise3",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        0,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kcruise4",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        64,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kdestroy",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        128,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kdestroy2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        192,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kdestroy4",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        256,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ken_special",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        320,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kfreight",
+      "badges": [
+        "dil",
+        "lat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        384,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kfrigate",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        448,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kgunboat",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        64,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "khwp",
+      "badges": [
+        "defence",
+        "yard"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        128,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kimpbakt",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        192,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kimpbase",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        256,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kimpben",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        320,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kimphut",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        384,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kimpkoto",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        448,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kimpmakd",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        0,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kimpnegh",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        64,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kimpnook",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        128,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kimpvorc",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        192,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kimpyard",
+      "badges": [
+        "yard"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        256,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "klipod1",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        320,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "klipod11",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        384,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "klipod12",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        448,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "klipod13",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        0,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "klipod14",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        64,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "klipod15",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        128,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "klipod16",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        192,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "klipod2",
+      "badges": [
+        "defence"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        256,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "klipod21",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        320,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "klipod22",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        384,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "klipod23",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        448,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "klipod24",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        0,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "klipod25",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        64,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "klipod3",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        128,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "klipod4",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        192,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "klipod5",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        256,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "klipod6",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        320,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "klipod7",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        384,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "klipod8",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas07",
+      "cell": [
+        448,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "klipod9",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas08",
+      "cell": [
+        0,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kmarbase",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas08",
+      "cell": [
+        64,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kmining",
+      "badges": [
+        "dil"
+      ],
+      "texture": "xuiatlas08",
+      "cell": [
+        192,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "korbital",
+      "badges": [
+        "metal",
+        "defence"
+      ],
+      "texture": "xuiatlas08",
+      "cell": [
+        256,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "koutpost",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas08",
+      "cell": [
+        320,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kprison",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas08",
+      "cell": [
+        384,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kquon",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas08",
+      "cell": [
+        448,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kresear",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas08",
+      "cell": [
+        0,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kresear2",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas08",
+      "cell": [
+        64,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ksensor",
+      "badges": [
+        "science",
+        "scan"
+      ],
+      "texture": "xuiatlas08",
+      "cell": [
+        192,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kspecial",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas08",
+      "cell": [
+        256,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ksrepair",
+      "badges": [
+        "repair"
+      ],
+      "texture": "xuiatlas08",
+      "cell": [
+        320,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ksuper",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas08",
+      "cell": [
+        384,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ksuperbl",
+      "badges": [
+        "yard"
+      ],
+      "texture": "xuiatlas08",
+      "cell": [
+        448,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ktrading",
+      "badges": [
+        "trade"
+      ],
+      "texture": "xuiatlas08",
+      "cell": [
+        0,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kturret2",
+      "badges": [
+        "defence"
+      ],
+      "texture": "xuiatlas08",
+      "cell": [
+        128,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kupgrade",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas08",
+      "cell": [
+        192,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kvodleh",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas08",
+      "cell": [
+        256,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kvood",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas08",
+      "cell": [
+        320,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kyard",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas08",
+      "cell": [
+        384,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kyard2",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas08",
+      "cell": [
+        448,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "kyard3",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas08",
+      "cell": [
+        0,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "mrpbaj",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        256,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "mrpbor",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        320,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "mrpbre",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        384,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "mrpcar",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        448,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "mrpdom",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        0,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "mrpfed",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        64,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "mrpfer",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        128,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "mrpkli",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        192,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "mrprom",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        256,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "mrpspe",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        320,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "mry8472",
+      "badges": [
+        "yard"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        384,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "mrybajor",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        448,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "mryborg",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        0,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "mrybreen",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        64,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "mrycard",
+      "badges": [
+        "yard"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        128,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "mrydom",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        192,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "mryfeda",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        256,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "mryfedb",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        320,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "mryfer",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        384,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "mrykling",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        448,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "mryrom",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        0,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rassault",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        128,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rbase",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        192,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rbase2",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        256,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rbattle",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        320,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rbattle2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        384,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rcargo",
+      "badges": [
+        "lat"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        448,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rcent",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        0,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rcolony",
+      "badges": [
+        "colony"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        64,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rconst",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        128,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rconst2",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        192,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rcruise1",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        256,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rcruise2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        320,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rcruise3",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        384,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rcruise4",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        448,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rdestr1",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        0,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rdestroy",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        64,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rdread",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        128,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rdtaris",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        192,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rdverix",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        256,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rfreight",
+      "badges": [
+        "dil",
+        "lat"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        320,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rfrigate",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        384,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rhwp",
+      "badges": [
+        "defence",
+        "yard"
+      ],
+      "texture": "xuiatlas09",
+      "cell": [
+        448,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rktinga",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        0,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rmining",
+      "badges": [
+        "dil"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        64,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rompod1",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        128,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rompod11",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        192,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rompod12",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        256,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rompod13",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        320,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rompod14",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        384,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rompod15",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        448,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rompod16",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        0,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rompod2",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        64,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rompod21",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        128,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rompod22",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        192,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rompod23",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        256,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rompod24",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        320,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rompod25",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        384,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rompod3",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        448,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rompod4",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        0,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rompod5",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        64,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rompod6",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        128,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rompod7",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        192,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rompod8",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        256,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rompod9",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        320,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rorbital",
+      "badges": [
+        "metal",
+        "defence"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        384,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rresear",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        448,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rresear2",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        0,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rscruise",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        128,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rspecial",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        256,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rsrepair",
+      "badges": [
+        "repair"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        320,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rsuper",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        384,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rsuperbl",
+      "badges": [
+        "yard"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        448,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rtrading",
+      "badges": [
+        "trade"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        0,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rtsbcru",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        64,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rtscru2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        192,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rtscruis",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        256,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rtsdest",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        320,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rtsdread",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        384,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rtsens",
+      "badges": [
+        "science",
+        "scan"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        448,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rtspec",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        0,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rtswarb",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        64,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rturret2",
+      "badges": [
+        "defence"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        192,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "rupgrade",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        256,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ryard",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        320,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ryard2",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        384,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "ryard3",
+      "badges": [
+        "yard"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        448,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "s31yard",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        0,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "sonabat",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        64,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "sonadest",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        128,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "tcube",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        256,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "twgate1",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        320,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "twgate2",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        384,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "twgate3",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        448,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "twgate4",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        0,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "twgate5",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        64,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "twgate6",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        128,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "twgate7",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        192,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "twgate8",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        256,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "uconst",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        320,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "unicomplex",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        384,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbassimold",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas10",
+      "cell": [
+        448,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbassimst",
+      "badges": [
+        "yard"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        0,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbgbatt",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        64,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbgcolony",
+      "badges": [
+        "colony"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        128,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbgconst",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        192,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbgcruis",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        256,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbgdaim",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        320,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbgdest",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        384,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbgdil2",
+      "badges": [
+        "dil"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        448,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbgdil3",
+      "badges": [
+        "dil"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        0,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbgfight",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        64,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbgfrig",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        128,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbgmerc",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        192,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbgmetal2",
+      "badges": [
+        "metal"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        256,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbgmetal3",
+      "badges": [
+        "metal"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        320,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbgmine",
+      "badges": [
+        "dil"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        384,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbgpdil",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        0,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbgpdil2",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        64,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbgpmet",
+      "badges": [
+        "metal"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        128,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbgpmet2",
+      "badges": [
+        "metal"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        192,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbgrepair",
+      "badges": [
+        "repair"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        320,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbgresearch",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        384,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbgserv",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        0,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbjconst2",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        128,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbjoutpost",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        192,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbjuconst",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        256,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbomegalab",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        320,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbomegapod",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        384,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbrconst2",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        448,
+        192,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbrepair",
+      "badges": [
+        "repair"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        0,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbruconst",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        64,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbtarray",
+      "badges": [
+        "base",
+        "defence"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        128,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xbuconst",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        192,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xcconst2",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        256,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xcdconst",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        320,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xcduniv",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        384,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xcgarak",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        448,
+        256,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xcuconst",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        0,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xdcarrier",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        64,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xdconst2",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        128,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xdhattack",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        192,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xdocargo",
+      "badges": [
+        "lat"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        320,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xdofighter",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        384,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xdofrigate",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        448,
+        320,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xdominer",
+      "badges": [
+        "dil",
+        "lat"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        0,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xduconst",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        64,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgbatt",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        128,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgcolony",
+      "badges": [
+        "colony"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        192,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgconst",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        256,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgcruis",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        320,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgdaim",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        384,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgdest",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        448,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgdil2",
+      "badges": [
+        "dil"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        0,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgdil3",
+      "badges": [
+        "dil"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        64,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgfight",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        128,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgfrig",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        192,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfglat2",
+      "badges": [
+        "lat"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        256,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfglat3",
+      "badges": [
+        "lat"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        320,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgmerc",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        384,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgmetal2",
+      "badges": [
+        "metal"
+      ],
+      "texture": "xuiatlas11",
+      "cell": [
+        448,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgmetal3",
+      "badges": [
+        "metal"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        0,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgmine",
+      "badges": [
+        "dil",
+        "lat"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        64,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgpdil",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        192,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgpdil2",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        256,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgplat",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        320,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgplat2",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        384,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgpmet",
+      "badges": [
+        "metal"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        448,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgpmet2",
+      "badges": [
+        "metal"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        0,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgrepair",
+      "badges": [
+        "repair"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        128,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgresearch",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        192,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgserv",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        320,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfgtrade",
+      "badges": [
+        "trade"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        384,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xflegacyyard",
+      "badges": [
+        "yard",
+        "repair"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        448,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfomegalab",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        0,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfomegapod",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        64,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xfuconst",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        128,
+        128,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xkuconst",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        64,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xobbattle1",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        128,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xobbattle2",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        192,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xobcruise1",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        256,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xofbattle",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        384,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xofdestroy",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        448,
+        384,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xofgalaxy",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        0,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xofprom",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        64,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xrplasmapod",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        128,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xrthelpod",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        192,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xruconst",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        256,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xsbcol1",
+      "badges": [
+        "bio",
+        "dil"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        320,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xsbcol2",
+      "badges": [
+        "bio",
+        "dil"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        384,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xsbio1",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas12",
+      "cell": [
+        448,
+        448,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xsbio2",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas13",
+      "cell": [
+        0,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xsbiolab",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas13",
+      "cell": [
+        64,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xselaresearch",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas13",
+      "cell": [
+        128,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xsuconst",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas13",
+      "cell": [
+        192,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xu3bor2",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas13",
+      "cell": [
+        256,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xu3fed2",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas13",
+      "cell": [
+        320,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "xu3fer2",
+      "badges": [
+        "construct"
+      ],
+      "texture": "xuiatlas13",
+      "cell": [
+        384,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "yabrpolpod",
+      "badges": [
+        "science"
+      ],
+      "texture": "xuiatlas13",
+      "cell": [
+        448,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "zfercarg",
+      "badges": [
+        "lat"
+      ],
+      "texture": "xuiatlas13",
+      "cell": [
+        0,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "zferscav",
+      "badges": [
+        "combat"
+      ],
+      "texture": "xuiatlas13",
+      "cell": [
+        64,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "unit": "zsuperbl",
+      "badges": [
+        "yard"
+      ],
+      "texture": "xuiatlas13",
+      "cell": [
+        192,
+        64,
+        64,
+        64
+      ]
+    }
+  ],
+  "dualBadgeCount": 104,
+  "scaleChanges": [
+    {
+      "unit": "unicomplex",
+      "before": {
+        "ScaleSOD": 2.4,
+        "footprintBuffer": 100.0
+      },
+      "after": {
+        "ScaleSOD": 1.56,
+        "footprintBuffer": 65.0
+      }
+    },
+    {
+      "unit": "fhwp",
+      "before": {
+        "ScaleSOD": 2.10010112325,
+        "footprintBuffer": 18.75,
+        "buildTime": 75.0
+      },
+      "after": {
+        "ScaleSOD": 1.890091010925,
+        "footprintBuffer": 16.875,
+        "buildTime": 56.25
+      }
+    },
+    {
+      "unit": "bhwp",
+      "before": {
+        "ScaleSOD": 0.647676354075,
+        "footprintBuffer": 18.75,
+        "buildTime": 75.0
+      },
+      "after": {
+        "ScaleSOD": 0.5829087186675,
+        "footprintBuffer": 16.875,
+        "buildTime": 56.25
+      }
+    },
+    {
+      "unit": "khwp",
+      "before": {
+        "ScaleSOD": 1.18089252,
+        "footprintBuffer": 18.75,
+        "buildTime": 75.0
+      },
+      "after": {
+        "ScaleSOD": 1.0628032680000001,
+        "footprintBuffer": 16.875,
+        "buildTime": 56.25
+      }
+    },
+    {
+      "unit": "rhwp",
+      "before": {
+        "ScaleSOD": 0.9240211305,
+        "footprintBuffer": 18.75,
+        "buildTime": 75.0
+      },
+      "after": {
+        "ScaleSOD": 0.83161901745,
+        "footprintBuffer": 16.875,
+        "buildTime": 56.25
+      }
+    },
+    {
+      "unit": "chwp",
+      "before": {
+        "ScaleSOD": 0.943396362,
+        "footprintBuffer": 18.75,
+        "buildTime": 75.0
+      },
+      "after": {
+        "ScaleSOD": 0.8490567258,
+        "footprintBuffer": 16.875,
+        "buildTime": 56.25
+      }
+    },
+    {
+      "unit": "bjhwp",
+      "before": {
+        "ScaleSOD": 0.524254877625,
+        "footprintBuffer": 18.75,
+        "buildTime": 75.0
+      },
+      "after": {
+        "ScaleSOD": 0.4718293898625,
+        "footprintBuffer": 16.875,
+        "buildTime": 56.25
+      }
+    },
+    {
+      "unit": "dturret3",
+      "before": {
+        "ScaleSOD": 4.3104803025,
+        "footprintBuffer": 18.75,
+        "buildTime": 75.0
+      },
+      "after": {
+        "ScaleSOD": 3.8794322722500003,
+        "footprintBuffer": 16.875,
+        "buildTime": 56.25
+      }
+    }
+  ],
+  "files": [
+    "Textures/RGB/xuiatlas00.tga",
+    "Textures/RGB/xuiatlas01.tga",
+    "Textures/RGB/xuiatlas02.tga",
+    "Textures/RGB/xuiatlas03.tga",
+    "Textures/RGB/xuiatlas04.tga",
+    "Textures/RGB/xuiatlas05.tga",
+    "Textures/RGB/xuiatlas06.tga",
+    "Textures/RGB/xuiatlas07.tga",
+    "Textures/RGB/xuiatlas08.tga",
+    "Textures/RGB/xuiatlas09.tga",
+    "Textures/RGB/xuiatlas10.tga",
+    "Textures/RGB/xuiatlas11.tga",
+    "Textures/RGB/xuiatlas12.tga",
+    "Textures/RGB/xuiatlas13.tga",
+    "odf/stations/unicomplex.odf",
+    "odf/stations/fhwp.odf",
+    "odf/stations/bhwp.odf",
+    "odf/stations/khwp.odf",
+    "odf/stations/rhwp.odf",
+    "odf/stations/chwp.odf",
+    "odf/stations/bjhwp.odf",
+    "odf/stations/dturret3.odf"
+  ],
+  "manifest": [
+    {
+      "file": "Textures/RGB/xuiatlas00.tga",
+      "sha256": "646f454870c637ffb8e1dc5b094c4233b44ec90b7b69bb876bf27e7157bed892"
+    },
+    {
+      "file": "Textures/RGB/xuiatlas01.tga",
+      "sha256": "5bdec2fcb69ab7e4b69be46ea0466ee14e846d712d847969041ef513b6722518"
+    },
+    {
+      "file": "Textures/RGB/xuiatlas02.tga",
+      "sha256": "6328780e6316b826e6988768ddf3be28284d6d96d733d5a0c57b898bb74c0cb1"
+    },
+    {
+      "file": "Textures/RGB/xuiatlas03.tga",
+      "sha256": "fb21ecf918896e663e41c32cd204f08ee0274eb913c033f54dd1aa71758e4c9a"
+    },
+    {
+      "file": "Textures/RGB/xuiatlas04.tga",
+      "sha256": "dbd078d2d7b87f215de0d5a672db6ec9c146d30a71dbc57ea80012927fbe42b7"
+    },
+    {
+      "file": "Textures/RGB/xuiatlas05.tga",
+      "sha256": "62886e51984981552e8c9a1f7859c2e7543653695b76fc544964fb8b5f86cb37"
+    },
+    {
+      "file": "Textures/RGB/xuiatlas06.tga",
+      "sha256": "5b7e080abf3aefe370e157ad1ab4564e39895dfdf1c2c8510ff703c23d492caf"
+    },
+    {
+      "file": "Textures/RGB/xuiatlas07.tga",
+      "sha256": "e5fe003ec9ff6b0d0a2c452e8ce039269fbaa7e781f0ffb795614afe1d7b92bf"
+    },
+    {
+      "file": "Textures/RGB/xuiatlas08.tga",
+      "sha256": "b8a7828f424b4a2aaef434646feff4ecc90c4ef5ea6f09c852f3ce0d8e05ddd0"
+    },
+    {
+      "file": "Textures/RGB/xuiatlas09.tga",
+      "sha256": "38976087d3e95dc5c976a4052a054084c57f009bed48654256c7181bb05b40de"
+    },
+    {
+      "file": "Textures/RGB/xuiatlas10.tga",
+      "sha256": "392750e0b239fa2e6d8454a3dc57ebfcc237ef6142f0612ee3a9dab72092dc4f"
+    },
+    {
+      "file": "Textures/RGB/xuiatlas11.tga",
+      "sha256": "852a471bf185c50ab78fb740714f1d498b33c9ae7b0fe65545b02e3e537ba2ba"
+    },
+    {
+      "file": "Textures/RGB/xuiatlas12.tga",
+      "sha256": "81e42b98a22cbb97e1890258cb3d3b5fc8b36b415a7d42e24ce099d20e50d4c8"
+    },
+    {
+      "file": "Textures/RGB/xuiatlas13.tga",
+      "sha256": "1207add9d81b89eb24064112ced5a61383163773d53c85a300f055dac28e146f"
+    },
+    {
+      "file": "odf/stations/unicomplex.odf",
+      "sha256": "800cb9db58c4fe13099174d85d8f773cdf8c59b2916153155cd3e7b3c244e074"
+    },
+    {
+      "file": "odf/stations/fhwp.odf",
+      "sha256": "b1f01249e76bbd671a70a250c7b0cf6ea9ea455aabec8b16bc228d52cbdf807c"
+    },
+    {
+      "file": "odf/stations/bhwp.odf",
+      "sha256": "d3adf8b866753df3d293829f42956f708be1d9ef84a2734aa8344e7cfa557988"
+    },
+    {
+      "file": "odf/stations/khwp.odf",
+      "sha256": "c55d0c90d6a5ee6dc8eb9c5c1a498f15ca6a0993e32951ae758753ae3b02555f"
+    },
+    {
+      "file": "odf/stations/rhwp.odf",
+      "sha256": "c1d0312391fb5d1f6ffc9f672cf1a55973ffbbcf190ce137dc3773458681b2dc"
+    },
+    {
+      "file": "odf/stations/chwp.odf",
+      "sha256": "6fe383552f3ffa3cb1ce9fb5c535f595f5517c08410e0b26cdc5d442466e35d6"
+    },
+    {
+      "file": "odf/stations/bjhwp.odf",
+      "sha256": "cbf04152e42acd65c32f127227dbc9e323b2507a5cf3d74801ce85c3644938a6"
+    },
+    {
+      "file": "odf/stations/dturret3.odf",
+      "sha256": "fb05aa08f9054b8e95c698ed6012256a24ccd644e6f9ed3675525a2e30b84359"
+    }
+  ],
+  "heroEmblemsPreserved": true,
+  "portraitResourcesChanged": false,
+  "runtimeVerified": false
+}
