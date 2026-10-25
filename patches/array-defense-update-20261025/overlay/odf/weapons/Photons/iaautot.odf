@@ -1,0 +1,22 @@
+#include "photon.odf"
+
+//Name of the ODF file for the ordinance for this weapon
+ordName = "bb3photono"
+
+//Display name for this weapon
+wpnName = "Photon Torpedo"
+
+//Time Delay between shots
+shotDelay = 0.375f
+
+//Sound which is played when the weapon fires
+fireSound = "pobwea.wav"
+
+
+range = 750
+
+special = 0
+
+targetEnemyCraft = 1
+
+targetEnemyBuildings = 1

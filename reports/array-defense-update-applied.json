@@ -1,0 +1,413 @@
+{
+  "status": "APPLIED - AWAITING GAMEPLAY TEST",
+  "stage": "D:/aramada/patches/array-defense-update-20261025",
+  "files": [
+    {
+      "file": "odf/weapons/Phasers/iaautob.odf",
+      "sourceHash": null,
+      "stagedHash": "383290fda4e86cb25bbdf95c6f114b375a06481c3d2ab97e0a84860313b84adc"
+    },
+    {
+      "file": "odf/weapons/Photons/iaautot.odf",
+      "sourceHash": null,
+      "stagedHash": "e9a627b09660c526f4923e00ef84bd811a67120ccb7fbb3cfac08e79a2bbb8eb"
+    },
+    {
+      "file": "odf/special_weapons/iaacloak.odf",
+      "sourceHash": null,
+      "stagedHash": "be4e51a8d28466d09a2bb8a0029663f7cef84f1b28ed001f8b7adb3360574b86"
+    },
+    {
+      "file": "odf/stations/bgiaarray.odf",
+      "sourceHash": "3490a9ccadc0300a392a57ac4587de4cf4aaba20fdc4f0f1bdfec7cfc989d951",
+      "stagedHash": "4a7f8cebbfd8e1a059fe1bfd1d76271aed8a09451cecc6f63725e15387c837b2"
+    },
+    {
+      "file": "odf/stations/bjiaarray.odf",
+      "sourceHash": "8c1855d1bdb50c14a22008be6668cbc98148dae8c5c83e97fffaa9ac126a3ad0",
+      "stagedHash": "dca6912db461059fb4a1de56c4819902b68ae30ff018fd122c0220da9c89422b"
+    },
+    {
+      "file": "odf/stations/briaarray.odf",
+      "sourceHash": "cdc42d5b7529631028efacb86249fd381743218d80a5d1df830a463d1603ef94",
+      "stagedHash": "2ddfb54176f278f2417be2e7c8f333739c6b561b9c800f67084e60f95ffbc802"
+    },
+    {
+      "file": "odf/stations/ciaarray.odf",
+      "sourceHash": "e6df4143e6985b111d68c22a98c6efe96c83aa5d2532319ce46afbab3752d1e5",
+      "stagedHash": "c888c9afe7a05c19548ff7bd376817fd051d47394895ba27e6c5f76760d51923"
+    },
+    {
+      "file": "odf/stations/diaarray.odf",
+      "sourceHash": "161968ab9a7533ebbb434a2bc635eb3a973b8fc68ae9789ed4a8864d1409e15d",
+      "stagedHash": "fd498b1ec4e64b3d5c45111b0f534c07d08cc1ebd266924b20e5945181d5c1a7"
+    },
+    {
+      "file": "odf/stations/fgiaarray.odf",
+      "sourceHash": "ebe12ebb4e4478be7f9fe22a145807b772f23ea684b2d3c3275365f46a4f3a73",
+      "stagedHash": "fe8d049d3c4346c4fa1ad2b520520f8ac7e2323b536d9c4a5a1918b06940abca"
+    },
+    {
+      "file": "odf/stations/fiaarray.odf",
+      "sourceHash": "9afa12bc98dc38e2d88d06c55cd129411b3afa05e562b8e0383222689e95149c",
+      "stagedHash": "d932dd043af0203c5df909ead6b2a8ef5a72f25148de8a6188661b1c0afa50db"
+    },
+    {
+      "file": "odf/stations/kiaarray.odf",
+      "sourceHash": "89533cdd369897f00401eead73fe408716f61c343418b12ae9ca824b85186c72",
+      "stagedHash": "ff6252ccd6d123626183ae157c625578195b7bda8dca83b3d8c7fe8b5628348b"
+    },
+    {
+      "file": "odf/stations/riaarray.odf",
+      "sourceHash": "7d731cf0e6aa70c5b64c500db8cecfaceb27d04125c1ad9a95c5b7f083a4443a",
+      "stagedHash": "f36d58b52a4c3a0b0a6fdc828a6b7eb2739c87f134482ad34874d26839474d22"
+    },
+    {
+      "file": "odf/stations/siaarray.odf",
+      "sourceHash": "558f95eebbec3662360d3d82609c2a683e021f11235518cdc2eb388fe698368b",
+      "stagedHash": "0f6010eae8447064cf179bb36652e84bfd6947356a955affc3b600d85c497000"
+    },
+    {
+      "file": "odf/stations/xbtarray.odf",
+      "sourceHash": "3a9a595eb514ecc2c1b1706d7d2cf0ecef7eb6d2c792730c442b9108024d909b",
+      "stagedHash": "93cfb60a1e0f31d25239bd277d2bdf15128e2be8999f7b72666a4730d7f58487"
+    },
+    {
+      "file": "techtree/tech1.tt",
+      "sourceHash": "7b5f195c8a00242d40a2c0cdeb2231b96dd1d56cfc9c0cb82d46fa4a9ae5d901",
+      "stagedHash": "59ff11570dbdac45a70bae4a74fb6582bf4f3fd5b9593afe76a725a1b35de055"
+    },
+    {
+      "file": "techtree/earlytech.tt",
+      "sourceHash": "e96a4500ccf8d48ceabc4f78704343a792f5f959c9e30565b2a8b404f3ca69b7",
+      "stagedHash": "7a594f8e013a3824b811bbd8fa3b38e58316d43d17c9ff59f63d21d5d23690fa"
+    },
+    {
+      "file": "techtree/fulltech.tt",
+      "sourceHash": "e641108ba236a2f16c3918f79a637c57a0a11c22e7e5d49dd1ae7482c34e0f77",
+      "stagedHash": "dc84c851eac0dbe53b4265db3d5c192560a4f581cbd9d1edc4eb8f0f931c0703"
+    },
+    {
+      "file": "techtree/nosci.tt",
+      "sourceHash": "574056efbd7ff3aebc5f15d60ff1ace1490851256e14274da6224a191631cfd7",
+      "stagedHash": "802923da2f56a1dc22caa5ca5627f4cf6a6771152c289dc18d2a9e2540f709db"
+    },
+    {
+      "file": "techtree/nosuper.tt",
+      "sourceHash": "e11f16334455b427e4e309b44c32dbfe97855c0b6b10e0020fdd186f6890a093",
+      "stagedHash": "3ceb3aa00830c84b0527c00757db98d92d300dddb6c8e29f0b17c1a8db292c12"
+    },
+    {
+      "file": "techtree/nospweap.tt",
+      "sourceHash": "38797c85a81b3bc62fd181965998fbe913c4cec738e6f5be3b5a9b8007f7113f",
+      "stagedHash": "2f4871ab0dd22b1ff7903bfcbd789ed963d981f1fa79f2441997e9b572585b53"
+    }
+  ],
+  "arrays": [
+    {
+      "unit": "bgiaarray",
+      "race": "borg",
+      "gunRangeBefore": 600,
+      "gunRangeAfter": 750,
+      "oldSensorRange": 15000,
+      "sensorRange": 750,
+      "detector": "iaacloak",
+      "detectorSlot": 11,
+      "production": [
+        "xbgconst",
+        "xbgconst2",
+        "xbgdil2",
+        "xbgdil3",
+        "xbgfight",
+        "xbgfrig"
+      ],
+      "newSmallCraft": [
+        "xbgfight",
+        "xbgfrig"
+      ],
+      "smallCraftNames": [
+        "Mercenary Ferengi Bronta Fighter",
+        "Mercenary Ferengi Goront Frigate"
+      ],
+      "existingAbilitiesPreserved": true
+    },
+    {
+      "unit": "bjiaarray",
+      "race": "bajoran",
+      "gunRangeBefore": 600,
+      "gunRangeAfter": 750,
+      "oldSensorRange": 15000,
+      "sensorRange": 750,
+      "detector": "iaacloak",
+      "detectorSlot": 11,
+      "production": [
+        "bjconst",
+        "xbjconst2",
+        "xbjuconst",
+        "bjfreight",
+        "bjscout",
+        "bjraider"
+      ],
+      "newSmallCraft": [
+        "bjscout",
+        "bjraider"
+      ],
+      "smallCraftNames": [
+        "Bajoran Scout Vessel",
+        "Bajoran Sub-Impulse Raider"
+      ],
+      "existingAbilitiesPreserved": true
+    },
+    {
+      "unit": "briaarray",
+      "race": "breen",
+      "gunRangeBefore": 600,
+      "gunRangeAfter": 750,
+      "oldSensorRange": 15000,
+      "sensorRange": 750,
+      "detector": "iaacloak",
+      "detectorSlot": 11,
+      "production": [
+        "brconst",
+        "brfreight",
+        "brscout",
+        "brdestroy"
+      ],
+      "newSmallCraft": [
+        "brscout",
+        "brdestroy"
+      ],
+      "smallCraftNames": [
+        "Breen Scout",
+        "Breen Destroyer"
+      ],
+      "existingAbilitiesPreserved": true
+    },
+    {
+      "unit": "ciaarray",
+      "race": "cardassian",
+      "gunRangeBefore": 600,
+      "gunRangeAfter": 750,
+      "oldSensorRange": 15000,
+      "sensorRange": 750,
+      "detector": "iaacloak",
+      "detectorSlot": 13,
+      "production": [
+        "cconst",
+        "xcconst2",
+        "xcuconst",
+        "cfreight",
+        "cscout",
+        "cdestroy"
+      ],
+      "newSmallCraft": [
+        "cscout",
+        "cdestroy"
+      ],
+      "smallCraftNames": [
+        "Hideki Class",
+        "Rasilak Class"
+      ],
+      "existingAbilitiesPreserved": true
+    },
+    {
+      "unit": "diaarray",
+      "race": "dominion",
+      "gunRangeBefore": 600,
+      "gunRangeAfter": 750,
+      "oldSensorRange": 15000,
+      "sensorRange": 750,
+      "detector": "iaacloak",
+      "detectorSlot": 12,
+      "production": [
+        "dconst",
+        "xdconst2",
+        "xduconst",
+        "dfreight",
+        "dscout",
+        "xdofighter"
+      ],
+      "newSmallCraft": [
+        "dscout",
+        "xdofighter"
+      ],
+      "smallCraftNames": [
+        "Jem'Hadar Scout",
+        "Jem'HadarDestroyer"
+      ],
+      "existingAbilitiesPreserved": true
+    },
+    {
+      "unit": "fgiaarray",
+      "race": "ferengi",
+      "gunRangeBefore": 600,
+      "gunRangeAfter": 750,
+      "oldSensorRange": 15000,
+      "sensorRange": 750,
+      "detector": "iaacloak",
+      "detectorSlot": 11,
+      "production": [
+        "xfgconst",
+        "xfgdil2",
+        "xfgdil3",
+        "xfgfight",
+        "xfgfrig"
+      ],
+      "newSmallCraft": [
+        "xfgfight",
+        "xfgfrig"
+      ],
+      "smallCraftNames": [
+        "Mercenary Ferengi Bronta Fighter",
+        "Mercenary Ferengi Goront Frigate"
+      ],
+      "existingAbilitiesPreserved": true
+    },
+    {
+      "unit": "fiaarray",
+      "race": "federation",
+      "gunRangeBefore": 600,
+      "gunRangeAfter": 750,
+      "oldSensorRange": 15000,
+      "sensorRange": 750,
+      "detector": "iaacloak",
+      "detectorSlot": 12,
+      "production": [
+        "fconst",
+        "fconst2",
+        "xfuconst",
+        "ffreight",
+        "fscout",
+        "fdestroy"
+      ],
+      "newSmallCraft": [
+        "fscout",
+        "fdestroy"
+      ],
+      "smallCraftNames": [
+        "Venture Class",
+        "Defiant Class"
+      ],
+      "existingAbilitiesPreserved": true
+    },
+    {
+      "unit": "kiaarray",
+      "race": "klingon",
+      "gunRangeBefore": 600,
+      "gunRangeAfter": 750,
+      "oldSensorRange": 15000,
+      "sensorRange": 750,
+      "detector": "iaacloak",
+      "detectorSlot": 12,
+      "production": [
+        "kconst",
+        "kconst2",
+        "xkuconst",
+        "kfreight",
+        "kscout",
+        "kdestroy"
+      ],
+      "newSmallCraft": [
+        "kscout",
+        "kdestroy"
+      ],
+      "smallCraftNames": [
+        "NuQ'Duj Class",
+        "Br'el Class"
+      ],
+      "existingAbilitiesPreserved": true
+    },
+    {
+      "unit": "riaarray",
+      "race": "romulan",
+      "gunRangeBefore": 600,
+      "gunRangeAfter": 750,
+      "oldSensorRange": 15000,
+      "sensorRange": 750,
+      "detector": "iaacloak",
+      "detectorSlot": 12,
+      "production": [
+        "rconst",
+        "rconst2",
+        "xruconst",
+        "rfreight",
+        "rscout",
+        "rdestroy"
+      ],
+      "newSmallCraft": [
+        "rscout",
+        "rdestroy"
+      ],
+      "smallCraftNames": [
+        "Talon Class",
+        "Shrike Class"
+      ],
+      "existingAbilitiesPreserved": true
+    },
+    {
+      "unit": "siaarray",
+      "race": "species8472",
+      "gunRangeBefore": 600,
+      "gunRangeAfter": 750,
+      "oldSensorRange": 15000,
+      "sensorRange": 750,
+      "detector": "iaacloak",
+      "detectorSlot": 11,
+      "production": [
+        "8472_active",
+        "8472_passive",
+        "714const",
+        "xsuconst",
+        "8472_scout",
+        "8472fig"
+      ],
+      "newSmallCraft": [
+        "8472_scout",
+        "8472fig"
+      ],
+      "smallCraftNames": [
+        "Scout",
+        "Fighter"
+      ],
+      "existingAbilitiesPreserved": true
+    },
+    {
+      "unit": "xbtarray",
+      "race": "borg",
+      "gunRangeBefore": 600,
+      "gunRangeAfter": 750,
+      "oldSensorRange": 15000,
+      "sensorRange": 750,
+      "detector": "iaacloak",
+      "detectorSlot": 13,
+      "production": [
+        "bconst",
+        "bconst2",
+        "xbuconst",
+        "bfreight",
+        "bscout",
+        "bdestroy"
+      ],
+      "newSmallCraft": [
+        "bscout",
+        "bdestroy"
+      ],
+      "smallCraftNames": [
+        "Scouting Cube",
+        "Interceptor"
+      ],
+      "existingAbilitiesPreserved": true
+    }
+  ],
+  "normalWeaponRangeIncrease": 25,
+  "sharedWeaponsChanged": false,
+  "damageAndFireRateChanged": false,
+  "shipStatsAndResearchRequirementsChanged": false,
+  "runtimeVerified": false,
+  "diagnosis": "Potential distant-primary-target lock: native rangeScan 15000 versus gun range 600. Acquisition is aligned to upgraded gun range 750; native combat permissions are explicit. Alert status still follows native construction inheritance; gameplay test required.",
+  "sources": [
+    "https://guide.fleetops.net/guide/modding/fo-odf-commands/gameobject/craft",
+    "https://guide.fleetops.net/guide/modding/fo-odf-commands/weapon"
+  ],
+  "backup": "D:\\Xaramada-Modwork\\backups\\array-defense-update-20261025-091507"
+}

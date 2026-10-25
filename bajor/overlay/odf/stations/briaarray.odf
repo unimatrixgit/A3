@@ -241,14 +241,14 @@ classLabel = "starbase"
 
 //************************************************************
 // Brian additions for context sensitive menus
-combat = 1
-alert = 1
+
+
 transporter = 1
 builder_ship = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
 
-rangeScan = 15000.0f
+
 shieldDelay = 0.01f
 
 
@@ -382,38 +382,82 @@ hullTargetHardpoints = "iagun01" "iagun02" "iagun03" "iagun04" "iagun05" "iagun0
 
 criticalTargetHardpoints = "iagun01" "iagun02" "iagun03" "iagun04" "iagun05" "iagun06"
 
-weapon1 = "bb3phas"
+
 weaponHardpoints1 = "iagun01"
 
-weapon2 = "bb3phas"
+
 weaponHardpoints2 = "iagun02"
 
-weapon3 = "bb3phas"
+
 weaponHardpoints3 = "iagun03"
 
-weapon4 = "bb3phas"
+
 weaponHardpoints4 = "iagun04"
 
-weapon5 = "bb3phas"
+
 weaponHardpoints5 = "iagun05"
 
-weapon6 = "bb3phas"
+
 weaponHardpoints6 = "iagun06"
 
-weapon7 = "bb3phot"
+
 weaponHardpoints7 = "iagun07"
 
-weapon8 = "bb3phot"
+
 weaponHardpoints8 = "iagun08"
 
-weapon9 = "bb3phot"
+
 weaponHardpoints9 = "iagun09"
 
-weapon10 = "bb3phot"
+
 weaponHardpoints10 = "iagun10"
+
+
+
+
+
+
+
+weapon1 = "iaautob"
+
+weapon2 = "iaautob"
+
+weapon3 = "iaautob"
+
+weapon4 = "iaautob"
+
+weapon5 = "iaautob"
+
+weapon6 = "iaautob"
+
+weapon7 = "iaautot"
+
+weapon8 = "iaautot"
+
+weapon9 = "iaautot"
+
+weapon10 = "iaautot"
+
+rangeScan = 750
+
+canAttack = 1
+
+COMBAT = 1
+
+ALERT = 1
+
+defaultGreenAlert = 0
+
+weapon11 = "iaacloak"
+
+weaponHardpoints11 = "iagun12"
 
 buildItem0 = "brconst"
 
 buildItem1 = "brfreight"
 
-verboseTooltip = "Iconian Battle Array\nBattle defence, ship construction\nAncient architecture reforged for a new empire."
+buildItem2 = "brscout"
+
+buildItem3 = "brdestroy"
+
+verboseTooltip = "Iconian Battle Array\nBattle defence, ship construction; Cloak Detection\nAncient architecture reforged for a new empire."

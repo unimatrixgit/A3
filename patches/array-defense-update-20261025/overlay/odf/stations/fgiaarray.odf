@@ -1,0 +1,467 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+
+
+//Amount of time required to build ship
+buildTime = 500.0
+
+//Number of officers required to build this ship
+officerCost = 50
+
+//Number of crew required to build ship & Starting crew
+crewCost = 5000
+
+//Number of maximum crew (only specified if different from crewCost)
+maximumCrew = 5000
+
+//The number of crew added to the capacity
+maxCrewGain = 30000
+
+//Dilithium Cost to build
+dilithiumCost = 9500
+
+//Metal cost to build
+metalCost = 16500
+
+//Number of Officers starbase gives by default
+officerGain = 0
+
+//Maximum number of officer quarters
+maximumUpgrades = 6
+
+//Max Shield Strength & Begining Shield Strength <21000
+maxHealth = 22000
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 1460
+
+//Maximum Value of Special Energy
+maxSpecialEnergy = 200000
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 20000
+
+//Shield absorbs all damage until it's gone
+shieldProtection = 1.0
+
+//Possible Craft Names
+
+	"NX38-98647" "NX38-42443" "NX38-48689" "NX38-97945"
+	"NX38-52468" "NX38-12275" "NX38-80571" "NX38-12157"
+	"NX38-45262" "NX38-8675309" "NX38-76168" "NX38-94657"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Hardpoints to hit for various systems and other locations.
+
+
+
+
+
+
+
+
+
+// this does damage to the crew
+
+
+// this does damage to the hull
+
+
+//**********************************************************************
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+//Hardpoint location for building.
+
+//**********************************************************************
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 1.0f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 2.00f
+
+
+//**********************************************************************
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.5f
+//**********************************************************************
+
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 1000
+enginesHitPoints = 1000
+weaponsHitPoints = 1000
+lifeSupportHitPoints = 1000
+sensorsHitPoints = 1000
+
+//**********************************************************************
+
+
+
+//**********************************************************************
+//SYSTEM DAMAGE DISTRIBUTION
+//The following section's values should add up to 100
+//Percent Chance out of 100 of engines being destroyed
+enginesHitPercent = 0.0f
+
+//Percent Chance out of 100 of life support being destroyed
+lifeSupportHitPercent = 10.5f
+
+//Percent Chance out of 100 of weapons being destroyed
+weaponsHitPercent = 10.0f
+
+//Percent Chance out of 100 of shields being destroyed
+shieldGeneratorHitPercent = 13.0f
+
+//Percent Chance out of 100 of sensors being destroyed
+sensorsHitPercent = 13.0f
+
+//Percent Chance out of 100 of hull being hit (crew dying)
+crewHitPercent = 13.5f
+
+//Percent Chance out of 100 of entire ship exploding
+hullHitPercent = 40.0f
+//**********************************************************************
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+//**********************************************************************
+
+eventSelect = "StarbaseSelect"
+eventAcknowledge = "StarbaseAcknowledge"
+eventAttack = "StarbaseAttack"
+eventDecommission = "StarbaseDecommission"
+
+
+//**********************************************************************
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+classLabel = "starbase"
+
+
+//**********************************************************************
+
+
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "starbase"
+
+
+//************************************************************
+// Brian additions for context sensitive menus
+
+
+transporter = 1
+builder_ship = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+
+shieldDelay = 0.01f
+
+
+
+
+
+
+
+
+
+latinumCost = 0
+
+biomatterCost = 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+baseName = "ia26_fgiaarray"
+
+race = "ferengi"
+
+unitName = "Iconian Battle Array"
+
+tooltip = "Iconian Battle Array"
+
+possibleCraftNames = "Ferengi Iconian Array"
+
+buildHardpoint = "iabuild"
+
+dockingHardpoint = "iadock"
+
+repairfacility = 0
+
+freighterName = "xfgdil3"
+
+resourcesCanHandle = "dilithium"
+
+dilithiumTransferRate = 30
+
+biomatterTransferRate = 0
+
+hotkeyLabel = "HOTKEY_F14"
+
+enginesTargetHardpoints = "iagun01" "iagun02" "iagun03" "iagun04" "iagun05" "iagun06"
+
+lifeSupportTargetHardpoints = "iagun01" "iagun02" "iagun03" "iagun04" "iagun05" "iagun06"
+
+weaponsTargetHardpoints = "iagun01" "iagun02" "iagun03" "iagun04" "iagun05" "iagun06"
+
+shieldGeneratorTargetHardpoints = "iagun01" "iagun02" "iagun03" "iagun04" "iagun05" "iagun06"
+
+sensorsTargetHardpoints = "iagun01" "iagun02" "iagun03" "iagun04" "iagun05" "iagun06"
+
+hullTargetHardpoints = "iagun01" "iagun02" "iagun03" "iagun04" "iagun05" "iagun06"
+
+criticalTargetHardpoints = "iagun01" "iagun02" "iagun03" "iagun04" "iagun05" "iagun06"
+
+
+weaponHardpoints1 = "iagun01"
+
+
+weaponHardpoints2 = "iagun02"
+
+
+weaponHardpoints3 = "iagun03"
+
+
+weaponHardpoints4 = "iagun04"
+
+
+weaponHardpoints5 = "iagun05"
+
+
+weaponHardpoints6 = "iagun06"
+
+
+weaponHardpoints7 = "iagun07"
+
+
+weaponHardpoints8 = "iagun08"
+
+
+weaponHardpoints9 = "iagun09"
+
+
+weaponHardpoints10 = "iagun10"
+
+
+
+
+
+
+
+
+
+weapon1 = "iaautob"
+
+weapon2 = "iaautob"
+
+weapon3 = "iaautob"
+
+weapon4 = "iaautob"
+
+weapon5 = "iaautob"
+
+weapon6 = "iaautob"
+
+weapon7 = "iaautot"
+
+weapon8 = "iaautot"
+
+weapon9 = "iaautot"
+
+weapon10 = "iaautot"
+
+rangeScan = 750
+
+canAttack = 1
+
+COMBAT = 1
+
+ALERT = 1
+
+defaultGreenAlert = 0
+
+weapon11 = "iaacloak"
+
+weaponHardpoints11 = "iagun12"
+
+buildItem0 = "xfgconst"
+
+buildItem1 = "xfgdil2"
+
+buildItem2 = "xfgdil3"
+
+buildItem3 = "xfgfight"
+
+buildItem4 = "xfgfrig"
+
+verboseTooltip = "Iconian Battle Array\nBattle defence, ship construction; Cloak Detection\nAncient architecture reforged for a new empire."
