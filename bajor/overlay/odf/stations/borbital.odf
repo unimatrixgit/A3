@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Orbital Extraction Facility"
 
 //tooltips
 
@@ -169,9 +169,9 @@ weaponHardpoints6 = "hp05"
 weapon7 = "bc2phas"
 weaponHardpoints7 = "hp06"
 
+tooltip = "Orbital Mining Station (Orbital Extraction Facility)"
 
-
-
+verboseTooltip = "Processes planetary resources and supports orbital operations. Collective engineering integrates this asset into the unimatrix. Special systems: Orbital Mining Beam. Availability follows the selected technology tree."
 
 recrewRate = 10
 
@@ -184,9 +184,3 @@ metalCost = 0
 latinumCost = 0
 
 biomatterCost = 0
-
-unitName = "Collective Orbital Extraction Facility"
-
-tooltip = "Collective Orbital Extraction Facility"
-
-verboseTooltip = "Collective service. Processes orbital metal resources. Armament: 6 standard weapon banks. Abilities: Orbital Mining Beam. Special energy: 0."

@@ -1,7 +1,7 @@
 #include "LifeSupportUpgradePod.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Level 2 Life Support Pod"
 
 //Race which can build ship & starting race of ship
 race = "cardassian"
@@ -49,12 +49,6 @@ latinumCost = 200
 
 biomatterCost = 0
 
+tooltip = "Research Upgrade (Level 2 Life Support Pod)"
 
-
-
-
-unitName = "Cardassian Level 2 Life Support Pod"
-
-tooltip = "Cardassian Level 2 Life Support Pod"
-
-verboseTooltip = "Cardassian service. Unlocks its assigned research upgrade."
+verboseTooltip = "Researches Level 2 Life Support Pod. Cardassian engineering sustains the Union through ordered, persistent operations."

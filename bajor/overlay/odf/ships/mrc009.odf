@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "C"
-
+unitname = "Mirror Constitution Class"
 ishero = 0
 label = "USS Enterprise NCC-1701"
 race = "federation"
@@ -77,7 +77,7 @@ eventgreenalert = "XV_fent_GreenAlert"
 eventtransport = "XV_fent_Transport"
 eventselfdestruct = "XV_fent_SelfDestruct"
 eventdecommission = "XV_fent_Decommission"
-
+tooltip = "Mirror Constitution Class"
 
 
 
@@ -110,10 +110,4 @@ buildTime = 104
 
 hotkeyLabel = "HOTKEY_F3"
 
-
-
-unitName = "Starfleet Mirror Constitution Class"
-
-tooltip = "Starfleet Mirror Constitution Class"
-
-verboseTooltip = "Starfleet service. Controllable Mirror Universe counterpart, built through normal production. Armament: 4 standard weapon banks. Abilities: Enterprise Upgrade. Special energy: 1000."
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

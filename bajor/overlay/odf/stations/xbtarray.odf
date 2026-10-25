@@ -253,11 +253,11 @@ shieldDelay = 0.01f
 
 baseName = "xbtarray"
 
+unitName = "Borg Tactical Battle Array"
 
+tooltip = "Borg Tactical Battle Array"
 
-
-
-
+verboseTooltip = "Heavy Borg command station with six beam banks, four torpedo banks, green holding/assimilation and transwarp. Builds Borg constructors and mining freighters."
 
 latinumCost = 0
 
@@ -325,12 +325,7 @@ sensorsTargetHardpoints = "hp67" "hp66" "hp65" "hp64" "hp63" "hp62"
 
 hullTargetHardpoints = "hp67" "hp66" "hp65" "hp64" "hp63" "hp62"
 
-criticalTargetHardpoints = "hp67" "hp66" "hp65" "hp64" "hp63" "hp62"
-
-
-
-
-
+criticalTargetHardpoints = "hp67" "hp66" "hp65" "hp64" "hp63" "hp62"
 
 buildItem0 = "bconst"
 
@@ -339,9 +334,3 @@ buildItem1 = "bconst2"
 buildItem2 = "xbuconst"
 
 buildItem3 = "bfreight"
-
-unitName = "Borg Tactical Battle Array"
-
-tooltip = "Borg Tactical Battle Array"
-
-verboseTooltip = "Collective service. Anchors the fleet and produces the units shown in its build menu. Armament: 10 standard weapon banks. Abilities: Green Holding / Assimilation Beam, Transwarp Drive. Special energy: 200000."

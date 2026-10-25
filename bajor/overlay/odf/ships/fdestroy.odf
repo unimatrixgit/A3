@@ -1,7 +1,7 @@
 #include "destroy.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Defiant Class"
 
 //tooltips
 
@@ -168,17 +168,11 @@ ScaleSOD = 0.6075
 
 
 
+tooltip = "Attack Ship (Defiant Class)"
 
-
-
+verboseTooltip = "A light combat ship for interception and fleet support. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Antimatter Mines, Cloak. Availability follows the selected technology tree."
 dilithiumcost = 290
 metalcost = 75
 latinumcost = 0
 biomattercost = 0
 crewCost = 115
-
-unitName = "Starfleet Defiant Class"
-
-tooltip = "Starfleet Defiant Class"
-
-verboseTooltip = "Starfleet service. Serves as a destroyer. Armament: 6 standard weapon banks. Abilities: Antimatter Mines, Cloak. Special energy: 680."

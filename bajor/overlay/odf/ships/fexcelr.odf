@@ -1,7 +1,7 @@
 #include "cruise1.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Excelsior Class Refit"
 
 
 
@@ -152,17 +152,11 @@ weaponHardpoints5 = "hp01"
 
 
 
+tooltip = "Cruiser (Excelsior Class Refit)"
 
-
-
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Transwarp Drive, Chain Reaction Pulsar. Availability follows the selected technology tree."
 dilithiumcost = 290
 metalcost = 95
 latinumcost = 0
 biomattercost = 0
 crewCost = 225
-
-unitName = "Starfleet Excelsior Class Refit"
-
-tooltip = "Starfleet Excelsior Class Refit"
-
-verboseTooltip = "Starfleet service. Serves as a cruiser. Armament: 3 standard weapon banks. Abilities: Transwarp Drive, Chain Reaction Pulsar. Special energy: 1500."

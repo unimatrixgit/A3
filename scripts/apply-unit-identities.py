@@ -1,6 +1,7 @@
 from pathlib import Path
 import json,datetime,subprocess,hashlib,shutil,os
 repo=Path('D:/aramada');root=Path('D:/armadaIII');report=repo/'reports/unit-identity-staged.json';m=json.loads(report.read_text());stage=Path(m['stage']);assert not m['applied'],'Already applied'
+assert not m.get('withdrawn') and m.get('status')!='withdrawn after runtime crash; do not apply','Pack withdrawn after runtime crash'
 assert subprocess.run(['powershell','-NoProfile','-Command','if(Get-Process armada2 -ErrorAction SilentlyContinue){exit 1}'],capture_output=True).returncode==0,'Game is running'
 assert hashlib.sha256((root/'Sprites/gui_global.spr').read_bytes()).hexdigest()==m['sourceSpriteSha256'],'Live sprite baseline changed'
 for rel,h in {**m['sourceODFHashes'],**m.get('sourceAssetHashes',{})}.items():assert hashlib.sha256((root/rel).read_bytes()).hexdigest()==h,('Live baseline changed',rel)

@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-
+unitname = "Martok - Negh'Var"
 ishero = 1
 label = "Martok - Negh'Var"
 race = "klingon"
@@ -73,7 +73,7 @@ hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "
 criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
 weaponyellow = 1.0f
 weaponred = 0.75f
-
+basename = "kbattle"
 hotkeylabel = "HOTKEY_F4"
 officercost = 8
 buildtime = 71
@@ -83,8 +83,8 @@ eventgreenalert = "XV_xhkhero_GreenAlert"
 eventtransport = "XV_xhkhero_Transport"
 eventselfdestruct = "XV_xhkhero_SelfDestruct"
 eventdecommission = "XV_xhkhero_Decommission"
-
-
+tooltip = "Hero Ship (Martok - Negh'Var)"
+verbosetooltip = "A named command vessel serving the Klingon fleet. Klingon engineering serves the Empire with direct, relentless force. Special systems: Ion Cannon, Cloak. Availability follows the selected technology tree."
 dilithiumcost = 855
 metalcost = 365
 latinumcost = 0
@@ -172,11 +172,3 @@ weaponHardpoints12 = "hp03"
 maxspecialenergy = 2400
 
 specialenergyrate = 24
-
-unitName = "Martok - Negh'Var"
-
-tooltip = "Martok - Negh'Var"
-
-verboseTooltip = "Klingon service. Hero vessel with its own command abilities. Armament: 9 standard weapon banks. Abilities: Ion Cannon, Self Destruct, Cloak. Special energy: 2400."
-
-baseName = "xui_xhkhero"

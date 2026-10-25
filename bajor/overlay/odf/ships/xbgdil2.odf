@@ -7,7 +7,7 @@ sensorsTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
 hullTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
 criticalTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
 
-
+baseName = "xfgmine"
 
 
 
@@ -67,9 +67,9 @@ maxDilithium = 300
 
 
 
+unitName = "Mercenary Ferengi Enhanced Dilithium Collector"
 
-
-
+tooltip = "Enhanced Dilithium Collector"
 
 
 
@@ -92,14 +92,6 @@ latinumCost = 0
 
 biomatterCost = 0
 
-
+verboseTooltip = "Borg contract paid in dilithium and metal. Research-unlocked collector with45 units extracted every1.5 seconds. dilithium and metal resource cost only."
 
 maxLatinum = 0
-
-unitName = "Collective Mercenary Ferengi Enhanced Dilithium Collector"
-
-tooltip = "Collective Mercenary Ferengi Enhanced Dilithium Collector"
-
-verboseTooltip = "Collective service. Extracts dilithium and supports the faction economy. Abilities: Mining Beam. Special energy: 0."
-
-baseName = "xui_xbgdil2"

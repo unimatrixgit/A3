@@ -52,7 +52,7 @@ shiptype = "X"
 combat = 1
 alert = 1
 can_sandd = 1
-
+unitname = "Mirror Diamond"
 ishero = 0
 label = "Borg Queen's Diamond"
 possiblecraftnames = "Mirror Diamond"
@@ -81,7 +81,7 @@ eventgreenalert = "XV_bqueen_GreenAlert"
 eventtransport = "XV_bqueen_Transport"
 eventselfdestruct = "XV_bqueen_SelfDestruct"
 eventdecommission = "XV_bqueen_Decommission"
-
+tooltip = "Mirror Diamond"
 
 
 
@@ -123,10 +123,4 @@ buildTime = 125
 
 hotkeyLabel = "HOTKEY_F2"
 
-
-
-unitName = "Collective Mirror Diamond"
-
-tooltip = "Collective Mirror Diamond"
-
-verboseTooltip = "Collective service. Controllable Mirror Universe counterpart, built through normal production. Armament: 4 standard weapon banks. Abilities: Ultritium Burst, Nanites, Computer Override, Shield Remodulation, Transwarp Drive. Special energy: 8500."
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

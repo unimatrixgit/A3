@@ -1,7 +1,7 @@
 #include "ShieldUpgradePod.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitname = "Bajoran Shields II"
 
 //Race which can build ship & starting race of ship
 race = "bajoran"
@@ -85,14 +85,8 @@ latinumCost = 300
 
 biomatterCost = 0
 
+tooltip = "Research Upgrade (Bajoran Shields II)"
 
-
-
+verboseTooltip = "Researches Bajoran Shields II. Bajoran militia engineering protects Bajor and its neighboring systems."
 
 baseName = "bv4_bjpod12"
-
-unitName = "Bajoran Shields II"
-
-tooltip = "Bajoran Shields II"
-
-verboseTooltip = "Bajoran service. Unlocks its assigned research upgrade."

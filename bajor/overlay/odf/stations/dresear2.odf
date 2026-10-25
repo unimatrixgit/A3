@@ -1,6 +1,6 @@
 // Begin main properties
 
-
+unitName = "Dominion Advanced Science Station"
 
 
 race = "dominion"
@@ -129,9 +129,9 @@ latinumCost = 625
 
 biomatterCost = 0
 
+tooltip = "Research Facility (Dominion Advanced Science Station)"
 
-
-
+verboseTooltip = "Supports the technologies and upgrades available in its research menu. Dominion engineering serves the Founders through disciplined JemHadar operations."
 
 baseName = "mrst_dom"
 
@@ -145,9 +145,3 @@ buildItem1 = "dompod7"
 buildItem2 = "dompod8"
 
 buildItem3 = "dompod16"
-
-unitName = "Dominion Advanced Science Station"
-
-tooltip = "Dominion Advanced Science Station"
-
-verboseTooltip = "Dominion service. Develops the technologies listed in its research menu."

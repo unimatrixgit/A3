@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitname = "Bajoran Advanced Sensors"
 
 //tooltips
 
@@ -92,14 +92,8 @@ latinumCost = 300
 
 biomatterCost = 0
 
+tooltip = "Research Upgrade (Bajoran Advanced Sensors)"
 
-
-
+verboseTooltip = "Researches Bajoran Advanced Sensors. Bajoran militia engineering protects Bajor and its neighboring systems."
 
 baseName = "bv4_bjpod8"
-
-unitName = "Bajoran Advanced Sensors"
-
-tooltip = "Bajoran Advanced Sensors"
-
-verboseTooltip = "Bajoran service. Unlocks its assigned research upgrade."

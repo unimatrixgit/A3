@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-
+unitname = "Sovereign Class"
 ishero = 1
 label = "Enterprise NCC 1701-E"
 race = "federation"
@@ -78,8 +78,8 @@ eventgreenalert = "XV_fente_GreenAlert"
 eventtransport = "XV_fente_Transport"
 eventselfdestruct = "XV_fente_SelfDestruct"
 eventdecommission = "XV_fente_Decommission"
-
-
+tooltip = "Hero Ship (Sovereign Class)"
+verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
 dilithiumcost = 1365
 metalcost = 585
 latinumcost = 0
@@ -131,9 +131,3 @@ weaponHardpoints6 = "hp29"
 maxspecialenergy = 11000
 
 specialenergyrate = 110
-
-unitName = "Sovereign Class"
-
-tooltip = "Sovereign Class"
-
-verboseTooltip = "Starfleet service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Self Destruct, Corbomite Reflector. Special energy: 11000."

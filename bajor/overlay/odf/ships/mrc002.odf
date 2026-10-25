@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-
+unitname = "Mirror Colonel Kira Nerys - Bajoran Command Battleship"
 ishero = 0
 label = "Enterprise NCC 1701-E"
 race = "bajoran"
@@ -78,7 +78,7 @@ eventcloakdisengage = "XVoice_Kira_CloakDisengage"
 maxhealth = 8250
 shieldrate = 110
 officercost = 17
-
+tooltip = "Mirror Colonel Kira Nerys - Bajoran Command Battleship"
 
 
 
@@ -115,10 +115,4 @@ buildTime = 138
 
 hotkeyLabel = "HOTKEY_F1"
 
-
-
-unitName = "Bajoran Mirror Colonel Kira Nerys - Bajoran Command Battleship"
-
-tooltip = "Bajoran Mirror Colonel Kira Nerys - Bajoran Command Battleship"
-
-verboseTooltip = "Bajoran service. Controllable Mirror Universe counterpart, built through normal production. Armament: 4 standard weapon banks. Abilities: Self Destruct, Corbomite Reflector. Special energy: 11000."
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

@@ -1,6 +1,6 @@
 #include "scoutBase.odf"
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Nova Class"
 
 
 
@@ -114,17 +114,11 @@ ScaleSOD = 0.45
 
 
 
+tooltip = "Scout (Nova Class)"
 
-
-
+verboseTooltip = "Surveys space and locates threats ahead of the fleet. Starfleet engineering supports a disciplined, versatile fleet."
 dilithiumcost = 75
 metalcost = 0
 latinumcost = 0
 biomattercost = 0
 crewCost = 25
-
-unitName = "Starfleet Nova Class"
-
-tooltip = "Starfleet Nova Class"
-
-verboseTooltip = "Starfleet service. Serves as a scout. Armament: 1 standard weapon banks."

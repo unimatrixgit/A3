@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Transwarp Gate"
 
 
 
@@ -135,12 +135,6 @@ latinumCost = 0
 
 biomatterCost = 0
 
+tooltip = "Research Upgrade (Transwarp Gate)"
 
-
-
-
-unitName = "Collective Transwarp Gate - Directive"
-
-tooltip = "Collective Transwarp Gate - Directive"
-
-verboseTooltip = "Collective service. Unlocks its assigned research upgrade. Abilities: Transwarp Gate. Special energy: 5000."
+verboseTooltip = "Researches Transwarp Gate. Collective engineering integrates this asset into the unimatrix. Special systems: Transwarp Gate. Availability follows the selected technology tree."

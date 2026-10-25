@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-
+unitname = "Jean-Luc Picard - Enterprise E"
 ishero = 1
 label = "Jean-Luc Picard - Enterprise E"
 race = "federation"
@@ -78,8 +78,8 @@ eventgreenalert = "XV_xhfhero_GreenAlert"
 eventtransport = "XV_xhfhero_Transport"
 eventselfdestruct = "XV_xhfhero_SelfDestruct"
 eventdecommission = "XV_xhfhero_Decommission"
-
-
+tooltip = "Hero Ship (Jean-Luc Picard - Enterprise E)"
+verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
 dilithiumcost = 1490
 metalcost = 640
 latinumcost = 0
@@ -132,9 +132,3 @@ weaponHardpoints6 = "hp29"
 maxspecialenergy = 11000
 
 specialenergyrate = 110
-
-unitName = "Jean-Luc Picard - Enterprise E"
-
-tooltip = "Jean-Luc Picard - Enterprise E"
-
-verboseTooltip = "Starfleet service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Self Destruct, Corbomite Reflector. Special energy: 11000."

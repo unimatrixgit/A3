@@ -107,7 +107,7 @@ baseName = "ryard3"
 crewCost = 500
 officerCost = 5
 
-
+unitName = "Raptor's Talon Shipyard"
 
 
 
@@ -124,9 +124,9 @@ latinumCost = 0
 
 biomatterCost = 0
 
+tooltip = "Shipyard (Raptor's Talon Shipyard)"
 
-
-
+verboseTooltip = "Produces the vessels listed in its construction menu. Romulan engineering favors calculated strikes and control of the battlefield."
 
 buildItem0 = "rtswarb"
 
@@ -157,9 +157,3 @@ dilithiumCost = 450
 metalCost = 1350
 
 buildTime = 120
-
-unitName = "Romulan Raptor's Talon Shipyard"
-
-tooltip = "Romulan Raptor's Talon Shipyard"
-
-verboseTooltip = "Romulan service. Constructs the vessels available in its production menu."

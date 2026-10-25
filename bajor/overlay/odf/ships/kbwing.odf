@@ -1,7 +1,7 @@
 #include "battle2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Bloodwing Class"
 
 //tooltips
 
@@ -134,18 +134,12 @@ specialEnergyRate = 14.0
 
 
 
+tooltip = "Capital Ship (Bloodwing Class)"
 
-
-
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak, Ion Cannon. Availability follows the selected technology tree."
 weapon3 = "gkcloak"
 dilithiumcost = 420
 metalcost = 180
 latinumcost = 0
 biomattercost = 0
 crewCost = 730
-
-unitName = "Klingon Bloodwing Class"
-
-tooltip = "Klingon Bloodwing Class"
-
-verboseTooltip = "Klingon service. Serves as a battleship. Armament: 2 standard weapon banks. Abilities: Cloak, Ion Cannon. Special energy: 1400."

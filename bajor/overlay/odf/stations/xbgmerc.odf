@@ -113,13 +113,13 @@ SHOW_SW_AUTONOMY = 1
 
 // make it bigger
 
+unitName = "Mercenary Ferengi Contract Yard"
+
+tooltip = "Mercenary Ferengi Contract Yard"
 
 
 
-
-
-
-
+baseName = "xfgmerc"
 
 maxHealth = 2400
 
@@ -190,7 +190,7 @@ latinumCost = 0
 
 biomatterCost = 0
 
-
+verboseTooltip = "Borg contract paid in dilithium and metal. Contracts Ferengi warships, three mercenary heroes and a 1,500-capacity trade ship. Resource costs are dilithium and metal only."
 
 
 
@@ -221,11 +221,3 @@ buildItem7 = "xbgnagus"
 buildItem8 = "xbgdaim"
 
 buildItem9 = "xbgconst"
-
-unitName = "Collective Mercenary Ferengi Contract Yard"
-
-tooltip = "Collective Mercenary Ferengi Contract Yard"
-
-verboseTooltip = "Collective service. Constructs the vessels available in its production menu."
-
-baseName = "xui_xbgmerc"

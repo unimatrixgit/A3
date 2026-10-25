@@ -1,7 +1,7 @@
 #include "battle.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Borg Cube"
 
 //tooltips
 
@@ -188,23 +188,14 @@ specialEnergyRate = 15.0
 
 
 
+tooltip = "Capital Ship (Borg Cube)"
 
-
-
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Collective engineering integrates this asset into the unimatrix. Special systems: Transwarp Drive, Green Holding / Assimilation Beam, Technology Assimilation Beam, Regeneration. Availability follows the selected technology tree."
 dilithiumcost = 550
 metalcost = 150
 latinumcost = 0
-biomattercost = 0
-
+biomattercost = 0
 
 crewCost = 1080
 
 maximumCrew = 1080
-
-unitName = "Borg Cube"
-
-tooltip = "Borg Cube"
-
-verboseTooltip = "Collective service. Serves as a battleship. Armament: 2 standard weapon banks. Abilities: Transwarp Drive, Green Holding / Assimilation Beam, Detect Cloak, Technology Assimilation Beam, Regeneration. Special energy: 1500."
-
-baseName = "xui_bbattle1"

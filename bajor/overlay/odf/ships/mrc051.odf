@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-
+unitname = "Mirror Sela - Warbird"
 race = "romulan"
 maxhealth = 2715
 sanecrewlossmethod = 1
@@ -91,7 +91,7 @@ weaponred = 2.0f
 
 officercost = 16
 
-
+tooltip = "Mirror Sela - Warbird"
 
 weapon9 = "gselfdes"
 
@@ -130,10 +130,4 @@ buildTime = 75
 
 hotkeyLabel = "HOTKEY_F3"
 
-
-
-unitName = "Romulan Mirror Sela - Warbird"
-
-tooltip = "Romulan Mirror Sela - Warbird"
-
-verboseTooltip = "Romulan service. Controllable Mirror Universe counterpart, built through normal production. Armament: 8 standard weapon banks. Abilities: Cloak, Shield Inversion Beam, Self Destruct. Special energy: 1600."
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

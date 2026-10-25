@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Weapon Enhancer Pod"
 
 //tooltips
 
@@ -66,12 +66,6 @@ latinumCost = 300
 
 biomatterCost = 0
 
+tooltip = "Research Upgrade (Weapon Enhancer Pod)"
 
-
-
-
-unitName = "Dominion Weapon Enhancer Pod"
-
-tooltip = "Dominion Weapon Enhancer Pod"
-
-verboseTooltip = "Dominion service. Unlocks its assigned research upgrade."
+verboseTooltip = "Researches Weapon Enhancer Pod. Dominion engineering serves the Founders through disciplined JemHadar operations."

@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "D"
-
+unitname = "Defiant Class"
 race = "federation"
 maxhealth = 6800
 shieldrate = 68
@@ -89,8 +89,8 @@ hotkeylabel = "HOTKEY_F3"
 officercost = 7
 buildtime = 12
 scalesod = 0.588489
-
-
+tooltip = "Hero Ship (Defiant Class)"
+verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Antimatter Mines, Cloak. Availability follows the selected technology tree."
 dilithiumcost = 1040
 metalcost = 260
 latinumcost = 0
@@ -160,9 +160,3 @@ weaponHardpoints10 = "hp08"
 maxspecialenergy = 6800
 
 specialenergyrate = 68
-
-unitName = "Defiant Class"
-
-tooltip = "Defiant Class"
-
-verboseTooltip = "Starfleet service. Hero vessel with its own command abilities. Armament: 8 standard weapon banks. Abilities: Antimatter Mines, Cloak. Special energy: 6800."

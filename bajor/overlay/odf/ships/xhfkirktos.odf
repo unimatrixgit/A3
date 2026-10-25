@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-
+unitname = "James T Kirk - Enterprise"
 label = "James T Kirk - Enterprise"
 basename = "fent"
 race = "federation"
@@ -72,8 +72,8 @@ eventgreenalert = "XV_fent_GreenAlert"
 eventtransport = "XV_fent_Transport"
 eventselfdestruct = "XV_fent_SelfDestruct"
 eventdecommission = "XV_fent_Decommission"
-
-
+tooltip = "Hero Ship (James T Kirk - Enterprise)"
+verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
 dilithiumcost = 430
 metalcost = 185
 latinumcost = 0
@@ -125,9 +125,3 @@ weaponHardpoints6 = "hp07"
 maxspecialenergy = 1000
 
 specialenergyrate = 15
-
-unitName = "James T Kirk - Enterprise"
-
-tooltip = "James T Kirk - Enterprise"
-
-verboseTooltip = "Starfleet service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Self Destruct, Corbomite Reflector. Special energy: 1000."

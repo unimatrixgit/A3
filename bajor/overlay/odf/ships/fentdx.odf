@@ -54,7 +54,7 @@ alert = 1
 can_sandd = 1
 shiptype = "B"
 trekphysicsfile = "fbattlephys.odf"
-
+unitname = "Galaxy Class X-Refit"
 race = "federation"
 sanecrewlossmethod = 1
 maxhealth = 15000
@@ -85,8 +85,8 @@ officercost = 10
 buildtime = 120
 
 
-
-
+tooltip = "Capital Ship (Galaxy Class X-Refit)"
+verbosetooltip = "Captain Riker's Enterprise"
 
 
 dilithiumcost = 1640
@@ -152,9 +152,3 @@ weaponHardpoints9 = "hp09"
 maxspecialenergy = 15000
 
 specialenergyrate = 150
-
-unitName = "Galaxy Class X-Refit"
-
-tooltip = "Galaxy Class X-Refit"
-
-verboseTooltip = "Starfleet service. Hero vessel with its own command abilities. Armament: 6 standard weapon banks. Abilities: Self Destruct, Cloak, Enterprise Upgrade. Special energy: 15000."

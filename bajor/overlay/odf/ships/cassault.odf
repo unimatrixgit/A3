@@ -1,7 +1,7 @@
 #include "assault.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Janissary Class"
 
 
 
@@ -129,17 +129,11 @@ buildTime = 13
 
 
 
+tooltip = "Assault Ship (Janissary Class)"
 
-
-
+verboseTooltip = "Supports offensive operations and hostile boarding actions. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Tractor Beam. Availability follows the selected technology tree."
 dilithiumcost = 315
 metalcost = 105
 latinumcost = 0
 biomattercost = 0
 crewCost = 260
-
-unitName = "Cardassian Janissary Class"
-
-tooltip = "Cardassian Janissary Class"
-
-verboseTooltip = "Cardassian service. Serves as a assault. Armament: 2 standard weapon banks. Abilities: Tractor Beam. Special energy: 2200."

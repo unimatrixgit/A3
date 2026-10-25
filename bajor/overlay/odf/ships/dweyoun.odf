@@ -1,4 +1,4 @@
-
+unitname = "Weyoun's Command Battleship"
 race = "dominion"
 maxhealth = 2500
 shieldgeneratorhitpoints = 600
@@ -81,8 +81,8 @@ eventselfdestruct = "XV_dweyoun_SelfDestruct"
 eventdecommission = "XV_dweyoun_Decommission"
 
 
-
-
+tooltip = "Hero Ship (Weyoun's Command Battleship)"
+verbosetooltip = "A named command vessel serving the Dominion fleet. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Polaron Torpedo. Availability follows the selected technology tree."
 dilithiumcost = 310
 metalcost = 130
 latinumcost = 0
@@ -140,9 +140,3 @@ weaponHardpoints7 = "hp11"
 maxspecialenergy = 1400
 
 specialenergyrate = 14.0
-
-unitName = "Weyoun's Command Battleship"
-
-tooltip = "Weyoun's Command Battleship"
-
-verboseTooltip = "Dominion service. Hero vessel with its own command abilities. Armament: 5 standard weapon banks. Abilities: Polaron Torpedo, Self Destruct. Special energy: 1400."

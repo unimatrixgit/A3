@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "C"
-
+unitname = "Mirror Intrepid Class"
 ishero = 0
 label = "USS Voyager NCC-74656"
 race = "federation"
@@ -82,7 +82,7 @@ eventtransport = "XV_fvoyager_Transport"
 eventselfdestruct = "XV_fvoyager_SelfDestruct"
 eventdecommission = "XV_fvoyager_Decommission"
 scalesod = 2.8125
-
+tooltip = "Mirror Intrepid Class"
 
 
 
@@ -122,10 +122,4 @@ buildTime = 31
 
 hotkeyLabel = "HOTKEY_F12"
 
-
-
-unitName = "Starfleet Mirror Intrepid Class"
-
-tooltip = "Starfleet Mirror Intrepid Class"
-
-verboseTooltip = "Starfleet service. Controllable Mirror Universe counterpart, built through normal production. Armament: 7 standard weapon banks. Abilities: Self Destruct, Tractor Beam. Special energy: 1000."
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

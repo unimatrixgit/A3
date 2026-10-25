@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Advanced Robotics Institute"
 
 //tooltips
 
@@ -134,12 +134,6 @@ latinumCost = 1250
 
 biomatterCost = 0
 
+tooltip = "Production Facility (Advanced Robotics Institute)"
 
-
-
-
-unitName = "Cardassian Advanced Robotics Institute"
-
-tooltip = "Cardassian Advanced Robotics Institute"
-
-verboseTooltip = "Cardassian service. Constructs the vessels available in its production menu."
+verboseTooltip = "Produces the units or upgrades listed in its construction menu. Cardassian engineering sustains the Union through ordered, persistent operations."

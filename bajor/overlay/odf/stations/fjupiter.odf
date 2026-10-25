@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Jupiter Station"
 
 //tooltips
 
@@ -101,9 +101,9 @@ buildTime = 76
 
 
 
+tooltip = "Starbase (Jupiter Station)"
 
-
-
+verboseTooltip = "A fortified center for fleet operations and local production. Starfleet engineering supports a disciplined, versatile fleet."
 
 repairFacility = 0
 
@@ -126,9 +126,3 @@ buildItem0 = "fconst"
 buildItem1 = "fconst2"
 
 buildItem2 = "xfuconst"
-
-unitName = "Starfleet Jupiter Station"
-
-tooltip = "Starfleet Jupiter Station"
-
-verboseTooltip = "Starfleet service. Anchors the fleet and produces the units shown in its build menu. Armament: 2 standard weapon banks."

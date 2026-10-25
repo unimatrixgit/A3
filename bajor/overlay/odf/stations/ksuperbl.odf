@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Shockwave Station"
 
 //tooltips
 
@@ -108,12 +108,6 @@ latinumCost = 0
 
 biomatterCost = 0
 
+tooltip = "Production Facility (Shockwave Station)"
 
-
-
-
-unitName = "Klingon Shockwave Station"
-
-tooltip = "Klingon Shockwave Station"
-
-verboseTooltip = "Klingon service. Constructs the vessels available in its production menu."
+verboseTooltip = "Produces the units or upgrades listed in its construction menu. Klingon engineering serves the Empire with direct, relentless force."

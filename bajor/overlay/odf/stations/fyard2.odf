@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Sacramento Class"
 
 //tooltips
 
@@ -135,9 +135,9 @@ hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "
 
 criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06" "hp07" "hp08" "hp09"
 
+tooltip = "Shipyard (Sacramento Class)"
 
-
-
+verboseTooltip = "Produces the vessels listed in its construction menu. Starfleet engineering supports a disciplined, versatile fleet."
 
 repairFacility = 1
 
@@ -164,9 +164,3 @@ dilithiumCost = 300
 metalCost = 1000
 
 buildTime = 90
-
-unitName = "Starfleet Sacramento Class"
-
-tooltip = "Starfleet Sacramento Class"
-
-verboseTooltip = "Starfleet service. Constructs the vessels available in its production menu."

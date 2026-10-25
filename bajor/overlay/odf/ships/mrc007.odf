@@ -52,7 +52,7 @@ shiptype = "C"
 combat = 1
 alert = 1
 can_sandd = 1
-
+unitname = "Mirror Nebula Class"
 race = "federation"
 sanecrewlossmethod = 1
 maxhealth = 656.25
@@ -85,7 +85,7 @@ scalesod = 1.375
 trekphysicsfile = "fcruiserphys.odf"
 officercost = 10
 
-
+tooltip = "Mirror Nebula Class"
 
 weapon6 = "gselfdes"
 
@@ -120,10 +120,4 @@ buildTime = 44
 
 hotkeyLabel = "HOTKEY_F1"
 
-
-
-unitName = "Starfleet Mirror Nebula Class"
-
-tooltip = "Starfleet Mirror Nebula Class"
-
-verboseTooltip = "Starfleet service. Controllable Mirror Universe counterpart, built through normal production. Armament: 4 standard weapon banks. Abilities: Shield Disruptor, Gemini Effect, Point Defense Phaser, Self Destruct, Chain Reaction Pulsar. Special energy: 875."
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

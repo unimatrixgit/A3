@@ -1,7 +1,7 @@
 #include "cruise1.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Vor'cha Class"
 
 //tooltips
 
@@ -131,18 +131,12 @@ buildTime = 25
 
 
 
+tooltip = "Cruiser (Vor'cha Class)"
 
-
-
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak, Polaron Torpedo. Availability follows the selected technology tree."
 weapon2 = "gkcloak"
 dilithiumcost = 385
 metalcost = 130
 latinumcost = 0
 biomattercost = 0
 crewCost = 265
-
-unitName = "Klingon Vor'cha Class"
-
-tooltip = "Klingon Vor'cha Class"
-
-verboseTooltip = "Klingon service. Serves as a cruiser. Armament: 3 standard weapon banks. Abilities: Cloak, Polaron Torpedo. Special energy: 2400."

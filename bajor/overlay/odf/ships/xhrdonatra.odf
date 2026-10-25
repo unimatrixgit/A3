@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-
+unitname = "Donatra - Valdore"
 race = "romulan"
 maxhealth = 3506
 sanecrewlossmethod = 1
@@ -91,8 +91,8 @@ weaponred = 2.0f
 hotkeylabel = ""
 officercost = 11
 buildtime = 96.0
-
-
+tooltip = "Hero Ship (Donatra - Valdore)"
+verbosetooltip = "A named command vessel serving the Romulan fleet. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Romulan Spy. Availability follows the selected technology tree."
 
 dilithiumcost = 870
 metalcost = 375
@@ -169,9 +169,3 @@ weaponHardpoints11 = "hp06"
 maxspecialenergy = 1600
 
 specialenergyrate = 16
-
-unitName = "Donatra - Valdore"
-
-tooltip = "Donatra - Valdore"
-
-verboseTooltip = "Romulan service. Hero vessel with its own command abilities. Armament: 7 standard weapon banks. Abilities: Cloak, Romulan Spy, Self Destruct. Special energy: 1600."

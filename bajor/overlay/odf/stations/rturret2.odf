@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Torpedo Turret"
 
 //tooltips
 
@@ -109,12 +109,6 @@ hulltargethardpoints = "hp04" "hp05" "hp06"
 
 criticaltargethardpoints = "hp04" "hp05" "hp06" 
 
+tooltip = "Defense Station (Torpedo Turret)"
 
-
-
-
-unitName = "Romulan Torpedo Turret"
-
-tooltip = "Romulan Torpedo Turret"
-
-verboseTooltip = "Romulan service. Defensive platform armed with torpedo weapons. Armament: 2 standard weapon banks."
+verboseTooltip = "A fixed defensive installation protecting nearby fleet assets. Romulan engineering favors calculated strikes and control of the battlefield."

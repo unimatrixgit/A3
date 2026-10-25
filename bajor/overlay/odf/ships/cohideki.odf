@@ -1,7 +1,7 @@
 #include "scoutBase.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Hideki Class"
 
 //tooltips
 
@@ -132,17 +132,11 @@ weaponHardpoints4 = "hp01"
 
 
 
+tooltip = "Scout (Hideki Class)"
 
-
-
+verboseTooltip = "Surveys space and locates threats ahead of the fleet. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Cloak, Sensor Scrambler. Availability follows the selected technology tree."
 dilithiumcost = 150
 metalcost = 0
 latinumcost = 0
 biomattercost = 0
 crewCost = 40
-
-unitName = "Cardassian Hideki Class"
-
-tooltip = "Cardassian Hideki Class"
-
-verboseTooltip = "Cardassian service. Serves as a scout. Armament: 1 standard weapon banks. Abilities: Cloak, Detect Cloak, Sensor Scrambler. Special energy: 2200."

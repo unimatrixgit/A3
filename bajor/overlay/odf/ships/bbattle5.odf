@@ -1,7 +1,7 @@
 #include "battle.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Ultra Fusion Cube"
 
 //tooltips
 
@@ -254,23 +254,13 @@ weaponHardpoints6 = "hp01"
 
 
 
+tooltip = "Capital Ship (Ultra Fusion Cube)"
 
-
-
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Collective engineering integrates this asset into the unimatrix. Special systems: Transwarp Drive, Green Holding / Assimilation Beam, Technology Assimilation Beam. Availability follows the selected technology tree."
 dilithiumcost = 3060
 metalcost = 835
 latinumcost = 0
-biomattercost = 0
-
-
-
-
-
-
-
-
-
-
+biomattercost = 0
 
 buildItem0 = "bscout"
 
@@ -291,9 +281,3 @@ buildItem7 = "bfreight"
 crewCost = 2545
 
 maximumCrew = 2545
-
-unitName = "Collective Ultra Fusion Cube"
-
-tooltip = "Collective Ultra Fusion Cube"
-
-verboseTooltip = "Collective service. Serves as a battleship. Armament: 2 standard weapon banks. Abilities: Transwarp Drive, Green Holding / Assimilation Beam, Detect Cloak, Technology Assimilation Beam. Special energy: 4000."

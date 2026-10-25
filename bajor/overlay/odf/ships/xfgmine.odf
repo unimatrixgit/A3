@@ -14,15 +14,15 @@ hullTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
 
 criticalTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
 
-
+baseName = "xfgmine"
 
 race = "ferengi"
 
+unitName = "Mercenary Ferengi Mining Collector"
 
+tooltip = "Mercenary Ferengi Mining Collector"
 
-
-
-
+verboseTooltip = "Ferengi mining collector. Contracted at the Ferengi Service Yard for latinum."
 
 maxHealth = 500
 
@@ -77,11 +77,3 @@ weaponHardpoints1 = "hp10"
 weapon2 = "xfgminelat"
 
 weaponHardpoints2 = "hp09"
-
-unitName = "Ferengi Mercenary Ferengi Mining Collector"
-
-tooltip = "Ferengi Mercenary Ferengi Mining Collector"
-
-verboseTooltip = "Ferengi service. Extracts dilithium and supports the faction economy. Abilities: Mining Beam. Special energy: 0."
-
-baseName = "xui_xfgmine"

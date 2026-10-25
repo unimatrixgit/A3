@@ -1,7 +1,7 @@
 #include "assault.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Yeager Class"
 
 //tooltips
 
@@ -125,17 +125,11 @@ maxSpecialEnergy = 1200
 
 
 
+tooltip = "Assault Ship (Yeager Class)"
 
-
-
+verboseTooltip = "Supports offensive operations and hostile boarding actions. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Chain Reaction Pulsar. Availability follows the selected technology tree."
 dilithiumcost = 250
 metalcost = 85
 latinumcost = 0
 biomattercost = 0
 crewCost = 235
-
-unitName = "Starfleet Yeager Class"
-
-tooltip = "Starfleet Yeager Class"
-
-verboseTooltip = "Starfleet service. Serves as a assault. Armament: 4 standard weapon banks. Abilities: Chain Reaction Pulsar. Special energy: 1200."

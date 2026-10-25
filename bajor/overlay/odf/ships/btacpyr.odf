@@ -1,7 +1,7 @@
 #include "battle.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Tactical Pyramid"
 
 //tooltips
 
@@ -154,18 +154,12 @@ specialEnergyRate = 15.0
 
 
 
+tooltip = "Capital Ship (Tactical Pyramid)"
 
-
-
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Collective engineering integrates this asset into the unimatrix. Special systems: Transwarp Drive, Green Holding / Assimilation Beam, Auto-Assimilator, Regeneration. Availability follows the selected technology tree."
 weapon3 = "gselfdes"
 dilithiumcost = 450
 metalcost = 125
 latinumcost = 0
 biomattercost = 0
 crewCost = 725
-
-unitName = "Collective Tactical Pyramid"
-
-tooltip = "Collective Tactical Pyramid"
-
-verboseTooltip = "Collective service. Serves as a battleship. Armament: 2 standard weapon banks. Abilities: Self Destruct, Transwarp Drive, Green Holding / Assimilation Beam, Auto-Assimilator, Regeneration. Special energy: 1500."

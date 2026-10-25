@@ -6,7 +6,7 @@
 race = "romulan"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Reman Class"
 
 //tooltips
 
@@ -127,12 +127,6 @@ latinumCost = 0
 
 biomatterCost = 0
 
+tooltip = "Repair Ship (Reman Class)"
 
-
-
-
-unitName = "Romulan Reman Class"
-
-tooltip = "Romulan Reman Class"
-
-verboseTooltip = "Romulan service. Repairs friendly vessels using its native repair systems. Armament: 1 standard weapon banks. Abilities: Repair Beam, Cloak. Special energy: 2400."
+verboseTooltip = "Supports damaged vessels with field repairs. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Repair Beam, Cloak. Availability follows the selected technology tree."

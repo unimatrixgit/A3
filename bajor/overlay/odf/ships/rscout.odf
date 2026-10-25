@@ -1,7 +1,7 @@
 #include "scoutBase.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Talon Class"
 
 //tooltips
 
@@ -136,17 +136,11 @@ weaponHardpoints5 = "hp01"
 
 
 
+tooltip = "Scout (Talon Class)"
 
-
-
+verboseTooltip = "Surveys space and locates threats ahead of the fleet. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Romulan Spy. Availability follows the selected technology tree."
 dilithiumcost = 235
 metalcost = 0
 latinumcost = 0
 biomattercost = 0
 crewCost = 50
-
-unitName = "Romulan Talon Class"
-
-tooltip = "Romulan Talon Class"
-
-verboseTooltip = "Romulan service. Serves as a scout. Armament: 2 standard weapon banks. Abilities: Detect Cloak, Cloak, Romulan Spy. Special energy: 2400."

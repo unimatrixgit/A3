@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-
+unitname = "Mirror James T Kirk - Enterprise A"
 label = "James T Kirk - Enterprise A"
 
 race = "federation"
@@ -72,7 +72,7 @@ eventgreenalert = "XV_fenta_GreenAlert"
 eventtransport = "XV_fenta_Transport"
 eventselfdestruct = "XV_fenta_SelfDestruct"
 eventdecommission = "XV_fenta_Decommission"
-
+tooltip = "Mirror James T Kirk - Enterprise A"
 
 
 
@@ -106,10 +106,4 @@ buildTime = 106
 
 hotkeyLabel = "HOTKEY_F6"
 
-
-
-unitName = "Starfleet Mirror James T Kirk - Enterprise A"
-
-tooltip = "Starfleet Mirror James T Kirk - Enterprise A"
-
-verboseTooltip = "Starfleet service. Controllable Mirror Universe counterpart, built through normal production. Armament: 4 standard weapon banks. Abilities: Self Destruct, Corbomite Reflector. Special energy: 1000."
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

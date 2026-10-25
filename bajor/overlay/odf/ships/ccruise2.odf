@@ -1,7 +1,7 @@
 #include "cruise2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Gul Vystan Class"
 
 //tooltips
 
@@ -121,17 +121,11 @@ buildTime = 15
 
 
 
+tooltip = "Cruiser (Gul Vystan Class)"
 
-
-
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Flux Wave. Availability follows the selected technology tree."
 dilithiumcost = 145
 metalcost = 50
 latinumcost = 0
 biomattercost = 0
 crewCost = 160
-
-unitName = "Cardassian Gul Vystan Class"
-
-tooltip = "Cardassian Gul Vystan Class"
-
-verboseTooltip = "Cardassian service. Serves as a cruiser. Armament: 1 standard weapon banks. Abilities: Flux Wave. Special energy: 2200."

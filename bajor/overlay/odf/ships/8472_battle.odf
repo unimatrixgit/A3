@@ -1,7 +1,7 @@
 #include "battle.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Battleship"
 
 //tooltips
 
@@ -132,19 +132,11 @@ buildTime = 33
 
 
 
+tooltip = "Capital Ship (Battleship)"
 
-
-
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Living biotechnology shapes this organism for operations beyond fluidic space. Special systems: 8472 Psionic Insanity, 8472 Bio-Pulse Conduit. Availability follows the selected technology tree."
 dilithiumcost = 0
 metalcost = 0
 latinumcost = 0
 biomattercost = 725
 crewCost = 0
-
-unitName = "Fluidic Battleship"
-
-tooltip = "Fluidic Battleship"
-
-verboseTooltip = "Fluidic service. Serves as a battleship. Armament: 1 standard weapon banks. Abilities: 8472 Psionic Insanity, 8472 Bio-Pulse Conduit. Special energy: 5000."
-
-baseName = "xui_8472_battle"

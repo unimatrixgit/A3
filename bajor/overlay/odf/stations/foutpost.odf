@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Spartan Class"
 
 //tooltips
 
@@ -233,9 +233,9 @@ footprintBuffer = 72
 
 
 
+tooltip = "Starbase (Spartan Class)"
 
-
-
+verboseTooltip = "A fortified center for fleet operations and local production. Starfleet engineering supports a disciplined, versatile fleet."
 
 repairFacility = 0
 
@@ -276,9 +276,3 @@ buildItem6 = "fscout"
 buildItem7 = "fdeltaflyer"
 
 buildItem8 = "fantares"
-
-unitName = "Starfleet Spartan Class"
-
-tooltip = "Starfleet Spartan Class"
-
-verboseTooltip = "Starfleet service. Anchors the fleet and produces the units shown in its build menu. Armament: 8 standard weapon banks."

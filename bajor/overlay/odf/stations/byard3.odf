@@ -112,7 +112,7 @@ baseName = "byard3"
 crewCost = 1700
 officerCost = 6
 
-
+unitName = "Advanced Assimilated Matrix"
 
 
 
@@ -124,9 +124,9 @@ latinumCost = 0
 
 biomatterCost = 0
 
+tooltip = "Shipyard (Advanced Assimilated Matrix)"
 
-
-
+verboseTooltip = "Produces the vessels listed in its construction menu. Collective engineering integrates this asset into the unimatrix."
 
 recrewRate = 10
 
@@ -164,9 +164,3 @@ dilithiumCost = 450
 metalCost = 1350
 
 buildTime = 120
-
-unitName = "Collective Advanced Assimilated Matrix"
-
-tooltip = "Collective Advanced Assimilated Matrix"
-
-verboseTooltip = "Collective service. Constructs the vessels available in its production menu."

@@ -181,7 +181,7 @@ can_explore = 1
 crewCost = 0
 officerCost = 1
 buildTime = 234
-
+unitName = "Advanced Hatchery"
 
 
 
@@ -195,9 +195,9 @@ latinumCost = 0
 
 biomatterCost = 1800
 
+tooltip = "Shipyard (Advanced Hatchery)"
 
-
-
+verboseTooltip = "Produces the vessels listed in its construction menu. Living biotechnology shapes this organism for operations beyond fluidic space."
 
 repairFacility = 0
 
@@ -220,9 +220,3 @@ buildItem7 = "mrc055"
 buildItem8 = "mrc056"
 
 buildItem9 = "mrc057"
-
-unitName = "Fluidic Advanced Hatchery"
-
-tooltip = "Fluidic Advanced Hatchery"
-
-verboseTooltip = "Fluidic service. Supports the operations available through its station controls. Armament: 8 standard weapon banks."

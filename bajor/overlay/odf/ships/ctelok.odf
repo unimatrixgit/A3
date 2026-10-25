@@ -1,7 +1,7 @@
 #include "cruise1.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Telok Class"
 
 
 
@@ -98,7 +98,7 @@ scaleSOD = 1.6
 
 
 
-
+baseName = "ctelkor"
 
 
 // Xaramada resource costs: original filename.
@@ -118,20 +118,12 @@ buildTime = 55
 
 
 
+tooltip = "Cruiser (Telok Class)"
 
-
-
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Starfleet engineering supports a disciplined, versatile fleet."
 weapon3 = "gselfdes"
 dilithiumcost = 75
 metalcost = 25
 latinumcost = 0
 biomattercost = 0
 crewCost = 115
-
-unitName = "Starfleet Telok Class"
-
-tooltip = "Starfleet Telok Class"
-
-verboseTooltip = "Starfleet service. Serves as a cruiser. Armament: 2 standard weapon banks. Abilities: Self Destruct. Special energy: 1000."
-
-baseName = "xui_ctelok"

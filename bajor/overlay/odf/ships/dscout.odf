@@ -1,6 +1,6 @@
 // Begin main properties
 
-
+unitName = "Jem'Hadar Scout"
 
 
 race = "dominion"
@@ -134,17 +134,11 @@ buildTime = 10
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 0.9
 
+tooltip = "Scout (Jem'Hadar Scout)"
 
-
-
+verboseTooltip = "Surveys space and locates threats ahead of the fleet. Dominion engineering serves the Founders through disciplined JemHadar operations."
 dilithiumcost = 75
 metalcost = 0
 latinumcost = 0
 biomattercost = 0
 crewCost = 20
-
-unitName = "Dominion Jem'Hadar Scout"
-
-tooltip = "Dominion Jem'Hadar Scout"
-
-verboseTooltip = "Dominion service. Serves as a scout. Armament: 1 standard weapon banks. Abilities: Detect Cloak. Special energy: 0."

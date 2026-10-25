@@ -107,11 +107,11 @@ buildItem1 = "xsbio2"
 
 baseName = "xsbiolab"
 
+unitName = "Biomatter Metabolism Institute"
 
+tooltip = "Biomatter Metabolism Institute"
 
-
-
-
+verboseTooltip = "Researches two tiers of biomatter extraction equipment. No Ferengi technology or other resource upgrades."
 
 biomatterCost = 750
 
@@ -142,9 +142,3 @@ sensorsTargetHardpoints = "hp03" "hp04" "hp05" "hp06" "hp07"
 hullTargetHardpoints = "hp03" "hp04" "hp05" "hp06" "hp07"
 
 criticalTargetHardpoints = "hp03" "hp04" "hp05" "hp06" "hp07"
-
-unitName = "Fluidic Biomatter Metabolism Institute"
-
-tooltip = "Fluidic Biomatter Metabolism Institute"
-
-verboseTooltip = "Fluidic service. Develops the technologies listed in its research menu."

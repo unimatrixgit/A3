@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Orbital Mining Facility"
 
 //tooltips
 
@@ -172,9 +172,9 @@ weaponHardpoints6 = "hp01"
 weapon7 = "bc2phas"
 weaponHardpoints7 = "hp02"
 
+tooltip = "Orbital Mining Station (Orbital Mining Facility)"
 
-
-
+verboseTooltip = "Processes planetary resources and supports orbital operations. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Orbital Mining Beam. Availability follows the selected technology tree."
 
 
 
@@ -185,9 +185,3 @@ metalCost = 0
 latinumCost = 0
 
 biomatterCost = 0
-
-unitName = "Dominion Orbital Mining Facility"
-
-tooltip = "Dominion Orbital Mining Facility"
-
-verboseTooltip = "Dominion service. Processes orbital metal resources. Armament: 6 standard weapon banks. Abilities: Orbital Mining Beam. Special energy: 0."

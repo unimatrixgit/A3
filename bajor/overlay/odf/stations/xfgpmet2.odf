@@ -8,7 +8,7 @@
 
 biomatterCost = 0
 
-
+baseName = "carpod7"
 
 race = "ferengi"
 
@@ -44,11 +44,11 @@ ScaleSOD = 0.6
 
 
 
+unitName = "Metal Contracts II (+100%)"
 
+tooltip = "Metal Contracts II (+100%)"
 
-
-
-
+verboseTooltip = "Unlocks new resource equipment at 200 percent of the base Ferengi extraction rate. Existing equipment is unchanged."
 
 hotkeyLabel = "HOTKEY_F5"
 
@@ -59,11 +59,3 @@ latinumCost = 1350
 dilithiumCost = 0
 
 metalCost = 0
-
-unitName = "Ferengi Metal Contracts II (+100%)"
-
-tooltip = "Ferengi Metal Contracts II (+100%)"
-
-verboseTooltip = "Ferengi service. Processes orbital metal resources."
-
-baseName = "xui_xfgpmet2"

@@ -1,7 +1,7 @@
 #include "battle.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Keldon/Bakrus Class"
 
 //tooltips
 
@@ -137,7 +137,7 @@ hotkeyLabel = "HOTKEY_F4"
 scaleSOD = 3.3
 
 
-
+baseName = "cbattle2"
 
 
 // Xaramada resource costs: original filename.
@@ -157,19 +157,11 @@ buildTime = 100
 
 
 
+tooltip = "Capital Ship (Keldon/Bakrus Class)"
 
-
-
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Plasma Bank Overload, Cloak. Availability follows the selected technology tree."
 dilithiumcost = 440
 metalcost = 190
 latinumcost = 0
 biomattercost = 0
 crewCost = 750
-
-unitName = "Cardassian Keldon/Bakrus Class"
-
-tooltip = "Cardassian Keldon/Bakrus Class"
-
-verboseTooltip = "Cardassian service. Serves as a battleship. Armament: 7 standard weapon banks. Abilities: Plasma Bank Overload, Cloak. Special energy: 1000."
-
-baseName = "xui_cbakrus"

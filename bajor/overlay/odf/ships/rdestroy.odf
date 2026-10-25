@@ -1,7 +1,7 @@
 #include "destroy.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Shrike Class"
 
 //tooltips
 
@@ -133,17 +133,11 @@ ScaleSOD = 1.5
 
 
 
+tooltip = "Attack Ship (Shrike Class)"
 
-
-
+verboseTooltip = "A light combat ship for interception and fleet support. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Romulan Spy. Availability follows the selected technology tree."
 dilithiumcost = 350
 metalcost = 90
 latinumcost = 0
 biomattercost = 0
 crewCost = 125
-
-unitName = "Romulan Shrike Class"
-
-tooltip = "Romulan Shrike Class"
-
-verboseTooltip = "Romulan service. Serves as a destroyer. Armament: 3 standard weapon banks. Abilities: Cloak, Romulan Spy. Special energy: 2400."

@@ -54,7 +54,7 @@ alert = 1
 can_sandd = 1
 shiptype = "B"
 trekphysicsfile = "fbattlephys.odf"
-
+unitname = "Mirror Galaxy Class"
 ishero = 0
 label = "USS Enterprise NCC-1701-D"
 race = "federation"
@@ -81,7 +81,7 @@ eventgreenalert = "XV_fentd_GreenAlert"
 eventtransport = "XV_fentd_Transport"
 eventselfdestruct = "XV_fentd_SelfDestruct"
 eventdecommission = "XV_fentd_Decommission"
-
+tooltip = "Mirror Galaxy Class"
 
 
 
@@ -118,10 +118,4 @@ buildTime = 38
 
 hotkeyLabel = "HOTKEY_F7"
 
-
-
-unitName = "Starfleet Mirror Galaxy Class"
-
-tooltip = "Starfleet Mirror Galaxy Class"
-
-verboseTooltip = "Starfleet service. Controllable Mirror Universe counterpart, built through normal production. Armament: 4 standard weapon banks. Abilities: Enterprise Upgrade, Self Destruct, Tractor Beam. Special energy: 1000."
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

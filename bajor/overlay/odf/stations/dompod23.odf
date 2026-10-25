@@ -1,7 +1,7 @@
 #include "SensorUpgradePod2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Level 3 Sensors Pod"
 
 //Race which can build ship & starting race of ship
 race = "dominion"
@@ -52,12 +52,6 @@ latinumCost = 600
 
 biomatterCost = 0
 
+tooltip = "Research Upgrade (Level 3 Sensors Pod)"
 
-
-
-
-unitName = "Dominion Level 3 Sensors Pod"
-
-tooltip = "Dominion Level 3 Sensors Pod"
-
-verboseTooltip = "Dominion service. Unlocks its assigned research upgrade."
+verboseTooltip = "Researches Level 3 Sensors Pod. Dominion engineering serves the Founders through disciplined JemHadar operations."

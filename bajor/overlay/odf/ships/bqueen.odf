@@ -52,7 +52,7 @@ shiptype = "X"
 combat = 1
 alert = 1
 can_sandd = 1
-
+unitname = "Diamond"
 ishero = 1
 label = "Borg Queen's Diamond"
 possiblecraftnames = "Borg Queen's Diamond"
@@ -81,8 +81,8 @@ eventgreenalert = "XV_bqueen_GreenAlert"
 eventtransport = "XV_bqueen_Transport"
 eventselfdestruct = "XV_bqueen_SelfDestruct"
 eventdecommission = "XV_bqueen_Decommission"
-
-
+tooltip = "Hero Ship (Diamond)"
+verbosetooltip = "A named command vessel serving the Borg fleet. Collective engineering integrates this asset into the unimatrix. Special systems: Ultritium Burst, Nanites, Computer Override, Shield Remodulation, Transwarp Drive. Availability follows the selected technology tree."
 dilithiumcost = 445
 metalcost = 120
 latinumcost = 0
@@ -152,9 +152,3 @@ weaponHardpoints9 = "hp02"
 maxspecialenergy = 8500
 
 specialenergyrate = 37
-
-unitName = "Diamond"
-
-tooltip = "Diamond"
-
-verboseTooltip = "Collective service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Ultritium Burst, Nanites, Computer Override, Shield Remodulation, Transwarp Drive. Special energy: 8500."

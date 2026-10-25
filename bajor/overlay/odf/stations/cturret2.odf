@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Heavy Plasma Turret"
 
 //tooltips
 
@@ -107,12 +107,6 @@ hulltargethardpoints = "HP01" "HP02" "HP03"
 
 criticaltargethardpoints = "HP01" "HP02" "HP03"
 
+tooltip = "Defense Station (Heavy Plasma Turret)"
 
-
-
-
-unitName = "Cardassian Heavy Plasma Turret"
-
-tooltip = "Cardassian Heavy Plasma Turret"
-
-verboseTooltip = "Cardassian service. Defensive platform armed with beam weapons. Armament: 1 standard weapon banks."
+verboseTooltip = "A fixed defensive installation protecting nearby fleet assets. Cardassian engineering sustains the Union through ordered, persistent operations."

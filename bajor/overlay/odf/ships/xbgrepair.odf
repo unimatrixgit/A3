@@ -7,13 +7,13 @@ sensorsTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04" "hp06"
 hullTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04" "hp06"
 criticalTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04" "hp06"
 
+baseName = "xfgrepair"
 
 
 
+unitName = "Mercenary Ferengi Repair Tender"
 
-
-
-
+tooltip = "Mercenary Ferengi Repair Tender"
 
 
 
@@ -72,12 +72,4 @@ latinumCost = 0
 
 biomatterCost = 0
 
-
-
-unitName = "Collective Mercenary Ferengi Repair Tender"
-
-tooltip = "Collective Mercenary Ferengi Repair Tender"
-
-verboseTooltip = "Collective service. Repairs friendly vessels using its native repair systems. Abilities: Repair Beam. Special energy: 0."
-
-baseName = "xui_xbgrepair"
+verboseTooltip = "Borg contract paid in dilithium and metal. Ferengi repair tender. Contracted at the Ferengi Service Yard for dilithium and metal."

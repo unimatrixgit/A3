@@ -1,7 +1,7 @@
 #include "battle.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Voodien Class"
 
 //tooltips
 
@@ -158,9 +158,9 @@ specialEnergyRate = 14.0
 
 
 
+tooltip = "Capital Ship (Voodien Class)"
 
-
-
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Klingon engineering serves the Empire with direct, relentless force. Special systems: Ion Cannon, Cloak. Availability follows the selected technology tree."
 weapon6 = "gkcloak"
 weapon5 = "gselfdes"
 dilithiumcost = 850
@@ -168,9 +168,3 @@ metalcost = 365
 latinumcost = 0
 biomattercost = 0
 crewCost = 1040
-
-unitName = "Klingon Voodien Class"
-
-tooltip = "Klingon Voodien Class"
-
-verboseTooltip = "Klingon service. Serves as a battleship. Armament: 7 standard weapon banks. Abilities: Ion Cannon, Self Destruct, Cloak. Special energy: 1400."

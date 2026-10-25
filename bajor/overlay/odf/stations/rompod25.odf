@@ -1,7 +1,7 @@
 #include "LifeSupportUpgradePod2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Level 3 Life Support Pod"
 
 //Race which can build ship & starting race of ship
 race = "romulan"
@@ -52,12 +52,6 @@ latinumCost = 250
 
 biomatterCost = 0
 
+tooltip = "Research Upgrade (Level 3 Life Support Pod)"
 
-
-
-
-unitName = "Romulan Level 3 Life Support Pod"
-
-tooltip = "Romulan Level 3 Life Support Pod"
-
-verboseTooltip = "Romulan service. Unlocks its assigned research upgrade."
+verboseTooltip = "Researches Level 3 Life Support Pod. Romulan engineering favors calculated strikes and control of the battlefield."

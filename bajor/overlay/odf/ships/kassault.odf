@@ -1,7 +1,7 @@
 #include "assault.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Chava'Kal Class"
 
 //tooltips
 
@@ -129,18 +129,12 @@ buildTime = 16
 
 
 
+tooltip = "Assault Ship (Chava'Kal Class)"
 
-
-
+verboseTooltip = "Supports offensive operations and hostile boarding actions. Klingon engineering serves the Empire with direct, relentless force. Special systems: Tractor Beam, Cloak. Availability follows the selected technology tree."
 weapon3 = "gkcloak"
 dilithiumcost = 210
 metalcost = 70
 latinumcost = 0
 biomattercost = 0
 crewCost = 215
-
-unitName = "Klingon Chava'Kal Class"
-
-tooltip = "Klingon Chava'Kal Class"
-
-verboseTooltip = "Klingon service. Serves as a assault. Armament: 1 standard weapon banks. Abilities: Tractor Beam, Cloak. Special energy: 2400."

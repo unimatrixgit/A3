@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitname = "Bajoran Shield Modulation"
 
 //tooltips
 
@@ -91,14 +91,8 @@ latinumCost = 300
 
 biomatterCost = 0
 
+tooltip = "Research Upgrade (Bajoran Shield Modulation)"
 
-
-
+verboseTooltip = "Researches Bajoran Shield Modulation. Bajoran militia engineering protects Bajor and its neighboring systems."
 
 baseName = "bv4_bjpod2"
-
-unitName = "Bajoran Shield Modulation"
-
-tooltip = "Bajoran Shield Modulation"
-
-verboseTooltip = "Bajoran service. Unlocks its assigned research upgrade."

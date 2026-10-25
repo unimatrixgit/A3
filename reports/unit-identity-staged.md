@@ -1,6 +1,6 @@
-# Applied unit names and tooltips
+# Withdrawn unit identity proposal
 
-Applied to D:/armadaIII. Gameplay testing pending. 839 faction ships/stations, unique names, model-based buttons and role badges. Heroes carry faction emblems. 5 legacy models retain existing game artwork with new badges. Five unused definitions with missing assets remain unchanged.
+WITHDRAWN after match-loading crash. Entire pack rolled back; these proposed names and tooltips are not installed. 839 faction ships/stations, unique names, model-based buttons and role badges. Heroes carry faction emblems. 5 legacy models retain existing game artwork with new badges. Five unused definitions with missing assets remain unchanged.
 
 | Faction | Unit | New name | Hover description |
 |---|---|---|---|

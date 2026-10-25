@@ -7,7 +7,7 @@ sensorsTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
 hullTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
 criticalTargetHardpoints = "hp10" "hp09" "hp08" "hp07" "hp06" "hp05"
 
-
+baseName = "xfgmine"
 
 race = "ferengi"
 
@@ -67,11 +67,11 @@ maxLatinum = 150
 
 
 
+unitName = "Mercenary Ferengi Enhanced Dilithium Collector"
 
+tooltip = "Enhanced Dilithium Collector"
 
-
-
-
+verboseTooltip = "Research-unlocked collector with45 units extracted every1.5 seconds. Latinum resource cost only."
 
 resourcesCanHandle = "dilithium"
 
@@ -81,11 +81,3 @@ weaponHardpoints1 = "hp01"
 latinumCost = 350
 
 hotkeyLabel = "HOTKEY_F6"
-
-unitName = "Ferengi Mercenary Ferengi Enhanced Dilithium Collector"
-
-tooltip = "Ferengi Mercenary Ferengi Enhanced Dilithium Collector"
-
-verboseTooltip = "Ferengi service. Extracts dilithium and supports the faction economy. Abilities: Mining Beam. Special energy: 0."
-
-baseName = "xui_xfgdil2"

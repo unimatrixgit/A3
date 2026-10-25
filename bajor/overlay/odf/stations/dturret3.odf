@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Nova Cannon"
 
 //tooltips
 
@@ -225,7 +225,7 @@ buildTime = 75
 
 
 
-
+baseName = "dbase"
 
 
 
@@ -333,9 +333,9 @@ weapon10 = "xhwpdis"
 
 weaponHardpoints10 = "hp04"
 
+tooltip = "Heavy Weapons Platform (Nova Cannon)"
 
-
-
+verboseTooltip = "Lantean technology infused Platform, With ZPM."
 
 ScaleSOD = 4.3104803025
 
@@ -402,11 +402,3 @@ buildItem2 = "dconst"
 buildItem3 = "xdconst2"
 
 buildItem4 = "xduconst"
-
-unitName = "Dominion Nova Cannon"
-
-tooltip = "Dominion Nova Cannon"
-
-verboseTooltip = "Dominion service. Heavy defensive station guarding nearby approaches. Armament: 16 standard weapon banks."
-
-baseName = "xui_dturret3"

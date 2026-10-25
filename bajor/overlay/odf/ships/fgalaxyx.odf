@@ -1,7 +1,7 @@
 #include "battle2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Galaxy Class X-Refit"
 
 
 
@@ -146,9 +146,9 @@ weaponHardpoints7 = "hp01"
 
 
 
+tooltip = "Capital Ship (Galaxy Class X-Refit)"
 
-
-
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Cloak, Corbomite Reflector. Availability follows the selected technology tree."
 weapon4 = "gkcloak"
 weapon3 = "gselfdes"
 dilithiumcost = 460
@@ -156,11 +156,3 @@ metalcost = 200
 latinumcost = 0
 biomattercost = 0
 crewCost = 770
-
-unitName = "Starfleet Galaxy Class X-Refit"
-
-tooltip = "Starfleet Galaxy Class X-Refit"
-
-verboseTooltip = "Starfleet service. Serves as a battleship. Armament: 4 standard weapon banks. Abilities: Self Destruct, Cloak, Corbomite Reflector. Special energy: 1500."
-
-baseName = "xui_fgalaxyx"

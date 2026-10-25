@@ -130,7 +130,7 @@ shipType = "C"
 officercost = 10
 buildtime = 35
 
-
+unitName = "Bajoran Science Support Vessel"
 
 
 
@@ -196,9 +196,9 @@ specialenergyrate = 8.75
 
 
 
+tooltip = "Support Ship (Bajoran Science Support Vessel)"
 
-
-
+verboseTooltip = "Provides specialist support for fleet operations. Bajoran militia engineering protects Bajor and its neighboring systems. Special systems: Shield Disruptor, Gemini Effect, Point Defense Phaser, Chain Reaction Pulsar. Availability follows the selected technology tree."
 dilithiumcost = 280
 metalcost = 95
 latinumcost = 0
@@ -254,9 +254,3 @@ weaponHardpoints7 = "hp12" "hp14" "hp16" "hp18"
 baseName = "bv4_bjspecial"
 
 possibleCraftNames = "BMS Kendra" "BMS Dahkur" "BMS Rakantha" "BMS Hathon" "BMS Jalanda" "BMS Dakor" "BMS Tozhat" "BMS Musilla" "BMS Hedrikspool" "BMS Dakhur" "BMS Ashalla" "BMS Dahkur Dawn" "BMS Kendra Spirit" "BMS Bajoran Dawn" "BMS Prophets Grace" "BMS First Light" "BMS Celestial Dawn" "BMS Valley Guardian" "BMS Militia Resolve" "BMS Freedom of Bajor" "BMS Dahkur Sentinel" "BMS Rakantha Shield" "BMS Kendra Vigil" "BMS Bajor Ascendant" "BMS Jalanda Star" "BMS Hathon Guard" "BMS Emissarys Hope" "BMS Liberation" "BMS Gratitude" "BMS New Dawn" "BMS Dahkur Resolve" "BMS Celestial Guardian"
-
-unitName = "Bajoran Science Support Vessel"
-
-tooltip = "Bajoran Science Support Vessel"
-
-verboseTooltip = "Bajoran service. Serves as a special. Armament: 2 standard weapon banks. Abilities: Shield Disruptor, Gemini Effect, Point Defense Phaser, Chain Reaction Pulsar, Self Destruct. Special energy: 875."

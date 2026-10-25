@@ -1,7 +1,7 @@
 #include "special.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Kulinor Class"
 
 //tooltips
 
@@ -145,18 +145,12 @@ specialEnergyRate = 18.0
 
 
 
+tooltip = "Support Ship (Kulinor Class)"
 
-
-
+verboseTooltip = "Provides specialist support for fleet operations. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Plasma Cannon, Quantum Singularity Effect, Impulse Engine Boost, Shield Harmonics Disruptor. Availability follows the selected technology tree."
 weapon6 = "gselfdes"
 dilithiumcost = 70
 metalcost = 25
 latinumcost = 0
 biomattercost = 0
 crewCost = 80
-
-unitName = "Cardassian Kulinor Class"
-
-tooltip = "Cardassian Kulinor Class"
-
-verboseTooltip = "Cardassian service. Serves as a special. Armament: 1 standard weapon banks. Abilities: Plasma Cannon, Quantum Singularity Effect, Impulse Engine Boost, Shield Harmonics Disruptor, Self Destruct. Special energy: 1800."

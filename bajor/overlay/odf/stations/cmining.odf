@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Mining Station"
 
 
 
@@ -122,9 +122,9 @@ criticaltargethardpoints = "hp07" "hp08" "hp09"
 
 
 
+tooltip = "Resource Processing Station (Mining Station)"
 
-
-
+verboseTooltip = "Receives and processes resources delivered by mining vessels. Cardassian engineering sustains the Union through ordered, persistent operations."
 
 
 
@@ -137,9 +137,3 @@ metalCost = 200
 latinumCost = 0
 
 biomatterCost = 0
-
-unitName = "Cardassian Mining Station"
-
-tooltip = "Cardassian Mining Station"
-
-verboseTooltip = "Cardassian service. Extracts dilithium and supports the faction economy."

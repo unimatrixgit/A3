@@ -1,7 +1,7 @@
 #include "cruise1.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Sphere"
 
 //tooltips
 
@@ -137,17 +137,11 @@ weaponHardpoints5 = "hp08"
 
 
 
+tooltip = "Cruiser (Sphere)"
 
-
-
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Collective engineering integrates this asset into the unimatrix. Special systems: Regeneration, Transwarp Drive, Auto-Assimilator. Availability follows the selected technology tree."
 dilithiumcost = 395
 metalcost = 105
 latinumcost = 0
 biomattercost = 0
 crewCost = 680
-
-unitName = "Collective Sphere"
-
-tooltip = "Collective Sphere"
-
-verboseTooltip = "Collective service. Serves as a cruiser. Armament: 2 standard weapon banks. Abilities: Regeneration, Transwarp Drive, Auto-Assimilator. Special energy: 4000."

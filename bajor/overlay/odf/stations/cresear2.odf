@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Advanced Research Station"
 
 //tooltips
 
@@ -107,9 +107,9 @@ latinumCost = 500
 
 biomatterCost = 0
 
+tooltip = "Research Facility (Advanced Research Station)"
 
-
-
+verboseTooltip = "Supports the technologies and upgrades available in its research menu. Cardassian engineering sustains the Union through ordered, persistent operations."
 
 baseName = "mrst_car"
 
@@ -123,9 +123,3 @@ buildItem1 = "carpod7"
 buildItem2 = "carpod8"
 
 buildItem3 = "carpod9"
-
-unitName = "Cardassian Advanced Research Station"
-
-tooltip = "Cardassian Advanced Research Station"
-
-verboseTooltip = "Cardassian service. Develops the technologies listed in its research menu."

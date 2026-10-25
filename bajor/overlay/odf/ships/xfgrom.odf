@@ -53,10 +53,10 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "C"
-
-
-
-
+unitname = "Mercenary Ferengi Rom's Cruiser"
+tooltip = "Mercenary Ferengi Rom's Cruiser"
+verbosetooltip = "Latinum-funded Ferengi contract vessel. Hero abilities are available without research."
+basename = "xfgrom"
 race = "ferengi"
 ishero = 1
 maxhealth = 3600
@@ -155,11 +155,3 @@ weaponHardpoints11 = "hp12"
 maxspecialenergy = 2600
 
 specialenergyrate = 26
-
-unitName = "Mercenary Ferengi Rom's Cruiser - Profit"
-
-tooltip = "Mercenary Ferengi Rom's Cruiser - Profit"
-
-verboseTooltip = "Ferengi service. Hero vessel with its own command abilities. Armament: 8 standard weapon banks. Abilities: Rom's Shield Service, Rom's Energy Service, Rom's Emergency Repairs. Special energy: 2600."
-
-baseName = "xui_xfgrom"

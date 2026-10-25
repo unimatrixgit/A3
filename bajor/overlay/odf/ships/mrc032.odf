@@ -1,4 +1,4 @@
-
+unitname = "Mirror Weyoun's Command Battleship"
 race = "dominion"
 maxhealth = 2250
 shieldgeneratorhitpoints = 600
@@ -81,7 +81,7 @@ eventselfdestruct = "XV_xhdhero_SelfDestruct"
 eventdecommission = "XV_xhdhero_Decommission"
 maxspecialenergy = 1600
 specialenergyrate = 16
-
+tooltip = "Mirror Weyoun's Command Battleship"
 
 
 
@@ -118,10 +118,4 @@ buildTime = 138
 
 hotkeyLabel = "HOTKEY_F3"
 
-
-
-unitName = "Dominion Mirror Weyoun's Command Battleship - Founder"
-
-tooltip = "Dominion Mirror Weyoun's Command Battleship - Founder"
-
-verboseTooltip = "Dominion service. Controllable Mirror Universe counterpart, built through normal production. Armament: 5 standard weapon banks. Abilities: Polaron Torpedo, Self Destruct. Special energy: 1600."
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

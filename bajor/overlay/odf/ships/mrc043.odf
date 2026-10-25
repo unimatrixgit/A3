@@ -54,7 +54,7 @@ alert = 1
 can_sandd = 1
 shiptype = "B"
 trekphysicsfile = "fbattlephys.odf"
-
+unitname = "Mirror Cpt William T Riker"
 race = "federation"
 sanecrewlossmethod = 1
 maxhealth = 11250
@@ -85,7 +85,7 @@ officercost = 10
 
 weapon7 = "gcorbom"
 weaponhardpoints7 = "hp01"
-
+tooltip = "Mirror Cpt William T Riker"
 
 weapon4 = "mrw027"
 weapon3 = "mrw026"
@@ -123,10 +123,4 @@ buildTime = 188
 
 hotkeyLabel = "HOTKEY_F9"
 
-
-
-unitName = "Starfleet Mirror Cpt William T Riker"
-
-tooltip = "Starfleet Mirror Cpt William T Riker"
-
-verboseTooltip = "Starfleet service. Controllable Mirror Universe counterpart, built through normal production. Armament: 7 standard weapon banks. Abilities: Cloak, Corbomite Reflector. Special energy: 15000."
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

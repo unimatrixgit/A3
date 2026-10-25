@@ -1,7 +1,7 @@
 #include "cruise1.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Pentragon"
 
 //tooltips
 
@@ -136,17 +136,11 @@ weaponHardpoints5 = "hp06"
 
 
 
+tooltip = "Cruiser (Pentragon)"
 
-
-
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Collective engineering integrates this asset into the unimatrix. Special systems: Transwarp Drive, Auto-Assimilator, Regeneration. Availability follows the selected technology tree."
 dilithiumcost = 450
 metalcost = 125
 latinumcost = 0
 biomattercost = 0
 crewCost = 725
-
-unitName = "Collective Pentragon"
-
-tooltip = "Collective Pentragon"
-
-verboseTooltip = "Collective service. Serves as a cruiser. Armament: 2 standard weapon banks. Abilities: Transwarp Drive, Auto-Assimilator, Regeneration. Special energy: 3200."

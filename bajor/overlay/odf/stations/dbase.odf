@@ -1,6 +1,6 @@
 // Begin main properties
 
-
+unitName = "Dominion Cloning Facility/Starbase"
 
 
 race = "dominion"
@@ -198,9 +198,9 @@ footprintBuffer = 72
 
 
 
+tooltip = "Starbase (Dominion Cloning Facility/Starbase)"
 
-
-
+verboseTooltip = "A fortified center for fleet operations and local production. Dominion engineering serves the Founders through disciplined JemHadar operations."
 
 repairFacility = 0
 
@@ -236,11 +236,3 @@ buildItem4 = "dfreight"
 buildItem5 = "dcargo"
 
 buildItem6 = "dsrepair"
-
-unitName = "Dominion Cloning Facility/Starbase"
-
-tooltip = "Dominion Cloning Facility/Starbase"
-
-verboseTooltip = "Dominion service. Anchors the fleet and produces the units shown in its build menu. Armament: 10 standard weapon banks."
-
-baseName = "xui_dbase"

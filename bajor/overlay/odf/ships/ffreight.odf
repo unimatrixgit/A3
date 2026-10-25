@@ -6,7 +6,7 @@
 race = "federation"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Kaiser Class"
 
 //tooltips
 
@@ -107,9 +107,9 @@ buildTime = 13
 
 
 
+tooltip = "Resource Miner (Kaiser Class)"
 
-
-
+verboseTooltip = "Collects resources and delivers them to compatible processing facilities. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Mining Beam. Availability follows the selected technology tree."
 
 dilithiumCost = 175
 
@@ -118,9 +118,3 @@ metalCost = 0
 latinumCost = 0
 
 biomatterCost = 0
-
-unitName = "Starfleet Kaiser Class"
-
-tooltip = "Starfleet Kaiser Class"
-
-verboseTooltip = "Starfleet service. Extracts dilithium and supports the faction economy. Armament: 1 standard weapon banks. Abilities: Mining Beam. Special energy: 0."

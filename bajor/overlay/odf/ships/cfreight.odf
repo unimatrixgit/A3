@@ -4,7 +4,7 @@
 race = "cardassian"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Varis Class"
 
 //tooltips
 
@@ -103,9 +103,9 @@ buildTime = 13
 
 
 
+tooltip = "Resource Miner (Varis Class)"
 
-
-
+verboseTooltip = "Collects resources and delivers them to compatible processing facilities. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Mining Beam. Availability follows the selected technology tree."
 
 dilithiumCost = 175
 
@@ -114,9 +114,3 @@ metalCost = 0
 latinumCost = 0
 
 biomatterCost = 0
-
-unitName = "Cardassian Varis Class"
-
-tooltip = "Cardassian Varis Class"
-
-verboseTooltip = "Cardassian service. Extracts dilithium and supports the faction economy. Abilities: Mining Beam. Special energy: 0."

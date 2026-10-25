@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "C"
-
+unitname = "Excelsior Class Refit"
 race = "federation"
 maxhealth = 8000
 shieldrate = 80
@@ -83,8 +83,8 @@ officercost = 9
 buildtime = 102
 
 
-
-
+tooltip = "Cruiser (Excelsior Class Refit)"
+verbosetooltip = "Captain Harriman's Enterprise."
 dilithiumcost = 860
 metalcost = 285
 latinumcost = 0
@@ -140,9 +140,3 @@ weaponHardpoints7 = "hp07"
 maxspecialenergy = 8000
 
 specialenergyrate = 80
-
-unitName = "Excelsior Class Refit"
-
-tooltip = "Excelsior Class Refit"
-
-verboseTooltip = "Starfleet service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Transwarp Drive, Enterprise Upgrade, Chain Reaction Pulsar. Special energy: 8000."

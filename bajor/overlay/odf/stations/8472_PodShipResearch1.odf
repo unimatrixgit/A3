@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Level 2 Bio-pulse Beam Pod"
 
 //tooltips
 
@@ -41,12 +41,6 @@ crewCost = 0
 officerCost = 1
 buildTime = 120
 
+tooltip = "Research Upgrade (Level 2 Bio-pulse Beam Pod)"
 
-
-
-
-unitName = "Fluidic Level 2 Bio-pulse Beam Pod"
-
-tooltip = "Fluidic Level 2 Bio-pulse Beam Pod"
-
-verboseTooltip = "Fluidic service. Unlocks its assigned research upgrade."
+verboseTooltip = "Researches Level 2 Bio-pulse Beam Pod. Living biotechnology shapes this organism for operations beyond fluidic space."

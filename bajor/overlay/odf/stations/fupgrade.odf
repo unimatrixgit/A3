@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Mars Class"
 
 //tooltips
 
@@ -137,12 +137,6 @@ latinumCost = 0
 
 biomatterCost = 0
 
+tooltip = "Production Facility (Mars Class)"
 
-
-
-
-unitName = "Starfleet Mars Class"
-
-tooltip = "Starfleet Mars Class"
-
-verboseTooltip = "Starfleet service. Develops the technologies listed in its research menu."
+verboseTooltip = "Produces the units or upgrades listed in its construction menu. Starfleet engineering supports a disciplined, versatile fleet."

@@ -1,7 +1,7 @@
 #include "cruise3.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Intrepid Class X-Refit"
 
 //tooltips
 
@@ -180,17 +180,11 @@ weaponHardpoints14 = "hp01"
 
 
 
+tooltip = "Attack Ship (Intrepid Class X-Refit)"
 
-
-
+verboseTooltip = "A light combat ship for interception and fleet support. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Antimatter Mines. Availability follows the selected technology tree."
 dilithiumcost = 530
 metalcost = 130
 latinumcost = 0
 biomattercost = 0
 crewCost = 155
-
-unitName = "Starfleet Intrepid Class X-Refit"
-
-tooltip = "Starfleet Intrepid Class X-Refit"
-
-verboseTooltip = "Starfleet service. Serves as a destroyer. Armament: 13 standard weapon banks. Abilities: Antimatter Mines. Special energy: 1000."

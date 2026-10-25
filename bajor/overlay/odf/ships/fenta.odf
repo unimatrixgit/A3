@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "C"
-
+unitname = "Constitution Class Refit"
 race = "federation"
 maxhealth = 3800
 shieldrate = 38
@@ -79,8 +79,8 @@ officercost = 7
 buildtime = 85
 
 
-
-
+tooltip = "Cruiser (Constitution Class Refit)"
+verbosetooltip = "Captain Kirk's Enterprise."
 dilithiumcost = 485
 metalcost = 165
 latinumcost = 0
@@ -128,9 +128,3 @@ weaponHardpoints5 = "hp06"
 maxspecialenergy = 1200
 
 specialenergyrate = 15
-
-unitName = "Constitution Class Refit"
-
-tooltip = "Constitution Class Refit"
-
-verboseTooltip = "Starfleet service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Enterprise Upgrade. Special energy: 1200."

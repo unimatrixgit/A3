@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Kiluauea Class"
 
 
 
@@ -134,9 +134,9 @@ criticaltargethardpoints = "hp03" "hp08" "hp09"
 
 
 
+tooltip = "Resource Processing Station (Kiluauea Class)"
 
-
-
+verboseTooltip = "Receives and processes resources delivered by mining vessels. Starfleet engineering supports a disciplined, versatile fleet."
 
 
 
@@ -149,9 +149,3 @@ metalCost = 200
 latinumCost = 0
 
 biomatterCost = 0
-
-unitName = "Starfleet Kiluauea Class"
-
-tooltip = "Starfleet Kiluauea Class"
-
-verboseTooltip = "Starfleet service. Extracts dilithium and supports the faction economy."

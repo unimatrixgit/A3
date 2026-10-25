@@ -1,7 +1,7 @@
 #include "battle.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Draconia Class"
 
 //tooltips
 
@@ -150,18 +150,12 @@ specialEnergyRate = 15.0
 
 
 
+tooltip = "Capital Ship (Draconia Class)"
 
-
-
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Heated Plasma. Availability follows the selected technology tree."
 weapon5 = "gselfdes"
 dilithiumcost = 670
 metalcost = 285
 latinumcost = 0
 biomattercost = 0
 crewCost = 920
-
-unitName = "Romulan Draconia Class"
-
-tooltip = "Romulan Draconia Class"
-
-verboseTooltip = "Romulan service. Serves as a battleship. Armament: 4 standard weapon banks. Abilities: Cloak, Self Destruct, Heated Plasma. Special energy: 1500."

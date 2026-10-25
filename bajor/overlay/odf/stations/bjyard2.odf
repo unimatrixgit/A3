@@ -115,7 +115,7 @@ SHOW_SW_AUTONOMY = 1
 // Xaramada resource costs: original filename.
 
 
-
+unitName = "Militia Shipyard II"
 
 
 
@@ -170,9 +170,9 @@ engineshitpoints = 0
 
 weaponshitpoints = 0
 
+tooltip = "Shipyard (Militia Shipyard II)"
 
-
-
+verboseTooltip = "Produces the vessels listed in its construction menu. Bajoran militia engineering protects Bajor and its neighboring systems."
 
 baseName = "bv4_bjyard2"
 
@@ -199,9 +199,3 @@ dilithiumCost = 300
 metalCost = 1000
 
 buildTime = 90
-
-unitName = "Bajoran Militia Shipyard II"
-
-tooltip = "Bajoran Militia Shipyard II"
-
-verboseTooltip = "Bajoran service. Constructs the vessels available in its production menu."

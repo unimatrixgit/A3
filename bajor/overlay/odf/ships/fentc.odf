@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "C"
-
+unitname = "Ambassador Class"
 race = "federation"
 maxhealth = 8150
 shieldrate = 81.5
@@ -75,8 +75,8 @@ hotkeylabel = "HOTKEY_F6"
 scalesod = 1.75
 officercost = 8
 buildtime = 30
-
-
+tooltip = "Cruiser (Ambassador Class)"
+verbosetooltip = "Captain Garrett's Enterprise."
 dilithiumcost = 810
 metalcost = 270
 latinumcost = 0
@@ -124,9 +124,3 @@ weaponHardpoints5 = "hp12"
 maxspecialenergy = 8150
 
 specialenergyrate = 81.5
-
-unitName = "Ambassador Class"
-
-tooltip = "Ambassador Class"
-
-verboseTooltip = "Starfleet service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Enterprise Upgrade. Special energy: 8150."

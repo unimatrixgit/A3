@@ -52,7 +52,7 @@ shiptype = "C"
 combat = 1
 alert = 1
 can_sandd = 1
-
+unitname = "Nebula Class"
 race = "federation"
 sanecrewlossmethod = 1
 maxhealth = 875
@@ -85,8 +85,8 @@ scalesod = 1.1
 trekphysicsfile = "fcruiserphys.odf"
 officercost = 10
 buildtime = 35
-
-
+tooltip = "FED_SPECIAL"
+verbosetooltip = "FED_SPECIAL_V"
 
 dilithiumcost = 280
 metalcost = 95
@@ -94,7 +94,7 @@ latinumcost = 0
 biomattercost = 0
 crewcost = 160
 ishero = 1
-
+basename = "fspecial"
 eventredalert = "XV_fcaddebostan_RedAlert"
 eventyellowalert = "XV_fcaddebostan_YellowAlert"
 eventgreenalert = "XV_fcaddebostan_GreenAlert"
@@ -151,11 +151,3 @@ weaponHardpoints9 = "hp09"
 maxspecialenergy = 875
 
 specialenergyrate = 8.75
-
-unitName = "Nebula Class"
-
-tooltip = "Nebula Class"
-
-verboseTooltip = "Starfleet service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Shield Disruptor, Gemini Effect, Point Defense Phaser, Self Destruct, Chain Reaction Pulsar. Special energy: 875."
-
-baseName = "xui_fcaddebostan"

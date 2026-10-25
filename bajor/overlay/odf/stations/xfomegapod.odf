@@ -1,5 +1,5 @@
 #include "pod.odf"
-
+unitName = "Stabilized Omega Technology"
 race = "federation"
 baseName = "fedpod9"
 
@@ -25,12 +25,6 @@ latinumCost = 0
 
 biomatterCost = 0
 
+tooltip = "Research Upgrade (Stabilized Omega Technology)"
 
-
-
-
-unitName = "Starfleet Stabilized Omega Technology"
-
-tooltip = "Starfleet Stabilized Omega Technology"
-
-verboseTooltip = "Starfleet service. Unlocks its assigned research upgrade."
+verboseTooltip = "Researches Stabilized Omega Technology. Starfleet engineering supports a disciplined, versatile fleet."

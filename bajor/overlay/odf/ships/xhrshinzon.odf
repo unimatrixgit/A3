@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-
+unitname = "Shinzon - Scimitar"
 race = "romulan"
 maxhealth = 6546
 sanecrewlossmethod = 1
@@ -91,8 +91,8 @@ weaponred = 2.0f
 hotkeylabel = ""
 officercost = 22
 buildtime = 160.0
-
-
+tooltip = "Hero Ship (Shinzon - Scimitar)"
+verbosetooltip = "Shinzon command hero. Special systems: cloak, tractor beam, Heated Plasma, Shield Inversion Beam and firing while cloaked. Special abilities require their respective Romulan research."
 
 dilithiumcost = 1110
 metalcost = 475
@@ -187,9 +187,3 @@ weaponHardpoints14 = "hp04"
 maxspecialenergy = 3000
 
 specialenergyrate = 30
-
-unitName = "Shinzon - Scimitar"
-
-tooltip = "Shinzon - Scimitar"
-
-verboseTooltip = "Romulan service. Hero vessel with its own command abilities. Armament: 7 standard weapon banks. Abilities: Cloak, Tractor Beam, Self Destruct, Theleron Beam, Heated Plasma, Shield Inversion Beam, Scimitar Theleron Cloak. Special energy: 3000."

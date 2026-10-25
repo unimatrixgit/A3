@@ -1,7 +1,7 @@
 #include "cruise1.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Norway Class"
 
 //tooltips
 
@@ -116,17 +116,11 @@ maxSpecialEnergy = 1200
 
 
 
+tooltip = "Cruiser (Norway Class)"
 
-
-
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Chain Reaction Pulsar. Availability follows the selected technology tree."
 dilithiumcost = 185
 metalcost = 60
 latinumcost = 0
 biomattercost = 0
 crewCost = 180
-
-unitName = "Starfleet Norway Class"
-
-tooltip = "Starfleet Norway Class"
-
-verboseTooltip = "Starfleet service. Serves as a cruiser. Armament: 2 standard weapon banks. Abilities: Chain Reaction Pulsar. Special energy: 1200."

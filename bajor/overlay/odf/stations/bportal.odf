@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Transwarp Portal"
 
 //tooltips
 
@@ -149,16 +149,10 @@ latinumCost = 0
 
 biomatterCost = 0
 
+tooltip = "Fleet Installation (Transwarp Portal)"
 
-
-
+verboseTooltip = "A specialist installation supporting Borg operations. Collective engineering integrates this asset into the unimatrix."
 
 transporter = 1
 
 recrewRate = 10
-
-unitName = "Collective Transwarp Portal"
-
-tooltip = "Collective Transwarp Portal"
-
-verboseTooltip = "Collective service. Supports the operations available through its station controls."

@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-
+unitname = "Mirror Sovereign Class"
 ishero = 0
 label = "Enterprise NCC 1701-E"
 race = "federation"
@@ -78,7 +78,7 @@ eventgreenalert = "XV_fente_GreenAlert"
 eventtransport = "XV_fente_Transport"
 eventselfdestruct = "XV_fente_SelfDestruct"
 eventdecommission = "XV_fente_Decommission"
-
+tooltip = "Mirror Sovereign Class"
 
 
 
@@ -113,10 +113,4 @@ buildTime = 100
 
 hotkeyLabel = "HOTKEY_F9"
 
-
-
-unitName = "Starfleet Mirror Sovereign Class"
-
-tooltip = "Starfleet Mirror Sovereign Class"
-
-verboseTooltip = "Starfleet service. Controllable Mirror Universe counterpart, built through normal production. Armament: 4 standard weapon banks. Abilities: Self Destruct, Corbomite Reflector. Special energy: 11000."
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "C"
-
+unitname = "Mirror Constitution Class Refit"
 race = "federation"
 maxhealth = 2850
 shieldrate = 38
@@ -79,7 +79,7 @@ officercost = 7
 
 weapon3 = "fentatoentb"
 weaponhardpoints3 = "hp01"
-
+tooltip = "Mirror Constitution Class Refit"
 
 
 
@@ -114,10 +114,4 @@ buildTime = 106
 
 hotkeyLabel = "HOTKEY_F4"
 
-
-
-unitName = "Starfleet Mirror Constitution Class Refit"
-
-tooltip = "Starfleet Mirror Constitution Class Refit"
-
-verboseTooltip = "Starfleet service. Controllable Mirror Universe counterpart, built through normal production. Armament: 4 standard weapon banks. Abilities: Enterprise Upgrade. Special energy: 1200."
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

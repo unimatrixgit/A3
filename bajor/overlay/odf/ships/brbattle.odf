@@ -1,6 +1,6 @@
 // Begin main properties
 
-
+unitName = "Breen Battleship"
 
 race = "breen"
 maxHealth = 1500
@@ -143,20 +143,12 @@ specialEnergyRate = 14.0
 
 
 
+tooltip = "Capital Ship (Breen Battleship)"
 
-
-
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Breen engineering supports the Confederacy with focused, uncompromising efficiency. Special systems: Shield Disruptor. Availability follows the selected technology tree."
 weapon3 = "gselfdes"
 dilithiumcost = 230
 metalcost = 100
 latinumcost = 0
 biomattercost = 0
 crewCost = 540
-
-unitName = "Breen Battleship"
-
-tooltip = "Breen Battleship"
-
-verboseTooltip = "Breen service. Serves as a battleship. Armament: 3 standard weapon banks. Abilities: Self Destruct, Shield Disruptor. Special energy: 1400."
-
-baseName = "xui_brbattle"

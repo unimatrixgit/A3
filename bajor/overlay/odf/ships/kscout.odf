@@ -1,7 +1,7 @@
 #include "scoutBase.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "NuQ'Duj Class"
 
 //tooltips
 
@@ -143,18 +143,12 @@ weaponHardpoints7 = "hp01"
 
 
 
+tooltip = "Scout (NuQ'Duj Class)"
 
-
-
+verboseTooltip = "Surveys space and locates threats ahead of the fleet. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak, Polaron Torpedo. Availability follows the selected technology tree."
 weapon6 = "gkcloak"
 dilithiumcost = 185
 metalcost = 0
 latinumcost = 0
 biomattercost = 0
 crewCost = 45
-
-unitName = "Klingon NuQ'Duj Class"
-
-tooltip = "Klingon NuQ'Duj Class"
-
-verboseTooltip = "Klingon service. Serves as a scout. Armament: 3 standard weapon banks. Abilities: Detect Cloak, Cloak, Polaron Torpedo. Special energy: 2400."

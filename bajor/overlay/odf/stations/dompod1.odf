@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Shield Disruptor Pod"
 
 //tooltips
 
@@ -65,12 +65,6 @@ latinumCost = 300
 
 biomatterCost = 0
 
+tooltip = "Research Upgrade (Shield Disruptor Pod)"
 
-
-
-
-unitName = "Dominion Shield Disruptor Pod"
-
-tooltip = "Dominion Shield Disruptor Pod"
-
-verboseTooltip = "Dominion service. Unlocks its assigned research upgrade."
+verboseTooltip = "Researches Shield Disruptor Pod. Dominion engineering serves the Founders through disciplined JemHadar operations."

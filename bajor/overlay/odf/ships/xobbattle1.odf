@@ -1,8 +1,8 @@
 #include "bbattle1.odf"
+unitName = "Omega Borg Cube"
 
 
-
-
+baseName = "bbattle1"
 maxHealth = 4063
 shieldRate = 28.800
 
@@ -73,23 +73,14 @@ weaponHardpoints7 = "hp07"
 
 
 
+tooltip = "Capital Ship (Omega Borg Cube)"
 
-
-
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Collective engineering integrates this asset into the unimatrix. Special systems: Transwarp Drive, Green Holding / Assimilation Beam, Technology Assimilation Beam, Regeneration. Availability follows the selected technology tree."
 dilithiumcost = 695
 metalcost = 190
 latinumcost = 0
-biomattercost = 0
-
+biomattercost = 0
 
 crewCost = 1215
 
 maximumCrew = 1215
-
-unitName = "Collective Omega Borg Cube"
-
-tooltip = "Collective Omega Borg Cube"
-
-verboseTooltip = "Collective service. Serves as a battleship. Armament: 2 standard weapon banks. Abilities: Transwarp Drive, Green Holding / Assimilation Beam, Detect Cloak, Technology Assimilation Beam, Regeneration. Special energy: 4500."
-
-baseName = "xui_xobbattle1"

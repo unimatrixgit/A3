@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "C"
-
+unitname = "Constitution Class"
 ishero = 1
 label = "USS Enterprise NCC-1701"
 race = "federation"
@@ -77,8 +77,8 @@ eventgreenalert = "XV_fent_GreenAlert"
 eventtransport = "XV_fent_Transport"
 eventselfdestruct = "XV_fent_SelfDestruct"
 eventdecommission = "XV_fent_Decommission"
-
-
+tooltip = "Hero Ship (Constitution Class)"
+verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Enterprise Upgrade. Availability follows the selected technology tree."
 dilithiumcost = 440
 metalcost = 150
 latinumcost = 0
@@ -124,9 +124,3 @@ weaponHardpoints5 = "hp07"
 maxspecialenergy = 1000
 
 specialenergyrate = 15
-
-unitName = "Constitution Class"
-
-tooltip = "Constitution Class"
-
-verboseTooltip = "Starfleet service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Enterprise Upgrade. Special energy: 1000."

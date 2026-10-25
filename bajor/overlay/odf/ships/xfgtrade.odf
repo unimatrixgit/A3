@@ -1,10 +1,10 @@
 #include "cargo.odf"
 
+unitName = "Mercenary Ferengi Trade Ship"
 
+tooltip = "Mercenary Ferengi Trade Ship"
 
-
-
-
+verboseTooltip = "Trades 1,500 cargo per shipment. Twice standard cargo-ship combat and impulse speed. Armed with one defensive disruptor beam."
 
 baseName = "xfgtrade"
 
@@ -85,9 +85,3 @@ lifeSupportHitPoints = 100
 sensorsHitPoints = 100
 
 hotkeyLabel = "HOTKEY_F2"
-
-unitName = "Ferengi Mercenary Ferengi Trade Ship"
-
-tooltip = "Ferengi Mercenary Ferengi Trade Ship"
-
-verboseTooltip = "Ferengi service. Carries trade cargo between eligible trading stations. Armament: 1 standard weapon banks."

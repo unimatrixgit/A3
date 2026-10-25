@@ -1,7 +1,7 @@
 #include "super.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Jach'Eng Class"
 
 //tooltips
 
@@ -175,18 +175,12 @@ criticaltargethardpoints = "hp07" "hp09" "hp11" "hp13" "hp17" "hp19" "hp21" "hp2
 
 
 
+tooltip = "Support Ship (Jach'Eng Class)"
 
-
-
+verboseTooltip = "Provides specialist support for fleet operations. Klingon engineering serves the Empire with direct, relentless force. Special systems: Subspace Shockwave, Cloak. Availability follows the selected technology tree."
 weapon3 = "gkcloak"
 dilithiumcost = 150
 metalcost = 50
 latinumcost = 0
 biomattercost = 0
 crewCost = 115
-
-unitName = "Klingon Jach'Eng Class"
-
-tooltip = "Klingon Jach'Eng Class"
-
-verboseTooltip = "Klingon service. Serves as a special. Armament: 1 standard weapon banks. Abilities: Subspace Shockwave, Cloak. Special energy: 2400."

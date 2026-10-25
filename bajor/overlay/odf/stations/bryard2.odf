@@ -1,6 +1,6 @@
 // Begin main properties
 
-
+unitName = "Breen Advanced Shipyard"
 
 race = "breen"
 maxHealth = 2500
@@ -119,12 +119,6 @@ crewCost = 500
 officerCost = 5
 buildTime = 120
 
+tooltip = "Shipyard (Breen Advanced Shipyard)"
 
-
-
-
-unitName = "Breen Advanced Shipyard"
-
-tooltip = "Breen Advanced Shipyard"
-
-verboseTooltip = "Breen service. Constructs the vessels available in its production menu."
+verboseTooltip = "Produces the vessels listed in its construction menu. Breen engineering supports the Confederacy with focused, uncompromising efficiency."

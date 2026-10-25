@@ -1,7 +1,7 @@
 #include "scoutBase.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Oberth Class"
 
 
 
@@ -115,19 +115,11 @@ ScaleSOD = 0.515556
 
 
 
+tooltip = "Scout (Oberth Class)"
 
-
-
+verboseTooltip = "Surveys space and locates threats ahead of the fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Tractor Beam. Availability follows the selected technology tree."
 dilithiumcost = 75
 metalcost = 0
 latinumcost = 0
 biomattercost = 0
 crewCost = 20
-
-unitName = "Starfleet Oberth Class - Venture"
-
-tooltip = "Starfleet Oberth Class - Venture"
-
-verboseTooltip = "Starfleet service. Serves as a scout. Armament: 1 standard weapon banks. Abilities: Tractor Beam. Special energy: 0."
-
-baseName = "xui_foberth"

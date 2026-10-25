@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "SpaceDock"
 
 //tooltips
 
@@ -303,9 +303,9 @@ criticaltargethardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp16" "hp17" "hp1
 
 
 
+tooltip = "Starbase (SpaceDock)"
 
-
-
+verboseTooltip = "A fortified center for fleet operations and local production. Starfleet engineering supports a disciplined, versatile fleet."
 
 ScaleSOD = 0.711251601
 
@@ -367,9 +367,3 @@ buildItem9 = "ffighter"
 buildItem10 = "fdeltaflyer"
 
 buildItem11 = "fantares"
-
-unitName = "Starfleet SpaceDock"
-
-tooltip = "Starfleet SpaceDock"
-
-verboseTooltip = "Starfleet service. Anchors the fleet and produces the units shown in its build menu. Armament: 15 standard weapon banks."

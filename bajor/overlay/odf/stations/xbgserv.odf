@@ -150,11 +150,11 @@ sensorsTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
 hullTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
 criticalTargetHardpoints = "hp26" "hp27" "hp10" "hp11" "hp12" "hp13"
 
+baseName = "xfgserv"
 
+unitName = "Mercenary Ferengi Service Yard"
 
-
-
-
+tooltip = "Mercenary Ferengi Service Yard"
 
 
 
@@ -184,7 +184,7 @@ latinumCost = 0
 
 biomatterCost = 0
 
-
+verboseTooltip = "Borg contract paid in dilithium and metal. Ferengi construction, trade, mining, colony and repair contracts. Resource costs are dilithium and metal only."
 
 
 
@@ -206,11 +206,3 @@ buildItem4 = "xbgcolony"
 buildItem5 = "xbgdil2"
 
 buildItem6 = "xbgdil3"
-
-unitName = "Collective Mercenary Ferengi Service Yard"
-
-tooltip = "Collective Mercenary Ferengi Service Yard"
-
-verboseTooltip = "Collective service. Constructs the vessels available in its production menu."
-
-baseName = "xui_xbgserv"

@@ -1,7 +1,7 @@
 #include "cruise1.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "New Orleans Class"
 
 //tooltips
 
@@ -148,17 +148,11 @@ maxSpecialEnergy = 800
 
 
 
+tooltip = "Cruiser (New Orleans Class)"
 
-
-
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Chain Reaction Pulsar. Availability follows the selected technology tree."
 dilithiumcost = 350
 metalcost = 115
 latinumcost = 0
 biomattercost = 0
 crewCost = 250
-
-unitName = "Starfleet New Orleans Class"
-
-tooltip = "Starfleet New Orleans Class"
-
-verboseTooltip = "Starfleet service. Serves as a cruiser. Armament: 4 standard weapon banks. Abilities: Chain Reaction Pulsar. Special energy: 800."

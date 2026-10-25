@@ -1,7 +1,7 @@
 #include "cruise2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Raptor Class"
 
 //tooltips
 
@@ -142,17 +142,11 @@ buildTime = 16
 
 
 
+tooltip = "Cruiser (Raptor Class)"
 
-
-
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Myotronic Inhibitor. Availability follows the selected technology tree."
 dilithiumcost = 420
 metalcost = 140
 latinumcost = 0
 biomattercost = 0
 crewCost = 275
-
-unitName = "Romulan Raptor Class"
-
-tooltip = "Romulan Raptor Class"
-
-verboseTooltip = "Romulan service. Serves as a cruiser. Armament: 3 standard weapon banks. Abilities: Cloak, Myotronic Inhibitor. Special energy: 2400."

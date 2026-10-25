@@ -108,7 +108,7 @@ hotkeyLabel = "HOTKEY_F3"
 
 
 
-
+unitName = "Bajoran Sensor Array"
 
 
 
@@ -157,7 +157,7 @@ latinumCost = 0
 
 biomatterCost = 0
 
-
+tooltip = "Fleet Installation (Bajoran Sensor Array)"
 
 
 
@@ -165,10 +165,4 @@ baseName = "bv4_bjsensor"
 
 weapon1 = "xbj_gdetectf"
 
-
-
-unitName = "Bajoran Sensor Array"
-
-tooltip = "Bajoran Sensor Array"
-
-verboseTooltip = "Bajoran service. Provides local sensor coverage. Abilities: Detect Cloak. Special energy: 0."
+verboseTooltip = "Bajoran sensor array. Reveals cloaked ships after Bajoran Tachyon Detection is researched at the Engineering Institute. Detection operates automatically."

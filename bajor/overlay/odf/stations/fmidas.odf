@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Midas Array"
 
 //tooltips
 
@@ -117,9 +117,9 @@ buildTime = 71
 
 
 
+tooltip = "Starbase (Midas Array)"
 
-
-
+verboseTooltip = "A fortified center for fleet operations and local production. Starfleet engineering supports a disciplined, versatile fleet."
 
 repairFacility = 0
 
@@ -142,9 +142,3 @@ buildItem0 = "fconst"
 buildItem1 = "fconst2"
 
 buildItem2 = "xfuconst"
-
-unitName = "Starfleet Midas Array"
-
-tooltip = "Starfleet Midas Array"
-
-verboseTooltip = "Starfleet service. Anchors the fleet and produces the units shown in its build menu. Abilities: Detect Cloak. Special energy: 0."

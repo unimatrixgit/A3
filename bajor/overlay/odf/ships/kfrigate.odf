@@ -6,7 +6,7 @@
 race = "klingon"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "D7H Class"
 
 //tooltips
 
@@ -134,17 +134,11 @@ specialEnergyRate = 9.0
 
 
 
+tooltip = "Frigate (D7H Class)"
 
-
-
+verboseTooltip = "A combat escort for patrols and coordinated fleet engagements. Klingon engineering serves the Empire with direct, relentless force. Special systems: Weapon Enhancer, Cloak. Availability follows the selected technology tree."
 dilithiumcost = 190
 metalcost = 65
 latinumcost = 0
 biomattercost = 0
 crewCost = 150
-
-unitName = "Klingon D7H Class"
-
-tooltip = "Klingon D7H Class"
-
-verboseTooltip = "Klingon service. Serves as a frigate. Armament: 1 standard weapon banks. Abilities: Weapon Enhancer, Cloak. Special energy: 900."

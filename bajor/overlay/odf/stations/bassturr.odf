@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Auto Assimilator"
 
 //tooltips
 
@@ -128,9 +128,9 @@ maximumCrew = 1500
 
 footprintBuffer = 17.5
 
+tooltip = "Fleet Installation (Auto Assimilator)"
 
-
-
+verboseTooltip = "A specialist installation supporting Borg operations. Collective engineering integrates this asset into the unimatrix."
 
 // Manual holding beam complements original automatic defense.
 weapon2 = "xbaautoman"
@@ -149,9 +149,3 @@ alert = 1
 canAttack = 1
 
 SHOW_SW_AUTONOMY = 1
-
-unitName = "Collective Auto Assimilator"
-
-tooltip = "Collective Auto Assimilator"
-
-verboseTooltip = "Collective service. Supports the operations available through its station controls. Armament: 1 standard weapon banks. Abilities: Assimilation Holding Beam. Special energy: 7200."

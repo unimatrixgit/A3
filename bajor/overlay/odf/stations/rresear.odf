@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Covert-Ops Facility"
 
 //tooltips
 
@@ -124,12 +124,6 @@ latinumCost = 500
 
 biomatterCost = 0
 
+tooltip = "Research Facility (Covert-Ops Facility)"
 
-
-
-
-unitName = "Romulan Covert-Ops Facility"
-
-tooltip = "Romulan Covert-Ops Facility"
-
-verboseTooltip = "Romulan service. Develops the technologies listed in its research menu."
+verboseTooltip = "Supports the technologies and upgrades available in its research menu. Romulan engineering favors calculated strikes and control of the battlefield."

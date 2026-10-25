@@ -1,7 +1,7 @@
 #include "scoutBase.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Delta Flyer"
 
 //tooltips
 
@@ -113,17 +113,11 @@ ScaleSOD = 0.3012825
 
 
 
+tooltip = "Scout (Delta Flyer)"
 
-
-
+verboseTooltip = "Surveys space and locates threats ahead of the fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Transwarp Drive. Availability follows the selected technology tree."
 dilithiumcost = 100
 metalcost = 0
 latinumcost = 0
 biomattercost = 0
 crewCost = 35
-
-unitName = "Starfleet Delta Flyer"
-
-tooltip = "Starfleet Delta Flyer"
-
-verboseTooltip = "Starfleet service. Serves as a scout. Armament: 2 standard weapon banks. Abilities: Transwarp Drive. Special energy: 1001."

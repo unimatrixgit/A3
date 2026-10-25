@@ -40,7 +40,7 @@ has_crew = 1
 has_hitpoints = 1
 checkvalidresourceinterval = 10.0f
 race = "species8472"
-
+unitname = "Mirror Rift Maker"
 recyclesinplace = 1
 ishero = 0
 maxhealth = 8472
@@ -90,7 +90,7 @@ eventgreenalert = "XV_8472_heromothership_GreenAlert"
 eventtransport = "XV_8472_heromothership_Transport"
 eventselfdestruct = "XV_8472_heromothership_SelfDestruct"
 eventdecommission = "XV_8472_heromothership_Decommission"
-
+tooltip = "Mirror Rift Maker"
 
 
 
@@ -133,7 +133,7 @@ buildTime = 12
 
 hotkeyLabel = "HOTKEY_F2"
 
-
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."
 
 buildItem0 = "8472_active"
 
@@ -142,9 +142,3 @@ buildItem1 = "8472_passive"
 buildItem2 = "714const"
 
 buildItem3 = "xsuconst"
-
-unitName = "Fluidic Mirror Rift Maker - Nucleic"
-
-tooltip = "Fluidic Mirror Rift Maker - Nucleic"
-
-verboseTooltip = "Fluidic service. Controllable Mirror Universe counterpart, built through normal production. Armament: 10 standard weapon banks."

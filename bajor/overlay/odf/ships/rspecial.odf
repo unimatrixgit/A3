@@ -1,7 +1,7 @@
 #include "special.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Shadow Class"
 
 //tooltips
 
@@ -145,18 +145,12 @@ specialEnergyRate = 18.0
 
 
 
+tooltip = "Support Ship (Shadow Class)"
 
-
-
+verboseTooltip = "Provides specialist support for fleet operations. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Psychonic Blast, Phase Cloak, Holo-Emitter, Shield Projector. Availability follows the selected technology tree."
 weapon7 = "gselfdes"
 dilithiumcost = 375
 metalcost = 125
 latinumcost = 0
 biomattercost = 0
 crewCost = 185
-
-unitName = "Romulan Shadow Class"
-
-tooltip = "Romulan Shadow Class"
-
-verboseTooltip = "Romulan service. Serves as a special. Armament: 2 standard weapon banks. Abilities: Psychonic Blast, Phase Cloak, Holo-Emitter, Shield Projector, Self Destruct. Special energy: 1800."

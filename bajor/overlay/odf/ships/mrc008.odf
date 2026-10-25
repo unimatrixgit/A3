@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "D"
-
+unitname = "Mirror Defiant Class"
 race = "federation"
 maxhealth = 5100
 shieldrate = 68
@@ -89,7 +89,7 @@ attack_path1 = "p3.pth"
 officercost = 7
 
 scalesod = 0.73561125
-
+tooltip = "Mirror Defiant Class"
 
 
 
@@ -126,10 +126,4 @@ buildTime = 15
 
 hotkeyLabel = "HOTKEY_F2"
 
-
-
-unitName = "Starfleet Mirror Defiant Class"
-
-tooltip = "Starfleet Mirror Defiant Class"
-
-verboseTooltip = "Starfleet service. Controllable Mirror Universe counterpart, built through normal production. Armament: 8 standard weapon banks. Abilities: Antimatter Mines, Cloak. Special energy: 6800."
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

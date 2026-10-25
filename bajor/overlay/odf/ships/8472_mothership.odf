@@ -10,7 +10,7 @@ race = "species8472"
 shipIsBuiltByEvolution = 1
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Mother"
 
 //tooltips
 
@@ -247,9 +247,9 @@ footprintBuffer = 72
 
 
 
+tooltip = "Fleet Ship (Mother)"
 
-
-
+verboseTooltip = "A Species 8472 vessel for fleet operations. Living biotechnology shapes this organism for operations beyond fluidic space."
 dilithiumcost = 0
 metalcost = 0
 latinumcost = 0
@@ -263,9 +263,3 @@ buildItem1 = "8472_passive"
 buildItem2 = "714const"
 
 buildItem3 = "xsuconst"
-
-unitName = "Fluidic Mother - Nucleic"
-
-tooltip = "Fluidic Mother - Nucleic"
-
-verboseTooltip = "Fluidic service. Serves as a fleet combatant. Armament: 8 standard weapon banks."

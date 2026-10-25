@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-
+unitname = "Raptor Command Ship"
 label = "Raptor Command Ship"
 race = "klingon"
 basename = "xhkraptor"
@@ -73,8 +73,8 @@ eventgreenalert = "XV_xhkhero_GreenAlert"
 eventtransport = "XV_xhkhero_Transport"
 eventselfdestruct = "XV_xhkhero_SelfDestruct"
 eventdecommission = "XV_xhkhero_Decommission"
-
-
+tooltip = "Hero Ship (Raptor Command Ship)"
+verbosetooltip = "A named command vessel serving the Klingon fleet. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak, Ion Cannon. Availability follows the selected technology tree."
 dilithiumcost = 410
 metalcost = 175
 latinumcost = 0
@@ -132,9 +132,3 @@ weaponHardpoints7 = "hp06"
 maxspecialenergy = 2500
 
 specialenergyrate = 25
-
-unitName = "Raptor Command Ship"
-
-tooltip = "Raptor Command Ship"
-
-verboseTooltip = "Klingon service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Cloak, Self Destruct, Ion Cannon. Special energy: 2500."

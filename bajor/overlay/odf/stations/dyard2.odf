@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Dominion Advanced Shipyard"
 
 //tooltips
 
@@ -119,9 +119,9 @@ crewCost = 500
 officerCost = 5
 buildTime = 120
 
+tooltip = "Shipyard (Dominion Advanced Shipyard)"
 
-
-
+verboseTooltip = "Produces the vessels listed in its construction menu. Dominion engineering serves the Founders through disciplined JemHadar operations."
 
 
 
@@ -132,9 +132,3 @@ buildItem1 = "dbattle"
 buildItem2 = "dspecial"
 buildItem3 = "dweyoun"
 buildItem4 = "xdhattack"
-
-unitName = "Dominion Advanced Shipyard"
-
-tooltip = "Dominion Advanced Shipyard"
-
-verboseTooltip = "Dominion service. Constructs the vessels available in its production menu."

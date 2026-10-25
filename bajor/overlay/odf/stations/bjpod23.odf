@@ -1,7 +1,7 @@
 #include "SensorUpgradePod2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitname = "Bajoran Sensors III"
 
 //Race which can build ship & starting race of ship
 race = "bajoran"
@@ -86,14 +86,8 @@ latinumCost = 300
 
 biomatterCost = 0
 
+tooltip = "Research Upgrade (Bajoran Sensors III)"
 
-
-
+verboseTooltip = "Researches Bajoran Sensors III. Bajoran militia engineering protects Bajor and its neighboring systems."
 
 baseName = "bv4_bjpod23"
-
-unitName = "Bajoran Sensors III"
-
-tooltip = "Bajoran Sensors III"
-
-verboseTooltip = "Bajoran service. Unlocks its assigned research upgrade."

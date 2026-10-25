@@ -1,7 +1,7 @@
 #include "scoutBase.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Venture Class"
 
 //tooltips
 
@@ -111,17 +111,11 @@ ScaleSOD = 0.992448
 
 
 
+tooltip = "Scout (Venture Class)"
 
-
-
+verboseTooltip = "Surveys space and locates threats ahead of the fleet. Starfleet engineering supports a disciplined, versatile fleet."
 dilithiumcost = 75
 metalcost = 0
 latinumcost = 0
 biomattercost = 0
 crewCost = 15
-
-unitName = "Starfleet Venture Class"
-
-tooltip = "Starfleet Venture Class"
-
-verboseTooltip = "Starfleet service. Serves as a scout. Armament: 1 standard weapon banks. Abilities: Detect Cloak. Special energy: 0."

@@ -3,7 +3,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Darius Class"
 
 //tooltips
 
@@ -267,9 +267,9 @@ footprintBuffer = 72
 
 
 
+tooltip = "Starbase (Darius Class)"
 
-
-
+verboseTooltip = "A fortified center for fleet operations and local production. Starfleet engineering supports a disciplined, versatile fleet."
 
 repairFacility = 0
 
@@ -322,9 +322,3 @@ buildItem10 = "fdeltaflyer"
 buildItem11 = "fantares"
 
 buildItem12 = "fnxent"
-
-unitName = "Starfleet Darius Class"
-
-tooltip = "Starfleet Darius Class"
-
-verboseTooltip = "Starfleet service. Anchors the fleet and produces the units shown in its build menu. Armament: 13 standard weapon banks. Abilities: Detect Cloak. Special energy: 0."

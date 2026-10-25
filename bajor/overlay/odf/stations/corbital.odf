@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Orbital Processing Facility"
 
 //tooltips
 
@@ -182,9 +182,9 @@ weaponHardpoints6 = "hp05"
 weapon7 = "bc2phas"
 weaponHardpoints7 = "hp06"
 
+tooltip = "Orbital Mining Station (Orbital Processing Facility)"
 
-
-
+verboseTooltip = "Processes planetary resources and supports orbital operations. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Orbital Mining Beam. Availability follows the selected technology tree."
 
 
 
@@ -195,9 +195,3 @@ metalCost = 0
 latinumCost = 0
 
 biomatterCost = 0
-
-unitName = "Cardassian Orbital Processing Facility"
-
-tooltip = "Cardassian Orbital Processing Facility"
-
-verboseTooltip = "Cardassian service. Processes orbital metal resources. Armament: 6 standard weapon banks. Abilities: Orbital Mining Beam. Special energy: 0."

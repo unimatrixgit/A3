@@ -1,4 +1,4 @@
-
+unitname = "Thot Gor - Breen Flagship"
 race = "breen"
 maxhealth = 3000
 shieldgeneratorhitpoints = 600
@@ -81,15 +81,15 @@ officercost = 13
 buildtime = 60
 
 
-
-
+tooltip = "Hero Ship (Thot Gor - Breen Flagship)"
+verbosetooltip = "A named command vessel serving the Breen fleet. Breen engineering supports the Confederacy with focused, uncompromising efficiency. Special systems: Shield Disruptor. Availability follows the selected technology tree."
 
 dilithiumcost = 300
 metalcost = 120
 latinumcost = 0
 biomattercost = 0
 crewcost = 570
-
+basename = "brbattle"
 ishero = 1
 label = "Thot Gor - Breen Flagship"
 eventredalert = "XV_xhbrhero_RedAlert"
@@ -140,11 +140,3 @@ weaponHardpoints7 = "hp01"
 maxspecialenergy = 1600
 
 specialenergyrate = 16
-
-unitName = "Thot Gor - Breen Flagship"
-
-tooltip = "Thot Gor - Breen Flagship"
-
-verboseTooltip = "Breen service. Hero vessel with its own command abilities. Armament: 5 standard weapon banks. Abilities: Self Destruct, Shield Disruptor. Special energy: 1600."
-
-baseName = "xui_xhbrhero"

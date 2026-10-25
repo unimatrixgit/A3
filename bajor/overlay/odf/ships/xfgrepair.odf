@@ -14,15 +14,15 @@ hullTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04" "hp06"
 
 criticalTargetHardpoints = "hp01" "hp03" "hp02" "hp05" "hp04" "hp06"
 
-
+baseName = "xfgrepair"
 
 race = "ferengi"
 
+unitName = "Mercenary Ferengi Repair Tender"
 
+tooltip = "Mercenary Ferengi Repair Tender"
 
-
-
-
+verboseTooltip = "Ferengi repair tender. Contracted at the Ferengi Service Yard for latinum."
 
 maxHealth = 650
 
@@ -69,11 +69,3 @@ repairRate = 0.25
 weapon1 = "gRepairBeam"
 
 weaponHardpoints1 = "hp01"
-
-unitName = "Ferengi Mercenary Ferengi Repair Tender"
-
-tooltip = "Ferengi Mercenary Ferengi Repair Tender"
-
-verboseTooltip = "Ferengi service. Repairs friendly vessels using its native repair systems. Abilities: Repair Beam. Special energy: 0."
-
-baseName = "xui_xfgrepair"

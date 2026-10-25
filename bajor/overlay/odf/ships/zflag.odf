@@ -173,9 +173,9 @@ fireball = "xfirebsm"
 //**********************************************************************
 
 //Name of Flag Class in Ship Display window & in edit mode & tooltip
-
-
-
+unitName = "Flag"
+tooltip = "Z_FLAG"
+verboseTooltip = "Z_FLAG_V"
 
 //Race which can build ship & starting race of ship
 // GDM - note that this is set dynamically to be the race of the player at flag creation time.
@@ -232,9 +232,3 @@ buildTime = 5
 
 // Visual size: 150 percent of pre-patch scale.
 ScaleSOD = 1.5
-
-unitName = "Starfleet Flag"
-
-tooltip = "Starfleet Flag"
-
-verboseTooltip = "Starfleet service. Serves as a scout."

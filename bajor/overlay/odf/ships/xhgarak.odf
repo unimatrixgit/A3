@@ -59,9 +59,9 @@ impulsespeed = 78
 warpspeed = 920
 weaponyellow = 1.0f
 weaponred = 2.0f
-
+unitname = "Garak's Battleship"
 label = "Garak's Battleship"
-
+tooltip = "Hero Ship (Garak's Battleship)"
 basename = "xhgarak"
 race = "cardassian"
 ishero = 1
@@ -85,7 +85,7 @@ sensorstargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
 hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
 criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05"
 shieldrate = 15.94
-
+verbosetooltip = "Detapa-class hero battleship commanded by Garak. Three beam banks and three plasma-torpedo banks. Plasma Bank Overload and Flagship Command System require Plasma Bank Overload research."
 
 
 
@@ -162,9 +162,3 @@ weaponHardpoints11 = "hp11"
 maxspecialenergy = 1800
 
 specialenergyrate = 18
-
-unitName = "Garak's Battleship"
-
-tooltip = "Garak's Battleship"
-
-verboseTooltip = "Cardassian service. Hero vessel with its own command abilities. Armament: 8 standard weapon banks. Abilities: Plasma Bank Overload, Flagship Command System, Self Destruct. Special energy: 1800."

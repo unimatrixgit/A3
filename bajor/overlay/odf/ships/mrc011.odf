@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "C"
-
+unitname = "Mirror Excelsior Class Refit"
 race = "federation"
 maxhealth = 6000
 shieldrate = 80
@@ -83,7 +83,7 @@ officercost = 9
 
 weapon5 = "ya0033"
 weaponhardpoints5 = "hp01"
-
+tooltip = "Mirror Excelsior Class Refit"
 
 
 
@@ -118,10 +118,4 @@ buildTime = 128
 
 hotkeyLabel = "HOTKEY_F5"
 
-
-
-unitName = "Starfleet Mirror Excelsior Class Refit"
-
-tooltip = "Starfleet Mirror Excelsior Class Refit"
-
-verboseTooltip = "Starfleet service. Controllable Mirror Universe counterpart, built through normal production. Armament: 4 standard weapon banks. Abilities: Transwarp Drive, Enterprise Upgrade, Chain Reaction Pulsar. Special energy: 8000."
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

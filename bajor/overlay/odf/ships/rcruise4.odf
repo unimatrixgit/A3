@@ -1,6 +1,6 @@
 // Begin main properties
 
-
+unitName = "Tal'Arti Remtus"
 
 
 race = "romulan"
@@ -123,7 +123,7 @@ can_explore = 1
 
 
 
-
+baseName = "rcruise3"
 
 
 // Xaramada resource costs: original filename.
@@ -143,19 +143,11 @@ buildTime = 15
 
 
 
+tooltip = "Cruiser (Tal'Arti Remtus)"
 
-
-
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Heated Plasma, Cloak. Availability follows the selected technology tree."
 dilithiumcost = 70
 metalcost = 25
 latinumcost = 0
 biomattercost = 0
 crewCost = 115
-
-unitName = "Romulan Tal'Arti Remtus"
-
-tooltip = "Romulan Tal'Arti Remtus"
-
-verboseTooltip = "Romulan service. Serves as a cruiser. Armament: 3 standard weapon banks. Abilities: Heated Plasma, Cloak. Special energy: 1500."
-
-baseName = "xui_rcruise4"

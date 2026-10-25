@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Breen Research Facility"
 
 //tooltips
 
@@ -124,12 +124,6 @@ biomatterCost = 0
 buildItem0 = "yabrpolpod"
 podHardpoints = "pod01"
 
+tooltip = "Research Facility (Breen Research Facility)"
 
-
-
-
-unitName = "Breen Research Facility"
-
-tooltip = "Breen Research Facility"
-
-verboseTooltip = "Breen service. Develops the technologies listed in its research menu."
+verboseTooltip = "Supports the technologies and upgrades available in its research menu. Breen engineering supports the Confederacy with focused, uncompromising efficiency."

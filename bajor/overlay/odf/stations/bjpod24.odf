@@ -1,7 +1,7 @@
 #include "EngineUpgradePod2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitname = "Bajoran Engines III"
 
 //Race which can build ship & starting race of ship
 race = "bajoran"
@@ -86,14 +86,8 @@ latinumCost = 300
 
 biomatterCost = 0
 
+tooltip = "Research Upgrade (Bajoran Engines III)"
 
-
-
+verboseTooltip = "Researches Bajoran Engines III. Bajoran militia engineering protects Bajor and its neighboring systems."
 
 baseName = "bv4_bjpod24"
-
-unitName = "Bajoran Engines III"
-
-tooltip = "Bajoran Engines III"
-
-verboseTooltip = "Bajoran service. Unlocks its assigned research upgrade."

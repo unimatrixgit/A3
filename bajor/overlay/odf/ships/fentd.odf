@@ -54,7 +54,7 @@ alert = 1
 can_sandd = 1
 shiptype = "B"
 trekphysicsfile = "fbattlephys.odf"
-
+unitname = "Galaxy Class"
 ishero = 1
 label = "USS Enterprise NCC-1701-D"
 race = "federation"
@@ -81,8 +81,8 @@ eventgreenalert = "XV_fentd_GreenAlert"
 eventtransport = "XV_fentd_Transport"
 eventselfdestruct = "XV_fentd_SelfDestruct"
 eventdecommission = "XV_fentd_Decommission"
-
-
+tooltip = "Hero Ship (Galaxy Class)"
+verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Enterprise Upgrade, Tractor Beam. Availability follows the selected technology tree."
 dilithiumcost = 925
 metalcost = 400
 latinumcost = 0
@@ -140,9 +140,3 @@ weaponHardpoints7 = "hp01"
 maxspecialenergy = 1000
 
 specialenergyrate = 15
-
-unitName = "Galaxy Class"
-
-tooltip = "Galaxy Class"
-
-verboseTooltip = "Starfleet service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Enterprise Upgrade, Self Destruct, Tractor Beam. Special energy: 1000."

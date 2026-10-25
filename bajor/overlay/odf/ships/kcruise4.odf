@@ -1,7 +1,7 @@
 #include "cruise1.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Hegh'Ta Class"
 
 //tooltips
 
@@ -131,18 +131,12 @@ weaponHardpoints4 = "hp01"
 
 
 
+tooltip = "Cruiser (Hegh'Ta Class)"
 
-
-
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak, Polaron Torpedo. Availability follows the selected technology tree."
 weapon2 = "gkcloak"
 dilithiumcost = 215
 metalcost = 75
 latinumcost = 0
 biomattercost = 0
 crewCost = 195
-
-unitName = "Klingon Hegh'Ta Class"
-
-tooltip = "Klingon Hegh'Ta Class"
-
-verboseTooltip = "Klingon service. Serves as a cruiser. Armament: 2 standard weapon banks. Abilities: Cloak, Polaron Torpedo. Special energy: 2400."

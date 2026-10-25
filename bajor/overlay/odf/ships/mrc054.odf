@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-
+unitname = "Mirror Fluidic Leviathan"
 recyclesinplace = 1
 race = "species8472"
 maxhealth = 8676
@@ -83,7 +83,7 @@ weaponred = 0.75f
 can_repair = 0
 officercost = 1
 
-
+tooltip = "Mirror Fluidic Leviathan"
 
 
 
@@ -119,10 +119,4 @@ buildTime = 145
 
 hotkeyLabel = "HOTKEY_F3"
 
-
-
-unitName = "Fluidic Mirror Fluidic Leviathan"
-
-tooltip = "Fluidic Mirror Fluidic Leviathan"
-
-verboseTooltip = "Fluidic service. Controllable Mirror Universe counterpart, built through normal production. Armament: 3 standard weapon banks. Abilities: 8472 Nebula Generation, 8472 Nebula Flux, 8472 Transient Rift. Special energy: 6800."
+verboseTooltip = "Mirror Universe counterpart: double normal weapon damage, 75 percent original durability and 125 percent original size. Built and commanded as a normal player-owned ship."

@@ -1,7 +1,7 @@
 #include "battle.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Sona Battleship"
 
 //tooltips
 
@@ -135,18 +135,12 @@ weaponHardpoints5 = "hp01"
 
 
 
+tooltip = "Capital Ship (Sona Battleship)"
 
-
-
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Plasma Bank Overload. Availability follows the selected technology tree."
 weapon3 = "gselfdes"
 dilithiumcost = 495
 metalcost = 210
 latinumcost = 0
 biomattercost = 0
 crewCost = 790
-
-unitName = "Cardassian Sona Battleship"
-
-tooltip = "Cardassian Sona Battleship"
-
-verboseTooltip = "Cardassian service. Serves as a battleship. Armament: 3 standard weapon banks. Abilities: Self Destruct, Plasma Bank Overload. Special energy: 2200."

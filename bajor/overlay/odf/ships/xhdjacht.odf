@@ -49,9 +49,9 @@ has_crew = 1
 transporter = 1
 show_movement_autonomy = 1
 can_explore = 1
-
+unitname = "The founders's jacht"
 label = "The founders's jacht"
-
+basename = "ddestroy"
 ishero = 1
 possiblecraftnames = "The founders's jacht"
 
@@ -82,8 +82,8 @@ engineshitpoints = 600
 weaponshitpoints = 600
 lifesupporthitpoints = 600
 sensorshitpoints = 600
-
-
+tooltip = "Hero Ship (The founders's jacht)"
+verbosetooltip = "A named command vessel serving the Dominion fleet. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Polaron Torpedo, Shield Disruptor, Jem'Hadar Warriors. Availability follows the selected technology tree."
 dilithiumcost = 515
 metalcost = 130
 latinumcost = 0
@@ -160,11 +160,3 @@ weaponHardpoints10 = "hp05"
 maxspecialenergy = 1600
 
 specialenergyrate = 16
-
-unitName = "The founders's jacht - Founder"
-
-tooltip = "The founders's jacht - Founder"
-
-verboseTooltip = "Dominion service. Hero vessel with its own command abilities. Armament: 7 standard weapon banks. Abilities: Polaron Torpedo, Shield Disruptor, Jem'Hadar Warriors. Special energy: 1600."
-
-baseName = "xui_xhdjacht"

@@ -4,7 +4,7 @@
 //MAIN DESIGN PARAMETERS
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Impulse Engine Boost Pod"
 
 //tooltips
 
@@ -66,12 +66,6 @@ latinumCost = 300
 
 biomatterCost = 0
 
+tooltip = "Research Upgrade (Impulse Engine Boost Pod)"
 
-
-
-
-unitName = "Cardassian Impulse Engine Boost Pod"
-
-tooltip = "Cardassian Impulse Engine Boost Pod"
-
-verboseTooltip = "Cardassian service. Unlocks its assigned research upgrade."
+verboseTooltip = "Researches Impulse Engine Boost Pod. Cardassian engineering sustains the Union through ordered, persistent operations."

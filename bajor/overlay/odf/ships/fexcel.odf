@@ -1,7 +1,7 @@
 #include "cruise1.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Excelsior Class"
 
 //tooltips
 
@@ -128,17 +128,11 @@ buildTime = 20
 
 
 
+tooltip = "Cruiser (Excelsior Class)"
 
-
-
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Tractor Beam. Availability follows the selected technology tree."
 dilithiumcost = 230
 metalcost = 80
 latinumcost = 0
 biomattercost = 0
 crewCost = 205
-
-unitName = "Starfleet Excelsior Class"
-
-tooltip = "Starfleet Excelsior Class"
-
-verboseTooltip = "Starfleet service. Serves as a cruiser. Armament: 2 standard weapon banks. Abilities: Tractor Beam. Special energy: 2000."

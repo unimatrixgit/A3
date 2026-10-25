@@ -1,5 +1,5 @@
 #include "fdestroy.odf"
-
+unitName = "Omega Defiant Class"
 
 
 baseName = "fdestroy"
@@ -43,17 +43,11 @@ ScaleSOD = 0.6075
 
 
 
+tooltip = "Attack Ship (Omega Defiant Class)"
 
-
-
+verboseTooltip = "A light combat ship for interception and fleet support. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Antimatter Mines, Cloak. Availability follows the selected technology tree."
 dilithiumcost = 370
 metalcost = 95
 latinumcost = 0
 biomattercost = 0
 crewCost = 130
-
-unitName = "Starfleet Omega Defiant Class"
-
-tooltip = "Starfleet Omega Defiant Class"
-
-verboseTooltip = "Starfleet service. Serves as a destroyer. Armament: 6 standard weapon banks. Abilities: Antimatter Mines, Cloak. Special energy: 1020."

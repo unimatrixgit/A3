@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-
+unitname = "Qeh'Ral Class"
 ishero = 1
 label = "IKS Sad'taj, Captain Bek'Ta's Qeh'Ral"
 race = "klingon"
@@ -78,8 +78,8 @@ eventgreenalert = "XV_kbekta_GreenAlert"
 eventtransport = "XV_kbekta_Transport"
 eventselfdestruct = "XV_kbekta_SelfDestruct"
 eventdecommission = "XV_kbekta_Decommission"
-
-
+tooltip = "Hero Ship (Qeh'Ral Class)"
+verbosetooltip = "A named command vessel serving the Klingon fleet. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak. Availability follows the selected technology tree."
 dilithiumcost = 415
 metalcost = 175
 latinumcost = 0
@@ -131,9 +131,3 @@ weaponHardpoints6 = "hp02"
 maxspecialenergy = 1000
 
 specialenergyrate = 15
-
-unitName = "Qeh'Ral Class"
-
-tooltip = "Qeh'Ral Class"
-
-verboseTooltip = "Klingon service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Cloak, Self Destruct. Special energy: 1000."

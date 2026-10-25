@@ -1,7 +1,7 @@
 #include "battle2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Prometheus Class"
 
 //tooltips
 
@@ -153,17 +153,11 @@ specialEnergyRate = 14.0
 
 
 
+tooltip = "Capital Ship (Prometheus Class)"
 
-
-
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Shield Disruptor. Availability follows the selected technology tree."
 dilithiumcost = 470
 metalcost = 200
 latinumcost = 0
 biomattercost = 0
 crewCost = 775
-
-unitName = "Starfleet Prometheus Class - Venture"
-
-tooltip = "Starfleet Prometheus Class - Venture"
-
-verboseTooltip = "Starfleet service. Serves as a battleship. Armament: 3 standard weapon banks. Abilities: Shield Disruptor. Special energy: 1400."

@@ -1,7 +1,7 @@
 #include "cruise2.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Legate Class"
 
 //tooltips
 
@@ -136,17 +136,11 @@ weaponHardpoints3 = "hp01"
 
 
 
+tooltip = "Cruiser (Legate Class)"
 
-
-
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Cardassian engineering sustains the Union through ordered, persistent operations. Special systems: Drones. Availability follows the selected technology tree."
 dilithiumcost = 290
 metalcost = 95
 latinumcost = 0
 biomattercost = 0
 crewCost = 230
-
-unitName = "Cardassian Legate Class"
-
-tooltip = "Cardassian Legate Class"
-
-verboseTooltip = "Cardassian service. Serves as a cruiser. Armament: 2 standard weapon banks. Abilities: Drones. Special energy: 2200."

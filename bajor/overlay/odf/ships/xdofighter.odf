@@ -1,6 +1,6 @@
 // Begin main properties
 
-
+unitName = "Jem'HadarDestroyer"
 
 
 race = "dominion"
@@ -145,21 +145,13 @@ ScaleSOD = 3.3
 
 
 
+baseName = "ddestroy"
 
+tooltip = "Attack Ship (Jem'HadarDestroyer)"
 
-
-
-
+verboseTooltip = "A light combat ship for interception and fleet support. Dominion engineering serves the Founders through disciplined JemHadar operations. Special systems: Ramming Speed. Availability follows the selected technology tree."
 dilithiumcost = 60
 metalcost = 15
 latinumcost = 0
 biomattercost = 0
 crewCost = 50
-
-unitName = "Dominion Jem'HadarDestroyer - Founder"
-
-tooltip = "Dominion Jem'HadarDestroyer - Founder"
-
-verboseTooltip = "Dominion service. Serves as a destroyer. Armament: 2 standard weapon banks. Abilities: Ramming Speed. Special energy: 1000."
-
-baseName = "xui_xdofighter"

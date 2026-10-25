@@ -1,7 +1,7 @@
 #include "cruise1.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Griffin Class"
 
 //tooltips
 
@@ -130,17 +130,11 @@ buildTime = 16
 
 
 
+tooltip = "Cruiser (Griffin Class)"
 
-
-
+verboseTooltip = "A frontline warship for patrols and sustained fleet operations. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Sensor Jammer. Availability follows the selected technology tree."
 dilithiumcost = 305
 metalcost = 100
 latinumcost = 0
 biomattercost = 0
 crewCost = 230
-
-unitName = "Romulan Griffin Class"
-
-tooltip = "Romulan Griffin Class"
-
-verboseTooltip = "Romulan service. Serves as a cruiser. Armament: 3 standard weapon banks. Abilities: Cloak, Sensor Jammer. Special energy: 2400."

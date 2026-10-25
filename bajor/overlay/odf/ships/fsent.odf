@@ -1,7 +1,7 @@
 #include "battle.odf"
 
 //Name of Ship class in Ship Display window & in edit mode & tooltip
-
+unitName = "Sentinel Class"
 
 //tooltips
 
@@ -128,17 +128,11 @@ weaponHardpoints3 = "hp01"
 
 
 
+tooltip = "Capital Ship (Sentinel Class)"
 
-
-
+verboseTooltip = "A heavy warship built to anchor major fleet engagements. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
 dilithiumcost = 260
 metalcost = 115
 latinumcost = 0
 biomattercost = 0
 crewCost = 575
-
-unitName = "Starfleet Sentinel Class"
-
-tooltip = "Starfleet Sentinel Class"
-
-verboseTooltip = "Starfleet service. Serves as a battleship. Armament: 2 standard weapon banks. Abilities: Corbomite Reflector. Special energy: 1000."

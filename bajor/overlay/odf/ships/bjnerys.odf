@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-
+unitname = "Colonel Kira Nerys - Bajoran Command Battleship"
 ishero = 1
 label = "Enterprise NCC 1701-E"
 race = "bajoran"
@@ -78,8 +78,8 @@ eventcloakdisengage = "XVoice_Kira_CloakDisengage"
 maxhealth = 11000
 shieldrate = 110
 officercost = 17
-
-
+tooltip = "Hero Ship (Colonel Kira Nerys - Bajoran Command Battleship)"
+verbosetooltip = "A named command vessel serving the Bajoran fleet. Bajoran militia engineering protects Bajor and its neighboring systems. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
 latinumcost = 0
 biomattercost = 0
 crewcost = 735
@@ -134,9 +134,3 @@ weaponHardpoints6 = "hp18"
 maxspecialenergy = 11000
 
 specialenergyrate = 110
-
-unitName = "Colonel Kira Nerys - Bajoran Command Battleship"
-
-tooltip = "Colonel Kira Nerys - Bajoran Command Battleship"
-
-verboseTooltip = "Bajoran service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Self Destruct, Corbomite Reflector. Special energy: 11000."

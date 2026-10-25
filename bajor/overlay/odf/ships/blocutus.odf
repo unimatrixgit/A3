@@ -53,7 +53,7 @@ combat = 1
 alert = 1
 can_sandd = 1
 shiptype = "B"
-
+unitname = "Locutus' Cube"
 ishero = 1
 label = "Locutus"
 race = "borg"
@@ -67,7 +67,7 @@ hulltargethardpoints = "hp17" "hp18" "hp19" "hp20" "hp21" "hp22" "hp23"
 criticaltargethardpoints = "hp18" "hp20" "hp22" "hp24" "hp26"
 weaponyellow = 1.5f
 weaponred = 5.0f
-
+basename = "bbattle1"
 scalesod = 1.3f
 officercost = 2
 buildtime = 150
@@ -78,11 +78,10 @@ eventtransport = "XLocutus_Transport"
 eventselfdestruct = "XLocutus_SelfDestruct"
 eventdecommission = "XLocutus_Decommission"
 maxextraweapons = 3
-
-
+tooltip = "Hero Ship (Locutus' Cube)"
+verbosetooltip = "A named command vessel serving the Borg fleet. Collective engineering integrates this asset into the unimatrix. Special systems: Transwarp Drive, Shield Remodulation, Green Holding / Assimilation Beam, Technology Assimilation Beam. Availability follows the selected technology tree."
 latinumcost = 0
-biomattercost = 0
-
+biomattercost = 0
 maxhealth = 6000
 shieldrate = 24
 dilithiumcost = 700
@@ -155,11 +154,3 @@ specialenergyrate = 16
 crewCost = 736
 
 maximumCrew = 736
-
-unitName = "Locutus' Cube"
-
-tooltip = "Locutus' Cube"
-
-verboseTooltip = "Collective service. Hero vessel with its own command abilities. Armament: 4 standard weapon banks. Abilities: Transwarp Drive, Shield Remodulation, Green Holding / Assimilation Beam, Detect Cloak, Technology Assimilation Beam. Special energy: 1600."
-
-baseName = "xui_blocutus"
