@@ -256,11 +256,21 @@ weaponHardpoints6 = "hp01"
 
 tooltip = "Capital Ship (Ultra Fusion Cube)"
 
-verboseTooltip = "A heavy warship built to anchor major fleet engagements. Collective engineering integrates this asset into the unimatrix. Special systems: Transwarp Drive, Green Holding / Assimilation Beam, Technology Assimilation Beam. Availability follows the selected technology tree."
+
 dilithiumcost = 3060
 metalcost = 835
 latinumcost = 0
-biomattercost = 0
+biomattercost = 0
+
+
+
+
+
+
+
+
+
+
 
 buildItem0 = "bscout"
 
@@ -281,3 +291,5 @@ buildItem7 = "bfreight"
 crewCost = 2545
 
 maximumCrew = 2545
+
+verboseTooltip = "Ultra Fusion Cube\nTranswarp Drive, Green Holding / Assimilation Beam, Detect Cloak, Technology Assimilation Beam\nThe Collective pursues perfection through unity."

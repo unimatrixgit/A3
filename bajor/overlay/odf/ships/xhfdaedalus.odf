@@ -74,7 +74,7 @@ eventtransport = "XV_fent_Transport"
 eventselfdestruct = "XV_fent_SelfDestruct"
 eventdecommission = "XV_fent_Decommission"
 tooltip = "Hero Ship (Daedalus Command Prototype)"
-verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+
 dilithiumcost = 350
 metalcost = 150
 latinumcost = 0
@@ -126,3 +126,5 @@ weaponHardpoints6 = "hp05"
 maxspecialenergy = 2500
 
 specialenergyrate = 25
+
+verboseTooltip = "Daedalus Command Prototype\nSelf Destruct, Corbomite Reflector\nStarfleet command leads from the front."

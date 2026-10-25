@@ -83,7 +83,7 @@ eventselfdestruct = "XV_fvoyager_SelfDestruct"
 eventdecommission = "XV_fvoyager_Decommission"
 scalesod = 2.25
 tooltip = "Hero Ship (Intrepid Class)"
-verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Tractor Beam. Availability follows the selected technology tree."
+
 dilithiumcost = 1070
 metalcost = 270
 latinumcost = 0
@@ -153,3 +153,5 @@ weaponHardpoints9 = "hp02"
 maxspecialenergy = 1000
 
 specialenergyrate = 15
+
+verboseTooltip = "Intrepid Class\nSelf Destruct, Tractor Beam\nLong-range explorer of Starfleet's Intrepid class."

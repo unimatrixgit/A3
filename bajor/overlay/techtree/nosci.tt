@@ -251,7 +251,6 @@ borpod2.odf 1 bresear.odf
 borpod16.odf 1 bresear.odf
 brscout.odf 1 bryard.odf
 brdestroy.odf 1 bryard.odf
-brcolony.odf 1 bryard.odf
 brcruise1.odf 1 bryard.odf
 brcruise2.odf 1 bryard.odf
 brfrigate.odf 2 brconst.odf bryard.odf
@@ -270,7 +269,6 @@ borpod24.odf 1 bupgrade.odf
 borpod25.odf 1 bupgrade.odf
 bdestroy.odf 1 byard.odf
 bdestroy2.odf 1 byard.odf
-bcolony.odf 1 byard.odf
 bcruise2.odf 1 byard.odf
 bcruise3.odf 1 byard.odf
 bfrigate.odf 1 byard2.odf
@@ -298,7 +296,6 @@ carpod3.odf 1 cresear.odf
 carpod4.odf 1 cresear.odf
 carpod1.odf 1 cresear.odf
 carpod16.odf 1 cresear.odf
-ccolony.odf 1 cstation.odf
 cscout.odf 1 cstation.odf
 cassault.odf 1 cstation.odf
 cbattle.odf 2 cstation.odf cyard2.odf
@@ -359,7 +356,6 @@ dompod24.odf 1 dupgrade.odf
 dompod25.odf 1 dupgrade.odf
 dscout.odf 1 dyard.odf
 ddestroy.odf 1 dyard.odf
-dcolony.odf 1 dyard.odf
 dcruise1.odf 1 dyard.odf
 dcruise2.odf 1 dyard.odf
 dassault.odf 1 dyard.odf
@@ -468,7 +464,6 @@ klipod23.odf 1 kupgrade.odf
 klipod24.odf 1 kupgrade.odf
 klipod25.odf 1 kupgrade.odf
 kscout.odf 1 kyard.odf
-kcolony.odf 1 kyard.odf
 kcruise1.odf 1 kyard.odf
 kcruise2.odf 1 kyard.odf
 kassault.odf 1 kyard.odf
@@ -508,7 +503,6 @@ rompod23.odf 1 rupgrade.odf
 rompod24.odf 1 rupgrade.odf
 rompod25.odf 1 rupgrade.odf
 rscout.odf 1 ryard.odf
-rcolony.odf 1 ryard.odf
 rcruise1.odf 1 ryard.odf
 rcruise3.odf 1 ryard.odf
 rassault.odf 1 ryard.odf
@@ -568,7 +562,6 @@ bjcargo.odf 1 bjtrading.odf
 
 bjrepair.odf 1 bjyard.odf
 
-bjcolony.odf 2 bjyard.odf bjresear.odf
 
 bjscout.odf 1 bjbase.odf
 
@@ -764,7 +757,6 @@ xhrtosbird.odf 1 ryard3.odf
 xhrearlybird.odf 1 ryard3.odf
 
 // Federation colony ships unlock with the standard shipyard.
-fcolony.odf 1 fyard.odf
 
 chwp.odf 1 cyard.odf // Heavy platform unlocked by first faction shipyard
 
@@ -1136,7 +1128,6 @@ xfgmine.odf 1 xfgserv.odf
 
 xfgrepair.odf 1 xfgserv.odf
 
-xfgcolony.odf 1 xfgserv.odf
 
 xfgtrade.odf 1 xfgserv.odf
 
@@ -1191,7 +1182,6 @@ xbgmine.odf 1 xbgmerc.odf
 
 xbgrepair.odf 1 xbgmerc.odf
 
-xbgcolony.odf 1 xbgmerc.odf
 
 xbgresearch.odf 0
 
@@ -1788,3 +1778,15 @@ xcv_xbjconst2_u.odf -1
 xcv_xcconst2_u.odf -1
 xcv_xcdconst_u.odf -1
 xcv_xdconst2_u.odf -1
+
+// Colony vessels are available without technology prerequisites.
+bcolony.odf 0
+bjcolony.odf 0
+brcolony.odf 0
+ccolony.odf 0
+dcolony.odf 0
+fcolony.odf 0
+kcolony.odf 0
+rcolony.odf 0
+xbgcolony.odf 0
+xfgcolony.odf 0

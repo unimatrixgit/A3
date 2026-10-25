@@ -73,7 +73,7 @@ eventtransport = "XV_fenta_Transport"
 eventselfdestruct = "XV_fenta_SelfDestruct"
 eventdecommission = "XV_fenta_Decommission"
 tooltip = "Hero Ship (James T Kirk - Enterprise A)"
-verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+
 dilithiumcost = 470
 metalcost = 205
 latinumcost = 0
@@ -125,3 +125,5 @@ weaponHardpoints6 = "hp06"
 maxspecialenergy = 1000
 
 specialenergyrate = 15
+
+verboseTooltip = "James T Kirk - Enterprise A\nSelf Destruct, Corbomite Reflector\nStarfleet command leads from the front."

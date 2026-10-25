@@ -10,7 +10,6 @@ ddestroy.odf 0
 dcruise1.odf 0
 dcruise2.odf 0
 dcruise3.odf 0
-dcolony.odf 0
 dassault.odf 0
 dbattle.odf 0
 dbattle2.odf 0 // Founders Command Yard production
@@ -69,7 +68,6 @@ brfreight.odf 0
 brscout.odf 0
 brdestroy.odf 0
 brcruise1.odf 0
-brcolony.odf 0
 brbattle.odf 0
 brbattle2.odf 0
 brfrigate.odf 0
@@ -169,7 +167,6 @@ ksuper.odf 0
 grwave.odf 0 // User-selected ability without research
 kassault.odf 0
 ksrepair.odf 0
-kcolony.odf 0
 kcargo.odf 0
 kfrigate.odf 0
 korbital.odf 0
@@ -228,7 +225,6 @@ cfrigate.odf 0
 ccruise1.odf 0
 ccruise2.odf 0
 ccruise3.odf 0
-ccolony.odf 0
 cbattle.odf 0
 cbattle2.odf 0
 cspecial.odf 0
@@ -291,7 +287,6 @@ rsuper.odf 0
 gbholeg.odf 0 // User-selected ability without research
 rassault.odf 0
 rsrepair.odf 0
-rcolony.odf 0
 rcargo.odf 0
 rfrigate.odf 0
 rorbital.odf 0
@@ -352,7 +347,6 @@ bbattle2.odf 0
 bsuperbl.odf 0
 gmastran.odf 0
 gporthole.odf 0
-bcolony.odf 0
 bmama.odf 0
 
 bassault.odf 0
@@ -684,7 +678,6 @@ bjcargo.odf 0
 
 bjrepair.odf 0
 
-bjcolony.odf 0
 
 bjscout.odf 0
 
@@ -884,7 +877,6 @@ mmm_holder.odf 0
 mmm_mapper.odf 0
 
 // Federation colony ships unlock with the standard shipyard.
-fcolony.odf 0
 
 chwp.odf 0 // Heavy platform unlocked by first faction shipyard
 
@@ -1197,7 +1189,6 @@ xfgmine.odf 0
 
 xfgrepair.odf 0
 
-xfgcolony.odf 0
 
 xfgtrade.odf 0
 
@@ -1252,7 +1243,6 @@ xbgmine.odf 0
 
 xbgrepair.odf 0
 
-xbgcolony.odf 0
 
 xbgresearch.odf 0
 
@@ -1849,3 +1839,15 @@ xcv_xbjconst2_u.odf -1
 xcv_xcconst2_u.odf -1
 xcv_xcdconst_u.odf -1
 xcv_xdconst2_u.odf -1
+
+// Colony vessels are available without technology prerequisites.
+bcolony.odf 0
+bjcolony.odf 0
+brcolony.odf 0
+ccolony.odf 0
+dcolony.odf 0
+fcolony.odf 0
+kcolony.odf 0
+rcolony.odf 0
+xbgcolony.odf 0
+xfgcolony.odf 0

@@ -74,7 +74,7 @@ eventtransport = "XV_xhkhero_Transport"
 eventselfdestruct = "XV_xhkhero_SelfDestruct"
 eventdecommission = "XV_xhkhero_Decommission"
 tooltip = "Hero Ship (Raptor Command Ship)"
-verbosetooltip = "A named command vessel serving the Klingon fleet. Klingon engineering serves the Empire with direct, relentless force. Special systems: Cloak, Ion Cannon. Availability follows the selected technology tree."
+
 dilithiumcost = 410
 metalcost = 175
 latinumcost = 0
@@ -132,3 +132,5 @@ weaponHardpoints7 = "hp06"
 maxspecialenergy = 2500
 
 specialenergyrate = 25
+
+verboseTooltip = "Raptor Command Ship\nCloak, Self Destruct, Ion Cannon\nA Klingon commander seeks honor in battle."

@@ -74,7 +74,7 @@ eventtransport = "XV_xhrhero_Transport"
 eventselfdestruct = "XV_xhrhero_SelfDestruct"
 eventdecommission = "XV_xhrhero_Decommission"
 tooltip = "Hero Ship (Romulan Commander - TOS Warbird)"
-verbosetooltip = "A named command vessel serving the Romulan fleet. Romulan engineering favors calculated strikes and control of the battlefield. Special systems: Cloak, Heated Plasma. Availability follows the selected technology tree."
+
 latinumcost = 0
 biomattercost = 0
 crewcost = 80
@@ -132,3 +132,5 @@ weaponHardpoints7 = "hp06"
 maxspecialenergy = 2500
 
 specialenergyrate = 25
+
+verboseTooltip = "Romulan Commander - TOS Warbird\nCloak, Self Destruct, Heated Plasma\nA commander of the secretive Romulan fleet."

@@ -73,7 +73,7 @@ eventtransport = "XV_fentb_Transport"
 eventselfdestruct = "XV_fentb_SelfDestruct"
 eventdecommission = "XV_fentb_Decommission"
 tooltip = "Hero Ship (John Harriman - Enterprise B)"
-verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Transwarp Drive, Corbomite Reflector. Availability follows the selected technology tree."
+
 dilithiumcost = 800
 metalcost = 345
 latinumcost = 0
@@ -131,3 +131,5 @@ weaponHardpoints7 = "hp06"
 maxspecialenergy = 8000
 
 specialenergyrate = 80
+
+verboseTooltip = "John Harriman - Enterprise B\nTranswarp Drive, Self Destruct, Corbomite Reflector\nStarfleet command leads from the front."

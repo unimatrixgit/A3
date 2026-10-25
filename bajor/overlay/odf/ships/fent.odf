@@ -78,7 +78,7 @@ eventtransport = "XV_fent_Transport"
 eventselfdestruct = "XV_fent_SelfDestruct"
 eventdecommission = "XV_fent_Decommission"
 tooltip = "Hero Ship (Constitution Class)"
-verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Enterprise Upgrade. Availability follows the selected technology tree."
+
 dilithiumcost = 440
 metalcost = 150
 latinumcost = 0
@@ -124,3 +124,5 @@ weaponHardpoints5 = "hp07"
 maxspecialenergy = 1000
 
 specialenergyrate = 15
+
+verboseTooltip = "Constitution Class\nEnterprise Upgrade\nConstitution-class pioneer of deep space."

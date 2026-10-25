@@ -82,7 +82,7 @@ eventtransport = "XV_fentd_Transport"
 eventselfdestruct = "XV_fentd_SelfDestruct"
 eventdecommission = "XV_fentd_Decommission"
 tooltip = "Hero Ship (Galaxy Class)"
-verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Enterprise Upgrade, Tractor Beam. Availability follows the selected technology tree."
+
 dilithiumcost = 925
 metalcost = 400
 latinumcost = 0
@@ -140,3 +140,5 @@ weaponHardpoints7 = "hp01"
 maxspecialenergy = 1000
 
 specialenergyrate = 15
+
+verboseTooltip = "Galaxy Class\nEnterprise Upgrade, Self Destruct, Tractor Beam\nGalaxy-class explorer and diplomatic flagship."

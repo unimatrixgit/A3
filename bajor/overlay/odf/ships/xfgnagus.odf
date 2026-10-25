@@ -55,7 +55,7 @@ can_sandd = 1
 shiptype = "C"
 unitname = "Mercenary Ferengi Grand Nagus's Frigate"
 tooltip = "Mercenary Ferengi Grand Nagus's Frigate"
-verbosetooltip = "Latinum-funded Ferengi contract vessel. Hero abilities are available without research."
+
 baseName = "xui_xfgnagus"
 race = "ferengi"
 ishero = 1
@@ -155,3 +155,5 @@ weaponHardpoints11 = "hp02"
 maxspecialenergy = 2400
 
 specialenergyrate = 24
+
+verboseTooltip = "Mercenary Ferengi Grand Nagus's Frigate\nSystems Embargo, Shield Seizure, Engine Embargo, Life Support Sanctions\nProfit is its own reward in Ferengi commerce."

@@ -274,11 +274,17 @@ footprintBuffer = 72
 
 tooltip = "Starbase (Nexus)"
 
-verboseTooltip = "A fortified center for fleet operations and local production. Collective engineering integrates this asset into the unimatrix. Special systems: Green Holding / Assimilation Beam. Availability follows the selected technology tree."
+
 
 recrewRate = 10
 
-repairFacility = 0
+repairFacility = 0
+
+
+
+
+
+
 
 dilithiumCost = 1500
 
@@ -299,3 +305,5 @@ buildItem2 = "xbuconst"
 buildItem3 = "bfreight"
 
 buildItem4 = "bscout"
+
+verboseTooltip = "Nexus\nGreen Holding / Assimilation Beam\nA node in the vast machinery of the Collective."

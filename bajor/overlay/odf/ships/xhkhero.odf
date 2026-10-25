@@ -84,7 +84,7 @@ eventtransport = "XV_xhkhero_Transport"
 eventselfdestruct = "XV_xhkhero_SelfDestruct"
 eventdecommission = "XV_xhkhero_Decommission"
 tooltip = "Hero Ship (Martok - Negh'Var)"
-verbosetooltip = "A named command vessel serving the Klingon fleet. Klingon engineering serves the Empire with direct, relentless force. Special systems: Ion Cannon, Cloak. Availability follows the selected technology tree."
+
 dilithiumcost = 855
 metalcost = 365
 latinumcost = 0
@@ -172,3 +172,5 @@ weaponHardpoints12 = "hp03"
 maxspecialenergy = 2400
 
 specialenergyrate = 24
+
+verboseTooltip = "Martok - Negh'Var\nSelf Destruct, Cloak, Ion Cannon\nCommand warship of the Klingon Empire."

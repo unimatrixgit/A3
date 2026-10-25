@@ -79,7 +79,7 @@ eventtransport = "XV_fente_Transport"
 eventselfdestruct = "XV_fente_SelfDestruct"
 eventdecommission = "XV_fente_Decommission"
 tooltip = "Hero Ship (Sovereign Class)"
-verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Corbomite Reflector. Availability follows the selected technology tree."
+
 dilithiumcost = 1365
 metalcost = 585
 latinumcost = 0
@@ -131,3 +131,5 @@ weaponHardpoints6 = "hp29"
 maxspecialenergy = 11000
 
 specialenergyrate = 110
+
+verboseTooltip = "Sovereign Class\nSelf Destruct, Corbomite Reflector\nStarfleet's Sovereign-class heavy cruiser."

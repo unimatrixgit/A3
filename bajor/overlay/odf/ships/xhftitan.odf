@@ -74,7 +74,7 @@ eventtransport = "XV_fentdx_Transport"
 eventselfdestruct = "XV_fentdx_SelfDestruct"
 eventdecommission = "XV_fentdx_Decommission"
 tooltip = "Hero Ship (William T Riker - USS Titan)"
-verbosetooltip = "A named command vessel serving the Federation fleet. Starfleet engineering supports a disciplined, versatile fleet. Special systems: Tractor Beam. Availability follows the selected technology tree."
+
 dilithiumcost = 420
 metalcost = 180
 latinumcost = 0
@@ -126,3 +126,5 @@ weaponHardpoints6 = "hp06"
 maxspecialenergy = 2500
 
 specialenergyrate = 25
+
+verboseTooltip = "William T Riker - USS Titan\nSelf Destruct, Tractor Beam\nStarfleet command leads from the front."

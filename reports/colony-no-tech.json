@@ -1,0 +1,127 @@
+{
+  "applied": true,
+  "appliedAt": "2026-10-25T04:03:57.926448+01:00",
+  "backup": "D:\\Xaramada-Modwork\\backups\\colony-no-tech-20261025-040357",
+  "colonies": [
+    "bcolony",
+    "bjcolony",
+    "brcolony",
+    "ccolony",
+    "dcolony",
+    "fcolony",
+    "kcolony",
+    "rcolony",
+    "xbgcolony",
+    "xfgcolony"
+  ],
+  "previousRequirements": {
+    "tech1": [
+      "kcolony.odf 2 kyard.odf kresear.odf",
+      "bcolony.odf 2 byard.odf bresear.odf",
+      "rcolony.odf 2 ryard.odf rresear.odf",
+      "ccolony.odf 2 cyard.odf cresear.odf",
+      "dcolony.odf 2 dyard.odf dresear.odf",
+      "brcolony.odf 2 bryard.odf brresear.odf",
+      "bjcolony.odf 2 bjyard.odf bjresear.odf",
+      "fcolony.odf 1 fyard.odf",
+      "xfgcolony.odf 1 xfgserv.odf",
+      "xbgcolony.odf 1 xbgmerc.odf"
+    ],
+    "earlytech": [
+      "kcolony.odf 2 kyard.odf kresear.odf",
+      "bcolony.odf 2 byard.odf bresear.odf",
+      "rcolony.odf 2 ryard.odf rresear.odf",
+      "ccolony.odf 2 cyard.odf cresear.odf",
+      "dcolony.odf 2 dyard.odf dresear.odf",
+      "brcolony.odf 2 bryard.odf brresear.odf",
+      "bjcolony.odf 2 bjyard.odf bjresear.odf",
+      "fcolony.odf 1 fyard.odf",
+      "xfgcolony.odf 1 xfgserv.odf",
+      "xbgcolony.odf 1 xbgmerc.odf"
+    ],
+    "fulltech": [
+      "dcolony.odf 0",
+      "brcolony.odf 0",
+      "kcolony.odf 0",
+      "ccolony.odf 0",
+      "rcolony.odf 0",
+      "bcolony.odf 0",
+      "bjcolony.odf 0",
+      "fcolony.odf 0",
+      "xfgcolony.odf 0",
+      "xbgcolony.odf 0"
+    ],
+    "nosci": [
+      "brcolony.odf 1 bryard.odf",
+      "bcolony.odf 1 byard.odf",
+      "ccolony.odf 1 cstation.odf",
+      "dcolony.odf 1 dyard.odf",
+      "kcolony.odf 1 kyard.odf",
+      "rcolony.odf 1 ryard.odf",
+      "bjcolony.odf 2 bjyard.odf bjresear.odf",
+      "fcolony.odf 1 fyard.odf",
+      "xfgcolony.odf 1 xfgserv.odf",
+      "xbgcolony.odf 1 xbgmerc.odf"
+    ],
+    "nospweap": [
+      "kcolony.odf 2 kyard.odf kresear.odf",
+      "bcolony.odf 2 byard.odf bresear.odf",
+      "rcolony.odf 2 ryard.odf rresear.odf",
+      "ccolony.odf 2 cyard.odf cresear.odf",
+      "brcolony.odf 1 bryard.odf",
+      "dcolony.odf 1 dyard.odf",
+      "bjcolony.odf 2 bjyard.odf bjresear.odf",
+      "fcolony.odf 1 fyard.odf",
+      "xfgcolony.odf 1 xfgserv.odf",
+      "xbgcolony.odf 1 xbgmerc.odf"
+    ],
+    "nosuper": [
+      "brcolony.odf 1 bryard.odf",
+      "bcolony.odf 1 byard.odf",
+      "ccolony.odf 1 cstation.odf",
+      "dcolony.odf 1 dyard.odf",
+      "kcolony.odf 1 kyard.odf",
+      "rcolony.odf 1 ryard.odf",
+      "bjcolony.odf 2 bjyard.odf bjresear.odf",
+      "fcolony.odf 1 fyard.odf",
+      "xfgcolony.odf 1 xfgserv.odf",
+      "xbgcolony.odf 1 xbgmerc.odf"
+    ]
+  },
+  "files": [
+    "techtree/tech1.tt",
+    "techtree/earlytech.tt",
+    "techtree/fulltech.tt",
+    "techtree/nosci.tt",
+    "techtree/nospweap.tt",
+    "techtree/nosuper.tt"
+  ],
+  "manifest": [
+    {
+      "file": "techtree/tech1.tt",
+      "sha256": "d6b88cdc3641a71e90edcfef43feb62f91a9876f94fe6aa63d766482928e1ee5"
+    },
+    {
+      "file": "techtree/earlytech.tt",
+      "sha256": "8c5c26b29659f7779dfafc1a142101153814ade934a502b71d18b9fc3184f697"
+    },
+    {
+      "file": "techtree/fulltech.tt",
+      "sha256": "0d98d1cd57295aabe69048b2a1e7a50fa8d941dd1284fa9331d355b7c8bd1d12"
+    },
+    {
+      "file": "techtree/nosci.tt",
+      "sha256": "54d2b159cd7846add1e6a7e82de38e14d3f6100bca8914a9818499fe39d41d61"
+    },
+    {
+      "file": "techtree/nospweap.tt",
+      "sha256": "c80800a46d40bebfb6f4e662a71188508006af93260f557c718aa65c1f6a2545"
+    },
+    {
+      "file": "techtree/nosuper.tt",
+      "sha256": "5620b2f6dcadf982d5e2e70679098caf74e903415127b4d922496a62012c7821"
+    }
+  ],
+  "runtimeVerified": false,
+  "producerRequirement": "An owned producer is still needed; no colony research or prerequisite structures required by technology tree."
+}
