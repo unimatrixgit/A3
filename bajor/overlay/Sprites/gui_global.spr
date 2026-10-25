@@ -49380,13 +49380,13 @@ dr26_fupgradew5 wfdr26_fupgrade 0 0 64 64
 
 @reference=64
 @tmaterial=default
-b_hub gbdr26_hub 0 0 64 64
+
 b_dr26_hub gbdr26_hub 0 0 64 64
-hubw1 wfdr26_hub 0 0 64 64
-hubw2 wfdr26_hub 0 0 64 64
-hubw3 wfdr26_hub 0 0 64 64
-hubw4 wfdr26_hub 0 0 64 64
-hubw5 wfdr26_hub 0 0 64 64
+
+
+
+
+
 dr26_hubw1 wfdr26_hub 0 0 64 64
 dr26_hubw2 wfdr26_hub 0 0 64 64
 dr26_hubw3 wfdr26_hub 0 0 64 64
@@ -49827,3 +49827,27 @@ dr26_xselaresearchw2 wfdr26_xselaresearch 0 0 64 64
 dr26_xselaresearchw3 wfdr26_xselaresearch 0 0 64 64
 dr26_xselaresearchw4 wfdr26_xselaresearch 0 0 64 64
 dr26_xselaresearchw5 wfdr26_xselaresearch 0 0 64 64
+
+@reference=512
+@tmaterial=default
+b_hub xuiatlas07 384 0 64 64
+
+@reference=256
+@tmaterial=interface
+hubw1				borgwf07		0	128	128	128
+
+@reference=64
+@tmaterial=default
+hubw2 gbhub 0	0	64	64
+
+@reference=64
+@tmaterial=default
+hubw3 gbhub 0	0	64	64
+
+@reference=64
+@tmaterial=default
+hubw4 gbhub 0	0	64	64
+
+@reference=64
+@tmaterial=default
+hubw5 gbhub 0	0	64	64

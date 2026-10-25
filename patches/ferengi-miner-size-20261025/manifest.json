@@ -130,5 +130,99 @@
     }
   ],
   "orbitalReference": "forbital",
-  "orbitalTargetWorldSpan": 76.79999313354492
+  "orbitalTargetWorldSpan": 76.79999313354492,
+  "additionalFiles": [
+    {
+      "unit": "odf/stations/byard3.odf",
+      "file": "odf/stations/byard3.odf",
+      "sourceHash": "8557531ce5a491d156b44c85d81050cc8ee123b8f4c14f0942de1e4d39be5dd9",
+      "stagedHash": "d4e26dc118dd4a9f451c19383f33b22e1ec6d5c685ca6a50ad934c609b5efcc7"
+    },
+    {
+      "unit": "odf/stations/mryborg.odf",
+      "file": "odf/stations/mryborg.odf",
+      "sourceHash": "eb548e1161ef8fe4ed91ff30ca8cceb0a28484f02bfa30e5223be1b2bfddb521",
+      "stagedHash": "030a2bc3389cd00de5017b9d355582b8abcced9e682f5bc94e525f7bc24115e2"
+    },
+    {
+      "unit": "odf/stations/xbgmerc.odf",
+      "file": "odf/stations/xbgmerc.odf",
+      "sourceHash": "43a906f67693613e4c5eaf448714e2f2df76a57ef4f8482f4c6d2933ad39dc31",
+      "stagedHash": "9d853758c60097481cebec84a65b9903d7c4fdbb6a5b1df7944d63cc5e02dc4e"
+    },
+    {
+      "unit": "techtree/tech1.tt",
+      "file": "techtree/tech1.tt",
+      "sourceHash": "a5ff2f71c5774afa5cc415df87887ea1e57dfc58f2195b91b9a7b703f5befc17",
+      "stagedHash": "7b5f195c8a00242d40a2c0cdeb2231b96dd1d56cfc9c0cb82d46fa4a9ae5d901"
+    },
+    {
+      "unit": "techtree/earlytech.tt",
+      "file": "techtree/earlytech.tt",
+      "sourceHash": "8ccae438bfb484ca589356da534889e38ce067b21b50fb3ceeb54fd72a66d3af",
+      "stagedHash": "e96a4500ccf8d48ceabc4f78704343a792f5f959c9e30565b2a8b404f3ca69b7"
+    },
+    {
+      "unit": "techtree/fulltech.tt",
+      "file": "techtree/fulltech.tt",
+      "sourceHash": "3e27405293d452fc5a7f59210804645edb0e889a1a3f71391b598c69949656ff",
+      "stagedHash": "e641108ba236a2f16c3918f79a637c57a0a11c22e7e5d49dd1ae7482c34e0f77"
+    },
+    {
+      "unit": "techtree/nosci.tt",
+      "file": "techtree/nosci.tt",
+      "sourceHash": "5a44293a6a1282818e1fca1d363e1c8c2dc6c42c652c643c3c29e201cb5bbb4f",
+      "stagedHash": "574056efbd7ff3aebc5f15d60ff1ace1490851256e14274da6224a191631cfd7"
+    },
+    {
+      "unit": "techtree/nosuper.tt",
+      "file": "techtree/nosuper.tt",
+      "sourceHash": "78a37af7a113d7c8c2343960333d1d10e33800d01fd4157c976bea732508a0a0",
+      "stagedHash": "e11f16334455b427e4e309b44c32dbfe97855c0b6b10e0020fdd186f6890a093"
+    },
+    {
+      "unit": "techtree/nospweap.tt",
+      "file": "techtree/nospweap.tt",
+      "sourceHash": "56a0d99831c9303efd23edbab6e9b670ab9dc716e93a2897876e4292ac8a6129",
+      "stagedHash": "38797c85a81b3bc62fd181965998fbe913c4cec738e6f5be3b5a9b8007f7113f"
+    },
+    {
+      "unit": "odf/stations/hub.odf",
+      "file": "odf/stations/hub.odf",
+      "sourceHash": "8ab70e1df3c359414d6115d09e05d19063f145698e232481b8c71a7290edbd82",
+      "stagedHash": "f45b622f68910af7e1d40905ee102f38d2a3dad929808926785a456f7bf3f364"
+    },
+    {
+      "unit": "Sprites/gui_global.spr",
+      "file": "Sprites/gui_global.spr",
+      "sourceHash": "635bd6565cbc3bb526df0f1f606282fe8d77054b83bb4ecae43171fc52cc7acf",
+      "stagedHash": "3330edbb01099f5ea673802da21afb7fdc243fe43361ac58b458adede3875e4b"
+    }
+  ],
+  "yardFix": {
+    "moved": [
+      "mrc022",
+      "mrc023",
+      "mrc024"
+    ],
+    "removedFrom": [
+      "byard3",
+      "mryborg"
+    ],
+    "destination": "xbgmerc",
+    "allShipyardsAudited": 55,
+    "ferengiOnlyInFerengiShipyards": true,
+    "shipStatsChanged": false
+  },
+  "hubRestore": {
+    "model": "hub",
+    "restoredGuiKeys": [
+      "b_hub",
+      "hubw1",
+      "hubw2",
+      "hubw3",
+      "hubw4",
+      "hubw5"
+    ]
+  }
 }

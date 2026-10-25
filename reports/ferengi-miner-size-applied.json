@@ -1,0 +1,229 @@
+{
+  "status": "APPLIED - AWAITING GAMEPLAY TEST",
+  "factor": 0.55,
+  "reductionPercent": 45,
+  "stage": "D:/aramada/patches/ferengi-miner-size-20261025",
+  "miners": [
+    {
+      "unit": "xbgdil2.odf",
+      "file": "odf/ships/xbgdil2.odf",
+      "oldScale": 1.5,
+      "newScale": 0.825,
+      "sourceHash": "0a9e877da492494d56eb3a16194abf3ce1899c80abffbd46fd266dbab7b47d60",
+      "stagedHash": "eb2f741e543b36a229afc2438058a2f84be41f85cd7b7378d99f36a0de2b1c8f"
+    },
+    {
+      "unit": "xbgdil3.odf",
+      "file": "odf/ships/xbgdil3.odf",
+      "oldScale": 1.5,
+      "newScale": 0.825,
+      "sourceHash": "8dedb44e286b43cce0ee0d4bd918a25530a6f19105b09b59bfb5fcb3828bfad8",
+      "stagedHash": "91fe8c1c89734f62bbc39fd0b228f8f7fc017d55bbf78dcd4690f49ea78c1d42"
+    },
+    {
+      "unit": "xbgmine.odf",
+      "file": "odf/ships/xbgmine.odf",
+      "oldScale": 1.5,
+      "newScale": 0.825,
+      "sourceHash": "6cc636524a021bad217c0a748ce5b46556142cb6996a01e46f2f95f724a5abc6",
+      "stagedHash": "619a6534f2b8cde863ee1494f38cc5d838373212d424b34a2023019484f2d31e"
+    },
+    {
+      "unit": "xfgdil2.odf",
+      "file": "odf/ships/xfgdil2.odf",
+      "oldScale": 1.5,
+      "newScale": 0.825,
+      "sourceHash": "d545a5a0cd71423a65f58e98ea2cc80592726437a0f94b3a9619eaed65f9a939",
+      "stagedHash": "ef87e369cb3b7678d27ff4c9f3c27ab2947b9f523da6a2e57c988d6a987f9f7b"
+    },
+    {
+      "unit": "xfgdil3.odf",
+      "file": "odf/ships/xfgdil3.odf",
+      "oldScale": 1.5,
+      "newScale": 0.825,
+      "sourceHash": "59932b90054aead89878ca8ae3902ea90d9785837a9778e105b26d39b0ecf4ec",
+      "stagedHash": "c313b8405914e1d2c5422ce4ba3541286d4eae8cd289a747d7a9cadd4794f959"
+    },
+    {
+      "unit": "xfglat2.odf",
+      "file": "odf/ships/xfglat2.odf",
+      "oldScale": 1.5,
+      "newScale": 0.825,
+      "sourceHash": "fc568865428a6d723b65a7b86d394de9b35af969a2bf9a76e2016f4053a89046",
+      "stagedHash": "b72282747aedf6a5a2d3693b5c64db4391677db0073f58af62a491d4ad88d460"
+    },
+    {
+      "unit": "xfglat3.odf",
+      "file": "odf/ships/xfglat3.odf",
+      "oldScale": 1.5,
+      "newScale": 0.825,
+      "sourceHash": "9ef3b30efa6cc3e309defdf9b3f70a64f6e2aa241fd95fd9fa5b1a5363c40dbd",
+      "stagedHash": "89cc6baf51a0c6792c8a0a810081b6551d0e10f41dc8880da8e7848dedd58d0b"
+    },
+    {
+      "unit": "xfgmine.odf",
+      "file": "odf/ships/xfgmine.odf",
+      "oldScale": 1.5,
+      "newScale": 0.825,
+      "sourceHash": "07bf166fc69b519127dd410257136206ff415f9a75cc1e9f8872c0911efdf4d2",
+      "stagedHash": "256374ebf74da67a3394811ebb5507d9baa29a4e420543e1ead2869decbd0b24"
+    }
+  ],
+  "gameplayFieldsChanged": false,
+  "runtimeVerified": false,
+  "orbitals": [
+    {
+      "unit": "xfgmetal2.odf",
+      "file": "odf/stations/xfgmetal2.odf",
+      "oldScale": 2.06144832,
+      "newScale": 0.9131389473428306,
+      "factor": 0.4429599027458669,
+      "targetWorldSpan": 76.79999313354492,
+      "fields": {
+        "ScaleSOD": 0.9131389473428306,
+        "footprintBuffer": 53.15518832950403
+      },
+      "sourceHash": "7d13867859987d0862153d2f8004eeb46093b685295b605c84a45c962c6966b7",
+      "stagedHash": "7252dc4fc8c857340cc06f64391a08158d56b1ce8b995808593b76bc5c7b940f"
+    },
+    {
+      "unit": "xfgmetal3.odf",
+      "file": "odf/stations/xfgmetal3.odf",
+      "oldScale": 2.06144832,
+      "newScale": 0.9131389473428306,
+      "factor": 0.4429599027458669,
+      "targetWorldSpan": 76.79999313354492,
+      "fields": {
+        "ScaleSOD": 0.9131389473428306,
+        "footprintBuffer": 53.15518832950403
+      },
+      "sourceHash": "4d1594370de3c8c211311c46f950f46d835929181ce829b71003aef876fd925e",
+      "stagedHash": "87956d38088f7f1a41c8d49f2a1b2527ca72672b7139b504d78ebd6619b4c0f7"
+    },
+    {
+      "unit": "xbgmetal2.odf",
+      "file": "odf/stations/xbgmetal2.odf",
+      "oldScale": 2.06144832,
+      "newScale": 0.9131389473428306,
+      "factor": 0.4429599027458669,
+      "targetWorldSpan": 76.79999313354492,
+      "fields": {
+        "ScaleSOD": 0.9131389473428306,
+        "footprintBuffer": 53.15518832950403
+      },
+      "sourceHash": "7e7e6751f0dd2151d945800f41802231f2d0ffb2db256ac1c07b848cbc24ea83",
+      "stagedHash": "eaf02814d917b1ba17bb4b1b147bb46eaef27bb60b4f2fe36badbf660c8b5e9b"
+    },
+    {
+      "unit": "xbgmetal3.odf",
+      "file": "odf/stations/xbgmetal3.odf",
+      "oldScale": 2.06144832,
+      "newScale": 0.9131389473428306,
+      "factor": 0.4429599027458669,
+      "targetWorldSpan": 76.79999313354492,
+      "fields": {
+        "ScaleSOD": 0.9131389473428306,
+        "footprintBuffer": 53.15518832950403
+      },
+      "sourceHash": "2a633d098949d72b50e0d14794bdbe1b839fb9f44ad8bc9c4c64ce84466013aa",
+      "stagedHash": "e4aaced9106a34e80d943c3400ac4b0a9bae44447aca0d5d0b4f798fa7a25053"
+    }
+  ],
+  "orbitalReference": "forbital",
+  "orbitalTargetWorldSpan": 76.79999313354492,
+  "additionalFiles": [
+    {
+      "unit": "odf/stations/byard3.odf",
+      "file": "odf/stations/byard3.odf",
+      "sourceHash": "8557531ce5a491d156b44c85d81050cc8ee123b8f4c14f0942de1e4d39be5dd9",
+      "stagedHash": "d4e26dc118dd4a9f451c19383f33b22e1ec6d5c685ca6a50ad934c609b5efcc7"
+    },
+    {
+      "unit": "odf/stations/mryborg.odf",
+      "file": "odf/stations/mryborg.odf",
+      "sourceHash": "eb548e1161ef8fe4ed91ff30ca8cceb0a28484f02bfa30e5223be1b2bfddb521",
+      "stagedHash": "030a2bc3389cd00de5017b9d355582b8abcced9e682f5bc94e525f7bc24115e2"
+    },
+    {
+      "unit": "odf/stations/xbgmerc.odf",
+      "file": "odf/stations/xbgmerc.odf",
+      "sourceHash": "43a906f67693613e4c5eaf448714e2f2df76a57ef4f8482f4c6d2933ad39dc31",
+      "stagedHash": "9d853758c60097481cebec84a65b9903d7c4fdbb6a5b1df7944d63cc5e02dc4e"
+    },
+    {
+      "unit": "techtree/tech1.tt",
+      "file": "techtree/tech1.tt",
+      "sourceHash": "a5ff2f71c5774afa5cc415df87887ea1e57dfc58f2195b91b9a7b703f5befc17",
+      "stagedHash": "7b5f195c8a00242d40a2c0cdeb2231b96dd1d56cfc9c0cb82d46fa4a9ae5d901"
+    },
+    {
+      "unit": "techtree/earlytech.tt",
+      "file": "techtree/earlytech.tt",
+      "sourceHash": "8ccae438bfb484ca589356da534889e38ce067b21b50fb3ceeb54fd72a66d3af",
+      "stagedHash": "e96a4500ccf8d48ceabc4f78704343a792f5f959c9e30565b2a8b404f3ca69b7"
+    },
+    {
+      "unit": "techtree/fulltech.tt",
+      "file": "techtree/fulltech.tt",
+      "sourceHash": "3e27405293d452fc5a7f59210804645edb0e889a1a3f71391b598c69949656ff",
+      "stagedHash": "e641108ba236a2f16c3918f79a637c57a0a11c22e7e5d49dd1ae7482c34e0f77"
+    },
+    {
+      "unit": "techtree/nosci.tt",
+      "file": "techtree/nosci.tt",
+      "sourceHash": "5a44293a6a1282818e1fca1d363e1c8c2dc6c42c652c643c3c29e201cb5bbb4f",
+      "stagedHash": "574056efbd7ff3aebc5f15d60ff1ace1490851256e14274da6224a191631cfd7"
+    },
+    {
+      "unit": "techtree/nosuper.tt",
+      "file": "techtree/nosuper.tt",
+      "sourceHash": "78a37af7a113d7c8c2343960333d1d10e33800d01fd4157c976bea732508a0a0",
+      "stagedHash": "e11f16334455b427e4e309b44c32dbfe97855c0b6b10e0020fdd186f6890a093"
+    },
+    {
+      "unit": "techtree/nospweap.tt",
+      "file": "techtree/nospweap.tt",
+      "sourceHash": "56a0d99831c9303efd23edbab6e9b670ab9dc716e93a2897876e4292ac8a6129",
+      "stagedHash": "38797c85a81b3bc62fd181965998fbe913c4cec738e6f5be3b5a9b8007f7113f"
+    },
+    {
+      "unit": "odf/stations/hub.odf",
+      "file": "odf/stations/hub.odf",
+      "sourceHash": "8ab70e1df3c359414d6115d09e05d19063f145698e232481b8c71a7290edbd82",
+      "stagedHash": "f45b622f68910af7e1d40905ee102f38d2a3dad929808926785a456f7bf3f364"
+    },
+    {
+      "unit": "Sprites/gui_global.spr",
+      "file": "Sprites/gui_global.spr",
+      "sourceHash": "635bd6565cbc3bb526df0f1f606282fe8d77054b83bb4ecae43171fc52cc7acf",
+      "stagedHash": "3330edbb01099f5ea673802da21afb7fdc243fe43361ac58b458adede3875e4b"
+    }
+  ],
+  "yardFix": {
+    "moved": [
+      "mrc022",
+      "mrc023",
+      "mrc024"
+    ],
+    "removedFrom": [
+      "byard3",
+      "mryborg"
+    ],
+    "destination": "xbgmerc",
+    "allShipyardsAudited": 55,
+    "ferengiOnlyInFerengiShipyards": true,
+    "shipStatsChanged": false
+  },
+  "hubRestore": {
+    "model": "hub",
+    "restoredGuiKeys": [
+      "b_hub",
+      "hubw1",
+      "hubw2",
+      "hubw3",
+      "hubw4",
+      "hubw5"
+    ]
+  },
+  "backup": "D:/Xaramada-Modwork/backups/ferengi-miner-size-2026-10-25T07-18-07-682Z"
+}
