@@ -126,7 +126,7 @@ race = "bajoran"
 
 
 
-ScaleSOD = 2.148438
+
 criticaltargethardpoints = "hp07" "hp08" "hp09"
 enginestargethardpoints = "hp03" "hp08" "hp09"
 hulltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp06"
@@ -175,3 +175,7 @@ biomatterCost = 0
 verboseTooltip = "Bajoran Resource Processing Facility\nDilithium collection or processing\nBajoran industry supports a recovering world."
 
 baseName = "dr26_bjmining"
+
+ScaleSOD = 1.6113285
+
+footprintBuffer = 75
