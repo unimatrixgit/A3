@@ -1,0 +1,14 @@
+{
+  "status": "applied",
+  "backup": "D:\\Xaramada-Modwork\\backups\\omega-laboratory-research-20261025-095646",
+  "runtimeVerified": false,
+  "files": [
+    "techtree/earlytech.tt",
+    "techtree/nosci.tt",
+    "techtree/nospweap.tt",
+    "techtree/nosuper.tt",
+    "techtree/tech1.tt"
+  ],
+  "scope": "Both existing Omega laboratories: laboratory-only research prerequisite. Laboratory construction and ship research gates unchanged.",
+  "nativeMinerResearch": "Not applied: existing Ferengi pods unlock variants; stock global research has no cargo/mining-rate subsystem. Existing-unit automatic upgrades need a supported implementation before merging variants."
+}
