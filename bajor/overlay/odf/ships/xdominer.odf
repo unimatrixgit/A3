@@ -64,8 +64,8 @@ possibleCraftNames =
 //ART PARAMETERS & WEAPON NAMES
 
 // Mining Beam for dilithium
-weapon1 = "gmineDilithium"
-weaponHardpoints1 = "hp01" "hp02" "hp03" "hp10"
+
+
 
 // Hardpoints to hit for various systems and other locations.
 enginesTargetHardpoints = "hp11" "hp13"
@@ -139,9 +139,9 @@ latinum_spray_emitter = "latinum_spray"
 
 latinum_spray_hardpoint = "hp01"
 
-weapon2 = "gmineLatinum"
 
-weaponHardpoints2 = "hp01" "hp02" "hp03" "hp10"
+
+
 
 
 
@@ -150,6 +150,10 @@ verboseTooltip = "Jem'Hadar Freighter\nMining Beam\nDominion logistics sustain t
 baseName = "dr26_xdominer"
 unitName = "Dilithium Collector MK I"
 tooltip = "Dilithium Collector MK I"
-weapon3 = "myu012"
-weaponHardpoints3 = "hp01" "hp02" "hp03" "hp10"
+
+
 ScaleSOD = 0.703638602712
+weapon1 = "gmineDilithium"
+weaponHardpoints1 = "hp01" "hp02" "hp03" "hp10"
+weapon2 = "gmineLatinum"
+weaponHardpoints2 = "hp01" "hp02" "hp03" "hp10"

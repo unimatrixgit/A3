@@ -69,12 +69,12 @@ eventRepair = "BreenRepair"
 //ART PARAMETERS & WEAPON NAMES
 
 // Mining Beam for dilithium
-weapon1 = "gmineDilithium"
-weaponHardpoints1 = "hp01" "hp02" "hp03" 
+
+
 
 // Mining Beam Latinum
-weapon2 = "gmineLatinum"
-weaponHardpoints2 = "hp01" "hp02" "hp03" 
+
+
 
 
 // Hardpoints to hit for various systems and other locations.
@@ -131,6 +131,10 @@ baseName = "dr26_brfreight"
 unitName = "Dilithium Collector MK I"
 tooltip = "Dilithium Collector MK I"
 verboseTooltip = "Dilithium Collector MK I\nDilithium extraction\nResources sustain the fleet."
-weapon3 = "myu015"
-weaponHardpoints3 = "hp01" "hp02" "hp03"
+
+
 ScaleSOD = 1.05735727385
+weapon1 = "gmineDilithium"
+weaponHardpoints1 = "hp01" "hp02" "hp03"
+weapon2 = "gmineLatinum"
+weaponHardpoints2 = "hp01" "hp02" "hp03"

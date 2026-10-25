@@ -61,16 +61,16 @@ possibleCraftNames = "IKS Tong'Duj" "IKS VeQ'Duj" "IKS MajloDHom" "IKS QAM'DIng"
 //ART PARAMETERS & WEAPON NAMES
 
 // Mining Beam for Dilithium
-weapon1 = "gmineDilithium"
-weaponHardpoints1 = "hp01" "hp02" "hp05"
+
+
 
 // Mining Beam for latinum
-weapon2 = "gmineLatinum"
-weaponHardpoints2 = "hp01" "hp02" "hp05"
+
+
 
 // Phaser
-weapon3 = "kc03phas"
-weaponHardpoints3 = "hp01" "hp02" "hp03" 
+
+
 
 
 // Hardpoints to hit for various systems and other locations.
@@ -94,7 +94,7 @@ hotkeyLabel = "HOTKEY_F2"
 
 // Xaramada: cloaking device.
 
-weaponHardpoints4 = "hp01"
+
 
 
 
@@ -119,7 +119,7 @@ buildTime = 13
 
 
 
-weapon4 = "gkcloak"
+
 
 dilithiumCost = 175
 
@@ -135,6 +135,14 @@ baseName = "dr26_kfreight"
 unitName = "Dilithium Collector MK I"
 tooltip = "Dilithium Collector MK I"
 verboseTooltip = "Dilithium Collector MK I\nDilithium extraction\nResources sustain the fleet."
-weapon5 = "myu004"
-weaponHardpoints5 = "hp01" "hp02" "hp05"
+
+
 ScaleSOD = 0.746997226729
+weapon1 = "gmineDilithium"
+weaponHardpoints1 = "hp01" "hp02" "hp05"
+weapon2 = "gmineLatinum"
+weaponHardpoints2 = "hp01" "hp02" "hp05"
+weapon3 = "kc03phas"
+weaponHardpoints3 = "hp01" "hp02" "hp03"
+weapon4 = "gkcloak"
+weaponHardpoints4 = "hp01"

@@ -129,8 +129,8 @@ physicsfile = "sconstphys.odf"
 
 // Preserve utility ability slots independently of combat balance.
 
-weapon1 = "gmineDilithium"
-weapon2 = "gmineLatinum"
+
+
 
 
 
@@ -200,9 +200,9 @@ criticaltargethardpoints = "hp05"
 
 latinum_spray_hardpoint = "hp05"
 
-weaponhardpoints1 = "hp06"
 
-weaponhardpoints2 = "hp06"
+
+
 
 
 
@@ -214,6 +214,10 @@ baseName = "dr26_bjfreight"
 unitName = "Dilithium Collector MK I"
 tooltip = "Dilithium Collector MK I"
 verboseTooltip = "Dilithium Collector MK I\nDilithium extraction\nResources sustain the fleet."
-weapon3 = "myu013"
-weaponHardpoints3 = "hp06"
+
+
 ScaleSOD = 0.523100134448
+weapon1 = "gmineDilithium"
+weaponHardpoints1 = "hp06"
+weapon2 = "gmineLatinum"
+weaponHardpoints2 = "hp06"

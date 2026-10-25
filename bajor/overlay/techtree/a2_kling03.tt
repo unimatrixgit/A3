@@ -273,58 +273,58 @@ bjresear.odf 2 bjbase.odf bjyard.odf
 bjresear2.odf 2 bjyard2.odf bjresear.odf
 bjupgrade.odf 2 bjresear.odf bjresear2.odf
 bjsuperlab.odf 2 bjresear2.odf bjyard2.odf
-myfpod1.odf 1 fresear2.odf
-myfpod2.odf 2 fresear2.odf myfpod1.odf
+myfpod1.odf -1 // Native mining upgrade / yard withdrawn
+myfpod2.odf -1 // Native mining upgrade / yard withdrawn
 myw000.odf 0
-myfminer1.odf 2 myfyard.odf myfpod1.odf
+myfminer1.odf -1 // Native mining upgrade / yard withdrawn
 myw001.odf 0
-myfminer2.odf 2 myfyard.odf myfpod2.odf
-myu000.odf 1 myfpod1.odf
-myu001.odf 1 myfpod2.odf
-myfyard.odf 0
+myfminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu000.odf -1 // Native mining upgrade / yard withdrawn
+myu001.odf -1 // Native mining upgrade / yard withdrawn
+myfyard.odf -1 // Native mining upgrade / yard withdrawn
 myw002.odf 0
-mybminer1.odf 2 mybyard.odf xbgpdil.odf
+mybminer1.odf -1 // Native mining upgrade / yard withdrawn
 myw003.odf 0
-mybminer2.odf 2 mybyard.odf xbgpdil2.odf
-myu002.odf 1 xbgpdil.odf
-myu003.odf 1 xbgpdil2.odf
-mybyard.odf 0
-mykminer1.odf 2 mykyard.odf xfgpdil.odf
-mykminer2.odf 2 mykyard.odf xfgpdil2.odf
-myu004.odf 1 xfgpdil.odf
-myu005.odf 1 xfgpdil2.odf
-mykyard.odf 0
-myrminer1.odf 2 myryard.odf xfgpdil.odf
-myrminer2.odf 2 myryard.odf xfgpdil2.odf
-myu006.odf 1 xfgpdil.odf
-myu007.odf 1 xfgpdil2.odf
-myryard.odf 0
-mycminer1.odf 2 mycyard.odf xfgpdil.odf
-mycminer2.odf 2 mycyard.odf xfgpdil2.odf
-myu008.odf 1 xfgpdil.odf
-myu009.odf 1 xfgpdil2.odf
-mycyard.odf 0
-mydminer1.odf 2 mydyard.odf xfgpdil.odf
-mydminer2.odf 2 mydyard.odf xfgpdil2.odf
-myu010.odf 1 xfgpdil.odf
-myu011.odf 1 xfgpdil2.odf
-myu012.odf 1 xfgpdil.odf
-mydyard.odf 0
-mybjminer1.odf 2 mybjyard.odf xfgpdil.odf
-mybjminer2.odf 2 mybjyard.odf xfgpdil2.odf
-myu013.odf 1 xfgpdil.odf
-myu014.odf 1 xfgpdil2.odf
-mybjyard.odf 0
-mybrminer1.odf 2 mybryard.odf xfgpdil.odf
-mybrminer2.odf 2 mybryard.odf xfgpdil2.odf
-myu015.odf 1 xfgpdil.odf
-myu016.odf 1 xfgpdil2.odf
-mybryard.odf 0
-xsbcol1.odf 2 mysyard.odf xsbio1.odf
-xsbcol2.odf 2 mysyard.odf xsbio2.odf
-myu017.odf 1 xsbio1.odf
-myu018.odf 1 xsbio2.odf
-mysyard.odf 0
+mybminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu002.odf -1 // Native mining upgrade / yard withdrawn
+myu003.odf -1 // Native mining upgrade / yard withdrawn
+mybyard.odf -1 // Native mining upgrade / yard withdrawn
+mykminer1.odf -1 // Native mining upgrade / yard withdrawn
+mykminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu004.odf -1 // Native mining upgrade / yard withdrawn
+myu005.odf -1 // Native mining upgrade / yard withdrawn
+mykyard.odf -1 // Native mining upgrade / yard withdrawn
+myrminer1.odf -1 // Native mining upgrade / yard withdrawn
+myrminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu006.odf -1 // Native mining upgrade / yard withdrawn
+myu007.odf -1 // Native mining upgrade / yard withdrawn
+myryard.odf -1 // Native mining upgrade / yard withdrawn
+mycminer1.odf -1 // Native mining upgrade / yard withdrawn
+mycminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu008.odf -1 // Native mining upgrade / yard withdrawn
+myu009.odf -1 // Native mining upgrade / yard withdrawn
+mycyard.odf -1 // Native mining upgrade / yard withdrawn
+mydminer1.odf -1 // Native mining upgrade / yard withdrawn
+mydminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu010.odf -1 // Native mining upgrade / yard withdrawn
+myu011.odf -1 // Native mining upgrade / yard withdrawn
+myu012.odf -1 // Native mining upgrade / yard withdrawn
+mydyard.odf -1 // Native mining upgrade / yard withdrawn
+mybjminer1.odf -1 // Native mining upgrade / yard withdrawn
+mybjminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu013.odf -1 // Native mining upgrade / yard withdrawn
+myu014.odf -1 // Native mining upgrade / yard withdrawn
+mybjyard.odf -1 // Native mining upgrade / yard withdrawn
+mybrminer1.odf -1 // Native mining upgrade / yard withdrawn
+mybrminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu015.odf -1 // Native mining upgrade / yard withdrawn
+myu016.odf -1 // Native mining upgrade / yard withdrawn
+mybryard.odf -1 // Native mining upgrade / yard withdrawn
+xsbcol1.odf -1 // Native mining upgrade / yard withdrawn
+xsbcol2.odf -1 // Native mining upgrade / yard withdrawn
+myu017.odf -1 // Native mining upgrade / yard withdrawn
+myu018.odf -1 // Native mining upgrade / yard withdrawn
+mysyard.odf -1 // Native mining upgrade / yard withdrawn
 myw004.odf 0
 myw005.odf 0
 xfgmnr1.odf 3 xfgserv.odf xfgpdil.odf xfgplat.odf

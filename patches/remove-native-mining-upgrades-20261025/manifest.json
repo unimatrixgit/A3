@@ -1,0 +1,936 @@
+{
+  "status": "STAGED",
+  "disabledUnits": [
+    "mybjminer1",
+    "mybjminer2",
+    "mybjyard",
+    "mybminer1",
+    "mybminer2",
+    "mybrminer1",
+    "mybrminer2",
+    "mybryard",
+    "mybyard",
+    "mycminer1",
+    "mycminer2",
+    "mycyard",
+    "mydminer1",
+    "mydminer2",
+    "mydyard",
+    "myfminer1",
+    "myfminer2",
+    "myfpod1",
+    "myfpod2",
+    "myfyard",
+    "mykminer1",
+    "mykminer2",
+    "mykyard",
+    "myrminer1",
+    "myrminer2",
+    "myryard",
+    "mysyard",
+    "myu000",
+    "myu001",
+    "myu002",
+    "myu003",
+    "myu004",
+    "myu005",
+    "myu006",
+    "myu007",
+    "myu008",
+    "myu009",
+    "myu010",
+    "myu011",
+    "myu012",
+    "myu013",
+    "myu014",
+    "myu015",
+    "myu016",
+    "myu017",
+    "myu018",
+    "xsbcol1",
+    "xsbcol2",
+    "xsbio1",
+    "xsbio2",
+    "xsbiolab"
+  ],
+  "removedNativeRefits": [
+    {
+      "source": "ffreight",
+      "target": "myfminer1",
+      "weapon": "myu000",
+      "research": [
+        "myfpod1"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "myfminer1",
+      "target": "myfminer2",
+      "weapon": "myu001",
+      "research": [
+        "myfpod2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "bfreight",
+      "target": "mybminer1",
+      "weapon": "myu002",
+      "research": [
+        "xbgpdil"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "mybminer1",
+      "target": "mybminer2",
+      "weapon": "myu003",
+      "research": [
+        "xbgpdil2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "kfreight",
+      "target": "mykminer1",
+      "weapon": "myu004",
+      "research": [
+        "xfgpdil"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "mykminer1",
+      "target": "mykminer2",
+      "weapon": "myu005",
+      "research": [
+        "xfgpdil2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "rfreight",
+      "target": "myrminer1",
+      "weapon": "myu006",
+      "research": [
+        "xfgpdil"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "myrminer1",
+      "target": "myrminer2",
+      "weapon": "myu007",
+      "research": [
+        "xfgpdil2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "cfreight",
+      "target": "mycminer1",
+      "weapon": "myu008",
+      "research": [
+        "xfgpdil"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "mycminer1",
+      "target": "mycminer2",
+      "weapon": "myu009",
+      "research": [
+        "xfgpdil2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "dfreight",
+      "target": "mydminer1",
+      "weapon": "myu010",
+      "research": [
+        "xfgpdil"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "mydminer1",
+      "target": "mydminer2",
+      "weapon": "myu011",
+      "research": [
+        "xfgpdil2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "xdominer",
+      "target": "mydminer1",
+      "weapon": "myu012",
+      "research": [
+        "xfgpdil"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "bjfreight",
+      "target": "mybjminer1",
+      "weapon": "myu013",
+      "research": [
+        "xfgpdil"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "mybjminer1",
+      "target": "mybjminer2",
+      "weapon": "myu014",
+      "research": [
+        "xfgpdil2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "brfreight",
+      "target": "mybrminer1",
+      "weapon": "myu015",
+      "research": [
+        "xfgpdil"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "mybrminer1",
+      "target": "mybrminer2",
+      "weapon": "myu016",
+      "research": [
+        "xfgpdil2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "8472_collector",
+      "target": "xsbcol1",
+      "weapon": "myu017",
+      "research": [
+        "xsbio1"
+      ],
+      "buttonSlot": 2,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "xsbcol1",
+      "target": "xsbcol2",
+      "weapon": "myu018",
+      "research": [
+        "xsbio2"
+      ],
+      "buttonSlot": 2,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    }
+  ],
+  "retainedFerengiRefits": [
+    {
+      "source": "xfgmine",
+      "target": "xfgmnr1",
+      "weapon": "myu019",
+      "research": [
+        "xfgpdil",
+        "xfgplat"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "xfgmnr1",
+      "target": "xfgmnr2",
+      "weapon": "myu020",
+      "research": [
+        "xfgpdil2",
+        "xfgplat2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "xfgdil2",
+      "target": "xfgdil3",
+      "weapon": "myu021",
+      "research": [
+        "xfgpdil2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "xfglat2",
+      "target": "xfglat3",
+      "weapon": "myu022",
+      "research": [
+        "xfgplat2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "xbgmine",
+      "target": "xbgmnr1",
+      "weapon": "myu023",
+      "research": [
+        "xbgpdil"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "xbgmnr1",
+      "target": "xbgmnr2",
+      "weapon": "myu024",
+      "research": [
+        "xbgpdil2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    },
+    {
+      "source": "xbgdil2",
+      "target": "xbgdil3",
+      "weapon": "myu025",
+      "research": [
+        "xbgpdil2"
+      ],
+      "buttonSlot": 1,
+      "energyCost": 0,
+      "cargoPreservationVerified": false
+    }
+  ],
+  "files": [
+    {
+      "file": "odf/other/ffreight.odf",
+      "sourceHash": "25feccb5dd2e64e73412430b618402be2c7e8615693f255b554280f0c000beb1",
+      "stagedHash": "d1699b2f346d9bb92db9afbfe79c63e6d611f72be9e9f599d603beab450e9330"
+    },
+    {
+      "file": "odf/ships/714const.odf",
+      "sourceHash": "7b9ae78052f3df2a9843d21e52d8659499302d3369b5fb37ed341469970dbd9c",
+      "stagedHash": "e1e3f41d9183e152d9783453ee6efb343c149cccf49c71fccaef361245e24655"
+    },
+    {
+      "file": "odf/ships/8472_active.odf",
+      "sourceHash": "6a825ef71794650dd059a8dcfe441c2d20719ec5ad73c944e49d24b09930de36",
+      "stagedHash": "11ab6f50131e647b090d67999400b984608227d48de8cb01709112bb8ee2104c"
+    },
+    {
+      "file": "odf/ships/8472_collector.odf",
+      "sourceHash": "50cb0f6a3d6b64fac168d8205406e6f0b7f4fc85ca4f970429ed8a68cc88ca38",
+      "stagedHash": "d1a9f80fe5ffb28b3d6916f09fbabc1ab21c22419e081040dbe31f0389e4c42a"
+    },
+    {
+      "file": "odf/ships/8472_defender.odf",
+      "sourceHash": "5e6fc8c2ab6e47c8698a2e8a5855e01e8c8246cb263f5c6fbb912ce3331fc9e0",
+      "stagedHash": "74d4a0cf02f3cd91cefea767ba0b7ebb8a23b3f00b8799450789f7fae2a319a4"
+    },
+    {
+      "file": "odf/ships/8472_passive.odf",
+      "sourceHash": "255ef9fcb420a5bb5f33e565572b5788b426c94aa3c2c79ec02a3dc41314af0a",
+      "stagedHash": "e84c326a6affdc4e23ba1a0bcf166dcbcdd50d3b3f6f218c9210a93ab2166764"
+    },
+    {
+      "file": "odf/ships/bconst.odf",
+      "sourceHash": "b691ab4d50b922ca67e16fb681e1200c11721468959bbcf7e0752733d99f9bec",
+      "stagedHash": "cc96a5892ac280da2efc71ee75787b31fface1e7c63a691c7239d320d3a1f1c4"
+    },
+    {
+      "file": "odf/ships/bfreight.odf",
+      "sourceHash": "0e0dbd00b83945044efe106e7a29de2188d1aa58c30b782090125aa9136a6695",
+      "stagedHash": "eb5788a6efa62bfc486f4e67437f9f152d03bc3fa3f83b2e0ddf42b8f348f230"
+    },
+    {
+      "file": "odf/ships/bjconst.odf",
+      "sourceHash": "10b30b9f4a5aeb9ffa5a2bae519f90e0a6c0f45252d3e6458901e0576a26d2e9",
+      "stagedHash": "b09e7102cf1aa58d9e750e5999db582202a2cf46b928ec67960d863bde3a7eee"
+    },
+    {
+      "file": "odf/ships/bjfreight.odf",
+      "sourceHash": "b734fed29744dcbbbb7105ab5cc5ec80eb8f77e8253748451e393e757e152607",
+      "stagedHash": "51a3edde7b4cd1d5084595e3a1c156f70f4bff786f0cc606af7688da7d8a06a3"
+    },
+    {
+      "file": "odf/ships/brconst.odf",
+      "sourceHash": "ad838d7d9211ef23bc1b94be4d132498ccb14d079b3e97109860a3ad7db5ed68",
+      "stagedHash": "7e9cecb861e15001fcc3eb7eaece1950ea818e025ae5f25b57bbb4a5757c2e7f"
+    },
+    {
+      "file": "odf/ships/brfreight.odf",
+      "sourceHash": "f75b54c6e7bba7b2846b73772f3de04a2204410b43039229f2d4bf5033f5a297",
+      "stagedHash": "7eac7786a5b9b4a9446fca65d49059fae9c3a2d146104b0bbd5667e81bc36b08"
+    },
+    {
+      "file": "odf/ships/cconst.odf",
+      "sourceHash": "329c20c1f690abccde39fbc0f9ad169af1805c9dd4af07a2c8f25c85596a012d",
+      "stagedHash": "e35848eb94a6da9eb6074e06f9f200be50b4eb7a397b5c14a12b17f701887f9e"
+    },
+    {
+      "file": "odf/ships/cfreight.odf",
+      "sourceHash": "f42a1924c3dbb5926e1e5ba3d6eec3a50f6f9bcb06c533dd15bab4872d1ff35d",
+      "stagedHash": "85b836bfedc5cb97fe8675ee6d6adfaff9ef5ba3ea5f154f981eec0d8ac07938"
+    },
+    {
+      "file": "odf/ships/dconst.odf",
+      "sourceHash": "bc9f502a998ab5ac07a29cce4bfb475c8d840a239e582d0b17a5172bd0db70a6",
+      "stagedHash": "4257c462332055a121b5992701b3eff2e1ea4e48dfd692b7d4ac7610b7ab956f"
+    },
+    {
+      "file": "odf/ships/dfreight.odf",
+      "sourceHash": "963aad2dfba41b3efac7a09f1a522154c215f2dd02a8ceeddbb43db8937ad0d1",
+      "stagedHash": "08c00980f1d8c893d5a58efb2a67cfa55f85eebaf84009ea88e7aea72e04e556"
+    },
+    {
+      "file": "odf/ships/fconst.odf",
+      "sourceHash": "fd3b1f40204244417b64e0818a51d5bc40342a701c37a8cb0c7c8c5bd26db8d3",
+      "stagedHash": "cc97e00582f42632e2e423eddfb3a71fe01d1e27eb09446a154c30736e4bc024"
+    },
+    {
+      "file": "odf/ships/ffreight.odf",
+      "sourceHash": "25feccb5dd2e64e73412430b618402be2c7e8615693f255b554280f0c000beb1",
+      "stagedHash": "d1699b2f346d9bb92db9afbfe79c63e6d611f72be9e9f599d603beab450e9330"
+    },
+    {
+      "file": "odf/ships/kconst.odf",
+      "sourceHash": "79e563e6b77981821eac29ba1970d9e5c22dc9a049c2c80784aeccdc96656a66",
+      "stagedHash": "88bb2d678ee35ebb6c90d82d729a8c540c28bda9db6d5c69395fe028963ab76f"
+    },
+    {
+      "file": "odf/ships/kfreight.odf",
+      "sourceHash": "fa3acc25121f880de8a45228fed00a37864ef623a42d6b42206e62fc358c516c",
+      "stagedHash": "3f29328d6984bfe0d26668f7b0106b870f5b66e3b6dbf70bd2a9460e65f9fb5f"
+    },
+    {
+      "file": "odf/ships/rconst.odf",
+      "sourceHash": "a7794a63909aca01276c4f0793925b8c1e1949b0ff0b13a879f725948257a4e4",
+      "stagedHash": "62c3a7483f5ee99cbac2fd8f15d07340f717addadc041e84adf64b317aaa7875"
+    },
+    {
+      "file": "odf/ships/rfreight.odf",
+      "sourceHash": "baa7c3b73b5c0b06f8c2878016187c766a9d1ac0213da5480f69aeadb111cbc4",
+      "stagedHash": "dc7b5e0d121ccdd4b3de06a0ffc7385a549e26856fc5bc47d13eeb26141ae031"
+    },
+    {
+      "file": "odf/ships/xdominer.odf",
+      "sourceHash": "959345249e1f60af22c707cc4c8f2638c37e226d55d560e27848368628eeef96",
+      "stagedHash": "9dd80e9025cc2656c4eca2aa290c390dacb5b61a10ca8102b11ee9600168bfcf"
+    },
+    {
+      "file": "odf/stations/fresear2.odf",
+      "sourceHash": "051e4175741589305946ab17a734155346aaf6da1165ddc5cc7f2eae2608524f",
+      "stagedHash": "98f9bae373dd2c849999003e52f08f1ebd00c66435de120713b1261a2e471cde"
+    },
+    {
+      "file": "techtree/a2_borg01.tt",
+      "sourceHash": "6fd4b2c9c51d35367d92fcd89121b8b0ba532ce41f68d054fe301415f8f68ecc",
+      "stagedHash": "96d531ac86b7a0814be48400b61be56bf90f88438ef2c30048321b1e7189a96b"
+    },
+    {
+      "file": "techtree/a2_borg02.tt",
+      "sourceHash": "fafd66c572b80c3002b3a772eae8ae6db098ab5bb21e9a6008d4340af2b25b9d",
+      "stagedHash": "bbdb5edf0bd92b35a1f536484da8ab5b83536b35872531f3d7d7e16ccfd95cce"
+    },
+    {
+      "file": "techtree/a2_borg03.tt",
+      "sourceHash": "a3c17c631a5103af45b5a3746f8a4397d2d5b4fb784768959c22e39889e16b73",
+      "stagedHash": "986245c4678a5190a7fc4f6a6fcc7d469314bd0a87f7fbd13903522533cf8d50"
+    },
+    {
+      "file": "techtree/a2_borg04.tt",
+      "sourceHash": "ab64aed8431be0b72313ab62e67900fdb5d52d49c84255749568fc08d253757d",
+      "stagedHash": "78ac6fb85c51c675670d036431c83250ad980e10e2a633749bf9e1d83c59538d"
+    },
+    {
+      "file": "techtree/a2_borg05.tt",
+      "sourceHash": "1026e4f3fbe43ab59be67ab85389a44605bdf4ef51752c609d8b0e7a52b82a7a",
+      "stagedHash": "d1496c9be767819915eec7dba9f1e405384234e2d9f6ba3a4504480c7821d770"
+    },
+    {
+      "file": "techtree/a2_borg06.tt",
+      "sourceHash": "e64dd10ef6fb9051dd8629825b76e85c7820f0eb19afa24ca8e5ccdcc4ead114",
+      "stagedHash": "eced6b5864691626b3885b195f71749a530e8f03202a95be2760b0a24127029a"
+    },
+    {
+      "file": "techtree/a2_borg07.tt",
+      "sourceHash": "1f2c783a4705bd9ff42c79ae606131da15457a0b079eab84b8c4df0a0d8de739",
+      "stagedHash": "b969da2aaf41c825428a67cf90290074b18989a100a5c2b921fed56fcc79385d"
+    },
+    {
+      "file": "techtree/a2_borg08.tt",
+      "sourceHash": "14543a8bc991bcc2977ebb1066c429c2dae2d040641933433ca6fb588e12cd5b",
+      "stagedHash": "280311a38e4e98ad00facfaf382230ef18de2b03428ce4de967a16e9c4a25ceb"
+    },
+    {
+      "file": "techtree/a2_borg09.tt",
+      "sourceHash": "335c23417178a402bec0979b6804ec1a783d9cc76183bf76d365a9203198426a",
+      "stagedHash": "96c44ce72341d17dd8715f90466ff88b51dfe1134f0a02cd3dbdbbdc507bce9a"
+    },
+    {
+      "file": "techtree/a2_borg10.tt",
+      "sourceHash": "da9d5278b239127ea1726cde6cfd1be67dad10bf83ce619b987e5704a45ab411",
+      "stagedHash": "e40ad9e8793a929f14253f42e9bbc9a0b003186ceecc37853fd88bba76ddba91"
+    },
+    {
+      "file": "techtree/a2_fed01.tt",
+      "sourceHash": "b01bf06b108f1bb6a5db355249e3daaf8d5b6531e3a9f053600fccbe89b91350",
+      "stagedHash": "7659057f179363c397a2123fe338349c70a00932c52093bf0c4f681cd72fd7e3"
+    },
+    {
+      "file": "techtree/a2_fed02.tt",
+      "sourceHash": "97f2385476aaa2609aef39b430a0da06b6f277167d3671f6fc5b9dbe237f9dce",
+      "stagedHash": "59ca17abb0f1c19d0d22bd666e3ec87c01b67ecee4633150e33b84b1c0634488"
+    },
+    {
+      "file": "techtree/a2_fed03.tt",
+      "sourceHash": "71fdc2599ec90fee25d991b5d5b9de601e9cf164fac9d7ee8e849a0f0a6a7e32",
+      "stagedHash": "20236342a6b93a12164afecb49700d310e3b710d4fec8da9a72a8f959ff1dc6a"
+    },
+    {
+      "file": "techtree/a2_fed04.tt",
+      "sourceHash": "4ecc9b21557e9e1bad9347378bbd12f47d255f9ac9d8005837b7e4710956f2d6",
+      "stagedHash": "e3974c41d5ea14454d1ef15d5528f4d2dee3f4be0c329799e209c5c3e883512e"
+    },
+    {
+      "file": "techtree/a2_fed05.tt",
+      "sourceHash": "d7a5603df9929b8f62240b81cfd541de0a662267a34933a5e1ee83169c9080b2",
+      "stagedHash": "6a415de58576a1b483d1c5e8b1b883433a84f15a644213365280570a82bee441"
+    },
+    {
+      "file": "techtree/a2_fed06.tt",
+      "sourceHash": "3eb90451a70d16491b485338d0c8e4501275472ef5c011ece282ac21a210c739",
+      "stagedHash": "38cff54241396b13b09669d87fdfeb1ab36f01964a2f0688db80e65cb6ff00d4"
+    },
+    {
+      "file": "techtree/a2_fed07.tt",
+      "sourceHash": "79ca5ca315fb7dbf0c6c6577ceae40eda9c3a1791bf2e00f611e59066335caf1",
+      "stagedHash": "1a47abd63ff0d0e7f6267c98ea7a6fad5e380c5ebe7d6cdf90cc65ddc52bd993"
+    },
+    {
+      "file": "techtree/a2_fed08.tt",
+      "sourceHash": "335035ed25c0cc52240e3438cf3382649d0e444c8b12c94e7b8aa6742329f7e0",
+      "stagedHash": "16b6022d16ad22af59cfb8caae2ed92ed258ee742ca62d665beb0a7b7add3e59"
+    },
+    {
+      "file": "techtree/a2_fed09.tt",
+      "sourceHash": "4dce64ebbf6cdb6bdce22ec692f3fca964e79bf18d16c4e405017bb1750425ee",
+      "stagedHash": "3e7187cae38648e29f905f0c9fc80dfcfbc02a5ab5900caab9821f13006e2bc7"
+    },
+    {
+      "file": "techtree/a2_fed10.tt",
+      "sourceHash": "2287c5e70f6c0bce3b85d43652b36031bf1533e740c2864ab1c96ff32c4a094e",
+      "stagedHash": "dd7ed7682283d900784f267ec3a64ee2e6282b0dccad0ac9b7c21e2548f2ea25"
+    },
+    {
+      "file": "techtree/a2_kling01.tt",
+      "sourceHash": "e55a4fc52836d5c9198f787e481585bd01d0dd232e0570876784dff47c4f58a0",
+      "stagedHash": "eb5bf0c70a3ca93d012eb04261fe966b8f28df02bf1abc47d234867e3110c6bf"
+    },
+    {
+      "file": "techtree/a2_kling02.tt",
+      "sourceHash": "abd631ddaeafa6fbc46cca0d37b628544eca9aeb7ee7d1f4d611df9dd5698c02",
+      "stagedHash": "191e4bb49006da5226ba6c7e4b61a8b5217c5de96c0e020e082228eb52a05430"
+    },
+    {
+      "file": "techtree/a2_kling03.tt",
+      "sourceHash": "42059962fc980dc8984137dface383171048ec352af9f8a9c1ffc7ace04eca7e",
+      "stagedHash": "5ec67d3f11c3f27795de3872b35621ad71ee32f199ea53c270bb81cabd5d0067"
+    },
+    {
+      "file": "techtree/a2_kling04.tt",
+      "sourceHash": "13475bb4b74d701f0f35278a1f57850bf1a1474b47b98e2d83b446652bbcf235",
+      "stagedHash": "647052772918edcd2feb0b2d9f103d9e5de0d03bde47eb2e0f833def840e49d8"
+    },
+    {
+      "file": "techtree/a2_kling05.tt",
+      "sourceHash": "f59a406189f4841320e3a01624c08510662eb0facb5f304a465a9b27171a957d",
+      "stagedHash": "8587e64d3daec7c934b9758848eccdc99a4b7591720e55879d5abd482d919d90"
+    },
+    {
+      "file": "techtree/a2_kling06.tt",
+      "sourceHash": "61bbd40f5f1bdb789a729078be6dbca34a73394b3afc31d7e4113d933c7d15ab",
+      "stagedHash": "d7e113e453a5a32a83f7835b5c261e4fb3d8e9082f02b78397db1d46703584a4"
+    },
+    {
+      "file": "techtree/a2_kling07.tt",
+      "sourceHash": "90d0ac8e41f36c92a9c638f04a31ab18258628d8621d3093be5907d3228804f2",
+      "stagedHash": "27f0676a0a64a8845ea62485b8bd83475e32874b32284904701a0d3b8d983fa6"
+    },
+    {
+      "file": "techtree/a2_kling08.tt",
+      "sourceHash": "f50ce83c38564dd0c0b39ba49e8ddc6e7ceeafea31d8ad17e5711794bbe6efec",
+      "stagedHash": "28b2f69581808cbc6c8f7a6cdb71c958f488b10029e826db57fbf9159e42d3b2"
+    },
+    {
+      "file": "techtree/a2_kling09.tt",
+      "sourceHash": "bec36241c863aa16a78f6f62cf4ef0195ab316e448f6acb10cb36aa0eb9fa861",
+      "stagedHash": "ea05787dd809e3a99e2aaf2b7d226556c92249db70eb327b94f5255840752a5c"
+    },
+    {
+      "file": "techtree/a2_kling10.tt",
+      "sourceHash": "d7fbebfbe97e4211811d8f0929b548f255cb9238e0694e98806dcee92ea5c73f",
+      "stagedHash": "6711e20e3c453f69b565ca2f2aef38b2579a481a5bd67166c343e99dcd4a3be8"
+    },
+    {
+      "file": "techtree/demotech.tt",
+      "sourceHash": "f546673443ea327fc22cc80f9cfef18991eafdbb9830a497e3f257cfbbe33325",
+      "stagedHash": "e1b5e0de5584859bac52295aad8d4ce6ca54e0ca7e179b8b627a7628b1b0c4a7"
+    },
+    {
+      "file": "techtree/earlytech.tt",
+      "sourceHash": "f7fb530916997e4b72a8418284219d51e89fd3e5f149fda170214757bff87a19",
+      "stagedHash": "c458c246cf7bafe55b63a0ebedb8b6a87b4c032189e3a42a4350dda435546155"
+    },
+    {
+      "file": "techtree/freetech.tt",
+      "sourceHash": "3b521212c8995d1fd85863f791c2a9c265abf3ef638d51e7158d97e52a4df18a",
+      "stagedHash": "47ec4433fd051aa15bdd21120bfb9ff59db50a16d742d65f0477b4ac775975a1"
+    },
+    {
+      "file": "techtree/fulltech.tt",
+      "sourceHash": "dcc3a3163f3fe2677302dd6974e52341f6343c674bf18dc04b64066244dff3bf",
+      "stagedHash": "8df96224ff94cbaaea754725dd2ff3a1c4bc94ac3e84b63ddb8f7b83af874c3f"
+    },
+    {
+      "file": "techtree/nosci.tt",
+      "sourceHash": "8ba98f8843667c00b4cb9c5c192daad75ea957a026641da38963c19131ca84d1",
+      "stagedHash": "fca85f96338e711845694ff43ede9d97ef515a20a2e48bd828aba1ca2b8b2744"
+    },
+    {
+      "file": "techtree/nospweap.tt",
+      "sourceHash": "9052d24d906ad6e64e8a10670bc9de6ecd5bb5ef0cfb203ac3eb9b046096dfa6",
+      "stagedHash": "9ff110e6902db9173608e5b4837739b7e293c8d5c9c17d5a2caa72c7f1016d26"
+    },
+    {
+      "file": "techtree/nosuper.tt",
+      "sourceHash": "a9a3d3dd8f526e1b81fe5c42e567733ea3dbaaa906f5cfbec34cbef63dc0a384",
+      "stagedHash": "f72f634b2fcb317beb4bbd61a1b0fa4066449110f1a5a6486a76e1b6321e4c28"
+    },
+    {
+      "file": "techtree/tech1.tt",
+      "sourceHash": "c81c087f172a8a79e00862b06287177e26e86d5ce81315161757f42bfe74b03a",
+      "stagedHash": "299adafd5af4e9700a2f8950eb3f3ea39c04e12142ec9e39cc6c95860cae09c6"
+    },
+    {
+      "file": "AI/AIPs/bajoran_build_list.aip",
+      "sourceHash": "d8346bb1caf08be8445dbadb053a40a06c7f141eb59d01ebce0b86c9951afa1d",
+      "stagedHash": "b4dab11a888b55939e08fdf0bc77a2c2c0aaf9081372a8b71a6fcf7ea775a80e"
+    },
+    {
+      "file": "AI/AIPs/bajoran_defensive_list.aip",
+      "sourceHash": "ea24dd8f783d1d21c7838f0e42101196c192f115e0ca7c007325219d59529adc",
+      "stagedHash": "4d73d05b24be2414e790a7730bf0d23cd6167d5e85eb13951411ddfbe51edb56"
+    },
+    {
+      "file": "AI/AIPs/bajoran_endgame_list.aip",
+      "sourceHash": "66f9135a8b7777df11f363be98054cbf8a5944d78e22dad9ffc3665ae75ec6b2",
+      "stagedHash": "e0939624bad2c7f1ff6df5859a2da5daeb077c47f106e6fb4725a0302c8ff76a"
+    },
+    {
+      "file": "AI/AIPs/bajoran_instant_action_build_list.aip",
+      "sourceHash": "652546f6e76c12149213f8ba44a7cd5746076d0c3c885a87f1936e020395dfd4",
+      "stagedHash": "e52a18ee38a250d9891a018420864fc07bb9a1370bb3a72a0539cbae4a3ee48d"
+    },
+    {
+      "file": "AI/AIPs/bajoran_offensive_list.aip",
+      "sourceHash": "d8346bb1caf08be8445dbadb053a40a06c7f141eb59d01ebce0b86c9951afa1d",
+      "stagedHash": "b4dab11a888b55939e08fdf0bc77a2c2c0aaf9081372a8b71a6fcf7ea775a80e"
+    },
+    {
+      "file": "AI/AIPs/borg_build_list.aip",
+      "sourceHash": "48a7095f6e7acd602ab5c17477e6861118903ad20e776ca14fb8464a777d77ae",
+      "stagedHash": "99f6caf46c97939dff69535a769d631d898fa7924dfe2aa8a9efd2738c51120c"
+    },
+    {
+      "file": "AI/AIPs/borg_defensive_list.aip",
+      "sourceHash": "cb02d25d656b66b3b1dabfb41c1dae52a9205e74524170428467b1ad7fb4cbca",
+      "stagedHash": "889afa843bea15bfb39332d8ba8bc851306f0971fd092ed97bfb8b0e7b3f42e1"
+    },
+    {
+      "file": "AI/AIPs/borg_endgame_list.aip",
+      "sourceHash": "48a7095f6e7acd602ab5c17477e6861118903ad20e776ca14fb8464a777d77ae",
+      "stagedHash": "99f6caf46c97939dff69535a769d631d898fa7924dfe2aa8a9efd2738c51120c"
+    },
+    {
+      "file": "AI/AIPs/borg_instant_action_build_list.aip",
+      "sourceHash": "48a7095f6e7acd602ab5c17477e6861118903ad20e776ca14fb8464a777d77ae",
+      "stagedHash": "99f6caf46c97939dff69535a769d631d898fa7924dfe2aa8a9efd2738c51120c"
+    },
+    {
+      "file": "AI/AIPs/borg_offensive_list.aip",
+      "sourceHash": "48a7095f6e7acd602ab5c17477e6861118903ad20e776ca14fb8464a777d77ae",
+      "stagedHash": "99f6caf46c97939dff69535a769d631d898fa7924dfe2aa8a9efd2738c51120c"
+    },
+    {
+      "file": "AI/AIPs/breen_build_list.aip",
+      "sourceHash": "3f1053dc3ed5fe10a9e86650415ce7225e5879ef85d59b7c06a2943b6e37b780",
+      "stagedHash": "56f7051c1abfe0bfac51e0df806d6396e2c91a86408ced9999430a4f33e23e85"
+    },
+    {
+      "file": "AI/AIPs/breen_defensive_list.aip",
+      "sourceHash": "3f1053dc3ed5fe10a9e86650415ce7225e5879ef85d59b7c06a2943b6e37b780",
+      "stagedHash": "56f7051c1abfe0bfac51e0df806d6396e2c91a86408ced9999430a4f33e23e85"
+    },
+    {
+      "file": "AI/AIPs/breen_endgame_list.aip",
+      "sourceHash": "3f1053dc3ed5fe10a9e86650415ce7225e5879ef85d59b7c06a2943b6e37b780",
+      "stagedHash": "56f7051c1abfe0bfac51e0df806d6396e2c91a86408ced9999430a4f33e23e85"
+    },
+    {
+      "file": "AI/AIPs/breen_instant_action_build_list.aip",
+      "sourceHash": "3f1053dc3ed5fe10a9e86650415ce7225e5879ef85d59b7c06a2943b6e37b780",
+      "stagedHash": "56f7051c1abfe0bfac51e0df806d6396e2c91a86408ced9999430a4f33e23e85"
+    },
+    {
+      "file": "AI/AIPs/breen_offensive_list.aip",
+      "sourceHash": "3f1053dc3ed5fe10a9e86650415ce7225e5879ef85d59b7c06a2943b6e37b780",
+      "stagedHash": "56f7051c1abfe0bfac51e0df806d6396e2c91a86408ced9999430a4f33e23e85"
+    },
+    {
+      "file": "AI/AIPs/cardassian_build_list.aip",
+      "sourceHash": "b6634829b2b3e8d9f614fabb9175a88d5c1703dc3835c659527f08da4965f020",
+      "stagedHash": "715c08457d523e8deb1091ea7f095b1a0ffe91e67bc7c96ddaa6c70e42de2772"
+    },
+    {
+      "file": "AI/AIPs/cardassian_defensive_list.aip",
+      "sourceHash": "d637940d9a9fc2a213bf9c7fb51ab20dfd688ceec2490a488df91acf3af0f3c9",
+      "stagedHash": "bbe132d7ba406d08dd92081a906bf63bb2c237a76cf360db395ee62fbcc8ae8a"
+    },
+    {
+      "file": "AI/AIPs/cardassian_endgame_list.aip",
+      "sourceHash": "b6634829b2b3e8d9f614fabb9175a88d5c1703dc3835c659527f08da4965f020",
+      "stagedHash": "715c08457d523e8deb1091ea7f095b1a0ffe91e67bc7c96ddaa6c70e42de2772"
+    },
+    {
+      "file": "AI/AIPs/cardassian_instant_action_build_list.aip",
+      "sourceHash": "b6634829b2b3e8d9f614fabb9175a88d5c1703dc3835c659527f08da4965f020",
+      "stagedHash": "715c08457d523e8deb1091ea7f095b1a0ffe91e67bc7c96ddaa6c70e42de2772"
+    },
+    {
+      "file": "AI/AIPs/cardassian_offensive_list.aip",
+      "sourceHash": "b6634829b2b3e8d9f614fabb9175a88d5c1703dc3835c659527f08da4965f020",
+      "stagedHash": "715c08457d523e8deb1091ea7f095b1a0ffe91e67bc7c96ddaa6c70e42de2772"
+    },
+    {
+      "file": "AI/AIPs/dominion_build_list.aip",
+      "sourceHash": "84844d7d5cfaad077e6614920062f03b407f2e7bf0a56c4013fdc42b75820d45",
+      "stagedHash": "a57687f61b779e699dbd61bcd49503b4ac0b22e0e7b803018a1daa1ba9930219"
+    },
+    {
+      "file": "AI/AIPs/dominion_defensive_list.aip",
+      "sourceHash": "797602ea8be9209089b125b9ec733e320f9cf1c506b2a918be04f796bcba9ed6",
+      "stagedHash": "ce1ae1219f4be93f56b52b48962f7b8bf1fe7d8830242f7814053cc9f3248352"
+    },
+    {
+      "file": "AI/AIPs/dominion_endgame_list.aip",
+      "sourceHash": "84844d7d5cfaad077e6614920062f03b407f2e7bf0a56c4013fdc42b75820d45",
+      "stagedHash": "a57687f61b779e699dbd61bcd49503b4ac0b22e0e7b803018a1daa1ba9930219"
+    },
+    {
+      "file": "AI/AIPs/dominion_instant_action_build_list.aip",
+      "sourceHash": "84844d7d5cfaad077e6614920062f03b407f2e7bf0a56c4013fdc42b75820d45",
+      "stagedHash": "a57687f61b779e699dbd61bcd49503b4ac0b22e0e7b803018a1daa1ba9930219"
+    },
+    {
+      "file": "AI/AIPs/dominion_offensive_list.aip",
+      "sourceHash": "84844d7d5cfaad077e6614920062f03b407f2e7bf0a56c4013fdc42b75820d45",
+      "stagedHash": "a57687f61b779e699dbd61bcd49503b4ac0b22e0e7b803018a1daa1ba9930219"
+    },
+    {
+      "file": "AI/AIPs/federation_build_list.aip",
+      "sourceHash": "0fa62f516314945eaf71d615705a3ff64e99e37fd122f1784c5b7fe79163f084",
+      "stagedHash": "46a13b49a0acd887cd3c33d672155a6d5f9f200a0aeff4c34ae13741dd6f2c67"
+    },
+    {
+      "file": "AI/AIPs/federation_defensive_list.aip",
+      "sourceHash": "26c2ee7b86d84fd6e155efaf8dbe301f2c6784904b9cdd391e9fc96e270960b4",
+      "stagedHash": "d8d23b2a2965662451f4e35344a8d27a84f0d81017a7cce17d84d0630c03501f"
+    },
+    {
+      "file": "AI/AIPs/federation_endgame_list.aip",
+      "sourceHash": "d44fa4299d958fc69625a85d6466ede06c069c6046fc8e0d10c8308cb403aa2f",
+      "stagedHash": "3b1e1c08a3c5e5fcb1fab05cf331baa9fcd9aa62fa0b70f224010fc083ee4442"
+    },
+    {
+      "file": "AI/AIPs/federation_instant_action_build_list.aip",
+      "sourceHash": "3174cdbffd65d735ad30984754b02604733a51f5703c426dfe14ec8eb877dab3",
+      "stagedHash": "1d05da55442d1f228fff4065e8860db8029be7959f958f892702015554c284ba"
+    },
+    {
+      "file": "AI/AIPs/federation_offensive_list.aip",
+      "sourceHash": "0fa62f516314945eaf71d615705a3ff64e99e37fd122f1784c5b7fe79163f084",
+      "stagedHash": "46a13b49a0acd887cd3c33d672155a6d5f9f200a0aeff4c34ae13741dd6f2c67"
+    },
+    {
+      "file": "AI/AIPs/klingon_build_list.aip",
+      "sourceHash": "098ed8127e66d08a44451d95ad71e59efee5f47775aba75a72c5e8584f7f54be",
+      "stagedHash": "1a84bf150e456d06d9a5f0069b3c8a20abb414bfa2a8ca533ffbc076ad825c7d"
+    },
+    {
+      "file": "AI/AIPs/klingon_defensive_list.aip",
+      "sourceHash": "95e98e4ebbd5f8fb694e6ec7548d339bcc42c4170707b4b1e4688ceae895cc5c",
+      "stagedHash": "37f37b71c37851e7ee85ea22d104e540a2a46f1b0236752e84ae3d66e20dd6a1"
+    },
+    {
+      "file": "AI/AIPs/klingon_endgame_list.aip",
+      "sourceHash": "098ed8127e66d08a44451d95ad71e59efee5f47775aba75a72c5e8584f7f54be",
+      "stagedHash": "1a84bf150e456d06d9a5f0069b3c8a20abb414bfa2a8ca533ffbc076ad825c7d"
+    },
+    {
+      "file": "AI/AIPs/klingon_instant_action_build_list.aip",
+      "sourceHash": "098ed8127e66d08a44451d95ad71e59efee5f47775aba75a72c5e8584f7f54be",
+      "stagedHash": "1a84bf150e456d06d9a5f0069b3c8a20abb414bfa2a8ca533ffbc076ad825c7d"
+    },
+    {
+      "file": "AI/AIPs/klingon_offensive_list.aip",
+      "sourceHash": "098ed8127e66d08a44451d95ad71e59efee5f47775aba75a72c5e8584f7f54be",
+      "stagedHash": "1a84bf150e456d06d9a5f0069b3c8a20abb414bfa2a8ca533ffbc076ad825c7d"
+    },
+    {
+      "file": "AI/AIPs/romulan_build_list.aip",
+      "sourceHash": "6d57cf114b87c053ddd9736da362692b79f9125aae75ab172eccb97b1130a7c2",
+      "stagedHash": "30981a4ff887f4bb256c96fe9b05b709bd051afa7cc1f09ce6a487e1edbcab1f"
+    },
+    {
+      "file": "AI/AIPs/romulan_defensive_list.aip",
+      "sourceHash": "57521aa71621dd44d9210411d123779bed98b4a7f566aded68f5b6ca562fa4e5",
+      "stagedHash": "433bbf9d82eb587ca3e82c3b5f373c7a01f1a2b6fde7604c0b01b91d1ab37273"
+    },
+    {
+      "file": "AI/AIPs/romulan_endgame_list.aip",
+      "sourceHash": "6d57cf114b87c053ddd9736da362692b79f9125aae75ab172eccb97b1130a7c2",
+      "stagedHash": "30981a4ff887f4bb256c96fe9b05b709bd051afa7cc1f09ce6a487e1edbcab1f"
+    },
+    {
+      "file": "AI/AIPs/romulan_instant_action_build_list.aip",
+      "sourceHash": "6d57cf114b87c053ddd9736da362692b79f9125aae75ab172eccb97b1130a7c2",
+      "stagedHash": "30981a4ff887f4bb256c96fe9b05b709bd051afa7cc1f09ce6a487e1edbcab1f"
+    },
+    {
+      "file": "AI/AIPs/romulan_offensive_list.aip",
+      "sourceHash": "6d57cf114b87c053ddd9736da362692b79f9125aae75ab172eccb97b1130a7c2",
+      "stagedHash": "30981a4ff887f4bb256c96fe9b05b709bd051afa7cc1f09ce6a487e1edbcab1f"
+    },
+    {
+      "file": "AI/AIPs/species8472_build_list.aip",
+      "sourceHash": "0b000bfd6a120f4e8390a301ea4f64f6825e9323d32a75258e228a90e4fc46a0",
+      "stagedHash": "f5bb2d45207dbdbe032c091b403c09feca9d72232aedd09b3b89ae81c8de430c"
+    },
+    {
+      "file": "AI/AIPs/species8472_defensive_list.aip",
+      "sourceHash": "0b000bfd6a120f4e8390a301ea4f64f6825e9323d32a75258e228a90e4fc46a0",
+      "stagedHash": "f5bb2d45207dbdbe032c091b403c09feca9d72232aedd09b3b89ae81c8de430c"
+    },
+    {
+      "file": "AI/AIPs/species8472_endgame_list.aip",
+      "sourceHash": "0b000bfd6a120f4e8390a301ea4f64f6825e9323d32a75258e228a90e4fc46a0",
+      "stagedHash": "f5bb2d45207dbdbe032c091b403c09feca9d72232aedd09b3b89ae81c8de430c"
+    },
+    {
+      "file": "AI/AIPs/species8472_instant_action_build_list.aip",
+      "sourceHash": "0b000bfd6a120f4e8390a301ea4f64f6825e9323d32a75258e228a90e4fc46a0",
+      "stagedHash": "f5bb2d45207dbdbe032c091b403c09feca9d72232aedd09b3b89ae81c8de430c"
+    },
+    {
+      "file": "AI/AIPs/species8472_offensive_list.aip",
+      "sourceHash": "0b000bfd6a120f4e8390a301ea4f64f6825e9323d32a75258e228a90e4fc46a0",
+      "stagedHash": "f5bb2d45207dbdbe032c091b403c09feca9d72232aedd09b3b89ae81c8de430c"
+    }
+  ],
+  "AIprofilesChanged": [
+    "bajoran_build_list.aip",
+    "bajoran_defensive_list.aip",
+    "bajoran_endgame_list.aip",
+    "bajoran_instant_action_build_list.aip",
+    "bajoran_offensive_list.aip",
+    "borg_build_list.aip",
+    "borg_defensive_list.aip",
+    "borg_endgame_list.aip",
+    "borg_instant_action_build_list.aip",
+    "borg_offensive_list.aip",
+    "breen_build_list.aip",
+    "breen_defensive_list.aip",
+    "breen_endgame_list.aip",
+    "breen_instant_action_build_list.aip",
+    "breen_offensive_list.aip",
+    "cardassian_build_list.aip",
+    "cardassian_defensive_list.aip",
+    "cardassian_endgame_list.aip",
+    "cardassian_instant_action_build_list.aip",
+    "cardassian_offensive_list.aip",
+    "dominion_build_list.aip",
+    "dominion_defensive_list.aip",
+    "dominion_endgame_list.aip",
+    "dominion_instant_action_build_list.aip",
+    "dominion_offensive_list.aip",
+    "federation_build_list.aip",
+    "federation_defensive_list.aip",
+    "federation_endgame_list.aip",
+    "federation_instant_action_build_list.aip",
+    "federation_offensive_list.aip",
+    "klingon_build_list.aip",
+    "klingon_defensive_list.aip",
+    "klingon_endgame_list.aip",
+    "klingon_instant_action_build_list.aip",
+    "klingon_offensive_list.aip",
+    "romulan_build_list.aip",
+    "romulan_defensive_list.aip",
+    "romulan_endgame_list.aip",
+    "romulan_instant_action_build_list.aip",
+    "romulan_offensive_list.aip",
+    "species8472_build_list.aip",
+    "species8472_defensive_list.aip",
+    "species8472_endgame_list.aip",
+    "species8472_instant_action_build_list.aip",
+    "species8472_offensive_list.aip"
+  ],
+  "checks": 7243,
+  "runtimeVerified": false,
+  "collectorArtworkSizesAndBaseStatsPreserved": true,
+  "FerengiODFsUnchanged": true
+}

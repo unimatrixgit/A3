@@ -60,16 +60,16 @@ possibleCraftNames = "Navrus" "Neriax" "Olpia" "Orceius" "Partius"    "Perrix" "
 //ART PARAMETERS & WEAPON NAMES
 
 // Mining Beam for Dilithium
-weapon1 = "gmineDilithium" 
-weaponHardpoints1 = "hp11" "hp12"
+
+
 
 // Mining Beam for latinum
-weapon2 = "gmineLatinum"
-weaponHardpoints2 = "hp11" "hp12"
+
+
 
 // Cloaking Device
-weapon3 = "grcloak"
-weaponHardpoints3 = "hp13"
+
+
 
 
 // Hardpoints to hit for various systems and other locations.
@@ -124,6 +124,12 @@ baseName = "dr26_rfreight"
 unitName = "Dilithium Collector MK I"
 tooltip = "Dilithium Collector MK I"
 verboseTooltip = "Dilithium Collector MK I\nDilithium extraction\nResources sustain the fleet."
-weapon4 = "myu006"
-weaponHardpoints4 = "hp11" "hp12"
+
+
 ScaleSOD = 0.832406154419
+weapon1 = "gmineDilithium"
+weaponHardpoints1 = "hp11" "hp12"
+weapon2 = "gmineLatinum"
+weaponHardpoints2 = "hp11" "hp12"
+weapon3 = "grcloak"
+weaponHardpoints3 = "hp13"

@@ -68,16 +68,16 @@ possibleCraftNames = "Collector-F4E23" "Collector-F2B74" "Collector-F5Y10" "Coll
 //ART PARAMETERS & WEAPON NAMES
 
 // Mining Beam MUST BE WEAPON #1
-weapon1 = "gmineDilithium"
-weaponHardpoints1 = "hp01" "hp02" "hp03"
+
+
 
 // Planetary mining beam MUST BE WEAPON #2
-weapon2 = "gmineMetalBorg"
-weaponHardpoints2 = "hp01" "hp02" "hp03"
+
+
 
 // Resource extracter.  Hopefully this can be weapon #3 and still work.
-weapon3 = "gresourceExtractionBeam"
-weaponHardpoints3 = "hp01" "hp02" "hp03"
+
+
 
 // Hardpoints to hit for various systems and other locations.
 enginesTargetHardpoints = "hp04" "hp05" "hp06" "hp07" "hp08" "hp09" "hp10"
@@ -130,6 +130,12 @@ baseName = "dr26_8472_collector"
 unitName = "Biomatter Collector MK I"
 tooltip = "Biomatter Collector MK I"
 verboseTooltip = "Biomatter Collector MK I\nBiomatter extraction\nResources sustain the fleet."
-weapon4 = "myu017"
-weaponHardpoints4 = "hp01" "hp02" "hp03"
+
+
 ScaleSOD = 0.626882151156
+weapon1 = "gmineDilithium"
+weaponHardpoints1 = "hp01" "hp02" "hp03"
+weapon2 = "gmineMetalBorg"
+weaponHardpoints2 = "hp01" "hp02" "hp03"
+weapon3 = "gresourceExtractionBeam"
+weaponHardpoints3 = "hp01" "hp02" "hp03"
