@@ -1,5 +1,5 @@
 {
-  "current": "Approved vanilla-derived faction yards and research artwork, with Cardassian-derived Bajoran refits. Stats and technology unchanged. Applied and file hashes verified; gameplay testing pending.",
+  "current": "Federation service dock redesigned with central saucer and two connected open service decks. Existing repair, recrew and decommission behavior preserved. Applied and file hashes verified; gameplay testing pending.",
   "steps": [
     {
       "label": "Current configuration and artwork: Apply approved fixes",
@@ -1875,6 +1875,13 @@
       "files": 198,
       "runtimeVerified": false,
       "description": "Approved vanilla-derived faction yards and research artwork, with Cardassian-derived Bajoran refits. Stats and technology unchanged."
+    },
+    "federation-service-dock-20261026": {
+      "status": "APPLIED",
+      "backup": "D:\\Xaramada-Modwork\\backups\\federation-service-dock-20261026-20261026-190432",
+      "files": 3,
+      "runtimeVerified": false,
+      "description": "Federation service dock redesigned with central saucer and two connected open service decks. Existing repair, recrew and decommission behavior preserved."
     }
   }
 }
