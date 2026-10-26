@@ -24,6 +24,9 @@ for patch in ['production-interiors-20261025','dominion-carrier-launch-20261025'
 paths+=['patches/production-interiors-20261025/audit.json','patches/production-interiors-20261025/installed-verification.json','patches/production-interiors-20261025/spacedock-doors-fixed.png','patches/tvarek-hero-20261025/tvarek-render.png','reports/production-carrier-tvarek-summary.md']
 paths+=['scripts/preview-vanilla-station-direction.py','scripts/stage-vanilla-station-redesign.py']
 paths+=['scripts/stage-federation-service-dock.py']
+paths+=['scripts/stage-hwp-under-four-squares.py','scripts/stage-hwp-compact-two-by-two.py']
+for folder in ['hwp-under-four-squares-20261026','hwp-compact-two-by-two-20261026']:
+ paths.extend(p.relative_to(repo).as_posix()for p in(repo/'patches'/folder).rglob('*')if p.is_file())
 paths+=['scripts/'+n for n in ['preview-hwp-nexus-fortresses.py','stage-hwp-four-module-fortresses.py','verify-hwp-four-module.py']]
 paths+=['patches/hwp-fortress-v2-20261026/loadouts.json']
 paths.extend(p.relative_to(repo).as_posix()for p in(repo/'patches/hwp-four-module-20261026').rglob('*')if p.is_file())

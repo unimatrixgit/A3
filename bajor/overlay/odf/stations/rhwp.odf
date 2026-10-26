@@ -408,13 +408,13 @@ tooltip = "Heavy Weapons Platform (Heavy Weapons Platform)"
 
 
 
-eastBuffer = 0
 
-westBuffer = 0
 
-northBuffer = 0
 
-southBuffer = 0
+
+
+
+
 
 
 
@@ -475,7 +475,7 @@ verboseTooltip = "Heavy Weapons Platform\nHeavy defensive fire support\nAn outpo
 
 
 
-footprintBuffer = 16.875
+
 
 buildTime = 56.25
 
@@ -483,7 +483,7 @@ buildTime = 56.25
 
 
 baseName = "ty26_rhwp"
-ScaleSOD = 0.83161901745
+
 weaponHardpoints1 = "hwpbank1"
 weaponHardpoints5 = "hwpbank5"
 weaponHardpoints9 = "hwpbank9"
@@ -500,3 +500,15 @@ weaponHardpoints4 = "hwpbank4"
 weaponHardpoints8 = "hwpbank8"
 weaponHardpoints12 = "hwpbank12"
 weaponHardpoints16 = "hwpbank16"
+
+
+
+
+
+
+ScaleSOD = 0.554412665135
+footprintBuffer = 0
+northBuffer = 0
+southBuffer = 0
+eastBuffer = 0
+westBuffer = 0

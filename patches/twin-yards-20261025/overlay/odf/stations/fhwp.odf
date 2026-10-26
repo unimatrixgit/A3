@@ -377,13 +377,13 @@ tooltip = "Heavy Weapons Platform (Cyclone Defense Station)"
 
 
 
-eastBuffer = 0
 
-westBuffer = 0
 
-northBuffer = 0
 
-southBuffer = 0
+
+
+
+
 
 
 
@@ -451,7 +451,7 @@ verboseTooltip = "Cyclone Defense Station\nHeavy defensive fire support\nStarfle
 
 
 
-footprintBuffer = 16.875
+
 
 buildTime = 56.25
 
@@ -459,7 +459,7 @@ buildTime = 56.25
 
 
 baseName = "ty26_fhwp"
-ScaleSOD = 1.89009101092
+
 weaponHardpoints1 = "hwpbank1"
 weaponHardpoints5 = "hwpbank5"
 weaponHardpoints9 = "hwpbank9"
@@ -476,3 +476,15 @@ weaponHardpoints4 = "hwpbank4"
 weaponHardpoints8 = "hwpbank8"
 weaponHardpoints12 = "hwpbank12"
 weaponHardpoints16 = "hwpbank16"
+
+
+
+
+
+
+ScaleSOD = 0.936753376356
+footprintBuffer = 0
+northBuffer = 0
+southBuffer = 0
+eastBuffer = 0
+westBuffer = 0

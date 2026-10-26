@@ -1,0 +1,606 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Number of Officers starbase gives by default
+
+
+//Max Shield Strength & Begining Shield Strength <1000
+
+
+//Rate at which shield recharges (points per second... we think)
+
+
+//Shield absorbs all damage until it's gone
+
+
+// rate at which latinum is removed from freighters
+
+
+//Possible Craft Names
+
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Pulse Phaser
+
+
+
+// Pulse Phaser
+
+
+
+// Plasma Torpedo
+
+
+
+// Plasma Torpedo
+
+
+
+// Hardpoints to hit for various systems and other locations.
+
+"HP07" "HP08"
+
+"HP07" "HP08"
+
+"HP07" "HP08"
+
+
+"HP07" "HP08"
+
+"HP07" "HP08"
+
+"HP07" "HP08"
+
+//**********************************************************************
+//Construction Parameters
+
+
+
+
+
+
+
+
+
+
+//Hardpoint location for building.
+
+
+//Hardpoint location for repair.
+
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.50f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 2.00f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.5f
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+
+// Hitpoints
+
+
+
+
+
+
+
+//**********************************************************************
+//SYSTEM DAMAGE DISTRIBUTION
+//The following section's values should add up to 100
+//Percent Chance out of 100 of engines being destroyed
+
+
+//Percent Chance out of 100 of life support being destroyed
+
+
+//Percent Chance out of 100 of weapons being destroyed
+
+
+//Percent Chance out of 100 of shields being destroyed
+
+
+//Percent Chance out of 100 of sensors being destroyed
+
+
+//Percent Chance out of 100 of hull being hit (crew dying)
+
+
+//Percent Chance out of 100 of entire ship exploding
+
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "StarbaseSelect"
+eventAcknowledge = "StarbaseAcknowledge"
+eventAttack = "StarbaseAttack"
+eventDecommission = "StarbaseDecommission"
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "starbase"
+hotkeyLabel = "HOTKEY_F1"
+
+//************************************************************
+// Brian additions for context sensitive menus
+
+
+
+
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+
+
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+maxHealth = 5250
+
+shieldRate = 6.8
+
+shieldProtection = 1.0
+
+
+
+builder_ship = 1
+
+
+
+
+
+
+
+possibleCraftNames = "Vekor" "Gul Vornar" "Korinas"
+
+shieldGeneratorHitPoints = 1000
+
+enginesHitPoints = 0
+
+
+
+
+
+sensorsHitPoints = 1000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Equal visual span: Federation Cyclone reference.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Heavy platform artwork restored from before starbase-model change.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+enginestargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06"
+
+lifesupporttargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06"
+
+weaponstargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06"
+
+shieldgeneratortargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06" "HP07" "HP08"
+
+sensorstargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06"
+
+hulltargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06"
+
+criticaltargethardpoints = "HP01" "HP02" "HP03" "HP04" "HP05" "HP06"
+
+
+
+
+
+
+
+
+
+
+
+facility = 1
+
+
+
+has_hitpoints = 1
+
+
+
+transporter = 1
+
+combat = 1
+
+alert = 1
+
+recrewRate = 10
+
+
+
+
+
+lifeSupportHitPoints = 1000
+
+weaponsHitPoints = 1000.0
+
+enginesHitPercent = 0
+
+lifeSupportHitPercent = 10.5
+
+weaponsHitPercent = 10
+
+shieldGeneratorHitPercent = 13
+
+sensorsHitPercent = 13
+
+crewHitPercent = 13.5
+
+hullHitPercent = 40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+weapon7 = "xhwpdis"
+
+
+
+weapon8 = "xhwpdis"
+
+
+
+weapon9 = "xhwpdis"
+
+
+
+weapon10 = "xhwpdis"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+latinumTransferRate = 15.0
+
+is_starbase = 1
+
+maxCrewGain = 0
+
+officerGain = 0
+
+
+crewCost = 0
+maximumCrew = 0
+officerCost = 16
+has_crew = 0
+
+// Six additional vanilla Federation starbase pulse banks.
+weapon11 = "fbpulse"
+
+weapon12 = "fbpulse"
+
+weapon13 = "fbpulse"
+
+weapon14 = "fbpulse"
+
+weapon15 = "fbpulse"
+
+weapon16 = "fbpulse"
+
+
+decommissionFacility = 0
+
+buildHardpoint = "hp01"
+
+
+
+
+
+
+classLabel = "starbase"
+
+repairFacility = 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+buildTime = 56.25
+
+
+weapon1 = "tyfgbeam"
+weapon2 = "tyfgbeam"
+weapon3 = "tyfgbeam"
+weapon4 = "tyfgtorp"
+weapon5 = "tyfgtorp"
+weapon6 = "tyfgrapid"
+race = "ferengi"
+unitName = "Liquidator Heavy Weapons Platform"
+tooltip = "Liquidator Heavy Weapons Platform"
+verboseTooltip = "Liquidator Heavy Weapons Platform\nHeavy defensive fire support\nFortified batteries protect the frontier."
+dilithiumCost = 0
+metalCost = 0
+latinumCost = 450
+biomatterCost = 0
+
+
+
+
+baseName = "ty26_tyfghwp"
+
+weaponHardpoints1 = "hwpbank1"
+weaponHardpoints5 = "hwpbank5"
+weaponHardpoints9 = "hwpbank9"
+weaponHardpoints13 = "hwpbank13"
+weaponHardpoints2 = "hwpbank2"
+weaponHardpoints6 = "hwpbank6"
+weaponHardpoints10 = "hwpbank10"
+weaponHardpoints14 = "hwpbank14"
+weaponHardpoints3 = "hwpbank3"
+weaponHardpoints7 = "hwpbank7"
+weaponHardpoints11 = "hwpbank11"
+weaponHardpoints15 = "hwpbank15"
+weaponHardpoints4 = "hwpbank4"
+weaponHardpoints8 = "hwpbank8"
+weaponHardpoints12 = "hwpbank12"
+weaponHardpoints16 = "hwpbank16"
+ScaleSOD = 0.8490567258
+footprintBuffer = 0
+northBuffer = 0
+southBuffer = 0
+eastBuffer = 0
+westBuffer = 0

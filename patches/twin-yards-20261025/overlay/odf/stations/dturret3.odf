@@ -341,13 +341,13 @@ tooltip = "Heavy Weapons Platform (Nova Cannon)"
 
 
 
-eastBuffer = 0
 
-westBuffer = 0
 
-northBuffer = 0
 
-southBuffer = 0
+
+
+
+
 
 
 
@@ -407,7 +407,7 @@ verboseTooltip = "Nova Cannon\nHeavy defensive fire support\nThe Founders impose
 
 
 
-footprintBuffer = 16.875
+
 
 buildTime = 56.25
 
@@ -415,7 +415,7 @@ buildTime = 56.25
 
 
 baseName = "ty26_dturret3"
-ScaleSOD = 3.87943227225
+
 weaponHardpoints1 = "hwpbank1"
 weaponHardpoints5 = "hwpbank5"
 weaponHardpoints9 = "hwpbank9"
@@ -432,3 +432,15 @@ weaponHardpoints4 = "hwpbank4"
 weaponHardpoints8 = "hwpbank8"
 weaponHardpoints12 = "hwpbank12"
 weaponHardpoints16 = "hwpbank16"
+
+
+
+
+
+
+ScaleSOD = 2.58628831863
+footprintBuffer = 0
+northBuffer = 0
+southBuffer = 0
+eastBuffer = 0
+westBuffer = 0
