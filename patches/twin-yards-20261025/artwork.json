@@ -6,23 +6,14 @@
     "donor": "fyard",
     "name": "Antares Fleet Yard",
     "model": "ty26_fyard",
-    "size": 400,
+    "size": 399.99998474121094,
     "scale": 1.5,
-    "centralModel": "fbase",
-    "bays": 2,
+    "centralModel": "xvstock_fyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "fintx",
-        "span": 64.1037722826004
-      },
-      "bayDesignWidth": 111.25323877923903,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 14,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "fyard2",
@@ -31,23 +22,14 @@
     "donor": "fyard2",
     "name": "Copernicus Fleet Yard",
     "model": "ty26_fyard2",
-    "size": 691.8761675395904,
+    "size": 691.8761596679688,
     "scale": 2.0,
-    "centralModel": "fbase",
-    "bays": 2,
+    "centralModel": "xvstock_fyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "fexcalibur",
-        "span": 141.13305187225342
-      },
-      "bayDesignWidth": 176.41631484031677,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 14,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "fyard3",
@@ -56,23 +38,14 @@
     "donor": "fyard3",
     "name": "McKinley Command Yard",
     "model": "ty26_fyard3",
-    "size": 460.2619780711769,
+    "size": 460.261962890625,
     "scale": 2.0,
-    "centralModel": "fbase",
-    "bays": 2,
+    "centralModel": "xvstock_fyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "xofbattle",
-        "span": 94.57024633108507
-      },
-      "bayDesignWidth": 118.21280791385634,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 14,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "xflegacyyard",
@@ -81,24 +54,14 @@
     "donor": "xflegacyyard",
     "name": "Archer Legacy Yard",
     "model": "ty26_xflegacyyard",
-    "size": 447.75289930306377,
+    "size": 447.7528991699219,
     "scale": 2.0,
-    "centralModel": "fbase",
-    "bays": 2,
+    "centralModel": "xvstock_fyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "xhftvarek",
-        "span": 92.0
-      },
-      "bayDesignWidth": 114.99999999999999,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 9,
-      "estimatedLegacyModels": []
-    },
     "nativePodHardpointsPreserved": false,
-    "podFittings": {}
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "s31yard",
@@ -107,23 +70,14 @@
     "donor": "s31yard",
     "name": "Sloan Special Projects Yard",
     "model": "ty26_s31yard",
-    "size": 413.9567880227782,
+    "size": 413.956787109375,
     "scale": 1.0,
-    "centralModel": "fbase",
-    "bays": 2,
+    "centralModel": "xvstock_fyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "fdiablo",
-        "span": 85.05589703020154
-      },
-      "bayDesignWidth": 106.31987128775192,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 13,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "mryfeda",
@@ -132,23 +86,14 @@
     "donor": "mryfeda",
     "name": "Mars Utopia Planetia Yard I",
     "model": "ty26_mryfeda",
-    "size": 554.7068034985593,
+    "size": 554.706787109375,
     "scale": 2.0,
-    "centralModel": "fbase",
-    "bays": 2,
+    "centralModel": "xvstock_fyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "mrc015",
-        "span": 113.97586928259172
-      },
-      "bayDesignWidth": 142.46983660323966,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 12,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "mryfedb",
@@ -157,23 +102,14 @@
     "donor": "mryfedb",
     "name": "Mars Utopia Planetia Yard II",
     "model": "ty26_mryfedb",
-    "size": 554.7068034985593,
+    "size": 554.706787109375,
     "scale": 2.0,
-    "centralModel": "fbase",
-    "bays": 2,
+    "centralModel": "xvstock_fyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "mrc039",
-        "span": 113.97586928259172
-      },
-      "bayDesignWidth": 142.46983660323966,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 10,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "xyr_f",
@@ -182,13 +118,14 @@
     "donor": "fyard",
     "name": "Starbase 74 Service Dock",
     "model": "ty26_xyr_f",
-    "size": 400,
+    "size": 399.99998474121094,
     "scale": 1.5,
-    "centralModel": "fbase",
-    "bays": 2,
+    "centralModel": "xvstock_fyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "byard",
@@ -197,23 +134,14 @@
     "donor": "byard",
     "name": "Assembly Matrix",
     "model": "ty26_byard",
-    "size": 402.4314160812871,
+    "size": 402.4314270019531,
     "scale": 1.0,
-    "centralModel": "xvstock_bbase",
+    "centralModel": "xvstock_byard",
     "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "bsphere",
-        "span": 165.67172202550842
-      },
-      "bayDesignWidth": 207.08965253188552,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 14,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "byard2",
@@ -222,23 +150,14 @@
     "donor": "byard2",
     "name": "Tactical Assembly Matrix",
     "model": "ty26_byard2",
-    "size": 659.7921065478231,
+    "size": 659.7921142578125,
     "scale": 1.0,
-    "centralModel": "xvstock_bbase",
+    "centralModel": "xvstock_byard",
     "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "bbattle4",
-        "span": 282.2502826652552
-      },
-      "bayDesignWidth": 352.81285333156904,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 9,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "byard3",
@@ -247,23 +166,14 @@
     "donor": "byard3",
     "name": "Omega Assimilation Yard",
     "model": "ty26_byard3",
-    "size": 455.4803096536794,
+    "size": 455.4803161621094,
     "scale": 1.0,
-    "centralModel": "xvstock_bbase",
+    "centralModel": "xvstock_byard",
     "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "bmama",
-        "span": 188.4746108911777
-      },
-      "bayDesignWidth": 235.5932636139721,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 11,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "xyr_b",
@@ -272,13 +182,14 @@
     "donor": "byard",
     "name": "Collective Regeneration Dock",
     "model": "ty26_xyr_b",
-    "size": 400,
+    "size": 400.0,
     "scale": 1.0,
-    "centralModel": "xvstock_bbase",
+    "centralModel": "xvstock_byard",
     "bays": 1,
     "queueCount": 1,
-    "fit": {},
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "kyard",
@@ -287,23 +198,14 @@
     "donor": "kyard",
     "name": "B'rel Patrol Forge",
     "model": "ty26_kyard",
-    "size": 400,
+    "size": 399.99999237060547,
     "scale": 1.7,
-    "centralModel": "kbase",
-    "bays": 2,
+    "centralModel": "xvstock_kyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "kdestroy2",
-        "span": 69.87707533870758
-      },
-      "bayDesignWidth": 92.3076923076923,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 13,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "kyard2",
@@ -312,23 +214,14 @@
     "donor": "kyard2",
     "name": "Vor'cha Assault Forge",
     "model": "ty26_kyard2",
-    "size": 592.7355901941094,
+    "size": 592.7355804443359,
     "scale": 1.9,
-    "centralModel": "kbase",
-    "bays": 2,
+    "centralModel": "xvstock_kyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "kvood",
-        "span": 115.3503495739401
-      },
-      "bayDesignWidth": 144.18793696742512,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 12,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "kyard3",
@@ -337,23 +230,14 @@
     "donor": "kyard3",
     "name": "Kahless Command Forge",
     "model": "ty26_kyard3",
-    "size": 582.6376033832373,
+    "size": 582.63759765625,
     "scale": 1.9,
-    "centralModel": "kbase",
-    "bays": 2,
+    "centralModel": "xvstock_kyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "mrc020",
-        "span": 119.16057090126881
-      },
-      "bayDesignWidth": 148.95071362658604,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 13,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "xyr_k",
@@ -362,13 +246,14 @@
     "donor": "kyard",
     "name": "Qo'noS Refit Dock",
     "model": "ty26_xyr_k",
-    "size": 400,
+    "size": 399.99999237060547,
     "scale": 1.7,
-    "centralModel": "kbase",
-    "bays": 2,
+    "centralModel": "xvstock_kyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "ryard",
@@ -377,30 +262,14 @@
     "donor": "ryard",
     "name": "Valdore Patrol Yard",
     "model": "ty26_ryard",
-    "size": 1083.3333333333335,
+    "size": 1083.3333129882812,
     "scale": 1.4,
-    "centralModel": "rbase",
-    "bays": 2,
+    "centralModel": "xvstock_ryard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "rcolony",
-        "span": 200.0
-      },
-      "bayDesignWidth": 250.00000000000003,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 8,
-      "estimatedLegacyModels": [
-        {
-          "ship": "rcolony",
-          "model": "rcolony",
-          "estimatedSpan": 200.0,
-          "reason": "UnicodeDecodeError"
-        }
-      ]
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "ryard2",
@@ -409,23 +278,14 @@
     "donor": "ryard2",
     "name": "D'deridex Fleet Yard",
     "model": "ty26_ryard2",
-    "size": 605.577348869358,
+    "size": 605.5773559570313,
     "scale": 1.95,
-    "centralModel": "rbase",
-    "bays": 2,
+    "centralModel": "xvstock_ryard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "rtsbcru",
-        "span": 117.05664378671398
-      },
-      "bayDesignWidth": 146.32080473339246,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 12,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "ryard3",
@@ -434,23 +294,14 @@
     "donor": "ryard3",
     "name": "Tal Shiar Command Yard",
     "model": "ty26_ryard3",
-    "size": 1172.4235368858888,
+    "size": 1172.4235748291014,
     "scale": 1.95,
-    "centralModel": "rbase",
-    "bays": 2,
+    "centralModel": "xvstock_ryard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "mrc052",
-        "span": 236.74031841277412
-      },
-      "bayDesignWidth": 295.9253980159676,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 12,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "xyr_r",
@@ -459,13 +310,14 @@
     "donor": "ryard",
     "name": "Ch'Rihan Restoration Dock",
     "model": "ty26_xyr_r",
-    "size": 400,
+    "size": 400.0000122070312,
     "scale": 1.4,
-    "centralModel": "rbase",
-    "bays": 2,
+    "centralModel": "xvstock_ryard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "cyard",
@@ -474,23 +326,14 @@
     "donor": "cyard",
     "name": "Hideki Patrol Foundry",
     "model": "ty26_cyard",
-    "size": 437.69888201397094,
+    "size": 437.6988830566406,
     "scale": 1.0,
-    "centralModel": "cbase",
-    "bays": 2,
+    "centralModel": "xvstock_cyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "xdofrigate",
-        "span": 82.24092989316853
-      },
-      "bayDesignWidth": 102.80116236646066,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 13,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "cyard2",
@@ -499,23 +342,14 @@
     "donor": "cyard2",
     "name": "Galor Fleet Foundry",
     "model": "ty26_cyard2",
-    "size": 673.4052039143497,
+    "size": 673.4052124023438,
     "scale": 2.0,
-    "centralModel": "cbase",
-    "bays": 2,
+    "centralModel": "xvstock_cyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "xcgarak",
-        "span": 130.30247077941894
-      },
-      "bayDesignWidth": 162.8780884742737,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 14,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "cyard3",
@@ -524,23 +358,14 @@
     "donor": "cyard3",
     "name": "Obsidian Command Foundry",
     "model": "ty26_cyard3",
-    "size": 804.7535800963379,
+    "size": 804.7536010742188,
     "scale": 2.0,
-    "centralModel": "cbase",
-    "bays": 2,
+    "centralModel": "xvstock_cyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "mrc045",
-        "span": 162.87808847427368
-      },
-      "bayDesignWidth": 203.5976105928421,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 11,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "xyr_c",
@@ -549,13 +374,14 @@
     "donor": "cyard",
     "name": "Lakarian Service Dock",
     "model": "ty26_xyr_c",
-    "size": 400,
+    "size": 400.0,
     "scale": 1.0,
-    "centralModel": "cbase",
-    "bays": 2,
+    "centralModel": "xvstock_cyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "dyard",
@@ -564,23 +390,14 @@
     "donor": "dyard",
     "name": "Jem'Hadar Attack Yard",
     "model": "ty26_dyard",
-    "size": 1181.4926857948305,
+    "size": 1181.4927124023436,
     "scale": 2.15,
-    "centralModel": "dbase",
-    "bays": 2,
+    "centralModel": "dyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "xdcarrier",
-        "span": 218.12172660827636
-      },
-      "bayDesignWidth": 272.6521582603455,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 14,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "dyard2",
@@ -589,23 +406,14 @@
     "donor": "dyard2",
     "name": "Founder Heavy Yard",
     "model": "ty26_dyard2",
-    "size": 815.9264188387115,
+    "size": 815.9264434814453,
     "scale": 2.15,
-    "centralModel": "dbase",
-    "bays": 2,
+    "centralModel": "dyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "dwormdsuper",
-        "span": 155.90918655395507
-      },
-      "bayDesignWidth": 194.88648319244388,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 4,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "dyard3",
@@ -614,23 +422,14 @@
     "donor": "dyard3",
     "name": "Great Link Command Yard",
     "model": "ty26_dyard3",
-    "size": 1303.4267083906277,
+    "size": 1303.426739501953,
     "scale": 2.15,
-    "centralModel": "dbase",
-    "bays": 2,
+    "centralModel": "dyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "mrc034",
-        "span": 256.54368591308594
-      },
-      "bayDesignWidth": 320.67960739135737,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 13,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "xyr_d",
@@ -639,13 +438,14 @@
     "donor": "dyard",
     "name": "Great Link Restoration Dock",
     "model": "ty26_xyr_d",
-    "size": 400,
+    "size": 399.99999389648434,
     "scale": 2.15,
-    "centralModel": "dbase",
-    "bays": 2,
+    "centralModel": "dyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "bjyard",
@@ -654,23 +454,14 @@
     "donor": "bjyard",
     "name": "Dahkur Militia Yard",
     "model": "ty26_bjyard",
-    "size": 400,
+    "size": 400.00000840026854,
     "scale": 1.03291,
-    "centralModel": "cbase",
-    "bays": 2,
+    "centralModel": "xvstock_cyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "bjassault",
-        "span": 68.77558187994767
-      },
-      "bayDesignWidth": 93.9469270686228,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 7,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "bjyard2",
@@ -679,23 +470,14 @@
     "donor": "bjyard2",
     "name": "Shakaar Command Yard",
     "model": "ty26_bjyard2",
-    "size": 848.3308515690907,
+    "size": 848.3308412750245,
     "scale": 1.380014,
-    "centralModel": "cbase",
-    "bays": 2,
+    "centralModel": "xvstock_cyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "mrc002",
-        "span": 189.14049373626708
-      },
-      "bayDesignWidth": 236.42561717033382,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 9,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "xyr_bj",
@@ -704,13 +486,14 @@
     "donor": "bjyard",
     "name": "Kendra Service Dock",
     "model": "ty26_xyr_bj",
-    "size": 400,
+    "size": 400.00000840026854,
     "scale": 1.03291,
-    "centralModel": "cbase",
-    "bays": 2,
+    "centralModel": "xvstock_cyard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "bryard",
@@ -719,23 +502,14 @@
     "donor": "bryard",
     "name": "Thot Gor Fleet Yard",
     "model": "ty26_bryard",
-    "size": 866.7876075268634,
+    "size": 866.7876434326172,
     "scale": 6.2,
-    "centralModel": "brbase",
-    "bays": 2,
+    "centralModel": "bryard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "brfrigate",
-        "span": 160.02232754342091
-      },
-      "bayDesignWidth": 200.02790942927618,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 10,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "xyr_br",
@@ -744,13 +518,14 @@
     "donor": "bryard",
     "name": "Confederacy Restoration Dock",
     "model": "ty26_xyr_br",
-    "size": 400,
+    "size": 399.9999969482422,
     "scale": 6.2,
-    "centralModel": "brbase",
-    "bays": 2,
+    "centralModel": "bryard",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "xfgmerc",
@@ -759,23 +534,14 @@
     "donor": "xfgmerc",
     "name": "D'Kora Contract Yard",
     "model": "ty26_xfgmerc",
-    "size": 400,
+    "size": 400.0000049683484,
     "scale": 0.98994094,
-    "centralModel": "my26_xfgserv",
-    "bays": 2,
+    "centralModel": "xfgmerc",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "mrc026",
-        "span": 71.32252907752991
-      },
-      "bayDesignWidth": 109.11482398563086,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 13,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "xfgserv",
@@ -784,23 +550,14 @@
     "donor": "xfgserv",
     "name": "Nog Industrial Exchange",
     "model": "ty26_xfgserv",
-    "size": 400,
+    "size": 400.00001052529296,
     "scale": 1.7178736,
-    "centralModel": "my26_xfgserv",
-    "bays": 2,
+    "centralModel": "xfgmerc",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "xfgrepair",
-        "span": 47.24809455871582
-      },
-      "bayDesignWidth": 115.05666873497388,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 12,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "xyr_fg",
@@ -809,13 +566,14 @@
     "donor": "xfgmerc",
     "name": "Nog's Service Exchange",
     "model": "ty26_xyr_fg",
-    "size": 400,
+    "size": 400.0000049683484,
     "scale": 0.98994094,
-    "centralModel": "my26_xfgserv",
-    "bays": 2,
+    "centralModel": "xfgmerc",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "xbgmerc",
@@ -824,23 +582,14 @@
     "donor": "xbgmerc",
     "name": "D'Kora Contract Yard",
     "model": "ty26_xbgmerc",
-    "size": 400,
+    "size": 400.0000049683484,
     "scale": 0.98994094,
-    "centralModel": "my26_xfgserv",
-    "bays": 2,
+    "centralModel": "xfgmerc",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "mrc022",
-        "span": 71.32252907752991
-      },
-      "bayDesignWidth": 109.11482398563086,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 13,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "xbgserv",
@@ -849,23 +598,14 @@
     "donor": "xbgserv",
     "name": "Nog Industrial Exchange",
     "model": "ty26_xbgserv",
-    "size": 400,
+    "size": 400.00001052529296,
     "scale": 1.7178736,
-    "centralModel": "my26_xfgserv",
-    "bays": 2,
+    "centralModel": "xfgmerc",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {
-      "largestShip": {
-        "ship": "xbgrepair",
-        "span": 47.24809455871582
-      },
-      "bayDesignWidth": 115.05666873497388,
-      "clearanceFactor": 1.25,
-      "method": "Conservative model bounding-span estimate",
-      "shipsMeasured": 10,
-      "estimatedLegacyModels": []
-    },
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "xyr_bg",
@@ -874,13 +614,14 @@
     "donor": "xbgmerc",
     "name": "Nog's Service Exchange",
     "model": "ty26_xyr_bg",
-    "size": 400,
+    "size": 400.0000049683484,
     "scale": 0.98994094,
-    "centralModel": "my26_xfgserv",
-    "bays": 2,
+    "centralModel": "xfgmerc",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
-    "nativePodHardpointsPreserved": false
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "fresear",
@@ -892,9 +633,8 @@
     "size": 127.17982482910156,
     "scale": 1.0,
     "centralModel": "xvstock_fresear",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "hp01": [
@@ -927,7 +667,8 @@
         -9.039780616760254,
         26.861270904541016
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "fresear2",
@@ -939,9 +680,8 @@
     "size": 88.88761138916016,
     "scale": 1.0,
     "centralModel": "xvstock_fresear2",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "pod02": [
@@ -969,7 +709,8 @@
         -37.0888557434082,
         8.363125801086426
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "fupgrade",
@@ -978,12 +719,11 @@
     "donor": "fupgrade",
     "name": "Cochrane Systems Institute",
     "model": "ty26_fupgrade",
-    "size": 57.64393424987793,
+    "size": 57.64393615722656,
     "scale": 1.0,
     "centralModel": "xvstock_fupgrade",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "hp34": [
@@ -1036,7 +776,8 @@
         -7.20549201965332,
         -8.794167518615723
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "bresear",
@@ -1045,12 +786,11 @@
     "donor": "bresear",
     "name": "Collective Modification Node",
     "model": "ty26_bresear",
-    "size": 144.89329528808594,
+    "size": 151.76768493652344,
     "scale": 1.0,
     "centralModel": "xvstock_bresear",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "pod06": [
@@ -1083,7 +823,8 @@
         -32.65516662597656,
         70.45234680175781
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "bresear2",
@@ -1095,9 +836,8 @@
     "size": 273.18267822265625,
     "scale": 1.0,
     "centralModel": "xvstock_bresear2",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "pod04": [
@@ -1125,7 +865,8 @@
         -122.1679458618164,
         46.411407470703125
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "bupgrade",
@@ -1134,12 +875,11 @@
     "donor": "bupgrade",
     "name": "Unimatrix Optimisation Centre",
     "model": "ty26_bupgrade",
-    "size": 156.86680603027344,
+    "size": 212.0853500366211,
     "scale": 1.0,
     "centralModel": "xvstock_bupgrade",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "hp64": [
@@ -1192,7 +932,8 @@
         -9.945237159729004,
         68.4944076538086
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "kresear",
@@ -1201,12 +942,11 @@
     "donor": "kresear",
     "name": "Qu'Vat Weapons Forge",
     "model": "ty26_kresear",
-    "size": 96.42940902709961,
+    "size": 96.42941284179688,
     "scale": 1.0,
     "centralModel": "xvstock_kresear",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "hp06": [
@@ -1239,7 +979,8 @@
         -16.90802574157715,
         42.34580612182617
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "kresear2",
@@ -1248,12 +989,11 @@
     "donor": "kresear2",
     "name": "Gre'thor Armory",
     "model": "ty26_kresear2",
-    "size": 91.3709831237793,
+    "size": 91.37098693847656,
     "scale": 1.0,
     "centralModel": "xvstock_kresear2",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "pod01": [
@@ -1281,7 +1021,8 @@
         -14.971671104431152,
         8.59603214263916
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "kupgrade",
@@ -1290,12 +1031,11 @@
     "donor": "kupgrade",
     "name": "Imperial Systems Institute",
     "model": "ty26_kupgrade",
-    "size": 65.50044822692871,
+    "size": 65.50045013427734,
     "scale": 1.0,
     "centralModel": "xvstock_kupgrade",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "hp33": [
@@ -1348,7 +1088,8 @@
         -11.036693572998047,
         29.204925537109375
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "rresear",
@@ -1357,12 +1098,11 @@
     "donor": "rresear",
     "name": "Covert-Ops Facility",
     "model": "ty26_rresear",
-    "size": 87.4926872253418,
+    "size": 87.49269104003906,
     "scale": 1.0,
     "centralModel": "xvstock_rresear",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "pod06": [
@@ -1395,7 +1135,8 @@
         -15.994346618652344,
         40.28754806518555
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "rresear2",
@@ -1404,12 +1145,11 @@
     "donor": "rresear2",
     "name": "Tal Shiar Facility",
     "model": "ty26_rresear2",
-    "size": 93.70267868041992,
+    "size": 93.70268249511719,
     "scale": 1.0,
     "centralModel": "xvstock_rresear2",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "pod03": [
@@ -1432,7 +1172,8 @@
         -17.237201690673828,
         -0.2869071960449219
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "rupgrade",
@@ -1441,12 +1182,11 @@
     "donor": "rupgrade",
     "name": "Star Empire Research Institute",
     "model": "ty26_rupgrade",
-    "size": 160.80805778503418,
+    "size": 166.05316543579102,
     "scale": 0.75,
     "centralModel": "xvstock_rupgrade",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "pod35": [
@@ -1499,7 +1239,8 @@
         -55.95839309692383,
         -4.804069519042969
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "xselaresearch",
@@ -1508,12 +1249,11 @@
     "donor": "xselaresearch",
     "name": "Sela's Research",
     "model": "ty26_xselaresearch",
-    "size": 93.70267867933836,
+    "size": 97.87877605979352,
     "scale": 0.1475658195,
     "centralModel": "xvstock_rresear2",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "hp61": [
@@ -1536,7 +1276,8 @@
         -111.42413994856179,
         -0.05757294874638319
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "cresear",
@@ -1548,9 +1289,8 @@
     "size": 68.62500762939453,
     "scale": 1.0,
     "centralModel": "xvstock_cresear",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "hp56": [
@@ -1583,7 +1323,8 @@
         -22.331762313842773,
         30.449413299560547
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "cresear2",
@@ -1592,12 +1333,11 @@
     "donor": "cresear2",
     "name": "Advanced Research Station",
     "model": "ty26_cresear2",
-    "size": 63.38602638244629,
+    "size": 63.386024475097656,
     "scale": 1.0,
     "centralModel": "xvstock_cresear2",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "hp54": [
@@ -1625,7 +1365,8 @@
         -1.3772757053375244,
         9.15291976928711
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "cupgrade",
@@ -1634,12 +1375,11 @@
     "donor": "cupgrade",
     "name": "Research Institute",
     "model": "ty26_cupgrade",
-    "size": 179.7245101928711,
+    "size": 179.72451782226562,
     "scale": 1.0,
     "centralModel": "xvstock_cupgrade",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "hp05": [
@@ -1667,7 +1407,8 @@
         -40.321292877197266,
         79.8204574584961
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "dresear",
@@ -1676,12 +1417,11 @@
     "donor": "dresear",
     "name": "Founder's Engineering Enclave",
     "model": "ty26_dresear",
-    "size": 131.68169498443604,
+    "size": 131.68169021606445,
     "scale": 5.0,
     "centralModel": "dresear",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "pod05": [
@@ -1709,7 +1449,8 @@
         -2.106649875640869,
         -10.32740306854248
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "dresear2",
@@ -1721,9 +1462,8 @@
     "size": 85.5281925201416,
     "scale": 5.0,
     "centralModel": "dresear2",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "pod02": [
@@ -1751,7 +1491,8 @@
         -1.1871459484100342,
         1.4624391794204712
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "dupgrade",
@@ -1760,12 +1501,11 @@
     "donor": "dupgrade",
     "name": "Jem'Hadar Systems Centre",
     "model": "ty26_dupgrade",
-    "size": 116.41555786132812,
+    "size": 116.41555175781251,
     "scale": 3.2,
     "centralModel": "dupgrade",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "hp06": [
@@ -1798,7 +1538,8 @@
         -11.747236251831055,
         15.40744400024414
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "bjresear",
@@ -1810,9 +1551,8 @@
     "size": 131.72741776981354,
     "scale": 1.919525,
     "centralModel": "xvstock_cresear",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "hp56": [
@@ -1845,7 +1585,8 @@
         -15.454472541809082,
         30.25925636291504
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "bjresear2",
@@ -1857,9 +1598,8 @@
     "size": 88.8876219634018,
     "scale": 1.402322,
     "centralModel": "xvstock_cresear2",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "hp54": [
@@ -1887,7 +1627,8 @@
         1.118812084197998,
         8.511528015136719
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "bjupgrade",
@@ -1899,9 +1640,8 @@
     "size": 57.64393832969665,
     "scale": 0.320735,
     "centralModel": "xvstock_cupgrade",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "hp05": [
@@ -1929,7 +1669,8 @@
         -33.243892669677734,
         79.33045196533203
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "brresear",
@@ -1938,12 +1679,11 @@
     "donor": "brresear",
     "name": "Confederacy Science Laboratory",
     "model": "ty26_brresear",
-    "size": 131.172207736969,
+    "size": 131.17221221923828,
     "scale": 4.7,
     "centralModel": "brresear",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "pod01": [
@@ -1951,7 +1691,8 @@
         -2.1243131160736084,
         12.34427261352539
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "xfgresearch",
@@ -1962,10 +1703,9 @@
     "model": "ty26_xfgresearch",
     "size": 144.4825905939209,
     "scale": 1.7178736,
-    "centralModel": "dr26_xfgresearch",
-    "bays": 0,
+    "centralModel": "dresear",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "hp26": [
@@ -1998,7 +1738,8 @@
         -19.371625900268555,
         17.76365852355957
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "xbgresearch",
@@ -2009,10 +1750,9 @@
     "model": "ty26_xbgresearch",
     "size": 144.4825905939209,
     "scale": 1.7178736,
-    "centralModel": "dr26_xbgresearch",
-    "bays": 0,
+    "centralModel": "dresear",
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "hp26": [
@@ -2035,7 +1775,8 @@
         -19.371625900268555,
         -6.5262622271687696e-15
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "xfomegalab",
@@ -2047,9 +1788,8 @@
     "size": 88.88761138916016,
     "scale": 1.0,
     "centralModel": "xvstock_fresear",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "pod01": [
@@ -2057,7 +1797,8 @@
         -41.21659469604492,
         34.68785095214844
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "xbomegalab",
@@ -2066,12 +1807,11 @@
     "donor": "xbomegalab",
     "name": "Omega Perfection Laboratory",
     "model": "ty26_xbomegalab",
-    "size": 273.18267822265625,
+    "size": 277.0391387939453,
     "scale": 1.0,
     "centralModel": "xvstock_bresear",
-    "bays": 0,
+    "bays": 1,
     "queueCount": 1,
-    "fit": {},
     "nativePodHardpointsPreserved": true,
     "podFittings": {
       "pod01": [
@@ -2079,7 +1819,8 @@
         -136.07687377929688,
         132.08274841308594
       ]
-    }
+    },
+    "architecture": "approved vanilla-derived 20261026"
   },
   {
     "unit": "tyfghwp",

@@ -22,6 +22,9 @@ for patch in ['production-interiors-20261025','dominion-carrier-launch-20261025'
   paths.append('patches/'+patch+'/'+filename)
  paths.extend(p.relative_to(repo).as_posix()for p in(repo/'patches'/patch/'overlay').rglob('*')if p.is_file())
 paths+=['patches/production-interiors-20261025/audit.json','patches/production-interiors-20261025/installed-verification.json','patches/production-interiors-20261025/spacedock-doors-fixed.png','patches/tvarek-hero-20261025/tvarek-render.png','reports/production-carrier-tvarek-summary.md']
+paths+=['scripts/preview-vanilla-station-direction.py','scripts/stage-vanilla-station-redesign.py']
+for folder in ['vanilla-stations-20261026','vanilla-station-direction-20261026']:
+ paths.extend(p.relative_to(repo).as_posix()for p in(repo/'patches'/folder).rglob('*')if p.is_file())
 existing=subprocess.check_output(['git','-C',str(repo),'diff','--cached','--name-only'],text=True).splitlines();assert not existing,existing
 for i in range(0,len(paths),35):subprocess.run(['git','-C',str(repo),'add','-f','--']+paths[i:i+35],check=True,capture_output=True)
 staged=subprocess.check_output(['git','-C',str(repo),'diff','--cached','--name-only'],text=True).splitlines();assert not any(x.startswith('lab/')for x in staged)

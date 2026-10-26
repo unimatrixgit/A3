@@ -1,5 +1,5 @@
 {
-  "current": "Applied interior production points and all four Federation Spacedock door-pair animation tracks. Dominion carrier has native player-owned fighter production. U.S.S. T'Varek Federation hero added at Archer Legacy Yard; yard enlarged to fit. Technology, icons, AI and results portraits updated. Static validation and installed file hashes passed; fresh-match gameplay testing pending.",
+  "current": "Approved vanilla-derived faction yards and research artwork, with Cardassian-derived Bajoran refits. Stats and technology unchanged. Applied and file hashes verified; gameplay testing pending.",
   "steps": [
     {
       "label": "Current configuration and artwork: Apply approved fixes",
@@ -510,11 +510,11 @@
       "done": false
     },
     {
-      "label": "Push to unimatrixgit/armada2 ÃƒÂ¢Ã‚Â€Ã‚Â” blocked by automatic approval review",
+      "label": "Push to unimatrixgit/armada2 \u00c3\u0192\u00c2\u00a2\u00c3\u201a\u00c2\u20ac\u00c3\u201a\u00c2\u201d blocked by automatic approval review",
       "done": false
     },
     {
-      "label": "Launch Armada II ÃƒÂ¢Ã‚Â€Ã‚Â” manual launch confirmed",
+      "label": "Launch Armada II \u00c3\u0192\u00c2\u00a2\u00c3\u201a\u00c2\u20ac\u00c3\u201a\u00c2\u201d manual launch confirmed",
       "done": true
     },
     {
@@ -804,7 +804,7 @@
     {
       "id": "yard_names",
       "title": "Faction shipyard names",
-      "note": "Laforgeâ€™s Shipyard, Advanced Assimilated Matrix and Advanced Hatchery requested.",
+      "note": "Laforge\u00e2\u20ac\u2122s Shipyard, Advanced Assimilated Matrix and Advanced Hatchery requested.",
       "steps": [
         {
           "label": "Choose faction names",
@@ -1868,6 +1868,13 @@
       "files": 16,
       "runtimeVerified": false,
       "description": "Applied final dependency-ordered AI plans, enlarged Archer Legacy Yard for T'Varek, and results-screen portraits for the new hero and carrier fighters."
+    },
+    "vanilla-stations-20261026": {
+      "status": "APPLIED",
+      "backup": "D:\\Xaramada-Modwork\\backups\\vanilla-stations-20261026-20261026-185430",
+      "files": 198,
+      "runtimeVerified": false,
+      "description": "Approved vanilla-derived faction yards and research artwork, with Cardassian-derived Bajoran refits. Stats and technology unchanged."
     }
   }
 }

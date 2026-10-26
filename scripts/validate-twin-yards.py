@@ -74,7 +74,10 @@ exec(Path('D:/aramada/scripts/build-bajor-redesign-v4.py').read_text().split('fo
 stage=repo/'patches/twin-yards-20261025';O=stage/'overlay';d=json.loads((stage/'design.json').read_text());sprite=(O/'Sprites/gui_global.spr').read_text(encoding='latin1');keys={m[1].lower():m[2].split()for m in re.finditer(r'(?mi)^(\S+)[ \t]+([^\r\n]+)',sprite)if not m[1].startswith(('@','#','//'))}
 for row in art:
  n=row['unit'];p=P[n]
- if d.get('compactYardRedesign')and row['kind']=='yard':
+ if row.get('architecture')=='approved vanilla-derived 20261026':
+  check(row['bays']==1,'native assembly opening '+n)
+  check(row['centralModel']in {x.stem.lower()for x in(root/'SOD').glob('*.sod')},'native architecture source exists '+n)
+ if d.get('compactYardRedesign')and row['kind']=='yard'and row.get('architecture')!='approved vanilla-derived 20261026':
   fit=row.get('fit',{});check(bool(fit),'yard ship-size fit recorded '+n)
   if fit:check(fit['bayDesignWidth']+1e-6>=fit['largestShip']['span']*1.25,'conservative bay clearance '+n)
   check(row['bays']==(1 if row['theme']=='b'else 2),'single Borg bay / twin conventional bays '+n)
@@ -91,7 +94,7 @@ for row in art:
    tr=np.asarray(node['local_transform']);local=np.eye(4);local[:3,:3]=tr[:3].T;local[:3,3]=tr[3];parentIndex=podLast.get(node['parent'].lower());world=(podWorld[parentIndex]if parentIndex is not None else np.eye(4))@local;podWorld.append(world);podLast[node['id'].lower()]=len(podWorld)-1
    if node['id'].lower()in row['podFittings']:actualPods[node['id'].lower()]=world[:3,3]
   for hp,pos in row['podFittings'].items():check(hp in actualPods and np.allclose(actualPods[hp],pos,atol=.0001),'pod attachment position preserved '+n+' '+hp)
- if row['theme']=='b':check(row['centralModel'].startswith('xvstock_b')if row['kind']=='research'else row['centralModel']=='xvstock_bbase','original Armada II Borg architecture reference '+n)
+ if row['theme']=='b':check(row['centralModel'].startswith('xvstock_b')if row['kind']=='research'or row.get('architecture')=='approved vanilla-derived 20261026'else row['centralModel']=='xvstock_bbase','original Armada II Borg architecture reference '+n)
  for node in model.nodes:
   if node['type']!='MESH':continue
   dat=node['data'];v=dat['vertices'];uv=dat['texture_coordinates'];check(np.isfinite(v).all()and np.isfinite(uv).all(),'finite geometry '+n);check(len(v)<=450,'native conservative mesh chunks '+n);check(dat['texture'].lower()in texidx,'native diffuse texture '+n+' '+dat['texture'])
