@@ -1,0 +1,1702 @@
+[
+  {
+    "unit": "fhwp",
+    "name": "Cyclone Defense Station",
+    "weapons": [
+      {
+        "slot": 1,
+        "odf": "xp1b",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp01",
+        "shotDelay": "1.3f"
+      },
+      {
+        "slot": 2,
+        "odf": "xp1b",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp02",
+        "shotDelay": "1.3f"
+      },
+      {
+        "slot": 3,
+        "odf": "xp1b",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp03",
+        "shotDelay": "1.3f"
+      },
+      {
+        "slot": 4,
+        "odf": "xp1t",
+        "label": "Photon Torpedo",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp04",
+        "shotDelay": "1.4f"
+      },
+      {
+        "slot": 5,
+        "odf": "xp1t",
+        "label": "Photon Torpedo",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp05",
+        "shotDelay": "1.4f"
+      },
+      {
+        "slot": 6,
+        "odf": "xp1r",
+        "label": "Continuous Torpedo Launcher",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp06",
+        "shotDelay": "0.375"
+      },
+      {
+        "slot": 7,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp01",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 8,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp02",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 9,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp03",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 10,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp04",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 11,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp01",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 12,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp02",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 13,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp03",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 14,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp04",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 15,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp05",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 16,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp06",
+        "shotDelay": "2.0"
+      }
+    ],
+    "scale": "1.89009101092",
+    "health": "750",
+    "crew": "0",
+    "maxCrew": "0"
+  },
+  {
+    "unit": "bhwp",
+    "name": "Oblivion Defense Nexus",
+    "weapons": [
+      {
+        "slot": 1,
+        "odf": "xp6b",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp01",
+        "shotDelay": "0.5625f"
+      },
+      {
+        "slot": 2,
+        "odf": "xp6b",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp02",
+        "shotDelay": "0.5625f"
+      },
+      {
+        "slot": 3,
+        "odf": "xp6b",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp03",
+        "shotDelay": "0.5625f"
+      },
+      {
+        "slot": 4,
+        "odf": "xp6t",
+        "label": "Photon Torpedo",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp04",
+        "shotDelay": "3.0f"
+      },
+      {
+        "slot": 5,
+        "odf": "xp6t",
+        "label": "Photon Torpedo",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp05",
+        "shotDelay": "3.0f"
+      },
+      {
+        "slot": 6,
+        "odf": "xbhwpr",
+        "label": "Rapid-fire Borg Torpedo",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp06",
+        "shotDelay": "0.375"
+      },
+      {
+        "slot": 7,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp01",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 8,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp02",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 9,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp03",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 10,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp04",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 11,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp01",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 12,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp02",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 13,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp03",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 14,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp04",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 15,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp05",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 16,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp06",
+        "shotDelay": "2.0"
+      }
+    ],
+    "scale": "0.510045128835",
+    "health": "5250",
+    "crew": "0",
+    "maxCrew": "0"
+  },
+  {
+    "unit": "khwp",
+    "name": "Klingon HWP",
+    "weapons": [
+      {
+        "slot": 1,
+        "odf": "xp2b",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp01",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 2,
+        "odf": "xp2b",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp02",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 3,
+        "odf": "xp2b",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp03",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 4,
+        "odf": "xp2t",
+        "label": "Photon Torpedo",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp04",
+        "shotDelay": "2.0f"
+      },
+      {
+        "slot": 5,
+        "odf": "xp2t",
+        "label": "Photon Torpedo",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp05",
+        "shotDelay": "2.0f"
+      },
+      {
+        "slot": 6,
+        "odf": "xp2r",
+        "label": "Continuous Torpedo Launcher",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp06",
+        "shotDelay": "0.375"
+      },
+      {
+        "slot": 7,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp01",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 8,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp02",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 9,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp03",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 10,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp04",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 11,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp01",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 12,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp02",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 13,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp03",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 14,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp04",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 15,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp05",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 16,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp06",
+        "shotDelay": "2.0"
+      }
+    ],
+    "scale": "1.062803268",
+    "health": "5250",
+    "crew": "0",
+    "maxCrew": "0"
+  },
+  {
+    "unit": "rhwp",
+    "name": "Heavy Weapons Platform",
+    "weapons": [
+      {
+        "slot": 1,
+        "odf": "xp3b",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp200",
+        "shotDelay": "1.6f"
+      },
+      {
+        "slot": 2,
+        "odf": "xp3b",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp201",
+        "shotDelay": "1.6f"
+      },
+      {
+        "slot": 3,
+        "odf": "xp3b",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp202",
+        "shotDelay": "1.6f"
+      },
+      {
+        "slot": 4,
+        "odf": "xp3t",
+        "label": "Photon Torpedo",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp203",
+        "shotDelay": "2.0f"
+      },
+      {
+        "slot": 5,
+        "odf": "xp3t",
+        "label": "Photon Torpedo",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp204",
+        "shotDelay": "2.0f"
+      },
+      {
+        "slot": 6,
+        "odf": "xp3r",
+        "label": "Continuous Torpedo Launcher",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp205",
+        "shotDelay": "0.375"
+      },
+      {
+        "slot": 7,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp200",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 8,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp201",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 9,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp202",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 10,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp203",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 11,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp200",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 12,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp201",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 13,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp202",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 14,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp203",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 15,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp204",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 16,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp205",
+        "shotDelay": "2.0"
+      }
+    ],
+    "scale": "0.83161901745",
+    "health": "7320",
+    "crew": "0",
+    "maxCrew": "0"
+  },
+  {
+    "unit": "chwp",
+    "name": "Vekor-class Defense Station",
+    "weapons": [
+      {
+        "slot": 1,
+        "odf": "xp4b",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp01",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 2,
+        "odf": "xp4b",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp02",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 3,
+        "odf": "xp4b",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp03",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 4,
+        "odf": "xp4t",
+        "label": "Photon Torpedo",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp04",
+        "shotDelay": "1.9f"
+      },
+      {
+        "slot": 5,
+        "odf": "xp4t",
+        "label": "Photon Torpedo",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp05",
+        "shotDelay": "1.9f"
+      },
+      {
+        "slot": 6,
+        "odf": "xp4r",
+        "label": "Continuous Torpedo Launcher",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp06",
+        "shotDelay": "0.375"
+      },
+      {
+        "slot": 7,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp01",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 8,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp02",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 9,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp03",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 10,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp04",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 11,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp01",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 12,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp02",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 13,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp03",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 14,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp04",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 15,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp05",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 16,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp06",
+        "shotDelay": "2.0"
+      }
+    ],
+    "scale": "0.8490567258",
+    "health": "5250",
+    "crew": "0",
+    "maxCrew": "0"
+  },
+  {
+    "unit": "dturret3",
+    "name": "Nova Cannon",
+    "weapons": [
+      {
+        "slot": 1,
+        "odf": "xp5b",
+        "label": "Nova Cannon",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp01",
+        "shotDelay": "1.0f"
+      },
+      {
+        "slot": 2,
+        "odf": "xp5b",
+        "label": "Nova Cannon",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp02",
+        "shotDelay": "1.0f"
+      },
+      {
+        "slot": 3,
+        "odf": "xp5b",
+        "label": "Nova Cannon",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp03",
+        "shotDelay": "1.0f"
+      },
+      {
+        "slot": 4,
+        "odf": "xp5t",
+        "label": "Photon Torpedo",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp04",
+        "shotDelay": "3.0f"
+      },
+      {
+        "slot": 5,
+        "odf": "xp5t",
+        "label": "Photon Torpedo",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp05",
+        "shotDelay": "3.0f"
+      },
+      {
+        "slot": 6,
+        "odf": "xp5r",
+        "label": "Continuous Torpedo Launcher",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp06",
+        "shotDelay": "0.375"
+      },
+      {
+        "slot": 7,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp01",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 8,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp02",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 9,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp03",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 10,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp04",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 11,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp01",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 12,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp02",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 13,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp03",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 14,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp04",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 15,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp05",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 16,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp06",
+        "shotDelay": "2.0"
+      }
+    ],
+    "scale": "3.87943227225",
+    "health": "2500",
+    "crew": "0",
+    "maxCrew": "0"
+  },
+  {
+    "unit": "bjhwp",
+    "name": "Bajoran Cyclone Defense Station",
+    "weapons": [
+      {
+        "slot": 1,
+        "odf": "xp1b",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp01",
+        "shotDelay": "1.3f"
+      },
+      {
+        "slot": 2,
+        "odf": "xp1b",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp02",
+        "shotDelay": "1.3f"
+      },
+      {
+        "slot": 3,
+        "odf": "xp1b",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp03",
+        "shotDelay": "1.3f"
+      },
+      {
+        "slot": 4,
+        "odf": "xp1t",
+        "label": "Photon Torpedo",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp04",
+        "shotDelay": "1.4f"
+      },
+      {
+        "slot": 5,
+        "odf": "xp1t",
+        "label": "Photon Torpedo",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp05",
+        "shotDelay": "1.4f"
+      },
+      {
+        "slot": 6,
+        "odf": "xp1r",
+        "label": "Continuous Torpedo Launcher",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp06",
+        "shotDelay": "0.375"
+      },
+      {
+        "slot": 7,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp01",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 8,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp02",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 9,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp03",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 10,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp04",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 11,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp01",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 12,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp02",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 13,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp03",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 14,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp04",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 15,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp05",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 16,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp06",
+        "shotDelay": "2.0"
+      }
+    ],
+    "scale": "0.471829389863",
+    "health": "750",
+    "crew": "0",
+    "maxCrew": "0"
+  },
+  {
+    "unit": "tybrhwp",
+    "name": "Thot Gor Heavy Weapons Platform",
+    "weapons": [
+      {
+        "slot": 1,
+        "odf": "tybrbeam",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp01",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 2,
+        "odf": "tybrbeam",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp02",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 3,
+        "odf": "tybrbeam",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp03",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 4,
+        "odf": "tybrtorp",
+        "label": "Photon Torpedo",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp04",
+        "shotDelay": "1.9f"
+      },
+      {
+        "slot": 5,
+        "odf": "tybrtorp",
+        "label": "Photon Torpedo",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp05",
+        "shotDelay": "1.9f"
+      },
+      {
+        "slot": 6,
+        "odf": "tybrrapid",
+        "label": "Continuous Torpedo Launcher",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp06",
+        "shotDelay": "0.375"
+      },
+      {
+        "slot": 7,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp01",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 8,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp02",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 9,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp03",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 10,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp04",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 11,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp01",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 12,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp02",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 13,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp03",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 14,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp04",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 15,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp05",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 16,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp06",
+        "shotDelay": "2.0"
+      }
+    ],
+    "scale": "0.8490567258",
+    "health": "5250",
+    "crew": "0",
+    "maxCrew": "0"
+  },
+  {
+    "unit": "tyfghwp",
+    "name": "Liquidator Heavy Weapons Platform",
+    "weapons": [
+      {
+        "slot": 1,
+        "odf": "tyfgbeam",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp01",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 2,
+        "odf": "tyfgbeam",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp02",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 3,
+        "odf": "tyfgbeam",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp03",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 4,
+        "odf": "tyfgtorp",
+        "label": "Photon Torpedo",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp04",
+        "shotDelay": "1.9f"
+      },
+      {
+        "slot": 5,
+        "odf": "tyfgtorp",
+        "label": "Photon Torpedo",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp05",
+        "shotDelay": "1.9f"
+      },
+      {
+        "slot": 6,
+        "odf": "tyfgrapid",
+        "label": "Continuous Torpedo Launcher",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp06",
+        "shotDelay": "0.375"
+      },
+      {
+        "slot": 7,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp01",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 8,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp02",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 9,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp03",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 10,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp04",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 11,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp01",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 12,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp02",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 13,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp03",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 14,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp04",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 15,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp05",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 16,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp06",
+        "shotDelay": "2.0"
+      }
+    ],
+    "scale": "0.8490567258",
+    "health": "5250",
+    "crew": "0",
+    "maxCrew": "0"
+  },
+  {
+    "unit": "tybghwp",
+    "name": "Liquidator Heavy Weapons Platform",
+    "weapons": [
+      {
+        "slot": 1,
+        "odf": "tybgbeam",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp01",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 2,
+        "odf": "tybgbeam",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp02",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 3,
+        "odf": "tybgbeam",
+        "label": "Phaser",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp03",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 4,
+        "odf": "tybgtorp",
+        "label": "Photon Torpedo",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp04",
+        "shotDelay": "1.9f"
+      },
+      {
+        "slot": 5,
+        "odf": "tybgtorp",
+        "label": "Photon Torpedo",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp05",
+        "shotDelay": "1.9f"
+      },
+      {
+        "slot": 6,
+        "odf": "tybgrapid",
+        "label": "Continuous Torpedo Launcher",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "photontorpedo",
+        "hardpoints": "hp06",
+        "shotDelay": "0.375"
+      },
+      {
+        "slot": 7,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp01",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 8,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp02",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 9,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp03",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 10,
+        "odf": "xhwpdis",
+        "label": "ZPM Disruptor",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "phaser",
+        "hardpoints": "hp04",
+        "shotDelay": "1.8f"
+      },
+      {
+        "slot": 11,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp01",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 12,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp02",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 13,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp03",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 14,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp04",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 15,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp05",
+        "shotDelay": "2.0"
+      },
+      {
+        "slot": 16,
+        "odf": "fbpulse",
+        "label": "Pulse",
+        "class": "cannon",
+        "special": null,
+        "ordnanceClass": "pphaser",
+        "hardpoints": "hp06",
+        "shotDelay": "2.0"
+      }
+    ],
+    "scale": "0.8490567258",
+    "health": "5250",
+    "crew": "0",
+    "maxCrew": "0"
+  }
+]

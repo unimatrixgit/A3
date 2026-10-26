@@ -1829,12 +1829,193 @@
     "donor": "chwp",
     "name": "Liquidator Heavy Weapons Platform",
     "model": "ty26_tyfghwp",
-    "size": 134.99999996883378,
+    "size": 134.99999349104505,
     "scale": 0.8490567258,
-    "centralModel": "my26_xfgserv",
+    "centralModel": "xfgmerc",
     "bays": 0,
-    "queueCount": 1,
-    "nativePodHardpointsPreserved": false
+    "queueCount": 0,
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "four-module HWP fortress 20261026",
+    "weaponMounts": [
+      {
+        "slot": 1,
+        "weapon": "tyfgbeam",
+        "type": "Phaser",
+        "position": [
+          1.2,
+          0.18,
+          -0.11249999999999999
+        ],
+        "module": 1
+      },
+      {
+        "slot": 5,
+        "weapon": "tyfgtorp",
+        "type": "Photon Torpedo",
+        "position": [
+          1.15,
+          0.05,
+          -0.0375
+        ],
+        "module": 1
+      },
+      {
+        "slot": 9,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          1.2,
+          0.18,
+          0.0375
+        ],
+        "module": 1
+      },
+      {
+        "slot": 13,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          1.09,
+          0.05,
+          0.11249999999999999
+        ],
+        "module": 1
+      },
+      {
+        "slot": 2,
+        "weapon": "tyfgbeam",
+        "type": "Phaser",
+        "position": [
+          0.11250000000000006,
+          0.18,
+          1.2
+        ],
+        "module": 2
+      },
+      {
+        "slot": 6,
+        "weapon": "tyfgrapid",
+        "type": "Continuous Torpedo Launcher",
+        "position": [
+          0.03750000000000007,
+          0.05,
+          1.15
+        ],
+        "module": 2
+      },
+      {
+        "slot": 10,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -0.03749999999999992,
+          0.18,
+          1.2
+        ],
+        "module": 2
+      },
+      {
+        "slot": 14,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -0.11249999999999992,
+          0.05,
+          1.09
+        ],
+        "module": 2
+      },
+      {
+        "slot": 3,
+        "weapon": "tyfgbeam",
+        "type": "Phaser",
+        "position": [
+          -1.2,
+          0.18,
+          0.11250000000000014
+        ],
+        "module": 3
+      },
+      {
+        "slot": 7,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -1.2,
+          0.05,
+          0.037500000000000144
+        ],
+        "module": 3
+      },
+      {
+        "slot": 11,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -1.09,
+          0.18,
+          -0.03749999999999987
+        ],
+        "module": 3
+      },
+      {
+        "slot": 15,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -1.09,
+          0.05,
+          -0.11249999999999985
+        ],
+        "module": 3
+      },
+      {
+        "slot": 4,
+        "weapon": "tyfgtorp",
+        "type": "Photon Torpedo",
+        "position": [
+          -0.1125000000000002,
+          0.18,
+          -1.15
+        ],
+        "module": 4
+      },
+      {
+        "slot": 8,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -0.03750000000000022,
+          0.05,
+          -1.2
+        ],
+        "module": 4
+      },
+      {
+        "slot": 12,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          0.0374999999999998,
+          0.18,
+          -1.09
+        ],
+        "module": 4
+      },
+      {
+        "slot": 16,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          0.1124999999999998,
+          0.05,
+          -1.09
+        ],
+        "module": 4
+      }
+    ],
+    "modules": 4
   },
   {
     "unit": "tybghwp",
@@ -1843,12 +2024,193 @@
     "donor": "chwp",
     "name": "Liquidator Heavy Weapons Platform",
     "model": "ty26_tybghwp",
-    "size": 134.99999996883378,
+    "size": 134.99999349104505,
     "scale": 0.8490567258,
-    "centralModel": "my26_xfgserv",
+    "centralModel": "xfgmerc",
     "bays": 0,
-    "queueCount": 1,
-    "nativePodHardpointsPreserved": false
+    "queueCount": 0,
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "four-module HWP fortress 20261026",
+    "weaponMounts": [
+      {
+        "slot": 1,
+        "weapon": "tybgbeam",
+        "type": "Phaser",
+        "position": [
+          1.2,
+          0.18,
+          -0.11249999999999999
+        ],
+        "module": 1
+      },
+      {
+        "slot": 5,
+        "weapon": "tybgtorp",
+        "type": "Photon Torpedo",
+        "position": [
+          1.15,
+          0.05,
+          -0.0375
+        ],
+        "module": 1
+      },
+      {
+        "slot": 9,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          1.2,
+          0.18,
+          0.0375
+        ],
+        "module": 1
+      },
+      {
+        "slot": 13,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          1.09,
+          0.05,
+          0.11249999999999999
+        ],
+        "module": 1
+      },
+      {
+        "slot": 2,
+        "weapon": "tybgbeam",
+        "type": "Phaser",
+        "position": [
+          0.11250000000000006,
+          0.18,
+          1.2
+        ],
+        "module": 2
+      },
+      {
+        "slot": 6,
+        "weapon": "tybgrapid",
+        "type": "Continuous Torpedo Launcher",
+        "position": [
+          0.03750000000000007,
+          0.05,
+          1.15
+        ],
+        "module": 2
+      },
+      {
+        "slot": 10,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -0.03749999999999992,
+          0.18,
+          1.2
+        ],
+        "module": 2
+      },
+      {
+        "slot": 14,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -0.11249999999999992,
+          0.05,
+          1.09
+        ],
+        "module": 2
+      },
+      {
+        "slot": 3,
+        "weapon": "tybgbeam",
+        "type": "Phaser",
+        "position": [
+          -1.2,
+          0.18,
+          0.11250000000000014
+        ],
+        "module": 3
+      },
+      {
+        "slot": 7,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -1.2,
+          0.05,
+          0.037500000000000144
+        ],
+        "module": 3
+      },
+      {
+        "slot": 11,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -1.09,
+          0.18,
+          -0.03749999999999987
+        ],
+        "module": 3
+      },
+      {
+        "slot": 15,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -1.09,
+          0.05,
+          -0.11249999999999985
+        ],
+        "module": 3
+      },
+      {
+        "slot": 4,
+        "weapon": "tybgtorp",
+        "type": "Photon Torpedo",
+        "position": [
+          -0.1125000000000002,
+          0.18,
+          -1.15
+        ],
+        "module": 4
+      },
+      {
+        "slot": 8,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -0.03750000000000022,
+          0.05,
+          -1.2
+        ],
+        "module": 4
+      },
+      {
+        "slot": 12,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          0.0374999999999998,
+          0.18,
+          -1.09
+        ],
+        "module": 4
+      },
+      {
+        "slot": 16,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          0.1124999999999998,
+          0.05,
+          -1.09
+        ],
+        "module": 4
+      }
+    ],
+    "modules": 4
   },
   {
     "unit": "tybrhwp",
@@ -1857,12 +2219,193 @@
     "donor": "chwp",
     "name": "Thot Gor Heavy Weapons Platform",
     "model": "ty26_tybrhwp",
-    "size": 134.99999996883378,
+    "size": 134.99999349104505,
     "scale": 0.8490567258,
-    "centralModel": "brbase",
+    "centralModel": "brresear",
     "bays": 0,
-    "queueCount": 1,
-    "nativePodHardpointsPreserved": false
+    "queueCount": 0,
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "four-module HWP fortress 20261026",
+    "weaponMounts": [
+      {
+        "slot": 1,
+        "weapon": "tybrbeam",
+        "type": "Phaser",
+        "position": [
+          1.2,
+          0.18,
+          -0.11249999999999999
+        ],
+        "module": 1
+      },
+      {
+        "slot": 5,
+        "weapon": "tybrtorp",
+        "type": "Photon Torpedo",
+        "position": [
+          1.15,
+          0.05,
+          -0.0375
+        ],
+        "module": 1
+      },
+      {
+        "slot": 9,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          1.2,
+          0.18,
+          0.0375
+        ],
+        "module": 1
+      },
+      {
+        "slot": 13,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          1.09,
+          0.05,
+          0.11249999999999999
+        ],
+        "module": 1
+      },
+      {
+        "slot": 2,
+        "weapon": "tybrbeam",
+        "type": "Phaser",
+        "position": [
+          0.11250000000000006,
+          0.18,
+          1.2
+        ],
+        "module": 2
+      },
+      {
+        "slot": 6,
+        "weapon": "tybrrapid",
+        "type": "Continuous Torpedo Launcher",
+        "position": [
+          0.03750000000000007,
+          0.05,
+          1.15
+        ],
+        "module": 2
+      },
+      {
+        "slot": 10,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -0.03749999999999992,
+          0.18,
+          1.2
+        ],
+        "module": 2
+      },
+      {
+        "slot": 14,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -0.11249999999999992,
+          0.05,
+          1.09
+        ],
+        "module": 2
+      },
+      {
+        "slot": 3,
+        "weapon": "tybrbeam",
+        "type": "Phaser",
+        "position": [
+          -1.2,
+          0.18,
+          0.11250000000000014
+        ],
+        "module": 3
+      },
+      {
+        "slot": 7,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -1.2,
+          0.05,
+          0.037500000000000144
+        ],
+        "module": 3
+      },
+      {
+        "slot": 11,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -1.09,
+          0.18,
+          -0.03749999999999987
+        ],
+        "module": 3
+      },
+      {
+        "slot": 15,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -1.09,
+          0.05,
+          -0.11249999999999985
+        ],
+        "module": 3
+      },
+      {
+        "slot": 4,
+        "weapon": "tybrtorp",
+        "type": "Photon Torpedo",
+        "position": [
+          -0.1125000000000002,
+          0.18,
+          -1.15
+        ],
+        "module": 4
+      },
+      {
+        "slot": 8,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -0.03750000000000022,
+          0.05,
+          -1.2
+        ],
+        "module": 4
+      },
+      {
+        "slot": 12,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          0.0374999999999998,
+          0.18,
+          -1.09
+        ],
+        "module": 4
+      },
+      {
+        "slot": 16,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          0.1124999999999998,
+          0.05,
+          -1.09
+        ],
+        "module": 4
+      }
+    ],
+    "modules": 4
   },
   {
     "unit": "fhwp",
@@ -1871,12 +2414,193 @@
     "donor": "fhwp",
     "name": "Cyclone Defense Station",
     "model": "ty26_fhwp",
-    "size": 181.59335795525814,
+    "size": 181.59335773579343,
     "scale": 1.89009101092,
-    "centralModel": "fbase",
+    "centralModel": "xvstock_fresear",
     "bays": 0,
-    "queueCount": 1,
-    "nativePodHardpointsPreserved": false
+    "queueCount": 0,
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "four-module HWP fortress 20261026",
+    "weaponMounts": [
+      {
+        "slot": 1,
+        "weapon": "xp1b",
+        "type": "Phaser",
+        "position": [
+          1.2,
+          0.18,
+          -0.11249999999999999
+        ],
+        "module": 1
+      },
+      {
+        "slot": 5,
+        "weapon": "xp1t",
+        "type": "Photon Torpedo",
+        "position": [
+          1.15,
+          0.05,
+          -0.0375
+        ],
+        "module": 1
+      },
+      {
+        "slot": 9,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          1.2,
+          0.18,
+          0.0375
+        ],
+        "module": 1
+      },
+      {
+        "slot": 13,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          1.09,
+          0.05,
+          0.11249999999999999
+        ],
+        "module": 1
+      },
+      {
+        "slot": 2,
+        "weapon": "xp1b",
+        "type": "Phaser",
+        "position": [
+          0.11250000000000006,
+          0.18,
+          1.2
+        ],
+        "module": 2
+      },
+      {
+        "slot": 6,
+        "weapon": "xp1r",
+        "type": "Continuous Torpedo Launcher",
+        "position": [
+          0.03750000000000007,
+          0.05,
+          1.15
+        ],
+        "module": 2
+      },
+      {
+        "slot": 10,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -0.03749999999999992,
+          0.18,
+          1.2
+        ],
+        "module": 2
+      },
+      {
+        "slot": 14,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -0.11249999999999992,
+          0.05,
+          1.09
+        ],
+        "module": 2
+      },
+      {
+        "slot": 3,
+        "weapon": "xp1b",
+        "type": "Phaser",
+        "position": [
+          -1.2,
+          0.18,
+          0.11250000000000014
+        ],
+        "module": 3
+      },
+      {
+        "slot": 7,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -1.2,
+          0.05,
+          0.037500000000000144
+        ],
+        "module": 3
+      },
+      {
+        "slot": 11,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -1.09,
+          0.18,
+          -0.03749999999999987
+        ],
+        "module": 3
+      },
+      {
+        "slot": 15,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -1.09,
+          0.05,
+          -0.11249999999999985
+        ],
+        "module": 3
+      },
+      {
+        "slot": 4,
+        "weapon": "xp1t",
+        "type": "Photon Torpedo",
+        "position": [
+          -0.1125000000000002,
+          0.18,
+          -1.15
+        ],
+        "module": 4
+      },
+      {
+        "slot": 8,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -0.03750000000000022,
+          0.05,
+          -1.2
+        ],
+        "module": 4
+      },
+      {
+        "slot": 12,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          0.0374999999999998,
+          0.18,
+          -1.09
+        ],
+        "module": 4
+      },
+      {
+        "slot": 16,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          0.1124999999999998,
+          0.05,
+          -1.09
+        ],
+        "module": 4
+      }
+    ],
+    "modules": 4
   },
   {
     "unit": "bhwp",
@@ -1885,12 +2609,193 @@
     "donor": "bhwp",
     "name": "Oblivion Defense Nexus",
     "model": "ty26_bhwp",
-    "size": 218.9009423318215,
-    "scale": 0.5100451288345,
-    "centralModel": "xvstock_bbase",
+    "size": 218.90094674293425,
+    "scale": 0.510045128835,
+    "centralModel": "xvstock_bresear",
     "bays": 0,
-    "queueCount": 1,
-    "nativePodHardpointsPreserved": false
+    "queueCount": 0,
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "four-module HWP fortress 20261026",
+    "weaponMounts": [
+      {
+        "slot": 1,
+        "weapon": "xp6b",
+        "type": "Phaser",
+        "position": [
+          1.2,
+          0.18,
+          -0.11249999999999999
+        ],
+        "module": 1
+      },
+      {
+        "slot": 5,
+        "weapon": "xp6t",
+        "type": "Photon Torpedo",
+        "position": [
+          1.15,
+          0.05,
+          -0.0375
+        ],
+        "module": 1
+      },
+      {
+        "slot": 9,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          1.2,
+          0.18,
+          0.0375
+        ],
+        "module": 1
+      },
+      {
+        "slot": 13,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          1.09,
+          0.05,
+          0.11249999999999999
+        ],
+        "module": 1
+      },
+      {
+        "slot": 2,
+        "weapon": "xp6b",
+        "type": "Phaser",
+        "position": [
+          0.11250000000000006,
+          0.18,
+          1.2
+        ],
+        "module": 2
+      },
+      {
+        "slot": 6,
+        "weapon": "xbhwpr",
+        "type": "Rapid-fire Borg Torpedo",
+        "position": [
+          0.03750000000000007,
+          0.05,
+          1.15
+        ],
+        "module": 2
+      },
+      {
+        "slot": 10,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -0.03749999999999992,
+          0.18,
+          1.2
+        ],
+        "module": 2
+      },
+      {
+        "slot": 14,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -0.11249999999999992,
+          0.05,
+          1.09
+        ],
+        "module": 2
+      },
+      {
+        "slot": 3,
+        "weapon": "xp6b",
+        "type": "Phaser",
+        "position": [
+          -1.2,
+          0.18,
+          0.11250000000000014
+        ],
+        "module": 3
+      },
+      {
+        "slot": 7,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -1.2,
+          0.05,
+          0.037500000000000144
+        ],
+        "module": 3
+      },
+      {
+        "slot": 11,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -1.09,
+          0.18,
+          -0.03749999999999987
+        ],
+        "module": 3
+      },
+      {
+        "slot": 15,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -1.09,
+          0.05,
+          -0.11249999999999985
+        ],
+        "module": 3
+      },
+      {
+        "slot": 4,
+        "weapon": "xp6t",
+        "type": "Photon Torpedo",
+        "position": [
+          -0.1125000000000002,
+          0.18,
+          -1.15
+        ],
+        "module": 4
+      },
+      {
+        "slot": 8,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -0.03750000000000022,
+          0.05,
+          -1.2
+        ],
+        "module": 4
+      },
+      {
+        "slot": 12,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          0.0374999999999998,
+          0.18,
+          -1.09
+        ],
+        "module": 4
+      },
+      {
+        "slot": 16,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          0.1124999999999998,
+          0.05,
+          -1.09
+        ],
+        "module": 4
+      }
+    ],
+    "modules": 4
   },
   {
     "unit": "khwp",
@@ -1899,12 +2804,193 @@
     "donor": "khwp",
     "name": "Klingon HWP",
     "model": "ty26_khwp",
-    "size": 134.99999998971677,
+    "size": 135.0000001134135,
     "scale": 1.062803268,
-    "centralModel": "kbase",
+    "centralModel": "xvstock_kresear",
     "bays": 0,
-    "queueCount": 1,
-    "nativePodHardpointsPreserved": false
+    "queueCount": 0,
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "four-module HWP fortress 20261026",
+    "weaponMounts": [
+      {
+        "slot": 1,
+        "weapon": "xp2b",
+        "type": "Phaser",
+        "position": [
+          1.2,
+          0.18,
+          -0.11249999999999999
+        ],
+        "module": 1
+      },
+      {
+        "slot": 5,
+        "weapon": "xp2t",
+        "type": "Photon Torpedo",
+        "position": [
+          1.15,
+          0.05,
+          -0.0375
+        ],
+        "module": 1
+      },
+      {
+        "slot": 9,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          1.2,
+          0.18,
+          0.0375
+        ],
+        "module": 1
+      },
+      {
+        "slot": 13,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          1.09,
+          0.05,
+          0.11249999999999999
+        ],
+        "module": 1
+      },
+      {
+        "slot": 2,
+        "weapon": "xp2b",
+        "type": "Phaser",
+        "position": [
+          0.11250000000000006,
+          0.18,
+          1.2
+        ],
+        "module": 2
+      },
+      {
+        "slot": 6,
+        "weapon": "xp2r",
+        "type": "Continuous Torpedo Launcher",
+        "position": [
+          0.03750000000000007,
+          0.05,
+          1.15
+        ],
+        "module": 2
+      },
+      {
+        "slot": 10,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -0.03749999999999992,
+          0.18,
+          1.2
+        ],
+        "module": 2
+      },
+      {
+        "slot": 14,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -0.11249999999999992,
+          0.05,
+          1.09
+        ],
+        "module": 2
+      },
+      {
+        "slot": 3,
+        "weapon": "xp2b",
+        "type": "Phaser",
+        "position": [
+          -1.2,
+          0.18,
+          0.11250000000000014
+        ],
+        "module": 3
+      },
+      {
+        "slot": 7,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -1.2,
+          0.05,
+          0.037500000000000144
+        ],
+        "module": 3
+      },
+      {
+        "slot": 11,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -1.09,
+          0.18,
+          -0.03749999999999987
+        ],
+        "module": 3
+      },
+      {
+        "slot": 15,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -1.09,
+          0.05,
+          -0.11249999999999985
+        ],
+        "module": 3
+      },
+      {
+        "slot": 4,
+        "weapon": "xp2t",
+        "type": "Photon Torpedo",
+        "position": [
+          -0.1125000000000002,
+          0.18,
+          -1.15
+        ],
+        "module": 4
+      },
+      {
+        "slot": 8,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -0.03750000000000022,
+          0.05,
+          -1.2
+        ],
+        "module": 4
+      },
+      {
+        "slot": 12,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          0.0374999999999998,
+          0.18,
+          -1.09
+        ],
+        "module": 4
+      },
+      {
+        "slot": 16,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          0.1124999999999998,
+          0.05,
+          -1.09
+        ],
+        "module": 4
+      }
+    ],
+    "modules": 4
   },
   {
     "unit": "rhwp",
@@ -1913,12 +2999,193 @@
     "donor": "rhwp",
     "name": "Heavy Weapons Platform",
     "model": "ty26_rhwp",
-    "size": 134.99999999768846,
+    "size": 135.00000320568282,
     "scale": 0.83161901745,
-    "centralModel": "rbase",
+    "centralModel": "xvstock_rresear",
     "bays": 0,
-    "queueCount": 1,
-    "nativePodHardpointsPreserved": false
+    "queueCount": 0,
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "four-module HWP fortress 20261026",
+    "weaponMounts": [
+      {
+        "slot": 1,
+        "weapon": "xp3b",
+        "type": "Phaser",
+        "position": [
+          1.2,
+          0.18,
+          -0.11249999999999999
+        ],
+        "module": 1
+      },
+      {
+        "slot": 5,
+        "weapon": "xp3t",
+        "type": "Photon Torpedo",
+        "position": [
+          1.15,
+          0.05,
+          -0.0375
+        ],
+        "module": 1
+      },
+      {
+        "slot": 9,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          1.2,
+          0.18,
+          0.0375
+        ],
+        "module": 1
+      },
+      {
+        "slot": 13,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          1.09,
+          0.05,
+          0.11249999999999999
+        ],
+        "module": 1
+      },
+      {
+        "slot": 2,
+        "weapon": "xp3b",
+        "type": "Phaser",
+        "position": [
+          0.11250000000000006,
+          0.18,
+          1.2
+        ],
+        "module": 2
+      },
+      {
+        "slot": 6,
+        "weapon": "xp3r",
+        "type": "Continuous Torpedo Launcher",
+        "position": [
+          0.03750000000000007,
+          0.05,
+          1.15
+        ],
+        "module": 2
+      },
+      {
+        "slot": 10,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -0.03749999999999992,
+          0.18,
+          1.2
+        ],
+        "module": 2
+      },
+      {
+        "slot": 14,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -0.11249999999999992,
+          0.05,
+          1.09
+        ],
+        "module": 2
+      },
+      {
+        "slot": 3,
+        "weapon": "xp3b",
+        "type": "Phaser",
+        "position": [
+          -1.2,
+          0.18,
+          0.11250000000000014
+        ],
+        "module": 3
+      },
+      {
+        "slot": 7,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -1.2,
+          0.05,
+          0.037500000000000144
+        ],
+        "module": 3
+      },
+      {
+        "slot": 11,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -1.09,
+          0.18,
+          -0.03749999999999987
+        ],
+        "module": 3
+      },
+      {
+        "slot": 15,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -1.09,
+          0.05,
+          -0.11249999999999985
+        ],
+        "module": 3
+      },
+      {
+        "slot": 4,
+        "weapon": "xp3t",
+        "type": "Photon Torpedo",
+        "position": [
+          -0.1125000000000002,
+          0.18,
+          -1.15
+        ],
+        "module": 4
+      },
+      {
+        "slot": 8,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -0.03750000000000022,
+          0.05,
+          -1.2
+        ],
+        "module": 4
+      },
+      {
+        "slot": 12,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          0.0374999999999998,
+          0.18,
+          -1.09
+        ],
+        "module": 4
+      },
+      {
+        "slot": 16,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          0.1124999999999998,
+          0.05,
+          -1.09
+        ],
+        "module": 4
+      }
+    ],
+    "modules": 4
   },
   {
     "unit": "chwp",
@@ -1927,12 +3194,193 @@
     "donor": "chwp",
     "name": "Vekor-class Defense Station",
     "model": "ty26_chwp",
-    "size": 134.99999996883378,
+    "size": 134.99999349104505,
     "scale": 0.8490567258,
-    "centralModel": "cbase",
+    "centralModel": "xvstock_cresear",
     "bays": 0,
-    "queueCount": 1,
-    "nativePodHardpointsPreserved": false
+    "queueCount": 0,
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "four-module HWP fortress 20261026",
+    "weaponMounts": [
+      {
+        "slot": 1,
+        "weapon": "xp4b",
+        "type": "Phaser",
+        "position": [
+          1.2,
+          0.18,
+          -0.11249999999999999
+        ],
+        "module": 1
+      },
+      {
+        "slot": 5,
+        "weapon": "xp4t",
+        "type": "Photon Torpedo",
+        "position": [
+          1.15,
+          0.05,
+          -0.0375
+        ],
+        "module": 1
+      },
+      {
+        "slot": 9,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          1.2,
+          0.18,
+          0.0375
+        ],
+        "module": 1
+      },
+      {
+        "slot": 13,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          1.09,
+          0.05,
+          0.11249999999999999
+        ],
+        "module": 1
+      },
+      {
+        "slot": 2,
+        "weapon": "xp4b",
+        "type": "Phaser",
+        "position": [
+          0.11250000000000006,
+          0.18,
+          1.2
+        ],
+        "module": 2
+      },
+      {
+        "slot": 6,
+        "weapon": "xp4r",
+        "type": "Continuous Torpedo Launcher",
+        "position": [
+          0.03750000000000007,
+          0.05,
+          1.15
+        ],
+        "module": 2
+      },
+      {
+        "slot": 10,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -0.03749999999999992,
+          0.18,
+          1.2
+        ],
+        "module": 2
+      },
+      {
+        "slot": 14,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -0.11249999999999992,
+          0.05,
+          1.09
+        ],
+        "module": 2
+      },
+      {
+        "slot": 3,
+        "weapon": "xp4b",
+        "type": "Phaser",
+        "position": [
+          -1.2,
+          0.18,
+          0.11250000000000014
+        ],
+        "module": 3
+      },
+      {
+        "slot": 7,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -1.2,
+          0.05,
+          0.037500000000000144
+        ],
+        "module": 3
+      },
+      {
+        "slot": 11,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -1.09,
+          0.18,
+          -0.03749999999999987
+        ],
+        "module": 3
+      },
+      {
+        "slot": 15,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -1.09,
+          0.05,
+          -0.11249999999999985
+        ],
+        "module": 3
+      },
+      {
+        "slot": 4,
+        "weapon": "xp4t",
+        "type": "Photon Torpedo",
+        "position": [
+          -0.1125000000000002,
+          0.18,
+          -1.15
+        ],
+        "module": 4
+      },
+      {
+        "slot": 8,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -0.03750000000000022,
+          0.05,
+          -1.2
+        ],
+        "module": 4
+      },
+      {
+        "slot": 12,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          0.0374999999999998,
+          0.18,
+          -1.09
+        ],
+        "module": 4
+      },
+      {
+        "slot": 16,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          0.1124999999999998,
+          0.05,
+          -1.09
+        ],
+        "module": 4
+      }
+    ],
+    "modules": 4
   },
   {
     "unit": "dturret3",
@@ -1941,12 +3389,193 @@
     "donor": "dturret3",
     "name": "Nova Cannon",
     "model": "ty26_dturret3",
-    "size": 134.99999999556155,
+    "size": 134.99999284179958,
     "scale": 3.87943227225,
-    "centralModel": "dbase",
+    "centralModel": "dresear",
     "bays": 0,
-    "queueCount": 1,
-    "nativePodHardpointsPreserved": false
+    "queueCount": 0,
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "four-module HWP fortress 20261026",
+    "weaponMounts": [
+      {
+        "slot": 1,
+        "weapon": "xp5b",
+        "type": "Nova Cannon",
+        "position": [
+          1.2,
+          0.18,
+          -0.11249999999999999
+        ],
+        "module": 1
+      },
+      {
+        "slot": 5,
+        "weapon": "xp5t",
+        "type": "Photon Torpedo",
+        "position": [
+          1.15,
+          0.05,
+          -0.0375
+        ],
+        "module": 1
+      },
+      {
+        "slot": 9,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          1.2,
+          0.18,
+          0.0375
+        ],
+        "module": 1
+      },
+      {
+        "slot": 13,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          1.09,
+          0.05,
+          0.11249999999999999
+        ],
+        "module": 1
+      },
+      {
+        "slot": 2,
+        "weapon": "xp5b",
+        "type": "Nova Cannon",
+        "position": [
+          0.11250000000000006,
+          0.18,
+          1.2
+        ],
+        "module": 2
+      },
+      {
+        "slot": 6,
+        "weapon": "xp5r",
+        "type": "Continuous Torpedo Launcher",
+        "position": [
+          0.03750000000000007,
+          0.05,
+          1.15
+        ],
+        "module": 2
+      },
+      {
+        "slot": 10,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -0.03749999999999992,
+          0.18,
+          1.2
+        ],
+        "module": 2
+      },
+      {
+        "slot": 14,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -0.11249999999999992,
+          0.05,
+          1.09
+        ],
+        "module": 2
+      },
+      {
+        "slot": 3,
+        "weapon": "xp5b",
+        "type": "Nova Cannon",
+        "position": [
+          -1.2,
+          0.18,
+          0.11250000000000014
+        ],
+        "module": 3
+      },
+      {
+        "slot": 7,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -1.2,
+          0.05,
+          0.037500000000000144
+        ],
+        "module": 3
+      },
+      {
+        "slot": 11,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -1.09,
+          0.18,
+          -0.03749999999999987
+        ],
+        "module": 3
+      },
+      {
+        "slot": 15,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -1.09,
+          0.05,
+          -0.11249999999999985
+        ],
+        "module": 3
+      },
+      {
+        "slot": 4,
+        "weapon": "xp5t",
+        "type": "Photon Torpedo",
+        "position": [
+          -0.1125000000000002,
+          0.18,
+          -1.15
+        ],
+        "module": 4
+      },
+      {
+        "slot": 8,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -0.03750000000000022,
+          0.05,
+          -1.2
+        ],
+        "module": 4
+      },
+      {
+        "slot": 12,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          0.0374999999999998,
+          0.18,
+          -1.09
+        ],
+        "module": 4
+      },
+      {
+        "slot": 16,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          0.1124999999999998,
+          0.05,
+          -1.09
+        ],
+        "module": 4
+      }
+    ],
+    "modules": 4
   },
   {
     "unit": "bjhwp",
@@ -1955,11 +3584,192 @@
     "donor": "bjhwp",
     "name": "Bajoran Cyclone Defense Station",
     "model": "ty26_bjhwp",
-    "size": 135.00000271237545,
+    "size": 134.9999955128303,
     "scale": 0.471829389863,
-    "centralModel": "bjbase",
+    "centralModel": "xvstock_cresear",
     "bays": 0,
-    "queueCount": 1,
-    "nativePodHardpointsPreserved": false
+    "queueCount": 0,
+    "nativePodHardpointsPreserved": false,
+    "podFittings": {},
+    "architecture": "four-module HWP fortress 20261026",
+    "weaponMounts": [
+      {
+        "slot": 1,
+        "weapon": "xp1b",
+        "type": "Phaser",
+        "position": [
+          1.2,
+          0.18,
+          -0.11249999999999999
+        ],
+        "module": 1
+      },
+      {
+        "slot": 5,
+        "weapon": "xp1t",
+        "type": "Photon Torpedo",
+        "position": [
+          1.15,
+          0.05,
+          -0.0375
+        ],
+        "module": 1
+      },
+      {
+        "slot": 9,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          1.2,
+          0.18,
+          0.0375
+        ],
+        "module": 1
+      },
+      {
+        "slot": 13,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          1.09,
+          0.05,
+          0.11249999999999999
+        ],
+        "module": 1
+      },
+      {
+        "slot": 2,
+        "weapon": "xp1b",
+        "type": "Phaser",
+        "position": [
+          0.11250000000000006,
+          0.18,
+          1.2
+        ],
+        "module": 2
+      },
+      {
+        "slot": 6,
+        "weapon": "xp1r",
+        "type": "Continuous Torpedo Launcher",
+        "position": [
+          0.03750000000000007,
+          0.05,
+          1.15
+        ],
+        "module": 2
+      },
+      {
+        "slot": 10,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -0.03749999999999992,
+          0.18,
+          1.2
+        ],
+        "module": 2
+      },
+      {
+        "slot": 14,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -0.11249999999999992,
+          0.05,
+          1.09
+        ],
+        "module": 2
+      },
+      {
+        "slot": 3,
+        "weapon": "xp1b",
+        "type": "Phaser",
+        "position": [
+          -1.2,
+          0.18,
+          0.11250000000000014
+        ],
+        "module": 3
+      },
+      {
+        "slot": 7,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -1.2,
+          0.05,
+          0.037500000000000144
+        ],
+        "module": 3
+      },
+      {
+        "slot": 11,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -1.09,
+          0.18,
+          -0.03749999999999987
+        ],
+        "module": 3
+      },
+      {
+        "slot": 15,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          -1.09,
+          0.05,
+          -0.11249999999999985
+        ],
+        "module": 3
+      },
+      {
+        "slot": 4,
+        "weapon": "xp1t",
+        "type": "Photon Torpedo",
+        "position": [
+          -0.1125000000000002,
+          0.18,
+          -1.15
+        ],
+        "module": 4
+      },
+      {
+        "slot": 8,
+        "weapon": "xhwpdis",
+        "type": "ZPM Disruptor",
+        "position": [
+          -0.03750000000000022,
+          0.05,
+          -1.2
+        ],
+        "module": 4
+      },
+      {
+        "slot": 12,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          0.0374999999999998,
+          0.18,
+          -1.09
+        ],
+        "module": 4
+      },
+      {
+        "slot": 16,
+        "weapon": "fbpulse",
+        "type": "Pulse",
+        "position": [
+          0.1124999999999998,
+          0.05,
+          -1.09
+        ],
+        "module": 4
+      }
+    ],
+    "modules": 4
   }
 ]
