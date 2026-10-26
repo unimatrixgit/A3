@@ -24,6 +24,8 @@ for patch in ['production-interiors-20261025','dominion-carrier-launch-20261025'
 paths+=['patches/production-interiors-20261025/audit.json','patches/production-interiors-20261025/installed-verification.json','patches/production-interiors-20261025/spacedock-doors-fixed.png','patches/tvarek-hero-20261025/tvarek-render.png','reports/production-carrier-tvarek-summary.md']
 paths+=['scripts/preview-vanilla-station-direction.py','scripts/stage-vanilla-station-redesign.py']
 paths+=['scripts/stage-federation-service-dock.py']
+paths+=['scripts/'+n for n in ['federation-service-v4-geometry.py','stage-federation-service-v4.py','stage-fed-dual-purpose-dock.py','stage-fed-clear-production-bays.py','finish-fed-clear-bays.py']]
+paths.extend(p.relative_to(repo).as_posix()for p in(repo/'patches/fed-clear-bays-20261026').rglob('*')if p.is_file())
 for folder in ['vanilla-stations-20261026','vanilla-station-direction-20261026','federation-service-dock-20261026']:
  paths.extend(p.relative_to(repo).as_posix()for p in(repo/'patches'/folder).rglob('*')if p.is_file())
 existing=subprocess.check_output(['git','-C',str(repo),'diff','--cached','--name-only'],text=True).splitlines();assert not existing,existing

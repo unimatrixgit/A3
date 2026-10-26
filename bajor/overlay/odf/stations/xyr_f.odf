@@ -220,8 +220,8 @@ ALERT = 1
 weaponsHitPoints = 500
 unitName = "Starbase 74 Service Dock"
 tooltip = "Starbase 74 Service Dock"
-verboseTooltip = "Starbase 74 Service Dock\nRepair, recrew and decommission\nDamaged vessels return to service here."
-builder_ship = 0
+
+
 repairFacility = 1
 decommissionFacility = 1
 recrewRate = 20
@@ -287,3 +287,8 @@ ScaleSOD = 1.5
 buildHardpoint = "tylaunch"
 repairHardpoint = "tyrepair"
 footprintBuffer = 25
+builder_ship = 1
+buildItem0 = "fscout"
+buildItem1 = "fdestroy2"
+buildItem2 = "fdestroy"
+verboseTooltip = "Starbase 74 Service Dock\nRepair, recrew, decommission; light ship production\nStarfleet crews restore and launch light vessels."

@@ -1027,8 +1027,8 @@
     "fconstellation": "fyard",
     "fconstitution": "fyard",
     "fnova": "fyard",
-    "fdestroy2": "fyard",
-    "fdestroy": "fyard",
+    "fdestroy2": "xyr_f",
+    "fdestroy": "xyr_f",
     "fcruise3": "fyard",
     "fcruise2": "fyard",
     "fassault": "fyard",
@@ -1042,7 +1042,7 @@
     "fprometheus": "fyard2",
     "fexcalibur": "fyard2",
     "fdauntless": "fyard2",
-    "fscout": "fyard2",
+    "fscout": "xyr_f",
     "fdanube": "fyard2",
     "ffighter": "fyard2",
     "fdeltaflyer": "fyard2",
@@ -132574,7 +132574,17 @@
       "xdcfighter"
     ],
     "federation": [
-      "xhftvarek"
+      "xhftvarek",
+      "fscout",
+      "fdestroy2",
+      "fdestroy"
+    ]
+  },
+  "mixedServiceProduction": {
+    "xyr_f": [
+      "fscout",
+      "fdestroy2",
+      "fdestroy"
     ]
   }
 }

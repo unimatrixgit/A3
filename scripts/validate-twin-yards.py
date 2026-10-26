@@ -37,7 +37,9 @@ for n,a in d['assets'].items():
  if a['kind']in ['yard','service']:
   check(p.get('classlabel')=='shipyard','native standalone Shipyard '+n);check([p.get('weapon'+str(i))for i in [1,2,3]]and 'weapon4'not in p,'three defensive banks '+n)
   if a['kind']=='yard':check(p.get('repairfacility')=='0'and p.get('decommissionfacility')=='0'and float(p.get('recrewrate',0))==0,'production dock service-free '+n)
-  else:check(not items(p)and p.get('repairfacility')=='1'and p.get('decommissionfacility')=='1'and float(p.get('recrewrate',0))>0,'service dock repair/recrew/decommission only '+n)
+  else:
+   expected=d.get('mixedServiceProduction',{}).get(n,[])
+   check([v for i,v in items(p)]==expected and p.get('repairfacility')=='1'and p.get('decommissionfacility')=='1'and float(p.get('recrewrate',0))>0,'service dock repair/recrew/decommission and approved production '+n)
  if a['kind']=='research':
   allowed={'basename','scalesod','unitname','tooltip','verbosetooltip'};before=baseline[n]['properties'];diff={k for k in set(p)|set(before)if p.get(k)!=before.get(k)};check(diff<=allowed,'research function/cost/anchors preserved '+n+' '+str(diff));check(abs(float(p.get('scalesod','1').rstrip('fF;'))-float(before.get('scalesod','1').rstrip('fF;')))<1e-9,'research pod physical scale preserved '+n)
 for n in d['miningSizeChanges']:
