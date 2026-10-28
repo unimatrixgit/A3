@@ -1,0 +1,92 @@
+{
+  "target": "D:\\armadaIII",
+  "backup": "D:\\Xaramada-Modwork\\backups\\hwp-textures-size-footprint-20261028-072332",
+  "platforms": [
+    {
+      "platform": "fhwp",
+      "model": "ty26_fhwp",
+      "oldScale": 0.936753376356,
+      "newScale": 1.405130064534,
+      "footprintBuffer": 25,
+      "opaqueMeshesCorrected": 93,
+      "texturesVerified": [
+        "fresearch"
+      ],
+      "meshCount": 93
+    },
+    {
+      "platform": "khwp",
+      "model": "ty26_khwp",
+      "oldScale": 0.708535511405,
+      "newScale": 1.0628032671075,
+      "footprintBuffer": 25,
+      "opaqueMeshesCorrected": 0,
+      "texturesVerified": [
+        "KResearch"
+      ],
+      "meshCount": 86
+    },
+    {
+      "platform": "rhwp",
+      "model": "ty26_rhwp",
+      "oldScale": 0.554412665135,
+      "newScale": 0.8316189977024999,
+      "footprintBuffer": 25,
+      "opaqueMeshesCorrected": 0,
+      "texturesVerified": [
+        "RresearA"
+      ],
+      "meshCount": 97
+    },
+    {
+      "platform": "chwp",
+      "model": "ty26_chwp",
+      "oldScale": 0.566037844491,
+      "newScale": 0.8490567667365001,
+      "footprintBuffer": 25,
+      "opaqueMeshesCorrected": 0,
+      "texturesVerified": [
+        "cresear"
+      ],
+      "meshCount": 99
+    },
+    {
+      "platform": "dturret3",
+      "model": "ty26_dturret3",
+      "oldScale": 2.58628831863,
+      "newScale": 3.8794324779449996,
+      "footprintBuffer": 25,
+      "opaqueMeshesCorrected": 96,
+      "texturesVerified": [
+        "dom2"
+      ],
+      "meshCount": 96
+    },
+    {
+      "platform": "bjhwp",
+      "model": "ty26_bjhwp",
+      "oldScale": 0.314552937031,
+      "newScale": 0.4718294055465,
+      "footprintBuffer": 25,
+      "opaqueMeshesCorrected": 0,
+      "texturesVerified": [
+        "cresear"
+      ],
+      "meshCount": 99
+    },
+    {
+      "platform": "bhwp",
+      "model": "ty26_bhwp",
+      "oldScale": 0.20970243518,
+      "newScale": 0.31455365277,
+      "footprintBuffer": 25,
+      "opaqueMeshesCorrected": 0,
+      "texturesVerified": [
+        "bhuba"
+      ],
+      "meshCount": 88
+    }
+  ],
+  "runtimeVerified": false,
+  "note": "Native opaque texture mode; geometry and UV counts verified by SOD round-trip. Positive footprint clearance restored; directional zero overrides removed. Current size multiplied by 1.5."
+}
