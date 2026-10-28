@@ -1,0 +1,72 @@
+{
+  "backup": "D:\\Xaramada-Modwork\\backups\\romulan-ai-economy-20261028-100358",
+  "profiles": [
+    {
+      "profile": "romulan_build_list.aip",
+      "steps": 101,
+      "issues": [],
+      "changes": [
+        "Repair yard before repair ship",
+        "Third freighter immediately after first colony ship",
+        "Native trade station and one cargo ship before advanced research"
+      ]
+    },
+    {
+      "profile": "romulan_defensive_list.aip",
+      "steps": 102,
+      "issues": [],
+      "changes": [
+        "Repair yard before repair ship",
+        "Third freighter immediately after first colony ship",
+        "Native trade station and one cargo ship before advanced research"
+      ]
+    },
+    {
+      "profile": "romulan_endgame_list.aip",
+      "steps": 101,
+      "issues": [],
+      "changes": [
+        "Repair yard before repair ship",
+        "Third freighter immediately after first colony ship",
+        "Native trade station and one cargo ship before advanced research"
+      ]
+    },
+    {
+      "profile": "romulan_instant_action_build_list.aip",
+      "steps": 101,
+      "issues": [],
+      "changes": [
+        "Repair yard before repair ship",
+        "Third freighter immediately after first colony ship",
+        "Native trade station and one cargo ship before advanced research"
+      ]
+    },
+    {
+      "profile": "romulan_offensive_list.aip",
+      "steps": 101,
+      "issues": [],
+      "changes": [
+        "Repair yard before repair ship",
+        "Third freighter immediately after first colony ship",
+        "Native trade station and one cargo ship before advanced research"
+      ]
+    }
+  ],
+  "colony": {
+    "producer": "ryard",
+    "buildSlot": 8,
+    "techRequirements": [],
+    "starbaseFallbackNeeded": false
+  },
+  "economyChecks": {
+    "miningBeforeFreighters": true,
+    "freighterMiningWeapons": [
+      "gmineDilithium",
+      "gmineLatinum"
+    ],
+    "metalOrbitalBeforeYard": true,
+    "nativeTradeAdded": true,
+    "existingCostsUnchanged": true
+  },
+  "runtimeVerified": false
+}
