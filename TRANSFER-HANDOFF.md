@@ -1,3 +1,9 @@
+# Latest — Drozana commerce installed 28 October 2026
+
+Drozana package installed in armadaIII: two new stations, nine Borg-only assimilated combat freighters, doubled native trade cargo values, Ferengi trade ship capacity1000 and ship-only2x load/unload engine hook. 11 models/ref chains and64 emulated native cases passed;47 installed files hash verified. Backups retained; gameplay pending.
+Backup: D:\Xaramada-Modwork\backups\drozana-installed-20261028-115610
+The executable now has a name-scoped Ferengi cargo speed hook (.fgdock). Generator/64-case emulation: scripts/stage-ferengi-transfer-hook-20261028.py. Two native entry detours0x4ae1c0 and0x4ae440; current engine original source hash is in patches/drozana-commerce-20261028/ferengi-handling-native-validation.json. Do not rerun unguarded doubling/size scripts. Test trading, foundry production and each new attack ship.
+
 # Latest correction — 21 October 2026
 
 Narrow existing-ability research correction installed in D:/armadaIII only. 49 variants, 246 tech entries; zero new research or weapon ODFs. Broad generated files removed from active game and archived. Ship resource/crew balance retained; seven heavy platforms has_crew/crewCost/maximumCrew=0, officers=16. File checks passed; gameplay pending. Eight-player map still pending.

@@ -1,0 +1,412 @@
+{
+  "status": "STAGED_NOT_INSTALLED",
+  "sourceSha256": "f9e283deb68506a779feceecac144d1c035f6e4fe79c636e5207437780fecb28",
+  "candidateSha256": "9b746596b44a16920f441787c68d700be395dc5adcc7751a48a7d6696d20eae8",
+  "hooks": [
+    {
+      "entry": 4907456,
+      "cave": 8364032,
+      "restorePoint": 8364217,
+      "original": "558bec6aff",
+      "codeSize": 195
+    },
+    {
+      "entry": 4908096,
+      "cave": 8364240,
+      "restorePoint": 8364425,
+      "original": "558bec5356",
+      "codeSize": 195
+    }
+  ],
+  "emulatedTests": 64,
+  "tests": [
+    {
+      "entry": "0x4ae1c0",
+      "name": "xfgtrade",
+      "amount": 0.0,
+      "result": 0.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "xfgtrade",
+      "amount": 0.25,
+      "result": 0.5
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "xfgtrade",
+      "amount": 50.0,
+      "result": 100.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "xfgtrade",
+      "amount": -5.0,
+      "result": -10.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "XFGTRADE.ODF",
+      "amount": 0.0,
+      "result": 0.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "XFGTRADE.ODF",
+      "amount": 0.25,
+      "result": 0.5
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "XFGTRADE.ODF",
+      "amount": 50.0,
+      "result": 100.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "XFGTRADE.ODF",
+      "amount": -5.0,
+      "result": -10.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "odf/ships/xfgtrade.odf",
+      "amount": 0.0,
+      "result": 0.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "odf/ships/xfgtrade.odf",
+      "amount": 0.25,
+      "result": 0.5
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "odf/ships/xfgtrade.odf",
+      "amount": 50.0,
+      "result": 100.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "odf/ships/xfgtrade.odf",
+      "amount": -5.0,
+      "result": -10.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "odf\\ships\\xfgtrade.odf",
+      "amount": 0.0,
+      "result": 0.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "odf\\ships\\xfgtrade.odf",
+      "amount": 0.25,
+      "result": 0.5
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "odf\\ships\\xfgtrade.odf",
+      "amount": 50.0,
+      "result": 100.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "odf\\ships\\xfgtrade.odf",
+      "amount": -5.0,
+      "result": -10.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "fcargo.odf",
+      "amount": 0.0,
+      "result": 0.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "fcargo.odf",
+      "amount": 0.25,
+      "result": 0.25
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "fcargo.odf",
+      "amount": 50.0,
+      "result": 50.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "fcargo.odf",
+      "amount": -5.0,
+      "result": -5.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "xfgtrade2.odf",
+      "amount": 0.0,
+      "result": 0.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "xfgtrade2.odf",
+      "amount": 0.25,
+      "result": 0.25
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "xfgtrade2.odf",
+      "amount": 50.0,
+      "result": 50.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "xfgtrade2.odf",
+      "amount": -5.0,
+      "result": -5.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "xfgtrade.bad",
+      "amount": 0.0,
+      "result": 0.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "xfgtrade.bad",
+      "amount": 0.25,
+      "result": 0.25
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "xfgtrade.bad",
+      "amount": 50.0,
+      "result": 50.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "xfgtrade.bad",
+      "amount": -5.0,
+      "result": -5.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "xsrepair",
+      "amount": 0.0,
+      "result": 0.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "xsrepair",
+      "amount": 0.25,
+      "result": 0.25
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "xsrepair",
+      "amount": 50.0,
+      "result": 50.0
+    },
+    {
+      "entry": "0x4ae1c0",
+      "name": "xsrepair",
+      "amount": -5.0,
+      "result": -5.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "xfgtrade",
+      "amount": 0.0,
+      "result": 0.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "xfgtrade",
+      "amount": 0.25,
+      "result": 0.5
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "xfgtrade",
+      "amount": 50.0,
+      "result": 100.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "xfgtrade",
+      "amount": -5.0,
+      "result": -10.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "XFGTRADE.ODF",
+      "amount": 0.0,
+      "result": 0.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "XFGTRADE.ODF",
+      "amount": 0.25,
+      "result": 0.5
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "XFGTRADE.ODF",
+      "amount": 50.0,
+      "result": 100.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "XFGTRADE.ODF",
+      "amount": -5.0,
+      "result": -10.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "odf/ships/xfgtrade.odf",
+      "amount": 0.0,
+      "result": 0.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "odf/ships/xfgtrade.odf",
+      "amount": 0.25,
+      "result": 0.5
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "odf/ships/xfgtrade.odf",
+      "amount": 50.0,
+      "result": 100.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "odf/ships/xfgtrade.odf",
+      "amount": -5.0,
+      "result": -10.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "odf\\ships\\xfgtrade.odf",
+      "amount": 0.0,
+      "result": 0.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "odf\\ships\\xfgtrade.odf",
+      "amount": 0.25,
+      "result": 0.5
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "odf\\ships\\xfgtrade.odf",
+      "amount": 50.0,
+      "result": 100.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "odf\\ships\\xfgtrade.odf",
+      "amount": -5.0,
+      "result": -10.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "fcargo.odf",
+      "amount": 0.0,
+      "result": 0.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "fcargo.odf",
+      "amount": 0.25,
+      "result": 0.25
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "fcargo.odf",
+      "amount": 50.0,
+      "result": 50.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "fcargo.odf",
+      "amount": -5.0,
+      "result": -5.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "xfgtrade2.odf",
+      "amount": 0.0,
+      "result": 0.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "xfgtrade2.odf",
+      "amount": 0.25,
+      "result": 0.25
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "xfgtrade2.odf",
+      "amount": 50.0,
+      "result": 50.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "xfgtrade2.odf",
+      "amount": -5.0,
+      "result": -5.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "xfgtrade.bad",
+      "amount": 0.0,
+      "result": 0.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "xfgtrade.bad",
+      "amount": 0.25,
+      "result": 0.25
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "xfgtrade.bad",
+      "amount": 50.0,
+      "result": 50.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "xfgtrade.bad",
+      "amount": -5.0,
+      "result": -5.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "xsrepair",
+      "amount": 0.0,
+      "result": 0.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "xsrepair",
+      "amount": 0.25,
+      "result": 0.25
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "xsrepair",
+      "amount": 50.0,
+      "result": 50.0
+    },
+    {
+      "entry": "0x4ae440",
+      "name": "xsrepair",
+      "amount": -5.0,
+      "result": -5.0
+    }
+  ],
+  "scope": "Only CargoShipClass ODF name xfgtrade (case-insensitive, optional directory/.odf extension). Transfer amount doubled at LoadCargo and UnloadCargo entry. Other ships and station handling rates unchanged.",
+  "registersFlagsStackPreserved": true,
+  "nativeFunctionCalled": "GameObjectClass::GetOdfName 0x4ce370",
+  "runtimeVerified": false
+}
