@@ -1,0 +1,72 @@
+{
+  "backup": "D:\\Xaramada-Modwork\\backups\\retain-repair-yard-rally-20261028-084250",
+  "stations": [
+    {
+      "station": "fremmeler",
+      "alwaysRecomputeRallyPoint": 0,
+      "productionAndServicesPreserved": true
+    },
+    {
+      "station": "mysyard",
+      "alwaysRecomputeRallyPoint": 0,
+      "productionAndServicesPreserved": true
+    },
+    {
+      "station": "xyr_f",
+      "alwaysRecomputeRallyPoint": 0,
+      "productionAndServicesPreserved": true
+    },
+    {
+      "station": "xyr_b",
+      "alwaysRecomputeRallyPoint": 0,
+      "productionAndServicesPreserved": true
+    },
+    {
+      "station": "xyr_k",
+      "alwaysRecomputeRallyPoint": 0,
+      "productionAndServicesPreserved": true
+    },
+    {
+      "station": "xyr_r",
+      "alwaysRecomputeRallyPoint": 0,
+      "productionAndServicesPreserved": true
+    },
+    {
+      "station": "xyr_c",
+      "alwaysRecomputeRallyPoint": 0,
+      "productionAndServicesPreserved": true
+    },
+    {
+      "station": "xyr_d",
+      "alwaysRecomputeRallyPoint": 0,
+      "productionAndServicesPreserved": true
+    },
+    {
+      "station": "xyr_bj",
+      "alwaysRecomputeRallyPoint": 0,
+      "productionAndServicesPreserved": true
+    },
+    {
+      "station": "xyr_br",
+      "alwaysRecomputeRallyPoint": 0,
+      "productionAndServicesPreserved": true
+    },
+    {
+      "station": "xyr_fg",
+      "alwaysRecomputeRallyPoint": 0,
+      "productionAndServicesPreserved": true
+    },
+    {
+      "station": "xyr_bg",
+      "alwaysRecomputeRallyPoint": 0,
+      "productionAndServicesPreserved": true
+    }
+  ],
+  "nativeEvidence": {
+    "Shipyard.GetRallyPoint": "0x4bbeb0 tests class flag at +0x4b4 and calls mRecomputeRallyPoint before returning saved vector +0x2c4",
+    "Shipyard.mRecomputeRallyPoint": "0x4bc150 derives a default point from station transform and bounding sphere then overwrites saved vector",
+    "OutputQueueManager.mOutputCraft": "0x53a500 calls Shipyard.GetRallyPoint at 0x53a527 and issues movement command at 0x53a532"
+  },
+  "runtimeVerified": false,
+  "supersedes": "Earlier alwaysRecomputeRallyPoint=1 advice was incorrect for fixed stations with user-selected rally points."
+}

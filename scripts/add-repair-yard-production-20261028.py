@@ -51,7 +51,7 @@ crafts={'fremmeler':'fsrepair','mysyard':'xsrepair','xyr_f':'fsrepair','xyr_b':'
 for name,craft in crafts.items():
  p=idx[name];before=props(name);t=p.read_text(encoding='latin1');slots={int(k[9:]):v for k,v in before.items()if re.fullmatch('builditem[0-9]+',k)}
  if craft not in slots.values():t=put(t,'buildItem'+str(max(slots,default=-1)+1),'"'+craft+'"')
- for k,v in [('classLabel','"shipyard"'),('builder_ship',1),('alwaysRecomputeRallyPoint',1),('repairFacility',1)]:t=put(t,k,v)
+ for k,v in [('classLabel','"shipyard"'),('builder_ship',1),('alwaysRecomputeRallyPoint',0),('repairFacility',1)]:t=put(t,k,v)
  if not before.get('buildhardpoint'):t=put(t,'buildHardpoint','"'+before.get('repairhardpoint','hp01')+'"')
  textsave(p.relative_to(root),t);after=props(name)
  assert craft in [v for k,v in after.items()if re.fullmatch('builditem[0-9]+',k)]
