@@ -49,7 +49,7 @@ gtempor.odf 0
 
 kfreight.odf 2 kbase.odf kmining.odf
 kcargo.odf 2 kbase.odf ktrading.odf
-ksrepair.odf 2 kbase.odf kupgrade.odf
+ksrepair.odf 1 xyr_k.odf
 kscout.odf 1 kyard.odf
 kdestroy.odf 1 kyard.odf
 kcruise1.odf 2 kyard.odf kresear.odf
@@ -166,7 +166,7 @@ gtcubeintegrator.odf 1 bhub.odf
 
 rfreight.odf 2 rbase.odf rmining.odf
 rcargo.odf 2 rbase.odf rtrading.odf
-rsrepair.odf 2 rbase.odf rupgrade.odf
+rsrepair.odf 1 xyr_r.odf
 rscout.odf 1 ryard.odf
 rdestroy.odf 1 ryard.odf
 rcruise1.odf 2 ryard.odf rresear.odf
@@ -223,7 +223,7 @@ gbholeg.odf 0
 
 cfreight.odf 2 cbase.odf cmining.odf
 ccargo.odf 2 cbase.odf ctrading.odf
-csrepair.odf 2 cbase.odf cresear2.odf
+csrepair.odf 1 xyr_c.odf
 cscout.odf 1 cyard.odf
 cdestroy.odf 1 cyard.odf
 cdestroy2.odf 1 cyard.odf
@@ -535,7 +535,7 @@ carpod5.odf 1 cresear.odf
 
 dfreight.odf 1 dbase.odf
 dcargo.odf 1 dbase.odf
-dsrepair.odf 1 dbase.odf
+dsrepair.odf 1 xyr_d.odf
 dompod5.odf 1 dresear.odf
 dompod4.odf 1 dresear.odf
 dompod2.odf 1 dresear.odf
@@ -547,7 +547,7 @@ dompod8.odf 1 dresear2.odf
 dompod16.odf 1 dresear2.odf
 
 fcargo.odf 1 ds9.odf
-fsrepair.odf 1 ds9.odf
+fsrepair.odf 1 xyr_f.odf
 ffreight.odf 1 ds9.odf
 dsuper.odf 2 dyard3.odf dconst.odf
 dompod11.odf 1 dupgrade.odf
@@ -640,7 +640,7 @@ bjfreight.odf 1 bjmining.odf
 
 bjcargo.odf 1 bjtrading.odf
 
-bjrepair.odf 1 bjyard.odf
+bjrepair.odf 1 xyr_bj.odf
 
 
 bjscout.odf 2 bjyard.odf bjbase.odf
@@ -805,7 +805,7 @@ bjsuperlab.odf 2 bjresear2.odf bjyard2.odf
 // Borg assimilation support
 xbharvest.odf 1 bbase.odf
 xbassimst.odf 1 bresear2.odf
-xbrepair.odf 1 xbassimst.odf
+xbrepair.odf 1 xyr_b.odf
 xbharvbeam.odf 0
 xbassimbeam.odf 0
 
@@ -1178,7 +1178,7 @@ xfgdaim.odf 1 xfgmerc.odf
 
 xfgmine.odf 1 xfgserv.odf
 
-xfgrepair.odf 1 xfgserv.odf
+xfgrepair.odf 1 xyr_fg.odf
 
 
 xfgtrade.odf 1 xfgserv.odf
@@ -1232,7 +1232,7 @@ xbgdaim.odf 1 xbgmerc.odf
 
 xbgmine.odf 1 xbgmerc.odf
 
-xbgrepair.odf 1 xbgmerc.odf
+xbgrepair.odf 1 xyr_bg.odf
 
 
 xbgresearch.odf 0

@@ -1,0 +1,382 @@
+{
+  "backup": "D:\\Xaramada-Modwork\\backups\\repair-yard-tech-20261028-084404",
+  "mapping": {
+    "fsrepair": "xyr_f",
+    "ksrepair": "xyr_k",
+    "rsrepair": "xyr_r",
+    "csrepair": "xyr_c",
+    "dsrepair": "xyr_d",
+    "bjrepair": "xyr_bj",
+    "xbrepair": "xyr_b",
+    "xfgrepair": "xyr_fg",
+    "xbgrepair": "xyr_bg",
+    "brrepair": "xyr_br",
+    "xsrepair": "mysyard"
+  },
+  "changes": [
+    {
+      "tree": "tech1",
+      "ship": "fsrepair",
+      "before": [
+        "fsrepair.odf 1 fupgrade.odf"
+      ],
+      "after": "fsrepair.odf 1 xyr_f.odf"
+    },
+    {
+      "tree": "tech1",
+      "ship": "ksrepair",
+      "before": [
+        "ksrepair.odf 2 kbase.odf kupgrade.odf"
+      ],
+      "after": "ksrepair.odf 1 xyr_k.odf"
+    },
+    {
+      "tree": "tech1",
+      "ship": "rsrepair",
+      "before": [
+        "rsrepair.odf 2 rbase.odf rupgrade.odf"
+      ],
+      "after": "rsrepair.odf 1 xyr_r.odf"
+    },
+    {
+      "tree": "tech1",
+      "ship": "csrepair",
+      "before": [
+        "csrepair.odf 2 cbase.odf cresear2.odf"
+      ],
+      "after": "csrepair.odf 1 xyr_c.odf"
+    },
+    {
+      "tree": "tech1",
+      "ship": "dsrepair",
+      "before": [
+        "dsrepair.odf 2 dbase.odf dupgrade.odf"
+      ],
+      "after": "dsrepair.odf 1 xyr_d.odf"
+    },
+    {
+      "tree": "tech1",
+      "ship": "bjrepair",
+      "before": [
+        "bjrepair.odf 1 bjyard.odf"
+      ],
+      "after": "bjrepair.odf 1 xyr_bj.odf"
+    },
+    {
+      "tree": "tech1",
+      "ship": "xbrepair",
+      "before": [
+        "xbrepair.odf 1 xbassimst.odf"
+      ],
+      "after": "xbrepair.odf 1 xyr_b.odf"
+    },
+    {
+      "tree": "tech1",
+      "ship": "xfgrepair",
+      "before": [
+        "xfgrepair.odf 1 xfgserv.odf"
+      ],
+      "after": "xfgrepair.odf 1 xyr_fg.odf"
+    },
+    {
+      "tree": "tech1",
+      "ship": "xbgrepair",
+      "before": [
+        "xbgrepair.odf 1 xbgmerc.odf"
+      ],
+      "after": "xbgrepair.odf 1 xyr_bg.odf"
+    },
+    {
+      "tree": "earlytech",
+      "ship": "fsrepair",
+      "before": [
+        "fsrepair.odf 1 fupgrade.odf"
+      ],
+      "after": "fsrepair.odf 1 xyr_f.odf"
+    },
+    {
+      "tree": "earlytech",
+      "ship": "ksrepair",
+      "before": [
+        "ksrepair.odf 2 kbase.odf kresear2.odf"
+      ],
+      "after": "ksrepair.odf 1 xyr_k.odf"
+    },
+    {
+      "tree": "earlytech",
+      "ship": "rsrepair",
+      "before": [
+        "rsrepair.odf 2 rbase.odf rresear2.odf"
+      ],
+      "after": "rsrepair.odf 1 xyr_r.odf"
+    },
+    {
+      "tree": "earlytech",
+      "ship": "csrepair",
+      "before": [
+        "csrepair.odf 2 cbase.odf cresear2.odf"
+      ],
+      "after": "csrepair.odf 1 xyr_c.odf"
+    },
+    {
+      "tree": "earlytech",
+      "ship": "dsrepair",
+      "before": [
+        "dsrepair.odf 2 dbase.odf dupgrade.odf"
+      ],
+      "after": "dsrepair.odf 1 xyr_d.odf"
+    },
+    {
+      "tree": "earlytech",
+      "ship": "bjrepair",
+      "before": [
+        "bjrepair.odf 1 bjyard.odf"
+      ],
+      "after": "bjrepair.odf 1 xyr_bj.odf"
+    },
+    {
+      "tree": "earlytech",
+      "ship": "xbrepair",
+      "before": [
+        "xbrepair.odf 1 xbassimst.odf"
+      ],
+      "after": "xbrepair.odf 1 xyr_b.odf"
+    },
+    {
+      "tree": "earlytech",
+      "ship": "xfgrepair",
+      "before": [
+        "xfgrepair.odf 1 xfgserv.odf"
+      ],
+      "after": "xfgrepair.odf 1 xyr_fg.odf"
+    },
+    {
+      "tree": "earlytech",
+      "ship": "xbgrepair",
+      "before": [
+        "xbgrepair.odf 1 xbgmerc.odf"
+      ],
+      "after": "xbgrepair.odf 1 xyr_bg.odf"
+    },
+    {
+      "tree": "nosci",
+      "ship": "fsrepair",
+      "before": [
+        "fsrepair.odf 1 ds9.odf"
+      ],
+      "after": "fsrepair.odf 1 xyr_f.odf"
+    },
+    {
+      "tree": "nosci",
+      "ship": "ksrepair",
+      "before": [
+        "ksrepair.odf 1 kbase.odf"
+      ],
+      "after": "ksrepair.odf 1 xyr_k.odf"
+    },
+    {
+      "tree": "nosci",
+      "ship": "rsrepair",
+      "before": [
+        "rsrepair.odf 1 rbase.odf"
+      ],
+      "after": "rsrepair.odf 1 xyr_r.odf"
+    },
+    {
+      "tree": "nosci",
+      "ship": "csrepair",
+      "before": [
+        "csrepair.odf 1 cbase.odf"
+      ],
+      "after": "csrepair.odf 1 xyr_c.odf"
+    },
+    {
+      "tree": "nosci",
+      "ship": "dsrepair",
+      "before": [
+        "dsrepair.odf 1 dbase.odf"
+      ],
+      "after": "dsrepair.odf 1 xyr_d.odf"
+    },
+    {
+      "tree": "nosci",
+      "ship": "bjrepair",
+      "before": [
+        "bjrepair.odf 1 bjyard.odf"
+      ],
+      "after": "bjrepair.odf 1 xyr_bj.odf"
+    },
+    {
+      "tree": "nosci",
+      "ship": "xbrepair",
+      "before": [
+        "xbrepair.odf 1 xbassimst.odf"
+      ],
+      "after": "xbrepair.odf 1 xyr_b.odf"
+    },
+    {
+      "tree": "nosci",
+      "ship": "xfgrepair",
+      "before": [
+        "xfgrepair.odf 1 xfgserv.odf"
+      ],
+      "after": "xfgrepair.odf 1 xyr_fg.odf"
+    },
+    {
+      "tree": "nosci",
+      "ship": "xbgrepair",
+      "before": [
+        "xbgrepair.odf 1 xbgmerc.odf"
+      ],
+      "after": "xbgrepair.odf 1 xyr_bg.odf"
+    },
+    {
+      "tree": "nosuper",
+      "ship": "fsrepair",
+      "before": [
+        "fsrepair.odf 1 ds9.odf"
+      ],
+      "after": "fsrepair.odf 1 xyr_f.odf"
+    },
+    {
+      "tree": "nosuper",
+      "ship": "ksrepair",
+      "before": [
+        "ksrepair.odf 1 kbase.odf"
+      ],
+      "after": "ksrepair.odf 1 xyr_k.odf"
+    },
+    {
+      "tree": "nosuper",
+      "ship": "rsrepair",
+      "before": [
+        "rsrepair.odf 1 rbase.odf"
+      ],
+      "after": "rsrepair.odf 1 xyr_r.odf"
+    },
+    {
+      "tree": "nosuper",
+      "ship": "csrepair",
+      "before": [
+        "csrepair.odf 1 cbase.odf"
+      ],
+      "after": "csrepair.odf 1 xyr_c.odf"
+    },
+    {
+      "tree": "nosuper",
+      "ship": "dsrepair",
+      "before": [
+        "dsrepair.odf 1 dbase.odf"
+      ],
+      "after": "dsrepair.odf 1 xyr_d.odf"
+    },
+    {
+      "tree": "nosuper",
+      "ship": "bjrepair",
+      "before": [
+        "bjrepair.odf 1 bjyard.odf"
+      ],
+      "after": "bjrepair.odf 1 xyr_bj.odf"
+    },
+    {
+      "tree": "nosuper",
+      "ship": "xbrepair",
+      "before": [
+        "xbrepair.odf 1 xbassimst.odf"
+      ],
+      "after": "xbrepair.odf 1 xyr_b.odf"
+    },
+    {
+      "tree": "nosuper",
+      "ship": "xfgrepair",
+      "before": [
+        "xfgrepair.odf 1 xfgserv.odf"
+      ],
+      "after": "xfgrepair.odf 1 xyr_fg.odf"
+    },
+    {
+      "tree": "nosuper",
+      "ship": "xbgrepair",
+      "before": [
+        "xbgrepair.odf 1 xbgmerc.odf"
+      ],
+      "after": "xbgrepair.odf 1 xyr_bg.odf"
+    },
+    {
+      "tree": "nospweap",
+      "ship": "fsrepair",
+      "before": [
+        "fsrepair.odf 1 ds9.odf"
+      ],
+      "after": "fsrepair.odf 1 xyr_f.odf"
+    },
+    {
+      "tree": "nospweap",
+      "ship": "ksrepair",
+      "before": [
+        "ksrepair.odf 2 kbase.odf kupgrade.odf"
+      ],
+      "after": "ksrepair.odf 1 xyr_k.odf"
+    },
+    {
+      "tree": "nospweap",
+      "ship": "rsrepair",
+      "before": [
+        "rsrepair.odf 2 rbase.odf rupgrade.odf"
+      ],
+      "after": "rsrepair.odf 1 xyr_r.odf"
+    },
+    {
+      "tree": "nospweap",
+      "ship": "csrepair",
+      "before": [
+        "csrepair.odf 2 cbase.odf cresear2.odf"
+      ],
+      "after": "csrepair.odf 1 xyr_c.odf"
+    },
+    {
+      "tree": "nospweap",
+      "ship": "dsrepair",
+      "before": [
+        "dsrepair.odf 1 dbase.odf"
+      ],
+      "after": "dsrepair.odf 1 xyr_d.odf"
+    },
+    {
+      "tree": "nospweap",
+      "ship": "bjrepair",
+      "before": [
+        "bjrepair.odf 1 bjyard.odf"
+      ],
+      "after": "bjrepair.odf 1 xyr_bj.odf"
+    },
+    {
+      "tree": "nospweap",
+      "ship": "xbrepair",
+      "before": [
+        "xbrepair.odf 1 xbassimst.odf"
+      ],
+      "after": "xbrepair.odf 1 xyr_b.odf"
+    },
+    {
+      "tree": "nospweap",
+      "ship": "xfgrepair",
+      "before": [
+        "xfgrepair.odf 1 xfgserv.odf"
+      ],
+      "after": "xfgrepair.odf 1 xyr_fg.odf"
+    },
+    {
+      "tree": "nospweap",
+      "ship": "xbgrepair",
+      "before": [
+        "xbgrepair.odf 1 xbgmerc.odf"
+      ],
+      "after": "xbgrepair.odf 1 xyr_bg.odf"
+    }
+  ],
+  "fullAndFreeTechUnchanged": true,
+  "campaignTreesUnchanged": true,
+  "newResearchItems": 0,
+  "runtimeVerified": false
+}
