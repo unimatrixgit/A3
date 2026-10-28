@@ -1,0 +1,47 @@
+{
+  "backup": "D:\\Xaramada-Modwork\\backups\\borg-ai-repair-order-20261028-091351",
+  "changes": [
+    {
+      "profile": "borg_build_list.aip",
+      "moved": "xyr_b",
+      "previousLine": 90,
+      "newLine": 40,
+      "before": "xbrepair",
+      "allOtherEntriesPreserved": true
+    },
+    {
+      "profile": "borg_defensive_list.aip",
+      "moved": "xyr_b",
+      "previousLine": 91,
+      "newLine": 41,
+      "before": "xbrepair",
+      "allOtherEntriesPreserved": true
+    },
+    {
+      "profile": "borg_endgame_list.aip",
+      "moved": "xyr_b",
+      "previousLine": 90,
+      "newLine": 40,
+      "before": "xbrepair",
+      "allOtherEntriesPreserved": true
+    },
+    {
+      "profile": "borg_instant_action_build_list.aip",
+      "moved": "xyr_b",
+      "previousLine": 90,
+      "newLine": 40,
+      "before": "xbrepair",
+      "allOtherEntriesPreserved": true
+    },
+    {
+      "profile": "borg_offensive_list.aip",
+      "moved": "xyr_b",
+      "previousLine": 90,
+      "newLine": 40,
+      "before": "xbrepair",
+      "allOtherEntriesPreserved": true
+    }
+  ],
+  "reason": "Repair-drone tech now requires repair yard; yard was listed near the end of each build plan.",
+  "runtimeVerified": false
+}
