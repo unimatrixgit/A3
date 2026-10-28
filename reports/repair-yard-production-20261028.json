@@ -1,0 +1,96 @@
+{
+  "backup": "D:\\Xaramada-Modwork\\backups\\repair-yard-production-20261028-083249",
+  "stations": [
+    {
+      "station": "fremmeler",
+      "repairCraft": "fsrepair",
+      "classLabel": "shipyard",
+      "sizeAndBuildTimePreserved": true,
+      "existingProductionPreserved": true
+    },
+    {
+      "station": "mysyard",
+      "repairCraft": "xsrepair",
+      "classLabel": "shipyard",
+      "sizeAndBuildTimePreserved": true,
+      "existingProductionPreserved": true
+    },
+    {
+      "station": "xyr_f",
+      "repairCraft": "fsrepair",
+      "classLabel": "shipyard",
+      "sizeAndBuildTimePreserved": true,
+      "existingProductionPreserved": true
+    },
+    {
+      "station": "xyr_b",
+      "repairCraft": "xbrepair",
+      "classLabel": "shipyard",
+      "sizeAndBuildTimePreserved": true,
+      "existingProductionPreserved": true
+    },
+    {
+      "station": "xyr_k",
+      "repairCraft": "ksrepair",
+      "classLabel": "shipyard",
+      "sizeAndBuildTimePreserved": true,
+      "existingProductionPreserved": true
+    },
+    {
+      "station": "xyr_r",
+      "repairCraft": "rsrepair",
+      "classLabel": "shipyard",
+      "sizeAndBuildTimePreserved": true,
+      "existingProductionPreserved": true
+    },
+    {
+      "station": "xyr_c",
+      "repairCraft": "csrepair",
+      "classLabel": "shipyard",
+      "sizeAndBuildTimePreserved": true,
+      "existingProductionPreserved": true
+    },
+    {
+      "station": "xyr_d",
+      "repairCraft": "dsrepair",
+      "classLabel": "shipyard",
+      "sizeAndBuildTimePreserved": true,
+      "existingProductionPreserved": true
+    },
+    {
+      "station": "xyr_bj",
+      "repairCraft": "bjrepair",
+      "classLabel": "shipyard",
+      "sizeAndBuildTimePreserved": true,
+      "existingProductionPreserved": true
+    },
+    {
+      "station": "xyr_br",
+      "repairCraft": "brrepair",
+      "classLabel": "shipyard",
+      "sizeAndBuildTimePreserved": true,
+      "existingProductionPreserved": true
+    },
+    {
+      "station": "xyr_fg",
+      "repairCraft": "xfgrepair",
+      "classLabel": "shipyard",
+      "sizeAndBuildTimePreserved": true,
+      "existingProductionPreserved": true
+    },
+    {
+      "station": "xyr_bg",
+      "repairCraft": "xbgrepair",
+      "classLabel": "shipyard",
+      "sizeAndBuildTimePreserved": true,
+      "existingProductionPreserved": true
+    }
+  ],
+  "newFactionUtilityShips": [
+    "brrepair",
+    "xsrepair"
+  ],
+  "existingCraftTechUnchanged": true,
+  "runtimeVerified": false,
+  "limitation": "Rally behavior must be checked in-game; these changes provide actual production and shipyard command support."
+}
