@@ -1,0 +1,35 @@
+{
+  "backup": "D:\\Xaramada-Modwork\\backups\\assimilated-ferengi-hwp-size-20261028-104211\\odf\\stations\\tybghwp.odf",
+  "checks": [
+    {
+      "unit": "tyfghwp",
+      "modelWidth": 135,
+      "modelDepth": 135,
+      "footprintBuffer": 25,
+      "nominalFootprintWidth": 185,
+      "nominalFootprintDepth": 185
+    },
+    {
+      "unit": "tybghwp",
+      "modelWidth": 135,
+      "modelDepth": 135,
+      "footprintBuffer": 25,
+      "nominalFootprintWidth": 185,
+      "nominalFootprintDepth": 185
+    },
+    {
+      "unit": "tybrhwp",
+      "modelWidth": 135,
+      "modelDepth": 135,
+      "footprintBuffer": 25,
+      "nominalFootprintWidth": 185,
+      "nominalFootprintDepth": 185
+    }
+  ],
+  "changed": [
+    "tybghwp"
+  ],
+  "normalFerengiAndBreenUnchanged": true,
+  "weaponsUnchanged": true,
+  "runtimeVerified": false
+}
