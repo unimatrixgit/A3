@@ -1,0 +1,528 @@
+{
+  "stations": [
+    {
+      "unit": "8472_advancedresearch",
+      "name": "Biogenesis Core",
+      "model": "dr26_8472_advancedresearch",
+      "visibleMeshes": 19,
+      "textures": [
+        "vr26t09",
+        "vr26t11",
+        "vr26t14"
+      ],
+      "textureModes": {
+        "default": 19
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 2680
+    },
+    {
+      "unit": "8472_basicresearch",
+      "name": "Enhancer",
+      "model": "dr26_8472_basicresearch",
+      "visibleMeshes": 19,
+      "textures": [
+        "vr26t09",
+        "vr26t11",
+        "vr26t14"
+      ],
+      "textureModes": {
+        "default": 19
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 2632
+    },
+    {
+      "unit": "8472_shipupgraderesearch",
+      "name": "Metogenesis Core",
+      "model": "dr26_8472_shipupgraderesearch",
+      "visibleMeshes": 29,
+      "textures": [
+        "vr26t09",
+        "vr26t11",
+        "vr26t14"
+      ],
+      "textureModes": {
+        "default": 29
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 4168
+    },
+    {
+      "unit": "bjresear",
+      "name": "Kendra Engineering Institute",
+      "model": "ty26_bjresear",
+      "visibleMeshes": 24,
+      "textures": [
+        "cresear"
+      ],
+      "textureModes": {
+        "opaque": 24
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 1054
+    },
+    {
+      "unit": "bjresear2",
+      "name": "Celestial Temple Observatory",
+      "model": "ty26_bjresear2",
+      "visibleMeshes": 20,
+      "textures": [
+        "cresear2"
+      ],
+      "textureModes": {
+        "opaque": 20
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 39,
+      "triangles": 728
+    },
+    {
+      "unit": "bjupgrade",
+      "name": "Bajoran Systems Institute",
+      "model": "ty26_bjupgrade",
+      "visibleMeshes": 22,
+      "textures": [
+        "cupgrade",
+        "cupgradefx"
+      ],
+      "textureModes": {
+        "additive": 1,
+        "opaque": 21
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 40,
+      "triangles": 854
+    },
+    {
+      "unit": "bresear",
+      "name": "Collective Modification Node",
+      "model": "ty26_bresear",
+      "visibleMeshes": 19,
+      "textures": [
+        "bhuba",
+        "bhubb",
+        "btechass"
+      ],
+      "textureModes": {
+        "opaque": 19
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 10,
+      "triangles": 936
+    },
+    {
+      "unit": "bresear2",
+      "name": "Tactical Assimilation Laboratory",
+      "model": "ty26_bresear2",
+      "visibleMeshes": 17,
+      "textures": [
+        "badvassx",
+        "badvassy",
+        "badvassz",
+        "bassmatb"
+      ],
+      "textureModes": {
+        "opaque": 17
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 1,
+      "triangles": 813
+    },
+    {
+      "unit": "brresear",
+      "name": "Confederacy Science Laboratory",
+      "model": "ty26_brresear",
+      "visibleMeshes": 7,
+      "textures": [
+        "Zbreendread"
+      ],
+      "textureModes": {
+        "default": 7
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 688
+    },
+    {
+      "unit": "btechass",
+      "name": "Technology Assimilator",
+      "model": "dr26_btechass",
+      "visibleMeshes": 5,
+      "textures": [
+        "vr26t01",
+        "vr26t10",
+        "vr26t11",
+        "vr26t13"
+      ],
+      "textureModes": {
+        "default": 5
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 576
+    },
+    {
+      "unit": "bupgrade",
+      "name": "Unimatrix Optimisation Centre",
+      "model": "ty26_bupgrade",
+      "visibleMeshes": 28,
+      "textures": [
+        "BSUFBottom",
+        "BSUFTop"
+      ],
+      "textureModes": {
+        "default": 1,
+        "opaque": 27
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 1236
+    },
+    {
+      "unit": "cresear",
+      "name": "Military Research Center",
+      "model": "ty26_cresear",
+      "visibleMeshes": 20,
+      "textures": [
+        "cresear"
+      ],
+      "textureModes": {
+        "opaque": 20
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 1094
+    },
+    {
+      "unit": "cresear2",
+      "name": "Advanced Research Station",
+      "model": "ty26_cresear2",
+      "visibleMeshes": 18,
+      "textures": [
+        "cresear2"
+      ],
+      "textureModes": {
+        "opaque": 18
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 44,
+      "triangles": 768
+    },
+    {
+      "unit": "cupgrade",
+      "name": "Research Institute",
+      "model": "ty26_cupgrade",
+      "visibleMeshes": 22,
+      "textures": [
+        "cupgrade",
+        "cupgradefx"
+      ],
+      "textureModes": {
+        "additive": 1,
+        "opaque": 21
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 40,
+      "triangles": 894
+    },
+    {
+      "unit": "dresear",
+      "name": "Founder's Engineering Enclave",
+      "model": "ty26_dresear",
+      "visibleMeshes": 19,
+      "textures": [
+        "dom2"
+      ],
+      "textureModes": {
+        "default": 19
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 1452
+    },
+    {
+      "unit": "dresear2",
+      "name": "Vorta Science Laboratory",
+      "model": "ty26_dresear2",
+      "visibleMeshes": 12,
+      "textures": [
+        "dom1"
+      ],
+      "textureModes": {
+        "default": 12
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 452
+    },
+    {
+      "unit": "dupgrade",
+      "name": "Jem'Hadar Systems Centre",
+      "model": "ty26_dupgrade",
+      "visibleMeshes": 16,
+      "textures": [
+        "dom1"
+      ],
+      "textureModes": {
+        "default": 16
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 736
+    },
+    {
+      "unit": "fresear",
+      "name": "Daystrom Engineering Laboratory",
+      "model": "ty26_fresear",
+      "visibleMeshes": 21,
+      "textures": [
+        "fresearch"
+      ],
+      "textureModes": {
+        "opaque": 4,
+        "default": 17
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 1252
+    },
+    {
+      "unit": "fresear2",
+      "name": "Zimmerman Science Laboratory",
+      "model": "ty26_fresear2",
+      "visibleMeshes": 17,
+      "textures": [
+        "Fresear"
+      ],
+      "textureModes": {
+        "default": 17
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 724
+    },
+    {
+      "unit": "fupgrade",
+      "name": "Cochrane Systems Institute",
+      "model": "ty26_fupgrade",
+      "visibleMeshes": 28,
+      "textures": [
+        "fupgrade",
+        "fupgradefx"
+      ],
+      "textureModes": {
+        "additive": 1,
+        "opaque": 27
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 15,
+      "triangles": 1354
+    },
+    {
+      "unit": "hub",
+      "name": "Borg Transwarp Hub",
+      "model": "hub",
+      "visibleMeshes": 9,
+      "textures": [
+        "32sid"
+      ],
+      "textureModes": {
+        "default": 9
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 1152
+    },
+    {
+      "unit": "kresear",
+      "name": "Qu'Vat Weapons Forge",
+      "model": "ty26_kresear",
+      "visibleMeshes": 17,
+      "textures": [
+        "KResearch"
+      ],
+      "textureModes": {
+        "opaque": 17
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 800
+    },
+    {
+      "unit": "kresear2",
+      "name": "Gre'thor Armory",
+      "model": "ty26_kresear2",
+      "visibleMeshes": 19,
+      "textures": [
+        "Kresear"
+      ],
+      "textureModes": {
+        "default": 19
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 710
+    },
+    {
+      "unit": "kupgrade",
+      "name": "Imperial Systems Institute",
+      "model": "ty26_kupgrade",
+      "visibleMeshes": 33,
+      "textures": [
+        "K_upgrade"
+      ],
+      "textureModes": {
+        "opaque": 33
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 1114
+    },
+    {
+      "unit": "rresear",
+      "name": "Covert-Ops Facility",
+      "model": "ty26_rresear",
+      "visibleMeshes": 25,
+      "textures": [
+        "RresearA"
+      ],
+      "textureModes": {
+        "opaque": 25
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 4,
+      "triangles": 1018
+    },
+    {
+      "unit": "rresear2",
+      "name": "Tal Shiar Facility",
+      "model": "ty26_rresear2",
+      "visibleMeshes": 14,
+      "textures": [
+        "Rresear"
+      ],
+      "textureModes": {
+        "default": 14
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 628
+    },
+    {
+      "unit": "rupgrade",
+      "name": "Star Empire Research Institute",
+      "model": "ty26_rupgrade",
+      "visibleMeshes": 44,
+      "textures": [
+        "RUpgrade"
+      ],
+      "textureModes": {
+        "opaque": 44
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 2,
+      "triangles": 1192
+    },
+    {
+      "unit": "xbgresearch",
+      "name": "Nagus Commerce Institute",
+      "model": "ty26_xbgresearch",
+      "visibleMeshes": 17,
+      "textures": [
+        "dom2"
+      ],
+      "textureModes": {
+        "default": 17
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 1392
+    },
+    {
+      "unit": "xbomegalab",
+      "name": "Omega Perfection Laboratory",
+      "model": "ty26_xbomegalab",
+      "visibleMeshes": 9,
+      "textures": [
+        "bhuba",
+        "bhubb",
+        "btechass"
+      ],
+      "textureModes": {
+        "opaque": 9
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 10,
+      "triangles": 636
+    },
+    {
+      "unit": "xfgresearch",
+      "name": "Nagus Commerce Institute",
+      "model": "ty26_xfgresearch",
+      "visibleMeshes": 21,
+      "textures": [
+        "dom2"
+      ],
+      "textureModes": {
+        "default": 21
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 1512
+    },
+    {
+      "unit": "xfomegalab",
+      "name": "Omega Directive Laboratory",
+      "model": "ty26_xfomegalab",
+      "visibleMeshes": 11,
+      "textures": [
+        "fresearch"
+      ],
+      "textureModes": {
+        "opaque": 4,
+        "default": 7
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 952
+    },
+    {
+      "unit": "xsbiolab",
+      "name": "Biomatter Metabolism Institute",
+      "model": "dr26_xsbiolab",
+      "visibleMeshes": 11,
+      "textures": [
+        "vr26t09",
+        "vr26t11",
+        "vr26t14"
+      ],
+      "textureModes": {
+        "default": 11
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 1360
+    },
+    {
+      "unit": "xselaresearch",
+      "name": "Sela's Research",
+      "model": "ty26_xselaresearch",
+      "visibleMeshes": 14,
+      "textures": [
+        "Rresear"
+      ],
+      "textureModes": {
+        "default": 14
+      },
+      "missingTextures": [],
+      "coincidentTriangles": 0,
+      "triangles": 628
+    }
+  ],
+  "runtimeVerified": false
+}
