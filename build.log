@@ -5531,3 +5531,43 @@ Hero-extra-bank validation passed. Runtime testing pending.
 [hwp-under-four-squares-20261026] {"status": "APPLIED", "backup": "D:\\Xaramada-Modwork\\backups\\hwp-under-four-squares-20261026-20261026-201419", "files": 10, "runtimeVerified": false, "description": "All HWP models and natural construction footprints are below four grid squares, capped at 3.8. Smaller platforms not enlarged; latinum unloading and combat stats preserved."}
 
 [hwp-compact-two-by-two-20261026] {"status": "APPLIED", "backup": "D:\\Xaramada-Modwork\\backups\\hwp-compact-two-by-two-20261026-20261026-201613", "files": 10, "runtimeVerified": false, "description": "All HWP models and natural construction footprints are inside a 2-by-2 grid area, capped at 1.8 squares across. All factions reduced uniformly to fit; latinum unloading and combat stats preserved."}
+
+2026-10-28T07:23:34.419080 HWP visual fix applied to armadaIII: all seven 50% larger, footprint clearance restored, native opaque hull rendering corrected where needed; every diffuse texture reference exists. Geometry round-trip/file checks passed; in-game verification pending.
+
+2026-10-28T07:51:55.944492 HWP visual fix applied to armadaIII: all seven 50% larger, footprint clearance restored, native opaque hull rendering corrected where needed; every diffuse texture reference exists. Geometry round-trip/file checks passed; in-game verification pending.
+
+2026-10-28T07:51:56.484532 Ferengi Liquidator HWP included in 50% size/footprint/opaque-hull fix. Nog service station rally control enabled without production items; repair and decommission retained. File checks passed; rally departure behavior requires in-game verification.
+
+2026-10-28T07:52:52.142585 HWP visual fix applied to armadaIII: all seven 50% larger, footprint clearance restored, native opaque hull rendering corrected where needed; every diffuse texture reference exists. Geometry round-trip/file checks passed; in-game verification pending.
+
+2026-10-28T07:52:52.640775 Breen HWP included in 50% larger size, restored footprint and texture-reference check. Restoration Dock rally control enabled, repair/decommission retained. HWP GUI and tech path present; only brconst listed at starbase. File checks passed; gameplay pending.
+
+2026-10-28T07:59:07.598207 Research visual overlap corrected on 27 redesigned models: verified embedded stock cores removed, new hulls and attachment hardpoints retained. All 30 research-capable stations audited for missing textures and overlap. File checks passed; gameplay pending.
+
+2026-10-28T08:06:26.741509 All 10 HWP variants, including Breen and both Ferengi versions, mapped to original faction station hull textures/materials. Geometry, size, footprint, weapon mounts and ODF stats preserved. SOD round-trip checks passed; visual gameplay check pending.
+
+2026-10-28T08:15:39.867377 All 12 repair-capable station definitions checked: rally command enabled and rally refresh set; 10 files updated. Existing production, repairs, decommission and docking anchors preserved. Applied to armadaIII only. File checks passed; repaired-unit rally departure pending gameplay verification.
+
+2026-10-28T08:16:42.640955 10 repair-only stations reduced to 50% current model size and 25% current build time. 2 repair stations with production menus excluded. Repair, decommission, rally controls and other stats retained. Applied to armadaIII; file validation passed, gameplay pending.
+
+2026-10-28T08:32:49.852347 All 12 repair-capable stations now function as shipyards and produce a repair craft, with GUI and technology paths. Added faction-model Breen and 8472 repair tenders. Current reduced sizes/times and other production preserved. File checks passed; repaired-unit rally departure requires gameplay test.
+
+2026-10-28T08:42:50.376076 Corrected all 12 repair yards: automatic rally reset disabled so the native exit path reads the saved user rally point. Prior recompute=1 setting was wrong; shipyard production/services preserved and generators corrected. Native code traced; gameplay verification pending.
+
+2026-10-28T08:44:04.914086 All 11 faction repair ships now unlock with their faction repair yard in five standard tech presets, replacing previous science/upgrade prerequisites. No extra research required; full/free-tech and campaigns preserved. Applied to armadaIII; file checks passed, gameplay pending.
+
+2026-10-28T08:45:20.205983 All 11 repair ships upgraded: +50% durability and shield regeneration, minimum 1000 special energy/10 regeneration, defensive continuous torpedo (30 damage every 0.375s). Existing repair beams/weapons retained; model mounts and native projectile chain checked. armadaIII applied; gameplay pending.
+
+2026-10-28T09:14:00.424541 Borg AI build-sequence check complete: five skirmish profiles, 436 total steps. Repair yard moved ahead of repair drone after latest tech change. Zero missing producers, preceding prerequisites or disabled planned units in static audit. Economy opening and all other entries retained. Applied armadaIII; gameplay pending.
+
+2026-10-28T09:36:33.178395 All eight colonizing AI factions now request one colony ship immediately after the first yard: 40 skirmish profiles patched. Producers and colony tech prerequisites verified at that step. All other requests/counts retained; 8472 (no colony vessel) and campaign AI unchanged. armadaIII applied; gameplay pending.
+
+2026-10-28T10:03:58.565498 Romulan AI/colony/economy checked: colony ship present in Yard I, no tech prerequisite. Five profiles corrected: repair yard before repair ship, third freighter after colony, trade station+cargo before advanced research. All 508 build steps passed dependency/producer audit. armadaIII applied; gameplay pending.
+
+2026-10-28T10:42:11.712574 Ferengi/Breen HWP size-footprint audit: normal Ferengi and Breen already match Federation, 135x135 model with 25 clearance. Corrected missed assimilated Ferengi from 90x90/zero clearance to same size and footprint. No repeat enlargement of normal variants. File checks passed; gameplay pending.
+
+2026-10-28T10:46:57.441611 Economy-first AI patch installed: 45 skirmish build profiles and 11 native resource-priority configs. Local mining/metal and early colony+3 freighters before bulk fleets; small two-ship escorts retained; native trade/cargo promoted where supported. Missing repair-yard prerequisites moved before repair ships. Nearby resource-site bias strengthened, latinum enabled. No fixed all-moons guarantee; native allied route behavior needs gameplay check.
+
+2026-10-28T11:56:11.530669 Drozana package installed in armadaIII: two new stations, nine Borg-only assimilated combat freighters, doubled native trade cargo values, Ferengi trade ship capacity1000 and ship-only2x load/unload engine hook. 11 models/ref chains and64 emulated native cases passed;47 installed files hash verified. Backups retained; gameplay pending.
+
+2026-10-28T12:25:57.815672 Starting resources installed: +300 crew, +1000 metal and +1000 dilithium for eight resource-using playable factions on Normal. New matches only. Romulan economy investigation remains pending. Backed up and verified eight live/source pairs.
