@@ -1,9 +1,8 @@
-// Updated current-faction economy, heavy defense, production and research order.
+// Economy-first home-base build sequence; retain small escorts before later attack fleets.
 #include "aipdef.h"
 int checkTechnologyAvailable = 1;
 Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 {
-    // Preserve one spare embryo and replace every consumed evolution producer.
     "8472_passive", 2, 0, -1, 0,
     "8472_transmuter", 1, 0, -1, 0,
     "8472_active", 2, 0, -1, 0,
@@ -13,6 +12,10 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "8472_passive", 2, 0, -1, 0,
     "8472_fluidicgate", 1, 0, -1, 0,
     "714const", 1, 0, -1, 0,
+    "8472_passive", 2, 0, -1, 0,
+    "8472_active", 2, 0, -1, 0,
+    "8472_collector", 3, 0, -1, 0,
+    "8472_active", 2, 0, -1, 0,
     "8472_passive", 2, 0, -1, 0,
     "8472_active", 2, 0, -1, 0,
     "8472_destroy", 1, 0, -1, 0,

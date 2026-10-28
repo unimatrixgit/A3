@@ -1,0 +1,162 @@
+//
+// a2_exploration.aip
+//
+// Parameters for an AI which explores and expands, but is 
+// balanced on Offense versus Defense
+//
+// Dr. I
+
+// Load up the basic structures...
+#include "aipdef.h"
+
+/////////////////////////////////////////////////////////////////////
+// III. Evaluated/execute goal counts
+//
+// Used to specify how many of each goal type to evaluate and how
+// many to execute.  Small counts increase performance, but decrease
+// intelligence.  
+// NOTE: The MAX_EXEC numbers have positive values that should not exceed 1000; 
+// NOTE: You can 'turn off' goals by specifying a MAX_EXEC count of 0
+// or limit the goals executed by specifying a smaller number.
+
+// ATTACK BASE goals
+// NOTE: If this value is set to 1, only the one highest priority enemy base will ever be 
+// attacked at a given time.
+// NOTE: If this value is set to 'n', at most the 'n' highest priority enemy bases will
+// ever be attacked at a given time.
+// NOTE: If this value is set to 0, no enemy bases will be attacked. 
+//
+int MAX_EXEC_ATTACK_BASE = 1;
+
+// ATTACK goals
+// NOTE: If this value is set to 1, only the one highest priority grid 
+// with enemy in it willbe attacked at a time
+// NOTE: If this value is set to 'n', at most the 'n' highest priority grids 
+// with enemy will be attacked at a given time.
+// NOTE: If this value is set to 0, no grids with enemy units will be attacked. 
+//
+int MAX_EXEC_ATTACK = 1;
+
+// DEFEND goals 
+// NOTE: If this value is set to 1, only the one highest priority base will be defended
+// at a time.
+// NOTE: If this value is set to 'n', only the 'n' highest priority bases will be 
+// defended at a given time.
+// NOTE: If this value is set to 0, none of your bases will be defended. 
+//
+int MAX_EXEC_DEFEND = 3;
+
+// ESCORT goals
+// NOTE: If this value is set to 1, only the one highest priority escortable ship 
+// will be escorted at a time.
+// NOTE: If this value is set to 'n', at most the 'n' highest priority escortable ships
+// will be defended at a given time.
+// NOTE: If this value is set to 0, none of your ships will be escorted. 
+//
+int MAX_EXEC_ESCORT = 1;
+
+// EXPLORE goals
+// NOTE: If this value is set to 1, only the one highest priority unexplored grid
+// square will be explored at a time.
+// NOTE: If this value is set to 'n', at most the 'n' highest priority unexplored grid
+// cells will be explored at a given time.
+// NOTE: If this value is set to 0, none of your ships will be escorted. 
+//
+int MAX_EXEC_EXPLORE = 5;
+
+// RESOURCE goals
+// NOTE: If this value is set to 1, only the one highest priority grid cell with moons 
+// will be defended at a time.
+// NOTE: If this value is set to 'n', at most the 'n' highest priority grid cells
+// with mooons will be defended at a given time.
+// NOTE: If this value is set to 0, none of your grid cells with moons will be defended. 
+//
+int MAX_EXEC_RESOURCE = 3;
+
+// NOTE: DO NOT change MAX_EVAL_ values.
+int MAX_EVAL_ATTACK_BASE = 10;
+int MAX_EVAL_ATTACK = 10;
+int MAX_EVAL_DEFEND = 10;
+int MAX_EVAL_ESCORT = 10;
+int MAX_EVAL_EXPLORE = 10;
+int MAX_EVAL_RESOURCE = 20;
+
+
+// PRIORITIES OF DIFFERENT GOALS & FACTORS
+int attack_troops_priority = 1000; 
+int attack_region_priority = 1000;
+int defend_priority = 10000;
+
+// Weight for attacking enemies base
+int attack_enemy_base_priority = 10000;		
+
+// How much do we want to explore
+int exploration_priority = 1000000;
+	
+// Penalty per failure to reach an exploration cell
+int explorationFailurePenalty = 600;		
+
+// Global value for scripted p's
+int scripted_priority = 1;				
+
+// How important to defend the perimeter
+int perimeter_priority = 1000;				
+
+// Priority assigned to a cell with resources
+int resource_priority = 10000;				
+
+// How important to escort a unit
+int escort_priority = 200;				
+
+// TROOP COMMITMENT PARAMETERS
+double min_matching_force_ratio = 1.0;
+
+// NOTE: Positive to avoid places where we have lost more units than we have 
+// killed (not currently computed)
+int avoid_danger_priority_modifier = 1;
+
+// Forces requried for individual Goal types
+
+// How much force to use for escorting
+int min_escort_force = 1;				
+int max_escort_force = 1;
+int min_perimeter_force = 1;
+int max_perimeter_force = 1;
+int max_defense_force = 100;
+int min_defense_force = 4;
+int min_exploration_force = 1;
+int max_exploration_force = 1;
+int min_attack_force = 1;			
+int max_attack_force = 16;
+
+// RELAXATION OF THREATS
+
+// Iteration for relaxing grid borders
+int relaxation_cycles = 1;				
+
+// Relaxation bleedover
+double relaxation_coefficient = 0.5;		
+
+// STRATEGY UPKEEP VARIABLES
+// How long to wait before recomputing
+// the strategy
+int recompute_strategy_period = 300;
+
+// RAW BID MODIFIERS
+int max_danger_raw_bonus = 10;
+double danger_diminishment = 1;
+int max_threat_raw_bonus = 10; 
+int distance_from_home_priority_modifier = -300;
+int distance_from_enemy_priority_modifier = 10; 
+int threat_proximity_modifier =  10;
+int human_target_raw_bonus = 200;
+int max_misc_bid_bonus = 600; 
+int persistence_modifier = 100;
+
+// MATCH BID MODIFIERS
+double distance_from_goal_match_modifier = -0.5;
+
+// PATROL CONTROL
+int patrol_one_in_n = 10;
+
+

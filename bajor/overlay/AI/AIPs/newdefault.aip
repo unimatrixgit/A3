@@ -1,0 +1,305 @@
+///////////////////////////////////////////////////////////////////////////////
+//
+// default.aip
+//
+// AIP = Artificial Intelligence Personality
+//
+// Basic default AIP parameters.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+// Load up the basic structures...
+#include "aipdef.h"
+
+
+/////////////////////////////////////////////////////////////////////
+// I. Threat Map
+// In general this will not need to be adjusted
+// Parameters used to compute the threat map.
+
+// Iteration for relaxing grid borders
+// NOTE: DO NOT CHANGE
+//
+int relaxation_cycles = 1;				
+
+// Relaxation bleedover
+// NOTE: DO NOT CHANGE
+//
+double relaxation_coefficient = 0.5;		
+
+// How much to reduce danger recorded in grid cell each cycle
+// NOTE: DO NOT CHANGE
+//
+double danger_diminishment = 1;
+/////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////
+// II. Strategy Upkeep
+//
+// Parameters used to control how often strategic goals are
+// recomputed. No need to modify.
+// NOTE: DO NOT CHANGE
+// How long to wait before recomputing the strategy
+// 
+int recompute_strategy_period = 200;
+//////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////
+// III. Evaluated/execute goal counts
+//
+// Used to specify how many of each goal type to evaluate and how
+// many to execute.  Small counts increase performance, but decrease
+// intelligence.  
+// NOTE: The MAX_EXEC numbers have positive values that should not exceed 1000; 
+// NOTE: You can 'turn off' goals by specifying a MAX_EXEC count of 0
+// or limit the goals executed by specifying a smaller number.
+
+// ATTACK BASE goals
+// NOTE: If this value is set to 1, only the one highest priority enemy base will ever be 
+// attacked at a given time.
+// NOTE: If this value is set to 'n', at most the 'n' highest priority enemy bases will
+// ever be attacked at a given time.
+// NOTE: If this value is set to 0, no enemy bases will be attacked. 
+//
+int MAX_EXEC_ATTACK_BASE = 1000;
+
+// ATTACK goals
+// NOTE: If this value is set to 1, only the one highest priority grid 
+// with enemy in it willbe attacked at a time
+// NOTE: If this value is set to 'n', at most the 'n' highest priority grids 
+// with enemy will be attacked at a given time.
+// NOTE: If this value is set to 0, no grids with enemy units will be attacked. 
+//
+int MAX_EXEC_ATTACK = 1000;
+
+// DEFEND goals 
+// NOTE: If this value is set to 1, only the one highest priority base will be defended
+// at a time.
+// NOTE: If this value is set to 'n', only the 'n' highest priority bases will be 
+// defended at a given time.
+// NOTE: If this value is set to 0, none of your bases will be defended. 
+//
+int MAX_EXEC_DEFEND = 1000;
+
+// ESCORT goals
+// NOTE: If this value is set to 1, only the one highest priority escortable ship 
+// will be escorted at a time.
+// NOTE: If this value is set to 'n', at most the 'n' highest priority escortable ships
+// will be defended at a given time.
+// NOTE: If this value is set to 0, none of your ships will be escorted. 
+//
+int MAX_EXEC_ESCORT = 1000;
+
+// EXPLORE goals
+// NOTE: If this value is set to 1, only the one highest priority unexplored grid
+// square will be explored at a time.
+// NOTE: If this value is set to 'n', at most the 'n' highest priority unexplored grid
+// cells will be explored at a given time.
+// NOTE: If this value is set to 0, none of your ships will be escorted. 
+//
+int MAX_EXEC_EXPLORE = 2;
+
+// RESOURCE goals
+// NOTE: If this value is set to 1, only the one highest priority grid cell with moons 
+// will be defended at a time.
+// NOTE: If this value is set to 'n', at most the 'n' highest priority grid cells
+// with mooons will be defended at a given time.
+// NOTE: If this value is set to 0, none of your grid cells with moons will be defended. 
+//
+int MAX_EXEC_RESOURCE = 3;
+
+// NOTE: DO NOT change MAX_EVAL_ values.
+int MAX_EVAL_ATTACK_BASE = 1000;
+int MAX_EVAL_ATTACK = 1000;
+int MAX_EVAL_DEFEND = 1000;
+int MAX_EVAL_ESCORT = 1000;
+int MAX_EVAL_EXPLORE = 1000;
+int MAX_EVAL_RESOURCE = 20;
+//////////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// IV. Raw Priority parameters
+//
+// The raw priority of each goal in a grid square is computed by
+// summing the relevant values below.
+
+/////////////////////////////////////////////////////////////////////
+// ALL goals add these terms:
+/////////////////////////////////////////////////////////////////////
+
+// NOTE: Positive for emphasis away from home, negative for emphasis near home
+int distance_from_home_priority_modifier = 0;
+
+// NOTE: Positive for emphasis away from enemy, negative for emphasis near enemy
+int distance_from_enemy_priority_modifier = 0;
+
+// NOTE: Positive for emphasis in region between home and enemy
+int perimeter_priority = 0;
+
+// NOTE: Positive to avoid places where we have lost more units than we have 
+// killed (not currently computed)
+int avoid_danger_priority_modifier = 0;
+
+/////////////////////////////////////////////////////////////////////
+// Selected goals add these terms (as indicated):
+/////////////////////////////////////////////////////////////////////
+
+// This priority is multiplied by each enemy craft in a grid cell for
+// ATTACK and DEFEND goals; for ATTACK_BASE goals this number is multiplied
+// by -1 * the number of enemy craft.
+// NOTE: Increase positive values to make the AI more likely to attack and defend
+// places with many enemy ships (and undefended bases).
+// NOTE: Decrease negative values to make the AI less likely to attack and defend 
+// places with many enemy ships (or more likely to attack defended bases)
+//
+int attack_troops_priority = 1000;
+
+// Added for each friendly base in a grid cell for DEFEND goals.
+// NOTE: Increase this value to make the AI more likely to defend bases, or decrease
+// to make the AI less likely to defend bases. (valid values: -99999 to 99999)
+//
+int defend_priority = 50;
+
+// Added for each enemy base in a grid cell for ATTACK_BASE goals.
+// NOTE: Increase this value to make the AI more likely to attack enemy bases, 
+// or decrease to make the AI less likely to defend bases. 
+// (valid values: -99999 to 99999)
+//
+int attack_enemy_base_priority = 1500;
+
+// Added for each unit of intrinsic value in a grid cell for ATTACK
+// and ATTACK_BASE goals.
+// NOTE: Increase this value to make the AI more likely to attack
+// valuable targets, or decrease to make the AI less likely to attack
+// valuable targets.  (valid values: 0 to 99999)
+//
+int intrinsic_value_bonus = 500;
+
+// Added to unexplored grid cell for EXPLORE goals.
+// NOTE: Increase this value to make the AI more likely to explore unexplored
+// grid cells, or decrease to make the AI less likely to explore unexplored
+// grid cells. (valid values: -99999 to 99999)
+//
+int exploration_priority = 1000;
+
+// Added for each escorted ship in a grid cell for ESCORT goals.
+// NOTE: Increase this value to make the AI more likely to escort escortable
+// ships, or decrease to make the AI less likely to escort escortable ships. 
+// (valid values: -99999 to 99999)
+//
+int escort_priority = 0;
+
+// Added for each moon in a grid cell for RESOURCE goals.
+// NOTE: Increase this value to make the AI more likely to defend moons, or 
+// decrease to make the AI less likely to defend moons.
+// (valid values: -99999 to 99999)
+//
+int resource_priority = 600;				
+
+/////////////////////////////////////////////////////////////////////
+// V. Match Priority parameters
+// The matching value between each goal in a grid square and a
+// craft that can execute that goal is computed by summing the
+// raw_priority (computed above) with the following terms:
+
+/////////////////////////////////////////////////////////////////////
+// Based on Distance:
+/////////////////////////////////////////////////////////////////////
+
+// The distance from the craft to the goal is multiplied by this term
+// for every legal goal and craft match.  
+// NOTE: The more negative the term, the more likely craft will be assigned to 
+// nearby goals before goals that are far away.  
+//
+double distance_from_goal_match_modifier = -0.01;
+
+// Minimum number of craft to use for each goal type
+// NOTE: If this value is set to 'n', then a minimum of 'n' ships will be used to escort 
+// escortable craft even when they are unthreatened by nearby enemy craft.
+//
+int min_escort_force = 1;
+
+// NOTE: If this value is set to 'n', then a minimum of 'n' ships will be used to defend
+// bases even when they are unthreatened by nearby enemy craft.
+//int min_defense_force = 2;
+
+// NOTE: If this value is set to 'n', then a minimum of 'n' ships will be used to explore
+// an unexplored grid cell.
+int min_exploration_force = 1;
+
+// NOTE: If this value is set to 'n', then a minimum of 'n' ships will be used to
+// attack bases and enemy ships irregardless of the strength of enemy craft defending.
+int min_attack_force = 1;			
+
+// NOTE: If this value is set to 'n', then a minimum of 'n' ships will be used to
+// defend grid cells with moons even when they are unthreatened by nearby enemy craft.
+int min_resource_force = 1;
+
+/////////////////////////////////////////////////////////////////////
+// Resource Tendencies:
+/////////////////////////////////////////////////////////////////////
+// Priority for this AIP to build each type of resource mining bases.
+// If you are not Borg, you cannot build metal, and the value will be
+// ignored. Larger numbers make it more likely to build that type of
+// base
+
+double resource_dilithium_tendency = 2.0;
+double resource_latinum_tendency = 1.0;
+double resource_metal_tendency = 1.5;
+double resource_biomatter_tendency = 1.0;
+
+// how likely are we to build resource bases far from our main base
+// ACTUALLY, this is how IMPORTANT it is that a base be close to our main base
+// This gets multiplied by the inverse of the distance...
+double resource_distance_multiplier = 20000.0;
+
+// how likely are we to prefer resources with more health
+// Since this looks at the actual value of how many units of resource something has,
+// we need to scale this down.  A planet having 32000 resources vs. a planet with 8000
+double resource_health_multiplier = 0.0001;
+
+// how likely are we to build bases we don't already have
+double resource_lack_multiplier = 2.0;
+
+// what is the penalty for building near an enemy resource
+double resource_enemy_penalty = 300.0;
+
+
+/////////////////////////////////////////////////////////////////////
+// VI. NOT USED currently
+// 
+
+// How much force to use for each goal
+int max_escort_force = 1;
+int max_defense_force = 1;
+int max_exploration_force = 1;
+int max_attack_force = 1;
+int max_resource_force = 1;
+
+// How much emphasis to pay to high threat regions
+int attack_region_priority = 1000;
+
+// TROOP COMMITMENT PARAMETERS
+double max_matching_force_ratio = 1.5;
+double min_matching_force_ratio = 0.5;
+
+// Global value for scripted p's
+int scripted_priority = 1;				
+
+// RAW BID MODIFIERS
+int max_danger_raw_bonus = 10;
+int max_threat_raw_bonus = 10; 
+int human_target_raw_bonus = 200;
+int max_misc_bid_bonus = 600; 
+int persistence_modifier = 100;
+
+// PATROL CONTROL
+int patrol_one_in_n = 10;
+
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// END
+//
+///////////////////////////////////////////////////////////////////////////////

@@ -1,4 +1,4 @@
-// Native dependency-ordered standalone production and service docks.
+// Economy-first home-base build sequence; retain small escorts before later attack fleets.
 #include "aipdef.h"
 int checkTechnologyAvailable = 1;
 Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
@@ -6,17 +6,21 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "brbase", 1, 0, -1, 0,
     "brconst", 2, 0, -1, 0,
     "brmining", 1, 0, -1, 0,
-    "brfreight", 1, 0, -1, 0,
     "brfreight", 2, 0, -1, 0,
     "brorbital", 1, 0, -1, 0,
     "bryard", 1, 0, -1, 0,
     "brcolony", 1, 0, -1, 0,
-    "brdestroy", 1, 0, -1, 0,
+    "brfreight", 3, 0, -1, 0,
+    "brdestroy", 2, 0, -1, 0,
+    "xfgmerc", 1, 0, -1, 0,
+    "xfgconst", 1, 0, -1, 0,
+    "xfgserv", 1, 0, -1, 0,
+    "xfgtrade", 2, 0, -1, 0,
     "brdestroy", 2, 0, -1, 0,
     "brresear", 1, 0, -1, 0,
     "brfreight", 3, 0, -1, 0,
     "brscout", 1, 0, -1, 0,
-    "brmining", 1, 2, -1, 0,
+    "brmining", 1, 0, -1, 0,
     "brcruise1", 1, 0, -1, 0,
     "brcruise1", 2, 0, 6, 0,
     "brresear2", 1, 0, -1, 0,
@@ -33,9 +37,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "brbattle2", 16, 0, -1, 0,
     "yabrpolpod", 1, 0, -1, 0,
     "mrc030", 1, 0, -1, 0,
-    "xfgmerc", 1, 0, -1, 0,
-    "xfgconst", 1, 0, -1, 0,
-    "xfgserv", 1, 0, -1, 0,
     "xfgconst2", 1, 0, -1, 0,
     "xfgdref", 1, 0, -1, 0,
     "xfgresearch", 1, 0, -1, 0,
@@ -51,7 +52,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
     "xfgplat", 1, 0, -1, 0,
     "xfgplat2", 1, 0, -1, 0,
     "xfglat3", 1, 0, -1, 0,
-    "xfgtrade", 1, 0, -1, 0,
     "mrc026", 1, 0, -1, 0,
     "xyr_fg", 1, 0, -1, 0,
     "xyr_br", 1, 0, -1, 0,
