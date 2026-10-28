@@ -1,0 +1,104 @@
+{
+  "backup": "D:\\Xaramada-Modwork\\backups\\repair-only-size-time-20261028-081642",
+  "updated": [
+    {
+      "unit": "fremmeler",
+      "name": "Remmla class",
+      "oldScale": 2.5,
+      "newScale": 1.25,
+      "oldBuildTime": 20.0,
+      "newBuildTime": 5.0
+    },
+    {
+      "unit": "xyr_b",
+      "name": "Collective Regeneration Dock",
+      "oldScale": 1.0,
+      "newScale": 0.5,
+      "oldBuildTime": 60.0,
+      "newBuildTime": 15.0
+    },
+    {
+      "unit": "xyr_bg",
+      "name": "Nog's Service Exchange",
+      "oldScale": 0.98994094,
+      "newScale": 0.49497047,
+      "oldBuildTime": 60.0,
+      "newBuildTime": 15.0
+    },
+    {
+      "unit": "xyr_bj",
+      "name": "Kendra Service Dock",
+      "oldScale": 1.03291,
+      "newScale": 0.516455,
+      "oldBuildTime": 60.0,
+      "newBuildTime": 15.0
+    },
+    {
+      "unit": "xyr_br",
+      "name": "Confederacy Restoration Dock",
+      "oldScale": 6.2,
+      "newScale": 3.1,
+      "oldBuildTime": 60.0,
+      "newBuildTime": 15.0
+    },
+    {
+      "unit": "xyr_c",
+      "name": "Lakarian Service Dock",
+      "oldScale": 1.0,
+      "newScale": 0.5,
+      "oldBuildTime": 60.0,
+      "newBuildTime": 15.0
+    },
+    {
+      "unit": "xyr_d",
+      "name": "Great Link Restoration Dock",
+      "oldScale": 2.15,
+      "newScale": 1.075,
+      "oldBuildTime": 60.0,
+      "newBuildTime": 15.0
+    },
+    {
+      "unit": "xyr_fg",
+      "name": "Nog's Service Exchange",
+      "oldScale": 0.98994094,
+      "newScale": 0.49497047,
+      "oldBuildTime": 60.0,
+      "newBuildTime": 15.0
+    },
+    {
+      "unit": "xyr_k",
+      "name": "Qo'noS Refit Dock",
+      "oldScale": 1.7,
+      "newScale": 0.85,
+      "oldBuildTime": 60.0,
+      "newBuildTime": 15.0
+    },
+    {
+      "unit": "xyr_r",
+      "name": "Ch'Rihan Restoration Dock",
+      "oldScale": 1.4,
+      "newScale": 0.7,
+      "oldBuildTime": 60.0,
+      "newBuildTime": 15.0
+    }
+  ],
+  "excludedProductionStations": [
+    {
+      "unit": "mysyard",
+      "production": [
+        "8472_collector",
+        "xsbcol1",
+        "xsbcol2"
+      ]
+    },
+    {
+      "unit": "xyr_f",
+      "production": [
+        "fscout",
+        "fdestroy2",
+        "fdestroy"
+      ]
+    }
+  ],
+  "runtimeVerified": false
+}
