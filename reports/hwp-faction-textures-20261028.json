@@ -1,0 +1,108 @@
+{
+  "backup": "D:\\Xaramada-Modwork\\backups\\hwp-faction-textures-20261028-080622",
+  "models": [
+    {
+      "unit": "fhwp",
+      "model": "ty26_fhwp",
+      "donor": "xvstock_fbase",
+      "oldTextures": [
+        "FbaseA"
+      ],
+      "nativeHullTexture": "FbaseA",
+      "meshCount": 93
+    },
+    {
+      "unit": "bhwp",
+      "model": "ty26_bhwp",
+      "donor": "xvstock_bbase",
+      "oldTextures": [
+        "bbase"
+      ],
+      "nativeHullTexture": "bbase",
+      "meshCount": 88
+    },
+    {
+      "unit": "khwp",
+      "model": "ty26_khwp",
+      "donor": "xvstock_kbase",
+      "oldTextures": [
+        "kbase"
+      ],
+      "nativeHullTexture": "kbase",
+      "meshCount": 86
+    },
+    {
+      "unit": "rhwp",
+      "model": "ty26_rhwp",
+      "donor": "xvstock_rbase",
+      "oldTextures": [
+        "Rbase"
+      ],
+      "nativeHullTexture": "Rbase",
+      "meshCount": 97
+    },
+    {
+      "unit": "chwp",
+      "model": "ty26_chwp",
+      "donor": "xvstock_cbase",
+      "oldTextures": [
+        "cbase"
+      ],
+      "nativeHullTexture": "cbase",
+      "meshCount": 99
+    },
+    {
+      "unit": "dturret3",
+      "model": "ty26_dturret3",
+      "donor": "dbase",
+      "oldTextures": [
+        "dom2"
+      ],
+      "nativeHullTexture": "dom1",
+      "meshCount": 96
+    },
+    {
+      "unit": "bjhwp",
+      "model": "ty26_bjhwp",
+      "donor": "fds9",
+      "oldTextures": [
+        "cresear"
+      ],
+      "nativeHullTexture": "ds9_1",
+      "meshCount": 99
+    },
+    {
+      "unit": "tybrhwp",
+      "model": "ty26_tybrhwp",
+      "donor": "brbase",
+      "oldTextures": [
+        "Zbreendread"
+      ],
+      "nativeHullTexture": "Zbreendread",
+      "meshCount": 88
+    },
+    {
+      "unit": "tyfghwp",
+      "model": "ty26_tyfghwp",
+      "donor": "xfgmerc",
+      "oldTextures": [
+        "xfg6eeb4dc6a"
+      ],
+      "nativeHullTexture": "xfg6eeb4dc6a",
+      "meshCount": 93
+    },
+    {
+      "unit": "tybghwp",
+      "model": "ty26_tybghwp",
+      "donor": "xfgmerc",
+      "oldTextures": [
+        "xfg6eeb4dc6a"
+      ],
+      "nativeHullTexture": "xfg6eeb4dc6a",
+      "meshCount": 93
+    }
+  ],
+  "method": "Reproject original faction station UV face patches onto existing HWP geometry using surface normal and position; original native hull atlas and material reused.",
+  "geometryHardpointsOdfPreserved": true,
+  "runtimeVerified": false
+}
