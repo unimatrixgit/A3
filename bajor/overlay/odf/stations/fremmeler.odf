@@ -102,7 +102,7 @@ hotkeyLabel = "HOTKEY_F5"
 // Make sure we can build this base near dilithium moons and planets
 //resourcesCanHandle = "dilithium"
 
-builder_ship = 0
+builder_ship = 1
 transporter = 1
 SHOW_MOVEMENT_AUTONOMY = 0
 SHOW_SW_AUTONOMY = 0
@@ -139,3 +139,4 @@ repairHardpoint = "hp01"
 verboseTooltip = "Remmla class\nRepairs friendly vessels\nStarfleet infrastructure supports exploration."
 
 baseName = "vr26_fremmeler"
+alwaysRecomputeRallyPoint = 1
