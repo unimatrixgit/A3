@@ -23,18 +23,18 @@ unitName = "Qa'ang Class"
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxHealth = 692
+maxhealth = 1038
 
 // Hitpoints
 
-shieldGeneratorHitPoints = 220
-enginesHitPoints = 190
-weaponsHitPoints = 56
-lifeSupportHitPoints = 315
-sensorsHitPoints = 115
+shieldgeneratorhitpoints = 330
+engineshitpoints = 285
+weaponshitpoints = 84
+lifesupporthitpoints = 472.5
+sensorshitpoints = 172.5
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 2.5
+shieldrate = 3.75
 
 //**********************************************************************
 
@@ -44,10 +44,10 @@ impulseSpeed = 78
 warpSpeed = 520
 
 //Maximum Value of Special Energy
-maxSpecialEnergy = 2400
+maxspecialenergy = 2400
 
 //Rate at which special energy recharges (points per second... we think)
-specialEnergyRate = 24 
+specialenergyrate = 24
 
 //**********************************************************************
 //SHIP NAMES
@@ -140,3 +140,6 @@ tooltip = "Repair Ship (Qa'ang Class)"
 weapon5 = "gkcloak"
 
 verboseTooltip = "Qa'ang Class\nRepair Beam, Cloak\nA warrior vessel of the Klingon Empire."
+weapon6 = "xrctorp"
+weaponHardpoints6 = "hp01"
+canAttack = 1

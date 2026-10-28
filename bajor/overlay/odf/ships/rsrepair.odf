@@ -23,18 +23,18 @@ unitName = "Reman Class"
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxHealth = 718
+maxhealth = 1077
 
 // Hitpoints
 
-shieldGeneratorHitPoints = 214
-enginesHitPoints = 192
-weaponsHitPoints = 47
-lifeSupportHitPoints = 308
-sensorsHitPoints = 117
+shieldgeneratorhitpoints = 321
+engineshitpoints = 288
+weaponshitpoints = 70.5
+lifesupporthitpoints = 462
+sensorshitpoints = 175.5
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 8.3
+shieldrate = 12.45
 
 //**********************************************************************
 
@@ -44,10 +44,10 @@ impulseSpeed = 78
 warpSpeed = 768
 
 //Maximum Value of Special Energy
-maxSpecialEnergy = 2400
+maxspecialenergy = 2400
 
 //Rate at which special energy recharges (points per second... we think)
-specialEnergyRate = 24
+specialenergyrate = 24
 
 //**********************************************************************
 //SHIP NAMES
@@ -132,3 +132,7 @@ tooltip = "Repair Ship (Reman Class)"
 
 
 verboseTooltip = "Reman Class\nRepair Beam, Cloak\nA vessel serving the Romulan Star Empire."
+weapon5 = "xrctorp"
+weaponHardpoints5 = "hp10"
+combat = 1
+canAttack = 1

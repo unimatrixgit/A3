@@ -22,18 +22,18 @@
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxhealth = 380
+maxhealth = 570
 
 // Hitpoints
 
-shieldgeneratorhitpoints = 500
-engineshitpoints = 500
-weaponshitpoints = 500
-lifesupporthitpoints = 500
-sensorshitpoints = 500
+shieldgeneratorhitpoints = 750
+engineshitpoints = 750
+weaponshitpoints = 750
+lifesupporthitpoints = 750
+sensorshitpoints = 750
 
 //Rate at which shield recharges (points per second... we think)
-shieldrate = 3.8
+shieldrate = 5.7
 
 //**********************************************************************
 //SHIP NAMES
@@ -123,9 +123,9 @@ weapon1 = "xbj_grepairbeam"
 weaponhardpoints1 = "hp16"
 weaponhardpoints2 = "hp01" "hp02" "hp03" "hp04"
 
-maxspecialenergy = 1
+maxspecialenergy = 1000
 
-specialenergyrate = 1
+specialenergyrate = 10
 
 repairrate = .25
 
@@ -164,3 +164,6 @@ baseName = "bv4_bjrepair"
 possibleCraftNames = "BMS Kendra" "BMS Dahkur" "BMS Rakantha" "BMS Hathon" "BMS Jalanda" "BMS Dakor" "BMS Tozhat" "BMS Musilla" "BMS Hedrikspool" "BMS Dakhur" "BMS Ashalla" "BMS Dahkur Dawn" "BMS Kendra Spirit" "BMS Bajoran Dawn" "BMS Prophets Grace" "BMS First Light" "BMS Celestial Dawn" "BMS Valley Guardian" "BMS Militia Resolve" "BMS Freedom of Bajor" "BMS Dahkur Sentinel" "BMS Rakantha Shield" "BMS Kendra Vigil" "BMS Bajor Ascendant" "BMS Jalanda Star" "BMS Hathon Guard" "BMS Emissarys Hope" "BMS Liberation" "BMS Gratitude" "BMS New Dawn" "BMS Dahkur Resolve" "BMS Celestial Guardian"
 
 verboseTooltip = "Bajoran Engineering Support Vessel\nRepair Beam\nThe Bajoran Militia defends its homeworld."
+weapon3 = "xrctorp"
+weaponHardpoints3 = "hp16"
+canAttack = 1

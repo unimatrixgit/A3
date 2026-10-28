@@ -23,18 +23,18 @@ unitName = "Breen Restoration Tender"
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxHealth = 380
+maxhealth = 570
 
 // Hitpoints
 
-shieldGeneratorHitPoints = 500
-enginesHitPoints = 500
-weaponsHitPoints = 500
-lifeSupportHitPoints = 500
-sensorsHitPoints = 500
+shieldgeneratorhitpoints = 750
+engineshitpoints = 750
+weaponshitpoints = 750
+lifesupporthitpoints = 750
+sensorshitpoints = 750
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 3.8
+shieldrate = 5.7
 
 //**********************************************************************
 //SHIP NAMES
@@ -115,3 +115,8 @@ verboseTooltip = "Mobile vessel repair support."
 baseName = "brrepair"
 weapon1 = "gRepairBeam"
 weaponHardpoints1 = "hp01"
+maxspecialenergy = 1000
+specialenergyrate = 10
+weapon2 = "xrctorp"
+weaponHardpoints2 = "hp01"
+canAttack = 1

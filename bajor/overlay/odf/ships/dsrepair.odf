@@ -23,18 +23,18 @@ unitName = "Jem'Hadar Repair Ship"
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxHealth = 250
+maxhealth = 375
 
 // Hitpoints
 
-shieldGeneratorHitPoints = 60
-enginesHitPoints = 45
-weaponsHitPoints = 45
-lifeSupportHitPoints = 45
-sensorsHitPoints = 45
+shieldgeneratorhitpoints = 90
+engineshitpoints = 67.5
+weaponshitpoints = 67.5
+lifesupporthitpoints = 67.5
+sensorshitpoints = 67.5
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 2.5
+shieldrate = 3.75
 
 //**********************************************************************
 //SHIP NAMES
@@ -130,3 +130,9 @@ tooltip = "Repair Ship (Jem'Hadar Repair Ship)"
 
 
 verboseTooltip = "Jem'Hadar Repair Ship\nRepair Beam\nThe Founders command; the Jem'Hadar obey."
+maxspecialenergy = 1000
+specialenergyrate = 10
+weapon2 = "xrctorp"
+weaponHardpoints2 = "hp01"
+combat = 1
+canAttack = 1

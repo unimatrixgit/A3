@@ -22,18 +22,18 @@
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxHealth = 380
+maxhealth = 570
 
 // Hitpoints
 
-shieldGeneratorHitPoints = 500
-enginesHitPoints = 500
-weaponsHitPoints = 500
-lifeSupportHitPoints = 500
-sensorsHitPoints = 500
+shieldgeneratorhitpoints = 750
+engineshitpoints = 750
+weaponshitpoints = 750
+lifesupporthitpoints = 750
+sensorshitpoints = 750
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 3.8
+shieldrate = 5.7
 
 //**********************************************************************
 //SHIP NAMES
@@ -126,3 +126,8 @@ tooltip = "Repair Ship (Borg Repair Drone)"
 verboseTooltip = "Borg Repair Drone\nRepair Beam, Transwarp Drive\nThe Collective pursues perfection through unity."
 
 baseName = "dr26_xbrepair"
+maxspecialenergy = 1000
+specialenergyrate = 10
+weapon4 = "xrctorp"
+weaponHardpoints4 = "hp16"
+canAttack = 1

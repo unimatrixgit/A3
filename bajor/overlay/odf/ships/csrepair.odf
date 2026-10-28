@@ -23,18 +23,18 @@ unitName = "Kaltor Class"
 //Metal Cost to build
 
 //Max Shield Strength & Begining Shield Strength <500
-maxHealth = 703
+maxhealth = 1054.5
 
 // Hitpoints
 
-shieldGeneratorHitPoints = 202
-enginesHitPoints = 189
-weaponsHitPoints = 46
-lifeSupportHitPoints = 309
-sensorsHitPoints = 113
+shieldgeneratorhitpoints = 303
+engineshitpoints = 283.5
+weaponshitpoints = 69
+lifesupporthitpoints = 463.5
+sensorshitpoints = 169.5
 
 //Rate at which shield recharges (points per second... we think)
-shieldRate = 4.2
+shieldrate = 6.3
 
 //**********************************************************************
 
@@ -109,3 +109,9 @@ tooltip = "Repair Ship (Kaltor Class)"
 
 
 verboseTooltip = "Kaltor Class\nRepair Beam\nA warship serving the Cardassian Union."
+maxspecialenergy = 1000
+specialenergyrate = 10
+weapon2 = "xrctorp"
+weaponHardpoints2 = "hp09"
+combat = 1
+canAttack = 1

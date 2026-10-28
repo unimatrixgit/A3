@@ -17,9 +17,9 @@ tooltip = "Mercenary Ferengi Repair Tender"
 
 
 
-maxHealth = 650
+maxhealth = 975
 
-shieldRate = 4
+shieldrate = 6
 
 crewCost = 80
 
@@ -39,23 +39,23 @@ buildTime = 35
 
 ScaleSOD = 1.5
 
-maxSpecialEnergy = 0
+maxspecialenergy = 1000
 
-specialEnergyRate = 0
+specialenergyrate = 10
 
 hotkeyLabel = "HOTKEY_F4"
 
 possibleCraftNames = "Opportunity" "New Horizons" "Useful Assets" "Paid In Full"
 
-shieldGeneratorHitPoints = 130
+shieldgeneratorhitpoints = 195
 
-enginesHitPoints = 130
+engineshitpoints = 195
 
-weaponsHitPoints = 130
+weaponshitpoints = 195
 
-lifeSupportHitPoints = 130
+lifesupporthitpoints = 195
 
-sensorsHitPoints = 130
+sensorshitpoints = 195
 
 repairRate = 0.25
 
@@ -75,3 +75,8 @@ biomatterCost = 0
 
 
 verboseTooltip = "Mercenary Ferengi Repair Tender\nRepair Beam\nThe Collective pursues perfection through unity."
+weapon2 = "xrctorp"
+weaponHardpoints2 = "hp01"
+combat = 1
+canAttack = 1
+alert = 1
