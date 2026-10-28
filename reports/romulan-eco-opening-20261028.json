@@ -1,0 +1,96 @@
+{
+  "backup": "D:\\Xaramada-Modwork\\backups\\romulan-opening-20261028-123106",
+  "profiles": [
+    {
+      "profile": "romulan_build_list.aip",
+      "steps": 101,
+      "dependencyIssues": [],
+      "opening": [
+        "rbase",
+        "rconst",
+        "rmining",
+        "rfreight",
+        "ryard",
+        "rcolony",
+        "rorbital",
+        "rfreight",
+        "rtrading",
+        "rcargo",
+        "rdestroy"
+      ]
+    },
+    {
+      "profile": "romulan_defensive_list.aip",
+      "steps": 102,
+      "dependencyIssues": [],
+      "opening": [
+        "rbase",
+        "rconst",
+        "rmining",
+        "rfreight",
+        "ryard",
+        "rcolony",
+        "rorbital",
+        "rfreight",
+        "rtrading",
+        "rcargo",
+        "rdestroy"
+      ]
+    },
+    {
+      "profile": "romulan_endgame_list.aip",
+      "steps": 101,
+      "dependencyIssues": [],
+      "opening": [
+        "rbase",
+        "rconst",
+        "rmining",
+        "rfreight",
+        "ryard",
+        "rcolony",
+        "rorbital",
+        "rfreight",
+        "rtrading",
+        "rcargo",
+        "rdestroy"
+      ]
+    },
+    {
+      "profile": "romulan_instant_action_build_list.aip",
+      "steps": 101,
+      "dependencyIssues": [],
+      "opening": [
+        "rbase",
+        "rconst",
+        "rmining",
+        "rfreight",
+        "ryard",
+        "rcolony",
+        "rorbital",
+        "rfreight",
+        "rtrading",
+        "rcargo",
+        "rdestroy"
+      ]
+    },
+    {
+      "profile": "romulan_offensive_list.aip",
+      "steps": 101,
+      "dependencyIssues": [],
+      "opening": [
+        "rbase",
+        "rconst",
+        "rmining",
+        "rfreight",
+        "ryard",
+        "rcolony",
+        "rorbital",
+        "rfreight",
+        "rtrading",
+        "rcargo",
+        "rdestroy"
+      ]
+    }
+  ],
+  "limitations": "Static producer and prerequisite checks only. Planet-site availability, officer upgrades and actual match economy require runtime testing."
+}
