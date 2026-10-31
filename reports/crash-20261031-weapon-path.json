@@ -1,0 +1,24 @@
+{
+  "dump": "Armada2.exe.27004.dmp",
+  "exception": "0x004d162c null first weapon class in GameObject::Init",
+  "stack": [
+    "Shipyard::FinishBuild",
+    "Producer::FinishBuild",
+    "GameObjectClass::Construct",
+    "Craft::Init",
+    "GameObject::Init"
+  ],
+  "confirmed": "Ship production completion / weapon initialization crash",
+  "suspectedCause": "T Varek Federation hero first weapon tvarpulse and companion weapons/ordnance exist only outside native category search folders",
+  "causeConfirmed": false,
+  "installedFiles": [
+    "odf/weapons/Pulse/tvarpulse.odf",
+    "odf/weapons/Pulse/tvarpulseo.odf",
+    "odf/weapons/Phasers/tvarbeam.odf",
+    "odf/weapons/Phasers/tvarbeamo.odf",
+    "odf/weapons/Photons/tvartorp.odf",
+    "odf/weapons/Photons/tvartorpo.odf"
+  ],
+  "backup": "D:\\Xaramada-Modwork\\backups\\tvarek-weapon-path-20261031-204126",
+  "limits": "Sparse dump omits ship object heap; exact produced ship unknown. Path correction requires gameplay retest. No mining rollback performed."
+}
