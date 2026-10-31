@@ -52,16 +52,16 @@ for name,a in design['assets'].items():
   pp,mm=parts(src);materials.extend(mm);ang=math.radians(yaw);rot=np.array([[math.cos(ang),0,math.sin(ang)],[0,1,0],[-math.sin(ang),0,math.cos(ang)]])
   for p in pp:p['vertices']=(p['vertices']*np.array(stretch)*size)@rot.T+np.array(pos);assembled.append(p)
  if tier==0:add(base,1)
- elif tier==1:add(advanced,1,stretch=(1.15,1,.85));add(prefix+'resear',.22,(0,.35,-.25))
+ elif tier==1:add(advanced,1,stretch=(1.15,1,.85))
  elif tier==2:add(advanced,1.2);add(command,.48,(0,.45,-.22),stretch=(1,.75,1))
  elif tier==3:
   add(base,.68,(-.42,0,0),yaw=90);add(advanced,.68,(.42,0,0),yaw=-90);add(command,.4,(0,.25,-.25))
- elif tier==4:add(advanced,1,stretch=(.8,1.3,1.15),yaw=90);add(prefix+'resear2',.35,(0,.4,0))
+ elif tier==4:add(advanced,1,stretch=(.8,1.3,1.15),yaw=90)
  elif tier>=5:
   for side in [-1,1]:add(base,.65,(side*.4,0,side*.12),yaw=side*30)
   add(command,.5,(0,.35,0),yaw=45 if tier==6 else 0)
   if tier==6:add(advanced,.5,(0,-.1,-.4),yaw=90)
- else:add(base,.95,stretch=(.8,.8,1.2));add(prefix+'resear',.36,(.28,.25,-.3))
+ else:add(base,.95,stretch=(.8,.8,1.2))
  # Ferengi use their own saucer hull as a command module; assimilated version retains Borg materials.
  if code=='fg':add('xfgdaim',.35,(0,.35,0),stretch=(1,.5,1))
  for n in model.nodes:
