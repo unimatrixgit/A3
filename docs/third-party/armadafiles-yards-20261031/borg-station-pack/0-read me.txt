@@ -1,0 +1,209 @@
+This folder contains the borg stations.
+
+Some stations I recreated, of others I edited the mesh. 
+All stations have new textures.
+
+Important Note:
+Make a backup of your existing files, because files in this folder will overwrite stock files!
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Credits:
+
+As allways, thanks to Wrath of Achilles for his Texture Tutorial and Major A Payne for his SodTutorial. 
+
+All meshes, textures, etc are by me.
+The ODF files are edited stock files. 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Please note:
+
+I cannot be hold responsible for any damage or problems otherwise regarding this model. 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+You may use this ship in your mod, just give credit where its due. 
+
+THIS MATERIAL IS NOT MADE OR SUPPORTED BY ACTIVISION.
+
+Thank you for downloading.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Installation instructions
+
+Open the SOD folder -->
+
+Put the sod files into the sod folder of Armada II. When prompted to overwrite, click 'yes'. 
+( I include the MS3D files for those who are interested.)
+
+Open the ODF folder -->
+
+Put the odf file into the odf ship folder of Armada II. When prompted to overwrite, click 'yes'. 
+
+Open the Texturefolder -->
+put the tga into the texture RGB folder of Armada II. When prompted to overwrite, click 'yes'.
+
+
+Open the Bitmaps folder -->
+
+Open the Bitmaps folder of Armada II --> open Admiralslog --> open ShipImages and put the images there. When prompted to overwrite, click 'yes'.  
+
+****************************************
+Open Sprites --> open gui_global
+
+find the lines:
+ 
+# Borg wireframes
+
+@reference=256
+
+delete the following lines:
+
+bbasew1				borgwireframe04	0	48	48	48		
+bbasew2				borgwireframe04	48	48	48	48		
+bbasew3				borgwireframe04	96	48	48	48		
+bbasew4				borgwireframe04	144	48	48	48		
+bbasew5				borgwireframe04	192	48	48	48
+
+bminingw1			borgwireframe04	0	96	48	48		
+bminingw2			borgwireframe04	48	96	48	48		
+bminingw3			borgwireframe04	96	96	48	48		
+bminingw4			borgwireframe04	144	96	48	48		
+bminingw5			borgwireframe04	192	96	48	48
+
+byardw1				borgwireframe04	0	144	48	48		
+byardw2				borgwireframe04	48	144	48	48		
+byardw3				borgwireframe04	96	144	48	48		
+byardw4				borgwireframe04	144	144	48	48		
+byardw5				borgwireframe04	192	144	48	48
+
+byard2w1			borgwireframe04	0	192	48	48		
+byard2w2			borgwireframe04	48	192	48	48		
+byard2w3			borgwireframe04	96	192	48	48		
+byard2w4			borgwireframe04	144	192	48	48		
+byard2w5			borgwireframe04	192	192	48	48
+
+bsensorw1			borgwireframe05	0	0	48	48		
+bsensorw2			borgwireframe05	48	0	48	48		
+bsensorw3			borgwireframe05	96	0	48	48		
+bsensorw4			borgwireframe05	144	0	48	48		
+bsensorw5			borgwireframe05	192	0	48	48
+
+bturretw1			borgwireframe05	0	48	48	48		
+bturretw2			borgwireframe05	48	48	48	48		
+bturretw3			borgwireframe05	96	48	48	48		
+bturretw4			borgwireframe05	144	48	48	48		
+bturretw5			borgwireframe05	192	48	48	48	
+
+bturret2w1			borgwireframe05	0	96	48	48		
+bturret2w2			borgwireframe05	48	96	48	48		
+bturret2w3			borgwireframe05	96	96	48	48		
+bturret2w4			borgwireframe05	144	96	48	48		
+bturret2w5			borgwireframe05	192	96	48	48
+
+bsuperblw1			borgwireframe05	0	144	48	48		
+bsuperblw2			borgwireframe05	48	144	48	48		
+bsuperblw3			borgwireframe05	96	144	48	48		
+bsuperblw4			borgwireframe05	144	144	48	48		
+bsuperblw5			borgwireframe05	192	144	48	48
+
+brecyclew1			borgwireframe05	0	192	48	48		
+brecyclew2			borgwireframe05	48	192	48	48		
+brecyclew3			borgwireframe05	96	192	48	48		
+brecyclew4			borgwireframe05	144	192	48	48		
+brecyclew5			borgwireframe05	192	192	48	48
+
+bportalw1			borgwireframe06	0	0	48	48		
+bportalw2			borgwireframe06	48	0	48	48		
+bportalw3			borgwireframe06	96	0	48	48		
+bportalw4			borgwireframe06	144	0	48	48		
+bportalw5			borgwireframe06	192	0	48	48
+
+bresearw1			borgwireframe06	0	96	48	48		
+bresearw2			borgwireframe06	48	96	48	48		
+bresearw3			borgwireframe06	96	96	48	48		
+bresearw4			borgwireframe06	144	96	48	48		
+bresearw5			borgwireframe06	192	96	48	48
+
+bresear2w1			borgwireframe06	0	144	48	48		
+bresear2w2			borgwireframe06	48	144	48	48		
+bresear2w3			borgwireframe06	96	144	48	48		
+bresear2w4			borgwireframe06	144	144	48	48		
+bresear2w5			borgwireframe06	192	144	48	48
+
+bupgradew1			borgwireframe06	0	192	48	48		
+bupgradew2			borgwireframe06	48	192	48	48		
+bupgradew3			borgwireframe06	96	192	48	48		
+bupgradew4			borgwireframe06	144	192	48	48		
+bupgradew5			borgwireframe06	192	192	48	48
+
+btechassw1			borgwireframe07	0	0	48	48		
+btechassw2			borgwireframe07	48	0	48	48		
+btechassw3			borgwireframe07	96	0	48	48		
+btechassw4			borgwireframe07	144	0	48	48		
+btechassw5			borgwireframe07	192	0	48	48
+
+next:
+
+find the lines:
+
+# Borg wireframes
+
+@reference=128 (if not present, just add the reference)
+
+add below that list:
+
+bbasew1			  	wfbbase  	0	0	128	128
+
+byardw1			  	wfbyard  	0	0	128	128
+
+byard2w1		  	wfbyard2  	0	0	128	128
+
+bminingw1			wfbmining  	0	0	128	128
+
+bsensorw1   			wfbsensor  	0	0	128	128
+
+bturretw1			wfbturret  	0	0	128	128
+
+bturret2w1			wfbturret2  	0	0	128	128
+
+bsuperblw1			wfbsuperbl  	0	0	128	128
+
+brecyclew1			wfbsuperbl  	0	0	128	128
+
+bportalw1			wfbportal  	0	0	128	128
+
+bresearw1			wfbresear  	0	0	128	128
+
+bresear2w1			wfbresear2  	0	0	128	128
+
+bupgradew1			wfbupgrade  	0	0	128	128
+
+btechassw1			wfbtechass  	0	0	128	128
+
+
+********************************************************************
+
+That should do it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

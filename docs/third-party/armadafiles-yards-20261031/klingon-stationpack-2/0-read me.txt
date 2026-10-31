@@ -1,0 +1,186 @@
+This folder contains the remaining klingon stations. Some stations I recreated, of others I edited the textures. 
+The yard is a remake of my old kyard version.
+
+
+Important Note:
+Make a backup of your existing files, because files in this folder will overwrite stock files!
+
+Second important note:
+
+You need to install my kbase and ksuper also. The stock textures of these stations will be overwritten!!! 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Credits:
+
+As allways, thanks to Wrath of Achilles for his Texture Tutorial and Major A Payne for his SodTutorial. 
+Special thanks to  Apoclaydon/blade for his tutorial on animation.
+
+
+All meshes, textures, etc are by me. 
+Special thanks to Thomas Bernard for his help with harpoints etc. with a number of these stations.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Please note:
+
+I cannot be hold responsible for any damage or problems otherwise regarding this model. 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+You may use this ship in your mod, just give credit where its due. 
+
+THIS MATERIAL IS NOT MADE OR SUPPORTED BY ACTIVISION.
+
+Copyright notices: 
+
+Star Trek, Star Fleet Command, Star Trek: Deep Space Nine, Star Trek: The Next Generation,
+Star Trek: Voyager (and the various logo devices used in them) are copyright
+Paramount Pictures, as are the characters, related images, and sound from the productions.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+If you have any questions, you can contact me at aad.moerman@hetnet.nl
+
+Thank you for downloading.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Installation instructions
+
+Open the SOD folder -->
+
+Put the sod files into the sod folder of Armada II. When prompted to overwrite, click 'yes'. 
+
+Open the ODF folder -->
+
+Put the odf file into the odf ship folder of Armada II. When prompted to overwrite, click 'yes'. 
+
+Open the Texturefolder -->
+put the tga into the texture RGB folder of Armada II. When prompted to overwrite, click 'yes'. 
+
+( I include some of the MS3D files for those who are interested.)
+
+Open the Bitmaps folder -->
+
+Open the Bitmaps folder of Armada II --> open Admiralslog --> open ShipImages and put the images there. When prompted to overwrite, click 'yes'.  
+
+
+****************************************
+Open Sprites --> open gui_global
+
+find the lines:
+
+# Klingon wireframes
+@reference=256
+
+delete the following lines:
+
+kyardw1				klingwireframe05	0	0	48	48		
+kyardw2				klingwireframe05	48	0	48	48		
+kyardw3				klingwireframe05	96	0	48	48		
+kyardw4				klingwireframe05	144	0	48	48		
+kyardw5				klingwireframe05	192	0	48	48
+
+ksensorw1			klingwireframe05	0	96	48	48		
+ksensorw2			klingwireframe05	48	96	48	48		
+ksensorw3			klingwireframe05	96	96	48	48		
+ksensorw4			klingwireframe05	144	96	48	48		
+ksensorw5			klingwireframe05	192	96	48	48
+
+kturretw1			klingwireframe05	0	144	48	48		
+kturretw2			klingwireframe05	48	144	48	48		
+kturretw3			klingwireframe05	96	144	48	48		
+kturretw4			klingwireframe05	144	144	48	48		
+kturretw5			klingwireframe05	192	144	48	48
+
+kturret2w1			klingwireframe05	0	192	48	48		
+kturret2w2			klingwireframe05	48	192	48	48		
+kturret2w3			klingwireframe05	96	192	48	48		
+kturret2w4			klingwireframe05	144	192	48	48		
+kturret2w5			klingwireframe05	192	192	48	48
+
+ksuperblw1			klingwireframe06	0	0	48	48		
+ksuperblw2			klingwireframe06	48	0	48	48		
+ksuperblw3			klingwireframe06	96	0	48	48		
+ksuperblw4			klingwireframe06	144	0	48	48		
+ksuperblw5			klingwireframe06	192	0	48	48
+
+korbitalw1			klingwireframe06	0	48	48	48		
+korbitalw2			klingwireframe06	48	48	48	48		
+korbitalw3			klingwireframe06	96	48	48	48		
+korbitalw4			klingwireframe06	144	48	48	48		
+korbitalw5			klingwireframe06	192	48	48	48
+
+kresearw1			klingwireframe06	0	144	48	48		
+kresearw2			klingwireframe06	48	144	48	48		
+kresearw3			klingwireframe06	96	144	48	48		
+kresearw4			klingwireframe06	144	144	48	48		
+kresearw5			klingwireframe06	192	144	48	48
+
+kresear2w1			klingwireframe06	0	192	48	48		
+kresear2w2			klingwireframe06	48	192	48	48		
+kresear2w3			klingwireframe06	96	192	48	48		
+kresear2w4			klingwireframe06	144	192	48	48		
+kresear2w5			klingwireframe06	192	192	48	48
+
+kupgradew1			klingwireframe07	0	0	48	48		
+kupgradew2			klingwireframe07	48	0	48	48		
+kupgradew3			klingwireframe07	96	0	48	48		
+kupgradew4			klingwireframe07	144	0	48	48		
+kupgradew5			klingwireframe07	192	0	48	48
+
+next:
+
+find the lines:
+
+# Klingon wireframes
+
+@reference=128 (if not present, just add the reference)
+
+add below that list:
+
+kresearw1			wfkrsrch00		0	0	128   	128
+
+kresear2w1			wfkresear2		0	0	128   	128
+
+kupgradew1			wfkupgrade		0	0	128   	128
+
+korbitalw1			wfkorbital		0	0	128   	128
+
+kturretw1			wfkturret		0	0	128   	128
+
+kturret2w1			wfkturret2		0	0	128   	128
+
+ksensorw1			wfksensor		0	0	128   	128
+
+ksuperblw1			wfksuperbl		0	0	128	128
+
+kyardw1				wfkyard			0	0	128   	128
+
+********************************************************************
+
+
+
+
+That should do it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

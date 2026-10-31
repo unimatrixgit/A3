@@ -79,7 +79,7 @@ builder_ship = 1
 transporter = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
-scaleSOD = 6.2
+
 shieldDelay = 3.0f
 rangeScan = 800.0f
 damagedScan = 100.0f
@@ -143,7 +143,6 @@ latinumCost = 0
 
 biomatterCost = 0
 
-baseName = "mrybreen"
 
 unitName = "Breen Mirror Universe Yard"
 
@@ -163,3 +162,5 @@ verboseTooltip = "Breen Mirror Universe Yard\nShip construction\nA stronghold of
 repairFacility = 0
 decommissionFacility = 0
 recrewRate = 0
+baseName = "ay31_mrybreen"
+ScaleSOD = 6.2

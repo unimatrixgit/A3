@@ -146,9 +146,6 @@ race = "bajoran"
 
 unitName = "Dahkur Command Shipyard"
 
-
-
-ScaleSOD = 1.380014
 buildhardpoint = "build"
 criticaltargethardpoints = "hp01" "hp02" "hp03" "hp04" "hp05" "hp19" "hp21" "hp22"
 enginestargethardpoints = "hp06" "hp07" "hp08" "hp09" "hp10" "hp23" "hp24" "hp25"
@@ -192,10 +189,9 @@ biomatterCost = 0
 tooltip = "Shipyard (Dahkur Command Shipyard)"
 
 
-
-baseName = "bv4_bjyard3"
-
 verboseTooltip = "Dahkur Command Shipyard\nShip construction\nBajor rebuilds after Cardassian occupation."
 repairFacility = 0
 decommissionFacility = 0
 recrewRate = 0
+baseName = "ay31_bjyard3"
+ScaleSOD = 1.83734247424

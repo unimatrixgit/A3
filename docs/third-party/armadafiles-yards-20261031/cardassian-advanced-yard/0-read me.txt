@@ -1,0 +1,75 @@
+Cardassian advanced yard (kit bash) by Aad Moerman
+
+This is my version of the Cardassian advanced yard. Now it looks more like a yard, the stock one was, how shall I say, a bit bare. 
+I've edited the stock mesh and textures and made a new wireframe and buildbutton.
+
+Important Note:
+Make a backup of your existing files, because most files in this folder will overwrite the stock files!
+
+Credits:
+
+Original mesh and textures from Armada 2.
+
+Please note:
+I cannot be hold responsible for any damage or problems otherwise regarding this model. 
+
+
+You may use these ships in your mod, just give credit where its do. 
+
+
+Thank you for downloading.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Installation instructions
+
+Put the sod file into the sod folder of Armada II. When prompted to overwrite, click 'yes'. 
+
+Put the odf file into the odf station folder of Armada II. When prompted to overwrite, click 'yes'. 
+
+put the tga into the texture RGB folder of Armada II. When prompted to overwrite, click 'yes'. 
+( I include the MS3D files for those who are interested.)
+
+Open the Bitmaps folder of Armada II --> open Admiralslog --> open ShipImages and put the image there. When prompted to overwrite, click 'yes'.  
+
+**************************************
+
+****************************************
+Open Sprites --> open gui_global
+
+find the lines:
+
+#Cardassian wireframes
+@reference=256
+
+delete the following lines:
+
+cyard2w1			cardwireframe05	0	48	48	48		
+cyard2w2			cardwireframe05	48	48	48	48		
+cyard2w3			cardwireframe05	96	48	48	48		
+cyard2w4			cardwireframe05	144	48	48	48		
+cyard2w5			cardwireframe05	192	48	48	48	
+
+then find:
+
+#Cardassian wireframes
+@reference=128 (if not present, just add the reference)
+
+add below that list:
+
+cyard2w1            		wfcyard2        0	0	128	128
+
+********************************************************************
+
+
+
+
+That's it!
+
+
+
+
+
+
+
+

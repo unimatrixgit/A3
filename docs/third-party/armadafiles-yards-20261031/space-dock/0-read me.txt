@@ -1,0 +1,104 @@
+Hi,
+
+here is my version of the federation spacedock and two variants of it.
+
+fdock_ur depicts the larger TNG – Version of the spacedock that can support even the largest federation ships.
+
+fdock2 depicts the smaller TMG – Version
+fdock3 can be used as a variant of it.
+
+fdock_ur is a HQ-Model with 7148 polys. 
+fdock2 is a HQ-Model with 7988 polys. 
+fdock3 is a HQ-Model with 8204 polys. 
+
+fdock2 / 3 have higher poly- counts due to their antennae configuration
+
+Since all run perfectly on my computer I think that’s no problem.
+
+I am using large texture files for the stations (1024 x 1024). This my lead to problems with some older computers / graphic cards ( Excessive lagging for example) . I experienced none but cannot guarantee otherwise.
+So you have been warned.
+
+
+I made the models following the photos that you can find on the net. If you want to see some reference go to  http://www.ex-astris-scientia.org/ 
+
+Do not be astonished about the long weapons list. The stations is quite tall so they are needed.
+I have seldom seen it using them all.
+If you do not like it change it.
+
+HP- Maps are included.
+Some additional info:
+HP 01 – 10 are located on the centre axis an used targeting, see the odf.
+HP 92 – 95 are located at the Hangars. I am using them for my fighter squadron. ( Not included )
+
+
+Should any problem arise with these stations, you can send me a PM  on armadafleetcommand.com. 
+
+Legal:
+
+My work can be used in other persons mods if they give proper credit in the read me, under the condition that this mod stays non commercial and is not uploaded to a paysite.
+
+There are only 2 websites where I publish my work.
+Armadafleetcommand.com
+Armada2files.com
+You may not upload my work to any other website as singular files.
+
+
+
+Install:
+
+Copy all .tga-files into Armada2 / Textures / RGB
+Copy the .sod-file into Armada2 / SOD
+Copy the .odf-file into Armada2 / ODF / Stations
+Copy the .bmp-file into Armada2 / bitmaps / Admiralslog / Shipimages
+
+All 3 stations use the same texture files.
+
+Go to Armada2 / techtree
+Open tech1.tt and fulltech.tt and insert:
+
+fdock_ur.odf 0
+fdock2.odf 0
+fdock3.odf 0
+
+Go to Armada2 / Sprites
+Open gui_global.spr
+Insert the lines
+
+At 
+# Federation build buttons
+@reference=64
+
+insert
+
+b_fdock_ur		gbfdock_ur	0	0	64	64
+b_fdock2			gbfdock2		0	0	64	64
+b_fdock3			gbfdock3		0	0	64	64
+
+
+At
+# Ship Wireframes
+@reference=512
+
+insert
+
+fdock_urw1		fdock_urwf	0	0	128	128		
+fdock_urw2		fdock_urwf	128	0	128	128		
+fdock_urw3		fdock_urwf	256	0	128	128		
+fdock_urw4		fdock_urwf	0	128	128	128		
+fdock_urw5		fdock_urwf	128	128	128	128
+
+fdock2w1			fdock2_wf	0	0	128	128		
+fdock2w2			fdock2_wf	128	0	128	128		
+fdock2w3			fdock2_wf	256	0	128	128		
+fdock2w4			fdock2_wf	0	128	128	128		
+fdock2w5			fdock2_wf	128	128	128	128
+
+fdock3w1			fdock3_wf	0	0	128	128		
+fdock3w2			fdock3_wf	128	0	128	128		
+fdock3w3			fdock3_wf	256	0	128	128		
+fdock3w4			fdock3_wf	0	128	128	128		
+fdock3w5			fdock3_wf	128	128	128	128
+
+If the line @reference=512 does not exist in your version of gui_global.spr copy it also.
+
+Have fun Shadow.

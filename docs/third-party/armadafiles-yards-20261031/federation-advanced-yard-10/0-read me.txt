@@ -1,0 +1,77 @@
+Federation advanced yard by Aad Moerman
+
+This is my version of the Federation advanced yard. I thought the stock yard wasn't what I liked, so I created my own version.
+
+
+Important Note:
+Make a backup of your existing files, because the files in this folder will overwrite the stock files!
+
+Credits:
+
+As allways, thanks to Wrath of Achilles for his Texture Tutorial and Major A Payne for his SodTutorial. 
+
+All meshes, textures, etc are by me. 
+
+The Odf files are edited stock files.
+
+Please note:
+I cannot be hold responsible for any damage or problems otherwise regarding this model. 
+
+
+You may use this yard in your mod, just give credit where its do. 
+
+
+Thank you for downloading.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Installation instructions
+
+Put the sod files into the sod folder of Armada II. When prompted to overwrite, click 'yes'. 
+
+Put the odf file into the odf station folder of Armada II. When prompted to overwrite, click 'yes'. 
+
+put the tga into the texture RGB folder of Armada II. When prompted to overwrite, click 'yes'. 
+( I include the MS3D files for those who are interested.)
+
+Open the Bitmaps folder -->
+
+Open the Bitmaps folder of Armada II --> open Admiralslog --> open ShipImages and put the image there. When prompted to overwrite, click 'yes'.  
+
+**************************************
+
+****************************************
+Open Sprites --> open gui_global
+
+find the lines:
+
+# Federation wireframes
+
+@reference=256
+
+delete these lines:
+
+fyard2w1			fedwireframe05	0	192	48	48		
+fyard2w2			fedwireframe05	48	192	48	48		
+fyard2w3			fedwireframe05	96	192	48	48		
+fyard2w4			fedwireframe05	144	192	48	48		
+fyard2w5			fedwireframe05	192	192	48	48
+
+then find this list:
+
+@reference=128 (if not present, just add the reference)
+
+add below that list:
+
+fyard2w1			wffyard2		0	0	128   	128
+
+********************************************************************
+
+
+That's it!
+
+
+
+
+
+

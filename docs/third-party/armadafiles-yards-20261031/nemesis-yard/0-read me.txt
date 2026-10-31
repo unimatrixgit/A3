@@ -1,0 +1,91 @@
+Nemesis yard by Aad Moerman
+
+This is my version of the shipyard from the movie Nememis. You can use it as an 2nd advanced yard, if you like. 
+
+Important Note:
+Make a backup of your existing files, just in case.
+Credits:
+
+As allways, thanks to Wrath of Achilles for his Texture Tutorial and Major A Payne for his SodTutorial. 
+
+All meshes, textures, etc are by me. 
+
+The Odf files are edited stock files.
+
+Please note:
+I cannot be hold responsible for any damage or problems otherwise regarding this model. 
+
+
+You may use this yard in your mod, just give credit where its do. 
+
+
+Thank you for downloading.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Installation instructions
+
+Put the sod files into the sod folder of Armada II. When prompted to overwrite, click 'yes'. 
+
+Put the odf file into the odf station folder of Armada II. When prompted to overwrite, click 'yes'. 
+
+put the tga into the texture RGB folder of Armada II. When prompted to overwrite, click 'yes'. 
+( I include the MS3D files for those who are interested.)
+
+Open the Bitmaps folder -->
+
+Open the Bitmaps folder of Armada II --> open Admiralslog --> open ShipImages and put the image there. When prompted to overwrite, click 'yes'.  
+
+**************************************
+****************************************
+Open techtree file
+
+Open
+tech1
+
+under Federation stations add:
+
+fmyard.odf    2 fyard.odf fresear.odf               // advanced shipyard
+
+***************************************
+Open
+fulltech
+
+add under Federation:
+
+fmyard.odf   0
+
+
+****************************************
+
+Open Sprites --> open gui_global
+find:
+ 
+# Federation build buttons
+@reference=64
+
+add below that list:
+
+b_fmyard			gbfmyard		0	0	64	64
+
+
+find:
+
+# Federation wireframes
+@reference=128 (if not present, just add the reference)
+
+add below that list:
+
+fmardw1			wffmyard		0	0	128	128
+
+
+********************************************************************
+
+
+That's it!
+
+
+
+
+
+

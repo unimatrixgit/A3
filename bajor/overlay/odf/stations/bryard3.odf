@@ -72,7 +72,7 @@ builder_ship = 1
 transporter = 1
 SHOW_MOVEMENT_AUTONOMY = 1
 SHOW_SW_AUTONOMY = 1
-scaleSOD = 8.0
+
 shieldDelay = 3.0f
 rangeScan = 800.0f
 damagedScan = 100.0f
@@ -101,7 +101,7 @@ has_hitpoints = 1
 checkValidResourceInterval = 10.0f
 
 // End misc properties
-baseName = "bryard2"
+
 
 
 
@@ -136,3 +136,5 @@ verboseTooltip = "Thot's Command Dock\nShip construction\nA stronghold of the my
 repairFacility = 0
 decommissionFacility = 0
 recrewRate = 0
+baseName = "ay31_bryard3"
+ScaleSOD = 8
