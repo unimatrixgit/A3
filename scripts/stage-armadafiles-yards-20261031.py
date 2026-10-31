@@ -49,6 +49,13 @@ for n,d in cache.items():
  if('yard'in n or n.startswith('mry')or n in ['8472_fluidicgate','xfgmerc','xfgserv','xbgmerc','xbgserv']):targets.append(n)
 for n in sorted(targets):
  d=cache[n];race=d.get('race','').lower();assert race in choices,(n,race);tier=ordered.get(n,2 if n.startswith('mry')else(1 if n.endswith('2')or n=='8472_fluidicgate'else 2 if n.endswith('3')else 0));options=choices[race];pack,modelname=options[tier%len(options)];src=source(pack,modelname);m=load(src);old=load(sods[d.get('basename',n).lower()]);lo,hi=bounds(m);olo,ohi=bounds(old);span=max(hi-lo);oldspan=max(ohi-olo);scale=float(d.get('scalesod','1').rstrip('fF'))*oldspan/span;assert scale>0
+ if race=='borg':
+  for material in m.materials:
+   glow=any(k in material['name'].lower()for k in['glow','green','light'])
+   material['ambient_color']=[.04,.32,.06]if glow else[.07,.17,.085]
+   material['diffuse_color']=[.18,1.0,.24]if glow else[.52,.72,.56]
+   material['specular_color']=[.1,.65,.15]if glow else[.16,.3,.19]
+   material['specular_shininess']=32.0
  # Each yard uses exactly one downloaded model. No additional hulls are added.
  for node in m.nodes:
   if node['type']=='MESH':

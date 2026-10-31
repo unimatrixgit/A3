@@ -1,0 +1,96 @@
+{
+  "backup": "D:\\Xaramada-Modwork\\backups\\dominion-placement-borg-materials-20261031-221635",
+  "borgYards": [
+    {
+      "unit": "byard",
+      "model": "SOD/ay31_byard.sod",
+      "materialsChanged": 1,
+      "geometryUVsTexturesAnchorsUnchanged": true
+    },
+    {
+      "unit": "byard2",
+      "model": "SOD/ay31_byard2.sod",
+      "materialsChanged": 3,
+      "geometryUVsTexturesAnchorsUnchanged": true
+    },
+    {
+      "unit": "byard3",
+      "model": "SOD/ay31_byard3.sod",
+      "materialsChanged": 2,
+      "geometryUVsTexturesAnchorsUnchanged": true
+    },
+    {
+      "unit": "mryborg",
+      "model": "SOD/ay31_mryborg.sod",
+      "materialsChanged": 2,
+      "geometryUVsTexturesAnchorsUnchanged": true
+    },
+    {
+      "unit": "mybyard",
+      "model": "SOD/ay31_mybyard.sod",
+      "materialsChanged": 1,
+      "geometryUVsTexturesAnchorsUnchanged": true
+    },
+    {
+      "unit": "xbgmerc",
+      "model": "SOD/ay31_xbgmerc.sod",
+      "materialsChanged": 1,
+      "geometryUVsTexturesAnchorsUnchanged": true
+    },
+    {
+      "unit": "xbgserv",
+      "model": "SOD/ay31_xbgserv.sod",
+      "materialsChanged": 3,
+      "geometryUVsTexturesAnchorsUnchanged": true
+    }
+  ],
+  "dominionPlacement": [
+    {
+      "unit": "dyard",
+      "before": {
+        "footprintBuffer": "73.8432928622",
+        "avoidanceClass": "0"
+      },
+      "after": {
+        "footprintBuffer": 25,
+        "avoidanceClass": 1000
+      }
+    },
+    {
+      "unit": "dyard2",
+      "before": {
+        "footprintBuffer": "50.9954011774",
+        "avoidanceClass": "1000"
+      },
+      "after": {
+        "footprintBuffer": 25,
+        "avoidanceClass": 1000
+      }
+    },
+    {
+      "unit": "dyard3",
+      "before": {
+        "footprintBuffer": "81.4641692744",
+        "avoidanceClass": "1000"
+      },
+      "after": {
+        "footprintBuffer": 25,
+        "avoidanceClass": 1000
+      }
+    }
+  ],
+  "installedFiles": [
+    "SOD/ay31_byard.sod",
+    "SOD/ay31_byard2.sod",
+    "SOD/ay31_byard3.sod",
+    "SOD/ay31_mryborg.sod",
+    "SOD/ay31_mybyard.sod",
+    "SOD/ay31_xbgmerc.sod",
+    "SOD/ay31_xbgserv.sod",
+    "odf/stations/dyard.odf",
+    "odf/stations/dyard2.odf",
+    "odf/stations/dyard3.odf"
+  ],
+  "runtimeVerified": false,
+  "limitations": "Dominion constructors build a refinery, so AI execution is active. Yard placement settings normalized to working Federation yard values. Runtime blockage cause remains unconfirmed; fresh-match retest required. Borg changes are material coefficients only; original meshes, UVs, texture references and all node transforms verified unchanged."
+}

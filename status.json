@@ -1,5 +1,5 @@
 {
-  "current": "White yard textures corrected:3 thumbnail BMPs replaced by actual hull TGAs, affecting11 yards; matching icons refreshed. All55 yard texture mappings reviewed. Dominion5 profiles now request yard before mining station; static checks pass, runtime stall resolution pending.",
+  "current": "Dominion yard placement recovery installed:3 yards normalized to25 footprint buffer /1000 avoidance class, matching Federation settings; yard-first AI retained. Borg7 production-yard materials darkened/tinted green with geometry/UVs/textures unchanged. File checks pass; runtime tests pending.",
   "steps": [
     {
       "label": "Current configuration and artwork: Apply approved fixes",
