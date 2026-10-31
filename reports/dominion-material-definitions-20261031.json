@@ -1,0 +1,52 @@
+{
+  "backup": "D:\\Xaramada-Modwork\\backups\\dominion-material-definitions-20261031-234036",
+  "yardModelsAudited": 55,
+  "fixed": [
+    {
+      "unit": "dyard",
+      "materialDefinitionsAdded": [
+        "domyard"
+      ],
+      "model": "SOD/ay31_dyard.sod"
+    },
+    {
+      "unit": "dyard2",
+      "materialDefinitionsAdded": [
+        "domyard"
+      ],
+      "model": "SOD/ay31_dyard2.sod"
+    },
+    {
+      "unit": "dyard3",
+      "materialDefinitionsAdded": [
+        "domyard"
+      ],
+      "model": "SOD/ay31_dyard3.sod"
+    },
+    {
+      "unit": "mrydom",
+      "materialDefinitionsAdded": [
+        "domyard"
+      ],
+      "model": "SOD/ay31_mrydom.sod"
+    },
+    {
+      "unit": "mydyard",
+      "materialDefinitionsAdded": [
+        "domyard"
+      ],
+      "model": "SOD/ay31_mydyard.sod"
+    }
+  ],
+  "installedFiles": [
+    "Textures/RGB/dmyard31.tga",
+    "SOD/ay31_dyard.sod",
+    "SOD/ay31_dyard2.sod",
+    "SOD/ay31_dyard3.sod",
+    "SOD/ay31_mrydom.sod",
+    "SOD/ay31_mydyard.sod"
+  ],
+  "validation": "All55 material group references inspected; all5 undefined domyard materials repaired. Texture linked with8-character basename. Model round-trip and geometry/UV/hardpoint preservation verified.",
+  "runtimeVerified": false,
+  "aiCauseConfirmed": false
+}

@@ -49,6 +49,11 @@ for n,d in cache.items():
  if('yard'in n or n.startswith('mry')or n in ['8472_fluidicgate','xfgmerc','xfgserv','xbgmerc','xbgserv']):targets.append(n)
 for n in sorted(targets):
  d=cache[n];race=d.get('race','').lower();assert race in choices,(n,race);tier=ordered.get(n,2 if n.startswith('mry')else(1 if n.endswith('2')or n=='8472_fluidicgate'else 2 if n.endswith('3')else 0));options=choices[race];pack,modelname=options[tier%len(options)];src=source(pack,modelname);m=load(src);old=load(sods[d.get('basename',n).lower()]);lo,hi=bounds(m);olo,ohi=bounds(old);span=max(hi-lo);oldspan=max(ohi-olo);scale=float(d.get('scalesod','1').rstrip('fF'))*oldspan/span;assert scale>0
+ material_names={v['name'].lower()for v in m.materials}
+ required_materials={g['lighting_material']for node in m.nodes if node['type']=='MESH'for g in node['data']['vertex_lighting_groups']}
+ for material_name in sorted(required_materials):
+  if material_name and material_name.lower()not in material_names:
+   template=copy.deepcopy(load(sods['fyard']).materials[0]);template['name']=material_name;template['ambient_color']=[.35]*3;template['diffuse_color']=[1.0]*3;template['self_illumination_enabled']=False;m.materials.append(template);material_names.add(material_name.lower())
  if race=='borg':
   for material in m.materials:
    glow=any(k in material['name'].lower()for k in['glow','green','light'])
