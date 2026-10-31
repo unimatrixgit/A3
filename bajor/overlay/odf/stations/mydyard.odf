@@ -42,13 +42,13 @@ possibleCraftNames =
 //ART PARAMETERS & WEAPON NAMES
 
 // Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp01" "hp02" "hp08" 
+enginesTargetHardpoints = "hp01" "hp02" "hp08"
 lifeSupportTargetHardpoints = "hp01" "hp02" "hp08"
 weaponsTargetHardpoints = "hp01" "hp02" "hp08"
 shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp08"
 sensorsTargetHardpoints = "hp01" "hp02" "hp08"
-hullTargetHardpoints = "hp03" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14"
-criticalTargetHardpoints = "hp08" "hp09"
+hullTargetHardpoints = "hp03"
+criticalTargetHardpoints = "hp08"
 
 //**********************************************************************
 
@@ -192,7 +192,7 @@ hotkeyLabel = "HOTKEY_F13"
 
 buildHardpoint = "build"
 
-repairHardpoint = "repair"
+repairHardpoint = "build"
 
 
 footprintBuffer = 70

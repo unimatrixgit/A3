@@ -5599,3 +5599,5 @@ Hero-extra-bank validation passed. Runtime testing pending.
 2026-10-31T22:16:36.063348 Dominion yard placement recovery installed:3 yards normalized to25 footprint buffer /1000 avoidance class, matching Federation settings; yard-first AI retained. Borg7 production-yard materials darkened/tinted green with geometry/UVs/textures unchanged. File checks pass; runtime tests pending.
 
 2026-10-31T23:40:37.547940 Dominion white-yard fix installed:5 downloaded yard variants lacked the domyard lighting-material definition; definitions added and hull TGA linked via short native-style name. All55 yards audited for undefined lighting materials. Geometry, UVs and docking points unchanged. Runtime appearance and AI progress still require testing.
+
+2026-10-31T23:44:50.989449 Dominion white-cube recovery installed:5 yard variants now use byte-identical original downloaded legacy SOD, with original Zjemyard hull texture and native hardpoints selected through ODFs. No model serialization or mesh changes. Game model loading and AI construction need fresh-match retest.

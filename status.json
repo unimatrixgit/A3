@@ -1,5 +1,5 @@
 {
-  "current": "Dominion white-yard fix installed:5 downloaded yard variants lacked the domyard lighting-material definition; definitions added and hull TGA linked via short native-style name. All55 yards audited for undefined lighting materials. Geometry, UVs and docking points unchanged. Runtime appearance and AI progress still require testing.",
+  "current": "Dominion white-cube recovery installed:5 yard variants now use byte-identical original downloaded legacy SOD, with original Zjemyard hull texture and native hardpoints selected through ODFs. No model serialization or mesh changes. Game model loading and AI construction need fresh-match retest.",
   "steps": [
     {
       "label": "Current configuration and artwork: Apply approved fixes",

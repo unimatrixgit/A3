@@ -42,13 +42,13 @@ possibleCraftNames =
 //ART PARAMETERS & WEAPON NAMES
 
 // Hardpoints to hit for various systems and other locations.
-enginesTargetHardpoints = "hp01" "hp02" "hp08" 
+enginesTargetHardpoints = "hp01" "hp02" "hp08"
 lifeSupportTargetHardpoints = "hp01" "hp02" "hp08"
 weaponsTargetHardpoints = "hp01" "hp02" "hp08"
 shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp08"
 sensorsTargetHardpoints = "hp01" "hp02" "hp08"
-hullTargetHardpoints = "hp03" "hp09" "hp10" "hp11" "hp12" "hp13" "hp14"
-criticalTargetHardpoints = "hp08" "hp09"
+hullTargetHardpoints = "hp03"
+criticalTargetHardpoints = "hp08"
 
 //**********************************************************************
 
@@ -192,18 +192,18 @@ unitName = "Jem'Hadar Attack Yard"
 tooltip = "Jem'Hadar Attack Yard"
 verboseTooltip = "Jem'Hadar Attack Yard\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
 weapon1 = "zjmphas"
-weaponHardpoints1 = "tygun1"
+weaponHardpoints1 = "hp01"
 weapon2 = "zjmphas"
-weaponHardpoints2 = "tygun2"
+weaponHardpoints2 = "hp02"
 weapon3 = "jmphot"
-weaponHardpoints3 = "tygun3"
+weaponHardpoints3 = "hp03"
 canAttack = 1
 COMBAT = 1
 ALERT = 1
 weaponsHitPoints = 500
 
-buildHardpoint = "tylaunch"
-repairHardpoint = "tyrepair"
+buildHardpoint = "build"
+repairHardpoint = "build"
 footprintBuffer = 25
 baseName = "ay31_dyard"
 ScaleSOD = 15.6135555232
