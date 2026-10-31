@@ -1,0 +1,175 @@
+{
+  "backup": "D:\\Xaramada-Modwork\\backups\\yard-textures-dom-ai-20261031-215117",
+  "textureCorrections": [
+    {
+      "oldThumbnail": "Textures/RGB/ay31tf5c0c2d0a813.bmp",
+      "correctTexture": "Textures/RGB/ay31tf5c0c2d0a813.tga",
+      "source": "D:\\Xaramada-Modwork\\armadafiles-yard-replacements\\extracted\\monak-shipyard\\Monak Shipyard\\RGB\\cyard4.tga",
+      "alias": "ay31tf5c0c2d0a813",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "oldThumbnail": "Textures/RGB/ay31t179c626ed72c.bmp",
+      "correctTexture": "Textures/RGB/ay31t179c626ed72c.tga",
+      "source": "D:\\Xaramada-Modwork\\armadafiles-yard-replacements\\extracted\\klingon-shipyards\\Klingon Shipyards\\Textures\\RGB\\kyard.tga",
+      "alias": "ay31t179c626ed72c",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "oldThumbnail": "Textures/RGB/ay31te0a5fbd148cc.bmp",
+      "correctTexture": "Textures/RGB/ay31te0a5fbd148cc.tga",
+      "source": "D:\\Xaramada-Modwork\\armadafiles-yard-replacements\\extracted\\borg-incursion-2\\content\\MAINDIR\\textures\\rgb\\Rbase.tga",
+      "alias": "ay31te0a5fbd148cc",
+      "size": [
+        256,
+        256
+      ]
+    }
+  ],
+  "yardIconsUpdated": [
+    "bjyard",
+    "cyard3",
+    "kyard2",
+    "kyard3",
+    "mrycard",
+    "mrykling",
+    "mryrom",
+    "mybjyard",
+    "myryard",
+    "ryard",
+    "ryard3"
+  ],
+  "all55YardTextureMappingsReviewed": true,
+  "dominionProfiles": [
+    {
+      "file": "AI/AIPs/dominion_build_list.aip",
+      "opening": [
+        "dbase",
+        "dconst",
+        "dyard",
+        "dmining",
+        "dfreight",
+        "dcolony",
+        "dorbital",
+        "dfreight",
+        "dtrading",
+        "dcargo",
+        "ddestroy",
+        "ddestroy"
+      ],
+      "steps": 95
+    },
+    {
+      "file": "AI/AIPs/dominion_defensive_list.aip",
+      "opening": [
+        "dbase",
+        "dconst",
+        "dyard",
+        "dmining",
+        "dfreight",
+        "dcolony",
+        "dorbital",
+        "dfreight",
+        "dtrading",
+        "dcargo",
+        "ddestroy",
+        "ddestroy"
+      ],
+      "steps": 96
+    },
+    {
+      "file": "AI/AIPs/dominion_endgame_list.aip",
+      "opening": [
+        "dbase",
+        "dconst",
+        "dyard",
+        "dmining",
+        "dfreight",
+        "dcolony",
+        "dorbital",
+        "dfreight",
+        "dtrading",
+        "dcargo",
+        "ddestroy",
+        "ddestroy"
+      ],
+      "steps": 95
+    },
+    {
+      "file": "AI/AIPs/dominion_instant_action_build_list.aip",
+      "opening": [
+        "dbase",
+        "dconst",
+        "dyard",
+        "dmining",
+        "dfreight",
+        "dcolony",
+        "dorbital",
+        "dfreight",
+        "dtrading",
+        "dcargo",
+        "ddestroy",
+        "ddestroy"
+      ],
+      "steps": 95
+    },
+    {
+      "file": "AI/AIPs/dominion_offensive_list.aip",
+      "opening": [
+        "dbase",
+        "dconst",
+        "dyard",
+        "dmining",
+        "dfreight",
+        "dcolony",
+        "dorbital",
+        "dfreight",
+        "dtrading",
+        "dcargo",
+        "ddestroy",
+        "ddestroy"
+      ],
+      "steps": 95
+    }
+  ],
+  "installedFiles": [
+    "Textures/RGB/ay31tf5c0c2d0a813.tga",
+    "Textures/RGB/ay31t179c626ed72c.tga",
+    "Textures/RGB/ay31te0a5fbd148cc.tga",
+    "Textures/RGB/gbay31_bjyard.tga",
+    "Textures/RGB/wfay31_bjyard.tga",
+    "Textures/RGB/gbay31_cyard3.tga",
+    "Textures/RGB/wfay31_cyard3.tga",
+    "Textures/RGB/gbay31_kyard2.tga",
+    "Textures/RGB/wfay31_kyard2.tga",
+    "Textures/RGB/gbay31_kyard3.tga",
+    "Textures/RGB/wfay31_kyard3.tga",
+    "Textures/RGB/gbay31_mrycard.tga",
+    "Textures/RGB/wfay31_mrycard.tga",
+    "Textures/RGB/gbay31_mrykling.tga",
+    "Textures/RGB/wfay31_mrykling.tga",
+    "Textures/RGB/gbay31_mryrom.tga",
+    "Textures/RGB/wfay31_mryrom.tga",
+    "Textures/RGB/gbay31_mybjyard.tga",
+    "Textures/RGB/wfay31_mybjyard.tga",
+    "Textures/RGB/gbay31_myryard.tga",
+    "Textures/RGB/wfay31_myryard.tga",
+    "Textures/RGB/gbay31_ryard.tga",
+    "Textures/RGB/wfay31_ryard.tga",
+    "Textures/RGB/gbay31_ryard3.tga",
+    "Textures/RGB/wfay31_ryard3.tga",
+    "AI/AIPs/dominion_build_list.aip",
+    "AI/AIPs/dominion_defensive_list.aip",
+    "AI/AIPs/dominion_endgame_list.aip",
+    "AI/AIPs/dominion_instant_action_build_list.aip",
+    "AI/AIPs/dominion_offensive_list.aip"
+  ],
+  "runtimeVerified": false,
+  "limitations": "Dominion yard-first ordering removes the initial mining-station request from its path to a shipyard. The actual runtime stall cause is unconfirmed and needs a fresh-match retest."
+}

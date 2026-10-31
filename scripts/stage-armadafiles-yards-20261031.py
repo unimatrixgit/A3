@@ -38,8 +38,9 @@ def bounds(m):
 def texture(pack,name):
  key=(pack,name.lower())
  if key in texturemap:return texturemap[key]
- candidates=[p for p in packagefiles[pack]if p.stem.lower()==name.lower()and p.suffix.lower()in['.tga','.bmp']]
- src=candidates[0]if candidates else texidx.get(name.lower());assert src,('Missing texture',pack,name)
+ candidates=[p for p in packagefiles[pack]if p.stem.lower()==name.lower()and p.suffix.lower()=='.tga'and not any(x in str(p).lower()for x in ['admirals','shipimages'])]
+ live=[p for p in(root/'Textures/RGB').glob('*')if p.stem.lower()==name.lower()and p.suffix.lower()=='.tga']
+ src=candidates[0]if candidates else live[0]if live else None;assert src,('Missing hull TGA; do not substitute a thumbnail',pack,name)
  data=src.read_bytes();alias='ay31t'+hashlib.sha256(data).hexdigest()[:12];rel=Path('Textures/RGB')/(alias+src.suffix.lower());out=overlay/rel;out.parent.mkdir(parents=True,exist_ok=True);out.write_bytes(data);texidx[alias]=out;texturemap[key]=(alias,rel.as_posix());return texturemap[key]
 targets=[]
 for n,d in cache.items():
