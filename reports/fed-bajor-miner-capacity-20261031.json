@@ -1,0 +1,83 @@
+{
+  "backup": "D:\\Xaramada-Modwork\\backups\\fed-bajor-miner-capacity-20261031-200034",
+  "changes": [
+    {
+      "file": "odf/ships/ffreight.odf",
+      "before": {
+        "maxDilithium": 500,
+        "maxLatinum": 350
+      },
+      "after": {
+        "maxDilithium": 150,
+        "maxLatinum": 75
+      }
+    },
+    {
+      "file": "odf/other/ffreight.odf",
+      "before": {
+        "maxDilithium": 500,
+        "maxLatinum": 350
+      },
+      "after": {
+        "maxDilithium": 150,
+        "maxLatinum": 75
+      }
+    },
+    {
+      "file": "odf/ships/bjfreight.odf",
+      "before": {
+        "maxDilithium": 500,
+        "maxLatinum": 350
+      },
+      "after": {
+        "maxDilithium": 150,
+        "maxLatinum": 75
+      }
+    },
+    {
+      "file": "odf/ships/myfminer1.odf",
+      "before": {
+        "maxDilithium": 750,
+        "maxLatinum": 350
+      },
+      "after": {
+        "maxDilithium": 225,
+        "maxLatinum": 75
+      }
+    },
+    {
+      "file": "odf/ships/mybjminer1.odf",
+      "before": {
+        "maxDilithium": 750,
+        "maxLatinum": 350
+      },
+      "after": {
+        "maxDilithium": 225,
+        "maxLatinum": 75
+      }
+    },
+    {
+      "file": "odf/ships/myfminer2.odf",
+      "before": {
+        "maxDilithium": 1000,
+        "maxLatinum": 350
+      },
+      "after": {
+        "maxDilithium": 300,
+        "maxLatinum": 75
+      }
+    },
+    {
+      "file": "odf/ships/mybjminer2.odf",
+      "before": {
+        "maxDilithium": 1000,
+        "maxLatinum": 350
+      },
+      "after": {
+        "maxDilithium": 300,
+        "maxLatinum": 75
+      }
+    }
+  ],
+  "validation": "Live/source bytes verified; only capacity fields changed; runtime pending"
+}
