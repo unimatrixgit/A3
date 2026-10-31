@@ -5583,3 +5583,5 @@ Hero-extra-bank validation passed. Runtime testing pending.
 2026-10-31T20:00:34.347580 Federation/Bajor miner capacities normalized:150 dilithium basic,225 first upgrade,300 second upgrade;75 latinum each. Mining-rate bonus and movement unchanged. Installed with backups; gameplay pending.
 
 2026-10-31T20:41:26.408385 Crash investigated: null first weapon class while a shipyard finishes a ship (0x004d162c). Corrected T Varek hero weapon/ordnance category paths in6 files, matching prior failure pattern. Exact crashed ship unavailable in sparse dump; cause remains suspected, retest required. Mining settings retained.
+
+2026-10-31T20:46:23.565223 Yard variety installed:39 distinct faction/tier/service model arrangements. Native hulls/textures reused; launch/repair/weapon anchors and animations retained; stats unchanged. Model, texture and source/live file checks passed. Gameplay visual/docking test pending.

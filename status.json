@@ -1,5 +1,5 @@
 {
-  "current": "Crash investigated: null first weapon class while a shipyard finishes a ship (0x004d162c). Corrected T Varek hero weapon/ordnance category paths in6 files, matching prior failure pattern. Exact crashed ship unavailable in sparse dump; cause remains suspected, retest required. Mining settings retained.",
+  "current": "Yard variety installed:39 distinct faction/tier/service model arrangements. Native hulls/textures reused; launch/repair/weapon anchors and animations retained; stats unchanged. Model, texture and source/live file checks passed. Gameplay visual/docking test pending.",
   "steps": [
     {
       "label": "Current configuration and artwork: Apply approved fixes",
