@@ -5585,3 +5585,5 @@ Hero-extra-bank validation passed. Runtime testing pending.
 2026-10-31T20:41:26.408385 Crash investigated: null first weapon class while a shipyard finishes a ship (0x004d162c). Corrected T Varek hero weapon/ordnance category paths in6 files, matching prior failure pattern. Exact crashed ship unavailable in sparse dump; cause remains suspected, retest required. Mining settings retained.
 
 2026-10-31T20:46:23.565223 Yard variety installed:39 distinct faction/tier/service model arrangements. Native hulls/textures reused; launch/repair/weapon anchors and animations retained; stats unchanged. Model, texture and source/live file checks passed. Gameplay visual/docking test pending.
+
+2026-10-31T20:48:31.870086 Blank yard buttons fixed:39 new-model build icons and39 matching group icons installed, with468 verified sprite aliases. New model names now resolve their GUI assets. Game was closed; in-game confirmation pending.
