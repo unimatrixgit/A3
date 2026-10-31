@@ -1,0 +1,39 @@
+{
+  "backup": "D:\\Xaramada-Modwork\\backups\\dominion-yard-scale-20261101-002555",
+  "changes": [
+    {
+      "unit": "dyard",
+      "oldScale": 15.6135555232,
+      "newScale": 2.5,
+      "linearReductionPercent": 83.99
+    },
+    {
+      "unit": "dyard2",
+      "oldScale": 10.7825572637,
+      "newScale": 2.5,
+      "linearReductionPercent": 76.81
+    },
+    {
+      "unit": "dyard3",
+      "oldScale": 17.2249270385,
+      "newScale": 2.5,
+      "linearReductionPercent": 85.49
+    },
+    {
+      "unit": "mrydom",
+      "oldScale": 2.51107456634,
+      "newScale": 2.5,
+      "linearReductionPercent": 0.44
+    },
+    {
+      "unit": "mydyard",
+      "oldScale": 1.38758649369,
+      "newScale": 1.38758649369,
+      "linearReductionPercent": 0,
+      "reason": "Retain compact variant; do not enlarge"
+    }
+  ],
+  "basis": "Original downloaded Dominion shipyard ODF specifies ScaleSOD2.5. Returning to author scale removes the previous envelope-normalization enlargement.",
+  "runtimeVerified": true,
+  "runtimeScope": "Human dyard completed and correctly rendered at scale 2.5; production order accepted. Other variants checked on disk."
+}

@@ -5601,3 +5601,5 @@ Hero-extra-bank validation passed. Runtime testing pending.
 2026-10-31T23:40:37.547940 Dominion white-yard fix installed:5 downloaded yard variants lacked the domyard lighting-material definition; definitions added and hull TGA linked via short native-style name. All55 yards audited for undefined lighting materials. Geometry, UVs and docking points unchanged. Runtime appearance and AI progress still require testing.
 
 2026-10-31T23:44:50.989449 Dominion white-cube recovery installed:5 yard variants now use byte-identical original downloaded legacy SOD, with original Zjemyard hull texture and native hardpoints selected through ODFs. No model serialization or mesh changes. Game model loading and AI construction need fresh-match retest.
+
+2026-11-01 Dominion yard scale: primary yards restored to author scale 2.5; compact mydyard retained at 1.38758649369. In-game correct model and completed construction verified; carrier order accepted. Read-only live AI counts confirm Dominion yard/economy/research/combat progression. Reports saved. Test exited normally; PC remains on.

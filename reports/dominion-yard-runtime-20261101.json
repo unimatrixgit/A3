@@ -1,0 +1,180 @@
+{
+  "date": "2026-11-01",
+  "installation": "D:/armadaIII",
+  "processId": 22940,
+  "map": "8tictac2 v2.bzn",
+  "humanFaction": "Dominion",
+  "aiTeam": 6,
+  "aiFaction": "Dominion",
+  "observations": [
+    "Correct complete Dominion yard model rendered, not a white cube",
+    "Human Jem\u2019Hadar Attack Yard completed at ScaleSOD 2.5",
+    "Dominion Carrier production order accepted; completion not asserted",
+    "Dominion AI progressed through yard, mining, colony, trade, research and combat production"
+  ],
+  "method": "Read-only OpenProcess 0x410 / ReadProcessMemory. Native AIP GetUnitCount array, class index +0x6c; no memory writes or injection.",
+  "aiReportedCounts": [
+    {
+      "unit": "dbase",
+      "desired": 1.0,
+      "classId": 52,
+      "currentUnitCount": 1,
+      "plannedUnitCount": 1,
+      "justBuiltCounter": 0
+    },
+    {
+      "unit": "dconst",
+      "desired": 2.0,
+      "classId": 10,
+      "currentUnitCount": 2,
+      "plannedUnitCount": 2,
+      "justBuiltCounter": 0
+    },
+    {
+      "unit": "dyard",
+      "desired": 1.0,
+      "classId": 11,
+      "currentUnitCount": 1,
+      "plannedUnitCount": 1,
+      "justBuiltCounter": 8
+    },
+    {
+      "unit": "dmining",
+      "desired": 1.0,
+      "classId": 27,
+      "currentUnitCount": 1,
+      "plannedUnitCount": 1,
+      "justBuiltCounter": 6
+    },
+    {
+      "unit": "dfreight",
+      "desired": 2.0,
+      "classId": 58,
+      "currentUnitCount": 5,
+      "plannedUnitCount": 5,
+      "justBuiltCounter": 1
+    },
+    {
+      "unit": "dcolony",
+      "desired": 1.0,
+      "classId": 25,
+      "currentUnitCount": 1,
+      "plannedUnitCount": 1,
+      "justBuiltCounter": 3
+    },
+    {
+      "unit": "dorbital",
+      "desired": 1.0,
+      "classId": 39,
+      "currentUnitCount": 1,
+      "plannedUnitCount": 1,
+      "justBuiltCounter": 1
+    },
+    {
+      "unit": "dfreight",
+      "desired": 3.0,
+      "classId": 58,
+      "currentUnitCount": 5,
+      "plannedUnitCount": 5,
+      "justBuiltCounter": 3
+    },
+    {
+      "unit": "dtrading",
+      "desired": 1.0,
+      "classId": 40,
+      "currentUnitCount": 1,
+      "plannedUnitCount": 1,
+      "justBuiltCounter": 1
+    },
+    {
+      "unit": "dcargo",
+      "desired": 2.0,
+      "classId": 736,
+      "currentUnitCount": 2,
+      "plannedUnitCount": 2,
+      "justBuiltCounter": 2
+    },
+    {
+      "unit": "ddestroy",
+      "desired": 2.0,
+      "classId": 13,
+      "currentUnitCount": 4,
+      "plannedUnitCount": 4,
+      "justBuiltCounter": 2
+    },
+    {
+      "unit": "ddestroy",
+      "desired": 2.0,
+      "classId": 13,
+      "currentUnitCount": 4,
+      "plannedUnitCount": 4,
+      "justBuiltCounter": 12
+    },
+    {
+      "unit": "xdconst2",
+      "desired": 1.0,
+      "classId": 53,
+      "currentUnitCount": 1,
+      "plannedUnitCount": 1,
+      "justBuiltCounter": 1
+    },
+    {
+      "unit": "brconst",
+      "desired": 1.0,
+      "classId": 430,
+      "currentUnitCount": 1,
+      "plannedUnitCount": 1,
+      "justBuiltCounter": 1
+    },
+    {
+      "unit": "dresear",
+      "desired": 1.0,
+      "classId": 28,
+      "currentUnitCount": 1,
+      "plannedUnitCount": 1,
+      "justBuiltCounter": 1
+    },
+    {
+      "unit": "dresear2",
+      "desired": 1.0,
+      "classId": 34,
+      "currentUnitCount": 1,
+      "plannedUnitCount": 1,
+      "justBuiltCounter": 1
+    },
+    {
+      "unit": "dupgrade",
+      "desired": 1.0,
+      "classId": 41,
+      "currentUnitCount": 1,
+      "plannedUnitCount": 1,
+      "justBuiltCounter": 1
+    },
+    {
+      "unit": "dyard3",
+      "desired": 1.0,
+      "classId": 721,
+      "currentUnitCount": 2,
+      "plannedUnitCount": 1,
+      "justBuiltCounter": 1
+    },
+    {
+      "unit": "xduconst",
+      "desired": 1.0,
+      "classId": 59,
+      "currentUnitCount": 1,
+      "plannedUnitCount": 1,
+      "justBuiltCounter": 1
+    },
+    {
+      "unit": "dturret3",
+      "desired": 1.0,
+      "classId": 56,
+      "currentUnitCount": 0,
+      "plannedUnitCount": 1,
+      "justBuiltCounter": 0
+    }
+  ],
+  "limits": "One runtime session; not a full long-duration all-faction stability test.",
+  "cleanup": "Diagnostic match closed through in-game Exit to Windows; PC left running."
+}
