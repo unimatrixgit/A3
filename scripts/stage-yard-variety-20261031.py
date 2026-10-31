@@ -43,7 +43,7 @@ def parts(name):
  partcache[name]=(result,m.materials);return copy.deepcopy(partcache[name])
 design=json.loads((repo/'patches/twin-yards-20261025/design.json').read_text());records=[];previews=[]
 for name,a in design['assets'].items():
- if a['kind']not in ['yard','service']:continue
+ if a['kind']!='yard':continue
  d=cache[name];old=load(sods[d.get('basename',name).lower()]);model=copy.deepcopy(old);code=a['theme'];tier=design['yards'][code].index(name)if a['kind']=='yard'else -1
  prefix={'bj':'c','fg':'r','bg':'b','br':'br'}.get(code,code);base=prefix+'yard';advanced=prefix+'yard2';command=prefix+'base'
  if code=='bj':command='bjbase'
