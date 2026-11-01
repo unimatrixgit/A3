@@ -1,0 +1,20 @@
+{
+  "applied": true,
+  "runtimeVerified": false,
+  "file": "SOD/Fbase.sod",
+  "backup": "D:\\Xaramada-Modwork\\backups\\fed-starbase-no-doors-20261101-113128",
+  "doorsRemoved": [
+    "Box08",
+    "Box07",
+    "Box06",
+    "Box05",
+    "Box04",
+    "Box03",
+    "Box01",
+    "Box02"
+  ],
+  "method": "Remove visible door surfaces by collapsing only each panel vertex buffer. Empty animation nodes retained for compatibility; no model serialization or hierarchy edits.",
+  "preserved": "All other model bytes, hull, hardpoints, station size, animation links, ODF and production stats",
+  "changedBytes": 1152,
+  "sha256": "294290cf1be1a338f713dd84c1a884ed84c8bed0b9018165b524cf5a5d5f6843"
+}

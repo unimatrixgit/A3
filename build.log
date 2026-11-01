@@ -5639,3 +5639,5 @@ Hero-extra-bank validation passed. Runtime testing pending.
 2026-11-01 Prepared Federation Fbase door animation fix: measure panel width along actual slide direction; preserve all non-animation-position bytes. Rotated pairs travel corrected63.7->25.4. Staged one SOD; game running; runtime visual check pending.
 
 2026-11-01 Applied approved Federation Fbase door alignment patch. One model updated; animation position bytes only, hull/size unchanged. Live/stage/mirror hashes match. Backup=D:\Xaramada-Modwork\backups\fed-starbase-door-alignment-20261101-112856. Runtime visual check pending.
+
+2026-11-01 Removed all8 Federation Fbase visible door panels at user request. Only panel vertex buffers changed; empty animation nodes retained for compatibility. All hull/hardpoint/size/stats bytes preserved. Backup=D:\Xaramada-Modwork\backups\fed-starbase-no-doors-20261101-113128. Runtime visual test pending.
