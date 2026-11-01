@@ -5617,3 +5617,5 @@ Hero-extra-bank validation passed. Runtime testing pending.
 2026-11-01 Crash1348: null ST3D_Sprite::GetTexture via RadarComponent/MapRadar during display initialization. Restored pre-patch GUI sprites and Ferengi primary models; retained25% smaller main Ferengi/Borg-Ferengi/Romulan yards. New model/icon assets remain unreferenced. Backup=D:\Xaramada-Modwork\backups\yard-load-recovery-20261101-083732. Runtime recovery untested.
 
 2026-11-01 Restored earlier custom Ferengi tower-yard model for xfgmerc/mryfer/xbgmerc; native build/repair hardpoints, existing icon texture slots reused. GUI sprite file byte-identical to recovery. Reduced sizes, current rosters/stats/tech preserved. Backed up at D:\Xaramada-Modwork\backups\ferengi-custom-restore-20261101-084012. Runtime untested.
+
+2026-11-01 Prepared yard-icon-aliases patch: D’Kora custom model names fy26custom/fy26custombg lacked b_ and w1..5 aliases. Adds12 aliases only; original sprite prefix byte-identical. All75 yard definitions checked, 150 referenced textures decoded, zero missing references after patch. Runtime untested; not applied.
