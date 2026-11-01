@@ -1,0 +1,396 @@
+// Xaramada merged technology tree. Source credits: Borg Incursion 2, Ghost, original installation.
+#include tech1.tt
+fassault.odf -1 //assault ship (iwo Jima class)
+fcruise3.odf -1 //cruiser3 (intrepid class)
+fbattle.odf  -1 //battleship (sovereign class)
+ffrigate.odf -1 //frigate (andor class)
+fspecial.odf -1 //special (nebula class)
+fsuperbl.odf -1 //temporal research facility
+fedpod1.odf  -1 //research pod (corbomite reflector)
+fedpod7.odf  -1 //research pod (shield disruptor)
+fedpod8.odf  -1 //research pod (engineering team)
+fedpod6.odf  -1 //research pod (gemini effect)
+fedpod9.odf  -1 //research pod (point defense phaser)
+fedpod16.odf -1 //research pod (shield enhancer)
+fedpod21.odf -1 //research pod (weapon upgrade level 3)
+fedpod22.odf -1 //research pod (shield upgrade level 3)
+fedpod23.odf -1 //research pod (sensor upgrade level 3)
+fedpod24.odf -1 //research pod (engine upgrade level 3)
+fedpod25.odf -1 //research pod (life support upgrade level 3)
+gcorbom.odf  -1 //corbomite manuever (sovereign class)
+gfedrep.odf  -1 //engineering team (nebula class)
+gmanheim.odf -1 //gemini effect (nebula class)
+gpdlaser.odf -1 //point defense laser (nebula class)
+gshieldh.odf -1 //shield disruptor (nebula class)
+gshldemt.odf -1 //shield recharger (andor class)
+gtempor.odf  -1 //temporal stasis field
+bconst.odf   -1											// construction ship (assembler)
+bfreight.odf -1											// dilithium collector (mining freighter)
+bscout.odf   -1											// scout (detector)
+bdestroy.odf -1											// destroyer (interceptor)
+bcruise1.odf -1											// cruiser1 (sphere)
+bcruise2.odf -1											// cruiser2 (assimilator)
+bcruise3.odf -1											// cruiser3 (harbinger)
+bcolony.odf  -1											// colony ship (pyramid)
+bassault.odf -1											// assault ship (wedge)
+bbattle1.odf -1											// battleship (cube)
+bbattle2.odf -1											// battleship (tactical cube)
+bfrigate.odf -1											// frigate (harmonic defender)
+bspecial.odf -1											// special (diamond)
+bbattle3.odf -1											// battleship (fusion cube)
+bbattle4.odf -1											// battleship (tactical fusion cube)
+bbase.odf    -1											// nexus
+bmining.odf  -1											// processing node
+bsensor.odf  -1											// detection array
+bturret.odf  -1											// energy cannon
+bturret2.odf -1											// torpedo turret
+byard.odf    -1											// assembly matrix
+byard2.odf   -1											// advanced assembly matrix
+bresear.odf  -1											// modification center
+bresear2.odf -1											// technology node
+bupgrade.odf -1											// ship upgrade station
+btechass.odf -1											// technology assimilator
+brecycle.odf -1											// recycler
+bsuperbl.odf -1											// super (transwarp gate)
+bhub.odf     -1											// collective hub
+borpod1.odf  -1											// research pod (auto-assimilator)
+borpod2.odf  -1											// research pod (holding beam)
+borpod3.odf  -1											// research pod (regeneration)
+borpod4.odf  -1											// research pod (transwarp drive)
+borpod5.odf  -1											// research pod (tachyon detection grid)
+borpod6.odf  -1											// research pod (shield remodulation)
+borpod7.odf  -1											// research pod (computer override)
+borpod8.odf  -1											// research pod (nanites)
+borpod9.odf  -1											// research pod (ultritium burst)
+borpod16.odf -1											// research pod (special energy recharger)
+borpod11.odf -1											// research pod (weapon upgrade level 2)
+borpod12.odf -1											// research pod (shield upgrade level 2)
+borpod13.odf -1											// research pod (sensor upgrade level 2)
+borpod14.odf -1											// research pod (engine upgrade level 2)
+borpod15.odf -1											// research pod (life support upgrade level 2)
+borpod21.odf -1											// research pod (weapon upgrade level 3)
+borpod22.odf -1											// research pod (shield upgrade level 3)
+borpod23.odf -1											// research pod (sensor upgrade level 3)
+borpod24.odf -1											// research pod (engine upgrade level 3)
+borpod25.odf -1											// research pod (life support upgrade level 3)
+rconst.odf		-1										// construction ship
+rfreight.odf	-1										// mining freighter
+rcargo.odf		-1										// cargo ship
+rsrepair.odf    -1										// repair ship
+rscout.odf      -1										// scout (talon class)
+rdestroy.odf    -1										// destroyer (shrike class)
+rcruise1.odf    -1										// cruiser (griffin class)
+rcruise2.odf    -1										// cruiser (raptor class)
+rcruise3.odf    -1										// cruiser (osprey class)
+rcolony.odf     -1										// colony ship
+rassault.odf    -1										// assault ship (kestrel class)
+rbattle2.odf    -1										// battleship (venator class)
+rbattle.odf     -1										// battleship (warbird class)
+rfrigate.odf    -1										// frigate (wraith class)
+rspecial.odf    -1										// special (shadow class)
+rsuper.odf      -1										// super (phoenix class)
+rbase.odf		-1										// starbase
+rmining.odf     -1										// mining station
+rorbital.odf    -1										// orbital processing facility
+rsensor.odf     -1										// sensor array
+rturret.odf     -1										// phaser turret
+rturret2.odf    -1										// torpedo turret
+ryard.odf       -1										// shipyard
+ryard2.odf      -1										// advanced shipyard
+rtrading.odf    -1										// trading station
+rresear.odf     -1										// covert ops facility
+rresear2.odf    -1										// tal shiar facility
+rupgrade.odf    -1										// ship upgrade station
+rsuperbl.odf    -1										// super (phoenix facility)
+rompod1.odf     -1										// research pod (shield inversion beam)
+rompod2.odf     -1										// research pod (romulan spy)
+rompod3.odf     -1										// research pod (sensor jammer)
+rompod4.odf     -1										// research pod (myotronic inhibitor)
+rompod5.odf     -1										// research pod (tachyon detection grid)
+rompod6.odf     -1										// research pod (holo-emitter)
+rompod7.odf     -1										// research pod (psychonic blast)
+rompod8.odf     -1										// research pod (shield projector)
+rompod9.odf     -1										// research pod (phase cloak)
+rompod16.odf    -1										// research pod (cloak enhancer)
+rompod11.odf    -1										// research pod (weapon upgrade level 2)
+rompod12.odf    -1										// research pod (shield upgrade level 2)
+rompod13.odf    -1										// research pod (sensor upgrade level 2)
+rompod14.odf    -1										// research pod (engine upgrade level 2)
+rompod15.odf    -1										// research pod (life support upgrade level 2)
+rompod21.odf    -1										// research pod (weapon upgrade level 3)
+rompod22.odf    -1										// research pod (shield upgrade level 3)
+rompod23.odf    -1										// research pod (sensor upgrade level 3)
+rompod24.odf    -1										// research pod (engine upgrade level 3)
+rompod25.odf    -1										// research pod (life support upgrade level 3)
+
+
+
+
+
+bjconst.odf 0
+
+bjbase.odf 0
+
+uconst.odf 0
+
+bjfreight.odf 1 bjmining.odf
+
+bjcargo.odf 1 bjtrading.odf
+
+bjrepair.odf 1 bjyard.odf
+
+bjcolony.odf 2 bjyard.odf bjresear.odf
+
+bjscout.odf 1 bjbase.odf
+
+bjinterceptor.odf 1 bjyard.odf
+
+bjraider.odf 1 bjyard.odf
+
+bjtransport.odf 1 bjyard.odf
+
+bjlightship.odf 1 bjyard.odf
+
+bjassault.odf 2 bjyard.odf bjresear.odf
+
+bjcruiser.odf 1 bjyard2.odf
+
+bjtorpedo.odf 2 bjyard2.odf bjresear.odf
+
+bjfrigate.odf 1 bjyard2.odf
+
+bjartillery.odf 2 bjyard2.odf bjresear2.odf
+
+bjbattle.odf 2 bjyard2.odf bjupgrade.odf
+
+bjspecial.odf 2 bjyard2.odf bjresear2.odf
+
+bjsuper.odf 2 bjyard3.odf bjsuperlab.odf
+
+bjnerys.odf 1 bjyard3.odf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bjpod1.odf 1 bjresear.odf
+
+bjpod2.odf 1 bjresear.odf
+
+bjpod3.odf 1 bjresear.odf
+
+bjpod4.odf 1 bjresear.odf
+
+bjpod5.odf 1 bjresear.odf
+
+bjpod6.odf 1 bjresear2.odf
+
+bjpod7.odf 1 bjresear2.odf
+
+bjpod8.odf 1 bjresear2.odf
+
+bjpod9.odf 1 bjresear2.odf
+
+bjpod11.odf 1 bjupgrade.odf
+
+bjpod12.odf 1 bjupgrade.odf
+
+bjpod13.odf 1 bjupgrade.odf
+
+bjpod14.odf 1 bjupgrade.odf
+
+bjpod15.odf 1 bjupgrade.odf
+
+bjpod16.odf 1 bjresear.odf
+
+bjpod21.odf 2 bjupgrade.odf bjpod11.odf
+
+bjpod22.odf 2 bjupgrade.odf bjpod12.odf
+
+bjpod23.odf 2 bjupgrade.odf bjpod13.odf
+
+bjpod24.odf 2 bjupgrade.odf bjpod14.odf
+
+bjpod25.odf 2 bjupgrade.odf bjpod15.odf
+
+xbj_gtracbm.odf 0
+
+xbj_gminedilithium.odf 0
+
+xbj_gminelatinum.odf 0
+
+xbj_gdetectf.odf 1 bjpod5.odf
+
+xbj_gamine.odf 1 bjpod4.odf
+
+xbj_gfcloak.odf 0
+
+xbj_gchainp.odf 1 bjpod2.odf
+
+xbj_fcolonypod.odf 0
+
+xbj_grepairbeam.odf 0
+
+xbj_gwcover.odf 1 bjpod3.odf
+
+xbj_gshldemt.odf 1 bjpod16.odf
+
+xbj_gselfdes.odf 0
+
+xbj_gcorbom.odf 1 bjpod1.odf
+
+xbj_gshieldh.odf 1 bjpod7.odf
+
+xbj_gmanheim.odf 1 bjpod6.odf
+
+xbj_gpdlaser.odf 1 bjpod9.odf
+
+xbj_gschainp.odf 0
+
+xbuconst.odf -1
+
+xfuconst.odf 0
+
+xkuconst.odf 0
+
+xruconst.odf -1
+
+xcuconst.odf 0
+
+xduconst.odf 0
+
+xbruconst.odf 0
+
+xbjuconst.odf 0
+
+
+
+xbjtakeover.odf 2 bjsuperlab.odf bjpod9.odf
+
+fyard3.odf -1
+
+byard3.odf -1
+
+kyard3.odf 3 kbase.odf kyard2.odf kresear2.odf
+
+ryard3.odf -1
+
+cyard3.odf 3 cbase.odf cyard2.odf cresear2.odf
+
+dyard3.odf 4 dtrading.odf dyard2.odf dresear2.odf dupgrade.odf
+
+bryard3.odf 2 bryard.odf brresear.odf
+
+
+xhs_yard3.odf 1 8472_passive.odf
+
+xhs_vanguard.odf 1 xhs_yard3.odf
+
+xhs_sentinel.odf 1 xhs_yard3.odf
+
+xhs_leviathan.odf 1 xhs_yard3.odf
+bjsensor.odf 1 bjbase.odf
+bjturret.odf 1 bjbase.odf
+bjturret2.odf 1 bjresear.odf
+bjmining.odf 0
+bjorbital.odf 1 bjbase.odf
+bjtrading.odf 1 bjbase.odf
+bjyard.odf 1 bjbase.odf
+bjyard2.odf 2 bjyard.odf bjresear.odf
+bjyard3.odf 2 bjresear2.odf bjyard2.odf
+bjresear.odf 2 bjbase.odf bjyard.odf
+bjresear2.odf 2 bjyard2.odf bjresear.odf
+bjupgrade.odf 2 bjresear.odf bjresear2.odf
+bjsuperlab.odf 2 bjresear2.odf bjyard2.odf
+
+// Borg assimilation support
+xbharvest.odf -1											// energy cannon
+xbassimst.odf -1											// torpedo turret
+xbrepair.odf 1 xbassimst.odf
+xbharvbeam.odf 0
+xbassimbeam.odf 0
+
+xbharvmanual.odf 0
+xbassimmanual.odf 0
+
+// Native cube technology assimilation control.
+gTechAssimBeam.odf 0
+myfpod1.odf -1 // Native mining upgrade / yard withdrawn
+myfpod2.odf -1 // Native mining upgrade / yard withdrawn
+myw000.odf 0
+myfminer1.odf -1 // Native mining upgrade / yard withdrawn
+myw001.odf 0
+myfminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu000.odf -1 // Native mining upgrade / yard withdrawn
+myu001.odf -1 // Native mining upgrade / yard withdrawn
+myfyard.odf -1 // Native mining upgrade / yard withdrawn
+myw002.odf 0
+mybminer1.odf -1 // Native mining upgrade / yard withdrawn
+myw003.odf 0
+mybminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu002.odf -1 // Native mining upgrade / yard withdrawn
+myu003.odf -1 // Native mining upgrade / yard withdrawn
+mybyard.odf -1 // Native mining upgrade / yard withdrawn
+mykminer1.odf -1 // Native mining upgrade / yard withdrawn
+mykminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu004.odf -1 // Native mining upgrade / yard withdrawn
+myu005.odf -1 // Native mining upgrade / yard withdrawn
+mykyard.odf -1 // Native mining upgrade / yard withdrawn
+myrminer1.odf -1 // Native mining upgrade / yard withdrawn
+myrminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu006.odf -1 // Native mining upgrade / yard withdrawn
+myu007.odf -1 // Native mining upgrade / yard withdrawn
+myryard.odf -1 // Native mining upgrade / yard withdrawn
+mycminer1.odf -1 // Native mining upgrade / yard withdrawn
+mycminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu008.odf -1 // Native mining upgrade / yard withdrawn
+myu009.odf -1 // Native mining upgrade / yard withdrawn
+mycyard.odf -1 // Native mining upgrade / yard withdrawn
+mydminer1.odf -1 // Native mining upgrade / yard withdrawn
+mydminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu010.odf -1 // Native mining upgrade / yard withdrawn
+myu011.odf -1 // Native mining upgrade / yard withdrawn
+myu012.odf -1 // Native mining upgrade / yard withdrawn
+mydyard.odf -1 // Native mining upgrade / yard withdrawn
+mybjminer1.odf -1 // Native mining upgrade / yard withdrawn
+mybjminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu013.odf -1 // Native mining upgrade / yard withdrawn
+myu014.odf -1 // Native mining upgrade / yard withdrawn
+mybjyard.odf -1 // Native mining upgrade / yard withdrawn
+mybrminer1.odf -1 // Native mining upgrade / yard withdrawn
+mybrminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu015.odf -1 // Native mining upgrade / yard withdrawn
+myu016.odf -1 // Native mining upgrade / yard withdrawn
+mybryard.odf -1 // Native mining upgrade / yard withdrawn
+xsbcol1.odf -1 // Native mining upgrade / yard withdrawn
+xsbcol2.odf -1 // Native mining upgrade / yard withdrawn
+myu017.odf -1 // Native mining upgrade / yard withdrawn
+myu018.odf -1 // Native mining upgrade / yard withdrawn
+mysyard.odf -1 // Native mining upgrade / yard withdrawn
+myw004.odf 0
+myw005.odf 0
+xfgmnr1.odf 3 xfgserv.odf xfgpdil.odf xfgplat.odf
+myw006.odf 0
+myw007.odf 0
+xfgmnr2.odf 3 xfgserv.odf xfgpdil2.odf xfgplat2.odf
+myu019.odf 2 xfgpdil.odf xfgplat.odf
+myu020.odf 2 xfgpdil2.odf xfgplat2.odf
+myu021.odf 1 xfgpdil2.odf
+myu022.odf 1 xfgplat2.odf
+xbgmnr1.odf 2 xbgserv.odf xbgpdil.odf
+xbgmnr2.odf 2 xbgserv.odf xbgpdil2.odf
+myu023.odf 1 xbgpdil.odf
+myu024.odf 1 xbgpdil2.odf
+myu025.odf 1 xbgpdil2.odf
+
+bjente.odf 1 bjyard3.odf
