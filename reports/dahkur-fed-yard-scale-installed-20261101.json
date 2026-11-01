@@ -1,0 +1,46 @@
+{
+  "target": "D:/armadaIII",
+  "installed": true,
+  "runtimeVerified": false,
+  "files": [
+    {
+      "path": "SOD/ay31_bjyard.sod",
+      "previousSha256": "d6452826f5cb8460fabec50b6153df6a1ffcae36679ee2345f6188c699353ded",
+      "sha256": "ee7198d41e0c2de103432fcf0aa7fcf55a0f517618932d309af07ec8c588edb8"
+    },
+    {
+      "path": "Textures/RGB/bj26dahkur.tga",
+      "previousSha256": null,
+      "sha256": "f60371f1366183b04df7f02ca18836c60b3145b82c0a9faa4819a16ac0ce9968"
+    },
+    {
+      "path": "Textures/RGB/bj26dahkur_B.tga",
+      "previousSha256": null,
+      "sha256": "f60371f1366183b04df7f02ca18836c60b3145b82c0a9faa4819a16ac0ce9968"
+    },
+    {
+      "path": "odf/stations/fyard2.odf",
+      "previousSha256": "f26f0cb8dba68b70436a7614c0c1f94b97178c092453f1d5c48f2489a1fcf7fc",
+      "sha256": "eab0b5aa4e558b759d6949c050ce7268292027a4be1d35f33a155a089c216564"
+    }
+  ],
+  "dahkur": "Unique proper TGA-only texture alias eliminates collision with wrong non-power-of-two preview BMP. Existing model geometry and hardpoints retained.",
+  "federationYard": {
+    "unit": "fyard2",
+    "scaleBefore": 3.64498961395,
+    "scaleAfter": 2.18699376837,
+    "linearReductionPercent": 40,
+    "dimensionsBefore": [
+      238.3577570062515,
+      121.61972870109493,
+      691.8761596684365
+    ],
+    "dimensionsAfter": [
+      143.0146542037509,
+      72.97183722065695,
+      415.12569580106185
+    ]
+  },
+  "preserved": "Dahkur geometry/stats/scale; Federation yard stats/production/footprint. GUI sprite file untouched.",
+  "backup": "D:\\Xaramada-Modwork\\backups\\dahkur-fed-yard-scale-20261101-121121"
+}
