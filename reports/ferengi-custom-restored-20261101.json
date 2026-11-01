@@ -1,0 +1,84 @@
+{
+  "installed": true,
+  "runtimeVerified": false,
+  "backup": "D:\\Xaramada-Modwork\\backups\\ferengi-custom-restore-20261101-084012",
+  "changes": [
+    {
+      "unit": "xfgmerc",
+      "model": "fy26custom",
+      "scale": 2.0554883787922287,
+      "size": "Retains current reduced visual envelope",
+      "source": "Earlier custom Ferengi tower-yard package; original model preserved"
+    },
+    {
+      "unit": "mryfer",
+      "model": "fy26custom",
+      "scale": 0.9899409400032758,
+      "size": "Retains current reduced visual envelope",
+      "source": "Earlier custom Ferengi tower-yard package; original model preserved"
+    },
+    {
+      "unit": "xbgmerc",
+      "model": "fy26custombg",
+      "scale": 2.055488378785849,
+      "size": "Retains current reduced visual envelope",
+      "source": "Earlier custom Ferengi tower-yard package; original model preserved"
+    }
+  ],
+  "files": [
+    {
+      "file": "Textures/RGB/xfg6eeb4dc6a.tga",
+      "sha256": "6eeb4dc6a4393c423e3cad1b4bad7a7b5fe34918a49f2cc1a9cca0ec8b50d9d2"
+    },
+    {
+      "file": "SOD/fy26custom.sod",
+      "sha256": "15c1a05bf2d577d8b31013301834dd481a1077b2150edcd1dd8f87a5f424bbc0"
+    },
+    {
+      "file": "SOD/fy26custombg.sod",
+      "sha256": "491215b1b8fa11cb942daa0b0113d29f6acfbd62713d6b788aed255a1db794c0"
+    },
+    {
+      "file": "Textures/RGB/bgf6eeb4dc6a.tga",
+      "sha256": "74200426df5e6a6e35f26fa087c7fbac48a0bcb07f5a55995448ae41af114bdb"
+    },
+    {
+      "file": "odf/stations/xfgmerc.odf",
+      "sha256": "988f536b6d3f9fafc75c1fe541eb97a73760d1aa281cb4bae919ae5f518f323c"
+    },
+    {
+      "file": "Textures/RGB/gbay31_xfgmerc.tga",
+      "sha256": "6d99285520afe85b7a1134eabd4777a18870d85dd10841fb18e56c03df9a653d"
+    },
+    {
+      "file": "Textures/RGB/wfay31_xfgmerc.tga",
+      "sha256": "6d99285520afe85b7a1134eabd4777a18870d85dd10841fb18e56c03df9a653d"
+    },
+    {
+      "file": "odf/stations/mryfer.odf",
+      "sha256": "82a784257cd181f81de2e1c388cdd248208847074627841ecd5b3d8ac73ead1f"
+    },
+    {
+      "file": "Textures/RGB/gbay31_mryfer.tga",
+      "sha256": "6d99285520afe85b7a1134eabd4777a18870d85dd10841fb18e56c03df9a653d"
+    },
+    {
+      "file": "Textures/RGB/wfay31_mryfer.tga",
+      "sha256": "6d99285520afe85b7a1134eabd4777a18870d85dd10841fb18e56c03df9a653d"
+    },
+    {
+      "file": "odf/stations/xbgmerc.odf",
+      "sha256": "3bc8dccdc9b610d45cd309b27e8ba8f6064c453d1a30860db6751f64ca7fe224"
+    },
+    {
+      "file": "Textures/RGB/gbay31_xbgmerc.tga",
+      "sha256": "fb643b0557f9959cb5c1b7316a41d3e54b8657f58925bbe550b4a38cd67ca815"
+    },
+    {
+      "file": "Textures/RGB/wfay31_xbgmerc.tga",
+      "sha256": "fb643b0557f9959cb5c1b7316a41d3e54b8657f58925bbe550b4a38cd67ca815"
+    }
+  ],
+  "guiSpriteFileUnchangedSha256": "05228dad530a1038927ada28834da4f70b9c101a71df81d5a5473d50d8eecfe4",
+  "notes": "Restored prior custom Ferengi tower model with native build/repair hardpoints. Current ship roster, stats and tech retained. Normal and Borg variants included. First Romulan yard remains25% smaller."
+}
