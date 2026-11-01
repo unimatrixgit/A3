@@ -1,0 +1,140 @@
+{
+  "fileCount": 112,
+  "shipsAndBuildersChecked": [
+    {
+      "unit": "fvoyager",
+      "model": "fvoyager",
+      "buildItems": [
+        0
+      ]
+    },
+    {
+      "unit": "fcruise3",
+      "model": "fcruise3",
+      "buildItems": [
+        0
+      ]
+    },
+    {
+      "unit": "fintx",
+      "model": "fintx",
+      "buildItems": [
+        0
+      ]
+    },
+    {
+      "unit": "mrc018",
+      "model": "mrc018",
+      "buildItems": [
+        0
+      ]
+    },
+    {
+      "unit": "kbattle",
+      "model": "xui_kbattle",
+      "buildItems": [
+        0
+      ]
+    },
+    {
+      "unit": "chutet",
+      "model": "chutet",
+      "buildItems": [
+        0
+      ]
+    },
+    {
+      "unit": "bspecial",
+      "model": "bspecial",
+      "buildItems": [
+        0
+      ]
+    },
+    {
+      "unit": "bjbattle",
+      "model": "bv4_bjbattle",
+      "buildItems": [
+        0
+      ]
+    },
+    {
+      "unit": "sg26jumper",
+      "model": "sg26jumper",
+      "buildItems": []
+    },
+    {
+      "unit": "sg26aurora",
+      "model": "sg26aurora",
+      "buildItems": []
+    },
+    {
+      "unit": "sg26atlantis",
+      "model": "sg26atlantis",
+      "buildItems": [
+        0,
+        1
+      ]
+    },
+    {
+      "unit": "xr26carrier",
+      "model": "xr26carrier",
+      "buildItems": [
+        0
+      ]
+    },
+    {
+      "unit": "xfuconst",
+      "model": "vr26_xfuconst",
+      "buildItems": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "unit": "fconst2",
+      "model": "vr26_fconst2",
+      "buildItems": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  ],
+  "errors": [],
+  "runtimeVerified": false,
+  "checks": [
+    "source/stage hashes",
+    "ODF includes and weapons/ordinance",
+    "physics",
+    "sound file and WAV decoding",
+    "texture decoding",
+    "native launch/weapon hardpoints",
+    "new unit build/group aliases",
+    "tech entries and prerequisites",
+    "14-entry producer menu limit",
+    "GUI original prefix preserved",
+    "Wormhole Drive label/icon/ordinance"
+  ]
+}

@@ -1,0 +1,668 @@
+{
+  "target": "D:\\armadaIII",
+  "installed": false,
+  "runtimeVerified": false,
+  "dependency": "Dominion carrier move/build/combat test must pass first",
+  "existingShipConversions": [
+    {
+      "unit": "fvoyager",
+      "builds": [
+        "fdeltaflyer"
+      ],
+      "role": "Voyager / Delta Flyer",
+      "newModel": false
+    },
+    {
+      "unit": "fcruise3",
+      "builds": [
+        "fdeltaflyer"
+      ],
+      "role": "Intrepid hangar refit",
+      "newModel": false
+    },
+    {
+      "unit": "fintx",
+      "builds": [
+        "fdeltaflyer"
+      ],
+      "role": "Intrepid X-refit hangar",
+      "newModel": false
+    },
+    {
+      "unit": "mrc018",
+      "builds": [
+        "fdeltaflyer"
+      ],
+      "role": "Mirror Voyager hangar",
+      "newModel": false
+    },
+    {
+      "unit": "kbattle",
+      "builds": [
+        "kscout"
+      ],
+      "role": "Negh Var hangar refit; gameplay extrapolation inspired by Klingon carrier roles",
+      "newModel": false
+    },
+    {
+      "unit": "chutet",
+      "builds": [
+        "cscout"
+      ],
+      "role": "Hutet hangar refit; gameplay extrapolation",
+      "newModel": false
+    },
+    {
+      "unit": "bspecial",
+      "builds": [
+        "bscout"
+      ],
+      "role": "Diamond scout deployment; gameplay extrapolation",
+      "newModel": false
+    },
+    {
+      "unit": "bjbattle",
+      "builds": [
+        "bjinterceptor"
+      ],
+      "role": "Bajoran battleship interceptor hangar; gameplay extrapolation",
+      "newModel": false
+    }
+  ],
+  "newUnits": [
+    "sg26atlantis",
+    "sg26jumper",
+    "sg26aurora",
+    "xr26carrier"
+  ],
+  "excludedFactions": [
+    "breen",
+    "ferengi"
+  ],
+  "species8472": "Existing native mobile mothership retained, no extra ship",
+  "constructorMove": "Midas moves from MKIII slot12 to MKII slot12; Atlantis uses MKIII slot12. No removed build access or menu overflow.",
+  "sourceCredits": [
+    "docs/third-party/mobile-carriers-20261101/atlantis-20/readme.txt",
+    "docs/third-party/mobile-carriers-20261101/jumper/readme.txt",
+    "docs/third-party/mobile-carriers-20261101/aurora/aurorareadme.txt",
+    "docs/third-party/mobile-carriers-20261101/aurora/Credits.txt",
+    "docs/third-party/mobile-carriers-20261101/kryonyx/Readme.txt"
+  ],
+  "files": [
+    {
+      "path": "odf/ships/fvoyager.odf",
+      "previousSha256": "23eb00eb5cbe933ebb87f2ae32a6669adedc38ddc9bcfd841ec78071dbd1e566",
+      "sha256": "a9ef8f11b77c1845e596db18d0d49333be638d3b91ca5ae24d0f9a9d7603bc55"
+    },
+    {
+      "path": "odf/ships/fcruise3.odf",
+      "previousSha256": "613275de253aa6672bab5c0e5c2a4d63fb47754ed5b61f910dc8720c870ffe64",
+      "sha256": "2d1de9751cd898524d24e0a4031c078170070fa810e4e8d49e81dd0166fec76d"
+    },
+    {
+      "path": "odf/ships/fintx.odf",
+      "previousSha256": "82a271ab5865554a40fbb48dec946104cbe04acf2b704f37657697f8a7adf504",
+      "sha256": "6c0b1a2c7dd0035d7aceeef4157b0f73dd2c34ed7e0889d9de8c0fc2c5eb05c8"
+    },
+    {
+      "path": "odf/ships/mrc018.odf",
+      "previousSha256": "8031ee45a8d06a86355796bd0092c2ba5d40be699c078c5c793a81eda7a5fa16",
+      "sha256": "c88bd3adf166488ceb10117975a7ef57e618dc239857f402c9432246e382a185"
+    },
+    {
+      "path": "odf/ships/kbattle.odf",
+      "previousSha256": "28520c80f0e74edcd5e2f68286b0c9093a4dee2d6b9bcf8d1ce4533e5ab38f25",
+      "sha256": "18f2409dad9f96d773119184384beb5e0b2393d86cd695e0cfcad7ff0f34110f"
+    },
+    {
+      "path": "odf/ships/chutet.odf",
+      "previousSha256": "6b8a1f06ffa0f214cad6bf10a1624b2d887137c04c3eaca1c3812378e61f04de",
+      "sha256": "7b58d1ac48585aca35de7ec93f2991bf8d668cfae48149a7b52630f40a720976"
+    },
+    {
+      "path": "odf/ships/bspecial.odf",
+      "previousSha256": "bd0bc518fd5359bf4a8f8662e3e5e28632866b7cefaaf6450bda6d53c5c2f8e1",
+      "sha256": "fb14f49f8bc53487a0c1fec19f99f5d666ed8e174b583865cd2f2726665a3ec1"
+    },
+    {
+      "path": "odf/ships/bjbattle.odf",
+      "previousSha256": "70a923c7c06cb5a93cf712261619a55596eab86599f434df478da0780c32a246",
+      "sha256": "c6f5ca28a23270629c291fb548d8181b25be0e1c038f33f0d3938849129adfd1"
+    },
+    {
+      "path": "Textures/RGB/sg26ta8f00da1e8fb.tga",
+      "previousSha256": null,
+      "sha256": "a8f00da1e8fb8dad1e362f87dd23ba05c31fa5a40c578c1da07c10c02428db2e"
+    },
+    {
+      "path": "Textures/RGB/sg26ta8f00da1e8fb_B.tga",
+      "previousSha256": null,
+      "sha256": "a8f00da1e8fb8dad1e362f87dd23ba05c31fa5a40c578c1da07c10c02428db2e"
+    },
+    {
+      "path": "Textures/RGB/sg26td46cd5e0caf5.tga",
+      "previousSha256": null,
+      "sha256": "d46cd5e0caf5e761ce090a73a75be3984ab86000cb8da71c509e32c1266561c6"
+    },
+    {
+      "path": "Textures/RGB/sg26td46cd5e0caf5_B.tga",
+      "previousSha256": null,
+      "sha256": "d46cd5e0caf5e761ce090a73a75be3984ab86000cb8da71c509e32c1266561c6"
+    },
+    {
+      "path": "Textures/RGB/sg26ta213a6eef257.tga",
+      "previousSha256": null,
+      "sha256": "a213a6eef257e3ede519c6822efaab902a6500d42db079b34f40f697a2f81686"
+    },
+    {
+      "path": "Textures/RGB/sg26ta213a6eef257_B.tga",
+      "previousSha256": null,
+      "sha256": "a213a6eef257e3ede519c6822efaab902a6500d42db079b34f40f697a2f81686"
+    },
+    {
+      "path": "Textures/RGB/sg26te0396341738b.tga",
+      "previousSha256": null,
+      "sha256": "e0396341738b53bf0475025cd3f338f359c6e883af7b55af05474b0ebe9abe2b"
+    },
+    {
+      "path": "Textures/RGB/sg26te0396341738b_B.tga",
+      "previousSha256": null,
+      "sha256": "e0396341738b53bf0475025cd3f338f359c6e883af7b55af05474b0ebe9abe2b"
+    },
+    {
+      "path": "Textures/RGB/sg26t8a186489829e.tga",
+      "previousSha256": null,
+      "sha256": "8a186489829e533c7d165dce20825c3a5699a5eefd60a8ee0531313c6d5c1621"
+    },
+    {
+      "path": "Textures/RGB/sg26t8a186489829e_B.tga",
+      "previousSha256": null,
+      "sha256": "8a186489829e533c7d165dce20825c3a5699a5eefd60a8ee0531313c6d5c1621"
+    },
+    {
+      "path": "Textures/RGB/sg26t610fd5b7aca8.tga",
+      "previousSha256": null,
+      "sha256": "610fd5b7aca84bac94e6735a199c67e94e6937b280dff47f7fc1a148f501611e"
+    },
+    {
+      "path": "Textures/RGB/sg26t610fd5b7aca8_B.tga",
+      "previousSha256": null,
+      "sha256": "610fd5b7aca84bac94e6735a199c67e94e6937b280dff47f7fc1a148f501611e"
+    },
+    {
+      "path": "Textures/RGB/sg26t02bc6b74f560.tga",
+      "previousSha256": null,
+      "sha256": "02bc6b74f56018599f926975129f41428d9f5424dcfca89311663f442e9c0763"
+    },
+    {
+      "path": "Textures/RGB/sg26t02bc6b74f560_B.tga",
+      "previousSha256": null,
+      "sha256": "02bc6b74f56018599f926975129f41428d9f5424dcfca89311663f442e9c0763"
+    },
+    {
+      "path": "SOD/sg26atlantis.sod",
+      "previousSha256": null,
+      "sha256": "c6cd8c0423db118603c4dbe4924f9dcc1980d4be3c80f5f1f1c4e04287744946"
+    },
+    {
+      "path": "Textures/RGB/sg26te9b066bd38e0.tga",
+      "previousSha256": null,
+      "sha256": "e9b066bd38e08fc0bd9e8b79ebe996ccb5c6642e26cb09767be724102f6b7359"
+    },
+    {
+      "path": "Textures/RGB/sg26te9b066bd38e0_B.tga",
+      "previousSha256": null,
+      "sha256": "e9b066bd38e08fc0bd9e8b79ebe996ccb5c6642e26cb09767be724102f6b7359"
+    },
+    {
+      "path": "Textures/RGB/sg26td4217daf705e.tga",
+      "previousSha256": null,
+      "sha256": "d4217daf705ed4a69e88691d069a9c6a981a053ae2f59e6d9e3d9d428d159bfa"
+    },
+    {
+      "path": "Textures/RGB/sg26td4217daf705e_B.tga",
+      "previousSha256": null,
+      "sha256": "d4217daf705ed4a69e88691d069a9c6a981a053ae2f59e6d9e3d9d428d159bfa"
+    },
+    {
+      "path": "Textures/RGB/sg26t6aa7fa8d3b79.tga",
+      "previousSha256": null,
+      "sha256": "6aa7fa8d3b79c8bf7fa494dcf32b768f722310ce237df3ce813346fa97dc1937"
+    },
+    {
+      "path": "Textures/RGB/sg26t6aa7fa8d3b79_B.tga",
+      "previousSha256": null,
+      "sha256": "6aa7fa8d3b79c8bf7fa494dcf32b768f722310ce237df3ce813346fa97dc1937"
+    },
+    {
+      "path": "SOD/sg26jumper.sod",
+      "previousSha256": null,
+      "sha256": "ed515e694262957decc75bee8339dd5ef3cb3cbae3f1464044679d77735c27e5"
+    },
+    {
+      "path": "Textures/RGB/sg26tfb48b03380e2.tga",
+      "previousSha256": null,
+      "sha256": "fb48b03380e2ef341e64992e8c4003ac076da108d91c345be573afc98bfb6b3c"
+    },
+    {
+      "path": "Textures/RGB/sg26tfb48b03380e2_B.tga",
+      "previousSha256": null,
+      "sha256": "fb48b03380e2ef341e64992e8c4003ac076da108d91c345be573afc98bfb6b3c"
+    },
+    {
+      "path": "Textures/RGB/sg26ta97116443051.tga",
+      "previousSha256": null,
+      "sha256": "a9711644305159d6368a68c5d201ab24978506bbeeab3e857bb7047476e1b477"
+    },
+    {
+      "path": "Textures/RGB/sg26ta97116443051_B.tga",
+      "previousSha256": null,
+      "sha256": "a9711644305159d6368a68c5d201ab24978506bbeeab3e857bb7047476e1b477"
+    },
+    {
+      "path": "Textures/RGB/sg26tfc8ba60824d3.tga",
+      "previousSha256": null,
+      "sha256": "fc8ba60824d3f16f4009a457f5d1a0dbe40967cbf8e8a98d9cd1d208bc063a8f"
+    },
+    {
+      "path": "Textures/RGB/sg26tfc8ba60824d3_B.tga",
+      "previousSha256": null,
+      "sha256": "fc8ba60824d3f16f4009a457f5d1a0dbe40967cbf8e8a98d9cd1d208bc063a8f"
+    },
+    {
+      "path": "SOD/sg26aurora.sod",
+      "previousSha256": null,
+      "sha256": "cd9559239024059164cf3d5d133efb1e95a24a77c216bbfe651e421682a1ac70"
+    },
+    {
+      "path": "Textures/RGB/sg26ta8aa25d25325.tga",
+      "previousSha256": null,
+      "sha256": "a8aa25d25325870663f40dcac6c53d2db6a1c2c8b4c320feeea428b3bae34013"
+    },
+    {
+      "path": "Textures/RGB/sg26ta8aa25d25325_B.tga",
+      "previousSha256": null,
+      "sha256": "a8aa25d25325870663f40dcac6c53d2db6a1c2c8b4c320feeea428b3bae34013"
+    },
+    {
+      "path": "Textures/RGB/sg26tbd4332b1acf0.tga",
+      "previousSha256": null,
+      "sha256": "bd4332b1acf0ccc4a7b1c0805a2990749b2830073de4940ea8306bc0d44198ea"
+    },
+    {
+      "path": "Textures/RGB/sg26tbd4332b1acf0_B.tga",
+      "previousSha256": null,
+      "sha256": "bd4332b1acf0ccc4a7b1c0805a2990749b2830073de4940ea8306bc0d44198ea"
+    },
+    {
+      "path": "Textures/RGB/sg26t115f708272c3.tga",
+      "previousSha256": null,
+      "sha256": "115f708272c343b797baa9482f2c8b186c287bf62bd50945942cb2dd75f04e39"
+    },
+    {
+      "path": "Textures/RGB/sg26t115f708272c3_B.tga",
+      "previousSha256": null,
+      "sha256": "115f708272c343b797baa9482f2c8b186c287bf62bd50945942cb2dd75f04e39"
+    },
+    {
+      "path": "Textures/RGB/sg26td923d69f355a.tga",
+      "previousSha256": null,
+      "sha256": "d923d69f355aade1853ff62f8d9ecbdcc77d9bdf5e3b0c6b6eab2d14fa91b798"
+    },
+    {
+      "path": "Textures/RGB/sg26td923d69f355a_B.tga",
+      "previousSha256": null,
+      "sha256": "d923d69f355aade1853ff62f8d9ecbdcc77d9bdf5e3b0c6b6eab2d14fa91b798"
+    },
+    {
+      "path": "SOD/xr26carrier.sod",
+      "previousSha256": null,
+      "sha256": "3fb779f95795e3067c89857ecf3c9ef00417d75c87b452f841d12ff74166d7b4"
+    },
+    {
+      "path": "sounds/effects/sg26drone.wav",
+      "previousSha256": null,
+      "sha256": "d18ad85e18b94f7b09adc38b0d5fb943be524d50753f8ef8c45df29c5f1cd5f2"
+    },
+    {
+      "path": "odf/weapons/Pulse/sg26drone_jumper.odf",
+      "previousSha256": null,
+      "sha256": "08685a8e7e3c6a8d495977af4deebc106713dbbc1e2597181a27ff59bfa4728c"
+    },
+    {
+      "path": "odf/weapons/Pulse/sg26drone_jumpero.odf",
+      "previousSha256": null,
+      "sha256": "0b74c82d292e3d4b981dd38022026db007889dbfe59899edc4981fc629c022b9"
+    },
+    {
+      "path": "odf/weapons/Pulse/sg26drone_aurora.odf",
+      "previousSha256": null,
+      "sha256": "e54b3b6d1d533688a3e7cd5a9550d86b05dfebe57e3979feef29b6ab9ab2b5f0"
+    },
+    {
+      "path": "odf/weapons/Pulse/sg26drone_aurorao.odf",
+      "previousSha256": null,
+      "sha256": "a078c955e53b13b8a8fee87937cd6d4bbe739b3c387462703f5c0918ddee70b4"
+    },
+    {
+      "path": "odf/weapons/Pulse/sg26drone_city.odf",
+      "previousSha256": null,
+      "sha256": "7a02d98ed07e9782fd78188fe0fa63fb18c003b0d69c087e37bf3010901188fc"
+    },
+    {
+      "path": "odf/weapons/Pulse/sg26drone_cityo.odf",
+      "previousSha256": null,
+      "sha256": "59bb46dd7b56c2c9823db9f70bbdf1d0f8a6d038da89d8bfc2c5625a1136e232"
+    },
+    {
+      "path": "odf/ships/sg26jumper.odf",
+      "previousSha256": null,
+      "sha256": "ee79efdf33ddf6d48598f779a0341f16ac4a7164ad66d08150b2da9bc6466825"
+    },
+    {
+      "path": "Textures/RGB/gbsg26jumper.tga",
+      "previousSha256": null,
+      "sha256": "ff9f092c74705058d3646505dd3a29865b09797bd1c955349a91b751cd4d549d"
+    },
+    {
+      "path": "Textures/RGB/wfsg26jumper.tga",
+      "previousSha256": null,
+      "sha256": "ff9f092c74705058d3646505dd3a29865b09797bd1c955349a91b751cd4d549d"
+    },
+    {
+      "path": "odf/ships/sg26aurora.odf",
+      "previousSha256": null,
+      "sha256": "50d2f979415db313e8d13d2feb1d503718be9842c77031d3125416279163bbd4"
+    },
+    {
+      "path": "Textures/RGB/gbsg26aurora.tga",
+      "previousSha256": null,
+      "sha256": "c2589555111b67555da825cee3d3fadab27b4a2e75ebdf51b47ba4208d9dff11"
+    },
+    {
+      "path": "Textures/RGB/wfsg26aurora.tga",
+      "previousSha256": null,
+      "sha256": "c2589555111b67555da825cee3d3fadab27b4a2e75ebdf51b47ba4208d9dff11"
+    },
+    {
+      "path": "odf/ships/sg26atlantis.odf",
+      "previousSha256": null,
+      "sha256": "97c77e0d97ea274c2f189dd606fc1ba393c1214248b641300c68863399169837"
+    },
+    {
+      "path": "Textures/RGB/gbsg26atlantis.tga",
+      "previousSha256": null,
+      "sha256": "bbf3b1d50f9f0497e8d39d180aa6652a50aa8f44c449b52b4f0657d690601699"
+    },
+    {
+      "path": "Textures/RGB/wfsg26atlantis.tga",
+      "previousSha256": null,
+      "sha256": "bbf3b1d50f9f0497e8d39d180aa6652a50aa8f44c449b52b4f0657d690601699"
+    },
+    {
+      "path": "odf/special_weapons/sg26wormhole.odf",
+      "previousSha256": null,
+      "sha256": "37c341e2abf7bb959ee5fca7e7ca15ad0a47a92db278103bda51c0436e8a66a8"
+    },
+    {
+      "path": "odf/special_weapons/sg26zpm.odf",
+      "previousSha256": null,
+      "sha256": "7164fd21c00f6f65c462a78b2a538bec2a69214c5b0807bea90f0cbb5a994d83"
+    },
+    {
+      "path": "odf/special_weapons/sg26cloak.odf",
+      "previousSha256": null,
+      "sha256": "cc64506940b449bd8b357054406fc20f4232647f691b5c215edaf243506740f3"
+    },
+    {
+      "path": "odf/special_weapons/sg26overdrive.odf",
+      "previousSha256": null,
+      "sha256": "3890d128810a4ff032d0db40a5f0a83160511627f5e680bd8ce36823545126d7"
+    },
+    {
+      "path": "odf/special_weapons/sg26overdriveo.odf",
+      "previousSha256": null,
+      "sha256": "27aeb3f2cba7c3b3bbc63810373f759f41e4387fc967f52e0d925efb6a19f82d"
+    },
+    {
+      "path": "odf/ships/xr26carrier.odf",
+      "previousSha256": null,
+      "sha256": "57f2dfd7a488f7009dd5916384e442ec3f3962e983a806dc4b44283cb64c0262"
+    },
+    {
+      "path": "Textures/RGB/gbxr26carrier.tga",
+      "previousSha256": null,
+      "sha256": "01c7a3379205ee0b266238664f096c9bef898cfd8c025344ffabacf896471300"
+    },
+    {
+      "path": "Textures/RGB/wfxr26carrier.tga",
+      "previousSha256": null,
+      "sha256": "01c7a3379205ee0b266238664f096c9bef898cfd8c025344ffabacf896471300"
+    },
+    {
+      "path": "odf/stations/ryard3.odf",
+      "previousSha256": "93593084a9864ebeb4cc6a6da3fd3065dba49664222e044af32af33b23c40d0f",
+      "sha256": "17852c754f0511225a4fe753e9d62a074d45997ed394bcace59b89dd086f073c"
+    },
+    {
+      "path": "odf/ships/xfuconst.odf",
+      "previousSha256": "f665b44c0f923cbdadbe1665aed5b63a00ced52f47084c1c7cb221b2f187b2a2",
+      "sha256": "3de5eaae3ba3730162c4206cfdd1db58420a6eec047d219fc317e180a9e8a3d3"
+    },
+    {
+      "path": "odf/ships/fconst2.odf",
+      "previousSha256": "9643d9a141ad8b4931820bdd790dcfd81c461a7adecaf8c8db7d0aec03a73a4e",
+      "sha256": "7f99850fb853fd876ffa841a560ff55ab5b602be41281dad474b25a8025d393a"
+    },
+    {
+      "path": "Techtree/a2_borg01.tt",
+      "previousSha256": "96d531ac86b7a0814be48400b61be56bf90f88438ef2c30048321b1e7189a96b",
+      "sha256": "789746fd8572cf8d76b37131cf9a4a1c4798f41fd7ea58eba56f7df3952f75fa"
+    },
+    {
+      "path": "Techtree/a2_borg02.tt",
+      "previousSha256": "bbdb5edf0bd92b35a1f536484da8ab5b83536b35872531f3d7d7e16ccfd95cce",
+      "sha256": "130401c966028b1637c64911b566d928b1aa92ffbe93583059ba6fa772baa44b"
+    },
+    {
+      "path": "Techtree/a2_borg03.tt",
+      "previousSha256": "986245c4678a5190a7fc4f6a6fcc7d469314bd0a87f7fbd13903522533cf8d50",
+      "sha256": "27249b42fee236b3e81fcff2d04c70f16778847b8cbe4fdbde8f30e59d1472d3"
+    },
+    {
+      "path": "Techtree/a2_borg04.tt",
+      "previousSha256": "78ac6fb85c51c675670d036431c83250ad980e10e2a633749bf9e1d83c59538d",
+      "sha256": "c5114e00f040e677e4b3df44457abb098e94065f0afabf63f5fa82005383dcc5"
+    },
+    {
+      "path": "Techtree/a2_borg05.tt",
+      "previousSha256": "d1496c9be767819915eec7dba9f1e405384234e2d9f6ba3a4504480c7821d770",
+      "sha256": "f1fc13702470ace591493e15ed68bda5e71394fc813d4d82b33b7ff8f8206b86"
+    },
+    {
+      "path": "Techtree/a2_borg06.tt",
+      "previousSha256": "eced6b5864691626b3885b195f71749a530e8f03202a95be2760b0a24127029a",
+      "sha256": "949f5969920632f96586cc851a9a21d7812c691cf5870a436dc6df25c4361d36"
+    },
+    {
+      "path": "Techtree/a2_borg07.tt",
+      "previousSha256": "b969da2aaf41c825428a67cf90290074b18989a100a5c2b921fed56fcc79385d",
+      "sha256": "b483ebeb4b614633249e041303938f916c9585eebf14aa0fb3e7fc569d109d64"
+    },
+    {
+      "path": "Techtree/a2_borg08.tt",
+      "previousSha256": "280311a38e4e98ad00facfaf382230ef18de2b03428ce4de967a16e9c4a25ceb",
+      "sha256": "c4e27e90e6911de298a4a44eb980a596798c134395b8a3b5fa33b801726a1b59"
+    },
+    {
+      "path": "Techtree/a2_borg09.tt",
+      "previousSha256": "96c44ce72341d17dd8715f90466ff88b51dfe1134f0a02cd3dbdbbdc507bce9a",
+      "sha256": "3dce85b21a0753955ccc999154622d7bbaf474b6f9a030b712cdb42cd83aac76"
+    },
+    {
+      "path": "Techtree/a2_borg10.tt",
+      "previousSha256": "e40ad9e8793a929f14253f42e9bbc9a0b003186ceecc37853fd88bba76ddba91",
+      "sha256": "fac9edcdd1d77918f0cfc7f803e938120d49a32c0a8f1fbc528a298c0d9e3847"
+    },
+    {
+      "path": "Techtree/a2_fed01.tt",
+      "previousSha256": "7659057f179363c397a2123fe338349c70a00932c52093bf0c4f681cd72fd7e3",
+      "sha256": "44bc26bfadb8702200b3385e63bcd8fc68c314240ce372aa60c668c99db2fee6"
+    },
+    {
+      "path": "Techtree/a2_fed02.tt",
+      "previousSha256": "59ca17abb0f1c19d0d22bd666e3ec87c01b67ecee4633150e33b84b1c0634488",
+      "sha256": "bfd23144e5a7642d447bac4f70aecb98d1101b5a3eeb0bc94a3ac76d8070ee62"
+    },
+    {
+      "path": "Techtree/a2_fed03.tt",
+      "previousSha256": "20236342a6b93a12164afecb49700d310e3b710d4fec8da9a72a8f959ff1dc6a",
+      "sha256": "56f41d6d93a093b40b6e18730e210055a7f2de2dff86fff3cd5971524f96ecbe"
+    },
+    {
+      "path": "Techtree/a2_fed04.tt",
+      "previousSha256": "e3974c41d5ea14454d1ef15d5528f4d2dee3f4be0c329799e209c5c3e883512e",
+      "sha256": "79fcbf71e4a6c193b42d46905479f430d3558b3b4cb5b661a66ad73018327557"
+    },
+    {
+      "path": "Techtree/a2_fed05.tt",
+      "previousSha256": "6a415de58576a1b483d1c5e8b1b883433a84f15a644213365280570a82bee441",
+      "sha256": "38534fb115d1dbadc8ab969b827dad9f29d923535ccd2a0c87715980c161ad67"
+    },
+    {
+      "path": "Techtree/a2_fed06.tt",
+      "previousSha256": "38cff54241396b13b09669d87fdfeb1ab36f01964a2f0688db80e65cb6ff00d4",
+      "sha256": "fae6229aa8d8586a22ea4da60374d0028f965920a793410f9df0f53c68e8f3a2"
+    },
+    {
+      "path": "Techtree/a2_fed07.tt",
+      "previousSha256": "1a47abd63ff0d0e7f6267c98ea7a6fad5e380c5ebe7d6cdf90cc65ddc52bd993",
+      "sha256": "62e95d39d2011041aabccc08297a128e49752e108606f558a07ae25a418fc3b5"
+    },
+    {
+      "path": "Techtree/a2_fed08.tt",
+      "previousSha256": "16b6022d16ad22af59cfb8caae2ed92ed258ee742ca62d665beb0a7b7add3e59",
+      "sha256": "9061495ac2b0744c97610c4c0046a3bbee8134a633ecb9a5ed6e0bf88435a245"
+    },
+    {
+      "path": "Techtree/a2_fed09.tt",
+      "previousSha256": "3e7187cae38648e29f905f0c9fc80dfcfbc02a5ab5900caab9821f13006e2bc7",
+      "sha256": "38ebd5054f6d03fdc1eb12e680247ac45bea975c4d99674732020fc363a8792b"
+    },
+    {
+      "path": "Techtree/a2_fed10.tt",
+      "previousSha256": "dd7ed7682283d900784f267ec3a64ee2e6282b0dccad0ac9b7c21e2548f2ea25",
+      "sha256": "b52538ff625003a7656d767cf71d5c4d46327e1676c74a46288857ec34917b59"
+    },
+    {
+      "path": "Techtree/a2_kling01.tt",
+      "previousSha256": "eb5bf0c70a3ca93d012eb04261fe966b8f28df02bf1abc47d234867e3110c6bf",
+      "sha256": "db69e3cae06211caecb5976a571a94795d8fdb9698a27a6330b1c4680164ba9a"
+    },
+    {
+      "path": "Techtree/a2_kling02.tt",
+      "previousSha256": "191e4bb49006da5226ba6c7e4b61a8b5217c5de96c0e020e082228eb52a05430",
+      "sha256": "e55bde1951093e0702f28824680d1255deaafd25fcb6028e02a6025c523bc589"
+    },
+    {
+      "path": "Techtree/a2_kling03.tt",
+      "previousSha256": "5ec67d3f11c3f27795de3872b35621ad71ee32f199ea53c270bb81cabd5d0067",
+      "sha256": "9e0b1259178d883be396e55bbbc2e1de8655c4b86a2b03f2eca556eaf1b74558"
+    },
+    {
+      "path": "Techtree/a2_kling04.tt",
+      "previousSha256": "647052772918edcd2feb0b2d9f103d9e5de0d03bde47eb2e0f833def840e49d8",
+      "sha256": "595a54e86453d0ea8e068e26a2d2116f34fdbee083fe3e7904400d302024d167"
+    },
+    {
+      "path": "Techtree/a2_kling05.tt",
+      "previousSha256": "8587e64d3daec7c934b9758848eccdc99a4b7591720e55879d5abd482d919d90",
+      "sha256": "55b1647b429ea02f2eb9643e3c2b3acd898187d6352662b752bbe5a386e5c46d"
+    },
+    {
+      "path": "Techtree/a2_kling06.tt",
+      "previousSha256": "d7e113e453a5a32a83f7835b5c261e4fb3d8e9082f02b78397db1d46703584a4",
+      "sha256": "971023535d52902e5f5b5e86600ac1fb61d9c1f8065a67f7a25d8dce76cc3d26"
+    },
+    {
+      "path": "Techtree/a2_kling07.tt",
+      "previousSha256": "27f0676a0a64a8845ea62485b8bd83475e32874b32284904701a0d3b8d983fa6",
+      "sha256": "df7c1e82fc8fc2876335d48d5c2ede31f919ac57bb00d86e5b75f799fa673f0a"
+    },
+    {
+      "path": "Techtree/a2_kling08.tt",
+      "previousSha256": "28b2f69581808cbc6c8f7a6cdb71c958f488b10029e826db57fbf9159e42d3b2",
+      "sha256": "f654d51f623c45089dadc187c4ffd19a344ca3c99d28fe6a6d73b9af6cb232f7"
+    },
+    {
+      "path": "Techtree/a2_kling09.tt",
+      "previousSha256": "ea05787dd809e3a99e2aaf2b7d226556c92249db70eb327b94f5255840752a5c",
+      "sha256": "80ec98ee9956c7eea520912c1c97106959f118198daf2b1a67add97774103484"
+    },
+    {
+      "path": "Techtree/a2_kling10.tt",
+      "previousSha256": "6711e20e3c453f69b565ca2f2aef38b2579a481a5bd67166c343e99dcd4a3be8",
+      "sha256": "2f778fbc3625795ad2859c352c4a2996cf750cee1a68990beece6b62374b1059"
+    },
+    {
+      "path": "Techtree/demotech.tt",
+      "previousSha256": "e1b5e0de5584859bac52295aad8d4ce6ca54e0ca7e179b8b627a7628b1b0c4a7",
+      "sha256": "3417b38d9c7f01f5db3fe395850e7192ceb6756a7d7949fc3e4a9a2dabdae55a"
+    },
+    {
+      "path": "Techtree/earlytech.tt",
+      "previousSha256": "d54408222cc85fec141ee1faf6309950ca12c6040fd154b8e25cebf6871c7ced",
+      "sha256": "bc7f2beefd73d06c1aa8e657bc7147da9ef50090ccbbd85da6fe970b578256d8"
+    },
+    {
+      "path": "Techtree/freetech.tt",
+      "previousSha256": "8788523e9f75a65ec9b93fa47475f517ec27f23ae8b6508cde289e1caef6aeb2",
+      "sha256": "36b53b36fd384890b0210a8930f53500ae16f0423611062caf1578ce9e5ae7f7"
+    },
+    {
+      "path": "Techtree/fulltech.tt",
+      "previousSha256": "3e7792a2c525fb9ce228a004b3b89fd0bfa36d65d72abca6d78d10996cb2d7f4",
+      "sha256": "68e820fccb5e6a4555791b64a60819866c29120c9eaf869d4b49cc89035f7f81"
+    },
+    {
+      "path": "Techtree/nosci.tt",
+      "previousSha256": "5ca9e07c996bbcd4b21fa2f0ab1693e4e0585148da943101ac0f49f0f6d6f359",
+      "sha256": "90b221249ce9d4b4f0fe29fb0dc13d2260d4aff02401837bb97ea852cc6be792"
+    },
+    {
+      "path": "Techtree/nospweap.tt",
+      "previousSha256": "4079fe24c1b3651c07d32684b5e90ecd167497bcd0bde6250e869fb55ebcba9e",
+      "sha256": "ed624fa8fc5bd37c6aeb3eb579c5afec334424feb10e5106ae5f1e89ddaafde3"
+    },
+    {
+      "path": "Techtree/nosuper.tt",
+      "previousSha256": "baf71b3e5bd3bece1b975f87be300ff9ef7872c8bb703564a1d20d029328096d",
+      "sha256": "d67f4dd0c887353a0623121b23a11ecd8fc4dd441a5fc6870b3fcbb4bff22e3e"
+    },
+    {
+      "path": "Techtree/tech1.tt",
+      "previousSha256": "3d8959ff5bdcbed021d412fe7bcfabf186d5f54383c10d729c82d4522a62b854",
+      "sha256": "9ab8d34e484d9c97ab1745c69e6112d524ae540fccf329e860997e8a16cb4e66"
+    },
+    {
+      "path": "Sprites/gui_global.spr",
+      "previousSha256": "0bef9a3ac6871496bdcf7d94f2cf4aa948bc05785c4dd82087333fef2f9367f1",
+      "sha256": "d15bb603c3571000c5320d2ea7ec60dd78eb802c444dc90093563728bb65d8d2"
+    }
+  ],
+  "wormholeDrive": "Native transwarp named Wormhole Drive;1000 energy/jump,4000 capacity,40 regeneration/sec;25 seconds per jump replenishment without other consumption",
+  "citySpecials": {
+    "ZPM Improvement": "Sovereign Corbomite Reflector, unchanged80 energy cost, no research",
+    "Cloak": "Native cloak,100 energy cost",
+    "Naquadaq Overdrive": "DeathChant TimedHyper effect:15 seconds, DamageModifier17.5 restores40 base damage to original700; all other modifiers1; self-range1;1000 energy;60-second cooldown. Runtime self-target/timing test required.",
+    "nativeDamageEvidence": "Ordnance::mApplyDamage0x58f3c0 resolves shooter at+0x5c, gets TimedHyper via0x4d4ea0, multiplies outgoing damage by+0xc0 at0x58f3f7. DeathChant maps DamageModifier to+0xc0 and specialValue to duration.",
+    "energyBudget": "4 special abilities *1000 capacity and *10/sec recharge =4000/40; combined listed activation costs2180; full recharge100 seconds",
+    "buttons": "Wormhole1, ZPM2, Cloak3, Overdrive4; reused icons, no overlap",
+    "research": "All four zero prerequisites, no research/resource unlock cost; special energy retained"
+  },
+  "droneBalance": {
+    "jumper": "2 banks,10 damage/.6sec,400 range",
+    "aurora": "4 banks,35 damage/.6sec,700 range",
+    "atlantis": "6 banks,40 damage/.5sec,900 range"
+  }
+}

@@ -1,0 +1,83 @@
+#include "craft.odf"
+
+unitName = "Aurora-class Alteran Battleship"
+
+label = "Aurora-class Alteran Battleship"
+
+tooltip = "Aurora-class Alteran Battleship"
+
+verboseTooltip = "Aurora-class Alteran Battleship\nAncient drone weapons\nBuilt at Atlantis."
+
+baseName = "sg26aurora"
+
+race = "federation"
+
+maxHealth = 6000
+
+shieldRate = 60.0
+
+crewCost = 800
+
+officerCost = 8
+
+dilithiumCost = 1800
+
+metalCost = 800
+
+buildTime = 70
+
+ScaleSOD = 1.8360288781403427
+
+physicsFile = "fbattlephys.odf"
+
+trekPhysicsFile = "fbattlephys.odf"
+
+maxSpecialEnergy = 1000
+
+specialEnergyRate = 10
+
+combat = 1
+
+alert = 1
+
+can_sandd = 1
+
+shipType = "B"
+
+shipclass = "battleship"
+
+enginesHitPoints = 600
+
+enginesTargetHardpoints = "hp29" "hp28" "hp27" "hp26"
+
+weaponsHitPoints = 600
+
+weaponsTargetHardpoints = "hp29" "hp28" "hp27" "hp26"
+
+sensorsHitPoints = 600
+
+sensorsTargetHardpoints = "hp29" "hp28" "hp27" "hp26"
+
+lifeSupportHitPoints = 600
+
+lifeSupportTargetHardpoints = "hp29" "hp28" "hp27" "hp26"
+
+shieldGeneratorHitPoints = 600
+
+shieldGeneratorTargetHardpoints = "hp29" "hp28" "hp27" "hp26"
+
+weapon1 = "sg26drone_aurora"
+
+weaponHardpoints1 = "hp29"
+
+weapon2 = "sg26drone_aurora"
+
+weaponHardpoints2 = "hp28"
+
+weapon3 = "sg26drone_aurora"
+
+weaponHardpoints3 = "hp27"
+
+weapon4 = "sg26drone_aurora"
+
+weaponHardpoints4 = "hp26"

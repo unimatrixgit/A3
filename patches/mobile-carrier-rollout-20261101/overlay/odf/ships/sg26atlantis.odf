@@ -1,0 +1,139 @@
+#include "craft.odf"
+
+unitName = "Atlantis"
+
+label = "Atlantis"
+
+tooltip = "Atlantis"
+
+verboseTooltip = "Atlantis\nDrones, Wormhole Drive, ZPM Improvement, cloak and Naquadaq Overdrive\nProduces Puddle Jumpers and Aurora-class Alteran battleships."
+
+baseName = "sg26atlantis"
+
+race = "federation"
+
+maxHealth = 12000
+
+shieldRate = 120.0
+
+crewCost = 1200
+
+officerCost = 20
+
+dilithiumCost = 5000
+
+metalCost = 5000
+
+buildTime = 120
+
+ScaleSOD = 1.8102673226970551
+
+physicsFile = "fbattlephys.odf"
+
+trekPhysicsFile = "fbattlephys.odf"
+
+maxSpecialEnergy = 4000
+
+specialEnergyRate = 40
+
+combat = 1
+
+alert = 1
+
+can_sandd = 1
+
+shipType = "B"
+
+shipclass = "battleship"
+
+enginesHitPoints = 1200
+
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04"
+
+weaponsHitPoints = 1200
+
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04"
+
+sensorsHitPoints = 1200
+
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04"
+
+lifeSupportHitPoints = 1200
+
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04"
+
+shieldGeneratorHitPoints = 1200
+
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04"
+
+weapon1 = "sg26drone_city"
+
+weaponHardpoints1 = "hp01"
+
+weapon2 = "sg26drone_city"
+
+weaponHardpoints2 = "hp02"
+
+weapon3 = "sg26drone_city"
+
+weaponHardpoints3 = "hp03"
+
+weapon4 = "sg26drone_city"
+
+weaponHardpoints4 = "hp04"
+
+weapon5 = "sg26drone_city"
+
+weaponHardpoints5 = "hp05"
+
+weapon6 = "sg26drone_city"
+
+weaponHardpoints6 = "hp06"
+
+classLabel = "shipyard"
+
+aiName = "CraftProcess"
+
+ship = 1
+
+facility = 0
+
+is_starbase = 0
+
+builder_ship = 1
+
+alwaysRecomputeRallyPoint = 1
+
+buildItem0 = "sg26jumper"
+
+buildHardpoint = "hp19"
+
+repairFacility = 0
+
+decommissionFacility = 0
+
+recrewRate = 0
+
+maxCrewGain = 0
+
+officerGain = 0
+
+maximumUpgrades = 0
+
+buildItem1 = "sg26aurora"
+
+weapon7 = "sg26wormhole"
+
+weaponHardpoints7 = "hp01"
+
+weapon8 = "sg26zpm"
+
+weaponHardpoints8 = "hp01"
+
+weapon9 = "sg26cloak"
+
+weaponHardpoints9 = "hp01"
+
+weapon10 = "sg26overdrive"
+
+weaponHardpoints10 = "hp01"

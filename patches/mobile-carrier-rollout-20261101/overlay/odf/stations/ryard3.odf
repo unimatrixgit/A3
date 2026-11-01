@@ -1,0 +1,202 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+
+
+//tooltips
+
+
+
+//Race which can build ship & starting race of ship
+race = "romulan"
+
+//Amount of time required to build ship
+
+//Number of officers required to build this ship
+
+//Number of crew required to build ship & Starting crew
+
+//Dilithium Cost to build
+
+//Metal cost to build
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 2500
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 2.08
+
+//Possible Craft Names
+possibleCraftNames = 
+	"Velesh Prime" "Plupus Prime" "Folcus Prime" "Capulvian Prime" 
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+lifeSupportTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+weaponsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+shieldGeneratorTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+sensorsTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+hullTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+criticalTargetHardpoints = "hp10" "hp11" "hp12" "hp13" "hp14" "hp15" "hp16" "hp17"
+
+//**********************************************************************
+//Construction Parameters
+
+//Hardpoint location for building.
+
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 1.00f
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "AdvShipyardSelect"
+eventAcknowledge = "AdvShipyardAcknowledge"
+eventDecommission = "AdvShipyardDecommission"
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//Runtime class label for instantiation of object.
+
+
+//**********************************************************************
+//KEYMAP LABEL
+// Obsolete, use hotkeyLabel
+// keymapLabel = "adv_shipyard"
+hotkeyLabel = "HOTKEY_F8"
+
+//************************************************************
+// Brian additions for context sensitive menus
+
+transporter = 1
+SHOW_MOVEMENT_AUTONOMY = 1
+SHOW_SW_AUTONOMY = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Xaramada resource costs: calculated from original comparable.
+
+
+
+
+crewCost = 500
+officerCost = 5
+
+
+
+
+
+
+
+// Lab safety fix: this model has no repair docking node. Do not accept repair orders, including after capture.
+
+
+
+
+
+
+latinumCost = 0
+
+biomatterCost = 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dilithiumCost = 450
+
+metalCost = 1350
+
+buildTime = 120
+
+
+
+
+buildItem0 = "rtswarb"
+buildItem1 = "rtsdread"
+buildItem2 = "xhrhero"
+buildItem3 = "xhrshinzon"
+buildItem4 = "xhrdonatra"
+buildItem5 = "xhrtosbird"
+buildItem6 = "xhrearlybird"
+buildItem7 = "mrc049"
+buildItem8 = "mrc050"
+buildItem9 = "mrc051"
+buildItem10 = "mrc052"
+buildItem11 = "mrc053"
+classLabel = "shipyard"
+builder_ship = 1
+research = 0
+repairFacility = 0
+decommissionFacility = 0
+recrewRate = 0
+unitName = "Tal Shiar Command Yard"
+tooltip = "Tal Shiar Command Yard"
+verboseTooltip = "Tal Shiar Command Yard\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
+weapon1 = "rc07phas"
+weaponHardpoints1 = "tygun1"
+weapon2 = "rc07phas"
+weaponHardpoints2 = "tygun2"
+weapon3 = "rc08phot"
+weaponHardpoints3 = "tygun3"
+canAttack = 1
+COMBAT = 1
+ALERT = 1
+weaponsHitPoints = 500
+
+buildHardpoint = "tylaunch"
+repairHardpoint = "tyrepair"
+footprintBuffer = 73.2764710554
+baseName = "ay31_ryard3"
+ScaleSOD = 10.5830328956
+
+buildItem12 = "xr26carrier"
