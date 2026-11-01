@@ -1,0 +1,102 @@
+{
+  "target": "D:/armadaIII",
+  "installed": true,
+  "runtimeVerified": false,
+  "sourceSha256": "9a8846c088b043bdbeb065f2f41d6bff160627a6b21d993919a68e86d4e04822",
+  "patchedSha256": "853ec76c8a6192c99ba16fff5ab537db2d821bfc4a851feca97ecc7e3d18d051",
+  "file": "SOD/Fbase.sod",
+  "changedBytes": 1379,
+  "doorTracks": [
+    {
+      "door": "Box01",
+      "oldTravel": 25.431716918945312,
+      "newTravel": 25.431716918945312,
+      "panelWidthInSlideDirection": 23.431716918945312,
+      "worldSlideDirection": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "door": "Box02",
+      "oldTravel": 25.431716918945312,
+      "newTravel": 25.431716918945312,
+      "panelWidthInSlideDirection": 23.431716918945312,
+      "worldSlideDirection": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "door": "Box03",
+      "oldTravel": 63.696372985839844,
+      "newTravel": 25.431716918945312,
+      "panelWidthInSlideDirection": 23.431716918945312,
+      "worldSlideDirection": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "door": "Box04",
+      "oldTravel": 63.696380615234375,
+      "newTravel": 25.43171501159668,
+      "panelWidthInSlideDirection": 23.431716918945312,
+      "worldSlideDirection": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "door": "Box05",
+      "oldTravel": 25.431716918945312,
+      "newTravel": 25.431716918945312,
+      "panelWidthInSlideDirection": 23.431716918945312,
+      "worldSlideDirection": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "door": "Box06",
+      "oldTravel": 25.431718826293945,
+      "newTravel": 25.431718826293945,
+      "panelWidthInSlideDirection": 23.431716918945312,
+      "worldSlideDirection": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "door": "Box07",
+      "oldTravel": 63.69637680053711,
+      "newTravel": 25.431716918945312,
+      "panelWidthInSlideDirection": 23.431716918945312,
+      "worldSlideDirection": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "door": "Box08",
+      "oldTravel": 63.696372985839844,
+      "newTravel": 25.431716918945312,
+      "panelWidthInSlideDirection": 23.431716918945312,
+      "worldSlideDirection": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "finding": "Earlier four-pair animation used mesh-local width on a station-axis. Rotated pairs therefore travelled~63.7 instead of~25.4 units. Width now measured in the actual world slide direction.",
+  "preserved": "Every non-animation-position byte; station size, hull, door geometry, rotation, frame count, timing, hardpoints, ODF, production and stats",
+  "backup": "D:\\Xaramada-Modwork\\backups\\fed-starbase-door-alignment-20261101-112856"
+}

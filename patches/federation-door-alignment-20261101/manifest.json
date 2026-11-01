@@ -1,6 +1,6 @@
 {
   "target": "D:/armadaIII",
-  "installed": false,
+  "installed": true,
   "runtimeVerified": false,
   "sourceSha256": "9a8846c088b043bdbeb065f2f41d6bff160627a6b21d993919a68e86d4e04822",
   "patchedSha256": "853ec76c8a6192c99ba16fff5ab537db2d821bfc4a851feca97ecc7e3d18d051",
@@ -97,5 +97,6 @@
     }
   ],
   "finding": "Earlier four-pair animation used mesh-local width on a station-axis. Rotated pairs therefore travelled~63.7 instead of~25.4 units. Width now measured in the actual world slide direction.",
-  "preserved": "Every non-animation-position byte; station size, hull, door geometry, rotation, frame count, timing, hardpoints, ODF, production and stats"
+  "preserved": "Every non-animation-position byte; station size, hull, door geometry, rotation, frame count, timing, hardpoints, ODF, production and stats",
+  "backup": "D:\\Xaramada-Modwork\\backups\\fed-starbase-door-alignment-20261101-112856"
 }
