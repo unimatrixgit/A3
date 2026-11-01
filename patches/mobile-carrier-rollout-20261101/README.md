@@ -1,6 +1,6 @@
 # Mobile carrier and Atlantis beta rollout
 
-Prepared and validated; NOT INSTALLED. Automatic approval review rejected the live deployment command with the generic reason "blocked by policy". The earlier Dominion carrier controller fix is installed separately.
+Installed in D:/armadaIII after the user requested a retry. All 112 live files match the staged package. The earlier attempt was rejected with the generic reason "blocked by policy"; the retry completed normally. No runtime pass is claimed.
 
 - Voyager, Intrepid, X-refit and Mirror Voyager gain Delta Flyer production, retaining the Flyer's existing requirements.
 - Negh'Var, Hutet, Diamond and Bajoran battleship gain scout/interceptor hangars. These are gameplay extrapolations, not TV carrier canon.
@@ -24,6 +24,6 @@ Prepared and validated; NOT INSTALLED. Automatic approval review rejected the li
 
 All 112 staged files passed the saved checks for references, models, native hardpoints, textures, sound decoding, technology paths, producer limits and source hashes. The GUI sprite file preserves the existing bytes and appends only new unit/ability entries. No runtime pass is claimed.
 
-The rejected installation command made no live changes. Before any future installation, close the game, rerun validation against the current installation, back up every replaced live and repository-overlay file, and verify installed hashes against the manifest. Do not overwrite changed live files without rebasing the stage.
+The first rejected command made no live changes. The subsequent installation backed up every replaced live and repository-overlay file and verified all installed hashes against the manifest. The backup location is recorded in manifest.json and reports/mobile-carrier-rollout-installed-20261101.json. Before future updates, close the game and rebase against current files.
 
 Test each carrier separately: match load, movement, stationary/moving production, launch position, combat and save/load. For Atlantis also test cloak/decloak, Wormhole Drive, ZPM Improvement and the Overdrive duration and self-only damage effect. One successful Atlantis test does not establish that every faction carrier works.

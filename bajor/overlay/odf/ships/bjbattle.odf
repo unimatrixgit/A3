@@ -243,4 +243,34 @@ baseName = "bv4_bjbattle"
 
 possibleCraftNames = "BMS Kendra" "BMS Dahkur" "BMS Rakantha" "BMS Hathon" "BMS Jalanda" "BMS Dakor" "BMS Tozhat" "BMS Musilla" "BMS Hedrikspool" "BMS Dakhur" "BMS Ashalla" "BMS Dahkur Dawn" "BMS Kendra Spirit" "BMS Bajoran Dawn" "BMS Prophets Grace" "BMS First Light" "BMS Celestial Dawn" "BMS Valley Guardian" "BMS Militia Resolve" "BMS Freedom of Bajor" "BMS Dahkur Sentinel" "BMS Rakantha Shield" "BMS Kendra Vigil" "BMS Bajor Ascendant" "BMS Jalanda Star" "BMS Hathon Guard" "BMS Emissarys Hope" "BMS Liberation" "BMS Gratitude" "BMS New Dawn" "BMS Dahkur Resolve" "BMS Celestial Guardian"
 
-verboseTooltip = "Bajoran Militia Battleship\nSelf Destruct, Corbomite Reflector\nThe Bajoran Militia defends its homeworld."
+verboseTooltip = "Bajoran Militia Battleship\nSelf Destruct, Corbomite Reflector\nThe Bajoran Militia defends its homeworld.\nHangar: build Bajoran Interceptor. Existing research requirements apply."
+
+classLabel = "shipyard"
+
+aiName = "CraftProcess"
+
+ship = 1
+
+facility = 0
+
+is_starbase = 0
+
+builder_ship = 1
+
+alwaysRecomputeRallyPoint = 1
+
+buildItem0 = "bjinterceptor"
+
+buildHardpoint = "hp58"
+
+repairFacility = 0
+
+decommissionFacility = 0
+
+recrewRate = 0
+
+maxCrewGain = 0
+
+officerGain = 0
+
+maximumUpgrades = 0

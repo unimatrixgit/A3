@@ -189,4 +189,34 @@ latinumcost = 0
 biomattercost = 0
 crewCost = 155
 
-verboseTooltip = "Intrepid Class X-Refit\nAntimatter Mines\nLong-range explorer of Starfleet's Intrepid class."
+verboseTooltip = "Intrepid Class X-Refit\nAntimatter Mines\nLong-range explorer of Starfleet's Intrepid class.\nHangar: build Delta Flyer. Existing research requirements apply."
+
+classLabel = "shipyard"
+
+aiName = "CraftProcess"
+
+ship = 1
+
+facility = 0
+
+is_starbase = 0
+
+builder_ship = 1
+
+alwaysRecomputeRallyPoint = 1
+
+buildItem0 = "fdeltaflyer"
+
+buildHardpoint = "hp20"
+
+repairFacility = 0
+
+decommissionFacility = 0
+
+recrewRate = 0
+
+maxCrewGain = 0
+
+officerGain = 0
+
+maximumUpgrades = 0

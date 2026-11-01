@@ -1,0 +1,64 @@
+//This is the main pulse phaser weapon file
+
+//Name of the ODF file for the ordinance for this weapon
+ordName = "sg26drone_cityo"
+
+//Display name for this weapon
+wpnName = "Ancient Drones"
+
+//Time Delay between shots
+shotDelay = 0.5
+
+// Range within which the weapon will fire.
+range = 900
+
+//Sound which is played when the weapon fires
+fireSound = "sg26drone.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "cannon"
+
+// Restrict the Fire Arc
+restrictFireArc = 0
+
+// Use this fire arc restriction
+fireArc = 1.61
+
+//save up our fire
+//saveFire = 0
+
+//max number of shots we can save
+//maxShots = 10
+
+//the minimum time between saved shots
+//minimumShotInterval = 0.2
+
+
+// Percent chance of hitting the target.
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a percentage)
+hitChance = 1
+//	"bbattle.odf" 1.0
+//	"fbattle.odf" 1.0
+//	"kbattle.odf" 1.0
+//	"rbattle.odf" 1.0
+//	"fente.odf" 1.0
+//	"fgalaxy.odf" 1.0
+//	"fprem.odf" 1.0
+//	"fpremnew.odf" 1.0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the attacker is full impulse
+impulseToHitModifier = 0.6
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not attacker is stopped 
+stopToHitModifier = -0.0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is full impulse
+toHitImpulseModifier = 0.0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is stopped 
+toHitStopModifier = 0.2
+

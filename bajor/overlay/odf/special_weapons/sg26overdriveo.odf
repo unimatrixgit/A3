@@ -1,0 +1,63 @@
+//Programming Stuff DO NOT CHANGE
+classLabel = "deathchant"
+
+//The number of units which are subtracted from the Special Energy Reserve
+specialEnergyCost = 1000
+
+//The base amount of damage which the ordinance does with each hit
+damageBase = 0
+
+//The amount of variance applied to the damage (i.e. 10 + or - 2)
+damageVariance = 0
+
+//The threshold which must be exceeded to cause crew casualties prior
+//to shield exhaustion
+damageThreshold = 0
+
+//The multiplier by which any damage which exceeds the threshold is 
+//multiplied by to calculate the percentage of crew lost with that hit
+shieldCrewModifier = 0
+
+//The multiplier by which any damage which is applied to the hull is
+//multiplied by to calculate the percentage of crew lost with that hit
+hullCrewModifier = 0
+
+//Amount of time the ordinance will exists without hitting something
+lifeSpan = 0
+
+//How fast the shot moves
+shotSpeed = 35.0
+
+// This affects the turning radius/rate somewhat unknown.
+omegaTurn = 3.0
+
+// The rate at which this Torpedo accelerates.
+shotAccel = 100.0
+
+//The sprite which is used for this ordinance
+Sprite = "wcover"
+
+// Time to play through the animation for the sprite in seconds
+spriteDuration = 1.0
+
+//this modifies the color of the ordinance (not currently working)
+shotColor = 227
+
+// Size of photon torpedo.
+radius = 2.0f	
+
+// Let's ignore them thar shields
+ignoreShield = 1
+
+// Special value for special effects (how long it lasts?)
+specialValue = 15
+
+// Values for this effect
+FireModifier = 1
+RepairModifier = 1
+TurnModifier = 1
+DamageModifier = 17.5
+SpeedModifier = 1
+HitModifier = 1
+
+

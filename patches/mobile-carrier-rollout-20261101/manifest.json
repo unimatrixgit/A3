@@ -1,8 +1,8 @@
 {
   "target": "D:\\armadaIII",
-  "installed": false,
+  "installed": true,
   "runtimeVerified": false,
-  "dependency": "Dominion carrier move/build/combat test must pass first",
+  "dependency": "User requested full rollout for beta testing; runtime verification still pending",
   "existingShipConversions": [
     {
       "unit": "fvoyager",
@@ -664,5 +664,6 @@
     "jumper": "2 banks,10 damage/.6sec,400 range",
     "aurora": "4 banks,35 damage/.6sec,700 range",
     "atlantis": "6 banks,40 damage/.5sec,900 range"
-  }
+  },
+  "backup": "D:\\Xaramada-Modwork\\backups\\mobile-carrier-rollout-20261101-105847"
 }

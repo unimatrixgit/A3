@@ -159,4 +159,34 @@ crewCost = 865
 
 baseName = "xui_kbattle"
 
-verboseTooltip = "Negh'Var Class\nSelf Destruct, Cloak, Ion Cannon\nCommand warship of the Klingon Empire."
+verboseTooltip = "Negh'Var Class\nSelf Destruct, Cloak, Ion Cannon\nCommand warship of the Klingon Empire.\nHangar: build NuQ'Duj Class. Existing research requirements apply."
+
+classLabel = "shipyard"
+
+aiName = "CraftProcess"
+
+ship = 1
+
+facility = 0
+
+is_starbase = 0
+
+builder_ship = 1
+
+alwaysRecomputeRallyPoint = 1
+
+buildItem0 = "kscout"
+
+buildHardpoint = "hp05"
+
+repairFacility = 0
+
+decommissionFacility = 0
+
+recrewRate = 0
+
+maxCrewGain = 0
+
+officerGain = 0
+
+maximumUpgrades = 0

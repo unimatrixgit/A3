@@ -1,0 +1,47 @@
+//This is the main pulse phaser ordinance file
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "pphaser"
+
+//The number of units which are subtracted from the Special Energy Reserve
+specialEnergyCost = 0
+
+//The base amount of damage which the ordinance does with each hit
+damageBase = 40
+
+//The amount of variance applied to the damage (i.e. 10 + or - 2)
+damageVariance = 0
+
+//The threshold which must be exceeded to cause crew casualties prior
+//to shield exhaustion
+damageThreshold = 2
+
+//The multiplier by which any damage which exceeds the threshold is 
+//multiplied by to calculate the percentage of crew lost with that hit
+shieldCrewModifier = 0.2
+
+//The multiplier by which any damage which is applied to the hull is
+//multiplied by to calculate the percentage of crew lost with that hit
+hullCrewModifier = 0.3
+
+//Amount of time the ordinance will exists without hitting something
+lifeSpan = 4
+
+//How fast the shot moves
+shotSpeed = 450
+
+//The sprite which is used for this ordinance
+Sprite = "pphaser"
+
+//Phaser specific: this modifies the color of the phaser
+shotColor = 227
+
+//Phaser specific: this is the thickness of the beam
+Radius = 2.5
+
+// Time to play through the animation for the sprite in seconds
+spriteDuration = 1.0
+
+// Length of the beam.
+Length = 10
+

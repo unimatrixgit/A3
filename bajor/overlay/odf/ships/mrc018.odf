@@ -23,8 +23,8 @@ sensorshitpercent = 8.0f
 crewhitpercent = 8.5f
 hullhitpercent = 57.0f
 weldingradius = 0.25
-classlabel = "craft"
-ainame = "CraftProcess"
+classLabel = "shipyard"
+aiName = "CraftProcess"
 avoidanceclass = 3
 fireball = "xfirebsm"
 ship = 1
@@ -124,4 +124,28 @@ hotkeyLabel = "HOTKEY_F12"
 
 
 
-verboseTooltip = "Mirror Intrepid Class\nSelf Destruct, Tractor Beam\nA counterpart from the parallel Mirror Universe."
+verboseTooltip = "Mirror Intrepid Class\nSelf Destruct, Tractor Beam\nA counterpart from the parallel Mirror Universe.\nHangar: build Delta Flyer. Existing research requirements apply."
+
+facility = 0
+
+is_starbase = 0
+
+builder_ship = 1
+
+alwaysRecomputeRallyPoint = 1
+
+buildItem0 = "fdeltaflyer"
+
+buildHardpoint = "hp26"
+
+repairFacility = 0
+
+decommissionFacility = 0
+
+recrewRate = 0
+
+maxCrewGain = 0
+
+officerGain = 0
+
+maximumUpgrades = 0

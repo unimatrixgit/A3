@@ -151,4 +151,34 @@ latinumcost = 0
 biomattercost = 0
 crewCost = 950
 
-verboseTooltip = "Hutet Class\nSelf Destruct, Plasma Cannon\nA warship serving the Cardassian Union."
+verboseTooltip = "Hutet Class\nSelf Destruct, Plasma Cannon\nA warship serving the Cardassian Union.\nHangar: build Hideki Class. Existing research requirements apply."
+
+classLabel = "shipyard"
+
+aiName = "CraftProcess"
+
+ship = 1
+
+facility = 0
+
+is_starbase = 0
+
+builder_ship = 1
+
+alwaysRecomputeRallyPoint = 1
+
+buildItem0 = "cscout"
+
+buildHardpoint = "hp15"
+
+repairFacility = 0
+
+decommissionFacility = 0
+
+recrewRate = 0
+
+maxCrewGain = 0
+
+officerGain = 0
+
+maximumUpgrades = 0

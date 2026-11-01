@@ -1,0 +1,60 @@
+//Display name for this weapon
+wpnName = "Naquadaq Overdrive"
+
+//tooltips
+tooltip = "Naquadaq Overdrive"
+verboseTooltip = "Naquadaq Overdrive\nRestore original700 damage per Ancient drone for15 seconds.\nUses1000 special energy;60-second firing cooldown. No research required."
+
+//Name of the ODF file for the ordinance for this weapon
+ordName = "sg26overdriveo"
+
+//Location of the button in the speed panel
+buttonSlot = 4
+
+// location of the button in the popup palette
+popupSlot = 4
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 5
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 2
+
+// Mark this as a special weapon.
+special = 1
+
+
+//Time Delay between shots
+shotDelay = 60
+
+// Range within which the weapon will fire.
+range = 1
+
+//Sound which is played when the weapon fires
+fireSound = "swkdethf.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "areacannon"
+
+//Should not be used
+wpnReticle = "gblast"
+
+//UNKNOWN
+wpnPriority = 0
+
+//UNKNOWN
+wpnCategory = "AREA"
+
+// 	HIT_EVERYONE = 0,
+//	HIT_ALLIES = 1,
+//	HIT_ENEMIES = 2
+hitCondition = 1
+
+//this special weapon can be assimilated by the borg tech assimilator
+
+
+hotkeyLabel = "HOTKEY_F4"

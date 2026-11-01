@@ -163,4 +163,34 @@ latinumcost = 0
 biomattercost = 0
 crewCost = 730
 
-verboseTooltip = "Diamond\nUltritium Burst, Nanites, Computer Override, Shield Remodulation, Transwarp Drive, Auto-Assimilator\nThe Collective pursues perfection through unity."
+verboseTooltip = "Diamond\nUltritium Burst, Nanites, Computer Override, Shield Remodulation, Transwarp Drive, Auto-Assimilator\nThe Collective pursues perfection through unity.\nHangar: build Scouting Cube. Existing research requirements apply."
+
+classLabel = "shipyard"
+
+aiName = "CraftProcess"
+
+ship = 1
+
+facility = 0
+
+is_starbase = 0
+
+builder_ship = 1
+
+alwaysRecomputeRallyPoint = 1
+
+buildItem0 = "bscout"
+
+buildHardpoint = "hp34"
+
+repairFacility = 0
+
+decommissionFacility = 0
+
+recrewRate = 0
+
+maxCrewGain = 0
+
+officerGain = 0
+
+maximumUpgrades = 0

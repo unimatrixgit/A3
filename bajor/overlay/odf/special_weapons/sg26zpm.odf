@@ -1,0 +1,66 @@
+//Display name for this weapon
+wpnName = "ZPM Improvement"
+
+//tooltips
+tooltip = "ZPM Improvement"
+verboseTooltip = "ZPM Improvement\nAncient shield reinforcement reflects hostile fire using Sovereign Corbomite mechanics.\nAvailable without research; uses special energy."
+
+//Time Delay between shots - not used
+shotDelay = 0.0
+
+//Location of the button in the speed panel
+buttonSlot = 2
+
+// location of the button in the popup palette
+popupSlot = 2
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 10
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 2
+
+// Special stuff - denote special weapon
+special = 1
+
+// Range within which the weapon will fire - not used.
+range = 0.0f
+
+//Sound which is played when the weapon fires - temp sound
+fireSound = "swfcorbf.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "reflectweapon"
+
+// Chance of hitting the target. - not used
+hitChance = 1.00
+
+// Special energy cost for the Corbomite Refractor
+specialEnergyCost = 80
+
+// Reflection % (0->1)
+reflectionRatio = 0.9
+
+// How often will the shooter get hit by the reflection?
+reflectHitOwnerRatio = 0.3
+
+// Reflect Missiles
+reflectMissile = 1
+
+// Reflect Beams
+reflectBeam = 1
+
+//don't auto-switch to attack mode after this
+switchToAttack = 0
+
+//this special weapon can be assimilated by the borg tech assimilator
+assimilatable = "fedpod1"
+
+// Do not say "attack" when turned on.
+attackSpeech = 0;
+
+hotkeyLabel = "HOTKEY_F2"
