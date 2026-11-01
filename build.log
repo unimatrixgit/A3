@@ -5621,3 +5621,5 @@ Hero-extra-bank validation passed. Runtime testing pending.
 2026-11-01 Prepared yard-icon-aliases patch: D’Kora custom model names fy26custom/fy26custombg lacked b_ and w1..5 aliases. Adds12 aliases only; original sprite prefix byte-identical. All75 yard definitions checked, 150 referenced textures decoded, zero missing references after patch. Runtime untested; not applied.
 
 2026-11-01 Installed yard-icon-aliases patch after game closed.12 aliases appended; original sprite prefix byte-identical. Live/source/mirror hashes verified;75 yards/150 textures audited. Backup=D:\Xaramada-Modwork\backups\yard-icon-aliases-20261101-085337. In-game check pending.
+
+2026-11-01 Prepared Breen building size correction: brorbital matches Federation orbital bounds, bryard matches bryard2 bounds. Two ScaleSOD-only ODF edits; stage hashes checked; not installed, runtime untested.
