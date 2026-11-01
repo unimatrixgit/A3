@@ -1,0 +1,91 @@
+{
+  "target": "D:/armadaIII",
+  "installed": false,
+  "runtimeVerified": false,
+  "source": "https://armadafiles.com/files/armada-2/mods/full-race/ferengi-salvage-team/details",
+  "credits": "WarBorg pack; Ferengi Base by Gleacer; original complete pack readme retained in docs/third-party/armadafiles-yards-20261031",
+  "ferengi": [
+    {
+      "unit": "xfgmerc",
+      "oldModel": "ay31_xfgmerc",
+      "newModel": "fy26gold",
+      "scale": 4.755932501702351
+    },
+    {
+      "unit": "mryfer",
+      "oldModel": "ay31_mryfer",
+      "newModel": "fy26gold",
+      "scale": 1.717873598766407
+    }
+  ],
+  "serviceYard": "xfgserv already uses Ferengi FER-textured towers; retained",
+  "romulan": {
+    "unit": "ryard",
+    "oldScale": 9.77884813512,
+    "newScale": 7.33413610134,
+    "linearReductionPercent": 25
+  },
+  "files": [
+    {
+      "path": "Textures/RGB/fyBcru01.tga",
+      "previousSha256": null,
+      "sha256": "74200426df5e6a6e35f26fa087c7fbac48a0bcb07f5a55995448ae41af114bdb"
+    },
+    {
+      "path": "Textures/RGB/fyglw1.tga",
+      "previousSha256": null,
+      "sha256": "efd31c22d8f58483e01e9051ed77e2ab240ad49e0c7093a90722c9fda7f688c1"
+    },
+    {
+      "path": "Textures/RGB/fyzfb1.tga",
+      "previousSha256": null,
+      "sha256": "d6e2c65b60ce53e6b55a671dfb3907f9cdac67f308c90a8a6cf473f09a463a1f"
+    },
+    {
+      "path": "SOD/fy26gold.sod",
+      "previousSha256": null,
+      "sha256": "82e1b398af4c6e5cddc208dff3e173c1ad0175b96b21890c9b4b0a488ba6bd37"
+    },
+    {
+      "path": "odf/stations/xfgmerc.odf",
+      "previousSha256": "78ec2d406f42f442c1d9df0497b8051d292e8894608716f22f3e8b6fd268e943",
+      "sha256": "fc83b977e7ce2e814ff14dd4fc1cfb0235c7547e6cca8651033761e6981c8df5"
+    },
+    {
+      "path": "Textures/RGB/gbfy26xfgmerc.tga",
+      "previousSha256": null,
+      "sha256": "e8778c61d1878c81576d9652200b23c1bcbb97936c3afe76b862a1a720a0515a"
+    },
+    {
+      "path": "Textures/RGB/wffy26xfgmerc.tga",
+      "previousSha256": null,
+      "sha256": "732229b3cfd7ce644fbf2464b2997f07fba47ca4986fb8be1a2cfdbabaf0cea6"
+    },
+    {
+      "path": "odf/stations/mryfer.odf",
+      "previousSha256": "6a52bd04c69b2e70fddc3229d27b2d7c8a5b9577d958719abc6908e0050e6a46",
+      "sha256": "d1d659752c4b0bb17311ad694b4e475ff4869ac944567e76f7d85446eb1edd0c"
+    },
+    {
+      "path": "Textures/RGB/gbfy26mryfer.tga",
+      "previousSha256": null,
+      "sha256": "e8778c61d1878c81576d9652200b23c1bcbb97936c3afe76b862a1a720a0515a"
+    },
+    {
+      "path": "Textures/RGB/wffy26mryfer.tga",
+      "previousSha256": null,
+      "sha256": "732229b3cfd7ce644fbf2464b2997f07fba47ca4986fb8be1a2cfdbabaf0cea6"
+    },
+    {
+      "path": "Sprites/gui_global.spr",
+      "previousSha256": "05228dad530a1038927ada28834da4f70b9c101a71df81d5a5473d50d8eecfe4",
+      "sha256": "8ee397bb03fc19be46b96a680d4b76da06b549460f0f69416749d94d87b77b5b"
+    },
+    {
+      "path": "odf/stations/ryard.odf",
+      "previousSha256": "858bf09fedc9d1c4b934b2d143aaf715aa70202da1143d9bc4938b33277d3982",
+      "sha256": "4a78b26a4c4a2baf9c871776ba60c4479ca317abfc299ea935a7e07cdc9cad59"
+    }
+  ],
+  "validation": "Native SOD binary preserved except equal-length texture aliases; all ODF hardpoints rebound to existing native nodes. Icons regenerated. Stats, production and tech retained. File checks only."
+}
