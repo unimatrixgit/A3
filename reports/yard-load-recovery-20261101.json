@@ -1,0 +1,40 @@
+{
+  "dump": "Armada2.exe.1348.dmp",
+  "exception": "0x63b150 ST3D_Sprite::GetTexture, access violation reading0x58",
+  "callers": [
+    "RadarComponent::UpdateScanGridSprite",
+    "MapRadar::ForceUpdate",
+    "DeviceUpdateCallback",
+    "SetActiveDisplay_Internal"
+  ],
+  "interpretation": "Null radar sprite during graphics display initialization/reset; not proof that yard geometry caused the crash. Recovery rolls back newly introduced yard sprite/model changes to isolate regression.",
+  "backup": "D:\\Xaramada-Modwork\\backups\\yard-load-recovery-20261101-083732",
+  "files": [
+    {
+      "file": "Sprites/gui_global.spr",
+      "restoredFrom": "D:\\Xaramada-Modwork\\backups\\ferengi-romulan-yards-20261101-083408\\live\\Sprites\\gui_global.spr",
+      "sizeReductionPercent": 0,
+      "sha256": "05228dad530a1038927ada28834da4f70b9c101a71df81d5a5473d50d8eecfe4"
+    },
+    {
+      "file": "odf/stations/xfgmerc.odf",
+      "restoredFrom": "D:\\Xaramada-Modwork\\backups\\ferengi-romulan-yards-20261101-083408\\live\\odf\\stations\\xfgmerc.odf",
+      "sizeReductionPercent": 25,
+      "sha256": "150aa0ea219f19a3552b8a664a05b49ba1cf7e4621a540733c086b880593abef"
+    },
+    {
+      "file": "odf/stations/mryfer.odf",
+      "restoredFrom": "D:\\Xaramada-Modwork\\backups\\ferengi-romulan-yards-20261101-083408\\live\\odf\\stations\\mryfer.odf",
+      "sizeReductionPercent": 0,
+      "sha256": "6a52bd04c69b2e70fddc3229d27b2d7c8a5b9577d958719abc6908e0050e6a46"
+    },
+    {
+      "file": "odf/stations/xbgmerc.odf",
+      "restoredFrom": "D:\\Xaramada-Modwork\\backups\\borg-ferengi-yard-20261101-083504\\live\\odf\\stations\\xbgmerc.odf",
+      "sizeReductionPercent": 25,
+      "sha256": "27e23beae704018885b319d68e63df378e388c51c4416ace17bc6b5c22c8d715"
+    }
+  ],
+  "retained": "First Romulan yard remains25% smaller; original Ferengi/Borg-Ferengi primary models now25% smaller.",
+  "runtimeVerified": false
+}

@@ -5613,3 +5613,5 @@ Hero-extra-bank validation passed. Runtime testing pending.
 2026-11-01 Installed12-file Ferengi/Romulan yard patch to D:/armadaIII only. Main Ferengi visual size reduced25%, ryard reduced25%, compact mryfer unchanged envelope. Source/live/mirror hashes verified. Backup=D:\Xaramada-Modwork\backups\ferengi-romulan-yards-20261101-083408. Runtime appearance pending.
 
 2026-11-01 Extended installed yard patch to Borg-Ferengi xbgmerc: same native Ferengi model with original Borg hull material,25% size reduction, new build/group icons; xbgserv already Ferengi towers retained. Backed up and mirrored; runtime untested.
+
+2026-11-01 Crash1348: null ST3D_Sprite::GetTexture via RadarComponent/MapRadar during display initialization. Restored pre-patch GUI sprites and Ferengi primary models; retained25% smaller main Ferengi/Borg-Ferengi/Romulan yards. New model/icon assets remain unreferenced. Backup=D:\Xaramada-Modwork\backups\yard-load-recovery-20261101-083732. Runtime recovery untested.
