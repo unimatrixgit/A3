@@ -1,0 +1,63 @@
+{
+  "applied": true,
+  "runtimeVerified": false,
+  "backup": "D:\\Xaramada-Modwork\\backups\\mars-yard-native-textures-20261101-112009",
+  "files": [
+    {
+      "path": "Textures/RGB/fdock_ur1.tga",
+      "sha256": "5a95d213ea8d61ab08112fcec8e715f36d736c3d573eec41fe3fe78f9b95ecd6"
+    },
+    {
+      "path": "Textures/RGB/fdock_ur2.tga",
+      "sha256": "ac57af1642b02d47f4a12d826e32bc420696818961807eb43a7f0725ad1411fe"
+    },
+    {
+      "path": "Textures/RGB/fdock_ur3.tga",
+      "sha256": "581b74407289cde743460037a605ec332d5147ff9e000492b5cd18461e7169b6"
+    },
+    {
+      "path": "SOD/ay31_mryfeda.sod",
+      "sha256": "a619d7890f2c3dd2481059d610b1f605271212cf9742aa55cb74fb8f797f5848"
+    },
+    {
+      "path": "odf/stations/mryfeda.odf",
+      "sha256": "6cf9759f2746111a2daaf160c43a5acd4bcbcb65c7a94bfe8b2ef7b6087973db"
+    },
+    {
+      "path": "SOD/ay31_mryfedb.sod",
+      "sha256": "b10ceceddc0794c90312b8b9c8f648a0391deeddb0b50fa232ed7bfea5236b1e"
+    },
+    {
+      "path": "odf/stations/mryfedb.odf",
+      "sha256": "b84c5d7bd7eccd9267e8405f56f459507e280c2de659b1fb57a08631fe00c2c0"
+    }
+  ],
+  "changes": [
+    {
+      "unit": "mryfeda",
+      "originalModel": "D:\\Xaramada-Modwork\\armadafiles-yard-replacements\\extracted\\space-dock\\fdock_ur\\fdock2.sod",
+      "hardpointRebindings": {
+        "tygun1": "hp60",
+        "tygun2": "hp67",
+        "tygun3": "hp71",
+        "tylaunch": "build",
+        "tyrepair": "hp32"
+      },
+      "nativeBinaryExact": true
+    },
+    {
+      "unit": "mryfedb",
+      "originalModel": "D:\\Xaramada-Modwork\\armadafiles-yard-replacements\\extracted\\space-dock\\fdock_ur\\fdock3.sod",
+      "hardpointRebindings": {
+        "tygun1": "hp60",
+        "tygun2": "hp67",
+        "tygun3": "hp004",
+        "tylaunch": "build",
+        "tyrepair": "hp63"
+      },
+      "nativeBinaryExact": true
+    }
+  ],
+  "diagnosis": "Renamed texture assets existed and decoded; restored native original SOD/texture references to isolate rendering issue. Exact runtime cause unproven.",
+  "preserved": "ScaleSOD, stats, weapons, build lists, tech, icons and GUI sprites unchanged"
+}
