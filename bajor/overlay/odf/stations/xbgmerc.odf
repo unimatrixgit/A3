@@ -146,13 +146,13 @@ buildTime = 90
 
 
 hotkeyLabel = "HOTKEY_F10"
-enginesTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
-lifeSupportTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
-weaponsTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
-shieldGeneratorTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
-sensorsTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
-hullTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
-criticalTargetHardpoints = "hp48" "hp47" "hp46" "hp45" "hp44" "hp43"
+enginesTargetHardpoints = "hp10" "hp11" "hp12"
+lifeSupportTargetHardpoints = "hp10" "hp11" "hp12"
+weaponsTargetHardpoints = "hp10" "hp11" "hp12"
+shieldGeneratorTargetHardpoints = "hp10" "hp11" "hp12"
+sensorsTargetHardpoints = "hp10" "hp11" "hp12"
+hullTargetHardpoints = "hp10" "hp11" "hp12"
+criticalTargetHardpoints = "hp10" "hp11" "hp12"
 
 
 
@@ -248,18 +248,18 @@ unitName = "D'Kora Contract Yard"
 tooltip = "D'Kora Contract Yard"
 verboseTooltip = "D'Kora Contract Yard\nFleet construction; research unlocks ships\nTwin bays forge the next generation."
 weapon1 = "xfgcruisb"
-weaponHardpoints1 = "tygun1"
+weaponHardpoints1 = "hp10"
 weapon2 = "xfgcruisb"
-weaponHardpoints2 = "tygun2"
+weaponHardpoints2 = "hp11"
 weapon3 = "xfgcruist"
-weaponHardpoints3 = "tygun3"
+weaponHardpoints3 = "hp12"
 canAttack = 1
 COMBAT = 1
 ALERT = 1
 weaponsHitPoints = 500
 
-buildHardpoint = "tylaunch"
-repairHardpoint = "tyrepair"
+buildHardpoint = "hp25"
+repairHardpoint = "hp25"
 footprintBuffer = 25
-baseName = "ay31_xbgmerc"
-ScaleSOD = 1.88432477816
+baseName = "fy26borg"
+ScaleSOD = 3.56694937627

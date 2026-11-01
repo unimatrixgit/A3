@@ -1,1 +1,3 @@
 Ferengi primary yards: gold Gleacer Ferengi base model from WarBorg Ferengi Salvage Team, replacing the Federation-derived fgyard. Service yard remains dedicated FER towers. Original credits: docs/third-party/armadafiles-yards-20261031. Romulan first yard scale reduced exactly25%. Prepared only; live game running. Installation must check prior hashes and back up files. Rebase shared Sprites/gui_global.spr against any other pending patch before deploying both. Runtime untested.
+
+Installed to D:/armadaIII after user closed game. Main Ferengi Contract Yard reduced25% in linear size versus previous visual envelope; compact mryfer retains previous envelope. First Romulan yard reduced25%. Runtime visual check pending.
