@@ -5625,3 +5625,7 @@ Hero-extra-bank validation passed. Runtime testing pending.
 2026-11-01 Prepared Breen building size correction: brorbital matches Federation orbital bounds, bryard matches bryard2 bounds. Two ScaleSOD-only ODF edits; stage hashes checked; not installed, runtime untested.
 
 2026-11-01 Applied approved Breen size patch to D:/armadaIII: brorbital ScaleSOD4.65824218354, bryard ScaleSOD8. Two file hashes verified; backup=D:\Xaramada-Modwork\backups\breen-scale-20261101-093950. Runtime visual test pending.
+
+2026-11-01 Inspected Atlantis2.0 actual ODFs: native shipyard class with inherited CraftProcess builds jumper while using ship physics. Applied same controller/class pairing to xdcarrier; retained stats/weapons/fighter queue, no mode switch. Four Voyager/Intrepid variants staged for Delta Flyer; all spawn hardpoints validated. No Atlantis assets copied. Runtime untested. Breen/Ferengi excluded.
+
+2026-11-01 Carrier-only checkpoint: xdcarrier classLabel shipyard + aiName CraftProcess installed; model hp18 launch node, xdcfighter and weapon links verified; live/mirror match. No Voyager/faction expansion deployed. Runtime movement and moving-production test pending.

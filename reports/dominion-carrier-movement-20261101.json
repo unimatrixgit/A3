@@ -1,0 +1,19 @@
+{
+  "unit": "xdcarrier",
+  "applied": true,
+  "change": "Native shipyard producer with CraftProcess movement controller, following inspected Atlantis2.0 carrier ODF pattern",
+  "source": "http://armadafiles.com/files/armada-2/stations/stargate/atlantis-20/details",
+  "evidence": "Atlantis atlantis.odf sets classLabel shipyard, buildItem0 jumper, builder_ship1, buildHardpoint hp11; atlantis2.odf inherits craft.odf and movement physics. No replaceweapon required.",
+  "assetsCopied": false,
+  "backup": "D:\\Xaramada-Modwork\\backups\\carrier-atlantis-pattern-20261101-103504",
+  "runtimeVerified": false,
+  "preserved": "Carrier existing physics, weapons, queue and fighter hardpoint retained. No repair/decommission facility enabled.",
+  "validation": {
+    "modelLaunchHardpoint": "hp18 exists",
+    "fighterODF": true,
+    "weaponReferences": true,
+    "liveMirrorMatch": true,
+    "runtimeVerified": false
+  },
+  "installedSha256": "87cdb9e9884685a8ac494b2a07c4473b7443c53dd18d8678773270f7838260f1"
+}

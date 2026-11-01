@@ -155,7 +155,7 @@ biomatterCost = 0
 hotkeyLabel = "HOTKEY_F3"
 
 
-classLabel = "starbase"
+classLabel = "shipyard"
 physicsFile = "trek_sbattphys.odf"
 ship = 1
 facility = 0
@@ -171,3 +171,6 @@ maxCrewGain = 0
 officerGain = 0
 maximumUpgrades = 0
 verboseTooltip = "Dominion Carrier\nLaunch Jem'Hadar carrier fighters\nThe Founders project power across the quadrant."
+
+// Native mobile producer controller, as used by the Species8472 mothership.
+aiName = "CraftProcess"
