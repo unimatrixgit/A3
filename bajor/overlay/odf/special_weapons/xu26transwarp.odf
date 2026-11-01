@@ -1,0 +1,56 @@
+//Name of the ODF file for the ordinance for this weapon
+ordName = "twarpd"
+
+//Display name for this weapon
+wpnName = "Unimatrix Transwarp"
+
+//tooltips
+tooltip = "Unimatrix Transwarp"
+verboseTooltip = "Open a transwarp passage to the selected destination. Requires the Federation transwarp research facility."
+
+//Location of the button in the speed panel
+buttonSlot = 2
+
+// location of the button in the popup palette
+popupSlot = 2
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 10
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 2
+
+//Time Delay between shots
+shotDelay = 1.0
+
+// Range within which the weapon will fire.
+range = 20000.0f
+
+//Sound which is played when the weapon fires
+fireSound = "swbtrnsa.wav"
+
+//Programming Stuff DO NOT CHANGE
+classLabel = "transwarpconduit"
+
+// Chance of hitting the target.
+hitChance = 1.00
+
+// Set the special flag
+special = 1
+
+// Set the target location flag
+targetLocation = 1
+needTarget = 1
+targetAlliedCraft = 0
+targetAlliedBuildings = 0
+targetEnemyCraft = 0
+targetEnemyBuildings = 0
+
+//this special weapon can be assimilated by the borg tech assimilator
+//assimilatable = "borpod4"
+
+hotkeyLabel = "HOTKEY_F2"

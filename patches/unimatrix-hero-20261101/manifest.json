@@ -1,0 +1,411 @@
+{
+  "installed": true,
+  "runtimeVerified": false,
+  "target": "D:/armadaIII",
+  "name": "USS Unimatrix NX-1999",
+  "class": "Unimatrix Class",
+  "heroBaseline": "fvoyager",
+  "strengthMultiplier": 1.5,
+  "stats": {
+    "maxHealth": {
+      "baseline": 6000.0,
+      "new": 9000.0
+    },
+    "shieldRate": {
+      "baseline": 60.0,
+      "new": 90.0
+    },
+    "enginesHitPoints": {
+      "baseline": 1475.0,
+      "new": 2213
+    },
+    "weaponsHitPoints": {
+      "baseline": 1475.0,
+      "new": 2213
+    },
+    "lifeSupportHitPoints": {
+      "baseline": 1475.0,
+      "new": 2213
+    },
+    "shieldGeneratorHitPoints": {
+      "baseline": 1475.0,
+      "new": 2213
+    },
+    "sensorsHitPoints": {
+      "baseline": 1475.0,
+      "new": 2213
+    },
+    "rangeScan": {
+      "baseline": 800.0,
+      "new": 1200.0
+    },
+    "damagedScan": {
+      "baseline": 125.0,
+      "new": 187.5
+    },
+    "maxSpecialEnergy": {
+      "baseline": 1000.0,
+      "new": 1500.0
+    },
+    "specialEnergyRate": {
+      "baseline": 15.0,
+      "new": 22.5
+    },
+    "combatSpeed": {
+      "baseline": 80.0,
+      "new": 120.0
+    },
+    "impulseSpeed": {
+      "baseline": 95.0,
+      "new": 142.5
+    },
+    "warpSpeed": {
+      "baseline": 475.0,
+      "new": 712.5
+    },
+    "forwardAccel": {
+      "baseline": 1.0,
+      "new": 1.5
+    },
+    "turnOmega": {
+      "baseline": 0.6,
+      "new": 0.8999999999999999
+    },
+    "turnAlpha": {
+      "baseline": 0.4,
+      "new": 0.6000000000000001
+    },
+    "pitchOmega": {
+      "baseline": 0.6,
+      "new": 0.8999999999999999
+    },
+    "pitchAlpha": {
+      "baseline": 0.4,
+      "new": 0.6000000000000001
+    }
+  },
+  "weapons": [
+    "xu26beam",
+    "xu26beam",
+    "xu26beam",
+    "xu26beam",
+    "xu26beam",
+    "xu26beam",
+    "xu26torp",
+    "xu26torp",
+    "xu26transphasic",
+    "xu26armour",
+    "xu26transwarp"
+  ],
+  "damageChanges": [
+    {
+      "weapon": "xu26beam",
+      "baseDamage": 62.0,
+      "newDamage": 93.0
+    },
+    {
+      "weapon": "xu26torp",
+      "baseDamage": 140.0,
+      "newDamage": 210.0
+    },
+    {
+      "weapon": "xu26transphasic",
+      "baseDamage": 250.0,
+      "newDamage": 375.0
+    }
+  ],
+  "yard": "fyard2",
+  "yardSlot": 13,
+  "production": [
+    "fdeltaflyer",
+    "xu26jumper"
+  ],
+  "crew": "Starting staffing/cost remains220; capacity330. Other resource costs and build time retain Voyager hero baseline.",
+  "source": "http://armadafiles.com/files/armada-2/ships/federation/tng-ds9-voy-and-future/assimilated-intrepid-class/details",
+  "artwork": "Downloaded Assimilated Intrepid model, existing Borg Fcruise3_B hull map forced as normal texture; Federation ownership retained; no starting hero added.",
+  "specialEnergy": "Voyager hero +50%:1500 capacity,22.5/sec regeneration; transwarp costs1000, armour retains existing20 cost.",
+  "research": "Native Federation transwarp facility requirement; armour follows existing ungated armour ability; unit requires advanced yard/research/upgrade facilities.",
+  "files": [
+    {
+      "path": "SOD/xu26unimatrix.sod",
+      "previousSha256": null,
+      "sha256": "3a47e02bf6b5dd65fe1925e165bd783c7bd4f770950835419f1b9f6e4ad64362"
+    },
+    {
+      "path": "Textures/RGB/xu26hull.tga",
+      "previousSha256": null,
+      "sha256": "967a5a6506bded5e56a7a0e375a9dbdf5871234bc1d712971942dd61e809625c"
+    },
+    {
+      "path": "Textures/RGB/xu26hull_B.tga",
+      "previousSha256": null,
+      "sha256": "967a5a6506bded5e56a7a0e375a9dbdf5871234bc1d712971942dd61e809625c"
+    },
+    {
+      "path": "Textures/RGB/gbxu26unimatrix.tga",
+      "previousSha256": null,
+      "sha256": "1c5e1510b59fdefa33ebdf739f44c896c28bb4207062767fd64345c9ab1168c2"
+    },
+    {
+      "path": "Textures/RGB/wfxu26unimatrix.tga",
+      "previousSha256": null,
+      "sha256": "1c5e1510b59fdefa33ebdf739f44c896c28bb4207062767fd64345c9ab1168c2"
+    },
+    {
+      "path": "odf/weapons/Phasers/xu26beam.odf",
+      "previousSha256": null,
+      "sha256": "37ff6392e0c4d48f8e9e6c0aed57f13719c1cd0cec7464c8e24ffd3c9db3a587"
+    },
+    {
+      "path": "odf/weapons/Phasers/xu26beamo.odf",
+      "previousSha256": null,
+      "sha256": "277decefccb8e7bd2599754358c813873b90304148b0c3dd74bb81624fc70fb4"
+    },
+    {
+      "path": "odf/weapons/Photons/xu26torp.odf",
+      "previousSha256": null,
+      "sha256": "61939c30821a3250072b27c263dd61565534819f860898c63fb37b8ea63adc84"
+    },
+    {
+      "path": "odf/weapons/Photons/xu26torpo.odf",
+      "previousSha256": null,
+      "sha256": "1456f1ddc3f3c73ad53b2095b1ec8ffc97c6827bba8e00007cac91d5aae92b21"
+    },
+    {
+      "path": "odf/weapons/Photons/xu26transphasic.odf",
+      "previousSha256": null,
+      "sha256": "8212b15ac50d222886903530f9cc3103edcb42860eb729580d1fc48117421ee4"
+    },
+    {
+      "path": "odf/weapons/Photons/xu26transphasico.odf",
+      "previousSha256": null,
+      "sha256": "e44164393a44ed82166c675c9608f4b3126b8468e047806a8f62121be58e4505"
+    },
+    {
+      "path": "odf/other/xu26phys.odf",
+      "previousSha256": null,
+      "sha256": "9c7a66efab0c202b80b7b0f14b5b133cdfa296caeaa5ec12878e9657b79cf92d"
+    },
+    {
+      "path": "odf/ships/xu26unimatrix.odf",
+      "previousSha256": null,
+      "sha256": "52fa1046ea9f2d1edc7c724df8f1e5f97324a095465da035e81b33f19cabcdd3"
+    },
+    {
+      "path": "odf/special_weapons/xu26armour.odf",
+      "previousSha256": null,
+      "sha256": "6fc999f81682b50741245637a7ed36cd768b17322313e6d81bac5adf869f0071"
+    },
+    {
+      "path": "odf/special_weapons/xu26transwarp.odf",
+      "previousSha256": null,
+      "sha256": "9485699d19167c4d2c56ce9b3b284d3c39bd0f3017c2d260b9ffc05352090dc0"
+    },
+    {
+      "path": "odf/ships/xu26jumper.odf",
+      "previousSha256": null,
+      "sha256": "eb483a13d52863c8f2049aef84d552c4d0de564981c5a1e2adacc18242e62fe4"
+    },
+    {
+      "path": "odf/stations/fyard2.odf",
+      "previousSha256": "a109c42f657d393ac523966f037e21602b7515bcaf85fbc895fb2fd2d45c458e",
+      "sha256": "f26f0cb8dba68b70436a7614c0c1f94b97178c092453f1d5c48f2489a1fcf7fc"
+    },
+    {
+      "path": "Sprites/gui_global.spr",
+      "previousSha256": "d15bb603c3571000c5320d2ea7ec60dd78eb802c444dc90093563728bb65d8d2",
+      "sha256": "286c39f4595dda54e5e22a606ea238e7a2d21f1b8c99ee25553a4d0d7ad2b803"
+    },
+    {
+      "path": "Techtree/a2_borg01.tt",
+      "previousSha256": "789746fd8572cf8d76b37131cf9a4a1c4798f41fd7ea58eba56f7df3952f75fa",
+      "sha256": "11e12928ae7e085b181f8e3a00bbc9f13a389da97be8848d17890064bcc75f19"
+    },
+    {
+      "path": "Techtree/a2_borg02.tt",
+      "previousSha256": "130401c966028b1637c64911b566d928b1aa92ffbe93583059ba6fa772baa44b",
+      "sha256": "8f83c8cf75927cb6ab5ce49e6bf77988e2919837eb52c98f23b97df255b5782d"
+    },
+    {
+      "path": "Techtree/a2_borg03.tt",
+      "previousSha256": "27249b42fee236b3e81fcff2d04c70f16778847b8cbe4fdbde8f30e59d1472d3",
+      "sha256": "d2b86700093e658236603b3f4913490bee1325fe8d9a6a319ffc73b7ef8d9bc0"
+    },
+    {
+      "path": "Techtree/a2_borg04.tt",
+      "previousSha256": "c5114e00f040e677e4b3df44457abb098e94065f0afabf63f5fa82005383dcc5",
+      "sha256": "1c90719def795de0cd1d8ffc71d8a1dc3ef0e0536697ef2c06ba50d06c41d70b"
+    },
+    {
+      "path": "Techtree/a2_borg05.tt",
+      "previousSha256": "f1fc13702470ace591493e15ed68bda5e71394fc813d4d82b33b7ff8f8206b86",
+      "sha256": "1fe792281f879a034481332c0207069114ae09e1e9233b0326f7938c10fb759a"
+    },
+    {
+      "path": "Techtree/a2_borg06.tt",
+      "previousSha256": "949f5969920632f96586cc851a9a21d7812c691cf5870a436dc6df25c4361d36",
+      "sha256": "5ced6a3c0b2ca9b802319763c78b341f75254481477d51871aa463f6415dc4f0"
+    },
+    {
+      "path": "Techtree/a2_borg07.tt",
+      "previousSha256": "b483ebeb4b614633249e041303938f916c9585eebf14aa0fb3e7fc569d109d64",
+      "sha256": "50c78830be84041b5218c9ef0b5a4d15b385134abc48ada2cb06ea21d0a31b56"
+    },
+    {
+      "path": "Techtree/a2_borg08.tt",
+      "previousSha256": "c4e27e90e6911de298a4a44eb980a596798c134395b8a3b5fa33b801726a1b59",
+      "sha256": "81d8046212f0e7afd0e620199169418a4a3465be1d1b2b5859939e99d1835b81"
+    },
+    {
+      "path": "Techtree/a2_borg09.tt",
+      "previousSha256": "3dce85b21a0753955ccc999154622d7bbaf474b6f9a030b712cdb42cd83aac76",
+      "sha256": "f30a43763c01ad1134985f8a1c103041ae432d110ab996a115ca3e165a44b9d9"
+    },
+    {
+      "path": "Techtree/a2_borg10.tt",
+      "previousSha256": "fac9edcdd1d77918f0cfc7f803e938120d49a32c0a8f1fbc528a298c0d9e3847",
+      "sha256": "6d7d513b2863036110c65a811ff809a0cfca1e346fc9999bae0f3cff600b661b"
+    },
+    {
+      "path": "Techtree/a2_fed01.tt",
+      "previousSha256": "44bc26bfadb8702200b3385e63bcd8fc68c314240ce372aa60c668c99db2fee6",
+      "sha256": "8ecbb464956e27857d662d24a250bc9ace448bc9d63e1e7f9d3a4ddb54531390"
+    },
+    {
+      "path": "Techtree/a2_fed02.tt",
+      "previousSha256": "bfd23144e5a7642d447bac4f70aecb98d1101b5a3eeb0bc94a3ac76d8070ee62",
+      "sha256": "68ef0282a1c354b75ee2e5b9b6ed98c9a379986ed44639d1d0e3020b34d6d199"
+    },
+    {
+      "path": "Techtree/a2_fed03.tt",
+      "previousSha256": "56f41d6d93a093b40b6e18730e210055a7f2de2dff86fff3cd5971524f96ecbe",
+      "sha256": "356b98c87e6cd179fbd787fff5c5ce310fd1b72eca59322903365cb9d5e89df0"
+    },
+    {
+      "path": "Techtree/a2_fed04.tt",
+      "previousSha256": "79fcbf71e4a6c193b42d46905479f430d3558b3b4cb5b661a66ad73018327557",
+      "sha256": "dc16472f6cf506010fc57bc05f5e4fb23e6ee4fe3e64a0d3278154ef797e5976"
+    },
+    {
+      "path": "Techtree/a2_fed05.tt",
+      "previousSha256": "38534fb115d1dbadc8ab969b827dad9f29d923535ccd2a0c87715980c161ad67",
+      "sha256": "5e040ac5a6c657af8135fcf92c1e883de2f23095e7629ac3c377d298887909d9"
+    },
+    {
+      "path": "Techtree/a2_fed06.tt",
+      "previousSha256": "fae6229aa8d8586a22ea4da60374d0028f965920a793410f9df0f53c68e8f3a2",
+      "sha256": "bb1eef8eaa587f3fe5602f257e197e5bfb1ded7785b5b14a4f22c1c859db4e3b"
+    },
+    {
+      "path": "Techtree/a2_fed07.tt",
+      "previousSha256": "62e95d39d2011041aabccc08297a128e49752e108606f558a07ae25a418fc3b5",
+      "sha256": "85a3c3c72f85d4e9bcc359f3bee356ed3fa28d28b0878fea51185f1bae40e690"
+    },
+    {
+      "path": "Techtree/a2_fed08.tt",
+      "previousSha256": "9061495ac2b0744c97610c4c0046a3bbee8134a633ecb9a5ed6e0bf88435a245",
+      "sha256": "7c5ba7539ae07238bf48a84e676b5132167b68230bd66f8d95bf72d068125d36"
+    },
+    {
+      "path": "Techtree/a2_fed09.tt",
+      "previousSha256": "38ebd5054f6d03fdc1eb12e680247ac45bea975c4d99674732020fc363a8792b",
+      "sha256": "1f90155d891682d48b4f4848867136c9dc3ece8f60f79ba86abb61c27ffbdea4"
+    },
+    {
+      "path": "Techtree/a2_fed10.tt",
+      "previousSha256": "b52538ff625003a7656d767cf71d5c4d46327e1676c74a46288857ec34917b59",
+      "sha256": "d8baf451f7eb86985eca949f424d8615c3bd009ff8ffe65c6e6620f84a6edf79"
+    },
+    {
+      "path": "Techtree/a2_kling01.tt",
+      "previousSha256": "db69e3cae06211caecb5976a571a94795d8fdb9698a27a6330b1c4680164ba9a",
+      "sha256": "387db17c54460374871d47e536892753e499be621c91bfd40b8cf65b419bb16f"
+    },
+    {
+      "path": "Techtree/a2_kling02.tt",
+      "previousSha256": "e55bde1951093e0702f28824680d1255deaafd25fcb6028e02a6025c523bc589",
+      "sha256": "04cdaad1fce1e41810532c665cc2ec1f6220aba4ebc3b5d33c859b9014a225ee"
+    },
+    {
+      "path": "Techtree/a2_kling03.tt",
+      "previousSha256": "9e0b1259178d883be396e55bbbc2e1de8655c4b86a2b03f2eca556eaf1b74558",
+      "sha256": "5e9ad69fef8ce44b935df7fa064f6488f3c5a8b9649e844e8f8be0d7dca8e416"
+    },
+    {
+      "path": "Techtree/a2_kling04.tt",
+      "previousSha256": "595a54e86453d0ea8e068e26a2d2116f34fdbee083fe3e7904400d302024d167",
+      "sha256": "4a4c16ab1cf6a45714e6c9e90da7ef8bcf8ea23b02e878a95e49cb226659a3fd"
+    },
+    {
+      "path": "Techtree/a2_kling05.tt",
+      "previousSha256": "55b1647b429ea02f2eb9643e3c2b3acd898187d6352662b752bbe5a386e5c46d",
+      "sha256": "ad4bdef49875b383deb13db8ee07bf8d2dbd0a686ec14bb4bd303af110ac110e"
+    },
+    {
+      "path": "Techtree/a2_kling06.tt",
+      "previousSha256": "971023535d52902e5f5b5e86600ac1fb61d9c1f8065a67f7a25d8dce76cc3d26",
+      "sha256": "3b0d4f79bae0df5d3f00d9d94f247147dc1f8d4d69545febe1e46177d3298ff1"
+    },
+    {
+      "path": "Techtree/a2_kling07.tt",
+      "previousSha256": "df7c1e82fc8fc2876335d48d5c2ede31f919ac57bb00d86e5b75f799fa673f0a",
+      "sha256": "7813eb645326203b4281adef6e4d9bee2ba695b6186381c9133cbb00ad3078f7"
+    },
+    {
+      "path": "Techtree/a2_kling08.tt",
+      "previousSha256": "f654d51f623c45089dadc187c4ffd19a344ca3c99d28fe6a6d73b9af6cb232f7",
+      "sha256": "8854a280d99bc262f0a14d7a42fc6f55209fa0f64aade2aeb26abcaeed289a50"
+    },
+    {
+      "path": "Techtree/a2_kling09.tt",
+      "previousSha256": "80ec98ee9956c7eea520912c1c97106959f118198daf2b1a67add97774103484",
+      "sha256": "25f4736a1c7e9f5ea13b167b5bbb06261794e5c649ab276805fe04baf7562917"
+    },
+    {
+      "path": "Techtree/a2_kling10.tt",
+      "previousSha256": "2f778fbc3625795ad2859c352c4a2996cf750cee1a68990beece6b62374b1059",
+      "sha256": "c8b3551f74a0f83ebdbb4f10af0a4e111f4d47507f885837761efdc4c29c33b1"
+    },
+    {
+      "path": "Techtree/demotech.tt",
+      "previousSha256": "3417b38d9c7f01f5db3fe395850e7192ceb6756a7d7949fc3e4a9a2dabdae55a",
+      "sha256": "c5738c480d784cf9aaca676217c28f8d8f71142ac560374a0241dd9a10201d22"
+    },
+    {
+      "path": "Techtree/earlytech.tt",
+      "previousSha256": "bc7f2beefd73d06c1aa8e657bc7147da9ef50090ccbbd85da6fe970b578256d8",
+      "sha256": "97cb249a9b1aed7c8d53e70ca87ff9a0da619022d33b8e52703ebffe39fc2db7"
+    },
+    {
+      "path": "Techtree/freetech.tt",
+      "previousSha256": "36b53b36fd384890b0210a8930f53500ae16f0423611062caf1578ce9e5ae7f7",
+      "sha256": "31a82c52129ceb2b4ff169625b74f8aa5454699fa5f00d4f2eab14368b946e8d"
+    },
+    {
+      "path": "Techtree/fulltech.tt",
+      "previousSha256": "68e820fccb5e6a4555791b64a60819866c29120c9eaf869d4b49cc89035f7f81",
+      "sha256": "a18a71f0df15dd2d0423c5e6994f7538ea011ea2b22dc6c035537f8d3812bc50"
+    },
+    {
+      "path": "Techtree/nosci.tt",
+      "previousSha256": "90b221249ce9d4b4f0fe29fb0dc13d2260d4aff02401837bb97ea852cc6be792",
+      "sha256": "ce3232e1ccdb2e11d8352a0bc45201516b52f7f5a0e8b81e3bbd5725d9d1df37"
+    },
+    {
+      "path": "Techtree/nospweap.tt",
+      "previousSha256": "ed624fa8fc5bd37c6aeb3eb579c5afec334424feb10e5106ae5f1e89ddaafde3",
+      "sha256": "7a5f65bf5a6f318d6757ad2ce3f587ee399e615efa5021876744a9f36f274edd"
+    },
+    {
+      "path": "Techtree/nosuper.tt",
+      "previousSha256": "d67f4dd0c887353a0623121b23a11ecd8fc4dd441a5fc6870b3fcbb4bff22e3e",
+      "sha256": "445b7b24cee6405911ecf4e3d11cc8615f39a79720790f419776dbdf74f7c60e"
+    },
+    {
+      "path": "Techtree/tech1.tt",
+      "previousSha256": "9ab8d34e484d9c97ab1745c69e6112d524ae540fccf329e860997e8a16cb4e66",
+      "sha256": "c919bc69fefcc6e9686671f015460d246ce0ecb8b0aebabab529ef66edd1f2c1"
+    }
+  ],
+  "backup": "D:\\Xaramada-Modwork\\backups\\unimatrix-hero-20261101-113915"
+}

@@ -1,0 +1,2019 @@
+// Xaramada merged technology tree. Source credits: Borg Incursion 2, Ghost, original installation.
+#include fulltech.tt
+
+// Xaramada validated technology entries
+fbase.odf 0
+fmining.odf 0
+forbital.odf 1 fbase.odf
+fsensor.odf 1 fbase.odf
+fturret.odf 1 fbase.odf
+fturret2.odf 1 fresear2.odf
+fyard.odf 1 fbase.odf
+fyard2.odf 2 fyard.odf fresear.odf
+ftrading.odf 1 fbase.odf
+fresear.odf 1 fbase.odf
+fresear2.odf 2 fyard.odf fresear.odf
+fupgrade.odf 2 fresear.odf fresear2.odf
+fsuperbl.odf 3 fbase.odf fyard2.odf fresear2.odf
+fedpod1.odf -1
+fedpod2.odf -1
+fedpod3.odf -1
+fedpod4.odf -1
+fedpod6.odf -1
+fedpod7.odf -1
+fedpod8.odf -1
+fedpod9.odf -1
+fedpod16.odf -1
+fedpod11.odf 1 fupgrade.odf
+fedpod12.odf 1 fupgrade.odf
+fedpod13.odf 1 fupgrade.odf
+fedpod14.odf 1 fupgrade.odf
+fedpod15.odf 1 fupgrade.odf
+fedpod21.odf 1 fedpod11.odf
+fedpod22.odf 1 fedpod12.odf
+fedpod23.odf 1 fedpod13.odf
+fedpod24.odf 1 fedpod14.odf
+fedpod25.odf 1 fedpod15.odf
+gcorbom.odf -1
+gchainp.odf -1
+gwcover.odf -1
+gamine.odf -1
+gmanheim.odf -1
+gshieldh.odf -1
+gfedrep.odf -1
+gpdlaser.odf -1
+gshldemt.odf -1
+ggalintegrator.odf 0
+ggalseparator.odf 0
+gtempor.odf 0
+
+kfreight.odf 2 kbase.odf kmining.odf
+kcargo.odf 2 kbase.odf ktrading.odf
+ksrepair.odf 1 xyr_k.odf
+kscout.odf 1 kyard.odf
+kdestroy.odf 1 kyard.odf
+kcruise1.odf 2 kyard.odf kresear.odf
+kcruise2.odf 2 kyard.odf kresear.odf
+kcruise3.odf 2 kyard.odf kresear2.odf
+kassault.odf 2 kyard.odf kresear2.odf
+kbattle2.odf 1 kyard2.odf
+kbattle.odf 2 kyard2.odf kupgrade.odf
+kfrigate.odf 1 kyard2.odf
+kspecial.odf 2 kyard2.odf kresear2.odf
+ksuper.odf 1 kyard.odf
+kbase.odf 0
+kmining.odf 0
+korbital.odf 1 kbase.odf
+ksensor.odf 1 kbase.odf
+kturret.odf 1 kbase.odf
+kturret2.odf 1 kresear2.odf
+kyard.odf 1 kbase.odf
+kyard2.odf 2 kyard.odf kresear.odf
+ktrading.odf 1 kbase.odf
+kresear.odf 1 kbase.odf
+kresear2.odf 2 kyard.odf kresear.odf
+kupgrade.odf 2 kresear.odf kresear2.odf
+ksuperbl.odf -1 // Consolidated production
+klipod1.odf -1
+klipod2.odf -1
+klipod3.odf -1
+klipod4.odf -1
+klipod6.odf -1
+klipod7.odf -1
+klipod8.odf -1
+klipod9.odf -1
+klipod11.odf 1 kupgrade.odf
+klipod12.odf 1 kupgrade.odf
+klipod13.odf 1 kupgrade.odf
+klipod14.odf 1 kupgrade.odf
+klipod15.odf 1 kupgrade.odf
+klipod16.odf -1
+klipod21.odf 1 kupgrade.odf
+klipod22.odf 1 kupgrade.odf
+klipod23.odf 1 kupgrade.odf
+klipod24.odf 1 kupgrade.odf
+klipod25.odf 1 kupgrade.odf
+gplasmac.odf -1
+gpoleron.odf -1
+gkcteam.odf -1
+ggrvmine.odf -1
+gdchant.odf -1
+grfield.odf -1
+gionstm.odf -1
+gmicro.odf -1
+wenhance.odf -1
+grwave.odf 0
+
+bfreight.odf 2 bbase.odf bmining.odf
+bscout.odf 1 byard.odf
+bdestroy.odf 1 byard.odf
+bcruise1.odf 2 byard.odf bresear.odf
+bcruise2.odf 2 byard.odf bresear.odf
+bcruise3.odf 2 byard.odf bresear2.odf
+bassault.odf 2 byard.odf bresear2.odf
+bbattle1.odf 2 byard2.odf bresear2.odf
+bbattle2.odf 2 byard2.odf bupgrade.odf
+bfrigate.odf 1 byard.odf
+bspecial.odf 2 byard.odf bresear2.odf
+
+bbase.odf 0
+bmining.odf 0
+bsensor.odf 1 bbase.odf
+bturret.odf 1 bbase.odf
+bturret2.odf 1 bresear2.odf
+byard.odf 1 bbase.odf
+byard2.odf 2 byard.odf bresear.odf
+bresear.odf 1 bbase.odf
+bresear2.odf 2 byard.odf bresear.odf
+bupgrade.odf 2 bresear.odf bresear2.odf
+btechass.odf 1 bresear.odf
+brecycle.odf 2 byard.odf bresear.odf
+bsuperbl.odf 3 bbase.odf byard2.odf bresear2.odf
+bhub.odf 1 btechass.odf
+borpod1.odf -1
+borpod2.odf -1
+borpod3.odf -1
+borpod4.odf -1
+borpod6.odf -1
+borpod7.odf -1
+borpod8.odf -1
+borpod9.odf -1
+borpod16.odf -1
+borpod11.odf 1 bupgrade.odf
+borpod12.odf 1 bupgrade.odf
+borpod13.odf 1 bupgrade.odf
+borpod14.odf 1 bupgrade.odf
+borpod15.odf 1 bupgrade.odf
+borpod21.odf 1 bupgrade.odf
+borpod22.odf 1 bupgrade.odf
+borpod23.odf 1 bupgrade.odf
+borpod24.odf 1 bupgrade.odf
+borpod25.odf 1 bupgrade.odf
+gborgbor.odf -1
+gholdbm.odf -1
+fusiongholdbm.odf -1
+gregen.odf -1
+gtwarpd.odf -1
+gremod.odf -1
+goverrid.odf -1
+gnanites.odf -1
+gutribm.odf -1
+gengyemt.odf -1
+gtechassim.odf -1
+gmastran.odf 0
+gcubeintegrator.odf 1 bhub.odf
+gtcubeintegrator.odf 1 bhub.odf
+
+rfreight.odf 2 rbase.odf rmining.odf
+rcargo.odf 2 rbase.odf rtrading.odf
+rsrepair.odf 1 xyr_r.odf
+rscout.odf 1 ryard.odf
+rdestroy.odf 1 ryard.odf
+rcruise1.odf 2 ryard.odf rresear.odf
+rcruise2.odf 2 ryard.odf rresear2.odf
+rcruise3.odf 2 ryard.odf rresear.odf
+rassault.odf 2 ryard.odf rresear2.odf
+rbattle2.odf 1 ryard2.odf
+rbattle.odf 2 ryard2.odf rupgrade.odf
+rfrigate.odf 1 ryard2.odf
+rspecial.odf 2 ryard2.odf rresear2.odf
+rsuper.odf 1 ryard.odf
+rbase.odf 0
+rmining.odf 0
+rorbital.odf 1 rbase.odf
+rsensor.odf 1 rbase.odf
+rturret.odf 1 rbase.odf
+rturret2.odf 1 rresear2.odf
+ryard.odf 1 rbase.odf
+ryard2.odf 2 ryard.odf rresear.odf
+rtrading.odf 1 rbase.odf
+rresear.odf 1 rbase.odf
+rresear2.odf 2 ryard.odf rresear.odf
+rupgrade.odf 2 rresear.odf rresear2.odf
+rsuperbl.odf -1 // Consolidated production
+rompod1.odf -1
+rompod2.odf -1
+rompod3.odf -1
+rompod4.odf -1
+rompod6.odf -1
+rompod7.odf -1
+rompod8.odf -1
+rompod9.odf -1
+rompod16.odf -1
+rompod11.odf 1 rupgrade.odf
+rompod12.odf 1 rupgrade.odf
+rompod13.odf 1 rupgrade.odf
+rompod14.odf 1 rupgrade.odf
+rompod15.odf 1 rupgrade.odf
+rompod21.odf 1 rupgrade.odf
+rompod22.odf 1 rupgrade.odf
+rompod23.odf 1 rupgrade.odf
+rompod24.odf 1 rupgrade.odf
+rompod25.odf 1 rupgrade.odf
+gshieldi.odf -1
+gromspy.odf -1
+gposijam.odf -1
+gmyotron.odf -1
+gholoemt.odf -1
+gpsyblst.odf -1
+gesconv.odf -1
+gpcloak.odf -1
+gclkenh.odf -1
+gbholeg.odf 0
+
+cfreight.odf 2 cbase.odf cmining.odf
+ccargo.odf 2 cbase.odf ctrading.odf
+csrepair.odf 1 xyr_c.odf
+cscout.odf 1 cyard.odf
+cdestroy.odf 1 cyard.odf
+cdestroy2.odf 1 cyard.odf
+ccruise1.odf 2 cyard.odf cresear.odf
+ccruise2.odf 2 cyard.odf cresear.odf
+ccruise3.odf 2 cyard.odf cresear2.odf
+cassault.odf 2 cyard.odf cresear2.odf
+cbattle.odf 1 cyard2.odf
+cbattle2.odf 2 cyard2.odf cupgrade.odf
+cfrigate.odf 1 cyard2.odf
+cspecial.odf 2 cyard2.odf cresear2.odf
+csuper.odf 1 cyard.odf
+cbase.odf 0
+cmining.odf 0
+corbital.odf 1 cbase.odf
+csensor.odf 1 cbase.odf
+cturret.odf 1 cbase.odf
+cturret2.odf 1 cresear2.odf
+cyard.odf 1 cbase.odf
+cyard2.odf 2 cyard.odf cresear.odf
+ctrading.odf 1 cbase.odf
+cresear.odf 1 cbase.odf
+cresear2.odf 2 cyard.odf cresear.odf
+cupgrade.odf 1 cresear.odf
+cardassian_super_station.odf -1 // Consolidated production
+carpod1.odf -1
+carpod2.odf -1
+carpod3.odf -1
+carpod4.odf -1
+carpod6.odf -1
+carpod7.odf -1
+carpod8.odf -1
+carpod9.odf -1
+carpod16.odf -1
+carpod11.odf 1 cupgrade.odf
+carpod12.odf 1 cupgrade.odf
+carpod13.odf 1 cupgrade.odf
+carpod14.odf 1 cupgrade.odf
+carpod15.odf 1 cupgrade.odf
+carpod21.odf 1 carpod11.odf
+carpod22.odf 1 carpod12.odf
+carpod23.odf 1 carpod13.odf
+carpod24.odf 1 carpod14.odf
+carpod25.odf 1 carpod15.odf
+gccloak.odf 0
+gplasmabank.odf -1
+gmicroorgs.odf -1
+gdrones.odf -1
+gfluxwave.odf -1
+gaccelcannon.odf -1
+gquanteffect.odf -1
+gwarpboost.odf -1
+gsdisruptor.odf -1
+gsensorscram.odf -1
+8472_mothership.odf 0
+8472_active.odf 1 8472_mothership.odf
+
+8472_scout.odf 1 8472_active.odf
+8472_destroy.odf 1 8472_active.odf
+8472_cruise1.odf 1 8472_basicresearch.odf
+8472_cruise2.odf 2 8472_active.odf 8472_advancedresearch.odf
+8472_battle.odf 2 8472_shipupgraderesearch.odf 8472_fluidicgate.odf
+8472_collector.odf 1 8472_active.odf
+
+8472_transmuter.odf 1 8472_passive.odf
+8472_frigate.odf 2 8472_basicresearch.odf 8472_fluidicgate.odf
+8472_behemoth.odf 2 8472_advancedresearch.odf 8472_fluidicgate.odf
+8472_mine.odf 1 714const.odf
+8472_fluidicgate.odf 1 8472_passive.odf
+8472_basicresearch.odf 1 8472_passive.odf
+8472_advancedresearch.odf 2 8472_passive.odf 8472_basicresearch.odf
+8472_shipupgraderesearch.odf 2 8472_passive.odf 8472_basicresearch.odf
+8472_podbasic0.odf -1
+8472_podbasic1.odf -1
+8472_podbasic2.odf -1
+8472_podbasic3.odf -1
+8472_podadvanced0.odf -1
+8472_podadvanced1.odf -1
+8472_podadvanced2.odf -1
+8472_podadvanced3.odf -1
+8472_podshipresearch1.odf 1 8472_shipupgraderesearch.odf
+8472_podshipresearch2.odf 1 8472_shipupgraderesearch.odf
+8472_podshipresearch3.odf 1 8472_shipupgraderesearch.odf
+8472_podshipresearch4.odf 1 8472_shipupgraderesearch.odf
+8472_podshipresearch21.odf 2 8472_shipupgraderesearch.odf 8472_podshipresearch1.odf
+8472_podshipresearch22.odf 2 8472_shipupgraderesearch.odf 8472_podshipresearch2.odf
+8472_podshipresearch23.odf 2 8472_shipupgraderesearch.odf 8472_podshipresearch3.odf
+8472_podshipresearch24.odf 2 8472_shipupgraderesearch.odf 8472_podshipresearch4.odf
+gclairvoyance.odf -1
+gclairvoyantlink.odf -1
+gpsionicdisruption.odf -1
+gpsionicinsanity.odf -1
+gbiopulse.odf -1
+gnebulageneration.odf -1
+gnebulaflux.odf -1
+gtransientrift.odf -1
+gresourceextractionbeam.odf 0
+hamine.odf 0
+hcorbom.odf 0
+hmanheim.odf 0
+hplasmac.odf 0
+hshieldi.odf 0
+hholdbm.odf 0
+hwcover.odf 0
+hmicro.odf 0
+hpoleron.odf 0
+hshieldh.odf -1 // Existing ability research; same requirement as gshieldh
+hplasma2.odf 0
+gnttblst.odf 0
+gtracbmo.odf 0
+gselfdes.odf 0
+gtracbm.odf 0
+gcloak.odf 0
+grcloak.odf 0
+gkcloak.odf 0
+hcloak.odf 0
+shield.odf 0
+xacassim.odf 0
+xactwarp.odf -1 // Existing ability research; same requirement as y2a002
+xacremod.odf -1 // Existing ability research; same requirement as gremod
+xabtrans5.odf -1 // Existing ability research; same requirement as y2a002
+s31yard.odf 3 fyard2.odf fresear2.odf fupgrade.odf
+
+fvalour.odf 1 s31yard.odf
+ftengen.odf 1 s31yard.odf
+arumaan.odf 1 s31yard.odf
+fspectre.odf 1 s31yard.odf
+fsent.odf 1 s31yard.odf
+fshadow.odf 1 s31yard.odf
+fdallas.odf 1 s31yard.odf
+fdeimos.odf 1 s31yard.odf
+banshee.odf 1 s31yard.odf
+fdiablo.odf 1 s31yard.odf
+fakisato.odf 1 s31yard.odf
+fshak.odf 1 s31yard.odf
+fkaleb.odf 1 s31yard.odf
+fscorp.odf 1 fyard2.odf
+fnorway.odf 1 fyard.odf
+fnova.odf 1 fyard.odf
+fmiran.odf 1 fyard.odf
+fprom.odf 1 fyard2.odf
+fexcel.odf 1 fyard2.odf
+koutpost.odf 1 kbase.odf
+kimpbase.odf 2 kbase.odf kyard2.odf
+khwp.odf 1 kyard.odf
+kbase2.odf 2 kbase.odf kimpbase.odf
+
+kdestroy2.odf 1 kyard.odf
+ktinga.odf 1 kyard.odf
+kcruise4.odf 1 kyard.odf
+kvodleh.odf 1 kyard2.odf
+kvood.odf 1 kyard2.odf
+kbatleth.odf 1 kyard2.odf
+kbwing.odf 1 kyard2.odf
+kquon.odf 1 kyard.odf
+kimpnegh.odf 2 kyard2.odf kimpbase.odf
+kimpvorc.odf 2 kyard2.odf kimpbase.odf
+kimpnook.odf 2 kyard3.odf kimpbase.odf
+kimpben.odf 2 kyard3.odf kimpbase.odf
+kimpbakt.odf 2 kyard3.odf kimpbase.odf
+kimphut.odf 2 kyard3.odf kimpbase.odf
+kimpkoto.odf 2 kyard.odf kimpbase.odf
+kimpmakd.odf 2 kyard3.odf kimpbase.odf
+kavorcha.odf 2 kyard2.odf kimpbase.odf
+kgunboat.odf 2 kyard.odf koutpost.odf
+bdestroy2.odf 1 byard.odf
+btacpyr.odf 1 byard.odf
+brenborg.odf 1 byard2.odf
+bpentra.odf 1 byard.odf
+bhentra.odf 1 byard2.odf
+bomega1.odf 1 byard2.odf
+bmama.odf 1 byard3.odf
+bhentrag.odf 1 byard2.odf
+
+bassturr.odf 1 bbase.odf
+borbital.odf 0
+hub.odf 2 bbase.odf byard3.odf
+twgate1.odf 1 hub.odf
+twgate2.odf 1 twgate1.odf
+twgate3.odf 1 twgate2.odf
+twgate4.odf 1 twgate3.odf
+twgate5.odf 1 twgate4.odf
+twgate6.odf 1 twgate5.odf
+twgate7.odf 1 twgate6.odf
+twgate8.odf 1 twgate7.odf
+rdest1.odf 1 rbase.odf
+
+rcent.odf 1 ryard.odf
+rdread.odf 1 ryard2.odf
+rktinga.odf 1 ryard2.odf
+rscruise.odf 1 ryard2.odf
+rbase2.odf 2 rbase.odf ryard2.odf
+rtsens.odf 1 rbase2.odf
+rhwp.odf 1 ryard.odf
+rtswarb.odf 1 ryard3.odf
+rtsdest.odf 1 ryard2.odf
+rtscruis.odf 1 ryard2.odf
+rtscout.odf 2 ryard2.odf rbase2.odf
+rtsdread.odf 1 ryard3.odf
+rtsbcru.odf 1 ryard2.odf
+rtspec.odf 1 ryard2.odf
+cstation.odf 3 cbase.odf cyard2.odf cresear2.odf
+
+ctelkor.odf 1 cyard.odf
+ckimal.odf 1 cyard.odf
+chutet.odf 1 cyard2.odf
+dombase.odf 2 cbase.odf xcconst2.odf
+domabase.odf 1 dombase.odf
+domscout.odf 2 cyard2.odf dombase.odf
+jemdest.odf 2 cyard2.odf dombase.odf
+jemdest2.odf 2 cyard2.odf dombase.odf
+sonadest.odf 2 cyard3.odf dombase.odf
+sonabat.odf 2 cyard3.odf dombase.odf
+dombat.odf 3 cyard3.odf cresear.odf dombase.odf
+domdred.odf 3 cyard3.odf cresear2.odf dombase.odf
+cogalor.odf 3 cyard2.odf cbase.odf cresear2.odf
+cohideki.odf 3 cyard2.odf cbase.odf cresear2.odf
+cokaldor.odf 3 cyard3.odf cbase.odf cresear2.odf
+cokeldon.odf 3 cyard3.odf cbase.odf cresear2.odf
+8472fig.odf 1 8472_active.odf
+8472int.odf 1 8472_fluidicgate.odf
+8472be2.odf 1 8472_fluidicgate.odf
+
+714turr.odf 0
+714hydra.odf 2 8472_mothership.odf 8472_fluidicgate.odf
+714manta.odf 2 8472_mothership.odf 8472_fluidicgate.odf
+714orca.odf 2 8472_mothership.odf 8472_fluidicgate.odf
+714rnode.odf 2 8472_mothership.odf 8472_fluidicgate.odf
+714skate.odf 2 8472_mothership.odf 8472_fluidicgate.odf
+714tmat.odf 2 8472_mothership.odf 8472_fluidicgate.odf
+ftwarpd.odf -1
+slipstream.odf -1
+fnxenttoent.odf 1 fconst.odf
+fenttoenta.odf 1 fresear.odf
+fentatoentb.odf 1 fyard2.odf
+fentbtoentc.odf 1 fresear2.odf
+fentctoentd.odf 1 fyard3.odf
+fentdtoentdx.odf 1 fyard3.odf
+fentdxtoente.odf 1 fupgrade.odf
+fgrvmine.odf -1
+
+xhfhero.odf 1 fyard3.odf
+
+blocutus.odf 1 byard3.odf
+
+xhkhero.odf 1 kyard3.odf
+
+xhrhero.odf 1 ryard3.odf
+
+xhchero.odf 1 cyard3.odf
+
+xhdhero.odf 1 dyard3.odf
+
+xhbrhero.odf 2 bryard.odf brconst.odf
+
+xhshero.odf 1 xhs_yard3.odf
+fds9.odf 2 fbase.odf fyard2.odf
+xfomegalab.odf 2 fyard2.odf fupgrade.odf
+xfomegapod.odf 1 xfomegalab.odf
+xofdestroy.odf 2 fyard3.odf xfomegapod.odf
+xofgalaxy.odf 2 fyard3.odf xfomegapod.odf
+xofbattle.odf 2 fyard3.odf xfomegapod.odf
+xofprom.odf 2 fyard3.odf xfomegapod.odf
+xbomegalab.odf 2 byard2.odf bupgrade.odf
+xbomegapod.odf 1 xbomegalab.odf
+xobcruise1.odf 2 byard3.odf xbomegapod.odf
+xobbattle1.odf 2 byard3.odf xbomegapod.odf
+xobbattle2.odf 2 byard3.odf xbomegapod.odf
+xoblocutus.odf 2 byard3.odf xbomegapod.odf
+8472_sentinel.odf 1 714const.odf
+brbase.odf 1 brconst.odf
+bryard.odf 1 brconst.odf
+brmining.odf 1 brconst.odf
+brresear.odf 1 brconst.odf
+brresear2.odf 1 brconst.odf
+brorbital.odf 1 brconst.odf
+dbase.odf 1 dconst.odf
+dyard.odf 1 dconst.odf
+dsensor.odf 1 dconst.odf
+dturret.odf 1 dconst.odf
+dmining.odf 1 dconst.odf
+dresear.odf 1 dconst.odf
+dresear2.odf 1 dconst.odf
+dturret2.odf 1 dconst.odf
+dorbital.odf 1 dconst.odf
+dtrading.odf 1 dconst.odf
+dupgrade.odf 1 dconst.odf
+zsuperbl.odf -1 // Consolidated production
+fregula.odf 1 fconst.odf
+foutpost.odf 1 fconst2.odf
+fbase2.odf 1 fconst2.odf
+fhwp.odf 1 fyard.odf
+fremmeler.odf -1 // Consolidated production
+fargus.odf 1 fconst2.odf
+fmidas.odf 1 fconst2.odf
+fjupiter.odf 1 fconst2.odf
+8472_podbasic4.odf 1 8472_basicresearch.odf
+
+brfreight.odf 1 brbase.odf
+borpod5.odf 1 bresear.odf
+brscout.odf 1 bryard.odf
+brdestroy.odf 1 bryard.odf
+brcruise1.odf 1 bryard.odf
+brcruise2.odf 1 bryard.odf
+brfrigate.odf 2 bryard.odf brconst.odf
+brbattle.odf 2 bryard.odf brconst.odf
+brbattle2.odf 2 bryard.odf brconst.odf
+carpod5.odf 1 cresear.odf
+
+dfreight.odf 1 dbase.odf
+dcargo.odf 1 dbase.odf
+dsrepair.odf 1 xyr_d.odf
+dompod5.odf 1 dresear.odf
+dompod4.odf 1 dresear.odf
+dompod2.odf 1 dresear.odf
+dompod3.odf 1 dresear.odf
+dompod1.odf 1 dresear.odf
+dompod6.odf 1 dresear2.odf
+dompod7.odf 1 dresear2.odf
+dompod8.odf 1 dresear2.odf
+dompod16.odf 1 dresear2.odf
+
+fcargo.odf 1 ds9.odf
+fsrepair.odf 1 xyr_f.odf
+ffreight.odf 1 ds9.odf
+dsuper.odf 2 dyard3.odf dconst.odf
+dompod11.odf 1 dupgrade.odf
+dompod12.odf 1 dupgrade.odf
+dompod13.odf 1 dupgrade.odf
+dompod14.odf 1 dupgrade.odf
+dompod15.odf 1 dupgrade.odf
+dompod21.odf 1 dupgrade.odf
+dompod22.odf 1 dupgrade.odf
+dompod23.odf 1 dupgrade.odf
+dompod24.odf 1 dupgrade.odf
+dompod25.odf 1 dupgrade.odf
+dscout.odf 1 dyard.odf
+ddestroy.odf 1 dyard.odf
+dcruise1.odf 1 dyard.odf
+dcruise2.odf 1 dyard.odf
+dassault.odf 1 dyard.odf
+dcruise3.odf 1 dyard.odf
+dcruise4.odf 1 dyard.odf
+dfrigate.odf 2 dyard.odf dconst.odf
+dbattle.odf 2 dyard.odf dconst.odf
+dspecial.odf 2 dyard.odf dconst.odf
+dbattle2.odf 1 dyard.odf
+dweyoun.odf 2 dyard3.odf dconst.odf
+
+
+fscout.odf 1 xyr_f.odf
+fdanube.odf 2 fyard2.odf fbase.odf
+ffighter.odf 2 fyard2.odf fbase.odf
+fdeltaflyer.odf 2 fyard2.odf fbase.odf
+fantares.odf 2 fyard2.odf fbase.odf
+fnxent.odf 2 xflegacyyard.odf fbase2.odf
+ffrigate.odf 1 fyard2.odf
+fgalaxy.odf 1 fyard3.odf
+fspecial.odf 1 fyard3.odf
+fbattle.odf 1 fyard2.odf
+fdefiant.odf 2 fyard2.odf fds9.odf
+fvoyager.odf 2 fyard3.odf fds9.odf
+fedpod5.odf 1 fresear.odf
+fdestroy2.odf 1 xyr_f.odf
+fdestroy.odf 1 xyr_f.odf
+fcruise3.odf 1 fyard.odf
+fcruise2.odf 1 fyard.odf
+fassault.odf 1 fyard.odf
+fintx.odf 1 fyard.odf
+fdauntless.odf 1 fyard2.odf
+foberth.odf 2 fyard.odf fconst.odf
+fnx.odf 2 fyard.odf fconst.odf
+fcentaur.odf 2 fyard.odf fconst.odf
+fmiranda.odf 2 fyard.odf fconst.odf
+fconstellation.odf 2 fyard.odf fconst.odf
+fconstitution.odf 2 fyard.odf fconst.odf
+fcruise1.odf 1 fyard2.odf
+fexcelr.odf 1 fyard2.odf
+fsovx.odf 1 fyard2.odf
+fprometheus.odf 1 fyard2.odf
+fexcalibur.odf 1 fyard2.odf
+fambassador.odf 1 fyard3.odf
+fneworleans.odf 1 fyard3.odf
+fgalaxyr.odf 1 fyard3.odf
+fgalaxyx.odf 1 fyard3.odf
+fdawnstar.odf 1 fyard3.odf
+kdestroy4.odf 2 kyard2.odf kimpbase.odf
+klipod5.odf 1 kresear.odf
+rompod5.odf 1 rresear.odf
+dwormddestroy2.odf 1 dyard2.odf
+dwormdbattle.odf 1 dyard2.odf
+dwormdbattle2.odf 1 dyard2.odf
+dwormdsuper.odf 1 dyard2.odf
+
+xacgreen.odf 0
+
+
+bbase2.odf 0
+
+
+bsphere.odf 1 byard.odf
+
+tcube.odf 1 byard2.odf
+
+bbattle3.odf 1 byard2.odf
+
+bbattle4.odf 1 byard2.odf
+
+
+bjbase.odf 0
+
+
+bjfreight.odf 1 bjmining.odf
+
+bjcargo.odf 1 bjtrading.odf
+
+bjrepair.odf 1 xyr_bj.odf
+
+
+bjscout.odf 2 bjyard.odf bjbase.odf
+
+bjinterceptor.odf 1 bjyard.odf
+
+bjraider.odf 1 bjyard.odf
+
+bjtransport.odf 1 bjyard.odf
+
+bjlightship.odf 1 bjyard.odf
+
+bjassault.odf 2 bjyard.odf bjresear.odf
+
+bjcruiser.odf 1 bjyard2.odf
+
+bjtorpedo.odf 2 bjyard2.odf bjresear.odf
+
+bjfrigate.odf 1 bjyard2.odf
+
+bjartillery.odf 2 bjyard2.odf bjresear2.odf
+
+bjbattle.odf 2 bjyard2.odf bjupgrade.odf
+
+bjspecial.odf 2 bjyard2.odf bjresear2.odf
+
+bjsuper.odf 3 bjyard2.odf bjresear2.odf bjsuperlab.odf
+
+bjnerys.odf 2 bjyard2.odf bjresear2.odf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bjpod1.odf 1 bjresear.odf
+
+bjpod2.odf 1 bjresear.odf
+
+bjpod3.odf 1 bjresear.odf
+
+bjpod4.odf 1 bjresear.odf
+
+bjpod5.odf 1 bjresear.odf
+
+bjpod6.odf 1 bjresear2.odf
+
+bjpod7.odf 1 bjresear2.odf
+
+bjpod8.odf 1 bjresear2.odf
+
+bjpod9.odf 1 bjresear2.odf
+
+bjpod11.odf 1 bjupgrade.odf
+
+bjpod12.odf 1 bjupgrade.odf
+
+bjpod13.odf 1 bjupgrade.odf
+
+bjpod14.odf 1 bjupgrade.odf
+
+bjpod15.odf 1 bjupgrade.odf
+
+bjpod16.odf 1 bjresear.odf
+
+bjpod21.odf 2 bjupgrade.odf bjpod11.odf
+
+bjpod22.odf 2 bjupgrade.odf bjpod12.odf
+
+bjpod23.odf 2 bjupgrade.odf bjpod13.odf
+
+bjpod24.odf 2 bjupgrade.odf bjpod14.odf
+
+bjpod25.odf 2 bjupgrade.odf bjpod15.odf
+
+xbj_gtracbm.odf 0
+
+xbj_gminedilithium.odf 0
+
+xbj_gminelatinum.odf 0
+
+
+
+xbj_gamine.odf 1 bjpod4.odf
+
+xbj_gfcloak.odf 0
+
+xbj_gchainp.odf 1 bjpod2.odf
+
+xbj_fcolonypod.odf 0
+
+xbj_grepairbeam.odf 0
+
+xbj_gwcover.odf 1 bjpod3.odf
+
+xbj_gshldemt.odf 1 bjpod16.odf
+
+xbj_gselfdes.odf 0
+
+xbj_gcorbom.odf 1 bjpod1.odf
+
+xbj_gshieldh.odf 1 bjpod7.odf
+
+xbj_gmanheim.odf 1 bjpod6.odf
+
+xbj_gpdlaser.odf 1 bjpod9.odf
+
+xbj_gschainp.odf 0
+
+xbassimold.odf 2 byard.odf bresear2.odf
+
+
+
+
+
+
+xbjtakeover.odf -1
+
+fyard3.odf 3 fbase.odf fyard2.odf fresear2.odf
+
+byard3.odf 3 bbase.odf byard2.odf bresear2.odf
+
+kyard3.odf 3 kbase.odf kyard2.odf kresear2.odf
+
+ryard3.odf 3 rbase.odf ryard2.odf rresear2.odf
+
+cyard3.odf 3 cbase.odf cyard2.odf cresear2.odf
+
+dyard3.odf 1 dconst.odf
+
+
+
+xhs_yard3.odf 1 8472_passive.odf
+
+xhs_vanguard.odf 1 xhs_yard3.odf
+
+xhs_sentinel.odf 1 xhs_yard3.odf
+
+xhs_leviathan.odf 1 xhs_yard3.odf
+bjsensor.odf 1 bjbase.odf
+bjturret.odf 1 bjbase.odf
+bjturret2.odf 1 bjresear.odf
+bjmining.odf 0
+bjorbital.odf 1 bjbase.odf
+bjtrading.odf 1 bjbase.odf
+bjyard.odf 1 bjbase.odf
+bjyard2.odf 2 bjyard.odf bjresear.odf
+bjresear.odf 2 bjbase.odf bjyard.odf
+bjresear2.odf 2 bjyard2.odf bjresear.odf
+bjupgrade.odf 2 bjresear.odf bjresear2.odf
+bjsuperlab.odf 2 bjresear2.odf bjyard2.odf
+
+// Borg assimilation support
+xbharvest.odf 1 bbase.odf
+xbassimst.odf 1 bresear2.odf
+xbrepair.odf 1 xyr_b.odf
+xbharvbeam.odf 0
+xbassimbeam.odf 0
+
+xbharvmanual.odf 0
+xbassimmanual.odf 0
+
+// Riker Galaxy-X hero; same availability as Federation command hero.
+xhfriker.odf 1 fyard3.odf
+
+// Native cube technology assimilation control.
+gtechassimbeam.odf 0
+
+xhrshinzon.odf 1 ryard3.odf
+xhrdonatra.odf 1 ryard3.odf
+
+xflegacyyard.odf 1 fyard3.odf
+xhfkirktos.odf 1 xflegacyyard.odf
+xhfkirkrefit.odf 1 xflegacyyard.odf
+xhfharriman.odf 1 xflegacyyard.odf
+xhfgarrett.odf 1 xflegacyyard.odf
+xhfpicardd.odf 1 xflegacyyard.odf
+
+// Screen-era command additions.
+xhftitan.odf 1 xflegacyyard.odf
+xhfdaedalus.odf 1 xflegacyyard.odf
+xhkraptor.odf 1 kyard3.odf
+xhkold7.odf 1 kyard3.odf
+xhrtosbird.odf 1 ryard3.odf
+xhrearlybird.odf 1 ryard3.odf
+
+// Federation colony ships unlock with the standard shipyard.
+
+chwp.odf 1 cyard.odf
+
+bjhwp.odf 1 bjyard.odf
+
+bhwp.odf 1 byard.odf
+
+dturret3.odf 1 dyard.odf
+
+
+y2a001.odf 1 bjpod2.odf
+
+y2a002.odf -1 // GUI alias of gtwarpd
+
+y2a003.odf -1 // Existing ability research; same requirement as goverrid
+
+y2a004.odf 0
+
+y2a005.odf -1 // GUI alias of gmicro
+
+ya0001.odf -1 // Added ability research lock
+
+ya0002.odf -1 // Added ability research lock
+
+ya0003.odf -1 // Added ability research lock
+
+ya0004.odf -1 // Added ability research lock
+
+ya0005.odf -1 // Added ability research lock
+
+ya0006.odf -1 // Added ability research lock
+
+ya0007.odf -1 // Added ability research lock
+
+ya0008.odf -1 // Added ability research lock
+
+ya0009.odf -1 // Added ability research lock
+
+ya0010.odf -1 // Added ability research lock
+
+ya0011.odf -1 // Added ability research lock
+
+ya0012.odf -1 // Added ability research lock
+
+ya0013.odf -1 // Added ability research lock
+
+ya0014.odf -1 // Added ability research lock
+
+ya0015.odf -1 // Added ability research lock
+
+ya0016.odf -1 // Added ability research lock
+
+ya0017.odf -1 // Added ability research lock
+
+ya0018.odf -1 // Added ability research lock
+
+ya0019.odf -1 // Added ability research lock
+
+ya0020.odf -1 // Added ability research lock
+
+ya0021.odf -1 // Added ability research lock
+
+ya0022.odf -1 // Added ability research lock
+
+ya0023.odf -1 // Added ability research lock
+
+ya0024.odf -1 // Added ability research lock
+
+ya0025.odf -1 // Added ability research lock
+
+ya0026.odf -1 // Added ability research lock
+
+ya0027.odf -1 // Added ability research lock
+
+ya0028.odf -1 // Added ability research lock
+
+ya0029.odf -1 // Added ability research lock
+
+ya0030.odf -1 // Added ability research lock
+
+ya0031.odf -1 // Added ability research lock
+
+ya0032.odf -1 // Added ability research lock
+
+ya0033.odf -1 // Added ability research lock
+
+ya0034.odf -1 // Added ability research lock
+
+ya0035.odf -1 // Added ability research lock
+
+ya0036.odf -1 // Added ability research lock
+
+ya0037.odf -1 // Added ability research lock
+
+ya0038.odf -1 // Added ability research lock
+
+ya0039.odf -1 // Added ability research lock
+
+ya0040.odf -1 // Added ability research lock
+
+ya0041.odf -1 // Added ability research lock
+
+ya0042.odf -1 // Added ability research lock
+
+ya0043.odf -1 // Added ability research lock
+
+ya0044.odf -1 // Added ability research lock
+
+ya0045.odf -1 // Added ability research lock
+
+ya0046.odf -1 // Added ability research lock
+
+ya0047.odf -1 // Added ability research lock
+
+ya0048.odf -1 // Added ability research lock
+
+ya0049.odf -1 // Added ability research lock
+
+ya0050.odf -1 // Added ability research lock
+
+ya0051.odf -1 // Added ability research lock
+
+ya0052.odf -1 // Added ability research lock
+
+ya0053.odf -1 // Added ability research lock
+
+ya0054.odf -1 // Heated Plasma research
+
+ya0055.odf -1 // Heated Plasma research
+
+ya0056.odf -1 // Heated Plasma research
+
+ya0057.odf -1 // Heated Plasma research
+
+ya0058.odf -1 // Heated Plasma research
+
+ya0059.odf -1 // Added ability research lock
+
+ya0060.odf -1 // Added ability research lock
+
+ya0061.odf -1 // Added ability research lock
+
+ya0062.odf -1 // Added ability research lock
+
+ya0063.odf -1 // Added ability research lock
+
+ya0064.odf -1 // Added ability research lock
+
+ya0065.odf -1 // Added ability research lock
+
+ya0066.odf -1 // Added ability research lock
+
+ya0067.odf -1 // Added ability research lock
+
+ya0068.odf -1 // Added ability research lock
+
+ya0069.odf -1 // Added ability research lock
+
+ya0070.odf -1 // Added ability research lock
+
+ya0071.odf -1 // Added ability research lock
+
+ya0072.odf -1 // Added ability research lock
+
+ya0073.odf -1 // Added ability research lock
+
+ya0074.odf -1 // Added ability research lock
+
+ya0075.odf -1 // Added ability research lock
+
+ya0076.odf -1 // Added ability research lock
+
+ya0077.odf -1 // Added ability research lock
+
+ya0078.odf -1 // Added ability research lock
+
+
+
+yabrpolpod.odf -1 // Breen Polaron research
+
+xdofighter.odf 2 dyard.odf domabase.odf
+
+xdofrigate.odf 2 cyard.odf domabase.odf
+
+xdocargo.odf 1 domabase.odf
+
+xdominer.odf 1 domabase.odf
+
+xdjacht.odf 2 cyard.odf domabase.odf
+
+xdjboard.odf -1 // Founders jacht JemHadar boarding research
+
+xbaautoman.odf 0
+brgpolerond.odf -1 // Existing ability research; same requirement as ya0007
+gdetect3.odf 1 borpod5.odf
+gplasmaw.odf -1 // Heated Plasma research
+gschainp.odf -1 // Existing ability research; same requirement as gchainp
+gshieldd.odf -1 // Existing ability research; same requirement as ya0024
+kgplasmac.odf -1 // Existing ability research; same requirement as gplasmac
+pgcorbom.odf -1 // Existing ability research; same requirement as gcorbom
+xbtpblue.odf -1 // Existing ability research; same requirement as gborgbor
+xbtpregen.odf -1 // Existing ability research; same requirement as gregen
+xbtpwarp.odf -1 // Existing ability research; same requirement as y2a002
+xy_bassault_gborgbor.odf -1 // Existing ability research; same requirement as gborgbor
+xy_bassault_gregen.odf -1 // Existing ability research; same requirement as gregen
+xy_bbattle1_gregen.odf -1 // Existing ability research; same requirement as gregen
+xy_bbattle2_gregen.odf -1 // Existing ability research; same requirement as gregen
+xy_bbattle3_gregen.odf -1 // Existing ability research; same requirement as gregen
+xy_bbattle4_gregen.odf -1 // Existing ability research; same requirement as gregen
+xy_bcolony_gborgbor.odf -1 // Existing ability research; same requirement as gborgbor
+xy_bcruise1_gborgbor.odf -1 // Existing ability research; same requirement as gborgbor
+xy_bcruise2_gregen.odf -1 // Existing ability research; same requirement as gregen
+xy_bcruise3_gborgbor.odf -1 // Existing ability research; same requirement as gborgbor
+xy_bcruise3_gregen.odf -1 // Existing ability research; same requirement as gregen
+xy_bdestroy2_gborgbor.odf -1 // Existing ability research; same requirement as gborgbor
+xy_bdestroy2_gregen.odf -1 // Existing ability research; same requirement as gregen
+xy_bdestroy_gborgbor.odf -1 // Existing ability research; same requirement as gborgbor
+xy_bdestroy_gregen.odf -1 // Existing ability research; same requirement as gregen
+xy_bfrigate_gborgbor.odf -1 // Existing ability research; same requirement as gborgbor
+xy_bhentra_gborgbor.odf -1 // Existing ability research; same requirement as gborgbor
+xy_bhentra_gregen.odf -1 // Existing ability research; same requirement as gregen
+xy_bhentrag_gborgbor.odf -1 // Existing ability research; same requirement as gborgbor
+xy_bhentrag_gregen.odf -1 // Existing ability research; same requirement as gregen
+xy_bmama_gregen.odf -1 // Existing ability research; same requirement as gregen
+xy_bomega1_gregen.odf -1 // Existing ability research; same requirement as gregen
+xy_bpentra_gborgbor.odf -1 // Existing ability research; same requirement as gborgbor
+xy_bpentra_gregen.odf -1 // Existing ability research; same requirement as gregen
+xy_bspecial_gborgbor.odf -1 // Existing ability research; same requirement as gborgbor
+xy_btacpyr_gborgbor.odf -1 // Existing ability research; same requirement as gborgbor
+xy_btacpyr_gregen.odf -1 // Existing ability research; same requirement as gregen
+xy_tcube_gregen.odf -1 // Existing ability research; same requirement as gregen
+xy_xbassimold_gregen.odf -1 // Existing ability research; same requirement as gregen
+xy_xbassimold_gtwarpd.odf -1 // Existing ability research; same requirement as y2a002
+xy_xobbattle1_gregen.odf -1 // Existing ability research; same requirement as gregen
+xy_xobbattle2_gregen.odf -1 // Existing ability research; same requirement as gregen
+xy_xobcruise1_gborgbor.odf -1 // Existing ability research; same requirement as gborgbor
+
+xrplasmapod.odf -1 // Sela advanced weapons research
+
+xrsplasma.odf -1 // Scimitar special research
+
+xrsshield.odf -1 // Scimitar special research
+
+xrsfirecl.odf -1 // Scimitar special research
+
+xselaresearch.odf 2 ryard.odf rresear.odf
+
+xrthelpod.odf -1 // Sela advanced weapons research
+
+xrstheleron.odf -1 // Sela advanced weapons research
+
+xrsstract.odf 0
+
+unicomplex.odf 2 bupgrade.odf bsuperbl.odf
+
+xdhattack.odf 2 dyard3.odf dconst.odf
+
+xdcarrier.odf 1 dyard.odf
+
+xhdodo.odf 1 dyard3.odf
+
+xhdjacht.odf 1 dyard3.odf
+
+xhdlaan.odf 1 dyard3.odf
+
+xhodobr.odf -1 // Native Dominion hero ability research
+
+xhodosh.odf -1 // Native Dominion hero ability research
+
+xhlpol.odf -1 // Native Dominion hero ability research
+
+xhlspy.odf -1 // Native Dominion hero ability research
+
+xhgarak.odf 1 cyard3.odf
+
+xhgarakpl.odf -1
+
+xhgarakcmd.odf -1
+
+xdhashield.odf -1
+
+xdhapol.odf -1
+
+xbjoutpost.odf 1 bjyard.odf
+
+xbj_gdetectf.odf -1
+
+xcgarak.odf 2 cyard2.odf cupgrade.odf
+
+xhtphase.odf 0
+
+xhbiph.odf 0
+
+xfgmerc.odf 0
+
+
+
+gdetectc.odf 1 carpod5.odf
+
+xfgfight.odf 1 xfgmerc.odf
+
+xfgfrig.odf 1 xfgmerc.odf
+
+xfgdest.odf 1 xfgmerc.odf
+
+xfgcruis.odf 1 xfgmerc.odf
+
+xfgbatt.odf 1 xfgmerc.odf
+
+xfgquark.odf 1 xfgmerc.odf
+
+xfgrom.odf 1 xfgmerc.odf
+
+xfgnagus.odf 1 xfgmerc.odf
+
+
+xfgqholo.odf 0
+
+xfgqcloak.odf 0
+
+xfgrregen.odf 0
+
+xfgrshield.odf 0
+
+xfgrenergy.odf 0
+
+xfgnpol.odf 0
+
+xfgnshield.odf 0
+
+xfgnengine.odf 0
+
+xfgncrew.odf 0
+
+xfgserv.odf 0
+
+
+xfgdaim.odf 1 xfgmerc.odf
+
+xfgmine.odf 1 xfgserv.odf
+
+xfgrepair.odf 1 xyr_fg.odf
+
+
+xfgtrade.odf 1 xfgserv.odf
+
+xfgultri.odf 0
+
+xfgminedil.odf 0
+
+xfgminelat.odf 0
+
+xhbqueen.odf 1 byard3.odf
+xqgreen.odf 0
+xqwarp.odf 0
+
+xfgresearch.odf 0
+
+
+
+xfgdil2.odf 2 xfgserv.odf xfgpdil.odf
+
+xfgmined2.odf 0
+
+xfglat2.odf 2 xfgserv.odf xfgplat.odf
+
+xfgminel2.odf 0
+
+xfgmetal2.odf 1 xfgpmet.odf
+
+xbgmerc.odf 0
+
+xbgserv.odf 0
+
+
+xbgfight.odf 1 xbgmerc.odf
+
+xbgfrig.odf 1 xbgmerc.odf
+
+xbgdest.odf 1 xbgmerc.odf
+
+xbgcruis.odf 1 xbgmerc.odf
+
+xbgbatt.odf 1 xbgmerc.odf
+
+xbgquark.odf 1 xbgmerc.odf
+
+xbgrom.odf 1 xbgmerc.odf
+
+xbgnagus.odf 1 xbgmerc.odf
+
+xbgdaim.odf 1 xbgmerc.odf
+
+xbgmine.odf 1 xbgmerc.odf
+
+xbgrepair.odf 1 xyr_bg.odf
+
+
+xbgresearch.odf 0
+
+xbgdil2.odf 2 xbgserv.odf xbgpdil.odf
+
+xbgmetal2.odf 1 xbgpmet.odf
+
+
+
+
+
+
+
+xbtarray.odf 0
+xbarrayhold.odf 0
+xbarraywarp.odf 0
+
+mra000.odf -1
+
+mra000o.odf -1
+
+mra001.odf -1
+
+mra001o.odf -1
+
+mra002.odf -1
+
+mra002o.odf -1
+
+mra003.odf -1
+
+mra003o.odf -1
+
+mra004.odf -1
+
+mra004o.odf -1
+
+mra005.odf -1
+
+mra005o.odf -1
+
+mra006.odf -1
+
+mra006o.odf -1
+
+mra007.odf -1
+
+mra007o.odf -1
+
+mra008.odf -1
+
+mra008o.odf -1
+
+mra009.odf -1
+
+mra009o.odf -1
+
+mra010.odf -1
+
+mra010o.odf -1
+
+mra011.odf -1
+
+mra011o.odf -1
+
+mra012.odf -1
+
+mra012o.odf -1
+
+mra013.odf -1
+
+mra013o.odf -1
+
+mra014.odf -1
+
+mra014o.odf -1
+
+mra015.odf -1
+
+mra015o.odf -1
+
+mra016.odf -1
+
+mra016o.odf -1
+
+mra017.odf -1
+
+mra017o.odf -1
+
+mra018.odf -1
+
+mra018o.odf -1
+
+mra019.odf -1
+
+mra019o.odf -1
+
+mra020.odf -1
+
+mra020o.odf -1
+
+mra021.odf -1
+
+mra021o.odf -1
+
+mra022.odf -1
+
+mra022o.odf -1
+
+mra023.odf -1
+
+mra023o.odf -1
+
+mra024.odf -1
+
+mra024o.odf -1
+
+mra025.odf -1
+
+mra025o.odf -1
+
+mra026.odf -1
+
+mra026o.odf -1
+
+mra027.odf -1
+
+mra027o.odf -1
+
+mra028.odf -1
+
+mra028o.odf -1
+
+mra029.odf -1
+
+mra029o.odf -1
+
+mra030.odf -1
+
+mra030o.odf -1
+
+mra031.odf -1
+
+mra031o.odf -1
+
+mra032.odf -1
+
+mra032o.odf -1
+
+mra033.odf -1
+
+mra033o.odf -1
+
+mra034.odf -1
+
+mra034o.odf -1
+
+mra035.odf -1
+
+mra035o.odf -1
+
+mra036.odf -1
+
+mra036o.odf -1
+
+mra037.odf -1
+
+mra037o.odf -1
+
+mra038.odf -1
+
+mra038o.odf -1
+
+mra039.odf -1
+
+mra039o.odf -1
+
+mra040.odf -1
+
+mra040o.odf -1
+
+mra041.odf -1
+
+mra041o.odf -1
+
+mra042.odf -1
+
+mra042o.odf -1
+
+mra043.odf -1
+
+mra043o.odf -1
+
+mra044.odf -1
+
+mra044o.odf -1
+
+mra045.odf -1
+
+mra045o.odf -1
+
+mra046.odf -1
+
+mra046o.odf -1
+
+mra047.odf -1
+
+mra047o.odf -1
+
+mra048.odf -1
+
+mra048o.odf -1
+
+mra049.odf -1
+
+mra049o.odf -1
+
+mra050.odf -1
+
+mra050o.odf -1
+
+mra051.odf -1
+
+mra051o.odf -1
+
+mra052.odf -1
+
+mra052o.odf -1
+
+mra053.odf -1
+
+mra053o.odf -1
+
+mra054.odf -1
+
+mra054o.odf -1
+
+mra055.odf -1
+
+mra055o.odf -1
+
+mra056.odf -1
+
+mra056o.odf -1
+
+mra057.odf -1
+
+mra057o.odf -1
+
+mra058.odf -1
+
+mra058o.odf -1
+
+mrpbaj.odf -1
+
+mrpbor.odf -1
+
+mrpbre.odf -1
+
+mrpcar.odf -1
+
+mrpdom.odf -1
+
+mrpfed.odf -1
+
+mrpfer.odf -1
+
+mrpkli.odf -1
+
+mrprom.odf -1
+
+mrpspe.odf -1
+
+mryfeda.odf 1 fyard2.odf
+
+mrc007.odf 1 mryfeda.odf
+
+mrc008.odf 1 mryfeda.odf
+
+mrc009.odf 1 mryfeda.odf
+
+mrc010.odf 1 mryfeda.odf
+
+mrc011.odf 1 mryfeda.odf
+
+mrc012.odf 1 mryfeda.odf
+
+mrc013.odf 1 mryfeda.odf
+
+mrc014.odf 1 mryfeda.odf
+
+mrc015.odf 1 mryfeda.odf
+
+mrc016.odf 1 mryfeda.odf
+
+mrc017.odf 1 mryfeda.odf
+
+mrc018.odf 1 mryfeda.odf
+
+mryfedb.odf 1 fyard2.odf
+
+mrc021.odf 1 mryfedb.odf
+
+mrc036.odf 1 mryfedb.odf
+
+mrc037.odf 1 mryfedb.odf
+
+mrc038.odf 1 mryfedb.odf
+
+mrc039.odf 1 mryfedb.odf
+
+mrc040.odf 1 mryfedb.odf
+
+mrc041.odf 1 mryfedb.odf
+
+mrc042.odf 1 mryfedb.odf
+
+mrc043.odf 1 mryfedb.odf
+
+mrc044.odf 1 mryfedb.odf
+
+
+mrc003.odf 1 byard3.odf
+
+mrc004.odf 1 byard3.odf
+
+mrc022.odf 1 xbgmerc.odf
+
+mrc023.odf 1 xbgmerc.odf
+
+mrc024.odf 1 xbgmerc.odf
+
+mrc029.odf 1 byard3.odf
+
+mrc058.odf 1 byard3.odf
+
+
+mrc019.odf 1 kyard3.odf
+
+mrc020.odf 1 kyard3.odf
+
+mrc046.odf 1 kyard3.odf
+
+mrc047.odf 1 kyard3.odf
+
+mrc048.odf 1 kyard3.odf
+
+
+mrc049.odf 1 ryard3.odf
+
+mrc050.odf 1 ryard3.odf
+
+mrc051.odf 1 ryard3.odf
+
+mrc052.odf 1 ryard3.odf
+
+mrc053.odf 1 ryard3.odf
+
+
+mrc005.odf 1 cyard3.odf
+
+mrc031.odf 1 cyard3.odf
+
+mrc045.odf 1 cyard3.odf
+
+
+mrc006.odf 2 dyard3.odf dconst.odf
+
+mrc025.odf 2 dyard3.odf dconst.odf
+
+mrc032.odf 2 dyard3.odf dconst.odf
+
+mrc033.odf 2 dyard3.odf dconst.odf
+
+mrc034.odf 2 dyard3.odf dconst.odf
+
+mrc035.odf 2 dyard3.odf dconst.odf
+
+
+mrc030.odf 2 bryard.odf brconst.odf
+
+
+mrc002.odf 1 bjyard2.odf
+
+
+mrc000.odf 2 8472_advancedresearch.odf xhs_yard3.odf
+
+mrc001.odf 2 8472_advancedresearch.odf xhs_yard3.odf
+
+mrc054.odf 2 8472_advancedresearch.odf xhs_yard3.odf
+
+mrc055.odf 2 8472_advancedresearch.odf xhs_yard3.odf
+
+mrc056.odf 2 8472_advancedresearch.odf xhs_yard3.odf
+
+mrc057.odf 2 8472_advancedresearch.odf xhs_yard3.odf
+
+
+mrc026.odf 1 xfgmerc.odf
+
+mrc027.odf 1 xfgmerc.odf
+
+mrc028.odf 1 xfgmerc.odf
+
+xfgpdil.odf 1 xfgresearch.odf
+
+xfgpmet.odf 1 xfgresearch.odf
+
+xfgplat.odf 1 xfgresearch.odf
+
+xfgpdil2.odf 2 xfgresearch.odf xfgpdil.odf
+
+xfgmindil3.odf 0
+
+xfgdil3.odf 2 xfgpdil2.odf xfgserv.odf
+
+xfgpmet2.odf 2 xfgresearch.odf xfgpmet.odf
+
+xfgmetal3.odf 1 xfgpmet2.odf
+
+xfgplat2.odf 2 xfgresearch.odf xfgplat.odf
+
+xfgminlat3.odf 0
+
+xfglat3.odf 2 xfgplat2.odf xfgserv.odf
+
+xbgpdil.odf 1 xbgresearch.odf
+
+xbgpmet.odf 1 xbgresearch.odf
+
+xbgpdil2.odf 2 xbgresearch.odf xbgpdil.odf
+
+xbgdil3.odf 1 xbgpdil2.odf
+
+xbgpmet2.odf 2 xbgresearch.odf xbgpmet.odf
+
+xbgmetal3.odf 1 xbgpmet2.odf
+
+xsbiolab.odf -1 // Native mining upgrade / yard withdrawn
+
+xsbio1.odf -1 // Native mining upgrade / yard withdrawn
+
+xsborb1.odf 0
+
+xsbext1.odf 0
+
+xsbcol1.odf -1 // Native mining upgrade / yard withdrawn
+
+xsbio2.odf -1 // Native mining upgrade / yard withdrawn
+
+xsborb2.odf 0
+
+xsbext2.odf 0
+
+xsbcol2.odf -1 // Native mining upgrade / yard withdrawn
+
+fconst.odf 0
+
+fconst2.odf 1 fyard.odf
+
+xfuconst.odf 1 fyard2.odf
+
+
+f31const.odf 1 fyard.odf
+
+bconst.odf 0
+
+bconst2.odf 1 byard.odf
+
+xbuconst.odf 1 byard2.odf
+
+
+
+uconst.odf 1 byard2.odf
+
+kconst.odf 0
+
+kconst2.odf 1 kyard.odf
+
+xkuconst.odf 1 kyard2.odf
+
+rconst.odf 0
+
+rconst2.odf 1 ryard.odf
+
+xruconst.odf 1 ryard2.odf
+
+cconst.odf 0
+
+xcconst2.odf 1 cyard.odf
+
+xcuconst.odf 1 cyard2.odf
+
+domconst.odf 1 cyard.odf
+
+dconst.odf 0
+
+xdconst2.odf 1 dyard.odf
+
+xduconst.odf 1 dconst.odf
+
+xcdconst.odf 0
+
+xcduniv.odf 1 dconst.odf
+
+
+
+bjconst.odf 0
+
+xbjconst2.odf 1 bjyard.odf
+
+xbjuconst.odf 1 bjyard2.odf
+
+8472_passive.odf 0
+
+714const.odf 1 8472_fluidicgate.odf
+
+xsuconst.odf 1 8472_advancedresearch.odf
+
+8472_defender.odf 1 8472_fluidicgate.odf
+
+xfgconst.odf 0
+
+
+xbgconst.odf 0
+
+brconst.odf 0
+xbrconst2.odf -1
+xbruconst.odf -1
+
+xu3fer2.odf -1
+
+xu3bor2.odf -1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xu3fed2.odf -1
+
+// Retired redundant yards; ships reassigned to retained facilities.
+fyard0.odf -1 // Consolidated production
+bryard2.odf -1 // Consolidated production
+bryard3.odf -1 // Consolidated production
+mrybreen.odf -1 // Consolidated production
+bjyard3.odf -1 // Consolidated production
+mrybajor.odf -1 // Consolidated production
+mryborg.odf -1 // Consolidated production
+cobyard.odf -1 // Consolidated production
+mrycard.odf -1 // Consolidated production
+domyard.odf -1
+mrydom.odf -1 // Consolidated production
+dsuperbl.odf -1 // Consolidated production
+dyard2.odf 2 dyard.odf dresear.odf
+kimpyard.odf -1 // Consolidated production
+mrykling.odf -1 // Consolidated production
+mryrom.odf -1 // Consolidated production
+mry8472.odf -1
+714syard.odf -1
+mryfer.odf -1 // Consolidated production
+// Constructor fusion withdrawn after runtime null-object crash.
+xcv_714const_u.odf -1
+xcv_8472_defender_u.odf -1
+xcv_8472_passive_u.odf -1
+xcv_bconst2_u.odf -1
+xcv_bconst_u.odf -1
+xcv_bjconst_u.odf -1
+xcv_cconst_u.odf -1
+xcv_dconst_u.odf -1
+xcv_domconst_u.odf -1
+xcv_f31const_u.odf -1
+xcv_fconst2_u.odf -1
+xcv_fconst_u.odf -1
+xcv_kconst2_u.odf -1
+xcv_kconst_u.odf -1
+xcv_rconst2_u.odf -1
+xcv_rconst_u.odf -1
+xcv_xbjconst2_u.odf -1
+xcv_xcconst2_u.odf -1
+xcv_xcdconst_u.odf -1
+xcv_xdconst2_u.odf -1
+
+// Colony vessels are available without technology prerequisites.
+bcolony.odf 0
+bjcolony.odf 0
+brcolony.odf 0
+ccolony.odf 0
+dcolony.odf 0
+fcolony.odf 0
+kcolony.odf 0
+rcolony.odf 0
+xbgcolony.odf 0
+xfgcolony.odf 0
+
+fiaarray.odf 1 fconst2.odf
+
+kiaarray.odf 1 kconst2.odf
+
+riaarray.odf 1 rconst2.odf
+
+ciaarray.odf 1 xcconst2.odf
+
+diaarray.odf 1 xdconst2.odf
+
+bjiaarray.odf 1 xbjconst2.odf
+
+siaarray.odf 1 714const.odf
+
+briaarray.odf 1 brconst.odf
+
+fgiaarray.odf 1 xfgconst2.odf
+
+fiaarrays4.odf -1 // Iconian faction ability
+
+kiaarrays4.odf -1 // Iconian faction ability
+
+riaarrays5.odf 0
+
+ciaarrays4.odf -1 // Iconian faction ability
+
+ciaarrays5.odf 0
+
+diaarrays4.odf -1 // Iconian faction ability
+
+xfgconst2.odf 1 xfgserv.odf
+
+xbgconst2.odf 1 xbgserv.odf
+
+xfgdref.odf 1 xfgconst.odf
+
+xbgdref.odf 1 xbgconst.odf
+
+bgiaarray.odf 1 xbgconst2.odf
+
+iaacloak.odf 0
+myfpod1.odf -1 // Native mining upgrade / yard withdrawn
+myfpod2.odf -1 // Native mining upgrade / yard withdrawn
+myw000.odf 0
+myfminer1.odf -1 // Native mining upgrade / yard withdrawn
+myw001.odf 0
+myfminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu000.odf -1 // Native mining upgrade / yard withdrawn
+myu001.odf -1 // Native mining upgrade / yard withdrawn
+myfyard.odf -1 // Native mining upgrade / yard withdrawn
+myw002.odf 0
+mybminer1.odf -1 // Native mining upgrade / yard withdrawn
+myw003.odf 0
+mybminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu002.odf -1 // Native mining upgrade / yard withdrawn
+myu003.odf -1 // Native mining upgrade / yard withdrawn
+mybyard.odf -1 // Native mining upgrade / yard withdrawn
+mykminer1.odf -1 // Native mining upgrade / yard withdrawn
+mykminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu004.odf -1 // Native mining upgrade / yard withdrawn
+myu005.odf -1 // Native mining upgrade / yard withdrawn
+mykyard.odf -1 // Native mining upgrade / yard withdrawn
+myrminer1.odf -1 // Native mining upgrade / yard withdrawn
+myrminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu006.odf -1 // Native mining upgrade / yard withdrawn
+myu007.odf -1 // Native mining upgrade / yard withdrawn
+myryard.odf -1 // Native mining upgrade / yard withdrawn
+mycminer1.odf -1 // Native mining upgrade / yard withdrawn
+mycminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu008.odf -1 // Native mining upgrade / yard withdrawn
+myu009.odf -1 // Native mining upgrade / yard withdrawn
+mycyard.odf -1 // Native mining upgrade / yard withdrawn
+mydminer1.odf -1 // Native mining upgrade / yard withdrawn
+mydminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu010.odf -1 // Native mining upgrade / yard withdrawn
+myu011.odf -1 // Native mining upgrade / yard withdrawn
+myu012.odf -1 // Native mining upgrade / yard withdrawn
+mydyard.odf -1 // Native mining upgrade / yard withdrawn
+mybjminer1.odf -1 // Native mining upgrade / yard withdrawn
+mybjminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu013.odf -1 // Native mining upgrade / yard withdrawn
+myu014.odf -1 // Native mining upgrade / yard withdrawn
+mybjyard.odf -1 // Native mining upgrade / yard withdrawn
+mybrminer1.odf -1 // Native mining upgrade / yard withdrawn
+mybrminer2.odf -1 // Native mining upgrade / yard withdrawn
+myu015.odf -1 // Native mining upgrade / yard withdrawn
+myu016.odf -1 // Native mining upgrade / yard withdrawn
+mybryard.odf -1 // Native mining upgrade / yard withdrawn
+myu017.odf -1 // Native mining upgrade / yard withdrawn
+myu018.odf -1 // Native mining upgrade / yard withdrawn
+mysyard.odf -1 // Native mining upgrade / yard withdrawn
+myw004.odf 0
+myw005.odf 0
+xfgmnr1.odf 3 xfgserv.odf xfgpdil.odf xfgplat.odf
+myw006.odf 0
+myw007.odf 0
+xfgmnr2.odf 3 xfgserv.odf xfgpdil2.odf xfgplat2.odf
+myu019.odf 2 xfgpdil.odf xfgplat.odf
+myu020.odf 2 xfgpdil2.odf xfgplat2.odf
+myu021.odf 1 xfgpdil2.odf
+myu022.odf 1 xfgplat2.odf
+xbgmnr1.odf 2 xbgserv.odf xbgpdil.odf
+xbgmnr2.odf 2 xbgserv.odf xbgpdil2.odf
+myu023.odf 1 xbgpdil.odf
+myu024.odf 1 xbgpdil2.odf
+myu025.odf 1 xbgpdil2.odf
+xyr_f.odf 1 fyard.odf
+xyr_b.odf 1 byard.odf
+xyr_k.odf 1 kyard.odf
+xyr_r.odf 1 ryard.odf
+xyr_c.odf 1 cyard.odf
+xyr_d.odf 1 dyard.odf
+xyr_bj.odf 1 bjyard.odf
+xyr_br.odf 1 bryard.odf
+xyr_fg.odf 1 xfgmerc.odf
+xyr_bg.odf 1 xbgmerc.odf
+tyfgbeam.odf 0
+tyfgtorp.odf 0
+tyfgrapid.odf 0
+tyfghwp.odf 1 xfgmerc.odf
+tybgbeam.odf 0
+tybgtorp.odf 0
+tybgrapid.odf 0
+tybghwp.odf 1 xbgmerc.odf
+tybrbeam.odf 0
+tybrtorp.odf 0
+tybrrapid.odf 0
+tybrhwp.odf 1 bryard.odf
+
+xdcfighter.odf 1 xdcarrier.odf // Dominion carrier launch craft
+
+xhftvarek.odf 1 xflegacyyard.odf // Federation T'Varek hero
+
+brrepair.odf 1 xyr_br.odf
+
+xsrepair.odf 1 mysyard.odf
+xrctorp.odf 0 // Normal repair-tender defensive torpedo, not a research ability
+
+// Drozana commerce and Borg-only combat freighter foundry
+xfdrozana.odf 1 xfgmerc.odf
+xbdrozana.odf 2 xbgmerc.odf byard2.odf
+xdzf.odf 1 xbdrozana.odf
+xdzk.odf 1 xbdrozana.odf
+xdzr.odf 1 xbdrozana.odf
+xdzc.odf 1 xbdrozana.odf
+xdzd.odf 1 xbdrozana.odf
+xdzb.odf 1 xbdrozana.odf
+xdzbj.odf 1 xbdrozana.odf
+xdzbr.odf 1 xbdrozana.odf
+xdzfg.odf 1 xbdrozana.odf
+
+sg26atlantis.odf 3 fbase2.odf fresear2.odf fupgrade.odf
+
+sg26jumper.odf 1 sg26atlantis.odf
+
+sg26aurora.odf 1 sg26atlantis.odf
+
+sg26wormhole.odf 0
+
+sg26zpm.odf 0
+
+sg26cloak.odf 0
+
+sg26overdrive.odf 0
+
+xr26carrier.odf 2 ryard3.odf rresear2.odf
+
+xu26unimatrix.odf 3 fyard2.odf fresear2.odf fupgrade.odf
+
+xu26jumper.odf 1 xu26unimatrix.odf
+
+xu26armour.odf 0
+
+xu26transwarp.odf 1 fjupiter.odf

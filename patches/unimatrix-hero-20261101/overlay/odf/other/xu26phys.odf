@@ -1,0 +1,72 @@
+// Smooth Physics Parameters for the Battleship
+//
+physics = "smooth"
+
+// Ship's full throttle forward speed when under impluse power.
+combatSpeed = 120
+impulseSpeed = 142.5
+warpSpeed = 712.5
+
+// When we're moving, if we're closer to our goal point than
+// this, don't try to circle around and hit it.  Just stay where
+// you are.  This is usually 50,
+tooCloseToTurn = 50;
+
+// When path following, we follow a point on our path that's
+// this far in front of us.  This is usually 150
+pathLeadDistance = 500;
+
+
+//
+// Smooth Physics Parameters
+//
+
+// These parameters all scale with impulse speed,
+// so that faster ships more or less do everything
+// faster.  If that's too irritating we can change it.
+
+// How fast it accelerates forward, normal is 1
+forwardAccel = 1.5
+// How fast it decelerates, fraction of forwardAccel
+backwardAccel = 0.5;
+
+// Maximum turn rate, normalized to 1
+turnOmega = 0.9
+// Maximum turn acceleration/deceleration, normalized to 1, scales with turnOmega
+// scales with turnOmega
+turnAlpha = 0.6
+
+// Maximum pitch rate, normalized to 1
+pitchOmega = 0.9
+// Maximum pitch acceleration/deceleration, normalized to 1, scales with pitchOmega
+pitchAlpha = 0.6
+
+// These do not scale with impulse speed
+
+// How much it rolls when it turns, normalized to 1, set to 0 to eliminate roll
+rollCoupling = 3.0;
+
+// How car-like this is.  0 means can't turn without moving, like a car.
+// 1 means turns fully even when still, more like a spaceship.
+turnOmegaFractionAtRest = .02;
+turnAlphaFractionAtRest = .005;
+pitchOmegaFractionAtRest = .02;
+pitchAlphaFractionAtRest = .005;
+
+// Most ships return to pitch = 0 degrees.  Pitch Default is the pitch
+// to return to in degrees upward, and speed is how fast it does so.
+// zero or negative speed means to stay at your last pitch.
+pitchDefault = 0;
+pitchDefaultSpeed = 1;
+
+// Determines how to dampen the turning rate once it's close to it's target.
+// 1 means to square it, to make it even more dampened.
+turnControlSquared = 1;
+// this is the angle in degrees to make it stop damping
+turnControlAngle = 30;
+forwardControlDistance = 100;
+
+
+// Combat mode file
+combatPhysicsFile = "fdestroyercombat.odf"
+

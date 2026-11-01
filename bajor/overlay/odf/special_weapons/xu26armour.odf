@@ -1,0 +1,22 @@
+//Display name for this weapon
+wpnName = "Voyager Battle Armour"
+tooltip = "Voyager Battle Armour"
+verboseTooltip = "Deploy Voyager ablative battle armour using the existing armour effect. Consumes special energy."
+ordName = "armour"
+
+buttonSlot = 1
+buttonPriority = 10
+buttonBorder = 1
+shotDelay = 0.0
+range = 100.0f
+
+//Sound which is played when the weapon fires
+fireSound = "swfgemnf.wav"
+
+classLabel = "toggleweapon"
+special = 1
+needTarget = 0
+
+popupSlot = 1
+
+hotkeyLabel = "HOTKEY_F1"

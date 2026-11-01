@@ -1,0 +1,75 @@
+#include "craft.odf"
+
+unitName = "Puddle Jumper"
+
+label = "Puddle Jumper"
+
+tooltip = "Unimatrix Puddle Jumper"
+
+verboseTooltip = "Puddle Jumper\nAncient drone weapons\nBuilt at Atlantis."
+
+baseName = "sg26jumper"
+
+race = "federation"
+
+maxHealth = 650
+
+shieldRate = 6.5
+
+crewCost = 8
+
+officerCost = 1
+
+dilithiumCost = 120
+
+metalCost = 40
+
+buildTime = 15
+
+ScaleSOD = 1.7813232997792199
+
+physicsFile = "fbattlephys.odf"
+
+trekPhysicsFile = "fbattlephys.odf"
+
+maxSpecialEnergy = 1000
+
+specialEnergyRate = 10
+
+combat = 1
+
+alert = 1
+
+can_sandd = 1
+
+shipType = "B"
+
+shipclass = "battleship"
+
+enginesHitPoints = 100
+
+enginesTargetHardpoints = "hp01" "hp02" "hp03" "hp04"
+
+weaponsHitPoints = 100
+
+weaponsTargetHardpoints = "hp01" "hp02" "hp03" "hp04"
+
+sensorsHitPoints = 100
+
+sensorsTargetHardpoints = "hp01" "hp02" "hp03" "hp04"
+
+lifeSupportHitPoints = 100
+
+lifeSupportTargetHardpoints = "hp01" "hp02" "hp03" "hp04"
+
+shieldGeneratorHitPoints = 100
+
+shieldGeneratorTargetHardpoints = "hp01" "hp02" "hp03" "hp04"
+
+weapon1 = "sg26drone_jumper"
+
+weaponHardpoints1 = "hp01"
+
+weapon2 = "sg26drone_jumper"
+
+weaponHardpoints2 = "hp02"
