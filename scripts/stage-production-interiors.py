@@ -27,7 +27,8 @@ model=changed.setdefault('fbase',copy.deepcopy(native('fbase')));nodes={n['id']:
 for pair in range(4):
  names=doorNames[pair*2:pair*2+2];coords=[np.asarray(nodes[name]['local_transform'])for name in names];center=(coords[0][3]+coords[1][3])/2;axis=2 if abs(center[0])>abs(center[2])else 0
  for name,start in zip(names,coords):
-  v=np.asarray(nodes[name]['data']['vertices']);distance=float(np.ptp(v,axis=0)[axis]+2);sign=-1 if start[3,axis]<center[axis]else 1;keys=[]
+  # Door vertices are mesh-local; rotate them into the parent axes before measuring travel.
+  v=np.asarray(nodes[name]['data']['vertices'])@start[:3];distance=float(np.ptp(v,axis=0)[axis]+2);sign=-1 if start[3,axis]<center[axis]else 1;keys=[]
   for frame in range(100):t=start.copy();t[3,axis]+=sign*distance*frame/99;keys.append(t.tolist())
   animation=copy.deepcopy(template);animation.update(node_ref=name,keyframe_data=keys);existing=next((x for x in model.animation_transforms if x['node_ref']==name),None)
   if existing is None:model.animation_transforms.append(animation)

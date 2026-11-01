@@ -5635,3 +5635,5 @@ Hero-extra-bank validation passed. Runtime testing pending.
 2026-11-01 Applied user-approved112-file mobile-carrier rollout on retry. Atlantis+Jumper+Aurora drones; Wormhole Drive/ZPM/Cloak/Naquadaq Overdrive, zero research gates. Four-special energy4000/40. Voyager and faction hangars, Romulan Kryonyx. Midas moved MKII to free MKIII Atlantis slot. Breen/Ferengi excluded. All live/source/mirror hashes match; runtime tests pending. Backup=D:\Xaramada-Modwork\backups\mobile-carrier-rollout-20261101-105847.
 
 2026-11-01 Mars yard texture recovery: restored original fdock2/fdock3 binaries behind active aliases,3 original fdock_ur texture maps, and native hardpoint bindings. All renamed maps previously existed; runtime cause unproven. Size/stats/menus unchanged; runtime visual check pending. Backup=D:\Xaramada-Modwork\backups\mars-yard-native-textures-20261101-112009.
+
+2026-11-01 Prepared Federation Fbase door animation fix: measure panel width along actual slide direction; preserve all non-animation-position bytes. Rotated pairs travel corrected63.7->25.4. Staged one SOD; game running; runtime visual check pending.
