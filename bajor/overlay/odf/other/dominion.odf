@@ -82,10 +82,6 @@ officerUpgradeODF = "domoff"
 // the things you get when you ask for superside units (instead of the map units)
 
 //things you get when you ask for capture the flag map.
-ctfUnits1 = "ctf_dbase.odf"
-ctfUnits2 = "ctf_dconst.odf"
-ctfUnits3 = "ctf_dconst.odf"
-ctfUnits4 = "dscout.odf"
 
 // for the computer voice
 computerShipConstructionBegin1 = "gvofc022.wav"
@@ -140,17 +136,45 @@ lotsCrew = 30000
 // Faction hero also accompanies the alternate super starting fleet.
 
 // Hero ships remain buildable; starting fleet contains ordinary units only.
-minimalUnits1 = "dconst.odf"
 
 // Hero ships remain buildable; starting fleet contains ordinary units only.
+
+// Hero ships remain buildable; starting fleet contains ordinary units only.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+standardUnits1 = "dconst.odf"
+standardUnits2 = "dconst.odf"
+standardUnits3 = "dbase.odf"
+standardUnits4 = "dscout.odf"
+standardUnits5 = "dcolony.odf"
+
+minimalUnits1 = "dconst.odf"
+minimalUnits2 = "dcolony.odf"
+
 superUnits1 = "bconst.odf"
 superUnits2 = "fconst.odf"
 superUnits3 = "kconst.odf"
 superUnits4 = "rconst.odf"
 superUnits5 = "cconst.odf"
+superUnits6 = "dcolony.odf"
 
-// Hero ships remain buildable; starting fleet contains ordinary units only.
-standardUnits1 = "dconst.odf"
-standardUnits2 = "dconst.odf"
-standardUnits3 = "dbase.odf"
-standardUnits4 = "dscout.odf"
+ctfUnits1 = "ctf_dbase.odf"
+ctfUnits2 = "ctf_dconst.odf"
+ctfUnits3 = "ctf_dconst.odf"
+ctfUnits4 = "dscout.odf"
+ctfUnits5 = "dcolony.odf"

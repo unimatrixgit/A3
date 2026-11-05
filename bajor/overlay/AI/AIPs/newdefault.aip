@@ -106,7 +106,7 @@ int MAX_EXEC_EXPLORE = 2;
 // with mooons will be defended at a given time.
 // NOTE: If this value is set to 0, none of your grid cells with moons will be defended. 
 //
-int MAX_EXEC_RESOURCE = 3;
+int MAX_EXEC_RESOURCE = 6;
 
 // NOTE: DO NOT change MAX_EVAL_ values.
 int MAX_EVAL_ATTACK_BASE = 1000;
@@ -114,7 +114,7 @@ int MAX_EVAL_ATTACK = 1000;
 int MAX_EVAL_DEFEND = 1000;
 int MAX_EVAL_ESCORT = 1000;
 int MAX_EVAL_EXPLORE = 1000;
-int MAX_EVAL_RESOURCE = 20;
+int MAX_EVAL_RESOURCE = 40;
 //////////////////////////////////////////////////////////////////////////////////
 
 
@@ -195,7 +195,8 @@ int escort_priority = 0;
 // decrease to make the AI less likely to defend moons.
 // (valid values: -99999 to 99999)
 //
-int resource_priority = 600;				
+
+int resource_priority = 10000;				
 
 /////////////////////////////////////////////////////////////////////
 // V. Match Priority parameters
@@ -243,16 +244,15 @@ int min_resource_force = 1;
 // If you are not Borg, you cannot build metal, and the value will be
 // ignored. Larger numbers make it more likely to build that type of
 // base
-
-double resource_dilithium_tendency = 2.0;
-double resource_latinum_tendency = 1.0;
-double resource_metal_tendency = 1.5;
-double resource_biomatter_tendency = 1.0;
+double resource_dilithium_tendency = 3.0;
+double resource_latinum_tendency = 2.5;
+double resource_metal_tendency = 3.0;
+double resource_biomatter_tendency = 3.0;
 
 // how likely are we to build resource bases far from our main base
 // ACTUALLY, this is how IMPORTANT it is that a base be close to our main base
 // This gets multiplied by the inverse of the distance...
-double resource_distance_multiplier = 20000.0;
+double resource_distance_multiplier = 200000.0;
 
 // how likely are we to prefer resources with more health
 // Since this looks at the actual value of how many units of resource something has,
@@ -260,10 +260,10 @@ double resource_distance_multiplier = 20000.0;
 double resource_health_multiplier = 0.0001;
 
 // how likely are we to build bases we don't already have
-double resource_lack_multiplier = 2.0;
+double resource_lack_multiplier = 3.0;
 
 // what is the penalty for building near an enemy resource
-double resource_enemy_penalty = 300.0;
+double resource_enemy_penalty = 2000.0;
 
 
 /////////////////////////////////////////////////////////////////////

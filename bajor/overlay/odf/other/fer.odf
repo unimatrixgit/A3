@@ -1,0 +1,51 @@
+name = "ferengi"
+displayKey = "GUI_RD_FERENGI"
+repairStrength = 0.5f
+boardingStrength = 0.25f
+retreatStrength = 0.40f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The percentage at which the crew enters yellow status (ex. 0.75f)
+crewYellowStatus = 0.5f
+
+//The percentage at which the crew enters red status (ex. 0.25f)
+crewRedStatus = 0.25f
+
+//The multiplier for the repair time while in yellow status
+repairYellow = 1.5f
+
+//The multiplier for the repair time while in red status
+repairRed = 2.0f
+
+//The multiplier for the delay between shots for weapons while in yellow status
+weaponYellow = 1.5f
+
+//The multiplier for the delay between shots for weapons while in red status
+weaponRed = 2.0f
+
+// the things you get when you ask for minimal default units (instead of the map units)
+
+// the things you get when you ask for standard default units (instead of the map units)
+
+// the things you get when you ask for superside units (instead of the map units)
+
+
+
+
+
+
+
+standardUnits1 = "bconst.odf"
+standardUnits2 = "bconst.odf"
+standardUnits3 = "bbase.odf"
+standardUnits4 = "xfgcolony.odf"
+
+minimalUnits1 = "bconst.odf"
+minimalUnits2 = "xfgcolony.odf"
+
+superUnits1 = "bconst.odf"
+superUnits2 = "fconst.odf"
+superUnits3 = "kconst.odf"
+superUnits4 = "rconst.odf"
+superUnits5 = "xfgcolony.odf"

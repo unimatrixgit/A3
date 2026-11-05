@@ -89,10 +89,6 @@ officerUpgradeODF = "borgoff"
 // the things you get when you ask for superside units (instead of the map units)
 
 //things you get when you ask for capture the flag map.
-ctfUnits1 = "ctf_bconst.odf"
-ctfUnits2 = "ctf_bconst.odf"
-ctfUnits3 = "ctf_bbase.odf"
-ctfUnits4 = "bscout.odf"
 
 // for the computer voice
 computerShipConstructionBegin1 = "bc25.wav"
@@ -149,16 +145,44 @@ lotsCrew = 30000
 // Faction hero also accompanies the alternate super starting fleet.
 
 // Hero ships remain buildable; starting fleet contains ordinary units only.
-minimalUnits1 = "bconst.odf"
 
 // Hero ships remain buildable; starting fleet contains ordinary units only.
-superUnits1 = "bconst.odf"
-superUnits2 = "fconst.odf"
-superUnits3 = "kconst.odf"
-superUnits4 = "rconst.odf"
 
 // Hero ships remain buildable; starting fleet contains ordinary units only.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 standardUnits1 = "bconst.odf"
 standardUnits2 = "bconst.odf"
 standardUnits3 = "bbase.odf"
 standardUnits4 = "bscout.odf"
+standardUnits5 = "bcolony.odf"
+
+minimalUnits1 = "bconst.odf"
+minimalUnits2 = "bcolony.odf"
+
+superUnits1 = "bconst.odf"
+superUnits2 = "fconst.odf"
+superUnits3 = "kconst.odf"
+superUnits4 = "rconst.odf"
+superUnits5 = "bcolony.odf"
+
+ctfUnits1 = "ctf_bconst.odf"
+ctfUnits2 = "ctf_bconst.odf"
+ctfUnits3 = "ctf_bbase.odf"
+ctfUnits4 = "bscout.odf"
+ctfUnits5 = "bcolony.odf"

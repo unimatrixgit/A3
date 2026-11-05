@@ -5649,3 +5649,69 @@ Hero-extra-bank validation passed. Runtime testing pending.
 2026-11-01 Prepared Dahkur texture alias fix (preview220x165 BMP collided with proper256x256 TGA) and40% smaller fyard2. Four files staged, geometry/stats/menus unchanged, runtime untested.
 
 2026-11-01 Applied approved4-file Dahkur texture/Federation yard II size patch. Backup=D:\Xaramada-Modwork\backups\dahkur-fed-yard-scale-20261101-121121. Live/stage/mirror hashes verified; runtime visual check pending.
+
+20261101-125625 Installed Unimatrix controls/sensors/Hirogen torpedo patch. Backup=D:\Xaramada-Modwork\backups\unimatrix-controls-20261101-125625. File hashes checked; runtime untested; visible armour model pending.
+
+20261101-130118 Fixed Unimatrix patch file formatting after null minimap-sprite load crash; all requested features retained. Backup=D:\Xaramada-Modwork\backups\unimatrix-load-fix-20261101-130118. Runtime retest pending.
+
+20261101-131905 Installed self-recrew yard patch (55 files), backup=D:\Xaramada-Modwork\backups\yard-self-recrew-20261101-131905. Existing positive rates preserved. Runtime untested.
+
+20261101-132109 Installed cross-faction Ferengi industry swap, miner prerequisite correction; 18 files; backup=D:\Xaramada-Modwork\backups\cross-faction-ferengi-industry-20261101-132109. Runtime untested.
+
+20261101-135135 Installed Aurora/Puddle Jumper specials, including Unimatrix Jumper; 48 files, backup=D:\Xaramada-Modwork\backups\ancient-ship-abilities-20261101-135135. Runtime untested.
+
+20261101-135211 Added sg26jumper to fbase/fbase2 slot7; cleared its existing tech prerequisites. Backup=D:\Xaramada-Modwork\backups\fed-starbase-jumper-20261101-135211. Runtime untested.
+
+20261101-135408 Installed Jumper Atlantis builder (42 files), half resource cost, build icons/tech included; backup=D:\Xaramada-Modwork\backups\jumper-atlantis-builder-20261101-135408. Runtime untested.
+
+20261101-142256 Moved Unimatrix armour/transwarp buttons from 7/8 to 3/4; backup=D:\Xaramada-Modwork\backups\unimatrix-armour-hud-20261101-142256. Runtime visibility unverified.
+
+20261101-142356 Installed Unimatrix Sovereign reflector F5, native effect/icon/research preserved; backup=D:\Xaramada-Modwork\backups\unimatrix-reflector-20261101-142356. Runtime untested.
+
+Installed faction starting heroes per latest user instruction; 36 presets checked, Unimatrix crew450. Backup=D:\Xaramada-Modwork\backups\faction-starting-heroes-20261101-142606. Runtime untested.
+
+20261101-143153 Installed downloaded Armoured Intrepid native deploy/retract mechanism adapted to Unimatrix; 55 files. Backup=D:\Xaramada-Modwork\backups\unimatrix-deployable-armour-20261101-143153. Runtime fusion/queue/energy behavior untested.
+
+20261101-143234 Installed additional Unimatrix rapid transphasic bank15, 2-second cadence on both forms; backup=D:\Xaramada-Modwork\backups\unimatrix-rapid-transphasic-20261101-143234. Runtime untested.
+
+20261101-144017 User reported Unimatrix test passes. Removed starting heroes from all10 faction definitions; production unchanged. Backup=D:\Xaramada-Modwork\backups\remove-starting-heroes-20261101-144017
+
+2026-11-01 Staged six faction mobile citadels; 57 files checked. Not installed; runtime untested. Federation Atlantis and 8472/Breen/Ferengi unchanged.
+
+20261101-150953 Installed approved faction mobile citadels patch, 57 live/stage/mirror hashes verified. Backup=D:\Xaramada-Modwork\backups\faction-mobile-citadels-20261101-150953. Runtime test pending.
+
+2026-11-02 Staged eight-file mobile-station armament patch: +4 beams/+3 torpedoes per unit. Original files preserved; not installed; runtime untested.
+
+20261102-085901 Installed approved eight-file mobile-station armament patch: +4 beams/+3 torpedoes each. Backup=D:\Xaramada-Modwork\backups\mobile-station-extra-weapons-20261102-085901. All installed hashes verified; runtime untested.
+
+2026-11-02 Staged Bajor station texture-link hotfix (20 files). Existing textures present; material/alias compatibility patch, geometry/pixels unchanged. Runtime untested.
+
+2026-11-02 Installed approved Bajor six-building texture-link/material fix;20 hashes checked. Backup=D:\Xaramada-Modwork\backups\bajor-texture-links-20261102-090207. Visual runtime test pending.
+
+2026-11-02 Renamed existing T Varek hero to USS Spock; matched Enterprise-D hero durability (10000/100,2500 systems); weapons/energy/production preserved. Vulcan material pending. Backup=D:\Xaramada-Modwork\backups\uss-spock-hero-20261102-090338
+
+2026-11-02 Installed dedicated Ferengi Drozana and Vulcan USS Spock generated materials; Drozana+4 beams/+2 torps. Geometry/UVs unchanged. Backup=D:\Xaramada-Modwork\backups\ferengi-vulcan-materials-20261102-090449. Runtime untested.
+
+2026-11-02 Installed full native Bajor yard/research source bodies, with verified source meshes/materials and preserved functional hardpoints. Backup=D:\Xaramada-Modwork\backups\bajor-complete-source-bodies-20261102-092334. Runtime appearance pending.
+
+2026-11-02 Applied Laaan craft-controller fix following Dominion hang report. Weapons/stats retained; dependencies/hardpoints valid. No fresh dump; hang cause unconfirmed. Backup=D:\Xaramada-Modwork\backups\laan-craft-controller-20261102-110915
+
+2026-11-02 Staged command hero/support/F302 package: 127 files, 27 starting presets,7 nonbuildable heroes; runtime untested.
+
+20261102-132320 Installed approved127-file command-station hero/support/F302 patch. Verified file hashes,27 starts and nonbuildable heroes. Backup=D:\Xaramada-Modwork\backups\mobile-command-heroes-support-20261102-132320. Runtime tests pending.
+
+2026-11-02 Installed Borg-Ferengi matching hull/material fix and Borg starting citadel green assimilation F5. Backup=D:\Xaramada-Modwork\backups\borg-ferengi-material-hero-beam-20261102-152521. Runtime untested.
+
+2026-11-02 Fixed Klingon large yard BMP/TGA hull-name collision using private TGA alias. Four files installed; geometry and stats unchanged. Backup=D:\Xaramada-Modwork\backups\klingon-large-yard-texture-20261102-195127. Runtime untested.
+
+2026-11-02 Removed command heroes from27 starting presets; added all7 to faction builders with no tech requirements. Existing regular stations retained. Backup=D:\Xaramada-Modwork\backups\buildable-command-heroes-20261102-201006. Runtime untested.
+
+2026-11-02 Fixed Obsidian Command Foundry BMP/TGA hull alias collision;3 files installed, geometry unchanged. Backup=D:\Xaramada-Modwork\backups\obsidian-foundry-texture-20261102-203436. Runtime visual test pending.
+
+2026-11-02 Installed Cardassian native yard bodies/opaque maps and25% size reduction; removed redundant yard constructors, starbase production retained. Backup=D:\Xaramada-Modwork\backups\cardassian-yard-body-size-20261102-211231. Runtime visual check pending.
+
+2026-11-04 Captured two live hang dumps PID25496. Confirmed NaN direction infinite loop while Mirror Laaan fires. Staged3-file hardpoint/controller fix;41 Dominion models audited,2 affected. Game still running; not installed.
+
+20261104-221752 Installed approved3-file Laaan NaN hardpoint/controller hang fix; backups=D:\Xaramada-Modwork\backups\laan-nan-hardpoint-hang-20261104-221752. Installed hashes verified; runtime firing retest pending.
+
+2026-11-05 Installed all-AI local economy/colony-start update: 65 files;45 build lists,11 strategies,33 start presets. All new opening producer/tech checks passed. Backup=D:\Xaramada-Modwork\backups\all-ai-local-economy-20261105-222008. Runtime AI behavior pending.

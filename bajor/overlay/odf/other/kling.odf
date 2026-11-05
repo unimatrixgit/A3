@@ -82,10 +82,6 @@ officerUpgradeODF = "klingoff"
 // the things you get when you ask for superside units (instead of the map units)
 
 //things you get when you ask for capture the flag map.
-ctfUnits1 = "ctf_kconst.odf"
-ctfUnits2 = "ctf_kconst.odf"
-ctfUnits3 = "ctf_kbase.odf"
-ctfUnits4 = "kscout.odf"
 
 
 // for the computer voice
@@ -139,16 +135,44 @@ lotsCrew = 30000
 // Faction hero also accompanies the alternate super starting fleet.
 
 // Hero ships remain buildable; starting fleet contains ordinary units only.
-minimalUnits1 = "kconst.odf"
 
 // Hero ships remain buildable; starting fleet contains ordinary units only.
+
+// Hero ships remain buildable; starting fleet contains ordinary units only.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 standardUnits1 = "kconst.odf"
 standardUnits2 = "kconst.odf"
 standardUnits3 = "kbase.odf"
 standardUnits4 = "kscout.odf"
+standardUnits5 = "kcolony.odf"
 
-// Hero ships remain buildable; starting fleet contains ordinary units only.
+minimalUnits1 = "kconst.odf"
+minimalUnits2 = "kcolony.odf"
+
 superUnits1 = "bconst.odf"
 superUnits2 = "fconst.odf"
 superUnits3 = "kconst.odf"
 superUnits4 = "rconst.odf"
+superUnits5 = "kcolony.odf"
+
+ctfUnits1 = "ctf_kconst.odf"
+ctfUnits2 = "ctf_kconst.odf"
+ctfUnits3 = "ctf_kbase.odf"
+ctfUnits4 = "kscout.odf"
+ctfUnits5 = "kcolony.odf"

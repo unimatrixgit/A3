@@ -1,0 +1,3576 @@
+{
+  "installed": true,
+  "runtimeVerified": false,
+  "scope": "All45 existing faction AI lists plus11 generic instant-action strategies;9 colonizer-capable faction start files. Campaign-specific mission AI lists are not rewritten.",
+  "openingTargets": {
+    "normalFactions": {
+      "homeConstructors": 3,
+      "dilithiumFacilities": 2,
+      "metalOrbitals": 2,
+      "miningFreighters": 4,
+      "withNativeLatinumTrade": {
+        "tradeFacilities": 2,
+        "miningFreighters": 6,
+        "tradeCargoShips": 2
+      },
+      "supportShipyard": 1,
+      "colonyShips": 2
+    },
+    "species8472": {
+      "transmuters": 2,
+      "collectors": 4,
+      "activeProducers": 4
+    }
+  },
+  "limitations": [
+    "Static build lists cannot guarantee that every nearby resource is occupied before any combat production; native resource-site availability and priorities control placement.",
+    "Nearby resources favored10x more strongly; this is a preference, not a hard maximum distance.",
+    "No ordinary metal/dilithium colonies added to8472; it cannot colonize.",
+    "Borg and Breen have no native trading station; their later Ferengi expansion remains intact.",
+    "There is no separate Ferengi faction AI build-list set; Ferengi default starts still receive their colony ship."
+  ],
+  "profiles": [
+    {
+      "profile": "federation_build_list.aip",
+      "race": "federation",
+      "rows": 106,
+      "opening": [
+        {
+          "unit": "fbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ffreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "forbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ftrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ffreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "federation_defensive_list.aip",
+      "race": "federation",
+      "rows": 107,
+      "opening": [
+        {
+          "unit": "fbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ffreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "forbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ftrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ffreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "federation_endgame_list.aip",
+      "race": "federation",
+      "rows": 94,
+      "opening": [
+        {
+          "unit": "fbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ffreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "forbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ftrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ffreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "federation_instant_action_build_list.aip",
+      "race": "federation",
+      "rows": 149,
+      "opening": [
+        {
+          "unit": "fbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ffreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "forbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ftrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ffreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "federation_offensive_list.aip",
+      "race": "federation",
+      "rows": 106,
+      "opening": [
+        {
+          "unit": "fbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ffreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "forbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ftrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ffreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "fcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "borg_build_list.aip",
+      "race": "borg",
+      "rows": 87,
+      "opening": [
+        {
+          "unit": "bbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bbase2",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "byard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": false,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "borg_defensive_list.aip",
+      "race": "borg",
+      "rows": 88,
+      "opening": [
+        {
+          "unit": "bbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bbase2",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "byard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": false,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "borg_endgame_list.aip",
+      "race": "borg",
+      "rows": 87,
+      "opening": [
+        {
+          "unit": "bbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bbase2",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "byard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": false,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "borg_instant_action_build_list.aip",
+      "race": "borg",
+      "rows": 87,
+      "opening": [
+        {
+          "unit": "bbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bbase2",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "byard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": false,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "borg_offensive_list.aip",
+      "race": "borg",
+      "rows": 87,
+      "opening": [
+        {
+          "unit": "bbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bbase2",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "byard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": false,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "klingon_build_list.aip",
+      "race": "klingon",
+      "rows": 105,
+      "opening": [
+        {
+          "unit": "kbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "korbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ktrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "klingon_defensive_list.aip",
+      "race": "klingon",
+      "rows": 106,
+      "opening": [
+        {
+          "unit": "kbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "korbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ktrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "klingon_endgame_list.aip",
+      "race": "klingon",
+      "rows": 105,
+      "opening": [
+        {
+          "unit": "kbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "korbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ktrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "klingon_instant_action_build_list.aip",
+      "race": "klingon",
+      "rows": 105,
+      "opening": [
+        {
+          "unit": "kbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "korbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ktrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "klingon_offensive_list.aip",
+      "race": "klingon",
+      "rows": 105,
+      "opening": [
+        {
+          "unit": "kbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "korbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ktrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "kcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "romulan_build_list.aip",
+      "race": "romulan",
+      "rows": 102,
+      "opening": [
+        {
+          "unit": "rbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rorbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rtrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ryard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "romulan_defensive_list.aip",
+      "race": "romulan",
+      "rows": 103,
+      "opening": [
+        {
+          "unit": "rbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rorbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rtrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ryard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "romulan_endgame_list.aip",
+      "race": "romulan",
+      "rows": 102,
+      "opening": [
+        {
+          "unit": "rbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rorbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rtrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ryard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "romulan_instant_action_build_list.aip",
+      "race": "romulan",
+      "rows": 102,
+      "opening": [
+        {
+          "unit": "rbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rorbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rtrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ryard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "romulan_offensive_list.aip",
+      "race": "romulan",
+      "rows": 102,
+      "opening": [
+        {
+          "unit": "rbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rorbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rtrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ryard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "rcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "cardassian_build_list.aip",
+      "race": "cardassian",
+      "rows": 91,
+      "opening": [
+        {
+          "unit": "cbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "corbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ctrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ccargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ccolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "cardassian_defensive_list.aip",
+      "race": "cardassian",
+      "rows": 92,
+      "opening": [
+        {
+          "unit": "cbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "corbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ctrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ccargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ccolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "cardassian_endgame_list.aip",
+      "race": "cardassian",
+      "rows": 91,
+      "opening": [
+        {
+          "unit": "cbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "corbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ctrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ccargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ccolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "cardassian_instant_action_build_list.aip",
+      "race": "cardassian",
+      "rows": 91,
+      "opening": [
+        {
+          "unit": "cbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "corbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ctrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ccargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ccolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "cardassian_offensive_list.aip",
+      "race": "cardassian",
+      "rows": 91,
+      "opening": [
+        {
+          "unit": "cbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "corbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ctrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ccargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "cyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "ccolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "dominion_build_list.aip",
+      "race": "dominion",
+      "rows": 96,
+      "opening": [
+        {
+          "unit": "dbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dorbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dtrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "dominion_defensive_list.aip",
+      "race": "dominion",
+      "rows": 97,
+      "opening": [
+        {
+          "unit": "dbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dorbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dtrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "dominion_endgame_list.aip",
+      "race": "dominion",
+      "rows": 96,
+      "opening": [
+        {
+          "unit": "dbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dorbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dtrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "dominion_instant_action_build_list.aip",
+      "race": "dominion",
+      "rows": 96,
+      "opening": [
+        {
+          "unit": "dbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dorbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dtrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "dominion_offensive_list.aip",
+      "race": "dominion",
+      "rows": 96,
+      "opening": [
+        {
+          "unit": "dbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dorbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dtrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "dcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "breen_build_list.aip",
+      "race": "breen",
+      "rows": 54,
+      "opening": [
+        {
+          "unit": "brbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brorbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bryard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": false,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "breen_defensive_list.aip",
+      "race": "breen",
+      "rows": 54,
+      "opening": [
+        {
+          "unit": "brbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brorbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bryard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": false,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "breen_endgame_list.aip",
+      "race": "breen",
+      "rows": 54,
+      "opening": [
+        {
+          "unit": "brbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brorbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bryard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": false,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "breen_instant_action_build_list.aip",
+      "race": "breen",
+      "rows": 54,
+      "opening": [
+        {
+          "unit": "brbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brorbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bryard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": false,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "breen_offensive_list.aip",
+      "race": "breen",
+      "rows": 54,
+      "opening": [
+        {
+          "unit": "brbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brorbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bryard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "brcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": false,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "bajoran_build_list.aip",
+      "race": "bajoran",
+      "rows": 99,
+      "opening": [
+        {
+          "unit": "bjbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjorbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjtrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "bajoran_defensive_list.aip",
+      "race": "bajoran",
+      "rows": 100,
+      "opening": [
+        {
+          "unit": "bjbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjorbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjtrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "bajoran_endgame_list.aip",
+      "race": "bajoran",
+      "rows": 92,
+      "opening": [
+        {
+          "unit": "bjbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjorbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjtrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "bajoran_instant_action_build_list.aip",
+      "race": "bajoran",
+      "rows": 108,
+      "opening": [
+        {
+          "unit": "bjbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjorbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjtrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "bajoran_offensive_list.aip",
+      "race": "bajoran",
+      "rows": 99,
+      "opening": [
+        {
+          "unit": "bjbase",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjconst",
+          "count": 3,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjmining",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjfreight",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjorbital",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjtrading",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjfreight",
+          "count": 6,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjcargo",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjyard",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "bjcolony",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": true,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "species8472_build_list.aip",
+      "race": "species8472",
+      "rows": 82,
+      "opening": [
+        {
+          "unit": "8472_passive",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_transmuter",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_active",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_collector",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_transmuter",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_active",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_collector",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": false,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "species8472_defensive_list.aip",
+      "race": "species8472",
+      "rows": 82,
+      "opening": [
+        {
+          "unit": "8472_passive",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_transmuter",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_active",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_collector",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_transmuter",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_active",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_collector",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": false,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "species8472_endgame_list.aip",
+      "race": "species8472",
+      "rows": 82,
+      "opening": [
+        {
+          "unit": "8472_passive",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_transmuter",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_active",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_collector",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_transmuter",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_active",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_collector",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": false,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "species8472_instant_action_build_list.aip",
+      "race": "species8472",
+      "rows": 82,
+      "opening": [
+        {
+          "unit": "8472_passive",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_transmuter",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_active",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_collector",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_transmuter",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_active",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_collector",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": false,
+      "laterRowsPreserved": true
+    },
+    {
+      "profile": "species8472_offensive_list.aip",
+      "race": "species8472",
+      "rows": 82,
+      "opening": [
+        {
+          "unit": "8472_passive",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_transmuter",
+          "count": 1,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_active",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_collector",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_transmuter",
+          "count": 2,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_active",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        },
+        {
+          "unit": "8472_collector",
+          "count": 4,
+          "producerAvailable": true,
+          "missingPrerequisites": []
+        }
+      ],
+      "homeBase": 0,
+      "latinumSupport": false,
+      "laterRowsPreserved": true
+    }
+  ],
+  "strategies": [
+    {
+      "profile": "newdefault.aip",
+      "parameters": {
+        "resource_distance_multiplier": 200000.0,
+        "resource_enemy_penalty": 2000.0,
+        "resource_lack_multiplier": 3.0,
+        "resource_dilithium_tendency": 3.0,
+        "resource_metal_tendency": 3.0,
+        "resource_latinum_tendency": 2.5,
+        "resource_biomatter_tendency": 3.0,
+        "MAX_EXEC_RESOURCE": 6,
+        "MAX_EVAL_RESOURCE": 40,
+        "resource_priority": 10000
+      }
+    },
+    {
+      "profile": "a2_aggressive.aip",
+      "parameters": {
+        "resource_distance_multiplier": 200000.0,
+        "resource_enemy_penalty": 2000.0,
+        "resource_lack_multiplier": 3.0,
+        "resource_dilithium_tendency": 3.0,
+        "resource_metal_tendency": 3.0,
+        "resource_latinum_tendency": 2.5,
+        "resource_biomatter_tendency": 3.0,
+        "MAX_EXEC_RESOURCE": 6,
+        "MAX_EVAL_RESOURCE": 40,
+        "resource_priority": 10000
+      }
+    },
+    {
+      "profile": "a2_defensive.aip",
+      "parameters": {
+        "resource_distance_multiplier": 200000.0,
+        "resource_enemy_penalty": 2000.0,
+        "resource_lack_multiplier": 3.0,
+        "resource_dilithium_tendency": 3.0,
+        "resource_metal_tendency": 3.0,
+        "resource_latinum_tendency": 2.5,
+        "resource_biomatter_tendency": 3.0,
+        "MAX_EXEC_RESOURCE": 6,
+        "MAX_EVAL_RESOURCE": 40,
+        "resource_priority": 100000
+      }
+    },
+    {
+      "profile": "a2_exploration.aip",
+      "parameters": {
+        "resource_distance_multiplier": 200000.0,
+        "resource_enemy_penalty": 2000.0,
+        "resource_lack_multiplier": 3.0,
+        "resource_dilithium_tendency": 3.0,
+        "resource_metal_tendency": 3.0,
+        "resource_latinum_tendency": 2.5,
+        "resource_biomatter_tendency": 3.0,
+        "MAX_EXEC_RESOURCE": 6,
+        "MAX_EVAL_RESOURCE": 40,
+        "resource_priority": 10000
+      }
+    },
+    {
+      "profile": "a2_hard_aggressive.aip",
+      "parameters": {
+        "resource_distance_multiplier": 200000.0,
+        "resource_enemy_penalty": 2000.0,
+        "resource_lack_multiplier": 3.0,
+        "resource_dilithium_tendency": 3.0,
+        "resource_metal_tendency": 3.0,
+        "resource_latinum_tendency": 2.5,
+        "resource_biomatter_tendency": 3.0,
+        "MAX_EXEC_RESOURCE": 6,
+        "MAX_EVAL_RESOURCE": 40,
+        "resource_priority": 10000
+      }
+    },
+    {
+      "profile": "a2_hard_defensive.aip",
+      "parameters": {
+        "resource_distance_multiplier": 200000.0,
+        "resource_enemy_penalty": 2000.0,
+        "resource_lack_multiplier": 3.0,
+        "resource_dilithium_tendency": 3.0,
+        "resource_metal_tendency": 3.0,
+        "resource_latinum_tendency": 2.5,
+        "resource_biomatter_tendency": 3.0,
+        "MAX_EXEC_RESOURCE": 6,
+        "MAX_EVAL_RESOURCE": 40,
+        "resource_priority": 100000
+      }
+    },
+    {
+      "profile": "a2_hard_exploration.aip",
+      "parameters": {
+        "resource_distance_multiplier": 200000.0,
+        "resource_enemy_penalty": 2000.0,
+        "resource_lack_multiplier": 3.0,
+        "resource_dilithium_tendency": 3.0,
+        "resource_metal_tendency": 3.0,
+        "resource_latinum_tendency": 2.5,
+        "resource_biomatter_tendency": 3.0,
+        "MAX_EXEC_RESOURCE": 6,
+        "MAX_EVAL_RESOURCE": 40,
+        "resource_priority": 10000
+      }
+    },
+    {
+      "profile": "a2_modified_aggressive.aip",
+      "parameters": {
+        "resource_distance_multiplier": 200000.0,
+        "resource_enemy_penalty": 2000.0,
+        "resource_lack_multiplier": 3.0,
+        "resource_dilithium_tendency": 3.0,
+        "resource_metal_tendency": 3.0,
+        "resource_latinum_tendency": 2.5,
+        "resource_biomatter_tendency": 3.0,
+        "MAX_EXEC_RESOURCE": 6,
+        "MAX_EVAL_RESOURCE": 40,
+        "resource_priority": 10000
+      }
+    },
+    {
+      "profile": "a2_modified_defensive.aip",
+      "parameters": {
+        "resource_distance_multiplier": 200000.0,
+        "resource_enemy_penalty": 2000.0,
+        "resource_lack_multiplier": 3.0,
+        "resource_dilithium_tendency": 3.0,
+        "resource_metal_tendency": 3.0,
+        "resource_latinum_tendency": 2.5,
+        "resource_biomatter_tendency": 3.0,
+        "MAX_EXEC_RESOURCE": 6,
+        "MAX_EVAL_RESOURCE": 40,
+        "resource_priority": 100000
+      }
+    },
+    {
+      "profile": "a2_modified_exploration.aip",
+      "parameters": {
+        "resource_distance_multiplier": 200000.0,
+        "resource_enemy_penalty": 2000.0,
+        "resource_lack_multiplier": 3.0,
+        "resource_dilithium_tendency": 3.0,
+        "resource_metal_tendency": 3.0,
+        "resource_latinum_tendency": 2.5,
+        "resource_biomatter_tendency": 3.0,
+        "MAX_EXEC_RESOURCE": 6,
+        "MAX_EVAL_RESOURCE": 40,
+        "resource_priority": 10000
+      }
+    },
+    {
+      "profile": "a2_very_aggressive.aip",
+      "parameters": {
+        "resource_distance_multiplier": 200000.0,
+        "resource_enemy_penalty": 2000.0,
+        "resource_lack_multiplier": 3.0,
+        "resource_dilithium_tendency": 3.0,
+        "resource_metal_tendency": 3.0,
+        "resource_latinum_tendency": 2.5,
+        "resource_biomatter_tendency": 3.0,
+        "MAX_EXEC_RESOURCE": 6,
+        "MAX_EVAL_RESOURCE": 40,
+        "resource_priority": 10000
+      }
+    }
+  ],
+  "startingColonies": [
+    {
+      "raceFile": "fed",
+      "preset": "standard",
+      "colony": "fcolony"
+    },
+    {
+      "raceFile": "fed",
+      "preset": "minimal",
+      "colony": "fcolony"
+    },
+    {
+      "raceFile": "fed",
+      "preset": "super",
+      "colony": "fcolony"
+    },
+    {
+      "raceFile": "fed",
+      "preset": "ctf",
+      "colony": "fcolony"
+    },
+    {
+      "raceFile": "borg",
+      "preset": "standard",
+      "colony": "bcolony"
+    },
+    {
+      "raceFile": "borg",
+      "preset": "minimal",
+      "colony": "bcolony"
+    },
+    {
+      "raceFile": "borg",
+      "preset": "super",
+      "colony": "bcolony"
+    },
+    {
+      "raceFile": "borg",
+      "preset": "ctf",
+      "colony": "bcolony"
+    },
+    {
+      "raceFile": "kling",
+      "preset": "standard",
+      "colony": "kcolony"
+    },
+    {
+      "raceFile": "kling",
+      "preset": "minimal",
+      "colony": "kcolony"
+    },
+    {
+      "raceFile": "kling",
+      "preset": "super",
+      "colony": "kcolony"
+    },
+    {
+      "raceFile": "kling",
+      "preset": "ctf",
+      "colony": "kcolony"
+    },
+    {
+      "raceFile": "rom",
+      "preset": "standard",
+      "colony": "rcolony"
+    },
+    {
+      "raceFile": "rom",
+      "preset": "minimal",
+      "colony": "rcolony"
+    },
+    {
+      "raceFile": "rom",
+      "preset": "super",
+      "colony": "rcolony"
+    },
+    {
+      "raceFile": "rom",
+      "preset": "ctf",
+      "colony": "rcolony"
+    },
+    {
+      "raceFile": "card",
+      "preset": "standard",
+      "colony": "ccolony"
+    },
+    {
+      "raceFile": "card",
+      "preset": "minimal",
+      "colony": "ccolony"
+    },
+    {
+      "raceFile": "card",
+      "preset": "super",
+      "colony": "ccolony"
+    },
+    {
+      "raceFile": "card",
+      "preset": "ctf",
+      "colony": "ccolony"
+    },
+    {
+      "raceFile": "dominion",
+      "preset": "standard",
+      "colony": "dcolony"
+    },
+    {
+      "raceFile": "dominion",
+      "preset": "minimal",
+      "colony": "dcolony"
+    },
+    {
+      "raceFile": "dominion",
+      "preset": "super",
+      "colony": "dcolony"
+    },
+    {
+      "raceFile": "dominion",
+      "preset": "ctf",
+      "colony": "dcolony"
+    },
+    {
+      "raceFile": "breen",
+      "preset": "standard",
+      "colony": "brcolony"
+    },
+    {
+      "raceFile": "breen",
+      "preset": "minimal",
+      "colony": "brcolony"
+    },
+    {
+      "raceFile": "breen",
+      "preset": "super",
+      "colony": "brcolony"
+    },
+    {
+      "raceFile": "bajoran",
+      "preset": "standard",
+      "colony": "bjcolony"
+    },
+    {
+      "raceFile": "bajoran",
+      "preset": "minimal",
+      "colony": "bjcolony"
+    },
+    {
+      "raceFile": "bajoran",
+      "preset": "super",
+      "colony": "bjcolony"
+    },
+    {
+      "raceFile": "fer",
+      "preset": "standard",
+      "colony": "xfgcolony"
+    },
+    {
+      "raceFile": "fer",
+      "preset": "minimal",
+      "colony": "xfgcolony"
+    },
+    {
+      "raceFile": "fer",
+      "preset": "super",
+      "colony": "xfgcolony"
+    }
+  ],
+  "files": [
+    {
+      "path": "odf/other/fed.odf",
+      "previousSha256": "d275b419b5d81ed5db6124d4a06fe19bfd68749c62fa457ceb41c2ea509b16a9",
+      "sha256": "eacd91cfdd0ba26bc5c3c1fecc35aded36f00d697dfa0a1cceaf37913858982e"
+    },
+    {
+      "path": "odf/other/borg.odf",
+      "previousSha256": "236b75c5b80573b2cd5aebd191a219db4417a2e8a0a47f9d9dd4d380d5c7d0ec",
+      "sha256": "1f91bd6f37a9c7c7b41ff804867dcbca90eaf66bca2132f80e85655a4d7cde13"
+    },
+    {
+      "path": "odf/other/kling.odf",
+      "previousSha256": "0644c6cbca3a7bbfcc5277de0a4d4e594fc0f544fa6312a6f8d4907ae8835fd2",
+      "sha256": "ebf49e841e68cf0782a50a535793a90f7e517a8255876755f1979f7269359244"
+    },
+    {
+      "path": "odf/other/rom.odf",
+      "previousSha256": "c28b364dfdf6990e1d8a5a6055e66a50435b6d03f546c4c4a7053090b613d73b",
+      "sha256": "3019cfeb27fab1bf7c972a42c8ebed4b5ce7cf502f2c0d9445502f4db70d7025"
+    },
+    {
+      "path": "odf/other/card.odf",
+      "previousSha256": "3b5e089bf749a428bcf132142c85feb70b164120d131f87cee877d8bdaeebfc4",
+      "sha256": "fe3fb51817d39db457c80f1983834c1226f1be6bb33711eb70b51a9c6740026b"
+    },
+    {
+      "path": "odf/other/dominion.odf",
+      "previousSha256": "527dd1e56f160f2cfdbb11a8a83318b8fea892386f0c030f9a5aa5b0a941a8b4",
+      "sha256": "34c0d6f6618e1cbc4faa2e75c4a630696d051f537fcc24e02f034e968b659ddb"
+    },
+    {
+      "path": "odf/other/breen.odf",
+      "previousSha256": "66fc631afc86e41d3beb1921b16b3fc8cb28db100325e7106bd91f30e9a1ef9e",
+      "sha256": "7607f2fadcf7eefa59b5454c36abe9cbb995c6581e8801a13cb7c9c68db54be1"
+    },
+    {
+      "path": "odf/other/bajoran.odf",
+      "previousSha256": "64c87afc3fbe81ede898af780053ad5684262b930de7be2e525f73853a9da90a",
+      "sha256": "edff78e3b8d1634fcadf9deda3f16a3039cf6dfa6bc761edee730604d9961ef6"
+    },
+    {
+      "path": "odf/other/fer.odf",
+      "previousSha256": "1ccf0d7e90327ccc2c10cbeed541eacb69220058b9b1eeeebd6b8570edd53707",
+      "sha256": "9b43bfcffb3fc833b8873f38440b83392a53647fbdb2d6e4d6d6435b22874a93"
+    },
+    {
+      "path": "AI/AIPs/federation_build_list.aip",
+      "previousSha256": "4e4fd5a6237646587fbb92976ee5fe5e525d73fe952ab64798f4240f979eb9a6",
+      "sha256": "a6925fcbd106e473986e1ddf6e2c31f275e80e94142a6e32814cfb6a219db363"
+    },
+    {
+      "path": "AI/AIPs/federation_defensive_list.aip",
+      "previousSha256": "56c394ad894e63e2ef2ad0a3fc02f1037824fcf05aaa89ce66f6bd6af94549cc",
+      "sha256": "456a80924f3ed9edb44c0a1729b1e266d6f18e865102e8e32c7c7c7824c6889c"
+    },
+    {
+      "path": "AI/AIPs/federation_endgame_list.aip",
+      "previousSha256": "e82bea79f0438d1eb68919faf765132f5b8a772b56bbfbd73b6a5ba9f5e32273",
+      "sha256": "80c157282bb50f11082e25a08772919205cf197e376a9cca8e80941ab10a17ab"
+    },
+    {
+      "path": "AI/AIPs/federation_instant_action_build_list.aip",
+      "previousSha256": "9ad292b2672a6b0f45fd5356edd8e6f1abf6c349a47e05b9c5bc28843cf294b4",
+      "sha256": "df23446935a2db7780ecceab17e4700501f7af3b921bfac042cfc9a32d870e57"
+    },
+    {
+      "path": "AI/AIPs/federation_offensive_list.aip",
+      "previousSha256": "4e4fd5a6237646587fbb92976ee5fe5e525d73fe952ab64798f4240f979eb9a6",
+      "sha256": "a6925fcbd106e473986e1ddf6e2c31f275e80e94142a6e32814cfb6a219db363"
+    },
+    {
+      "path": "AI/AIPs/borg_build_list.aip",
+      "previousSha256": "3cfbc8dd7d4cdf217307451fd94a0c4c5abb9aec4285623305d69b51511bf7c4",
+      "sha256": "10519263e9b66715c4a023bf8c6f5518aee95f586a1f730e02e7bca1182fa2e7"
+    },
+    {
+      "path": "AI/AIPs/borg_defensive_list.aip",
+      "previousSha256": "c6bedeef485d4c17308f7458aab7d8e0c5308b94c0ab7f98cb2821a6e6980dd0",
+      "sha256": "354ae546cdac47915829ea8b758ec7d76c35533cbe8b2397f0fcb1bb3fb9b901"
+    },
+    {
+      "path": "AI/AIPs/borg_endgame_list.aip",
+      "previousSha256": "3cfbc8dd7d4cdf217307451fd94a0c4c5abb9aec4285623305d69b51511bf7c4",
+      "sha256": "10519263e9b66715c4a023bf8c6f5518aee95f586a1f730e02e7bca1182fa2e7"
+    },
+    {
+      "path": "AI/AIPs/borg_instant_action_build_list.aip",
+      "previousSha256": "3cfbc8dd7d4cdf217307451fd94a0c4c5abb9aec4285623305d69b51511bf7c4",
+      "sha256": "10519263e9b66715c4a023bf8c6f5518aee95f586a1f730e02e7bca1182fa2e7"
+    },
+    {
+      "path": "AI/AIPs/borg_offensive_list.aip",
+      "previousSha256": "3cfbc8dd7d4cdf217307451fd94a0c4c5abb9aec4285623305d69b51511bf7c4",
+      "sha256": "10519263e9b66715c4a023bf8c6f5518aee95f586a1f730e02e7bca1182fa2e7"
+    },
+    {
+      "path": "AI/AIPs/klingon_build_list.aip",
+      "previousSha256": "e6306692c08c67d1e81926593edd6f254b944de37f7047410c197e6066b91f31",
+      "sha256": "1544d69802b2d6287b4a16f939efc09c3d01c7b510a37d7fa083ec576a02fde7"
+    },
+    {
+      "path": "AI/AIPs/klingon_defensive_list.aip",
+      "previousSha256": "a17589e2be3a005355c0fd110edf57e8997b26477180980d1bd7d0462981abce",
+      "sha256": "792b12dddd95a5f4378de09a3ee44db3235ea9b2cfbffa245f10cd18e74becdb"
+    },
+    {
+      "path": "AI/AIPs/klingon_endgame_list.aip",
+      "previousSha256": "e6306692c08c67d1e81926593edd6f254b944de37f7047410c197e6066b91f31",
+      "sha256": "1544d69802b2d6287b4a16f939efc09c3d01c7b510a37d7fa083ec576a02fde7"
+    },
+    {
+      "path": "AI/AIPs/klingon_instant_action_build_list.aip",
+      "previousSha256": "e6306692c08c67d1e81926593edd6f254b944de37f7047410c197e6066b91f31",
+      "sha256": "1544d69802b2d6287b4a16f939efc09c3d01c7b510a37d7fa083ec576a02fde7"
+    },
+    {
+      "path": "AI/AIPs/klingon_offensive_list.aip",
+      "previousSha256": "e6306692c08c67d1e81926593edd6f254b944de37f7047410c197e6066b91f31",
+      "sha256": "1544d69802b2d6287b4a16f939efc09c3d01c7b510a37d7fa083ec576a02fde7"
+    },
+    {
+      "path": "AI/AIPs/romulan_build_list.aip",
+      "previousSha256": "551ad2ee50ea8e2337256505742a6ae8d9f42bd1bf5b3d9aa78a8574f448e4fd",
+      "sha256": "acbdd28d69c7c9c7d132d1d28cfc868883a8bd64fa84a586d03b655332a599fd"
+    },
+    {
+      "path": "AI/AIPs/romulan_defensive_list.aip",
+      "previousSha256": "c388e9af08931fcad4c8e751773e106403a613a45879d01b349c39a82df06d2e",
+      "sha256": "0a54cbd5ab895296c6190b76f3798167bbf97c0f0df203cd64aab8d41e000c8f"
+    },
+    {
+      "path": "AI/AIPs/romulan_endgame_list.aip",
+      "previousSha256": "551ad2ee50ea8e2337256505742a6ae8d9f42bd1bf5b3d9aa78a8574f448e4fd",
+      "sha256": "acbdd28d69c7c9c7d132d1d28cfc868883a8bd64fa84a586d03b655332a599fd"
+    },
+    {
+      "path": "AI/AIPs/romulan_instant_action_build_list.aip",
+      "previousSha256": "551ad2ee50ea8e2337256505742a6ae8d9f42bd1bf5b3d9aa78a8574f448e4fd",
+      "sha256": "acbdd28d69c7c9c7d132d1d28cfc868883a8bd64fa84a586d03b655332a599fd"
+    },
+    {
+      "path": "AI/AIPs/romulan_offensive_list.aip",
+      "previousSha256": "551ad2ee50ea8e2337256505742a6ae8d9f42bd1bf5b3d9aa78a8574f448e4fd",
+      "sha256": "acbdd28d69c7c9c7d132d1d28cfc868883a8bd64fa84a586d03b655332a599fd"
+    },
+    {
+      "path": "AI/AIPs/cardassian_build_list.aip",
+      "previousSha256": "a1ddb37ecfbdb3d7c31ea84b56dcf70b337ac33b0ed1cf22644abf76ca5ea7ed",
+      "sha256": "a5bbd5cc374da40a959f6d308ed3b67966deb3dafff9adaf1f49cfce314d0e0f"
+    },
+    {
+      "path": "AI/AIPs/cardassian_defensive_list.aip",
+      "previousSha256": "96c3b7809f1c311e36bbba51f681fe7c82471da3c37e1796cdf85a66c4855430",
+      "sha256": "adbe3d4019d98ed01698f830a5ab29c4508c2b13f49ec0ced982f66e0f6597a8"
+    },
+    {
+      "path": "AI/AIPs/cardassian_endgame_list.aip",
+      "previousSha256": "a1ddb37ecfbdb3d7c31ea84b56dcf70b337ac33b0ed1cf22644abf76ca5ea7ed",
+      "sha256": "a5bbd5cc374da40a959f6d308ed3b67966deb3dafff9adaf1f49cfce314d0e0f"
+    },
+    {
+      "path": "AI/AIPs/cardassian_instant_action_build_list.aip",
+      "previousSha256": "a1ddb37ecfbdb3d7c31ea84b56dcf70b337ac33b0ed1cf22644abf76ca5ea7ed",
+      "sha256": "a5bbd5cc374da40a959f6d308ed3b67966deb3dafff9adaf1f49cfce314d0e0f"
+    },
+    {
+      "path": "AI/AIPs/cardassian_offensive_list.aip",
+      "previousSha256": "a1ddb37ecfbdb3d7c31ea84b56dcf70b337ac33b0ed1cf22644abf76ca5ea7ed",
+      "sha256": "a5bbd5cc374da40a959f6d308ed3b67966deb3dafff9adaf1f49cfce314d0e0f"
+    },
+    {
+      "path": "AI/AIPs/dominion_build_list.aip",
+      "previousSha256": "f2d5477397dfbea04e8cd023d7a51aff1153806fb22c050d1d992d5eb4178c5f",
+      "sha256": "5ebe7d35b586f27c484cd116806e722e0bd28a0987a9f8ba173dfccbb03bd874"
+    },
+    {
+      "path": "AI/AIPs/dominion_defensive_list.aip",
+      "previousSha256": "6bc6ea316735e063b5b335a24bd5f48d3ac7500c1a4450e93f8c8016d6f35ad4",
+      "sha256": "53939acec388593f9dff6a3249e0446726f3f0b9233eb03a15a97b10501dee59"
+    },
+    {
+      "path": "AI/AIPs/dominion_endgame_list.aip",
+      "previousSha256": "f2d5477397dfbea04e8cd023d7a51aff1153806fb22c050d1d992d5eb4178c5f",
+      "sha256": "5ebe7d35b586f27c484cd116806e722e0bd28a0987a9f8ba173dfccbb03bd874"
+    },
+    {
+      "path": "AI/AIPs/dominion_instant_action_build_list.aip",
+      "previousSha256": "f2d5477397dfbea04e8cd023d7a51aff1153806fb22c050d1d992d5eb4178c5f",
+      "sha256": "5ebe7d35b586f27c484cd116806e722e0bd28a0987a9f8ba173dfccbb03bd874"
+    },
+    {
+      "path": "AI/AIPs/dominion_offensive_list.aip",
+      "previousSha256": "f2d5477397dfbea04e8cd023d7a51aff1153806fb22c050d1d992d5eb4178c5f",
+      "sha256": "5ebe7d35b586f27c484cd116806e722e0bd28a0987a9f8ba173dfccbb03bd874"
+    },
+    {
+      "path": "AI/AIPs/breen_build_list.aip",
+      "previousSha256": "d2e079c326e46cad3af3986417f0343e1919d7b63460d22b6e4f5a3579bdedf8",
+      "sha256": "a8a02e601781ed66ca266fc98a045f7efce3ab346d1d5988f2eb51228590a480"
+    },
+    {
+      "path": "AI/AIPs/breen_defensive_list.aip",
+      "previousSha256": "d2e079c326e46cad3af3986417f0343e1919d7b63460d22b6e4f5a3579bdedf8",
+      "sha256": "a8a02e601781ed66ca266fc98a045f7efce3ab346d1d5988f2eb51228590a480"
+    },
+    {
+      "path": "AI/AIPs/breen_endgame_list.aip",
+      "previousSha256": "d2e079c326e46cad3af3986417f0343e1919d7b63460d22b6e4f5a3579bdedf8",
+      "sha256": "a8a02e601781ed66ca266fc98a045f7efce3ab346d1d5988f2eb51228590a480"
+    },
+    {
+      "path": "AI/AIPs/breen_instant_action_build_list.aip",
+      "previousSha256": "d2e079c326e46cad3af3986417f0343e1919d7b63460d22b6e4f5a3579bdedf8",
+      "sha256": "a8a02e601781ed66ca266fc98a045f7efce3ab346d1d5988f2eb51228590a480"
+    },
+    {
+      "path": "AI/AIPs/breen_offensive_list.aip",
+      "previousSha256": "d2e079c326e46cad3af3986417f0343e1919d7b63460d22b6e4f5a3579bdedf8",
+      "sha256": "a8a02e601781ed66ca266fc98a045f7efce3ab346d1d5988f2eb51228590a480"
+    },
+    {
+      "path": "AI/AIPs/bajoran_build_list.aip",
+      "previousSha256": "432c9455422c2e78c72fc3efb7b7b25fa668c0f4523f5d0b0789893304becfe0",
+      "sha256": "98ff55ef76c794e1d2a98f9181dd2e0745d0c669991b0eb7dddea2f5d8d505d1"
+    },
+    {
+      "path": "AI/AIPs/bajoran_defensive_list.aip",
+      "previousSha256": "ae62172fe2808e24c25ff94a3660b037744c3d245d2186afdaac23ad376eb928",
+      "sha256": "4b448581ce1ad56e61ec829e9defd36f5a4ee07efd9d9d9a0f29602eac6857c7"
+    },
+    {
+      "path": "AI/AIPs/bajoran_endgame_list.aip",
+      "previousSha256": "cec5ed614e564147d17f8ab89621f28d6ffdcffbf622ba372904db5848c25d42",
+      "sha256": "bd68e5c137fa5114a1bb3fcba022f3d7b9743dc1f46da36bbb9f3c33e7beb8d7"
+    },
+    {
+      "path": "AI/AIPs/bajoran_instant_action_build_list.aip",
+      "previousSha256": "1d986fc960f4d92769a0d96d5ba4f966a619677c60923bc286bc5f5990d7091d",
+      "sha256": "c0ff74c1070eba7c61b9a1c9fcaa2bca30cae814e2fdda90f88d26e4e3cf387e"
+    },
+    {
+      "path": "AI/AIPs/bajoran_offensive_list.aip",
+      "previousSha256": "432c9455422c2e78c72fc3efb7b7b25fa668c0f4523f5d0b0789893304becfe0",
+      "sha256": "98ff55ef76c794e1d2a98f9181dd2e0745d0c669991b0eb7dddea2f5d8d505d1"
+    },
+    {
+      "path": "AI/AIPs/species8472_build_list.aip",
+      "previousSha256": "7e4f5cfcaad35d17324102c4a0373047c19927758eb42415fc3e757080e6eaeb",
+      "sha256": "302c7aead3181ce6ee3c5ef1c2cfb14a9148973c268dad56058e132e0e41b14b"
+    },
+    {
+      "path": "AI/AIPs/species8472_defensive_list.aip",
+      "previousSha256": "7e4f5cfcaad35d17324102c4a0373047c19927758eb42415fc3e757080e6eaeb",
+      "sha256": "302c7aead3181ce6ee3c5ef1c2cfb14a9148973c268dad56058e132e0e41b14b"
+    },
+    {
+      "path": "AI/AIPs/species8472_endgame_list.aip",
+      "previousSha256": "7e4f5cfcaad35d17324102c4a0373047c19927758eb42415fc3e757080e6eaeb",
+      "sha256": "302c7aead3181ce6ee3c5ef1c2cfb14a9148973c268dad56058e132e0e41b14b"
+    },
+    {
+      "path": "AI/AIPs/species8472_instant_action_build_list.aip",
+      "previousSha256": "7e4f5cfcaad35d17324102c4a0373047c19927758eb42415fc3e757080e6eaeb",
+      "sha256": "302c7aead3181ce6ee3c5ef1c2cfb14a9148973c268dad56058e132e0e41b14b"
+    },
+    {
+      "path": "AI/AIPs/species8472_offensive_list.aip",
+      "previousSha256": "7e4f5cfcaad35d17324102c4a0373047c19927758eb42415fc3e757080e6eaeb",
+      "sha256": "302c7aead3181ce6ee3c5ef1c2cfb14a9148973c268dad56058e132e0e41b14b"
+    },
+    {
+      "path": "AI/AIPs/newdefault.aip",
+      "previousSha256": "442fcd08b20e19e39495e2620a1ea313ecb3374bcae67e090d69bf28777edc6a",
+      "sha256": "c172f5be89232cf79f8f635a9cec61d64fe81a0cb8f70a126e305af2245930b7"
+    },
+    {
+      "path": "AI/AIPs/a2_aggressive.aip",
+      "previousSha256": "37a5e1b51e092e7ffce4004e04473205452e2f66a459fe3b0ce2ce27c6728311",
+      "sha256": "a05acced2792f7bb45dbbf3e72278d0693301d726811d5ab7ee364ad471f5695"
+    },
+    {
+      "path": "AI/AIPs/a2_defensive.aip",
+      "previousSha256": "f72448dfd1e7ea898a63485a7757102b2e1c1d18974cdf88a1fd1716b553cd4b",
+      "sha256": "8f2615e2d0646e23a5b1de10cd967e8d9180e5815b56f10948231fe38a96e08a"
+    },
+    {
+      "path": "AI/AIPs/a2_exploration.aip",
+      "previousSha256": "d5d2068b18d6ac1ffd029581dbbb6c697a48c5b227e1b7259e508292368385d2",
+      "sha256": "e9ecab588f48e3af920e85b9f648c649f417bfed5655faaac246dc6dca1dc117"
+    },
+    {
+      "path": "AI/AIPs/a2_hard_aggressive.aip",
+      "previousSha256": "c9fa9db4212d94ea0021dd2dadea91199daff9a96d8ee0e9abc87c97bef9c677",
+      "sha256": "46a6c8ded6771fed275f95be9952d632b243709e6bd1247d861d93b34627fbee"
+    },
+    {
+      "path": "AI/AIPs/a2_hard_defensive.aip",
+      "previousSha256": "c984f86f75c2f5feb8244d44b189f8018254fc3b23223ef9687d61f0a3e57a54",
+      "sha256": "2f715ad0f332bbd041c3baab971ec7585f23c50f8b4f8cfd16f7e6e28ea321e3"
+    },
+    {
+      "path": "AI/AIPs/a2_hard_exploration.aip",
+      "previousSha256": "83ed06c5e0428da4a58d02bc2f351511c577c1d4079b8383bda07cb5b5fb390d",
+      "sha256": "3e0e9041e6dea4a5abfcbacd79849e82f91bf79d308f37c33a069efa5d3bf37e"
+    },
+    {
+      "path": "AI/AIPs/a2_modified_aggressive.aip",
+      "previousSha256": "fc4a75f667f16475ba401319cf360dc9fefaa004102b44381faf36e68e40a762",
+      "sha256": "cda6e24d3f2f11378ea202796a4cd4a1164a8c9262b08e7550ca6f3c18f99fe7"
+    },
+    {
+      "path": "AI/AIPs/a2_modified_defensive.aip",
+      "previousSha256": "985de62fcc81082a557d7040cec290ac2de0d41038d65a65697c7667d46b761a",
+      "sha256": "4bfc2a03bc40a14f1f1470f830029da91f28dc8806be54811d9bdc387d0ae96c"
+    },
+    {
+      "path": "AI/AIPs/a2_modified_exploration.aip",
+      "previousSha256": "7fc5ed93e8023da86811d4e9a10c4aec6a7040eb4537587883833ea8425ca724",
+      "sha256": "253794b78bf5da4a2bcb5988ee400ee9ade3d189dbfffbc9880a70025448fde8"
+    },
+    {
+      "path": "AI/AIPs/a2_very_aggressive.aip",
+      "previousSha256": "3ff48851faccb4b75be8a34de6557a990682ea880af366b67bb03157f0971323",
+      "sha256": "93e806dc9264d3da3972eb0138563a244a40c5f17a4eb752779873ed6def90fd"
+    }
+  ],
+  "backup": "D:\\Xaramada-Modwork\\backups\\all-ai-local-economy-20261105-222008"
+}

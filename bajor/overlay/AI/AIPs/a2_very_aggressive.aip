@@ -71,7 +71,7 @@ int MAX_EXEC_EXPLORE = 1;
 // with mooons will be defended at a given time.
 // NOTE: If this value is set to 0, none of your grid cells with moons will be defended. 
 //
-int MAX_EXEC_RESOURCE = 3;
+int MAX_EXEC_RESOURCE = 6;
 
 // NOTE: DO NOT change MAX_EVAL_ values.
 int MAX_EVAL_ATTACK_BASE = 10;
@@ -79,7 +79,7 @@ int MAX_EVAL_ATTACK = 10;
 int MAX_EVAL_DEFEND = 0;
 int MAX_EVAL_ESCORT = 0;
 int MAX_EVAL_EXPLORE = 2;
-int MAX_EVAL_RESOURCE = 20;
+int MAX_EVAL_RESOURCE = 40;
 
 
 // PRIORITIES OF DIFFERENT GOALS & FACTORS
@@ -103,7 +103,8 @@ int scripted_priority = 0;
 int perimeter_priority = 0;				
 
 // Priority assigned to a cell with resources
-int resource_priority = 0;				
+
+int resource_priority = 10000;				
 
 // How important to escort a unit
 int escort_priority = 0;				
@@ -165,3 +166,17 @@ int planetThreatBonus = 300000;
 
 
 
+
+double resource_distance_multiplier = 200000.0;
+
+double resource_enemy_penalty = 2000.0;
+
+double resource_lack_multiplier = 3.0;
+
+double resource_dilithium_tendency = 3.0;
+
+double resource_metal_tendency = 3.0;
+
+double resource_latinum_tendency = 2.5;
+
+double resource_biomatter_tendency = 3.0;

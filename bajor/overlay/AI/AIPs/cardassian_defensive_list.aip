@@ -3,16 +3,18 @@
 int checkTechnologyAvailable = 1;
 Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 {
+// Local economy first: home-base resource quotas and support before attack fleets.
     "cbase", 1, 0, -1, 0,
-    "cconst", 2, 0, -1, 0,
-    "cmining", 1, 0, -1, 0,
-    "cfreight", 2, 0, -1, 0,
-    "cyard", 1, 0, -1, 0,
-    "ccolony", 1, 0, -1, 0,
-    "corbital", 1, 0, -1, 0,
-    "cfreight", 3, 0, -1, 0,
-    "ctrading", 1, 0, -1, 0,
+    "cconst", 3, 0, -1, 0,
+    "cmining", 2, 0, -1, 0,
+    "cfreight", 4, 0, -1, 0,
+    "corbital", 2, 0, -1, 0,
+    "ctrading", 2, 0, -1, 0,
+    "cfreight", 6, 0, -1, 0,
     "ccargo", 2, 0, -1, 0,
+    "cyard", 1, 0, -1, 0,
+    "ccolony", 2, 0, -1, 0,
+    "cfreight", 3, 0, -1, 0,
     "cdestroy", 2, 0, -1, 0,
     "cdestroy", 2, 0, -1, 0,
     "xcconst2", 1, 0, -1, 0,
