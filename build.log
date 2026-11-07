@@ -5717,3 +5717,7 @@ Installed faction starting heroes per latest user instruction; 36 presets checke
 2026-11-05 Installed all-AI local economy/colony-start update: 65 files;45 build lists,11 strategies,33 start presets. All new opening producer/tech checks passed. Backup=D:\Xaramada-Modwork\backups\all-ai-local-economy-20261105-222008. Runtime AI behavior pending.
 
 2026-11-07 Installed Klingon hull alpha correction and orbital mining visual scale match. Source RGB, meshes, materials, animation and gameplay stats retained. Runtime verification pending. Backup=D:\Xaramada-Modwork\backups\klingon-yard-opacity-20261107-150029
+
+2026-11-07 Crash analyzed: Weapon::Simulate null class at 0x66f250. Owning weapon unavailable in small dump. Full capture armed; cause and fix pending. Klingon texture patch retained.
+
+2026-11-07 First Romulan yard ryard ScaleSOD 7.33413610134 -> 3.66706805067. Other ODF bytes unchanged. Backup=D:\Xaramada-Modwork\backups\romulan-first-yard-half-20261107-160507. Runtime check pending.
