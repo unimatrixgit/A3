@@ -1,0 +1,75 @@
+{
+  "installed": true,
+  "runtimeVerified": false,
+  "backup": "D:\\Xaramada-Modwork\\backups\\klingon-yard-opacity-20261107-150029",
+  "finding": "Hull texture alpha zero on 98-100% of pixels. Private RGB copies remove unintended transparency without changing source RGB, meshes, material assignments or animations.",
+  "textures": [
+    {
+      "source": "ay31t5ffbed246a71",
+      "alias": "kl076bf767d811",
+      "zeroAlphaFraction": 0.9997787475585938,
+      "rgbPreserved": true
+    },
+    {
+      "source": "ay31ta8f5ab28a06e",
+      "alias": "kl070e35258808",
+      "zeroAlphaFraction": 0.98199462890625,
+      "rgbPreserved": true
+    },
+    {
+      "source": "kl28yard",
+      "alias": "kl07d47156e743",
+      "zeroAlphaFraction": 0.9897613525390625,
+      "rgbPreserved": true
+    }
+  ],
+  "modelGeometryMaterialsAnimations": "Byte-preserved except counted texture bindings; parsed validation passed",
+  "controller": "No per-yard preview/ghost/opacity/fade or alternate completed-model override found in yard ODFs. Engine preview/completion render paths not instrumented.",
+  "orbitalMiningSize": {
+    "unit": "korbital",
+    "reference": "forbital",
+    "oldSpan": 51.153356781005854,
+    "newSpan": 88.31999210357665,
+    "oldScale": 1.38,
+    "newScale": 2.3826704007857518,
+    "gameplayStatsUnchanged": true
+  },
+  "tests": {
+    "assetChecks": "passed",
+    "placement": "pending",
+    "constructionProgress": "pending",
+    "completion": "pending",
+    "saveLoad": "pending",
+    "rebuilding": "pending"
+  },
+  "files": [
+    {
+      "path": "Textures/RGB/kl076bf767d811.tga",
+      "sha256": "ddf63ade3c24ad8bf187be182350acee6191887bbc13973bbb89b4d1e548d509"
+    },
+    {
+      "path": "Textures/RGB/kl070e35258808.tga",
+      "sha256": "d4503e2b2929599668bbd06d908daaf5fb18e40eac08a2f22d839766c5787582"
+    },
+    {
+      "path": "SOD/ay31_kyard.sod",
+      "sha256": "ced1e02df7fe9b786a77067daaedfd8aa8ec527743c9c2973734a29a909a870e"
+    },
+    {
+      "path": "Textures/RGB/kl07d47156e743.tga",
+      "sha256": "7ff3feeb2128960b7e47bd3a6de086e0dff4c69430e0b93cbc3096c58a66fb72"
+    },
+    {
+      "path": "SOD/ay31_kyard2.sod",
+      "sha256": "655fe07d0511a170894008c8c67670268a0b69e41772a6676e61a447918c30da"
+    },
+    {
+      "path": "SOD/ay31_kyard3.sod",
+      "sha256": "9a65bd82100d502c6468be9cfdda101634e1994c22e203cc28ca25b3734d4daf"
+    },
+    {
+      "path": "odf/stations/korbital.odf",
+      "sha256": "2184a038293211672222f61e691f7a510939311ce56e65576392572099794abd"
+    }
+  ]
+}
